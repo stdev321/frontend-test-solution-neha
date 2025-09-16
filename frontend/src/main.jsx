@@ -1,11 +1,3 @@
-import detectUrlChange from 'detect-url-change';
-detectUrlChange.on('change', (newUrl) => {
-  window.scrollTo({
-    top: 0,
-    behavior: 'instant',
-  })
-});
-
 import React, { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import './utils/muiPatch.js'; // Fix for MUI/Emotion in Vite dev mode
