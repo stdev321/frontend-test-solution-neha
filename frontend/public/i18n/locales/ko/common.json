@@ -1,0 +1,907 @@
+{
+  "header": {
+    "login": "로그인",
+    "register": "등록하다",
+    "logout": "로그아웃",
+    "aboutUs": "회사 소개",
+    "learnMore": "자세히 알아보기",
+    "advisory": "자문",
+    "start": "시작",
+    "greetingHello": "안녕하세요 {{name}}!",
+    "welcomeToVirtualMD": "VirtualMD에 오신 것을 환영합니다!",
+    "signupForFullAccess": "전체 액세스를 위해 가입하세요",
+    "profileTitle": "내 프로필 / 채팅으로 이동",
+    "logoutTitle": "로그아웃",
+    "toggleTheme": "밝음/어둠 모드 전환",
+    "toggleMode": "밝음/어둠 모드 전환",
+    "myProfile": "내 프로필 / 채팅으로 이동",
+    "dashboard": "계기반",
+    "endConversation": "대화 종료",
+    "returnToConversation": "대화로 돌아가기",
+    "startConversation": "대화 시작",
+    "endConsult": "상담 종료",
+    "returnToConsult": "상담으로 돌아가기",
+    "startConsult": "상담 시작",
+    "home": "집",
+    "healthEncyclopedia": "건강 백과사전",
+    "researchPublications": "연구 및 출판",
+    "contactUs": "문의하기",
+    "light": "빛",
+    "dark": "어두운",
+    "toggleModeText": "{{mode}} 모드 전환",
+    "legal": "합법적인"
+  },
+  "howToUse": "사용 방법",
+  "settings": {
+    "lightMode": "라이트 모드",
+    "darkMode": "다크 모드"
+  },
+  "navigation": {
+    "dashboard": "계기반",
+    "home": "집",
+    "aboutUs": "회사 소개",
+    "returnToChat": "채팅으로 돌아가기",
+    "continueConsultation": "상담을 계속하세요",
+    "exitConsultation": "퇴사 상담",
+    "startNewConsultation": "새로운 상담을 시작하세요",
+    "sections": {
+      "chatTools": "채팅 도구",
+      "functionality": "기능성",
+      "aboutUs": "회사 소개",
+      "requiredDocuments": "필요 서류",
+      "research": "연구",
+      "controls": "통제 수단",
+      "settings": "설정"
+    },
+    "myTeam": "내 팀",
+    "summary": "요약",
+    "transcript": "성적 증명서",
+    "encyclopedia": "백과 사전",
+    "priorChats": "이전 채팅",
+    "myProfile": "내 프로필",
+    "healthEncyclopedia": "건강 백과사전",
+    "noteFromFounders": "창립자들의 메모",
+    "faq": "자주 묻는 질문",
+    "contactUs": "문의하기",
+    "legal": "합법적인",
+    "dataPrivacy": "데이터 개인정보 보호",
+    "aiAccuracyStudies": "AI 정확도 연구",
+    "empowerYourself": "자신을 강화하세요",
+    "deepResearch": "심층 연구",
+    "aboutUsItems": {
+      "advisory": "자문",
+      "dataPrivacy": "데이터 개인정보 보호"
+    },
+    "learnMore": {
+      "imagingAI": "이미징 및 AI",
+      "pathologyAI": "병리학과 AI",
+      "dermatologyAI": "피부과와 AI",
+      "mentalHealthAI": "정신 건강과 AI",
+      "accuracyStudies": "AI 정확도 연구",
+      "allResearch": "모든 연구",
+      "empowerYourself": "자신을 강화하세요"
+    }
+  },
+  "landing": {
+    "title": "VirtualMD.app",
+    "subtitle": "AI 기반 의료 솔루션",
+    "tryItOut": "시도해 보세요",
+    "scrollDown": "아래로 스크롤",
+    "scrollUp": "위로 스크롤",
+    "alwaysHereForYou": "항상 당신을 위해 여기 있습니다.",
+    "cards": {
+      "whyUse": {
+        "title": "왜 VirtualMD인가?",
+        "description": "AI 기반 가상 건강 플랫폼의 혁신적인 이점을 알아보세요"
+      },
+      "dataPrivacy": {
+        "title": "귀하의 개인 정보 보호",
+        "description": "신뢰할 수 있는 친구처럼 귀하의 건강 비밀은 저희에게 안전하게 보관됩니다."
+      },
+      "tryItOut": {
+        "title": "시도해 보세요",
+        "description": "아이가 아파요|잠을 잘 수 없어요!|사랑을 위한 영양",
+        "tagline": "가입이 필요하지 않습니다."
+      },
+      "wellness": {
+        "title": "심층 연구",
+        "description": "신뢰할 수 있는 출처를 담은 건강 백과사전"
+      },
+      "yourHealth": {
+        "title": "당신의 건강",
+        "description": "AI로 웰빙 여정을 만들어보세요"
+      }
+    }
+  },
+  "chat": {
+    "startNewConsult": "새로운 상담 시작",
+    "noSpeechDetected": "나는 그것을 잡지 못했습니다",
+    "noSpeechMessage": "녹음된 내용에서 음성을 감지할 수 없습니다. 조금 더 크게 말씀하시거나 마이크에 더 가까이 다가가신 후 다시 시도해 주세요.",
+    "dontShowAgain": "다시 보여주지 마세요",
+    "gotIt": "알았어요",
+    "loading": "로딩 중…"
+  },
+  "loading": {
+    "preparingHealthTeam": "AI 의료팀 준비 중...",
+    "connectingSpecialists": "건강 전문가에게 연결 중입니다...",
+    "initializingSystem": "개인화된 건강 시스템을 초기화합니다...",
+    "almostReady": "곧 도와드릴 준비가 되었습니다...",
+    "dots": "..."
+  },
+  "common": {
+    "loading": "로딩 중…",
+    "user": {
+      "defaultInitial": "유",
+      "defaultName": "거기",
+      "defaultAltText": "사용자"
+    },
+    "error": "오류",
+    "success": "성공",
+    "cancel": "취소",
+    "confirm": "확인하다",
+    "save": "구하다",
+    "delete": "삭제",
+    "edit": "편집하다",
+    "close": "닫다",
+    "next": "다음",
+    "previous": "이전의",
+    "submit": "제출하다",
+    "search": "찾다",
+    "filter": "필터",
+    "sort": "종류",
+    "upload": "업로드",
+    "download": "다운로드",
+    "print": "인쇄",
+    "share": "공유하다",
+    "copy": "복사",
+    "paste": "반죽",
+    "cut": "자르다",
+    "undo": "끄르다",
+    "redo": "다시 하다",
+    "yes": "예",
+    "no": "아니요",
+    "ok": "좋아요",
+    "punctuation": {
+      "ellipsis": "..."
+    },
+    "apply": "적용하다",
+    "reset": "다시 놓기",
+    "clear": "분명한",
+    "back": "뒤쪽에",
+    "forward": "앞으로",
+    "home": "집",
+    "refresh": "새로 고치다",
+    "reload": "재장전",
+    "help": "돕다",
+    "about": "에 대한",
+    "contact": "연락하다",
+    "profile": "윤곽",
+    "account": "계정",
+    "privacy": "은둔",
+    "terms": "자귀",
+    "legal": "합법적인",
+    "support": "지원하다",
+    "feedback": "피드백",
+    "welcome": "환영",
+    "goodbye": "안녕히 가세요",
+    "thankyou": "감사합니다",
+    "send": "보내다",
+    "none": "없음",
+    "generating": "생성 중...",
+    "settings": "설정"
+  },
+  "auth": {
+    "loginTitle": "로그인",
+    "registerTitle": "계정 생성",
+    "email": "이메일",
+    "password": "비밀번호",
+    "confirmPassword": "비밀번호 확인",
+    "fullName": "성명",
+    "displayName": "표시 이름",
+    "rememberMe": "나를 기억해",
+    "forgotPassword": "비밀번호를 잊으셨나요?",
+    "noAccount": "계정이 없으신가요?",
+    "hasAccount": "이미 계정이 있으신가요?",
+    "signUp": "가입하기",
+    "signIn": "로그인",
+    "signOut": "로그아웃",
+    "createAccount": "계정 생성",
+    "loginButton": "로그인",
+    "registerButton": "등록하다",
+    "logout": "로그아웃"
+  },
+  "footer": {
+    "copyright": "MindScript Technologies LLC. 모든 권리 보유.",
+    "privacyPolicy": "개인정보 보호정책",
+    "termsOfService": "서비스 약관",
+    "cookiePolicy": "쿠키 정책",
+    "medicalAdvisory": "건강 자문",
+    "yourPrivacy": "귀하의 개인 정보 보호",
+    "legal": "합법적인",
+    "contactUs": "문의하기",
+    "howToUse": "사용 방법",
+    "faq": "자주 묻는 질문",
+    "noteFromFounders": "창립자들의 메모",
+    "medicalDisclaimerTooltip": "MindScript는 AI 기반 건강 페르소나를 사용하여 가장 정확하고 최신의 건강 정보를 제공하기 위해 노력합니다. 그러나 이러한 페르소나는 공인된 건강 전문가가 아니므로 정확하지 않을 수 있습니다. 진정한 응급 상황 발생 시에는 즉시 911에 전화하거나 가장 가까운 응급실로 가십시오. 다른 건강 문제가 있거나 치료 또는 치료법을 시도하기 전에 자격을 갖춘 의료 서비스 제공자 또는 전문가와 상담하십시오.",
+    "advisory": "자문"
+  },
+  "forms": {
+    "required": "이 필드는 필수입니다",
+    "invalidEmail": "유효한 이메일 주소를 입력하세요",
+    "passwordTooShort": "비밀번호는 최소 8자 이상이어야 합니다.",
+    "passwordsDoNotMatch": "비밀번호가 일치하지 않습니다",
+    "invalidInput": "유효한 입력을 입력하세요",
+    "fieldRequired": "{{field}}는 필수입니다",
+    "selectOption": "옵션을 선택해주세요",
+    "uploadFile": "파일 업로드",
+    "dragAndDrop": "파일을 여기로 끌어다 놓거나 클릭하여 선택하세요",
+    "fileUploaded": "파일이 성공적으로 업로드되었습니다",
+    "uploadError": "파일 업로드 오류"
+  },
+  "language": {
+    "english": "영어",
+    "arabic": "아랍어",
+    "hebrew": "히브리어",
+    "switchTo": "{{언어}}로 전환",
+    "currentLanguage": "현재 언어: {{language}}"
+  },
+  "animation": {
+    "title": {
+      "simply": "간단히",
+      "better": "더 나은",
+      "health": "건강",
+      "period": "."
+    }
+  },
+  "hero": {
+    "subtitle": "24시간 내내 개인 맞춤형 건강 및 웰빙 상담을 제공합니다.",
+    "subtitleMobile": "24시간 내내 개인 맞춤형 AI 건강 상담",
+    "poweredBy": "AI로 구동됩니다."
+  },
+  "research": {
+    "title": "연구 및 출판",
+    "subtitle": "증거 기반 AI 의료 솔루션",
+    "aiImaging": {
+      "title": "진단 영상 분야의 AI",
+      "description": "방사선과, 병리과, 안과 등 건강 영상 분야에서 인공지능을 활용한 사례에 대한 종합적인 분석입니다."
+    },
+    "pathologyAI": {
+      "title": "병리학 AI 지원",
+      "description": "디지털 병리학에서 암 탐지 및 진단 정확도 향상을 위한 딥 러닝 응용 프로그램입니다."
+    },
+    "dermatologyAI": {
+      "title": "피부과 AI 솔루션",
+      "description": "컴퓨터 비전과 머신 러닝을 활용한 AI 기반 피부 상태 감지 및 진단."
+    },
+    "mentalHealthAI": {
+      "title": "정신 건강과 AI",
+      "description": "정신 건강 검진, 진단 및 치료 지원에 인공지능을 적용합니다."
+    },
+    "accuracyStudies": {
+      "title": "AI 정확도 연구",
+      "description": "실제 의료 환경에서 AI 진단 시스템의 임상적 검증 및 성능 측정 항목."
+    }
+  },
+  "whitepapers": {
+    "downloadPdf": "PDF 다운로드",
+    "generating": "생성 중...",
+    "abstract": "추상적인",
+    "introduction": "소개",
+    "methods": "방법/기술",
+    "results": "결과",
+    "discussion": "논의",
+    "conclusion": "결론",
+    "references": "참고문헌",
+    "authors": "저자",
+    "email": "이메일",
+    "organization": "조직"
+  },
+  "imageProcessing": {
+    "preset": "사전 설정",
+    "process": "프로세스",
+    "revert": "돌아가는 것",
+    "applyPreset": "초점이 맞춰진 이미지에 사전 설정 적용",
+    "revertFocus": "원본 이미지에 다시 초점을 맞추세요"
+  },
+  "alt": {
+    "logo": "VirtualMD.app 로고",
+    "logoSmall": "마인드스크립트 소형 로고",
+    "integratedApproach": "통합 웰빙 접근 방식",
+    "userProfile": "사용자 프로필",
+    "aiDoctor": "AI 건강 전문가 캐럴",
+    "aiAssistant": "AI 어시스턴트",
+    "backgroundImage": "아름다운 배경 이미지",
+    "home": "마인드스크립트 홈",
+    "processed": "처리된 이미지",
+    "zoomPreview": "이미지 확대 미리보기"
+  },
+  "aria": {
+    "scrollDown": "아래로 스크롤",
+    "scrollUp": "위로 스크롤",
+    "openMenu": "메뉴 열기",
+    "togglePassword": "비밀번호 표시 전환",
+    "chooseLanguage": "언어를 선택하세요",
+    "goHome": "홈페이지로 이동",
+    "remove": "제거하다",
+    "edit": "편집하다",
+    "delete": "삭제",
+    "save": "구하다",
+    "cancel": "취소",
+    "breadcrumb": "탐색 경로",
+    "conversationChoice": "대화 선택",
+    "personaChoice": "페르소나 선택",
+    "panel": "패널",
+    "summary": "요약",
+    "differentialOpinion": "차별적 의견",
+    "transcript": "성적 증명서",
+    "encyclopedia": "백과 사전",
+    "endConversation": "대화 종료",
+    "startChat": "팀과 채팅을 시작하세요",
+    "configureChat": "새로운 채팅 구성",
+    "savedConsultations": "저장된 상담",
+    "myProfile": "내 프로필"
+  },
+  "researchPage": {
+    "title": "연구 및 출판",
+    "healthAdvisory": {
+      "title": "건강 자문",
+      "description": "중요한 건강 및 안전 정보",
+      "button": "자문 보기"
+    },
+    "imagingAI": {
+      "title": "진단 영상 분야의 AI",
+      "description": "방사선학, 병리학 및 안과 분야의 건강 영상에 대한 AI 응용 프로그램",
+      "button": "더 읽어보기"
+    },
+    "pathologyAI": {
+      "title": "AI 지원 병리학",
+      "description": "디지털 병리학에서 암 탐지 및 진단 정확도를 위한 딥 러닝 응용 프로그램",
+      "button": "더 읽어보기"
+    },
+    "dermatologyAI": {
+      "title": "피부과 분야의 AI 솔루션",
+      "description": "컴퓨터 비전과 머신 러닝을 활용한 AI 기반 피부 상태 감지 및 진단",
+      "button": "더 읽어보기"
+    },
+    "mentalHealthAI": {
+      "title": "정신 건강 및 AI",
+      "description": "정신 건강 검진, 진단 및 치료 지원 분야의 AI 응용 프로그램",
+      "button": "더 읽어보기"
+    },
+    "dataPrivacy": {
+      "title": "데이터 개인정보 보호 및 보안",
+      "description": "의료 데이터 보호, HIPAA 준수 및 개인 정보 보호",
+      "button": "더 읽어보기"
+    },
+    "aiAccuracy": {
+      "title": "AI 정확도 연구",
+      "description": "실제 의료 환경에서 AI 진단 시스템의 임상적 검증 및 성능 측정",
+      "button": "더 읽어보기"
+    },
+    "aiForLaypeople": {
+      "title": "모든 사람을 위한 AI",
+      "description": "간단한 용어로 헬스케어 AI 이해하기 - 기술적 배경 지식 필요 없음",
+      "button": "더 읽어보기"
+    }
+  },
+  "dialogs": {
+    "startWithDefault": "건강 전문가 캐럴과 함께 시작하세요",
+    "startWithSpecific": "{{name}}으로 시작하세요",
+    "longRecording": {},
+    "shortConv": {}
+  },
+  "team": {
+    "myAIHealthTeam": "내 AI 건강팀",
+    "addMembersInstruction": "오른쪽의 카드를 클릭하여 팀원을 추가하세요.",
+    "maxTeamSizeNote": "최대 5명의 AI 어드바이저를 팀에 추가할 수 있습니다. 언제든지 팀을 변경할 수 있지만, 상담 중에는 변경할 수 없습니다.",
+    "starting": "시작합니다...",
+    "startTeamConsult": "팀 컨설팅 시작",
+    "startConsultationWithTeam": "팀과 상담을 시작하세요"
+  },
+  "newConversation": {
+    "aileenCarolOnly": "건강 전문가 캐럴 온리",
+    "oneOnOne": "일대일",
+    "consultationChoice": {
+      "question": "오늘은 누구와 상담하고 싶으신가요?"
+    },
+    "options": {
+      "allAdvisers": "내 모든 AI 건강 자문가",
+      "allAdvisersCarolOnly": "내 모든 AI 건강 자문가(AI 건강 전문가 캐럴만 해당)",
+      "chooseSpecific": "내 목록에서 특정 항목을 선택하세요"
+    },
+    "tooltips": {
+      "noAdvisersSelected": "프로필에서 선택된 자문가가 없습니다.",
+      "loadingAdvisers": "귀하의 자문가를 불러오는 중입니다...",
+      "noOtherAdvisers": "목록에 선택할 수 있는 다른 상담자가 없습니다. 프로필에 상담자를 추가하세요."
+    },
+    "errors": {
+      "loadingAdvisers": "고문 데이터를 로드하는 중 오류가 발생했습니다."
+    },
+    "buttons": {
+      "cancel": "취소",
+      "next": "다음",
+      "start": "시작"
+    }
+  },
+  "aiAccuracyWhitepaper": {
+    "section1": {},
+    "section2": {
+      "aiSuccess": {},
+      "aiErrors": {},
+      "aiVsHuman": {}
+    },
+    "section3": {
+      "challenges": {}
+    },
+    "section4": {
+      "guidelines": {}
+    },
+    "section5": {}
+  },
+  "imagingAIExplainer": {
+    "whatIsImaging": {
+      "types": {}
+    },
+    "whatIsAI": {},
+    "howAIHelps": {
+      "accuracy": {},
+      "speed": {},
+      "consistency": {}
+    },
+    "challenges": {},
+    "conclusion": {}
+  },
+  "mentalHealthWhitepaper": {
+    "disclaimer": {},
+    "abstract": {},
+    "introduction": {},
+    "methods": {},
+    "results": {
+      "diagnosticSupport": {},
+      "therapeuticApplications": {},
+      "patientMonitoring": {}
+    },
+    "discussion": {},
+    "conclusion": {}
+  },
+  "audio": {},
+  "autoListening": {},
+  "speech": {},
+  "help": {},
+  "upload": {},
+  "fileUpload": {},
+  "input": {},
+  "send": {},
+  "controls": {
+    "aiSpeaker": "AI 스피커",
+    "cameraUpload": "카메라/업로드",
+    "status": {
+      "enabled": "활성화됨",
+      "disabled": "장애가 있는"
+    }
+  },
+  "welcome": {},
+  "account": {},
+  "participants": {},
+  "mobileChat": {},
+  "sidebar": {
+    "differentialOpinion": "차별적 의견"
+  },
+  "bioPanel": {},
+  "conversations": {},
+  "mobileConsultations": {},
+  "encyclopedia": {},
+  "imageContext": {},
+  "profile": {},
+  "sidebarHeader": {
+    "plusBadge": "+"
+  },
+  "messages": {},
+  "sidebarFooter": {},
+  "summary": {},
+  "teamBuilder": {
+    "steps": {},
+    "alerts": {},
+    "existingTeam": {},
+    "primaryConcerns": {},
+    "healthConditions": {},
+    "urgencySymptoms": {},
+    "medicinePreferences": {},
+    "additionalInfo": {},
+    "aileenCarolIntro": {},
+    "buttons": {},
+    "dialogs": {}
+  },
+  "aileenCarol": {},
+  "transcript": {},
+  "registerPage": {},
+  "legal": {
+    "eligibility": {},
+    "feesAndPayment": {},
+    "termination": {}
+  },
+  "aboutEncyclopediaPage": {},
+  "loginPage": {},
+  "mobileTeamBuilder": {
+    "carolMessages": {},
+    "questionnaire": {},
+    "title": {},
+    "carolGreeting": {}
+  },
+  "mobileNavigation": {},
+  "mobileWelcome": {},
+  "mobileRouter": {},
+  "mobileInput": {},
+  "mobileProfile": {},
+  "clinicianInfoPage": {},
+  "contactPage": {},
+  "dataPrivacyWhitepaper": {
+    "sections": {},
+    "hero": {},
+    "privacyPledge": {
+      "secureInfo": {},
+      "noPersonalUse": {},
+      "neverSell": {},
+      "anonymizedData": {}
+    },
+    "securityLevels": {
+      "accountSecurity": {},
+      "hipaaHistory": {}
+    },
+    "mindscriptSecurity": {},
+    "hipaaConsiderations": {},
+    "userResponsibility": {},
+    "privacyScenarios": {},
+    "conclusion": {}
+  },
+  "encyclopediaPage": {},
+  "evidencePage": {
+    "researchEvidence": {
+      "radiology": {},
+      "pathology": {},
+      "dermatology": {},
+      "mentalHealthResearch": {}
+    },
+    "wellnessInsights": {
+      "personalizedWellness": {},
+      "holisticSignals": {},
+      "proactiveWellbeing": {},
+      "aiEnhancedClarity": {}
+    }
+  },
+  "featuresPage": {
+    "features": {
+      "instantWellnessInsights": {},
+      "holisticWellnessPicture": {},
+      "diverseAIPerspectives": {},
+      "everEvolvingIntelligence": {}
+    }
+  },
+  "healthAdvisoryPage": {
+    "sections": {
+      "consultation": {
+        "emergency": {}
+      },
+      "technology": {},
+      "disclaimer": {
+        "points": {}
+      }
+    }
+  },
+  "medicalImageProcessingPage": {},
+  "mentalHealthInfoPage": {},
+  "nurseInfoPage": {},
+  "patientInfoPage": {},
+  "pharmacistInfoPage": {},
+  "physicianInfoPage": {},
+  "wellnessPathwaysPage": {},
+  "whyVirtualMD": {
+    "sections": {
+      "whyUs": {
+        "points": {
+          "personalTeam": {},
+          "aiNavigator": {},
+          "empoweringChoices": {},
+          "easyToUse": {},
+          "advancedTechnology": {}
+        }
+      },
+      "hero": {},
+      "features": {
+        "points": {
+          "dynamicEnsemble": {},
+          "holisticUnderstanding": {},
+          "rapidAccess": {},
+          "reliableInteractions": {},
+          "insightfulLogs": {}
+        }
+      },
+      "technology": {},
+      "cta": {}
+    }
+  },
+  "yourHealthInYourHandsPage": {
+    "sections": {
+      "uniqueProfile": {},
+      "personalizedGoals": {},
+      "diverseInsights": {},
+      "proactivePartner": {}
+    },
+    "callToAction": {}
+  },
+  "session_complete": "세션 완료",
+  "your_free_trial_has_ended": "무료 체험이 종료되었습니다",
+  "united_kingdom:_dial_999_or_11": "영국: 999 또는 112로 전화하세요",
+  "melanoma_and_skin_cancer_detec": "흑색종 및 피부암 탐지",
+  "process_transactions_and_send_": "거래를 처리하고 확인 및 송장(해당되는 경우)을 포함한 관련 정보를 전송합니다.",
+  "information_we_collect": "우리가 수집하는 정보",
+  "in_a_medical_emergency:": "의료 응급 상황 시:",
+  "in_response_to_legal_process:": "법적 절차에 대한 응답:",
+  "loading_chat": "채팅을 로딩 중입니다...",
+  "redirecting": "리디렉션 중...",
+  "israel:_dial_101_(magen_david_": "이스라엘: 101번으로 전화하세요 ()",
+  "unlimited_messages_with_ai_doc": "AI 건강 전문가와 무제한 메시지",
+  "contact_information": "연락처 정보",
+  "real-world_implementation_and_": "실제 구현 및 모바일 애플리케이션",
+  "your_access_to_or_use_of_or_in": "귀하의 서비스 접근, 사용 또는 접근 또는 사용 불능,",
+  "your_computer_may_temporarily_": "귀하의 컴퓨터는 귀하가 해당 자료에 접근하고 열람하는 것과 관련하여 해당 자료의 사본을 RAM에 일시적으로 저장할 수 있습니다.",
+  "please_select_only_one_special": "개별 상담을 원하시면 전문가 한 명만 선택하세요.",
+  "references": "참고문헌",
+  "business_transfers:": "사업 이전:",
+  "account_information:": "계정 정보:",
+  "provide,_operate,_maintain,_an": "서비스를 제공, 운영, 유지 관리 및 개선합니다.",
+  "assignment": "과제",
+  "sandymiles@mindspringhealth": "sandymiles@mindspring.health",
+  "ai-generated_content_may_conta": "AI가 생성한 콘텐츠에는 강력한 검증 프로세스에도 불구하고 오류나 누락이 포함될 수 있습니다.",
+  "display_name": "표시 이름",
+  "any_content_obtained_from_the_": "서비스에서 얻은 모든 콘텐츠 또는",
+  "you_may_store_files_that_are_a": "디스플레이 향상을 위해 웹 브라우저에서 자동으로 캐시된 파일을 저장할 수 있습니다.",
+  "start_new_health_consultation": "새로운 건강 상담 시작",
+  "entire_agreement": "전체 계약",
+  "ophthalmology": "안과학",
+  "not": "아니다",
+  "exit_conversation?": "대화를 종료하시겠습니까?",
+  "grading_and_classification": "등급 및 분류",
+  "unauthorized_access,_use,_or_a": "MINDSCRIPT가 본 약관 및 개인정보 보호정책에 명시된 합리적인 보안 조치를 구현한 경우에도, 귀하의 전송이나 콘텐츠에 대한 허가되지 않은 접근, 사용 또는 변경(데이터 침해 포함)은 허용되지 않습니다.",
+  "checking_server_status": "서버 상태를 확인하는 중...",
+  "not_a_hipaa-compliant_service": "HIPAA 규정을 준수하지 않는 서비스",
+  "radiology": "방사선과",
+  "united_states:_dial_911": "미국: 911에 전화하세요",
+  "save_and_review_conversation_h": "대화 내역을 저장하고 검토하세요",
+  "abstract": "추상적인",
+  "starting_your_consultation": "상담을 시작합니다...",
+  "digital_pathology_overview": "디지털 병리학 개요",
+  "reasonable_business_security_p": "미국 내 합리적인 비즈니스 보안 관행",
+  "loading_transcript": "대본을 불러오는 중...",
+  "cookies_and_similar_technologi": "쿠키 및 유사 기술:",
+  "internal_medicine": "내부 웰빙",
+  "no_specialists_currently_in_th": "현재 이 채팅에 전문가가 없습니다.",
+  "discussion": "논의",
+  "updating_team": "팀을 업데이트하는 중...",
+  "your_privacy_choices": "귀하의 개인 정보 선택",
+  "error:_unknown_active_chat_vie": "오류: 알 수 없는 활성 채팅 보기입니다.",
+  "create_more_than_one_account_f": "본인을 위해 두 개 이상의 계정을 만드세요.",
+  "improve_the_accuracy,_efficacy": "익명화되고 집계된 데이터를 사용하여 AI 모델과 플랫폼 기능의 정확성, 효율성, 안전성을 개선합니다.",
+  "user_content:": "사용자 콘텐츠:",
+  "mindscript_does_not_provide_me": "MindScript는 의학적 진단이나 치료를 제공하지 않습니다.",
+  "communicate_with_you_about_pro": "MindScript와 다른 회사가 제공하는 제품, 서비스, 특가, 프로모션, 보상 및 이벤트에 관해 귀하와 소통하고, 귀하에게 흥미로울 것이라고 생각되는 뉴스와 정보를 제공합니다(귀하의 거부 권리에 따름).",
+  "aggregated_or_de-identified_da": "집계되거나 식별 정보가 제거된 데이터:",
+  "canada:_dial_911": "캐나다: 911에 전화하세요",
+  "retry": "다시 해 보다",
+  "other_locations:_contact_your_": "기타 위치: 즉시 지역 비상 서비스에 연락하세요.",
+  "ron_rubin,_phd_and_sandy_miles": "론 루빈 박사와 샌디 마일즈",
+  "australia:_dial_000_or_112": "호주: 000 또는 112로 전화하세요",
+  "data_deletion:": "데이터 삭제:",
+  "we_do_not_guarantee_the_absolu": "우리는 귀하의 정보의 절대적인 보안을 보장하지 않습니다.",
+  "send_technical_notices,_update": "기술 공지, 업데이트, 보안 경고, 지원 및 관리 메시지를 보냅니다.",
+  "consultation_summary": "상담 요약",
+  "waiver": "기권",
+  "access_to_all_medical_specialt": "모든 건강 전문 분야에 대한 접근",
+  "no_profile_data_available": "프로필 데이터가 없습니다.",
+  "no_summary_available": "요약이 없습니다.",
+  "test_app_-_mindscript": "테스트 앱 - MindScript",
+  "respond_to_your_comments,_ques": "귀하의 의견, 질문, 요청에 응답하고 고객 서비스를 제공합니다.",
+  "not_hipaa_compliant": "HIPAA 규정을 준수하지 않음",
+  "force_majeure": "불가항력",
+  "you_may_print_or_download_one_": "귀하는 개인적이고 비상업적인 정보 제공 목적으로 사이트의 적정 수의 페이지를 한 부 인쇄하거나 다운로드할 수 있으며, 추가 복제, 게시 또는 배포를 위해 사용할 수 없습니다.",
+  "dr_aileen_carol": "건강 전문가 Aileen Carol",
+  "family_medicine": "가족 웰빙",
+  "headings": "제목",
+  "note_on_ai_aileencarol's_particip": "AI 건강 전문가 캐럴의 참여에 대한 참고 사항:",
+  "ronrubin@mindscripthealth": "ronrubin@virtualmd.app",
+  "share_your_account_credentials": "계정 자격 증명을 공유하거나 다른 사람이 귀하의 계정에 액세스하도록 허용합니다(조직 계정에 대해 명시적으로 허용된 경우는 제외).",
+  "email_cannot_be_changed": "이메일은 변경할 수 없습니다.",
+  "your_unique_medical_history,_c": "귀하의 고유한 건강 이력, 상태 및 상황에는 전문가의 평가가 필요합니다.",
+  "changes_to_these_terms_and_pol": "본 약관 및 정책의 변경 사항",
+  "other_ai_specialists": "다른 AI 전문가",
+  "full_name": "성명",
+  "governing_law_and_dispute_reso": "준거법 및 분쟁 해결",
+  "loading…": "로딩 중…",
+  "personalized_health_insights": "개인화된 건강 통찰력",
+  "gastroenterology": "위장병학",
+  "use_of_the_service_by_children": "어린이의 서비스 이용은 금지되어 있습니다.",
+  "introduction": "소개",
+  "use_another_user's_account_wit": "다른 사용자의 계정을 허가 없이 사용합니다.",
+  "if_you_can_see_this,_react_is_": "이것이 보인다면 React가 작동하고 있다는 뜻입니다!",
+  "ronrubin@mindspringhealth": "ronrubin@mindspring.health",
+  "children's_privacy": "아동의 개인정보 보호",
+  "provide_false_or_misleading_in": "등록 시 또는 계정 프로필에 허위 정보나 오해의 소지가 있는 정보를 제공합니다.",
+  "talk_to_a_specialist": "전문가와 상담하세요",
+  "cannot": "할 수 없다",
+  "how_we_use_information": "정보 사용 방법",
+  "results": "결과",
+  "loading_participants": "참가자를 불러오는 중...",
+  "sandymiles@mindscripthealth": "sandymiles@virtualmd.app",
+  "this_feature_is_coming_soon": "이 기능은 곧 출시됩니다!",
+  "start_or_continue_conversation": "대화 시작 또는 계속",
+  "international_data_transfers": "국제 데이터 전송",
+  "loading_bio": "바이오 로딩 중...",
+  "termination": "종료",
+  "no_image_active": "활성화된 이미지가 없습니다.",
+  "no_ai_health_advisers_selected": "AI 건강 상담사를 선택하지 않았습니다. 프로필에서 상담사를 관리할 수 있습니다.",
+  "dr_daniel_garcia": "건강 전문가 다니엘 가르시아",
+  "no_other_specialists_available": "추가할 수 있는 다른 전문가가 없습니다.",
+  "carry_out_any_other_purpose_de": "정보가 수집된 당시에 설명된 다른 목적을 수행합니다.",
+  "data_retention": "데이터 보존",
+  "informational_and_educational_": "정보 및 교육 목적으로만 사용 가능",
+  "miscellaneous": "여러 가지 잡다한",
+  "non-cancerous_skin_condition_c": "비암성 피부 질환 분류",
+  "pathology": "병리학",
+  "promotional_communications:": "홍보 커뮤니케이션:",
+  "info@mindscripthealth": "info@virtualmd.app",
+  "methods/technologies": "방법/기술",
+  "how_we_share_information": "정보 공유 방법",
+  "loading_profile": "프로필을 로딩 중입니다...",
+  "personalize_and_improve_the_se": "서비스를 개인화하고 개선하며, 사용자 프로필이나 관심사에 맞는 콘텐츠나 기능을 제공합니다.",
+  "with_vendors_and_service_provi": "공급업체 및 서비스 제공업체와 함께:",
+  "health_information_may_become_": "건강 지식이 발전함에 따라 건강 정보는 오래될 수 있습니다.",
+  "with_whom_would_you_like_to_co": "오늘은 누구와 상담하고 싶으신가요?",
+  "mindscript_content:": "마인드스크립트 콘텐츠:",
+  "cookies:": "쿠키:",
+  "detect,_investigate,_and_preve": "사기 거래 및 기타 불법 활동을 감지, 조사 및 예방하고 MindScript와 타인의 권리와 재산을 보호합니다.",
+  "medical_advice_requires_person": "건강 상담에는 면허를 소지한 의료 서비스 제공자의 개인화된 평가가 필요합니다.",
+  "create_an_account_for_anyone_o": "본인의 허락 없이 다른 사람의 계정을 생성하지 마세요.",
+  "options": "옵션",
+  "cannot_and_will_not_sue_or_hol": "MINDSCRIPT TECHNOLOGIES, LLC, 그 계열사, 임원, 이사, 직원, 대리인 또는 라이센스 제공자를 고소하거나 책임을 묻지 않으며 고소할 수 없습니다.",
+  "with_your_consent:": "귀하의 동의 하에:",
+  "add_specialists_to_your_team": "팀에 전문가를 추가하세요",
+  "usage_information:": "사용 정보:",
+  "any_conduct_or_content_of_any_": "서비스 상의 제3자의 모든 행위나 콘텐츠에는 다른 사용자나 제3자에 대한 명예훼손적, 공격적 또는 불법적 행위가 포함되나 이에 국한되지 않습니다.",
+  "do_not_meet_the_specific_admin": "HIPAA 보안 규정에서 PHI 처리를 위해 요구하는 특정 관리, 물리적 및 기술적 보호 요구 사항을 충족하지 못합니다.",
+  "legal@mindscripthealth": "legal@virtualmd.app",
+  "cancel": "취소",
+  "conclusion": "결론",
+  "professional_health_insights_a": "전문적인 건강 통찰력 및 지침",
+  "cancer_detection": "암 탐지",
+  "your_specialist_team_is_empty_": "전문가 팀이 비어 있습니다. 아래에 전문가를 추가하세요.",
+  "workflow_optimization": "워크플로 최적화",
+  "select_ai_specialists": "AI 전문가 선택",
+  "monitor_and_analyze_trends,_us": "당사 서비스와 관련된 추세, 사용 및 활동을 모니터링하고 분석합니다.",
+  "severability": "분리 가능성",
+  "access_to_cardiology_and_neuro": "심장과 및 신경과 전문의에게 접근",
+  "searchLanguages": "언어 검색...",
+  "noLanguagesFound": "언어가 발견되지 않았습니다",
+  "you": "너",
+  "manageTeam": {
+    "title": "내 AI Health 팀 관리(최대 {{maxTeamMembers}}명의 전문가)",
+    "currentTeamCount": "현재 팀({{current}}/{{max}})",
+    "updatingTeam": "팀을 업데이트하는 중...",
+    "coordinatorLabel": "(코디네이터)",
+    "alwaysIncluded": "항상 포함됨",
+    "specialistFallback": "전문가",
+    "emptyTeamMessage": "전문가 팀이 비어 있습니다. 아래에 전문가를 추가하세요.",
+    "teamFullMessage": "팀 정원이 가득 찼습니다(최대 {{maxTeamMembers}}명의 전문가). 다른 전문가를 추가하려면 기존 팀원을 삭제하세요.",
+    "otherSpecialistsTitle": "다른 AI 전문가",
+    "addToTeamTooltip": "팀에 추가",
+    "teamFullTooltip": "팀이 가득 찼습니다",
+    "systemSpecialistFallback": "시스템 전문가",
+    "noSpecialistsAvailable": "추가할 수 있는 다른 전문가가 없습니다."
+  },
+  "personas": {
+    "defaultSpecialist": "AI 전문가"
+  },
+  "personaList": {
+    "noSpecialistsFound": "AI 전문가를 찾을 수 없습니다."
+  },
+  "guest": {
+    "user": "게스트 사용자",
+    "userObject": {
+      "displayName": "게스트 사용자",
+      "email": "게스트@virtualmd.app"
+    },
+    "registration": {
+      "prompt": "전체 AI 건강팀, 대화 기록 및 고급 기능에 대한 전체 액세스 권한을 얻으려면 등록하세요.",
+      "dialogTitle": "등록된 사용자는 {{specialistName}}에 액세스할 수 있습니다.",
+      "dialogDescription": "{{specialistName}}은 당사의 포괄적인 가상 건강 팀의 일원입니다.",
+      "benefitsTitle": "VirtualMD.app 계정을 사용하면 다음과 같은 혜택을 누릴 수 있습니다.",
+      "benefits": {
+        "access": "60명 이상의 전문 AI 건강 자문가에게 접근 가능",
+        "personalized": "개인 맞춤형 건강 상담",
+        "saveConversations": "대화를 저장하고 계속하세요",
+        "uploadImages": "이미지를 업로드하거나 컴퓨터/카메라에서 직접 가져옵니다.",
+        "customTeam": "나만의 맞춤형 건강팀을 구축하세요",
+        "availability": "건강 관련 문의는 24시간 연중무휴로 가능합니다."
+      },
+      "buttons": {
+        "maybeLater": "아마도 나중에",
+        "registerNow": "지금 등록하세요"
+      }
+    },
+    "registrationRequired": "등록이 필요합니다",
+    "profileRegistrationRequired": "사용자 프로필: 등록이 필요합니다",
+    "landing": {
+      "title": "AI 건강 상담을 경험하세요",
+      "subtitle": "AI 건강 전문가로부터 즉각적인 건강 통찰력을 얻으세요. 완전 무료이며 등록이 필요하지 않습니다.",
+      "whatBringsYou": "오늘은 무슨 일로 오셨나요?",
+      "selectConcern": "일반적인 관심사를 선택하거나 자신의 관심사를 설명하세요",
+      "customConcernPlaceholder": "또는 건강 문제를 본인의 말로 설명해 보세요...",
+      "startConsultation": "무료 상담 시작하기",
+      "experienceIncludes": "무료 고객 체험에는 다음이 포함됩니다.",
+      "includes": {
+        "messages": "AI 건강 전문가와의 10가지 메시지",
+        "time": "상담 시간은 15분입니다",
+        "insights": "전문적인 건강 통찰력 및 지침"
+      },
+      "personas": {
+        "defaultSpecialist": "AI 전문가",
+        "aileen": {
+          "name": "건강 전문가 Aileen Carol",
+          "specialty": "가족 웰빙"
+        },
+        "daniel": {
+          "name": "건강 전문가 다니엘 가르시아",
+          "specialty": "내부 웰빙"
+        }
+      }
+    },
+    "chat": {
+      "header": "AI 건강 상담",
+      "messagesLeft": "{{count}}개의 메시지가 남았습니다",
+      "timeLeft": "{{time}} 남음",
+      "startingConsultation": "상담이 시작됩니다. AI 건강 전문가가 곧 답변해 드리겠습니다.",
+      "aiTyping": "AI 전문가가 타이핑하고 있습니다...",
+      "inputPlaceholder": "증상을 설명하거나 질문을 하세요..."
+    },
+    "expired": {
+      "title": "상담 완료",
+      "subtitle": "AI 건강상담의 힘을 직접 경험해 보세요",
+      "messagesUsed": "{{used}}/{{max}}개의 메시지를 사용했습니다.",
+      "continuePrompt": "무제한 접속을 계속하시겠습니까?",
+      "createAccount": "무료 계정 만들기",
+      "signIn": "로그인"
+    },
+    "errors": {
+      "startFailed": "상담을 시작할 수 없습니다. 다시 시도해 주세요.",
+      "connectionLost": "연결이 끊어졌습니다. 페이지를 새로고침하세요.",
+      "sendFailed": "메시지를 보내지 못했습니다. 다시 시도해 주세요."
+    },
+    "profile": {
+      "age": "25",
+      "gender": "여성",
+      "bloodType": "A+",
+      "height": "5'6\"",
+      "weight": "130파운드",
+      "conditions": "철분 결핍성 빈혈, 중등도 우울증",
+      "medications": "황산제일철 325mg 매일, 세르트랄린 50mg 매일",
+      "allergies": "알려진 바 없음",
+      "healthInfo": "지난 6개월 동안 피로와 무기력함에 시달려 왔습니다. 건강 전문가가 철분 결핍성 빈혈 진단을 내려 철분 보충제를 복용하고 있습니다. 우울증도 앓고 있어 3개월 전부터 항우울제를 복용하기 시작했습니다. 두 질환을 관리하고 전반적인 에너지 수준을 개선하는 방법에 대한 조언을 구하고 있습니다.",
+      "emergencyContact": "Sarah Johnson (자매) - (555) 123-4567"
+    },
+    "experience": {
+      "tryItOut": "한번 시도해 보세요.",
+      "noObligation": "의무 없음.",
+      "subtitle": "VirtualMD.app이 여러분을 위해 할 수 있는 일은 아주 일부에 불과합니다."
+    }
+  },
+  "aiPrefix": "일체 포함",
+  "dashboard": "계기반",
+  "teamRecommendation": {
+    "submission": {
+      "primaryConcernsLabel": "요즘 당신의 가장 큰 건강 문제는 무엇인가요?",
+      "healthConditionsLabel": "어떤 건강 상태가 귀하에게 해당됩니까?"
+    },
+    "defaults": {
+      "noneSpecified": "지정되지 않음"
+    }
+  }
+}

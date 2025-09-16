@@ -1,0 +1,907 @@
+{
+  "header": {
+    "login": "登录",
+    "register": "登记",
+    "logout": "登出",
+    "aboutUs": "关于我们",
+    "learnMore": "了解更多",
+    "advisory": "咨询",
+    "start": "开始",
+    "greetingHello": "你好 {{name}}！",
+    "welcomeToVirtualMD": "欢迎来到 VirtualMD！",
+    "signupForFullAccess": "注册以获得完整访问权限",
+    "profileTitle": "我的个人资料/前往聊天",
+    "logoutTitle": "登出",
+    "toggleTheme": "切换亮/暗模式",
+    "toggleMode": "切换亮/暗模式",
+    "myProfile": "我的个人资料/前往聊天",
+    "dashboard": "仪表板",
+    "endConversation": "结束对话",
+    "returnToConversation": "返回对话",
+    "startConversation": "开始对话",
+    "endConsult": "结束咨询",
+    "returnToConsult": "返回咨询",
+    "startConsult": "开始咨询",
+    "home": "家",
+    "healthEncyclopedia": "健康百科",
+    "researchPublications": "研究与出版物",
+    "contactUs": "联系我们",
+    "light": "光",
+    "dark": "黑暗的",
+    "toggleModeText": "切换 {{mode}} 模式",
+    "legal": "合法的"
+  },
+  "howToUse": "如何使用",
+  "settings": {
+    "lightMode": "灯光模式",
+    "darkMode": "黑暗模式"
+  },
+  "navigation": {
+    "dashboard": "仪表板",
+    "home": "家",
+    "aboutUs": "关于我们",
+    "returnToChat": "返回聊天",
+    "continueConsultation": "继续咨询",
+    "exitConsultation": "退出咨询",
+    "startNewConsultation": "开始新的咨询",
+    "sections": {
+      "chatTools": "聊天工具",
+      "functionality": "功能",
+      "aboutUs": "关于我们",
+      "requiredDocuments": "所需文件",
+      "research": "研究",
+      "controls": "控制",
+      "settings": "设置"
+    },
+    "myTeam": "我的团队",
+    "summary": "概括",
+    "transcript": "抄本",
+    "encyclopedia": "百科全书",
+    "priorChats": "之前的聊天",
+    "myProfile": "我的个人资料",
+    "healthEncyclopedia": "健康百科",
+    "noteFromFounders": "创始人寄语",
+    "faq": "常问问题",
+    "contactUs": "联系我们",
+    "legal": "合法的",
+    "dataPrivacy": "数据隐私",
+    "aiAccuracyStudies": "人工智能准确性研究",
+    "empowerYourself": "增强自己的能力",
+    "deepResearch": "深入研究",
+    "aboutUsItems": {
+      "advisory": "咨询",
+      "dataPrivacy": "数据隐私"
+    },
+    "learnMore": {
+      "imagingAI": "成像和人工智能",
+      "pathologyAI": "病理学与人工智能",
+      "dermatologyAI": "皮肤病学和人工智能",
+      "mentalHealthAI": "心理健康与人工智能",
+      "accuracyStudies": "人工智能准确性研究",
+      "allResearch": "所有研究",
+      "empowerYourself": "增强自己的能力"
+    }
+  },
+  "landing": {
+    "title": "VirtualMD.app",
+    "subtitle": "人工智能医疗保健解决方案",
+    "tryItOut": "尝试一下",
+    "scrollDown": "向下滚动",
+    "scrollUp": "向上滚动",
+    "alwaysHereForYou": "永远为您服务。",
+    "cards": {
+      "whyUse": {
+        "title": "为什么选择 VirtualMD？",
+        "description": "探索我们人工智能虚拟健康平台的革命性优势"
+      },
+      "dataPrivacy": {
+        "title": "您的隐私",
+        "description": "就像一个值得信赖的朋友一样，您的健康秘密在我们这里是安全的"
+      },
+      "tryItOut": {
+        "title": "尝试一下",
+        "description": "我的孩子病了|我睡不着！|爱的营养",
+        "tagline": "无需注册。"
+      },
+      "wellness": {
+        "title": "深入研究",
+        "description": "来源可靠的健康百科全书"
+      },
+      "yourHealth": {
+        "title": "您的健康",
+        "description": "利用人工智能塑造您的健康之旅"
+      }
+    }
+  },
+  "chat": {
+    "startNewConsult": "开始新的咨询",
+    "noSpeechDetected": "我没听懂",
+    "noSpeechMessage": "我在你的录音中检测不到任何语音。请尝试大声一点说话或靠近麦克风，然后重试。",
+    "dontShowAgain": "不要再给我看了",
+    "gotIt": "知道了",
+    "loading": "加载中…"
+  },
+  "loading": {
+    "preparingHealthTeam": "准备您的 AI 健康团队...",
+    "connectingSpecialists": "连接健康专家...",
+    "initializingSystem": "正在初始化您的个性化健康系统...",
+    "almostReady": "几乎准备好为您提供帮助...",
+    "dots": "..."
+  },
+  "common": {
+    "loading": "加载中…",
+    "user": {
+      "defaultInitial": "呃",
+      "defaultName": "那里",
+      "defaultAltText": "用户"
+    },
+    "error": "错误",
+    "success": "成功",
+    "cancel": "取消",
+    "confirm": "确认",
+    "save": "节省",
+    "delete": "删除",
+    "edit": "编辑",
+    "close": "关闭",
+    "next": "下一个",
+    "previous": "以前的",
+    "submit": "提交",
+    "search": "搜索",
+    "filter": "筛选",
+    "sort": "种类",
+    "upload": "上传",
+    "download": "下载",
+    "print": "打印",
+    "share": "分享",
+    "copy": "复制",
+    "paste": "粘贴",
+    "cut": "切",
+    "undo": "撤消",
+    "redo": "重做",
+    "yes": "是的",
+    "no": "不",
+    "ok": "好的",
+    "punctuation": {
+      "ellipsis": "..."
+    },
+    "apply": "申请",
+    "reset": "重置",
+    "clear": "清除",
+    "back": "后退",
+    "forward": "向前",
+    "home": "家",
+    "refresh": "刷新",
+    "reload": "重新加载",
+    "help": "帮助",
+    "about": "关于",
+    "contact": "接触",
+    "profile": "轮廓",
+    "account": "帐户",
+    "privacy": "隐私",
+    "terms": "条款",
+    "legal": "合法的",
+    "support": "支持",
+    "feedback": "反馈",
+    "welcome": "欢迎",
+    "goodbye": "再见",
+    "thankyou": "谢谢",
+    "send": "发送",
+    "none": "没有任何",
+    "generating": "正在生成...",
+    "settings": "设置"
+  },
+  "auth": {
+    "loginTitle": "登入",
+    "registerTitle": "创建账户",
+    "email": "电子邮件",
+    "password": "密码",
+    "confirmPassword": "确认密码",
+    "fullName": "姓名",
+    "displayName": "显示名称",
+    "rememberMe": "记住账号",
+    "forgotPassword": "忘记密码？",
+    "noAccount": "沒有帳戶？",
+    "hasAccount": "已有账户？",
+    "signUp": "报名",
+    "signIn": "登入",
+    "signOut": "登出",
+    "createAccount": "创建账户",
+    "loginButton": "登录",
+    "registerButton": "登记",
+    "logout": "登出"
+  },
+  "footer": {
+    "copyright": "MindScript Technologies LLC. 保留所有权利。",
+    "privacyPolicy": "隐私政策",
+    "termsOfService": "服务条款",
+    "cookiePolicy": "Cookie 政策",
+    "medicalAdvisory": "健康咨询",
+    "yourPrivacy": "您的隐私",
+    "legal": "合法的",
+    "contactUs": "联系我们",
+    "howToUse": "如何使用",
+    "faq": "常问问题",
+    "noteFromFounders": "创始人寄语",
+    "medicalDisclaimerTooltip": "MindScript 致力于利用 AI 驱动的健康角色提供最准确、最新的健康信息。然而，这些角色并非持证健康专家，信息可能存在偏差。如遇真正紧急的医疗情况，请立即拨打 911 或前往最近的急诊室。如有任何其他健康问题，或在尝试任何治疗或疗法之前，请咨询合格的人类医疗保健提供者或专家。",
+    "advisory": "咨询"
+  },
+  "forms": {
+    "required": "此字段是必需的",
+    "invalidEmail": "请输入有效的电子邮件地址",
+    "passwordTooShort": "密码必须至少包含 8 个字符",
+    "passwordsDoNotMatch": "密码不匹配",
+    "invalidInput": "请输入有效的输入",
+    "fieldRequired": "{{field}} 为必填项",
+    "selectOption": "请选择一个选项",
+    "uploadFile": "上传文件",
+    "dragAndDrop": "将文件拖放到此处，或单击选择",
+    "fileUploaded": "文件上传成功",
+    "uploadError": "上传文件错误"
+  },
+  "language": {
+    "english": "英语",
+    "arabic": "阿拉伯联合酋长国",
+    "hebrew": "希伯来语",
+    "switchTo": "切换到 {{language}}",
+    "currentLanguage": "当前语言：{{language}}"
+  },
+  "animation": {
+    "title": {
+      "simply": "简单地",
+      "better": "更好的",
+      "health": "健康",
+      "period": "。"
+    }
+  },
+  "hero": {
+    "subtitle": "全天候提供个性化健康和保健建议。",
+    "subtitleMobile": "全天候个性化人工智能健康建议",
+    "poweredBy": "由人工智能提供支持。"
+  },
+  "research": {
+    "title": "研究与出版物",
+    "subtitle": "基于证据的人工智能医疗保健解决方案",
+    "aiImaging": {
+      "title": "诊断成像中的人工智能",
+      "description": "全面分析放射学、病理学和眼科学领域健康成像中的人工智能应用。"
+    },
+    "pathologyAI": {
+      "title": "病理学AI辅助",
+      "description": "数字病理学中的深度学习应用，用于癌症检测和诊断准确性的提高。"
+    },
+    "dermatologyAI": {
+      "title": "皮肤科AI解决方案",
+      "description": "使用计算机视觉和机器学习进行人工智能皮肤状况检测和诊断。"
+    },
+    "mentalHealthAI": {
+      "title": "心理健康与人工智能",
+      "description": "人工智能在心理健康筛查、诊断和治疗支持中的应用。"
+    },
+    "accuracyStudies": {
+      "title": "人工智能准确性研究",
+      "description": "人工智能诊断系统在现实医疗保健环境中的临床验证和性能指标。"
+    }
+  },
+  "whitepapers": {
+    "downloadPdf": "下载 PDF",
+    "generating": "正在生成...",
+    "abstract": "抽象的",
+    "introduction": "介绍",
+    "methods": "方法/技术",
+    "results": "结果",
+    "discussion": "讨论",
+    "conclusion": "结论",
+    "references": "参考",
+    "authors": "作者",
+    "email": "电子邮件",
+    "organization": "组织"
+  },
+  "imageProcessing": {
+    "preset": "预设",
+    "process": "过程",
+    "revert": "恢复",
+    "applyPreset": "将预设应用于焦点图像",
+    "revertFocus": "重新聚焦原始图像"
+  },
+  "alt": {
+    "logo": "VirtualMD.app 徽标",
+    "logoSmall": "MindScript 小徽标",
+    "integratedApproach": "综合健康方法",
+    "userProfile": "用户个人资料",
+    "aiDoctor": "人工智能健康专家Carol",
+    "aiAssistant": "人工智能助手",
+    "backgroundImage": "漂亮的背景图片",
+    "home": "MindScript 主页",
+    "processed": "处理后的图像",
+    "zoomPreview": "图像缩放预览"
+  },
+  "aria": {
+    "scrollDown": "向下滚动",
+    "scrollUp": "向上滚动",
+    "openMenu": "打开菜单",
+    "togglePassword": "切换密码可见性",
+    "chooseLanguage": "选择语言",
+    "goHome": "前往主页",
+    "remove": "消除",
+    "edit": "编辑",
+    "delete": "删除",
+    "save": "节省",
+    "cancel": "取消",
+    "breadcrumb": "导航面包屑",
+    "conversationChoice": "对话选择",
+    "personaChoice": "角色选择",
+    "panel": "控制板",
+    "summary": "概括",
+    "differentialOpinion": "不同意见",
+    "transcript": "抄本",
+    "encyclopedia": "百科全书",
+    "endConversation": "结束对话",
+    "startChat": "开始与团队聊天",
+    "configureChat": "配置新聊天",
+    "savedConsultations": "已保存的咨询",
+    "myProfile": "我的个人资料"
+  },
+  "researchPage": {
+    "title": "研究与出版物",
+    "healthAdvisory": {
+      "title": "健康咨询",
+      "description": "重要的健康和安全信息",
+      "button": "查看咨询"
+    },
+    "imagingAI": {
+      "title": "诊断成像中的人工智能",
+      "description": "放射学、病理学和眼科学健康成像中的人工智能应用",
+      "button": "阅读更多"
+    },
+    "pathologyAI": {
+      "title": "人工智能辅助病理学",
+      "description": "数字病理学中的深度学习应用，用于癌症检测和诊断准确性",
+      "button": "阅读更多"
+    },
+    "dermatologyAI": {
+      "title": "皮肤科人工智能解决方案",
+      "description": "使用计算机视觉和机器学习进行人工智能皮肤状况检测和诊断",
+      "button": "阅读更多"
+    },
+    "mentalHealthAI": {
+      "title": "心理健康与人工智能",
+      "description": "人工智能在心理健康筛查、诊断和治疗支持中的应用",
+      "button": "阅读更多"
+    },
+    "dataPrivacy": {
+      "title": "数据隐私和安全",
+      "description": "医疗保健数据保护、HIPAA 合规性和隐私保护",
+      "button": "阅读更多"
+    },
+    "aiAccuracy": {
+      "title": "人工智能准确性研究",
+      "description": "人工智能诊断系统在现实医疗环境中的临床验证和性能指标",
+      "button": "阅读更多"
+    },
+    "aiForLaypeople": {
+      "title": "人人享有人工智能",
+      "description": "简单理解医疗保健 AI - 无需技术背景",
+      "button": "阅读更多"
+    }
+  },
+  "dialogs": {
+    "startWithDefault": "从健康专家卡罗尔开始",
+    "startWithSpecific": "以 {{name}} 开头",
+    "longRecording": {},
+    "shortConv": {}
+  },
+  "team": {
+    "myAIHealthTeam": "我的AI健康团队",
+    "addMembersInstruction": "点击右侧的卡片添加团队成员。",
+    "maxTeamSizeNote": "您的团队最多可添加五名 AI 顾问。您可以随时更改您的团队，但咨询期间不可更改。",
+    "starting": "开始...",
+    "startTeamConsult": "开始团队咨询",
+    "startConsultationWithTeam": "开始与您的团队进行协商"
+  },
+  "newConversation": {
+    "aileenCarolOnly": "健康专家 Carol Only",
+    "oneOnOne": "一对一",
+    "consultationChoice": {
+      "question": "您今天想向谁咨询？"
+    },
+    "options": {
+      "allAdvisers": "我所有的人工智能健康顾问",
+      "allAdvisersCarolOnly": "我的所有 AI 健康顾问（仅限 AI 健康专家 Carol）",
+      "chooseSpecific": "从我的列表中选择特定"
+    },
+    "tooltips": {
+      "noAdvisersSelected": "您的个人资料中未选择顾问。",
+      "loadingAdvisers": "正在加载您的顾问...",
+      "noOtherAdvisers": "您的列表中没有其他顾问可供选择。请在您的个人资料中添加更多顾问。"
+    },
+    "errors": {
+      "loadingAdvisers": "加载顾问数据时出错。"
+    },
+    "buttons": {
+      "cancel": "取消",
+      "next": "下一个",
+      "start": "开始"
+    }
+  },
+  "aiAccuracyWhitepaper": {
+    "section1": {},
+    "section2": {
+      "aiSuccess": {},
+      "aiErrors": {},
+      "aiVsHuman": {}
+    },
+    "section3": {
+      "challenges": {}
+    },
+    "section4": {
+      "guidelines": {}
+    },
+    "section5": {}
+  },
+  "imagingAIExplainer": {
+    "whatIsImaging": {
+      "types": {}
+    },
+    "whatIsAI": {},
+    "howAIHelps": {
+      "accuracy": {},
+      "speed": {},
+      "consistency": {}
+    },
+    "challenges": {},
+    "conclusion": {}
+  },
+  "mentalHealthWhitepaper": {
+    "disclaimer": {},
+    "abstract": {},
+    "introduction": {},
+    "methods": {},
+    "results": {
+      "diagnosticSupport": {},
+      "therapeuticApplications": {},
+      "patientMonitoring": {}
+    },
+    "discussion": {},
+    "conclusion": {}
+  },
+  "audio": {},
+  "autoListening": {},
+  "speech": {},
+  "help": {},
+  "upload": {},
+  "fileUpload": {},
+  "input": {},
+  "send": {},
+  "controls": {
+    "aiSpeaker": "人工智能音箱",
+    "cameraUpload": "相机/上传",
+    "status": {
+      "enabled": "已启用",
+      "disabled": "已禁用"
+    }
+  },
+  "welcome": {},
+  "account": {},
+  "participants": {},
+  "mobileChat": {},
+  "sidebar": {
+    "differentialOpinion": "不同意见"
+  },
+  "bioPanel": {},
+  "conversations": {},
+  "mobileConsultations": {},
+  "encyclopedia": {},
+  "imageContext": {},
+  "profile": {},
+  "sidebarHeader": {
+    "plusBadge": "+"
+  },
+  "messages": {},
+  "sidebarFooter": {},
+  "summary": {},
+  "teamBuilder": {
+    "steps": {},
+    "alerts": {},
+    "existingTeam": {},
+    "primaryConcerns": {},
+    "healthConditions": {},
+    "urgencySymptoms": {},
+    "medicinePreferences": {},
+    "additionalInfo": {},
+    "aileenCarolIntro": {},
+    "buttons": {},
+    "dialogs": {}
+  },
+  "aileenCarol": {},
+  "transcript": {},
+  "registerPage": {},
+  "legal": {
+    "eligibility": {},
+    "feesAndPayment": {},
+    "termination": {}
+  },
+  "aboutEncyclopediaPage": {},
+  "loginPage": {},
+  "mobileTeamBuilder": {
+    "carolMessages": {},
+    "questionnaire": {},
+    "title": {},
+    "carolGreeting": {}
+  },
+  "mobileNavigation": {},
+  "mobileWelcome": {},
+  "mobileRouter": {},
+  "mobileInput": {},
+  "mobileProfile": {},
+  "clinicianInfoPage": {},
+  "contactPage": {},
+  "dataPrivacyWhitepaper": {
+    "sections": {},
+    "hero": {},
+    "privacyPledge": {
+      "secureInfo": {},
+      "noPersonalUse": {},
+      "neverSell": {},
+      "anonymizedData": {}
+    },
+    "securityLevels": {
+      "accountSecurity": {},
+      "hipaaHistory": {}
+    },
+    "mindscriptSecurity": {},
+    "hipaaConsiderations": {},
+    "userResponsibility": {},
+    "privacyScenarios": {},
+    "conclusion": {}
+  },
+  "encyclopediaPage": {},
+  "evidencePage": {
+    "researchEvidence": {
+      "radiology": {},
+      "pathology": {},
+      "dermatology": {},
+      "mentalHealthResearch": {}
+    },
+    "wellnessInsights": {
+      "personalizedWellness": {},
+      "holisticSignals": {},
+      "proactiveWellbeing": {},
+      "aiEnhancedClarity": {}
+    }
+  },
+  "featuresPage": {
+    "features": {
+      "instantWellnessInsights": {},
+      "holisticWellnessPicture": {},
+      "diverseAIPerspectives": {},
+      "everEvolvingIntelligence": {}
+    }
+  },
+  "healthAdvisoryPage": {
+    "sections": {
+      "consultation": {
+        "emergency": {}
+      },
+      "technology": {},
+      "disclaimer": {
+        "points": {}
+      }
+    }
+  },
+  "medicalImageProcessingPage": {},
+  "mentalHealthInfoPage": {},
+  "nurseInfoPage": {},
+  "patientInfoPage": {},
+  "pharmacistInfoPage": {},
+  "physicianInfoPage": {},
+  "wellnessPathwaysPage": {},
+  "whyVirtualMD": {
+    "sections": {
+      "whyUs": {
+        "points": {
+          "personalTeam": {},
+          "aiNavigator": {},
+          "empoweringChoices": {},
+          "easyToUse": {},
+          "advancedTechnology": {}
+        }
+      },
+      "hero": {},
+      "features": {
+        "points": {
+          "dynamicEnsemble": {},
+          "holisticUnderstanding": {},
+          "rapidAccess": {},
+          "reliableInteractions": {},
+          "insightfulLogs": {}
+        }
+      },
+      "technology": {},
+      "cta": {}
+    }
+  },
+  "yourHealthInYourHandsPage": {
+    "sections": {
+      "uniqueProfile": {},
+      "personalizedGoals": {},
+      "diverseInsights": {},
+      "proactivePartner": {}
+    },
+    "callToAction": {}
+  },
+  "session_complete": "会话完成",
+  "your_free_trial_has_ended": "您的免费试用已结束",
+  "united_kingdom:_dial_999_or_11": "英国：拨打 999 或 112",
+  "melanoma_and_skin_cancer_detec": "黑色素瘤和皮肤癌检测",
+  "process_transactions_and_send_": "处理交易并发送相关信息，包括确认和发票（如果适用）。",
+  "information_we_collect": "我们收集的信息",
+  "in_a_medical_emergency:": "在医疗紧急情况下：",
+  "in_response_to_legal_process:": "响应法律程序：",
+  "loading_chat": "正在加载聊天...",
+  "redirecting": "正在重定向...",
+  "israel:_dial_101_(magen_david_": "以色列：拨打101（）",
+  "unlimited_messages_with_ai_doc": "与 AI 健康专家进行无限量信息交流",
+  "contact_information": "联系信息",
+  "real-world_implementation_and_": "实际实施和移动应用",
+  "your_access_to_or_use_of_or_in": "您访问、使用或无法访问或使用本服务；",
+  "your_computer_may_temporarily_": "当您访问和查看这些材料时，您的计算机可能会临时将这些材料的副本存储在 RAM 中。",
+  "please_select_only_one_special": "请仅选择一位专家进行私人咨询。",
+  "references": "参考",
+  "business_transfers:": "业务转移：",
+  "account_information:": "帐户信息：",
+  "provide,_operate,_maintain,_an": "提供、运营、维护和改进服务。",
+  "assignment": "任务",
+  "sandymiles@mindspringhealth": "sandymiles@mindspring.health",
+  "ai-generated_content_may_conta": "尽管我们拥有严格的验证流程，但人工智能生成的内容仍可能包含错误或遗漏",
+  "display_name": "显示名称",
+  "any_content_obtained_from_the_": "从服务中获得的任何内容；或",
+  "you_may_store_files_that_are_a": "您可以存储 Web 浏览器自动缓存的文件，以增强显示效果。",
+  "start_new_health_consultation": "开始新的健康咨询",
+  "entire_agreement": "完整协议",
+  "ophthalmology": "眼科",
+  "not": "不是",
+  "exit_conversation?": "退出对话？",
+  "grading_and_classification": "分级和分类",
+  "unauthorized_access,_use,_or_a": "未经授权访问、使用或更改您的传输或内容（包括数据泄露），即使 MINDSCRIPT 已实施本条款和隐私政策中概述的合理安全措施。",
+  "checking_server_status": "正在检查服务器状态...",
+  "not_a_hipaa-compliant_service": "不符合 HIPAA 规定的服务",
+  "radiology": "放射学",
+  "united_states:_dial_911": "美国：拨打911",
+  "save_and_review_conversation_h": "保存并查看对话历史记录",
+  "abstract": "抽象的",
+  "starting_your_consultation": "开始您的咨询...",
+  "digital_pathology_overview": "数字病理学概述",
+  "reasonable_business_security_p": "美国境内合理的商业安全实践",
+  "loading_transcript": "正在加载成绩单...",
+  "cookies_and_similar_technologi": "Cookie 和类似技术：",
+  "internal_medicine": "内在健康",
+  "no_specialists_currently_in_th": "目前此聊天中没有专家。",
+  "discussion": "讨论",
+  "updating_team": "正在更新团队...",
+  "your_privacy_choices": "您的隐私选择",
+  "error:_unknown_active_chat_vie": "错误：未知的活动聊天视图。",
+  "create_more_than_one_account_f": "为自己创建多个帐户。",
+  "improve_the_accuracy,_efficacy": "使用匿名和汇总数据提高我们的 AI 模型和平台功能的准确性、有效性和安全性。",
+  "user_content:": "用户内容：",
+  "mindscript_does_not_provide_me": "MindScript不提供医疗诊断或治疗",
+  "communicate_with_you_about_pro": "与您沟通 MindScript 和其他公司提供的产品、服务、优惠、促销、奖励和活动，并提供我们认为您会感兴趣的新闻和信息（但须遵守您的选择退出权利）。",
+  "aggregated_or_de-identified_da": "汇总或去识别化数据：",
+  "canada:_dial_911": "加拿大：拨打911",
+  "retry": "重试",
+  "other_locations:_contact_your_": "其他地点：立即联系当地紧急服务部门",
+  "ron_rubin,_phd_and_sandy_miles": "Ron Rubin 博士和 Sandy Miles",
+  "australia:_dial_000_or_112": "澳大利亚：拨打 000 或 112",
+  "data_deletion:": "数据删除：",
+  "we_do_not_guarantee_the_absolu": "我们不保证您的信息绝对安全",
+  "send_technical_notices,_update": "发送技术通知、更新、安全警报以及支持和管理消息。",
+  "consultation_summary": "咨询摘要",
+  "waiver": "放弃",
+  "access_to_all_medical_specialt": "获得所有健康专科服务",
+  "no_profile_data_available": "没有可用的个人资料数据。",
+  "no_summary_available": "没有可用的摘要。",
+  "test_app_-_mindscript": "测试应用程序 - MindScript",
+  "respond_to_your_comments,_ques": "回复您的评论、问题和请求并提供客户服务。",
+  "not_hipaa_compliant": "不符合 HIPAA 规定",
+  "force_majeure": "不可抗力",
+  "you_may_print_or_download_one_": "您可以打印或下载本网站合理数量页面的一份副本，仅供您个人、非商业信息使用，不得进一步复制、出版或分发。",
+  "dr_aileen_carol": "健康专家艾琳·卡罗尔",
+  "family_medicine": "家庭健康",
+  "headings": "标题",
+  "note_on_ai_aileencarol's_particip": "AI健康专家Carol参会说明：",
+  "ronrubin@mindscripthealth": "ronrubin@virtualmd.app",
+  "share_your_account_credentials": "共享您的帐户凭据或允许其他人访问您的帐户（组织帐户明确允许的情况除外）。",
+  "email_cannot_be_changed": "电子邮件无法更改。",
+  "your_unique_medical_history,_c": "您独特的健康史、状况和情况需要专业评估",
+  "changes_to_these_terms_and_pol": "本条款和政策的变更",
+  "other_ai_specialists": "其他人工智能专家",
+  "full_name": "姓名",
+  "governing_law_and_dispute_reso": "适用法律和争议解决",
+  "loading…": "加载中…",
+  "personalized_health_insights": "个性化健康洞察",
+  "gastroenterology": "胃肠病学",
+  "use_of_the_service_by_children": "禁止儿童使用该服务。",
+  "introduction": "介绍",
+  "use_another_user's_account_wit": "未经许可使用其他用户的帐户。",
+  "if_you_can_see_this,_react_is_": "如果你能看到这个，那么 React 正在运行！",
+  "ronrubin@mindspringhealth": "ronrubin@mindspring.health",
+  "children's_privacy": "儿童隐私",
+  "provide_false_or_misleading_in": "在注册期间或在您的帐户资料中提供虚假或误导性的信息。",
+  "talk_to_a_specialist": "与专家交谈",
+  "cannot": "不能",
+  "how_we_use_information": "我们如何使用信息",
+  "results": "结果",
+  "loading_participants": "正在加载参与者...",
+  "sandymiles@mindscripthealth": "sandymiles@virtualmd.app",
+  "this_feature_is_coming_soon": "此功能即将推出！",
+  "start_or_continue_conversation": "开始或继续对话",
+  "international_data_transfers": "国际数据传输",
+  "loading_bio": "正在加载简历...",
+  "termination": "终止",
+  "no_image_active": "没有活动图像。",
+  "no_ai_health_advisers_selected": "未选择任何 AI 健康顾问。您可以在个人资料中管理您的顾问。",
+  "dr_daniel_garcia": "健康专家丹尼尔·加西亚",
+  "no_other_specialists_available": "没有其他可添加的专家。",
+  "carry_out_any_other_purpose_de": "执行在收集信息时向您描述的任何其他目的。",
+  "data_retention": "数据保留",
+  "informational_and_educational_": "仅供参考和教育目的",
+  "miscellaneous": "各种各样的",
+  "non-cancerous_skin_condition_c": "非癌性皮肤病分类",
+  "pathology": "病理",
+  "promotional_communications:": "促销通讯：",
+  "info@mindscripthealth": "info@virtualmd.app",
+  "methods/technologies": "方法/技术",
+  "how_we_share_information": "我们如何共享信息",
+  "loading_profile": "正在加载个人资料...",
+  "personalize_and_improve_the_se": "个性化和改进服务并提供符合用户个人资料或兴趣的内容或功能。",
+  "with_vendors_and_service_provi": "与供应商和服务提供商：",
+  "health_information_may_become_": "随着健康知识的发展，健康信息可能会过时",
+  "with_whom_would_you_like_to_co": "您今天想向谁咨询？",
+  "mindscript_content:": "MindScript内容：",
+  "cookies:": "曲奇饼：",
+  "detect,_investigate,_and_preve": "检测、调查和防止欺诈交易和其他非法活动，保护MindScript和其他人的权利和财产。",
+  "medical_advice_requires_person": "健康建议需要由持牌医疗保健提供者进行个性化评估",
+  "create_an_account_for_anyone_o": "未经许可为除您自己之外的任何人创建帐户。",
+  "options": "选项",
+  "cannot_and_will_not_sue_or_hol": "不能也不会起诉或追究 MINDSCRIPT TECHNOLOGIES, LLC、其附属公司、高管、董事、员工、代理人或许可人的责任",
+  "with_your_consent:": "征得您的同意：",
+  "add_specialists_to_your_team": "为您的团队添加专家",
+  "usage_information:": "使用信息：",
+  "any_conduct_or_content_of_any_": "任何第三方在服务上的行为或内容，包括但不限于其他用户或第三方的任何诽谤性、攻击性或非法行为；",
+  "do_not_meet_the_specific_admin": "不符合 HIPAA 安全规则规定的处理 PHI 的具体管理、物理和技术保障要求",
+  "legal@mindscripthealth": "legal@virtualmd.app",
+  "cancel": "取消",
+  "conclusion": "结论",
+  "professional_health_insights_a": "专业的健康见解和指导",
+  "cancer_detection": "癌症检测",
+  "your_specialist_team_is_empty_": "您的专家团队尚无人员。请在下方添加专家。",
+  "workflow_optimization": "工作流程优化",
+  "select_ai_specialists": "选择人工智能专家",
+  "monitor_and_analyze_trends,_us": "监控和分析与我们的服务相关的趋势、使用情况和活动。",
+  "severability": "可分割性",
+  "access_to_cardiology_and_neuro": "接触心脏病学和神经病学专家",
+  "searchLanguages": "搜索语言...",
+  "noLanguagesFound": "未找到任何语言",
+  "you": "你",
+  "manageTeam": {
+    "title": "管理我的 AI 健康团队（最多 {{maxTeamMembers}} 名专家）",
+    "currentTeamCount": "您当前的团队（{{current}}/{{max}}）",
+    "updatingTeam": "正在更新团队...",
+    "coordinatorLabel": "（协调员）",
+    "alwaysIncluded": "始终包含",
+    "specialistFallback": "专家",
+    "emptyTeamMessage": "您的专家团队尚无人员。请在下方添加专家。",
+    "teamFullMessage": "您的团队已满（最多 {{maxTeamMembers}} 名专家）。如果您想添加其他专家，请移除一名成员。",
+    "otherSpecialistsTitle": "其他人工智能专家",
+    "addToTeamTooltip": "添加到团队",
+    "teamFullTooltip": "队伍已满",
+    "systemSpecialistFallback": "系统专家",
+    "noSpecialistsAvailable": "没有其他可添加的专家。"
+  },
+  "personas": {
+    "defaultSpecialist": "人工智能专家"
+  },
+  "personaList": {
+    "noSpecialistsFound": "未找到 AI 专家。"
+  },
+  "guest": {
+    "user": "来宾用户",
+    "userObject": {
+      "displayName": "来宾用户",
+      "email": "guest@virtualmd.app"
+    },
+    "registration": {
+      "prompt": "注册即可完全访问我们的完整 AI 健康团队、对话历史记录和高级功能。",
+      "dialogTitle": "注册用户可以访问 {{specialistName}}",
+      "dialogDescription": "{{specialistName}} 是我们综合虚拟健康团队的一部分。",
+      "benefitsTitle": "使用 VirtualMD.app 帐户，您将获得：",
+      "benefits": {
+        "access": "超过 60 位专业 AI 健康顾问",
+        "personalized": "个性化健康咨询",
+        "saveConversations": "保存并继续对话",
+        "uploadImages": "上传图像或直接从您的计算机/相机拍摄",
+        "customTeam": "建立您自己的定制健康团队",
+        "availability": "全天候解答健康问题"
+      },
+      "buttons": {
+        "maybeLater": "也许以后",
+        "registerNow": "立即注册"
+      }
+    },
+    "registrationRequired": "需要注册",
+    "profileRegistrationRequired": "用户资料：需要注册",
+    "landing": {
+      "title": "体验AI健康咨询",
+      "subtitle": "从我们的人工智能健康专家那里获得即时的健康见解 - 完全免费，无需注册",
+      "whatBringsYou": "您今天来这里是为了什么？",
+      "selectConcern": "选择一个共同关心的问题或描述您自己的问题",
+      "customConcernPlaceholder": "或者用您自己的话描述您的健康问题......",
+      "startConsultation": "开始免费咨询",
+      "experienceIncludes": "免费宾客体验包括：",
+      "includes": {
+        "messages": "与人工智能健康专家的 10 条信息",
+        "time": "15分钟咨询时间",
+        "insights": "专业的健康见解和指导"
+      },
+      "personas": {
+        "defaultSpecialist": "人工智能专家",
+        "aileen": {
+          "name": "健康专家艾琳·卡罗尔",
+          "specialty": "家庭健康"
+        },
+        "daniel": {
+          "name": "健康专家丹尼尔·加西亚",
+          "specialty": "内在健康"
+        }
+      }
+    },
+    "chat": {
+      "header": "AI健康咨询",
+      "messagesLeft": "剩余 {{count}} 条消息",
+      "timeLeft": "{{剩余时间",
+      "startingConsultation": "您的咨询即将开始。AI健康专家将很快回复您。",
+      "aiTyping": "AI 专家正在输入……",
+      "inputPlaceholder": "描述您的症状或提出问题..."
+    },
+    "expired": {
+      "title": "咨询完成",
+      "subtitle": "您已经体验过AI健康咨询的威力",
+      "messagesUsed": "您已使用 {{used}} 条消息（共 {{max}} 条）",
+      "continuePrompt": "想要继续无限制访问吗？",
+      "createAccount": "创建免费帐户",
+      "signIn": "登入"
+    },
+    "errors": {
+      "startFailed": "无法开始咨询。请重试。",
+      "connectionLost": "连接丢失。请刷新页面。",
+      "sendFailed": "发送消息失败。请重试。"
+    },
+    "profile": {
+      "age": "二十五",
+      "gender": "女性",
+      "bloodType": "A+",
+      "height": "5英尺6英寸",
+      "weight": "130磅",
+      "conditions": "缺铁性贫血、中度抑郁症",
+      "medications": "硫酸亚铁 325 毫克/天，舍曲林 50 毫克/天",
+      "allergies": "未知",
+      "healthInfo": "过去六个月，我一直感到疲劳和精力不足。我的健康专家诊断我患有缺铁性贫血，我一直在服用铁补充剂。我还患有抑郁症，三个月前开始服用抗抑郁药。我正在寻找一些建议，以控制这两种疾病并提高我的整体精力水平。",
+      "emergencyContact": "莎拉·约翰逊（姐妹）- (555) 123-4567"
+    },
+    "experience": {
+      "tryItOut": "尝试一下。",
+      "noObligation": "没有义务。",
+      "subtitle": "VirtualMD.app 可以为您做的只是一小部分。"
+    }
+  },
+  "aiPrefix": "人工智能",
+  "dashboard": "仪表板",
+  "teamRecommendation": {
+    "submission": {
+      "primaryConcernsLabel": "您今天主要关心的健康问题是什么？",
+      "healthConditionsLabel": "您符合哪些健康状况？"
+    },
+    "defaults": {
+      "noneSpecified": "未指定"
+    }
+  }
+}

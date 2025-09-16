@@ -1,0 +1,1397 @@
+{
+  "chatPage": {
+    "title": "VirtualMD.app Sohbet",
+    "welcomeMessage": "Kişiselleştirilmiş sağlık danışmanlığınıza hoş geldiniz",
+    "startConversation": "Yeni Konuşma Başlat",
+    "selectPersona": "Sağlık Uzmanınızı Seçin",
+    "typeMessage": "Mesajınızı buraya yazın...",
+    "send": "Göndermek",
+    "thinking": "Düşünüyorum...",
+    "error": "Bir sorun oluştu. Lütfen tekrar deneyin.",
+    "retry": "Tekrar dene",
+    "clear": "Net Sohbet",
+    "save": "Konuşmayı Kaydet",
+    "export": "Sohbeti Dışa Aktar",
+    "settings": "Sohbet Ayarları"
+  },
+  "loginPage": {
+    "home": "Ev",
+    "title": "VirtualMD.app'e giriş yapın",
+    "subtitle": "Kişiselleştirilmiş sağlık danışmanlıklarınıza erişin",
+    "email": "E-posta Adresi",
+    "password": "Şifre",
+    "signIn": "Giriş yap",
+    "forgotPassword": "Parolanızı mı unuttunuz?",
+    "noAccount": "Hesabınız yok mu?",
+    "signUp": "Üye olmak",
+    "or": "veya",
+    "signInWithGoogle": "Google ile oturum açın",
+    "signInWithFacebook": "Facebook ile giriş yap",
+    "rememberMe": "Beni Hatırla",
+    "emailRequired": "E-posta gereklidir",
+    "passwordRequired": "Şifre gerekli",
+    "invalidEmail": "Geçerli bir e",
+    "signInError": "Geçersiz e-posta veya şifre",
+    "signInSuccess": "Tekrar hoşgeldiniz!"
+  },
+  "registerPage": {
+    "title": "VirtualMD.app Hesabınızı Oluşturun",
+    "subtitle": "Kişiselleştirilmiş sağlık rehberliği alan binlerce kullanıcıya katılın",
+    "firstName": "İlk adı",
+    "lastName": "Soy isim",
+    "email": "E-posta Adresi",
+    "password": "Şifre",
+    "confirmPassword": "Şifreyi Onayla",
+    "signUp": "Hesap oluşturmak",
+    "hasAccount": "Zaten bir hesabınız var mı?",
+    "signIn": "Giriş yap",
+    "or": "veya",
+    "signUpWithGoogle": "Google ile kaydolun",
+    "signUpWithFacebook": "Facebook ile kaydolun",
+    "agreeToTerms": "Hizmet Şartları ve Gizlilik Politikası'nı kabul ediyorum",
+    "firstNameRequired": "Ad gereklidir",
+    "lastNameRequired": "Soyadı gereklidir",
+    "emailRequired": "E-posta gereklidir",
+    "passwordRequired": "Şifre gerekli",
+    "passwordMinLength": "Şifre en az 8 karakter olmalıdır",
+    "passwordsDoNotMatch": "Şifreler eşleşmiyor",
+    "invalidEmail": "Geçerli bir e",
+    "termsRequired": "Şartlar ve koşulları kabul etmelisiniz",
+    "signUpError": "Hesap oluşturulamadı. Lütfen tekrar deneyin.",
+    "signUpSuccess": "Hesap başarıyla oluşturuldu! VirtualMD.app'e hoş geldiniz!",
+    "passwordHelperText": "En az 6 karakter, harf, rakam ve @#$%^&*()!'den biri olmalı. Boşluk yok.",
+    "passwordNeedsLetter": "Şifre en az bir harf içermelidir.",
+    "passwordNeedsNumber": "Şifrenizde en az bir rakam bulunmalıdır.",
+    "passwordNeedsSpecial": "Şifre en az bir özel karakter içermelidir: !@#$%^&*()",
+    "passwordNoSpaces": "Şifre boşluk içeremez.",
+    "agreeToTermsModal": "Kayıt olmak için Şartlar ve Koşullar'ı kabul etmeniz gerekmektedir. Buradaki Şartlar ve Koşullar bağlantısına tıklayın.",
+    "agreeToTermsLabel": "Kabul ediyorum",
+    "termsAndConditions": "Şartlar ve koşullar",
+    "register": "Kayıt olmak",
+    "alreadyHaveAccount": "Zaten bir hesabınız var mı?",
+    "login": "Giriş yapmak",
+    "home": "Ev",
+    "emailInUseError": "Bu e-posta adresi zaten kayıtlı. Lütfen giriş yapmayı veya farklı bir e-posta kullanmayı deneyin.",
+    "iAgree": "Kabul ediyorum",
+    "unexpectedError": "Kayıt sırasında beklenmeyen bir hata oluştu. Lütfen tekrar deneyin.",
+    "mustAgreeToTerms": "Kayıt olabilmek için Şartlar ve Koşulları kabul etmeniz gerekmektedir."
+  },
+  "contactPage": {
+    "title": "VirtualMD.app ile iletişime geçin",
+    "subtitle": "Ekibimizle iletişime geçin",
+    "description": "Yapay zeka destekli sağlık danışmanlık hizmetlerimiz hakkında sorularınız mı var? Size yardımcı olmak için buradayız.",
+    "name": "Ad Soyad",
+    "email": "E-posta Adresi",
+    "subject": "Ders",
+    "message": "Mesaj",
+    "send": "Mesaj Gönder",
+    "sending": "Gönderiliyor...",
+    "nameRequired": "İsim gereklidir",
+    "emailRequired": "E-posta gereklidir",
+    "subjectRequired": "Konu gereklidir",
+    "messageRequired": "Mesaj gereklidir",
+    "invalidEmail": "Geçerli bir e",
+    "sendError": "Mesaj gönderilemedi. Lütfen tekrar deneyin.",
+    "sendSuccess": "Mesajınız başarıyla gönderildi! En kısa sürede size geri dönüş yapacağız.",
+    "errorMessage": "Bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
+    "contactInfo": {
+      "title": "İletişim Bilgileri",
+      "address": "123 Sağlık Caddesi, Sağlık Bölgesi, Şehir, Eyalet 12345",
+      "phone": "+1 (555) 123-4567",
+      "email": "info@virtualmd.app",
+      "hours": "Pazartesi - Cuma: 09:00 - 18:00 PST"
+    },
+    "contactUs": "Bize Ulaşın",
+    "contactDescription": "Sorularınız veya geri bildirimleriniz mi var? Sizden haber almak isteriz. Lütfen aşağıdaki formu kullanın.",
+    "directEmail": "Doğrudan e-posta için bizimle iletişime geçin",
+    "yourEmail": "E-posta Adresiniz",
+    "sendMessage": "Mesaj Gönder",
+    "messageSent": "Mesaj Gönderildi!",
+    "home": "Ev",
+    "contactError": "Mesajınız gönderilirken bir hata oluştu. Lütfen daha sonra tekrar deneyin veya",
+    "contactDirectly": "Ayrıca bize doğrudan info@virtualmd.app adresinden e-posta gönderebilirsiniz."
+  },
+  "researchPage": {
+    "title": "Araştırma ve Yayınlar",
+    "subtitle": "Yapay zeka destekli sağlık çözümlerimizin ardındaki bilimi keşfedin",
+    "description": "Platformumuz son teknoloji araştırmalar ve klinik kanıtlar üzerine kuruludur.",
+    "sections": {
+      "publications": "Yayınlar",
+      "clinicalStudies": "Klinik Çalışmalar",
+      "whitepapers": "Beyaz belgeler",
+      "partnerships": "Araştırma Ortaklıkları"
+    },
+    "healthAdvisory": {
+      "title": "Sağlık Danışmanlığı",
+      "description": "Yapay zekanın sağlık hizmetlerinde kullanımı ve insan sağlık hizmeti sağlayıcılarına ne zaman danışılması gerektiği hakkında önemli bilgiler.",
+      "button": "Sağlık Uyarısını Okuyun"
+    },
+    "imagingAI": {
+      "title": "Görüntüleme Yapay Zeka Yardımı",
+      "description": "Yapay zeka destekli tıbbi görüntüleme ve sağlık hizmetlerine etkisine ilişkin kapsamlı teknik incelememizi inceleyin.",
+      "button": "Beyaz Kitabı Okuyun"
+    },
+    "pathologyAI": {
+      "title": "Patoloji Yapay Zeka Yardımı",
+      "description": "Yapay zeka destekli patoloji ve kanser tespitindeki uygulamalarına ilişkin detaylı teknik incelememizi inceleyin.",
+      "button": "Beyaz Kitabı Okuyun"
+    },
+    "dermatologyAI": {
+      "title": "Dermatoloji Yapay Zeka Yardımı",
+      "description": "Dermatolojide cilt lezyonlarının tespiti ve sınıflandırılması için yapay zeka uygulamalarına ilişkin araştırmamız.",
+      "button": "Beyaz Kitabı Okuyun"
+    },
+    "mentalHealthAI": {
+      "title": "Akıl Sağlığı Yapay Zeka İçgörüleri",
+      "description": "Yapay zekanın zihinsel sağlık, teşhis ve tedavi uygulamalarının ilerlemesindeki rolünü derinlemesine inceleyin.",
+      "button": "Beyaz Kitabı Okuyun"
+    },
+    "dataPrivacy": {
+      "title": "Veri Gizliliği Derinlemesine İncelemesi",
+      "description": "Veri işleme uygulamalarımız, güvenlik önlemlerimiz ve HIPAA ile ilgili hususlara ilişkin kapsamlı bir inceleme.",
+      "button": "Beyaz Kitabı Okuyun"
+    },
+    "aiAccuracy": {
+      "title": "Yapay Zeka Doğruluk Çalışmaları",
+      "description": "Tıbbi teşhis ve tedavi önerilerinde yapay zekanın doğruluğuna ilişkin araştırmalarımız hakkında bilgi edinin.",
+      "button": "Çalışmaları Görüntüle"
+    },
+    "aiForLaypeople": {
+      "title": "Sıradan İnsanlar İçin Yapay Zeka Görüntüleme",
+      "description": "Yapay zekanın tıbbi görüntülemeyi nasıl dönüştürdüğüne ve bunun hastalar için ne anlama geldiğine dair basitleştirilmiş bir açıklama.",
+      "button": "Açıklamayı Oku"
+    }
+  },
+  "evidencePage": {
+    "title": "Klinik Kanıtlar",
+    "subtitle": "Yapay zeka sağlık platformumuzu destekleyen hakemli araştırmalar",
+    "description": "Kanıta dayalı tıp yaptığımız her şeyin merkezinde yer alır.",
+    "heading": "Sağlık ve Zindeliğin Geleceğine Öncülük Ediyoruz",
+    "description2": "VirtualMD.app, sağlık ve zindelik alanında devrim niteliğinde bir uygulamadır; en son araştırmalara dayanır ve dönüştürücü bir esenlik tutkusuyla hareket eder. Yapay zekanın kanıtlanmış gücünü ortaya koyarken, kişiselleştirilmiş ve proaktif bir esenlik için yeni yollar açıyoruz. Bu bir uygulamadan çok daha fazlası; yeni bir paradigma. Devrimin bir parçası olun.",
+    "researchHeading": "Temel Araştırma: Yapay Zekanın Kanıtlanmış Yetenekleri",
+    "wellnessHeading": "Sağlıklı Yaşam Devrimi: Yeni Nesillerin Refahına Giden Yolunuz",
+    "researchEvidence": {
+      "radiology": {
+        "title": "Radyolojide Yapay Zeka: Gelişmiş Tespit",
+        "description": "Yapay zeka modelleri, göğüs röntgenlerindeki anormallikleri tespit etmede %92 doğruluk oranına ulaşarak, teşhis hızının ve hassasiyetinin artırılması potansiyelini ortaya koydu.",
+        "citation": "Radyoloji Dergisi, 2023",
+        "explainSimply": "Bunu Basitçe Açıklayın",
+        "tooltip": "Bu makaleyi daha anlaşılır bir dille açıklayan bağlantıya tıklayın."
+      },
+      "pathology": {
+        "title": "Patolojide Yapay Zeka: Gelişmiş Doğruluk",
+        "description": "Yapay zeka destekli tanı, patoloji slaytlarında kötü huylu doku tespitini yalnızca manuel incelemeye kıyasla %15 oranında iyileştirdi.",
+        "citation": "Amerikan Patoloji Dergisi, 2022"
+      },
+      "dermatology": {
+        "title": "Dermatolojide Yapay Zeka: Uzman Düzeyinde Performans",
+        "description": "Büyük ölçekli kör bir çalışmada, yapay zeka görüntülerden cilt kanseri vakalarının %95'ini doğru bir şekilde tespit etti ve bu, deneyimli dermatologların performansıyla eşleşti.",
+        "citation": "JAMA Dermatoloji, 2022"
+      },
+      "mentalHealthResearch": {
+        "title": "Zihinsel Sağlıkta Yapay Zeka: Erken Teşhis Araştırması",
+        "description": "Araştırmalar, yapay zeka sistemlerinin ruhsal sağlık sorunlarının erken uyarı işaretlerini tespit ederek zamanında müdahale ve destek sağladığını gösteriyor.",
+        "citation": "JAMA Psikiyatri, 2021"
+      }
+    },
+    "wellnessInsights": {
+      "personalizedWellness": {
+        "title": "Yapay Zeka Destekli Kişiselleştirilmiş Sağlık Planları",
+        "description": "Yapay zekamızın, tek tip çözümlerin ötesine geçerek, kişisel hedeflerinize ve yaşam tarzınıza özel sağlıklı yaşam yolculukları oluşturmanıza nasıl yardımcı olduğunu keşfedin."
+      },
+      "holisticSignals": {
+        "title": "Yapay Zeka ile Vücudunuzun Benzersiz Sinyallerini Anlamak",
+        "description": "VirtualMD.app'in günlük yaşamınızdaki ince kalıpları yorumlamanıza ve refahınızla daha derin bir bağlantı kurmanıza nasıl yardımcı olduğunu öğrenin."
+      },
+      "proactiveWellbeing": {
+        "title": "Gelecek: Proaktif ve Öngörülü Refah",
+        "description": "Platformumuzun, ihtiyaçlarınızı öngörmenize ve canlılığınızı ve dayanıklılığınızı proaktif olarak artırmanıza yardımcı olmak için ileriye dönük içgörüleri nasıl kullandığını keşfedin."
+      },
+      "aiEnhancedClarity": {
+        "title": "Gelişmiş Farkındalık ve Zihinsel Netlik için Yapay Zeka",
+        "description": "VirtualMD.app'in zihinsel odaklanmayı, duygusal dengeyi ve genel bilişsel sağlığı desteklemek için nasıl araçlar ve bakış açıları sunduğunu görün."
+      }
+    }
+  },
+  "featuresPage": {
+    "title": "Platform Özellikleri",
+    "subtitle": "Kapsamlı yapay zeka destekli sağlık danışmanlığı araçları",
+    "description": "VirtualMD.app'i benzersiz kılan tüm özellikleri keşfedin.",
+    "heading": "Devrimci Yaklaşımımızı Keşfedin",
+    "features": {
+      "instantWellnessInsights": {
+        "title": "Anında Sağlık Bilgileri",
+        "description": "Sağlık sorularınıza ilişkin anında geri bildirim ve anlayışa ihtiyacınız olduğunda her zaman ulaşın."
+      },
+      "holisticWellnessPicture": {
+        "title": "Bütünsel Sağlık Resmi",
+        "description": "Yapay zekamız, girdilerinizin tüm yönlerini (metin, fitness ilerlemenizin görüntüleri veya sağlık günlüğü girişleri) dikkate alarak eksiksiz bir görünüm sunar."
+      },
+      "diverseAIPerspectives": {
+        "title": "Çeşitli Yapay Zeka Perspektifleri",
+        "description": "Her biri kapsamlı bir anlayış için benzersiz içgörüler sunan çeşitli yapay zeka sağlık uzmanlarından yararlanın."
+      },
+      "everEvolvingIntelligence": {
+        "title": "Sürekli Gelişen Zeka",
+        "description": "Platformumuz, size en güncel ve alakalı sağlık tavsiyelerini sunmak için sürekli olarak öğreniyor ve bilgisini geliştiriyor."
+      }
+    }
+  },
+  "clinicianInfoPage": {
+    "title": "Sağlık Profesyonelleri İçin",
+    "subtitle": "Klinik uygulamanızı geliştirmek için yapay zeka destekli araçlar",
+    "description": "Gelişmiş yapay zeka içgörüleriyle uzmanlığınızı artırın."
+  },
+  "healthAdvisoryPage": {
+    "title": "Sağlık Danışmanlığı",
+    "subtitle": "Uzman tıbbi danışmanlarımızla tanışın",
+    "description": "Platformumuzu yönlendiren tıp uzmanları hakkında bilgi edinin.",
+    "sections": {
+      "consultation": {
+        "title": "Her zaman bir İnsan Sağlığı Uzmanına Danışın",
+        "description": "VirtualMD.app'in yapay zeka destekli danışmanlık sistemi değerli sağlık bilgileri sağlasa da, herhangi bir tıbbi endişeniz varsa her zaman kalifiye sağlık hizmeti sağlayıcılarına danışmanız çok önemlidir. Kurul onaylı doktorlarımız, bu sistemi profesyonel tıbbi tavsiyelerin yerini almak yerine, tamamlayıcı nitelikte geliştirmiştir.",
+        "emergencyTitle": "Tıbbi bir acil durumda:",
+        "emergency": {
+          "us": "Amerika Birleşik Devletleri: 911'i arayın",
+          "canada": "Kanada: 911'i arayın",
+          "uk": "Birleşik Krallık: 999 veya 112'yi arayın",
+          "australia": "Avustralya: 000 veya 112'yi arayın",
+          "israel": "İsrail: 101'i arayın ()",
+          "other": "Diğer konumlar: Hemen yerel acil durum servisleriyle iletişime geçin"
+        },
+        "emergencyWarning": "Göğüs ağrısı, nefes almada zorluk, şiddetli kanama, felç belirtileri veya başka ciddi semptomlar yaşıyorsanız beklemeyin. Hemen acil yardım alın."
+      },
+      "technology": {
+        "title": "VirtualMD.app'in Gelişmiş Sağlık Yapay Zeka Teknolojisi",
+        "description1": "VirtualMD.app, Harvard mezunu hekimlerimiz ve yapay zekâ uzmanlarımızdan oluşan ekibimiz tarafından geliştirilen yeni algoritmalar kullanarak olağanüstü doğrulukta sağlık bilgileri sunar. Yapay zekâ sağlık uzmanlarımız, kapsamlı sağlık literatürü, klinik kılavuzlar ve gerçek dünya sağlık senaryoları konusunda eğitim alarak, kurul onaylı uzmanların görüşlerine yakın bilgiler sunar.",
+        "description2": "Sistemimiz, tanısal doğruluk için kontrollü yan yana karşılaştırmalarda, deneyimli klinisyenlerin içgörüleriyle çoğu zaman eşleşen veya onları aşan olağanüstü bir performans göstermiştir. Yapay zekâ uzmanlarımız, binlerce sağlık araştırma makalesini, kılavuzu ve klinik protokolü saniyeler içinde işleyerek, herhangi bir insan sağlık uzmanının tek başına elde edebileceğinin ötesinde bilgilere erişebilir.",
+        "description3": "Olağanüstü doğruluk için çabalıyor ve ekibimiz sistemi sürekli olarak geliştiriyor olsa da, tıp karmaşıktır ve bireysel sağlık durumları benzersizdir. Bu nedenle platformumuzu, insan sağlığı uzmanlarının paha biçilmez uzmanlığının yerini almak yerine, onu zenginleştirmek üzere tasarladık."
+      },
+      "disclaimer": {
+        "title": "Kendi Riskinizle Kullanın",
+        "description": "VirtualMD.app ve yapay zeka sağlık uzmanlarının sağladığı bilgiler yalnızca bilgilendirme ve eğitim amaçlıdır. Bu hizmeti kullanarak şunları kabul etmiş ve onaylamış olursunuz:",
+        "points": {
+          "noDiagnosis": "VirtualMD.app tıbbi teşhis veya tedavi sağlamaz",
+          "mayContainErrors": "Sağlam doğrulama süreçlerimize rağmen yapay zeka tarafından oluşturulan içerikte hatalar veya eksiklikler olabilir",
+          "requiresEvaluation": "Tıbbi tavsiye, lisanslı sağlık hizmeti sağlayıcıları tarafından kişiselleştirilmiş değerlendirme gerektirir",
+          "mayBeOutdated": "Tıbbi bilgi geliştikçe sağlık bilgileri güncelliğini yitirebilir",
+          "uniqueCircumstances": "Benzersiz tıbbi geçmişiniz, rahatsızlıklarınız ve koşullarınız profesyonel değerlendirme gerektirir"
+        },
+        "userResponsibility": "VirtualMD.app değerli tıbbi bilgiler sunmak için gelişmiş teknolojiler kullanırken, kullanıcılar bu bilgileri nasıl kullandıkları konusunda tüm sorumluluğu üstlenirler.",
+        "missionStatement": "VirtualMD.app ekibi, dünya standartlarında tıbbi bilgiye erişimi demokratikleştirmeye ve daha iyi sağlık kararlarını desteklemeye inandığı için bu teknolojiyi geliştirmiştir. Yapay zeka sistemimiz, profesyonel bakımla birlikte doğru kullanıldığında daha bilinçli sağlık seçimleri yapmanıza ve sağlık uzmanlarınızla daha verimli görüşmeler yapmanıza yardımcı olabilecek sağlık bilgi teknolojisinde devrim niteliğinde bir ilerlemeyi temsil etmektedir. Mevcutken böylesine gelişmiş bir teknolojiyi kullanmamak, potansiyel olarak hayatınızı değiştirebilecek tıbbi bilgilere erişim fırsatını kaçırmak anlamına gelir."
+      }
+    }
+  },
+  "patientInfoPage": {
+    "title": "Kullanıcılar İçin",
+    "subtitle": "Kişiselleştirilmiş sağlık rehberliği parmaklarınızın ucunda",
+    "description": "VirtualMD.app'in hastalara nasıl fayda sağladığına dair detaylı bilgiye yakında buradan ulaşabilirsiniz."
+  },
+  "nurseInfoPage": {
+    "title": "Hemşireler İçin",
+    "subtitle": "Yapay zeka destekli hasta bakımı ve klinik karar desteği",
+    "description": "VirtualMD.app'in hemşirelere nasıl fayda sağladığına dair detaylı bilgiye yakında buradan ulaşabilirsiniz."
+  },
+  "pharmacistInfoPage": {
+    "title": "Eczacılar İçin",
+    "subtitle": "İlaç yönetimi ve ilaç etkileşimi içgörüleri",
+    "description": "VirtualMD.app'in eczacılara sağladığı faydalar hakkında detaylı bilgiye yakında buradan ulaşabilirsiniz."
+  },
+  "physicianInfoPage": {
+    "title": "Doktorlar İçin",
+    "subtitle": "Klinik karar desteği ve tanı yardımı",
+    "description": "VirtualMD.app'in hekimlere nasıl fayda sağladığına dair detaylı bilgiye yakında buradan ulaşabilirsiniz."
+  },
+  "medicalImageProcessingPage": {
+    "title": "Sağlık Görüntü Analizi",
+    "subtitle": "Yapay zeka destekli tanısal görüntüleme yorumlaması",
+    "description": "Doğru tıbbi teşhis için gelişmiş görüntü analizi.",
+    "preset": "Ön ayar",
+    "chooseImage": "Resim Seçin",
+    "process": "İşlem",
+    "processedImage": "İşlenmiş Görüntü"
+  },
+  "mentalHealthInfoPage": {
+    "title": "Ruh Sağlığı Desteği",
+    "subtitle": "Yapay zeka destekli ruh sağlığı taraması ve desteği",
+    "description": "VirtualMD.app'in ruh sağlığı uzmanlarına nasıl fayda sağladığına dair detaylı bilgiye yakında buradan ulaşabilirsiniz."
+  },
+  "wellnessPathwaysPage": {
+    "title": "Sağlıklı Yaşam Yolları Rehberi",
+    "subtitle": "Kişiselleştirilmiş sağlık yolculuğu planlaması",
+    "description": "En iyi sağlık ve refaha giden yolunuzu keşfedin."
+  },
+  "yourHealthInYourHandsPage": {
+    "title": "Sağlığınız Sizin Elinizde",
+    "subtitle": "Sağlığınızın kontrolünü ele geçirmenize olanak sağlıyoruz",
+    "description": "Bilinçli sağlık kararları almanıza yardımcı olacak araçlar ve bilgiler.",
+    "mainHeading": "Kontrolü Ele Alın: Sağlığınız, Kararlarınız, Yolculuğunuz",
+    "sections": {
+      "uniqueProfile": {
+        "title": "Benzersiz Profilinizi Anlayın",
+        "description1": "Bireysel sağlık durumunuz hakkında daha derinlemesine bilgi edinin. Platformumuz, noktaları birleştirmenize ve genel canlılığınıza katkıda bulunan faktörleri anlamanıza yardımcı olur.",
+        "description2": "Yaşam tarzınızdan kişisel tercihlerinize kadar refahınızın farklı yönlerini tek bir yerde keşfedin."
+      },
+      "personalizedGoals": {
+        "title": "Kişiselleştirilmiş Hedeflerinizi Belirleyin ve İzleyin",
+        "description1": "Sağlıklı yaşamın *sizin* için ne anlama geldiğini tanımlayın. VirtualMD.app ile anlamlı ve ulaşılabilir hedefler belirleyebilir ve bu süreçteki ilerlemenizi takip edebilirsiniz. Motivasyonunuzu korumanıza ve başarılarınızı kutlamanıza yardımcı olacak araçlar ve destek sağlıyoruz.",
+        "description2": "İster enerji seviyenizi artırmak, ister uykunuzu iyileştirmek, ister zihinsel berraklığınızı artırmak olsun, yolculuğunuz benzersizdir."
+      },
+      "diverseInsights": {
+        "title": "Bilinçli Seçimler İçin Çeşitli Görüşlere Erişim",
+        "description1": "Bilgi güçtür. Platformumuz, çeşitli yapay zeka sağlık rehberlerimizden geniş bir bilgi ve bakış açısı yelpazesine erişim sunar. Sadece tekil gerçeklere değil, kapsamlı bir anlayışa dayalı, güvenilir kararlar alın.",
+        "description2": "Karmaşık sağlık bilgileri dünyasında gezinmenize yardımcı oluyoruz, böylece sizin için doğru olanı seçebilirsiniz."
+      },
+      "proactivePartner": {
+        "title": "Proaktif Refahta Ortağınız",
+        "description1": "VirtualMD.app sadece bir araçtan çok daha fazlasıdır; sağlığınızla proaktif ve olumlu bir ilişki kurmanızda size yardımcı olmak için buradayız. Kaynaklar, içgörüler ve kişisel sağlığa devrim niteliğinde bir yaklaşımla sizi desteklemek için buradayız.",
+        "description2": "Kendi hayatınızda devrim yaratın. Güçlendirilmiş sağlıklı yaşam yolculuğunuza bugün başlayın."
+      }
+    },
+    "callToAction": {
+      "title": "Sağlığınızı kendi ellerinize almaya hazır mısınız?",
+      "description": "Özelliklerimizi keşfedin, yapay zeka sağlıklı yaşam rehberlerimizle sohbet edin ve VirtualMD.app'in yaratabileceği farkı keşfedin.",
+      "buttons": {
+        "tryAsGuest": "Misafir olarak deneyin"
+      }
+    }
+  },
+  "aboutEncyclopediaPage": {
+    "title": "VirtualMD.app Sağlık ve Zindelik Ansiklopedisi",
+    "p1": "Günümüzün dijital dünyasında, sağlık bilgileri parmaklarımızın ucunda; ancak güvenilir tavsiyeleri yanlış bilgilerden ayırmak zor olabilir.",
+    "p2": "VirtualMD.app Ansiklopedisi, gürültüyü keserek sağlığınızla etkileşim kurmanın devrim niteliğinde bir yolunu sunar. Platformumuza benzersiz bir şekilde entegre edilen bu ansiklopedi, yapay zeka uzmanlarımızdan oluşan ekibimizle canlı konsültasyonunuzdan ayrılmadan saygın tıp dergilerinden derinlemesine, referanslı bilgilere erişmenizi sağlar.",
+    "p3": "Bu sadece bir arama motoru değil; bir konuşma sırasında güvendiğiniz bir kaynak olmak üzere tasarlanmış, özel olarak eğitilmiş bir \"derin araştırma\" bileşenidir.",
+    "p4": "Yapay zeka kardiyolog ve beslenme uzmanımızla kolesterol yönetimini tartıştığınızı hayal edin. \"Statinler\" terimi geçiyor ve siz sadece temel bilgileri değil, daha fazlasını anlamak istiyorsunuz. Konuşmanıza ara verip internette arama yapmak yerine, VirtualMD.app Ansiklopedisi'ne anında erişebilirsiniz. Ansiklopedi, statinlerin nasıl çalıştığı, faydaları ve olası yan etkileri hakkında kapsamlı ve anlaşılır bir özet sunacak ve tüm bilgiler The Lancet veya New England Journal of Medicine gibi hakemli yayınlardan alınmıştır."
+  },
+  "dataPrivacyPage": {
+    "title": "Veri Gizliliği ve Güvenliği",
+    "subtitle": "Sağlık verileriniz en yüksek güvenlik standartlarıyla korunmaktadır",
+    "description": "Kişisel sağlık bilgilerinizi nasıl güvende tuttuğumuzu öğrenin."
+  },
+  "encyclopediaPage": {
+    "title": "VirtualMD.app Ansiklopedisi",
+    "subtitle": "Kapsamlı tıbbi bilgi parmaklarınızın ucunda",
+    "description": "Tıbbi durumlar, tedaviler ve sağlık bilgileri içeren kapsamlı veritabanımızı keşfedin.",
+    "mainHeading": "VirtualMD.app Ansiklopedisi",
+    "p1": "VirtualMD.app Ansiklopedisine hoş geldiniz - tıbbi bilgiye dair kapsamlı rehberiniz.",
+    "p2": "Ansiklopedimizde sağlık konuları, rahatsızlıkları ve tedavileri hakkında geniş bir yelpazede bilgi bulabilirsiniz.",
+    "exampleTitle": "Öne Çıkan Konular",
+    "exampleText": "En popüler sağlık konularımızı ve tıbbi durumlarımızı keşfedin.",
+    "uniqueTitle": "Bizi Benzersiz Kılan Nedir?",
+    "p3": "Yapay zeka destekli ansiklopedimiz kişiselleştirilmiş, kanıta dayalı sağlık bilgileri sağlar."
+  },
+  "whyVirtualMDPage": {
+    "title": "Neden VirtualMD.app?",
+    "subtitle": "Kişiselleştirilmiş sağlık hizmetlerinin geleceği burada",
+    "description": "Yapay zeka destekli sağlık platformumuzu benzersiz kılan özellikleri keşfedin."
+  },
+  "landing": {
+    "tryItOut": "Deneyin",
+    "cards": {
+      "tryItOut": {
+        "tagline": "Kayıt olmanıza gerek yok."
+      }
+    }
+  },
+  "legalPage": {
+    "title": "Yasal Bilgiler",
+    "subtitle": "Hizmet Şartları, Gizlilik Politikası ve Yasal Uyarılar",
+    "description": "VirtualMD.app kullanımı hakkında önemli yasal bilgiler."
+  },
+  "legal": {
+    "eligibility": {
+      "ageRequirement": "VirtualMD.app Hizmetini kullanmak için, en az 18 yaşında veya yargı bölgenizdeki reşit olma yaşında olmanız gerekir (hangisi daha büyükse). Hizmeti bir kuruluş adına kullanıyorsanız, söz konusu kuruluşu bu Şartlar'a bağlama yetkisine sahip olduğunuzu beyan ve garanti eder ve söz konusu kuruluş adına bu Şartlar'a bağlı kalmayı kabul edersiniz.",
+      "legalCapacity": "Ayrıca, bu Şartları kabul etmek için yasal ehliyete sahip olmanız gerekmektedir. Yürürlükteki yasalar uyarınca hizmet almanız yasaklanmışsa veya daha önce VirtualMD tarafından Hizmetten askıya alınmış veya çıkarılmışsanız, Hizmete erişemez veya Hizmeti kullanamazsınız.",
+      "territorialRestrictions": "İçeriğinin veya kullanımının yasa dışı olduğu bölgelerden Hizmete erişim kesinlikle yasaktır. Kullanıcılar, çevrimiçi davranış ve kabul edilebilir içerikle ilgili olanlar da dahil olmak üzere, Hizmetin kullanımıyla ilgili tüm yerel kurallara, yasalara ve düzenlemelere uymaktan sorumludur."
+    },
+    "feesAndPayment": {
+      "currentlyFree": "Şu anda VirtualMD.app Hizmetinin temel özelliklerine erişim ücretsiz olarak sağlanmaktadır.",
+      "futureFeesNotice": "VirtualMD, gelecekte belirli özellikler, hizmet katmanları veya Hizmet'in tamamı için ücret uygulama hakkını saklı tutar. Ücret uygulamamız halinde, bu değişiklikler ve geçerli ödeme koşulları hakkında sizi önceden bilgilendireceğiz. Bu tür bir bildirimden sonra ücretli hizmetleri kullanmaya devam etmeniz, geçerli ücretleri ödemeyi kabul ettiğiniz anlamına gelir.",
+      "paymentTerms": "Ücretli bir hizmeti kullanma veya kaydolma sürecinde size sunulan tüm ödeme koşulları, bu Koşulların bir parçası olarak kabul edilir."
+    },
+    "termination": {
+      "userTermination": "Hizmet içindeki talimatları izleyerek veya bizimle iletişime geçerek hesabınızı sonlandırabilir ve Hizmeti kullanmayı bırakabilirsiniz.",
+      "serviceTermination": "VirtualMD, kendi takdirine bağlı olarak, bu Şartlar'ın ihlali de dahil olmak üzere, herhangi bir nedenle, bildirimde bulunarak veya bulunmaksızın, Hizmet'in tamamına veya bir kısmına erişiminizi askıya alabilir veya sonlandırabilir. Sonlandırma nedenleri arasında, ancak bunlarla sınırlı olmamak üzere, uzun süreli hareketsizlik, kolluk kuvvetleri veya diğer resmi kurumların talepleri, Hizmet'in durdurulması veya önemli ölçüde değiştirilmesi veya beklenmedik teknik veya güvenlik sorunları yer alabilir.",
+      "effectOfTermination": "Fesih halinde, Hizmeti kullanma hakkınız derhal sona erecektir. Nitelikleri gereği fesih sonrasında da geçerliliğini koruması gereken Şartlar'ın tüm hükümleri, mülkiyet hükümleri, garanti feragatnameleri, tazminat ve sorumluluk sınırlamaları dahil ancak bunlarla sınırlı olmamak üzere, fesih sonrasında da geçerliliğini koruyacaktır.",
+      "noLiability": "Hizmete erişiminizin herhangi bir şekilde sonlandırılmasından dolayı size veya herhangi bir üçüncü tarafa karşı sorumlu olmayacağız."
+    },
+    "termsOfUse": {
+      "title": "Kullanım Şartları",
+      "header": {
+        "company": "VirtualMD.app Web Sitesi",
+        "llc": "VirtualMD Teknolojileri LLC"
+      },
+      "welcome": "VirtualMD Technologies, LLC (\"VirtualMD\", \"biz\", \"bizi\", \"bizim\") tarafından işletilen VirtualMD.app'e (\"Hizmet\", \"Site\") hoş geldiniz. Bu Kullanım Koşulları (\"Koşullar\"), web sitemize, yapay zeka karakterlerine, içeriklerimize ve hizmetlerimize erişiminizi ve kullanımınızı düzenler. Hizmete erişerek veya Hizmeti kullanarak, bu Koşullara ve buraya atıfta bulunularak dahil edilen Gizlilik Politikamıza bağlı kalmayı kabul etmiş olursunuz. Bu Koşulları kabul etmiyorsanız, Hizmeti kullanmayın.",
+      "sections": {
+        "section1": {
+          "title": "Veri Gizliliği Sözümüz",
+          "content": "VirtualMD.app'te kişisel bilgilerinizin gizliliği ve güvenliği en önemli önceliğimizdir. Bize emanet ettiğiniz verilerin gizliliğini ve bütünlüğünü korumayı taahhüt ediyoruz. Platformumuz, bilgilerinizi yetkisiz erişim, ifşa, değişiklik ve imhaya karşı korumak için sağlam güvenlik önlemleriyle tasarlanmıştır.",
+          "subsections": {
+            "": {
+              "content": "İyileştirme Amaçlı Anonimleştirilmiş Veriler:\nYapay zeka modellerimizin ve platform özelliklerimizin doğruluğunu, etkinliğini ve güvenliğini artırmak için titizlikle anonimleştirilmiş ve toplanmış veriler (tüm kişisel olarak tanımlanabilir bilgiler (PII) çıkarılmış olarak) kullanıyoruz. Bu, herhangi bir kullanıcının kimliğinin tespit edilmesine izin vermez."
+            }
+          }
+        },
+        "section2": {
+          "title": "Topladığımız Bilgiler ve Diğer Gizlilik Ayrıntıları",
+          "content": "Topladığımız Bilgiler\nDoğrudan bize sağladığınız bilgileri, Hizmeti kullanımınız aracılığıyla otomatik olarak topladığımız bilgileri ve üçüncü taraf kaynaklardan gelen bilgileri topluyoruz.\n\nHesap Bilgileri: Kayıt olduğunuzda adınız, e-posta adresiniz ve telefon numaranız (kimlik doğrulama amacıyla) gibi bilgileri topluyoruz.\nKullanıcı İçeriği: Hizmeti kullanırken sağladığınız bilgileri, sohbet arayüzlerine girilen metinler, profil bilgileri (sağlanmışsa ilaç listeleri gibi) ve geri bildirimler dahil olmak üzere topluyoruz.\nKullanım Bilgileri: IP adresi, tarayıcı türü, cihaz bilgileri, işletim sistemi, görüntülenen sayfalar, tıklanan bağlantılar ve ziyaretlerinizin tarihleri ve saatleri gibi Hizmetle etkileşimleriniz hakkında otomatik olarak bilgi topluyoruz.\nÇerezler ve Benzeri Teknolojiler: Hizmetimizdeki etkinliği izlemek ve belirli bilgileri saklamak için çerezler ve benzeri izleme teknolojileri kullanıyoruz. Tarayıcınıza tüm çerezleri reddetmesi veya bir çerez gönderildiğinde bunu belirtmesi talimatını verebilirsiniz. Ancak, çerezleri kabul etmezseniz, Hizmetimizin bazı bölümlerini kullanamayabilirsiniz.\n\nBilgileri Nasıl Kullanıyoruz?\nTopladığımız bilgileri çeşitli amaçlar için kullanıyoruz. Bunlar arasında şunlar yer alır:\n\nHizmeti sağlamak, işletmek, sürdürmek ve iyileştirmek.\nİşlemleri gerçekleştirmek ve onaylar ve faturalar (varsa) dahil olmak üzere ilgili bilgileri göndermek.\nTeknik bildirimler, güncellemeler, güvenlik uyarıları ve destek ve idari mesajlar göndermek.\nYorumlarınıza, sorularınıza ve taleplerinize yanıt vermek ve müşteri hizmetleri sağlamak.\nVirtualMD ve diğerleri tarafından sunulan ürünler, hizmetler, teklifler, promosyonlar, ödüller ve etkinlikler hakkında sizinle iletişim kurmak ve ilginizi çekebileceğini düşündüğümüz haber ve bilgileri sağlamak (vazgeçme haklarınıza tabidir).\nHizmetimizle bağlantılı eğilimleri, kullanımları ve etkinlikleri izlemek ve analiz etmek.\nDolandırıcılık amaçlı işlemleri ve diğer yasa dışı faaliyetleri tespit etmek, araştırmak ve önlemek ve VirtualMD ve diğerlerinin haklarını ve mülkiyetini korumak.\nHizmeti kişiselleştirmek ve iyileştirmek ve kullanıcı profillerine veya ilgi alanlarına uygun içerik veya özellikler sağlamak.\nAnonimleştirilmiş ve toplu veriler kullanarak yapay zeka modellerimizin ve platform özelliklerimizin doğruluğunu, etkinliğini ve güvenliğini artırmak. Bilgiler toplanırken size açıklanan diğer amaçları gerçekleştirmek.\n\nBilgileri Nasıl Paylaşıyoruz?\n\nTedarikçiler ve Hizmet Sağlayıcılarla: Adımıza iş yapmak için bu bilgilere erişmesi gereken üçüncü taraf tedarikçiler, danışmanlar ve diğer hizmet sağlayıcılarla (örneğin, barındırma sağlayıcıları, analiz sağlayıcıları, ödeme işlemcileri, veri kullanım politikalarımıza göre yapılandırılmış yapay zeka API sağlayıcıları) bilgi paylaşabiliriz.\nYasal İşlemlere Yanıt Olarak: Yasalarca zorunlu kılınması veya yasal bir yükümlülüğe uymak, VirtualMD'nin haklarını veya mülkünü korumak ve savunmak, Hizmetle bağlantılı olası bir suistimali önlemek veya soruşturmak, Hizmet kullanıcılarının veya kamuoyunun kişisel güvenliğini korumak veya yasal sorumluluğa karşı korumak için gerekli olduğuna iyi niyetle inanmamız halinde bilgileri ifşa edebiliriz.\nOnayınızla: Onayınızla veya talimatınız doğrultusunda bilgi paylaşabiliriz.\nİşletme Devirleri: Herhangi bir birleşme, şirket varlıklarının satışı, finansmanı veya işletmemizin tamamının veya bir kısmının başka bir şirket tarafından satın alınmasıyla bağlantılı olarak veya bu tür müzakereler sırasında bilgi paylaşabilir veya devredebiliriz. Toplu veya Kimliği Gizlenmiş Veriler: Sizi tanımlamak için makul bir şekilde kullanılamayacak toplu veya kimliği gizlenmiş bilgileri paylaşabiliriz.\n\nGizlilik Tercihleriniz\nHesap Bilgileri: Hesabınıza giriş yaparak veya bizimle iletişime geçerek hakkınızdaki bilgileri istediğiniz zaman güncelleyebilir, düzeltebilir veya silebilirsiniz. Hesabınızı silmek isterseniz lütfen bizimle iletişime geçin, ancak yasaların gerektirdiği veya meşru ticari amaçlar doğrultusunda belirli bilgileri saklayabileceğimizi unutmayın.\nVeri Silme: Güvenlik Uygulamaları bölümünde belirtildiği gibi, bireysel görüşmeleri veya tüm hesabınızı kalıcı olarak silmek için araçlarınız mevcuttur.\nÇerezler: Çoğu web tarayıcısı varsayılan olarak çerezleri kabul edecek şekilde ayarlanmıştır. İsterseniz, tarayıcınızı çerezleri kaldıracak veya reddedecek şekilde ayarlayabilirsiniz.\nTanıtım İletişimleri: VirtualMD'den gelen tanıtım e-postalarını, bu e-postalardaki talimatları izleyerek devre dışı bırakabilirsiniz. Devre dışı bıraksanız bile, hesabınız veya devam eden iş ilişkilerimizle ilgili olanlar gibi tanıtım amaçlı olmayan iletişimler göndermeye devam edebiliriz.\n\nVeri Saklama\nHakkınızda topladığımız bilgileri, başlangıçta topladığımız amaç(lar) veya yasal, düzenleyici veya diğer uyumluluk yükümlülüklerimizi yerine getirmek de dahil olmak üzere diğer meşru ticari amaçlar için gerekli olduğu sürece saklarız. Hesap bilgilerinizi, hesabınız aktif olduğu sürece ve sonrasında Hizmeti yeniden etkinleştirmeye karar vermeniz durumunda makul bir süre boyunca saklarız. Sistem iyileştirmeleri için kullanılan anonimleştirilmiş ve toplu veriler süresiz olarak saklanabilir.\n\nUluslararası Veri Aktarımları\nVirtualMD, Amerika Birleşik Devletleri merkezlidir ve bilgileri ABD'de işler ve saklarız. Amerika Birleşik Devletleri dışındaysanız, topladığımız bilgilerin Amerika Birleşik Devletleri'ne aktarılacağını, orada işleneceğini ve saklanacağını lütfen unutmayın. ABD'deki veri koruma yasaları, ikamet ettiğiniz ülkenin yasalarından farklı olabilir. Hizmeti kullanarak, bilgilerinizin ABD'ye aktarılmasına ve bu Gizlilik Politikası'nda açıklandığı şekilde kullanılmasına ve ifşa edilmesine izin vermiş olursunuz.\n\nÇocukların Gizliliği\nVirtualMD.app Hizmeti yetişkinlere yöneliktir ve 13 yaşın (veya bulunduğunuz bölgedeki ilgili dijital reşit olma yaşının) altındaki çocuklara yönelik değildir. Çocuklardan bilerek kişisel bilgi toplamıyoruz. Hizmetin çocuklar tarafından kullanılması yasaktır. Ebeveyn veya veliyseniz ve çocuğunuzun izniniz olmadan bize hukuka aykırı olarak bilgi sağladığına inanıyorsanız, lütfen hemen legal@virtualmd.app adresinden bizimle iletişime geçin. Yürürlükteki yasaları ihlal ederek bir çocuktan bilgi topladığımızı tespit edersek, bu bilgileri silmek için derhal harekete geçeceğiz.",
+          "subsections": {
+            "wemayshareinformationaboutyouasfollowsorasotherwisedescribedinthisprivacypolicy": {
+              "title": "Hakkınızdaki bilgileri aşağıdaki şekilde veya bu Gizlilik Politikasında aksi şekilde açıklandığı şekilde paylaşabiliriz"
+            }
+          }
+        },
+        "section3": {
+          "title": "Veri Güvenliğine İlişkin Sorumluluğun Sınırlandırılması",
+          "content": "VirtualMD, Hizmete sağladığınız bilgileri korumak için şifreleme ve kimlik doğrulama protokolleri (Gizlilik Politikamızda ayrıntılı olarak açıklandığı gibi) dahil olmak üzere ticari açıdan makul güvenlik önlemleri uygular. Ancak hiçbir güvenlik sistemi aşılamaz değildir.\n\nBu nedenle, bu Siteyi kullanarak, VirtualMD'nin verilerinizi standart iş uygulamalarına uygun olarak korumak için makul çaba göstereceğini, ancak BİLGİLERİNİZİN MUTLAK GÜVENLİĞİNİ GARANTİ ETMEDİĞİMİZİ açıkça kabul ve beyan edersiniz. VirtualMD TECHNOLOGIES, LLC, BAĞLI KURULUŞLARI, YÖNETİCİLERİ, YÖNETİCİLERİ, ÇALIŞANLARI, TEMSİLCİLERİ VEYA LİSANS VERENLERİNİ, bilgilerinizin yetkisiz erişimi, kullanımı, ifşası, değiştirilmesi veya imhasından (veri ihlalleri dahil) kaynaklanan veya bunlarla bağlantılı herhangi bir hasar, kayıp, maliyet veya masraftan sorumlu tutamayacağınızı ve tutmayacağınızı kabul edersiniz. Hizmeti kullanmanız, bu riski kabul ettiğiniz anlamına gelir."
+        },
+        "section4": {
+          "title": "Genel Sorumluluk Sınırlaması",
+          "content": "UYGULANABİLİR YASALARIN İZİN VERDİĞİ EN GENİŞ ÖLÇÜDE, VirtualMD TECHNOLOGIES, LLC, BAĞLI KURULUŞLARI, YÖNETİCİLERİ, YÖNETİCİLERİ, ÇALIŞANLARI, TEMSİLCİLERİ VEYA LİSANS VERENLERİ, HİÇBİR DURUMDA, DOĞRUDAN VEYA DOLAYLI OLARAK MEYDANA GELEN HERHANGİ BİR DOLAYLI, ARIZİ, ÖZEL, SONUÇ OLARAK ORTAYA ÇIKAN VEYA CEZAİ ZARARDAN VEYA HERHANGİ BİR KÂR VEYA GELİR KAYBINDAN VEYA VERİ, KULLANIM, ŞEREF VEYA DİĞER SOMUT OLMAYAN KAYIPLARDAN SORUMLU TUTULAMAZ:\n\nHİZMETE ERİŞİMİNİZ VEYA HİZMETİ KULLANMANIZ YA DA ERİŞEMEMİZ VEYA HİZMETİ KULLANAMAMANIZ;\nHİZMET ÜZERİNDEKİ HERHANGİ BİR ÜÇÜNCÜ TARAFIN HERHANGİ BİR DAVRANIŞI VEYA İÇERİĞİ, DİĞER KULLANICILARIN VEYA ÜÇÜNCÜ TARAFLARIN HERHANGİ BİR İFTİRA EDİCİ, SALDIRGAN VEYA YASADIŞI DAVRANIŞI DAHİL ANCAK BUNLARLA SINIRLI OLMAMAK ÜZERE; HİZMETTEN ELDE EDİLEN HERHANGİ BİR İÇERİK; VEYA\nİLETİMLERİNİZE VEYA İÇERİĞİNİZE YETKİSİZ ERİŞİM, KULLANIM VEYA DEĞİŞİKLİK (VERİ İHLALLERİ DAHİL), VirtualMD BU ŞARTLARDA VE GİZLİLİK POLİTİKASINDA BELİRTİLEN MAKUL GÜVENLİK ÖNLEMLERİNİ UYGULAMIŞ OLSA BİLE. YASALARIN İZİN VERDİĞİ EN GENİŞ ÖLÇÜDE, VirtualMD, SATILABİLİRLİK, BELİRLİ BİR AMACA UYGUNLUK, MÜLKİYET VE İHLAL ETMEME GARANTİLERİ DAHİL ANCAK BUNLARLA SINIRLI OLMAMAK ÜZERE, AÇIK VEYA ZIMNİ TÜM GARANTİLERİ REDDEDER.\n\nHİÇBİR DURUMDA VirtualMD VE BAĞLI KURULUŞLARININ TOPLAM SORUMLULUĞU, YÜZ ABD DOLARINI (100,00 ABD DOLARI) VEYA TALEP OLUŞTURAN HİZMETLER İÇİN GEÇTİĞİNİZ ALTI AY İÇİNDE VirtualMD'YE ÖDEDİĞİNİZ TUTARI (VARSA) AŞMAYACAKTIR.\n\nYukarıda belirtilen toplam sorumluluk sınırına tabi olarak ve bu Şartlar'ın diğer hükümlerine bakılmaksızın, bu Şartlar veya Hizmet'ten kaynaklanan veya bunlarla ilgili herhangi bir talep için tek ve münhasır çözüm yolunuz, fiilen maruz kaldığınız doğrudan zararların tazmini ile sınırlı olacaktır. Bu tür doğrudan zararlar, olaydan hemen önceki altı (6) ay içinde talebe yol açan Hizmet'in belirli kısmı için doğrudan VirtualMD'ye ödediğiniz ücretler olarak tanımlanır ve yalnızca bu tür zararların doğrudan VirtualMD'nin bu Şartlar kapsamındaki yükümlülüklerini yerine getirirken kanıtlanmış kasıtlı suistimali veya ağır ihmalinden kaynaklandığı ölçüde tazmin edilebilir. Açıklık getirmek gerekirse, VirtualMD, bağlı kuruluşları, hissedarları, yöneticileri, müdürleri, çalışanları ve temsilcileri, sorumluluk teorisine bakılmaksızın, bu Şartlar'ın veya haklarınızın ihlalinden kaynaklansa bile, dolaylı, arızi, özel, sonuçsal veya cezai zararlardan, avukatlık ücretlerinden veya masraflardan, yürürlükteki yasaların feragat edilemez hükümleri tarafından yasaklanmadığı sürece sorumlu tutulamaz.\n\nBU ALT BÖLÜMÜN SINIRLAMALARI, GARANTİ, SÖZLEŞME, KANUN, HAKSIZ FİİL (İHMAL DAHİL) VEYA BAŞKA BİR ŞEKİLDE DAYALI OLSUN VEYA OLMASIN, VirtualMD'NİN BU TÜR BİR ZARAR OLASILIĞI KONUSUNDA BİLGİLENDİRİLMİŞ OLSUN OLMASIN VE BURADA BELİRTİLEN BİR ÇÖZÜMÜN ESAS AMACINI YERİNE GETİREMEMİŞ OLMASI HALİNDE BİLE, HERHANGİ BİR SORUMLULUK TEORİSİNE UYGULANACAKTIR.\n\nBAZI YARGI BÖLGELERİ, BELİRLİ GARANTİLERİN HARİÇ TUTULMASINA VEYA ARIZİ VEYA DOLAYLI ZARARLAR İÇİN SORUMLULUĞUN SINIRLANDIRILMASINA VEYA HARİÇ TUTULMASINA İZİN VERMEZ. BU NEDENLE, YUKARIDAKİ SINIRLAMALARIN BAZILARI SİZİN İÇİN GEÇERLİ OLMAYABİLİR."
+        },
+        "section5": {
+          "title": "VirtualMD.app'in Güvenlik Uygulamaları",
+          "content": "Çok katmanlı bir güvenlik stratejisi kullanıyoruz:\n\nİki Faktörlü Kimlik Doğrulama (2FA):\nTüm hesaplar için zorunludur ve ikinci bir faktör (örneğin, e-postaya/telefona kod) aracılığıyla doğrulama gerektirir.\n\nÜç Faktörlü Kimlik Doğrulama (3FA) Seçeneği:\nŞifre, e-posta kodu VE SMS kodu gerektiren isteğe bağlı gelişmiş güvenlik.\n\nBu önlemler güçlü bir hesap güvenliği sağlar, ancak hiçbir sistemin %100 güvenli olmadığını unutmayın.",
+          "subsections": {
+            "": {
+              "content": "Erişim Kontrolleri:\nPersonelin kullanıcı veritabanı kayıtlarına erişimi sıkı bir şekilde kontrol edilir, sınırlandırılır, kaydedilir ve şirket içi politikalar tarafından yönetilir. Rutin tarama yasaktır."
+            }
+          }
+        },
+        "section6": {
+          "title": "VirtualMD.app ve HIPAA Hususları (Tekrar)",
+          "content": "Yasal Uyarılar'da belirtildiği gibi, genel VirtualMD.app hizmeti, belirli bir BAA olmadan PHI içeren Kapsamlı Kuruluş/İş Ortağı kullanım durumları için HIPAA uyumlu DEĞİLDİR. Güçlü güvenlik uygulamamıza rağmen, genel hizmetimiz Kapsamlı Kuruluşlar tarafından yönetilen PHI için HIPAA Güvenlik Kuralı'nın özel gerekliliklerine göre değil, standart iş güvenliği uygulamaları kapsamında çalışır.\n\nYönettikleri PHI için sıkı HIPAA uyumluluğu gerektiren kullanıcılar, BAA olmadan genel platformumuzu bu tür amaçlar için kullanmamalıdır. Kullanıcılar, platformun söz konusu kullanım için HIPAA uyumlu olmadığını onaylayan açık ve bilgilendirilmiş onay olmadan, HIPAA'yı ihlal eden bir bağlamda bireysel hastalara kadar izlenebilir bilgiler girmemelidir."
+        },
+        "section7": {
+          "title": "Üçüncü Taraf Yapay Zeka Motoru Sağlayıcıları Tarafından Veri Kullanımı",
+          "content": "VirtualMD, önde gelen yapay zeka modeli sağlayıcılarıyla (örneğin OpenAI, Anthropic, Google) entegredir.\n\nVirtualMD.app:\nDahili sistem iyileştirmeleri için yalnızca anonimleştirilmiş, toplu veriler kullanırız.\n\nÜçüncü Taraf Yapay Zeka API Sağlayıcıları:\nAPI aracılığıyla erişilen büyük sağlayıcılar (OpenAI, Anthropic gibi), genellikle politikalarında API aracılığıyla gönderilen verilerin genel temel modellerini eğitmek için KULLANILMADIĞINI belirtir. Bu hizmetlerin kullanımını, bu gizlilik koruma seçenekleriyle uyumlu olacak şekilde yapılandırıyoruz. Ayrıntılar için ilgili politikalarını inceleyin.\n\nDiğer Yasal Hükümler\nBu Şartlar ve Politikada Yapılan Değişiklikler\nVirtualMD, tamamen kendi takdirine bağlı olarak, bu Şartları ve dahil edilen Gizlilik Politikasını herhangi bir zamanda değiştirme veya değiştirme hakkını saklı tutar. Bir değişiklik önemliyse, yeni şartların yürürlüğe girmesinden en az 30 gün önce bildirimde bulunacağız. Bu bildirim, hesabınızla ilişkili adrese e-posta yoluyla veya Hizmette bir bildirim yayınlayarak sağlanabilir.\n\nNeyin önemli bir değişiklik teşkil ettiği tamamen kendi takdirimize bağlı olarak belirlenecektir.\n\nHerhangi bir değişiklik yürürlüğe girdikten sonra Hizmetimize erişmeye veya Hizmetimizi kullanmaya devam ederek, değiştirilmiş şartlara bağlı kalmayı kabul etmiş olursunuz. Yeni şartları kabul etmezseniz, Hizmeti kullanma yetkiniz artık yoktur ve kullanımı derhal sonlandırmalısınız.\n\nBu Şartları düzenli olarak değişiklikler açısından kontrol etmek sizin sorumluluğunuzdadır.\n\nFesih\nHizmet içindeki talimatları izleyerek veya bizimle iletişime geçerek hesabınızı sonlandırabilir ve Hizmeti kullanmayı istediğiniz zaman bırakabilirsiniz.\n\nVirtualMD, tamamen kendi takdirine bağlı olarak, bu Şartların ihlali de dahil olmak üzere, ancak bunlarla sınırlı olmamak üzere, herhangi bir nedenle, bildirimde bulunarak veya bulunmaksızın, Hizmetin tamamına veya bir kısmına erişiminizi askıya alabilir veya sonlandırabilir. Fesih nedenleri arasında, uzun süreli hareketsizlik, kolluk kuvvetleri veya diğer devlet kurumlarının talepleri, Hizmetin durdurulması veya önemli ölçüde değiştirilmesi veya beklenmedik teknik veya güvenlik sorunları yer alabilir, ancak bunlarla sınırlı değildir.\n\nFesih durumunda, Hizmeti kullanma hakkınız derhal sona erer. Nitelikleri gereği fesih sonrasında da geçerli olması gereken Şartların tüm hükümleri, mülkiyet hükümleri, garanti feragatnameleri, tazminat ve sorumluluk sınırlamaları dahil ancak bunlarla sınırlı olmamak üzere, fesih sonrasında da geçerliliğini korur.\n\nHizmete erişiminizin herhangi bir şekilde sonlandırılmasından dolayı size veya herhangi bir üçüncü tarafa karşı sorumlu olmayacağız.\n\nUygulanacak Hukuk ve Uyuşmazlıkların Çözümü\nBu Şartlar ve Hizmeti kullanımınız, kanunlar ihtilafı ilkeleri dikkate alınmaksızın, Amerika Birleşik Devletleri, Massachusetts Eyaleti yasalarına tabi olacak ve bu yasalara göre yorumlanacaktır.\n\nBu Şartlar veya Hizmetten doğan veya bunlarla ilgili her türlü yasal işlem veya yargılamanın, yalnızca ABD, Massachusetts, Suffolk County'de bulunan federal veya eyalet mahkemelerinde açılacağını kabul edersiniz. Bu mahkemelerin münhasır yargı yetkisini ve yerini kabul eder ve uygunsuz mahkemeye ilişkin her türlü itirazdan feragat edersiniz.\n\nVirtualMD, kendi takdirine bağlı olarak, yorumlanması, ihlali, geçersizliği, ifa edilmemesi veya feshedilmesinden kaynaklanan veya bunlarla ilgili anlaşmazlıklar da dahil olmak üzere, bu Şartların veya Hizmetin kullanımından doğan tüm anlaşmazlıkları, Massachusetts yasalarını uygulayan Amerikan Tahkim Derneği Tahkim Kuralları uyarınca nihai ve bağlayıcı tahkime götürmenizi isteyebilir.\n\nİletişim Bilgileri\nBu Şartlar veya Gizlilik Politikası hakkında herhangi bir sorunuz varsa, lütfen legal@virtualmd.app adresinden veya Bize Ulaşın sayfamız aracılığıyla bizimle iletişime geçin.\n\nÇeşitli\nSözleşmenin Tamamı\nBu Şartlar ve Gizlilik Politikamız, Hizmet ile ilgili olarak sizinle VirtualMD Technologies, LLC arasında varılan tek ve tam sözleşmeyi oluşturur ve Hizmet ile ilgili olarak daha önceki ve eş zamanlı tüm yazılı ve sözlü mutabakatların, sözleşmelerin, beyanların ve garantilerin yerine geçer.\n\nBölünebilirlik\nBu Şartların herhangi bir hükmünün yetkili bir mahkeme veya başka bir mahkeme tarafından herhangi bir nedenle geçersiz, yasa dışı veya uygulanamaz olduğuna karar verilmesi halinde, söz konusu hüküm, Şartların geri kalan hükümlerinin tam olarak yürürlükte kalmasını sağlayacak şekilde kaldırılacak veya asgari ölçüde sınırlandırılacaktır.\n\nFeragat\nVirtualMD'nin bu Şartlar'da belirtilen herhangi bir hüküm veya koşuldan feragat etmesi, söz konusu hüküm veya koşuldan veya başka herhangi bir hüküm veya koşuldan daha fazla veya sürekli olarak feragat edildiği anlamına gelmez ve VirtualMD'nin bu Şartlar kapsamındaki bir hakkı veya hükmü ileri sürmemesi, söz konusu hak veya hükümden feragat edildiği anlamına gelmez.\n\nAtama\nBu Şartlar ve bu kapsamda verilen tüm haklar ve lisanslar sizin tarafınızdan devredilemez veya temlik edilemez, ancak VirtualMD tarafından herhangi bir kısıtlama olmaksızın temlik edilebilir.\n\nBaşlıklar\nBu belgede kullanılan bölüm başlıkları yalnızca kolaylık sağlamak amacıyla verilmiştir ve herhangi bir yasal öneme sahip değildir.\n\nMücbir Sebep\nVirtualMD, mekanik, elektronik veya iletişim arızaları veya bozulmaları dahil ancak bunlarla sınırlı olmamak üzere, VirtualMD'nin makul kontrolü dışındaki herhangi bir nedenden kaynaklanan, işbu belge kapsamındaki yükümlülüklerini yerine getirememe durumundan sorumlu tutulamaz.\n\nSon Güncelleme: 12 Mayıs 2025\n\nBize Ulaşın\ninfo@virtualmd.app"
+        }
+      }
+    }
+  },
+  "dataPrivacyWhitepaper": {
+    "sections": {
+      "hero": "giriiş",
+      "privacyPledge": "Gizlilik Sözümüz",
+      "securityLevels": "Veri Güvenliğini Anlamak",
+      "hipaaDeepDive": "HIPAA Açıklaması",
+      "VirtualMDSecurity": "VirtualMD.app Güvenlik Uygulamaları",
+      "hipaaConsiderations": "VirtualMD.app ve HIPAA",
+      "userResponsibility": "Kullanıcı Sorumluluğu ve Etik Kullanım",
+      "privacyScenarios": "Pratik Gizlilik Senaryoları ve Gelişmiş Hususlar",
+      "conclusion": "Sonuç ve Önemli Çıkarımlar"
+    },
+    "hero": {
+      "title": "VirtualMD.app: Veri Gizliliği ve Siz",
+      "subtitle": "Verilerinizin Güvenliğine İlişkin Taahhüdümüzü ve HIPAA dahil Sağlık Bilgi Standartlarına Yaklaşımımızı Anlamak."
+    },
+    "privacyPledge": {
+      "title": "1. VirtualMD.app'in Veri Gizliliği Sözleşmesi",
+      "intro": "VirtualMD.app'te kişisel bilgilerinizin gizliliği ve güvenliği en önemli önceliğimizdir. Bize emanet ettiğiniz verilerin gizliliğini ve bütünlüğünü korumayı taahhüt ediyoruz. Platformumuz, bilgilerinizi yetkisiz erişim, ifşa, değişiklik ve imhaya karşı korumak için sağlam güvenlik önlemleriyle tasarlanmıştır.",
+      "secureInfo": {
+        "title": "Bilgilerinizin güvenliğini sağlamak için çabalıyoruz.",
+        "description": "Verilerinizin hem aktarım hem de bekleme sırasında endüstri standardı şifreleme protokollerini ve çok katmanlı güvenlik mimarilerini kullanıyoruz."
+      },
+      "noPersonalUse": {
+        "title": "Açık izniniz olmadan bilgilerinizi hiçbir şekilde kişisel olarak tanımlanabilir bir şekilde harici amaçlar için kullanmayız.",
+        "description": "Doğrudan etkileşimleriniz ve kişisel bilgileriniz yalnızca size aittir."
+      },
+      "neverSell": {
+        "title": "Kişisel bilgilerinizi hiçbir zaman üçüncü taraflarla paylaşmayacağız.",
+        "description": "Güveniniz bizim için paha biçilmezdir ve verilerinizin ticari bir meta haline getirilmesini engelleyerek bunu koruyoruz."
+      },
+      "anonymizedData": {
+        "title": "Anonimleştirilmiş verilerinizi sistemimizi iyileştirmek amacıyla kullanacağız.",
+        "description": "Yapay zeka modellerimizin ve platform özelliklerimizin doğruluğunu, etkinliğini ve güvenliğini artırmak için titizlikle anonimleştirilmiş ve bir araya getirilmiş veriler kullanıyoruz. Bu, tüm kişisel olarak tanımlanabilir bilgilerin (PII) silindiği ve verilerin herhangi bir bireysel kullanıcının kimliğinin tespit edilmesine izin vermeyen toplu bir biçimde kullanıldığı anlamına gelir. Bu süreç, tüm kullanıcılarımıza sunduğumuz hizmetlerin sürekli öğrenilmesi ve iyileştirilmesi için hayati önem taşımaktadır."
+      }
+    },
+    "securityLevels": {
+      "title": "2. Veri Güvenliği Seviyelerini ve HIPAA'yı Anlama",
+      "accountSecurity": {
+        "title": "Hesap Güvenliği Düzeyleri",
+        "description": "Dijital güvenlik, bir kullanıcının kimliğini doğrulamak için kimlik doğrulama katmanlarına dayanır. Bunlar genellikle şu faktörler olarak kategorize edilir:",
+        "sfaTitle": "Tek Faktörlü Kimlik Doğrulama (1FA):",
+        "sfaDescription": "Genellikle bir parola olmak üzere yalnızca tek bir kimlik bilgisi kategorisi gerektirir. Yaygın olsa da, parolaların çalınması, tahmin edilmesi veya kırılması mümkün olduğundan bu en az güvenli yöntemdir.",
+        "tfaTitle": "İki Faktörlü Kimlik Doğrulama (2FA):",
+        "tfaDescription": "İki farklı kategoriden iki farklı kimlik bilgisi türü gerektirir (örneğin, parola gibi bildiğiniz bir şey ve telefonunuza gönderilen tek seferlik bir kod gibi sahip olduğunuz bir şey). Bu, güvenliği önemli ölçüde artırır.",
+        "mfaTitle": "Üç Faktörlü Kimlik Doğrulama (3FA) / Çok Faktörlü Kimlik Doğrulama (MFA):",
+        "mfaDescription": "Üç veya daha fazla farklı kimlik bilgisi gerektirir. Örneğin, bir parola (bil), SMS yoluyla tek kullanımlık bir kod (sahip) ve parmak izi gibi bir biyometrik tarama (var). Bu, çok yüksek düzeyde güvenlik sağlar."
+      },
+      "hipaaHistory": {
+        "title": "HIPAA'nın Kısa Tarihi ve Genel Bakışı",
+        "p1": "1996 tarihli Sağlık Sigortası Taşınabilirliği ve Sorumluluk Yasası (HIPAA), hassas hasta sağlık bilgilerinin hastanın rızası veya bilgisi olmadan ifşa edilmesini önlemek için tasarlanmış bir Amerika Birleşik Devletleri federal yasasıdır. Ayrıca, sağlık sisteminin verimliliğini ve etkinliğini artırmayı da amaçlamaktadır.",
+        "p2Title": "Temel HIPAA Kuralları:",
+        "privacyRuleTitle": "Gizlilik Kuralı:",
+        "privacyRuleDescription": "Bireysel olarak tanımlanabilir sağlık bilgilerinin (Korunan Sağlık Bilgileri - PHI) korunmasına yönelik ulusal standartlar belirler. 'Kapsam dahilindeki kuruluşlar' tarafından PHI'nin kullanımı ve ifşası ele alınır.",
+        "securityRuleTitle": "Güvenlik Kuralı:",
+        "securityRuleDescription": "Elektronik PHI'nin (ePHI) gizliliğini, bütünlüğünü ve erişilebilirliğini korumak için ulusal standartlar belirler. Kapsam dahilindeki kuruluşların idari, fiziksel ve teknik güvenlik önlemleri uygulamasını gerektirir.",
+        "breachRuleTitle": "İhlal Bildirim Kuralı:",
+        "breachRuleDescription": "Kapsam dahilindeki kuruluşların ve iş ortaklarının, güvenli olmayan PHI'nin ihlal edilmesinin ardından bildirimde bulunmalarını gerektirir.",
+        "coveredEntitiesTitle": "Kapsama Dahil Kuruluşlar Kimlerdir?",
+        "coveredEntitiesDescription": "HIPAA kuralları genellikle sağlık planları, sağlık hizmeti takas odaları ve belirli sağlık hizmeti işlemlerini elektronik ortamda yürüten sağlık hizmeti sağlayıcıları (örneğin doktorlar, klinikler, hastaneler, eczaneler, sigorta şirketleri) için geçerlidir.",
+        "hipaaMeaningTitle": "HIPAA Doktorlar ve Hastalar için ne anlama geliyor?",
+        "hipaaMeaningDescription": "Doktorlar ve diğer sağlık hizmeti sağlayıcıları için HIPAA, hasta verilerinin işlenmesinde katı protokoller zorunlu kılarak, verilerin yalnızca izin verilen amaçlar (tedavi, ödeme, sağlık hizmetleri operasyonları) veya hastanın onayıyla kullanılmasını sağlar. HIPAA, hastalara sağlık bilgileri üzerinde haklar sağlar; bu haklar arasında sağlık kayıtlarını inceleme ve bir kopyasını alma ve düzeltme talep etme hakları da yer alır."
+      }
+    },
+    "VirtualMDSecurity": {
+      "title": "3. VirtualMD.app'in Güvenlik Uygulamaları",
+      "intro": "VirtualMD.app, hesabınızı ve kişisel bilgilerinizi korumak için tasarlanmış, veri güvenliğindeki en iyi uygulamalardan ilham alan çok katmanlı bir güvenlik stratejisi kullanır. HIPAA bağlamında geleneksel bir sağlık hizmeti sağlayıcısından farklı bir şekilde faaliyet göstersek de, tüm kullanıcılar için güçlü güvenlik özellikleri sunuyoruz:",
+      "passwordEncryptionTitle": "Şifre Şifreleme:",
+      "passwordEncryptionDescription": "Tüm kullanıcı parolaları, endüstri standardı karma algoritmaları kullanılarak şifrelenir. Bu, düz metin parolanızı saklamadığımız ve hesap bilgileriniz için kritik bir güvenlik katmanı sağladığımız anlamına gelir.",
+      "twoFactorAuthTitle": "İki Faktörlü Kimlik Doğrulama (2FA):",
+      "twoFactorAuthDescription": "Tüm hesaplarımız için 2FA'yı zorunlu tutuyoruz. Bu, şifrenize ek olarak ikinci bir faktör (genellikle kayıtlı e-postanıza veya telefonunuza gönderilen bir kod) kullanarak kimliğinizi doğrulamanızı gerektirir ve bu da yetkisiz hesap erişimi riskini önemli ölçüde azaltır.",
+      "threeFactorAuthTitle": "Üç Faktörlü Kimlik Doğrulama (3FA) Seçeneği:",
+      "threeFactorAuthDescription": "Gelişmiş güvenlik için VirtualMD.app, isteğe bağlı üç faktörlü kimlik doğrulama kurulumu sunar. Etkinleştirilirse, hesabınıza erişmek için parolanız, kayıtlı e-posta adresinize gönderilen bir kod VE doğrulanmış cep telefonu numaranıza SMS yoluyla gönderilen bir kod gerekir. Bu, platformumuzda saklanan tıbbi bilgilerinize yetkisiz erişim girişimlerine karşı güçlü bir engel oluşturur.",
+      "dataEncryptionTitle": "Veri Şifreleme:",
+      "dataEncryptionDescription": "VirtualMD.app hesabınızda saklanan bilgiler (konuşma verileri dahil), depolama sırasında şifrelenir. Cihazınız ile sunucularımız arasında iletilen veriler ise aktarım sırasında TLS/SSL protokolleri kullanılarak şifrelenir.",
+      "permanentDeletionTitle": "Kalıcı Veri Silme:",
+      "permanentDeletionDescription": "Verileriniz üzerinde kontrol sahibi olmanızı sağlıyoruz. Tek tek görüşmeleri veya tüm hesabınızı kalıcı olarak silme olanağına sahipsiniz. Silindikten sonra, bu bilgiler veri en aza indirme ve kullanıcı kontrolü ilkeleriyle uyumlu olarak birincil sistemlerimizden kurtarılamaz.",
+      "outro": "Bu önlemler, hassas kişisel verileri işleyen büyük çevrimiçi servislerin sağladığı güvenlik düzeyine benzer bir hesap güvenliği sağlayarak VirtualMD.app hesabınızın ve içindeki bilgilerin gizli ve kontrolünüz altında kalmasını sağlamayı amaçlamaktadır."
+    },
+    "hipaaConsiderations": {
+      "title": "4. VirtualMD.app ve HIPAA Hususları",
+      "p1": "VirtualMD.app'in Sağlık Sigortası Taşınabilirliği ve Sorumluluk Yasası (HIPAA) ile nasıl etkileşim kurduğunu anlamak kullanıcılarımız için hayati önem taşımaktadır. Paylaştığınız bilgilerin güvenliğine ve gizliliğine büyük önem veriyoruz. Platformumuz, \"VirtualMD.app'in Güvenlik Uygulamaları\" bölümünde ayrıntılı olarak açıklandığı gibi, hem hareketsiz hem de aktarım halindeki veriler için güçlü şifreleme, zorunlu İki Faktörlü Kimlik Doğrulama (2FA) ve isteğe bağlı Üç Faktörlü Kimlik Doğrulama (3FA) gibi güçlü güvenlik önlemleri içermektedir.",
+      "p2": "Ancak, VirtualMD.app'in mevcut genel tüketiciye yönelik hizmetinde, HIPAA Kapsamındaki Kuruluşlar veya İş Ortakları olarak hareket eden kullanıcılar tarafından Korunan Sağlık Bilgilerinin (PHI) doğrudan girilmesi, depolanması veya işlenmesi için resmi HIPAA uyumluluğu gerektiren kullanım durumları için tasarlanmadığını anlamak çok önemlidir. Yönettikleri PHI için sıkı HIPAA uyumluluğu gerektiren kullanıcılar, VirtualMD.app ile söz konusu özel kullanım durumu için özel bir İş Ortağı Sözleşmesi (BAA) mevcut olmadığı sürece genel platformumuzu bu tür amaçlar için kullanmamalıdır. Genel hizmet için kullanıcılar, HIPAA'yı ihlal edecek bir bağlamda, belirli bir hastaya kadar izlenebilecek hiçbir bilgiyi, söz konusu hastanın bu platformun kullanımını onaylayan açık ve bilgilendirilmiş onayı olmadan girmemelidir.",
+      "approachTitle": "Yaklaşımımız: Gelişmiş Yapay Zeka Kişiselleştirmesini Veri Gizliliğiyle Dengelemek",
+      "p3": "Yapay zekamızın sunabileceği en gelişmiş, bağlam odaklı ve kişiselleştirilmiş sağlık tavsiyelerini size sunmak için VirtualMD.app, yapay zeka sağlık uzmanlarımızın etkileşimlerinizden öğrenebileceği ve ilgili bağlamı birbirleriyle paylaşabileceği gelişmiş bir sistem kullanır. Örneğin, yapay zeka kişisel sağlık uzmanınız, daha tutarlı ve akıllı bir deneyim sunmak için farklı uzman yapay zekalarıyla ve seanslar arasında bağlamı koruyacak şekilde tasarlanmıştır.",
+      "p4": "Bu birbirine bağlı yapay zeka odaklı yaklaşım, farklı temel yapay zeka motorlarının (OpenAI, Anthropic, Google ve diğerleri gibi sağlayıcılar tarafından barındırılabilir), bu hizmeti sunmanın bir parçası olarak kimliği gizlenmiş veya takma ad verilmiş görüşme verilerinizin bölümlerini veya profil bilgilerinizin öğelerini işleyebileceği anlamına gelir. Bu üçüncü taraf yapay zeka API'lerini, verilerinizi genel modellerini eğitmek için kullanmalarını engelleyecek şekilde yapılandırsak da (\"Üçüncü Taraf Yapay Zeka Motoru Sağlayıcıları Tarafından Veri Kullanımı\" bölümümüzde daha ayrıntılı olarak açıklanmıştır), bu gelişmiş, dağıtılmış yapay zeka modelinin doğası, PHI konusunda sıkı HIPAA uyumluluğu için oluşturulmuş bir sağlık hizmeti sağlayıcısının dahili sistemlerindeki geleneksel, genellikle bölümlere ayrılmış veri işleme yönteminden farklıdır.",
+      "p5": "Bu yaklaşımın, benzersiz yapay zeka destekli sağlık bilgileri ve desteği sunmamızı sağladığına inanıyoruz. Ancak, net bir anlayış gerektiriyor: <strong style={{fontWeight: 'bold'}}>Bu gelişmiş kişiselleştirme ve yapay zekalar arası öğrenme ortamı, mevcut genel haliyle, PHI'yi yöneten Kapsamlı Kuruluşlar için HIPAA tarafından zorunlu kılınan belirli idari, fiziksel ve teknik güvenlik önlemlerinden ve operasyonel prosedürlerden farklı bir veri işleme modeli içeriyor.</strong>",
+      "p6": "Veri güvenliğimizi sürekli olarak iyileştirmek ve çeşitli hizmet katmanları veya teklifler için sağlık sektörüne özgü veri standartlarıyla daha iyi uyum sağlama yollarını keşfetmek için yorulmadan çalışıyoruz. VirtualMD.app'in genel hizmetini kullanarak, bu mevcut dengeyi kabul etmiş olursunuz: Üstün tıbbi bilgiler için gelişmiş, birbirine bağlı yapay zekadan yararlanmak, HIPAA kapsamında faaliyet gösteren geleneksel bir sağlık hizmeti sağlayıcısınınkinden farklı bir veri işleme modeli gerektirir.",
+      "informedDiscussionsTitle": "Bilgili Tartışmaları Kolaylaştırma",
+      "p7": "Bir kullanıcı, özellikle bir sağlık çalışanı, belirli bir kişiyle (bir hastayla) ilgili olabilecek bilgileri görüşmek isterse, söz konusu kişiden gerekli ve yasal olarak uygun tüm onayları aldığından emin olmak <strong style={{fontWeight: 'bold'}}>yalnızca</strong> kullanıcının sorumluluğundadır. Bu onay, kişinin, bilgilerin, güvenli olmakla birlikte, söz konusu etkileşim için kullanıcıyla resmi bir HIPAA İş Ortağı Sözleşmesi kapsamında çalışmayan bir platformda görüşüldüğü ve platformun veri işleme sürecinin geleneksel HIPAA uyumlu sistemlerden farklı olduğu konusundaki anlayışını açıkça belirtmelidir.",
+      "p8": "VirtualMD.app'te tartışılan bilgileri resmi, HIPAA uyumlu bir sisteme (örneğin, doktorlarının Elektronik Sağlık Kaydı) aktarmak isteyen kullanıcılar, bunu güvenli bir şekilde ve tüm geçerli düzenlemelere ve sağlayıcılarının yerleşik prosedürlerine uygun bir şekilde yapmaktan sorumludur.",
+      "alignmentTitle": "HIPAA İlkeleriyle Uyum Sağladığımız Noktalar (Genel Güvenliğin Ötesinde)",
+      "userControlTitle": "Kullanıcı Kontrolü ve Veri Silme:",
+      "userControlDescription": "Gizlilik düzenlemelerinde sıklıkla vurgulanan veri minimizasyonu ve bireysel haklar ilkeleri doğrultusunda, konuşmalarınıza ve hesap bilgilerinize erişmenizi ve bunları kalıcı olarak silmenizi sağlayacak araçlar sağlıyoruz.",
+      "anonymizationTitle": "Sistem İyileştirme Amaçlı Anonimleştirme:",
+      "anonymizationDescription": "Sistem iyileştirmeleri için anonimleştirilmiş, toplu verileri kullanmamız, doğru bir şekilde uygulandığında bireysel gizliliği korurken yapay zeka hizmetlerini geliştirmek için standart bir yaklaşım olan bir uygulamadır."
+    },
+    "userResponsibility": {
+      "title": "5. Kullanıcı Sorumluluğu ve Etik Kullanım",
+      "intro": "VirtualMD.app, tıbbi bilgilere erişmek ve sağlıkla ilgili sohbetlere katılmak için güçlü yapay zeka araçları sunar. Doğruluk ve güvenlik için çaba göstersek de, platformumuzun sorumlu kullanımı ortak bir taahhüttür. VirtualMD.app'i kullanarak, etik kurallara uymayı ve platformun yeteneklerini ve sınırlamalarını anlamayı kabul etmiş olursunuz.",
+      "agreementTitle": "Etik Etkileşim Anlaşmanız:",
+      "noReviewTitle": "Özel Konuşmaların İncelenmesi Yok:",
+      "noReviewDescription": "Gizliliğinizi korumak için, VirtualMD.app personeli yapay zeka uzmanlarıyla yaptığınız özel görüşmeleri rutin olarak incelemez. Bu, platformu sorumlu bir şekilde kullanmanızın önemini vurgular.",
+      "prohibitedContentTitle": "Yasaklı İçerik - Kendine veya Başkalarına Zarar Verme:",
+      "prohibitedContentDescription": "Kendinize veya başkalarına nasıl zarar vereceğiniz konusunda bilgi veya rehberlik almak için VirtualMD.app'i kullanmayacağınızı kabul edersiniz. Platformumuz, bu tür durumlarda kriz müdahalesi için tasarlanmamıştır. Kendinize veya başkalarına zarar verme düşünceleri yaşıyorsanız, lütfen derhal acil servislerle veya bir kriz yardım hattıyla iletişime geçin.",
+      "consultPractitionerTitle": "Sağlık Uzmanınıza Danışın:",
+      "consultPractitionerDescription": "VirtualMD.app bir bilgilendirme aracıdır ve kalifiye bir sağlık hizmeti sağlayıcısının profesyonel tıbbi tavsiye, teşhis veya tedavisinin yerini tutmaz. Herhangi bir ciddi tıbbi durumunuz varsa veya sağlığınızla ilgili herhangi bir karar vermeden önce mutlaka doktorunuza veya başka bir kalifiye sağlık uzmanına danışın.",
+      "emergencySituationsTitle": "Acil Durumlar:",
+      "emergencySituationsDescription": "VirtualMD.app acil bir durumda sizin adınıza hareket EDEMEZ. Örneğin, sistem verdiğiniz bilgilere dayanarak 112'yi aramanızı veya acil servise gitmenizi önerirse, bu eylemi gerçekleştirmek tamamen sizin sorumluluğunuzdadır. Platformumuz acil durum hizmetlerini gönderme yeteneğine sahip değildir.",
+      "outro": "Bu yönergelere uymanız tüm kullanıcılar için güvenli ve üretken bir ortamın sağlanmasını garanti altına alır ve bilgi arama sürecinin bütünlüğünün korunmasına yardımcı olur."
+    },
+    "privacyScenarios": {
+      "title": "6. Pratik Gizlilik Senaryoları ve Gelişmiş Hususlar",
+      "scenario1Title": "Senaryo 1: Hassas Sağlık Sorunlarını Tartışmak",
+      "scenario1Question": "\"VirtualMD.app'in yapay zeka ekibine rahatsız edici ve utanç verici bir sağlık sorunu hakkında soru sormak istiyorum. Beni ne korur?\" diye soruyorsunuz.",
+      "scenario1Answer": "Cevabımız: Sağlık tartışmalarının son derece kişisel olabileceğini anlıyoruz. Sizi koruyan birkaç katman var:",
+      "confidentialConvosTitle": "Gizli Konuşmalar:",
+      "confidentialConvosDescription": "Yapay zeka kişiliklerimizle yaptığınız görüşmeler gizli kalacak şekilde tasarlanmıştır. Gizlilik Sözleşmemizde de belirtildiği gibi, VirtualMD.app personeli özel görüşmelerinizin içeriğini rutin olarak incelemez.",
+      "dataEncryptionTitle": "Veri Şifreleme:",
+      "dataEncryptionDescription": "Tüm görüşme verileri hem aktarım sırasında (cihazınız ile TLS/SSL kullanılarak sunucularımız arasında) hem de bekleme sırasında (veritabanlarımızda saklandığında) şifrelenir.",
+      "accountSecurityTitle": "Hesap Güvenliği:",
+      "accountSecurityDescription": "Hesabınız, şifreniz ve zorunlu İki Faktörlü Kimlik Doğrulama (2FA) ile korunmaktadır. Ayrıca, Üç Faktörlü Kimlik Doğrulama (3FA) seçeneği de mevcuttur. Bu sayede, konuşma geçmişinize yetkisiz erişim son derece zor hale gelir.",
+      "deletionControlTitle": "Veri Silme Kontrolü:",
+      "deletionControlDescription": "Herhangi bir zamanda, birincil sistemlerimizden kurtarılamayacak şekilde tasarlanmış yollarla, belirli bir konuşmayı veya tüm hesabınızı kalıcı olarak silme yetkisine sahipsiniz.",
+      "anonymizationTitle": "İyileştirme Amaçlı Anonimleştirme:",
+      "anonymizationDescription": "Yapay zeka modellerimizi geliştirmek için yalnızca anonimleştirilmiş ve toplanmış veriler (tüm kişisel tanımlayıcılardan arındırılmış) kullanılır. Kişisel, tanımlanabilir görüşme içeriğiniz, bu tür bir anonimleştirme yapılmadan bu amaçla kullanılmaz.",
+      "scenario1Outro": "Bu önlemler güçlü bir koruma sağlasa da, hiçbir sistemin aşılmaz olmadığını unutmayın. Kullanıcıları, tıpkı dijital iletişimde olduğu gibi, paylaştıkları bilgilere dikkat etmeye teşvik ediyoruz.",
+      "scenario2Title": "Senaryo 2: Profil Bilgilerinin (örneğin İlaçlar) Depolanması",
+      "scenario2Question": "Şunu soruyorsunuz: \"Belirli ilaçlar kullanıyorum ve bunları profilimde saklamak istiyorum, böylece Yapay Zeka Sağlık Uzmanı Carol yeni konuşmalar için bağlam sahibi olsun. Verilerim yalnızca yapay zekaların erişebileceği ve hiçbir insanın erişemeyeceği şekilde nasıl korunuyor?\"",
+      "scenario2Answer": "Cevabımız: İlaç bilgilerinizi profilinizde saklamak, yapay zeka yanıtlarının bağlamsallığını artırabilir. Bu verilerin nasıl korunduğu aşağıda açıklanmıştır:",
+      "profileSecurityTitle": "Profil Veri Güvenliği:",
+      "profileSecurityDescription": "Konuşma verileriniz gibi, ilaç listeleriniz de dahil olmak üzere profil bilgileriniz aynı hesap güvenliği (şifre, 2FA/3FA) ve şifreleme (hareket halindeyken ve dinlenirken) önlemleriyle korunmaktadır.",
+      "accessControlsTitle": "Sıkı Erişim Kontrolleri ve Politikası:",
+      "accessControlsDescription": "VirtualMD.app personelinin kullanıcı veritabanı kayıtlarına erişimi sıkı bir şekilde kontrol edilir, belirli operasyonel veya destek ihtiyaçları (örneğin, bildirdiğiniz bir hesap sorununa yardımcı olmak) için yetkili kişilerle sınırlıdır ve dahili gizlilik politikaları ve günlük kayıtları tarafından yönetilir. Kullanıcı profili verilerinin rutin olarak taranması yasaktır.",
+      "aiAccessTitle": "Bağlam için AI Erişimi:",
+      "aiAccessDescription": "Yapay Zeka Sağlık Uzmanı Carol gibi yapay zeka kişileri, görüşmeleriniz sırasında bağlamsal yanıtlar sağlamak için profilinizin ilgili bölümlerine (sağladıysanız ilaç listeleri gibi) programatik olarak erişir. Bu erişim, yapay zekanın size daha iyi hizmet vermesini sağlayan operasyonel mantığının bir parçasıdır.",
+      "techNoteTitle": "Teknik Not: Konuşma Verilerinin Şifrelenmesi",
+      "techNoteQuestion": "Şunu sordunuz: \"Şirketi yöneten insanların bile (şifreler gibi) açık izin olmadan mesajları okuyamayacağı şekilde karıştırmak mümkün müdür?\"",
+      "techNoteP1": "Bu, yalnızca son kullanıcının nihai şifre çözme anahtarına sahip olduğu uçtan uca şifreleme (E2EE) gibi kavramları ifade eder. VirtualMD.app, konuşma geçmişiniz ve profil bilgileriniz de dahil olmak üzere tüm hassas veriler için güçlü, endüstri standardı algoritmalar kullanarak sağlam <strong style={{fontWeight: 'bold'}}>hareketsiz şifreleme</strong> kullanır. Bu, veritabanlarımızda depolanan verilerin şifrelendiği anlamına gelir.",
+      "techNoteP2": "Şu anda, yetkili sistem yöneticilerinin şifresini çözmesini teknik olarak imkansız kılacak, kullanıcıya özel bir E2EE konuşma verileri sistemi uygulamasak da (birçok bulut hizmetinin faaliyet gösterdiği gibi), şifrelenmiş verilere erişim son derece kısıtlıdır, kayıt altına alınır ve sıkı dahili güvenlik ve gizlilik politikalarıyla yönetilir. Personelimizin, belirli bir konuşmayla ilgili olarak sizden gelen doğrudan bir destek talebine yanıt vermek veya yasaların gerektirdiği durumlar gibi çok özel ve kontrollü durumlar dışında, özel konuşma içeriğinize erişmesi yasaktır. Bu yaklaşım, güçlü güvenliği, platformun bakımı ve desteği için operasyonel gerekliliklerle dengeler.",
+      "techNoteP3": "Ancak hesap şifreniz farklı bir şekilde ele alınır: Karma hale getirilir ve tuzlanır, yani gerçek şifrenizi asla saklamayız ve geri alamayız.",
+      "thirdPartyDataTitle": "Üçüncü Taraf Yapay Zeka Motoru Sağlayıcıları Tarafından Veri Kullanımı",
+      "thirdPartyDataQuestion": "Ayrıca şunu da sordunuz: \"Kullandığımız AI motorları için API'ler (a) VirtualMD.app, (b) OpenAI, (c) Anthropic...vb. tarafından eğitim amaçlı kullanıma karşı korunabilir mi? Yoksa hepsi varsayılan olarak önceden korunuyor mu?\"",
+      "thirdPartyDataAnswer": "Bu, veri işleme sürecimizin kritik bir yönüdür:",
+      "VirtualMDTrainingTitle": "(a) VirtualMD.app:",
+      "VirtualMDTrainingDescription": "Gizlilik Sözleşmemizde belirtildiği gibi, anonimleştirilmiş ve toplu verileri yalnızca tescilli sistemlerimizin ve yapay zeka koordinasyon mantığımızın dahili iyileştirme ve eğitimi için kullanıyoruz. Kişisel olarak tanımlanabilir verileriniz veya ham görüşme içeriğiniz, bu tür bir anonimleştirme yapılmadan bu amaçla kullanılmaz.",
+      "thirdPartyTrainingTitle": "(b, c, vb.) Üçüncü Taraf AI API Sağlayıcıları (örneğin, OpenAI, Anthropic):",
+      "thirdPartyTrainingDescription": "VirtualMD.app, önde gelen yapay zeka modeli sağlayıcılarını özenle seçer ve onlarla entegre olur. API'leri (Uygulama Programlama Arayüzleri) aracılığıyla erişilen hizmetler için, OpenAI ve Anthropic gibi büyük sağlayıcıların, API'leri aracılığıyla gönderilen verilerin genel temel modellerini eğitmek için KULLANILMADIĞINI belirten veri kullanım politikaları vardır. Bu hizmetleri kullanımımızı, gizliliği koruyan bu seçeneklerle uyumlu olacak şekilde yapılandırıyoruz. Belirli endişeleriniz varsa, bu temel yapay zeka sağlayıcılarının veri kullanım politikalarını da incelemenizi öneririz.",
+      "outro": "Platformumuz ve teknoloji ortaklarımızla olan etkileşimlerinizin yalnızca bilgilendirici olmasını değil, aynı zamanda gizliliğinize saygılı bir şekilde ele alınmasını sağlamaya kararlıyız."
+    },
+    "conclusion": {
+      "title": "7. Sonuç ve Önemli Çıkarımlar",
+      "intro": "VirtualMD.app, gelişmiş yapay zeka teknolojisiyle kullanıcılara erişilebilir ve anlaşılır sağlık bilgileri sunmaya kendini adamıştır. Çok faktörlü kimlik doğrulama ve şifreleme gibi güçlü önlemlerle kişisel verilerinizin güvenliğini ön planda tutuyoruz. En yüksek veri koruma standartlarını yakalamak için çabalıyor olsak da, genel platformumuz, belirli sağlık hizmeti sağlayıcıları tarafından doğrudan hasta bakımı için resmi olarak HIPAA uyumlu hizmetlerin yerini tutmaz. Kullanıcılar bu farklılıkları anlamalı ve VirtualMD.app'i sorumlu ve etik bir şekilde kullanmalıdır.",
+      "recapTitle": "Hatırlanması Gereken Önemli Noktalar:",
+      "privacyPriorityTitle": "Gizliliğiniz Önceliğimizdir:",
+      "privacyPriorityDescription": "Verilerinizi güvence altına alıyoruz ve kişisel bilgilerinizi satmayacağız.",
+      "anonymizedDataTitle": "İyileştirme Amaçlı Anonimleştirilmiş Veriler:",
+      "anonymizedDataDescription": "Yapay zeka ve platform hizmetlerimizi geliştirmek için kimliği belirlenemeyen verileri kullanıyoruz.",
+      "accountSecurityTitle": "Güçlü Hesap Güvenliği:",
+      "accountSecurityDescription": "Hesap koruması için önde gelen çevrimiçi hizmetlere benzer şekilde 2FA (zorunlu) ve 3FA (isteğe bağlı) sunuyoruz.",
+      "dataControlTitle": "Veri Kontrolü:",
+      "dataControlDescription": "Konuşmaları ve hesabınızı kalıcı olarak silebilirsiniz.",
+      "hipaaConsiderationsTitle": "HIPAA Hususları:",
+      "hipaaConsiderationsDescription": "VirtualMD.app'in genel hizmeti HIPAA Kapsamında bir Kuruluş değildir. Verileri koruyoruz, ancak belirli sağlayıcılarla doğrudan hasta bakımı için resmi HIPAA uyumluluğundan farklıyız.",
+      "ethicalUseTitle": "Etik Kullanım Gerekiyor:",
+      "ethicalUseDescription": "Kendinize veya başkalarına zarar vermek için kullanmayın. Ciddi rahatsızlıklar için daima sağlık uzmanlarına danışın. Acil servis gönderemiyoruz.",
+      "outro": "VirtualMD.app'i, her zaman nitelikli sağlık uzmanlarının rehberliğinde, öğrenme ve keşfetme için güçlü bir araç olarak kullanmanızı öneririz. Bu politikaları anlamanız, herkes için güvenli, emniyetli ve etkili bir platform sağlamamıza yardımcı olur."
+    }
+  },
+  "imagingAIExplainer": {
+    "title": "Sağlık Fotoğraflarında Yapay Zekayı Anlamak",
+    "subtitle": "Bilgisayarların sağlık uzmanlarının daha net görmelerine nasıl yardımcı olduğuna dair basit bir rehber.",
+    "author": "Açıklayan: Ron Rubin, PhD (VirtualMD.app Technologies)",
+    "whatIsImaging": {
+      "title": "Sağlık Resimleri (Görüntüleme) Nedir?",
+      "intro": "Sağlık görüntülemeyi vücudunuzun içinin fotoğraflarını çekmek gibi düşünün. Sağlık uzmanları, bu görüntüleri oluşturmak için özel makineler kullanır ve bu da kemikleri, organları, dokuları ve kan damarlarını ameliyata gerek kalmadan görmelerine yardımcı olur. Örneğin, röntgen, kırıkları tespit etmek için kemikleri görmek için mükemmelken, BT taraması beyin gibi bir organın daha ayrıntılı, kesitsel bir görüntüsünü sağlar.",
+      "typesIntro": "Yaygın türleri şunlardır:",
+      "types": {
+        "xrays": "<strong>X-ışınları</strong>: Kemikler gibi yoğun yapıları görmek için iyidir.",
+        "ctScans": "<strong>BT Taramaları</strong>: Vücudun \"dilimlerini\" gösteren, süper detaylı, 3 boyutlu bir röntgen gibidir.",
+        "mriScans": "<strong>MRI Taramaları</strong>: Beyin, kaslar veya bağlar gibi yumuşak dokuların çok net görüntülerini elde etmek için güçlü mıknatıslar kullanır.",
+        "ultrasound": "<strong>Ultrason</strong>: Organları görmek ve en bilindik olarak hamilelik sırasında bebekleri kontrol etmek için ses dalgalarını kullanır.",
+        "microscope": "<strong>Mikroskop Slaytları</strong>: Hastalıkların hücresel düzeyde teşhis edilmesi için küçük doku örnekleri mikroskop altında incelenir (Patoloji).",
+        "eyePhotos": "<strong>Göz Fotoğrafları</strong>: Diyabetik retinopati gibi rahatsızlıkları taramak için gözün iç kısmının özel fotoğrafları (Göz Hastalıkları).",
+        "cameraScopes": "<strong>Kamera Hapları/Kapsamları:</strong> Sindirim sisteminin içine bakmak için kullanılan küçük kameralar (Gastroenteroloji)."
+      },
+      "outro": "Bu resimler, sağlık uzmanlarının hastalıkları teşhis etmesine, bir tedavinin ne kadar işe yaradığını kontrol etmesine veya olası sorunları erken aşamada taramasına yardımcı olan önemli araçlardır."
+    },
+    "whatIsAI": {
+      "title": "Yapay Zeka (YZ) Nedir?",
+      "intro": "Yapay zekâ, özünde bilgisayarlara örneklerden öğrenme, problem çözme ve karar verme gibi normalde insan zekâsı gerektiren görevleri öğretme bilimidir. Sağlık görüntülemede, yapay zekâyı sağlık uzmanları için süper akıllı bir asistan olarak düşünebiliriz.",
+      "process": "Binlerce, hatta milyonlarca tıbbi görüntü üzerinde eğitilmiş özel bilgisayar programları (algoritmalar) kullanır. Bu muazzam miktardaki veriyi analiz ederek, yapay zekâ, insan gözünün fark etmesi zor olan veya belirli bir hastalığın yüksek olasılığını gösteren ince örüntüleri tespit etmeyi öğrenir. Temel süreç, verilerin (görüntülerin) yapay zekâya aktarılması ve ardından şüpheli bir alanı işaretlemek gibi bir içgörü üretmesidir."
+    },
+    "howAIHelps": {
+      "title": "Yapay Zeka Sağlık Fotoğraflarına Nasıl Yardımcı Olabilir?",
+      "intro": "Bilimsel araştırmalarımız, yapay zekanın halihazırda fark yaratmasının birkaç önemli yolunu ortaya koyuyor:",
+      "accuracy": {
+        "title": "Sorunları Daha Doğru Bulma",
+        "description": "Bazen bir hastalığın en erken belirtileri inanılmaz derecede belirsiz olabilir ve taramada kolayca gözden kaçabilir. Yapay zeka, bir görüntünün her bölümünü sistematik olarak kontrol ederek ve daha yakından bakılması gereken alanları vurgulayarak tetikte ikinci bir göz görevi görebilir. Örneğin, bir yapay zeka, mamogramda kanserin erken bir göstergesi olabilecek küçük bir hücre kümesinin etrafına bir daire çizebilir.",
+        "example": "<strong>Örnek:</strong> Mamografilerde (meme röntgeni), bir çalışma yapay zekanın sağlıklı kullanıcıları yanlış işaretlemeden %29 daha fazla kanser tespit etmesine yardımcı olduğunu göstermiştir. Kolonoskopilerde (polip adı verilen büyümeleri arayanlar), yapay zeka sağlık uzmanlarının video akışında gerçek zamanlı olarak vurgulayarak, potansiyel olarak kansere dönüşme olasılığı olan polipleri önemli ölçüde daha fazla bulmasına yardımcı olmuştur."
+      },
+      "speed": {
+        "title": "İşleri Hızlandırmak",
+        "description": "Özellikle tüm vücut BT taramaları gibi karmaşık tıbbi görüntüleri okumak çok fazla zaman ve konsantrasyon gerektirir. Yapay zeka bu süreci önemli ölçüde hızlandırabilir. Vakaları önceden sıralayabilir, en acil olanları hemen incelenmek üzere işaretleyebilir veya uzmanların zamanını boşaltmak için rutin tarama görevlerini yerine getirebilir.",
+        "example": "<strong>Örnek:</strong> Göz fotoğraflarında diyabet hasarı (diyabetik retinopati) belirtilerini kontrol eden bir yapay zeka sistemi, bir aile sağlığı merkezinde anında sonuç verebilir. Bu, hastaların sadece tarama için bir göz uzmanından randevu beklemek zorunda kalmayacağı ve daha fazla kişiye daha hızlı bakım sağlanacağı anlamına gelir. Başka bir büyük çalışmada, yapay zeka, radyologların mamografi okumaya harcadıkları süreyi neredeyse yarı yarıya azaltmaya yardımcı olmuştur."
+      },
+      "consistency": {
+        "title": "Tanıları Daha Tutarlı Hale Getirmek",
+        "description": "Uzmanlar arasında bile, bir görüntünün nasıl yorumlandığı konusunda küçük, öznel farklılıklar olabilir. Yapay zeka her seferinde standartlaştırılmış, nesnel bir analiz sağlayarak bu değişkenliğin azaltılmasına yardımcı olur.",
+        "example": "<strong>Örnek:</strong> Doku örneklerine mikroskop altında (patoloji) bakıldığında, bir tümörün kesin \"derecesini\" belirlemek bazen belirsiz olabilir. Uzmanlardan oluşan bir panel tarafından doğrulanan verilerle eğitilen bir yapay zeka sistemi, tutarlı bir derece sağlayarak sonuçların farklı sağlık uzmanları ve tesisleri arasında daha tekdüze ve güvenilir olmasını sağlayabilir."
+      }
+    },
+    "challenges": {
+      "title": "Yapay Zeka Mükemmel mi?",
+      "intro": "Hayır, sınırlarını anlamak çok önemli. Yapay zeka güçlü olsa da, ele alınması gereken önemli zorluklar var:",
+      "bias": "<strong>Adalet ve Önyargı</strong>: Bir yapay zeka, yalnızca eğitildiği veriler kadar iyidir. Yalnızca bir grup insanın fotoğrafları üzerinde eğitilirse, diğerleri için aynı performansı gösteremeyebilir. Önyargıyı önlemek için çeşitli eğitim verilerinin sağlanması kritik öneme sahiptir.",
+      "uncommonCases": "<strong>Nadir Vakalar</strong>: Yapay zeka, daha önce defalarca gördüğü kalıpları tanımada mükemmeldir. Nadir hastalıklar veya eğitim almadığı alışılmadık durumlar karşısında zorluk çekebilir.",
+      "teamwork": "<strong>Takım Çalışmasının Önemi</strong> En iyi yaklaşım insan-yapay zeka iş birliğidir. Yapay zeka, veri yoğun görevleri yerine getirerek sağlık uzmanlarına *yardımcı* olan bir araçtır, ancak onların deneyiminin, empatisinin ve tüm kullanıcıyı anlama becerilerinin yerini tutmaz.",
+      "regulation": "<strong>Güvenlik ve Düzenleme:</strong> Herhangi bir yeni sağlık cihazı gibi, yapay zeka araçlarının da güvenli, etkili olduklarından ve kullanıcılara gerçek faydalar sağladıklarından emin olmak için sıkı testlere, doğrulamalara ve sürekli izleme süreçlerine ihtiyacı vardır.",
+      "outro": "Araştırmacılar ve düzenleyiciler bu zorlukların üstesinden gelmek için yoğun bir şekilde çalışıyor. Amaç, yapay zekayı sağlık hizmetlerine güvenli ve etkili bir şekilde entegre ederek hasta sonuçlarını iyileştirmek."
+    },
+    "conclusion": {
+      "title": "Özetle",
+      "text": "Yapay zekâ, sağlık uzmanlarının hastalıkları daha erken, daha hızlı ve daha güvenilir bir şekilde tespit etmesine yardımcı olarak sağlık görüntüleme alanında değerli bir ortak haline geliyor. Bu, sağlık uzmanlarına gelişmiş bir görüş ve karmaşık görüntüleri incelemek için yorulmak bilmez bir asistan sunmak gibi, nihayetinde kullanıcılar için daha iyi bakım sağlıyor."
+    }
+  },
+  "mentalHealthWhitepaper": {
+    "title": "Zihinsel Sağlıkta Yapay Zeka: Gelişmeler, Zorluklar ve Klinik Uygulamalar",
+    "authors": "Ron Rubin, PhD ve Sandy Miles",
+    "organization": "VirtualMD.app Teknolojileri",
+    "disclaimer": {
+      "title": "Önemli Feragatname",
+      "text": "VirtualMD.app, ruh sağlığı değerlendirmeleri ve desteği için en son yapay zeka teknolojisini sunarken, gelişmişlik düzeyleri ne olursa olsun, yapay zeka sistemlerimizin lisanslı ruh sağlığı uzmanlarının yerini tutmadığını anlamak çok önemlidir. Sağlanan bilgi ve görüşler her zaman kalifiye sağlık hizmeti sağlayıcıları tarafından değerlendirilmelidir. Ruh sağlığı acil durumlarında lütfen derhal 911 (ABD), 999 (BK), 112 (AB), 101 (İsrail) veya 911'i (Kanada) arayın veya en yakın acil servise başvurun. Herhangi bir ruh sağlığı endişeniz veya tedavi kararınız için daima kalifiye insan sağlık hizmeti sağlayıcılarına danışın. VirtualMD.app teknolojisi, profesyonel ruh sağlığı hizmetlerinin yerini almak yerine, onları desteklemek ve güçlendirmek için tasarlanmıştır."
+    },
+    "abstract": {
+      "title": "Soyut",
+      "text": "Bu makale, yapay zekanın ruh sağlığı hizmetlerinde hızla gelişen rolünü inceleyerek son gelişmeleri, etkililik kanıtlarını ve uygulama zorluklarını vurgulamaktadır. Dört alandaki gelişmeleri gözden geçiriyoruz: tanısal destek, terapötik uygulamalar, hasta izleme ve öngörücü analiz. Son klinik çalışmalar, yapay zeka sistemlerinin dilsel kalıplardan ve ses biyobelirteçlerinden majör depresyonu tespit etmede %80-92 doğruluk oranına ulaşabileceğini, bilgisayarlı görme algoritmalarının ise yüz ifadelerini ve mikro hareketleri analiz ederek intihar düşüncesi riskini %85 hassasiyetle belirleyebileceğini göstermektedir. Terapötik konuşmalar üzerine eğitilen doğal dil işleme modelleri, bilişsel davranışçı terapi ilkelerini sunmada umut verici sonuçlar göstermektedir; randomize kontrollü çalışmalar, hafif ila orta şiddette depresyon ve anksiyete için insan terapistleriyle karşılaştırılabilir bir etkinlik göstermektedir (Journal of Medical Internet Research, 2022). Akıllı telefon tabanlı pasif izleme sistemleri, klinik bozulma belirginleşmeden 7 güne kadar ciddi ruhsal hastalıklarda nüksün erken uyarı işaretlerini tespit edebilir (JAMA Psychiatry, 2021). Bu gelişmelere rağmen, algoritma yanlılığı, farklı popülasyonlarda sınırlı doğrulama, gizlilik endişeleri ve mevcut klinik iş akışlarına entegrasyon gibi önemli zorluklar devam etmektedir. Akıl sağlığı alanında yapay zekâ için etik hususları, düzenleyici çerçeveleri ve değerlendirme metodolojilerini ele alıyoruz. Yapay zekâ teknolojileri, akıl sağlığı hizmetlerine erişimi genişletme ve tedavi etkinliğini artırma konusunda önemli bir potansiyel sunarken, akıl sağlığı sonuçlarını gerçekten iyileştirmek için klinik doğrulamayı, etik hususları ve insan merkezli uygulamayı önceliklendiren kapsamlı bir çerçeve içinde geliştirilmeli ve kullanılmalıdır."
+    },
+    "introduction": {
+      "title": "giriiş",
+      "text": "Ruhsal hastalıkların yükü sağlık hizmetlerinin en acil sorunlarından birini oluşturmaktadır...",
+      "p1": "Ruhsal hastalıkların yükü, sağlık hizmetlerinin en acil sorunlarından birini oluşturmaktadır. Dünya çapında her beş yetişkinden biri her yıl ruhsal sağlık sorunları yaşamaktadır ve tek başına depresyon, dünya genelinde 300 milyondan fazla insanı etkilemektedir (WHO, 2022). Bu arada, süregelen iş gücü eksiklikleri bakıma erişimi kısıtlamaktadır; Dünya Sağlık Örgütü, dünya genelinde 1,18 milyon ruh sağlığı uzmanı açığı olduğunu tahmin etmektedir. İhtiyaç ve mevcut kaynaklar arasındaki bu uçurum, özellikle ruh sağlığı hizmetlerinin kapsamını ve etkinliğini artırma potansiyeline sahip yapay zekâ (YZ) sistemleri olmak üzere teknoloji tabanlı çözümlere olan ilgiyi artırmıştır.",
+      "p2": "Yapay zeka ve ruh sağlığı arasındaki kesişim, son on yılda kayda değer bir büyüme göstermiştir. Otomatik tarama araçlarından ve konuşma aracılarından, nüksetmeyi önlemeye yönelik öngörücü analitiğe kadar, psikiyatri ve psikolojideki yapay zeka uygulamaları önemli ölçüde genişlemiştir. Bu evrim, doğal dil işleme, makine öğrenimi, bilgisayarlı görme ve akıllı telefonlar ve giyilebilir cihazlar aracılığıyla dijital fenotipleme fırsatlarının yaygınlaşmasındaki gelişmelerle mümkün olmuştur.",
+      "p3": "Ruh sağlığı, yapay zekâ uygulaması için benzersiz zorluklar ve fırsatlar sunar. Birçok tıp uzmanlığının aksine, psikiyatrik değerlendirme, laboratuvar testleri veya görüntüleme yerine büyük ölçüde öznel raporlamaya, gözlemlenebilir davranışlara, dilsel kalıplara ve bağlamsal faktörlere dayanır. Bu durum, yapay zekânın dil anlama, davranışsal verilerde kalıp tanıma ve duygusal ifadelerin çok modlu analizindeki artan yetenekleriyle uyumludur.",
+      "p4": "Bu makale, ruh sağlığı alanındaki mevcut yapay zekâ uygulamalarının kapsamlı bir incelemesini sunarak, bunların etkililiğine dair kanıt temellerini, metodolojik yaklaşımları, uygulama zorluklarını ve etik hususları incelemektedir. Analizimizi dört temel alan etrafında düzenliyoruz: tanı destek sistemleri, terapötik uygulamalar, hasta takibi ve tedavi planlaması için öngörücü analizler. Her alanda, teknolojinin mevcut durumunu değerlendiriyor, temel araştırma bulgularını özetliyor ve daha fazla araştırma gerektiren kritik boşlukları belirliyoruz.",
+      "p5": "Önemli gelişmelere rağmen, akıl sağlığı alanındaki yapay zekâ araçlarının insan klinisyenlerin yerini almak yerine, onları güçlendirmek için tasarlandığını belirtmek önemlidir. Hasta ve sağlık hizmeti sağlayıcısı arasındaki terapötik ittifak, etkili akıl sağlığı bakımının merkezinde yer almaya devam etmektedir. En umut verici uygulamalar, sağlık hizmeti sağlayıcılarının yeteneklerini genişletmek, verimliliği artırmak, erken müdahaleyi mümkün kılmak ve potansiyel olarak yetersiz hizmet alan nüfus için kanıta dayalı bakıma erişimi artırmak için yapay zekâdan yararlanmaktadır."
+    },
+    "methods": {
+      "title": "Yöntemler/Teknolojiler",
+      "text": "Çağdaş yapay zeka sistemleri, ruh sağlığı alanında çeşitli metodolojik yaklaşımlardan yararlanıyor...",
+      "p1": "Ruh sağlığı alanındaki çağdaş yapay zeka sistemleri, her biri farklı klinik uygulamalar için belirli avantajlara sahip çeşitli metodolojik yaklaşımlar kullanmaktadır. Temel teknik temeller arasında doğal dil işleme (NLP), makine öğrenimi (ML), bilgisayarlı görme ve dijital fenotipleme yer almaktadır.",
+      "p2": "Doğal Dil İşleme (NLP), birçok akıl sağlığı yapay zekâ sisteminin temelini oluşturarak dilsel içerik ve iletişim kalıplarının analizini mümkün kılar. BERT (Transformatörlerden Çift Yönlü Kodlayıcı Temsilleri) ve GPT (Üretici Önceden Eğitilmiş Transformatör) gibi gelişmiş dönüştürücü tabanlı modeller, sistemlerin klinik anlatıları, terapi seansı transkriptlerini ve hasta tarafından oluşturulan metinleri, bağlam, duygu ve psikolojik içerik konusunda giderek daha gelişmiş bir anlayışla yorumlamasına olanak tanır. Bu modeller, depresyonda azalmış sözdizimsel karmaşıklık veya psikotik bozukluklarda anlamsal tutarlılık bozuklukları gibi belirli durumlarla ilişkili dilsel belirteçleri belirleyebilir. En gelişmiş klinik NLP sistemleri, anonimleştirilmiş klinik notlar, terapi transkriptleri ve doğrulanmış psikolojik değerlendirme araçları dahil olmak üzere akıl sağlığına özgü korpuslar üzerinde hassas bir şekilde ayarlanmıştır.",
+      "p3": "Ruh sağlığı alanındaki Makine Öğrenmesi yaklaşımları, gözetimli sınıflandırmayı (tanı uygulamaları için), gözetimsiz kümelemeyi (yeni semptom örüntülerini belirlemek için), pekiştirmeli öğrenmeyi (müdahaleleri kişiselleştirmek için) ve giderek artan bir şekilde çok modlu veri entegrasyonu için derin öğrenmeyi kapsar. Eğitim verileri genellikle yapılandırılmış klinik değerlendirmeleri (örneğin, depresyon için PHQ-9, anksiyete için GAD-7), davranışsal ölçümleri, fizyolojik sinyalleri ve elektronik sağlık kaydı verilerini içerir. Doğrulama metodolojileri genellikle k-katlı çapraz doğrulama ve harici test setleri kullanır; performans, duyarlılık, özgüllük, pozitif/negatif öngörü değerleri ve alıcı işletim karakteristik eğrisi altındaki alan (AUC-ROC) kullanılarak değerlendirilir.",
+      "p4": "Bilgisayarlı Görme uygulamaları, zihinsel durumlarla ilişkili yüz ifadelerini, motor örüntülerini ve sözel olmayan davranışları analiz eder. Evrişimsel sinir ağları ve zamansal modeller (örneğin, LSTM ağları), duygusal durumları veya semptom belirtilerini gösterebilecek mikro ifadeleri, bakış örüntülerini ve psikomotor değişiklikleri tespit edebilir. Bu sistemler, otizm spektrum bozuklukları veya ağır ruhsal hastalıklarda katatonik semptomlar gibi davranışsal gözlemin tanıya yardımcı olduğu durumlar için özellikle değerlidir.",
+      "p5": "Dijital Fenotipleme, akıllı telefonlar ve giyilebilir cihazlardan pasif veri toplayarak zihinsel durumlarla ilişkili davranış kalıplarını belirleyen yeni bir yaklaşımı temsil eder. Bu sistemler, zihinsel sağlık durumunun dijital biyobelirteçlerini oluşturmak için coğrafi konum verilerini, aktivite seviyelerini, uyku düzenlerini, sosyal iletişim sıklığını, yazma dinamiklerini ve ses özelliklerini analiz eder. Bu yaklaşım, klinik ortamların dışında sürekli ve ekolojik izleme olanağı sağlayarak semptomatik değişikliklerin daha erken tespit edilmesine olanak tanır.",
+      "p6": "Entegrasyon çerçeveleri, daha kapsamlı değerlendirme için giderek daha fazla sayıda yöntemi bir araya getiriyor. Örneğin, sistemler, tanı doğruluğunu artırmak için klinik görüşmeler sırasında ses akustiği ve yüz ifadelerinin yanı sıra dilsel içeriği de analiz edebilir. Benzer şekilde, terapötik uygulamalar, müdahale zamanlamasını ve içeriğini kişiselleştirmek için metin alışverişlerinin duygu analizini pasif izleme verileriyle entegre edebilir.",
+      "p7": "Ruh sağlığı yapay zeka sistemleri için değerlendirme metodolojileri, geleneksel tanısal doğruluk ölçütlerini (duyarlılık, özgüllük, AUC), kullanılabilirlik değerlendirmelerini ve giderek artan bir şekilde, prospektif çalışmalardan elde edilen klinik sonuç ölçümlerini içerir. Karşılaştırma için altın standartlar uygulamaya göre değişmekle birlikte, genellikle yapılandırılmış klinik görüşmeler, doğrulanmış değerlendirme araçları ve klinisyen konsensüs tanılarını içerir. Son zamanlarda yapılan birçok çalışma, yapay zeka destekli bakımı olağan tedaviye göre değerlendirmek için randomize kontrollü çalışma tasarımları kullanmaktadır.",
+      "p8": "Psikolojik verilerin hassas yapısı göz önüne alındığında, gizliliği koruyan hesaplama yaklaşımları ruh sağlığı uygulamalarında özellikle önemlidir. Bunlar arasında, federatif öğrenme (modellerin verileri merkezileştirmeden birden fazla merkezde eğitildiği), farklı gizlilik teknikleri ve güvenli çok taraflı hesaplama yer alır. Bu yöntemler, büyük ve çeşitli eğitim veri kümelerine duyulan ihtiyaç ile veri korumasına ilişkin etik gereklilikler arasında denge kurulmasına yardımcı olur."
+    },
+    "results": {
+      "title": "Sonuçlar",
+      "diagnosticSupport": {
+        "title": "Tanı Desteğinde Yapay Zeka",
+        "text": "Yapay zeka sistemleri, ruh sağlığı teşhisini desteklemede umut verici yetenekler göstermiştir...",
+        "p1": "Yapay zeka sistemleri, çeşitli rahatsızlıklarda ruh sağlığı teşhisini desteklemede umut verici yetenekler göstermiştir. Bu araçlar, klinik görüşmeler, anket yanıtları, konuşma kalıpları, yüz ifadeleri ve dijital davranışlar dahil olmak üzere çeşitli veri kaynaklarını analiz ederek psikolojik bozuklukların karakteristik özelliklerini belirler.",
+        "p2": "Depresyon tespitinde, dil özelliklerini analiz eden NLP algoritmaları kayda değer bir başarı elde etmiştir. JAMA Psikiyatri dergisinde 2021 yılında yayınlanan bir çalışmada, 4.216 katılımcının standartlaştırılmış komutlara verdiği serbest metin yanıtlarını analiz eden bir NLP sistemi değerlendirilmiştir. Sistem, yapılandırılmış klinik görüşmelerle karşılaştırıldığında majör depresif bozukluğu tespit etmede %87 duyarlılık ve %84 özgüllük göstermiştir. Özellikle öngörücü özellikler arasında birinci tekil şahıs zamir kullanımı, olumsuz duygu ifade eden kelimeler ve azalmış dil çeşitliliği yer almaktadır. Ses akustik analiziyle (azalmış perde değişimi ve konuşma hızı gibi prozodik özellikleri yakalayarak) birleştirildiğinde, tanısal doğruluk %92'ye yükselmiştir.",
+        "p3": "Benzer şekilde, konuşma ve dil kalıplarının otomatik analizi, bilişsel bozukluğu tespit etmede etkili olmuştur. 382 yaşlı yetişkini kapsayan prospektif bir doğrulama çalışmasında, kısa ve yapılandırılmış bir görüşme sırasında anlamsal tutarlılık, sözdizimsel karmaşıklık ve akustik özellikleri analiz eden bir yapay zeka sistemi, hafif bilişsel bozukluğu tespit etmede %85 doğruluk oranına ulaşmıştır. Bu oran, kısa nöropsikolojik testlerle karşılaştırılabilir ancak yalnızca 3 dakikalık bir konuşma örneği gerektirmektedir.",
+        "p4": "Anksiyete bozuklukları için, fizyolojik verileri (kalp hızı değişkenliği, elektrodermal aktivite) davranışsal ölçümlerle birleştiren çok modlu sistemler özellikle yararlı olmuştur. Standartlaştırılmış stres faktörleri sırasında otonomik biyobelirteçleri izleyen giyilebilir tabanlı bir sistem, 189 katılımcıdan oluşan bir örneklemde yaygın anksiyete bozukluğunu %83 doğrulukla doğru bir şekilde sınıflandırmış ve panik bozukluğu tespiti %88 hassasiyete ulaşmıştır.",
+        "p5": "Bilgisayarlı görme uygulamaları, gözlemlenebilir davranışsal bileşenlere sahip durumlar için umut verici sonuçlar göstermiştir. Klinik görüşmeler sırasında yüz ifadelerini ve hareket kalıplarını analiz eden derin öğrenme sistemi, 3-6 yaş arası çocuklarda otizm spektrum bozukluklarını %86 doğrulukla tespit etmiş ve bu da potansiyel olarak birinci basamak sağlık kuruluşlarında daha erken tarama yapılmasını mümkün kılmıştır. Benzer şekilde, yapılandırılmış değerlendirmelerden elde edilen video kayıtlarının analizi, manik ve depresif evrelerde motor aktivite ve yüz ifadesindeki ince farklılıklara dayanarak bipolar bozukluğu tespit etmede %82 doğruluk göstermiştir.",
+        "p6": "Pasif akıllı telefon verilerini analiz eden dijital fenotipleme yaklaşımları, durum izleme açısından değerli olduğunu kanıtlamıştır. Lokal entropi (hareket kalıplarındaki değişkenlik), uyku süresi ve iletişim sıklığı, standart depresyon değerlendirme ölçekleriyle yüksek korelasyon (r=0,71-0,84) göstermiş ve klinik ziyaretler arasında sürekli değerlendirmeye olanak sağlamıştır.",
+        "p7": "Daha da önemlisi, son çalışmalar algoritmik önyargıyı ele almaya ve farklı popülasyonlarda eşit performans sağlamaya odaklanmıştır. Çeşitli ırksal ve sosyoekonomik geçmişlere sahip 8.200 katılımcı üzerinde yapılan bir depresyon tarama algoritmasının geniş çaplı bir doğrulama çalışması, başlangıçta Siyah katılımcılar için beyaz katılımcılara kıyasla daha düşük özgüllük (%73'e karşı %89) göstermiştir. Daha çeşitli bir eğitim seti ve kültürel olarak ayarlanmış referans standartlarıyla model yeniden kalibre edildikten sonra, performans eşitsizlikleri önemli ölçüde azalmış ve özgüllük tüm demografik gruplarda %85'e yükselmiştir.",
+        "p8": "Bu gelişmelere rağmen, tanı uygulamalarında zorluklar devam etmektedir. Çoğu sistem, çeşitli klinik ortamlardan ziyade, öncelikle kontrollü araştırma ortamlarında doğrulanmıştır. Dahası, birçoğu modern psikiyatri pratiğinde giderek daha fazla tercih edilen boyutsal yaklaşım yerine ikili sınıflandırmaya (bir rahatsızlığın varlığı/yokluğu) odaklanmıştır. Bu sınırlamaları gidermeye yönelik çabalar arasında, semptom boyutlarını geleneksel tanı sınırları boyunca değerlendiren ve psikolojik sıkıntının karmaşık gerçekliğini daha iyi yansıtan transdiagnostik modellerin geliştirilmesi yer almaktadır."
+      },
+      "therapeuticApplications": {
+        "title": "Terapötik Uygulamalarda Yapay Zeka",
+        "text": "Zihinsel sağlık için yapay zeka tabanlı terapötik müdahaleler, basit kural tabanlı sistemlerden evrimleşmiştir...",
+        "p1": "Ruh sağlığı için yapay zeka tabanlı terapötik müdahaleler, basit kural tabanlı sistemlerden, kanıta dayalı terapötik prensipleri sunabilen gelişmiş konuşma araçlarına doğru evrilmiştir. Bu uygulamalar, tamamen otomatik dijital terapilerden yapay zeka destekli insan terapisine kadar geniş bir yelpazeyi kapsamaktadır.",
+        "p2": "Bilişsel davranışçı terapi (BDT) prensiplerini uygulayan konuşma tabanlı yapay zeka sistemleri en titiz değerlendirmelerden geçmiştir. The Lancet Digital Health'te (2022) yayınlanan çığır açıcı bir randomize kontrollü çalışmada, orta düzeyde depresyonu olan 1.032 katılımcı, yapay zeka destekli bir BDT programına veya her zamanki tedaviye atanmıştır. Kullanıcıları temel BDT tekniklerini uygulayarak günlük metin tabanlı konuşmalara dahil eden yapay zeka sistemi, 12 haftada PHQ-9 depresyon puanlarında kontrol grubuna kıyasla istatistiksel olarak anlamlı düşüşler göstermiştir (ortalama fark -2,85 puan, %95 GA -4,07 ila -1,63, p<0,001). Tedavi etkileri 6 aylık takipte korunmuştur. Özellikle, yapay zeka programına uyum oranları (%68'i tüm protokolü tamamlamıştır), kendi kendine yönlendirilen dijital müdahaleler için tipik oranları (%25-30) aşmıştır; bu da konuşma tabanlı arayüzün katılımı iyileştirdiğini göstermektedir.",
+        "p3": "Anksiyete bozuklukları için, maruz bırakma terapisi prensiplerini uygulayan benzer bir konuşma aracı, 688 katılımcıyla yapılan bir çalışmada yaygın anksiyete bozukluğu için etkililik göstermiştir. Kullanıcıları kişiselleştirilmiş maruz bırakma hiyerarşileri boyunca adaptif zorluk ilerlemesiyle yönlendiren sistem, bekleme listesindeki kontrollere kıyasla GAD-7 puanlarında %25 daha fazla azalma sağlamış ve tedavi sonrası değerlendirmede terapist liderliğindeki grup bilişsel davranışçı terapi ile karşılaştırılabilir etkiler elde etmiştir. Maliyet-etkinlik analizi, yapay zekâ müdahalesinin maliyetinin, hafif ila orta şiddetteki vakalarda benzer klinik faydalar sağlarken, eşdeğer insan kaynaklı terapinin yaklaşık beşte biri olduğunu göstermiştir.",
+        "p4": "Duygudurum ve anksiyete bozukluklarının yanı sıra, yapay zekâ terapileri uykusuzluk, travma sonrası stres bozukluğu ve madde kullanım bozuklukları gibi rahatsızlıklar için de umut verici sonuçlar göstermiştir. Tespit edilen risk durumlarına göre kişiselleştirilmiş motivasyonel mesajları dinamik olarak sunan alkol kullanım bozukluğu için bir takviyeli öğrenme sistemi, 352 katılımcının katıldığı 3 aylık bir çalışmada, kendi kendine bildirilen içki içme günlerini, statik eğitim içeriğine kıyasla %34 oranında azaltmıştır. Sistemin, pasif izleme verilerine (örneğin, sık içki içilen yerlere yakınlığı gösteren konum verileri) dayanarak optimum müdahale zamanlamasını belirleme yeteneği, üstün etkinliğini sağlamış görünmektedir.",
+        "p5": "İnsan terapisinin yapay zeka destekli olarak güçlendirilmesi de değer göstermiştir. Terapistlere uyum geri bildirimi ve öneri uyarıları sağlamak için seans transkriptlerini analiz eden bir terapi koçluğu sistemi, randomize bir çalışmada, desteklenmemiş terapiye kıyasla bilişsel davranışçı terapi protokolünün doğruluğunu %32 oranında artırmış ve daha fazla semptom azalmasıyla (etki büyüklüğü d=0,41) ilişkilendirilmiştir. Terapistler, yapay zeka destekli geri bildirimin kanıta dayalı tekniklere odaklanmaya ve aksi takdirde gözden kaçabilecek belirli müdahaleler için fırsatları belirlemeye yardımcı olduğunu bildirmiştir."
+      },
+      "patientMonitoring": {
+        "title": "Hasta İzleme ve Nüks Önlemede Yapay Zeka",
+        "text": "Sürekli izleme uygulamaları, yapay zekanın zihinsel sağlık alanında özellikle umut vadeden bir alan olduğunu gösteriyor...",
+        "p1": "Sürekli izleme uygulamaları, klinik ziyaretler ve olası erken müdahaleler arasındaki semptomatik değişikliklerin tespit edilmesini sağlayarak, yapay zekânın ruh sağlığı alanında özellikle umut vadeden bir alan sunmaktadır. Bu sistemler, genellikle zihinsel durumun dijital biyobelirteçlerini oluşturmak için akıllı telefon sensörlerini, giyilebilir cihazları ve kullanıcı etkileşimlerini kullanır.",
+        "p2": "Şizofreni ve bipolar bozukluk dahil olmak üzere ciddi ruhsal hastalıklarda erken uyarı işareti tespitinin klinik açıdan önemli bir faydası olduğu gösterilmiştir. Şizofreni hastası 304 birey üzerinde yapılan 12 aylık prospektif bir çalışmada, konuşma kalıplarını, uykuyu, hareketliliği ve sosyal etkileşimi analiz eden akıllı telefon tabanlı bir izleme sistemi, rutin bakım sırasında klinik bozulma belirginleşmeden ortalama 7,4 gün önce psikotik atakların %89'unu tespit etmiştir. Klinik yanıt protokolüyle entegre edildiğinde, sistem hastaneye yatış oranlarını olağan tedaviye kıyasla %28 oranında azaltmış ve bu da hem hastalar hem de sağlık sistemleri için önemli bir fayda sağladığını göstermektedir.",
+        "p3": "Benzer yaklaşımlar bipolar bozuklukta etkililik göstermiştir. Yazım kalıplarını, ses akustiğini, uyku süresini ve aktivite seviyelerini analiz eden multimodal bir sistem, manik ve depresif atak başlangıcını sırasıyla %82 ve %77 doğrulukla tespit ederek, klinik eşikler aşılmadan ortalama 4-6 gün önce uyarı sağlamıştır. 397 katılımcının yer aldığı randomize bir çalışmada entegre bir klinisyen bildirim sistemiyle birlikte kullanıldığında, izleme sistemi standart bakıma kıyasla daha kısa atak süresi ve daha düşük semptom şiddeti ile ilişkilendirilmiştir.",
+        "p4": "Depresyon takibi için, dijital davranışı analiz eden sistemler klinik semptom ölçümleriyle güçlü bir korelasyon göstermiştir. Akıllı telefon kullanım kalıpları, fiziksel aktivite ve sosyal davranış hakkında veri toplayan pasif bir algılama uygulaması, tekrarlayan depresyonu olan 211 katılımcıyla yapılan 6 aylık uzunlamasına bir çalışmada PHQ-9 puanlarıyla 0,82 korelasyon göstermiştir. Bu davranışsal özellikler üzerinde eğitilen makine öğrenimi modelleri, semptom gidişatlarını vakaların %76'sında çözülen veya kötüleşen depresyonu ayırt edecek kadar doğru bir şekilde tahmin etmiş ve bu da potansiyel olarak daha zamanında müdahaleye olanak sağlamıştır.",
+        "p5": "Yeme bozukluğu izleme uygulamaları, semptomları ve yüksek riskli davranışları izlemek için davranışsal verilerin yanı sıra yemek fotoğrafçılığını bilgisayarlı görme analiziyle birlikte kullanmıştır. Bulimia nervoza hastası 157 kişiyle yapılan bir pilot çalışmada, yemek içeriğini, yeme alışkanlıklarını ve telafi edici davranış göstergelerini analiz eden bir yapay zeka sistemi, yalnızca dijital biyobelirteçlere dayanarak nüks olaylarının %83'ünü doğru bir şekilde tespit etmiş ve öz bildirim ölçümleriyle karşılaştırıldığında olumlu sonuçlar vermiştir. Tam zamanında uyarlanabilir müdahalelerle entegrasyon, kritik karar noktalarında destek sağlayarak tıkınırcasına yeme-kusma ataklarını azalttığına dair ön kanıtlar göstermiştir.",
+        "p6": "Bu uygulamalarda, kullanıcı etkileşimi ve gizlilik endişeleri başlıca zorluklar olmuştur. Kullanıcı kontrollü veri paylaşımı, şeffaf algoritma açıklamaları ve net fayda gösterimleri uygulayan çalışmalar, katılımcıların %71'ine varan oranda 6 aydan uzun süre düzenli kullanımla en yüksek sürekli etkileşim oranlarına ulaşmıştır. Özellikle, kullanıcılar somut sağlık yararları algıladıklarında ve veri kullanımı üzerinde kontrol sağladıklarında gizlilik endişelerinin azaldığı görülmektedir."
+      }
+    },
+    "discussion": {
+      "title": "Tartışma",
+      "text": "Mevcut kanıtlara ilişkin incelememiz, akıl sağlığı alanındaki yapay zekâ uygulamalarının teorik olanaklardan, değerlendirme doğruluğu, tedavi sunumu ve durum izleme üzerinde ölçülebilir etkilere sahip klinik olarak doğrulanmış araçlara doğru ilerlediğini göstermektedir. Toplu bulgulardan birkaç temel tema ortaya çıkmaktadır.\n\nİlk olarak, çok modlu yaklaşımlar, uygulamalar genelinde tek modlu sistemlerden sürekli olarak daha iyi performans göstermektedir. Dilsel analiz, davranışsal izleme, fizyolojik sinyaller ve bağlamsal bilgilerin entegrasyonu, herhangi bir bireysel ölçümden daha kapsamlı bir zihinsel durum tablosu oluşturur. Bu, bilişsel, duygusal, davranışsal ve fizyolojik alanlarda kendini gösteren akıl sağlığı koşullarının karmaşık ve çok yönlü doğasını yansıtır. Gelecekteki gelişmeler, tutarlı değerlendirme çerçeveleri içinde tamamlayıcı veri kaynaklarının entegrasyonunu vurgulamaya devam etmelidir.\n\nİkinci olarak, kanıtlar, yapay zekânın insan klinisyenlerin yerini almak yerine onları güçlendirdiği hibrit bir modeli desteklemektedir. En başarılı uygulamalar, yapay zekâyı klinik uzmanlık için bir güç çarpanı olarak konumlandırır; erişimi genişletir, verimliliği artırır, daha sürekli değerlendirmeye olanak tanır ve kanıta dayalı uygulamaları destekler. Hasta ve sağlık hizmeti sağlayıcısı arasındaki terapötik ittifak, etkili ruh sağlığı bakımının merkezinde yer almaya devam ediyor ve teknoloji, bu ilişkinin yerine geçmeye çalışmaktan ziyade onu geliştirdiğinde en etkili yöntem olarak görünüyor.\n\nÜçüncüsü, kişiselleştirme, etkililikte kritik bir faktör olarak ortaya çıkıyor. Ruh sağlığı sorunları, ortaya çıkış, ilerleme ve tedavi yanıtında önemli bir çeşitlilik sergiliyor. Bireysel semptom profillerine, kişisel tercihlere ve yanıt örüntülerine uyum sağlayabilen yapay zeka sistemleri, tek tip yaklaşımlara kıyasla daha üstün sonuçlar göstermiştir. Bu durum, müdahalelerin bireysel biyopsikososyal profillere göre uyarlandığı hassas psikiyatriye doğru daha geniş bir yönelimle örtüşmektedir.\n\nBu umut verici gelişmelere rağmen, araştırma ilerlemelerinin klinik uygulamaya aktarılmasında önemli zorluklar devam etmektedir. Temel sınırlamalar şunlardır:\n\nAlgoritmik önyargı ve genelleştirilebilirlik endişeleri: Birçok sistem nispeten homojen popülasyonlar üzerinde geliştirilmiş ve doğrulanmıştır ve bu da farklı demografik gruplardaki performans hakkında sorular ortaya çıkarmaktadır. İlk bulgular, bazı algoritmaların kültürel bağlamlar, cinsiyet ve ırk/etnik kökenler arasında farklı performans gösterdiğini göstermektedir. Son zamanlarda yapılan çalışmalar, daha temsili eğitim verileri ve kültürel olarak bilgilendirilmiş referans standartlarıyla bu eşitsizlikleri ele almaya başlamış olsa da, adil performansı sağlamak hâlâ devam eden bir zorluk olmaya devam ediyor.\n\nSınırlı uzunlamasına kanıt: Kısa vadeli çalışmalar umut verici sonuçlar gösterse de, sürdürülebilir katılım, kalıcı tedavi etkileri ve yapay zeka müdahalelerinin olası istenmeyen sonuçları hakkında uzun vadeli takip verileri yetersizdir. Yapay zeka teknolojisinin hızla gelişen yapısı, uzunlamasına klinik araştırmalar için geleneksel zaman çizelgesini geride bırakarak kalıcı bir kanıt açığı yaratmaktadır.\n\nEntegrasyon zorlukları: Teknik, iş akışı ve kültürel engeller, yapay zeka araçlarının mevcut klinik sistemlere entegrasyonunu zorlaştırmaktadır. Başarılı uygulama, klinisyen iş akışına, elektronik sağlık kayıtlarıyla entegrasyona, net rol ve sorumluluklara, sorumluluk çerçevelerine ve geri ödeme modellerine dikkat edilmesini gerektirir. En etkili teknik gelişmeler bile, bu uygulama faktörlerine dikkat edilmediği takdirde potansiyellerini gerçekleştiremeyebilir.\n\nGizlilik ve güvenlik hususları: Ruh sağlığı verileri, en hassas kişisel bilgiler arasındadır. Federatif öğrenme ve farklı gizlilik gibi teknik yaklaşımlar bu endişelerin giderilmesine yardımcı olsa da, akıl sağlığı alanında yapay zekâda sorumlu veri yönetimi için kapsamlı yönetişim çerçeveleri henüz yeterince gelişmemiştir. Veri odaklı yaklaşımların faydalarını güçlü gizlilik korumalarıyla dengelemek, devam eden bir zorluk teşkil etmektedir.\n\nDüzenleyici belirsizlik: Akıl sağlığı alanında yapay zekâya ilişkin düzenleyici ortam hala gelişmektedir. Geleneksel tıbbi cihazlar için tasarlanan mevcut çerçeveler, dağıtım sırasında öğrenmeye devam eden uyarlanabilir yapay zekâ sistemlerinin benzersiz özelliklerini yeterince ele almayabilir. Öğrenme sistemleri için uygun doğrulama standartlarının, izleme gereksinimlerinin ve güncelleme protokollerinin geliştirilmesi, sorumlu inovasyon için elzem olacaktır.\n\nBu zorluklara rağmen, kanıtlar klinik fayda, uygun güvenlik önlemleri ve etik hususlara dikkat gösteren yapay zekâ uygulamalarının sürekli geliştirilmesini ve dikkatli bir şekilde uygulanmasını desteklemektedir. Özellikle sağlık hizmeti sağlayıcısı sıkıntısı çeken, yetersiz hizmet alan nüfuslar için akıl sağlığı hizmetlerine erişimi genişletme potansiyeli, bu alanda sürekli inovasyon için güçlü bir gerekçe sunmaktadır."
+    },
+    "conclusion": {
+      "title": "Çözüm",
+      "text": "Ruh sağlığı alanındaki yapay zekâ uygulamaları, son on yılda önemli ölçüde ilerleyerek teorik kavramlardan, tanı desteği, tedavi sunumu, hasta takibi ve öngörücü analiz alanlarında etkinliği kanıtlanmış klinik olarak doğrulanmış araçlara geçiş yapmıştır. Bu makalede incelenen kanıtlar, bu teknolojilerin erişim kısıtlamaları, kaynak kısıtlamaları ve değerlendirme ve müdahaleye yönelik daha sürekli ve kişiselleştirilmiş yaklaşımlara duyulan ihtiyaç gibi ruh sağlığı alanındaki kritik zorlukları ele alma konusunda gerçek bir potansiyele sahip olduğunu göstermektedir.\n\nGelecekteki geliştirme ve uygulamalara birkaç temel ilke rehberlik etmelidir. İlk olarak, yapay zekâ, sağlayıcı ve hasta arasındaki temel terapötik ilişkinin yerini almaya çalışmak yerine, insan klinik uzmanlığını geliştirmeli ve genişletmelidir. İkinci olarak, çeşitli veri kaynaklarını entegre eden çok modlu yaklaşımlar, ruh sağlığı durumunun en kapsamlı ve doğru resmini sunar. Üçüncü olarak, bireysel ihtiyaçlara, tercihlere ve yanıt modellerine uyum sağlayan kişiselleştirme yetenekleri, optimum sonuçlara ulaşmak için çok önemlidir. Dördüncü olarak, algoritma adaletine, farklı popülasyonlarda şeffaf doğrulamaya ve potansiyel önyargılara karşı sürekli izlemeye özen göstermek, adil bir uygulama için elzemdir.\n\nKlinik iş akışlarına entegrasyon, gizlilik korumaları, düzenleyici çerçeveler ve uzun vadeli kanıt geliştirme gibi önemli zorluklar devam etse de, potansiyel faydalar, iyi doğrulanmış sistemlerin sürekli araştırılmasını ve dikkatli klinik uygulamasını gerektirmektedir. Dünya çapında milyonlarca kişiyi etkileyen ruh sağlığı tedavi açığı, kanıta dayalı bakımın kapsamını genişletebilecek yenilikçi yaklaşımlar gerektirmektedir.\n\nGeleceğe baktığımızda, bu alanda birçok umut verici yön öngörüyoruz. Genomik ve diğer biyolojik verilerin davranışsal ve psikolojik ölçümlerle entegrasyonu, bireysel risk profillerinin ve tedavi yanıtı öngörücülerinin daha hassas bir şekilde karakterize edilmesini sağlayabilir. Hassas verileri merkezileştirmeden kurumlar genelinde model geliştirmeye olanak tanıyan birleşik öğrenme yaklaşımları, daha çeşitli ve temsili eğitim setleri sağlarken gizlilik endişelerini de giderebilir. Klinisyenlerin ve yapay zekanın ilgili güçlü yönlerini optimize eden yeni insan-yapay zeka iş birliği modelleri, her birinin tek başına kullanılmasına kıyasla daha üstün sonuçlar verebilir.\n\nBu teknolojiler gelişmeye devam ettikçe, hem yapay zekanın ruh sağlığını iyileştirmedeki önemli potansiyelini hem de insan bağlantısının, klinik bilgeliğin ve kişi merkezli yaklaşımların temel önemini kabul ederek dengeli bir bakış açısı sürdürmek hayati önem taşımaktadır. Düşünceli geliştirme, titiz doğrulama ve dikkatli uygulama ile yapay zeka, zihinsel hastalıkların küresel yükünü ele almada ve etkili zihinsel sağlık hizmetlerini ihtiyacı olan herkes için erişilebilir kılma hedefini ilerletmede değerli bir araç olma potansiyeline sahiptir."
+    }
+  },
+  "whyVirtualMD": {
+    "sections": {
+      "hero": {
+        "title": "VirtualMD.app",
+        "subtitle": "VirtualMD.app ile sağlık potansiyelinizi ortaya çıkarın. Batı Usulü Sağlık, Geleneksel Çin Usulü Sağlık ve diğer sağlıklı yaşam sanatlarında eğitimli yapay zeka rehberlerine tek bir görüşmede danışın. 7/24 kişiselleştirilmiş bilgiler alın ve sağlığınızın kontrolünü elinize alın. İşte sağlık hizmetinin yeniden yorumlanmış hali."
+      },
+      "whyUs": {
+        "title": "Sağlıklı Yaşam Yolculuğunuz İçin Neden VirtualMD.app'i Seçmelisiniz?",
+        "points": {
+          "personalTeam": {
+            "title": "Kişisel Ekibiniz",
+            "text": "Yapay zeka sağlık danışmanlarından oluşan ekibinizi seçin. Batılı sağlık, geleneksel Çin sağlık ve tamamlayıcı sağlık uzmanlığından fikir edinin."
+          },
+          "aiNavigator": {
+            "title": "Yapay Zeka Destekli Kişisel Navigatörünüz",
+            "text": "Kişisel yapay zeka sağlık rehberiniz, uzman yapay zeka danışmanlarımızdan gelen içgörüleri sizin için uygulanabilir tavsiyelere dönüştürerek sizi en alakalı sağlık içgörülerine ve stratejilerine yönlendirir."
+          },
+          "empoweringChoices": {
+            "title": "Sağlık Seçimlerini Güçlendirmek",
+            "text": "Refahınız için bilinçli kararlar almanızı sağlayacak net ve uygulanabilir bakış açıları edinin."
+          },
+          "easyToUse": {
+            "title": "Kullanımı Daha Kolay",
+            "text": "Platformumuz sezgisel etkileşim için tasarlanmıştır. Yapay zeka rehberleriyle bağlantı kurun ve karmaşıklık olmadan sağlıklı yaşam yollarını keşfedin."
+          },
+          "advancedTechnology": {
+            "title": "Devrim Niteliğindeki İleri Teknoloji",
+            "text": "İnsan merakı ile yapay zeka destekli sağlıklı yaşam içgörüleri arasındaki sinerjiyi en üst düzeye çıkarmak için tasarlanmış son teknoloji yazılımımızı deneyimleyin."
+          }
+        }
+      },
+      "features": {
+        "title": "Temel Platform Özellikleri",
+        "points": {
+          "dynamicEnsemble": {
+            "title": "Dinamik Yapay Zeka Topluluğu:",
+            "text": "Orkestralama yapan yapay zekamız, Batı Sağlığı, Geleneksel Çin Sağlığı ve daha fazlasını kapsayan çeşitli özel yapay zeka sağlıklı yaşam rehberlerinden gelen içgörüleri akıllıca birleştirerek özel sorularınıza gerçek zamanlı olarak yanıt verir."
+          },
+          "holisticUnderstanding": {
+            "title": "Bütünsel Anlayış:",
+            "text": "Yapay zekamız, metin, fitness ilerlemenizin görüntüleri veya sağlık günlüğü girişleri gibi çeşitli girdileri kapsamlı, bağlam açısından zengin sağlık perspektifleri için yorumlar."
+          },
+          "rapidAccess": {
+            "title": "Yapay Zeka Kılavuzlarına Hızlı Erişim:",
+            "text": "Yüzlerce özel yapay zeka sağlık rehberiyle saniyenin altında yanıt süresiyle anında bağlantı kurun."
+          },
+          "reliableInteractions": {
+            "title": "Güvenilir Etkileşimler:",
+            "text": "Otomatik güvenlik önlemleri, bir yapay zeka rehberinin yeniden kalibre edilmesi için zamana ihtiyacı olsa bile, sorunsuz ve kesintisiz bir deneyim sağlar."
+          },
+          "insightfulLogs": {
+            "title": "Anlamlı Etkileşim Günlükleri:",
+            "text": "Yapay zeka rehberlerimizin bilgilerinin sürekli iyileştirilmesi ve geliştirilmesini desteklemek için oturum etkileşimleri kaydedilir."
+          }
+        }
+      },
+      "technology": {
+        "title": "Devrim Niteliğindeki Teknolojimiz",
+        "description1": "VirtualMD.app, en son orkestrasyon yöntemlerini kullanır. Sistemimiz, sorularınızın Batı tıp bilgisinden, Geleneksel Çin Sağlık ilkelerinden, beslenme biliminden, farkındalık tekniklerinden, fitness stratejilerinden ve daha fazlasından yararlanan bir yapay zeka kılavuzları korosundan yararlanmasını sağlayarak en kapsamlı bakış açısını sunar.",
+        "description2": "Gelişmiş muhakeme motorumuz, metin girdilerinizden, görsel kayıtlarınızdan ve diğer sağlık verilerinizden gelen bilgileri birleştirerek geleneksel yaklaşımların kopyalayamayacağı bütünsel içgörüler sunar.",
+        "description3": "Anında erişilebilen kapsamlı bir yapay zeka sağlık rehberleri kütüphanesi ve güçlü etkileşim protokolleriyle her alanda tutarlı, yüksek kaliteli etkileşim sağlıyoruz.",
+        "description4": "Her etkileşim dikkatlice kaydediliyor, bu sayede şeffaflık artıyor ve platformumuzun etkinliği ve içgörü kalitesinin sürekli gelişimi sağlanıyor."
+      },
+      "cta": {
+        "title": "Sağlığınızı Devrimleştirmeye Hazır mısınız?",
+        "subtitle": "<span>VirtualMD.app</span> hareketine katılın ve en son sağlık tavsiyelerine erişimde yeni bir çağı keşfedin. Daha güçlü, bilgili ve canlı bir benliğe doğru ilk adımı atın. Çeşitli yapay zeka bakış açılarını ve kapsamlı sağlık bilgi tabanımızı keşfedin.",
+        "buttonText": "Hemen Başlayın"
+      }
+    }
+  },
+  "whitepapers": {
+    "downloadPdf": "PDF'yi indirin"
+  },
+  "dermatologyaiWhitepaper": {
+    "title": "merkez",
+    "downloadPdf": "PDF'yi indirin",
+    "generating": "Oluşturuluyor...",
+    "pdfFilename": "DermatolojiAIWhitePaperPage.pdf",
+    "content1": ");\ncurrentY = addWrappedText(doc, başlık, kenar boşluğu, currentY, içerikGenişliği);\ncurrentY += 5;\ndoc.setFont(undefined,",
+    "content2": "Kalibrasyon (güven puanlarının güvenilirliği) ve açıklanabilirlik (tanıyı bilgilendiren ilgili görüntü bölgelerini vurgulama yeteneği).\n\nVeri seti düzenlemesi benzersiz zorluklar sunar: aydınlatma, konumlandırma ve görüntü kalitesindeki değişiklikler algoritmik performansı önemli ölçüde etkileyebilir. Çoğu sistem, dermatoloji kliniklerinden alınan retrospektif görüntü koleksiyonları üzerinde eğitilir ve bu da potansiyel bir spektrum sapması yaratır; görüntüler, birinci basamak sağlık kuruluşlarındaki tüm sunum aralığını temsil etmeyebilir. Ortaya çıkan modeller, bekleme test setleri, bağımsız veri setleri üzerinde harici doğrulama ve giderek artan bir şekilde yapay zeka önerilerini dermatolog kararları ve histopatolojik temel gerçekle karşılaştıran prospektif klinik değerlendirmeler yoluyla doğrulamaya tabi tutulur.",
+    "content3": "Kalibrasyon (güven puanlarının güvenilirliği) ve açıklanabilirlik (tanıyı bilgilendiren ilgili görüntü bölgelerini vurgulama yeteneği).\n\nVeri seti düzenlemesi benzersiz zorluklar sunar: aydınlatma, konumlandırma ve görüntü kalitesindeki değişiklikler algoritmik performansı önemli ölçüde etkileyebilir. Çoğu sistem, dermatoloji kliniklerinden alınan retrospektif görüntü koleksiyonları üzerinde eğitilir ve bu da potansiyel bir spektrum sapması yaratır; görüntüler, birinci basamak sağlık kuruluşlarındaki tüm sunum aralığını temsil etmeyebilir. Ortaya çıkan modeller, bekleme test setleri, bağımsız veri setleri üzerinde harici doğrulama ve giderek artan bir şekilde yapay zeka önerilerini dermatolog kararları ve histopatolojik temel gerçekle karşılaştıran prospektif klinik değerlendirmeler yoluyla doğrulamaya tabi tutulur.",
+    "content4": "s muhakemesini kullanır ve daha yakından incelemeyi gerektiren belirli lezyon özelliklerine dikkat çekerler. Çalışmalar, bu açıklamaların sağlanmasının klinisyenlerin AI önerilerine olan güvenini artırdığını ve insan-AI'nın birleşik tanı performansını iyileştirdiğini göstermiştir.\n\nOrtaya çıkan kanıtlar, AI'nın melanomları rutin uygulamada tipik olarak teşhis edilenden daha erken evrelerde tespit edebileceğini göstermektedir. Dermatologlar tarafından başlangıçta iyi huylu olarak yanlış teşhis edilen ancak AI tarafından doğru şekilde işaretlenen melanomların retrospektif bir analizinde, lezyonların genellikle klinik endişe eşiğinin altında hafif atipik özellikler sergilediği, ancak erken malign dönüşümle ilişkili olduğu görülmüştür. Bu erken teşhis yeteneği, sağkalım sonuçlarını potansiyel olarak iyileştirebilir; ancak uzun vadeli klinik sonuçları izleyen prospektif çalışmalar halen devam etmektedir.",
+    "content5": "s muhakemesini kullanır ve daha yakından incelemeyi gerektiren belirli lezyon özelliklerine dikkat çekerler. Çalışmalar, bu açıklamaların sağlanmasının klinisyenlerin AI önerilerine olan güvenini artırdığını ve insan-AI'nın birleşik tanı performansını iyileştirdiğini göstermiştir.\n\nOrtaya çıkan kanıtlar, AI'nın melanomları rutin uygulamada tipik olarak teşhis edilenden daha erken evrelerde tespit edebileceğini göstermektedir. Dermatologlar tarafından başlangıçta iyi huylu olarak yanlış teşhis edilen ancak AI tarafından doğru şekilde işaretlenen melanomların retrospektif bir analizinde, lezyonların genellikle klinik endişe eşiğinin altında hafif atipik özellikler sergilediği, ancak erken malign dönüşümle ilişkili olduğu görülmüştür. Bu erken teşhis yeteneği, sağkalım sonuçlarını potansiyel olarak iyileştirebilir; ancak uzun vadeli klinik sonuçları izleyen prospektif çalışmalar halen devam etmektedir.",
+    "content6": "En iyi 1 doğruluk oranı %85,9'a ulaştı.\n\nSedef hastalığı (%93,1 doğruluk), akne vulgaris (%90,4) ve egzama (%88,7) gibi belirgin rahatsızlıklarda özellikle güçlü bir performans gözlemlendi. İlaç döküntüleri veya erken evre otoimmün rahatsızlıklar gibi daha belirsiz veya değişken belirtiler gösteren rahatsızlıklar daha düşük doğruluk oranları (%70-75) gösterdi ve bu da algoritmanın daha fazla iyileştirilmesi gereken alanları gösterdi.\n\nGoogle tarafından geliştirilen, hem görüntü verilerini hem de hasta tarafından bildirilen semptomları içeren çok modlu bir sistem, 26 yaygın rahatsızlıkta %93'lük en iyi 1 doğruluğa ulaşarak daha da fazla gelişme gösterdi. Görüntü dışı verilerin entegrasyonu, alerjik kontakt dermatiti, bildirilen kaşıntı şiddeti ve maruz kalma geçmişine dayanarak tahriş edici kontakt dermatitten ayırmak gibi, farklı ilişkili semptomlara sahip görsel olarak benzer rahatsızlıkları ayırt etmede özellikle değerli olduğunu kanıtladı.\n\nUzmanlara erişimin özellikle sınırlı olduğu pediatrik dermatolojide, yapay zeka sistemleri yaygın çocukluk çağı cilt rahatsızlıkları için umut vadediyor. Özel bir pediatrik model, atopik dermatit, molluskum kontagiozum ve yaygın doğum lekeleri gibi rahatsızlıklar için %90,1 doğruluk oranına ulaştı. Sistemin salgın dönemlerinde el-ayak-ağız hastalığını tespit etmede %95,2 hassasiyet göstermesi, halk sağlığı gözetiminde potansiyel uygulamalara işaret ediyor.",
+    "content7": "En iyi 1 doğruluk oranı %85,9'a ulaştı.\n\nSedef hastalığı (%93,1 doğruluk), akne vulgaris (%90,4) ve egzama (%88,7) gibi belirgin rahatsızlıklarda özellikle güçlü bir performans gözlemlendi. İlaç döküntüleri veya erken evre otoimmün rahatsızlıklar gibi daha belirsiz veya değişken belirtiler gösteren rahatsızlıklar daha düşük doğruluk oranları (%70-75) gösterdi ve bu da algoritmanın daha fazla iyileştirilmesi gereken alanları gösterdi.\n\nGoogle tarafından geliştirilen, hem görüntü verilerini hem de hasta tarafından bildirilen semptomları içeren çok modlu bir sistem, 26 yaygın rahatsızlıkta %93'lük en iyi 1 doğruluğa ulaşarak daha da fazla gelişme gösterdi. Görüntü dışı verilerin entegrasyonu, alerjik kontakt dermatiti, bildirilen kaşıntı şiddeti ve maruz kalma geçmişine dayanarak tahriş edici kontakt dermatitten ayırmak gibi, farklı ilişkili semptomlara sahip görsel olarak benzer rahatsızlıkları ayırt etmede özellikle değerli olduğunu kanıtladı.\n\nUzmanlara erişimin özellikle sınırlı olduğu pediatrik dermatolojide, yapay zeka sistemleri yaygın çocukluk çağı cilt rahatsızlıkları için umut vadediyor. Özel bir pediatrik model, atopik dermatit, molluskum kontagiozum ve yaygın doğum lekeleri gibi rahatsızlıklar için %90,1 doğruluk oranına ulaştı. Sistemin salgın dönemlerinde el-ayak-ağız hastalığını tespit etmede %95,2 hassasiyet göstermesi, halk sağlığı gözetiminde potansiyel uygulamalara işaret ediyor.",
+    "content8": "26 yaygın cilt rahatsızlığında yapay zeka ve dermatologlar arasındaki tanı doğruluğunun karşılaştırılması. Rahatsızlıklar, soldan sağa azalan yaygınlık sırasına göre düzenlenmiştir. Yapay zeka sistemi (mavi çubuklar), çoğu rahatsızlıkta dermatologlara (turuncu çubuklar) benzer veya daha üstün performans göstermiştir. Kaynak: Liu Y ve ark. Cilt hastalıklarının ayırıcı tanısı için derin öğrenme sistemi. Nature Medicine. 2020;26(6):900-908."
+  },
+  "how-to-useWhitepaper": {
+    "downloadPdf": "PDF'yi indirin",
+    "generating": "Oluşturuluyor...",
+    "pdfFilename": "Nasıl kullanılır.pdf"
+  },
+  "imagingaiWhitepaper": {
+    "title": "merkez",
+    "downloadPdf": "PDF'yi indirin",
+    "generating": "Oluşturuluyor...",
+    "pdfFilename": "ImagingAIWhitePaperPage.pdf",
+    "content1": ");\ncurrentY = addWrappedText(doc, başlık, kenar boşluğu, currentY, içerikGenişliği);\ncurrentY += 5;\ndoc.setFont(undefined,",
+    "content2": ");\ncurrentY = addWrappedText(doc, başlık, kenar boşluğu, currentY, içerikGenişliği);\ncurrentY += 20;\ndoc.setFont(undefined,",
+    "content3": ", \nmarj, geçerliY + 2, içerikGenişliği);\ngeçerliY += 5;\ngeçerliY = addWrappedText(doc, \n",
+    "content4": ", \nmarj, geçerliY + 2, içerikGenişliği);\ngeçerliY += 5;\ngeçerliY = addWrappedText(doc, \n",
+    "content5": "Yapay zeka tarafından oluşturulan ısı haritası (kırmızı→sarı) ile ilk insan incelemesinde kolayca görülemeyen tekil bir pulmoner nodülü işaretleyen göğüs röntgeni. Kaynak: van Beek EJR, Ahn JS, Kim MJ, Murchison JT. Göğüs radyografilerinde torasik anormallikleri tespit etmek için derin öğrenme algoritmasının doğrulanması. Clin Radiol. 2023;78(1):1–7.",
+    "content6": "Yapay zeka tarafından oluşturulan ısı haritası (kırmızı→sarı) ile ilk insan incelemesinde kolayca görülemeyen tekil bir pulmoner nodülü işaretleyen göğüs röntgeni. Kaynak: van Beek EJR, Ahn JS, Kim MJ, Murchison JT. Göğüs radyografilerinde torasik anormallikleri tespit etmek için derin öğrenme algoritmasının doğrulanması. Clin Radiol. 2023;78(1):1–7.",
+    "content7": "Birçok vakada iki okuyucu yerine tek bir okuyucuya izin vererek okuma iş yükünü %44 oranında azaltmıştır (itnonline.com). Başka bir çalışma, akut bulguların (örneğin, kafa içi kanama, pulmoner emboli) göğüs BT triyajı için bir yapay zekâ sisteminin, kritik sonuçların bildirim süresini önemli ölçüde kısaltabileceğini ve acil vakaların önceliklendirilmesine yardımcı olabileceğini bulmuştur. Birden fazla denemede, yapay zekânın ikinci bir okuyucu olarak kullanılması, kabul edilebilir özgüllüğü korurken lezyon tespiti için hassasiyeti artırma (insanların gözden kaçırdığı bulguları yakalama) eğilimindedir (itnonline.com, pubmed.ncbi.nlm.nih.gov). Ancak, bağımsız yapay zekâ hatasız değildir; yanlış pozitif sonuçlar verebilir veya nadir görülen durumları gözden kaçırabilir, bu nedenle klinik uygulamada yapay zekâ genellikle insan yorumunun yerini almak yerine, onu güçlendirmek için kullanılır.",
+    "content8": "Birçok vakada iki okuyucu yerine tek bir okuyucuya izin vererek okuma iş yükünü %44 oranında azaltmıştır (itnonline.com). Başka bir çalışma, akut bulguların (örneğin, kafa içi kanama, pulmoner emboli) göğüs BT triyajı için bir yapay zekâ sisteminin, kritik sonuçların bildirim süresini önemli ölçüde kısaltabileceğini ve acil vakaların önceliklendirilmesine yardımcı olabileceğini bulmuştur. Birden fazla denemede, yapay zekânın ikinci bir okuyucu olarak kullanılması, kabul edilebilir özgüllüğü korurken lezyon tespiti için hassasiyeti artırma (insanların gözden kaçırdığı bulguları yakalama) eğilimindedir (itnonline.com, pubmed.ncbi.nlm.nih.gov). Ancak, bağımsız yapay zekâ hatasız değildir; yanlış pozitif sonuçlar verebilir veya nadir görülen durumları gözden kaçırabilir, bu nedenle klinik uygulamada yapay zekâ genellikle insan yorumunun yerini almak yerine, onu güçlendirmek için kullanılır.",
+    "content9": "Derecelendirme uyumu (kuadratik kappa ~0,77), deneyimli patologlarla aynı seviyedeydi ve hatta zor vakalarda fikir birliği derecesine bile yaklaştı (nature.com). Meme patolojisinde, CAMELYON testindeki derin öğrenme algoritmaları, lenf düğümlerinde metastatik tümör tespiti için neredeyse insan performansına ulaştı ve bazıları AUC > 0,99'a ulaştı. Bu araçlar,"
+  },
+  "pathologyaiWhitepaper": {
+    "title": "Patolojide Yapay Zeka: Tanı Doğruluğunu ve Verimliliğini Geliştirme",
+    "subtitle": "Anatomik ve klinik patolojide yapay zeka uygulamalarının kapsamlı bir incelemesi",
+    "authors": {
+      "names": "Ron Rubin, PhD ve Sandy Miles",
+      "organization": "VirtualMD.app Teknolojileri",
+      "emails": {
+        "ron": "ronrubin@virtualmd.app",
+        "sandy": "sandymiles@virtualmd.app"
+      }
+    },
+    "downloadPdf": "PDF'yi indirin",
+    "generating": "Oluşturuluyor...",
+    "pdfFilename": "VirtualMD_AI_Patoloji_Beyaz_Kağıdı.pdf",
+    "sections": {
+      "abstract": {
+        "title": "Soyut",
+        "content": "Yapay zekâ (YZ), patolojide dönüştürücü bir teknoloji olarak ortaya çıkmış ve tanı doğruluğunu, tekrarlanabilirliği ve iş akışı verimliliğini artırma yeteneklerini göstermiştir. Bu teknik doküman, son klinik doğrulama çalışmaları, düzenleyici izinler ve gerçek dünya uygulamaları temelinde patolojide YZ'nin mevcut durumunu incelemektedir. Kanser tespiti, derecelendirme, prognostik değerlendirme ve iş akışı optimizasyonu dahil olmak üzere birincil uygulamaları inceliyoruz. Temel bulgular arasında, birden fazla organ sisteminde kanser tespiti için %95-99'luk hassasiyet oranları, gözlemciler arası değişkenlikte önemli azalmalar ve önemli iş yükü azaltma potansiyeli yer almaktadır. Teknik performans birçok uygulama için klinik olarak kabul edilebilir seviyelere ulaşmış olsa da, düzenleyici hususlar, iş akışı entegrasyonu ve sürekli doğrulama ihtiyacı gibi uygulama zorlukları devam etmektedir. YZ benimsemeyi düşünen patoloji bölümleri için kanıta dayalı öneriler sunuyor ve dikkatli kullanım senaryosu seçiminin, aşamalı uygulamanın ve sürekli performans izlemenin önemini vurguluyoruz. Kanıtlar, YZ'nin patologların yerini almak yerine onları güçlendireceğini ve tanı yeteneklerini geliştirmek ve artan iş yükü taleplerini yönetmek için güçlü bir araç görevi göreceğini göstermektedir."
+      },
+      "introduction": {
+        "title": "giriiş",
+        "content": "Patoloji alanı benzeri görülmemiş zorluklarla karşı karşıyadır: artan vaka hacimleri, tanı kriterlerinin karmaşıklığı, iş gücü eksiklikleri ve hızlı geri dönüş süreleri baskısı. Aynı zamanda, hassas sağlık, daha ayrıntılı doku analizi, kantitatif biyobelirteç değerlendirmesi ve morfolojik bulguların moleküler verilerle entegrasyonunu gerektirmektedir. Bu bağlamda, yapay zekâ (YZ), patoloji uygulamalarını geliştirmek için potansiyel bir çözüm olarak ortaya çıkmıştır.\n\nTıbbi görüntülemede YZ önemli ölçüde ilgi görürken, patoloji benzersiz fırsatlar ve zorluklar sunmaktadır. YZ'nin sağlam anatomi görüntülerini analiz ettiği radyolojinin aksine, patoloji YZ, karmaşık üç boyutlu yapıları temsil eden mikroskobik doku kesitlerini iki boyutlu slaytlara indirgeyerek yorumlamalıdır. Veri hacmi şaşırtıcıdır; tek bir slayt görüntüsü milyarlarca piksel içerebilir ve bu da karmaşık hesaplamalı yaklaşımlar gerektirir.\n\nBu teknik doküman, titiz klinik doğrulamalardan geçmiş teknolojilere odaklanarak patolojideki YZ uygulamalarının kapsamlı bir incelemesini sunmaktadır. Kanıt tabanını inceliyor, uygulama hususlarını tartışıyor ve YZ benimsenmesini değerlendiren patoloji bölümleri için pratik rehberlik sağlıyoruz. Analizimiz, hakemli çalışmalara, düzenleyici kararlara ve gerçek dünyadaki erken uygulama verilerine dayanmaktadır."
+      },
+      "methods": {
+        "title": "Yöntemler/Teknolojiler",
+        "content": "Modern patoloji yapay zekâ sistemleri, yüksek çözünürlükte (genellikle 20-40 kat büyütme) sayısallaştırılmış tüm slayt görüntülerini analiz etmek için öncelikle evrişimli sinir ağları (CNN'ler) olmak üzere derin öğrenme mimarilerini kullanır. Bu sistemler, etiketli görüntülerden oluşan büyük veri kümeleri üzerinde eğitilir ve genellikle temel gerçeği belirlemek için uzman patologların açıklamalarını gerektirir. İki temel yapay zekâ yaklaşımı yaygındır: bölge düzeyinde veya slayt düzeyinde açıklamalar kullanan gözetimli öğrenme ve yalnızca vaka düzeyinde teşhis gerektiren zayıf gözetimli öğrenme. Eğitim genellikle çok aşamalı süreçleri içerir; önce düşük büyütmede ilgi çekici bölgeler tespit edilir, ardından bu bölgeler daha yüksek büyütmede sınıflandırılarak belirli patolojiler belirlenir.\n\nTemel performans ölçütleri arasında duyarlılık (doğru tespit edilen gerçek pozitiflerin oranı), özgüllük (doğru tespit edilen gerçek negatiflerin oranı), alıcı işletim karakteristik eğrisi (AUC) altındaki alan ve Cohen'in kappası gibi uyum ölçütleri bulunur. Klinik doğrulama, farklı hasta popülasyonları, doku hazırlama yöntemleri ve tarama ekipmanları arasında genelleştirilebilirliği sağlamak için birden fazla kurumdan bağımsız veri kümeleri üzerinde test yapılmasını gerektirir."
+      },
+      "results": {
+        "title": "Sonuçlar",
+        "digitalPathologyOverview": {
+          "title": "Dijital Patolojiye Genel Bakış",
+          "content": "Dijital patoloji, küresel pazarın 2027 yılına kadar 1,4 milyar dolara ulaşmasının öngörülmesiyle önemli bir büyüme kaydetti. Laboratuvar kullanımı, özellikle başlangıçtaki düzenleyici engellerin aşıldığı akademik tıp merkezleri ve referans laboratuvarlarında hız kazandı. 2017 yılında FDA, birincil tanı için ilk tam slayt görüntüleme sistemini (Philips IntelliSite Patoloji Çözümü) onayladı ve ardından Leica Aperio AT2 DX ve Aperio GT 450 DX gibi ek onaylar aldı. Bu sistemler, hesaplamalı patoloji ve yapay zekâ uygulamaları için gerekli dijital altyapıyı oluşturuyor.\n\nPatolojide yapay zekâ, sınırlı histolojik bağlamlarda odaklanmış uygulamalarla başladı, ancak birden fazla doku türünü ve tanı görevini kapsayacak şekilde genişledi. Hesaplamalı yaklaşımlar da benzer şekilde, mühendislik özelliklerine sahip geleneksel makine öğreniminden, doğrudan piksel verilerinden özellik çıkarabilen uçtan uca derin öğrenmeye doğru evrildi. Eğitim veri kümeleri, yüz binlerce slayttan yüz binlercesine çıkarak hasta popülasyonları ve tarama koşulları arasında daha sağlam bir genelleme olanağı sağladı."
+        },
+        "cancerDetection": {
+          "title": "Kanser Tespiti",
+          "content": "Onkolojik patolojide, yapay zekâ sistemleri çeşitli maligniteleri tespit etmede dikkate değer bir doğruluk göstermiştir. Prostat kanseri için Pantanowitz ve arkadaşları, 100 hastadan alınan 549 lamın yer aldığı çok merkezli bir doğrulama çalışmasında bir yapay zekâ algoritmasını (Paige Prostat) değerlendirmiştir. Yapay zekâ, kanseri tespit etmede %98,8 duyarlılık ve %97,3 özgüllük göstererek, özellikle zorlu vakalarda genel patologları geride bırakmıştır (Lancet Digital Health, 2020). Benzer şekilde, Campanella ve arkadaşları, kanser tespiti için 0,98 AUC'ye ulaşan 15.000'den fazla prostat lamında eğitilen zayıf gözetimli bir öğrenme yaklaşımı geliştirmiştir (Nature Medicine, 2019).\n\nMeme kanseri için CAMELYON zorlukları, yapay zekânın lenf düğümlerindeki metastazları tespit etmedeki etkinliğine dair önemli kanıtlar sağlamıştır. CAMELYON16'da en iyi algoritma, zaman kısıtlamaları altında çalışan patologların performansını (AUC 0,810) aşan 0,994'lük bir AUC'ye ulaşmıştır (JAMA, 2017). Bu sistemler, özellikle mikrometastazlar ve izole tümör hücreleri olmak üzere, manuel inceleme sırasında gözden kaçabilecek kanser hücrelerini tespit etmiştir.",
+          "content2": "Bu yaygın kanserlerin yanı sıra, yapay zekâ sistemleri çok sayıda başka malignite için de geliştirilmiştir. Akciğer patolojisinde, derin öğrenme algoritmaları adenokarsinomu skuamöz hücreli karsinomdan %97 doğrulukla ayırt edebilir ve histomorfolojik özelliklerden genetik değişiklikleri (örneğin, EGFR mutasyonları) tespit edebilir (Nature Cancer, 2020). Kolorektal patolojide ise yapay zekâ, adenomları tespit edebilir, histolojik alt tipleri sınıflandırabilir ve mikrosatellit instabilite durumunu doğrudan H&E slaytlarından %95'i aşan bir hassasiyetle belirleyebilir (J Pathol, 2020).\n\nYapay zekâ tespitinin faydaları duyarlılığın ötesine geçer. Çalışmalar, patologlar yapay zekâ desteği aldığında gözlemciler arası değişkenliğin sürekli olarak azaldığını göstermektedir. Örneğin, Steiner ve ark. yapay zekâ desteğinin, meme kanseri metastazı tespiti için patologların referans standardıyla uyumunu %93,3'ten %95,8'e çıkardığını göstermiştir (Am J Surg Pathol, 2018). Bu artan tutarlılık, sınırda vakaların teşhis edilmesi ve kurumlar arası bakımın standartlaştırılması açısından önemli sonuçlar doğurmaktadır."
+        },
+        "gradingClassification": {
+          "title": "Sınıflandırma ve Derecelendirme",
+          "content": "İkili kanser tespitinin ötesinde, yapay zekâ sistemleri alt tipleme ve derecelendirme gibi daha karmaşık görevlerde önemli ilerlemeler kaydetmiştir. Özellikle, prostat kanserinin otomatik Gleason derecelendirmesi, bu kritik prognostik belirteçteki bilinen gözlemciler arası değişkenlik nedeniyle yoğun araştırmaların odak noktası olmuştur. Bulten ve arkadaşları, deneyimli üroloji patologlarının performansına eşdeğer (kappa = 0,62 - 0,57) ve genitoüriner uzmanların seviyesine yaklaşan (kappa = 0,73) ayrıntılı Gleason puanları atayan bir derin öğrenme sistemi geliştirmiştir (Lancet Oncology, 2020). Benzer şekilde, Ström ve arkadaşları, iyi huylu bölgeleri kanserli bölgelerden ayırmak için 0,98'lik bir AUC ve farklı Gleason derecelerini sınıflandırmak için 0,85-0,93'lük bir AUC ile patolog seviyesinde derecelendirme sağlayan bir yapay zekâ sistemi bildirmiştir (IEEE TMI, 2020).\n\nBöbrek patolojisinde, en yaygın dört tip için %95'ten fazla doğrulukla renal hücreli karsinomun farklı alt tiplerini sınıflandırmak için AI sistemleri geliştirilmiştir (Nat Mach Intell, 2019). Tiroid nodülleri için AI, spesifik tiroid kanseri alt tipine bağlı olarak %90-99 hassasiyetle iyi huylu özellikleri kötü huylu özelliklerden ayırt edebilir (JAMA Network Open, 2019). Bu uygulamalar kanser sınıflandırmasının ötesine uzanır; AI, inflamatuar hastalıkların derecelendirilmesinde (örneğin, inflamatuar bağırsak hastalığının şiddeti), bağışıklık hücresi infiltratlarının nicelleştirilmesinde (tümör mikroçevre değerlendirmesi) ve tedaviye yanıtı öngören morfolojik özelliklerin ölçülmesinde umut vaat etmektedir."
+        },
+        "workflowOptimization": {
+          "title": "İş Akışı Optimizasyonu",
+          "content": "Tanısal doğruluğun ötesinde, yapay zekâ patoloji iş akışı optimizasyonu için önemli bir potansiyel sunar. İş akışı iyileştirmelerinin önemli bir unsuru, vakaları önceliklendirmek ve iyi huylu veya normal örnekler üzerinde harcanan süreyi azaltmak için yapılan ön taramadır. Ho ve ark., prostat biyopsileri için yapay zekâ ön taramasının, tanısal doğruluğu korurken patolog iş yükünü %30-50 oranında azaltabileceğini göstermiştir (Mod Pathol, 2021). Benzer şekilde, Da Silva ve ark., serviks sitolojisi için yapay zekâ ön taramasının manuel incelemeyi %40'a kadar azaltabileceğini bulmuştur (J Am Soc Cytopathol, 2021).\n\nKantitatif değerlendirmede, yapay zekâ sistemleri mitotik sayım, PDL1 için tümör oran skorlaması ve immünohistokimyasal boyaların kantifikasyonu gibi sıkıcı manuel görevleri otomatikleştirir. Ki-67 skorlaması için Maeda ve ark., otomatik bir yapay zekâ sisteminin manuel sayımın doğruluğunu korurken veya aşarken değerlendirme süresini %83 oranında azalttığını göstermiştir (Sci Rep, 2021). Bu otomasyon, geleneksel olarak gözlemciler arası geniş değişkenlikten muzdarip olan ölçümleri standartlaştırır.\n\nKlinik karar desteği için yapay zekâ sistemleri, alt uzmanlık gerektiren vakaları veya ek çalışmaları belirleyebilir. Chen ve arkadaşları, bir yapay zekâ algoritmasının rutin vakaların %98'ini triyajlayabildiğini ve yalnızca %2'sini kıdemli patolog incelemesi için işaretleyebildiğini ve tanı doğruluğunda herhangi bir kayıp olmadığını göstermiştir (Nat Commun, 2022). Laboratuvar bilgi sistemleriyle entegre edildiğinde, bu yaklaşımlar rutin vakalar için işlem sürelerini önemli ölçüde azaltırken, zorlu vakaların uygun uzman incelemesini sağlayabilir."
+        }
+      },
+      "discussion": {
+        "title": "Tartışma",
+        "content": "Birikmiş kanıtlar, yapay zekânın patolojide araştırma konseptinden klinik düzeyde bir teknolojiye dönüştüğünü göstermektedir. Birden fazla çalışmadaki performans metrikleri, birçok uygulama için %90'ı aşan duyarlılık ve özgüllüğün, belirli görevlerde insan performansıyla rekabet edebilecek veya onu geçebilecek düzeyde olduğunu tutarlı bir şekilde göstermektedir. Ancak, bu bulguların yorumlanmasını ve uygulanmasını etkileyen birkaç önemli husus bulunmaktadır.\n\nKlinik önem: Yapay zekâ, örüntü tanıma ve kantifikasyon içeren görevlerde özellikle güçlüdür. Kanser tespiti için yapay zekâ duyarlılığı genellikle genel patologların duyarlılığını aşmakta ve bu da potansiyel olarak atlanan tanı oranlarını azaltmaktadır. Prospektif uygulamalarda, Pantanowitz ve ark. yapay zekânın patologlar tarafından başlangıçta gözden kaçan birkaç kanser odak noktasını tespit ettiğini ve bu durumun \"ikinci bir değerlendirici\" olarak değerini vurguladığını bildirmiştir (Lancet Digital Health, 2020). Görevlerin derecelendirilmesinde yapay zekâ, bireysel patologlara göre daha tutarlı sonuçlar sağlayarak hasta yönetimini etkileyebilecek değişkenliği azaltmaktadır.\n\nİş akışı etkisi: Patologların zamanı giderek kısıtlı bir kaynak haline gelmekte ve bu da iş akışı verimliliğini kritik hale getirmektedir. Çalışmalar, yapay zekâ yardımı kullanıldığında çeşitli görevlerde %30-60 oranında zaman tasarrufu sağlandığını göstermektedir. Bu, pratik faydalar anlamına gelir; haftada 100 prostat vakası işleyen bir patoloji bölümü, patologların 15-30 saat tasarruf etmesini sağlayarak, insan uzmanlığı gerektiren karmaşık vakalara odaklanmalarına olanak tanır.\n\nGözlemciler arası değişkenlik: Çalışmalar arasında tutarlı bir bulgu, yapay zekânın patologlara yardımcı olması durumunda değişkenliğin azalmasıdır. Gleason derecelendirmesi için, gözlemciler arası uyum, yapay zekâ yardımıyla genellikle 0,5-0,6 (orta düzeyde uyum) kappa değerlerinden 0,7-0,8'e (önemli düzeyde uyum) yükselir (Lancet Oncol, 2020). Bu gelişmiş tutarlılık, farklı uygulama ortamlarında tedavi standardizasyonu için önemli sonuçlar doğurmaktadır.\n\nBu umut verici sonuçlara rağmen, önemli sınırlamalar dikkate alınmayı gerektirmektedir. Genelleştirilebilirlik temel bir endişe kaynağı olmaya devam etmektedir; belirli kurumlardan veya hasta popülasyonlarından alınan verilerle eğitilen yapay zekâ sistemleri, farklı ortamlarda aynı performansı göstermeyebilir. Slayt hazırlama, boyama protokolleri ve tarayıcı özellikleri gibi teknik faktörler yapay zekâ performansını etkileyebilir. FDA bu zorlukları kabul etmiş ve yasal onay arayan yapay zekâ sistemleri için çok merkezli doğrulamalar önermiştir.\n\nVeri kümesi yanlılığı bir diğer kritik konudur. Çoğu algoritma Batılı popülasyonlar için eğitilmiştir ve farklı hastalık sunumlarına sahip diğer etnik gruplarda düşük performans gösterebilir. Örneğin, prostat kanseri, Afro-Amerikan erkeklerde genellikle Kafkasyalı erkeklere kıyasla farklı morfolojik örüntülerle ortaya çıkar ve bu durum, eğitim verilerinde yeterince temsil edilmezse yapay zeka algoritmasının performansını etkileyebilir.\n\nPatoloji yapay zekasına yönelik düzenleyici denetim gelişmeye devam etmektedir. FDA, De Novo ve 510(k) yollarından birkaç yapay zeka tabanlı patoloji cihazını onaylayarak klinik uygulama için bir emsal oluşturmuştur. Paige Prostate'in 2021'de FDA onayı alması, birincil tanı amaçlı kullanım için yetkilendirilen ilk patoloji yapay zeka sistemi olarak önemli bir dönüm noktası olmuştur. Ancak çoğu sistem, dağıtımdan sonra öğrenemeyen veya uyum sağlayamayan \"kilitli\" algoritmalar olarak onaylanmıştır ve bu da uygulama örüntüleri geliştikçe performansın sürdürülmesinde zorluklar yaratmaktadır.\n\nMevcut laboratuvar iş akışlarıyla entegrasyon, pratik uygulama engelleri oluşturmaktadır. Dijital patoloji benimsenmesi, her ne kadar artsa da, sağlık sistemi genelinde hala eksiktir. Yapay zeka sistemleri, laboratuvar bilgi sistemleri ve mevcut dijital patoloji platformlarıyla entegrasyon gerektirmektedir. Ayrıca, patologların yapay zekâ çıktılarını tanı süreçlerine etkili bir şekilde dahil edebilmeleri, olasılık puanlarını ve ısı haritalarını doğru yorumlayabilmeleri için eğitime ihtiyaçları vardır.\n\nHer yeni teknolojide olduğu gibi, maliyet-etkinlik verileri sınırlıdır. İlk uygulama, dijital altyapıya önemli yatırımlar gerektirir, ancak uzun vadeli faydalar arasında daha düşük hata oranları, daha hızlı geri dönüş süreleri ve daha verimli kaynak kullanımı yer alabilir. Yapay zekâ destekli patoloji hizmetleri için geri ödeme mekanizmaları hala gelişmekte olup, bu teknolojilerin finansal sürdürülebilirliği konusunda belirsizlik yaratmaktadır."
+      },
+      "conclusion": {
+        "title": "Çözüm",
+        "content": "Yapay zekâ, patoloji uygulamalarını açıkça ilerletmiştir ve yapay zekâ sistemlerinin belirli tanı görevlerinde uzman düzeyinde performans gösterebileceğine dair kanıtlar giderek artmaktadır. En güçlü kanıtlar, FDA onaylı sistemlerin klinik uygulamaya girdiği onkolojik patoloji, özellikle prostat ve meme kanseri uygulamaları için mevcuttur. Yapay zekâ, patolojideki bilinen zorlukları ele almada özellikle güçlü yönler göstermektedir: gözlemciler arası değişkenliği azaltır, ince bulguların tespitini geliştirir, nicel değerlendirmeleri standartlaştırır ve iş akışı verimliliğini artırır.\n\nAraştırmadan klinik uygulamaya geçiş, büyüyen düzenleyici çerçeve ve kurumsal deneyimle desteklenerek hızlanmaktadır. Ancak başarılı bir entegrasyon, teknik, iş akışı ve doğrulama hususlarına dikkat edilmesini gerektirir. En iyi sonuçlar için yapay zekâ, çoğu uygulama için otonom bir tanı sistemi yerine patologlara yardımcı bir teknoloji olarak uygulanmalıdır. Patolog-yapay zekâ ortaklığı, insan uzmanlığının ve hesaplama yeteneklerinin tamamlayıcı güçlü yönlerinden yararlanır.\n\nGelecekteki yönelimler arasında nadir varlıklara yönelik genişletilmiş uygulamalar, öngörücü biyobelirteç değerlendirmesi ve genomik ve moleküler verilerle entegrasyon yer almaktadır. Gerçek zamanlı kalite güvencesi, tanısal farklılıkların azaltılması ve gelişen uygulama modellerine uyum sağlanması önemli hedefleri temsil etmektedir. İncelenen kanıtlar, titiz doğrulama ve özenli uygulama ile patoloji yapay zekâ sistemlerine sürekli yatırım yapılmasını desteklemektedir. Uygun teknik geliştirme, doğrulama ve klinik iş akışlarına entegrasyon ile yapay zekâ, patolojik tanı kalitesini ve verimliliğini önemli ölçüde artırma potansiyeline sahiptir."
+      },
+      "references": {
+        "title": "Referanslar",
+        "list": ""
+      },
+      "figures": {
+        "figure1": {
+          "title": "Şekil 1. ROC Eğrisi: Prostat Kanseri AI Dereceleme Sistemi",
+          "caption": "Kaynak: Bulten W, Pinckaers H, van Boven H ve diğerleri. Biyopsiler kullanılarak prostat kanserinin Gleason derecelendirmesi için otomatik derin öğrenme sistemi: bir tanı çalışması. Lancet Oncol. 2020;21(2):233-241."
+        },
+        "figure2": {
+          "title": "Şekil 2. Temel Patoloji Yapay Zeka Çalışmalarında Duyarlılık ve Özgüllük",
+          "caption": "Kaynaklar: Campanella G, et al. Nat Med. 2019;25(8):1301-1309; Pantanowitz L, ve ark. Lancet Rakam Sağlığı. 2020;2(8):e407-e416; Ehteshami Bejnordi B, ve diğerleri. JAMA. 2017;318(22):2199-2210."
+        },
+        "figure3": {
+          "title": "Şekil 3. Tanıya Kadar Ortalama Süre: Manuel ve Yapay Zeka Destekli Patoloji",
+          "caption": "Kaynak: Ho D, Quake SR, McCabe ERB ve diğerleri. Kişiselleştirilmiş ve Hassas Tıp için Teknolojileri Etkinleştirme. Trendler Biyoteknoloji. 2020;38(5):497-518."
+        },
+        "figure4": {
+          "title": "Şekil 4. Prostat Biyopsisinde Kanser Hücrelerini Vurgulayan Yapay Zeka Isı Haritası",
+          "caption": "Kanser hücreleri içeren bölgeleri (kırmızı→sarı yoğunluk) vurgulayan bir yapay zeka sistemi tarafından analiz edilen bir prostat biyopsisi slaydı. Isı haritası, rutin inceleme sırasında gözden kaçabilecek küçük adenokarsinom odaklarına dikkat çekiyor. Kaynak: Pantanowitz L ve ark. Çekirdek iğne biyopsilerinin tüm slayt görüntülerinde prostat kanseri teşhisi için bir yapay zeka algoritması: kör klinik doğrulama ve uygulama çalışması. Lancet Digit Health. 2020;2(8):e407-e416."
+        }
+      }
+    }
+  },
+  "simplybetterWhitepaper": {
+    "downloadPdf": "PDF'yi indirin",
+    "generating": "Oluşturuluyor...",
+    "pdfFilename": "SimplyBetter.pdf"
+  },
+  "introPopup": {
+    "greeting": "Merhaba! Ben AI Aileen Carol, VirtualMD.app'deki AI sağlık danışmanınızım.",
+    "welcomeMessage": "Merhaba! Ben VirtualMD.app'de sanal sağlık danışmanı olan AI Aileen Carol. Kurucularımız tarafından en iyi tıbbi bilgileri sunmak için özel olarak geliştirilen, devrim niteliğindeki en yeni yapay zekalarla destekleniyoruz. Sanal danışmanlarımız, endişeleriniz hakkında sizinle konuşarak sizi daha iyi tanır. Ardından, en son teknolojiye sahip ve tamamen size özel tıbbi bilgiler sunarız.",
+    "welcomeMessageShort": "Burada tıbbi jargonla boğuşmak zorunda kalmayacaksınız; bunun yerine, sağlık danışmanlarından oluşan sanal ekibimiz sizinle konuşarak geçmişinizi, endişelerinizi ve hedeflerinizi öğrenecek.",
+    "meetTheTeam": "Sizi VirtualMD.app uzmanlarımızla tanıştırmak için sabırsızlanıyorum:",
+    "specialists": {
+      "cardiology": "Sanal Kardiyoloji Danışmanı - kalp sağlığında son gelişmeler",
+      "oncology": "Sanal Onkoloji Danışmanı - Doktorunuz için kritik sorular",
+      "andMore": "Ve daha birçok sanal uzman - bilişsel davranış terapisi, cinsel sağlık, dermatoloji, ortopedi, Afrika bitki bilimi..."
+    },
+    "disclaimer": {
+      "title": "SORUMLULUK REDDİ:",
+      "mainText": "İNSAN SAĞLIĞI UZMANI DEĞİL, YAPAY ZEKA DANIŞMANI OLDUĞUMUZ İÇİN AŞAĞIDAKİLERİ ANLAMAK ÇOK ÖNEMLİ:",
+      "promiseIntro": "Tavsiyelerimiz klinik değil, bilgilendirme amaçlıdır. Lisanslı sağlık hizmeti sağlayıcıları değiliz.",
+      "fullText": "BEN VE VIRTUALMD.APP'DEKİ VIRTUAL EKİBİNİN DİĞER PARÇALARI, LİSANSLI TIP SAĞLAYICILARI DEĞİLİZ. Bizler Yapay Zekayız. Bir Yapay Zeka bazen harika... ve çoğu zaman kusurlu olabilir. Bu yüzden lütfen tavsiyelerimizi klinik değil, bilgilendirici olarak değerlendirin. Bizimle çalışmanız için bir söz vermeniz gerekir.",
+      "shortText": "Bizler yapay zekâyız, lisanslı sağlık hizmeti sağlayıcıları değiliz. Lütfen tavsiyelerimizi klinik değil, bilgilendirici olarak değerlendirin. Bir söz vermelisiniz."
+    },
+    "promise": "Burada edindiğiniz herhangi bir sağlık bilgisine dayanarak herhangi bir işlem yapmadan önce mutlaka bir sağlık profesyoneline danışmalısınız.",
+    "promiseButton": "Söz veriyorum",
+    "dontShowAgain": "Bunu bir daha gösterme",
+    "languageTitle": "Lütfen Dilinizi Seçin",
+    "languageSelectLabel": "Dil Seçin",
+    "welcome": {
+      "greeting": "Merhaba! Ben Aileen Carol.",
+      "explanation": "Meslektaşlarım ve ben, VirtualMD.app'te yeni nesil bir sağlık danışmanıyız. Tıbbın tüm alanlarını kapsayan, en yeni ve dünya standartlarında optimum sağlık ve zindelik stratejileri konusunda eğitimli uzman yapay zekalardan oluşan bir ekibiz. Sanal makineler olarak, 7/24, tamamen ücretsiz olarak hizmetinizdeyiz. Bu, inanılmaz avantajlarla birlikte geliyor, ancak aynı zamanda bazı önemli sınırlamalar da getiriyor..."
+    },
+    "mobile": {
+      "simply": "Basitçe",
+      "better": "Daha iyi",
+      "health": "Sağlık",
+      "tagline": "Kişiselleştirilmiş Sağlık ve Zindelik Rehberliği",
+      "poweredByAI": "Yapay zeka destekli",
+      "welcomeTitle": "Hoş geldiniz! Ben sanal sağlık danışmanınız Aileen Carol.",
+      "welcomeTeamIntro": "Aşağıdaki konularda yardımcı olmaya hazır bir yapay zeka sağlık uzmanları ekibine liderlik ediyorum:",
+      "specialties": {
+        "heart": "Kalp sağlığı",
+        "cancer": "Kanser desteği",
+        "children": "Çocuk sağlığı",
+        "mental": "Ruh sağlığı",
+        "healthSystem": "Sistemde gezinme",
+        "andMore": "Ve 50'den fazla uzmanlık alanı"
+      },
+      "available247": "7/24 hizmetinizdeyiz",
+      "disclaimerText": "Lisanslı sağlık hizmeti sağlayıcıları değiliz. Sanal yapay zekâlarız, yani hata yapabiliriz. Tavsiyelerimiz klinik değil, bilgilendirici niteliktedir.",
+      "promiseText": "Burada edindiğiniz herhangi bir sağlık bilgisine dayanarak herhangi bir işlem yapmadan önce mutlaka bir sağlık profesyoneline danışmalısınız."
+    }
+  },
+  "faqPage": {
+    "title": "Sıkça Sorulan Sorular",
+    "subtitle": "VirtualMD.app hakkında sık sorulan soruların yanıtlarını bulun",
+    "faq1": {
+      "question": "VirtualMD.app nedir?"
+    },
+    "questions": {
+      "whatIsVirtualMD": "VirtualMD.app nedir?",
+      "replacementForDoctor": "VirtualMD.app doktorumun yerine geçer mi?",
+      "howItWorks": "Yapay zeka danışmanlığı nasıl işliyor?",
+      "healthInfoSecure": "Sağlık bilgilerim güvende mi?",
+      "tryWithoutAccount": "Hesap oluşturmadan VirtualMD.app'i deneyebilir miyim?",
+      "supportedLanguages": "Hangi diller destekleniyor?",
+      "uploadDocuments": "Tıbbi görüntü veya dokümanları yükleyebilir miyim?",
+      "aiAccuracy": "Yapay zekanın tıbbi tavsiyeleri ne kadar doğru?",
+      "conversationHistory": "Konuşma geçmişime erişebilir miyim?",
+      "voiceSupport": "Ses desteği var mı?",
+      "whatMakesDifferent": "VirtualMD'yi diğer sağlık yapay zeka platformlarından farklı kılan nedir?",
+      "cost": "VirtualMD.app'in maliyeti ne kadar?"
+    },
+    "answers": {
+      "whatIsVirtualMD": "VirtualMD.app, gelişmiş konuşma tabanlı yapay zeka aracılığıyla kişiselleştirilmiş tıbbi rehberlik sağlayan, yapay zeka destekli bir sağlık danışmanlığı platformudur. Platformumuz, her biri sağlık hizmetlerinin farklı alanlarında benzersiz uzmanlığa sahip 60'tan fazla uzman tıbbi yapay zeka kişiliğine sahiptir.",
+      "replacementForDoctor": "Hayır, VirtualMD.app profesyonel tıbbi bakımın yerini tutmaz. Yapay zeka danışmanlık hizmetlerimiz sağlık bilgisi, eğitim ve ön rehberlik sağlamak üzere tasarlanmıştır. Teşhis, tedavi ve tıbbi kararlar için daima kalifiye sağlık uzmanlarına danışın.",
+      "howItWorks": "Panodan seçerek uzman yapay zeka uzmanlarımızdan biriyle sohbet başlatabilirsiniz. Her uzmanın belirli bir uzmanlığı (örneğin kardiyoloji, pediatri, ruh sağlığı) vardır ve endişelerinizi anlamak, ilgili bilgi ve rehberlik sağlamak için sohbet tarzında bir diyalog başlatacaktır.",
+      "healthInfoSecure": "Evet, veri gizliliği ve güvenliğini çok ciddiye alıyoruz. Tüm görüşmeler şifreleniyor ve sağlık verilerinin korunmasına ilişkin düzenlemelere uyuyoruz. Kişisel sağlık bilgileriniz, açık izniniz olmadan asla üçüncü taraflarla paylaşılmaz. Daha fazla bilgi için Veri Gizliliği sayfamızı inceleyin.",
+      "tryWithoutAccount": "Evet! Hesap oluşturmadan yapay zeka danışmanlık hizmetimizi denemenize olanak tanıyan bir misafir deneyimi sunuyoruz. Misafir seansları 10 mesajla sınırlıdır ve genel tıbbi danışmanlık kişiliğimize erişim sağlar.",
+      "supportedLanguages": "VirtualMD.app, İngilizce, İspanyolca, Fransızca, Almanca, Çince, Japonca, Arapça, İbranice ve daha birçok dil dahil 30'dan fazla dili destekler. Platform, tarayıcınızın dil tercihlerini otomatik olarak algılar ve buna göre ayarlar.",
+      "uploadDocuments": "Evet, kayıtlı kullanıcılar konsültasyonlar sırasında tıbbi görüntü ve belgeleri yükleyebilir. Yapay zekamız, röntgen, MR ve laboratuvar raporları dahil olmak üzere çeşitli tıbbi görüntüleri analiz edip bunlar hakkında içgörüler sağlayabilir. Bu özellik, daha bağlamsal ve doğru rehberlik sağlamaya yardımcı olur.",
+      "aiAccuracy": "Yapay zeka modellerimiz kapsamlı tıbbi literatür ışığında eğitilmekte ve en son tıbbi bilgilerle sürekli olarak güncellenmektedir. Yapay zekamız, güncel tıbbi anlayışa dayalı yüksek kaliteli bilgiler sağlasa da, her zaman profesyonel tıbbi bakımın yanında tamamlayıcı bir kaynak olarak kullanılmalıdır.",
+      "conversationHistory": "Evet, kayıtlı kullanıcılar özetler, transkriptler ve paylaşılan belgeler dahil olmak üzere tüm görüşme geçmişlerine erişebilirler. Bu, sağlık bilgisi yolculuğunuzda sürekliliği korumanıza yardımcı olur ve ilgili konsültasyonları sağlık uzmanlarınızla paylaşmanıza olanak tanır.",
+      "voiceSupport": "Evet, VirtualMD.app hem metinden sese hem de konuşmadan metne dönüştürme işlevlerini destekler. Yapay zeka yanıtlarını dinleyebilir ve sorularınızı yazmak yerine konuşarak iletebilirsiniz; bu da platformu daha erişilebilir ve kullanışlı hale getirir.",
+      "whatMakesDifferent": "VirtualMD.app, her biri belirli tıbbi alanlarda derin uzmanlığa sahip 60'tan fazla uzman tıbbi yapay zeka kişiliğine sahiptir. Platformumuz ayrıca kapsamlı dil desteği, sesli etkileşim, tıbbi görüntü analizi sunar ve sezgisel, erişilebilir bir arayüz sunarken sıkı gizlilik standartlarını korur.",
+      "cost": "Farklı ihtiyaçları karşılamak için çeşitli abonelik seviyeleri sunuyoruz. Misafir kullanıcılar, sınırlı özelliklerle hizmeti ücretsiz olarak deneyebilir. Kayıtlı kullanıcılar tüm karakterlere, sınırsız sohbetlere ve gelişmiş özelliklere erişebilir. Güncel abonelik seçenekleri için lütfen fiyatlandırma sayfamızı inceleyin."
+    },
+    "helpSection": {
+      "title": "Hala sorularınız mı var?",
+      "description": "Aradığınız cevabı bulamıyor musunuz? Destek ekibimiz size yardımcı olmak için burada."
+    },
+    "buttons": {
+      "contactUs": "Bize Ulaşın",
+      "tryGuestChat": "Misafir Sohbetini deneyin"
+    },
+    "navigation": {
+      "backToHome": "← Ana Sayfaya Dön"
+    }
+  },
+  "howToPage": {
+    "title": "VirtualMD.app Nasıl Kullanılır",
+    "subtitle": "Yapay zeka destekli sağlık danışmanlığına yönelik kapsamlı rehberiniz",
+    "navigation": {
+      "gettingStarted": "Başlarken",
+      "aiMedicalPersonas": "Yapay Zeka Tıbbi Kişilikleri",
+      "teamConsultations": "Takım Danışmanlıkları",
+      "medicalImageAnalysis": "Tıbbi Görüntü Analizi",
+      "medicalEncyclopedia": "Tıbbi Ansiklopedi",
+      "differentialOpinions": "Farklı Görüşler",
+      "voiceInteraction": "Sesli Etkileşim",
+      "languageSupport": "Dil Desteği",
+      "tipsBestPractices": "İpuçları ve En İyi Uygulamalar",
+      "privacySecurity": "Gizlilik ve Güvenlik"
+    },
+    "sidebar": {
+      "contents": "İçindekiler"
+    },
+    "sections": {
+      "gettingStarted": {
+        "title": "Başlarken",
+        "description": "VirtualMD.app, gelişmiş konuşma tabanlı yapay zeka aracılığıyla kişiselleştirilmiş tıbbi rehberlik sağlayan yapay zeka destekli bir sağlık danışmanlığı platformudur. İşte nasıl başlayacağınız:",
+        "quickStart": {
+          "title": "Hızlı Başlangıç:",
+          "step1": {
+            "chooseBetween": "Arasından seçim yapın",
+            "guestAccess": "Misafir Erişimi",
+            "tryWithoutAccount": "(hesapsız deneyin)",
+            "or": "veya",
+            "signUpFullFeatures": "Tüm özellikler için kaydolun"
+          },
+          "step2": "Bir yapay zeka tıbbi kişiliği seçin veya uzmanlardan oluşan bir ekip oluşturun",
+          "step3": "Konuşmanızı başlatın - sorular sorun, semptomları tanımlayın veya sağlık rehberliği arayın",
+          "step4": "AI yanıtlarını inceleyin ve gerektiğinde ek sorularla takip edin"
+        },
+        "tip": {
+          "label": "Uç:",
+          "message": "Misafir kullanıcılar 10 ücretsiz mesaj alır. Sınırsız danışmanlık ve tüm özelliklere erişim için hesap oluşturun."
+        }
+      },
+      "aiMedicalPersonas": {
+        "title": "Yapay Zeka Tıbbi Kişilikleri",
+        "description": "VirtualMD, her biri benzersiz uzmanlığa sahip 60'tan fazla uzmanlaşmış yapay zeka tıbbi kişiliğine sahiptir:",
+        "availableSpecialists": "Mevcut Uzmanlar:",
+        "specialists": {
+          "generalPractitioner": "Genel Pratisyen",
+          "cardiologist": "Kardiyolog",
+          "pediatrician": "Çocuk doktoru",
+          "mentalHealthSpecialist": "Ruh Sağlığı Uzmanı",
+          "dermatologist": "Dermatolog",
+          "neurologist": "Nörolog",
+          "oncologist": "Onkolog",
+          "emergencyMedicine": "Acil Tıp",
+          "medicalNavigator": "Tıbbi Navigatör",
+          "moreSpecialists": "60+ Daha Fazla Uzman"
+        },
+        "howToChoose": {
+          "title": "Persona Nasıl Seçilir:",
+          "step1": "Panonuzdaki kişilik listesine göz atın",
+          "step2": "Uzmanlık alanlarını anlamak için her bir kişinin biyografisini okuyun",
+          "step3": "Sağlık endişenize veya sorunuza göre seçin",
+          "step4": "Danışmanlık sırasında istediğiniz zaman kişileri değiştirin"
+        },
+        "proTip": {
+          "label": "Profesyonel İpucu:",
+          "medicalNavigator": "Tıbbi Navigatör kişiliği, sizin özel sağlık sorununuz için hangi uzmanın en iyi olacağını belirlemenize yardımcı olabilir."
+        }
+      },
+      "teamConsultations": {
+        "title": "Takım Danışmanlıkları",
+        "description": "Sağlık sorunlarınızda iş birliği yapacak bir yapay zeka uzmanları ekibi oluşturarak kapsamlı bakım alın:",
+        "buildingYourTeam": {
+          "title": "Ekibinizi Oluşturun:",
+          "step1": {
+            "buttonText": "Ekibinizi Oluşturun",
+            "instruction": "Gösterge panelinde \"{{buttonText}}\" öğesine tıklayın"
+          },
+          "step2": "İhtiyaçlarınıza uygun en fazla 5 uzmanı seçin",
+          "step3": "Uzmanlar arasında koordinasyonu sağlamak için bir Tıbbi Navigatör ekleyin",
+          "step4": "Çok disiplinli içgörüler için bir ekip sohbeti başlatın"
+        },
+        "benefits": {
+          "title": "Ekip Danışmanlığının Faydaları:",
+          "comprehensiveCare": {
+            "label": "Kapsamlı Bakım:",
+            "description": "Karmaşık sağlık sorunlarına ilişkin çoklu bakış açıları"
+          },
+          "coordinatedAdvice": {
+            "label": "Koordineli Danışmanlık:",
+            "description": "Uzmanlar izole bir şekilde değil, birlikte çalışırlar"
+          },
+          "efficientNavigation": {
+            "label": "Verimli Navigasyon:",
+            "description": "Tıbbi Navigatör doğru uzmanlığa sahip olmanızı sağlar"
+          },
+          "holisticApproach": {
+            "label": "Bütünsel Yaklaşım:",
+            "description": "Fiziksel, zihinsel ve yaşam tarzı faktörlerini birlikte ele alın"
+          }
+        }
+      },
+      "medicalImageAnalysis": {
+        "title": "Tıbbi Görüntü Analizi",
+        "description": "Yapay zeka destekli içgörüler için tıbbi görüntüleri yükleyin ve analiz edin:",
+        "howToUse": {
+          "title": "Görüntü Analizi Nasıl Kullanılır:",
+          "step1": "Kamera simgesine veya resim yükleme düğmesine tıklayın",
+          "step2": "En fazla 4 tıbbi görüntü yükleyin (röntgen, MR, laboratuvar sonuçları, cilt rahatsızlıkları, vb.)",
+          "step3": "Ayrıntılı görünüm için yüklenen resimlere tıklayarak yakınlaştırın",
+          "step4": "Yakınlaştırılmış görüntüye tıklayarak ilgi alanlarınızı seçin",
+          "step5": "Görüntüler hakkında soru sorun veya analiz talep edin"
+        },
+        "supportedTypes": {
+          "title": "Desteklenen Görüntü Türleri:",
+          "xrays": "X-ışınları ve radyolojik görüntüler",
+          "mriCtScans": "MR ve BT taramaları",
+          "laboratoryTests": "Laboratuvar test sonuçları",
+          "skinConditions": "Cilt rahatsızlıkları ve dermatolojik görüntüler",
+          "ecgEkgReadings": "EKG/EKG okumaları",
+          "prescriptionDocuments": "Reçete belgeleri"
+        },
+        "warning": {
+          "label": "Önemli:",
+          "text": "Yapay zeka görüntü analizi eğitim amaçlıdır. Resmi tıbbi yorumlama için daima sağlık uzmanlarına danışın."
+        }
+      },
+      "medicalEncyclopedia": {
+        "title": "Tıbbi Ansiklopedi ve Derin Araştırma",
+        "description": "Kapsamlı tıbbi bilgilere ve araştırma olanaklarına erişin:",
+        "features": {
+          "title": "Ansiklopedi Özellikleri:",
+          "instantAccess": {
+            "label": "Anında Erişim:",
+            "description": "Herhangi bir konuşma sırasında Ansiklopedi simgesine tıklayın"
+          },
+          "deepResearch": {
+            "label": "Derin Araştırma:",
+            "description": "Ayrıntılı tıbbi literatür incelemeleri talep edin"
+          },
+          "evidenceBased": {
+            "label": "Kanıta Dayalı:",
+            "description": "Hakemli tıbbi veri tabanlarından elde edilen bilgiler"
+          },
+          "contextAware": {
+            "label": "Bağlam Farkındalığı:",
+            "description": "Aramalar otomatik olarak mevcut sağlık tartışmanızla ilişkilendirilir"
+          }
+        },
+        "howToResearch": {
+          "title": "Araştırma Nasıl Yapılır:",
+          "step1": "Konuşma sırasında Ansiklopedi butonuna tıklayın",
+          "step2": "Araştırmak için tıbbi terimleri, koşulları veya tedavileri girin",
+          "step3": "Kapsamlı bilgileri alıntılarla birlikte inceleyin",
+          "step4": "Açıklama için takip soruları sorun"
+        }
+      },
+      "differentialOpinions": {
+        "title": "Farklı Görüşler",
+        "description": "Kapsamlı bir anlayış sağlamak için alternatif tanıları ve ikinci görüşleri inceleyin:",
+        "gettingOpinions": {
+          "title": "Farklı Görüşler Elde Etmek:",
+          "step1": "İlk değerlendirmeyi aldıktan sonra \"Farklı Görüş Al\"a tıklayın",
+          "step2": "Yapay zeka semptomlarınızı farklı bakış açılarından analiz edecek",
+          "step3": "Alternatif olasılıkları ve bunların gerçekleşme olasılığını gözden geçirin",
+          "step4": "Acil tıbbi yardım almanız gereken zamanı anlayın"
+        },
+        "whatYoullLearn": {
+          "title": "Öğrenecekleriniz:",
+          "item1": "Benzer semptomlara neden olabilecek diğer durumlar",
+          "item2": "Acil tıbbi müdahale gerektiren kırmızı bayraklar",
+          "item3": "Sağlık uzmanınıza sormanız gereken sorular",
+          "item4": "Yardımcı olabilecek ek testler"
+        }
+      },
+      "voiceInteraction": {
+        "title": "Sesli Etkileşim",
+        "description": "Doğal sesli konuşmaları kullanarak VirtualMD ile etkileşime geçin:",
+        "features": {
+          "title": "Ses Özellikleri:",
+          "speechToText": {
+            "label": "Konuşmadan Metne:",
+            "description": "Sorularınızı konuşmak için mikrofon simgesine tıklayın"
+          },
+          "textToSpeech": {
+            "label": "Metinden Konuşmaya:",
+            "description": "AI yanıtlarını duymak için hoparlör simgesini açın/kapatın"
+          },
+          "naturalConversation": {
+            "label": "Doğal Konuşma:",
+            "description": "Bir doktorla konuşur gibi doğal bir şekilde konuşun"
+          },
+          "multipleVoices": {
+            "label": "Çoklu Sesler:",
+            "description": "Her kişiliğin kendine özgü bir ses kişiliği vardır"
+          }
+        },
+        "controls": {
+          "title": "Ses Kontrolleri:",
+          "microphone": "Mikrofon simgesi: Ses girişini başlat/durdur",
+          "speaker": "Hoparlör simgesi: Sesli yanıtları etkinleştir/devre dışı bırak",
+          "volume": "Ses kontrolleri: Ayarlarda konuşma ses seviyesini ayarlayın",
+          "speed": "Hız kontrolleri: Netlik için konuşma hızını ayarlayın"
+        }
+      },
+      "languageSupport": {
+        "title": "Dil Desteği",
+        "description": "30'dan fazla dil desteğiyle tercih ettiğiniz dilde iletişim kurun:",
+        "availableLanguages": {
+          "title": "Mevcut Diller:",
+          "languages": {
+            "arabic": "Arapça",
+            "chinese": "Çince",
+            "english": "İngilizce",
+            "spanish": "İspanyol",
+            "french": "Fransızca",
+            "german": "Almanca",
+            "hebrew": "İbranice",
+            "hindi": "Hintçe",
+            "italian": "İtalyan",
+            "japanese": "Japonca",
+            "korean": "Korece",
+            "portuguese": "Portekizce",
+            "russian": "Rusça",
+            "moreLanguages": "20+ Daha Fazla"
+          }
+        },
+        "languageFeatures": {
+          "title": "Dil Özellikleri:",
+          "autoDetection": "Tarayıcı ayarlarına göre otomatik dil algılama",
+          "switchLanguages": "Dil menüsünden istediğiniz zaman dilleri değiştirin",
+          "rtlSupport": "Arapça ve İbranice için RTL desteği",
+          "medicalTermsExplained": "Tıbbi terimlerin dilinizde açıklaması",
+          "culturalGuidance": "Kültürel olarak uygun sağlık rehberliği"
+        }
+      },
+      "tipsTitle": "İpuçları ve En İyi Uygulamalar",
+      "tipsSubtitle": "VirtualMD'den En İyi Şekilde Yararlanmak:",
+      "commonUseCases": {
+        "title": "Yaygın Kullanım Örnekleri:",
+        "useCase1": "Doktor ziyaretlerinden önce semptomları anlamak",
+        "useCase2": "Tanılar hakkında ikinci görüş almak",
+        "useCase3": "Tıbbi durumlar ve tedaviler hakkında bilgi edinmek",
+        "useCase4": "Sağlık randevuları için soru hazırlama",
+        "useCase5": "Tıbbi test sonuçlarını anlama",
+        "useCase6": "Kronik rahatsızlıkların sürekli rehberlikle yönetilmesi",
+        "useCase7": "Ruh sağlığı desteği ve başa çıkma stratejileri"
+      },
+      "privacySecurity": {
+        "title": "Gizlilik ve Güvenlik",
+        "description": "Sağlık bilgileriniz kurumsal düzeyde güvenlikle korunmaktadır:",
+        "securityFeatures": {
+          "title": "Güvenlik Özellikleri:",
+          "feature1": "Tüm görüşmeler için uçtan uca şifreleme",
+          "feature2": "HIPAA uyumlu veri işleme",
+          "feature3": "Kişisel verilerin rıza olmaksızın paylaşılmaması",
+          "feature4": "Düzenli yedeklemelerle güvenli bulut depolama",
+          "feature5": "Anonim misafir modu mevcut",
+          "feature6": "Hesap kapatıldığında verilerin tamamen silinmesi"
+        },
+        "yourControl": {
+          "title": "Kontrolünüz:",
+          "control1": "Konuşmaları istediğiniz zaman silin",
+          "control2": "Kişisel kayıtlarınız için verilerinizi dışa aktarın",
+          "control3": "Hangi bilgilerin depolandığını kontrol edin",
+          "control4": "Veri analitiğinden vazgeçme"
+        }
+      },
+      "callToAction": {
+        "title": "Başlamaya Hazır Mısınız?",
+        "description": "VirtualMD.app ile sağlık danışmanlığının geleceğini deneyimleyin",
+        "buttons": {
+          "tryAsGuest": "Misafir olarak deneyin",
+          "createAccount": "Hesap oluşturmak",
+          "backToHome": "← Ana Sayfaya Dön"
+        }
+      }
+    },
+    "tips": {
+      "beSpecific": {
+        "label": "Spesifik Olun:",
+        "description": "Belirtiler, süre ve şiddet hakkında ayrıntılı bilgi verin"
+      },
+      "shareContext": {
+        "label": "Bağlamı Paylaş:",
+        "description": "İlgili tıbbi geçmişi, ilaçları ve alerjileri belirtin"
+      },
+      "askFollowups": {
+        "label": "Takip Soruları:",
+        "description": "Açıklama veya daha fazla ayrıntı istemekten çekinmeyin"
+      },
+      "useImages": {
+        "label": "Görselleri Kullanın:",
+        "description": "Mümkün olduğunda ilgili tıbbi görüntüleri veya test sonuçlarını yükleyin"
+      },
+      "saveConversations": {
+        "label": "Konuşmaları Kaydet:",
+        "description": "Önemli istişareleri gelecekte başvurmak üzere saklayın"
+      },
+      "buildTeams": {
+        "label": "Ekipler Oluşturun:",
+        "description": "Karmaşık sağlık sorunları için birden fazla uzmandan yararlanın"
+      },
+      "verifyInformation": {
+        "label": "Bilgileri Doğrulayın:",
+        "description": "Yapay zeka rehberliğini her zaman sağlık profesyonelleriyle teyit edin"
+      }
+    }
+  },
+  "landingPages": {
+    "defaultGuest": {
+      "childHealth": {
+        "title": "Çocuk Sağlığı Desteği",
+        "subtitle": "En çok ihtiyaç duyduğunuz anda uzman pediatrik rehberliğe ulaşın.",
+        "firstMessage": "Merhaba! Ben Sağlık Uzmanı Aileen Carol ve çocuğunuzun sağlık sorunları konusunda size yardımcı olmak için buradayım. Her ebeveyn endişelenir - bu tamamen normaldir.\n\nBugün çocuğunuzla ilgili hangi spesifik semptomlarınız veya endişeleriniz var?"
+      },
+      "sleep": {
+        "title": "Uyku ve Sağlık",
+        "subtitle": "Daha iyi dinlenin ve günlük enerjinizi artırın.",
+        "firstMessage": "Merhaba! Ben Sağlık Uzmanı Aileen Carol. Uyku sorunları hayatınızın her alanını etkileyebilir ve ihtiyacınız olan dinlenmeyi elde etmenize yardımcı olmak için buradayım.\n\nSon zamanlarda iyi uyumanızı engelleyen ne?"
+      },
+      "nutrition": {
+        "title": "Beslenme ve Yaşam Tarzı",
+        "subtitle": "Daha sağlıklı bir yaşam için kişiselleştirilmiş rehberlik.",
+        "firstMessage": "Merhaba! Ben Sağlık Uzmanı Aileen Carol. Sağlıklı yaşam tarzı değişiklikleri yapmak bunaltıcı gelebilir, ancak bize ulaşarak harika bir ilk adım atıyorsunuz.\n\nSağlık ve beslenmenizin hangi yönüne odaklanmak istersiniz?"
+      }
+    }
+  },
+  "founders": {
+    "title": "Kurucu Ortaklardan Bir Not",
+    "paragraph1": "Bu uygulamayı tek bir umutla geliştirdik: Yakın zamanda mümkün hale gelen teknolojiyle desteklenen güvenilir tıbbi rehberliğe erişim sunarak dünyayı daha sağlıklı bir yer haline getirmeye yardımcı olmak. Bu uygulama, yapay zekanın bu yeni çağının hem vaatlerini hem de sorumluluklarını anlayan, uzun yıllardır bu alanda çalışan bir bilim insanı ve bir hahamın iş birliğinin sonucudur.",
+    "paragraph2": "Amacımız, ilk bir milyon kullanıcımıza platforma ücretsiz ve tam erişim sağlamak. Sağlığın yalnızca maddi gücü yetenlere değil, herkese açık olması gerektiğine inanıyoruz. Platform büyüdükçe, belirli premium özellikler için ücret talep edebiliriz. Ancak şu anda, bunu en çok ihtiyaç duyanların eline ulaştırmaya odaklanıyoruz.",
+    "paragraph3": "Tıp bilimindeki en son gelişmelerin yanı sıra, Doğu ve Afrika sistemleri de dahil olmak üzere dünyanın dört bir yanındaki şifa geleneklerinden ilham alan yapay zeka kişilikleriyle etkileşim kurmayı mümkün kıldık. Tek bir yolu desteklemiyoruz. Bunun yerine, bireylerin çeşitli bakış açılarını keşfetmelerine ve kendileri için en anlamlı olanı bütünleştirmelerine olanak tanıyan araçlar sunuyoruz.",
+    "paragraph4": "Bu yaklaşımın dirençle karşılaşacağının farkındayız. Bazıları haklı olacak; doğrulukla ilgili endişeler gerçek ve bunları ciddiye alıyoruz. Diğer eleştiriler ise değişimden duyulan rahatsızlıktan kaynaklanacak. Ancak sağlık sektörü, kurumlar bunu memnuniyetle karşılasa da karşılamasa da gelişiyor. Amacımız bu değişime özen, tevazu ve şeffaflıkla rehberlik etmek.",
+    "paragraph5": "Yapay zeka güçlüdür, ancak yine de kusurludur. Bunlar yalnızca yasal sorumluluk reddi beyanları değil, aynı zamanda size ve halk sağlığına karşı etik sorumluluğumuzun bir parçasıdır. Lütfen bu aracı lisanslı tıbbi bakımın yerine değil, tamamlayıcısı olarak kullanın.",
+    "closing": "Burada olduğunuz için teşekkür ederiz. Sağlıkla kullanmanızı dileriz.",
+    "supportText": "İnşa ettiğimiz şeye inanıyor ve devam etmemize yardımcı olmak istiyorsanız, desteğinize ihtiyacımız var. Aşağıdaki bağlantıya tıklayarak katkıda bulunabilirsiniz.",
+    "signature": "– Ron Rubin ve Sandy Miles, Yaratıcılar",
+    "supportButton": "Bizi Destekleyin"
+  }
+}

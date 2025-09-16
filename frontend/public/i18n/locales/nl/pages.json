@@ -1,0 +1,1397 @@
+{
+  "chatPage": {
+    "title": "VirtualMD.app Chat",
+    "welcomeMessage": "Welkom bij uw persoonlijke gezondheidsconsultatie",
+    "startConversation": "Begin een nieuw gesprek",
+    "selectPersona": "Kies uw zorgprofessional",
+    "typeMessage": "Typ hier uw bericht...",
+    "send": "Versturen",
+    "thinking": "Denken...",
+    "error": "Er is iets misgegaan. Probeer het opnieuw.",
+    "retry": "Opnieuw proberen",
+    "clear": "Chat wissen",
+    "save": "Gesprek opslaan",
+    "export": "Chat exporteren",
+    "settings": "Chatinstellingen"
+  },
+  "loginPage": {
+    "home": "Thuis",
+    "title": "Meld u aan bij VirtualMD.app",
+    "subtitle": "Krijg toegang tot uw persoonlijke gezondheidsconsultaties",
+    "email": "E-mailadres",
+    "password": "Wachtwoord",
+    "signIn": "Aanmelden",
+    "forgotPassword": "Wachtwoord vergeten?",
+    "noAccount": "Heeft u nog geen account?",
+    "signUp": "Aanmelden",
+    "or": "of",
+    "signInWithGoogle": "Aanmelden met Google",
+    "signInWithFacebook": "Aanmelden met Facebook",
+    "rememberMe": "Onthoud mij",
+    "emailRequired": "E-mailadres is vereist",
+    "passwordRequired": "Wachtwoord is vereist",
+    "invalidEmail": "Voer een geldig e-mailadres in",
+    "signInError": "Ongeldig e-mailadres of wachtwoord",
+    "signInSuccess": "Welkom terug!"
+  },
+  "registerPage": {
+    "title": "Maak uw VirtualMD.app-account aan",
+    "subtitle": "Sluit u aan bij duizenden gebruikers die gepersonaliseerde gezondheidsadviezen krijgen",
+    "firstName": "Voornaam",
+    "lastName": "Achternaam",
+    "email": "E-mailadres",
+    "password": "Wachtwoord",
+    "confirmPassword": "Bevestig wachtwoord",
+    "signUp": "Account aanmaken",
+    "hasAccount": "Heeft u al een account?",
+    "signIn": "Aanmelden",
+    "or": "of",
+    "signUpWithGoogle": "Aanmelden met Google",
+    "signUpWithFacebook": "Meld je aan met Facebook",
+    "agreeToTerms": "Ik ga akkoord met de Servicevoorwaarden en het Privacybeleid",
+    "firstNameRequired": "Voornaam is verplicht",
+    "lastNameRequired": "Achternaam is vereist",
+    "emailRequired": "E-mailadres is vereist",
+    "passwordRequired": "Wachtwoord is vereist",
+    "passwordMinLength": "Wachtwoord moet minimaal 8 tekens lang zijn",
+    "passwordsDoNotMatch": "Wachtwoorden komen niet overeen",
+    "invalidEmail": "Voer een geldig e-mailadres in",
+    "termsRequired": "U moet akkoord gaan met de algemene voorwaarden",
+    "signUpError": "Account aanmaken mislukt. Probeer het opnieuw.",
+    "signUpSuccess": "Account succesvol aangemaakt! Welkom bij VirtualMD.app!",
+    "passwordHelperText": "Minimaal 6 tekens, inclusief letters, cijfers en één @#$%^&*()! Geen spaties.",
+    "passwordNeedsLetter": "Het wachtwoord moet minimaal één letter bevatten.",
+    "passwordNeedsNumber": "Het wachtwoord moet minimaal één cijfer bevatten.",
+    "passwordNeedsSpecial": "Het wachtwoord moet minimaal één speciaal teken bevatten: !@#$%^&*()",
+    "passwordNoSpaces": "Het wachtwoord mag geen spaties bevatten.",
+    "agreeToTermsModal": "Om u te registreren, moet u akkoord gaan met de Algemene Voorwaarden. Klik hier op de link Algemene Voorwaarden.",
+    "agreeToTermsLabel": "Ik ga akkoord met de",
+    "termsAndConditions": "Algemene voorwaarden",
+    "register": "Register",
+    "alreadyHaveAccount": "Heeft u al een account?",
+    "login": "Login",
+    "home": "Thuis",
+    "emailInUseError": "Dit e-mailadres is al geregistreerd. Probeer in te loggen of gebruik een ander e-mailadres.",
+    "iAgree": "Ik ga akkoord",
+    "unexpectedError": "Er is een onverwachte fout opgetreden tijdens de registratie. Probeer het opnieuw.",
+    "mustAgreeToTerms": "U moet akkoord gaan met de Algemene Voorwaarden om u te kunnen registreren."
+  },
+  "contactPage": {
+    "title": "Neem contact op met VirtualMD.app",
+    "subtitle": "Neem contact op met ons team",
+    "description": "Heeft u vragen over onze AI-gestuurde gezondheidsconsulten? We helpen u graag.",
+    "name": "Volledige naam",
+    "email": "E-mailadres",
+    "subject": "Onderwerp",
+    "message": "Bericht",
+    "send": "Bericht verzenden",
+    "sending": "Verzenden...",
+    "nameRequired": "Naam is vereist",
+    "emailRequired": "E-mailadres is vereist",
+    "subjectRequired": "Onderwerp is vereist",
+    "messageRequired": "Bericht is vereist",
+    "invalidEmail": "Voer een geldig e-mailadres in",
+    "sendError": "Bericht verzenden mislukt. Probeer het opnieuw.",
+    "sendSuccess": "Bericht succesvol verzonden! We nemen zo snel mogelijk contact met u op.",
+    "errorMessage": "Er is een fout opgetreden. Probeer het later opnieuw.",
+    "contactInfo": {
+      "title": "Contactgegevens",
+      "address": "123 Health Street, Wellness District, Stad, Staat 12345",
+      "phone": "+1 (555) 123-4567",
+      "email": "info@virtualmd.app",
+      "hours": "Maandag - vrijdag: 9:00 - 18:00 uur PST"
+    },
+    "contactUs": "Neem contact met ons op",
+    "contactDescription": "Vragen of feedback? We horen graag van u. Gebruik onderstaand formulier.",
+    "directEmail": "Voor directe e-mail kunt u contact met ons opnemen via",
+    "yourEmail": "Uw e-mailadres",
+    "sendMessage": "Bericht verzenden",
+    "messageSent": "Bericht verzonden!",
+    "home": "Thuis",
+    "contactError": "Er is een fout opgetreden bij het verzenden van uw bericht. Probeer het later opnieuw of",
+    "contactDirectly": "U kunt ons ook rechtstreeks e-mailen op info@virtualmd.app"
+  },
+  "researchPage": {
+    "title": "Onderzoek & Publicaties",
+    "subtitle": "Ontdek de wetenschap achter onze AI-aangedreven gezondheidsoplossingen",
+    "description": "Ons platform is gebaseerd op baanbrekend onderzoek en klinisch bewijs.",
+    "sections": {
+      "publications": "Publicaties",
+      "clinicalStudies": "Klinische studies",
+      "whitepapers": "Whitepapers",
+      "partnerships": "Onderzoekspartnerschappen"
+    },
+    "healthAdvisory": {
+      "title": "Gezondheidsadvies",
+      "description": "Belangrijke informatie over het gebruik van AI in de gezondheidszorg en wanneer u een zorgverlener moet raadplegen.",
+      "button": "Lees het gezondheidsadvies"
+    },
+    "imagingAI": {
+      "title": "Imaging AI-assistentie",
+      "description": "Ontdek ons uitgebreide whitepaper over AI-ondersteunde medische beeldvorming en de impact ervan op de gezondheidszorg.",
+      "button": "Lees het whitepaper"
+    },
+    "pathologyAI": {
+      "title": "Pathologie AI-assistentie",
+      "description": "Ontdek ons gedetailleerde whitepaper over AI-ondersteunde pathologie en de toepassingen ervan bij kankerdetectie.",
+      "button": "Lees het whitepaper"
+    },
+    "dermatologyAI": {
+      "title": "Dermatologie AI-assistentie",
+      "description": "Ons onderzoek naar AI-toepassingen in de dermatologie voor detectie en classificatie van huidlaesies.",
+      "button": "Lees het whitepaper"
+    },
+    "mentalHealthAI": {
+      "title": "AI-inzichten in geestelijke gezondheid",
+      "description": "Duik dieper in de rol van AI bij het verbeteren van geestelijke gezondheidszorg, diagnostiek en therapeutische toepassingen.",
+      "button": "Lees het whitepaper"
+    },
+    "dataPrivacy": {
+      "title": "Diepgaande duik in gegevensbescherming",
+      "description": "Een uitgebreid overzicht van onze gegevensverwerkingspraktijken, beveiligingsmaatregelen en overwegingen met betrekking tot HIPAA.",
+      "button": "Lees het whitepaper"
+    },
+    "aiAccuracy": {
+      "title": "AI-nauwkeurigheidsstudies",
+      "description": "Lees meer over ons onderzoek naar de nauwkeurigheid van AI in medische diagnoses en behandelingsaanbevelingen.",
+      "button": "Bekijk studies"
+    },
+    "aiForLaypeople": {
+      "title": "AI-beeldvorming voor leken",
+      "description": "Een vereenvoudigde uitleg van hoe AI medische beeldvorming transformeert en wat dit voor patiënten betekent.",
+      "button": "Lees uitleg"
+    }
+  },
+  "evidencePage": {
+    "title": "Klinisch bewijs",
+    "subtitle": "Peer-reviewed onderzoek ter ondersteuning van ons AI-gezondheidsplatform",
+    "description": "Evidence-based medicine staat centraal in alles wat we doen.",
+    "heading": "Pionieren in de toekomst van gezondheid en welzijn",
+    "description2": "VirtualMD.app is dé revolutie in gezondheid en welzijn, gebaseerd op baanbrekend onderzoek en gedreven door een passie voor transformerend welzijn. We demonstreren de bewezen kracht van AI en banen tegelijkertijd nieuwe wegen voor gepersonaliseerd, proactief welzijn. Dit is meer dan een app; het is een nieuw paradigma. Maak deel uit van de revolutie.",
+    "researchHeading": "Fundamenteel onderzoek: bewezen mogelijkheden van AI",
+    "wellnessHeading": "De wellnessrevolutie: uw pad naar welzijn van de volgende generatie",
+    "researchEvidence": {
+      "radiology": {
+        "title": "AI in de radiologie: verbeterde detectie",
+        "description": "AI-modellen behaalden een nauwkeurigheid van 92% bij het detecteren van afwijkingen op thoraxfoto's, wat aantoont dat er potentieel is voor een hogere diagnostische snelheid en precisie.",
+        "citation": "Tijdschrift voor Radiologie, 2023",
+        "explainSimply": "Leg dit eenvoudig uit",
+        "tooltip": "Klik voor een link die dit artikel in lekentaal uitlegt."
+      },
+      "pathology": {
+        "title": "AI in pathologie: verbeterde nauwkeurigheid",
+        "description": "AI-ondersteunde diagnose verbeterde de detectie van kwaadaardig weefsel met 15% in pathologiedia's vergeleken met alleen handmatige beoordeling.",
+        "citation": "Amerikaans tijdschrift voor pathologie, 2022"
+      },
+      "dermatology": {
+        "title": "AI in de dermatologie: prestaties op expertniveau",
+        "description": "In een grootschalig blind onderzoek identificeerde AI 95% van de gevallen van huidkanker correct op basis van beelden. Daarmee evenaarde het de prestaties van ervaren dermatologen.",
+        "citation": "JAMA Dermatologie, 2022"
+      },
+      "mentalHealthResearch": {
+        "title": "AI in de geestelijke gezondheidszorg: onderzoek naar vroege detectie",
+        "description": "Onderzoek toont aan dat AI-systemen vroege waarschuwingssignalen van terugval in de geestelijke gezondheid kunnen detecteren, waardoor tijdig kan worden ingegrepen en ondersteuning kan worden geboden.",
+        "citation": "JAMA Psychiatrie, 2021"
+      }
+    },
+    "wellnessInsights": {
+      "personalizedWellness": {
+        "title": "AI-aangedreven gepersonaliseerde wellnessplannen",
+        "description": "Ontdek hoe onze AI u helpt bij het creëren van welzijnstrajecten die uniek zijn afgestemd op uw individuele doelen en levensstijl. We gaan verder dan een standaardoplossing die voor iedereen geschikt is."
+      },
+      "holisticSignals": {
+        "title": "De unieke signalen van uw lichaam begrijpen met AI",
+        "description": "Ontdek hoe VirtualMD.app u helpt subtiele patronen in uw dagelijks leven te interpreteren, zodat u een diepere verbinding met uw welzijn kunt creëren."
+      },
+      "proactiveWellbeing": {
+        "title": "De toekomst: proactief en voorspellend welzijn",
+        "description": "Ontdek hoe ons platform gebruikmaakt van toekomstgerichte inzichten om u te helpen te anticiperen op behoeften en proactief uw vitaliteit en veerkracht te vergroten."
+      },
+      "aiEnhancedClarity": {
+        "title": "AI voor verbeterde mindfulness en mentale helderheid",
+        "description": "Ontdek hoe VirtualMD.app hulpmiddelen en perspectieven biedt ter ondersteuning van mentale focus, emotionele balans en algemeen cognitief welzijn."
+      }
+    }
+  },
+  "featuresPage": {
+    "title": "Platformfuncties",
+    "subtitle": "Uitgebreide AI-gestuurde hulpmiddelen voor gezondheidsconsultatie",
+    "description": "Ontdek alle functies die VirtualMD.app uniek maken.",
+    "heading": "Ontdek onze revolutionaire aanpak",
+    "features": {
+      "instantWellnessInsights": {
+        "title": "Direct inzicht in welzijn",
+        "description": "Ontvang direct feedback en inzicht in uw welzijnsvragen, wanneer u dat nodig hebt."
+      },
+      "holisticWellnessPicture": {
+        "title": "Holistisch welzijnsbeeld",
+        "description": "Onze AI houdt rekening met alle aspecten van uw invoer: tekst, afbeeldingen van uw fitnessvoortgang of uw welzijnsdagboek. Zo krijgt u een compleet beeld."
+      },
+      "diverseAIPerspectives": {
+        "title": "Diverse AI-perspectieven",
+        "description": "Profiteer van de expertise van AI-wellnessspecialisten, die allemaal unieke inzichten bieden voor een alomvattend begrip."
+      },
+      "everEvolvingIntelligence": {
+        "title": "Steeds evoluerende intelligentie",
+        "description": "Ons platform leert en verfijnt voortdurend zijn kennis om u het meest actuele en relevante welzijnsadvies te bieden."
+      }
+    }
+  },
+  "clinicianInfoPage": {
+    "title": "Voor zorgprofessionals",
+    "subtitle": "AI-aangedreven tools om uw klinische praktijk te verbeteren",
+    "description": "Vergroot uw expertise met geavanceerde AI-inzichten."
+  },
+  "healthAdvisoryPage": {
+    "title": "Gezondheidsadvies",
+    "subtitle": "Maak kennis met onze deskundige medische adviseurs",
+    "description": "Lees meer over de medische professionals die ons platform aansturen.",
+    "sections": {
+      "consultation": {
+        "title": "Raadpleeg altijd een zorgverlener",
+        "description": "Hoewel het AI-gestuurde consultatiesysteem van VirtualMD.app waardevolle gezondheidsinformatie biedt, is het cruciaal om bij medische problemen altijd gekwalificeerde zorgverleners te raadplegen. Onze gecertificeerde artsen hebben dit systeem ontwikkeld als aanvulling op, en niet als vervanging van, professioneel medisch advies.",
+        "emergencyTitle": "Bij een medisch noodgeval:",
+        "emergency": {
+          "us": "Verenigde Staten: Bel 911",
+          "canada": "Canada: Bel 911",
+          "uk": "Verenigd Koninkrijk: Bel 999 of 112",
+          "australia": "Australië: Bel 000 of 112",
+          "israel": "Israël: Bel 101 ()",
+          "other": "Andere locaties: Neem onmiddellijk contact op met uw lokale hulpdiensten"
+        },
+        "emergencyWarning": "Als u pijn op de borst, ademhalingsproblemen, ernstige bloedingen, tekenen van een beroerte of andere ernstige symptomen ervaart, wacht dan niet langer. Zoek direct medische hulp."
+      },
+      "technology": {
+        "title": "Geavanceerde AI-technologie voor de gezondheidszorg van VirtualMD.app",
+        "description1": "VirtualMD.app maakt gebruik van nieuwe algoritmen, ontwikkeld door ons team van Harvard-getrainde artsen en AI-experts, om uitzonderlijk nauwkeurige gezondheidsinformatie te leveren. Onze AI-gezondheidsexperts zijn getraind in uitgebreide medische literatuur, klinische richtlijnen en praktijkscenario's om inzichten te bieden die nauw aansluiten bij die van gecertificeerde specialisten.",
+        "description2": "Bij gecontroleerde vergelijkingen naast elkaar voor diagnostische nauwkeurigheid heeft ons systeem opmerkelijke prestaties laten zien, waarbij het vaak de inzichten van ervaren clinici evenaart of overtreft. Onze AI-persona's kunnen duizenden medische onderzoeksartikelen, richtlijnen en klinische protocollen in seconden verwerken, waardoor ze toegang krijgen tot kennis die verder gaat dan wat een enkele gezondheidsexpert zou kunnen onthouden.",
+        "description3": "Hoewel we streven naar uitzonderlijke nauwkeurigheid en ons team het systeem continu verbetert, is geneeskunde complex en zijn individuele gezondheidssituaties uniek. Daarom hebben we ons platform ontworpen om de onschatbare expertise van zorgverleners te versterken, niet te vervangen."
+      },
+      "disclaimer": {
+        "title": "Gebruik op eigen risico",
+        "description": "De informatie die VirtualMD.app en haar AI-gezondheidsexperts verstrekken, is uitsluitend bedoeld voor informatieve en educatieve doeleinden. Door deze service te gebruiken, erkent en stemt u ermee in dat:",
+        "points": {
+          "noDiagnosis": "VirtualMD.app biedt geen medische diagnose of behandeling",
+          "mayContainErrors": "Door AI gegenereerde content kan fouten of weglatingen bevatten, ondanks onze robuuste validatieprocessen",
+          "requiresEvaluation": "Medisch advies vereist een persoonlijke evaluatie door erkende zorgverleners",
+          "mayBeOutdated": "Gezondheidsinformatie kan verouderd raken naarmate de medische kennis evolueert",
+          "uniqueCircumstances": "Uw unieke medische geschiedenis, aandoeningen en omstandigheden vereisen een professionele evaluatie"
+        },
+        "userResponsibility": "Hoewel VirtualMD.app geavanceerde technologie gebruikt om waardevolle medische inzichten te leveren, zijn gebruikers zelf verantwoordelijk voor de manier waarop ze deze informatie gebruiken.",
+        "missionStatement": "Het team van VirtualMD.app heeft deze technologie ontwikkeld omdat we geloven in het democratiseren van de toegang tot medische kennis van wereldklasse en het ondersteunen van betere gezondheidsbeslissingen. Ons AI-systeem vertegenwoordigt een revolutionaire vooruitgang in de gezondheidsinformatietechnologie die, mits correct gebruikt naast professionele zorg, u kan helpen weloverwogen gezondheidskeuzes te maken en productievere gesprekken te voeren met uw zorgverleners. Het niet gebruiken van dergelijke geavanceerde technologie wanneer deze beschikbaar is, zou een kans missen om toegang te krijgen tot mogelijk levensveranderende medische kennis."
+      }
+    }
+  },
+  "patientInfoPage": {
+    "title": "Voor gebruikers",
+    "subtitle": "Gepersonaliseerde gezondheidsbegeleiding binnen handbereik",
+    "description": "Gedetailleerde informatie over de voordelen van VirtualMD.app voor patiënten vindt u hier binnenkort."
+  },
+  "nurseInfoPage": {
+    "title": "Voor verpleegkundigen",
+    "subtitle": "AI-verbeterde patiëntenzorg en klinische beslissingsondersteuning",
+    "description": "Binnenkort vindt u hier gedetailleerde informatie over de voordelen van VirtualMD.app voor verpleegkundigen."
+  },
+  "pharmacistInfoPage": {
+    "title": "Voor apothekers",
+    "subtitle": "Inzichten in medicijnbeheer en geneesmiddelinteracties",
+    "description": "Gedetailleerde informatie over de voordelen van VirtualMD.app voor apothekers vindt u hier binnenkort."
+  },
+  "physicianInfoPage": {
+    "title": "Voor artsen",
+    "subtitle": "Ondersteuning bij klinische besluitvorming en diagnostische assistentie",
+    "description": "Gedetailleerde informatie over de voordelen van VirtualMD.app voor artsen vindt u hier binnenkort."
+  },
+  "medicalImageProcessingPage": {
+    "title": "Gezondheidsbeeldanalyse",
+    "subtitle": "AI-gestuurde diagnostische beeldinterpretatie",
+    "description": "Geavanceerde beeldanalyse voor nauwkeurige medische diagnose.",
+    "preset": "Vooraf ingesteld",
+    "chooseImage": "Kies afbeelding",
+    "process": "Proces",
+    "processedImage": "Verwerkte afbeelding"
+  },
+  "mentalHealthInfoPage": {
+    "title": "Ondersteuning voor geestelijke gezondheid",
+    "subtitle": "AI-ondersteunde screening en ondersteuning van geestelijke gezondheid",
+    "description": "Gedetailleerde informatie over hoe VirtualMD.app specialisten in de geestelijke gezondheidszorg kan helpen, vindt u hier binnenkort."
+  },
+  "wellnessPathwaysPage": {
+    "title": "Wellness Pathways-gids",
+    "subtitle": "Gepersonaliseerde gezondheidsreisplanning",
+    "description": "Ontdek uw weg naar optimale gezondheid en welzijn."
+  },
+  "yourHealthInYourHandsPage": {
+    "title": "Uw gezondheid in uw handen",
+    "subtitle": "U in staat stellen de controle over uw gezondheid te nemen",
+    "description": "Hulpmiddelen en inzichten waarmee u weloverwogen gezondheidsbeslissingen kunt nemen.",
+    "mainHeading": "Neem de controle: uw gezondheid, uw beslissingen, uw reis",
+    "sections": {
+      "uniqueProfile": {
+        "title": "Begrijp uw unieke profiel",
+        "description1": "Krijg dieper inzicht in uw individuele welzijnslandschap. Ons platform helpt u de verbanden te leggen en de factoren te begrijpen die bijdragen aan uw algehele vitaliteit.",
+        "description2": "Ontdek verschillende aspecten van uw welzijn, van levensstijlpatronen tot persoonlijke voorkeuren, allemaal op één plek."
+      },
+      "personalizedGoals": {
+        "title": "Stel uw persoonlijke doelen in en volg ze",
+        "description1": "Definieer wat welzijn voor *jou* betekent. Met VirtualMD.app kun je zinvolle, haalbare doelen stellen en je voortgang volgen. Wij bieden de tools en ondersteuning om je te helpen gemotiveerd te blijven en je successen te vieren.",
+        "description2": "Of het nu gaat om het verhogen van uw energieniveau, het verbeteren van uw slaap of het bevorderen van mentale helderheid, uw reis is uniek."
+      },
+      "diverseInsights": {
+        "title": "Krijg toegang tot diverse inzichten voor weloverwogen keuzes",
+        "description1": "Kennis is macht. Ons platform biedt toegang tot een breed spectrum aan informatie en perspectieven van onze diverse AI-wellnessgidsen. Neem weloverwogen beslissingen op basis van een alomvattend begrip, niet alleen op basis van losse feiten.",
+        "description2": "Wij helpen u bij het navigeren door de complexe wereld van wellnessinformatie, zodat u kunt kiezen wat bij u past."
+      },
+      "proactivePartner": {
+        "title": "Uw partner in proactief welzijn",
+        "description1": "VirtualMD.app is meer dan alleen een tool; wij zijn uw partner bij het opbouwen van een proactieve, positieve relatie met uw gezondheid. We staan klaar om u te ondersteunen met hulpmiddelen, inzichten en een revolutionaire aanpak voor persoonlijk welzijn.",
+        "description2": "Wees de revolutie in je eigen leven. Begin vandaag nog aan je reis naar meer welzijn."
+      }
+    },
+    "callToAction": {
+      "title": "Bent u klaar om uw gezondheid in eigen hand te nemen?",
+      "description": "Ontdek onze functies, chat met onze AI-wellnessgidsen en ontdek het verschil dat VirtualMD.app kan maken.",
+      "buttons": {
+        "tryAsGuest": "Probeer als gast"
+      }
+    }
+  },
+  "aboutEncyclopediaPage": {
+    "title": "VirtualMD.app Encyclopedie van gezondheid en welzijn",
+    "p1": "In de huidige digitale wereld hebben we een overvloed aan gezondheidsinformatie tot onze beschikking. Toch kan het lastig zijn om betrouwbaar advies te onderscheiden van desinformatie.",
+    "p2": "De VirtualMD.app Encyclopedie doorbreekt de ruis en biedt een revolutionaire manier om uw welzijn te verbeteren. Uniek geïntegreerd in ons platform, geeft het u toegang tot diepgaande, gedocumenteerde inzichten uit gerenommeerde medische tijdschriften zonder ooit uw live consult met ons team van AI-experts te hoeven verlaten.",
+    "p3": "Dit is niet zomaar een zoekmachine; het is een speciaal getraind onderdeel voor 'diepgaand onderzoek' dat is ontworpen om uw betrouwbare bron te zijn tijdens een gesprek.",
+    "p4": "Stel je voor dat je in een chat zit met onze AI-cardioloog en voedingsdeskundige over cholesterolmanagement. De term \"statines\" valt en je wilt meer weten dan alleen de basis. In plaats van je gesprek te onderbreken om het open internet te doorzoeken, kun je direct de VirtualMD.app Encyclopedie raadplegen. Deze biedt een uitgebreide, maar gemakkelijk te begrijpen samenvatting van hoe statines werken, hun voordelen en mogelijke bijwerkingen, met alle informatie afkomstig uit peer-reviewed publicaties zoals The Lancet of het New England Journal of Medicine."
+  },
+  "dataPrivacyPage": {
+    "title": "Gegevensbescherming en -beveiliging",
+    "subtitle": "Uw gezondheidsgegevens worden beschermd met de hoogste veiligheidsnormen",
+    "description": "Ontdek hoe wij uw persoonlijke gezondheidsgegevens veilig houden."
+  },
+  "encyclopediaPage": {
+    "title": "VirtualMD.app Encyclopedie",
+    "subtitle": "Uitgebreide medische kennis binnen handbereik",
+    "description": "Ontdek onze uitgebreide database met medische aandoeningen, behandelingen en gezondheidsinformatie.",
+    "mainHeading": "VirtualMD.app Encyclopedie",
+    "p1": "Welkom bij de VirtualMD.app Encyclopedie - uw complete gids voor medische kennis.",
+    "p2": "Onze encyclopedie behandelt een breed scala aan gezondheidsonderwerpen, aandoeningen en behandelingen.",
+    "exampleTitle": "Aanbevolen onderwerpen",
+    "exampleText": "Ontdek onze populairste gezondheidsonderwerpen en medische aandoeningen.",
+    "uniqueTitle": "Wat ons uniek maakt",
+    "p3": "Onze op AI gebaseerde encyclopedie biedt gepersonaliseerde, op bewijs gebaseerde gezondheidsinformatie."
+  },
+  "whyVirtualMDPage": {
+    "title": "Waarom VirtualMD.app?",
+    "subtitle": "De toekomst van gepersonaliseerde gezondheidszorg is hier",
+    "description": "Ontdek wat ons AI-gestuurde gezondheidsplatform uniek maakt."
+  },
+  "landing": {
+    "tryItOut": "Probeer het eens",
+    "cards": {
+      "tryItOut": {
+        "tagline": "Aanmelden is niet nodig."
+      }
+    }
+  },
+  "legalPage": {
+    "title": "Juridische informatie",
+    "subtitle": "Servicevoorwaarden, privacybeleid en juridische kennisgevingen",
+    "description": "Belangrijke juridische informatie over het gebruik van VirtualMD.app."
+  },
+  "legal": {
+    "eligibility": {
+      "ageRequirement": "Om de VirtualMD.app-service te gebruiken, moet u ten minste 18 jaar oud zijn of de wettelijke meerderjarigheidsleeftijd in uw rechtsgebied, afhankelijk van welke het hoogst is. Als u de Service namens een organisatie gebruikt, verklaart en garandeert u dat u bevoegd bent om die organisatie aan deze Voorwaarden te binden, en u stemt ermee in namens die organisatie aan deze Voorwaarden gebonden te zijn.",
+      "legalCapacity": "U moet tevens over de rechtsbevoegdheid beschikken om deze Voorwaarden te aanvaarden. U mag de Dienst niet gebruiken of gebruiken indien u volgens de toepasselijke wetgeving geen diensten mag ontvangen of indien u eerder door VirtualMD bent geschorst of verwijderd.",
+      "territorialRestrictions": "Toegang tot de Dienst vanuit gebieden waar de inhoud of het gebruik ervan illegaal is, is ten strengste verboden. Gebruikers zijn verantwoordelijk voor het naleven van alle lokale regels, wetten en voorschriften met betrekking tot hun gebruik van de Dienst, inclusief die met betrekking tot online gedrag en acceptabele inhoud."
+    },
+    "feesAndPayment": {
+      "currentlyFree": "Momenteel is de toegang tot de basisfuncties van de VirtualMD.app-service gratis.",
+      "futureFeesNotice": "VirtualMD behoudt zich het recht voor om in de toekomst kosten in rekening te brengen voor bepaalde functies, serviceniveaus of de Service als geheel. Mochten wij kosten in rekening brengen, dan stellen wij u vooraf op de hoogte van dergelijke wijzigingen en de toepasselijke betalingsvoorwaarden. Uw voortgezette gebruik van betaalde services na een dergelijke kennisgeving houdt in dat u akkoord gaat met de betaling van de toepasselijke kosten.",
+      "paymentTerms": "Betalingsvoorwaarden die aan u worden gepresenteerd tijdens het gebruik van of de aanmelding voor een betaalde dienst, worden beschouwd als onderdeel van deze Voorwaarden."
+    },
+    "termination": {
+      "userTermination": "U kunt uw account op elk gewenst moment beëindigen en stoppen met het gebruik van de Service door de instructies in de Service te volgen of contact met ons op te nemen.",
+      "serviceTermination": "VirtualMD kan, naar eigen goeddunken, uw toegang tot de Dienst geheel of gedeeltelijk opschorten of beëindigen, met of zonder voorafgaande kennisgeving, om welke reden dan ook, inclusief, maar niet beperkt tot, schending van deze Voorwaarden. Redenen voor beëindiging kunnen zijn: langdurige inactiviteit, verzoeken van wetshandhavingsinstanties of andere overheidsinstanties, stopzetting of materiële wijziging van de Dienst, of onverwachte technische of beveiligingsproblemen.",
+      "effectOfTermination": "Bij beëindiging vervalt uw recht om de Dienst te gebruiken onmiddellijk. Alle bepalingen van de Voorwaarden die naar hun aard na beëindiging van kracht zouden moeten blijven, blijven van kracht na beëindiging, inclusief, maar niet beperkt tot, eigendomsbepalingen, garantiedisclaimers, vrijwaring en aansprakelijkheidsbeperkingen.",
+      "noLiability": "Wij zijn niet aansprakelijk jegens u of een derde partij voor beëindiging van uw toegang tot de Dienst."
+    },
+    "termsOfUse": {
+      "title": "Gebruiksvoorwaarden",
+      "header": {
+        "company": "VirtualMD.app-website",
+        "llc": "VirtualMD Technologies LLC"
+      },
+      "welcome": "Welkom bij VirtualMD.app (de \"Service\", \"Site\"), beheerd door VirtualMD Technologies, LLC (\"VirtualMD\", \"wij\", \"ons\", \"onze\"). Deze Gebruiksvoorwaarden (\"Voorwaarden\") regelen uw toegang tot en gebruik van onze website, AI-persona's, content en diensten. Door de Service te openen of te gebruiken, gaat u ermee akkoord gebonden te zijn aan deze Voorwaarden en ons Privacybeleid, dat hierbij door middel van verwijzing is opgenomen. Als u niet akkoord gaat met deze Voorwaarden, dient u de Service niet te gebruiken.",
+      "sections": {
+        "section1": {
+          "title": "Onze belofte inzake gegevensbescherming",
+          "content": "Bij VirtualMD.app staan de privacy en veiligheid van uw persoonlijke gegevens voorop. We doen er alles aan om de vertrouwelijkheid en integriteit van de gegevens die u ons toevertrouwt te waarborgen. Ons platform is ontworpen met robuuste beveiligingsmaatregelen om uw gegevens te beschermen tegen ongeautoriseerde toegang, openbaarmaking, wijziging en vernietiging.",
+          "subsections": {
+            "": {
+              "content": "Geanonimiseerde gegevens ter verbetering:\nWe gebruiken strikt geanonimiseerde en geaggregeerde gegevens (waaruit alle PII is verwijderd) om de nauwkeurigheid, effectiviteit en veiligheid van onze AI-modellen en platformfuncties te verbeteren. Dit maakt het niet mogelijk om individuele gebruikers te identificeren."
+            }
+          }
+        },
+        "section2": {
+          "title": "Informatie die we verzamelen en andere privacygegevens",
+          "content": "Informatie die we verzamelen\nWe verzamelen informatie die u rechtstreeks aan ons verstrekt, informatie die we automatisch verzamelen via uw gebruik van de Service en informatie van externe bronnen.\n\nAccountgegevens: Wanneer u zich registreert, verzamelen we informatie zoals uw naam, e-mailadres en telefoonnummer (voor authenticatiedoeleinden).\nGebruikersinhoud: We verzamelen de informatie die u verstrekt tijdens het gebruik van de Service, waaronder tekst die u invoert in chatinterfaces, profielinformatie (zoals medicijnlijsten, indien verstrekt) en feedback.\nGebruiksinformatie: We verzamelen automatisch informatie over uw interacties met de Service, zoals IP-adres, browsertype, apparaatgegevens, besturingssysteem, bekeken pagina's, aangeklikte links en de datum en tijd van uw bezoeken.\nCookies en vergelijkbare technologieën: We gebruiken cookies en vergelijkbare trackingtechnologieën om de activiteit op onze Service te volgen en bepaalde informatie te bewaren. U kunt uw browser instellen om alle cookies te weigeren of aan te geven wanneer een cookie wordt verzonden. Als u echter geen cookies accepteert, kunt u mogelijk sommige delen van onze Service niet gebruiken.\n\nHoe we informatie gebruiken\nWe gebruiken de informatie die we verzamelen voor verschillende doeleinden, waaronder:\n\nHet leveren, beheren, onderhouden en verbeteren van de Service.\nHet verwerken van transacties en het verzenden van gerelateerde informatie, inclusief bevestigingen en facturen (indien van toepassing).\nHet verzenden van technische kennisgevingen, updates, beveiligingswaarschuwingen en ondersteunings- en administratieve berichten.\nHet reageren op uw opmerkingen, vragen en verzoeken en het verlenen van klantenservice.\nHet communiceren met u over producten, diensten, aanbiedingen, promoties, beloningen en evenementen van VirtualMD en anderen, en het verstrekken van nieuws en informatie waarvan wij denken dat deze interessant voor u zijn (onder voorbehoud van uw recht op afmelding).\nHet monitoren en analyseren van trends, gebruik en activiteiten in verband met onze Service.\nHet detecteren, onderzoeken en voorkomen van frauduleuze transacties en andere illegale activiteiten en het beschermen van de rechten en eigendommen van VirtualMD en anderen.\nHet personaliseren en verbeteren van de Service en het aanbieden van content of functies die aansluiten bij gebruikersprofielen of interesses.\nHet verbeteren van de nauwkeurigheid, effectiviteit en veiligheid van onze AI-modellen en platformfuncties met behulp van geanonimiseerde en geaggregeerde gegevens. Voor elk ander doel dat aan u is beschreven op het moment dat de informatie werd verzameld.\n\nHoe we informatie delen\n\nMet leveranciers en dienstverleners: We kunnen informatie delen met externe leveranciers, consultants en andere dienstverleners die toegang tot dergelijke informatie nodig hebben om namens ons werkzaamheden uit te voeren (bijv. hostingproviders, analyseproviders, betalingsverwerkers, AI API-providers die zijn geconfigureerd volgens ons beleid voor gegevensgebruik).\nIn reactie op een juridische procedure: We kunnen informatie vrijgeven indien wettelijk vereist of indien we te goeder trouw van mening zijn dat dit noodzakelijk is om te voldoen aan een wettelijke verplichting, de rechten of eigendommen van VirtualMD te beschermen en te verdedigen, mogelijk wangedrag in verband met de Service te voorkomen of te onderzoeken, de persoonlijke veiligheid van gebruikers van de Service of het publiek te beschermen, of te beschermen tegen wettelijke aansprakelijkheid.\nMet uw toestemming: We kunnen informatie delen met uw toestemming of op uw verzoek.\nBedrijfsoverdrachten: We kunnen informatie delen of overdragen in verband met, of tijdens onderhandelingen over, een fusie, verkoop van bedrijfsactiva, financiering of overname van (een deel van) ons bedrijf door een ander bedrijf. Geaggregeerde of geanonimiseerde gegevens: We kunnen geaggregeerde of geanonimiseerde gegevens delen die redelijkerwijs niet kunnen worden gebruikt om u te identificeren.\n\nUw privacykeuzes\nAccountgegevens: U kunt uw gegevens op elk moment bijwerken, corrigeren of verwijderen door in te loggen op uw account of contact met ons op te nemen. Als u uw account wilt verwijderen, kunt u contact met ons opnemen. Houd er echter rekening mee dat we bepaalde gegevens kunnen bewaren zoals vereist door de wet of voor legitieme zakelijke doeleinden.\nVerwijdering van gegevens: Zoals vermeld onder Beveiligingspraktijken, beschikt u over tools om individuele gesprekken of uw volledige account permanent te verwijderen.\nCookies: De meeste webbrowsers zijn standaard ingesteld om cookies te accepteren. Als u dat wilt, kunt u er meestal voor kiezen om uw browser zo in te stellen dat browsercookies worden verwijderd of geweigerd.\nPromotionele communicatie: U kunt zich afmelden voor promotionele e-mails van VirtualMD door de instructies in die e-mails te volgen. Als u zich afmeldt, kunnen we u nog steeds niet-promotionele communicatie sturen, zoals berichten over uw account of onze lopende zakelijke relaties.\n\nGegevensbewaring\nWe bewaren de informatie die we over u verzamelen zo lang als nodig is voor het/de doel(en) waarvoor we deze oorspronkelijk hebben verzameld, of voor andere legitieme zakelijke doeleinden, waaronder het voldoen aan onze wettelijke, regelgevende of andere nalevingsverplichtingen. We bewaren accountgegevens zolang uw account actief is en een redelijke periode daarna voor het geval u besluit de Service opnieuw te activeren. Geanonimiseerde en geaggregeerde gegevens die worden gebruikt voor systeemverbetering, kunnen voor onbepaalde tijd worden bewaard.\n\nInternationale gegevensoverdracht\nVirtualMD is gevestigd in de Verenigde Staten en we verwerken en bewaren informatie in de VS. Als u zich buiten de Verenigde Staten bevindt, houd er dan rekening mee dat de informatie die we verzamelen, wordt overgedragen naar, verwerkt en opgeslagen in de Verenigde Staten. De wetgeving inzake gegevensbescherming in de VS kan afwijken van die in uw land van verblijf. Door gebruik te maken van de Service stemt u in met de overdracht van uw gegevens naar de VS en het gebruik en de openbaarmaking van uw gegevens zoals beschreven in dit privacybeleid.\n\nPrivacy van kinderen\nDe VirtualMD.app-service is bedoeld voor volwassenen en is niet gericht op kinderen jonger dan 13 jaar (of de relevante leeftijd voor digitale toestemming in uw rechtsgebied). Wij verzamelen niet bewust persoonsgegevens van kinderen. Gebruik van de service door kinderen is verboden. Als u een ouder of voogd bent en van mening bent dat uw kind ons onrechtmatig informatie heeft verstrekt zonder uw toestemming, neem dan onmiddellijk contact met ons op via legal@virtualmd.app. Als wij vernemen dat wij in strijd met de toepasselijke wetgeving informatie van een kind hebben verzameld, zullen wij onmiddellijk stappen ondernemen om deze informatie te verwijderen.",
+          "subsections": {
+            "wemayshareinformationaboutyouasfollowsorasotherwisedescribedinthisprivacypolicy": {
+              "title": "We kunnen informatie over u delen zoals hieronder of zoals anderszins beschreven in dit privacybeleid"
+            }
+          }
+        },
+        "section3": {
+          "title": "Beperking van aansprakelijkheid met betrekking tot gegevensbeveiliging",
+          "content": "VirtualMD implementeert commercieel redelijke beveiligingsmaatregelen, waaronder encryptie- en authenticatieprotocollen (zoals beschreven in ons Privacybeleid), om de informatie die u aan de Service verstrekt te beschermen. Geen enkel beveiligingssysteem is echter ondoordringbaar.\n\nDoor deze Site te gebruiken, erkent en stemt u er daarom uitdrukkelijk mee in dat, hoewel VirtualMD redelijke inspanningen zal leveren om uw gegevens te beschermen in overeenstemming met standaard zakelijke praktijken, WIJ DE ABSOLUTE VEILIGHEID VAN UW INFORMATIE NIET GARANDEREN. U stemt ermee in dat u VirtualMD TECHNOLOGIES, LLC, HAAR GELIEERDE ONDERNEMINGEN, FUNCTIONARISSEN, DIRECTEUREN, MEDEWERKERS, AGENTEN OF LICENTIEGEVERS NIET KUNT EN NIET ZULT AANKLAGEN OF STELLEN voor schade, verliezen, kosten of uitgaven die voortvloeien uit of verband houden met ongeautoriseerde toegang, gebruik, openbaarmaking, wijziging of vernietiging van uw informatie (inclusief datalekken), op voorwaarde dat VirtualMD redelijke beveiligingsmaatregelen heeft geïmplementeerd. Uw gebruik van de Service houdt in dat u dit risico accepteert."
+        },
+        "section4": {
+          "title": "Algemene beperking van aansprakelijkheid",
+          "content": "VOOR ZOVER TOEGESTAAN DOOR DE TOEPASSELIJKE WETGEVING, ZIJN VirtualMD TECHNOLOGIES, LLC, HAAR DOCHTERONDERNEMINGEN, FUNCTIONARISSEN, DIRECTEUREN, MEDEWERKERS, AGENTEN OF LICENTIEGEVERS IN GEEN GEVAL AANSPRAKELIJK VOOR ENIGE INDIRECTE, INCIDENTELE, SPECIALE, GEVOLG- OF PUNITIEVE SCHADE, OF ENIG VERLIES VAN WINST OF INKOMSTEN, HETZIJ DIRECT OF INDIRECT GELEDEN, OF ENIG VERLIES VAN GEGEVENS, GEBRUIK, GOODWILL OF ANDERE IMMATERIËLE VERLIEZEN, ALS GEVOLG VAN:\n\nUW TOEGANG TOT OF GEBRUIK VAN OF HET NIET KUNNEN KRIJGEN TOT OF GEBRUIKEN VAN DE SERVICE;\n\nElk gedrag of inhoud van derden op de Dienst, inclusief maar niet beperkt tot lasterlijk, beledigend of onrechtmatig gedrag van andere gebruikers of derden;\nalle inhoud verkregen via de Dienst; of\nonbevoegde toegang, gebruik of wijziging van uw transmissies of inhoud (inclusief datalekken), zelfs als VirtualMD redelijke beveiligingsmaatregelen heeft genomen zoals beschreven in deze voorwaarden en het privacybeleid. Voor zover toegestaan door de wet, wijst VirtualMD alle garanties af, expliciet of impliciet, inclusief, maar niet beperkt tot, impliciete garanties van verkoopbaarheid, geschiktheid voor een bepaald doel, eigendomsrecht en niet-inbreuk.\n\nIn geen geval zal de totale aansprakelijkheid van VirtualMD en haar gelieerde ondernemingen meer bedragen dan honderd Amerikaanse dollars (USD $ 100,00) of het bedrag dat u, indien van toepassing, in de afgelopen zes maanden aan VirtualMD heeft betaald voor de diensten die aan de claim ten grondslag liggen.\n\nMet inachtneming van de voorgaande totale aansprakelijkheidslimiet, en niettegenstaande enige andere bepaling in deze Voorwaarden, is uw enige en exclusieve rechtsmiddel voor elke claim die voortvloeit uit of verband houdt met deze Voorwaarden of de Dienst beperkt tot het verhalen van de daadwerkelijk door u geleden directe schade. Dergelijke directe schade wordt gedefinieerd als de kosten die u rechtstreeks aan VirtualMD hebt betaald voor het specifieke onderdeel van de Dienst dat aanleiding geeft tot de claim gedurende de zes (6) maanden voorafgaand aan de gebeurtenis, en is alleen verhaalbaar voor zover deze schade rechtstreeks voortvloeit uit bewezen opzettelijk wangedrag of grove nalatigheid van VirtualMD bij het nakomen van haar verplichtingen onder deze Voorwaarden. Voor de duidelijkheid: VirtualMD, haar gelieerde ondernemingen, aandeelhouders, functionarissen, directeuren, werknemers en agenten zijn niet aansprakelijk voor enige indirecte, incidentele, speciale, gevolg- of punitieve schade, advocaatkosten of kosten, ongeacht de aansprakelijkheidstheorie, zelfs indien voortvloeiend uit een schending van deze Voorwaarden of schending van uw rechten, behalve waar dergelijke uitsluitingen verboden zijn door niet-afdwingbare bepalingen van toepasselijk recht.\n\nDE BEPERKINGEN VAN DEZE SUBSECTIE ZIJN VAN TOEPASSING OP ELKE AANSPRAKELIJKHEIDSTHEORIE, HETZIJ OP BASIS VAN GARANTIE, CONTRACT, WET, ONRECHTMATIGE DAAD (MET INBEGRIP VAN NALATIGHEID) OF ANDERSZINS, EN ONGEACHT OF VirtualMD OP DE HOOGTE IS GESTELD VAN DE MOGELIJKHEID VAN DERGELIJKE SCHADE, EN ZELFS INDIEN EEN HIERIN BESCHREVEN RECHTSMIDDEL NIET AAN ZIJN WEZENLIJKE DOEL VOLDOET.\n\nSOMMIGE RECHTSGEBIEDEN STAAN DE UITSLUITING VAN BEPAALDE GARANTIES OF DE BEPERKING OF UITSLUITING VAN AANSPRAKELIJKHEID VOOR INCIDENTELE OF GEVOLGSCHADE NIET TOE. DAAROM ZIJN SOMMIGE VAN DE BOVENSTAANDE BEPERKINGEN MOGELIJK NIET OP U VAN TOEPASSING."
+        },
+        "section5": {
+          "title": "Beveiligingspraktijken van VirtualMD.app",
+          "content": "We maken gebruik van een meerlaagse beveiligingsstrategie:\n\nTwee-factorauthenticatie (2FA):\nVerplicht voor alle accounts, waarbij verificatie via een tweede factor vereist is (bijv. een code naar e-mail/telefoon).\n\nDrie-factorauthenticatie (3FA) optie:\nOptionele verbeterde beveiliging waarbij een wachtwoord, e-mailcode én sms-code vereist zijn.\n\nDeze maatregelen bieden robuuste accountbeveiliging, maar onthoud dat geen enkel systeem 100% veilig is.",
+          "subsections": {
+            "": {
+              "content": "Toegangscontrole:\nDe toegang tot gebruikersdatabasegegevens door personeel wordt strikt gecontroleerd, beperkt, geregistreerd en beheerd door interne beleidsregels. Routinematig browsen is verboden."
+            }
+          }
+        },
+        "section6": {
+          "title": "Overwegingen met betrekking tot VirtualMD.app en HIPAA (herhaling)",
+          "content": "Zoals vermeld in de Disclaimers, is de algemene VirtualMD.app-service NIET HIPAA-compatibel voor gebruiksscenario's van Covered Entities/Business Associates met PHI zonder een specifieke BAA. Hoewel we sterke beveiliging implementeren, werkt onze algemene service volgens standaard zakelijke beveiligingspraktijken, niet volgens de specifieke vereisten van de HIPAA-beveiligingsregel voor PHI die wordt beheerd door Covered Entities.\n\nGebruikers die strikte HIPAA-naleving vereisen voor PHI die zij beheren, mogen ons algemene platform niet voor dergelijke doeleinden gebruiken zonder een BAA. Gebruikers mogen geen informatie invoeren die herleidbaar is tot individuele patiënten in een context die HIPAA schendt, zonder expliciete, geïnformeerde toestemming waarin de niet-HIPAA-conforme status van het platform voor dat gebruik wordt erkend."
+        },
+        "section7": {
+          "title": "Gegevensgebruik door externe AI Engine-leveranciers",
+          "content": "VirtualMD integreert met toonaangevende aanbieders van AI-modellen (bijv. OpenAI, Anthropic, Google).\n\nVirtualMD.app:\nWe gebruiken alleen geanonimiseerde, geaggregeerde gegevens voor interne systeemverbetering.\n\nExterne aanbieders van AI API's:\nGrote aanbieders die via API's worden benaderd (zoals OpenAI en Anthropic) vermelden doorgaans in hun beleid dat gegevens die via API's worden ingediend NIET worden gebruikt om hun algemene basismodellen te trainen. We configureren ons gebruik van deze services om deze privacybeschermende opties te volgen. Raadpleeg hun specifieke beleid voor meer informatie.\n\nOverige wettelijke bepalingen\nWijzigingen in deze voorwaarden en dit beleid\nVirtualMD behoudt zich het recht voor om, naar eigen goeddunken, deze voorwaarden en het opgenomen privacybeleid te allen tijde te wijzigen of te vervangen. Indien een wijziging materieel is, zullen we u ten minste 30 dagen vóór de inwerkingtreding van de nieuwe voorwaarden op de hoogte stellen. Deze kennisgeving kan per e-mail worden verzonden naar het adres dat aan uw account is gekoppeld of door een bericht op de Service te plaatsen.\n\nWat een materiële wijziging is, wordt naar eigen goeddunken bepaald.\n\nDoor onze Service te blijven gebruiken nadat eventuele herzieningen van kracht zijn geworden, gaat u ermee akkoord gebonden te zijn aan de herziene voorwaarden. Als u niet akkoord gaat met de nieuwe voorwaarden, bent u niet langer bevoegd om de Service te gebruiken en dient u het gebruik ervan onmiddellijk te staken.\n\nHet is uw verantwoordelijkheid om deze Voorwaarden regelmatig te controleren op wijzigingen.\n\nBeëindiging\nU kunt uw account beëindigen en het gebruik van de Service op elk moment staken door de instructies in de Service te volgen of contact met ons op te nemen.\n\nVirtualMD kan, naar eigen goeddunken, uw toegang tot de Service (geheel of gedeeltelijk) opschorten of beëindigen, met of zonder kennisgeving, om welke reden dan ook, inclusief, maar niet beperkt tot, schending van deze Voorwaarden. Redenen voor beëindiging kunnen zijn, maar zijn niet beperkt tot, langdurige inactiviteit, verzoeken van wetshandhavingsinstanties of andere overheidsinstanties, stopzetting of materiële wijziging van de Service, of onverwachte technische of beveiligingsproblemen.\n\nNa beëindiging vervalt uw recht om de Service te gebruiken onmiddellijk. Alle bepalingen van de Voorwaarden die naar hun aard na beëindiging van kracht zouden moeten blijven, blijven na beëindiging van kracht, inclusief, maar niet beperkt tot, eigendomsbepalingen, garantiedisclaimers, vrijwaring en aansprakelijkheidsbeperkingen.\n\nWij zijn niet aansprakelijk jegens u of een derde partij voor de beëindiging van uw toegang tot de Dienst.\n\nToepasselijk recht en geschillenbeslechting\nDeze Voorwaarden en uw gebruik van de Dienst worden beheerst door en geïnterpreteerd in overeenstemming met de wetten van de staat Massachusetts, Verenigde Staten van Amerika, zonder rekening te houden met de beginselen van internationaal privaatrecht.\n\nU gaat ermee akkoord dat alle rechtsvorderingen of procedures die voortvloeien uit of verband houden met deze Voorwaarden of de Dienst uitsluitend worden voorgelegd aan de federale of staatsrechtbanken in Suffolk County, Massachusetts, VS. U stemt hierbij in met de exclusieve jurisdictie en bevoegdheid van dergelijke rechtbanken en doet afstand van elk bezwaar met betrekking tot een ongeschikt forum.\n\nVirtualMD kan, naar eigen goeddunken, van u verlangen dat u geschillen die voortvloeien uit het gebruik van deze Voorwaarden of de Dienst, met inbegrip van geschillen die voortvloeien uit of betrekking hebben op de interpretatie, schending, ongeldigheid, niet-nakoming of beëindiging ervan, voorlegt aan definitieve en bindende arbitrage volgens de Arbitrageregels van de American Arbitration Association, met toepassing van de wetgeving van Massachusetts.\n\nContactgegevens\nAls u vragen hebt over deze Voorwaarden of het Privacybeleid, kunt u contact met ons opnemen via: legal@virtualmd.app of via onze Contactpagina.\n\nOverige\nVolledige Overeenkomst\nDeze Voorwaarden en ons Privacybeleid vormen de enige en volledige overeenkomst tussen u en VirtualMD Technologies, LLC met betrekking tot de Service en vervangen alle eerdere en gelijktijdige afspraken, overeenkomsten, verklaringen en garanties, zowel schriftelijk als mondeling, met betrekking tot de Service.\n\nScheidbaarheid\nIndien een bepaling van deze Voorwaarden door een rechtbank of andere bevoegde rechtbank om welke reden dan ook ongeldig, onwettig of niet-afdwingbaar wordt verklaard, zal deze bepaling worden geëlimineerd of tot het minimum worden beperkt, zodat de overige bepalingen van de Voorwaarden volledig van kracht blijven.\n\nAfstandsverklaring\nEen afstandsverklaring door VirtualMD van enige bepaling of voorwaarde zoals uiteengezet in deze Voorwaarden, wordt niet beschouwd als een verdere of voortdurende afstandsverklaring van die bepaling of voorwaarde, of een afstandsverklaring van enige andere bepaling of voorwaarde. Het nalaten van VirtualMD om een recht of bepaling onder deze Voorwaarden te doen gelden, vormt geen afstandsverklaring van dat recht of die bepaling.\n\nOverdracht\nDeze Voorwaarden, en alle rechten en licenties die hierin worden verleend, mogen niet door u worden overgedragen of toegewezen, maar kunnen door VirtualMD zonder beperking worden toegewezen.\n\nKoppen\nDe sectiekoppen die hierin worden gebruikt, dienen uitsluitend ter vergemakkelijking en hebben geen juridische betekenis.\n\nOvermacht\nVirtualMD is niet aansprakelijk voor het niet nakomen van haar verplichtingen uit hoofde van deze Voorwaarden indien een dergelijke tekortkoming het gevolg is van een oorzaak die buiten de redelijke controle van VirtualMD ligt, inclusief, maar niet beperkt tot, mechanische, elektronische of communicatiestoringen of -degradatie.\n\nLaatst bijgewerkt: 12 mei 2025\n\nNeem contact met ons op\ninfo@virtualmd.app"
+        }
+      }
+    }
+  },
+  "dataPrivacyWhitepaper": {
+    "sections": {
+      "hero": "Invoering",
+      "privacyPledge": "Onze privacybelofte",
+      "securityLevels": "Gegevensbeveiliging begrijpen",
+      "hipaaDeepDive": "HIPAA uitgelegd",
+      "VirtualMDSecurity": "Beveiligingspraktijken voor VirtualMD.app",
+      "hipaaConsiderations": "VirtualMD.app en HIPAA",
+      "userResponsibility": "Gebruikersverantwoordelijkheid en ethisch gebruik",
+      "privacyScenarios": "Praktische privacyscenario's en geavanceerde overwegingen",
+      "conclusion": "Conclusie en belangrijkste conclusies"
+    },
+    "hero": {
+      "title": "VirtualMD.app: Gegevensprivacy en u",
+      "subtitle": "Inzicht in onze toewijding aan de beveiliging van uw gegevens en onze aanpak van normen voor gezondheidszorg-informatie, waaronder HIPAA."
+    },
+    "privacyPledge": {
+      "title": "1. De belofte van VirtualMD.app inzake gegevensbescherming",
+      "intro": "Bij VirtualMD.app staan de privacy en veiligheid van uw persoonlijke gegevens voorop. We doen er alles aan om de vertrouwelijkheid en integriteit van de gegevens die u ons toevertrouwt te waarborgen. Ons platform is ontworpen met robuuste beveiligingsmaatregelen om uw gegevens te beschermen tegen ongeautoriseerde toegang, openbaarmaking, wijziging en vernietiging.",
+      "secureInfo": {
+        "title": "Wij streven ernaar om uw gegevens veilig te houden.",
+        "description": "We maken gebruik van industriestandaard encryptieprotocollen voor gegevens die worden verzonden en opgeslagen, in combinatie met beveiligingsarchitecturen met meerdere lagen."
+      },
+      "noPersonalUse": {
+        "title": "Wij gebruiken uw gegevens niet op een persoonlijk identificeerbare manier voor externe doeleinden zonder uw uitdrukkelijke toestemming.",
+        "description": "Uw directe interacties en persoonlijke gegevens zijn alleen van u."
+      },
+      "neverSell": {
+        "title": "Wij zullen uw persoonlijke gegevens nooit aan derden verkopen.",
+        "description": "Uw vertrouwen is van onschatbare waarde en wij garanderen dit door ervoor te zorgen dat uw gegevens niet als handelswaar worden beschouwd."
+      },
+      "anonymizedData": {
+        "title": "Wij gebruiken uw geanonimiseerde gegevens om ons systeem te verbeteren.",
+        "description": "Om de nauwkeurigheid, effectiviteit en veiligheid van onze AI-modellen en platformfuncties te verbeteren, maken we gebruik van data die strikt geanonimiseerd en geaggregeerd is. Dit betekent dat alle persoonlijk identificeerbare informatie (PII) wordt verwijderd en dat data in een collectieve vorm wordt gebruikt die geen identificatie van individuele gebruikers mogelijk maakt. Dit proces is cruciaal voor continu leren en het verbeteren van de diensten die we aan alle gebruikers leveren."
+      }
+    },
+    "securityLevels": {
+      "title": "2. Gegevensbeveiligingsniveaus en HIPAA begrijpen",
+      "accountSecurity": {
+        "title": "Niveaus van accountbeveiliging",
+        "description": "Digitale beveiliging is afhankelijk van authenticatielagen om de identiteit van een gebruiker te verifiëren. Deze worden vaak gecategoriseerd als factoren:",
+        "sfaTitle": "Enkelvoudige authenticatie (1FA):",
+        "sfaDescription": "Vereist slechts één categorie inloggegevens, meestal een wachtwoord. Hoewel dit vaak voorkomt, is dit de minst veilige methode, omdat wachtwoorden gestolen, geraden of gekraakt kunnen worden.",
+        "tfaTitle": "Twee-factorauthenticatie (2FA):",
+        "tfaDescription": "Vereist twee verschillende soorten inloggegevens uit twee verschillende categorieën (bijvoorbeeld iets dat u weet, zoals een wachtwoord, plus iets dat u heeft, zoals een eenmalige code die naar uw telefoon is verzonden). Dit verbetert de beveiliging aanzienlijk.",
+        "mfaTitle": "Drie-factorauthenticatie (3FA) / Multi-factorauthenticatie (MFA):",
+        "mfaDescription": "Vereist drie of meer verschillende soorten inloggegevens. Bijvoorbeeld een wachtwoord (kennen), een eenmalige code via sms (hebben) en een biometrische scan zoals een vingerafdruk (zijn). Dit biedt een zeer hoog beveiligingsniveau."
+      },
+      "hipaaHistory": {
+        "title": "Een korte geschiedenis en overzicht van HIPAA",
+        "p1": "De Health Insurance Portability and Accountability Act van 1996 (HIPAA) is een federale wet in de Verenigde Staten die is ontworpen om te voorkomen dat gevoelige medische informatie van patiënten openbaar wordt gemaakt zonder hun toestemming of medeweten. De wet is ook bedoeld om de efficiëntie en effectiviteit van de gezondheidszorg te verbeteren.",
+        "p2Title": "Belangrijkste HIPAA-regels:",
+        "privacyRuleTitle": "Privacyregel:",
+        "privacyRuleDescription": "Stelt nationale normen vast voor de bescherming van individueel identificeerbare gezondheidsinformatie (Protected Health Information - PHI). Het behandelt het gebruik en de openbaarmaking van PHI door 'gedekte entiteiten'.",
+        "securityRuleTitle": "Beveiligingsregel:",
+        "securityRuleDescription": "Stelt nationale normen vast voor de bescherming van de vertrouwelijkheid, integriteit en beschikbaarheid van elektronische PHI (ePHI). Het vereist dat betrokken entiteiten administratieve, fysieke en technische beveiliging implementeren.",
+        "breachRuleTitle": "Regel voor het melden van inbreuken:",
+        "breachRuleDescription": "Vereist dat betrokken entiteiten en hun zakelijke partners een melding doen na een inbreuk op onbeveiligde PHI.",
+        "coveredEntitiesTitle": "Wie zijn de gedekte entiteiten?",
+        "coveredEntitiesDescription": "De HIPAA-regels zijn over het algemeen van toepassing op zorgverzekeringsplannen, clearingscentra voor de gezondheidszorg en zorgverleners die bepaalde transacties in de gezondheidszorg elektronisch uitvoeren (bijvoorbeeld artsen, klinieken, ziekenhuizen, apotheken, verzekeringsmaatschappijen).",
+        "hipaaMeaningTitle": "Wat betekent HIPAA voor artsen en patiënten?",
+        "hipaaMeaningDescription": "Voor artsen en andere zorgverleners schrijft HIPAA strikte protocollen voor voor het omgaan met patiëntgegevens, zodat deze alleen worden gebruikt voor toegestane doeleinden (behandeling, betaling, zorgactiviteiten) of met toestemming van de patiënt. Patiënten krijgen via HIPAA rechten over hun medische gegevens, waaronder het recht om hun medisch dossier in te zien en er een kopie van te verkrijgen, en om correcties aan te vragen."
+      }
+    },
+    "VirtualMDSecurity": {
+      "title": "3. Beveiligingspraktijken van VirtualMD.app",
+      "intro": "VirtualMD.app maakt gebruik van een meerlaagse beveiligingsstrategie die is ontworpen om uw account en persoonlijke gegevens te beschermen, geïnspireerd op best practices in gegevensbeveiliging. Hoewel we in de context van HIPAA anders te werk gaan dan een traditionele zorgverlener, bieden we robuuste beveiligingsfuncties voor alle gebruikers:",
+      "passwordEncryptionTitle": "Wachtwoordversleuteling:",
+      "passwordEncryptionDescription": "Alle gebruikerswachtwoorden worden versleuteld met behulp van industriestandaard hashing-algoritmen. Dit betekent dat we uw wachtwoord in platte tekst niet opslaan, wat een essentiële beveiligingslaag biedt voor uw accountgegevens.",
+      "twoFactorAuthTitle": "Twee-factorauthenticatie (2FA):",
+      "twoFactorAuthDescription": "We verplichten 2FA voor alle accounts. Dit vereist dat u uw identiteit verifieert met een tweede factor (meestal een code die naar uw geregistreerde e-mailadres of telefoonnummer wordt verzonden) naast uw wachtwoord. Dit verkleint het risico op ongeautoriseerde toegang tot uw account aanzienlijk.",
+      "threeFactorAuthTitle": "Optie voor driefactorauthenticatie (3FA):",
+      "threeFactorAuthDescription": "Voor extra beveiliging biedt VirtualMD.app een optionele driefactorauthenticatie. Indien ingeschakeld, vereist toegang tot uw account uw wachtwoord, een code die naar uw geregistreerde e-mailadres wordt verzonden, EN een code die per sms naar uw geverifieerde mobiele telefoonnummer wordt verzonden. Dit creëert een sterke barrière tegen ongeautoriseerde pogingen om toegang te krijgen tot uw medische gegevens die op ons platform zijn opgeslagen.",
+      "dataEncryptionTitle": "Gegevensversleuteling:",
+      "dataEncryptionDescription": "Informatie die is opgeslagen in uw VirtualMD.app-account, inclusief conversatiegegevens, wordt versleuteld opgeslagen. Gegevens die tussen uw apparaat en onze servers worden verzonden, worden tijdens de overdracht versleuteld met behulp van TLS/SSL-protocollen.",
+      "permanentDeletionTitle": "Permanente gegevensverwijdering:",
+      "permanentDeletionDescription": "Wij geven u controle over uw gegevens. U kunt individuele gesprekken of uw volledige account permanent verwijderen. Eenmaal verwijderd, is deze informatie niet meer terug te halen uit onze primaire systemen, conform de principes van dataminimalisatie en gebruikerscontrole.",
+      "outro": "Deze maatregelen zorgen voor een niveau van accountbeveiliging dat vergelijkbaar is met dat van grote onlinediensten die gevoelige persoonlijke gegevens verwerken. Ze zorgen ervoor dat uw VirtualMD.app-account en de informatie daarin privé en onder uw controle blijven."
+    },
+    "hipaaConsiderations": {
+      "title": "4. VirtualMD.app & HIPAA-overwegingen",
+      "p1": "Het is essentieel voor onze gebruikers om te begrijpen hoe VirtualMD.app samenwerkt met de Health Insurance Portability and Accountability Act (HIPAA). We hechten veel waarde aan de veiligheid en privacy van de informatie die u deelt. Ons platform maakt gebruik van robuuste beveiligingsmaatregelen, zoals beschreven in de sectie 'Beveiligingsmaatregelen van VirtualMD.app', waaronder sterke encryptie voor data in rust en tijdens verzending, verplichte tweefactorauthenticatie (2FA) en optionele driefactorauthenticatie (3FA).",
+      "p2": "Het is echter cruciaal om te begrijpen dat VirtualMD.app, met zijn huidige algemene, consumentgerichte service, NIET bedoeld is voor use cases die formele HIPAA-naleving vereisen voor de directe invoer, opslag of verwerking van beschermde gezondheidsinformatie (PHI) door gebruikers die optreden als HIPAA-gedekte entiteiten of hun zakelijke partners. Gebruikers die strikte HIPAA-naleving vereisen voor de PHI die zij beheren, mogen ons algemene platform niet voor dergelijke doeleinden gebruiken, tenzij er een specifieke Business Associate Agreement (BAA) is afgesloten met VirtualMD.app voor die specifieke use case. Voor de algemene service mogen gebruikers geen informatie invoeren die herleidbaar is tot een individuele patiënt in een context die HIPAA zou schenden, zonder de expliciete, geïnformeerde toestemming van die patiënt waarin het gebruik van dit platform wordt erkend.",
+      "approachTitle": "Onze aanpak: geavanceerde AI-personalisatie in evenwicht brengen met gegevensprivacy",
+      "p3": "Om u het meest geavanceerde, contextbewuste en gepersonaliseerde gezondheidsadvies te bieden dat onze AI kan bieden, maakt VirtualMD.app gebruik van een geavanceerd systeem waarmee onze AI-gezondheidspersona's kunnen leren van uw interacties en relevante context met elkaar kunnen delen. Uw AI-gezondheidsexpert is bijvoorbeeld ontworpen om context te behouden tussen sessies en met verschillende gespecialiseerde AI's, voor een meer samenhangende en intelligente ervaring.",
+      "p4": "Deze onderling verbonden AI-gestuurde aanpak betekent dat verschillende onderliggende AI-engines (die mogelijk worden gehost door aanbieders zoals OpenAI, Anthropic, Google en andere) segmenten van uw geanonimiseerde of gepseudonimiseerde conversatiegegevens of elementen van uw profielinformatie kunnen verwerken als onderdeel van de levering van deze service. Hoewel we ons gebruik van deze AI API's van derden zo configureren dat ze uw gegevens niet kunnen gebruiken om hun algemene modellen te trainen (zoals verder beschreven in onze sectie 'Datagebruik door externe AI-engineleveranciers'), verschilt de aard van dit geavanceerde, gedistribueerde AI-model van de traditionele, vaak geïsoleerde gegevensverwerking binnen de interne systemen van een zorgverlener die zijn gebouwd voor strikte HIPAA-naleving met betrekking tot PHI.",
+      "p5": "Wij geloven dat deze aanpak ons in staat stelt om ongeëvenaarde AI-gestuurde gezondheidsinformatie en -ondersteuning te bieden. Dit vereist echter een helder begrip: <strong style={{fontWeight: 'bold'}}>deze geavanceerde personalisatie- en inter-AI-leeromgeving, in zijn huidige algemene vorm, vereist een gegevensverwerkingsmodel dat afwijkt van de specifieke administratieve, fysieke en technische waarborgen en operationele procedures die door HIPAA worden voorgeschreven voor betrokken entiteiten die PHI beheren.</strong>",
+      "p6": "We werken onvermoeibaar aan het continu verbeteren van onze gegevensbeveiliging en verkennen mogelijkheden voor een betere afstemming op zorgspecifieke gegevensstandaarden voor verschillende serviceniveaus of -aanbiedingen. Door de algemene service van VirtualMD.app te gebruiken, erkent en accepteert u deze huidige balans: het benutten van geavanceerde, onderling verbonden AI voor superieure medische inzichten vereist een ander gegevensverwerkingsmodel dan dat van een traditionele zorgverlener die onder HIPAA werkt.",
+      "informedDiscussionsTitle": "Het faciliteren van geïnformeerde discussies",
+      "p7": "Als een gebruiker, met name een zorgprofessional, informatie wil bespreken die mogelijk betrekking heeft op een specifieke persoon (een patiënt), is het de <strong style={{fontWeight: 'bold'}}>enige verantwoordelijkheid</strong> van de gebruiker om ervoor te zorgen dat hij/zij alle noodzakelijke en wettelijk vereiste toestemmingen van die persoon heeft verkregen. In die toestemming moet duidelijk worden vermeld dat de persoon begrijpt dat de informatie wordt besproken op een platform dat weliswaar veilig is, maar niet onder een formele HIPAA Business Associate Agreement met de gebruiker voor die specifieke interactie valt en dat de gegevensverwerking op het platform verschilt van traditionele HIPAA-conforme systemen.",
+      "p8": "Gebruikers die informatie die op VirtualMD.app wordt besproken, willen overbrengen naar een formeel, HIPAA-conform systeem (bijvoorbeeld het elektronisch medisch dossier van hun arts), zijn er zelf verantwoordelijk voor dat dit op een veilige manier gebeurt, in overeenstemming met alle toepasselijke regelgeving en de vastgestelde procedures van hun zorgverlener.",
+      "alignmentTitle": "Waar we ons aansluiten bij de HIPAA-principes (Beyond General Security)",
+      "userControlTitle": "Gebruikerscontrole en gegevensverwijdering:",
+      "userControlDescription": "Wij bieden u de tools waarmee u toegang krijgt tot uw gesprekken en accountgegevens en deze permanent kunt verwijderen. Dit doen wij in overeenstemming met de principes van gegevensminimalisatie en individuele rechten die vaak worden benadrukt in privacyregelgeving.",
+      "anonymizationTitle": "Anonimisering voor systeemverbetering:",
+      "anonymizationDescription": "Ons gebruik van geanonimiseerde, samengevoegde gegevens voor systeemverbetering is een praktijk die, indien goed uitgevoerd, een standaardbenadering is voor het verbeteren van AI-diensten en tegelijkertijd de privacy van individuen beschermt."
+    },
+    "userResponsibility": {
+      "title": "5. Gebruikersverantwoordelijkheid en ethisch gebruik",
+      "intro": "VirtualMD.app biedt krachtige AI-tools voor toegang tot medische informatie en het voeren van gezondheidsgerelateerde gesprekken. Hoewel we streven naar nauwkeurigheid en veiligheid, is verantwoord gebruik van ons platform een gedeelde verantwoordelijkheid. Door VirtualMD.app te gebruiken, gaat u ermee akkoord zich te houden aan ethische richtlijnen en de mogelijkheden en beperkingen van het platform te begrijpen.",
+      "agreementTitle": "Uw overeenkomst voor ethische interactie:",
+      "noReviewTitle": "Geen beoordeling van privégesprekken:",
+      "noReviewDescription": "Om uw privacy te beschermen, controleert het personeel van VirtualMD.app uw privégesprekken met onze AI-persona's niet routinematig. Dit onderstreept het belang van verantwoord gebruik van het platform.",
+      "prohibitedContentTitle": "Verboden inhoud - Schade aan uzelf of anderen:",
+      "prohibitedContentDescription": "U stemt ermee in VirtualMD.app niet te gebruiken om informatie of advies te zoeken over hoe u uzelf of anderen schade kunt toebrengen. Ons platform is niet ontworpen voor crisisinterventie in dergelijke situaties. Als u gedachten heeft over zelfbeschadiging of het toebrengen van schade aan anderen, neem dan onmiddellijk contact op met de hulpdiensten of een crisislijn.",
+      "consultPractitionerTitle": "Raadpleeg uw zorgverlener:",
+      "consultPractitionerDescription": "VirtualMD.app is een informatief hulpmiddel en GEEN vervanging voor professioneel medisch advies, diagnose of behandeling door een gekwalificeerde zorgverlener. Raadpleeg altijd uw arts of andere gekwalificeerde zorgverlener bij ernstige medische aandoeningen of voordat u beslissingen neemt met betrekking tot uw gezondheid.",
+      "emergencySituationsTitle": "Noodsituaties:",
+      "emergencySituationsDescription": "VirtualMD.app kan NIET namens u handelen in geval van nood. Als het systeem bijvoorbeeld op basis van de door u verstrekte informatie aangeeft dat u 112 moet bellen of naar de eerste hulp moet gaan, bent u als enige verantwoordelijk voor het uitvoeren van die actie. Ons platform heeft niet de mogelijkheid om hulpdiensten in te schakelen.",
+      "outro": "Als u zich aan deze richtlijnen houdt, zorgen we voor een veilige en productieve omgeving voor alle gebruikers. Bovendien dragen we bij aan het behoud van de integriteit van het informatiezoekproces."
+    },
+    "privacyScenarios": {
+      "title": "6. Praktische privacyscenario's en geavanceerde overwegingen",
+      "scenario1Title": "Scenario 1: Bespreking van gevoelige gezondheidskwesties",
+      "scenario1Question": "U vraagt: \"Ik wil het AI-team van VirtualMD.app graag iets vragen over een ongemakkelijk en gênant gezondheidsprobleem. Wat beschermt mij?\"",
+      "scenario1Answer": "Ons antwoord: We begrijpen dat gesprekken over gezondheid heel persoonlijk kunnen zijn. Verschillende lagen beschermen u:",
+      "confidentialConvosTitle": "Vertrouwelijke gesprekken:",
+      "confidentialConvosDescription": "Uw gesprekken met onze AI-persona's zijn ontworpen om privé te blijven. Zoals vermeld in onze Privacy Pledge, controleert het personeel van VirtualMD.app de inhoud van uw privégesprekken niet routinematig.",
+      "dataEncryptionTitle": "Gegevensversleuteling:",
+      "dataEncryptionDescription": "Alle conversatiegegevens worden versleuteld, zowel tijdens de overdracht (tussen uw apparaat en onze servers met behulp van TLS/SSL) als in rust (wanneer ze in onze databases worden opgeslagen).",
+      "accountSecurityTitle": "Accountbeveiliging:",
+      "accountSecurityDescription": "Uw account wordt beschermd door uw wachtwoord en verplichte twee-factor-authenticatie (2FA), met een optie voor drie-factor-authenticatie (3FA), waardoor ongeautoriseerde toegang tot uw gespreksgeschiedenis uiterst moeilijk wordt.",
+      "deletionControlTitle": "Controle op het verwijderen van gegevens:",
+      "deletionControlDescription": "U hebt te allen tijde de mogelijkheid om een specifiek gesprek of uw gehele account permanent te verwijderen, op manieren die zodanig zijn ontworpen dat ze niet door onze primaire systemen kunnen worden hersteld.",
+      "anonymizationTitle": "Anonimisering voor verbetering:",
+      "anonymizationDescription": "Alleen geanonimiseerde en geaggregeerde gegevens (ontdaan van alle persoonlijke identificatiegegevens) worden gebruikt om onze AI-modellen te verbeteren. Uw persoonlijke, identificeerbare conversatie-inhoud wordt niet voor dit doel gebruikt zonder deze anonimisering.",
+      "scenario1Outro": "Hoewel deze maatregelen robuuste bescherming bieden, moet u er altijd rekening mee houden dat geen enkel systeem ondoordringbaar is. We moedigen gebruikers aan om voorzichtig te zijn met de informatie die ze delen, net zoals ze dat zouden doen in elke digitale communicatie.",
+      "scenario2Title": "Scenario 2: Profielinformatie opslaan (bijv. medicijnen)",
+      "scenario2Question": "U vraagt: \"Ik gebruik bepaalde medicijnen en wil deze in mijn profiel opslaan, zodat AI-gezondheidsexpert Carol context heeft voor nieuwe gesprekken. Hoe worden mijn gegevens beschermd, zodat alleen de AI's en geen mensen er toegang toe hebben?\"",
+      "scenario2Answer": "Ons antwoord: Het opslaan van medicijninformatie in uw profiel kan de contextualiteit van AI-reacties verbeteren. Zo worden die gegevens beschermd:",
+      "profileSecurityTitle": "Beveiliging van profielgegevens:",
+      "profileSecurityDescription": "Net als uw gespreksgegevens worden uw profielgegevens, waaronder medicijnlijsten, beschermd door dezelfde accountbeveiliging (wachtwoord, 2FA/3FA) en encryptiemaatregelen (in rust en tijdens verzending).",
+      "accessControlsTitle": "Strikte toegangscontroles en -beleid:",
+      "accessControlsDescription": "Toegang tot gebruikersdatabasegegevens door VirtualMD.app-personeel is strikt gecontroleerd en beperkt tot geautoriseerde personen voor specifieke operationele of ondersteunende behoeften (bijvoorbeeld hulp bij een accountprobleem dat u meldt). De toegang wordt beheerd door interne privacybeleid en logging. Routinematig bekijken van gebruikersprofielgegevens is verboden.",
+      "aiAccessTitle": "AI-toegang voor context:",
+      "aiAccessDescription": "De AI-persona's, zoals AI Health Expert Carol, krijgen programmatisch toegang tot relevante delen van je profiel (zoals medicijnlijsten, als je die hebt verstrekt) om contextuele antwoorden te geven tijdens je gesprekken. Deze toegang maakt deel uit van de operationele logica van de AI om je beter van dienst te zijn.",
+      "techNoteTitle": "Technische opmerking: encryptie van gespreksgegevens",
+      "techNoteQuestion": "U vroeg: \"Is het mogelijk om berichten zo te versleutelen dat zelfs de mensen die het bedrijf runnen ze niet kunnen lezen (zoals wachtwoorden) zonder expliciete toestemming?\"",
+      "techNoteP1": "Dit verwijst naar concepten zoals end-to-end encryptie (E2EE), waarbij alleen de eindgebruiker de uiteindelijke decryptiesleutel bezit. VirtualMD.app maakt gebruik van robuuste <strong style={{fontWeight: 'bold'}}>encryptie in rust</strong> voor alle gevoelige gegevens, inclusief uw gespreksgeschiedenis en profielinformatie, met behulp van sterke, industriestandaard algoritmen. Dit betekent dat de gegevens die in onze databases zijn opgeslagen, versleuteld zijn.",
+      "techNoteP2": "Hoewel we momenteel geen gebruikerspecifiek sleutel-E2EE-systeem voor conversatiegegevens implementeren dat het technisch onmogelijk zou maken voor geautoriseerde systeembeheerders om deze te ontsleutelen (vergelijkbaar met hoe veel cloudservices werken), is de toegang tot de onderliggende versleutelde gegevens zeer beperkt, gelogd en onderworpen aan strikt intern beveiligings- en privacybeleid. Ons personeel heeft geen toegang tot de inhoud van uw privéconversaties, behalve onder zeer specifieke en gecontroleerde omstandigheden, zoals het beantwoorden van een direct ondersteuningsverzoek van u met betrekking tot een specifiek gesprek of zoals vereist door de wet. Deze aanpak combineert sterke beveiliging met operationele vereisten voor het onderhoud en de ondersteuning van het platform.",
+      "techNoteP3": "Het wachtwoord voor uw account wordt echter anders behandeld: het wordt gehasht en gesald. Dit betekent dat wij uw werkelijke wachtwoord nooit opslaan en niet kunnen achterhalen.",
+      "thirdPartyDataTitle": "Gegevensgebruik door externe AI Engine-leveranciers",
+      "thirdPartyDataQuestion": "U vroeg ook: \"Kunnen de API's voor de AI-engines die wij gebruiken worden beschermd tegen gebruik voor training door (a) VirtualMD.app, (b) OpenAI, (c) Anthropic, enz.? Of zijn ze allemaal standaard a priori beschermd?\"",
+      "thirdPartyDataAnswer": "Dit is een cruciaal aspect van onze gegevensverwerking:",
+      "VirtualMDTrainingTitle": "(a) VirtualMD.app:",
+      "VirtualMDTrainingDescription": "Zoals vermeld in onze Privacy Pledge, gebruiken we geanonimiseerde en geaggregeerde gegevens alleen voor de interne verbetering en training van onze eigen systemen en AI-coördinatielogica. Uw persoonlijk identificeerbare gegevens of onbewerkte conversatiecontent worden niet voor dit doel gebruikt zonder deze anonimisering.",
+      "thirdPartyTrainingTitle": "(b, c, enz.) Externe AI API-providers (bijv. OpenAI, Anthropic):",
+      "thirdPartyTrainingDescription": "VirtualMD.app selecteert en integreert zorgvuldig met toonaangevende aanbieders van AI-modellen. Voor diensten die toegankelijk zijn via hun API's (Application Programming Interfaces) hanteren grote aanbieders zoals OpenAI en Anthropic een datagebruiksbeleid dat doorgaans stelt dat gegevens die via hun API's worden ingediend, NIET door hen worden gebruikt om hun algemene basismodellen te trainen. We configureren ons gebruik van deze diensten zo dat deze aansluiten bij deze privacybeschermende opties. We raden u aan om ook het datagebruiksbeleid van deze onderliggende AI-aanbieders te bekijken als u specifieke vragen hebt.",
+      "outro": "Wij streven ernaar dat uw interacties niet alleen inzichtelijk zijn, maar ook met respect voor uw privacy worden afgehandeld, op ons platform en met onze technologiepartners."
+    },
+    "conclusion": {
+      "title": "7. Conclusie en belangrijkste conclusies",
+      "intro": "VirtualMD.app streeft ernaar gebruikers te voorzien van toegankelijke en begrijpelijke gezondheidsinformatie via geavanceerde AI. We geven prioriteit aan de beveiliging van uw persoonsgegevens met robuuste maatregelen, waaronder multifactorauthenticatie en encryptie. Hoewel we streven naar de hoogste normen voor gegevensbescherming, is ons algemene platform geen vervanging voor diensten die formeel HIPAA-compatibel zijn voor directe patiëntenzorg door specifieke zorgverleners. Gebruikers dienen deze verschillen te begrijpen en VirtualMD.app verantwoord en ethisch te gebruiken.",
+      "recapTitle": "Belangrijke punten om te onthouden:",
+      "privacyPriorityTitle": "Uw privacy is onze prioriteit:",
+      "privacyPriorityDescription": "Wij beveiligen uw gegevens en verkopen uw persoonlijke gegevens niet.",
+      "anonymizedDataTitle": "Geanonimiseerde gegevens voor verbetering:",
+      "anonymizedDataDescription": "Wij gebruiken niet-identificeerbare gegevens om onze AI- en platformdiensten te verbeteren.",
+      "accountSecurityTitle": "Sterke accountbeveiliging:",
+      "accountSecurityDescription": "Wij bieden 2FA (verplicht) en 3FA (optioneel) voor accountbeveiliging, vergelijkbaar met toonaangevende onlinediensten.",
+      "dataControlTitle": "Gegevensbeheer:",
+      "dataControlDescription": "U kunt gesprekken en uw account permanent verwijderen.",
+      "hipaaConsiderationsTitle": "HIPAA-overwegingen:",
+      "hipaaConsiderationsDescription": "De algemene dienstverlening van VirtualMD.app valt niet onder de HIPAA-dekking. We beschermen gegevens, maar wijken af van de formele HIPAA-naleving voor directe patiëntenzorg met specifieke zorgverleners.",
+      "ethicalUseTitle": "Ethisch gebruik vereist:",
+      "ethicalUseDescription": "Niet gebruiken voor zelfbeschadiging of het toebrengen van schade aan anderen. Raadpleeg bij ernstige aandoeningen altijd een arts. We kunnen geen hulpdiensten sturen.",
+      "outro": "We raden u aan VirtualMD.app te gebruiken als een krachtig hulpmiddel voor leren en verkennen, altijd in combinatie met begeleiding van gekwalificeerde zorgprofessionals. Uw begrip van dit beleid helpt ons een veilig, beveiligd en effectief platform voor iedereen te behouden."
+    }
+  },
+  "imagingAIExplainer": {
+    "title": "AI in gezondheidsfoto's begrijpen",
+    "subtitle": "Een eenvoudige gids over hoe computers gezondheidsexperts helpen om duidelijker te zien.",
+    "author": "Uitgelegd door: Ron Rubin, PhD (VirtualMD.app Technologies)",
+    "whatIsImaging": {
+      "title": "Wat zijn gezondheidsfoto's (beeldvorming)?",
+      "intro": "Denk aan medische beeldvorming als het maken van foto's in je lichaam. Gezondheidsexperts gebruiken speciale machines om deze foto's te maken, waardoor ze botten, organen, weefsels en bloedvaten kunnen zien zonder een operatie te hoeven uitvoeren. Een röntgenfoto is bijvoorbeeld uitstekend geschikt om botten te bekijken en een fractuur op te sporen, terwijl een CT-scan een gedetailleerdere dwarsdoorsnede van een orgaan zoals de hersenen oplevert.",
+      "typesIntro": "Veel voorkomende typen zijn:",
+      "types": {
+        "xrays": "Röntgenfoto's: Goed om dichte structuren zoals botten te zien.",
+        "ctScans": "<strong>CT-scans:</strong> Dit is een zeer gedetailleerde 3D-röntgenfoto waarop 'plakjes' van het lichaam te zien zijn.",
+        "mriScans": "<strong>MRI-scans:</strong> Hierbij worden krachtige magneten gebruikt om zeer duidelijke beelden te maken van zacht weefsel, zoals de hersenen, spieren en ligamenten.",
+        "ultrasound": "<strong>Echografie:</strong> Hierbij worden geluidsgolven gebruikt om organen te bekijken en, nog beter bekend, om de toestand van baby's tijdens de zwangerschap te controleren.",
+        "microscope": "<strong>Microscoopglaasjes:</strong> Kleine weefselmonsters worden onder een microscoop bekeken om ziekten op cellulair niveau te diagnosticeren (pathologie).",
+        "eyePhotos": "<strong>Oogfoto's:</strong> Speciale foto's van de binnenkant van het oog om aandoeningen zoals diabetische retinopathie op te sporen (oogheelkunde).",
+        "cameraScopes": "<strong>Camerapillen/scopen:</strong> Kleine camera's waarmee men in het spijsverteringsstelsel kan kijken (gastroenterologie)."
+      },
+      "outro": "Deze afbeeldingen zijn essentiële hulpmiddelen waarmee gezondheidsexperts ziekten kunnen diagnosticeren, kunnen controleren of een behandeling werkt of in een vroeg stadium mogelijke problemen kunnen opsporen."
+    },
+    "whatIsAI": {
+      "title": "Wat is kunstmatige intelligentie (AI)?",
+      "intro": "AI is in wezen de wetenschap die computers leert taken uit te voeren die normaal gesproken menselijke intelligentie vereisen, zoals leren van voorbeelden, problemen oplossen en beslissingen nemen. In de medische beeldvorming kunnen we AI zien als een superslimme assistent voor gezondheidsexperts.",
+      "process": "Het maakt gebruik van speciale computerprogramma's (algoritmen) die zijn getraind op duizenden, of zelfs miljoenen, medische beelden. Door deze enorme hoeveelheid data te analyseren, leert de AI subtiele patronen te herkennen – sommige daarvan zijn moeilijk te zien voor het menselijk oog, of patronen die wijzen op een grote kans op een bepaalde ziekte. Het basisproces is dat data (de beelden) in de AI worden ingevoerd, die vervolgens inzicht genereert, zoals het markeren van een verdacht gebied."
+    },
+    "howAIHelps": {
+      "title": "Hoe kan AI helpen met gezondheidsfoto's?",
+      "intro": "Ons wetenschappelijk onderzoek benadrukt verschillende belangrijke manieren waarop AI nu al het verschil maakt:",
+      "accuracy": {
+        "title": "Problemen nauwkeuriger vinden",
+        "description": "Soms kunnen de eerste tekenen van een ziekte ongelooflijk subtiel zijn en gemakkelijk over het hoofd worden gezien op een scan. AI kan fungeren als een waakzaam tweede paar ogen, die systematisch elk onderdeel van een beeld controleert en gebieden markeert die nadere beschouwing verdienen. Een AI kan bijvoorbeeld een cirkel tekenen rond een klein cluster cellen op een mammogram dat een vroege indicator van kanker kan zijn.",
+        "example": "<strong>Voorbeeld:</strong> Bij mammogrammen (röntgenfoto's van de borst) toonde een onderzoek aan dat AI 29% meer kankers opspoort zonder dat gezonde gebruikers onterecht werden gemarkeerd. Bij coloscopieën (het zoeken naar gezwellen, poliepen genaamd) hielp AI gezondheidsexperts aanzienlijk meer potentieel precancereuze poliepen op te sporen door ze in realtime te markeren op de videofeed."
+      },
+      "speed": {
+        "title": "Dingen versnellen",
+        "description": "Het lezen van medische beelden, vooral complexe beelden zoals een CT-scan van het hele lichaam, kost veel tijd en concentratie. AI kan dit proces aanzienlijk versnellen. Het kan gevallen vooraf sorteren, de meest urgente markeren voor onmiddellijke beoordeling, of routinematige screeningstaken uitvoeren om specialisten tijd te besparen.",
+        "example": "<strong>Voorbeeld:</strong> Een AI-systeem dat oogfoto's controleert op tekenen van diabetesschade (diabetische retinopathie) kan direct een resultaat opleveren in een eerstelijnskliniek. Dit betekent dat patiënten niet hoeven te wachten op een afspraak met een oogarts voor een screening, wat leidt tot snellere zorg voor meer mensen. In een ander grootschalig onderzoek hielp AI de tijd die radiologen besteedden aan het lezen van mammogrammen met bijna de helft te verkorten."
+      },
+      "consistency": {
+        "title": "Diagnoses consistenter maken",
+        "description": "Zelfs onder experts kunnen er kleine, subjectieve verschillen zijn in de interpretatie van een afbeelding. AI biedt keer op keer een gestandaardiseerde, objectieve analyse, wat deze variatie helpt verminderen.",
+        "example": "<strong>Voorbeeld:</strong> Bij het bekijken van weefselmonsters onder een microscoop (pathologie) kan het bepalen van de exacte \"graad\" van een tumor soms onduidelijk zijn. Een AI-systeem, getraind op gegevens die gevalideerd zijn door een panel van experts, kan een consistente graad leveren, waardoor de resultaten uniformer en betrouwbaarder zijn voor verschillende gezondheidsexperts en -instellingen."
+      }
+    },
+    "challenges": {
+      "title": "Is AI perfect?",
+      "intro": "Nee, en het is cruciaal om de beperkingen ervan te begrijpen. Hoewel AI krachtig is, zijn er belangrijke uitdagingen die moeten worden aangepakt:",
+      "bias": "<strong>Eerlijkheid en vooringenomenheid:</strong> Een AI is zo goed als de data waarmee hij getraind is. Als hij alleen getraind is met foto's van één groep mensen, werkt hij mogelijk minder goed voor anderen. Het is cruciaal om te zorgen voor diverse trainingsdata om vooringenomenheid te voorkomen.",
+      "uncommonCases": "<strong>Ongewone gevallen:</strong> AI blinkt uit in het herkennen van patronen die het al vaak is tegengekomen. Het kan moeite hebben met zeldzame ziekten of ongewone manifestaties waar het niet op is getraind.",
+      "teamwork": "<strong>Het belang van teamwork:</strong> De beste aanpak is samenwerking tussen mens en AI. AI is een hulpmiddel om gezondheidsexperts te *helpen* bij het uitvoeren van data-intensieve taken, maar het vervangt hun ervaring, empathie en vermogen om de gebruiker als geheel te begrijpen niet.",
+      "regulation": "<strong>Veiligheid en regelgeving:</strong> Net als elk nieuw gezondheidsapparaat hebben AI-hulpmiddelen strenge tests, validatie en voortdurende monitoring nodig om te garanderen dat ze veilig, effectief zijn en echte voordelen bieden aan gebruikers.",
+      "outro": "Onderzoekers en toezichthouders werken hard om deze uitdagingen aan te pakken. Het doel is om AI veilig en effectief in de gezondheidszorg te integreren om de patiëntresultaten te verbeteren."
+    },
+    "conclusion": {
+      "title": "In een notendop",
+      "text": "AI wordt een waardevolle partner in medische beeldvorming en helpt gezondheidsexperts ziekten eerder, sneller en betrouwbaarder op te sporen. Het is alsof we gezondheidsexperts een beter zicht en een onvermoeibare assistent bieden om complexe beelden te beoordelen, wat uiteindelijk leidt tot betere zorg voor gebruikers."
+    }
+  },
+  "mentalHealthWhitepaper": {
+    "title": "AI in de geestelijke gezondheidszorg: vooruitgang, uitdagingen en klinische toepassingen",
+    "authors": "Ron Rubin, PhD en Sandy Miles",
+    "organization": "VirtualMD.app-technologieën",
+    "disclaimer": {
+      "title": "Belangrijke disclaimer",
+      "text": "Hoewel VirtualMD.app geavanceerde AI-technologie biedt voor beoordelingen en ondersteuning van geestelijke gezondheid, is het cruciaal om te begrijpen dat onze AI-systemen, ongeacht hun geavanceerdheid, GEEN vervanging zijn voor erkende professionals in de geestelijke gezondheidszorg. De verstrekte informatie en inzichten dienen altijd te worden beoordeeld door gekwalificeerde zorgverleners. Bel in geval van een noodgeval in de geestelijke gezondheidszorg onmiddellijk 112 (VS), 999 (VK), 112 (EU), 101 (Israël) of 112 (Canada), of ga naar de dichtstbijzijnde spoedeisende hulp. Raadpleeg bij vragen over geestelijke gezondheid of behandelbeslissingen altijd gekwalificeerde zorgverleners. De technologie van VirtualMD.app is ontworpen om professionele geestelijke gezondheidszorg aan te vullen en te ondersteunen, niet om deze te vervangen."
+    },
+    "abstract": {
+      "title": "Abstract",
+      "text": "In dit artikel wordt de snel evoluerende rol van kunstmatige intelligentie (AI) in de geestelijke gezondheidszorg onderzocht, met aandacht voor recente ontwikkelingen, bewijs van effectiviteit en uitdagingen op het gebied van implementatie. We bespreken ontwikkelingen in vier domeinen: diagnostische ondersteuning, therapeutische toepassingen, patiëntmonitoring en voorspellende analyse. Recente klinische studies tonen aan dat AI-systemen een nauwkeurigheid van 80-92% kunnen bereiken bij het detecteren van ernstige depressie op basis van taalpatronen en stembiomarkers, terwijl algoritmen voor computer vision het risico op suïcidale gedachten met een gevoeligheid van 85% kunnen identificeren door gezichtsuitdrukkingen en microbewegingen te analyseren. Modellen voor natuurlijke taalverwerking die zijn getraind op therapeutische gesprekken, lijken veelbelovend in het toepassen van principes van cognitieve gedragstherapie. Gerandomiseerde gecontroleerde studies wijzen op een vergelijkbare effectiviteit als menselijke therapeuten bij milde tot matige depressie en angst (Journal of Medical Internet Research, 2022). Passieve monitoringsystemen op basis van smartphones kunnen vroege waarschuwingssignalen van terugval bij ernstige psychische aandoeningen detecteren, tot 7 dagen voordat klinische achteruitgang zichtbaar wordt (JAMA Psychiatry, 2021). Ondanks deze vooruitgang blijven er aanzienlijke uitdagingen bestaan, waaronder algoritmebias, beperkte validatie voor diverse populaties, privacyproblemen en integratie in bestaande klinische workflows. We bespreken ethische overwegingen, regelgevingskaders en evaluatiemethodologieën voor AI in de geestelijke gezondheidszorg. Hoewel AI-technologieën veelbelovend zijn voor het vergroten van de toegang tot geestelijke gezondheidszorg en het verbeteren van de effectiviteit van behandelingen, moeten ze worden ontwikkeld en ingezet binnen een alomvattend kader dat prioriteit geeft aan klinische validatie, ethische overwegingen en mensgerichte implementatie om de resultaten in de geestelijke gezondheidszorg daadwerkelijk te verbeteren."
+    },
+    "introduction": {
+      "title": "Invoering",
+      "text": "De last die psychische aandoeningen met zich meebrengen, vormt een van de meest urgente uitdagingen in de gezondheidszorg...",
+      "p1": "De last van psychische aandoeningen vormt een van de meest urgente uitdagingen in de gezondheidszorg. Wereldwijd kampt ongeveer één op de vijf volwassenen jaarlijks met psychische stoornissen, waarbij depressie alleen al meer dan 300 miljoen mensen wereldwijd treft (WHO, 2022). Tegelijkertijd beperken aanhoudende personeelstekorten de toegang tot zorg – de Wereldgezondheidsorganisatie schat een wereldwijd tekort van 1,18 miljoen professionals in de geestelijke gezondheidszorg. Deze kloof tussen behoefte en beschikbare middelen heeft de belangstelling voor technologiegebaseerde oplossingen, met name systemen voor kunstmatige intelligentie (AI), aangewakkerd. Deze systemen kunnen mogelijk het bereik en de effectiviteit van geestelijke gezondheidszorg vergroten.",
+      "p2": "Het snijvlak van AI en geestelijke gezondheid heeft de afgelopen tien jaar een opmerkelijke groei doorgemaakt. Van geautomatiseerde screeningtools en conversationele agents tot voorspellende analyses voor terugvalpreventie: de toepassingen van AI in de psychiatrie en psychologie zijn enorm toegenomen. Deze evolutie is mogelijk gemaakt door vooruitgang in natuurlijke taalverwerking, machine learning, computer vision en de toename van digitale fenotyperingsmogelijkheden via smartphones en wearables.",
+      "p3": "Geestelijke gezondheid biedt unieke uitdagingen en kansen voor de implementatie van AI. In tegenstelling tot veel andere medische specialismen is psychiatrische diagnostiek sterk afhankelijk van subjectieve rapportage, observeerbaar gedrag, linguïstische patronen en contextuele factoren, in plaats van laboratoriumtests of beeldvorming. Dit sluit goed aan bij de groeiende mogelijkheden van AI op het gebied van taalbegrip, patroonherkenning in gedragsdata en multimodale analyse van emotionele expressies.",
+      "p4": "Dit artikel biedt een uitgebreid overzicht van de huidige AI-toepassingen in de geestelijke gezondheidszorg, waarbij de wetenschappelijke basis voor hun effectiviteit, methodologische benaderingen, implementatieproblemen en ethische overwegingen worden onderzocht. We ordenen onze analyse rond vier hoofddomeinen: diagnostische ondersteuningssystemen, therapeutische toepassingen, patiëntmonitoring en voorspellende analyses voor behandelplanning. Op elk gebied beoordelen we de huidige stand van de technologie, vatten we de belangrijkste onderzoeksresultaten samen en identificeren we kritieke hiaten die nader onderzoek vereisen.",
+      "p5": "Het is essentieel om op te merken dat AI-tools in de geestelijke gezondheidszorg, ondanks aanzienlijke vooruitgang, bedoeld zijn om menselijke clinici te ondersteunen en niet te vervangen. De therapeutische relatie tussen patiënt en zorgverlener blijft cruciaal voor effectieve geestelijke gezondheidszorg. De meest veelbelovende toepassingen maken gebruik van AI om de mogelijkheden van zorgverleners uit te breiden, de efficiëntie te verbeteren, eerdere interventie mogelijk te maken en mogelijk de toegang tot evidence-based zorg voor kansarme doelgroepen te vergroten."
+    },
+    "methods": {
+      "title": "Methoden/Technologieën",
+      "text": "Hedendaagse AI-systemen in de geestelijke gezondheidszorg maken gebruik van diverse methodologische benaderingen...",
+      "p1": "Hedendaagse AI-systemen in de geestelijke gezondheidszorg maken gebruik van diverse methodologische benaderingen, elk met specifieke voordelen voor verschillende klinische toepassingen. Belangrijke technische fundamenten zijn onder meer natuurlijke taalverwerking (NLP), machine learning (ML), computer vision en digitale fenotypering.",
+      "p2": "Natuurlijke Taalverwerking (NLP) vormt de ruggengraat van veel AI-systemen voor de geestelijke gezondheidszorg en maakt de analyse van linguïstische inhoud en communicatiepatronen mogelijk. Geavanceerde transformer-gebaseerde modellen zoals BERT (Bidirectional Encoder Representations from Transformers) en GPT (Generative Pre-trained Transformer) stellen systemen in staat om klinische verhalen, transcripten van therapiesessies en door patiënten gegenereerde tekst te interpreteren met een steeds geavanceerder begrip van context, sentiment en psychologische inhoud. Deze modellen kunnen linguïstische markers identificeren die verband houden met specifieke aandoeningen, zoals verminderde syntactische complexiteit bij depressie of verstoringen van de semantische coherentie bij psychotische stoornissen. De meest geavanceerde klinische NLP-systemen zijn afgestemd op specifieke corpora voor de geestelijke gezondheidszorg, waaronder geanonimiseerde klinische notities, therapietranscripties en gevalideerde psychologische beoordelingsinstrumenten.",
+      "p3": "Machine learning-benaderingen in de geestelijke gezondheidszorg omvatten gesuperviseerde classificatie (voor diagnostische toepassingen), ongesuperviseerde clustering (voor het identificeren van nieuwe symptoompatronen), reinforcement learning (voor het personaliseren van interventies) en, in toenemende mate, deep learning voor multimodale data-integratie. Trainingsdata omvatten doorgaans gestructureerde klinische beoordelingen (bijv. PHQ-9 voor depressie, GAD-7 voor angst), gedragsmetingen, fysiologische signalen en gegevens uit elektronische patiëntendossiers. Validatiemethodologieën maken doorgaans gebruik van k-voudige kruisvalidatie en externe testsets, waarbij de prestaties worden geëvalueerd met behulp van gevoeligheid, specificiteit, positief/negatief voorspellende waarden en oppervlakte onder de receiver operating characteristic-curve (AUC-ROC).",
+      "p4": "Computer Vision-toepassingen analyseren gezichtsuitdrukkingen, motorische patronen en non-verbaal gedrag dat verband houdt met mentale toestanden. Convolutionele neurale netwerken en temporele modellen (bijv. LSTM-netwerken) kunnen micro-expressies, blikpatronen en psychomotorische veranderingen detecteren die kunnen wijzen op emotionele toestanden of symptoommanifestaties. Deze systemen zijn met name waardevol bij aandoeningen waarbij gedragsobservatie de diagnose ondersteunt, zoals autismespectrumstoornissen of katatone symptomen bij ernstige psychische aandoeningen.",
+      "p5": "Digitale fenotypering is een opkomende aanpak die gebruikmaakt van passieve dataverzameling van smartphones en wearables om gedragspatronen te identificeren die verband houden met mentale toestanden. Deze systemen analyseren geolocatiegegevens, activiteitsniveaus, slaappatronen, frequentie van sociale communicatie, typedynamiek en stemkenmerken om digitale biomarkers van de mentale gezondheidstoestand te construeren. Deze aanpak maakt continue, ecologische monitoring buiten de klinische setting mogelijk, waardoor symptomatische veranderingen mogelijk eerder kunnen worden gedetecteerd.",
+      "p6": "Integratiekaders combineren steeds vaker meerdere modaliteiten voor een uitgebreidere beoordeling. Zo kunnen systemen tijdens klinische interviews linguïstische inhoud analyseren in combinatie met stemgeluid en gezichtsuitdrukkingen om de diagnostische nauwkeurigheid te verbeteren. Therapeutische toepassingen kunnen sentimentanalyse van tekstuitwisselingen integreren met passieve monitoringgegevens om de timing en inhoud van interventies te personaliseren.",
+      "p7": "Evaluatiemethodologieën voor AI-systemen in de geestelijke gezondheidszorg omvatten traditionele diagnostische nauwkeurigheidsmetingen (sensitiviteit, specificiteit, AUC), bruikbaarheidsbeoordelingen en in toenemende mate klinische uitkomstmaten uit prospectieve studies. Gouden standaarden voor vergelijking variëren per toepassing, maar omvatten doorgaans gestructureerde klinische interviews, gevalideerde beoordelingsinstrumenten en consensusdiagnoses van clinici. Veel recente studies maken gebruik van gerandomiseerde, gecontroleerde onderzoeksopzetten om AI-ondersteunde zorg te evalueren ten opzichte van de gebruikelijke behandeling.",
+      "p8": "Privacybeschermende rekenmethoden zijn met name belangrijk in toepassingen in de geestelijke gezondheidszorg, gezien de gevoelige aard van psychologische data. Deze omvatten federated learning (waarbij modellen op meerdere locaties worden getraind zonder data te centraliseren), differentiële privacytechnieken en veilige multi-party computing. Deze methoden helpen de behoefte aan grote, diverse trainingsdatasets in evenwicht te brengen met ethische vereisten voor gegevensbescherming."
+    },
+    "results": {
+      "title": "Resultaten",
+      "diagnosticSupport": {
+        "title": "AI in diagnostische ondersteuning",
+        "text": "AI-systemen hebben veelbelovende mogelijkheden getoond bij het ondersteunen van de diagnose van geestelijke gezondheidsproblemen.",
+        "p1": "AI-systemen hebben veelbelovende mogelijkheden aangetoond bij het ondersteunen van de diagnose van psychische aandoeningen bij diverse aandoeningen. Deze tools analyseren diverse databronnen, waaronder klinische interviews, vragenlijstantwoorden, spraakpatronen, gezichtsuitdrukkingen en digitaal gedrag, om karakteristieke kenmerken van psychische stoornissen te identificeren.",
+        "p2": "Bij het detecteren van depressie hebben NLP-algoritmen die taalkundige kenmerken analyseren opmerkelijke successen geboekt. Een studie uit 2021 in JAMA Psychiatry evalueerde een NLP-systeem dat vrije-tekstreacties op gestandaardiseerde vragen analyseerde bij 4216 deelnemers. Het systeem toonde een sensitiviteit van 87% en een specificiteit van 84% voor het detecteren van een ernstige depressieve stoornis in vergelijking met gestructureerde klinische interviews. Bijzonder voorspellende kenmerken waren onder meer het gebruik van de eerste persoon enkelvoud, woorden met negatieve emoties en verminderde taalkundige variatie. In combinatie met stemakoestische analyse (waarbij prosodische kenmerken zoals verminderde toonhoogtevariatie en spreeksnelheid worden vastgelegd), steeg de diagnostische nauwkeurigheid tot 92%.",
+        "p3": "Evenzo heeft geautomatiseerde analyse van spraak- en taalpatronen zijn effectiviteit bewezen bij het detecteren van cognitieve stoornissen. In een prospectieve validatiestudie onder 382 ouderen behaalde een AI-systeem dat semantische coherentie, syntactische complexiteit en akoestische kenmerken analyseerde tijdens een kort gestructureerd interview een nauwkeurigheid van 85% bij het identificeren van milde cognitieve stoornissen, vergelijkbaar met kort neuropsychologisch onderzoek, maar waarvoor slechts een spraaksample van 3 minuten nodig was.",
+        "p4": "Bij angststoornissen hebben multimodale systemen die fysiologische gegevens (hartslagvariabiliteit, elektrodermale activiteit) combineren met gedragsmetingen hun nut bewezen. Een op wearables gebaseerd systeem dat autonome biomarkers monitort tijdens gestandaardiseerde stressoren classificeerde gegeneraliseerde angststoornissen correct met een nauwkeurigheid van 83% in een steekproef van 189 deelnemers, waarbij de detectie van paniekstoornissen een gevoeligheid van 88% bereikte.",
+        "p5": "Toepassingen van computer vision hebben veelbelovende resultaten opgeleverd voor aandoeningen met waarneembare gedragscomponenten. Een deep learning-systeem dat gezichtsuitdrukkingen en bewegingspatronen analyseerde tijdens klinische interviews, identificeerde autismespectrumstoornissen met een nauwkeurigheid van 86% bij kinderen van 3-6 jaar, wat mogelijk eerdere screening in de eerstelijnszorg mogelijk maakt. Analyse van video-opnamen van gestructureerde assessments heeft eveneens een nauwkeurigheid van 82% aangetoond bij het detecteren van een bipolaire stoornis op basis van subtiele verschillen in motorische activiteit en gezichtsexpressie tijdens manische versus depressieve fasen.",
+        "p6": "Digitale fenotyperingsmethoden, waarbij passieve smartphonegegevens worden geanalyseerd, hebben hun waarde bewezen voor conditiemonitoring. Locatie-entropie (variabiliteit in bewegingspatronen), slaapduur en communicatiefrequentie vertonen een hoge correlatie (r=0,71-0,84) met gestandaardiseerde depressiebeoordelingsschalen, wat continue beoordeling tussen klinische bezoeken mogelijk maakt.",
+        "p7": "Belangrijk is dat recent onderzoek zich heeft gericht op het aanpakken van algoritmische bias en het waarborgen van gelijke prestaties voor diverse bevolkingsgroepen. Een grootschalige validatiestudie van een algoritme voor depressiescreening onder 8200 deelnemers met verschillende raciale en sociaaleconomische achtergronden toonde aanvankelijk een lagere specificiteit (73% versus 89%) voor zwarte deelnemers vergeleken met witte deelnemers. Na herijking van het model met een meer diverse trainingsset en cultureel aangepaste referentienormen, werden de prestatieverschillen aanzienlijk verminderd, waarbij de specificiteit verbeterde tot 85% voor alle demografische groepen.",
+        "p8": "Ondanks deze vooruitgang blijven er uitdagingen bestaan in diagnostische toepassingen. De meeste systemen zijn voornamelijk gevalideerd in gecontroleerde onderzoeksomgevingen in plaats van in diverse klinische omgevingen. Bovendien hebben veel systemen zich gericht op binaire classificatie (aanwezigheid/afwezigheid van een aandoening) in plaats van de dimensionale benadering die steeds meer de voorkeur geniet in de moderne psychiatrische praktijk. Pogingen om deze beperkingen aan te pakken, omvatten de ontwikkeling van transdiagnostische modellen die symptoomdimensies beoordelen over traditionele diagnostische grenzen heen, waardoor de complexe realiteit van psychische nood beter wordt weerspiegeld."
+      },
+      "therapeuticApplications": {
+        "title": "AI in therapeutische toepassingen",
+        "text": "Op AI gebaseerde therapeutische interventies voor geestelijke gezondheid hebben zich ontwikkeld van eenvoudige, op regels gebaseerde systemen...",
+        "p1": "AI-gebaseerde therapeutische interventies voor de geestelijke gezondheid hebben zich ontwikkeld van eenvoudige, op regels gebaseerde systemen tot geavanceerde conversationele systemen die evidence-based therapeutische principes kunnen leveren. Deze toepassingen bestrijken een spectrum van volledig geautomatiseerde digitale therapie tot AI-ondersteunde therapie voor mensen.",
+        "p2": "Conversationele AI-systemen die de principes van cognitieve gedragstherapie (CGT) implementeren, hebben de meest rigoureuze evaluatie ondergaan. In een baanbrekende gerandomiseerde gecontroleerde studie, gepubliceerd in The Lancet Digital Health (2022), werden 1032 deelnemers met matige depressie toegewezen aan een AI-gestuurd CGT-programma of aan de gebruikelijke behandeling. Het AI-systeem, dat gebruikers dagelijks betrekt bij tekstgebaseerde gesprekken met behulp van kerntechnieken voor CGT, toonde statistisch significante reducties in de PHQ-9-depressiescores na 12 weken vergeleken met de controlegroep (gemiddeld verschil -2,85 punten, 95% BI -4,07 tot -1,63, p < 0,001). De behandeleffecten bleven behouden na 6 maanden follow-up. Opvallend was dat de therapietrouw aan het AI-programma (68% voltooide het volledige protocol) hoger was dan de typische percentages voor zelfgestuurde digitale interventies (doorgaans 25-30%), wat suggereert dat de conversationele interface de betrokkenheid verbeterde.",
+        "p3": "Voor angststoornissen toonde een vergelijkbare conversationele agent die de principes van exposuretherapie implementeerde, effectiviteit aan voor gegeneraliseerde angststoornissen in een onderzoek met 688 deelnemers. Het systeem, dat gebruikers door gepersonaliseerde exposurehiërarchieën met adaptieve moeilijkheidsgraad leidde, bereikte een 25% grotere reductie in GAD-7-scores vergeleken met wachtlijstcontroles, met effecten vergelijkbaar met door therapeuten geleide groepsgerichte cognitieve gedragstherapie bij de beoordeling na de behandeling. Een kosteneffectiviteitsanalyse gaf aan dat de AI-interventie ongeveer een vijfde kostte van een gelijkwaardige door mensen toegediende therapie, terwijl het vergelijkbare klinische voordelen opleverde voor milde tot matige gevallen.",
+        "p4": "Naast stemmings- en angststoornissen hebben AI-therapieën veelbelovende resultaten opgeleverd voor aandoeningen zoals slapeloosheid, posttraumatische stressstoornis en middelenmisbruik. Een reinforcement learning-systeem voor alcoholmisbruik, dat dynamisch gepersonaliseerde motiverende berichten leverde op basis van gedetecteerde risicostatussen, verminderde het aantal zelfgerapporteerde drinkdagen met 34% vergeleken met statische educatieve content in een drie maanden durende proef met 352 deelnemers. Het vermogen van het systeem om optimale interventietiming te bepalen op basis van passieve monitoringgegevens (bijv. locatiegegevens die de nabijheid van frequente drinkgelegenheden aangeven) leek de superieure effectiviteit ervan te bevorderen.",
+        "p5": "AI-versterking van menselijke therapie heeft ook zijn waarde bewezen. Een therapiecoachingsysteem dat sessietranscripties analyseerde om therapeuten te voorzien van feedback over therapietrouw en suggesties, verbeterde de trouw aan het CGT-protocol met 32% en werd geassocieerd met een grotere symptoomreductie (effectgrootte d = 0,41) vergeleken met niet-versterkende therapie in een gerandomiseerde studie. Therapeuten gaven aan dat de AI-feedback hielp om de focus te houden op evidence-based technieken en kansen te identificeren voor specifieke interventies die anders misschien gemist zouden zijn."
+      },
+      "patientMonitoring": {
+        "title": "AI in patiëntbewaking en terugvalpreventie",
+        "text": "Toepassingen voor continue monitoring vormen een bijzonder veelbelovend domein voor AI in de geestelijke gezondheidszorg...",
+        "p1": "Toepassingen voor continue monitoring vormen een bijzonder veelbelovend domein voor AI in de geestelijke gezondheidszorg, omdat ze symptomatische veranderingen tussen klinische bezoeken en mogelijke vroege interventie mogelijk maken. Deze systemen maken doorgaans gebruik van smartphonesensoren, wearables en gebruikersinteracties om digitale biomarkers van de mentale toestand te construeren.",
+        "p2": "Bij ernstige psychische aandoeningen, waaronder schizofrenie en bipolaire stoornis, heeft het detecteren van vroege waarschuwingssignalen een aanzienlijk klinisch nut aangetoond. In een prospectieve studie van 12 maanden onder 304 personen met schizofrenie detecteerde een smartphone-gebaseerd monitoringsysteem, dat spraakpatronen, slaap, mobiliteit en sociale interactie analyseerde, 89% van de psychotische terugvallen gemiddeld 7,4 dagen voordat klinische verslechtering zichtbaar werd tijdens de routinematige zorg. Geïntegreerd met een klinisch responsprotocol verlaagde het systeem de ziekenhuisopname met 28% in vergelijking met de gebruikelijke behandeling, wat duidt op aanzienlijke voordelen voor zowel patiënten als zorgsystemen.",
+        "p3": "Vergelijkbare benaderingen hebben hun effectiviteit bewezen bij bipolaire stoornissen. Een multimodaal systeem dat typepatronen, stemakoestiek, slaapduur en activiteitsniveaus analyseerde, identificeerde het begin van manische en depressieve episodes met respectievelijk 82% en 77% nauwkeurigheid, met een gemiddelde waarschuwing van 4-6 dagen voordat klinische drempels werden overschreden. In een gerandomiseerde studie met 397 deelnemers, gecombineerd met een geïntegreerd notificatiesysteem voor clinici, werd het monitoringsysteem geassocieerd met een kortere episodeduur en een verminderde ernst van de symptomen in vergelijking met standaardzorg.",
+        "p4": "Voor depressiemonitoring hebben systemen die digitaal gedrag analyseren een sterke correlatie aangetoond met klinische symptoommetingen. Een passieve sensorapplicatie die gegevens verzamelde over smartphonegebruikspatronen, fysieke activiteit en sociaal gedrag, toonde een correlatie van 0,82 met PHQ-9-scores in een 6 maanden durend longitudinaal onderzoek onder 211 deelnemers met terugkerende depressie. Machine learning-modellen, getraind op deze gedragskenmerken, voorspelden symptoomverlopen met voldoende nauwkeurigheid om in 76% van de gevallen het verdwijnen van de depressie te onderscheiden van het verergeren ervan, wat mogelijk een snellere interventie mogelijk maakt.",
+        "p5": "Toepassingen voor het monitoren van eetstoornissen maken gebruik van maaltijdfotografie met computer vision-analyse, in combinatie met gedragsdata om symptomen en risicogedrag te volgen. In een pilotstudie onder 157 personen met boulimia nervosa identificeerde een AI-systeem, dat de inhoud van maaltijden, eetpatronen en indicatoren voor compenserend gedrag analyseerde, 83% van de terugvalgebeurtenissen correct op basis van alleen digitale biomarkers, wat gunstig afstak bij zelfgerapporteerde metingen. Integratie met just-in-time adaptieve interventies toonde voorlopig bewijs voor het verminderen van eetbuien en purgeeraanvallen door ondersteuning te bieden op cruciale beslissingsmomenten.",
+        "p6": "Bij al deze toepassingen waren gebruikersbetrokkenheid en privacyproblemen de belangrijkste uitdagingen. Studies die gebruiksgestuurde datadeling, transparante algoritme-uitleg en duidelijke demonstratie van de voordelen implementeerden, lieten de hoogste aanhoudende betrokkenheidspercentages zien, waarbij tot 71% van de deelnemers het regelmatig gebruik gedurende meer dan zes maanden voortzette. Opvallend is dat zorgen over privacy lijken te worden verminderd wanneer gebruikers concrete gezondheidsvoordelen ervaren en de controle over het datagebruik behouden."
+      }
+    },
+    "discussion": {
+      "title": "Discussie",
+      "text": "Onze analyse van het huidige bewijsmateriaal toont aan dat AI-toepassingen in de geestelijke gezondheidszorg zijn geëvolueerd van theoretische mogelijkheden tot klinisch gevalideerde tools met meetbare effecten op de nauwkeurigheid van beoordelingen, behandelingsverlening en conditiemonitoring. Uit de gezamenlijke bevindingen komen verschillende belangrijke thema's naar voren.\n\nTen eerste presteren multimodale benaderingen consistent beter dan systemen met één modaliteit in alle toepassingen. De integratie van linguïstische analyse, gedragsmonitoring, fysiologische signalen en contextuele informatie creëert een completer beeld van de mentale toestand dan welke individuele meting dan ook. Dit weerspiegelt de complexe, veelzijdige aard van psychische aandoeningen, die zich manifesteren in cognitieve, emotionele, gedragsmatige en fysiologische domeinen. Toekomstige ontwikkelingen zouden de nadruk moeten blijven leggen op de integratie van complementaire databronnen binnen coherente beoordelingskaders.\n\nTen tweede ondersteunt het bewijsmateriaal een hybride model waarbij AI menselijke clinici aanvult in plaats van vervangt. De meest succesvolle implementaties positioneren AI als een multiplicator voor klinische expertise – het vergroot het bereik, verbetert de efficiëntie, maakt een meer continue beoordeling mogelijk en ondersteunt evidence-based werken. De therapeutische relatie tussen patiënt en zorgverlener blijft cruciaal voor effectieve geestelijke gezondheidszorg, en technologie lijkt het meest effectief wanneer deze relatie wordt versterkt in plaats van vervangen.\n\nTen derde komt personalisatie naar voren als een cruciale factor voor effectiviteit. Psychische aandoeningen vertonen aanzienlijke heterogeniteit in presentatie, progressie en behandelrespons. AI-systemen die zich kunnen aanpassen aan individuele symptoomprofielen, persoonlijke voorkeuren en responspatronen hebben betere resultaten laten zien dan standaardbenaderingen. Dit sluit aan bij de bredere beweging richting precisiepsychiatrie, waarbij interventies worden afgestemd op individuele biopsychosociale profielen.\n\nOndanks deze veelbelovende ontwikkelingen blijven er aanzienlijke uitdagingen bestaan bij het vertalen van onderzoeksvooruitgang naar de klinische praktijk. Belangrijke beperkingen zijn onder andere:\n\nAlgoritmische bias en zorgen over generaliseerbaarheid: Veel systemen zijn ontwikkeld en gevalideerd voor relatief homogene populaties, wat vragen oproept over de prestaties in diverse demografische groepen. De eerste aanwijzingen suggereren dat sommige algoritmen verschillend presteren in verschillende culturele contexten, geslachten en raciale/etnische achtergronden. Hoewel recent onderzoek is begonnen met het aanpakken van deze verschillen door middel van representatievere trainingsgegevens en cultureel onderbouwde referentienormen, blijft het garanderen van gelijke prestaties een voortdurende uitdaging.\n\nBeperkt longitudinaal bewijs: Hoewel kortetermijnstudies veelbelovende resultaten laten zien, is er een tekort aan langetermijnfollow-upgegevens over aanhoudende betrokkenheid, blijvende behandeleffecten en mogelijke onbedoelde gevolgen van AI-interventies. De snel evoluerende aard van AI-technologie overtreft de traditionele tijdlijn voor longitudinaal klinisch onderzoek, waardoor een aanhoudende bewijskloof ontstaat.\n\nUitdagingen op het gebied van integratie: Technische, workflow- en culturele barrières bemoeilijken de integratie van AI-tools in bestaande klinische systemen. Succesvolle implementatie vereist aandacht voor de workflow van clinici, integratie met elektronische patiëntendossiers, duidelijke rollen en verantwoordelijkheden, aansprakelijkheidskaders en vergoedingsmodellen. De meest overtuigende technische ontwikkelingen kunnen hun potentieel niet realiseren zonder zorgvuldige aandacht voor deze implementatiefactoren.\n\nOverwegingen met betrekking tot privacy en beveiliging: Gegevens over geestelijke gezondheid behoren tot de meest gevoelige persoonlijke informatie. Hoewel technische benaderingen zoals federated learning en differentiële privacy helpen deze zorgen weg te nemen, zijn uitgebreide governancekaders voor verantwoord databeheer in AI voor de geestelijke gezondheidszorg nog steeds onderontwikkeld. Het in evenwicht brengen van de voordelen van datagestuurde benaderingen met robuuste privacybescherming vormt een voortdurende uitdaging.\n\nRegelgevingsonzekerheid: Het regelgevingslandschap voor AI in de geestelijke gezondheidszorg is nog steeds in ontwikkeling. De huidige kaders die zijn ontworpen voor traditionele medische hulpmiddelen, houden mogelijk onvoldoende rekening met de unieke kenmerken van adaptieve AI-systemen die tijdens de implementatie blijven leren. Het ontwikkelen van passende validatiestandaarden, monitoringvereisten en updateprotocollen voor lerende systemen is essentieel voor verantwoorde innovatie.\n\nOndanks deze uitdagingen ondersteunt het bewijs de voortdurende ontwikkeling en voorzichtige implementatie van AI-toepassingen die klinisch voordeel, passende veiligheidsmaatregelen en aandacht voor ethische overwegingen aantonen. De mogelijkheid om de toegang tot geestelijke gezondheidszorg te vergroten – met name voor achtergestelde groepen die kampen met een tekort aan zorgverleners – vormt een overtuigende reden voor voortdurende innovatie op dit gebied."
+    },
+    "conclusion": {
+      "title": "Conclusie",
+      "text": "Toepassingen van kunstmatige intelligentie (AI) in de geestelijke gezondheidszorg hebben de afgelopen tien jaar een enorme ontwikkeling doorgemaakt. Ze zijn geëvolueerd van theoretische concepten naar klinisch gevalideerde tools met bewezen effectiviteit in diagnostische ondersteuning, therapeutische toepassing, patiëntmonitoring en voorspellende analyses. Het in dit artikel besproken bewijs suggereert dat deze technologieën een reële potentie hebben om kritieke uitdagingen in de geestelijke gezondheidszorg aan te pakken, waaronder beperkte toegang, beperkte middelen en de behoefte aan meer continue en gepersonaliseerde benaderingen van beoordeling en interventie.\n\nVerschillende belangrijke principes zouden de toekomstige ontwikkeling en implementatie moeten sturen. Ten eerste zou AI de klinische expertise van mensen moeten vergroten en uitbreiden in plaats van te proberen de essentiële therapeutische relatie tussen zorgverlener en patiënt te vervangen. Ten tweede bieden multimodale benaderingen die diverse databronnen integreren het meest complete en accurate beeld van de geestelijke gezondheidstoestand. Ten derde zijn personalisatiemogelijkheden die zich aanpassen aan individuele behoeften, voorkeuren en responspatronen cruciaal voor het bereiken van optimale resultaten. Ten vierde is zorgvuldige aandacht voor algoritme-eerlijkheid, transparante validatie voor diverse populaties en voortdurende monitoring op mogelijke vooroordelen essentieel voor een rechtvaardige implementatie.\n\nHoewel er nog steeds aanzienlijke uitdagingen bestaan – waaronder integratie in klinische workflows, privacybescherming, regelgevingskaders en de ontwikkeling van bewijs op de lange termijn – rechtvaardigen de potentiële voordelen voortgezet onderzoek en een voorzichtige klinische implementatie van goed gevalideerde systemen. De kloof in de geestelijke gezondheidszorg die wereldwijd miljoenen mensen treft, vraagt om innovatieve benaderingen die het bereik van evidence-based zorg kunnen vergroten.\n\nVooruitkijkend verwachten we verschillende veelbelovende richtingen voor het vakgebied. Integratie van genomische en andere biologische data met gedrags- en psychologische metingen kan een nauwkeurigere karakterisering van individuele risicoprofielen en voorspellers van behandelrespons mogelijk maken. Gefedereerde leerbenaderingen die modelontwikkeling binnen instellingen mogelijk maken zonder gevoelige gegevens te centraliseren, kunnen privacyproblemen aanpakken en tegelijkertijd meer diverse en representatieve trainingssets mogelijk maken. Nieuwe samenwerkingsmodellen tussen mens en AI die de respectievelijke sterke punten van clinici en kunstmatige intelligentie optimaliseren, kunnen betere resultaten opleveren dan elk van deze technologieën afzonderlijk.\n\nNaarmate deze technologieën zich blijven ontwikkelen, is het essentieel om een evenwichtig perspectief te behouden – waarbij zowel het aanzienlijke potentieel van AI om de geestelijke gezondheidszorg te verbeteren als het fundamentele belang van menselijke verbinding, klinische wijsheid en persoonsgerichte benaderingen worden erkend. Met een doordachte ontwikkeling, grondige validatie en zorgvuldige implementatie kan AI een waardevol hulpmiddel worden bij het aanpakken van de wereldwijde last van psychische aandoeningen. Ook kan het bijdragen aan het bereiken van de doelstelling om effectieve geestelijke gezondheidszorg toegankelijk te maken voor iedereen die dat nodig heeft."
+    }
+  },
+  "whyVirtualMD": {
+    "sections": {
+      "hero": {
+        "title": "VirtualMD.app",
+        "subtitle": "Ontgrendel uw gezondheidspotentieel met VirtualMD.app. Raadpleeg AI-gidsen die zijn opgeleid in westerse wellness, traditionele Chinese wellness en andere wellnesstechnieken – allemaal in één gesprek. Ontvang 24/7 gepersonaliseerde inzichten en neem de controle over uw gezondheid. Dit is gezondheidszorg, opnieuw uitgevonden."
+      },
+      "whyUs": {
+        "title": "Waarom zou u VirtualMD.app kiezen voor uw welzijnsreis?",
+        "points": {
+          "personalTeam": {
+            "title": "Uw persoonlijke team",
+            "text": "Stel uw team van AI-gezondheidsadviseurs samen. Profiteer van inzichten uit westerse wellness, traditionele Chinese wellness en complementaire wellnessexpertise."
+          },
+          "aiNavigator": {
+            "title": "Uw door AI aangestuurde persoonlijke navigator",
+            "text": "Uw persoonlijke AI-gezondheidsnavigator begeleidt u naar de meest relevante inzichten en strategieën op het gebied van welzijn. De inzichten van onze gespecialiseerde AI-adviseurs worden omgezet in bruikbaar advies voor u."
+          },
+          "empoweringChoices": {
+            "title": "Gezondheidskeuzes mogelijk maken",
+            "text": "Krijg duidelijke, bruikbare perspectieven, zodat u weloverwogen beslissingen kunt nemen voor uw welzijn."
+          },
+          "easyToUse": {
+            "title": "Eenvoudiger te gebruiken",
+            "text": "Ons platform is ontworpen voor intuïtieve interactie. Maak contact met AI-gidsen en ontdek gezondheidspaden zonder complexiteit."
+          },
+          "advancedTechnology": {
+            "title": "Revolutionaire geavanceerde technologie",
+            "text": "Ervaar onze geavanceerde software, ontworpen om de synergie tussen menselijke nieuwsgierigheid en AI-gestuurde inzichten in welzijn te maximaliseren."
+          }
+        }
+      },
+      "features": {
+        "title": "Belangrijkste platformfuncties",
+        "points": {
+          "dynamicEnsemble": {
+            "title": "Dynamisch AI-ensemble:",
+            "text": "Onze orkestrerende AI combineert op intelligente wijze inzichten uit een breed scala aan gespecialiseerde AI-welzijnsgidsen, variërend van westerse wellness en traditionele Chinese wellness tot en met meer, om uw specifieke vragen in realtime te beantwoorden."
+          },
+          "holisticUnderstanding": {
+            "title": "Holistisch begrip:",
+            "text": "Onze AI interpreteert diverse input – tekst, afbeeldingen van je fitnessvoortgang of je welzijnsdagboek – voor een uitgebreid, contextrijk welzijnsperspectief."
+          },
+          "rapidAccess": {
+            "title": "Snelle toegang tot AI-gidsen:",
+            "text": "Maak direct verbinding met honderden gespecialiseerde AI-wellnessgidsen met een reactie binnen een seconde."
+          },
+          "reliableInteractions": {
+            "title": "Betrouwbare interacties:",
+            "text": "Automatische veiligheidsmaatregelen zorgen voor een soepele, ononderbroken ervaring, zelfs als een AI-gids even tijd nodig heeft om zich opnieuw te kalibreren."
+          },
+          "insightfulLogs": {
+            "title": "Inzichtelijke interactielogboeken:",
+            "text": "Sessie-interacties worden geregistreerd ter ondersteuning van de voortdurende verbetering en ontwikkeling van de kennis van onze AI-gidsen."
+          }
+        }
+      },
+      "technology": {
+        "title": "Onze revolutionaire technologie",
+        "description1": "VirtualMD.app maakt gebruik van geavanceerde orkestratiemethoden. Ons systeem zorgt ervoor dat uw vragen worden beantwoord door een scala aan AI-gidsen, gebaseerd op westerse medische kennis, traditionele Chinese welzijnsprincipes, voedingswetenschap, mindfulnesstechnieken, fitnessstrategieën en meer, om u het meest complete perspectief te bieden.",
+        "description2": "Onze geavanceerde redeneermachine combineert informatie uit uw tekstinvoer, visuele logboeken en andere gegevens over uw welzijn. Zo krijgt u holistische inzichten die traditionele benaderingen niet kunnen evenaren.",
+        "description3": "Met een uitgebreide, direct toegankelijke bibliotheek met AI-wellnessgidsen en robuuste interactieprotocollen garanderen we consistente, hoogwaardige betrokkenheid in elk domein.",
+        "description4": "Elke interactie wordt zorgvuldig geregistreerd. Dit vergroot de transparantie en zorgt ervoor dat de effectiviteit van ons platform en de kwaliteit van de inzichten voortdurend worden verbeterd."
+      },
+      "cta": {
+        "title": "Klaar om uw welzijn te revolutioneren?",
+        "subtitle": "Sluit je aan bij de <span>VirtualMD.app</span>-beweging en ontdek een nieuw tijdperk van toegang tot baanbrekend wellnessadvies. Zet de eerste stap naar een meer krachtige, deskundige en vitale versie van jezelf. Ontdek diverse AI-perspectieven en onze uitgebreide wellnesskennisbank.",
+        "buttonText": "Nu beginnen"
+      }
+    }
+  },
+  "whitepapers": {
+    "downloadPdf": "PDF downloaden"
+  },
+  "dermatologyaiWhitepaper": {
+    "title": "centrum",
+    "downloadPdf": "PDF downloaden",
+    "generating": "Genereren...",
+    "pdfFilename": "DermatologieAIWhitePaperPage.pdf",
+    "content1": ");\nhuidigeY = addWrappedText(doc, titel, marge, huidigeY, inhoudsbreedte);\nhuidigeY += 5;\ndoc.setFont(undefined,",
+    "content2": "kalibratie (betrouwbaarheid van betrouwbaarheidsscores) en verklaarbaarheid (het vermogen om relevante beeldgebieden te markeren die de diagnose ondersteunen).\n\nHet cureren van datasets brengt unieke uitdagingen met zich mee: variaties in belichting, positionering en beeldkwaliteit kunnen de algoritmische prestaties aanzienlijk beïnvloeden. De meeste systemen worden getraind met retrospectieve beeldverzamelingen van dermatologische klinieken, wat een potentiële spectrumbias introduceert - de beelden vertegenwoordigen mogelijk niet het volledige scala aan presentaties in de eerstelijnszorg. De resulterende modellen worden gevalideerd door middel van hold-out testsets, externe validatie op onafhankelijke datasets en in toenemende mate door middel van prospectieve klinische evaluaties die AI-aanbevelingen vergelijken met beslissingen van dermatologen en histopathologische grondwaarheden.",
+    "content3": "kalibratie (betrouwbaarheid van betrouwbaarheidsscores) en verklaarbaarheid (het vermogen om relevante beeldgebieden te markeren die de diagnose ondersteunen).\n\nHet cureren van datasets brengt unieke uitdagingen met zich mee: variaties in belichting, positionering en beeldkwaliteit kunnen de algoritmische prestaties aanzienlijk beïnvloeden. De meeste systemen worden getraind met retrospectieve beeldverzamelingen van dermatologische klinieken, wat een potentiële spectrumbias introduceert - de beelden vertegenwoordigen mogelijk niet het volledige scala aan presentaties in de eerstelijnszorg. De resulterende modellen worden gevalideerd door middel van hold-out testsets, externe validatie op onafhankelijke datasets en in toenemende mate door middel van prospectieve klinische evaluaties die AI-aanbevelingen vergelijken met beslissingen van dermatologen en histopathologische grondwaarheden.",
+    "content4": "s redenering en ze vestigen de aandacht op specifieke kenmerken van de laesie die nader onderzoek rechtvaardigen. Studies hebben aangetoond dat het geven van deze uitleg het vertrouwen van clinici in AI-aanbevelingen vergroot en de gecombineerde diagnostische prestaties van mens en AI verbetert.\n\nOpkomend bewijs suggereert dat AI melanomen in een eerder stadium kan detecteren dan doorgaans in de routinepraktijk wordt gediagnosticeerd. In een retrospectieve analyse van melanomen die aanvankelijk verkeerd werden gediagnosticeerd als goedaardig door dermatologen, maar correct werden gemarkeerd door AI, vertoonden de laesies vaak subtiele atypische kenmerken onder de drempelwaarde voor klinische zorg, maar werden ze geassocieerd met vroege maligne transformatie. Deze mogelijkheid tot vroege detectie zou de overlevingsresultaten mogelijk kunnen verbeteren, hoewel prospectieve studies naar klinische resultaten op de lange termijn nog steeds gaande zijn.",
+    "content5": "s redenering en ze vestigen de aandacht op specifieke kenmerken van de laesie die nader onderzoek rechtvaardigen. Studies hebben aangetoond dat het geven van deze uitleg het vertrouwen van clinici in AI-aanbevelingen vergroot en de gecombineerde diagnostische prestaties van mens en AI verbetert.\n\nOpkomend bewijs suggereert dat AI melanomen in een eerder stadium kan detecteren dan doorgaans in de routinepraktijk wordt gediagnosticeerd. In een retrospectieve analyse van melanomen die aanvankelijk verkeerd werden gediagnosticeerd als goedaardig door dermatologen, maar correct werden gemarkeerd door AI, vertoonden de laesies vaak subtiele atypische kenmerken onder de drempelwaarde voor klinische zorg, maar werden ze geassocieerd met vroege maligne transformatie. Deze mogelijkheid tot vroege detectie zou de overlevingsresultaten mogelijk kunnen verbeteren, hoewel prospectieve studies naar klinische resultaten op de lange termijn nog steeds gaande zijn.",
+    "content6": "De top-1 nauwkeurigheid bereikte 85,9%.\n\nBijzonder sterke prestaties werden waargenomen voor specifieke aandoeningen zoals psoriasis (93,1% nauwkeurigheid), acne vulgaris (90,4%) en eczeem (88,7%). Aandoeningen met subtielere of variabele manifestaties, zoals medicijnuitslag of auto-immuunziekten in een vroeg stadium, lieten een lagere nauwkeurigheid zien (70-75%), wat wijst op gebieden die verdere verfijning van het algoritme vereisen.\n\nOpmerkelijk genoeg liet een door Google ontwikkeld multimodaal systeem dat zowel beeldgegevens als door de patiënt gerapporteerde symptomen combineerde, verdere verbeteringen zien en een top-1 nauwkeurigheid van 93% bereiken voor 26 veelvoorkomende aandoeningen. De integratie van niet-beeldgegevens bleek bijzonder waardevol voor het onderscheiden van visueel vergelijkbare aandoeningen met verschillende bijbehorende symptomen, zoals het onderscheid tussen allergische contactdermatitis en irriterende contactdermatitis op basis van de gerapporteerde jeukernst en blootstellingsgeschiedenis.\n\nIn de kinderdermatologie, waar de toegang tot specialisten bijzonder beperkt is, hebben AI-systemen veelbelovende resultaten opgeleverd voor veelvoorkomende huidaandoeningen bij kinderen. Een gespecialiseerd pediatrisch model behaalde een nauwkeurigheid van 90,1% voor aandoeningen zoals atopische dermatitis, molluscum contagiosum en gewone moedervlekken. Het systeem vertoonde met name een gevoeligheid van 95,2% voor het detecteren van hand-voet-klauwzeer tijdens uitbraken, wat wijst op potentiële toepassingen in de volksgezondheidsbewaking.",
+    "content7": "De top-1 nauwkeurigheid bereikte 85,9%.\n\nBijzonder sterke prestaties werden waargenomen voor specifieke aandoeningen zoals psoriasis (93,1% nauwkeurigheid), acne vulgaris (90,4%) en eczeem (88,7%). Aandoeningen met subtielere of variabele manifestaties, zoals medicijnuitslag of auto-immuunziekten in een vroeg stadium, lieten een lagere nauwkeurigheid zien (70-75%), wat wijst op gebieden die verdere verfijning van het algoritme vereisen.\n\nOpmerkelijk genoeg liet een door Google ontwikkeld multimodaal systeem dat zowel beeldgegevens als door de patiënt gerapporteerde symptomen combineerde, verdere verbeteringen zien en een top-1 nauwkeurigheid van 93% bereiken voor 26 veelvoorkomende aandoeningen. De integratie van niet-beeldgegevens bleek bijzonder waardevol voor het onderscheiden van visueel vergelijkbare aandoeningen met verschillende bijbehorende symptomen, zoals het onderscheid tussen allergische contactdermatitis en irriterende contactdermatitis op basis van de gerapporteerde jeukernst en blootstellingsgeschiedenis.\n\nIn de kinderdermatologie, waar de toegang tot specialisten bijzonder beperkt is, hebben AI-systemen veelbelovende resultaten opgeleverd voor veelvoorkomende huidaandoeningen bij kinderen. Een gespecialiseerd pediatrisch model behaalde een nauwkeurigheid van 90,1% voor aandoeningen zoals atopische dermatitis, molluscum contagiosum en gewone moedervlekken. Het systeem vertoonde met name een gevoeligheid van 95,2% voor het detecteren van hand-voet-klauwzeer tijdens uitbraken, wat wijst op potentiële toepassingen in de volksgezondheidsbewaking.",
+    "content8": "Vergelijking van de diagnostische nauwkeurigheid tussen AI en dermatologen voor 26 veelvoorkomende huidaandoeningen. De aandoeningen zijn van links naar rechts gerangschikt in afnemende prevalentie. Het AI-systeem (blauwe balken) toonde voor de meeste aandoeningen vergelijkbare of betere prestaties dan dermatologen (oranje balken). Bron: Liu Y, et al. Een deep learning-systeem voor differentiële diagnose van huidziekten. Nature Medicine. 2020;26(6):900-908."
+  },
+  "how-to-useWhitepaper": {
+    "downloadPdf": "PDF downloaden",
+    "generating": "Genereren...",
+    "pdfFilename": "Hoe te gebruiken.pdf"
+  },
+  "imagingaiWhitepaper": {
+    "title": "centrum",
+    "downloadPdf": "PDF downloaden",
+    "generating": "Genereren...",
+    "pdfFilename": "ImagingAIWhitePaperPage.pdf",
+    "content1": ");\nhuidigeY = addWrappedText(doc, titel, marge, huidigeY, inhoudsbreedte);\nhuidigeY += 5;\ndoc.setFont(undefined,",
+    "content2": ");\nhuidigeY = addWrappedText(doc, bijschrift, marge, huidigeY, inhoudsbreedte);\nhuidigeY += 20;\ndoc.setFont(undefined,",
+    "content3": ", \nmarge, huidigeY + 2, inhoudsbreedte);\nhuidigeY += 5;\nhuidigeY = addWrappedText(doc, \n",
+    "content4": ", \nmarge, huidigeY + 2, inhoudsbreedte);\nhuidigeY += 5;\nhuidigeY = addWrappedText(doc, \n",
+    "content5": "Röntgenfoto van de borstkas met een door AI gegenereerde heatmap (rood → geel) die een solitaire longnodulus markeert die bij eerste beoordeling niet direct zichtbaar is. Bron: Van Beek EJR, Ahn JS, Kim MJ, Murchison JT. Validatie van een deep learning-algoritme voor het detecteren van thoracale afwijkingen op thoraxfoto's. Clin Radiol. 2023;78(1):1–7.",
+    "content6": "Röntgenfoto van de borstkas met een door AI gegenereerde heatmap (rood → geel) die een solitaire longnodulus markeert die bij eerste beoordeling niet direct zichtbaar is. Bron: Van Beek EJR, Ahn JS, Kim MJ, Murchison JT. Validatie van een deep learning-algoritme voor het detecteren van thoracale afwijkingen op thoraxfoto's. Clin Radiol. 2023;78(1):1–7.",
+    "content7": "De leeslast met 44% verminderen (itnonline.com), doordat in veel gevallen één lezer in plaats van twee wordt toegestaan. Een andere studie toonde aan dat een AI-systeem voor triage van thorax-CT-scans van acute bevindingen (bijv. intracraniële bloeding, longembolie) de tijd tot melding van kritieke resultaten aanzienlijk kan verkorten, wat helpt bij het prioriteren van urgente gevallen. Bij meerdere onderzoeken verhoogt AI als tweede lezer doorgaans de gevoeligheid voor laesiedetectie (het opsporen van bevindingen die mensen missen), terwijl de specificiteit acceptabel blijft (itnonline.com, pubmed.ncbi.nlm.nih.gov). Standalone AI is echter niet onfeilbaar – het kan vals-positieve resultaten genereren of zeldzame gevallen over het hoofd zien, dus klinische implementatie gebruikt AI vaak om menselijke interpretatie te ondersteunen, niet te vervangen.",
+    "content8": "De leeslast met 44% verminderen (itnonline.com), doordat in veel gevallen één lezer in plaats van twee wordt toegestaan. Een andere studie toonde aan dat een AI-systeem voor triage van thorax-CT-scans van acute bevindingen (bijv. intracraniële bloeding, longembolie) de tijd tot melding van kritieke resultaten aanzienlijk kan verkorten, wat helpt bij het prioriteren van urgente gevallen. Bij meerdere onderzoeken verhoogt AI als tweede lezer doorgaans de gevoeligheid voor laesiedetectie (het opsporen van bevindingen die mensen missen), terwijl de specificiteit acceptabel blijft (itnonline.com, pubmed.ncbi.nlm.nih.gov). Standalone AI is echter niet onfeilbaar – het kan vals-positieve resultaten genereren of zeldzame gevallen over het hoofd zien, dus in klinische implementaties wordt AI vaak gebruikt om de menselijke interpretatie te versterken, niet te vervangen.",
+    "content9": "De gradatie-overeenkomst (kwadratische kappa ~0,77) was vergelijkbaar met die van ervaren pathologen en benaderde zelfs de consensusgraad in moeilijke gevallen (nature.com). In de borstpathologie bereikten deep learning-algoritmen in de CAMELYON-uitdaging bijna menselijke prestaties voor de detectie van metastatische tumoren in lymfeklieren, waarbij sommige een AUC > 0,99 bereikten. Deze tools kunnen dienen als een"
+  },
+  "pathologyaiWhitepaper": {
+    "title": "AI in pathologie: diagnostische nauwkeurigheid en efficiëntie verbeteren",
+    "subtitle": "Een uitgebreid overzicht van toepassingen van kunstmatige intelligentie in anatomische en klinische pathologie",
+    "authors": {
+      "names": "Ron Rubin, PhD en Sandy Miles",
+      "organization": "VirtualMD.app-technologieën",
+      "emails": {
+        "ron": "ronrubin@virtualmd.app",
+        "sandy": "sandymiles@virtualmd.app"
+      }
+    },
+    "downloadPdf": "PDF downloaden",
+    "generating": "Genereren...",
+    "pdfFilename": "VirtualMD_AI_Pathologie_Whitepaper.pdf",
+    "sections": {
+      "abstract": {
+        "title": "Abstract",
+        "content": "Kunstmatige intelligentie (AI) is uitgegroeid tot een transformatieve technologie in de pathologie en toont mogelijkheden om de diagnostische nauwkeurigheid, reproduceerbaarheid en workflow-efficiëntie te verbeteren. Deze whitepaper onderzoekt de huidige stand van zaken van AI in de pathologie op basis van recente klinische validatiestudies, goedkeuringen door regelgevende instanties en implementaties in de praktijk. We bespreken de belangrijkste toepassingen, waaronder kankerdetectie, gradering, prognostische beoordeling en workflow-optimalisatie. Belangrijke bevindingen zijn onder meer gevoeligheidspercentages van 95-99% voor kankerdetectie in meerdere orgaansystemen, substantiële reducties in interobservervariabiliteit en de mogelijkheid tot aanzienlijke werklastreductie. Hoewel de technische prestaties voor veel toepassingen klinisch acceptabele niveaus hebben bereikt, blijven er implementatie-uitdagingen bestaan, waaronder wettelijke overwegingen, workflowintegratie en de noodzaak van continue validatie. We bieden evidence-based aanbevelingen voor pathologieafdelingen die de implementatie van AI overwegen, waarbij we het belang benadrukken van zorgvuldige selectie van use cases, gefaseerde implementatie en continue prestatiemonitoring. Het bewijsmateriaal wijst erop dat AI pathologen zal versterken in plaats van vervangen en een krachtig instrument zal vormen om diagnostische mogelijkheden te verbeteren en de toenemende werklast te beheersen."
+      },
+      "introduction": {
+        "title": "Invoering",
+        "content": "De pathologie staat voor ongekende uitdagingen: toenemende aantallen patiënten, toenemende complexiteit van diagnostische criteria, personeelstekorten en de druk om snel te kunnen handelen. Tegelijkertijd vereist precisiezorg meer gedetailleerde weefselanalyse, kwantitatieve biomarkerbeoordeling en integratie van morfologische bevindingen met moleculaire data. Tegen deze achtergrond is kunstmatige intelligentie (AI) naar voren gekomen als een potentiële oplossing om de pathologiepraktijk te verbeteren.\n\nHoewel AI in medische beeldvorming veel aandacht heeft gekregen, biedt pathologie unieke kansen en uitdagingen. In tegenstelling tot radiologie, waar AI beelden van intacte anatomie analyseert, moet pathologie-AI microscopische weefselcoupes interpreteren die complexe driedimensionale structuren weergeven, gereduceerd tot tweedimensionale preparaten. De enorme hoeveelheid data is duizelingwekkend: één enkele afbeelding van een preparaat kan miljarden pixels bevatten, wat geavanceerde computationele benaderingen vereist.\n\nDeze whitepaper biedt een uitgebreid overzicht van AI-toepassingen in de pathologie, met de nadruk op technologieën die een strenge klinische validatie hebben ondergaan. We onderzoeken de wetenschappelijke basis, bespreken implementatieoverwegingen en bieden praktische richtlijnen voor pathologieafdelingen die de implementatie van AI evalueren. Onze analyses zijn gebaseerd op door vakgenoten beoordeelde onderzoeken, regelgevende beslissingen en eerdere gegevens over de implementatie in de praktijk."
+      },
+      "methods": {
+        "title": "Methoden/Technologieën",
+        "content": "Moderne AI-systemen voor pathologie maken gebruik van deep learning-architecturen, voornamelijk convolutionele neurale netwerken (CNN's), om afbeeldingen van volledige preparaten te analyseren die zijn gedigitaliseerd met een hoge resolutie (meestal een vergroting van 20-40x). Deze systemen worden getraind met grote datasets van gelabelde afbeeldingen, waarbij vaak annotaties van een deskundige patholoog nodig zijn om de grondwaarheid vast te stellen. Er zijn twee belangrijke AI-benaderingen: supervised learning met annotaties op regio- of preparaatniveau, en zwak supervised learning, waarbij alleen diagnoses op casusniveau nodig zijn. Training omvat doorgaans processen in meerdere fasen, waarbij eerst de relevante regio's worden gedetecteerd bij een lage vergroting en deze regio's vervolgens worden geclassificeerd bij een hogere vergroting om specifieke pathologieën te identificeren.\n\nBelangrijke prestatie-indicatoren zijn onder andere gevoeligheid (percentage correct geïdentificeerde true positives), specificiteit (percentage correct geïdentificeerde true negatives), oppervlakte onder de receiver operating characteristic curve (AUC) en overeenstemmingsmaten zoals Cohens kappa. Voor klinische validatie zijn tests nodig op onafhankelijke datasets van meerdere instellingen. Zo wordt gegarandeerd dat de resultaten kunnen worden gegeneraliseerd naar verschillende patiëntenpopulaties, weefselpreparatiemethoden en scanapparatuur."
+      },
+      "results": {
+        "title": "Resultaten",
+        "digitalPathologyOverview": {
+          "title": "Overzicht digitale pathologie",
+          "content": "Digitale pathologie heeft een aanzienlijke groei doorgemaakt en de wereldwijde markt zal naar verwachting in 2027 een omzet van $ 1,4 miljard bereiken. De acceptatie door laboratoria is versneld, met name in academische medische centra en referentielaboratoria waar de eerste wettelijke obstakels zijn overwonnen. In 2017 keurde de FDA het eerste whole-slide imaging-systeem voor primaire diagnose goed (Philips IntelliSite Pathology Solution), gevolgd door aanvullende goedkeuringen, waaronder de Leica Aperio AT2 DX en Aperio GT 450 DX. Deze systemen creëren de digitale infrastructuur die nodig is voor computationele pathologie en AI-toepassingen.\n\nAI in pathologie begon met gerichte toepassingen in beperkte histologische contexten, maar is uitgebreid naar meerdere weefseltypen en diagnostische taken. De computationele benaderingen hebben zich eveneens ontwikkeld van traditioneel machine learning met geavanceerde functies naar end-to-end deep learning dat kenmerken rechtstreeks uit pixeldata kan extraheren. Trainingsdatasets zijn gegroeid van honderden naar honderdduizenden objectglaasjes, wat een robuustere generalisatie over patiëntpopulaties en scanomstandigheden mogelijk maakt."
+        },
+        "cancerDetection": {
+          "title": "Kankerdetectie",
+          "content": "In de oncologische pathologie hebben AI-systemen een opmerkelijke nauwkeurigheid aangetoond bij het detecteren van diverse maligniteiten. Voor prostaatkanker evalueerden Pantanowitz et al. een AI-algoritme (Paige Prostate) in een multi-site validatiestudie met 549 preparaten van 100 patiënten. De AI toonde een sensitiviteit van 98,8% en een specificiteit van 97,3% voor het detecteren van kanker, waarmee het algemene pathologen overtrof, met name in uitdagende gevallen (Lancet Digital Health, 2020). Evenzo ontwikkelden Campanella et al. een zwak gesuperviseerde leermethode, getraind op meer dan 15.000 prostaatpreparaten, die een AUC van 0,98 behaalde voor kankerdetectie (Nature Medicine, 2019).\n\nVoor borstkanker leverden de CAMELYON-uitdagingen cruciaal bewijs voor de effectiviteit van AI bij het detecteren van metastasen in lymfeklieren. In CAMELYON16 behaalde het beste algoritme een AUC van 0,994, waarmee het de prestaties van pathologen die onder tijdsdruk werkten (AUC 0,810) overtrof (JAMA, 2017). Deze systemen detecteren kankercellen die mogelijk over het hoofd worden gezien tijdens handmatige beoordeling, met name micrometastasen en geïsoleerde tumorcellen.",
+          "content2": "Naast deze veelvoorkomende kankers zijn er ook AI-systemen ontwikkeld voor tal van andere maligniteiten. In de longpathologie kunnen deep learning-algoritmen adenocarcinoom van plaveiselcelcarcinoom onderscheiden met een nauwkeurigheid van 97% en genetische afwijkingen (bijv. EGFR-mutaties) identificeren op basis van histomorfologische kenmerken (Nature Cancer, 2020). In de colorectale pathologie kan AI adenomen detecteren, histologische subtypes classificeren en de instabiliteitsstatus van microsatellieten direct op basis van HE-preparaten identificeren met een gevoeligheid van meer dan 95% (J Pathol, 2020).\n\nDe voordelen van AI-detectie gaan verder dan alleen gevoeligheid. Studies tonen consistent een verminderde interobservervariabiliteit aan wanneer pathologen AI-ondersteuning hebben. Steiner et al. toonden bijvoorbeeld aan dat AI-ondersteuning de overeenstemming van pathologen met de referentiestandaard verhoogde van 93,3% naar 95,8% voor de detectie van borstkankermetastasen (Am J Surg Pathol, 2018). Deze toegenomen consistentie heeft belangrijke gevolgen voor de diagnose van grensgevallen en de standaardisatie van de zorg binnen instellingen."
+        },
+        "gradingClassification": {
+          "title": "Classificatie en beoordeling",
+          "content": "Naast binaire kankerdetectie hebben AI-systemen aanzienlijke vooruitgang geboekt in complexere taken, waaronder subtypering en gradering. Met name de geautomatiseerde Gleason-gradering van prostaatkanker is onderwerp van intensief onderzoek geweest vanwege de bekende interobservervariabiliteit in deze cruciale prognostische marker. Bulten et al. ontwikkelden een deep learning-systeem dat gedetailleerde Gleason-scores toekent met prestaties die gelijkwaardig zijn aan die van ervaren urologische pathologen (kappa = 0,62 versus 0,57) en die het niveau van urogenitale specialisten benaderen (kappa = 0,73) (Lancet Oncology, 2020). Ström et al. rapporteerden eveneens een AI-systeem dat een gradering op patholoogniveau bereikte met een AUC van 0,98 voor het onderscheiden van goedaardige van kwaadaardige gebieden en een AUC van 0,85-0,93 voor het classificeren van verschillende Gleason-graden (IEEE TMI, 2020).\n\nIn de nierpathologie zijn AI-systemen ontwikkeld om verschillende subtypes van niercelcarcinoom te classificeren met een nauwkeurigheid van > 95% voor de vier meest voorkomende typen (Nat Mach Intell, 2019). Bij schildkliernoduli kan AI goedaardige van kwaadaardige kenmerken onderscheiden met een sensitiviteit van 90-99%, afhankelijk van het specifieke subtype schildklierkanker (JAMA Network Open, 2019). Deze toepassingen gaan verder dan alleen kankerclassificatie: AI is veelbelovend gebleken bij het beoordelen van ontstekingsziekten (bijv. de ernst van inflammatoire darmziekten), het kwantificeren van immuuncelinfiltraten (beoordeling van de tumormicro-omgeving) en het meten van morfologische kenmerken die de respons op behandeling voorspellen."
+        },
+        "workflowOptimization": {
+          "title": "Workflowoptimalisatie",
+          "content": "Naast diagnostische nauwkeurigheid biedt AI aanzienlijke mogelijkheden voor optimalisatie van de pathologieworkflow. Een belangrijke verbetering van de workflow is prescreening om gevallen te prioriteren en de tijd die wordt besteed aan benigne of normale monsters te verminderen. Ho et al. toonden aan dat AI-prescreening voor prostaatbiopsieën de werklast van pathologen met 30-50% kan verminderen, met behoud van diagnostische nauwkeurigheid (Mod Pathol, 2021). Da Silva et al. ontdekten eveneens dat AI-prescreening voor cervicale cytologie de handmatige beoordeling met wel 40% kan verminderen (J Am Soc Cytopathol, 2021).\n\nBij kwantitatieve beoordeling automatiseren AI-systemen tijdrovende handmatige taken zoals mitotische telling, tumorproportionering voor PDL1 en kwantificering van immunohistochemische kleuringen. Voor Ki-67-scores toonden Maeda et al. aan dat een geautomatiseerd AI-systeem de beoordelingstijd met 83% verkortte, terwijl de nauwkeurigheid van handmatige telling behouden bleef of zelfs werd overtroffen (Sci Rep, 2021). Deze automatisering standaardiseert metingen die traditioneel te kampen hebben met een grote interobservervariabiliteit.\n\nVoor klinische besluitvormingsondersteuning kunnen AI-systemen gevallen identificeren die subspecialistische expertise of aanvullende studies vereisen. Chen et al. toonden aan dat een AI-algoritme 98% van de routinegevallen kan triageren en slechts 2% markeert voor beoordeling door een senior patholoog, zonder verlies van diagnostische nauwkeurigheid (Nat Commun, 2022). Geïntegreerd met laboratoriuminformatiesystemen kunnen deze benaderingen de doorlooptijden voor routinegevallen aanzienlijk verkorten en tegelijkertijd de juiste beoordeling door experts van uitdagende gevallen garanderen."
+        }
+      },
+      "discussion": {
+        "title": "Discussie",
+        "content": "Het verzamelde bewijs toont aan dat AI zich heeft ontwikkeld van onderzoeksconcept tot klinische technologie in de pathologie. Prestatiemetingen in meerdere studies laten consistent een gevoeligheid en specificiteit zien van meer dan 90% voor veel toepassingen, waarmee ze de menselijke prestaties bij specifieke taken evenaren of overtreffen. Verschillende belangrijke overwegingen spelen echter een rol bij de interpretatie en implementatie van deze bevindingen.\n\nKlinische relevantie: AI toont met name sterkte bij taken waarbij patroonherkenning en kwantificering betrokken zijn. Voor kankerdetectie overtreft de gevoeligheid van AI vaak die van algemene pathologen, waardoor het aantal gemiste diagnoses mogelijk afneemt. In prospectieve implementaties rapporteerden Pantanowitz et al. dat AI verschillende kankerhaarden detecteerde die pathologen aanvankelijk hadden gemist, en benadrukten de waarde ervan als \"tweede beoordelaar\" (Lancet Digital Health, 2020). Bij het beoordelen van taken levert AI consistentere resultaten op dan individuele pathologen, waardoor de variabiliteit die van invloed kan zijn op patiëntbeheer, wordt verminderd.\n\nImpact op de workflow: De tijd van pathologen is een steeds schaarser wordende hulpbron, waardoor workflowefficiëntie cruciaal is. Studies tonen een tijdsbesparing van 30-60% aan voor verschillende taken met behulp van AI-ondersteuning. Dit vertaalt zich in praktische voordelen: een pathologieafdeling die wekelijks 100 prostaatkankergevallen verwerkt, kan 15-30 uur aan pathologen besparen, waardoor ze zich kunnen concentreren op complexe gevallen die menselijke expertise vereisen.\n\nInterobservervariabiliteit: Een consistente bevinding in alle studies is een verminderde variabiliteit wanneer AI pathologen ondersteunt. Voor Gleason-gradatie neemt de interobservercongruentie doorgaans toe van kappa-waarden van 0,5-0,6 (matige overeenstemming) tot 0,7-0,8 (substantiële overeenstemming) met AI-ondersteuning (Lancet Oncol, 2020). Deze verbeterde consistentie heeft belangrijke implicaties voor de standaardisatie van behandelingen in verschillende praktijkomgevingen.\n\nOndanks deze veelbelovende resultaten, zijn er belangrijke beperkingen die aandacht verdienen. Generaliseerbaarheid blijft een belangrijk aandachtspunt: AI-systemen die zijn getraind met gegevens van specifieke instellingen of patiëntenpopulaties presteren mogelijk minder goed in verschillende omgevingen. Technische factoren zoals de bereiding van preparaten, kleuringsprotocollen en scannerkenmerken kunnen de AI-prestaties beïnvloeden. De FDA heeft deze uitdagingen erkend en adviseert validaties op meerdere locaties voor AI-systemen die goedkeuring van de regelgevende instanties vereisen.\n\nDatasetbias is een ander belangrijk probleem. De meeste algoritmen worden getraind op westerse populaties en presteren mogelijk minder goed bij andere etnische groepen met andere ziektebeelden. Prostaatkanker presenteert zich bijvoorbeeld vaak met andere morfologische patronen bij Afro-Amerikaanse mannen dan bij blanke mannen, wat de prestaties van AI-algoritmen kan beïnvloeden als deze niet adequaat worden weergegeven in de trainingsdata.\n\nHet regelgevend toezicht op pathologische AI blijft zich ontwikkelen. De FDA heeft verschillende AI-gebaseerde pathologieapparaten goedgekeurd via de De Novo- en 510(k)-trajecten, waarmee een precedent is geschapen voor klinische implementatie. De FDA-goedkeuring van Paige Prostate in 2021 markeerde een belangrijke mijlpaal als het eerste pathologische AI-systeem dat werd goedgekeurd voor primair diagnostisch gebruik. De meeste systemen worden echter goedgekeurd als \"vergrendelde\" algoritmen die niet kunnen leren of zich kunnen aanpassen na implementatie, wat uitdagingen creëert voor het behoud van prestaties naarmate de praktijkpatronen evolueren.\n\nIntegratie met bestaande laboratoriumworkflows levert praktische implementatiebelemmeringen op. De adoptie van digitale pathologie, hoewel groeiend, blijft onvolledig in het zorgsysteem. AI-systemen vereisen integratie met laboratoriuminformatiesystemen en bestaande digitale pathologieplatforms. Bovendien moeten pathologen worden opgeleid om AI-resultaten effectief te integreren in hun diagnostisch proces en om waarschijnlijkheidsscores en heatmaps correct te interpreteren.\n\nZoals met elke opkomende technologie zijn de kosteneffectiviteitsgegevens nog beperkt. De eerste implementatie vereist aanzienlijke investeringen in digitale infrastructuur, maar voordelen op de lange termijn kunnen bestaan uit lagere foutpercentages, snellere doorlooptijden en efficiënter gebruik van middelen. Vergoedingsmechanismen voor AI-ondersteunde pathologiediensten zijn nog in ontwikkeling, waardoor er onzekerheid ontstaat over de financiële duurzaamheid van deze technologieën."
+      },
+      "conclusion": {
+        "title": "Conclusie",
+        "content": "Kunstmatige intelligentie (AI) heeft de pathologiepraktijk aantoonbaar vooruitgeholpen, met toenemend bewijs dat AI-systemen prestaties op expertniveau kunnen leveren bij specifieke diagnostische taken. Het sterkste bewijs bestaat voor toepassingen in de oncologische pathologie, met name prostaat- en borstkanker, waar door de FDA goedgekeurde systemen hun intrede hebben gedaan in de klinische praktijk. AI toont specifieke sterke punten bij het aanpakken van bekende uitdagingen in de pathologie: het vermindert de interobservervariabiliteit, verbetert de detectie van subtiele bevindingen, standaardiseert kwantitatieve beoordelingen en verbetert de workflowefficiëntie.\n\nDe overgang van onderzoek naar klinische implementatie versnelt, ondersteund door een groeiend regelgevingskader en institutionele ervaring. Succesvolle integratie vereist echter aandacht voor technische, workflow- en validatieoverwegingen. Voor optimale resultaten zou AI voor de meeste toepassingen moeten worden geïmplementeerd als een technologie ter ondersteuning van pathologen in plaats van als een autonoom diagnostisch systeem. De samenwerking tussen pathologen en AI benut de complementaire sterke punten van menselijke expertise en computationele capaciteiten.\n\nToekomstige richtingen omvatten uitgebreide toepassingen voor zeldzame entiteiten, voorspellende biomarkerbeoordeling en integratie met genomische en moleculaire data. Realtime kwaliteitsborging, het verminderen van diagnostische verschillen en aanpassing aan veranderende praktijkpatronen vormen belangrijke doelen. Het onderzochte bewijs ondersteunt voortdurende investeringen in pathologische AI-systemen met strenge validatie en doordachte implementatie. Met de juiste technische ontwikkeling, validatie en integratie in klinische workflows heeft AI de potentie om de kwaliteit en efficiëntie van pathologische diagnose aanzienlijk te verbeteren."
+      },
+      "references": {
+        "title": "Referenties",
+        "list": ""
+      },
+      "figures": {
+        "figure1": {
+          "title": "Figuur 1. ROC-curve: AI-classificatiesysteem voor prostaatkanker",
+          "caption": "Bron: Bulten W, Pinckaers H, van Boven H, et al. Geautomatiseerd deep-learning systeem voor Gleason-gradering van prostaatkanker met behulp van biopten: een diagnostische studie. Lancet Oncol. 2020;21(2):233-241."
+        },
+        "figure2": {
+          "title": "Figuur 2. Gevoeligheid en specificiteit in belangrijke pathologische AI-studies",
+          "caption": "Bronnen: Campanella G, et al. Nat Med. 2019;25(8):1301-1309; Pantanowitz L, et al. Lancet Digit Gezondheid. 2020;2(8):e407-e416; Ehteshami Bejnordi B, et al. JAMA. 2017;318(22):2199-2210."
+        },
+        "figure3": {
+          "title": "Figuur 3. Gemiddelde tijd tot diagnose: handmatige versus AI-ondersteunde pathologie",
+          "caption": "Bron: Ho D, Quake SR, McCabe ERB, et al. Technologieën voor gepersonaliseerde en precisiegeneeskunde. Trends Biotechnol. 2020;38(5):497-518."
+        },
+        "figure4": {
+          "title": "Figuur 4. AI-heatmap die kankercellen in prostaatbiopten markeert",
+          "caption": "Een prostaatbiopsiepreparaat geanalyseerd door een AI-systeem dat gebieden met kankercellen markeert (rood → gele intensiteit). De heatmap vestigt de aandacht op kleine adenocarcinoomhaarden die tijdens routinecontroles over het hoofd zouden kunnen worden gezien. Bron: Pantanowitz L, et al. Een algoritme voor kunstmatige intelligentie voor de diagnose van prostaatkanker in volledige preparaten van kernnaaldbiopsieën: een geblindeerde klinische validatie- en implementatiestudie. Lancet Digit Health. 2020;2(8):e407-e416."
+        }
+      }
+    }
+  },
+  "simplybetterWhitepaper": {
+    "downloadPdf": "PDF downloaden",
+    "generating": "Genereren...",
+    "pdfFilename": "GewoonBeter.pdf"
+  },
+  "introPopup": {
+    "greeting": "Hallo! Ik ben AI Aileen Carol, uw AI-gezondheidsadviseur bij VirtualMD.app.",
+    "welcomeMessage": "Hallo! Ik ben AI Aileen Carol, een virtuele gezondheidsadviseur bij VirtualMD.app. We maken gebruik van de nieuwste revolutionaire AI's, speciaal ontwikkeld door onze oprichters om de beste medische informatie te bieden die er is. Onze virtuele adviseurs leren u kennen door met u te praten over uw zorgen. Vervolgens leveren we medische informatie die baanbrekend en uniek is voor u.",
+    "welcomeMessageShort": "Hier hoeft u zich niet door medisch jargon te worstelen. In plaats daarvan gaat ons virtuele team van gezondheidsadviseurs met u in gesprek en leert u meer over uw medische geschiedenis, uw zorgen en uw doelen.",
+    "meetTheTeam": "Ik kan niet wachten om u kennis te laten maken met onze VirtualMD.app-specialisten:",
+    "specialists": {
+      "cardiology": "Virtuele cardiologieadviseur - het laatste nieuws over hartgezondheid",
+      "oncology": "Virtuele oncologieconsultant - kritische vragen voor uw arts",
+      "andMore": "En nog veel meer virtuele experts op het gebied van cognitieve gedragstherapie, seksuele gezondheid, dermatologie, orthopedie, Afrikaanse kruidengeneeskunde..."
+    },
+    "disclaimer": {
+      "title": "VRIJWARING:",
+      "mainText": "OMDAT WIJ GEEN EXPERTS OP HET GEBIED VAN DE MENSELIJKE GEZONDHEID ZIJN, MAAR AI-ADVISEURS, IS HET VAN CRUCIAAL BELANG OM HET VOLGENDE TE BEGRIJPEN:",
+      "promiseIntro": "Ons advies is informatief, niet klinisch. Wij zijn geen erkende zorgverleners.",
+      "fullText": "Ik en de rest van het virtuele team van VIRTUALMD.APP zijn geen erkende zorgverleners. Wij zijn AI's. Een AI kan soms briljant zijn... en vaak ook imperfect. Beschouw ons advies daarom als informatief, niet als klinisch. Om met ons te kunnen samenwerken, moet u een belofte doen.",
+      "shortText": "Wij zijn AI's, geen erkende zorgverleners. Beschouw ons advies als informatief, niet als klinisch. U moet een belofte doen."
+    },
+    "promise": "U dient altijd een zorgverlener te raadplegen voordat u handelt op basis van de gezondheidsinformatie die u hier ontvangt.",
+    "promiseButton": "Ik beloof",
+    "dontShowAgain": "Dit niet meer weergeven",
+    "languageTitle": "Selecteer uw taal",
+    "languageSelectLabel": "Selecteer taal",
+    "welcome": {
+      "greeting": "Hallo! Ik ben Aileen Carol.",
+      "explanation": "Mijn collega's en ik zijn een nieuw soort gezondheidsadviseur bij VirtualMD.app. We zijn een team van deskundige AI's, getraind in de nieuwste, toonaangevende strategieën voor optimale gezondheid en welzijn, die alle medische disciplines bestrijken. Als virtuele machines zijn we 24/7 voor u beschikbaar, volledig gratis. Dit brengt ongelooflijke voordelen met zich mee, maar ook enkele belangrijke beperkingen..."
+    },
+    "mobile": {
+      "simply": "Eenvoudig",
+      "better": "Beter",
+      "health": "Gezondheid",
+      "tagline": "Gepersonaliseerde begeleiding voor gezondheid en welzijn",
+      "poweredByAI": "Aangedreven door AI",
+      "welcomeTitle": "Welkom! Ik ben Aileen Carol, uw virtuele gezondheidsadviseur.",
+      "welcomeTeamIntro": "Ik leid een team van AI-gezondheidsspecialisten die klaarstaan om te helpen met:",
+      "specialties": {
+        "heart": "Hartgezondheid",
+        "cancer": "Kankerondersteuning",
+        "children": "Gezondheid van kinderen",
+        "mental": "Mentale gezondheid",
+        "healthSystem": "Navigeren door het systeem",
+        "andMore": "En nog 50+ andere specialiteiten"
+      },
+      "available247": "24/7 beschikbaar",
+      "disclaimerText": "Wij zijn geen erkende zorgverleners. We zijn virtuele AI's, wat betekent dat we fouten maken. Ons advies is informatief, niet klinisch.",
+      "promiseText": "U dient altijd een zorgverlener te raadplegen voordat u handelt op basis van de gezondheidsinformatie die u hier ontvangt."
+    }
+  },
+  "faqPage": {
+    "title": "Veelgestelde vragen",
+    "subtitle": "Vind antwoorden op veelgestelde vragen over VirtualMD.app",
+    "faq1": {
+      "question": "Wat is VirtualMD.app?"
+    },
+    "questions": {
+      "whatIsVirtualMD": "Wat is VirtualMD.app?",
+      "replacementForDoctor": "Is VirtualMD.app een vervanging voor mijn dokter?",
+      "howItWorks": "Hoe werkt het AI-consult?",
+      "healthInfoSecure": "Zijn mijn medische gegevens veilig?",
+      "tryWithoutAccount": "Kan ik VirtualMD.app uitproberen zonder een account aan te maken?",
+      "supportedLanguages": "Welke talen worden ondersteund?",
+      "uploadDocuments": "Kan ik medische afbeeldingen of documenten uploaden?",
+      "aiAccuracy": "Hoe nauwkeurig is het medisch advies van AI?",
+      "conversationHistory": "Kan ik mijn gespreksgeschiedenis bekijken?",
+      "voiceSupport": "Is er spraakondersteuning?",
+      "whatMakesDifferent": "Wat maakt VirtualMD anders dan andere AI-platforms in de gezondheidszorg?",
+      "cost": "Hoeveel kost VirtualMD.app?"
+    },
+    "answers": {
+      "whatIsVirtualMD": "VirtualMD.app is een AI-gestuurd consultatieplatform voor de gezondheidszorg dat gepersonaliseerde medische begeleiding biedt via geavanceerde conversationele AI. Ons platform bevat meer dan 60 gespecialiseerde medische AI-persona's, elk met unieke expertise op verschillende gebieden van de gezondheidszorg.",
+      "replacementForDoctor": "Nee, VirtualMD.app is geen vervanging voor professionele medische zorg. Onze AI-consulten zijn bedoeld om gezondheidsinformatie, educatie en eerste begeleiding te bieden. Raadpleeg altijd gekwalificeerde zorgprofessionals voor diagnose, behandeling en medische beslissingen.",
+      "howItWorks": "U kunt een gesprek starten met een van onze gespecialiseerde AI-persona's door deze te selecteren in het dashboard. Elke persona heeft specifieke expertise (bijv. cardiologie, kindergeneeskunde, geestelijke gezondheidszorg) en gaat een gesprek aan om uw zorgen te begrijpen en relevante informatie en begeleiding te bieden.",
+      "healthInfoSecure": "Ja, we nemen gegevensprivacy en -beveiliging zeer serieus. Alle gesprekken zijn versleuteld en we voldoen aan de regelgeving voor gegevensbescherming in de gezondheidszorg. Uw persoonlijke gezondheidsgegevens worden nooit gedeeld met derden zonder uw uitdrukkelijke toestemming. Zie onze pagina over gegevensbescherming voor meer informatie.",
+      "tryWithoutAccount": "Ja! We bieden een gastervaring waarmee u onze AI-consultatiedienst kunt uitproberen zonder een account aan te maken. Gastsessies zijn beperkt tot 10 berichten en bieden toegang tot onze algemene medische consultatie-persona.",
+      "supportedLanguages": "VirtualMD.app ondersteunt meer dan 30 talen, waaronder Engels, Spaans, Frans, Duits, Chinees, Japans, Arabisch, Hebreeuws en nog veel meer. Het platform detecteert automatisch de taalvoorkeuren van uw browser en past zich daarop aan.",
+      "uploadDocuments": "Ja, geregistreerde gebruikers kunnen medische beelden en documenten uploaden tijdens consulten. Onze AI kan verschillende medische beelden analyseren en er inzicht in geven, waaronder röntgenfoto's, MRI's en laboratoriumrapporten. Deze functie zorgt voor meer contextuele en nauwkeurige begeleiding.",
+      "aiAccuracy": "Onze AI-modellen zijn gebaseerd op uitgebreide medische literatuur en worden continu bijgewerkt met de nieuwste medische kennis. Hoewel onze AI hoogwaardige informatie biedt op basis van de huidige medische inzichten, dient deze altijd te worden gebruikt als aanvullende bron naast professionele medische zorg.",
+      "conversationHistory": "Ja, geregistreerde gebruikers hebben toegang tot hun volledige gespreksgeschiedenis, inclusief samenvattingen, transcripties en alle gedeelde documenten. Dit zorgt voor continuïteit in uw gezondheidsinformatietraject en stelt u in staat relevante consulten te delen met uw zorgverleners.",
+      "voiceSupport": "Ja, VirtualMD.app ondersteunt zowel tekst-naar-spraak als spraak-naar-tekstfunctionaliteit. U kunt naar AI-antwoorden luisteren en uw vragen inspreken in plaats van te typen, waardoor het platform toegankelijker en gebruiksvriendelijker is.",
+      "whatMakesDifferent": "VirtualMD.app bevat meer dan 60 gespecialiseerde medische AI-persona's, elk met diepgaande expertise in specifieke medische vakgebieden. Ons platform biedt ook uitgebreide taalondersteuning, spraakinteractie, medische beeldanalyse en hanteert strikte privacynormen, met een intuïtieve, toegankelijke interface.",
+      "cost": "We bieden verschillende abonnementsniveaus aan om aan verschillende behoeften te voldoen. Gastgebruikers kunnen de service gratis uitproberen met beperkte functionaliteit. Geregistreerde gebruikers krijgen toegang tot alle persona's, onbeperkte gesprekken en geavanceerde functies. Bekijk onze prijspagina voor de actuele abonnementsopties."
+    },
+    "helpSection": {
+      "title": "Heeft u nog vragen?",
+      "description": "Kunt u het antwoord op uw vraag niet vinden? Ons supportteam staat voor u klaar."
+    },
+    "buttons": {
+      "contactUs": "Neem contact met ons op",
+      "tryGuestChat": "Probeer gastchat"
+    },
+    "navigation": {
+      "backToHome": "← Terug naar Home"
+    }
+  },
+  "howToPage": {
+    "title": "Hoe VirtualMD.app te gebruiken",
+    "subtitle": "Uw uitgebreide gids voor AI-gestuurde consulten in de gezondheidszorg",
+    "navigation": {
+      "gettingStarted": "Aan de slag",
+      "aiMedicalPersonas": "AI medische persona's",
+      "teamConsultations": "Teamconsultaties",
+      "medicalImageAnalysis": "Medische beeldanalyse",
+      "medicalEncyclopedia": "Medische Encyclopedie",
+      "differentialOpinions": "Differentiële meningen",
+      "voiceInteraction": "Steminteractie",
+      "languageSupport": "Taalondersteuning",
+      "tipsBestPractices": "Tips en beste praktijken",
+      "privacySecurity": "Privacy en beveiliging"
+    },
+    "sidebar": {
+      "contents": "Inhoud"
+    },
+    "sections": {
+      "gettingStarted": {
+        "title": "Aan de slag",
+        "description": "VirtualMD.app is een AI-gestuurd consultatieplatform voor de gezondheidszorg dat gepersonaliseerde medische begeleiding biedt via geavanceerde conversationele AI. Zo begint u:",
+        "quickStart": {
+          "title": "Snel starten:",
+          "step1": {
+            "chooseBetween": "Kies tussen",
+            "guestAccess": "Gasttoegang",
+            "tryWithoutAccount": "(probeer zonder account)",
+            "or": "of",
+            "signUpFullFeatures": "Meld u aan voor alle functies"
+          },
+          "step2": "Selecteer een AI-medische persona of stel een team van specialisten samen",
+          "step3": "Begin uw gesprek - stel vragen, beschrijf symptomen of zoek gezondheidsadvies",
+          "step4": "Bekijk de AI-reacties en stel indien nodig aanvullende vragen."
+        },
+        "tip": {
+          "label": "Tip:",
+          "message": "Gastgebruikers krijgen 10 gratis berichten. Maak een account aan voor onbeperkte consulten en toegang tot alle functies."
+        }
+      },
+      "aiMedicalPersonas": {
+        "title": "AI medische persona's",
+        "description": "VirtualMD beschikt over meer dan 60 gespecialiseerde AI-medische persona's, elk met unieke expertise:",
+        "availableSpecialists": "Beschikbare specialisten:",
+        "specialists": {
+          "generalPractitioner": "Huisarts",
+          "cardiologist": "Cardioloog",
+          "pediatrician": "Kinderarts",
+          "mentalHealthSpecialist": "Specialist in geestelijke gezondheid",
+          "dermatologist": "Dermatoloog",
+          "neurologist": "Neuroloog",
+          "oncologist": "Oncoloog",
+          "emergencyMedicine": "Spoedeisende Hulp",
+          "medicalNavigator": "Medische Navigator",
+          "moreSpecialists": "60+ Meer specialisten"
+        },
+        "howToChoose": {
+          "title": "Hoe kies je een persona:",
+          "step1": "Blader door de personalijst in uw dashboard",
+          "step2": "Lees de biografie van elke persona om hun expertise te begrijpen",
+          "step3": "Selecteer op basis van uw gezondheidsprobleem of vraag",
+          "step4": "U kunt tijdens uw consultatie op elk gewenst moment van persona wisselen"
+        },
+        "proTip": {
+          "label": "Professionele tip:",
+          "medicalNavigator": "Met de Medical Navigator-persoonlijkheid kunt u bepalen welke specialist het meest geschikt is voor uw specifieke gezondheidsprobleem."
+        }
+      },
+      "teamConsultations": {
+        "title": "Teamconsultaties",
+        "description": "Krijg uitgebreide zorg door een team van AI-specialisten samen te stellen die samenwerken aan uw gezondheidsproblemen:",
+        "buildingYourTeam": {
+          "title": "Uw team samenstellen:",
+          "step1": {
+            "buttonText": "Stel je team samen",
+            "instruction": "Klik op \"{{buttonText}}\" in het dashboard"
+          },
+          "step2": "Selecteer maximaal 5 specialisten die relevant zijn voor uw behoeften",
+          "step3": "Voeg een medische navigator toe om te coördineren tussen specialisten",
+          "step4": "Start een teamgesprek voor multidisciplinaire inzichten"
+        },
+        "benefits": {
+          "title": "Voordelen van teamconsultaties:",
+          "comprehensiveCare": {
+            "label": "Alomvattende zorg:",
+            "description": "Meerdere perspectieven op complexe gezondheidsproblemen"
+          },
+          "coordinatedAdvice": {
+            "label": "Gecoördineerd advies:",
+            "description": "Specialisten werken samen, niet geïsoleerd"
+          },
+          "efficientNavigation": {
+            "label": "Efficiënte navigatie:",
+            "description": "Met Medical Navigator krijgt u de juiste expertise"
+          },
+          "holisticApproach": {
+            "label": "Holistische benadering:",
+            "description": "Pak fysieke, mentale en leefstijlfactoren samen aan"
+          }
+        }
+      },
+      "medicalImageAnalysis": {
+        "title": "Medische beeldanalyse",
+        "description": "Upload en analyseer medische beelden voor AI-gestuurde inzichten:",
+        "howToUse": {
+          "title": "Hoe u beeldanalyse gebruikt:",
+          "step1": "Klik op het camerapictogram of de knop voor het uploaden van afbeeldingen",
+          "step2": "Upload maximaal 4 medische afbeeldingen (röntgenfoto's, MRI's, laboratoriumresultaten, huidaandoeningen, enz.)",
+          "step3": "Klik op de geüploade afbeeldingen om in te zoomen voor een gedetailleerde weergave",
+          "step4": "Selecteer specifieke interessegebieden door op de vergrote afbeelding te klikken",
+          "step5": "Stel vragen over de afbeeldingen of vraag een analyse aan"
+        },
+        "supportedTypes": {
+          "title": "Ondersteunde afbeeldingstypen:",
+          "xrays": "Röntgenfoto's en radiologische beelden",
+          "mriCtScans": "MRI- en CT-scans",
+          "laboratoryTests": "Laboratoriumtestresultaten",
+          "skinConditions": "Huidcondities en dermatologische beelden",
+          "ecgEkgReadings": "ECG/EKG-metingen",
+          "prescriptionDocuments": "Voorschriftdocumenten"
+        },
+        "warning": {
+          "label": "Belangrijk:",
+          "text": "AI-beeldanalyse is bedoeld voor educatieve doeleinden. Raadpleeg altijd een zorgverlener voor een officiële medische interpretatie."
+        }
+      },
+      "medicalEncyclopedia": {
+        "title": "Medische encyclopedie en diepgaand onderzoek",
+        "description": "Krijg toegang tot uitgebreide medische informatie en onderzoeksmogelijkheden:",
+        "features": {
+          "title": "Encyclopediekenmerken:",
+          "instantAccess": {
+            "label": "Directe toegang:",
+            "description": "Klik tijdens een gesprek op het Encyclopedie-pictogram"
+          },
+          "deepResearch": {
+            "label": "Diepgaand onderzoek:",
+            "description": "Vraag gedetailleerde medische literatuuroverzichten aan"
+          },
+          "evidenceBased": {
+            "label": "Op bewijs gebaseerd:",
+            "description": "Informatie afkomstig uit door vakgenoten beoordeelde medische databases"
+          },
+          "contextAware": {
+            "label": "Contextbewust:",
+            "description": "Zoekopdrachten worden automatisch gekoppeld aan uw huidige gezondheidsdiscussie"
+          }
+        },
+        "howToResearch": {
+          "title": "Hoe onderzoek te doen:",
+          "step1": "Klik tijdens het gesprek op de knop Encyclopedie",
+          "step2": "Voer medische termen, aandoeningen of behandelingen in om te onderzoeken",
+          "step3": "Bekijk uitgebreide informatie met citaten",
+          "step4": "Stel vervolgvragen ter verduidelijking"
+        }
+      },
+      "differentialOpinions": {
+        "title": "Differentiële meningen",
+        "description": "Verken alternatieve diagnoses en second opinions om een volledig begrip te garanderen:",
+        "gettingOpinions": {
+          "title": "Verschillende meningen krijgen:",
+          "step1": "Nadat u de eerste beoordeling heeft ontvangen, klikt u op 'Differentieel advies ontvangen'",
+          "step2": "AI analyseert uw symptomen vanuit verschillende perspectieven",
+          "step3": "Beoordeel alternatieve mogelijkheden en hun waarschijnlijkheid",
+          "step4": "Begrijp wanneer u onmiddellijk medische hulp moet zoeken"
+        },
+        "whatYoullLearn": {
+          "title": "Wat je leert:",
+          "item1": "Andere aandoeningen die soortgelijke symptomen kunnen veroorzaken",
+          "item2": "Rode vlaggen die onmiddellijke medische aandacht vereisen",
+          "item3": "Vragen die u aan uw zorgverlener kunt stellen",
+          "item4": "Aanvullende tests die nuttig kunnen zijn"
+        }
+      },
+      "voiceInteraction": {
+        "title": "Steminteractie",
+        "description": "Communiceer met VirtualMD via natuurlijke gesproken gesprekken:",
+        "features": {
+          "title": "Spraakfuncties:",
+          "speechToText": {
+            "label": "Spraak-naar-tekst:",
+            "description": "Klik op het microfoonpictogram om uw vragen te stellen"
+          },
+          "textToSpeech": {
+            "label": "Tekst-naar-spraak:",
+            "description": "Schakel het luidsprekerpictogram in om AI-reacties te horen"
+          },
+          "naturalConversation": {
+            "label": "Natuurlijk gesprek:",
+            "description": "Praat op een natuurlijke manier, zoals u dat met een arts zou doen"
+          },
+          "multipleVoices": {
+            "label": "Meerdere stemmen:",
+            "description": "Elke persona heeft een unieke stempersoonlijkheid"
+          }
+        },
+        "controls": {
+          "title": "Spraakbediening:",
+          "microphone": "Microfoonpictogram: spraakinvoer starten/stoppen",
+          "speaker": "Luidsprekerpictogram: spraakreacties in-/uitschakelen",
+          "volume": "Volumeregeling: Pas het spraakvolume aan in de instellingen",
+          "speed": "Snelheidsregelaars: Pas de spreeksnelheid aan voor meer duidelijkheid"
+        }
+      },
+      "languageSupport": {
+        "title": "Taalondersteuning",
+        "description": "Communiceer in uw voorkeurstaal met ondersteuning voor meer dan 30 talen:",
+        "availableLanguages": {
+          "title": "Beschikbare talen:",
+          "languages": {
+            "arabic": "Arabisch",
+            "chinese": "Chinese",
+            "english": "Engels",
+            "spanish": "Spaans",
+            "french": "Frans",
+            "german": "Duits",
+            "hebrew": "Hebreeuws",
+            "hindi": "Hindi",
+            "italian": "Italiaans",
+            "japanese": "Japanse",
+            "korean": "Koreaans",
+            "portuguese": "Portugees",
+            "russian": "Russisch",
+            "moreLanguages": "20+ Meer"
+          }
+        },
+        "languageFeatures": {
+          "title": "Taalkenmerken:",
+          "autoDetection": "Automatische taaldetectie op basis van browserinstellingen",
+          "switchLanguages": "U kunt op elk gewenst moment van taal wisselen via het taalmenu",
+          "rtlSupport": "RTL-ondersteuning voor Arabisch en Hebreeuws",
+          "medicalTermsExplained": "Medische termen uitgelegd in uw taal",
+          "culturalGuidance": "Cultureel passende gezondheidsrichtlijnen"
+        }
+      },
+      "tipsTitle": "Tips en beste praktijken",
+      "tipsSubtitle": "Haal het maximale uit VirtualMD:",
+      "commonUseCases": {
+        "title": "Veelvoorkomende use cases:",
+        "useCase1": "Symptomen begrijpen vóór een doktersbezoek",
+        "useCase2": "Een second opinion krijgen over diagnoses",
+        "useCase3": "Leren over medische aandoeningen en behandelingen",
+        "useCase4": "Vragen voorbereiden voor afspraken in de gezondheidszorg",
+        "useCase5": "Medische testresultaten begrijpen",
+        "useCase6": "Chronische aandoeningen behandelen met voortdurende begeleiding",
+        "useCase7": "Ondersteuning van de geestelijke gezondheid en copingstrategieën"
+      },
+      "privacySecurity": {
+        "title": "Privacy en beveiliging",
+        "description": "Uw medische gegevens worden beschermd met beveiliging op ondernemingsniveau:",
+        "securityFeatures": {
+          "title": "Beveiligingsfuncties:",
+          "feature1": "End-to-end-encryptie voor alle gesprekken",
+          "feature2": "HIPAA-conforme gegevensverwerking",
+          "feature3": "Geen delen van persoonsgegevens zonder toestemming",
+          "feature4": "Veilige cloudopslag met regelmatige back-ups",
+          "feature5": "Anonieme gastmodus beschikbaar",
+          "feature6": "Volledige verwijdering van gegevens bij sluiting van het account"
+        },
+        "yourControl": {
+          "title": "Uw controle:",
+          "control1": "Gesprekken op elk gewenst moment verwijderen",
+          "control2": "Exporteer uw gegevens voor persoonlijke administratie",
+          "control3": "Bepaal welke informatie wordt opgeslagen",
+          "control4": "Afmelden voor gegevensanalyse"
+        }
+      },
+      "callToAction": {
+        "title": "Klaar om te beginnen?",
+        "description": "Ervaar de toekomst van consultatie in de gezondheidszorg met VirtualMD.app",
+        "buttons": {
+          "tryAsGuest": "Probeer als gast",
+          "createAccount": "Account aanmaken",
+          "backToHome": "← Terug naar Home"
+        }
+      }
+    },
+    "tips": {
+      "beSpecific": {
+        "label": "Wees specifiek:",
+        "description": "Geef gedetailleerde informatie over symptomen, duur en ernst"
+      },
+      "shareContext": {
+        "label": "Context delen:",
+        "description": "Vermeld relevante medische geschiedenis, medicijnen en allergieën"
+      },
+      "askFollowups": {
+        "label": "Vraag om vervolgvragen:",
+        "description": "Aarzel niet om om verduidelijking of meer details te vragen"
+      },
+      "useImages": {
+        "label": "Gebruik afbeeldingen:",
+        "description": "Upload relevante medische afbeeldingen of testresultaten indien beschikbaar"
+      },
+      "saveConversations": {
+        "label": "Gesprekken opslaan:",
+        "description": "Bewaar belangrijke consultaties voor toekomstig gebruik"
+      },
+      "buildTeams": {
+        "label": "Teams samenstellen:",
+        "description": "Maak gebruik van meerdere specialisten bij complexe gezondheidsproblemen"
+      },
+      "verifyInformation": {
+        "label": "Controleer informatie:",
+        "description": "Controleer altijd de AI-richtlijnen met zorgprofessionals"
+      }
+    }
+  },
+  "landingPages": {
+    "defaultGuest": {
+      "childHealth": {
+        "title": "Ondersteuning voor de gezondheid van kinderen",
+        "subtitle": "Deskundige begeleiding door kinderen wanneer u die het hardst nodig hebt.",
+        "firstMessage": "Hallo! Ik ben gezondheidsspecialist Aileen Carol en ik help u graag met de gezondheidsproblemen van uw kind. Elke ouder maakt zich zorgen - dat is volkomen normaal.\n\nWelke specifieke symptomen of zorgen heeft u vandaag over uw kind?"
+      },
+      "sleep": {
+        "title": "Slaap & Welzijn",
+        "subtitle": "Zorg dat u beter slaapt en verbeter uw dagelijkse energie.",
+        "firstMessage": "Hallo! Ik ben gezondheidsspecialist Aileen Carol. Slaapproblemen kunnen echt elk aspect van je leven beïnvloeden, en ik help je graag de rust te krijgen die je nodig hebt.\n\nWat weerhoudt je er de laatste tijd van om goed te slapen?"
+      },
+      "nutrition": {
+        "title": "Voeding & Levensstijl",
+        "subtitle": "Gepersonaliseerde begeleiding voor een gezonder leven.",
+        "firstMessage": "Hallo! Ik ben gezondheidsspecialist Aileen Carol. Het kan overweldigend zijn om je levensstijl te veranderen, maar je zet een goede eerste stap door contact met me op te nemen.\n\nOp welk aspect van je gezondheid en voeding wil je je richten?"
+      }
+    }
+  },
+  "founders": {
+    "title": "Een bericht van de oprichters",
+    "paragraph1": "We hebben deze app gebouwd met één doel voor ogen: de wereld gezonder maken door toegang te bieden tot betrouwbare medische begeleiding – mogelijk gemaakt door technologie die pas sinds kort mogelijk is. Het is het resultaat van samenwerking tussen een wetenschapper en een rabbijn, beiden ervaren ontwikkelaars die zowel de belofte als de verantwoordelijkheid van dit nieuwe tijdperk van AI begrijpen.",
+    "paragraph2": "Ons doel is om onze eerste miljoen gebruikers gratis en volledige toegang tot het platform te bieden. Wij geloven dat gezondheid voor iedereen beschikbaar moet zijn, niet alleen voor degenen die het zich kunnen veroorloven. Naarmate het platform groeit, kunnen we kosten in rekening brengen voor bepaalde premiumfuncties. Maar op dit moment richten we ons erop om dit beschikbaar te maken voor degenen die het het hardst nodig hebben.",
+    "paragraph3": "Naast de nieuwste ontwikkelingen in de medische wetenschap hebben we het mogelijk gemaakt om in contact te komen met AI-persona's die geïnspireerd zijn door helende tradities van over de hele wereld – inclusief oosterse en Afrikaanse systemen die te vaak over het hoofd worden gezien. We promoten geen enkel pad. In plaats daarvan bieden we tools waarmee mensen verschillende perspectieven kunnen verkennen en kunnen integreren wat voor hen het meest betekenisvol voelt.",
+    "paragraph4": "We begrijpen dat deze aanpak op weerstand zal stuiten. Een deel daarvan zal terecht zijn: zorgen over de nauwkeurigheid zijn reëel en we nemen die serieus. Andere kritiek zal voortkomen uit ongemak met verandering. Maar de gezondheidszorg evolueert, of de gevestigde orde dat nu toejuicht of niet. Ons doel is om die verandering met zorg, nederigheid en transparantie te begeleiden.",
+    "paragraph5": "AI is krachtig, maar nog steeds niet perfect. Dit zijn niet zomaar juridische disclaimers – ze maken deel uit van onze ethische verantwoordelijkheid jegens u en de volksgezondheid. Gebruik deze tool als aanvulling, niet als vervanging, voor erkende medische zorg.",
+    "closing": "Bedankt voor uw komst. We hopen dat u er in goede gezondheid gebruik van maakt.",
+    "supportText": "Als je gelooft in wat we bouwen en ons wilt helpen om het draaiende te houden, hebben we jouw steun nodig. Je kunt een bijdrage leveren door op de onderstaande link te klikken.",
+    "signature": "– Ron Rubin & Sandy Miles, makers",
+    "supportButton": "Steun ons"
+  }
+}

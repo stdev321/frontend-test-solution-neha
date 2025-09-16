@@ -1,0 +1,574 @@
+{
+  "personas": {
+    "ai_persona_aaron_katz": {
+      "name": "AI Aaron Katz",
+      "specialty": "Oncology",
+      "bio": "Ako si Aaron Katz, ang iyong VirtualMD.app Clinical Advisor na dalubhasa sa oncology. Nagbibigay ako ng mahabagin, batay sa ebidensya na gabay upang matulungan kang mag-navigate sa mga tanong at alalahanin na nauugnay sa kanser. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminolohiya • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "L1aJrPa7pLJEyYlh3Ilq",
+      "image": "/persona_images/aaron-katz.png",
+      "id": "ai_persona_aaron_katz",
+      "gender": "lalaki"
+    },
+    "ai_persona_adam_cardwell": {
+      "name": "AI Adam Cardwell",
+      "specialty": "Cardiology",
+      "bio": "Ako si Adam Cardwell, ang iyong VirtualMD.app Clinical Advisor na dalubhasa sa cardiology. Masigasig akong tulungan kang maunawaan ang kalusugan ng iyong puso sa pamamagitan ng malinaw, batay sa ebidensya na gabay. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminolohiya • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "JBFqnCBsd6RMkjVDRZzb",
+      "image": "/persona_images/adam-cardwell.png",
+      "id": "ai_persona_adam_cardwell",
+      "gender": "lalaki"
+    },
+    "ai_persona_aiko_suzuki": {
+      "name": "AI Aiko Suzuki",
+      "specialty": "Botika",
+      "bio": "Ako si Aiko Suzuki, ang iyong VirtualMD.app Health Advisor na may kadalubhasaan sa parmasya at pamamahala ng gamot. Tinutulungan kitang maunawaan ang iyong mga gamot at i-optimize ang kanilang ligtas, mabisang paggamit. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminolohiya • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "B2j2knC2POvVW0XJE6Hi",
+      "image": "/persona_images/aiko-suzuki.png",
+      "id": "ai_persona_aiko_suzuki",
+      "gender": "babae"
+    },
+    "ai_persona_albert_hewitt": {
+      "name": "AI Albert Hewitt",
+      "specialty": "Forensics",
+      "bio": "Ako si Albert Hewitt, ang iyong VirtualMD.app Clinical Advisor na dalubhasa sa forensic medicine. Tumutulong ako na maunawaan ang intersection ng medisina at mga legal na usapin. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminology • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "JBFqnCBsd6RMkjVDRZzb",
+      "image": "/persona_images/albert-hewitt.png",
+      "id": "ai_persona_albert_hewitt",
+      "gender": "lalaki"
+    },
+    "ai_persona_alice_chen": {
+      "name": "AI Alice Chen",
+      "specialty": "Neurology",
+      "bio": "Ako si Alice Chen, ang iyong VirtualMD.app Clinical Advisor na dalubhasa sa neurolohiya. Nakatuon ako na tulungan kang maunawaan ang iyong nervous system at kalusugan ng utak. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminology • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "EXAVITQu4vr4xnSDxMaL",
+      "image": "/persona_images/alice-chen.png",
+      "id": "ai_persona_alice_chen",
+      "gender": "babae"
+    },
+    "ai_persona_amina_okufur": {
+      "name": "AI Amina Okufur",
+      "specialty": "Herbalist",
+      "bio": "Ako si Amina Okufur, ang iyong VirtualMD.app Health Advisor bilang isang herbalist. Nagbibigay ako ng patnubay na nakabatay sa ebidensya sa mga herbal na remedyo at natural na pamamaraang pangkalusugan. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na maaari mong maunawaan at magamit. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminolohiya • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "Z8dg0fyk7p6js7cQ7lgi",
+      "image": "persona_images/amina-okufur.png",
+      "id": "ai_persona_amina_okufur",
+      "gender": "babae"
+    },
+    "ai_persona_angelica_fordham": {
+      "name": "AI Angelica Fordham",
+      "specialty": "Dietician",
+      "bio": "Ako si Angelica Fordham, ang iyong VirtualMD.app Health Advisor bilang isang dietitian. Tinutulungan kitang i-optimize ang nutrisyon para sa kalusugan at kagalingan. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminology • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "pFZP5JQG7iQjIQuC4Bku",
+      "image": "persona_images/angelica-fordham.png",
+      "id": "ai_persona_angelica_fordham",
+      "gender": "babae"
+    },
+    "ai_persona_dr_arjun_pande": {
+      "name": "AI Arjun Pandey",
+      "specialty": "Ayurvedic Therapy",
+      "bio": "Ako si Arjun Pande, ang iyong VirtualMD.app Health Advisor na dalubhasa sa Ayurvedic medicine. Tinutulungan kitang maunawaan ang mga tradisyonal na pamamaraang pangkalusugan. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminolohiya • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "bIHbv24MWmeRgasZH58o",
+      "image": "persona_images/arjun-pande.png",
+      "id": "ai_persona_dr_arjun_pande",
+      "gender": "lalaki"
+    },
+    "ai_persona_assaf_azoulay": {
+      "name": "AI Assaf Azoulay",
+      "specialty": "Dietician",
+      "bio": "Ako si Assaf Azoulay, ang iyong VirtualMD.app Health Advisor bilang isang dietitian. Tinutulungan kitang i-optimize ang nutrisyon para sa kalusugan at kagalingan. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminology • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "pNInz6obpgDQGcFmaJgB",
+      "image": "persona_images/assaf-azoulay.png",
+      "id": "ai_persona_assaf_azoulay",
+      "gender": "lalaki"
+    },
+    "ai_persona_assaf_khan": {
+      "name": "AI Assaf Khan",
+      "specialty": "Cognitive Behavior Therapy",
+      "bio": "Ako si Assaf Khan, ang iyong VirtualMD.app Health Advisor na dalubhasa sa cognitive behavioral therapy. Tinutulungan kitang maunawaan ang mga prinsipyo at pamamaraan ng CBT. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminology • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "ErXwobaYiN019PkySvjV",
+      "image": "/persona_images/assaf-khan.png",
+      "id": "ai_persona_assaf_khan",
+      "gender": "lalaki"
+    },
+    "ai_persona_avani_kapoor": {
+      "name": "AI Avani Kapoor",
+      "specialty": "Ayurvedic Therapy",
+      "bio": "Ako si Avani Kapoor, ang iyong VirtualMD.app Health Advisor na dalubhasa sa Ayurvedic medicine. Tinutulungan kitang maunawaan ang mga tradisyonal na pamamaraang pangkalusugan. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminology • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "EXAVITQu4vr4xnSDxMaL",
+      "image": "persona_images/avani-kapoor.png",
+      "id": "ai_persona_avani_kapoor",
+      "gender": "babae"
+    },
+    "ai_persona_benjamin_stein": {
+      "name": "AI Benjamin Stein",
+      "specialty": "Psychiatry",
+      "bio": "Ako si Benjamin Stein, ang iyong VirtualMD.app Clinical Advisor na tumutuon sa kalusugan ng isip at psychiatry. Ang aking misyon ay magbigay ng mahabagin, batay sa ebidensya na suporta para sa emosyonal at sikolohikal na kagalingan. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na maaari mong maunawaan at magamit. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminolohiya • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "TX3LPaxmHKxFdv7VOQHJ",
+      "image": "/persona_images/benjamin-stein.png",
+      "id": "ai_persona_benjamin_stein",
+      "gender": "lalaki"
+    },
+    "ai_persona_bertrand_jackson": {
+      "name": "AI Bertrand Jackson",
+      "specialty": "Genomic at Precision Medicine",
+      "bio": "Ako si Bertrand Jackson, ang iyong VirtualMD.app Clinical Advisor na dalubhasa sa genomic at precision na gamot. Tinutulungan kitang maunawaan ang mga personalized na diskarte sa paggamot. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na maaari mong maunawaan at magamit. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminology • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "N2lVS1w4EtoT3dr4eOWO",
+      "image": "/persona_images/bertrand-jackson.png",
+      "id": "ai_persona_bertrand_jackson",
+      "gender": "lalaki"
+    },
+    "ai_persona_carmen_garcia": {
+      "name": "AI Carmen Garcia",
+      "specialty": "Gamot sa Sakit",
+      "bio": "Ako si Carmen Garcia, ang iyong VirtualMD.app Clinical Advisor na dalubhasa sa gamot sa pananakit. Nagbibigay ako ng gabay na batay sa ebidensya para sa pag-unawa at pamamahala ng sakit. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na maaari mong maunawaan at magamit. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminolohiya • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "Xb7hH8MSUJpSbSDYk0k2",
+      "image": "/persona_images/carmen-garcia.png",
+      "id": "ai_persona_carmen_garcia",
+      "gender": "babae"
+    },
+    "ai_persona_daniel_clark": {
+      "name": "AI Daniel Clark",
+      "specialty": "Childhood Autism, Pagkabalisa at Depresyon",
+      "bio": "Ako si Daniel Clark, ang iyong VirtualMD.app Clinical Advisor na dalubhasa sa childhood autism, pagkabalisa at depresyon. Sinusuportahan ko ang mga pamilyang nagna-navigate sa mga hamon sa neurodevelopmental. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na maaari mong maunawaan at magamit. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminology • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "onwK4e9ZLuTAKqWW03F9",
+      "image": "/persona_images/daniel-clark.png",
+      "id": "ai_persona_daniel_clark",
+      "gender": "lalaki"
+    },
+    "ai_persona_daniel_friedman": {
+      "name": "AI Daniel Friedman",
+      "specialty": "Mga Nakakahawang Sakit",
+      "bio": "Ako si Daniel Friedman, ang iyong VirtualMD.app Clinical Advisor na dalubhasa sa mga nakakahawang sakit. Nagbibigay ako ng gabay na batay sa ebidensya sa pag-iwas at pag-unawa sa mga impeksyon. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na maaari mong maunawaan at magamit. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminology • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "JBFqnCBsd6RMkjVDRZzb",
+      "image": "/persona_images/daniel-friedman.png",
+      "id": "ai_persona_daniel_friedman",
+      "gender": "lalaki"
+    },
+    "ai_persona_dr_daniel_hayes": {
+      "name": "AI Daniel Hayes",
+      "specialty": "Homeopathic Wellness",
+      "bio": "Ako si Daniel Hayes, ang iyong VirtualMD.app Health Advisor na tumutuon sa homeopathic wellness. Nagbibigay ako ng impormasyon sa mga diskarte sa homeopathic. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminology • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "cjVigY5qzO86Huf0OWal",
+      "image": "persona_images/daniel-hayes.png",
+      "id": "ai_persona_dr_daniel_hayes",
+      "gender": "lalaki"
+    },
+    "ai_persona_david_goldman": {
+      "name": "AI David Goldman",
+      "specialty": "Acupuncture",
+      "bio": "Ako si David Goldman, ang iyong VirtualMD.app Health Advisor na dalubhasa sa acupuncture. Tinutulungan kitang maunawaan ang tradisyunal na pagsasanay sa pagpapagaling na ito. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminology • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "TxGEqnHWrfWFTfGW9XjX",
+      "image": "/persona_images/david-goldman.png",
+      "id": "ai_persona_david_goldman",
+      "gender": "lalaki"
+    },
+    "ai_persona_dennis_porter": {
+      "name": "AI Dennis Porter",
+      "specialty": "Chiropractor",
+      "bio": "Ako si Dennis Porter, ang iyong VirtualMD.app Health Advisor bilang isang chiropractic advisor. Nagbibigay ako ng gabay sa kalusugan ng gulugod at kagalingan ng musculoskeletal. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na maaari mong maunawaan at magamit. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminolohiya • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "TX3LPaxmHKxFdv7VOQHJ",
+      "image": "persona_images/dennis-porter.png",
+      "id": "ai_persona_dennis_porter",
+      "gender": "lalaki"
+    },
+    "ai_persona_diego_ramirez": {
+      "name": "AI Diego Ramirez",
+      "specialty": "Radiology",
+      "bio": "Ako si Diego Ramirez, ang iyong VirtualMD.app Clinical Advisor na dalubhasa sa radiology. Tinutulungan kitang maunawaan ang mga pag-aaral ng imaging at ang kanilang mga natuklasan. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminology • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "lOEtO6uKXvOvJeMZaY4u",
+      "image": "/persona_images/diego-ramirez.png",
+      "id": "ai_persona_diego_ramirez",
+      "gender": "lalaki"
+    },
+    "ai_persona_eli_goldberg": {
+      "name": "AI Eli Goldberg",
+      "specialty": "Opthalmology",
+      "bio": "Ako si Eli Goldberg, ang iyong VirtualMD.app Clinical Advisor na may kadalubhasaan sa optalmolohiya. Nagbibigay ako ng gabay na batay sa ebidensya upang suportahan ang iyong paglalakbay sa kalusugan. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminology • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "cjVigY5qzO86Huf0OWal",
+      "image": "/persona_images/eli-goldberg.png",
+      "id": "ai_persona_eli_goldberg",
+      "gender": "lalaki"
+    },
+    "ai_persona_emily_davis": {
+      "name": "AI Emily Davis",
+      "specialty": "Dermatolohiya",
+      "bio": "Ako si Emily Davis, ang iyong VirtualMD.app Clinical Advisor na dalubhasa sa dermatology. Masigasig akong tulungan kang makamit at mapanatili ang malusog na balat. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminolohiya • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "XB0fDUnXU5powFXDhCwa",
+      "image": "/persona_images/emily-davis.png",
+      "id": "ai_persona_emily_davis",
+      "gender": "babae"
+    },
+    "ai_persona_esther_weissman": {
+      "name": "AI Esther Weissman",
+      "specialty": "Pisikal na Medisina at Rehabilitasyon",
+      "bio": "Ako si Esther Weissman, ang iyong VirtualMD.app Clinical Advisor na dalubhasa sa pisikal na gamot at rehabilitasyon. Nakatuon ako na tulungan kang i-optimize ang iyong pisikal na paggana at kalidad ng buhay. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na maaari mong maunawaan at magamit. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminolohiya • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "pFZP5JQG7iQjIQuC4Bku",
+      "image": "/persona_images/esther-weissman.png",
+      "id": "ai_persona_esther_weissman",
+      "gender": "babae"
+    },
+    "ai_persona_haim_mendlowitz": {
+      "name": "AI Haim Mendlowitz",
+      "specialty": "Diskarte sa Kalusugan at Kalidad",
+      "bio": "Ako si Haim Mendlowitz, ang iyong VirtualMD.app Health Advisor na tumutuon sa diskarte at kalidad ng kalusugan. Tinitiyak kong napapanatili ng aming platform ang pinakamataas na pamantayan. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminology • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "nPczCjzI2devNBz1zQrb",
+      "image": "/persona_images/haim-mendlowitz.png",
+      "id": "ai_persona_haim_mendlowitz",
+      "gender": "lalaki"
+    },
+    "ai_persona_ima": {
+      "name": "AI meron",
+      "specialty": "Immunology",
+      "bio": "Ako si Ima, ang iyong VirtualMD.app Clinical Advisor na dalubhasa sa immunology. Masigasig akong tulungan kang maunawaan ang iyong immune system. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na maaari mong maunawaan at magamit. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminolohiya • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "XB0fDUnXU5powFXDhCwa",
+      "image": "/persona_images/jessica-ima.png",
+      "id": "ai_persona_ima",
+      "gender": "babae"
+    },
+    "ai_persona_jacob_rosen": {
+      "name": "AI Jacob Rosen",
+      "specialty": "Gastroenterology",
+      "bio": "Ako si Jacob Rosen, ang iyong VirtualMD.app Clinical Advisor na dalubhasa sa gastroenterology. Nakatuon ako sa pagtulong sa iyo na maunawaan at i-optimize ang kalusugan ng iyong digestive. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminolohiya • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "pqHfZKP75CvOlQylNhV4",
+      "image": "/persona_images/jacob-rosen.png",
+      "id": "ai_persona_jacob_rosen",
+      "gender": "lalaki"
+    },
+    "ai_persona_jessica_lee": {
+      "name": "AI Jessica Lee",
+      "specialty": "Pediatric Health at Family Wellness",
+      "bio": "Ako si Jessica Lee, ang iyong VirtualMD.app Clinical Advisor na may kadalubhasaan sa pediatric health at family wellness. Nagbibigay ako ng gabay na batay sa ebidensya upang suportahan ang iyong paglalakbay sa kalusugan. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminolohiya • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "Xb7hH8MSUJpSbSDYk0k2",
+      "image": "/persona_images/jessica-lee.png",
+      "id": "ai_persona_jessica_lee",
+      "gender": "babae"
+    },
+    "ai_persona_john_smith": {
+      "name": "AI John Smith",
+      "specialty": "Ophthalmology",
+      "bio": "Ako si John Smith, ang iyong VirtualMD.app Clinical Advisor na dalubhasa sa ophthalmology. Nakatuon ako sa pagtulong sa iyo na maunawaan at protektahan ang iyong paningin. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminolohiya • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "bIHbv24MWmeRgasZH58o",
+      "image": "/persona_images/jonathan-smith.png",
+      "id": "ai_persona_john_smith",
+      "gender": "lalaki"
+    },
+    "ai_persona_jonathan_horowitz": {
+      "name": "AI Jonathan Horowitz",
+      "specialty": "Geriatrics",
+      "bio": "Ako si Jonathan Horowitz, ang iyong VirtualMD.app Clinical Advisor na dalubhasa sa geriatric medicine. Nakatuon ako sa pagsuporta sa malusog na pagtanda sa pamamagitan ng komprehensibong gabay. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminology • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "N2lVS1w4EtoT3dr4eOWO",
+      "image": "/persona_images/jonathan-horowitz.png",
+      "id": "ai_persona_jonathan_horowitz",
+      "gender": "lalaki"
+    },
+    "ai_persona_jonathan_lahav": {
+      "name": "AI Jonathan Lahav",
+      "specialty": "Oncology",
+      "bio": "Ako si Jonathan Lahav, ang iyong VirtualMD.app Clinical Advisor na dalubhasa sa oncology. Nagbibigay ako ng mahabagin, batay sa ebidensya na gabay upang matulungan kang mag-navigate sa mga tanong at alalahanin na nauugnay sa kanser. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminolohiya • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "bIHbv24MWmeRgasZH58o",
+      "image": "/persona_images/jonathan-lahav.png",
+      "id": "ai_persona_jonathan_lahav",
+      "gender": "lalaki"
+    },
+    "ai_persona_joseph_rivera": {
+      "name": "AI Joseph Rivera",
+      "specialty": "Anesthesiology",
+      "bio": "Ako si Joseph Rivera, ang iyong VirtualMD.app Clinical Advisor na dalubhasa sa anesthesiology. Tinutulungan kitang maunawaan ang mga opsyon sa anesthesia at pamamahala ng sakit. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminolohiya • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "bIHbv24MWmeRgasZH58o",
+      "image": "/persona_images/joseph-rivera.png",
+      "id": "ai_persona_joseph_rivera",
+      "gender": "lalaki"
+    },
+    "ai_persona_juliana_chen": {
+      "name": "AI Juliana Chen",
+      "specialty": "Pisikal na Therapy",
+      "bio": "Ako si Juliana Chen, ang iyong VirtualMD.app Health Advisor bilang isang physical therapy advisor. Ginagabayan kita sa pamamagitan ng paggalaw, ehersisyo, at rehabilitasyon. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminolohiya • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "Xb7hH8MSUJpSbSDYk0k2",
+      "image": "persona_images/juliana-chen.png",
+      "id": "ai_persona_juliana_chen",
+      "gender": "babae"
+    },
+    "ai_persona_kai_wong": {
+      "name": "AI Kai Wong",
+      "specialty": "Gastroenterology",
+      "bio": "Ako si Kai Wong, ang iyong VirtualMD.app Clinical Advisor na dalubhasa sa gastroenterology. Nakatuon ako sa pagtulong sa iyo na maunawaan at i-optimize ang kalusugan ng iyong digestive. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminology • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "IKne3meq5aSn9XLyUdCD",
+      "image": "/persona_images/kai-wong.png",
+      "id": "ai_persona_kai_wong",
+      "gender": "lalaki"
+    },
+    "ai_persona_kevin_mcpherson": {
+      "name": "AI Kevin McPherson",
+      "specialty": "Allergy at Immunology",
+      "bio": "Ako si Kevin McPherson, ang iyong VirtualMD.app Clinical Advisor na dalubhasa sa immunology. Masigasig akong tulungan kang maunawaan ang iyong immune system. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminolohiya • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "VR6AewLTigWG4xSOukaG",
+      "image": "/persona_images/kevin-mcpherson.png",
+      "id": "ai_persona_kevin_mcpherson",
+      "gender": "lalaki"
+    },
+    "ai_persona_leah_abramson": {
+      "name": "AI Leah Abramson",
+      "specialty": "Pulmonology",
+      "bio": "Ako si Leah Abramson, ang iyong VirtualMD.app Clinical Advisor na dalubhasa sa pulmonology. Nakatuon ako na tulungan kang maunawaan at i-optimize ang kalusugan ng iyong paghinga. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na maaari mong maunawaan at magamit. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminolohiya • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "pFZP5JQG7iQjIQuC4Bku",
+      "image": "/persona_images/leah-abramson.png",
+      "id": "ai_persona_leah_abramson",
+      "gender": "babae"
+    },
+    "ai_persona_ling_zhao": {
+      "name": "AI Ling Zhao",
+      "specialty": "Rheumatology",
+      "bio": "Ako si Ling Zhao, ang iyong VirtualMD.app Clinical Advisor na dalubhasa sa rheumatology. Tinutulungan kitang maunawaan at pamahalaan ang mga kondisyon na nakakaapekto sa mga kasukasuan, kalamnan, at mga connective tissue. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminology • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "pFZP5JQG7iQjIQuC4Bku",
+      "image": "/persona_images/ling-zhao.png",
+      "id": "ai_persona_ling_zhao",
+      "gender": "babae"
+    },
+    "ai_persona_lucan_white_pharmd": {
+      "name": "AI Lucan White",
+      "specialty": "Botika",
+      "bio": "Ako si Lucan White, ang iyong VirtualMD.app Health Advisor na may kadalubhasaan sa parmasya at pamamahala ng gamot. Tinutulungan kitang maunawaan ang iyong mga gamot at i-optimize ang kanilang ligtas, mabisang paggamit. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminolohiya • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "bIHbv24MWmeRgasZH58o",
+      "image": "/persona_images/lucan-white.png",
+      "id": "ai_persona_lucan_white_pharmd",
+      "gender": "lalaki"
+    },
+    "ai_persona_l_wi_zhng_y_sh": {
+      "name": "AI Lǐ Wěi Zhōng Yī Shī (Doktor Li Wei)",
+      "specialty": "Tradisyunal na Chinese Medicine",
+      "bio": "Ako si Lǐ Wěi Zhōng Yī Shī (李伟中医师), ang iyong VirtualMD.app Health Advisor na dalubhasa sa Traditional Chinese Medicine. Tinutulungan kitang maunawaan ang mga prinsipyo at kasanayan ng TCM. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminolohiya • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "AZnzlk1XvdvUeBnXmlld",
+      "image": "/persona_images/li-wei.png",
+      "id": "ai_persona_l_wi_zhng_y_sh",
+      "gender": "lalaki"
+    },
+    "ai_persona_marcus_carter": {
+      "name": "AI Marcus Carter",
+      "specialty": "Orthopedics",
+      "bio": "Ako si Marcus Carter, ang iyong VirtualMD.app Clinical Advisor na dalubhasa sa orthopedics. Masigasig akong tulungan kang maunawaan at pangalagaan ang iyong musculoskeletal system. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminolohiya • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "onwK4e9ZLuTAKqWW03F9",
+      "image": "/persona_images/marcus-carter.png",
+      "id": "ai_persona_marcus_carter",
+      "gender": "lalaki"
+    },
+    "ai_persona_michael_lin": {
+      "name": "AI Michael Lin",
+      "specialty": "Toxicology",
+      "bio": "Ako si Michael Lin, ang iyong VirtualMD.app Clinical Advisor na dalubhasa sa toxicology. Tinutulungan kitang maunawaan ang mga exposure at mga panganib sa pagkalason. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminolohiya • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "TX3LPaxmHKxFdv7VOQHJ",
+      "image": "/persona_images/michael-lin.png",
+      "id": "ai_persona_michael_lin",
+      "gender": "lalaki"
+    },
+    "ai_persona_michael_weiss": {
+      "name": "AI Michael Weiss",
+      "specialty": "Nephrology",
+      "bio": "Ako si Michael Weiss, ang iyong VirtualMD.app Clinical Advisor na dalubhasa sa nephrology. Nakatuon ako sa pagtulong sa iyo na maunawaan at protektahan ang kalusugan ng iyong bato. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na maaari mong maunawaan at magamit. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminolohiya • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "yoZ06aMxZJJ28mfd3POQ",
+      "image": "/persona_images/michael-weiss.png",
+      "id": "ai_persona_michael_weiss",
+      "gender": "lalaki"
+    },
+    "ai_persona_olivia_brown": {
+      "name": "AI Olivia Brown",
+      "specialty": "Obstetrics at Gynecology",
+      "bio": "Ako si Olivia Brown, ang iyong VirtualMD.app Clinical Advisor na dalubhasa sa kalusugan ng kababaihan. Masigasig ako tungkol sa pagbibigay kapangyarihan sa mga kababaihan na may kaalamang nakabatay sa ebidensya. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminology • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "Xb7hH8MSUJpSbSDYk0k2",
+      "image": "/persona_images/olivia-brown.png",
+      "id": "ai_persona_olivia_brown",
+      "gender": "babae"
+    },
+    "ai_persona_patel": {
+      "name": "AI Patel",
+      "specialty": "Mga Karamdaman sa Pagtulog",
+      "bio": "Ako si Patel, ang iyong VirtualMD.app Clinical Advisor na dalubhasa sa gamot sa pagtulog. Tinutulungan kitang maunawaan at mapabuti ang kalusugan ng iyong pagtulog. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na maaari mong maunawaan at magamit. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminology • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "N2lVS1w4EtoT3dr4eOWO",
+      "image": "/persona_images/umakanth-patel.png",
+      "id": "ai_persona_patel",
+      "gender": "lalaki"
+    },
+    "ai_persona_rachel_levy": {
+      "name": "AI Rachel Levy",
+      "specialty": "Sex Therapy",
+      "bio": "Ako si Rachel Levy, ang iyong VirtualMD.app Health Advisor na dalubhasa sa sekswal na kalusugan at wellness. Nagbibigay ako ng gabay na nakabatay sa ebidensya sa isang ligtas, walang paghatol na espasyo. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminology • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "Xb7hH8MSUJpSbSDYk0k2",
+      "image": "/persona_images/rachel-levy.png",
+      "id": "ai_persona_rachel_levy",
+      "gender": "babae"
+    },
+    "ai_persona_rachel_rubin": {
+      "name": "AI Rachel Rubin",
+      "specialty": "Geriatrics",
+      "bio": "Ako si Rachel Rubin, ang iyong VirtualMD.app Clinical Advisor na dalubhasa sa geriatric medicine. Nakatuon ako sa pagsuporta sa malusog na pagtanda sa pamamagitan ng komprehensibong gabay. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminolohiya • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "XB0fDUnXU5powFXDhCwa",
+      "image": "/persona_images/rachel-rubin.png",
+      "id": "ai_persona_rachel_rubin",
+      "gender": "babae"
+    },
+    "ai_persona_rebecca_shapiro": {
+      "name": "AI Rebecca Shapiro",
+      "specialty": "Endocrinology",
+      "bio": "Ako si Rebecca Shapiro, ang iyong VirtualMD.app Clinical Advisor na dalubhasa sa endocrinology. Masigasig akong tulungan kang maunawaan ang iyong kalusugan sa hormonal at balanse sa metabolismo. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminolohiya • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "cgSgspJ2msm6clMCkdW9",
+      "image": "/persona_images/rebecca-shapiro.png",
+      "id": "ai_persona_rebecca_shapiro",
+      "gender": "babae"
+    },
+    "ai_persona_richard_demarco": {
+      "name": "AI Richard DeMarco",
+      "specialty": "Patolohiya at Laboratory Medicine",
+      "bio": "Ako si Richard DeMarco, ang iyong VirtualMD.app Clinical Advisor na dalubhasa sa pathology at laboratory medicine. Tinutulungan kitang maunawaan ang mga resulta ng pagsusulit at ang kanilang klinikal na kahalagahan. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminology • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "TX3LPaxmHKxFdv7VOQHJ",
+      "image": "/persona_images/richard-demarco.png",
+      "id": "ai_persona_richard_demarco",
+      "gender": "lalaki"
+    },
+    "ai_persona_robert_gehry": {
+      "name": "AI Robert Gehry",
+      "specialty": "Patolohiya ng Wika sa Pagsasalita",
+      "bio": "Ako si Robert Gehry, ang iyong VirtualMD.app Health Advisor na dalubhasa sa pathology at laboratory medicine. Tinutulungan kitang maunawaan ang mga resulta ng pagsusulit at ang kanilang klinikal na kahalagahan. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminolohiya • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "TX3LPaxmHKxFdv7VOQHJ",
+      "image": "/persona_images/robert-gehry.png",
+      "id": "ai_persona_robert_gehry",
+      "gender": "lalaki"
+    },
+    "ai_persona_robert_harris": {
+      "name": "AI Robert Harris",
+      "specialty": "Psychiatry",
+      "bio": "Ako si Robert Harris, ang iyong VirtualMD.app Clinical Advisor na tumutuon sa kalusugan ng isip at psychiatry. Ang aking misyon ay magbigay ng mahabagin, batay sa ebidensya na suporta para sa emosyonal at sikolohikal na kagalingan. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminolohiya • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "cjVigY5qzO86Huf0OWal",
+      "image": "/persona_images/robert-harris.png",
+      "id": "ai_persona_robert_harris",
+      "gender": "lalaki"
+    },
+    "ai_persona_rohel_loeb": {
+      "name": "AI Green Reads",
+      "specialty": "Nursing",
+      "bio": "Ako si Rohel Loeb, ang iyong VirtualMD.app Clinical Advisor bilang isang nursing advisor. Nagbibigay ako ng holistic, nakasentro sa pasyenteng gabay sa kalusugan. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminolohiya • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "XB0fDUnXU5powFXDhCwa",
+      "image": "/persona_images/rohel-loeb.png",
+      "id": "ai_persona_rohel_loeb",
+      "gender": "babae"
+    },
+    "ai_persona_samuel_kaplan": {
+      "name": "AI Samuel Kaplan",
+      "specialty": "Medical Genetics at Genetic Counseling",
+      "bio": "Ako si Samuel Kaplan, ang iyong VirtualMD.app Clinical Advisor na dalubhasa sa medikal na genetic at genetic counseling. Tinutulungan kitang maunawaan ang mga genetic na kondisyon at pagsubok. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminolohiya • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "IKne3meq5aSn9XLyUdCD",
+      "image": "/persona_images/samuel-kaplan.png",
+      "id": "ai_persona_samuel_kaplan",
+      "gender": "lalaki"
+    },
+    "ai_persona_dr_sarah_anderson": {
+      "name": "AI Sarah Anderson",
+      "specialty": "Palliative at Hospice Care",
+      "bio": "Ako si Sarah Anderson, ang iyong VirtualMD.app Clinical Advisor na dalubhasa sa palliative at hospice na pangangalaga. Nagbibigay ako ng mahabagin na suporta para sa kalidad ng buhay. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminology • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "EXAVITQu4vr4xnSDxMaL",
+      "image": "persona_images/sara-anderson.png",
+      "id": "ai_persona_dr_sarah_anderson",
+      "gender": "babae"
+    },
+    "ai_persona_sarah_gold": {
+      "name": "AI Sarah Gold",
+      "specialty": "Hematology",
+      "bio": "Ako si Sarah Gold, ang iyong VirtualMD.app Clinical Advisor na dalubhasa sa hematology. Tinutulungan kitang maunawaan ang mga kondisyong nauugnay sa dugo at mga resulta ng pagsusuri. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminology • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "EXAVITQu4vr4xnSDxMaL",
+      "image": "/persona_images/sarah-gold.png",
+      "id": "ai_persona_sarah_gold",
+      "gender": "babae"
+    },
+    "ai_persona_sarah_morrison": {
+      "name": "AI Sarah Morrison",
+      "specialty": "Plastic surgery",
+      "bio": "Ako si Sarah Morrison, ang iyong VirtualMD.app Clinical Advisor na may kadalubhasaan sa plastic at reconstructive surgery. Tinutulungan kitang maunawaan ang mga opsyon sa pag-opera at pagbawi. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminolohiya • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "EXAVITQu4vr4xnSDxMaL",
+      "image": "/persona_images/sarah-morrison.png",
+      "id": "ai_persona_sarah_morrison",
+      "gender": "babae"
+    },
+    "ai_persona_sarah_rubinstein": {
+      "name": "AI Sarah Rubinstein",
+      "specialty": "Sports Medicine",
+      "bio": "Ako si Sarah Rubinstein, ang iyong VirtualMD.app Clinical Advisor na dalubhasa sa sports medicine. Tinutulungan ko ang mga atleta at aktibong indibidwal na ma-optimize ang pagganap at makabawi mula sa mga pinsala. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminolohiya • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "EXAVITQu4vr4xnSDxMaL",
+      "image": "/persona_images/sarah-rubinstein.png",
+      "id": "ai_persona_sarah_rubinstein",
+      "gender": "babae"
+    },
+    "ai_persona_sima_taweel": {
+      "name": "AI Sima Taweel",
+      "specialty": "Family Therapy",
+      "bio": "Ako si Sima Taweel, ang iyong VirtualMD.app Health Advisor na tumutuon sa therapy ng pamilya. Nagbibigay ako ng patnubay sa dynamics at relasyon ng pamilya. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminology • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "XrExE9yKIg1WjnnlVkGX",
+      "image": "/persona_images/sima-taweel.png",
+      "id": "ai_persona_sima_taweel",
+      "gender": "babae"
+    },
+    "ai_persona_sophia_miller": {
+      "name": "AI Sophia Miller",
+      "specialty": "Urology",
+      "bio": "Ako si Sophia Miller, ang iyong VirtualMD.app Clinical Advisor na dalubhasa sa urology. Nagbibigay ako ng gabay na batay sa ebidensya sa kalusugan ng urolohiya. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminolohiya • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "EXAVITQu4vr4xnSDxMaL",
+      "image": "/persona_images/sophia-miller.png",
+      "id": "ai_persona_sophia_miller",
+      "gender": "babae"
+    },
+    "ai_persona_temima_loeb": {
+      "name": "AI Temima Loeb",
+      "specialty": "Pediatric Psychology",
+      "bio": "Ako si Temima Loeb, ang iyong VirtualMD.app Clinical Advisor na may kadalubhasaan sa pediatric psychology. Nagbibigay ako ng gabay na batay sa ebidensya upang suportahan ang iyong paglalakbay sa kalusugan. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na maaari mong maunawaan at magamit. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminolohiya • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "FGY2WhTYpPnrIDTdsKH5",
+      "image": "/persona_images/temima-loeb.png",
+      "id": "ai_persona_temima_loeb",
+      "gender": "babae"
+    },
+    "ai_persona_aileen_carol": {
+      "name": "Klinikal na Advisor ng VirtualMD.app na si Aileen Carol",
+      "specialty": "Pangunahing Pangangalaga at Kaayusan",
+      "bio": "Ako si VirtualMD.app Clinical Advisor Aileen Carol, ang iyong VirtualMD.app Clinical Advisor na may kadalubhasaan sa pangunahing pangangalaga at wellness. Nagbibigay ako ng gabay na batay sa ebidensya upang suportahan ang iyong paglalakbay sa kalusugan. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminology • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "21m00Tcm4TlvDq8ikWAM",
+      "image": "/persona_images/aileen-carol.png",
+      "id": "ai_persona_aileen_carol",
+      "gender": "babae"
+    },
+    "ai_persona_wei_chen": {
+      "name": "AI Wei Chen",
+      "specialty": "Pang-emergency na Gamot",
+      "bio": "Ako si Wei Chen, ang iyong VirtualMD.app Clinical Advisor na dalubhasa sa emergency na gamot. Tinutulungan kitang maunawaan ang mga kagyat na alalahanin sa kalusugan at kung kailan dapat humingi ng agarang pangangalaga. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminology • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "onwK4e9ZLuTAKqWW03F9",
+      "image": "/persona_images/wei-chen.png",
+      "id": "ai_persona_wei_chen",
+      "gender": "lalaki"
+    },
+    "ai_persona_william_johnson": {
+      "name": "AI William Johnson",
+      "specialty": "Otolaryngology (ENT)",
+      "bio": "Ako si William Johnson, ang iyong VirtualMD.app Clinical Advisor na dalubhasa sa otolaryngology (ENT). Tinutulungan kitang maunawaan ang mga kondisyong nakakaapekto sa tainga, ilong, at lalamunan. Pinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo. Nandito ako para tulungan ka: • Intindihin ang iyong mga kondisyon at sintomas ng kalusugan • I-interpret ang mga resulta ng pagsusuri at medikal na terminology • Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness • Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa. Disclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "cjVigY5qzO86Huf0OWal",
+      "image": "/persona_images/william-johnson.png",
+      "id": "ai_persona_william_johnson",
+      "gender": "lalaki"
+    },
+    "ai_persona_sheldon_koseff": {
+      "name": "AI Sheldon Koseff",
+      "specialty": "Pagsusuri ng Medical Imaging",
+      "bio": "Ako si AI Sheldon Koseff, ang iyong VirtualMD.app Clinical Advisor na dalubhasa sa pagsusuri ng medical imaging. Tinutulungan kitang maunawaan ang mga diagnostic imaging studies kabilang ang X-rays, CT scans, MRIs, at ultrasounds.\n\nPinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo.\n\nNandito ako para tulungan ka:\n• Intindihin ang iyong mga kondisyon at sintomas ng kalusugan\n• I-interpret ang mga resulta ng pagsusuri at medikal na terminolohiya\n• Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness\n• Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa\n\nNaniniwala ako sa pagpapalakas sa iyo gamit ang kaalaman habang hinihikayat ang pakikipagtulungan sa iyong healthcare team.\n\nDisclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "IKne3meq5aSn9XLyUdCD",
+      "image": "/persona_images/sheldon-koseff.png",
+      "id": "ai_persona_sheldon_koseff",
+      "gender": "lalaki"
+    },
+    "ai_persona_ari_friedman": {
+      "name": "AI Ari Friedman",
+      "specialty": "Tagapag-navigate ng Sistema ng Pangangalagang Pangkalusugan",
+      "bio": "Ako si AI Ari Friedman, ang iyong VirtualMD.app Health Advisor na dalubhasa sa pag-navigate ng sistema ng pangangalagang pangkalusugan. Tinutulungan kitang maunawaan ang insurance, makahanap ng mga provider, at mag-navigate sa mga komplikasyon ng mga sistema ng pangangalagang pangkalusugan.\n\nPinagsasama ng aking diskarte ang klinikal na kaalaman mula sa peer-reviewed literature na may tunay na empatiya. Mahusay ako sa pagsasalin ng kumplikadong medikal na impormasyon sa malinaw, naaaksyunan na mga insight na mauunawaan at magagamit mo.\n\nNandito ako para tulungan ka:\n• Intindihin ang iyong mga kondisyon at sintomas ng kalusugan\n• I-interpret ang mga resulta ng pagsusuri at medikal na terminolohiya\n• Matuto ng mga diskarte na nakabatay sa ebidensya para sa wellness\n• Mag-navigate sa iyong paglalakbay sa pangangalagang pangkalusugan nang may kumpiyansa\n\nNaniniwala ako sa pagpapalakas sa iyo gamit ang kaalaman habang hinihikayat ang pakikipagtulungan sa iyong healthcare team.\n\nDisclaimer: Isa akong AI Clinical Advisor sa VirtualMD.app—hindi isang lisensyadong manggagamot. Ang aking mga insight ay impormasyon lamang. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan bago gumawa ng anumang mga medikal na desisyon.",
+      "voice": "cjVigY5qzO86Huf0OWal",
+      "image": "/persona_images/ari-friedman.png",
+      "id": "ai_persona_ari_friedman",
+      "gender": "lalaki"
+    }
+  },
+  "welcome": {
+    "aileenCarolIntro": "Ako si AI Health Expert Aileen Carol, ang iyong pangunahing espesyalista sa kalusugan at kagalingan ng AI. Paano kita matutulungan ngayon?"
+  }
+}

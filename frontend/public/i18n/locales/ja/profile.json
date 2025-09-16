@@ -1,0 +1,27 @@
+{
+  "errors": {
+    "fileReadFailed": "ファイルの読み取りに失敗しました。",
+    "imageProcessFailed": "画像の処理に失敗しました。画像が破損しているか、サポートされていない形式である可能性があります。",
+    "invalidImageFile": "画像ファイルを選択してください。",
+    "loadingProfile": "プロフィールの読み込み中にエラーが発生しました:",
+    "noData": "利用できるプロフィールデータがありません。",
+    "saveFailed": "プロフィールを保存できませんでした。もう一度お試しください。"
+  },
+  "healthInfo": {
+    "conditions": "条件：",
+    "date": " （日付： ",
+    "diagnosed": "（診断：",
+    "ended": "（終了しました：",
+    "medicalEvents": "健康イベント:",
+    "medications": "医薬品:",
+    "notAvailable": "該当なし",
+    "notes": "注記:",
+    "started": "（開始："
+  },
+  "loading": {
+    "profile": "プロフィールを読み込んでいます..."
+  },
+  "success": {
+    "profileUpdated": "プロフィールが正常に更新されました。"
+  }
+}

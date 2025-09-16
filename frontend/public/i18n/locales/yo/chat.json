@@ -1,0 +1,715 @@
+{
+  "actions": {
+    "startConsultation": "Bẹrẹ Ijumọsọrọ Ilera",
+    "endConsultation": "Ijumọsọrọ ipari",
+    "returnToConsultation": "Pada si Ijumọsọrọ",
+    "newConversation": "Bẹrẹ Ibaraẹnisọrọ Tuntun",
+    "saveConversation": "Fi ibaraẹnisọrọ pamọ",
+    "deleteConversation": "Pa ibaraẹnisọrọ rẹ",
+    "getSummary": "Gba Lakotan",
+    "getTranscript": "Gba Tiransikiripiti",
+    "getDifferentialOpinion": "Gba Ero Iyatọ",
+    "exportChat": "Iwiregbe okeere",
+    "clearChat": "Ko iwiregbe kuro"
+  },
+  "audio": {
+    "aiMuted": "AI dakẹjẹẹ",
+    "aiUnmuted": "AI Audio Lori",
+    "playbackFailed": "Kuna lati mu ohun dun",
+    "generationFailed": "Kuna lati ṣe ipilẹṣẹ ọrọ"
+  },
+  "sidebar": {
+    "personaList": "Yan Ọjọgbọn Ilera Rẹ",
+    "conversations": "Awọn ibaraẹnisọrọ Mi",
+    "profile": "Profaili Mi",
+    "settings": "Eto",
+    "manageTeam": "Ṣakoso Ẹgbẹ",
+    "teamBuilder": "AI Ẹgbẹ Akole",
+    "encyclopedia": "Encyclopedia",
+    "bio": "Ọjọgbọn Bio",
+    "clickForBio": "Tẹ fun Bio",
+    "clickToSpeak": "Tẹ lati sọrọ si Oludamoran",
+    "summary": "Ijumọsọrọ Lakotan",
+    "transcript": "Tiransikiripiti ibaraẹnisọrọ",
+    "imageContext": "Ọrọ Aworan",
+    "newConversation": "Ijumọsọrọ tuntun"
+  },
+  "tooltips": {
+    "audioOnlyRegistered": "Ohun nikan wa fun awọn olumulo ti o forukọsilẹ."
+  },
+  "messages": {
+    "typeMessage": "Tẹ ifiranṣẹ rẹ si ibi ...",
+    "send": "Firanṣẹ",
+    "thinking": "N ronu...",
+    "processing": "Nṣiṣẹ...",
+    "connecting": "Nsopọ...",
+    "connected": "Ti sopọ",
+    "disconnected": "Ge asopọ",
+    "typing": "{{name}} n tẹ...",
+    "messageError": "Kuna lati fi ifiranṣẹ ranṣẹ",
+    "retryMessage": "Tun gbiyanju",
+    "requestToSpeak": "Jọwọ jẹ ki n sọrọ si {{name}}",
+    "messageDeleted": "Ifiranṣẹ ti paarẹ",
+    "systemMessage": "Ifiranṣẹ eto"
+  },
+  "personas": {
+    "defaultName": "Ilera Amoye Aileen Carol",
+    "defaultSpecialty": "Onimọran ilera",
+    "selectPersona": "Yan Ọjọgbọn Ilera",
+    "noPersonasAvailable": "Ko si awọn alamọdaju ilera ti o wa",
+    "personaDetails": "Ọjọgbọn Awọn alaye",
+    "specialization": "Pataki",
+    "experience": "Iriri",
+    "education": "Ẹkọ",
+    "certifications": "Awọn iwe-ẹri",
+    "languages": "Awọn ede",
+    "availableNow": "Wa Bayi",
+    "loading": "Nkojọpọ awọn akosemose..."
+  },
+  "personaSearch": {
+    "placeholder": "Ṣewadii nipasẹ orukọ, pataki, tabi ṣapejuwe awọn aami aisan rẹ (fun apẹẹrẹ, orififo, aibalẹ)",
+    "selected": "Ti yan",
+    "noResults": "Ko si awọn onimọran ti a rii fun \"{{query}}\"",
+    "searchSuggestions": "Gbiyanju lati wa: orififo, aibalẹ, irora, oorun, àtọgbẹ, ati bẹbẹ lọ."
+  },
+  "configurator": {
+    "title": "Bẹrẹ Ijumọsọrọ Ilera Tuntun",
+    "subtitle": "Yan lati Ẹgbẹ Ilera AI rẹ",
+    "changeTeam": "Yi Egbe pada",
+    "starting": "Bibẹrẹ...",
+    "startConsult": "Bẹrẹ Ijumọsọrọ",
+    "emptyTeam": "Ẹgbẹ Ilera AI rẹ ti ṣofo",
+    "addSpecialists": "Ṣafikun awọn alamọja si ẹgbẹ rẹ",
+    "noOtherSpecialists": "Ko si awọn alamọja miiran ninu ẹgbẹ rẹ. O le iwiregbe pẹlu AI Health Amoye Carol tabi",
+    "addSpecialistsLink": "fi ojogbon si rẹ egbe",
+    "defaultPersona": {
+      "name": "AI Health Amoye Aileen Carol",
+      "role": "Oludamoran Ilera AI akọkọ mi"
+    },
+    "carolNote": {
+      "title": "Akiyesi lori Ikopa Ilera AI Carol:",
+      "ruleA": "A. Amoye Ilera AI Carol wa ninu ti 0 tabi 2+ awọn alamọja miiran ti yan lati inu ẹgbẹ rẹ.",
+      "ruleB": "B. Amoye ilera AI Carol ko si pẹlu ti o ba yan alamọja 1 miiran lati ẹgbẹ rẹ."
+    }
+  },
+  "conversations": {
+    "noConversations": "Ko si awọn ibaraẹnisọrọ sibẹsibẹ",
+    "untitled": "Ifọrọranṣẹ ti ko ni akole",
+    "today": "Loni",
+    "yesterday": "Lana",
+    "thisWeek": "Ose yi",
+    "lastWeek": "Ose ti o koja",
+    "older": "Agbalagba",
+    "editTitle": "Akọle Ṣatunkọ",
+    "saveTitle": "Fi akọle pamọ",
+    "cancelEdit": "fagilee Ṣatunkọ",
+    "deleteConsultation": "Pa Ijumọsọrọ rẹ",
+    "clickToReturn": "Tẹ lati pada si ijumọsọrọ",
+    "deleteConfirm": "Ṣe o da ọ loju pe o fẹ pa ibaraẹnisọrọ yii rẹ bi?",
+    "deleteSuccess": "Ibaraẹnisọrọ paarẹ ni aṣeyọri",
+    "loadingConversations": "Nkojọpọ awọn ibaraẹnisọrọ...",
+    "conversationError": "Aṣiṣe ikojọpọ ibaraẹnisọrọ",
+    "consultationsTitle": "Awọn ijumọsọrọ",
+    "lastUpdate": "Imudojuiwọn to kẹhin: {{ọjọ}}",
+    "consultationDefault": "Ijumọsọrọ {{id}}",
+    "noConsultationsYet": "Ko si ijumọsọrọ sibẹsibẹ.",
+    "noPastConsultations": "Ko si awọn ijumọsọrọ ti o kọja ti a rii."
+  },
+  "participants": {
+    "noParticipants": "Ko si awọn alabaṣepọ lati ṣafihan.",
+    "inThisConsult": "Ninu Ijumọsọrọ Foju yii:"
+  },
+  "team": {
+    "myTeam": "Egbe Ilera Mi",
+    "addToTeam": "Fi si Egbe",
+    "removeFromTeam": "Yọ kuro lati Ẹgbẹ",
+    "teamFull": "Ẹgbẹ rẹ ti kun",
+    "maxTeamSize": "Iwọn ẹgbẹ ti o pọju ti de ({{max}} awọn ọmọ ẹgbẹ)",
+    "currentTeam": "Awọn ọmọ ẹgbẹ lọwọlọwọ",
+    "buildTeam": "Kọ Ẹgbẹ Rẹ",
+    "teamRecommendations": "AI Egbe Awọn iṣeduro",
+    "acceptRecommendation": "Gba Iṣeduro",
+    "getRecommendations": "Gba AI Awọn iṣeduro",
+    "teamBuilder": "AI Ẹgbẹ Akole",
+    "addTeamMembersInstruction": "Ṣafikun awọn ọmọ ẹgbẹ ẹgbẹ nipa tite lori kaadi ni apa ọtun.",
+    "maxTeamSizeNote": "O pọju ti awọn alamọran AI marun ni a le ṣafikun si ẹgbẹ rẹ. O le yi ẹgbẹ rẹ pada nigbakugba, ṣugbọn kii ṣe lakoko ijumọsọrọ kan.",
+    "startConsultationWithTeam": "Bẹrẹ ijumọsọrọ pẹlu ẹgbẹ rẹ",
+    "manageTeamTitle": "Ṣakoso Ẹgbẹ Ilera AI Mi (Max {{max}} Awọn alamọja)",
+    "removeSpecialistToUseTeamBuilder": "Jọwọ yọkuro o kere ju alamọja kan lati lo awọn iṣeduro kikọ ẹgbẹ ti AI Amoye Ilera Carol",
+    "aileenCarolRecommendTeam": "Ṣe Amoye Ilera AI Carol ṣeduro ẹgbẹ ilera rẹ",
+    "teamFullRemoveToUseBuilder": "Ẹgbẹ rẹ ti kun. Jọwọ yọkuro o kere ju alamọja kan lati lo ile ẹgbẹ AI.",
+    "yourCurrentTeam": "Ẹgbẹ Rẹ lọwọlọwọ ({{lọwọlọwọ}}/{{max}})",
+    "updatingTeam": "Nmu egbe dojuiwọn...",
+    "coordinator": "Alakoso",
+    "alwaysIncluded": "Nigbagbogbo pẹlu",
+    "specialist": "Ogbontarigi",
+    "teamEmptyAddBelow": "Ẹgbẹ pataki rẹ ti ṣofo. Ṣafikun awọn alamọja ni isalẹ.",
+    "teamFullRemoveMember": "Ẹgbẹ rẹ ti kun (Max {{max}} ojogbon). Jọwọ yọ ọmọ ẹgbẹ kan kuro ti o ba fẹ lati ṣafikun alamọja ti o yatọ.",
+    "addMembersClickCard": "Fi awọn ọmọ ẹgbẹ kun nipa tite lori kaadi ni agbegbe akọkọ",
+    "teamLead": "Asiwaju Ẹgbẹ",
+    "currentMember": "Omo egbe lọwọlọwọ",
+    "analyzingNeeds": "Ṣiṣayẹwo awọn iwulo rẹ...",
+    "emergencyDetected": "🚨 Awari Pajawiri",
+    "backToSafety": "Pada si Aabo",
+    "recommendedTeam": "Niyanju Health Team",
+    "completeTeam": "Ẹgbẹ pipe ({{count}} awọn ọmọ ẹgbẹ)",
+    "teamLeadReason": "Alakoso ilera akọkọ",
+    "keepingMembers": "Awọn ọmọ ẹgbẹ lọwọlọwọ (Itọju)",
+    "newRecommendations": "Titun Awọn iṣeduro",
+    "aileenCarolReasoning": "Onimọran ilera AI Carol Idi:",
+    "noMatchingSpecialists": "Ko si awọn alamọja ti o baamu ti a rii fun awọn iṣeduro AI. O le gbiyanju lẹẹkansi tabi pẹlu ọwọ kọ ẹgbẹ rẹ.",
+    "medicalDisclaimerTitle": "Imọran Ilera & Nini alafia:",
+    "medicalDisclaimerText": "Syeed yii n pese imọran ilera ati itọsọna ṣugbọn ko le rọpo ilera alamọdaju. Nigbagbogbo kan si awọn alamọdaju ilera ti o peye fun awọn pajawiri tabi awọn ifiyesi ilera to ṣe pataki.",
+    "applyingTeam": "Egbe ti nbere...",
+    "acceptTeam": "Gba Egbe Yii",
+    "tryDifferent": "Gbiyanju Awọn iṣeduro oriṣiriṣi",
+    "cancel": "Fagilee",
+    "myVirtualMDTeam": "Mi VirtualMD.app Egbe",
+    "availableSpecialists": "Awọn alamọja ilera AI ti o wa",
+    "clickToAddInstruction": "Tẹ kaadi kan lati ṣafikun si ẹgbẹ rẹ ({{lọwọlọwọ}}/{{max}} ti a yan). Awọn alamọja ti a yan ṣe afihan baaji “Ti a yan” kan.",
+    "teamFullInstruction": "Ẹgbẹ rẹ ti kun. Yọ ọmọ ẹgbẹ kan kuro lati ṣafikun alamọja ti o yatọ.",
+    "selected": "Ti yan",
+    "teamFullBadge": "Egbe Full",
+    "allSpecialistsAdded": "Gbogbo awọn alamọja ti o wa ni a ti ṣafikun si ẹgbẹ rẹ.",
+    "otherSpecialists": "Miiran Specialists",
+    "specialistsCount": "{{count}} ojogbon",
+    "startTeamConsult": "Bẹrẹ Ijumọsọrọ Ẹgbẹ",
+    "starting": "Bibẹrẹ...",
+    "myAIHealthTeam": "Ẹgbẹ Ilera AI mi",
+    "addMembersInstruction": "Ṣafikun awọn ọmọ ẹgbẹ ẹgbẹ nipa tite lori kaadi ni apa ọtun."
+  },
+  "specialistCategories": {
+    "diabetesBloodSugar": "Àtọgbẹ & suga ẹjẹ",
+    "weightManagement": "àdánù Management",
+    "mentalHealthStress": "Opolo Health & Wahala",
+    "cancerSupport": "Akàn Support",
+    "heartHealth": "Ilera okan",
+    "painManagement": "Iṣakoso irora",
+    "digestiveIssues": "Awọn ọrọ Digestion",
+    "sleepProblems": "Awọn iṣoro orun",
+    "skinProblems": "Awọn iṣoro awọ ara",
+    "womensHealth": "Ilera Obirin",
+    "childrensHealth": "Awọn ọmọde Ilera",
+    "agingSeniorHealth": "Ti ogbo & Ilera Agba",
+    "nutritionDiet": "Ounjẹ & Ounjẹ",
+    "allergiesImmuneSystem": "Ẹhun & Ajesara System",
+    "breathingLungIssues": "Mimi & Awọn ọran ẹdọfóró",
+    "sportsFitnessInjuries": "Idaraya & Awọn ipalara Amọdaju",
+    "easternAlternativeMedicine": "Eastern & Nini alafia Yiyan",
+    "cosmeticBeautyMedicine": "Kosimetik & Ẹwa Nini alafia",
+    "anxietyHelp": "Iranlọwọ aniyan",
+    "medicationPharmacy": "Oogun & Ile elegbogi",
+    "primaryCareGeneralHealth": "Itọju akọkọ & Ilera gbogbogbo",
+    "medicalSpecialties": "Ilera & Nini alafia Pataki"
+  },
+  "dialogs": {
+    "exitConsultation": "Jade Ijumọsọrọ",
+    "exitMessage": "Ṣe o da ọ loju pe o fẹ jade kuro ni ijumọsọrọ yii?",
+    "saveAndExit": "Fipamọ & Jade",
+    "exitWithoutSaving": "Jade Laisi Nfipamọ",
+    "cancel": "Fagilee",
+    "confirm": "Jẹrisi",
+    "logout": "Jade jade",
+    "logoutMessage": "O wa lọwọlọwọ ijumọsọrọ kan. Wọle jade yoo pari. Kini o fẹ lati ṣe?",
+    "deleteConversation": "Pa ibaraẹnisọrọ rẹ",
+    "deleteMessage": "Iṣe yii ko le ṣe atunṣe. Ṣe o da ọ loju?",
+    "summarizeFirst": "Ṣe o fẹ lati ni akojọpọ ṣaaju ki o to jade?",
+    "summarizing": "Ipilẹṣẹ akojọpọ...",
+    "summaryGenerated": "Akopọ ti ipilẹṣẹ ni aṣeyọri",
+    "doneAlready": "Ti ṣe tẹlẹ?",
+    "doneAlreadyMessage": "A wa nibi nigbakugba ti o nilo wa. Titi di igba naa, ni ilera, dun!",
+    "doneAlreadySignature": "Gbogbo wa (eniyan ati AI) ni VirtualMD.app",
+    "exitConsultationButton": "Jade Ijumọsọrọ",
+    "editTitle": "Ṣatunkọ akọle ibaraẹnisọrọ",
+    "conversationTitleLabel": "Akọle ibaraẹnisọrọ",
+    "save": "Fipamọ",
+    "deleteTitle": "Pa ibaraẹnisọrọ rẹ",
+    "deleteConfirmation": "Ṣe o da ọ loju pe o fẹ pa ibaraẹnisọrọ naa rẹ ti akole \"{{title}}\"?",
+    "delete": "Paarẹ",
+    "multiDeleteTitle": "Pa Awọn ijumọsọrọ ti o yan",
+    "multiDeleteConfirmation": "Ṣe o da ọ loju pe o fẹ paarẹ {{count}} ijumọsọrọpọ ti a yan bi? Iṣe yii ko le ṣe atunṣe.",
+    "deleteSelected": "Pa ti a ti yan",
+    "addSpecialistTitle": "Fi Specialist to Wiregbe",
+    "addSpecialistError": "Ko le kojọpọ awọn oludamoran rẹ.",
+    "noAdvisersToAdd": "Gbogbo awọn oludamọran ilera AI ti o yan ti wa tẹlẹ ninu iwiregbe yii, tabi atokọ rẹ ti ṣofo (laisi awọn olukopa lọwọlọwọ).",
+    "longRecording": {
+      "title": "Gbigbasilẹ Gigun Daduro",
+      "message": "A ko le ṣe igbasilẹ diẹ sii ju ọgbọn-aaya 30 laisi fifiranṣẹ. Kini o fẹ lati ṣe?",
+      "delete": "Paarẹ",
+      "transcribeToText": "Ṣe igbasilẹ si ọrọ",
+      "transcribeAndSend": "Ṣe igbasilẹ & firanṣẹ"
+    },
+    "finishConsultationTitle": "Pari Ijumọsọrọ?",
+    "generatingSummary": "Jọwọ duro lakoko ti a ṣe agbekalẹ akopọ ijumọsọrọ rẹ…",
+    "finishConsultationMessage": "Eyi yoo pari igba iwiregbe ti nṣiṣe lọwọ. Ṣe o da ọ loju?",
+    "summarizeAndFinish": "Akopọ & Pari",
+    "leaveWithoutSummarizing": "Fi silẹ laisi akopọ",
+    "summarize": "Ṣe akopọ",
+    "moreInfoTitle": "Alaye diẹ sii Nilo",
+    "moreInfoMessage": "Ibaraẹnisọrọ yii kuru ju lati ṣe agbekalẹ akojọpọ to nilari tabi ero iyatọ. Jọwọ tẹsiwaju ijiroro naa titi iwọ o fi ni o kere ju awọn ọrọ 150 ti akoonu ibaraẹnisọrọ.",
+    "ok": "O DARA",
+    "deleteSuccessTitle": "Ibaraẹnisọrọ Parẹ",
+    "deleteSuccessMessage": "Ibaraẹnisọrọ rẹ ti paarẹ ni aṣeyọri.",
+    "logoutTitle": "Ma binu lati ri ti o lọ",
+    "aiHealthSpecialist": "Alamọja AI ilera akọkọ ati ilera rẹ",
+    "aileenCarol": "AI Health Amoye Carol",
+    "aiHealthAssistant": "AI Health Iranlọwọ",
+    "deleteAndExit": "Paarẹ & Jade",
+    "summaryTitle": "Ijumọsọrọ Lakotan",
+    "consultationTitle": "Imọran VirtualMD: {{akọle}}",
+    "summaryUnavailable": "Akopọ ti wa ni ipilẹṣẹ tabi ko si.",
+    "print": "Titẹ sita",
+    "copy": "Daakọ",
+    "close": "Sunmọ",
+    "shortConv": {
+      "title": "Ibaraẹnisọrọ ti pari",
+      "messageLine1": "Ifọrọwanilẹnuwo ti pari. O ti kuru ju lati fipamọ, ṣugbọn wa lẹẹkansi laipẹ.",
+      "messageLine2": "Titi di igba naa, ni ilera, jẹ ki inu rẹ dun."
+    }
+  },
+  "errors": {
+    "connectionError": "Aṣiṣe asopọ. Jọwọ ṣayẹwo asopọ intanẹẹti rẹ.",
+    "serverError": "Aṣiṣe olupin. Jọwọ gbiyanju lẹẹkansi nigbamii.",
+    "authenticationError": "Ijeri kuna. Jọwọ buwolu wọle lẹẹkansi.",
+    "messageFailedToSend": "O kuna lati firanṣẹ",
+    "loadingFailed": "Kuna lati kojọpọ akoonu",
+    "personaUnavailable": "Ọjọgbọn ilera yii ko si lọwọlọwọ",
+    "conversationNotFound": "Ko ri ibaraẹnisọrọ",
+    "permissionDenied": "O ko ni igbanilaaye lati wọle si ibaraẹnisọrọ yii",
+    "failedToLogin": "Kuna lati buwolu wọle.",
+    "failedToRegister": "Kuna lati forukọsilẹ.",
+    "failedToLogout": "Kuna lati jade.",
+    "emailAlreadyTaken": "Imeeli yii ti gba tẹlẹ. Jọwọ gbiyanju miiran tabi wọle.",
+    "anErrorOccurred": "Aṣiṣe kan ṣẹlẹ.",
+    "selectImageFile": "Jọwọ yan faili aworan kan.",
+    "failedToSaveProfile": "Kuna lati fi profaili pamọ. Jọwọ gbiyanju lẹẹkansi.",
+    "teamIsFull": "Ẹgbẹ rẹ ti kun (Max {{max}} ojogbon). Jọwọ yọ ọmọ ẹgbẹ kan kuro ti o ba fẹ lati ṣafikun alamọja ti o yatọ.",
+    "selectOneSpecialist": "Jọwọ yan alamọja kan nikan fun ijumọsọrọ aladani.",
+    "contactErrorMessage": "Aṣiṣe waye lakoko fifiranṣẹ ifiranṣẹ rẹ. Jọwọ gbiyanju lẹẹkansi nigbamii tabi",
+    "contactDirectlyAt": "O tun le fi imeeli ranṣẹ si wa taara ni info@virtuald.app"
+  },
+  "welcome": {
+    "title": "Kaabo si VirtualMD.app",
+    "subtitle": "Bẹrẹ ijumọsọrọ ilera ti ara ẹni",
+    "description": "Yan lati ẹgbẹ wa ti awọn oludamọran ilera ti agbara AI lati gba awọn oye ilera ti ara ẹni ati itọsọna.",
+    "getStarted": "Bẹrẹ",
+    "chooseSpecialist": "Yan Rẹ Specialist",
+    "startWithTeam": "Bẹrẹ pẹlu Ẹgbẹ mi",
+    "howItWorks": "Bawo ni O Nṣiṣẹ",
+    "aileenCarolName": "AI Health Amoye Aileen Carol",
+    "danielGarciaName": "Amoye ilera AI Daniel Garcia",
+    "greeting": "Kaabo, {{orukọ olumulo}}. Nitorina o dara lati ri ọ! Ẹgbẹ VirtualMD rẹ ti ṣetan 24/7 lati ṣe iranlọwọ…",
+    "startTeamConsultation": "Bẹrẹ Ijumọsọrọ Ẹgbẹ",
+    "configureNewChat": "Tunto Iwiregbe Tuntun",
+    "encyclopedia": "VirtualMD.app Encyclopedia",
+    "myAIHealthTeam": "Ẹgbẹ Ilera AI mi",
+    "aileenCarolIntro": "Kaabo, Mo jẹ Amoye Ilera AI Aileen Carol. Bawo ni MO ṣe le ran ọ lọwọ loni?",
+    "persona_welcome_message": "Kaabo, Mo wa nibi lati ṣe iranlọwọ pẹlu ilera ati awọn iwulo ilera rẹ. Bawo ni MO ṣe le ran ọ lọwọ loni?"
+  },
+  "imageUpload": {
+    "dragAndDrop": "Fa ati ju awọn aworan silẹ nibi, tabi tẹ lati yan",
+    "supportedFormats": "Awọn ọna kika atilẹyin: JPG, PNG, GIF",
+    "maxSize": "Iwọn to pọju: {{size}}MB",
+    "uploadSuccess": "Aworan ti kojọpọ ni aṣeyọri",
+    "uploadError": "Kuna lati po si aworan",
+    "processing": "Aworan ti n ṣiṣẹ...",
+    "removeImage": "Yọ aworan kuro",
+    "addToContext": "Ṣafikun ọrọ sisọ"
+  },
+  "voice": {
+    "startRecording": "Bẹrẹ gbigbasilẹ ohun",
+    "stopRecording": "Duro gbigbasilẹ",
+    "recording": "Gbigbasilẹ...",
+    "processingSpeech": "Nṣiṣẹ ọrọ sisọ...",
+    "speechToText": "Yiyipada ọrọ si ọrọ...",
+    "noSpeechDetected": "Ko si ọrọ ti a rii",
+    "microphoneError": "Aṣiṣe wiwọle gbohungbohun",
+    "unsupportedBrowser": "Gbigbasilẹ ohun ko ṣe atilẹyin ni ẹrọ aṣawakiri yii"
+  },
+  "summary": {
+    "title": "Ijumọsọrọ Lakotan",
+    "keyPoints": "Awọn koko bọtini",
+    "recommendations": "Awọn iṣeduro",
+    "nextSteps": "Next Igbesẹ",
+    "followUp": "Ran leti",
+    "generating": "Ipilẹṣẹ akojọpọ...",
+    "noSummary": "Ko si akopọ ti o wa",
+    "summaryError": "Kuna lati ṣe ipilẹṣẹ akojọpọ",
+    "downloadSummary": "Download Lakotan",
+    "emailSummary": "Imeeli Lakotan",
+    "return": "Pada",
+    "transcript": "Tiransikiripiti",
+    "print": "Titẹ sita",
+    "copy": "Daakọ",
+    "copyError": "Kuna lati daakọ",
+    "notGenerated": "Akopọ ko le ṣe ipilẹṣẹ."
+  },
+  "status": {
+    "online": "Online",
+    "offline": "Aisinipo",
+    "away": "Kuro",
+    "busy": "Nšišẹ lọwọ",
+    "available": "Wa",
+    "unavailable": "Ko si",
+    "lastSeen": "Ti a rii kẹhin {{akoko}}"
+  },
+  "mobileTeamBuilder": {
+    "title": {
+      "yourTeam": "Ẹgbẹ rẹ",
+      "teamBuilder": "AI Ẹgbẹ Akole"
+    },
+    "carolMessages": {
+      "teamFull": "{{name}}, ẹgbẹ rẹ ti kun! O le bẹrẹ ijumọsọrọ pẹlu ẹgbẹ rẹ lọwọlọwọ tabi yọ awọn ọmọ ẹgbẹ kan kuro lati gba awọn iṣeduro tuntun.",
+      "helpBuild": "{{name}}, Emi yoo nifẹ lati ran ọ lọwọ lati kọ ẹgbẹ ilera pipe rẹ! Sọ fun mi kini o mu ọ wa sihin loni."
+    },
+    "carolGreeting": {
+      "teamFull": "Hi {{oruko}}! Ẹgbẹ rẹ ti kun.",
+      "helpBuild": "Hi {{oruko}}! Emi yoo ran ọ lọwọ lati kọ ẹgbẹ ilera pipe rẹ."
+    },
+    "currentTeam": "Ẹgbẹ lọwọlọwọ ({{lọwọlọwọ}}/{{max}})",
+    "aiSpecialist": "AI {{orukọ}}",
+    "specialist": "Ogbontarigi",
+    "startConversation": "Bẹrẹ Ibaraẹnisọrọ pẹlu Ẹgbẹ yii",
+    "tellUsWhy": "Sọ fun wa idi ti o fi wa nibi loni ki a le ṣẹda ẹgbẹ ilera pipe rẹ.",
+    "placeholder": "Ṣe apejuwe awọn ifiyesi ilera rẹ, awọn ami aisan, tabi ohun ti o fẹ iranlọwọ pẹlu…",
+    "questionnaire": {
+      "question": "Kini o mu wa si ibi loni?",
+      "keepExisting": "Jeki awọn ọmọ ẹgbẹ ti o wa tẹlẹ bi?",
+      "existingMembers": "Awọn ọmọ ẹgbẹ ti o wa tẹlẹ",
+      "currentSize": "Iwọn ẹgbẹ lọwọlọwọ",
+      "availableSpots": "Awọn aaye to wa fun awọn alamọja tuntun",
+      "maxRecommendations": "O pọju awọn iṣeduro laaye"
+    }
+  },
+  "mobileNavigationTabs": {
+    "consultation": "Ijumọsọrọ",
+    "team": "Egbe",
+    "history": "Itan",
+    "encyclopedia": "Encyclopedia"
+  },
+  "autoListening": {
+    "turnOn": "Tan gbigbọ-laifọwọyi",
+    "turnOff": "Pa igbọran aifọwọyi"
+  },
+  "speech": {
+    "processing": "Ọrọ sisọ",
+    "pauseListening": "Tẹ lati Sinmi gbigbọ",
+    "turnOnListening": "Tẹ lati Tan Gbigbe"
+  },
+  "help": {
+    "howDoesThisWork": "Bawo ni eleyi se nsise?",
+    "chatControls": "Awọn iṣakoso iwiregbe",
+    "enterToSend": "Tẹ tabi ▷ lati firanṣẹ",
+    "shiftEnterToSpeak": "Shift+Tẹ sii tabi 🎤/⏸ lati sọrọ/danuduro"
+  },
+  "fileUpload": {
+    "clickToUpload": "Tẹ lati gbe faili (O le ju awọn faili silẹ sinu iwiregbe paapaa)"
+  },
+  "send": {
+    "transcribeAndSend": "Ṣe igbasilẹ ati firanṣẹ",
+    "sendMessage": "Firanṣẹ ifiranṣẹ"
+  },
+  "aileenCarol": {
+    "playAnalysis": "Play Health Amoye Carol ká onínọmbà",
+    "stopAnalysis": "Da Health Amoye Carol ká onínọmbà"
+  },
+  "profile": {
+    "editProfile": "Profaili Ṣatunkọ",
+    "saveChanges": "Fipamọ awọn iyipada",
+    "cancelEdits": "Fagilee awọn atunṣe",
+    "changePhoto": "Yi Fọto pada",
+    "removePhoto": "Yọ Fọto kuro",
+    "healthInfoTooltip": "Jọwọ kọ tabi ṣe atokọ awọn oogun, awọn iwadii aisan, awọn afikun ati awọn nkan pataki ilera miiran nipa rẹ.",
+    "loadingProfile": "Nkojọpọ profaili...",
+    "errorLoadingProfile": "Aṣiṣe ikojọpọ profaili",
+    "noProfileData": "Ko si data profaili to wa.",
+    "myProfile": "Profaili Mi",
+    "myAccount": "Account Mi",
+    "displayName": "Fi oruko han",
+    "fullName": "Akokun Oruko",
+    "email": "Imeeli",
+    "emailCannotBeChanged": "Imeeli ko le yipada.",
+    "keyHealthInfo": "Alaye Ilera bọtini",
+    "noHealthInfoRecorded": "Ko si alaye ilera bọtini ti o gbasilẹ.",
+    "healthInfoPlaceholder": "Ṣe atokọ awọn oogun, awọn iwadii, awọn afikun, ati bẹbẹ lọ.",
+    "age": "Ọjọ ori",
+    "gender": "abo"
+  },
+  "imageContext": {
+    "clearZoom": "Ko yiyan sun-un yii kuro",
+    "cropPromotionError": "Kuna lati firanṣẹ ati fi aworan ti a sun-un kun. Ṣayẹwo console.",
+    "startConversationToSend": "Bẹrẹ ibaraẹnisọrọ lati fi sun-un ranṣẹ",
+    "sendZoomToTeam": "Fi sun-un yii ranṣẹ si ẹgbẹ naa",
+    "noActiveZoom": "Ko si sun-un lọwọ lati firanṣẹ. Jọwọ yan agbegbe kan lori aworan kan.",
+    "functionsUnavailable": "Ko le firanṣẹ sun: Awọn iṣẹ pataki ko si.",
+    "noImages": "Ko si awọn aworan ni ọrọ-ọrọ. Po si aworan lati bẹrẹ.",
+    "allHidden": "Gbogbo awọn aworan ti wa ni ipamọ lọwọlọwọ. Tẹ eekanna atanpako ninu akọsori lati fi aworan han.",
+    "showFirst": "Ṣe afihan Aworan akọkọ",
+    "imageDisplay": "Ifihan Aworan ({{ifihan}} ti a fihan / {{lapapọ}} lapapọ)",
+    "hideImage": "Fi aworan pamọ",
+    "showImage": "Ṣe afihan aworan",
+    "zoomPreview": "Awotẹlẹ Sun-un",
+    "sendToTeam": "Firanṣẹ si Ẹgbẹ",
+    "dragToZoom": "Tẹ ki o si fa aworan kan loke lati yan agbegbe sun-un titun kan."
+  },
+  "mobileChat": {
+    "healthConsult": "Ijumọsọrọ Ilera",
+    "speakToAI": "Sọ fun {{orukọ}}",
+    "startConversation": "Bẹrẹ ibaraẹnisọrọ rẹ ni isalẹ",
+    "requestToSpeakToAI": "Emi yoo fẹ lati ba {{name}} sọrọ"
+  },
+  "mobileWelcome": {
+    "greeting": "Hi!",
+    "aileenCarolIntro": "Emi ni AI Aileen Carol, alamọja ilera akọkọ rẹ. Mo nireti lati mọ ọ. Emi ni alabojuto ẹgbẹ VirtualMD.app AI ti awọn amoye ilera. A ti ṣetan lati ṣe iranlọwọ 24/7 ...",
+    "startConsultation": "Bẹrẹ Ijumọsọrọ Ilera",
+    "myTeam": "Egbe mi",
+    "aiTeamBuilder": "Amoye ilera AI Carol ṣe iranlọwọ fun ọ lati yan ẹgbẹ rẹ",
+    "priorConsultations": "Awọn ijumọsọrọ iṣaaju",
+    "encyclopedia": "Encyclopedia",
+    "myProfile": "Profaili Mi",
+    "logout": "Jade jade",
+    "labels": {
+      "chat": "Wiregbe",
+      "advisory": "Igbaninimoran",
+      "encyclopedia": "Encyclopedia",
+      "myTeam": "Egbe mi",
+      "history": "Itan",
+      "myProfile": "Profaili Mi"
+    }
+  },
+  "mobileInput": {
+    "listeningPlaceholder": "Nfeti... soro bayi",
+    "typePlaceholder": "Tẹ ifiranṣẹ kan ...",
+    "clear": "Ko o",
+    "needHelp": "Nilo Iranlọwọ?",
+    "takePhoto": "Ya fọto"
+  },
+  "mobileConsultations": {
+    "title": "Awọn ijumọsọrọ iṣaaju",
+    "selectAll": "Yan Gbogbo",
+    "deselectAll": "Yan Gbogbo",
+    "deleteSelected": "Paarẹ ti a yan ({{count}})",
+    "consultationDefault": "Ijumọsọrọ {{id}}",
+    "lastUpdate": "Imudojuiwọn to kẹhin: {{ọjọ}}",
+    "noUpdates": "Ko si awọn imudojuiwọn sibẹsibẹ",
+    "editTitle": "Ṣatunkọ akọle ibaraẹnisọrọ",
+    "enterNewTitle": "Tẹ akọle titun sii:",
+    "noConsultations": "Ko si ijumọsọrọ sibẹsibẹ."
+  },
+  "mobileProfile": {
+    "title": "Profaili Mi",
+    "saveError": "Kuna lati fi profaili pamọ",
+    "saveSuccess": "Profaili imudojuiwọn!",
+    "changePhoto": "Yi fọto pada",
+    "displayName": "Fi oruko han",
+    "fullName": "Akokun Oruko",
+    "email": "Imeeli",
+    "keyHealthInfo": "Alaye Ilera bọtini",
+    "logout": "Jade jade"
+  },
+  "mobileNavigation": {
+    "consultation": "Ijumọsọrọ",
+    "team": "Egbe",
+    "history": "Itan",
+    "exitConsultation": "Jade Ijumọsọrọ",
+    "myTeam": "Egbe mi",
+    "summary": "Lakotan",
+    "differentialOpinion": "Iyatọ Ero",
+    "transcript": "Tiransikiripiti",
+    "encyclopedia": "Encyclopedia",
+    "controls": "Awọn iṣakoso",
+    "aiSpeaker": "AI Agbọrọsọ",
+    "enabled": "Ti ṣiṣẹ",
+    "disabled": "Alaabo",
+    "camera": "Kamẹra",
+    "comingSoon": "Nbọ laipẹ",
+    "menu": "Akojọ aṣyn"
+  },
+  "bioPanel": {
+    "loadingBio": "Nkojọpọ bio...",
+    "noBiography": "Ko si biography to wa.",
+    "returnToPanel": "Pada si Igbimọ"
+  },
+  "sidebarHeader": {
+    "panel": "Igbimọ",
+    "summary": "Lakotan",
+    "differentialOpinion": "Iyatọ Ero",
+    "transcript": "Tiransikiripiti",
+    "encyclopedia": "VirtualMD.app Encyclopedia",
+    "endConversation": "Ibaraẹnisọrọ Pari",
+    "startChatWithTeam": "Bẹrẹ Iwiregbe pẹlu Ẹgbẹ",
+    "configureNewChat": "Tunto Iwiregbe Tuntun",
+    "myAIHealthTeam": "Ẹgbẹ Ilera AI mi",
+    "aileenCarolTeamBuilder": "Amoye ilera Carol ṣe iranlọwọ lati kọ ẹgbẹ rẹ.",
+    "savedConsultations": "Awọn ijumọsọrọ ti o fipamọ",
+    "myProfile": "Profaili Mi",
+    "imageNumber": "Aworan {{nọmba}}"
+  },
+  "differentialOpinion": {
+    "noOpinionAvailable": "Ko si ero iyatọ ti o wa."
+  },
+  "encyclopedia": {
+    "title": "VirtualMD.app Encyclopedia",
+    "loadingMessage": "A n ṣe iwadii jinle lori koko yii fun ọ. Jọwọ duro fun iṣẹju diẹ fun idahun rẹ.",
+    "longWaitMessage": "Eyi le gba iṣẹju diẹ fun awọn idahun ni kikun.",
+    "searchButton": "Iwadi Encyclopedia",
+    "return": "Pada",
+    "print": {
+      "button": "Titẹ sita",
+      "title": "Esi Iwadi Encyclopedia",
+      "subtitle": "VirtualMD.app Encyclopedia"
+    },
+    "copy": "Daakọ",
+    "searchResult": "Esi Iwadi Encyclopedia",
+    "attribution": "Idahun nipasẹ VirtualMD.app",
+    "emptyState": "Tẹ ibeere kan sii loke lati wa VirtualMD.app Encyclopedia.",
+    "copySuccess": "A daakọ akoonu si agekuru!",
+    "copyError": "Kuna lati daakọ si agekuru agekuru",
+    "generatingResponse": "Ṣiṣẹda esi okeerẹ...",
+    "genericError": "Aṣiṣe kan ṣẹlẹ",
+    "translatingContent": "Itumọ akoonu..."
+  },
+  "input": {
+    "typeOrSpeakPlaceholder": "Tẹ tabi sọ ifiranṣẹ rẹ...\nTẹ Tẹ tabi tẹ ▷ lati firanṣẹ.",
+    "typePlaceholder": "Tẹ ifiranṣẹ nibi...\nTẹ Tẹ tabi tẹ ▷ lati firanṣẹ.",
+    "transcribing": "N ṣe akọwe...",
+    "enterTextHere": "Tẹ ọrọ sii nibi",
+    "startTypingMessage": "Bẹrẹ titẹ ifiranṣẹ rẹ sinu apoti ti o wa ni isalẹ lati bẹrẹ ijumọsọrọ rẹ."
+  },
+  "quickActions": {
+    "whatToDoButton": "Kini o yẹ ki n ṣe?",
+    "summaryButton": "Lakotan",
+    "whatShouldIDo": "Da lori gbogbo nkan ti a ti jiroro, kini o yẹ ki n ṣe ni bayi? Jọwọ pese ko o, awọn iṣeduro iṣe.",
+    "requestSummary": "Jọwọ pese akojọpọ pipe ti ibaraẹnisọrọ wa titi di isisiyi, pẹlu awọn koko pataki ti a jiroro, awọn iṣeduro ti a ṣe, ati awọn igbesẹ atẹle."
+  },
+  "upload": {
+    "uploading": "Ìrùsókè…"
+  },
+  "camera": {
+    "notSupported": "Wiwọle kamẹra ko ni atilẹyin ninu ẹrọ aṣawakiri yii",
+    "capturePhoto": "Yaworan Fọto",
+    "accessDenied": "Wiwọle kamẹra kọ. Jọwọ jẹ ki kamẹra wọle si awọn eto ẹrọ aṣawakiri rẹ.",
+    "accessFailed": "Kuna lati wọle si kamẹra"
+  },
+  "microphone": {
+    "turnOn": "Tan gbohungbohun",
+    "turnOff": "Pa gbohungbohun kuro"
+  },
+  "specialistPanel": {
+    "guidanceSingle": "Yan Alamọja AI kan fun ijumọsọrọ ikọkọ:",
+    "guidanceMulti": "Amoye ilera AI Carol yoo wa pẹlu nigbagbogbo. Yan afikun Awọn onimọran Ilera AI:",
+    "startPrivateConsult": "Bẹrẹ Aladani imọran",
+    "startChat": "Bẹrẹ Iwiregbe",
+    "selectSingle": "Yan AI Specialist",
+    "selectMulti": "Yan Afikun Advisers",
+    "warningSelectOne": "Jọwọ yan alamọja kan nikan fun ijumọsọrọ aladani.",
+    "noSpecialistsAvailable": "Ko si awọn alamọja AI lọwọlọwọ wa fun ijumọsọrọ aladani.",
+    "noAdvisersAvailable": "Ko si afikun Awọn onimọran Ilera AI ti o wa."
+  },
+  "sidebarFooter": {
+    "disclaimerText": "VirtualMD.app tiraka fun deede. Sibẹsibẹ, eyi ati eyikeyi iṣẹ orisun AI le fun alaye ti ko tọ. Nigbagbogbo kan si alamọja ilera eniyan ti o peye.",
+    "emergencyText": "Pe 911 fun awọn pajawiri iṣoogun.",
+    "moreInformation": "Alaye siwaju sii"
+  },
+  "teamBuilder": {
+    "healthConditions": {
+      "options": {
+        "${key}": "{{bọtini}}"
+      }
+    },
+    "medicinePreferences": {
+      "options": {
+        "${key}": "{{bọtini}}"
+      }
+    }
+  },
+  "account": {
+    "title": "Eto iroyin",
+    "description": "Lati ibi o le pa akọọlẹ VirtualMD.app rẹ rẹ patapata. Iṣe yii yọ profaili rẹ kuro ati gbogbo awọn ijumọsọrọ.",
+    "deleteMyAccount": "Pa Akọọlẹ Mi Paarẹ",
+    "confirmDeleteTitle": "Pa Account",
+    "confirmDeleteText": "Iṣe yii ko le yipada. Gbogbo alaye profaili rẹ, awọn ijumọsọrọpọ, ati awọn faili yoo yọkuro patapata. Ṣe o da ọ loju pe o fẹ tẹsiwaju?",
+    "cancel": "Fagilee",
+    "yesDelete": "Bẹẹni, Paarẹ"
+  },
+  "transcript": {
+    "noTranscript": "Ko si iwe afọwọkọ ti o wa.",
+    "title": "Tiransikiripiti ijumọsọrọ",
+    "returnToConversation": "Pada si Ibaraẹnisọrọ",
+    "print": "Titẹ sita",
+    "copy": "Daakọ",
+    "copyError": "Kuna lati daakọ",
+    "roleLabels": {
+      "patient": "Olumulo:",
+      "assistant": "Iranlọwọ:"
+    }
+  },
+  "mobileRouter": {
+    "teamRecommendations": "Awọn iṣeduro ẹgbẹ",
+    "myTeam": "Egbe mi",
+    "summary": "Lakotan",
+    "differentialOpinion": "Iyatọ Ero",
+    "transcript": "Tiransikiripiti",
+    "encyclopedia": "Encyclopedia",
+    "consultations": "Awọn ijumọsọrọ",
+    "returnToChat": "Pada si iwiregbe",
+    "pleaseLogIn": "Jọwọ Wọle",
+    "logInToView": "Wọle lati wo awọn ibaraẹnisọrọ rẹ tabi bẹrẹ ọkan tuntun.",
+    "logIn": "Wo ile",
+    "loadingSpecialists": "Nkojọpọ awọn alamọja..."
+  },
+  "chat": {
+    "pleaseLogIn": "Jọwọ Wọle",
+    "logInToView": "Wọle lati wo awọn ibaraẹnisọrọ rẹ tabi bẹrẹ tuntun kan."
+  },
+  "loginPage": {
+    "signIn": "wọle"
+  },
+  "imageProcessing": {
+    "preset": "Tito tẹlẹ",
+    "applyPreset": "Waye tito tẹlẹ si aworan idojukọ",
+    "process": "Ilana",
+    "revertFocus": "Tun idojukọ lori atilẹba aworan",
+    "revert": "Pada"
+  },
+  "guest": {
+    "consultation": "Alejo Ijumọsọrọ",
+    "topics": {
+      "child": {
+        "title": "Ara omo ara omo min ko ya",
+        "subtitle": "Abojuto itọju ọmọde nigbati o nilo julọ",
+        "initialMessage": "Emi ni AI Aileen Carol, Oludamoran Ilera Foju rẹ. Mo mọ bi ọmọ ti o ṣaisan ṣe le ṣe aniyan. Sọ fun mi kini o n ṣẹlẹ.  Akiyesi: Emi ni AI, kii ṣe eniyan; Imọran mi le jẹ aṣiṣe-jẹrisi pẹlu alamọja ilera eniyan ti o peye."
+      },
+      "sleep": {
+        "title": "Nko le sun!",
+        "subtitle": "Mu awọn alẹ rẹ pada, yi awọn ọjọ rẹ pada",
+        "initialMessage": "Emi ni AI Aileen Carol, Oludamoran Ilera Foju rẹ, pẹlu alamọja oorun AIs Benjamin Stein (Awoasinwin) ati AI Alice Chen (Neurology). Pin awọn italaya oorun rẹ ki a le ṣe iranlọwọ. Akiyesi: A jẹ AI, kii ṣe eniyan; Imọran wa le jẹ aṣiṣe-jẹrisi pẹlu alamọdaju ilera (eniyan) oṣiṣẹ ilera."
+      },
+      "nutrition": {
+        "title": "Ounje fun vitality",
+        "subtitle": "Mu agbara rẹ pọ si, ilera, ati ilera ibalopo nipasẹ ounjẹ",
+        "initialMessage": "Emi ni AI Aileen Carol, Oludamoran Ilera Foju, nibi pẹlu ẹgbẹ rẹ - AI Angelica Fordham (ounjẹ), Ibalopo Ibalopo AI Rachel Levy, ati AI African Herbalist Amina Okufur. Bawo ni rilara rẹ loni? Akiyesi: A jẹ AI, kii ṣe eniyan; imọran le jẹ aṣiṣe-jẹrisi pẹlu alamọja ilera ti o peye."
+      }
+    },
+    "errors": {
+      "sessionFailed": "Kuna lati bẹrẹ igba alejo"
+    },
+    "registrationRequired": "Iforukọsilẹ beere",
+    "uploadFeatures": {
+      "title": "Iwe & Awọn ẹya Ikojọpọ Aworan",
+      "description": "Syeed wa nfunni ni iwe aṣẹ ti o lagbara ati awọn agbara itupalẹ aworan nibiti o le:",
+      "benefit1": "Ṣe igbasilẹ awọn iwe aṣẹ ilera, awọn ijabọ lab, ati awọn aworan",
+      "benefit2": "Sun-un si awọn agbegbe kan pato fun itupalẹ alaye",
+      "benefit3": "Jẹ ki awọn onimọran ilera AI ṣe iṣiro ati jiroro awọn iwe aṣẹ rẹ",
+      "benefit4": "Ya awọn fọto taara lati kamẹra rẹ fun ijumọsọrọ lẹsẹkẹsẹ",
+      "registeredOnly": "Awọn ẹya pataki wọnyi wa fun awọn olumulo ti o forukọsilẹ."
+    }
+  },
+  "activeChat": {
+    "guestMode": {
+      "advisorsTitle": "VirtualMD.app Health Advisors",
+      "registrationRequired": "Iforukọsilẹ beere"
+    }
+  },
+  "healthAdvisors": "VirtualMD.app Health Advisors"
+}

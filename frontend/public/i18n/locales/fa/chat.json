@@ -1,0 +1,715 @@
+{
+  "actions": {
+    "startConsultation": "مشاوره سلامت را شروع کنید",
+    "endConsultation": "پایان مشاوره",
+    "returnToConsultation": "بازگشت به مشاوره",
+    "newConversation": "شروع مکالمه جدید",
+    "saveConversation": "ذخیره مکالمه",
+    "deleteConversation": "حذف مکالمه",
+    "getSummary": "خلاصه را دریافت کنید",
+    "getTranscript": "دریافت رونوشت",
+    "getDifferentialOpinion": "دریافت نظر متفاوت",
+    "exportChat": "خروجی گرفتن از چت",
+    "clearChat": "پاک کردن چت"
+  },
+  "audio": {
+    "aiMuted": "هوش مصنوعی بی‌صدا",
+    "aiUnmuted": "صدای هوش مصنوعی روشن",
+    "playbackFailed": "پخش صدا ناموفق بود",
+    "generationFailed": "تولید گفتار ناموفق بود"
+  },
+  "sidebar": {
+    "personaList": "متخصص سلامت خود را انتخاب کنید",
+    "conversations": "گفتگوهای من",
+    "profile": "پروفایل من",
+    "settings": "تنظیمات",
+    "manageTeam": "مدیریت تیم",
+    "teamBuilder": "سازنده تیم هوش مصنوعی",
+    "encyclopedia": "دایره المعارف",
+    "bio": "بیوگرافی حرفه ای",
+    "clickForBio": "برای بیوگرافی کلیک کنید",
+    "clickToSpeak": "برای صحبت با مشاور کلیک کنید",
+    "summary": "خلاصه مشاوره",
+    "transcript": "متن مکالمه",
+    "imageContext": "زمینه تصویر",
+    "newConversation": "مشاوره جدید"
+  },
+  "tooltips": {
+    "audioOnlyRegistered": "صدا فقط برای کاربران ثبت نام شده در دسترس است."
+  },
+  "messages": {
+    "typeMessage": "پیام خود را اینجا تایپ کنید...",
+    "send": "ارسال",
+    "thinking": "در حال فکر کردن...",
+    "processing": "در حال پردازش...",
+    "connecting": "در حال اتصال...",
+    "connected": "متصل",
+    "disconnected": "قطع ارتباط",
+    "typing": "{{name}} در حال تایپ است...",
+    "messageError": "ارسال پیام ناموفق بود",
+    "retryMessage": "دوباره امتحان کنید",
+    "requestToSpeak": "لطفا اجازه دهید با {{name}} صحبت کنم.",
+    "messageDeleted": "پیام حذف شد",
+    "systemMessage": "پیام سیستم"
+  },
+  "personas": {
+    "defaultName": "آیلین کارول، کارشناس سلامت",
+    "defaultSpecialty": "متخصص بهداشت",
+    "selectPersona": "یک متخصص بهداشت انتخاب کنید",
+    "noPersonasAvailable": "هیچ متخصص سلامت در دسترس نیست",
+    "personaDetails": "جزئیات حرفه‌ای",
+    "specialization": "تخصص",
+    "experience": "تجربه",
+    "education": "آموزش",
+    "certifications": "گواهینامه‌ها",
+    "languages": "زبان‌ها",
+    "availableNow": "اکنون موجود است",
+    "loading": "در حال بارگذاری متخصصان..."
+  },
+  "personaSearch": {
+    "placeholder": "جستجو بر اساس نام، تخصص یا توصیف علائم (مثلاً سردرد، اضطراب)",
+    "selected": "انتخاب شده",
+    "noResults": "هیچ مشاوری برای \"{{query}}\" یافت نشد",
+    "searchSuggestions": "سعی کنید این موارد را جستجو کنید: سردرد، اضطراب، درد، خواب، دیابت و غیره."
+  },
+  "configurator": {
+    "title": "مشاوره سلامت جدید را شروع کنید",
+    "subtitle": "از تیم سلامت هوش مصنوعی خود انتخاب کنید",
+    "changeTeam": "تیم تغییر",
+    "starting": "شروع ...",
+    "startConsult": "شروع مشاوره",
+    "emptyTeam": "جای تیم سلامت هوش مصنوعی شما خالی است",
+    "addSpecialists": "متخصصان را به تیم خود اضافه کنید",
+    "noOtherSpecialists": "هیچ متخصص دیگری در تیم شما نیست. می‌توانید با متخصص سلامت هوش مصنوعی، کارول، یا ... چت کنید.",
+    "addSpecialistsLink": "متخصصان را به تیم خود اضافه کنید",
+    "defaultPersona": {
+      "name": "آیلین کارول، متخصص سلامت هوش مصنوعی",
+      "role": "مشاور سلامت هوش مصنوعی اصلی من"
+    },
+    "carolNote": {
+      "title": "یادداشتی در مورد مشارکت کارول، متخصص سلامت هوش مصنوعی:",
+      "ruleA": "الف. کارول، متخصص سلامت هوش مصنوعی، در صورتی که ۰ یا ۲+ متخصص دیگر از تیم شما انتخاب شوند، گنجانده می‌شود.",
+      "ruleB": "ب. اگر فقط یک متخصص دیگر از تیم شما انتخاب شده باشد، کارول، متخصص سلامت هوش مصنوعی، شامل نمی‌شود."
+    }
+  },
+  "conversations": {
+    "noConversations": "هنوز مکالمه‌ای وجود ندارد",
+    "untitled": "گفتگوی بدون عنوان",
+    "today": "امروز",
+    "yesterday": "دیروز",
+    "thisWeek": "این هفته",
+    "lastWeek": "هفته گذشته",
+    "older": "قدیمی‌تر",
+    "editTitle": "ویرایش عنوان",
+    "saveTitle": "عنوان را ذخیره کنید",
+    "cancelEdit": "لغو ویرایش",
+    "deleteConsultation": "حذف مشاوره",
+    "clickToReturn": "برای بازگشت به مشاوره کلیک کنید",
+    "deleteConfirm": "آیا از حذف این مکالمه مطمئن هستید؟",
+    "deleteSuccess": "مکالمه با موفقیت حذف شد",
+    "loadingConversations": "در حال بارگذاری مکالمات...",
+    "conversationError": "خطا در بارگیری مکالمه",
+    "consultationsTitle": "مشاوره‌ها",
+    "lastUpdate": "آخرین به‌روزرسانی: {{date}}",
+    "consultationDefault": "مشاوره {{id}}",
+    "noConsultationsYet": "هنوز هیچ مشورتی نشده.",
+    "noPastConsultations": "هیچ مشاوره قبلی یافت نشد."
+  },
+  "participants": {
+    "noParticipants": "هیچ شرکت‌کننده‌ای برای نمایش وجود ندارد.",
+    "inThisConsult": "در این مشاوره مجازی:"
+  },
+  "team": {
+    "myTeam": "تیم سلامت من",
+    "addToTeam": "به تیم اضافه کنید",
+    "removeFromTeam": "حذف از تیم",
+    "teamFull": "تیم شما پر است",
+    "maxTeamSize": "حداکثر تعداد اعضای تیم ({{max}})",
+    "currentTeam": "اعضای فعلی تیم",
+    "buildTeam": "تیم خود را بسازید",
+    "teamRecommendations": "توصیه‌های تیم هوش مصنوعی",
+    "acceptRecommendation": "پذیرش توصیه",
+    "getRecommendations": "توصیه‌های هوش مصنوعی دریافت کنید",
+    "teamBuilder": "سازنده تیم هوش مصنوعی",
+    "addTeamMembersInstruction": "با کلیک روی کارت سمت راست، اعضای تیم را اضافه کنید.",
+    "maxTeamSizeNote": "حداکثر پنج مشاور هوش مصنوعی می‌توانند به تیم شما اضافه شوند. شما می‌توانید تیم خود را در هر زمانی تغییر دهید، اما این تغییر در طول مشاوره امکان‌پذیر نیست.",
+    "startConsultationWithTeam": "مشاوره را با تیم خود شروع کنید",
+    "manageTeamTitle": "مدیریت تیم سلامت هوش مصنوعی من (حداکثر {{max}} متخصص)",
+    "removeSpecialistToUseTeamBuilder": "لطفاً حداقل یک متخصص را حذف کنید تا از توصیه‌های کارول، متخصص سلامت هوش مصنوعی در زمینه تیم‌سازی، استفاده کنید.",
+    "aileenCarolRecommendTeam": "از کارول، متخصص سلامت هوش مصنوعی، بخواهید تیم سلامت شما را توصیه کند.",
+    "teamFullRemoveToUseBuilder": "تیم شما پر است. لطفاً حداقل یک متخصص را برای استفاده از تیم‌سازی هوش مصنوعی حذف کنید.",
+    "yourCurrentTeam": "تیم فعلی شما ({{current}}/{{max}})",
+    "updatingTeam": "تیم در حال بروزرسانی...",
+    "coordinator": "هماهنگ کننده",
+    "alwaysIncluded": "همیشه شامل می‌شود",
+    "specialist": "متخصص",
+    "teamEmptyAddBelow": "تیم تخصصی شما خالی است. متخصصین را در زیر اضافه کنید.",
+    "teamFullRemoveMember": "تیم شما تکمیل شده است (حداکثر {{max}} متخصص). اگر می‌خواهید متخصص دیگری اضافه کنید، لطفاً یکی از اعضا را حذف کنید.",
+    "addMembersClickCard": "با کلیک روی یک کارت در قسمت اصلی، اعضای تیم را اضافه کنید",
+    "teamLead": "سرپرست تیم",
+    "currentMember": "عضو فعلی",
+    "analyzingNeeds": "تحلیل نیازهای شما...",
+    "emergencyDetected": "🚨 مورد اضطراری شناسایی شد",
+    "backToSafety": "بازگشت به ایمنی",
+    "recommendedTeam": "تیم سلامت توصیه شده",
+    "completeTeam": "تیم کامل شما ({{count}} عضو)",
+    "teamLeadReason": "هماهنگ کننده اولیه سلامت",
+    "keepingMembers": "اعضای فعلی تیم (در حال حاضر)",
+    "newRecommendations": "توصیه‌های جدید",
+    "aileenCarolReasoning": "استدلال کارول، متخصص سلامت هوش مصنوعی:",
+    "noMatchingSpecialists": "هیچ متخصص منطبقی برای توصیه‌های هوش مصنوعی پیدا نشد. می‌توانید دوباره امتحان کنید یا تیم خود را به صورت دستی بسازید.",
+    "medicalDisclaimerTitle": "مشاوره سلامت و تندرستی:",
+    "medicalDisclaimerText": "این پلتفرم مشاوره و راهنمایی‌های بهداشتی ارائه می‌دهد اما نمی‌تواند جایگزین مراقبت‌های بهداشتی حرفه‌ای شود. همیشه در موارد اضطراری یا نگرانی‌های جدی در مورد سلامتی، با متخصصان مراقبت‌های بهداشتی واجد شرایط مشورت کنید.",
+    "applyingTeam": "تیم متقاضی ...",
+    "acceptTeam": "این تیم را بپذیرید",
+    "tryDifferent": "توصیه‌های مختلف را امتحان کنید",
+    "cancel": "لغو",
+    "myVirtualMDTeam": "تیم VirtualMD.app من",
+    "availableSpecialists": "متخصصان سلامت هوش مصنوعی موجود",
+    "clickToAddInstruction": "برای اضافه کردن به تیم خود، روی یک کارت کلیک کنید ({{current}}/{{max}} انتخاب شده). متخصصان انتخاب شده، نشان \"انتخاب شده\" را نشان می‌دهند.",
+    "teamFullInstruction": "تیم شما پر است. برای اضافه کردن یک متخصص دیگر، یکی از اعضا را حذف کنید.",
+    "selected": "انتخاب شده",
+    "teamFullBadge": "تیم کامل",
+    "allSpecialistsAdded": "تمام متخصصان موجود به تیم شما اضافه شده‌اند.",
+    "otherSpecialists": "سایر متخصصان",
+    "specialistsCount": "{{count}} متخصص",
+    "startTeamConsult": "شروع مشاوره تیمی",
+    "starting": "شروع ...",
+    "myAIHealthTeam": "تیم سلامت هوش مصنوعی من",
+    "addMembersInstruction": "با کلیک روی کارت سمت راست، اعضای تیم را اضافه کنید."
+  },
+  "specialistCategories": {
+    "diabetesBloodSugar": "دیابت و قند خون",
+    "weightManagement": "مدیریت وزن",
+    "mentalHealthStress": "سلامت روان و استرس",
+    "cancerSupport": "حمایت از سرطان",
+    "heartHealth": "سلامت قلب",
+    "painManagement": "مدیریت درد",
+    "digestiveIssues": "مشکلات گوارشی",
+    "sleepProblems": "مشکلات خواب",
+    "skinProblems": "مشکلات پوستی",
+    "womensHealth": "سلامت زنان",
+    "childrensHealth": "سلامت کودکان",
+    "agingSeniorHealth": "سالمندی و سلامت سالمندان",
+    "nutritionDiet": "تغذیه و رژیم غذایی",
+    "allergiesImmuneSystem": "آلرژی و سیستم ایمنی",
+    "breathingLungIssues": "مشکلات تنفسی و ریوی",
+    "sportsFitnessInjuries": "آسیب‌های ورزشی و تناسب اندام",
+    "easternAlternativeMedicine": "سلامت شرقی و جایگزین",
+    "cosmeticBeautyMedicine": "لوازم آرایشی و زیبایی",
+    "anxietyHelp": "کمک به اضطراب",
+    "medicationPharmacy": "دارو و داروخانه",
+    "primaryCareGeneralHealth": "مراقبت‌های اولیه و سلامت عمومی",
+    "medicalSpecialties": "تخصص‌های سلامت و تندرستی"
+  },
+  "dialogs": {
+    "exitConsultation": "مشاوره خروج",
+    "exitMessage": "آیا مطمئن هستید که می‌خواهید از این مشاوره خارج شوید؟",
+    "saveAndExit": "ذخیره و خروج",
+    "exitWithoutSaving": "خروج بدون ذخیره",
+    "cancel": "لغو",
+    "confirm": "تأیید",
+    "logout": "خروج",
+    "logoutMessage": "شما در حال حاضر در حال مشاوره هستید. خروج از سیستم به پایان می‌رسد. چه کاری می‌خواهید انجام دهید؟",
+    "deleteConversation": "حذف مکالمه",
+    "deleteMessage": "این اقدام قابل لغو نیست. مطمئنی؟",
+    "summarizeFirst": "آیا مایلید قبل از خروج، خلاصه‌ای از آن را دریافت کنید؟",
+    "summarizing": "تولید خلاصه ...",
+    "summaryGenerated": "خلاصه با موفقیت ایجاد شد",
+    "doneAlready": "قبلاً انجام شده؟",
+    "doneAlreadyMessage": "هر زمان که به ما نیاز داشته باشید، ما اینجا هستیم. تا آن زمان، سالم و شاد باشید!",
+    "doneAlreadySignature": "همه ما (انسان و هوش مصنوعی) در VirtualMD.app",
+    "exitConsultationButton": "مشاوره خروج",
+    "editTitle": "ویرایش عنوان گفتگو",
+    "conversationTitleLabel": "عنوان مکالمه",
+    "save": "ذخیره",
+    "deleteTitle": "حذف مکالمه",
+    "deleteConfirmation": "آیا از حذف مکالمه با عنوان \"{{title}}\" مطمئن هستید؟",
+    "delete": "حذف",
+    "multiDeleteTitle": "حذف مشاوره‌های انتخاب‌شده",
+    "multiDeleteConfirmation": "آیا مطمئن هستید که می‌خواهید {{count}} مشاوره(های) انتخاب شده را حذف کنید؟ این اقدام قابل بازگشت نیست.",
+    "deleteSelected": "حذف موارد انتخاب شده",
+    "addSpecialistTitle": "اضافه کردن متخصص به چت",
+    "addSpecialistError": "مشاوران شما بارگذاری نشدند.",
+    "noAdvisersToAdd": "همه مشاوران سلامت هوش مصنوعی انتخابی شما از قبل در این گفتگو هستند، یا لیست شما خالی است (به استثنای شرکت‌کنندگان فعلی).",
+    "longRecording": {
+      "title": "ضبط طولانی متوقف شد",
+      "message": "ما نمیتونیم بیشتر از ۳۰ ثانیه ضبط کنیم بدون اینکه بفرستیمش. دوست داری چیکار کنیم؟",
+      "delete": "حذف",
+      "transcribeToText": "رونویسی به متن",
+      "transcribeAndSend": "رونویسی و ارسال"
+    },
+    "finishConsultationTitle": "مشاوره تمام شد؟",
+    "generatingSummary": "لطفا صبر کنید تا خلاصه مشاوره شما را تولید کنیم...",
+    "finishConsultationMessage": "این باعث پایان یافتن جلسه گفتگوی فعال می‌شود. مطمئنی؟",
+    "summarizeAndFinish": "خلاصه و پایان",
+    "leaveWithoutSummarizing": "بدون خلاصه نویسی خارج شوید",
+    "summarize": "خلاصه کنید",
+    "moreInfoTitle": "اطلاعات بیشتر مورد نیاز",
+    "moreInfoMessage": "این مکالمه برای ارائه یک خلاصه معنادار یا نظر متفاوت خیلی کوتاه است. لطفاً بحث را تا زمانی که حداقل ۱۵۰ کلمه محتوای مکالمه داشته باشید، ادامه دهید.",
+    "ok": "باشه",
+    "deleteSuccessTitle": "مکالمه حذف شد",
+    "deleteSuccessMessage": "مکالمه شما با موفقیت حذف شد.",
+    "logoutTitle": "از رفتنت متاسفیم",
+    "aiHealthSpecialist": "متخصص هوش مصنوعی سلامت و تندرستی اولیه شما",
+    "aileenCarol": "کارول، متخصص سلامت هوش مصنوعی",
+    "aiHealthAssistant": "دستیار سلامت هوش مصنوعی",
+    "deleteAndExit": "حذف و خروج",
+    "summaryTitle": "خلاصه مشاوره",
+    "consultationTitle": "مشاوره VirtualMD: {{title}}",
+    "summaryUnavailable": "خلاصه در حال تولید است یا در دسترس نیست.",
+    "print": "چاپ",
+    "copy": "کپی",
+    "close": "بستن",
+    "shortConv": {
+      "title": "مکالمه پایان یافت",
+      "messageLine1": "مکالمه تمام شد. خیلی کوتاه است که بشود ذخیره کرد، اما زود دوباره بیا.",
+      "messageLine2": "تا آن زمان، سالم و شاد باشید."
+    }
+  },
+  "errors": {
+    "connectionError": "خطای اتصال. لطفا اتصال اینترنت خود را بررسی کنید.",
+    "serverError": "خطای سرور. لطفا بعدا دوباره امتحان کنید.",
+    "authenticationError": "احراز هویت ناموفق بود. لطفا دوباره وارد شوید.",
+    "messageFailedToSend": "پیام ارسال نشد",
+    "loadingFailed": "بارگیری محتوا ناموفق بود",
+    "personaUnavailable": "این متخصص سلامت در حال حاضر در دسترس نیست",
+    "conversationNotFound": "گفتگو یافت نشد",
+    "permissionDenied": "شما اجازه دسترسی به این گفتگو را ندارید",
+    "failedToLogin": "ورود ناموفق بود.",
+    "failedToRegister": "ثبت نام انجام نشد.",
+    "failedToLogout": "خروج از سیستم ناموفق بود.",
+    "emailAlreadyTaken": "این ایمیل قبلاً گرفته شده است. لطفاً ایمیل دیگری را امتحان کنید یا وارد شوید.",
+    "anErrorOccurred": "خطایی رخ داده است.",
+    "selectImageFile": "لطفا یک فایل تصویری انتخاب کنید.",
+    "failedToSaveProfile": "ذخیره پروفایل ناموفق بود. لطفاً دوباره امتحان کنید.",
+    "teamIsFull": "تیم شما تکمیل شده است (حداکثر {{max}} متخصص). اگر می‌خواهید متخصص دیگری اضافه کنید، لطفاً یکی از اعضا را حذف کنید.",
+    "selectOneSpecialist": "لطفا فقط یک متخصص را برای مشاوره خصوصی انتخاب کنید.",
+    "contactErrorMessage": "هنگام ارسال پیام شما خطایی رخ داد. لطفاً بعداً دوباره امتحان کنید یا",
+    "contactDirectlyAt": "همچنین می‌توانید مستقیماً به آدرس info@virtualmd.app برای ما ایمیل ارسال کنید."
+  },
+  "welcome": {
+    "title": "به VirtualMD.app خوش آمدید",
+    "subtitle": "مشاوره سلامت شخصی خود را شروع کنید",
+    "description": "برای دریافت بینش‌ها و راهنمایی‌های شخصی‌سازی‌شده در مورد سلامتی، از تیم مشاوران سلامت مبتنی بر هوش مصنوعی ما انتخاب کنید.",
+    "getStarted": "شروع کنید",
+    "chooseSpecialist": "متخصص خود را انتخاب کنید",
+    "startWithTeam": "با تیم من شروع کنید",
+    "howItWorks": "چگونه کار می‌کند؟",
+    "aileenCarolName": "آیلین کارول، متخصص سلامت هوش مصنوعی",
+    "danielGarciaName": "دانیل گارسیا، متخصص سلامت هوش مصنوعی",
+    "greeting": "سلام، {{username}}. از دیدن شما خوشحالم! تیم VirtualMD شما 24 ساعته و 7 روز هفته آماده کمک به شماست...",
+    "startTeamConsultation": "شروع مشاوره تیمی",
+    "configureNewChat": "پیکربندی چت جدید",
+    "encyclopedia": "دانشنامه VirtualMD.app",
+    "myAIHealthTeam": "تیم سلامت هوش مصنوعی من",
+    "aileenCarolIntro": "سلام، من آیلین کارول، متخصص سلامت هوش مصنوعی هستم. چطور می‌توانم امروز به شما کمک کنم؟",
+    "persona_welcome_message": "سلام، من اینجا هستم تا به نیازهای سلامتی و تندرستی شما کمک کنم. امروز چطور می‌توانم به شما کمک کنم؟"
+  },
+  "imageUpload": {
+    "dragAndDrop": "تصاویر را اینجا بکشید و رها کنید، یا برای انتخاب کلیک کنید",
+    "supportedFormats": "فرمت‌های پشتیبانی‌شده: JPG، PNG، GIF",
+    "maxSize": "حداکثر حجم: {{size}} مگابایت",
+    "uploadSuccess": "تصویر با موفقیت آپلود شد",
+    "uploadError": "آپلود تصویر ناموفق بود",
+    "processing": "پردازش تصویر ...",
+    "removeImage": "حذف تصویر",
+    "addToContext": "به متن مکالمه اضافه کنید"
+  },
+  "voice": {
+    "startRecording": "شروع ضبط صدا",
+    "stopRecording": "ضبط را متوقف کنید",
+    "recording": "در حال ضبط...",
+    "processingSpeech": "پردازش گفتار ...",
+    "speechToText": "تبدیل گفتار به نوشتار ...",
+    "noSpeechDetected": "هیچ گفتاری شناسایی نشد",
+    "microphoneError": "خطای دسترسی به میکروفون",
+    "unsupportedBrowser": "ضبط صدا در این مرورگر پشتیبانی نمی‌شود"
+  },
+  "summary": {
+    "title": "خلاصه مشاوره",
+    "keyPoints": "نکات کلیدی",
+    "recommendations": "توصیه‌ها",
+    "nextSteps": "مراحل بعدی",
+    "followUp": "پیگیری",
+    "generating": "تولید خلاصه ...",
+    "noSummary": "خلاصه ای موجود نیست",
+    "summaryError": "ایجاد خلاصه ناموفق بود",
+    "downloadSummary": "خلاصه دانلود",
+    "emailSummary": "خلاصه ایمیل",
+    "return": "بازگشت",
+    "transcript": "رونوشت",
+    "print": "چاپ",
+    "copy": "کپی",
+    "copyError": "کپی نشد",
+    "notGenerated": "خلاصه قابل تولید نبود."
+  },
+  "status": {
+    "online": "آنلاین",
+    "offline": "آفلاین",
+    "away": "دور",
+    "busy": "مشغول",
+    "available": "موجود است",
+    "unavailable": "موجود نیست",
+    "lastSeen": "آخرین بازدید {{time}}"
+  },
+  "mobileTeamBuilder": {
+    "title": {
+      "yourTeam": "تیم شما",
+      "teamBuilder": "سازنده تیم هوش مصنوعی"
+    },
+    "carolMessages": {
+      "teamFull": "{{name}}، تیم شما تکمیل شده است! می‌توانید با تیم فعلی خود مشورت کنید یا برخی از اعضا را حذف کنید تا توصیه‌های جدیدی دریافت کنید.",
+      "helpBuild": "{{name}}، خیلی دوست دارم بهت کمک کنم تا تیم سلامت ایده‌آلت رو بسازی! بگو چی باعث شده امروز اینجا باشی؟"
+    },
+    "carolGreeting": {
+      "teamFull": "سلام {{name}}! تیم شما پر است.",
+      "helpBuild": "سلام {{name}}! من به شما کمک می‌کنم تا تیم سلامت ایده‌آل خود را بسازید."
+    },
+    "currentTeam": "تیم فعلی ({{فعلی}}/{{حداکثر}})",
+    "aiSpecialist": "هوش مصنوعی {{نام}}",
+    "specialist": "متخصص",
+    "startConversation": "شروع گفتگو با این تیم",
+    "tellUsWhy": "به ما بگویید که چرا امروز اینجا هستید تا بتوانیم تیم سلامت ایده‌آل شما را تشکیل دهیم.",
+    "placeholder": "نگرانی‌های مربوط به سلامتی، علائم یا آنچه را که در مورد آن به کمک نیاز دارید، شرح دهید...",
+    "questionnaire": {
+      "question": "چه چیزی شما را امروز به اینجا آورده است؟",
+      "keepExisting": "اعضای فعلی تیم را نگه دارید؟",
+      "existingMembers": "اعضای تیم فعلی",
+      "currentSize": "اندازه فعلی تیم",
+      "availableSpots": "جایگاه‌های موجود برای متخصصان جدید",
+      "maxRecommendations": "حداکثر توصیه‌های مجاز"
+    }
+  },
+  "mobileNavigationTabs": {
+    "consultation": "مشاوره",
+    "team": "تیم",
+    "history": "تاریخچه",
+    "encyclopedia": "دایره المعارف"
+  },
+  "autoListening": {
+    "turnOn": "گوش دادن خودکار را روشن کنید",
+    "turnOff": "گوش دادن خودکار را خاموش کنید"
+  },
+  "speech": {
+    "processing": "پردازش گفتار",
+    "pauseListening": "برای مکث گوش دادن کلیک کنید",
+    "turnOnListening": "برای فعال کردن گوش دادن کلیک کنید"
+  },
+  "help": {
+    "howDoesThisWork": "این چطور کار می‌کند؟",
+    "chatControls": "کنترل‌های چت",
+    "enterToSend": "برای ارسال، ▷ یا را وارد کنید",
+    "shiftEnterToSpeak": "Shift+Enter یا 🎤/⏸ برای صحبت/مکث"
+  },
+  "fileUpload": {
+    "clickToUpload": "برای آپلود فایل کلیک کنید (همچنین می‌توانید فایل‌ها را در چت رها کنید)"
+  },
+  "send": {
+    "transcribeAndSend": "رونویسی و ارسال",
+    "sendMessage": "ارسال پیام"
+  },
+  "aileenCarol": {
+    "playAnalysis": "تحلیل کارول، متخصص سلامت بازی",
+    "stopAnalysis": "تحلیل کارول، کارشناس سلامت را متوقف کنید"
+  },
+  "profile": {
+    "editProfile": "ویرایش پروفایل",
+    "saveChanges": "ذخیره تغییرات",
+    "cancelEdits": "لغو ویرایش‌ها",
+    "changePhoto": "تغییر عکس",
+    "removePhoto": "حذف عکس",
+    "healthInfoTooltip": "لطفاً داروها، تشخیص‌ها، مکمل‌ها و سایر موارد مهم مرتبط با سلامت خود را بنویسید یا فهرست کنید.",
+    "loadingProfile": "در حال بارگذاری پروفایل...",
+    "errorLoadingProfile": "خطا در بارگیری نمایه",
+    "noProfileData": "هیچ داده پروفایلی موجود نیست.",
+    "myProfile": "پروفایل من",
+    "myAccount": "حساب کاربری من",
+    "displayName": "نام نمایشی",
+    "fullName": "نام و نام خانوادگی",
+    "email": "ایمیل",
+    "emailCannotBeChanged": "ایمیل قابل تغییر نیست.",
+    "keyHealthInfo": "اطلاعات کلیدی سلامت",
+    "noHealthInfoRecorded": "هیچ اطلاعات کلیدی سلامت ثبت نشده است.",
+    "healthInfoPlaceholder": "فهرست داروها، تشخیص‌ها، مکمل‌ها و غیره را تهیه کنید.",
+    "age": "سن",
+    "gender": "جنسیت"
+  },
+  "imageContext": {
+    "clearZoom": "این انتخاب بزرگنمایی را پاک کنید",
+    "cropPromotionError": "ارسال و افزودن تصویر بزرگنمایی‌شده ناموفق بود. کنسول را بررسی کنید.",
+    "startConversationToSend": "برای ارسال زوم، مکالمه را شروع کنید",
+    "sendZoomToTeam": "این بزرگنمایی را برای تیم ارسال کنید",
+    "noActiveZoom": "بزرگنمایی فعالی برای ارسال وجود ندارد. لطفاً یک ناحیه از تصویر را انتخاب کنید.",
+    "functionsUnavailable": "نمی‌توان زوم ارسال کرد: عملکردهای اساسی در دسترس نیستند.",
+    "noImages": "تصویری در متن وجود ندارد. برای شروع، یک تصویر بارگذاری کنید.",
+    "allHidden": "در حال حاضر همه تصاویر پنهان هستند. برای نمایش تصویر، روی تصویر کوچک در سربرگ کلیک کنید.",
+    "showFirst": "نمایش تصویر اول",
+    "imageDisplay": "نمایش تصویر ({{showed}} نمایش داده شده / {{total}} total)",
+    "hideImage": "پنهان کردن تصویر",
+    "showImage": "نمایش تصویر",
+    "zoomPreview": "پیش‌نمایش بزرگنمایی",
+    "sendToTeam": "ارسال به تیم",
+    "dragToZoom": "برای انتخاب ناحیه بزرگنمایی جدید، روی تصویر بالا کلیک کرده و بکشید."
+  },
+  "mobileChat": {
+    "healthConsult": "مشاوره سلامت",
+    "speakToAI": "با {{name}} صحبت کنید",
+    "startConversation": "مکالمه خود را از زیر شروع کنید",
+    "requestToSpeakToAI": "می‌خواهم با {{name}} صحبت کنم."
+  },
+  "mobileWelcome": {
+    "greeting": "سلام!",
+    "aileenCarolIntro": "من آیلین کارول هستم، متخصص سلامت اولیه شما. مشتاق آشنایی با شما هستم. من مسئول تیم هوش مصنوعی متخصصان سلامت VirtualMD.app شما هستم. ما آماده‌ایم تا 24 ساعته و 7 روز هفته به شما کمک کنیم...",
+    "startConsultation": "مشاوره سلامت را شروع کنید",
+    "myTeam": "تیم من",
+    "aiTeamBuilder": "کارول، متخصص سلامت هوش مصنوعی، به شما در انتخاب تیمتان کمک می‌کند.",
+    "priorConsultations": "مشاوره‌های قبلی",
+    "encyclopedia": "دایره المعارف",
+    "myProfile": "پروفایل من",
+    "logout": "خروج",
+    "labels": {
+      "chat": "چت",
+      "advisory": "مشاوره",
+      "encyclopedia": "دایره المعارف",
+      "myTeam": "تیم من",
+      "history": "تاریخچه",
+      "myProfile": "پروفایل من"
+    }
+  },
+  "mobileInput": {
+    "listeningPlaceholder": "گوش می‌دهم... حالا صحبت کن",
+    "typePlaceholder": "یک پیام تایپ کنید...",
+    "clear": "پاک کردن",
+    "needHelp": "به کمک نیاز دارید؟",
+    "takePhoto": "عکس بگیر"
+  },
+  "mobileConsultations": {
+    "title": "مشاوره‌های قبلی",
+    "selectAll": "انتخاب همه",
+    "deselectAll": "لغو انتخاب همه",
+    "deleteSelected": "حذف موارد انتخاب شده ({{count}})",
+    "consultationDefault": "مشاوره {{id}}",
+    "lastUpdate": "آخرین به‌روزرسانی: {{date}}",
+    "noUpdates": "هنوز هیچ به‌روزرسانی‌ای وجود ندارد",
+    "editTitle": "ویرایش عنوان گفتگو",
+    "enterNewTitle": "عنوان جدید را وارد کنید:",
+    "noConsultations": "هنوز هیچ مشورتی نشده."
+  },
+  "mobileProfile": {
+    "title": "پروفایل من",
+    "saveError": "ذخیره پروفایل ناموفق بود",
+    "saveSuccess": "پروفایل آپدیت شد!",
+    "changePhoto": "تغییر عکس",
+    "displayName": "نام نمایشی",
+    "fullName": "نام و نام خانوادگی",
+    "email": "ایمیل",
+    "keyHealthInfo": "اطلاعات کلیدی سلامت",
+    "logout": "خروج"
+  },
+  "mobileNavigation": {
+    "consultation": "مشاوره",
+    "team": "تیم",
+    "history": "تاریخچه",
+    "exitConsultation": "مشاوره خروج",
+    "myTeam": "تیم من",
+    "summary": "خلاصه",
+    "differentialOpinion": "نظر متفاوت",
+    "transcript": "رونوشت",
+    "encyclopedia": "دایره المعارف",
+    "controls": "کنترل‌ها",
+    "aiSpeaker": "بلندگوی هوش مصنوعی",
+    "enabled": "فعال شده",
+    "disabled": "معلول",
+    "camera": "دوربین",
+    "comingSoon": "به زودی",
+    "menu": "منو"
+  },
+  "bioPanel": {
+    "loadingBio": "در حال بارگذاری بیوگرافی...",
+    "noBiography": "بیوگرافی موجود نیست.",
+    "returnToPanel": "بازگشت به پنل"
+  },
+  "sidebarHeader": {
+    "panel": "پنل",
+    "summary": "خلاصه",
+    "differentialOpinion": "نظر متفاوت",
+    "transcript": "رونوشت",
+    "encyclopedia": "دانشنامه VirtualMD.app",
+    "endConversation": "پایان مکالمه",
+    "startChatWithTeam": "شروع چت با تیم",
+    "configureNewChat": "پیکربندی چت جدید",
+    "myAIHealthTeam": "تیم سلامت هوش مصنوعی من",
+    "aileenCarolTeamBuilder": "کارول، متخصص سلامت، به شما در تشکیل تیم کمک می‌کند.",
+    "savedConsultations": "مشاوره‌های ذخیره شده",
+    "myProfile": "پروفایل من",
+    "imageNumber": "تصویر {{شماره}}"
+  },
+  "differentialOpinion": {
+    "noOpinionAvailable": "هیچ نظر افتراقی در دسترس نیست."
+  },
+  "encyclopedia": {
+    "title": "دانشنامه VirtualMD.app",
+    "loadingMessage": "ما در حال انجام تحقیقات عمیقی در مورد این موضوع برای شما هستیم. لطفاً چند ثانیه برای پاسخ خود صبر کنید.",
+    "longWaitMessage": "این ممکن است برای پاسخ‌های دقیق چند دقیقه طول بکشد.",
+    "searchButton": "جستجو در دانشنامه",
+    "return": "بازگشت",
+    "print": {
+      "button": "چاپ",
+      "title": "نتیجه جستجوی دایره‌المعارف",
+      "subtitle": "دانشنامه VirtualMD.app"
+    },
+    "copy": "کپی",
+    "searchResult": "نتیجه جستجوی دایره‌المعارف",
+    "attribution": "پاسخ توسط VirtualMD.app",
+    "emptyState": "برای جستجو در دانشنامه VirtualMD.app، عبارت مورد نظر خود را در بالا وارد کنید.",
+    "copySuccess": "محتوا در کلیپ‌بورد کپی شد!",
+    "copyError": "کپی کردن در کلیپ بورد ناموفق بود",
+    "generatingResponse": "تولید پاسخ جامع ...",
+    "genericError": "خطایی رخ داد",
+    "translatingContent": "ترجمه مطالب ..."
+  },
+  "input": {
+    "typeOrSpeakPlaceholder": "پیام خود را تایپ یا بیان کنید... برای ارسال، Enter را فشار دهید یا روی ▷ کلیک کنید.",
+    "typePlaceholder": "پیام را اینجا بنویسید... برای ارسال، Enter را فشار دهید یا روی ▷ کلیک کنید.",
+    "transcribing": "رونویسی...",
+    "enterTextHere": "متن را اینجا وارد کنید",
+    "startTypingMessage": "برای شروع مشاوره، پیام خود را در کادر زیر تایپ کنید."
+  },
+  "quickActions": {
+    "whatToDoButton": "چه باید بکنم؟",
+    "summaryButton": "خلاصه",
+    "whatShouldIDo": "بر اساس تمام مواردی که بحث کردیم، حالا باید چه کار کنم؟ لطفاً توصیه‌های واضح و عملی ارائه دهید.",
+    "requestSummary": "لطفاً خلاصه‌ای جامع از گفتگوی ما تاکنون، شامل نکات کلیدی مورد بحث، توصیه‌های ارائه شده و مراحل بعدی ارائه دهید."
+  },
+  "upload": {
+    "uploading": "در حال آپلود…"
+  },
+  "camera": {
+    "notSupported": "دسترسی به دوربین در این مرورگر پشتیبانی نمی‌شود",
+    "capturePhoto": "گرفتن عکس",
+    "accessDenied": "دسترسی به دوربین رد شد. لطفاً در تنظیمات مرورگر خود، دسترسی به دوربین را مجاز کنید.",
+    "accessFailed": "دسترسی به دوربین ناموفق بود"
+  },
+  "microphone": {
+    "turnOn": "میکروفون را روشن کنید",
+    "turnOff": "میکروفون را خاموش کنید"
+  },
+  "specialistPanel": {
+    "guidanceSingle": "برای مشاوره خصوصی، یکی از متخصصان هوش مصنوعی را انتخاب کنید:",
+    "guidanceMulti": "کارول، متخصص سلامت هوش مصنوعی، همیشه در برنامه حضور خواهد داشت. مشاوران سلامت هوش مصنوعی بیشتری را انتخاب کنید:",
+    "startPrivateConsult": "مشاوره خصوصی را شروع کنید",
+    "startChat": "شروع چت",
+    "selectSingle": "انتخاب متخصص هوش مصنوعی",
+    "selectMulti": "مشاوران اضافی را انتخاب کنید",
+    "warningSelectOne": "لطفا فقط یک متخصص را برای مشاوره خصوصی انتخاب کنید.",
+    "noSpecialistsAvailable": "در حال حاضر هیچ متخصص هوش مصنوعی برای مشاوره خصوصی در دسترس نیست.",
+    "noAdvisersAvailable": "هیچ مشاور سلامت هوش مصنوعی دیگری در دسترس نیست."
+  },
+  "sidebarFooter": {
+    "disclaimerText": "VirtualMD.app برای دقت تلاش می‌کند. با این حال، این و هر سرویس مبتنی بر هوش مصنوعی می‌تواند اطلاعات نادرستی ارائه دهد. همیشه با یک متخصص مراقبت‌های بهداشتی انسانی واجد شرایط مشورت کنید.",
+    "emergencyText": "برای فوریت‌های پزشکی با ۹۱۱ تماس بگیرید.",
+    "moreInformation": "اطلاعات بیشتر"
+  },
+  "teamBuilder": {
+    "healthConditions": {
+      "options": {
+        "${key}": "{{کلید}}"
+      }
+    },
+    "medicinePreferences": {
+      "options": {
+        "${key}": "{{کلید}}"
+      }
+    }
+  },
+  "account": {
+    "title": "تنظیمات حساب",
+    "description": "از اینجا می‌توانید حساب VirtualMD.app خود را برای همیشه حذف کنید. این اقدام، نمایه و تمام مشاوره‌های شما را حذف می‌کند.",
+    "deleteMyAccount": "حساب کاربری من را حذف کنید",
+    "confirmDeleteTitle": "حذف حساب کاربری",
+    "confirmDeleteText": "این اقدام برگشت‌ناپذیر است. تمام اطلاعات پروفایل، مشاوره‌ها و فایل‌های شما به‌طور دائم حذف خواهند شد. آیا مطمئن هستید که می‌خواهید ادامه دهید؟",
+    "cancel": "لغو",
+    "yesDelete": "بله، حذف"
+  },
+  "transcript": {
+    "noTranscript": "رونوشتی موجود نیست.",
+    "title": "متن مشاوره",
+    "returnToConversation": "بازگشت به گفتگو",
+    "print": "چاپ",
+    "copy": "کپی",
+    "copyError": "کپی نشد",
+    "roleLabels": {
+      "patient": "کاربر:",
+      "assistant": "دستیار:"
+    }
+  },
+  "mobileRouter": {
+    "teamRecommendations": "توصیه‌های تیمی",
+    "myTeam": "تیم من",
+    "summary": "خلاصه",
+    "differentialOpinion": "نظر متفاوت",
+    "transcript": "رونوشت",
+    "encyclopedia": "دایره المعارف",
+    "consultations": "مشاوره‌ها",
+    "returnToChat": "بازگشت به چت",
+    "pleaseLogIn": "لطفا وارد شوید",
+    "logInToView": "برای مشاهده مکالمات خود یا شروع مکالمه جدید، وارد شوید.",
+    "logIn": "ورود",
+    "loadingSpecialists": "در حال بارگیری متخصصان..."
+  },
+  "chat": {
+    "pleaseLogIn": "لطفا وارد شوید",
+    "logInToView": "برای مشاهده مکالمات خود یا شروع مکالمه جدید، وارد شوید."
+  },
+  "loginPage": {
+    "signIn": "ورود"
+  },
+  "imageProcessing": {
+    "preset": "از پیش تعیین شده",
+    "applyPreset": "اعمال تنظیمات از پیش تعیین‌شده روی تصویر فوکوس‌شده",
+    "process": "فرآیند",
+    "revertFocus": "دوباره روی تصویر اصلی فوکوس کنید",
+    "revert": "برگرداندن"
+  },
+  "guest": {
+    "consultation": "مشاوره مهمان",
+    "topics": {
+      "child": {
+        "title": "فرزندم بیمار است",
+        "subtitle": "مراقبت تخصصی از کودکان، زمانی که بیشترین نیاز را به آن دارید",
+        "initialMessage": "من آیلین کارول، مشاور سلامت مجازی شما هستم. می‌دانم یک کودک بیمار چقدر می‌تواند نگران‌کننده باشد. به من بگویید چه اتفاقی دارد می‌افتد. توجه: من یک هوش مصنوعی هستم، نه انسان؛ ممکن است توصیه‌های من اشتباه باشد - با یک متخصص مراقبت‌های بهداشتی انسانی واجد شرایط مشورت کنید."
+      },
+      "sleep": {
+        "title": "خوابم نمیبره!",
+        "subtitle": "شب‌هایت را احیا کن، روزهایت را دگرگون کن",
+        "initialMessage": "من آیلین کارول، مشاور سلامت مجازی شما، به همراه متخصص خواب، بنجامین استاین (روانپزشک) و آلیس چن (عصب‌شناس) هستم. چالش‌های خواب خود را با ما در میان بگذارید تا بتوانیم کمکتان کنیم. توجه: ما هوش مصنوعی هستیم، نه انسان؛ توصیه‌های ما ممکن است اشتباه باشد - با یک متخصص مراقبت‌های بهداشتی (انسانی) واجد شرایط مشورت کنید."
+      },
+      "nutrition": {
+        "title": "تغذیه برای شادابی",
+        "subtitle": "انرژی، تندرستی و سلامت جنسی خود را از طریق غذا افزایش دهید",
+        "initialMessage": "من آیلین کارول، مشاور سلامت مجازی شما هستم و به همراه تیم شما - آنجلیکا فوردهام (متخصص تغذیه)، ریچل لوی (متخصص سکس تراپی) و امینه اوکوفور (متخصص گیاه‌شناسی آفریقایی) اینجا هستم. حال شما امروز چطور است؟ توجه: ما هوش مصنوعی هستیم، نه انسان؛ ممکن است توصیه‌ها اشتباه باشند - با یک متخصص مراقبت‌های بهداشتی واجد شرایط مشورت کنید."
+      }
+    },
+    "errors": {
+      "sessionFailed": "شروع جلسه مهمان ناموفق بود"
+    },
+    "registrationRequired": "ثبت نام لازم است",
+    "uploadFeatures": {
+      "title": "ویژگی‌های آپلود سند و تصویر",
+      "description": "پلتفرم ما قابلیت‌های قدرتمندی برای تحلیل اسناد و تصاویر ارائه می‌دهد که در آن می‌توانید:",
+      "benefit1": "اسناد بهداشتی، گزارش‌های آزمایشگاهی و تصاویر را بارگذاری کنید",
+      "benefit2": "برای تجزیه و تحلیل دقیق، روی مناطق خاص زوم کنید",
+      "benefit3": "از مشاوران سلامت هوش مصنوعی ما بخواهید اسناد شما را ارزیابی و در مورد آنها بحث کنند",
+      "benefit4": "برای مشاوره فوری، مستقیماً از دوربین خود عکس بگیرید",
+      "registeredOnly": "این امکانات ویژه برای کاربران ثبت نام شده در دسترس است."
+    }
+  },
+  "activeChat": {
+    "guestMode": {
+      "advisorsTitle": "مشاوران سلامت VirtualMD.app",
+      "registrationRequired": "ثبت نام لازم است"
+    }
+  },
+  "healthAdvisors": "مشاوران سلامت VirtualMD.app"
+}

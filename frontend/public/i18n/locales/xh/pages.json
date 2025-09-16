@@ -1,0 +1,1397 @@
+{
+  "chatPage": {
+    "title": "Incoko yeVirtualMD.app",
+    "welcomeMessage": "Wamkelekile kudliwano-ndlebe lwakho lwezempilo",
+    "startConversation": "Qalisa Incoko Entsha",
+    "selectPersona": "Khetha iNgcali yezeMpilo yakho",
+    "typeMessage": "Chwetheza umyalezo wakho apha...",
+    "send": "Thumela",
+    "thinking": "Ukucinga...",
+    "error": "Into ayihamba kakuhle. Nceda zama kwakhona.",
+    "retry": "Zama kwakhona",
+    "clear": "Sula iNcoko",
+    "save": "Gcina Incoko",
+    "export": "Thumela Incoko",
+    "settings": "Izicwangciso zeNcoko"
+  },
+  "loginPage": {
+    "home": "Ekhaya",
+    "title": "Sayina ungene kwiVirtualMD.app",
+    "subtitle": "Fikelela kudliwano-ndlebe lwakho lwezempilo",
+    "email": "Idilesi yemeyile",
+    "password": "Inombolo yokuvula",
+    "signIn": "Ngena",
+    "forgotPassword": "Ingaba uyilibele iphasiwedi?",
+    "noAccount": "Awunayo iakhawunti?",
+    "signUp": "Bhalisa",
+    "or": "okanye",
+    "signInWithGoogle": "Sayina ngoGoogle",
+    "signInWithFacebook": "Sayina ungene kuFacebook",
+    "rememberMe": "Ndikhumbule",
+    "emailRequired": "I-imeyile iyafuneka",
+    "passwordRequired": "Igama lokugqithisa liyafuneka",
+    "invalidEmail": "Nceda ufake idilesi ekhona",
+    "signInError": "I-imeyile okanye igama eliyimfihlo elingasebenziyo",
+    "signInSuccess": "Siyakwamkela emva!"
+  },
+  "registerPage": {
+    "title": "Yenza iAkhawunti yakho yeVirtualMD.app",
+    "subtitle": "Joyina amawakawaka abasebenzisi abafumana isikhokelo sezempilo esilungiselelwe wena",
+    "firstName": "Igama lakho",
+    "lastName": "Ifani",
+    "email": "Idilesi yemeyile",
+    "password": "Inombolo yokuvula",
+    "confirmPassword": "Ngqina iphasiwedi",
+    "signUp": "Dala i-akhawunti",
+    "hasAccount": "Ngaba sele unayo i-akhawunti?",
+    "signIn": "Ngena",
+    "or": "okanye",
+    "signUpWithGoogle": "Bhalisa kuGoogle",
+    "signUpWithFacebook": "Bhalisa nge-Facebook",
+    "agreeToTerms": "Ndiyavumelana neMigqaliselo yeNkonzo kunye noMgaqo-nkqubo waBucala",
+    "firstNameRequired": "Igama lokuqala liyafuneka",
+    "lastNameRequired": "Ifani iyafuneka",
+    "emailRequired": "I-imeyile iyafuneka",
+    "passwordRequired": "Igama lokugqithisa liyafuneka",
+    "passwordMinLength": "Igama lokugqithisa kufuneka libe noonobumba abasi-8 ubuncinane",
+    "passwordsDoNotMatch": "Amagama okugqithisa awahambelani",
+    "invalidEmail": "Nceda ufake idilesi ekhona",
+    "termsRequired": "Kufuneka uvumelane nemigaqo nemiqathango",
+    "signUpError": "Ayiphumelelanga ukwenza iakhawunti. Nceda zama kwakhona.",
+    "signUpSuccess": "Iakhawunti yenziwe ngempumelelo! Wamkelekile kwiVirtualMD.app!",
+    "passwordHelperText": "Ubuncinane 6 amagama, kuquka iileta, amanani, kunye nomnye we @#$%^&*()! Akukho zithuba.",
+    "passwordNeedsLetter": "Igama lokugqithisa kufuneka libandakanye ubuncinane unobumba omnye.",
+    "passwordNeedsNumber": "Igama lokugqithisa malibandakanye ubuncinane inani elinye.",
+    "passwordNeedsSpecial": "Igama lokugqithisa kufuneka liquke nokuba mnye unobumba okhethekileyo: !@#$%^&*()",
+    "passwordNoSpaces": "Igama lokugqithisa alinakuqulatha izithuba.",
+    "agreeToTermsModal": "Ukuze ubhalise, kufuneka uvumelane neMigaqo kunye neMiqathango. Cofa kwikhonkco leMimiselo neMiqathango apha.",
+    "agreeToTermsLabel": "Ndiyavumelana ne",
+    "termsAndConditions": "Imimmiselo nemiqathango",
+    "register": "Bhalisa",
+    "alreadyHaveAccount": "Ngaba sele unayo i-akhawunti?",
+    "login": "Ngema",
+    "home": "Ekhaya",
+    "emailInUseError": "Le dilesi ye-imeyile sele ibhalisiwe. Nceda zama ukungena okanye usebenzise i-imeyile eyahlukileyo.",
+    "iAgree": "Ndiyavuma",
+    "unexpectedError": "Kwenzeke impazamo engalindelekanga ngexesha lobhaliso. Nceda zama kwakhona.",
+    "mustAgreeToTerms": "Kufuneka uvumelane neMigqaliselo kunye neMiqathango ukuze ubhalise."
+  },
+  "contactPage": {
+    "title": "Qhagamshelana neVirtualMD.app",
+    "subtitle": "Qhagamshelana neqela lethu",
+    "description": "Ngaba unemibuzo malunga nothethwano lwethu lwezempilo olunamandla e-AI? Silapha ukunceda.",
+    "name": "Igama eliphelele",
+    "email": "Idilesi yemeyile",
+    "subject": "Umxholo",
+    "message": "Umyalezo",
+    "send": "Thumela uMyalezo",
+    "sending": "Iyathumela...",
+    "nameRequired": "Igama liyafuneka",
+    "emailRequired": "I-imeyile iyafuneka",
+    "subjectRequired": "Isihloko siyafuneka",
+    "messageRequired": "Umyalezo uyafuneka",
+    "invalidEmail": "Nceda ufake idilesi ekhona",
+    "sendError": "Ayiphumelelanga ukuthumela umyalezo. Nceda zama kwakhona.",
+    "sendSuccess": "Umyalezo uthunyelwe ngempumelelo! Siza kubuyela kuwe kungekudala.",
+    "errorMessage": "Impazamo yenzekile. Nceda uzame kwakhona mva.",
+    "contactInfo": {
+      "title": "Iinkcukacha zoqhakamshelwano",
+      "address": "123 Health Street, Wellness District, City, State 12345",
+      "phone": "+1 (555) 123-4567",
+      "email": "info@virtualmd.app",
+      "hours": "NgoMvulo-ngoLwesihlanu: 9:00 AM - 6:00 PM PST"
+    },
+    "contactUs": "Qhagamshelana nathi",
+    "contactDescription": "Imibuzo okanye impendulo? Singathanda ukuva kuwe. Nceda usebenzise le fomu ingezantsi.",
+    "directEmail": "Nge-imeyile ngqo, qhagamshelana nathi ku",
+    "yourEmail": "Idilesi yakho yemeyile",
+    "sendMessage": "Thumela uMyalezo",
+    "messageSent": "Umyalezo uthunyelwe!",
+    "home": "Ekhaya",
+    "contactError": "Kwenzeke imposiso xa kuthunyelwa umyalezo wakho. Nceda uzame kwakhona kamva okanye",
+    "contactDirectly": "Unokusithumelela i-imeyile ngokuthe ngqo ku-info@virtualmd.app"
+  },
+  "researchPage": {
+    "title": "UPhando nopapasho",
+    "subtitle": "Fumanisa isayensi emva kwezisombululo zempilo ezixhaswa yi-AI",
+    "description": "Iqonga lethu lakhelwe kuphando oluphambili kunye nobungqina beklinikhi.",
+    "sections": {
+      "publications": "Iimpapasho",
+      "clinicalStudies": "Izifundo zeklinikhi",
+      "whitepapers": "Amaphepha amhlophe",
+      "partnerships": "Ubudlelwane boPhando"
+    },
+    "healthAdvisory": {
+      "title": "Health Advisory",
+      "description": "Ulwazi olubalulekileyo malunga nokusetyenziswa kwe-AI kukhathalelo lwempilo kunye nexesha lokubonisana nababoneleli bezempilo abangabantu.",
+      "button": "Funda iNgcebiso yezeMpilo"
+    },
+    "imagingAI": {
+      "title": "Ukufanekisa Uncedo lwe-AI",
+      "description": "Phonononga iphepha lethu elimhlophe elibanzi kwimifanekiso yezonyango encediswa yi-AI kunye nefuthe layo kukhathalelo lwempilo.",
+      "button": "Funda iPhepha leNgcaciso yoMgaqo-nkqubo"
+    },
+    "pathologyAI": {
+      "title": "Uncedo lwe-AI yePathology",
+      "description": "Phonononga iphepha lethu elimhlophe elineenkcukacha malunga ne-AI-assisted pathology kunye nokusetyenziswa kwayo ekubhaqweni komhlaza.",
+      "button": "Funda iPhepha leNgcaciso yoMgaqo-nkqubo"
+    },
+    "dermatologyAI": {
+      "title": "Dermatology AI Uncedo",
+      "description": "Uphando lwethu malunga nezicelo ze-AI kwidermatology yokufumanisa isilonda solusu kunye nokuhlelwa.",
+      "button": "Funda iPhepha leNgcacisonkqubo"
+    },
+    "mentalHealthAI": {
+      "title": "Impilo yengqondo AI Insights",
+      "description": "Ukuntywila nzulu kwindima ye-AI ekuqhubeleni phambili ukhathalelo lwempilo yengqondo, uxilongo, kunye nokusetyenziswa konyango.",
+      "button": "Funda iPhepha leNgcaciso yoMgaqo-nkqubo"
+    },
+    "dataPrivacy": {
+      "title": "UBucala beData Dive",
+      "description": "Uphononongo olubanzi lwezenzo zethu zokuphatha idatha, amanyathelo okhuseleko, kunye nokuqwalaselwa malunga ne-HIPAA.",
+      "button": "Funda iPhepha leNgcaciso yoMgaqo-nkqubo"
+    },
+    "aiAccuracy": {
+      "title": "Izifundo zokuchaneka kwe-AI",
+      "description": "Funda malunga nophando lwethu malunga nokuchaneka kwe-AI ekuxilongweni kwezonyango kunye neengcebiso zonyango.",
+      "button": "Jonga izifundo"
+    },
+    "aiForLaypeople": {
+      "title": "Imifanekiso ye-AI yabantu abaLaypeople",
+      "description": "Inkcazo elula yendlela i-AI ewuguqula ngayo umfanekiso wezonyango kunye nokuba kuthetha ukuthini kwizigulana.",
+      "button": "Funda Ingcaciso"
+    }
+  },
+  "evidencePage": {
+    "title": "Ubungqina beklinikhi",
+    "subtitle": "Uphando oluphononongwe ngabalingane oluxhasa iqonga lethu lezempilo le-AI",
+    "description": "Iyeza elisekelwe kubungqina lingundoqo kuyo yonke into esiyenzayo.",
+    "heading": "Ukuvula ikamva leMpilo kunye nokuba sempilweni",
+    "description2": "I-VirtualMD.app yinguqu kwimpilo kunye nokuba sempilweni, esekwe kuphando oluphambili kwaye iqhutywa luthando lokuguqula impilo-ntle. Sibonisa amandla aqinisekisiweyo e-AI ngelixa sisenza iindlela ezintsha zobuqu, ukuba sempilweni. Oku kungaphezulu kwe-app; yiparadigm entsha. Yiba yinxalenye yenguqu.",
+    "researchHeading": "UPhando oluSiseko: i-AI's Proven Capabilities",
+    "wellnessHeading": "Uguquko lweMpilontle: Indlela yakho eya kwiMpilo-ntle yesiZukulwana esilandelayo",
+    "researchEvidence": {
+      "radiology": {
+        "title": "I-AI kwiRadiology: Ukufunyanwa okuPhuculo",
+        "description": "Iimodeli ze-AI zizuze ukuchaneka kwe-92% ekufumaneni ukungaqhelekanga kwi-X-ray yesifuba, ebonisa amandla okuphucula isantya sokuxilonga kunye nokuchaneka.",
+        "citation": "Ijenali yeRadiology, 2023",
+        "explainSimply": "Cacisa Oku Kalula",
+        "tooltip": "Cofa ikhonkco elichaza eli nqaku ngokwemiqathango."
+      },
+      "pathology": {
+        "title": "I-AI kwiPathology: Ukuchaneka okuphuculweyo",
+        "description": "Ukuxilongwa kwe-AI kuphuculwe ukufunyanwa kwezicubu ezinobungozi nge-15% kwiislayidi ze-pathology xa kuthelekiswa nokuphononongwa kwencwadana yodwa.",
+        "citation": "Ijenali yaseMelika yePathology, 2022"
+      },
+      "dermatology": {
+        "title": "I-AI kwiDermatology: iNgcali-yeNqanaba lokuSebenza",
+        "description": "Kuphononongo olukhulu oluyimfama, i-AI ichonge ngokuchanekileyo i-95% yeemeko zomhlaza wesikhumba ukusuka kwimifanekiso, ehambelana nokusebenza kweedermatologists ezinamava.",
+        "citation": "I-JAMA Dermatology, ngo-2022"
+      },
+      "mentalHealthResearch": {
+        "title": "I-AI kwiMpilo yeNgqondo: UPhando lokuFumana kwangethuba",
+        "description": "Uphando lubonisa iisistim ze-AI zibona iimpawu ezilumkiso kwangethuba zokubuyela kwimeko yengqondo, nto leyo evumela ungenelelo olungexesha kunye nenkxaso.",
+        "citation": "JAMA Psychiatry, 2021"
+      }
+    },
+    "wellnessInsights": {
+      "personalizedWellness": {
+        "title": "I-AI-Powered Personalized Plans Wellness",
+        "description": "Fumanisa ukuba i-AI yethu inceda njani kuhambo lwentlalontle olulungelelaniswe ngokukodwa iinjongo zakho kunye nendlela yokuphila, uhambela ngaphaya kobukhulu obufanayo-bonke."
+      },
+      "holisticSignals": {
+        "title": "Ukuqonda imiqondiso yoMzimba wakho owahlukileyo nge-AI",
+        "description": "Funda ukuba iVirtualMD.app ikunceda njani ukutolika iipateni ezifihlakeleyo kubomi bakho bemihla ngemihla ukukhuthaza unxibelelwano olunzulu kunye nempilo yakho."
+      },
+      "proactiveWellbeing": {
+        "title": "Ikamva: Intlalo-ntle eProactive & Predictive",
+        "description": "Jonga indlela iqonga lethu elisebenzisa ngayo ulwazi olujonge phambili ukukunceda ukuba uqikelele iimfuno kunye nokuphucula amandla akho kunye nokomelela kwakho."
+      },
+      "aiEnhancedClarity": {
+        "title": "I-AI yoPhuculo lweNgqondo kunye nokuKhathalela kwengqondo",
+        "description": "Jonga ukuba iVirtualMD.app ibonelela njani ngezixhobo kunye neembono zokuxhasa ukugxila kwengqondo, ulungelelwaniso lweemvakalelo, kunye nempilo yonke yokuqonda."
+      }
+    }
+  },
+  "featuresPage": {
+    "title": "Iimpawu zeQonga",
+    "subtitle": "Izixhobo zokubonisana zempilo ezibanzi ze-AI",
+    "description": "Fumana zonke izinto ezenza iVirtualMD.app ibe yodwa.",
+    "heading": "Fumana iNdlela yethu yeNguqulelo",
+    "features": {
+      "instantWellnessInsights": {
+        "title": "Instant Wellness Insights",
+        "description": "Fumana impendulo ngokukhawuleza kunye nokuqonda imibuzo yakho yempilo, nangaliphi na ixesha uyifuna."
+      },
+      "holisticWellnessPicture": {
+        "title": "Umfanekiso wempilo epheleleyo",
+        "description": "I-AI yethu ithathela ingqalelo yonke imiba yegalelo lakho - okubhaliweyo, imifanekiso yenkqubela phambili yomzimba wakho, okanye amangeno kwijenali yempilo - ukujonga ngokupheleleyo."
+      },
+      "diverseAIPerspectives": {
+        "title": "Iimbono ezahlukeneyo ze-AI",
+        "description": "Zuza kuluhlu lweengcali zempilo ye-AI, nganye inika ulwazi olulodwa lokuqonda okujikelezileyo."
+      },
+      "everEvolvingIntelligence": {
+        "title": "Ubukrelekrele obuqhubekayo",
+        "description": "Iqonga lethu lihlala lifunda kwaye liphucula ulwazi lwalo ukuze likuzise elona cebiso lihlaziyiweyo nelifanelekileyo lempilo."
+      }
+    }
+  },
+  "clinicianInfoPage": {
+    "title": "Kubasebenzi bezempilo",
+    "subtitle": "Izixhobo ezinikwe amandla nge-AI zokuphucula umsebenzi wakho weklinikhi",
+    "description": "Yandisa ubuchwephesha bakho ngolwazi oluphambili lwe-AI."
+  },
+  "healthAdvisoryPage": {
+    "title": "Health Advisory",
+    "subtitle": "Dibana nabacebisi bethu bezonyango abaziingcali",
+    "description": "Funda malunga neengcali zonyango ezikhokela iqonga lethu.",
+    "sections": {
+      "consultation": {
+        "title": "Hlala uQhagamshelana noMboneleli wezeMpilo woLuntu",
+        "description": "Ngelixa i-VirtualMD.app ye-AI-powered inkqubo yokubonisana ibonelela ngolwazi oluxabisekileyo lwezempilo, kubalulekile ukuhlala unxibelelana nabanikezeli bezempilo abaqeqeshiweyo kuyo nayiphi na inkxalabo yezonyango. Oogqirha bethu abaqinisekisiweyo bebhodi baphuhlise le nkqubo ukuze bancedise, bangatshintshi, iingcebiso zonyango lobuchwephesha.",
+        "emergencyTitle": "Kwimeko yonyango olungxamisekileyo:",
+        "emergency": {
+          "us": "EUnited States: Cofa u-911",
+          "canada": "EKhanada: Cofa ku-911",
+          "uk": "EUnited Kingdom: Cofa u-999 okanye u-112",
+          "australia": "EOstreliya: Cofa u-000 okanye uyi-112",
+          "israel": "USirayeli: Cofa u-101 ()",
+          "other": "Ezinye iindawo: Qhagamshelana neenkonzo zikaxakeka zasekuhlaleni ngokukhawuleza"
+        },
+        "emergencyWarning": "Ukuba ufumana ubuhlungu besifuba, ubunzima bokuphefumla, ukopha kakhulu, iimpawu ze-stroke, okanye naziphi na ezinye iimpawu ezinzulu-musa ukulinda. Funa unyango olungxamisekileyo ngoku."
+      },
+      "technology": {
+        "title": "I-VirtualMD.app ye-Advanced Health AI Technology",
+        "description1": "I-VirtualMD.app isebenzisa ii-algorithms ezintsha eziphuhliswe liqela lethu loogqirha abaqeqeshwe yi-Harvard kunye neengcali ze-AI ukuhambisa ulwazi lwezempilo oluchanekileyo. Iingcali zethu zezempilo ze-AI ziqeqeshelwe uncwadi lwezempilo olubanzi, izikhokelo zeklinikhi, kunye neemeko zezempilo zehlabathi zokwenyani ukuze zibonelele ngezimvo ezibonisa ngokusondeleyo ezo zeengcali eziqinisekiswe yibhodi.",
+        "description2": "Kuthelekiso olulawulwayo lwecala necala lokuchaneka koxilongo, inkqubo yethu ibonise ukusebenza okumangalisayo, isoloko ihambelana okanye igqithisa iingcinga zoogqirha abanamava. Abantu bethu be-AI banokuqhuba amawaka amaphepha ophando lwezempilo, izikhokelo, kunye neeprothokholi zeklinikhi ngemizuzwana-ukufikelela kulwazi olungaphaya kwayo nayiphi na enye ingcali yezempilo yoluntu enokugcina.",
+        "description3": "Ngelixa sizamela ukuchaneka okukhethekileyo kwaye neqela lethu liqhubeka liphucula inkqubo, iyeza lintsokothile kwaye iimeko zempilo zodwa zizodwa. Yiyo loo nto siyile iqonga lethu ukuba landise-lingathathi indawo-ubuchule obuxabisekileyo bababoneleli bezempilo abangabantu."
+      },
+      "disclaimer": {
+        "title": "Sebenzisa Ngomngcipheko Wakho",
+        "description": "Ulwazi olunikezwe yiVirtualMD.app kunye nengcali yezempilo ye-AI yenzelwe ulwazi kunye nemfundo kuphela. Ngokusebenzisa le nkonzo, uyavuma kwaye uyavuma ukuba:",
+        "points": {
+          "noDiagnosis": "I-VirtualMD.app ayiboneleli ngoxilongo okanye unyango",
+          "mayContainErrors": "Umxholo owenziwe yi-AI unokuqulatha iimpazamo okanye izinto ezishiyiweyo ngaphandle kwenkqubo yethu yokuqinisekisa eyomeleleyo",
+          "requiresEvaluation": "Iingcebiso zonyango zifuna uvavanyo lomntu ngamnye ngababoneleli bezempilo abanelayisensi",
+          "mayBeOutdated": "Ulwazi lwezempilo lusenokuphelelwa lixesha njengoko ulwazi lwezonyango lukhula",
+          "uniqueCircumstances": "Imbali yakho yonyango eyodwa, iimeko, kunye neemeko zifuna uvavanyo lobuchwephesha"
+        },
+        "userResponsibility": "Ngelixa iVirtualMD.app isebenzisa itekhnoloji entsonkothileyo ukuhambisa ulwazi oluxabisekileyo lwezonyango, abasebenzisi bathatha lonke uxanduva ngendlela abalusebenzisa ngayo olu lwazi.",
+        "missionStatement": "Iqela leVirtualMD.app liphuhlise obu buchwepheshe kuba sikholelwa ekufikeleleni kwidemokhrasi kulwazi lwezonyango olukumgangatho wehlabathi kunye nokuxhasa izigqibo zempilo ezingcono. Inkqubo yethu ye-AI imele uhlaziyo oluqhubekayo kubuchwepheshe bolwazi lwezempilo oluthi, xa lusetyenziswa ngokufanelekileyo kunye nokhathalelo lobuchwephesha, lunokukunceda wenze ukhetho lwezempilo olunolwazi kwaye ube neencoko ezinemveliso ngakumbi nababoneleli bakho bezempilo. Ukungasebenzisi ubugcisa obuphucuke ngolo hlobo xa bufumaneka bekuya kuba lithuba langaphambili lokufumana ulwazi lwezonyango olunokutshintsha ubomi."
+      }
+    }
+  },
+  "patientInfoPage": {
+    "title": "Yabasebenzisi",
+    "subtitle": "Isikhokelo sezempilo esilungiselelwe wena ezandleni zakho",
+    "description": "Ulwazi oluneenkcukacha malunga nokuba iVirtualMD.app iluncedo njani kwizigulana ziya kufumaneka apha kungekudala."
+  },
+  "nurseInfoPage": {
+    "title": "Yeyabongikazi",
+    "subtitle": "Ukhathalelo lwezigulane oluphuculweyo lwe-AI kunye nenkxaso yesigqibo seklinikhi",
+    "description": "Ulwazi oluneenkcukacha malunga nendlela iVirtualMD.app eluncedo ngayo abongikazi iya kufumaneka apha kungekudala."
+  },
+  "pharmacistInfoPage": {
+    "title": "KooSokhemesti",
+    "subtitle": "Ulawulo lwamayeza kunye nokuqonda ukusebenzisana kweziyobisi",
+    "description": "Ulwazi oluneenkcukacha malunga nokuba iVirtualMD.app iluncedo njani koosokhemesti iya kufumaneka apha kungekudala."
+  },
+  "physicianInfoPage": {
+    "title": "NgooGqirha",
+    "subtitle": "Inkxaso yezigqibo zeklinikhi kunye noncedo lokuxilonga",
+    "description": "Ulwazi oluneenkcukacha malunga nendlela iVirtualMD.app eluncedo ngayo oogqirha iya kufumaneka apha kungekudala."
+  },
+  "medicalImageProcessingPage": {
+    "title": "Health Image Analysis",
+    "subtitle": "I-AI-powered diagnostic imaging interpretation",
+    "description": "Uhlalutyo oluphezulu lwemifanekiso yokuxilongwa ngokuchanekileyo kwezonyango.",
+    "preset": "Seta kwangaphambili",
+    "chooseImage": "Khetha uMfanekiso",
+    "process": "Inkqubo",
+    "processedImage": "Umfanekiso ogqityiweyo"
+  },
+  "mentalHealthInfoPage": {
+    "title": "Inkxaso yeMpilo yengqondo",
+    "subtitle": "I-AI-incedise ukuhlolwa kwempilo yengqondo kunye nenkxaso",
+    "description": "Ulwazi oluneenkcukacha malunga nokuba iVirtualMD.app iluncedo njani kwiingcali zempilo yengqondo ziya kufumaneka apha kungekudala."
+  },
+  "wellnessPathwaysPage": {
+    "title": "ISikhokelo seeNdlela zokuPhila",
+    "subtitle": "Ucwangciso lohambo lwezempilo olulolwakho",
+    "description": "Fumana indlela yakho eya kwimpilo epheleleyo kunye nokuba sempilweni."
+  },
+  "yourHealthInYourHandsPage": {
+    "title": "Impilo Yakho Ezandleni Zakho",
+    "subtitle": "Ukuxhobisa ukuba ulawule impilo yakho",
+    "description": "Izixhobo kunye nokuqonda ukukunceda wenze izigqibo zempilo ezinolwazi.",
+    "mainHeading": "Thatha Ulawulo: Impilo Yakho, Izigqibo Zakho, Uhambo Lwakho",
+    "sections": {
+      "uniqueProfile": {
+        "title": "Qonda iProfayile yakho eyahlukileyo",
+        "description1": "Fumana ulwazi olunzulu ngenkangeleko yempilo yakho. Iqonga lethu likunceda ukuba udibanise amachaphaza kwaye uqonde izinto ezinegalelo kubomi bakho bubonke.",
+        "description2": "Jonga iinkalo ezahlukeneyo zempilo yakho, ukusuka kwindlela yokuphila ukuya kwizinto ozikhethayo, zonke zisendaweni enye."
+      },
+      "personalizedGoals": {
+        "title": "Cwangcisa kwaye ulandelele IiNjongo Zakho ezenzelwe wena",
+        "description1": "Chaza ukuba kuthetha ukuthini ukuba sempilweni *kuwe*. NgeVirtualMD.app, unokuseta iinjongo ezinentsingiselo, ezifikelelekayo kwaye ulandelele inkqubela yakho endleleni. Sinikezela ngezixhobo kunye nenkxaso ukukunceda uhlale ukhuthazekile kwaye ubhiyozele impumelelo yakho.",
+        "description2": "Nokuba kukwandisa amandla, ukuphucula ukulala, okanye ukukhuthaza ukucaca kwengqondo, uhambo lwakho lohlukile."
+      },
+      "diverseInsights": {
+        "title": "Fikelela kwiiMvo ezahlukeneyo zoKhetho olunolwazi",
+        "description1": "Ulwazi ngamandla. Iqonga lethu libonelela ngokufikelela kuluhlu olubanzi lolwazi kunye neembono ezivela kwizikhokelo zethu ezahlukeneyo ze-AI. Yenza izigqibo ezizithembileyo ezisekelwe ekuqondeni okubanzi, hayi nje izibakala ezikhethekileyo.",
+        "description2": "Sikunceda ujonge kwihlabathi elintsonkothileyo leenkcukacha zempilo, ukuze ukwazi ukukhetha okukulungeleyo."
+      },
+      "proactivePartner": {
+        "title": "Iqabane lakho kwi-Proactive Well-being",
+        "description1": "I-VirtualMD.app ingaphezulu nje kwesixhobo; siliqabane lakho ekwakheni ubudlelwane obusebenzayo, obulungileyo kunye nempilo yakho. Silapha ukukuxhasa ngezixhobo, ukuqonda, kunye nendlela yokuguqula impilo yakho.",
+        "description2": "Yiba yiRevolution ebomini bakho. Qala uhambo lwakho lwezempilo oluxhotyisiweyo namhlanje."
+      }
+    },
+    "callToAction": {
+      "title": "Ngaba ukulungele ukubeka impilo yakho ezandleni zakho?",
+      "description": "Jonga iimpawu zethu, ncokola nezikhokelo zethu zempilo ye-AI, kwaye ufumanise umahluko onokwenziwa yiVirtualMD.app.",
+      "buttons": {
+        "tryAsGuest": "Zama njengoNdwendwe"
+      }
+    }
+  },
+  "aboutEncyclopediaPage": {
+    "title": "VirtualMD.app Encyclopedia of Health and Wellness",
+    "p1": "Kwihlabathi lanamhlanje ledijithali, ulwazi oluninzi lwezempilo lusezandleni zethu, kodwa ukwahlula iingcebiso ezithembekileyo kulwazi olungeyonyani kunokongamela.",
+    "p2": "IVirtualMD.app Encyclopedia inqumla ingxolo, ibonelela ngendlela yoguqulo yokuzibandakanya nempilo yakho. Idityaniswe ngokukodwa kwiqonga lethu, ikuvumela ukuba ufikelele kulwazi olunzulu, olubhekiselele kwiijenali zezonyango ezihlonitshwayo ngaphandle kokushiya unxibelelwano lwakho ngqo neqela lethu leengcali ze-AI.",
+    "p3": "Le asiyonjini yokukhangela nje; licandelo eliqeqeshwe ngokukodwa \"lophando olunzulu\" elenzelwe ukuba libe sisixhobo sakho esithembekileyo ngexesha lencoko.",
+    "p4": "Khawufane ucinge ukuba ukwincoko nogqirha wentliziyo we-AI kunye nengcali yezondlo exoxa ngolawulo lwe-cholesterol. Igama elithi \"statins\" likhankanyiwe, kwaye ufuna ukuqonda ngaphezu kwezinto ezisisiseko. Endaweni yokumisa ingxoxo yakho ukukhangela i-intanethi evulekileyo, unokufikelela ngoko nangoko kwiVirtualMD.app Encyclopedia. Iza kubonelela ngesishwankathelo esibanzi, kodwa ekulula ukusiqonda sendlela amayeza asebenza ngayo, izibonelelo zawo, kunye neziphumo ebezingalindelekanga ezinokwenzeka, kunye nalo lonke ulwazi olufunyenwe kupapasho oluphononongwe ngoontanga njengeLancet okanye iNew England Journal of Medicine."
+  },
+  "dataPrivacyPage": {
+    "title": "UBucala beDatha kunye noKhuseleko",
+    "subtitle": "Idatha yakho yezempilo ikhuselwe ngeyona migangatho iphezulu yokhuseleko",
+    "description": "Funda ngendlela esilugcina ngayo ulwazi lwakho lwezempilo lukhuselekile kwaye lukhuselekile."
+  },
+  "encyclopediaPage": {
+    "title": "VirtualMD.app Encyclopedia",
+    "subtitle": "Ulwazi lwezonyango olubanzi ezandleni zakho",
+    "description": "Phonononga uvimba wethu obanzi weemeko zonyango, unyango, kunye nolwazi lwezempilo.",
+    "mainHeading": "VirtualMD.app Encyclopedia",
+    "p1": "Wamkelekile kwiVirtualMD.app Encyclopedia-isikhokelo sakho esibanzi kulwazi lwezonyango.",
+    "p2": "I-encyclopedia yethu iquka uluhlu olubanzi lwezihloko zempilo, iimeko, kunye nonyango.",
+    "exampleTitle": "Imixholo ekhoyo",
+    "exampleText": "Phonononga imixholo yethu yezempilo edumileyo kunye neemeko zonyango.",
+    "uniqueTitle": "Yintoni Esenza Sahluke",
+    "p3": "I-encyclopedia yethu enikwe amandla yi-AI inikezela ngolwazi lomntu siqu, olusekwe kubungqina."
+  },
+  "whyVirtualMDPage": {
+    "title": "Kutheni le nto VirtualMD.app?",
+    "subtitle": "Ikamva lokhathalelo lwempilo lomntu lilapha",
+    "description": "Fumanisa ukuba yintoni eyenza iqonga lethu lezempilo elinamandla e-AI lahluke."
+  },
+  "landing": {
+    "tryItOut": "Yizame",
+    "cards": {
+      "tryItOut": {
+        "tagline": "Akukho bhaliso olufunekayo."
+      }
+    }
+  },
+  "legalPage": {
+    "title": "Ulwazi olusemthethweni",
+    "subtitle": "Imigaqo yeNkonzo, uMgaqo-nkqubo waBucala, kunye neZaziso zoMthetho",
+    "description": "Ulwazi olusemthethweni olubalulekileyo malunga nokusebenzisa iVirtualMD.app."
+  },
+  "legal": {
+    "eligibility": {
+      "ageRequirement": "Ukusebenzisa iNkonzo yeVirtualMD.app, kufuneka ubuncinci ube neminyaka eyi-18 okanye ubudala bobuninzi obusemthethweni kwindawo yakho, nokuba yeyiphi enkulu. Ukuba usebenzisa iNkonzo egameni lombutho, umela kwaye uqinisekisa ukuba unegunya lokubophelela lo mbutho kule Miqathango, kwaye uyavuma ukubotshelelwa yile Miqathango egameni lalo mbutho.",
+      "legalCapacity": "Kufuneka ube namandla asemthethweni ukuze ungene kule Miqathango. Awukwazi ukufikelela okanye ukusebenzisa iNkonzo ukuba uthintelwe ukufumana iinkonzo phantsi komthetho osebenzayo okanye sele unqunyanyisiwe okanye wasuswa kwiNkonzo yi-VirtualMD.",
+      "territorialRestrictions": "Ukufikelela kwiNkonzo ukusuka kwimimandla apho umxholo wayo okanye ukusetyenziswa kwayo kungekho mthethweni kuthintelwe ngokungqongqo. Abasebenzisi banoxanduva lokuthobela yonke imithetho yasekhaya, imithetho, kunye nemimiselo malunga nokusetyenziswa kwabo kweNkonzo, kubandakanywa nezo zinxulumene nokuziphatha kwe-intanethi kunye nomxholo owamkelekileyo."
+    },
+    "feesAndPayment": {
+      "currentlyFree": "Okwangoku, ukufikelela kwiimpawu ezisisiseko zeNkonzo yeVirtualMD.app inikezelwa simahla.",
+      "futureFeesNotice": "I-VirtualMD inelungelo lokwazisa imirhumo yeempawu ezithile, amanqanaba enkonzo, okanye iNkonzo iyonke kwixesha elizayo. Ukuba sinokuzisa ngeentlawulo, siya kukunika isaziso sangaphambili solo tshintsho kunye nemigaqo yentlawulo esebenzayo. Ukuqhubekeka kwakho usebenzisa iinkonzo ezisekelwe kwintlawulo emva kwesaziso esinjalo sibandakanya isivumelwano sakho sokuhlawula imirhumo efanelekileyo.",
+      "paymentTerms": "Nayiphi na imigaqo yentlawulo enikezelwe kuwe kwinkqubo yokusebenzisa okanye yokubhalisela inkonzo ehlawulwayo ithathwa njengenxalenye yale Miqathango."
+    },
+    "termination": {
+      "userTermination": "Ungayivala iakhawunti yakho kwaye uyeke ukusebenzisa iNkonzo nangaliphi na ixesha ngokulandela imiyalelo engaphakathi kwiNkonzo okanye uqhagamshelane nathi.",
+      "serviceTermination": "I-VirtualMD inokuthi, ngokubona kwayo, imise okanye iphelise ukufikelela kwakho kuyo yonke okanye inxalenye yeNkonzo, kunye okanye ngaphandle kwesaziso, ngaso nasiphi na isizathu, kubandakanywa, ngaphandle komda, ukwaphulwa kwale Miqathango. Izizathu zokuphelisa zingabandakanya, kodwa azikhawulelwanga, ukungasebenzi ixesha elide, izicelo zonyanzeliso lomthetho okanye ezinye ii-arhente zikarhulumente, ukupheliswa okanye ukuguqulwa kwezinto eziphathekayo zeNkonzo, okanye imiba engalindelekanga yobugcisa okanye yokhuseleko.",
+      "effectOfTermination": "Emva kokupheliswa, ilungelo lakho lokusebenzisa iNkonzo liya kuphela ngokukhawuleza. Onke amalungiselelo eMiqathango enokuthi ngokwendalo yawo aphile ekuyekisweni aya kusinda ekuyekisweni, kubandakanywa, ngaphandle kwemida, amalungiselelo obunini, izibambiso zewaranti, imbuyekezo, kunye nemida yobutyala.",
+      "noLiability": "Asiyi kuba noxanduva kuwe okanye nakweliphi na iqela lesithathu ngalo naluphi na ukupheliswa kokufikelela kwakho kwiNkonzo."
+    },
+    "termsOfUse": {
+      "title": "Imimmiselo yokusebenzisa",
+      "header": {
+        "company": "Iwebhusayithi yeVirtualMD.app",
+        "llc": "VirtualMD Technologies LLC"
+      },
+      "welcome": "Wamkelekile kwiVirtualMD.app (i \"Inkonzo\", \"Indawo\"), eqhutywa yiVirtualMD Technologies, LLC (\"VirtualMD\", \"thina\", \"thina\", \"yethu\"). Le Miqathango yokuSetyenziswa (\"iMiqathango\") ilawula ukufikelela kwakho kunye nokusetyenziswa kwewebhusayithi yethu, abantu be-AI, umxholo kunye neenkonzo. Ngokufikelela okanye ukusebenzisa iNkonzo, uyavuma ukuba ubotshelelwe yile Miqathango kunye noMgaqo-nkqubo wethu waBucala, obandakanywe apha ngereferensi. Ukuba awuvumelani nale Miqathango, musa ukusebenzisa iNkonzo.",
+      "sections": {
+        "section1": {
+          "title": "Isibambiso sethu saBucala beDatha",
+          "content": "KwiVirtualMD.app, ubumfihlo kunye nokhuseleko lolwazi lwakho lobuqu lubaluleke kakhulu. Sizimisele ukugcina ubumfihlo kunye nokuthembeka kwedatha osiphathise yona. Iqonga lethu liyilwe ngamanyathelo okhuseleko olomeleleyo ukukhusela ulwazi lwakho ekufikeleleni okungagunyaziswanga, ukubhengezwa, ukuguqulwa, kunye nokutshatyalaliswa.",
+          "subsections": {
+            "": {
+              "content": "Idata engaziwayo yoPhuculo:\nSisebenzisa ngokungqongqo idatha engaziwa kwaye ehlanganisiweyo (isuswe yonke i-PII) ukuphucula ukuchaneka, ukusebenza, kunye nokhuseleko lweemodeli zethu ze-AI kunye neempawu zeqonga. Oku akuvumeli ukuchongwa kwakhe nawuphi na umsebenzisi."
+            }
+          }
+        },
+        "section2": {
+          "title": "Ulwazi esiluqokelelayo kunye nezinye iinkcukacha zabucala",
+          "content": "Ulwazi Esiluqokelelayo\n   Siqokelela ulwazi osinika lona ngokuthe ngqo, ulwazi esiluqokelela ngokuzenzekelayo ngokusebenzisa kwakho iNkonzo, kunye nolwazi oluvela kwimithombo yomntu wesithathu.\n\nUlwazi ngeAkhawunti: Xa ubhalisa, siqokelela ulwazi olufana negama lakho, idilesi ye-imeyile kunye nenombolo yefowuni (ngeenjongo zokuqinisekisa).\nUmxholo woMsebenzisi: Siqokelela ulwazi olunikezayo xa usebenzisa iNkonzo, kubandakanywa umbhalo ongeniswa kunxibelelwano lwengxoxo, ulwazi lweprofayili (njengoluhlu lwamayeza, ukuba lunikezelwe), kunye nengxelo.\nUlwazi Lokusetyenziswa: Siqokelela ngokuzenzekelayo ulwazi malunga nokusebenzisana kwakho neNkonzo, njengedilesi ye-IP, uhlobo lwebrawuza, ulwazi lwesixhobo, inkqubo yokusebenza, amaphepha ajongweyo, amakhonkco acofayo, kunye nemihla kunye namaxesha otyelelo lwakho.\nIikuki kunye nobuChwephesha obufanayo: Sisebenzisa iikuki kunye neetekhnoloji zokulandelela ezifanayo ukulandelela umsebenzi kwiNkonzo yethu kwaye sibambe ulwazi oluthile. Ungayalela isikhangeli sakho ukuba sale zonke iikuki okanye ubonise xa icookie ithunyelwa. Nangona kunjalo, ukuba awuzamkeli iikuki, usenokungakwazi ukusebenzisa ezinye iinxalenye zeNkonzo yethu.\n\nIndlela Esilusebenzisa Ngayo Ulwazi\nSisebenzisa ulwazi esiluqokelelayo ngeenjongo ezahlukeneyo, kuquka:\n\nUkubonelela, sebenzisa, gcina, kwaye uphucule iNkonzo.\nInkqubo yentengiselwano kunye nokuthumela ulwazi oluhambelanayo, kubandakanywa iziqinisekiso kunye nee-invoyisi (ukuba ziyasebenza).\nThumela izaziso zobugcisa, uhlaziyo, izilumkiso zokhuseleko, kunye nenkxaso kunye nemiyalezo yolawulo.\nPhendula kwizimvo zakho, imibuzo, kunye nezicelo kwaye unikezele ngenkonzo yabathengi.\nNxibelelana nawe malunga neemveliso, iinkonzo, izibonelelo, ukukhushulwa, imivuzo, kunye neziganeko ezinikezelwa yi-VirtualMD kunye nabanye, kwaye unike iindaba kunye nolwazi esicinga ukuba luya kuba nomdla kuwe (ngokuxhomekeke kumalungelo akho okuphuma).\nJonga kwaye uhlalutye iintsingiselo, ukusetyenziswa, kunye nemisebenzi ngokunxulumene neNkonzo yethu.\nUkukhangela, ukuphanda, kunye nokuthintela ukuthengiselana ngobuqhetseba kunye neminye imisebenzi engekho mthethweni kunye nokukhusela amalungelo kunye nepropati ye-VirtualMD kunye nabanye.\nYenza ngokwezifiso kwaye uphucule iNkonzo kwaye unikeze umxholo okanye iimpawu ezihambelana neeprofayili zabasebenzisi okanye umdla.\nUkuphucula ukuchaneka, ukusebenza kakuhle, kunye nokhuseleko lweemodeli zethu ze-AI kunye neempawu zeqonga usebenzisa idatha engaziwa kunye nehlanganisiweyo.\nYenza nayiphi na enye injongo echazwe kuwe ngexesha lokuqokelela ulwazi.\n\nIndlela Esabelana Ngayo Ngolwazi\n\nNabathengisi kunye nabaBoneleli beNkonzo: Sinokwabelana ngolwazi kunye nabathengisi beqela lesithathu, abacebisi, kunye nabanye ababoneleli ngeenkonzo abafuna ukufikelela kulwazi olunjalo ukuze baqhube umsebenzi egameni lethu (umzekelo, ababoneleli bokusingatha, ababoneleli be-analytics, abaqhubekisi bentlawulo, ababoneleli be-AI API baqulunqwe ngokwemigaqo-nkqubo yethu yokusetyenziswa kwedatha).\nEkuphenduleni iNkqubo yoMthetho: Sinokuthi siveze ulwazi ukuba kufuneka senze njalo ngokomthetho okanye ngenkolelo efanelekileyo yokuba isenzo esinjalo siyimfuneko ukuthobela uxanduva lomthetho, ukukhusela nokukhusela amalungelo okanye ipropathi ye-VirtualMD, ukuthintela okanye ukuphanda ubugwenxa obunokwenzeka ngokunxulumene neNkonzo, ukukhusela ukhuseleko lobuqu lwabasebenzisi beNkonzo okanye uluntu, okanye ukukhusela ngokusemthethweni.\nNgemvume yakho: Sinokwabelana ngolwazi ngemvume yakho okanye ngokwesikhokelo sakho.\nUweliselo lweShishini: Sisenokwabelana okanye sidlulisele ulwazi ngokunxulumene, okanye ngexesha lothethathethwano, nakuphi na ukudityaniswa, ukuthengiswa kwee-asethi zenkampani, ukuxhasa ngemali, okanye ukufunyanwa kwayo yonke okanye inxalenye yeshishini lethu yenye inkampani.\nIdatha eHlanganisiweyo okanye engachongwanga: Sinokwabelana ngolwazi oludityanisiweyo okanye olungachazwanga, olungenakusetyenziswa ngokufanelekileyo ukukuchonga.\n\nUkhetho lwakho lwabucala\nUlwazi ngeAkhawunti: Ungahlaziya, ulungise, okanye ucime ulwazi ngawe nangaliphi na ixesha ngokungena kwiakhawunti yakho okanye ngokuqhagamshelana nathi. Ukuba unqwenela ukucima i-akhawunti yakho, nceda uqhagamshelane nathi, kodwa qaphela ukuba singagcina iinkcukacha ezithile njengoko kufunwa ngumthetho okanye ngeenjongo zoshishino ezisemthethweni.\nUkucinywa kwedatha: Njengoko kukhankanyiwe phantsi kweZenzo zoKhuseleko, unezixhobo zokucima ngokusisigxina iincoko zomntu okanye iakhawunti yakho yonke.\nIikuki: Iibhrawuza ezininzi zewebhu zisetelwe ukuba zamkele iikuki ngokuzenzekelayo. Ukuba uyathanda, ungakhetha ukuseta isikhangeli sakho ukuba sisuse okanye sale iikuki zebrawuza.\nUNxibelelwano lweNtengiso: Unokuphuma ekufumaneni ii-imeyile zokuthengisa ezivela kwi-VirtualMD ngokulandela imiyalelo kwezo imeyile. Ukuba uyaphuma, sisenokukuthumelela unxibelelwano olungakukhuseliyo, olufana nolo lumalunga neakhawunti yakho okanye ubudlelwane bethu obuqhubekayo beshishini.\n\nUkugcinwa kwedatha\nSilugcina ulwazi esiluqokelelayo malunga nawe ixesha elide njengoko luyimfuneko ngokwenjongo (ii)nto ebesiziqokelele ngayo ekuqaleni, okanye ngeenjongo zoshishino ezisemthethweni, kuquka ukuhlangabezana nezibophelelo zethu ezisemthethweni, ezilawulayo, okanye ezinye. Sigcina ulwazi lwe-akhawunti okoko i-akhawunti yakho isebenza kunye nexesha elifanelekileyo emva koko xa uthatha isigqibo sokuphinda uvule iNkonzo. Idatha engachazwanga kunye nehlanganisiweyo esetyenziselwa ukuphuculwa kwesistim inokugcinwa ngokungenasiphelo.\n\nUgqithiso lweDatha lwamazwe ngamazwe\nI-VirtualMD isekwe e-United States, kwaye siqhuba kwaye sigcina ulwazi e-U.S. Ukuba ungaphandle kwe-United States, nceda uqaphele ukuba ulwazi esiluqokelelayo luya kudluliselwa, luqhutywe, kwaye lugcinwe e-United States. Imithetho yokhuseleko lwedatha eU.S. inokwahluka kuleyo yelizwe ohlala kulo. Ngokusebenzisa iNkonzo, uyavuma ukudluliselwa kolwazi lwakho eU.S. kunye nokusetyenziswa kunye nokubhengezwa kolwazi lwakho njengoko kuchaziwe kulo Mgaqo-nkqubo waBucala.\n\nUBucala babantwana\nInkonzo yeVirtualMD.app yenzelwe abantu abadala kwaye ayibhekiswanga kubantwana abangaphantsi kweminyaka eyi-13 (okanye ubudala obufanelekileyo bemvume yedijithali kwindawo yakho). Asiqokeleli iinkcukacha zobuqu kubantwana ngamabom. Ukusetyenziswa kweNkonzo ngabantwana akuvumelekanga. Ukuba ungumzali okanye umgcini kwaye ukholelwa ukuba umntwana wakho usinike ulwazi ngokungekho mthethweni ngaphandle kwemvume yakho, nceda uqhagamshelane nathi ngoko nangoko legal@virtualmd.app. Ukuba sifunda ukuba siqokelele ulwazi kumntwana esaphula umthetho osebenzayo, siya kukhawuleza sithathe amanyathelo okucima loo nkcazelo.",
+          "subsections": {
+            "wemayshareinformationaboutyouasfollowsorasotherwisedescribedinthisprivacypolicy": {
+              "title": "Sinokwabelana ngolwazi malunga nawe ngolu hlobo lulandelayo okanye njengoko kuchazwe ngenye indlela kulo Mgaqo-nkqubo waBucala"
+            }
+          }
+        },
+        "section3": {
+          "title": "Unyino lweTyala malunga noKhuseleko lweDatha",
+          "content": "I-VirtualMD isebenzisa amanyathelo okhuseleko afanelekileyo kurhwebo, kuquka uguqulelo oluntsonkothileyo kunye neeprothokholi zokuqinisekisa (njengoko kucacisiwe kuMgaqo-nkqubo wethu waBucala), ukukhusela ulwazi olunikezelayo kwiNkonzo. Nangona kunjalo, akukho nkqubo yokhuseleko ingangeneki.\n\nNgoko ke, ngokusebenzisa le Site, uyavuma ngokucacileyo kwaye uyavuma ukuba ngelixa i-VirtualMD iya kwenza iinzame ezifanelekileyo zokukhusela idatha yakho ehambelana nezenzo eziqhelekileyo zoshishino, ASIQINISEKISI UKHUSELEKO OLUPHELELEYO LOLWAZI LWAKHO. Uyavuma ukuba AWUKWAZI KWAYE AWUYI KUBANGALA OKANYE UKUBAMBA I-VirtualMD TECHNOLOGIES, LLC, ITS AFFILIATES, AMAGOSA, ABALAWULI, ABAQESHWA, II-AGENENTS, OKANYE AMAPHEPHA-MVUME AXHOMEKEKO ngawo nawuphi na umonakalo, ilahleko, iindleko, okanye iindleko eziphuma okanye ngokunxulumene nalo naluphi na ulwazi olungagunyaziswanga, oludityanisiweyo, ukutshabalalisa okanye ukufikelela okungagunyaziswanga. ukuphulwa kwedatha), ngaphandle kokuba i-VirtualMD iphumeze amanyathelo okhuseleko afanelekileyo. Ukusebenzisa kwakho iNkonzo kuthetha ukwamkela kwakho lo mngcipheko."
+        },
+        "section4": {
+          "title": "Unyino Jikelele lweTyala",
+          "content": "NGOKUPHELELEYO KUVUNYIWE NGOMTHETHO OSEBENZAYO, AKUKHO MSITHO AYIKHO I-VirtualMD TECHNOLOGIES, LLC, AMAGQEBA AYO, AMAGOSA, ABALAWULI, ABAQESHWA, II-ARENTE, OKANYE ABANTU ABAFUMENE IMVUME BATHWELE UXANDUVA NGALUPHI NA INDLELA, INGCACISO, INGCACISO, ICANDELO A. UMONAKALO, OKANYE NAYIPHI NA UKULAHLEKELWA KWENZUZO OKANYE INGENISO, ENOBA YENZEKE NGOKUNQOSHO OKANYE NGOKUNGCINGQI, OKANYE NAKUPHI NA UKULAHLEKELWA KWEDATHA, UKUSETYENZISWA, UKULUNGISA, OKANYE OKUNYE IILAHLEKO ENGASEKHO, EPHUMA:\n\nUKUFIKELELA KWAKHO OKANYE UKUSETYENZISWA OKANYE UKUNGAKWAZI UKUFUMANA OKANYE UKUYISEBENZISA LE NKONZO;\nNAKUPHI NA UKUZIPHATHA OKANYE UMQULATHO WALO NALUPHI ICANDELO LESITHATHU KWINKONZO, KUBANDAKANYA NGAPHANDLE KOMNIKELO, NAKUPHI NA UKUZIPHATHA, UKUKHUSEKA, OKANYE UKUZIPHATHA OKUNGEKHO EMTHETHWENI KWABANYE ABASEBENZISI OKANYE AMAQELA ESITHATHU;\nNasiphi na isiqulatho ESIFUMANELWE KWINKONZO; OKANYE\nUKUFIKELELA OKUNGESEMTHETHWENI, UKUSETYENZISWA, OKANYE UKUTSHINTSHWA KWAKHO OKANYE ISIQULATHO (KUQUKA UKWEHLULWA KWEDATHA), NOKUBA i-VirtualMD IPHUMZE IMIQATHANGO ENGQINISEKISO YOKHUSELEKO NJENGOKO KUCHAZWE KULE MIGAQO KUNYE NOMGAQO-NKQUBO WASEMFIHLO.\nNGOKUPHELELEYO KUVUNYIWE NGOMTHETHO, i-VirtualMD IYAZIBANZA ZONKE IZIQINISEKISO, ZIBHENGEZIWEYO OKANYE EZINGCACISIWEYO, KUHLANGANISA, KODWA AKUMDALWA, IZIQINISEKISO EZIXINWEYO ZOKURHWETHWA, UKULUNGELA NGENJONGO ETHILE, ISIHLOKO, UKUBA KUNYE NENKCAZELO.\n\nAKUKHO MFANEKISO UXANDUVA LUWONKE lwe-VirtualMD kunye namahlakani ayo agqwese NGAMANDLA OMKHULU WE-USD 100.00 (USD $100.00) OKANYE ISIXA OWUHLAWULELAYO I-VirtualMD, UKUBA NAKHO, KWIINYANGA EZINTANDATHU EZINGAPHAMBILI NGENKONZO YOKUFUMANA INKONZO.\n\nNgokuxhomekeke kulo mnqwazi wetyala odibeneyo, kwaye ngaphandle kwawo nawaphi na amanye amalungiselelo ale Miqathango, ekuphela kwesisombululo sakho kulo naliphi na ibango elivela okanye elinxulumene nale Miqathango okanye iNkonzo iya kuthintelwa ekufumaneni umonakalo othe ngqo owenziwe nguwe. Umonakalo onjalo ngokuthe ngqo uchazwa njengemirhumo oyihlawule ngokuthe ngqo kwi-VirtualMD yenxalenye ethile yeNkonzo ebangela ukuba ibango ngexesha leenyanga ezintandathu (6) ngokukhawuleza esandulela isiganeko, kwaye iphinde ifumaneke kuphela ukuya kumlinganiselo onjalo umonakalo obangelwa ngokuthe ngqo kwi-VirtualMD eqinisekisiweyo yokuziphatha kakubi ngabom okanye ukungakhathali okukhulu ekwenzeni izibophelelo zayo phantsi kwale Miqathango. Ukucaciswa, i-VirtualMD, amahlakani ayo, abanini-zabelo, amagosa, abalawuli, abasebenzi, kunye nee-arhente aziyi kuba nabutyala kuyo nayiphi na into engathanga ngqo, engalindelekanga, ekhethekileyo, isiphumo, okanye isohlwayo somonakalo, umrhumo wegqwetha, okanye iindleko, kungakhathaliseki ukuba ithiyori yobutyala, nokuba ivela ngenxa yokwaphulwa kwale Miqathango okanye ukunyhashwa kwamalungelo akho, ngaphandle kokuba kuthintelwe oko kukhutshelwa ngumthetho.\n\nIMIDA YELI CANDELWANA IYA KUSEBENZA KUYO NAYIPHI NA ITHIYORI YOBUTYEBI, EKUSEKWENZIWE KWIWARANTI, IMVUMELWANO, UMTHETHO, TORT (KUBANDAKANYA NOKUNGABANJWA), OKANYE NGENXA YOKUBA, I-VirtualMD YAZIsiwe NGENXA, OKANYE NGENXA YEMIBUZO. OKUTHETHWE APHA KUFUMANEKA AYIPHUMELELE KWINJONGO YAYO EBALULEKILEYO.\n\nEMINYE IMITHETHO AYIKUVUMELI UKUNGABANDWA KOMTHETHO OZITHILE OKANYE UMNIKELO OKANYE OKANYE UKUNGATHINTSHI UXANDUVA NGESEhlo OKANYE OKUPHUMELELEYO. NGOKUTSHOYO, EMINYE YALE MIDA ingentla isenokungasebenzi KUWE."
+        },
+        "section5": {
+          "title": "Izenzo zoKhuseleko zeVirtualMD.app",
+          "content": "Sisebenzisa isicwangciso sokhuseleko esinamanqanaba amaninzi:\n\nUqinisekiso Lwezinto Ezimbini (2FA):\nIsinyanzelo kuzo zonke ii-akhawunti, ezifuna ukuqinisekiswa ngokusebenzisa into yesibini (umzekelo, ikhowudi kwi-imeyile / ifowuni).\n\nUqinisekiso Lwezinto Ezintathu (3FA) Ukhetho:\nUkhuseleko olongeziweyo ngokuzikhethela olufuna igama eliyimfihlo, ikhowudi ye-imeyile, KUNYE nekhowudi yeSMS.\n\nLa manyathelo abonelela ngokhuseleko oluluqilima lweakhawunti, kodwa khumbula ukuba akukho nkqubo ikhuselekile nge-100%.",
+          "subsections": {
+            "": {
+              "content": "Ulawulo loFikelelo:\nUkufikelela kwiirekhodi zesiseko sedatha ngabasebenzi kulawulwa ngokungqongqo, kulinganiselwe, kufakwe, kwaye kulawulwa yimigaqo-nkqubo yangaphakathi. Ukhangelo zincwadi lwesiqhelo aluvumelekanga."
+            }
+          }
+        },
+        "section6": {
+          "title": "I-VirtualMD.app kunye neeNgqwalaselo ze-HIPAA (Ukuphindaphinda)",
+          "content": "Njengoko kuchaziwe kwiZityalo zokuziQwalasela, inkonzo yeVirtualMD.app jikelele AYIKHO HIPAA ethobelayo kwiZiko eli-Inshoriweyo / uMnxulumanisi weShishini amatyala okusebenzisa abandakanya i-PHI ngaphandle kwe-BAA ethile. Ngelixa siphumeza ukhuseleko oluluqilima, inkonzo yethu jikelele isebenza phantsi kweendlela zokhuseleko ezisemgangathweni, hayi iimfuno ezithile zoMthetho woKhuseleko we-HIPAA we-PHI olawulwa ngamaQumrhu a-Inshoriweyo.\n\nAbasebenzisi abafuna ukuthotyelwa kwe-HIPAA ngokungqongqo kwi-PHI abayilawulayo akufanele basebenzise iqonga lethu jikelele ngeenjongo ezinjalo ngaphandle kwe-BAA. Abasebenzisi akufanele bafake ulwazi olunokulandelwa kwizigulane ngamnye kumxholo ophula i-HIPAA ngaphandle kwemvume ecacileyo, enolwazi evumayo i-platform ye-non-HIPAA yokuthobela isimo sokusetyenziswa."
+        },
+        "section7": {
+          "title": "Ukusetyenziswa kweeNkcukacha ngabaBoneleli beNjini yeQela le-AI",
+          "content": "I-VirtualMD idibanisa nababoneleli bemodeli be-AI abakhokelayo (umzekelo, i-OpenAI, i-Anthropic, i-Google).\n\nVirtualMD.app:\nSisebenzisa kuphela idatha engaziwa, edityanisiweyo yokuphucula inkqubo yangaphakathi.\n\nAbaboneleli be-API beqela lesithathu:\nAbaboneleli abakhulu abafikelelwe nge-API (efana ne-OpenAI, i-Anthropic) ngokuqhelekileyo bachaza kwimigaqo-nkqubo yabo ukuba idatha efakwe nge-API AYISETYENZISWE ukuqeqesha imifuziselo yesiseko sabo ngokubanzi. Simisela ukusetyenziswa kwethu kwezi nkonzo ukuze zihambelane nolu khetho lokugcinwa kwabucala. Phonononga imigaqo-nkqubo yabo ethile ngeenkcukacha.\n\nAmanye amaLungelo oMthetho\nUtshintsho kule Miqathango kunye nePolisi\nI-VirtualMD inelungelo, ngokokubona kwethu, ukuguqula okanye ukutshintsha le Miqathango kunye noMgaqo-nkqubo waBucala obandakanyiweyo nangaliphi na ixesha. Ukuba uhlaziyo luyinto ebonakalayo, siya kubonelela ngesaziso seentsuku ezingama-30 ubuncinci phambi kwayo nayiphi na imigaqo emitsha esebenzayo, enokunikezelwa nge-imeyile kwidilesi ehambelana neakhawunti yakho okanye ngokuthumela isaziso kwiNkonzo.\n\nYintoni eyenza utshintsho lwezinto eziphathekayo luya kugqitywa ngokubona kwethu.\n\nNgokuqhubeka nokufikelela okanye ukusebenzisa iNkonzo yethu emva kokuba naluphi na uhlaziyo lusebenza, uyavuma ukuba ubotshelelwe yimigaqo ehlaziyiweyo. Ukuba awuvumelani nemigaqo emitsha, awusagunyaziswanga ukusebenzisa iNkonzo kwaye kufuneka uyeke ukusebenzisa ngokukhawuleza.\n\nLuxanduva lwakho ukujonga le Miqathango ngamaxesha athile ukuze wenze utshintsho.\n\nUkupheliswa\nUngayivala iakhawunti yakho kwaye uyeke ukusebenzisa iNkonzo nangaliphi na ixesha ngokulandela imiyalelo engaphakathi kwiNkonzo okanye uqhagamshelane nathi.\n\nI-VirtualMD inokuthi, ngokubona kwayo, imise okanye iphelise ukufikelela kwakho kuyo yonke okanye inxalenye yeNkonzo, kunye okanye ngaphandle kwesaziso, ngaso nasiphi na isizathu, kubandakanywa, ngaphandle komda, ukwaphulwa kwale Miqathango. Izizathu zokuphelisa zingabandakanya, kodwa azikhawulelwanga, ukungasebenzi ixesha elide, izicelo zonyanzeliso lomthetho okanye ezinye ii-arhente zikarhulumente, ukupheliswa okanye ukuguqulwa kwezinto eziphathekayo zeNkonzo, okanye imiba engalindelekanga yobugcisa okanye yokhuseleko.\n\nEmva kokupheliswa, ilungelo lakho lokusebenzisa iNkonzo liya kuphela ngokukhawuleza. Onke amalungiselelo eMiqathango enokuthi ngokwendalo yawo aphile ekuyekisweni aya kusinda ekuyekisweni, kubandakanywa, ngaphandle kwemida, amalungiselelo obunini, izibambiso zewaranti, imbuyekezo, kunye nemida yobutyala.\n\nAsiyi kuba noxanduva kuwe okanye nakweliphi na iqela lesithathu ngalo naluphi na ukupheliswa kokufikelela kwakho kwiNkonzo.\n\nUMthetho oLawulayo kunye noSombululo lweeMbano\nLe Miqathango kunye nokusetyenziswa kwakho kweNkonzo kuya kulawulwa kwaye kucaciswe ngokuhambelana nemithetho yoManyano lwaseMassachusetts, eUnited States of America, ngaphandle kongquzulwano lwemigaqo yomthetho.\n\nUyavuma ukuba naliphi na inyathelo lomthetho okanye inkqubo ephuma okanye enxulumene nale Miqathango okanye iNkonzo iya kuziswa ngokukodwa kwiinkundla zomdibaniso okanye zelizwe eziseSuffolk County, Massachusetts, USA. Unika imvume kulawulo olukhethekileyo kunye nendawo yeenkundla ezinjalo kwaye uyasirhoxisa nasiphi na inkcaso malunga neforam engafanelekanga.\n\nI-VirtualMD inokuthi, ngokubona kwayo, ifune ukuba ungenise naziphi na iimbambano ezivela kusetyenziso lwale Miqathango okanye iNkonzo, kubandakanywa iingxabano ezivela okanye malunga nokutolikwa kwazo, ukuphulwa, ukungasebenzi, ukungasebenzi, okanye ukupheliswa, ukuya ekugqibeleni kunye nokubophelela ulamlo phantsi kweMithetho yoLawulo lwe-American Arbitration Association esebenzisa umthetho waseMassachusetts.\n\nIinkcukacha zoqhakamshelwano\nUkuba unayo nayiphi na imibuzo malunga nale Miqathango okanye uMgaqo-nkqubo waBucala, nceda uqhagamshelane nathi ku: legal@virtualmd.app okanye uqhagamshelane nathi kwiphepha lethu.\n\nIintlobo ngeentlobo\nIsiVumelwano sisonke\nLe Miqathango kunye noMgaqo-nkqubo wethu waBucala zenza isivumelwano kunye nesiphelele phakathi kwakho kunye neVirtualMD Technologies, LLC malunga neNkonzo kwaye ithatha indawo yokuqonda kwangaphambili kunye nexesha langoku, izivumelwano, ukumelwa, kunye neziqinisekiso, zombini ezibhaliweyo kunye nezomlomo, malunga neNkonzo.\n\nUkuba ngqongqo\nUkuba naliphi na ilungiselelo lale Miqathango libanjwe yinkundla okanye esinye isigqeba esinegunya lokulawula ukuba alisebenzi, lingekho mthethweni, okanye linganyanzelisi ngaso nasiphi na isizathu, olo lungiselelo luya kupheliswa okanye luthintelwe kumlinganiselo ophantsi wokuba izibonelelo eziseleyo zeMiqathango ziya kuqhubeka zisebenza ngokupheleleyo kwaye zisebenze.\n\nUkurhoxisa\nAkukho kurhoxiswa yi VirtualMD yalo naliphi na ixesha okanye imeko ebekiweyo kule Miqathango iya kuthathwa njengoyekelelo olongezelelweyo okanye oluqhubekayo lwelo gama okanye imeko okanye ukurhoxiswa kwaso nasiphi na esinye isigama okanye imeko, kwaye nakuphi na ukusilela kweVirtualMD ukumela ilungelo okanye ulungiselelo phantsi kwale Miqathango ayisayi kwenza ukurhoxiswa kwelungelo okanye ilungiselelo elinjalo.\n\nIsabelo\nLe Miqathango, kunye nawo nawaphi na amalungelo kunye neelayisensi ezinikwe apha ngezantsi, ayinakudluliselwa okanye yabelwa nguwe, kodwa inokwabelwa yiVirtualMD ngaphandle kwesithintelo.\n\nIzihloko\nIzihloko zecandelo ezisetyenziswe apha zenzelwe ukunceda kuphela kwaye aziyi kunikwa nayiphi na into esemthethweni.\n\nNje kancinci\nI-VirtualMD ayisayi kuba noxanduva lwako nakuphi na ukusilela ukwenza izibophelelo zayo apha ngezantsi apho ukungaphumeleli okunjalo kubangela nasiphi na isizathu esingaphaya kolawulo olufanelekileyo lwe-VirtualMD, kubandakanywa, ngaphandle kokunciphisa, umatshini, i-elektroniki, okanye ukungaphumeleli konxibelelwano okanye ukuthotywa.\n\nIgqityelwe ukuhlaziywa: ngoMeyi 12, 2025\n\nQhagamshelana nathi\ninfo@virtualmd.app"
+        }
+      }
+    }
+  },
+  "dataPrivacyWhitepaper": {
+    "sections": {
+      "hero": "Intshayelelo",
+      "privacyPledge": "Isibhambathiso sethu saBucala",
+      "securityLevels": "Ukuqonda uKhuseleko lweDatha",
+      "hipaaDeepDive": "HIPAA Icacisiwe",
+      "VirtualMDSecurity": "Izenzo zoKhuseleko ze-VirtualMD.app",
+      "hipaaConsiderations": "I-VirtualMD.app kunye ne-HIPAA",
+      "userResponsibility": "Uxanduva loMsebenzisi kunye nokusetyenziswa okusesikweni",
+      "privacyScenarios": "Iimeko zaBucala eziSebenzayo kunye neNgqwalaselo ePhezulu",
+      "conclusion": "Isiphelo kunye neZinto eziThathayo eziphambili"
+    },
+    "hero": {
+      "title": "I-VirtualMD.app: Ubumfihlo bedatha kunye nawe",
+      "subtitle": "Ukuqonda Ukuzibophezela Kwethu kuKhuseleko lweDatha kunye neNdlela yethu kwiMigangatho yoLwazi lwezeMpilo, kuquka ne-HIPAA."
+    },
+    "privacyPledge": {
+      "title": "1. ISithembiso saBucala sedatha yeVirtualMD.app",
+      "intro": "KwiVirtualMD.app, ubumfihlo kunye nokhuseleko lolwazi lwakho lobuqu lubaluleke kakhulu. Sizimisele ukugcina ubumfihlo kunye nokuthembeka kwedatha osiphathise yona. Iqonga lethu liyilwe ngamanyathelo okhuseleko olomeleleyo ukukhusela ulwazi lwakho ekufikeleleni okungagunyaziswanga, ukubhengezwa, ukuguqulwa, kunye nokutshatyalaliswa.",
+      "secureInfo": {
+        "title": "Sizama ukugcina ulwazi lwakho lukhuselekile.",
+        "description": "Sisebenzisa iiprothokholi zofihlo zomgangatho woshishino lwedatha xa uhamba kwaye uphumle, ecaleni kokhuseleko lolwakhiwo olunemigangatho emininzi."
+      },
+      "noPersonalUse": {
+        "title": "Asisebenzisi ulwazi lwakho ngayo nayiphi na indlela yokuchonga umntu ngeenjongo zangaphandle ngaphandle kwemvume yakho ecacileyo.",
+        "description": "Unxibelelwano lwakho oluthe ngqo kunye neenkcukacha zobuqu zezakho wedwa."
+      },
+      "neverSell": {
+        "title": "Asinakuze sithengise iinkcukacha zakho kubantu besithathu.",
+        "description": "Ukuthembela kwakho kubaluleke kakhulu, kwaye siyayixhasa le nto ngokuqinisekisa ukuba idatha yakho ayithengiswa."
+      },
+      "anonymizedData": {
+        "title": "Siza kusebenzisa idatha yakho engaziwa ukuphucula inkqubo yethu.",
+        "description": "Ukuphucula ukuchaneka, ukusebenza kakuhle, kunye nokhuseleko lweemodeli zethu ze-AI kunye neempawu zeqonga, sisebenzisa idatha engazange yaziwe yaza yadityaniswa ngokungqongqo. Oku kuthetha ukuba zonke iinkcukacha ezichongiweyo (personal identifiable information) (PII) ziyasuswa, kwaye idatha isetyenziswa kwimo edityanisiweyo engavumeli ukuba kuchongwe nawuphi na umsebenzisi. Le nkqubo ibalulekile ekufundeni okuqhubekayo kunye nokuphuculwa kweenkonzo esizinikezela kubo bonke abasebenzisi."
+      }
+    },
+    "securityLevels": {
+      "title": "2. Ukuqonda amaNqanaba oKhuseleko lweDatha kunye ne-HIPAA",
+      "accountSecurity": {
+        "title": "Amanqanaba oKhuseleko lweAkhawunti",
+        "description": "Ukhuseleko lwedijithali luxhomekeke kumaleko ongqinisiso ukuze kuqinisekiswe ubuni bomsebenzisi. Ezi zinto zihlala zihlelwa njengezinto:",
+        "sfaTitle": "UQinisekiso lweFactor enye (1FA):",
+        "sfaDescription": "Ifuna kuphela udidi olunye lwenkcazi, ngokwesiqhelo igama lokugqitha. Ngelixa ixhaphakile, le yeyona ndlela incinci ikhuseleke ngakumbi njengoko amagama ayimfihlo anokubiwa, aqikelelwe, okanye aqhekezwe.",
+        "tfaTitle": "Uqinisekiso Lwezinto Ezimbini (2FA):",
+        "tfaDescription": "Ifuna iindidi ezimbini zenkcazi ezisuka kumacandelo amabini ahlukeneyo (umzekelo, into oyaziyo njenge gama lokugqithisa, kunye nento onayo njengekhowudi yexesha elinye ethunyelwe kwifowuni yakho). Oku kwandisa kakhulu ukhuseleko.",
+        "mfaTitle": "uQinisekiso lweNkatha-ntathu (3FA) / uQinisekiso lwezinto ezininzi (MFA):",
+        "mfaDescription": "Ifuna iintlobo ezintathu okanye ngaphezulu ezahlukeneyo zeziqinisekiso. Umzekelo, igama eligqithisiweyo (yazi), ikhowudi yexesha elinye ngeSMS (yibe), kunye neskeni sebhayometriki njengophawu lweminwe (zi). Oku kunika inqanaba eliphezulu kakhulu lokhuseleko."
+      },
+      "hipaaHistory": {
+        "title": "Imbali emfutshane kunye nesishwankathelo se-HIPAA",
+        "p1": "Umthetho we-Inshurensi yeMpilo kunye nokuThatha uXanduva we-1996 (HIPAA) ngumthetho wase-United States we-federal eyenzelwe ukukhusela ulwazi olubucayi lwempilo yesigulana ukuba lubhengezwe ngaphandle kwemvume yesigulana okanye ulwazi. Ikwajolise ekuphuculeni ukusebenza kakuhle kunye nokusebenza kakuhle kwenkqubo yokhathalelo lwempilo.",
+        "p2Title": "Imigaqo ye-HIPAA engundoqo:",
+        "privacyRuleTitle": "Umthetho Wabucala:",
+        "privacyRuleDescription": "Useka imigangatho yesizwe yokhuseleko lolwazi lwezempilo oluchonga umntu ngamnye (IiNkcukacha zezeMpilo eziKhuselweyo - PHI). Ijongana nokusetyenziswa kunye nokubhengezwa kwe-PHI 'ngamaqumrhu a-inshoriweyo.'",
+        "securityRuleTitle": "Umthetho woKhuseleko:",
+        "securityRuleDescription": "Umisela imigangatho yesizwe yokukhusela ubumfihlo, imfezeko, kunye nokufumaneka kwe-PHI yombane (ePHI). Ifuna amaqumrhu agqunyiweyo ukuba aphumeze izikhuselo zolawulo, eziphathekayo, nezobuchule.",
+        "breachRuleTitle": "Ukwaphulwa kwesaziso somthetho:",
+        "breachRuleDescription": "Ifuna amaqumrhu a-inshurensi kunye namaqabane awo ezoshishino ukuba abonelele ngesaziso kulandela ukophulwa kwe-PHI engakhuselekanga.",
+        "coveredEntitiesTitle": "Ngoobani Amaqumrhu a-Inshoriweyo?",
+        "coveredEntitiesDescription": "Imithetho ye-HIPAA ngokuqhelekileyo isebenza kwizicwangciso zempilo, iindawo zokunakekelwa kwezempilo, kunye nababoneleli bezempilo abenza imisebenzi ethile yezempilo ngekhompyutha (umzekelo, oogqirha, iikliniki, izibhedlele, iikhemesti, iinkampani zomshuwalense).",
+        "hipaaMeaningTitle": "Ithetha ukuthini i-HIPAA kooGqirha kunye neZigulana?",
+        "hipaaMeaningDescription": "Oogqirha kunye nabanye ababoneleli bezempilo, i-HIPAA igunyazisa iiprothokholi ezingqongqo zokuphatha idatha yesigulana, iqinisekisa ukuba isetyenziselwa iinjongo ezivumelekileyo (unyango, intlawulo, imisebenzi yezempilo) okanye ngokugunyaziswa kwesigulane. Kwizigulane, i-HIPAA inikezela ngamalungelo malunga nolwazi lwabo lwezempilo, kubandakanywa namalungelo okuhlola nokufumana ikopi yeerekhodi zabo zempilo, kunye nokucela izilungiso."
+      }
+    },
+    "VirtualMDSecurity": {
+      "title": "3. Izenzo zoKhuseleko zeVirtualMD.app",
+      "intro": "I-VirtualMD.app isebenzisa isicwangciso sokhuseleko esinamanqanaba amaninzi eyilelwe ukukhusela iakhawunti yakho kunye nolwazi lomntu, ukutsala inkuthazo kwiindlela ezilungileyo zokhuseleko lwedatha. Ngelixa sisebenza ngokwahlukileyo kumboneleli wezempilo ngokwesiko kumxholo we-HIPAA, sinikezela ngeempawu zokhuseleko ezomeleleyo kubo bonke abasebenzisi:",
+      "passwordEncryptionTitle": "Uguqulelo Lwegama Lokugqithisa:",
+      "passwordEncryptionDescription": "Zonke iipassword zabasebenzisi zifihliwe kusetyenziswa i-hashing algorithms yomgangatho woshishino. Oku kuthetha ukuba asigcini igama eliyimfihlo eliyimfihlo, sinikezela ngokhuseleko lweenkcukacha zeakhawunti yakho.",
+      "twoFactorAuthTitle": "Uqinisekiso Lwezinto Ezimbini (2FA):",
+      "twoFactorAuthDescription": "Sigunyazisa i-2FA kuzo zonke iiakhawunti. Oku kufuna ukuba uqinisekise ubuwena usebenzisa into yesibini (ngokuqhelekileyo ikhowudi ethunyelwe kwi-imeyile yakho ebhalisiweyo okanye ifowuni) ukongeza kwi-password yakho, ukunciphisa kakhulu umngcipheko wokufikelela kwi-akhawunti engagunyaziswanga.",
+      "threeFactorAuthTitle": "Uqinisekiso Lwezinto Ezintathu (3FA) Ukhetho:",
+      "threeFactorAuthDescription": "Ngokhuseleko olongeziweyo, iVirtualMD.app ibonelela ngokuseta ungqinisiso lwezinto ezintathu. Ukuba yenziwe yasebenza, ukufikelela kwiakhawunti yakho kuya kufuna igama eliyimfihlo, ikhowudi ethunyelwe kwidilesi ye-imeyile ebhalisiweyo, KUNYE nekhowudi ethunyelwe ngeSMS kwinombolo yefowuni ephathwayo eqinisekisiweyo. Oku kudala umqobo owoyikekayo kwiinzame ezingagunyaziswanga zokufikelela kulwazi lwakho lwezonyango olugcinwe kwiqonga lethu.",
+      "dataEncryptionTitle": "Ufihlo lwedatha:",
+      "dataEncryptionDescription": "Ulwazi olugcinwe kwi-akhawunti yakho ye-VirtualMD.app, kuquka idatha yencoko, iguqulelwe ngokuntsonkothileyo kwindawo yokuphumla. Idatha ekhutshelwe phakathi kwesixhobo sakho kunye neeseva zethu iguqulelwe ngokuntsonkothileyo kuhambo kusetyenziswa imigaqo ye-TLS/SSL.",
+      "permanentDeletionTitle": "Ukucinywa kweDatha eSisigxina:",
+      "permanentDeletionDescription": "Siyakuxhobisa ngokulawula idatha yakho. Unako ukucima ngokusisigxina iincoko zomntu okanye iakhawunti yakho yonke. Xa sele icinyiwe, olu lwazi alufumaneki kwiinkqubo zethu eziphambili, ezihambelana nemigaqo yokunciphisa idatha kunye nolawulo lomsebenzisi.",
+      "outro": "La manyathelo abonelela ngenqanaba lokhuseleko lwe-akhawunti oluthelekiswa nelo lweenkonzo eziphambili ze-intanethi eziphatha idatha yomuntu siqu ebuthathaka, ejolise ekuqinisekiseni iakhawunti yakho yeVirtualMD.app kunye nolwazi olungaphakathi kuyo luhlala luyimfihlo kwaye luphantsi kolawulo lwakho."
+    },
+    "hipaaConsiderations": {
+      "title": "4. VirtualMD.app & HIPAA Ukuqwalaselwa",
+      "p1": "Ukuqonda indlela iVirtualMD.app enxibelelana ngayo ne-Health Insurance Portability and Accountability Act (HIPAA) ibalulekile kubasebenzisi bethu. Sizimisele ngokunzulu kukhuseleko kunye nokuba yimfihlo kolwazi owabelana ngalo. Iqonga lethu libandakanya imilinganiselo yokhuseleko eyomeleleyo, njengoko kuchaziwe kwicandelo \"leZenzo zoKhuseleko zeVirtualMD.app\", kubandakanywa uguqulelo oluntsonkothileyo lwedatha ekuphumleni nasekuhambeni, olunyanzelekileyo lwe-Two-Factor Authentication (2FA), kunye nokuqinisekiswa kwezinto ezintathu (3FA).",
+      "p2": "Nangona kunjalo, kubalulekile ukuqonda ukuba i-VirtualMD.app, kwinkonzo yayo yangoku ejongene nabathengi, ayijoliswanga kwiimeko zokusetyenziswa ezifuna ukuthotyelwa kwe-HIPAA ngokusemthethweni kwigalelo elithe ngqo, ukugcinwa, okanye ukuqhutyelwa koLwazi lwezeMpilo oluKhuselweyo (PHI) ngabasebenzisi abasebenza njenge-HIPAA e-Covered Entities okanye i-Business Associates. Abasebenzisi abafuna ukuthotyelwa ngokungqongqo kwe-HIPAA ye-PHI abayilawulayo akufuneki basebenzise iqonga lethu jikelele ngeenjongo ezinjalo ngaphandle kokuba iSivumelwano esiNxulumene neShishini (BAA) sisendaweni kunye ne-VirtualMD.app yaloo meko yosetyenziso oluzinikeleyo. Kwinkonzo eqhelekileyo, abasebenzisi akufanele bafake nayiphi na ingcaciso enokuthi ilandelwe kwisigulane ngasinye kwimeko eya kuphula i-HIPAA, ngaphandle kwemvume ecacileyo yesigulane, enolwazi evuma ukusetyenziswa kweli qonga.",
+      "approachTitle": "Indlela yethu: Ukulungelelanisa uBuchule boBuchule be-AI kunye noBucala beDatha",
+      "p3": "Ukukubonelela ngeyona ngcebiso iphambili, yokuqonda imeko, kunye nengcebiso yezempilo eyeyakho i-AI ekwaziyo ukuyenza, iVirtualMD.app isebenzisa inkqubo ephucukileyo apho abantu bethu bezempilo be-AI banokufunda kunxibelelwano lwakho kwaye babelane ngomxholo ofanelekileyo omnye komnye. Ingcaphephe yakho yezempilo ye-AI, umzekelo, yenzelwe ukugcina umxholo kuzo zonke iiseshini kunye neengcali ezahlukeneyo ze-AI ukunika amava adibeneyo kunye nobukrelekrele.",
+      "p4": "Le ndlela idityanisiweyo eqhutywa yi-AI ithetha ukuba ii-injini ze-AI ezisisiseko (ezinokusingathwa ngababoneleli abanje nge-OpenAI, i-Anthropic, i-Google, kunye nabanye) zinokuseta amacandelo edatha yencoko yakho engachongiweyo okanye eyenziwe ngomgunyathi okanye izinto zolwazi lweprofayile yakho njengenxalenye yokuhambisa le nkonzo. Ngelixa silungiselela ukusebenzisa kwethu ezi APIs zeqela lesithathu ukubathintela ekusebenziseni idatha yakho ukuqeqesha imifuziselo yabo jikelele (njengoko kucacisiwe ngakumbi \"Usetyenziso lweDatha ngabaBoneleli beNjini yeqela le-AI\"), ubume bolu didi oluphambili, olusasaziweyo lwemodeli ye-AI yahlukile kwindlela yemveli, ehlala igcinwe, ukuphatha idatha ngaphakathi komboneleli wezempilo kwiinkqubo ezingqongqo ze-PAHIAli ezakhelwe ukuthotyelwa kwangaphakathi kwe-PAHIAli.",
+      "p5": "Sikholelwa ukuba le ndlela ivumela ukuba sinikezele ngolwazi olungenakulinganiswa lwezempilo oluqhutywa yi-AI kunye nenkxaso. Nangona kunjalo, idinga ukuqonda okucacileyo: <strong style={{fontWeight: 'bold'}}>obu bubuchule bomntu kunye ne-inter-AI yokufunda indawo yokufunda, kwimo yayo yangoku jikelele, ibandakanya imodeli yokuphatha idatha eyahlukileyo kulawulo oluthile, ukhuseleko lomzimba, kunye nobugcisa kunye neenkqubo zokusebenza ezigunyaziswe yi-HIPAA kwi-Incovered Entities ezilawula i-PII>",
+      "p6": "Sisebenza ngokuzimisela ukuqhubeka siphucula ukhuseleko lwedatha yethu kwaye siphonononga iindlela eziya kukulungelelaniswa okukhulu nemigangatho yedatha ejolise kukhathalelo lwempilo lwemigangatho yeenkonzo ezahlukeneyo okanye iminikelo. Ngokusebenzisa i-VirtualMD.app yenkonzo jikelele, uyavuma kwaye uyayamkela le bhalansi yangoku: i-AI ephuculweyo, edityanisiweyo ye-AI yolwazi lwezonyango oluphezulu ibandakanya imodeli yokuphatha idatha eyahlukileyo kunaleyo yomboneleli wezempilo wemveli osebenza phantsi kwe-HIPAA.",
+      "informedDiscussionsTitle": "Ukuququzelela iingxoxo ezinolwazi",
+      "p7": "Ukuba umsebenzisi, ingakumbi uchwepheshe wezempilo, unqwenela ukuxoxa ngolwazi olunokuthi lubhekisele kumntu othile (isigulane), ngumsebenzisi <strong style={{fontWeight: 'bold'}}>uxanduva kuphela</strong>ukuqinisekisa ukuba bafumene zonke iimvume eziyimfuneko nezifanelekileyo ngokusemthethweni kuloo mntu. Imvume enjalo kufuneka ichaze ngokucacileyo ukuqonda komntu ukuba ulwazi luxutyushwa kwiqonga, ngelixa likhuselekile, alisebenzi phantsi kweSivumelwano esisemthethweni se-HIPAA yeSivumelwano soShishino kunye nomsebenzisi waloo ntsebenziswano ethile kunye nokuba ukuphathwa kwedatha yeqonga kuyahluka kwiinkqubo zendabuko ezihambelana ne-HIPAA.",
+      "p8": "Abasebenzisi abanqwenela ukudlulisa ulwazi oluxutyushwe kwi-VirtualMD.app kwi-formal, inkqubo ehambelana ne-HIPAA (umzekelo, i-Electronic Medical Record yogqirha wabo) banoxanduva lokwenza oko ngokukhuselekileyo nangendlela ehambelana nayo yonke imimiselo esebenzayo kunye neenkqubo ezimiselweyo zomboneleli wabo.",
+      "alignmentTitle": "Apho Sihambelana nemigaqo ye-HIPAA (Ngaphaya koKhuseleko Jikelele)",
+      "userControlTitle": "Ulawulo lomsebenzisi kunye nokucinywa kwedatha:",
+      "userControlDescription": "Sikunika izixhobo zokufikelela kunye nokucima ngokusisigxina iincoko zakho kunye neenkcukacha zeakhawunti, ukuhambelana nemigaqo yokunciphisa idatha kunye namalungelo omntu ahlala egxininiswa kwimimiselo yabucala.",
+      "anonymizationTitle": "Ukungaziwa kuPhuculo lweSixokelelwano:",
+      "anonymizationDescription": "Ukusetyenziswa kwethu kwedatha engaziwa, edityanisiweyo yokuphucula inkqubo yinkqubo ethi, xa yenziwe ngokufanelekileyo, ibe yindlela eqhelekileyo yokuphucula iinkonzo ze-AI ngelixa ukhusela ubumfihlo bomntu ngamnye."
+    },
+    "userResponsibility": {
+      "title": "5. Uxanduva loMsebenzisi kunye nokusetyenziswa okusesikweni",
+      "intro": "I-VirtualMD.app ibonelela ngezixhobo ezinamandla ze-AI zokufikelela kulwazi lwezonyango kunye nokubandakanyeka kwiingxoxo ezinxulumene nempilo. Ngelixa sizabalazela ukuchaneka kunye nokhuseleko, ukusetyenziswa okunoxanduva kweqonga lethu kukuzinikela okwabelwana ngako. Ngokusebenzisa iVirtualMD.app, uyavuma ukuthobela izikhokelo zokuziphatha kwaye uqonde amandla kunye nemida yeqonga.",
+      "agreementTitle": "IsiVumelwano sakho sokuSebenzisana ngokuziphatha:",
+      "noReviewTitle": "Akukho Uphononongo lweeNgxoxo zaBucala:",
+      "noReviewDescription": "Ukukhusela ubumfihlo bakho, abasebenzi beVirtualMD.app abazijongi rhoqo iincoko zakho zabucala nabantu bethu be-AI. Oku kugxininisa ukubaluleka kokusebenzisa kwakho iqonga ngenkathalo.",
+      "prohibitedContentTitle": "Umxholo owalelweyo-ukwenzakalisa kuSiqu okanye kwabanye:",
+      "prohibitedContentDescription": "Uyavuma ukungasebenzisi iVirtualMD.app ukufuna ulwazi okanye isikhokelo malunga nendlela yokwenzakalisa wena okanye abanye. Iqonga lethu alenzelwanga ukungenelela kwintlekele kwiimeko ezinjalo. Ukuba uneengcinga zokuzenzakalisa okanye zokwenzakalisa abanye, nceda uqhagamshelane neenkonzo zikaxakeka okanye umnxeba wonxunguphalo ngoko nangoko.",
+      "consultPractitionerTitle": "Dibana nogqirha wakho wezempilo:",
+      "consultPractitionerDescription": "IVirtualMD.app sisixhobo solwazi kwaye AYIYAYI indawo yeengcebiso zobuchwephesha bonyango, ukuxilongwa, okanye unyango oluvela kumboneleli wezempilo oqeqeshiweyo. Soloko udibana nogqirha wakho okanye omnye ugqirha oqeqeshiweyo nangaziphi na iimeko zempilo ezimandundu okanye ngaphambi kokuba wenze naziphi na izigqibo ezinxulumene nempilo yakho.",
+      "emergencySituationsTitle": "Iimeko eziNgxamisekileyo:",
+      "emergencySituationsDescription": "I-VirtualMD.app AYIKWAZI ukwenza egameni lakho ngexesha likaxakeka. Umzekelo, ukuba inkqubo icebisa ukuba ufowunele u-911 okanye uye kwigumbi likaxakeka ngokusekelwe kulwazi olunikezayo, unoxanduva lodwa lokuthatha elo nyathelo. Iqonga lethu alinawo amandla okuthumela iinkonzo ezingxamisekileyo.",
+      "outro": "Ukubambelela kwakho kwezi zikhokelo kuqinisekisa indawo ekhuselekileyo nemveliso kubo bonke abasebenzisi kwaye kunceda ukugcina intembeko yenkqubo yokufuna ulwazi."
+    },
+    "privacyScenarios": {
+      "title": "6. Iimeko zaBucala eziSebenzayo kunye neNgqwalasela ePhezulu",
+      "scenario1Title": "Imeko 1: Ukuxoxa ngemiba yezempilo enobuzaza",
+      "scenario1Question": "Uyabuza: \"Ndinqwenela ukubuza iqela le-AI le-VirtualMD.app malunga nomcimbi ongathandekiyo kunye nohlazo onxulumene nempilo. Yintoni endikhuselayo?\"",
+      "scenario1Answer": "Impendulo yethu: Siyaqonda ukuba iingxoxo ngezempilo zinokuba zezomntu buqu. Iileya ezininzi ziyakukhusela:",
+      "confidentialConvosTitle": "Iincoko eziyimfihlo:",
+      "confidentialConvosDescription": "Iincoko zakho nabantu bethu be-AI zenzelwe ukuba ngasese. Njengoko kuchaziwe kwiSithembiso sethu saBucala, abasebenzi beVirtualMD.app abawujongi rhoqo umxholo wakho wencoko yabucala.",
+      "dataEncryptionTitle": "Ufihlo lwedatha:",
+      "dataEncryptionDescription": "Yonke idatha yencoko iguqulelwe ngokuntsonkothileyo zombini kuhambo (phakathi kwesixhobo sakho kunye neeseva zethu zisebenzisa i-TLS/SSL) kwaye xa iphumla (xa igcinwe koovimba bethu).",
+      "accountSecurityTitle": "Ukhuseleko lweakhawunti:",
+      "accountSecurityDescription": "Iakhawunti yakho ikhuselwe ngegama lakho eliyimfihlo kunye nesinyanzelo seZiqinisekiso eziZimbini (2FA), kunye nenketho yoQinisekiso lwezinto eziNtathu (3FA), okwenza ukufikelela okungagunyaziswanga kwimbali yakho yencoko kube nzima kakhulu.",
+      "deletionControlTitle": "Ulawulo lokucinywa kwedatha:",
+      "deletionControlDescription": "Unamandla okucima ngokusisigxina nayiphi na incoko ethile okanye iakhawunti yakho yonke nangaliphi na ixesha, ngeendlela eziyilelwe ukuba zingahlawuleki kwiinkqubo zethu eziphambili.",
+      "anonymizationTitle": "Ukungaziwa kuPhuculo:",
+      "anonymizationDescription": "Kuphela idatha engachazwanga kunye nehlanganisiweyo (ihluthwe zonke izichongi zomntu) isetyenziselwa ukuphucula imifuziselo yethu ye-AI. Isiqulatho sakho sobuqu, esibonakalayo sencoko asisetyenziselwa le njongo ngaphandle kokungaziwa.",
+      "scenario1Outro": "Ngelixa la manyathelo abonelela ngokhuseleko olomeleleyo, hlala ukhumbula ukuba akukho nkqubo ingangeneki. Sikhuthaza abasebenzisi ukuba balumkele ulwazi ababelana ngalo, njengoko bebeya kwenza kulo naluphi na unxibelelwano lwedijithali.",
+      "scenario2Title": "Imeko yesi-2: Ukugcina ulwazi lweProfayili (umzekelo, Amayeza)",
+      "scenario2Question": "Uyabuza: \"Ndikumayeza athile kwaye ndifuna ukuwagcina kwiprofayili yam ukuze i-AI yeNgcali yezeMpilo yeCarol iya kuba nomxholo weengxoxo ezintsha. Ingaba idatha yam ikhuselwe njani ukuze kuphela ii-AI kwaye akukho bantu baya kufikelela?\"",
+      "scenario2Answer": "Impendulo yethu: Ukugcina ulwazi lwamayeza kwiprofayili yakho kunokuphucula imeko yeempendulo ze-AI. Nantsi indlela idatha ekhuselwe ngayo:",
+      "profileSecurityTitle": "Ukhuseleko Lwedatha Yenkangeleko:",
+      "profileSecurityDescription": "Njengedatha yencoko yakho, ulwazi lweprofayile yakho, kubandakanywa uludwe lwamayeza, lukhuselwe ngokhuseleko lwe-akhawunti efanayo (igama lokugqitha, 2FA/3FA) kunye nemilinganiselo yoguqulelo oluntsonkothileyo (ekuphumleni nasekuhambeni).",
+      "accessControlsTitle": "Ulawulo olungqongqo lokuFikelela kunye noMgaqo-nkqubo:",
+      "accessControlsDescription": "Ukufikelela kwiirekhodi zedatha yomsebenzisi ngabasebenzi be-VirtualMD.app kulawulwa ngokungqongqo, kuphela kubantu abagunyazisiweyo kwiimfuno ezithile zokusebenza okanye zenkxaso (umzekelo, ukuncedisa umba we-akhawunti owubikayo), kwaye ulawulwa yimigaqo-nkqubo yangasese yangaphakathi kunye nokungena. Ukhangelo oluqhelekileyo lwedatha yeprofayile yomsebenzisi aluvumelekanga.",
+      "aiAccessTitle": "Ufikelelo lwe-AI kumxholo:",
+      "aiAccessDescription": "Abantu be-AI, njengeNgcali yezeMpilo ye-AI uCarol, bafikelele kwiindawo ezifanelekileyo zeprofayili yakho (ezifana noluhlu lwamayeza, ukuba unike bona) ngenkqubo ukubonelela ngeempendulo ezihambelana nomxholo ngexesha leengxoxo zakho. Olu fikelelo yinxalenye yengqiqo yokusebenza ye-AI ukukunceda ngcono.",
+      "techNoteTitle": "Inqaku lobuGcisa: Ufihlo lweDatha yeNgxoxo",
+      "techNoteQuestion": "Ubuzile: \"Ngaba kunokwenzeka ukukrazula imiyalezo ukuze nabantu abaqhuba inkampani bangakwazi ukuyifunda (njengamagama ayimfihlo) ngaphandle kwemvume ecacileyo?\"",
+      "techNoteP1": "Oku kubhekiselele kwiikhonsepthi ezinje ngesiphelo-ukuya-esiphelweni uguqulelo oluntsonkothileyo (E2EE) apho kuphela umsebenzisi-siphelo obambe iqhosha lokugqibela lokuguqulela. I-VirtualMD.app isebenzisa robust <strong style={{fontWeight: 'bold'}}>uguqulelo oluntsonkothileyo kwindawo yokuphumla</strong> kuyo yonke idatha enovakalelo, kuquka imbali yakho yencoko kunye neenkcukacha zeprofayile, usebenzisa algorithms aqinileyo, akumgangatho weshishini. Oku kuthetha ukuba idatha egcinwe koovimba bethu ifihliwe.",
+      "techNoteP2": "Ngelixa okwangoku singasebenzisi isitshixo esikhethekileyo somsebenzisi we-E2EE yedatha yencoko eya kwenza ukuba kube nzima ngokobuchwepheshe kubalawuli benkqubo abagunyazisiweyo ukuba bakhuphe ukuntsonkotha (ngokufana nokuba zingaphi iinkonzo zelifu ezisebenzayo), ukufikelela kwidatha efihliweyo esisiseko kuthintelwe kakhulu, kufakwe, kwaye kulawulwe ngokhuseleko lwangaphakathi olungqongqo kunye nemigaqo-nkqubo yabucala. Abasebenzi bethu abavumelekanga ukuba bafikelele kumxholo wakho wencoko yabucala ngaphandle kweemeko ezicacileyo nezilawulwayo, ezinjengokuphendula isicelo senkxaso esithe ngqo esivela kuwe malunga nencoko ethile okanye njengoko kufunwa ngumthetho. Le ndlela ilinganisa ukhuseleko oluluqilima kunye neemfuno zokusebenza zokugcina nokuxhasa iqonga.",
+      "techNoteP3": "I-password yeakhawunti yakho, nangona kunjalo, iphathwa ngokwahlukileyo: iyakhawuleza kwaye igalelwe ityuwa, okuthetha ukuba asisoze sagcina igama lakho lokugqithisa lokwenene kwaye asinakuyifumana.",
+      "thirdPartyDataTitle": "Ukusetyenziswa kweeNkcukacha ngabaBoneleli beNjini yeQela le-AI",
+      "thirdPartyDataQuestion": "Ubuye wabuza: \"Ngaba ii-APIs zeenjini ze-AI esizisebenzisayo ziyakwazi ukukhuselwa ekusebenziseni ukuqeqeshwa ngu (a) VirtualMD.app (b) OpenAI, (c) Anthropic ... njl ...? Okanye ngaba zonke zikhuselwe i-priori ngokuzenzekelayo?\"",
+      "thirdPartyDataAnswer": "Lo ngumba obalulekileyo wokuphatha idatha yethu:",
+      "VirtualMDTrainingTitle": "(a) VirtualMD.app:",
+      "VirtualMDTrainingDescription": "Njengoko kuchaziwe kwiSibhambathiso sethu saBucala, sisebenzisa kuphela idatha engaziwa kwaye ehlanganisiweyo kuphuculo lwangaphakathi kunye noqeqesho lweenkqubo zethu zobunini kunye nengqiqo yolungelelwaniso lwe-AI. Idata yakho ebonwa nguwe okanye umxholo wencoko ekrwada awusetyenziselwa le njongo ngaphandle kokungaziwa.",
+      "thirdPartyTrainingTitle": "(b, c, njl.) Ababoneleli be-API beqela lesithathu (umzekelo, i-OpenAI, i-Anthropic):",
+      "thirdPartyTrainingDescription": "I-VirtualMD.app ikhetha ngononophelo kwaye idibanise nababoneleli bemodeli be-AI abakhokelayo. Ngeenkonzo ezifikelelwe ngee-APIs (i-Application Programming Interfaces), ababoneleli abaphambili abafana ne-OpenAI kunye ne-Anthropic banemigaqo-nkqubo yokusetyenziswa kwedatha echaza ukuba idatha efakwe ngee-APIs zabo AYIsetyenziswa ngabo ukuqeqesha imifuziselo yesiseko sabo ngokubanzi. Simisela ukusetyenziswa kwethu kwezi nkonzo ukuze zihambelane nolu khetho lokugcinwa kwabucala. Siyakukhuthaza ukuba ujonge kwakhona imigaqo-nkqubo yokusetyenziswa kwedatha yaba baboneleli be-AI bangaphantsi ukuba unenkxalabo ethile.",
+      "outro": "Sizibophelele ekuqinisekiseni ukuba unxibelelwano lwakho alupheleli nje ekuqondeni kodwa lukwasingathwa ngentlonipho kubumfihlo bakho kwiqonga lethu kunye namaqabane ethu eteknoloji."
+    },
+    "conclusion": {
+      "title": "7. Isiphelo kunye neZinto eziThathayo eziphambili",
+      "intro": "IVirtualMD.app inikezelwe ekuxhobiseni abasebenzisi ngolwazi olufikelelekayo noluqondakalayo lwezempilo nge-AI ephucukileyo. Sibeka phambili ukhuseleko lwedatha yakho yobuqu ngamanyathelo aqinileyo abandakanya ukuqinisekiswa kwezinto ezininzi kunye noguqulelo oluntsonkothileyo. Ngelixa sizama ukufikelela kwimigangatho ephezulu yokukhusela idatha, iqonga lethu jikelele aliyithathi indawo yeenkonzo ezithobela ngokusemthethweni i-HIPAA yokhathalelo lwesigulane ngokuthe ngqo ngababoneleli bezempilo abathile. Abasebenzisi kufuneka bawuqonde lo mahluko kwaye basebenzise iVirtualMD.app ngokuthembekileyo nangokuziphatha.",
+      "recapTitle": "Amanqaku aphambili ekufuneka uwakhumbule:",
+      "privacyPriorityTitle": "Ubumfihlo bakho bubalulekile:",
+      "privacyPriorityDescription": "Sikhusela idatha yakho kwaye asiyi kuthengisa iinkcukacha zakho zobuqu.",
+      "anonymizedDataTitle": "Idata engaziwayo yoPhuculo:",
+      "anonymizedDataDescription": "Sisebenzisa idatha engabonakaliyo ukuphucula i-AI yethu kunye neenkonzo zeqonga.",
+      "accountSecurityTitle": "Ukhuseleko oluluqilima lweAkhawunti:",
+      "accountSecurityDescription": "Sinikezela nge-2FA (eyimfuneko) kunye ne-3FA (ukhetho) yokukhusela i-akhawunti, xa kuthelekiswa neenkonzo eziphambili ze-intanethi.",
+      "dataControlTitle": "Ulawulo Lwedatha:",
+      "dataControlDescription": "Ungazicima ngokusisigxina iincoko kunye neakhawunti yakho.",
+      "hipaaConsiderationsTitle": "Iingqwalasela zeHIPAA:",
+      "hipaaConsiderationsDescription": "Inkonzo jikelele yeVirtualMD.app ayisiyiyo i-HIPAA e-Inshurensi yeZiko. Sikhusela idatha kodwa sihluke ekuthotyelweni okusemthethweni kwe-HIPAA yokhathalelo oluthe ngqo lwesigulane kunye nababoneleli abathile.",
+      "ethicalUseTitle": "Ukusetyenziswa okusesikweni kuyafuneka:",
+      "ethicalUseDescription": "Musa ukuzisebenzisa ukuzenzakalisa/ukwenzakalisa abanye. Soloko udibana nabasebenzi bezempilo kwiimeko ezimandundu. Asikwazi ukuthumela iinkonzo zikaxakeka.",
+      "outro": "Siyakukhuthaza ukuba usebenzise iVirtualMD.app njengesixhobo esinamandla sokufunda kunye nokuhlola, uhlala uhambelana nesikhokelo esivela kwiingcali zezempilo eziqeqeshiweyo. Ukuqonda kwakho le migaqo-nkqubo kusinceda sigcine iqonga elikhuselekileyo, elikhuselekileyo, nelisebenzayo lomntu wonke."
+    }
+  },
+  "imagingAIExplainer": {
+    "title": "Ukuqonda i-AI kwiMifanekiso yezeMpilo",
+    "subtitle": "Isikhokelo esilula sendlela iikhomputha ezinceda ngayo iingcali zempilo zibone ngokucacileyo.",
+    "author": "Icaciswa ngu: Ron Rubin, PhD (VirtualMD.app Technologies)",
+    "whatIsImaging": {
+      "title": "Yintoni iMifanekiso yeMpilo (Umfanekiso)?",
+      "intro": "Cinga ngemifanekiso yempilo njengokuthatha imifanekiso ngaphakathi emzimbeni wakho. Iingcali zempilo zisebenzisa oomatshini abakhethekileyo ukwenza le mifanekiso, ebanceda babone amathambo, amalungu, izihlunu nemithambo yegazi ngaphandle kokwenza utyando. Ngokomzekelo, i-X-reyi igqwesileyo ekuboneni amathambo ukuze afumane ukuphuka, ngelixa i-CT scan inikeza inkcazo ecacileyo, i-cross-sectional view ye-organ efana nengqondo.",
+      "typesIntro": "Iindidi eziqhelekileyo ziquka:",
+      "types": {
+        "xrays": "<strong>Ii-X-reyi:</strong> Ilungile ekuboneni izakhiwo ezixineneyo njengamathambo.",
+        "ctScans": "<strong>I-CT Scans:</strong> Njenge-super-detailed, i-3D X-ray, ebonisa \"iziqwenga\" zomzimba.",
+        "mriScans": "<strong>I-MRI Scans:</strong> Isebenzisa iimagnethi ezinamandla ukufumana imifanekiso ecacileyo kakhulu yezicubu ezithambileyo, njengengqondo, izihlunu, okanye iigaments.",
+        "ultrasound": "<strong>I-Ultrasound:</strong>Isebenzisa amaza omsindo ukubona izitho kwaye, ngokuqhelekileyo, ukujonga iintsana ngexesha lokukhulelwa.",
+        "microscope": "<strong>Izilayidi zeMicroscope:</strong> Iisampuli zezicubu ezincinci zijongwa phantsi kwe-microscope ukuxilonga izifo kwinqanaba leselula ( Pathology ).",
+        "eyePhotos": "<strong>Iifoto zamehlo:</strong> Iifoto ezikhethekileyo zangaphakathi kwiliso ukuze zikhusele iimeko ezifana ne-diabetes retinopathy (i-Ophthalmology).",
+        "cameraScopes": "<strong>Iipilisi zekhamera / i-Scopes:</strong> Iikhamera ezincinci ezisetyenziselwa ukujonga ngaphakathi kwenkqubo yokugaya ( Gastroenterology )."
+      },
+      "outro": "Le mifanekiso zizixhobo ezibalulekileyo ezinceda iingcali zempilo ukuba zichonge izigulo, zijonge ukuba unyango lusebenza kakuhle kangakanani na, okanye isikrini seengxaki ezinokubakho kwangoko."
+    },
+    "whatIsAI": {
+      "title": "Yintoni iArtificial Intelligence (AI)?",
+      "intro": "I-AI ikakhulu yinzululwazi yokufundisa iikhompyutha ukwenza imisebenzi edla ngokufuna ubukrelekrele bomntu, njengokufunda kwimizekelo, ukusombulula iingxaki, kunye nokwenza izigqibo. Kwimifanekiso yezempilo, sinokucinga nge-AI njengomncedisi onobuchule obuphezulu kwiingcali zempilo.",
+      "process": "Isebenzisa iinkqubo zekhompyutha ezikhethekileyo (algorithms) eziye zaqeqeshwa kumawaka, okanye kwizigidi zemifanekiso yezonyango. Ngokuhlalutya le datha eninzi, i-AI ifunda ukubona iipatheni ezifihlakeleyo-ezinye zazo ezinzima emehlweni omntu ukubona, okanye iipatheni ezibonisa ukuba nokwenzeka okukhulu kwesifo esithile. Inkqubo esisiseko kukuba idatha (imifanekiso) yondliwa kwi-AI, ethi emva koko ivelise ingqiqo, njengokubeka iflegi kwindawo ekrokrisayo."
+    },
+    "howAIHelps": {
+      "title": "Inokunceda njani i-AI ngeMifanekiso yezeMpilo?",
+      "intro": "Uphando lwethu lwezenzululwazi luqaqambisa iindlela ezininzi eziphambili ze-AI esele zenza umahluko:",
+      "accuracy": {
+        "title": "Ukufumana Iingxaki Ngokuchaneke Ngakumbi",
+        "description": "Ngamanye amaxesha, iimpawu zokuqala zesifo zinobuqili obumangalisayo kwaye kulula ukuziphosa kwiskeni. I-AI inokusebenza njengesibini esiphaphileyo samehlo, ijonga ngokucwangcisiweyo yonke indawo yomfanekiso kwaye iqaqambise iindawo eziqinisekisa ujongo olusondeleyo. Umzekelo, i-AI inokuzoba isangqa malunga neqela elincinci leeseli kwi-mammogram enokuba sisalathisi sokuqala somhlaza.",
+        "example": "<strong>Umzekelo:</strong> Kwi-mammograms (i-X-ray yesifuba), olunye uphando lubonise i-AI yanceda ukufumana i-29% ye-cancer ngaphezulu ngaphandle kokubonisa abasebenzisi abasempilweni ngokungalunganga. Kwiikholonoscopies (ukukhangela ukukhula okubizwa ngokuba yi-polyps), i-AI yanceda iingcali zezempilo ukuba zifumane iipolyps ezinokuba nomhlaza ngokuziqaqambisa ngexesha lokwenyani kwifidi yevidiyo."
+      },
+      "speed": {
+        "title": "Ukukhawulezisa Izinto",
+        "description": "Ukufunda imifanekiso yezonyango, ingakumbi entsonkothileyo efana ne-CT scans epheleleyo, ithatha ixesha elininzi kunye noxinzelelo. I-AI inokukhawulezisa ngokukhawuleza le nkqubo. Iyakwazi ukuhlenga-hlengisa iimeko, ifake iflegi ezona zingxamisekileyo ukuba iphononongwe kwangoko, okanye iphathe imisebenzi yovavanyo yesiqhelo ukukhulula ixesha leengcaphephe.",
+        "example": "<strong>Umzekelo:</strong> Inkqubo ye-AI yokujonga iifoto zamehlo ngezibonakaliso zomonakalo wesifo sikashukela (i-diabetic retinopathy) inokunika umphumo ngokukhawuleza kwiklinikhi yokunyamekela. Oku kuthetha ukuba izigulane akufuneki zilinde idinga kunye nengcali yamehlo ukuze nje zihlolwe, okukhokelela kukhathalelo olukhawulezayo lwabantu abaninzi. Kwesinye isifundo esikhulu, i-AI yanceda ukunciphisa ixesha le-radiologists elichitha ukufunda i-mammograms phantse isiqingatha."
+      },
+      "consistency": {
+        "title": "Ukwenza ukuxilongwa kuhambelane ngakumbi",
+        "description": "Naphakathi kweengcali, kunokubakho umahluko omncinci, ozimeleyo kwindlela otolikwa ngayo umfanekiso. I-AI inikezela ngokusemgangathweni, uhlalutyo olunenjongo rhoqo, olunceda ukunciphisa oku kuguquguquka.",
+        "example": "<strong>Umzekelo:</strong> Xa ujonga iisampulu zethishu phantsi kwe-microscope (i-pathology), ukufumanisa \"ibakala\" elichanekileyo le-tumor ngamanye amaxesha kunokuba yinto engaqondakaliyo. Inkqubo ye-AI, eqeqeshwe kwiinkcukacha eziqinisekisiweyo liqela leengcali, inokubonelela ngebakala elihambelanayo, ukuqinisekisa ukuba iziphumo zifana kwaye zithembeke kwiingcali ezahlukeneyo zempilo kunye nezibonelelo."
+      }
+    },
+    "challenges": {
+      "title": "Ngaba i-AI igqibelele?",
+      "intro": "Hayi, kwaye kubalulekile ukuqonda imida yayo. Ngelixa i-AI inamandla, kukho imingeni ebalulekileyo yokujongana nayo:",
+      "bias": "<strong>Ubulungisa kunye ne-Bias:</strong> I-AI ilungile kuphela njengedatha eqeqeshwe kuyo. Ukuba iqeqeshwe kuphela kwimifanekiso kwiqela elinye labantu, isenokungasebenzi kakuhle kwabanye. Ukuqinisekisa ngedatha yoqeqesho eyahlukeneyo kubalulekile ukunqanda umkhethe.",
+      "uncommonCases": "<strong>Amatyala angaqhelekanga:</strong> I-AI igqwesile ekuqapheliseni iipateni ezibone amaxesha amaninzi. Isenokusokola ngezifo ezinqabileyo okanye imiboniso engaqhelekanga engakhange iqeqeshwe kuyo.",
+      "teamwork": "<strong>Ukubaluleka koMsebenzi weQela:</strong> Eyona ndlela ilungileyo yintsebenziswano yabantu-AI. I-AI sisixhobo *sokunceda* iingcali zempilo ngokuphatha imisebenzi enzulu yedatha, kodwa ayithathi indawo yamava azo, uvelwano, kunye nokukwazi ukuqonda umsebenzisi ephela.",
+      "regulation": "<strong>Ukhuseleko kunye noLawulo:</strong> Njengaso nasiphi na isixhobo esitsha sezempilo, izixhobo ze-AI zifuna uvavanyo oluqinileyo, ukuqinisekiswa, kunye nokubeka iliso okuqhubekayo ukuqinisekisa ukuba zikhuselekile, ziyasebenza, kwaye zibonelela ngeenzuzo zangempela kubasebenzisi.",
+      "outro": "Abaphandi kunye nabalawuli basebenza nzima ukujongana nale mingeni. Injongo kukudibanisa i-AI kukhathalelo lwezempilo ngokukhuselekileyo nangempumelelo ukuphucula iziphumo zesigulane."
+    },
+    "conclusion": {
+      "title": "Amaqokobhe enathi",
+      "text": "I-AI iba liqabane elixabisekileyo kwimifanekiso yezempilo, inceda iingcali zempilo ukuba zifumane izifo kwangaphambili, ngokukhawuleza, kwaye zithembeke ngakumbi. Kufana nokunika iingcali zempilo umbono ophuculweyo kunye nomncedisi ongadinwayo ukuba ahlole imifanekiso entsonkothileyo, ekugqibeleni ekhokelela kukhathalelo olungcono kubasebenzisi."
+    }
+  },
+  "mentalHealthWhitepaper": {
+    "title": "I-AI kwiMpilo yengqondo: Ukuqhubela phambili, imingeni, kunye nezicelo zeKlinikhi",
+    "authors": "Ron Rubin, PhD kunye noSandy Miles",
+    "organization": "IiTekhnoloji zeVirtualMD.app",
+    "disclaimer": {
+      "title": "I-Disclaimer ebalulekileyo",
+      "text": "Ngelixa i-VirtualMD.app ibonelela ngetekhnoloji ye-AI yokusika yovavanyo kunye noncedo lwempilo yengqondo, kubalulekile ukuqonda ukuba iinkqubo zethu ze-AI, nokuba zintsonkothe ​​kangakanani, AYIZINTO zithatha indawo yeengcali zempilo yengqondo ezinelayisensi. Ulwazi kunye nokuqonda okubonelelweyo kufuneka kuhlale kuvavanywa ngababoneleli bezempilo abaqeqeshiweyo. Kwimeko engxamisekileyo yempilo yengqondo, nceda ucofe ku-911 (US), 999 (UK), 112 (EU), 101 (Israel), okanye 911 (Canada) ngokukhawuleza, okanye uye kwisebe elikufutshane nawe likaxakeka. Kuzo naziphi na iinkxalabo zempilo yengqondo okanye izigqibo zonyango, soloko udibana nabanikezeli bezempilo abaqeqeshiweyo. Itekhnoloji yeVirtualMD.app yenzelwe ukukhulisa nokuxhasa ukhathalelo lwempilo yengqondo yobuchwephesha, hayi endaweni yayo."
+    },
+    "abstract": {
+      "title": "Abstract",
+      "text": "Eli phepha liphonononga indima eguqukayo ngokukhawuleza yobukrelekrele bokwenziwa kukhathalelo lwempilo yengqondo, iqaqambisa inkqubela yakutshanje, ubungqina bokusebenza, kunye nemingeni yokuphunyezwa. Sihlaziya uphuhliso kwiindawo ezine: inkxaso yokuxilonga, izicelo zonyango, ukubeka iliso kwesigulane, kunye nohlalutyo oluqikelelweyo. Izifundo zeklinikhi zakutsha nje zibonisa iinkqubo ze-AI zinokufikelela kwi-80-92% ukuchaneka ekufumaneni ukudakumba okukhulu kwiipatheni zeelwimi kunye ne-biomarkers yelizwi, ngelixa i-algorithms yombono wekhompyuter inokuchonga umngcipheko wokuzibulala kunye ne-85% ubuntununtunu ngokuhlalutya inkangeleko yobuso kunye neentshukumo ezincinci. Iimodeli zokusetyenzwa kweelwimi zendalo eziqeqeshwe kwiingxoxo zonyango zibonisa isithembiso ekuhambiseni imigaqo yonyango yokuziphatha kwengqondo, kunye nezilingo ezilawulwa ngokungenamkhethe ezibonisa ukusebenza kakuhle okufaniswa neengcali zokunyanga abantu ngenxa yokudakumba okuphakathi ukuya kokuphakathi kunye nokuxhalaba (I-Journal of Medical Internet Research, 2022). Iinkqubo zokubeka iliso ezisekwe kwi-smartphone ziyakwazi ukubona iimpawu ezilumkisayo zokuphinda ubuyele kwisigulo esinzulu ngengqondo ukuya kuthi ga kwiintsuku ezisi-7 ngaphambi kokuba kubonakale ukuwohloka kweklinikhi (JAMA Psychiatry, 2021). Ngaphandle kolu kuqhubela phambili, imiceli mngeni ebalulekileyo isekhona, kubandakanywa ukuthambekela kwe-algorithm, ukuqinisekiswa okulinganiselweyo kubantu abahlukeneyo, iinkxalabo zabucala, kunye nokudityaniswa kokuhamba komsebenzi okhoyo wekliniki. Sixoxa ngeengqwalasela zokuziphatha, izikhokelo zolawulo, kunye neendlela zokuvavanya impilo yengqondo ye-AI. Ngelixa itekhnoloji ye-AI ibonisa isithembiso esikhulu sokwandisa ukufikelela kukhathalelo lwempilo yengqondo kunye nokuphucula ukusebenza konyango, kufuneka ziphuhliswe kwaye zifakwe ngaphakathi kwesakhelo esibanzi esibeka phambili ukuqinisekiswa kweklinikhi, uqwalaselo lweenqobo ezisesikweni, kunye nokuphunyezwa okugxile eluntwini ukuphucula ngokwenene iziphumo zempilo yengqondo."
+    },
+    "introduction": {
+      "title": "Intshayelelo",
+      "text": "Umthwalo wokugula ngengqondo unikezela ngowona mceli mngeni mkhulu kwezempilo...",
+      "p1": "Umthwalo wokugula ngengqondo unikezela ngowona mngeni ucinezelayo kukhathalelo lwempilo. Phantse umntu omnye kwabahlanu kwihlabathi liphela ufumana ukuphazamiseka kwempilo yengqondo minyaka le, kunye nokudakumba kuphela kuchaphazela abantu abangaphezu kwezigidi ezingama-300 kwihlabathi liphela (WHO, 2022). Okwangoku, ukunqongophala kwabasebenzi okuzingisileyo kunciphisa ukufikelela kukhathalelo - uMbutho wezeMpilo weHlabathi uqikelela ukunqongophala kwehlabathi le-1.18 yezigidi zeengcali zempilo yengqondo. Lo msantsa phakathi kweemfuno kunye nezibonelelo ezikhoyo uye wakhawulezisa umdla kwizisombululo ezisekelwe kubuchwepheshe, ngakumbi iinkqubo ze-intelligence (AI) ezinokuthi zikwazi ukwandisa ukufikelela kunye nokusebenza kakuhle kweenkonzo zempilo yengqondo.",
+      "p2": "I-intersection ye-AI kunye nempilo yengqondo ibonise ukukhula okuphawulekayo kule minyaka ilishumi idlulileyo. Ukusuka kwizixhobo zokuhlola ezizenzekelayo kunye nee-arhente zeengxoxo ukuya kuhlalutyo oluqikelelweyo lokuthintela ukuphindaphinda, izicelo ze-AI kwi-psychiatry kunye ne-psychology ziye zanda kakhulu. Olu tshintsho lwenziwe ngokuhambela phambili ekusetyenzweni kolwimi lwendalo, ukufundwa koomatshini, umbono wekhompyuter, kunye nokwanda kwamathuba e-digital phenotyping ngokusebenzisa ii-smartphones kunye nezixhobo ezinxitywayo.",
+      "p3": "Impilo yengqondo inika imingeni ekhethekileyo kunye namathuba okuphunyezwa kwe-AI. Ngokungafaniyo neengcali ezininzi zonyango, uvavanyo lwengqondo luxhomekeke kakhulu kwingxelo ezimeleyo, indlela yokuziphatha eqaphelekayo, iipateni zolwimi, kunye nemiba yomxholo kunovavanyo lwaselabhoratri okanye ukucinga. Oku kuhambelana kakuhle nezakhono ezikhulayo ze-AI ekuqondeni ulwimi, ukuqaphela ipateni kwidatha yokuziphatha, kunye nohlalutyo lweendlela ezininzi zokubonisa iimvakalelo.",
+      "p4": "Eli phepha libonelela ngokuphononongwa okubanzi kwezicelo ze-AI zangoku kwimpilo yengqondo, ukuphonononga isiseko sobungqina bokusebenza kwabo, iindlela zemethodological, imingeni yokuphunyezwa, kunye nokuqwalaselwa kokuziphatha. Silungiselela uhlalutyo lwethu malunga neendawo ezine eziphambili: iinkqubo zenkxaso yokuxilonga, izicelo zonyango, ukubeka iliso kwesigulane, kunye nohlalutyo oluqikelelweyo lokucwangciswa kwonyango. Kwindawo nganye, sivavanya imeko yangoku yeteknoloji, sishwankathela iziphumo zophando eziphambili, kwaye sichonge izikhewu ezibalulekileyo ezifuna uphando olongezelelweyo.",
+      "p5": "Kubalulekile ukuqaphela ukuba ngaphandle kwenkqubela phambili ebalulekileyo, izixhobo ze-AI kwimpilo yengqondo zenzelwe ukukhulisa, kungekhona ukubuyisela, oogqirha babantu. Imanyano yonyango phakathi kwesigulane kunye nomnikezeli ihlala ingundoqo kukhathalelo lwengqondo olusebenzayo. Ezona zicelo zithembisayo ziphakamisa i-AI yokwandisa amandla omboneleli, ukuphucula ukusebenza kakuhle, ukunika amandla ukungenelela kwangaphambili, kunye nokwandisa ukufikelela kwinkathalo esekelwe kubungqina kubantu abangagcinwanga."
+    },
+    "methods": {
+      "title": "Iindlela/uBugcisa",
+      "text": "Iinkqubo ze-AI zangoku kwimpilo yengqondo zisebenzisa iindlela ezahlukeneyo zeendlela...",
+      "p1": "Iinkqubo zangoku ze-AI kwimpilo yengqondo zisebenzisa iindlela ngeendlela ezahlukeneyo, nganye ineengenelo ezithile kwizicelo ezahlukeneyo zeklinikhi. Iziseko ezingundoqo zobugcisa ziquka ukusetyenziswa kolwimi lwendalo (NLP), ukufunda ngomatshini (ML), umbono wekhompyutheni, kunye ne-digital phenotyping.",
+      "p2": "I-Natural Language Processing (NLP) yenza umqolo weenkqubo ezininzi ze-AI zempilo yengqondo, eyenza uhlalutyo lomxholo weelwimi kunye neepatheni zonxibelelwano. Iimodeli ezisekelwe kwinguqu ephucukileyo efana ne-BERT (i-Bidirectional Encoder Representations ezivela kwi-Transformers) kunye ne-GPT (i-Generative Pre-trained Transformer) ezahlukeneyo zivumela iinkqubo ukuba zitolike iingxelo zeklinikhi, ukubhalwa kweeseshoni zonyango, kunye nombhalo owenziwe ngesigulane kunye nokuqonda okukhulayo komxholo, iimvakalelo kunye nomxholo wengqondo. Ezi modeli zinokuchonga iimpawu zolwimi ezinxulumene neemeko ezithile, ezinje ngokuncipha kokuntsonkotha kolungelelwaniso kuxinzelelo okanye ukuphazamiseka kokuhambelana kwesemantic kwiziphazamiso zengqondo. Ezona nkqubo ziphucukileyo zeklinikhi ze-NLP zilungelelaniswe kakuhle kwimpilo yengqondo ethile, kubandakanywa amanqaku ekliniki angachazwanga, imibhalo yonyango, kunye nezixhobo zovavanyo lwengqondo eziqinisekisiweyo.",
+      "p3": "Iindlela zokuFunda ngoomatshini kuhlelo oluphantsi kolawulo lwempilo yengqondo (kwizicelo zokuxilonga), ukuhlanganisana okungajongwanga (ukuchonga iipatheni zeempawu zenoveli), ukuqinisa ukufunda (ukwenza ungenelelo lobuqu), kwaye ngokwandayo, ukufunda nzulu kokudityaniswa kwedatha ye-multimodal. Idatha yoqeqesho ngokuqhelekileyo ibandakanya iimvavanyo zeklinikhi ezicwangcisiweyo (umzekelo, i-PHQ-9 yokudakumba, i-GAD-7 yokukhathazeka), imilinganiselo yokuziphatha, imiqondiso ye-physiological, kunye nedatha yerekhodi yezempilo ye-elektroniki. Iindlela zokuqinisekisa ngokubanzi zisebenzisa i-k-fold cross-validation kunye neeseti zovavanyo lwangaphandle, kunye nomsebenzi ovavanyiweyo kusetyenziswa ubuntununtunu, ukuchaneka, amaxabiso aqikelelwayo alungileyo/abi, kunye nommandla ophantsi kwegophe lophawu lokusebenza (AUC-ROC).",
+      "p4": "Izicelo zeComputer Vision zihlalutya inkangeleko yobuso, iipateni zeemoto, kunye nokuziphatha okungathethwayo okuhambelana neemeko zengqondo. Uthungelwano lwe-neural ye-Convolutional kunye neemodeli zexeshana (umzekelo, iinethiwekhi ze-LSTM) ziyakwazi ukubona i-micro-expressions, iipateni zokujonga, kunye notshintsho lwe-psychomotor olunokuthi lubonise iimeko zeemvakalelo okanye ukubonakaliswa kweempawu. Ezi nkqubo zibaluleke kakhulu kwiimeko apho ukujongwa kokuziphatha kunceda ukuxilongwa, njengokuphazamiseka kwe-autism spectrum okanye iimpawu ze-catatonic kwisigulo esinzima sengqondo.",
+      "p5": "I-Digital Phenotyping imele indlela evelayo ephakamisa ukuqokelelwa kwedatha yokwenziwa kwii-smartphones kunye nezixhobo ezinxitywayo ukuchonga iipatheni zokuziphatha ezinxulumene neemeko zengqondo. Ezi nkqubo zihlalutya idatha ye-geolocation, amanqanaba omsebenzi, iipatheni zokulala, ukuphindaphinda konxibelelwano lwentlalo, amandla okuchwetheza, kunye neempawu zelizwi ukwakha i-biomarkers yedijithali yobume bempilo yengqondo. Le ndlela yenza ukuba kuqhubeke, ukubeka iliso kwizinto eziphilayo ngaphandle kwezicwangciso zeklinikhi, okunokuvumela ukubonwa kwangaphambili kweenguqu zempawu.",
+      "p6": "Izikhokelo zokudibanisa ziya zidibanisa iindlela ezininzi zovavanyo olubanzi. Ngokomzekelo, iisistim zinokuhlalutya umxholo weelwimi kunye ne-acoustics yezwi kunye nembonakalo yobuso ngexesha lodliwano-ndlebe lweklinikhi ukuphucula ukuchaneka koxilongo. Ngokufanayo, izicelo zonyango zinokudibanisa uhlalutyo lweemvakalelo zotshintshiselwano lombhalo kunye nedatha yokubeka iliso engenzi nto ukwenza ixesha longenelelo kunye nomxholo.",
+      "p7": "Iindlela zovavanyo lweenkqubo ze-AI zempilo yengqondo zibandakanya iimetriki zokuchaneka koxilongo (ubuntununtunu, ukuchaneka, i-AUC), uhlolo lokusebenziseka, kunye nokunyuka, amanyathelo eziphumo zekliniki ezivela kulingo olulindelekileyo. Imigangatho yegolide yokuthelekisa iyahluka ngokwesicelo kodwa ibandakanya udliwano-ndlebe olucwangcisiweyo lwezonyango, izixhobo zovavanyo eziqinisekisiweyo, kunye noxilongo lwemvumelwano yonyango. Uphononongo oluninzi lwakutsha nje lusebenzisa uyilo lolingo olungenamkhethe ukuvavanya ukhathalelo olongeziweyo lwe-AI ngokuchasene nonyango njengesiqhelo.",
+      "p8": "Iindlela zokubala ezigcina ubumfihlo zibaluleke kakhulu kwizicelo zempilo yengqondo zinikwa ubume bedatha yengqondo. Oku kuquka ukufunda okudityanelweyo (apho imifuziselo iqeqeshwa kwiindawo ezininzi ngaphandle kokwenza idatha embindini), iindlela zobuchule zabucala, kunye nokubala okukhuselekileyo kwamaqela amaninzi. Ezi ndlela zinceda ukulungelelanisa imfuno yedatha enkulu, eyahlukeneyo yoqeqesho kunye neemfuno zokuziphatha zokukhusela idatha."
+    },
+    "results": {
+      "title": "Iziphumo",
+      "diagnosticSupport": {
+        "title": "I-AI kwiNkxaso yoDiagnostic",
+        "text": "Iinkqubo ze-AI zibonise amandla athembisayo ekuxhaseni ukuxilongwa kwempilo yengqondo ...",
+        "p1": "Iinkqubo ze-AI zibonise amandla athembisayo ekuxhaseni ukuxilongwa kwempilo yengqondo kwiimeko ezininzi. Ezi zixhobo zihlalutya imithombo yedatha eyahlukeneyo kubandakanywa udliwano-ndlebe lweklinikhi, iimpendulo zemibuzo, iipatheni zokuthetha, imbonakalo yobuso, kunye nokuziphatha kwedijithali ukuchonga iimpawu zeempawu zokuphazamiseka kwengqondo.",
+        "p2": "Ekubhaqweni koxinzelelo, ii-algorithms ze-NLP ezihlalutya iimpawu zolwimi zifumene impumelelo ebonakalayo. Uphononongo luka-2021 kwi-JAMA Psychiatry luvavanye inkqubo ye-NLP ehlalutya iimpendulo zeteksti zasimahla kwii-prompts ezisemgangathweni kubo bonke abathathi-nxaxheba be-4,216. Inkqubo ibonise i-87% yobuntununtunu kunye ne-84% ekhethekileyo yokufumanisa ingxaki enkulu yokudakumba xa kuthelekiswa nodliwano-ndlebe olucwangcisiweyo lwekliniki. Ingakumbi iimpawu eziqikelelwayo ziquka ukusetyenziswa kwesimelabizo somntu wokuqala, amagama achukumisayo angalunganga, kunye nokuncipha kokwahluka kolwimi. Xa kudityaniswa nohlalutyo lwe-acoustic yezwi (ukubamba iimpawu zeprosodic ezifana nokunciphisa i-pitch variation kunye nesantya sokuthetha), ukuchaneka kokuxilonga kunyuke ukuya kuma-92%.",
+        "p3": "Ngokufanayo, uhlalutyo oluzenzekelayo lwentetho kunye neepatheni zolwimi lubonise ukusebenza ekuboneni ukuphazamiseka kwengqondo. Kuphononongo olulindelekileyo lokuqinisekisa olubandakanya abantu abadala abangama-382, inkqubo ye-AI ehlalutya ukuhambelana kwe-semantic, ukuntsonkotha kwe-syntactic, kunye neempawu ze-acoustic ngexesha lodliwano-ndlebe olufutshane olucwangcisiweyo luzuze ukuchaneka kwe-85% ekuchongeni ukuphazamiseka okuncinci kwengqondo, okuthelekiswa novavanyo olufutshane lwe-neuropsychological kodwa ifuna isampulu yentetho yemizuzu emi-3 kuphela.",
+        "p4": "Ukuphazamiseka kokuxhalaba, iinkqubo ezininzi ezidibanisa idatha ye-physiological (ukuguquguquka kwesantya sentliziyo, umsebenzi we-electrodermal) kunye nemilinganiselo yokuziphatha ibonise usetyenziso oluthile. Inkqubo enxibayo esekwe esweni i-autonomic biomarkers ngexesha loxinzelelo olusemgangathweni luchaze ngokuchanekileyo ukuphazamiseka okuxhalabisayo okuqhelekileyo kunye ne-83% echanekileyo kwisampulu yabathathi-nxaxheba be-189, kunye nokufumanisa ukuphazamiseka kwe-panic ukufikelela kwi-88%.",
+        "p5": "Izicelo zombono wekhompyuter zibonise isithembiso seemeko ezinamacandelo abonakalayo okuziphatha. Inkqubo yokufunda enzulu ehlalutya inkangeleko yobuso kunye neepatheni zentshukumo ngexesha lodliwano-ndlebe lwezonyango ezichonge ukuphazamiseka kwe-autism spectrum ngokuchaneka kwe-86% kubantwana abaneminyaka eyi-3-6 yeminyaka, enokuthi ivumele ukuhlolwa kwangaphambili kwiindawo zokhathalelo lokuqala. Ngokufanayo, uhlalutyo lokurekhodwa kwevidiyo ukusuka kuvavanyo olucwangcisiweyo lubonakalise ukuchaneka kwe-82% ekufumaneni ukuphazamiseka kwe-bipolar ngokusekwe kumahluko afihlakeleyo kwimisebenzi yemoto kunye nokubonakala kobuso ngexesha le-manic ngokuchasene nezigaba zoxinzelelo.",
+        "p6": "Iindlela zeDigital phenotyping, ukuhlalutya idatha ye-smartphone, zibonakalise ukuba zibalulekile ekubekweni iliso kwimeko. I-entropy yendawo (ukuhlukahluka kwiipatheni zokuhamba), ubude bokulala, kunye nokunxibelelana rhoqo kubonise ukulungelelaniswa okuphezulu (r = 0.71-0.84) kunye nezikali zokulinganisa ukudakumba okusemgangathweni, okwenza uvavanyo oluqhubekayo phakathi kokutyelela kweklinikhi.",
+        "p7": "Okubalulekileyo, umsebenzi wamva nje ugxile ekujonganeni ne-algorithmic bias kunye nokuqinisekisa ukusebenza ngokulinganayo kubantu abahlukeneyo. Uphononongo olukhulu lokuqinisekiswa kwe-algorithm yokuhlola ukudakumba kubathathi-nxaxheba be-8,200 abavela kwiimvelaphi ezahlukeneyo zobuhlanga kunye nezentlalo zoqoqosho zibonise ekuqaleni okucacileyo okuphantsi (73% vs. 89%) kubathathi-nxaxheba abamnyama xa kuthelekiswa nabathathi-nxaxheba abamhlophe. Emva kohlengahlengiso oluseti yoqeqesho olwahlukeneyo kunye nemigangatho yereferensi ehlengahlengisiweyo ngokwenkcubeko, iyantlukwano yentsebenzo yancitshiswa kakhulu, kwaphuculwa ngokukodwa ukuya kuma-85% kuwo onke amaqela abantu.",
+        "p8": "Ngaphandle kwezi nkqubela phambili, imingeni isahleli kwizicelo zokuxilonga. Uninzi lweenkqubo ziye zaqinisekiswa ngokuyintloko kwiisetingi zophando ezilawulwayo kuneendawo ezahlukeneyo zeklinikhi. Ngaphaya koko, uninzi lugxile kuhlelo lokubini (ubukho / ukungabikho kwemeko) endaweni yendlela yokulinganisa ethandwa kakhulu kunyango lwangoku lwengqondo. Iinzame zokujongana nale mida zibandakanya uphuhliso lweemodeli zokuxilonga ezivavanya imilinganiselo yeempawu kuyo yonke imida yokuxilonga yendabuko, ebonisa ngcono ubunyani obuntsokothileyo boxinzelelo lwengqondo."
+      },
+      "therapeuticApplications": {
+        "title": "I-AI kwizicelo zoNyango",
+        "text": "Ungenelelo lonyango olusekwe kwi-AI kwimpilo yengqondo luye lwavela kwiinkqubo ezilula ezisekelwe kumgaqo...",
+        "p1": "Ungenelelo lwezonyango olusekwe kwi-AI kwimpilo yengqondo luye lwavela kwiinkqubo ezilula ezisekelwe kumgaqo ukuya kwii-arhente zeengxoxo ezinobunkunkqele ezikwaziyo ukuhambisa imigaqo yonyango esekelwe kubungqina. Ezi zicelo zithatha i-spectrum ukusuka kwi-automated digital therapeutics ukuya kwi-AI-augmented human treatment.",
+        "p2": "Iinkqubo zeengxoxo ze-AI eziphumeza imigaqo yonyango lokuziphatha (CBT) zenze olona vavanyo luqatha. Kulingo oluphawulekayo olulawulwa ngokungahleliwe olupapashwe kwi-Lancet Digital Health (2022), abathathi-nxaxheba be-1,032 abanokudakumba okuphakathi babelwa nokuba yinkqubo ye-CBT enikezelweyo ye-AI okanye unyango njengesiqhelo. Inkqubo ye-AI, eyabandakanya abasebenzisi kwiingxoxo zemihla ngemihla ezisekelwe kwiitekisi zokuphumeza iindlela eziphambili ze-CBT, zibonise ukunciphisa okuphawulekayo kwi-PHQ-9 amanqaku okudandatheka kwiiveki ze-12 xa kuthelekiswa neqela lokulawula (umlinganiselo ochanekileyo -2.85 amaphuzu, 95% CI -4.07 ukuya -1.63, p <0.001). Iziphumo zonyango zigcinwe kwi-6-inyanga yokulandelelana. Ngokucacileyo, amazinga okubambelela kwiprogram ye-AI (i-68% yokugqiba iprotocol epheleleyo) idlule amaxabiso aqhelekileyo ongenelelo lwedijithali oluzikhokelayo (ngokuqhelekileyo i-25-30%), ebonisa ukuba unxibelelwano lwengxoxo luphuculwe ukubandakanyeka.",
+        "p3": "Kwingxaki yokuxhalaba, iarhente yencoko efanayo ephumeza imigaqo yonyango oluveziweyo ibonise ukusebenza kokuphazamiseka koxinzelelo ngokubanzi kulingo lwabathathi-nxaxheba abangama-688. Inkqubo, ekhokele abasebenzisi ngokusebenzisa i-personal exposure hierarchies kunye nokuqhubela phambili kobunzima, iphumelele ukucutha okukhulu kwe-25% kumanqaku e-GAD-7 xa kuthelekiswa nolawulo loluhlu lokulinda, kunye neziphumo ezifaniswa neqela elikhokelwa ngugqirha we-CBT kuvavanyo lwasemva konyango. Uhlalutyo lweendleko lubonise ukuba ungenelelo lwe-AI luxabisa malunga nesinye kwisihlanu eso sonyango olulinganayo olunikezelwe ngumntu ngelixa unikezela ngeenzuzo ezifanayo zonyango kwiimeko ezithambileyo ukuya kweziphakathi.",
+        "p4": "Ngaphandle kokuphazamiseka kwengqondo kunye noxinzelelo, unyango lwe-AI lubonise isithembiso seemeko ezibandakanya ukuphuthelwa, ukuphazamiseka koxinzelelo lwasemva koxinzelelo, kunye nokuphazamiseka kokusetyenziswa kweziyobisi. Inkqubo yokufunda eyomelezwayo yokuphazamiseka kokusetyenziswa kotywala, eye yazisa ngokuguqukayo imiyalezo ekhuthazayo eyenzelwe umntu ngokusekwe kwiimeko ezifunyanisiweyo zomngcipheko, yanciphisa iintsuku zokusela ezixeliweyo ngama-34% xa kuthelekiswa nomxholo wemfundo omileyo kulingo lweenyanga ezi-3 olubandakanya abathathi-nxaxheba abangama-352. Ikhono lenkqubo lokuchonga ixesha lokungenelela elichanekileyo elisekelwe kwidatha yokubeka iliso (umzekelo, idatha yendawo ebonisa ukusondela kwiindawo zokusela rhoqo) ibonakala iqhuba ukusebenza kwayo okuphezulu.",
+        "p5": "Ukwandiswa kwe-AI yonyango lomntu kuye kwabonisa ixabiso. Inkqubo yoqeqesho lonyango ehlalutye ukubhalwa kweeseshoni ukubonelela abanyangi ngengxelo yokubambelela kunye neengcebiso eziphucula ukuthembeka kweprotocol ye-CBT ngama-32% kwaye yadityaniswa nokunciphisa okukhulu kweempawu (ubungakanani besiphumo d = 0.41) xa kuthelekiswa nonyango olungaxhatshazwanga kulingo olungenamkhethe. Iingcali zonyango zichaze ukuba impendulo ye-AI yanceda ukugcina ugxininiso kubuchule obusekelwe kubungqina kunye nokuchonga amathuba ongenelelo oluthile olunokuthi luphoswe ngenye indlela."
+      },
+      "patientMonitoring": {
+        "title": "I-AI kuHlolo lweSigulane kunye noThintelo lokuBuyisela kwakhona",
+        "text": "Izicelo zokubeka iliso eziqhubekayo zibonisa isizinda esithembisayo se-AI kwimpilo yengqondo...",
+        "p1": "Izicelo zokubeka iliso eziqhubekayo zibonisa i-domain ethembisayo ngokukodwa ye-AI kwimpilo yengqondo, eyenza ukubonwa kweenguqu zempawu phakathi kokutyelela kweklinikhi kunye nokungenelela kwangaphambili. Ezi nkqubo zikholisa ukonyusa izinzwa ze-smartphone, izixhobo ezinxitywayo, kunye nonxibelelwano lwabasebenzisi ukwakha ii-biomarkers zedijithali zesimo sengqondo.",
+        "p2": "Kwizigulo ezimandundu zengqondo, kubandakanywa i-schizophrenia kunye ne-bipolar disorder, ukufunyaniswa kophawu lwesilumkiso kwangethuba kubonise uncedo olubalulekileyo lwezonyango. Kuphononongo olulindelekileyo lwenyanga ye-12 yabantu abangama-304 abane-schizophrenia, inkqubo yokubeka iliso esekwe kwi-smartphone ehlalutya iipateni zokuthetha, ukulala, ukuhamba, kunye nokunxibelelana kwezentlalo kuchonge i-89% ye-psychotic iphinda ibuyele kumndilili weentsuku ze-7.4 ngaphambi kokuba ukuwohloka kweklinikhi kubonakale ngexesha lokhathalelo lwesiqhelo. Xa idityaniswe neprotocol yempendulo yeklinikhi, inkqubo yanciphisa amazinga okulaliswa esibhedlele nge-28% xa kuthelekiswa nonyango njengesiqhelo, iphakamisa inzuzo enkulu kuzo zombini izigulane kunye neenkqubo zempilo.",
+        "p3": "Iindlela ezifanayo ziye zabonisa ukusebenza kakuhle kwi-bipolar disorder. Inkqubo ye-multimodal ehlalutya iipateni zokuchwetheza, i-acoustics yezwi, ubude bokulala, kunye namanqanaba omsebenzi achongiweyo i-manic kunye ne-depressive episode iqala nge-82% kunye ne-77% echanekileyo ngokulandelelana, inika i-avareji ye-4-6 yeentsuku ze-4-6 isilumkiso ngaphambi kokuba kugqitywe imiqobo yeklinikhi. Xa isetyenziswe kunye nenkqubo yokwazisa ikliniki edibeneyo kwisilingo esingenasiphelo sabathathi-nxaxheba be-397, inkqubo yokubeka iliso idibaniswe nexesha elifutshane leengqungquthela kunye nokunciphisa ubunzima beempawu xa kuthelekiswa nokunyamekela okuqhelekileyo.",
+        "p4": "Ukubeka iliso lokudakumba, iinkqubo ezihlalutya indlela yokuziphatha yedijithali zibonise ulungelelwaniso oluqinileyo kunye nemilinganiselo yeempawu zeklinikhi. Isicelo esingevayo sokuqokelela idatha kwiipatheni zokusetyenziswa kwe-smartphone, umsebenzi womzimba, kunye nokuziphatha kwezentlalo kubonise ulungelelwaniso lwe-0.82 namanqaku e-PHQ-9 kuphononongo olude lweenyanga ezi-6 lwabathathi-nxaxheba abangama-211 abanoxinzelelo oluphindaphindiweyo. Iimodeli zokufunda ngoomatshini eziqeqeshelwe ezi mpawu zokuziphatha ziqikelele iindlela zeempawu ezinokuchaneka okwaneleyo ukwahlula ukusonjululwa ngokuchasene noxinzelelo olubi kwi-76% yamatyala, okunokuthi kuvumele ungenelelo olungexesha.",
+        "p5": "Izicelo zokujonga ukuphazamiseka kokutya zisebenzise ukufota ngokutya kunye nohlalutyo lombono wekhompyuter kunye nedatha yokuziphatha ukulandelela iimpawu kunye nokuziphatha okusemngciphekweni omkhulu. Kuphononongo olulingwayo lwabantu abali-157 abane-bulimia nervosa, inkqubo ye-AI ehlalutya umxholo wokutya, iipatheni zokutya, kunye nezalathi zokuziphatha zembuyekezo ezichongwe ngokuchanekileyo i-83% yeziganeko zokuphinda ziphinde zibuyele ngokusekelwe kwii-biomarkers zedijithali zodwa, xa kuthelekiswa ngokufanelekileyo namanyathelo okuzixela. Ukudityaniswa kunye nongenelelo olulungelelanisiweyo lwexesha nje lubonise ubungqina bokuqala bokunciphisa iziqendu zokuzihlamba ngokubonelela ngenkxaso kumanqaku ezigqibo ezibalulekileyo.",
+        "p6": "Kuzo zonke ezi zicelo, ukusebenzisana komsebenzisi kunye neenkxalabo zabucala ibe yimiceli mngeni ephambili. Izifundo ezizalisekisa ukwabelana ngedatha elawulwa ngumsebenzisi, iinkcazo ze-algorithm ecacileyo, kunye nokubonakaliswa okucacileyo kwenzuzo kuye kwafikelela awona mazinga aphakamileyo okuzibandakanya, kunye ne-71% yabathathi-nxaxheba abaqhubeka nokusetyenziswa rhoqo kwiinyanga ezi-6 +. Ngokucacileyo, iinkxalabo malunga nemfihlo zibonakala zincitshisiwe xa abasebenzisi bebona izibonelelo zempilo ezibambekayo kunye nokugcina ulawulo lokusetyenziswa kwedatha."
+      }
+    },
+    "discussion": {
+      "title": "Ingxoxo",
+      "text": "Uphononongo lwethu lobungqina obukhoyo bubonisa ukuba izicelo ze-AI kwimpilo yengqondo ziye zaqhubela phambili zisuka kwizinto ezinokwenzeka zethiyori ukuya kwizixhobo eziqinisekisiweyo zeklinikhi ezineempembelelo ezinokulinganiswa ekuhloleni ukuchaneka, ukunikezelwa kwonyango, kunye nokubeka iliso kwimeko. Imixholo eliqela engundoqo ivela kwiziphumo ezidityanelweyo.\n\nOkokuqala, iindlela zemultimodal zihlala zisebenza ngakumbi kwiinkqubo zendlela enye kuzo zonke izicelo. Ukudityaniswa kohlalutyo lweelwimi, ukubekwa kweliso kwindlela yokuziphatha, imiqondiso yendalo, kunye nolwazi lomxholo kudala umfanekiso obanzi wemeko yengqondo kunawo nawuphi na umlinganiselo womntu. Oku kubonakalisa ubume obuntsonkothileyo, obuneenkalo ezininzi zeemeko zempilo yengqondo, ezibonakala kuyo yonke imimandla yokuqonda, yeemvakalelo, yokuziphatha, neyeyomzimba. Uphuhliso lwexesha elizayo kufuneka luqhubeke nokugxininisa ukudityaniswa kwemithombo yedatha ehambelanayo kwizicwangciso-nkqubo zovavanyo ezihambelanayo.\n\nOkwesibini, ubungqina buxhasa imodeli ye-hybrid apho i-AI yandisa kunokuba ithathe indawo yoogqirha babantu. Eyona mpumelelo iphumeleleyo isikhundla i-AI njengamandla ophindaphinda ubuchwephesha beklinikhi-ukwandisa ukufikelela, ukuphucula ukusebenza kakuhle, ukwenza uvavanyo oluqhubekayo ngakumbi, kunye nokuxhasa ubungqina obusekelwe kubungqina. Umanyano lonyango phakathi kwesigulana kunye nomboneleli luhlala lusembindini wokhathalelo lwempilo yengqondo olusebenzayo, kwaye itekhnoloji ibonakala isebenza kakhulu xa iphuculwa kunokuba izame ukuthatha indawo yolu budlelwane.\n\nOkwesithathu, ubuqu buvela njengento ebalulekileyo ekusebenzeni. Iimeko zempilo yengqondo zibonisa ukungafani okukhulu kwinkcazo, ukuqhubela phambili, kunye nokuphendula unyango. Iinkqubo ze-AI ezikwazi ukulungelelanisa kwiiprofayili zeempawu zomntu ngamnye, izinto ozikhethayo, kunye neepatheni zokuphendula ziye zabonisa iziphumo eziphezulu xa kuthelekiswa nobukhulu obufanayo-bonke iindlela. Oku kuhambelana nentshukumo ebanzi eya kunyango lwengqondo oluchanekileyo, apho ungenelelo lulungelelaniswe neeprofayili ze-biopsychosocial.\n\nNgaphandle kolu phuhliso luthembisayo, imiceli mngeni ebalulekileyo ihleli ekuguquleleni inkqubela phambili yophando kuqeqesho lwezonyango. Izithintelo eziphambili ziquka:\n\nI-algorithmic bias kunye neenkxalabo zokwenzeka ngokubanzi: Iinkqubo ezininzi ziphuhlisiwe kwaye zaqinisekiswa kubantu abalingana ngokwentelekiso, kuphakamisa imibuzo malunga nokusebenza kumaqela ahlukeneyo abantu. Ubungqina bokuqala bubonisa ukuba ezinye ii-algorithms zisebenza ngokwahlukileyo kwiimeko zenkcubeko, isini, kunye nemvelaphi yobuhlanga / yobuhlanga. Ngelixa umsebenzi wakutsha nje sele uqalisile ukulungisa le yantlukwano ngokusebenzisa ulwazi oluthe kratya loqeqesho kunye nemigangatho yereferensi yolwazi lwenkcubeko, ukuqinisekisa ukusebenza ngokulinganayo kuhlala kungumngeni oqhubekayo.\n\nUbungqina obuncinane bexesha elide: Nangona uphando lwexesha elifutshane lubonisa iziphumo ezithembisayo, kukho ukunqongophala kwedatha yokulandelela ixesha elide malunga nokuzibandakanya okuzinzileyo, iziphumo zonyango oluhlala ixesha elide, kunye nemiphumo engalindelekanga yokungenelela kwe-AI. Ubume obukhawulezayo bokuvela kwetekhnoloji ye-AI yodlula ixesha lesiqhelo lophando lweklinikhi olude, idala isithuba sobungqina obuzingileyo.\n\nImingeni yokudibanisa: Ubugcisa, ukuhamba komsebenzi, kunye nezithintelo zenkcubeko zinzima ukudityaniswa kwezixhobo ze-AI kwiinkqubo ezikhoyo zeklinikhi. Ukuphunyezwa ngempumelelo kufuna ingqalelo ekuhambeni komsebenzi weklinikhi, ukudibanisa kunye neerekhodi zezempilo ze-elektroniki, iindima ezicacileyo kunye noxanduva, izikhokelo zoxanduva, kunye neemodeli zokubuyisela. Eyona nkqubela phambili yobugcisa inyanzelisayo inokusilela ekufezekiseni isakhono sazo ngaphandle kokuqwalaselwa ngenyameko kule miba yophumezo.\n\nIingqwalasela zabucala kunye nokhuseleko: Idatha yempilo yengqondo iphakathi kwezona nkcukacha zinobuntununtunu. Ngelixa iindlela zobugcisa ezifana nokufunda okudibeneyo kunye nokwahluka kobumfihlo kunceda ukujongana nezi zinto zixhalabisayo, izikhokelo zolawulo ezipheleleyo zokuphatha idatha kwimpilo yengqondo ye-AI zihlala zingaphuhliswanga. Ukulinganisa izibonelelo zeendlela eziqhutywa yidatha kunye nokhuseleko lwabucala olomeleleyo lumele umngeni oqhubekayo.\n\nUkungaqiniseki ngokomthetho: Indawo yolawulo lwe-AI kwimpilo yengqondo isavela. Izikhokelo zangoku ezilungiselelwe izixhobo zonyango zemveli azinako ukujongana ngokwaneleyo neempawu ezizodwa zeenkqubo ze-AI eziguquguqukayo eziqhubeka nokufunda ekuhanjisweni. Ukuqulunqa imigangatho efanelekileyo yokuqinisekisa, iimfuno zokubeka iliso, kunye nohlaziyo lwemigaqo yeenkqubo zokufunda kuya kubaluleka ekuqaliseni izinto ezintsha.\n\nLe mingeni nangona kunjalo, ubungqina buxhasa uphuhliso oluqhubekayo kunye nokuphunyezwa ngokucokisekileyo kwezicelo ze-AI ezibonisa inzuzo yeklinikhi, amanyathelo okhuseleko afanelekileyo, kunye nokuqwalaselwa kweengcamango zokuziphatha. Amandla okwandisa ukufikelela kukhathalelo lwempilo yengqondo-ingakumbi kubantu abangagcinwanga kakuhle abajongene nokunqongophala kwababoneleli-lubonisa ingqiqo enyanzelisayo yokuqaliswa kwezinto ezintsha kule ntsimi."
+    },
+    "conclusion": {
+      "title": "Ukuqukumbela",
+      "text": "Izicelo zobukrelekrele bokwenziwa kwimpilo yengqondo ziye zaqhubela phambili kakhulu kule minyaka ilishumi idlulileyo, zisuka kwiingqikelelo zethiyori ukuya kwizixhobo eziqinisekisiweyo ngokweklinikhi ezibonisa ukusebenza ngempumelelo kuyo yonke inkxaso yoxilongo, unikezelo lonyango, ukubekwa esweni kwesigulana, kunye nohlalutyo lokuxela kwangaphambili. Ubungqina obuhlaziywe kweli phepha bubonisa ukuba obu buchwepheshe bunamandla okwenene okujongana nemingeni ebalulekileyo kukhathalelo lwempilo yengqondo, kubandakanywa nokufikelela kwimida, imiqobo yezibonelelo, kunye nesidingo seendlela eziqhubekayo kunye nezomntu ngamnye zokuvavanya kunye nokungenelela.\n\nImigaqo emininzi engundoqo kufuneka ikhokele uphuhliso lwexesha elizayo kunye nokuphunyezwa. Okokuqala, i-AI kufuneka yandise kwaye yandise ubuchwephesha beklinikhi yabantu kunokuba izame ukutshintsha ubudlelwane obubalulekileyo bonyango phakathi komnikezeli kunye nesigulana. Okwesibini, iindlela ze-multimodal ezidibanisa imithombo yedatha eyahlukeneyo zibonelela ngowona mfanekiso ubanzi kunye nochanekileyo wemeko yempilo yengqondo. Okwesithathu, izakhono zobuntu ezilungelelanisa iimfuno zomntu ngamnye, ukhetho, kunye neepatheni zokuphendula zingundoqo ekuphumezeni iziphumo ezilungileyo. Okwesine, ukuqwalasela ngenyameko ukulunga kwe-algorithm, ukuqinisekiswa okuselubala kubantu abahlukeneyo, kunye nokubeka iliso okuqhubekayo kwizinto ezinokuthi zibe kho zibalulekile ekuphunyezweni okulinganayo.\n\nNangona imingeni ebalulekileyo ihleli-kubandakanywa nokudityaniswa kokuhamba komsebenzi weklinikhi, ukukhuselwa kwangasese, izikhokelo zokulawula, kunye nophuhliso lobungqina bexesha elide-iinzuzo ezinokubakho ziqinisekisa ukuba uphando oluqhubekayo kunye nokuphunyezwa kweklinikhi ngokucophelela kweenkqubo eziqinisekisiweyo. Umsantsa wonyango lwengqondo echaphazela izigidi kwihlabathi jikelele ufuna iindlela ezintsha ezinokwandisa ukufikelela kukhathalelo olusekwe kubungqina.\n\nUkujonga phambili, silindele iindlela ezininzi ezithembisayo zentsimi. Ukudityaniswa kwedatha ye-genomic kunye nenye yebhayoloji kunye namanyathelo okuziphatha kunye nengqondo inokwenza ukuba kucaciswe ngokuchanekileyo iiprofayili zomngcipheko womntu ngamnye kunye neempendulo zokuphendula unyango. Iindlela zokufunda ezidityanelweyo ezivumela uphuhliso oluyimodeli kuwo onke amaziko ngaphandle kokubeka kwindawo enye idatha enovakalelo inokujongana neenkxalabo zabucala ngelixa ivumela iiseti zoqeqesho ezihlukeneyo nezizimele. Iimodeli zentsebenziswano zeNoveli zabantu-AI ezenza amandla ahlukeneyo onyango kunye nobukrelekrele bokwenziwa buvelise iziphumo eziphezulu xa kuthelekiswa nokuba yodwa.\n\nNjengoko obu buchwepheshe buqhubeka nokuguquka, ukugcina imbono elungeleleneyo kubalulekile-ukuvuma zombini amandla amakhulu e-AI yokuphucula ukhathalelo lwengqondo kunye nokubaluleka okubalulekileyo koqhagamshelwano lwabantu, ubulumko bekliniki, kunye neendlela ezijoliswe kumntu. Ngophuhliso olucingisisiweyo, ukuqinisekiswa okungqongqo, kunye nokuphunyezwa ngononophelo, i-AI inamandla okuba sisixhobo esibalulekileyo ekujonganeni nomthwalo wehlabathi jikelele wokugula ngengqondo kunye nokuqhubela phambili injongo yokwenza unyango lwengqondo olusebenzayo lufikeleleke kubo bonke abaludingayo."
+    }
+  },
+  "whyVirtualMD": {
+    "sections": {
+      "hero": {
+        "title": "VirtualMD.app",
+        "subtitle": "Vula amandla akho empilo ngeVirtualMD.app. Qhagamshelana nabakhokheli be-AI abaqeqeshwe kwiMpilo Qete yaseNtshona, iMpilo yesiNtu yamaTshayina, kunye nobunye ubugcisa bezempilo-zonke kwincoko enye. Fumana ulwazi lomntu siqu 24/7 kwaye ulawule impilo yakho. Olu lukhathalelo lwempilo, lucingelwe kwakhona."
+      },
+      "whyUs": {
+        "title": "Kutheni ukhetha iVirtualMD.app kuhambo lwakho lokuPhila?",
+        "points": {
+          "personalTeam": {
+            "title": "Iqela lakho lobuqu",
+            "text": "Khetha iqela lakho labacebisi bezempilo be-AI. Fumana ulwazi oluvela kwiMpilo yaseNtshona, iMpilo yesiNtu yamaTshayina, kunye nobuchule bempilo ehambelanayo."
+          },
+          "aiNavigator": {
+            "title": "I-AI-Powered Personal Navigator yakho",
+            "text": "Umhambisi wakho wezempilo we-AI ukhokelela kowona lwazi lufanelekileyo lwezempilo kunye nezicwangciso, ukuguqulela ulwazi oluvela kubacebisi bethu abakhethekileyo be-AI ukuya kwiingcebiso ezisebenzayo kuwe."
+          },
+          "empoweringChoices": {
+            "title": "Ukuxhobisa ukuKhetha kweMpilo",
+            "text": "Fumana iimbono ezicacileyo, ezinokuthatheka, zikunika amandla okwenza izigqibo ezizizo ngempilo yakho."
+          },
+          "easyToUse": {
+            "title": "Kulula ukuyisebenzisa",
+            "text": "Iqonga lethu lenzelwe intsebenziswano ecacileyo. Qhagamshelana nezikhokelo ze-AI kwaye ujonge iindlela zempilo ngaphandle kobunzima."
+          },
+          "advancedTechnology": {
+            "title": "Revolutionary Advanced Technology",
+            "text": "Yiba namava esoftware yethu ebukhali, eyilelwe ukwandisa intsebenziswano phakathi kokufuna ukwazi kwabantu kunye nokuqonda okuqhutywa yi-AI."
+          }
+        }
+      },
+      "features": {
+        "title": "Iimpawu zeQonga eliPhambili",
+        "points": {
+          "dynamicEnsemble": {
+            "title": "Dynamic AI Ensemble:",
+            "text": "I-AI yethu yokucwangcisa ngobukrelekrele idibanisa ulwazi oluvela kuluhlu olwahlukeneyo lwezikhokelo zempilo ze-AI-ethatha iMpilo yaseNtshona, iMpilo yesiNtu yaseTshayina, kunye nokunye-ukulungisa imibuzo yakho ethile ngexesha lokwenyani."
+          },
+          "holisticUnderstanding": {
+            "title": "Ukuqonda ngokubanzi:",
+            "text": "I-AI yethu itolika amagalelo ahlukeneyo-umbhalo, okanye imifanekiso yenkqubela-phambili yomzimba wakho, okanye ungeniso kwijenali yempilo-epheleleyo, imbono etyebileyo yempilontle."
+          },
+          "rapidAccess": {
+            "title": "Ufikelelo oluKhawulezayo kwiziKhokelo ze-AI:",
+            "text": "Qhagamshelana ngoko nangoko kunye namakhulu ezikhokelo zempilo ezikhethekileyo ze-AI kunye nempendulo yomzuzwana."
+          },
+          "reliableInteractions": {
+            "title": "Unxibelelwano oluthembekileyo:",
+            "text": "Ukhuseleko oluzenzekelayo luqinisekisa amava agudileyo, angenasiphazamiso, nokuba isikhokelo se-AI sifuna umzuzu wokuhlaziya kwakhona."
+          },
+          "insightfulLogs": {
+            "title": "Iilog zeNxulumano eziQinisayo:",
+            "text": "Unxibelelwano lweseshoni lulogiwe ukuxhasa uphuculo oluqhubekayo kunye nophuhliso lolwazi lwabakhokeli bethu be-AI."
+          }
+        }
+      },
+      "technology": {
+        "title": "Itekhnoloji yethu yenguqu",
+        "description1": "I-VirtualMD.app isebenzisa iindlela zokucula ezibukhali. Inkqubo yethu iqinisekisa ukuba imibuzo yakho iyazuza kwikhorasi yezikhokelo ze-AI, ukutsalwa kulwazi lwezonyango lwaseNtshona, imigaqo yeNdalo yaseTshayina yokuPhila, inzululwazi yezondlo, ubuchule bokucinga, izicwangciso zokufaneleka, kunye nokunye, ukubonelela ngowona mbono ubanzi.",
+        "description2": "Injini yethu yokuqiqa ephucukileyo idibanisa ulwazi oluphuma kumbhalo wakho, iilog ezibonwayo, kunye nenye idatha yokuphila kakuhle, ibonelela ngezimvo ezipheleleyo ezingakwaziyo ukuphindaphinda iindlela zemveli.",
+        "description3": "Ngethala leencwadi elibanzi, elifikelelekayo ngoko nangoko lwezikhokelo zempilo ye-AI kunye neeprothokholi zonxibelelwano ezomeleleyo, siqinisekisa ukubandakanyeka okungaguqukiyo, okukumgangatho ophezulu kuyo nayiphi na indawo.",
+        "description4": "Lonke unxibelelwano lufakwe ngononophelo, luphucula ukungafihli kunye nokondla inguqu eqhubekayo yokusebenza kweqonga lethu kunye nomgangatho wokuqonda."
+      },
+      "cta": {
+        "title": "Ngaba ukulungele ukwenza utshintsho kwiMpilo yakho?",
+        "subtitle": "Joyina i-<span>VirtualMD.app</span> intshukumo kwaye ufumane ixesha elitsha lofikelelo kwiingcebiso zempilo. Thatha inyathelo lokuqala eliya ekubeni unamandla ngakumbi, unolwazi, kwaye udlamke. Phonononga iindlela ezahlukeneyo zokujonga i-AI kunye nesiseko sethu solwazi lwezempilo.",
+        "buttonText": "Qalisa Ngoku"
+      }
+    }
+  },
+  "whitepapers": {
+    "downloadPdf": "Khuphela iPDF"
+  },
+  "dermatologyaiWhitepaper": {
+    "title": "iziko",
+    "downloadPdf": "Khuphela iPDF",
+    "generating": "Iyavelisa...",
+    "pdfFilename": "DermatologyAIWhitePaperPage.pdf",
+    "content1": ");\n        currentY = addWrappedText(doc, title, margin, currentY, contentWidth);\n        yangokuY += 5;\n        doc.setFont(engachazwanga, ",
+    "content2": "s ukulinganisa (ukuthembeka kwamanqaku okuzithemba) kunye nokuchazwa (ukukwazi ukugqamisa imimandla yemifanekiso efanelekileyo ekwazisa ukuxilongwa).\n\nUkugcinwa kwedatha yedatha kunika imingeni ekhethekileyo: ukwahluka ekukhanyeni, ukubeka, kunye nomgangatho womfanekiso kunokuchaphazela kakhulu ukusebenza kwe-algorithmic. Uninzi lweenkqubo ziqeqeshelwa ukuqokelelwa kwemifanekiso ye-retrospective evela kwiiklinikhi ze-dermatology, ezizisa i-spectrum bias enokubakho - imifanekiso ayinakumela uluhlu olupheleleyo lweentetho kwizicwangciso zokunakekelwa kweprayimari. Iimodeli ezisisiphumo ziye zaqinisekiswa ngeeseti zovavanyo lokubambela, ukuqinisekiswa kwangaphandle kwiiseti zedatha ezizimeleyo, kwaye ngokwandayo ngovavanyo olulindelekileyo lwezonyango oluthelekisa iingcebiso ze-AI kwizigqibo zedermatologist kunye nenyaniso esisiseko ye-histopathological.",
+    "content3": "s ukulinganisa (ukuthembeka kwamanqaku okuzithemba) kunye nokuchazwa (ukukwazi ukugqamisa imimandla yemifanekiso efanelekileyo ekwazisa ukuxilongwa).\n\nUkugcinwa kwedatha yedatha kunika imingeni ekhethekileyo: ukwahluka ekukhanyeni, ukubeka, kunye nomgangatho womfanekiso kunokuchaphazela kakhulu ukusebenza kwe-algorithmic. Uninzi lweenkqubo ziqeqeshelwa ukuqokelelwa kwemifanekiso ye-retrospective evela kwiiklinikhi ze-dermatology, ezizisa i-spectrum bias enokubakho - imifanekiso ayinakumela uluhlu olupheleleyo lweentetho kwizicwangciso zokunakekelwa kweprayimari. Iimodeli ezisisiphumo ziye zaqinisekiswa ngeeseti zovavanyo lokubambela, ukuqinisekiswa kwangaphandle kwiiseti zedatha ezizimeleyo, kwaye ngokwandayo ngovavanyo olulindelekileyo lwezonyango oluthelekisa iingcebiso ze-AI kwizigqibo zedermatologist kunye nenyaniso esisiseko ye-histopathological.",
+    "content4": "Ukuqiqa kwaye zijolise ingqalelo kwiimpawu ezithile zesilonda eziqinisekisa uviwo olusondeleyo. Uphononongo lufumene ukuba ukubonelela ngezi nkcazo kwandisa ukuthembela kweklinikhi kwiingcebiso ze-AI kunye nokuphucula ukusebenza kokuxilongwa komntu-AI.\n\nUbungqina obuvelayo bubonisa ukuba i-AI inokubona i-melanomas kumanqanaba angaphambili kunokuba ifunyanwe ngokwesiqhelo. Kuhlalutyo olujongwayo lwe-melanomas ekuqaleni yafunyaniswa gwenxa njengee-dermatologists kodwa ifakwe ngokuchanekileyo yi-AI, izilonda zihlala zibonisa iimpawu ezifihlakeleyo ezingaphantsi komda wenkxalabo yeklinikhi kodwa zayanyaniswa noguquko olubi olubi. Oku kukwazi ukufunyanwa kwangoko kunokuphucula iziphumo zokusinda, nangona izifundo ezilindelekileyo zokulandelela iziphumo zexesha elide zisaqhuba.",
+    "content5": "Ukuqiqa kwaye zijolise ingqalelo kwiimpawu ezithile zesilonda eziqinisekisa uviwo olusondeleyo. Uphononongo lufumene ukuba ukubonelela ngezi nkcazo kwandisa ukuthembela kweklinikhi kwiingcebiso ze-AI kunye nokuphucula ukusebenza kokuxilongwa komntu-AI.\n\nUbungqina obuvelayo bubonisa ukuba i-AI inokubona i-melanomas kumanqanaba angaphambili kunokuba ifunyanwe ngokwesiqhelo. Kuhlalutyo olujongwayo lwe-melanomas ekuqaleni yafunyaniswa gwenxa njengee-dermatologists kodwa ifakwe ngokuchanekileyo yi-AI, izilonda zihlala zibonisa iimpawu ezifihlakeleyo ezingaphantsi komda wenkxalabo yeklinikhi kodwa zayanyaniswa noguquko olubi olubi. Oku kukwazi ukufunyanwa kwangoko kunokuphucula iziphumo zokusinda, nangona izifundo ezilindelekileyo zokulandelela iziphumo zexesha elide zisaqhuba.",
+    "content6": "s top-1 ukuchaneka ukufikelela 85.9%.\n\nNgokukodwa ukusebenza okunamandla kuye kwabonwa kwiimeko ezahlukeneyo ezifana ne-psoriasis (i-93.1% ukuchaneka), i-acne vulgaris (90.4%), kunye ne-eczema (88.7%). Iimeko ezineenkcazo ezifihlakeleyo okanye eziguquguqukayo, ezifana nokuqhuma kweziyobisi okanye iimeko ze-autoimmune zakuqala, zibonise amazinga aphantsi okuchaneka (70-75%), ebonisa iindawo ezifuna ukulungiswa okuqhubekayo kwe-algorithm.\n\nNgokuphawulekayo, inkqubo ye-multimodal ephuhliswe nguGoogle edibanisa idatha yomfanekiso kunye neempawu ezichazwe ngesigulane zibonise uphuculo olongezelelweyo, ukufezekisa ukuchaneka kwe-1 ephezulu ye-93% kwiimeko eziqhelekileyo ze-26. Ukudityaniswa kwedatha engeyiyo eyomfanekiso kubonakalise ukuxabiseka ngokukodwa ekwahluleni iimeko ezifanayo ngokubonwayo ezineempawu ezahlukeneyo ezinxulumeneyo, ezinjengokwahlula i-dermatitis yokunxibelelana ne-allergic kwi-irritant contact dermatitis ngokusekwe kubukhali obuxeliweyo bokurhawuzelela kunye nembali yokuvezwa.\n\nKwi-dermatology yabantwana, apho ukufikelela kwiingcali kuthintelwe ngokukodwa, iinkqubo ze-AI zibonise isithembiso kwiimeko eziqhelekileyo zesikhumba somntwana. Imodeli ekhethekileyo yabantwana izuze ukuchaneka kwe-90.1% kwiimeko ezibandakanya i-atopic dermatitis, i-molluscum contagiosum, kunye neempawu zokuzalwa eziqhelekileyo. Ngokucacileyo, inkqubo ibonise uvakalelo lwe-95.2% lokubona isifo sesandla sonyawo-somlomo ngexesha lokuqhambuka, iphakamisa izicelo ezinokubakho kuhlolo lwempilo yoluntu.",
+    "content7": "s top-1 ukuchaneka ukufikelela 85.9%.\n\nNgokukodwa ukusebenza okunamandla kuye kwabonwa kwiimeko ezahlukeneyo ezifana ne-psoriasis (i-93.1% ukuchaneka), i-acne vulgaris (90.4%), kunye ne-eczema (88.7%). Iimeko ezineenkcazo ezifihlakeleyo okanye eziguquguqukayo, ezifana nokuqhuma kweziyobisi okanye iimeko ze-autoimmune zakuqala, zibonise amazinga aphantsi okuchaneka (70-75%), ebonisa iindawo ezifuna ukulungiswa okuqhubekayo kwe-algorithm.\n\nNgokuphawulekayo, inkqubo ye-multimodal ephuhliswe nguGoogle edibanisa idatha yomfanekiso kunye neempawu ezichazwe ngesigulane zibonise uphuculo olongezelelweyo, ukufezekisa ukuchaneka kwe-1 ephezulu ye-93% kwiimeko eziqhelekileyo ze-26. Ukudityaniswa kwedatha engeyiyo eyomfanekiso kubonakalise ukuxabiseka ngokukodwa ekwahluleni iimeko ezifanayo ngokubonwayo ezineempawu ezahlukeneyo ezinxulumeneyo, ezinjengokwahlula i-dermatitis yokunxibelelana ne-allergic kwi-irritant contact dermatitis ngokusekwe kubukhali obuxeliweyo bokurhawuzelela kunye nembali yokuvezwa.\n\nKwi-dermatology yabantwana, apho ukufikelela kwiingcali kuthintelwe ngokukodwa, iinkqubo ze-AI zibonise isithembiso kwiimeko eziqhelekileyo zesikhumba somntwana. Imodeli ekhethekileyo yabantwana izuze ukuchaneka kwe-90.1% kwiimeko ezibandakanya i-atopic dermatitis, i-molluscum contagiosum, kunye neempawu zokuzalwa eziqhelekileyo. Ngokucacileyo, inkqubo ibonise uvakalelo lwe-95.2% lokubona isifo sesandla sonyawo-somlomo ngexesha lokuqhambuka, iphakamisa izicelo ezinokubakho kuhlolo lwempilo yoluntu.",
+    "content8": "Ukuthelekiswa kokuchaneka kokuxilonga phakathi kwe-AI kunye needermatologists kuzo zonke iimeko ze-26 eziqhelekileyo zesikhumba. Iimeko zicwangciswa ukusuka ekhohlo ukuya ekunene ukuze kunciphe ukuxhaphaka. Inkqubo ye-AI (iibha eziblowu) ibonise ukusebenza ngokuthelekiswa okanye okugqwesileyo koogqirha besikhumba (iibha eziorenji) kwiimeko ezininzi. Umthombo: uLiu Y, et al. Inkqubo yokufunda enzulu yokuxilongwa ngokwahlukileyo kwezifo zesikhumba. Unyango Lwendalo. 2020;26(6):900-908."
+  },
+  "how-to-useWhitepaper": {
+    "downloadPdf": "Khuphela iPDF",
+    "generating": "Iyavelisa...",
+    "pdfFilename": "Indlela yokusebenzisa.pdf"
+  },
+  "imagingaiWhitepaper": {
+    "title": "iziko",
+    "downloadPdf": "Khuphela iPDF",
+    "generating": "Iyavelisa...",
+    "pdfFilename": "ImagingAIWhitePaperPage.pdf",
+    "content1": ");\n        currentY = addWrappedText(doc, title, margin, currentY, contentWidth);\n        yangokuY += 5;\n        doc.setFont(engachazwanga, ",
+    "content2": ");\n         okwangokuY = addWrappedText(doc, caption, margin, currentY, contentWidth);\n         yangokuY += 20;\n         doc.setFont(engachazwanga, ",
+    "content3": ", \n          umda, okwangokuY + 2, contentWidth);\n       yangokuY += 5;\n       okwangokuY = addWrappedText(doc, \n          ",
+    "content4": ", \n          umda, okwangokuY + 2, contentWidth);\n       yangokuY += 5;\n       okwangokuY = addWrappedText(doc, \n          ",
+    "content5": "I-X-reyi yesifuba enemaphu yobushushu eveliswe yi-AI (obomvu→ tyheli) ephawula iqhuqhuva lemiphunga elizimeleyo elingabonakali lula kuphononongo lokuqala lomntu. Umthombo: van Beek EJR, Ahn JS, Kim MJ, Murchison JT. Ukuqinisekiswa kwe-algorithm yokufunda enzulu yokufumanisa ukungahambi kakuhle kwe-thoracic kwi-radiographs yesifuba. UClin Radiol. 2023;78(1):1–7.",
+    "content6": "I-X-reyi yesifuba enemaphu yobushushu eveliswe yi-AI (obomvu→ tyheli) ephawula iqhuqhuva lemiphunga elizimeleyo elingabonakali lula kuphononongo lokuqala lomntu. Umthombo: van Beek EJR, Ahn JS, Kim MJ, Murchison JT. Ukuqinisekiswa kwe-algorithm yokufunda enzulu yokufumanisa ukungahambi kakuhle kwe-thoracic kwi-radiographs yesifuba. UClin Radiol. 2023;78(1):1–7.",
+    "content7": " umsebenzi wokufunda ngo-44% (itnonline.com), ngokuvumela umfundi omnye endaweni yababini kwiimeko ezininzi. Olunye uphando lufumene ukuba inkqubo ye-AI yesifuba se-CT triage yeziphumo ezibukhali (umzekelo, i-hemorrhage ye-intracranial, i-pulmonary embolism) inokunciphisa kakhulu ixesha lokwaziswa kweziphumo ezibalulekileyo, ukunceda ukubeka phambili iimeko eziphuthumayo. Kuzo zonke izilingo ezininzi, i-AI njengomfundi wesibini ithande ukwandisa ubuntununtunu bokubona isilonda (ukubamba iziphumo eziphoswa ngabantu) ngelixa ugcina ubume obamkelekileyo (itnonline.com, pubmed.ncbi.nlm.nih.gov). Nangona kunjalo, i-AI ye-standalone ayinyaniseki - inokuvelisa i-positives yobuxoki okanye ingayihoyi imiboniso enqabileyo, ngoko ke ukuphunyezwa kweklinikhi kudla ngokusetyenziswa i-AI ukunyusa, kungekhona indawo, ukutolika komntu.",
+    "content8": " umsebenzi wokufunda ngo-44% (itnonline.com), ngokuvumela umfundi omnye endaweni yababini kwiimeko ezininzi. Olunye uphando lufumene ukuba inkqubo ye-AI yesifuba se-CT triage yeziphumo ezibukhali (umzekelo, i-hemorrhage ye-intracranial, i-pulmonary embolism) inokunciphisa kakhulu ixesha lokwaziswa kweziphumo ezibalulekileyo, ukunceda ukubeka phambili iimeko eziphuthumayo. Kuzo zonke izilingo ezininzi, i-AI njengomfundi wesibini ithande ukwandisa ubuntununtunu bokubona isilonda (ukubamba iziphumo eziphoswa ngabantu) ngelixa ugcina ubume obamkelekileyo (itnonline.com, pubmed.ncbi.nlm.nih.gov). Nangona kunjalo, i-AI ye-standalone ayinyaniseki - inokuvelisa i-positives yobuxoki okanye ingayihoyi imiboniso enqabileyo, ngoko ke ukuphunyezwa kweklinikhi kudla ngokusetyenziswa i-AI ukunyusa, kungekhona indawo, ukutolika komntu.",
+    "content9": "s isivumelwano sokuhlela (quadratic kappa ~0.77) sasikwindawo kunye neengcali zezifo ezinamava kwaye zade zaya kwibakala lemvumelwano kwiimeko ezinzima (nature.com). Kwi-breast pathology, i-algorithms yokufunda nzulu kumceli mngeni we-CAMELYON iphunyezwe kufutshane nomsebenzi wokufunyanwa kwethumba le-metastatic kwii-lymph nodes, abanye bazuze i-AUC> 0.99. Ezi zixhobo zinokusebenza njenge "
+  },
+  "pathologyaiWhitepaper": {
+    "title": "I-AI kwi-Pathology: Ukuqhubela phambili ukuChaneka koDiagnostic kunye nokusebenza kakuhle",
+    "subtitle": "Uphononongo olubanzi lwezicelo zobukrelekrele bokwenziwa kwi-anatomic kunye ne-clinical pathology",
+    "authors": {
+      "names": "Ron Rubin, PhD kunye noSandy Miles",
+      "organization": "IiTekhnoloji zeVirtualMD.app",
+      "emails": {
+        "ron": "ronrubin@virtualmd.app",
+        "sandy": "sandymiles@virtualmd.app"
+      }
+    },
+    "downloadPdf": "Khuphela iPDF",
+    "generating": "Iyavelisa...",
+    "pdfFilename": "VirtualMD_AI_Pathology_White_Paper.pdf",
+    "sections": {
+      "abstract": {
+        "title": "Abstract",
+        "content": "I-Artificial Intelligence (AI) iye yavela njengeteknoloji yokuguqula kwi-pathology, ebonisa amandla okuphucula ukuchaneka kokuxilonga, ukuveliswa kwakhona, kunye nokusebenza kakuhle komsebenzi. Eli phepha elimhlophe livavanya imeko yangoku ye-AI kwi-pathology esekelwe kwizifundo zamva nje zokuqinisekiswa kweklinikhi, ukukhutshwa kokulawulwa, kunye nokuphunyezwa kwehlabathi langempela. Siphonononga ezona zicelo ziphambili zibandakanya ukufumanisa umhlaza, ukuhlelwa, uvavanyo oluqikelelwayo, kunye nokwenza ngcono ukuhamba komsebenzi. Iziphumo eziphambili ziquka amazinga ovakalelo lwe-95-99% yokufunyanwa komhlaza kwiinkqubo ezininzi zamalungu, ukunciphisa kakhulu ukuhluka kwe-interobserver, kunye nokunciphisa umthwalo omkhulu womsebenzi. Nangona ukusebenza kwezobugcisa kuye kwafikelela kumanqanaba amkelekileyo ekliniki kwizicelo ezininzi, imingeni yokuphunyezwa ihleli ibandakanya ukuqwalaselwa kokulawula, ukuhlanganiswa kokuhamba komsebenzi, kunye nesidingo sokuqinisekiswa okuqhubekayo. Sinikezela ngeengcebiso ezisekelwe kubungqina kumasebe e-pathology aqwalasela ukwamkelwa kwe-AI, sigxininisa ukubaluleka kokukhethwa kwe-case-case-case-case, ukuphunyezwa ngezigaba, kunye nokubekwa kweliso kokusebenza okuqhubekayo. Ubungqina bubonisa ukuba i-AI iya kwandisa kunokuba ithathe indawo yeengcali zezifo, isebenza njengesixhobo esinamandla sokwandisa amandla okuxilongwa kunye nokulawula iimfuno ezikhulayo zomsebenzi."
+      },
+      "introduction": {
+        "title": "Intshayelelo",
+        "content": "Inkalo ye-pathology ijongene nemingeni engazange ibonwe ngaphambili: ukwanda kwamatyala, ubunzima obukhulayo beendlela zokuxilonga, ukunqongophala kwabasebenzi, kunye noxinzelelo lwamaxesha okutshintsha ngokukhawuleza. Kwangaxeshanye, ukuchaneka kwempilo kufuna uhlalutyo oluthe kratya lwezicubu, uvavanyo lwe-biomarker yobungakanani, kunye nokudityaniswa kweziphumo ze-morphologic kunye nedatha yemolekyuli. Ngokuchasene nale mvelaphi, ubukrelekrele bokwenziwa (AI) buye bavela njengesisombululo esinokubakho sokuphucula ukwenziwa kwe-pathology.\n\nNgelixa i-AI kwimifanekiso yezonyango ifumene ingqwalasela ebalulekileyo, i-pathology ibonisa amathuba akhethekileyo kunye nemingeni. Ngokungafaniyo neradiyoloji apho i-AI ihlalutya imifanekiso ye-anatomy engaguqukiyo, i-pathology AI kufuneka itolike amacandelo ezicubu ezincinci ezimele ubume obuntsonkothileyo obunemilinganiselo emithathu encitshisiweyo ukuya kwizilayidi ezinemilinganiselo emibini. Umthamo wedatha opheleleyo uyothusa-umfanekiso opheleleyo wesilayidi unokuqulatha iibhiliyoni zeepikseli, ezifuna iindlela ezintsonkothileyo zokubala.\n\nEli phepha elimhlophe libonelela ngophononongo olubanzi lwezicelo ze-AI kwi-pathology, kugxininise kubuchwephesha obuye bafumana ukuqinisekiswa okungqongqo kweklinikhi. Sivavanya isiseko sobungqina, sixoxe ngokuqwalaselwa kokuphunyezwa, kwaye sinikeze isikhokelo esisebenzayo kumasebe e-pathology avavanya ukwamkelwa kwe-AI. Uhlalutyo lwethu lusekelwe kwizifundo eziphononongwe ngoontanga, izigqibo zolawulo, kunye nedatha yokuphunyezwa kwehlabathi lokwenyani."
+      },
+      "methods": {
+        "title": "Iindlela/uBugcisa",
+        "content": "Iisistim ze-AI ye-pathology yanamhlanje zisebenzisa ulwakhiwo lokufunda olunzulu, ngokuyintloko uthungelwano lwe-neural ye-convolutional (CNNs), ukuhlalutya imifanekiso yesilayidi esipheleleyo efakwe kwidijithali kwisisombululo esiphezulu (ngokuqhelekileyo yi-20-40× magnification). Ezi nkqubo ziqeqeshelwa kwiiseti zedatha enkulu yemifanekiso ephawulweyo, ehlala ifuna amanqakwana engcali yenzululwazi yezifo ukuseka inyaniso esisiseko. Zimbini iindlela eziphambili ze-AI ezilawulayo: ukufunda okubekw’ iliso kusetyenziswa inqanaba lommandla okanye amagqabantshintshi enqanaba lesilayidi, kunye nokufunda okuphantsi kweliso elibukhali elifuna kuphela uxilongo lwenqanaba lemeko. Uqeqesho ngokuqhelekileyo lubandakanya iinkqubo ezinamanqanaba amaninzi, okokuqala ukufumanisa imimandla enomdla ekukhuliseni okuphantsi, emva koko kuhlelwe le mimandla ekukhuliseni okuphezulu ukuchonga iipathologies ezithile.\n\nIimethrikhi eziphambili zokusebenza ziquka ubuntununtunu (umlinganiselo wezinto ezilungileyo ezichongiweyo ngokuchanekileyo), ukucaciswa (umlinganiselo wezinto ezingalunganga ezichongiweyo ngokuchanekileyo), ummandla ophantsi kwegophe leempawu zokusebenza zomamkeli (AUC), kunye nemilinganiselo yesivumelwano efana nekappa kaCohen. Ukuqinisekiswa kweklinikhi kufuna uvavanyo kwiiseti zedatha ezizimeleyo ezivela kumaziko amaninzi ukuqinisekisa ukufezekiswa ngokubanzi kwizigulane ezahlukeneyo, iindlela zokulungiselela izicubu, kunye nezixhobo zokuskena."
+      },
+      "results": {
+        "title": "Iziphumo",
+        "digitalPathologyOverview": {
+          "title": "Digital Pathology Overview",
+          "content": "I-Digital pathology ifumene ukukhula okubonakalayo, kunye nemarike yehlabathi kuqikelelwa ukuba ifikelele kwi-1.4 yezigidigidi zeedola ngo-2027. Ukwamkelwa kwaselabhoratri kuye kwakhawulezisa, ngakumbi kumaziko onyango ezemfundo kunye neelebhu zezalathiso apho imiqobo yolawulo yokuqala yoyisiwe. Kwi-2017, i-FDA yacima inkqubo yokuqala ye-imaging yesilayidi yokuxilongwa kweprayimari (i-Philips IntelliSite Pathology Solution), ilandelwa yi-clearance eyongezelelweyo kuquka i-Leica Aperio AT2 DX kunye ne-Aperio GT 450 DX. Ezi nkqubo zenza isiseko sedijithali esiyimfuneko kwi-computational pathology kunye nezicelo ze-AI.\n\nI-AI kwi-pathology yaqala ngokugxila kwizicelo kwiimeko ezilinganiselweyo ze-histology kodwa iye yanda ukuze ibandakanye iintlobo ezininzi zeethishu kunye nemisebenzi yokuxilonga. Iindlela zokubala ziye zavela ngokufanayo kukufunda koomatshini bemveli abaneempawu zobunjineli ukuya ekupheleni ukuya esiphelweni ukufunda okunzulu okukwaziyo ukukhupha iimpawu ngokuthe ngqo kwidatha yepixel. Iiseti zedatha zoqeqesho zikhule ukusuka kumakhulu ukuya kumakhulu amawaka ezilayidi, nto leyo eyenza ukuba ujikelezo olomelele ngakumbi kubantu abaguli kunye neemeko zokuskena."
+        },
+        "cancerDetection": {
+          "title": "Ukufunyanwa koMhlaza",
+          "content": "Kwi-oncologic pathology, iinkqubo ze-AI zibonise ukuchaneka okuphawulekayo ekufumaneni izifo ezahlukeneyo. Ngomhlaza wesibeleko, uPantanowitz et al. ivavanye i-algorithm ye-AI (i-Paige Prostate) kwisifundo sokuqinisekiswa kweendawo ezininzi ezibandakanya iislayidi ze-549 ezivela kwizigulane ze-100. I-AI ibonise ubuntununtunu obungama-98.8% kunye ne-97.3% yokuqonda ngokuthe ngqo ukufumanisa umhlaza, iqhuba kakuhle kakhulu izazinzulu zezifo ngokubanzi ngakumbi kwiimeko ezicela umngeni (i-Lancet Digital Health, 2020). Ngokufanayo, uCampanella et al. iphuhlise indlela yokufunda ephantsi kweliso elibukhali eqeqeshelwe ngaphezulu kwe-15,000 yesilayidi se-prostate ephumelele i-AUC ye-0.98 yokubhaqwa komhlaza (uNyango lweNdalo, ngo-2019).\n\nKumhlaza wamabele, imingeni ye-CAMELYON ibonelele ngobungqina obubalulekileyo bokusebenza kwe-AI ekufumaneni i-metastases kwii-lymph nodes. Kwi-CAMELYON16, i-algorithm engcono kakhulu iphumelele i-AUC ye-0.994, idlula ukusebenza kwee-pathologists ezisebenza phantsi kweengxaki zexesha (AUC 0.810) (JAMA, 2017). Ezi nkqubo zibona iiseli zomhlaza ezinokuphoswa ngexesha lokuphononongwa ngesandla, ngakumbi i-micrometastases kunye neeseli zethumba ezizimeleyo.",
+          "content2": "Ngaphaya kwezi zomhlaza ziqhelekileyo, iinkqubo ze-AI ziphuhliselwe ezinye izifo ezininzi. Kwi-pathology ye-lung, i-algorithms yokufunda enzulu inokwahlula i-adenocarcinoma kwi-squamous cell carcinoma ene-97% ngokuchanekileyo kwaye ichonge ukuguqulwa kofuzo (umzekelo, ukuguqulwa kwe-EGFR) kwiimpawu ze-histomorphological (Umhlaza weNdalo, i-2020). Kwi-colorectal pathology, i-AI inokubona i-adenomas, ihlele i-histologic subtypes, kwaye ichonge isimo sokungazinzi kwe-microsatellite ngokuthe ngqo kwiislayidi ze-H & E ezinovakalelo oludlula i-95% (J Pathol, 2020).\n\nIinzuzo zokufunyanwa kwe-AI zandisa ngaphaya kobuntununtunu. Uphononongo luhlala lubonisa ukwahluka kwe-interrobserver encitshisiweyo xa ii-pathologists zinoncedo lwe-AI. Ngokomzekelo, uSteiner et al. ibonise ukuba uncedo lwe-AI lunyuse isivumelwano seengcali zezifo ngomgangatho wereferensi ukusuka kuma-93.3% ukuya kuma-95.8% wokufumanisa umhlaza webele wemetastasis (Am J Surg Pathol, 2018). Oku kuhambelana okunyukayo kuneempembelelo ezibalulekileyo zokuxilonga amatyala asemdeni kunye nokulungelelanisa ukhathalelo kuwo wonke amaziko."
+        },
+        "gradingClassification": {
+          "title": "UHlelo noHlelo",
+          "content": "Ngaphandle kokufunyanwa komhlaza wesibini, iinkqubo ze-AI zenze inkqubela phambili ebonakalayo kwimisebenzi entsonkothileyo ebandakanya ukuchwetheza kunye nokuhlelwa. Okona kubaluleke kakhulu, ukuhlelwa kwe-Gleason okuzenzekelayo komhlaza wedlala lobudoda kuye kwaba lugqaliselo lophando olunzulu ngenxa yokwahluka okwaziwayo kwe-interobserver koluphawu lubalulekileyo lwe-prognostic. Bulten et al. iphuhlise inkqubo yokufunda enzulu enika amanqaku e-Gleason aneenkcukacha ngomsebenzi olingana neengcali zezifo ze-urologic (i-kappa = 0.62 vs. 0.57) kunye nokufikelela kwinqanaba leengcali ze-genitourinary (kappa = 0.73) (Lancet Oncology, 2020). Ngokufanayo, uStröm et al. inike ingxelo ngenkqubo ye-AI efikelela kwinqanaba le-pathologist nge-AUC ye-0.98 yokwahlula iindawo ezinomhlaza kunye ne-AUC ye-0.85-0.93 yokuhlela amabanga ahlukeneyo e-Gleason (IEEE TMI, 2020).\n\nKwi-pathology yezintso, iinkqubo ze-AI ziye zaphuhliswa ukuba zihlele iindidi ezahlukeneyo ze-renal cell carcinoma nge> 95% ngokuchanekileyo kwiindidi ezine eziqhelekileyo (Nat Mach Intell, 2019). Ngamaqhuqhuva e-thyroid, i-AI inokwahlula i-benign kwiimpawu ezinobungozi kunye nobuthathaka be-90-99% ngokuxhomekeke kuhlobo oluthile lomhlaza we-thyroid (JAMA Network Open, 2019). Ezi zicelo zandisa ngaphaya kokuhlelwa komhlaza - i-AI ibonise isithembiso ekuhleleni izifo ezivuthayo (umzekelo, ukuqina kwesifo sofuba), ukulinganisa i-immune cell cell infiltrates (i-tumor microenvironment assessment), kunye nokulinganisa iimpawu ze-morphologic eziqikelela impendulo yonyango."
+        },
+        "workflowOptimization": {
+          "title": "UkuPhuculwa koMsebenzi",
+          "content": "Ngaphandle kokuchaneka koxilongo, i-AI ibonelela ngesakhono esibalulekileyo sokwenziwa komsebenzi we-pathology. Uphuculo oluphambili lokuhamba komsebenzi kukuhlolwa kwangaphambili ukubeka phambili amatyala kunye nokunciphisa ixesha elichithwe kwiisampuli ezintle okanye eziqhelekileyo. Ho et al. ibonise ukuba i-AI yokujonga kwangaphambili i-prostate biopsies inokunciphisa umsebenzi we-pathologist nge-30-50% ngelixa igcina ukuchaneka kokuxilonga (i-Mod Pathol, i-2021). Ngokufanayo, uDa Silva et al. ifumene ukuba i-AI yokuhlolwa kwangaphambili kwe-cytology yomlomo wesibeleko inokunciphisa ukuhlaziywa ngesandla ukuya kwi-40% (J Am Soc Cytopathol, 2021).\n\nKuvavanyo lobungakanani, iinkqubo ze-AI zenza imisebenzi yezandla edinayo enje ngokubala i-mitotic, i-tumor proportion scoring ye-PDL1, kunye ne-quantification ye-immunohistochemical stains. Kumanqaku eKi-67, uMaeda et al. ibonise ukuba inkqubo ye-AI ezenzekelayo yanciphisa ixesha lokuhlola nge-83% ngelixa igcina okanye idlula ukuchaneka kokubala ngesandla (i-Sci Rep, i-2021). Oku kuzenzekelayo kulinganisa imilinganiselo ngokwesiko ehlupheka kukuguquguquka okubanzi kwe-interobserver.\n\nUkufumana inkxaso yesigqibo seklinikhi, iinkqubo ze-AI zinokuchonga amatyala afuna ubuchule be-subspecialty okanye izifundo ezongezelelweyo. UChen et al. ibonise ukuba i-algorithm ye-AI inokuvavanya i-98% yamatyala esiqhelo ngelixa iflegi kuphela i-2% yokuphononongwa kwe-pathologist ephezulu, ngaphandle kwelahleko ekuchanekeni kokuxilonga (Nat Commun, 2022). Xa zidityaniswe neenkqubo zolwazi lwaselabhoratri, ezi ndlela zinganciphisa ngokumangalisayo amaxesha okutshintsha iimeko zesiqhelo ngelixa ziqinisekisa uphononongo olufanelekileyo lweengcali lwamatyala acela umngeni."
+        }
+      },
+      "discussion": {
+        "title": "Ingxoxo",
+        "content": "Ubungqina obuqokelelweyo bubonisa ukuba i-AI iqhubele phambili ukusuka kwingqikelelo yophando ukuya kwitekhnoloji yebanga leklinikhi kwi-pathology. Iimetriki zokusebenza kuzo zonke izifundo ezininzi zihlala zibonisa ubuntununtunu kunye neenkcukacha ezingaphezulu kwe-90% kwizicelo ezininzi, ukukhuphisana okanye ukodlula ukusebenza komntu kwimisebenzi ethile. Nangona kunjalo, imiba emininzi ebalulekileyo ichaphazela ukutolikwa kunye nokuphunyezwa kwezi ziphumo.\n\nUkubaluleka kweklinikhi: I-AI ibonisa amandla athile kwimisebenzi ebandakanya ukuqondwa kwepateni kunye nobungakanani. Ukufunyaniswa komhlaza, ubuntununtunu be-AI buhlala bugqitha olo lweengcali ze-pathologists ngokubanzi, ezinokuthi zinciphise amazinga oxilongo oluphosiweyo. Kumiliselo olulindelekileyo, uPantanowitz et al. ingxelo yokuba i-AI ibone i-foci eliqela yomhlaza ekuqaleni ephoswe zii-pathologists, iqaqambisa ixabiso layo \"njengomhloli wesibini\" (Lancet Digital Health, 2020). Ngemisebenzi yokulinganisa, i-AI ibonelela ngeziphumo ezihambelanayo ngakumbi kuneengcali ze-pathologists, ukunciphisa ukuhluka okunokuchaphazela ulawulo lwesigulane.\n\nImpembelelo yokuhamba komsebenzi: Ixesha le-pathologist sisixhobo esincinci esincinci, okwenza ukuba ukuhamba komsebenzi kubaluleke kakhulu. Izifundo zibonisa ukonga ixesha le-30-60% kwimisebenzi eyahlukeneyo xa usebenzisa uncedo lwe-AI. Oku kuguqulela kwiinzuzo ezibonakalayo - isebe le-pathology elisebenza nge-100 ye-prostate case ngeveki inokonga iiyure ze-15-30 ze-pathologist, ivumela ukugxila kwiimeko ezinzima ezifuna ubuchule bomntu.\n\nUkwahluka kwe-Iterobserver: Ukufunyanwa okuhambelanayo kwizifundo kuncitshiswe ukuguquguquka xa i-AI inceda ii-pathologists. Kuhlelo lweGleason, isivumelwano se-interobserver siqhele ukonyuka ukusuka kumaxabiso e-kappa ka-0.5-0.6 (imvumelwano ephakathi) ukuya ku-0.7-0.8 (isivumelwano esibambekayo) ngoncedo lwe-AI (Lancet Oncol, 2020). Oku kuhambelana okuphuculweyo kuneempembelelo ezibalulekileyo zokumiselwa konyango kuzo zonke izicwangciso zokuziqhelanisa ezahlukeneyo.\n\nNgaphandle kwezi ziphumo zithembisayo, imida ebalulekileyo ifuna ukuqwalaselwa. I-Generalizability ihlala iyinkxalabo ephambili - iinkqubo ze-AI eziqeqeshwe kwiinkcukacha ezivela kumaziko athile okanye izigulane zingaqhubeki kakuhle kwiindawo ezahlukeneyo. Imiba yobugcisa efana nokulungiselela isilayidi, iiprothokholi ezingcolisayo, kunye neempawu zesikena zinokuchaphazela ukusebenza kwe-AI. I-FDA iye yaqaphela le mingeni, incoma ukuqinisekiswa kweendawo ezininzi kwiinkqubo ze-AI ezifuna imvume yokulawula.\n\nUmkhethe kwiseti yedatha ngomnye umba obalulekileyo. Uninzi lwe-algorithms luqeqeshwe kubemi baseNtshona kwaye lunokuqhuba ngaphantsi kwamanye amaqela eentlanga aneentetho zezifo ezahlukeneyo. Umzekelo, umhlaza wedlala lobudoda uhlala uveza iipatheni ezahlukeneyo zemophological kumadoda ase-Afrika aseMelika xa kuthelekiswa namadoda aseCaucasus, okunokuthi kuchaphazele ukusebenza kwe-algorithm ye-AI ukuba ayimelwanga ngokwaneleyo kwidatha yoqeqesho.\n\nUkongamela lolawulo lwe-pathology AI iyaqhubeka nokuvela. I-FDA isuse izixhobo ezininzi ze-AI-based pathology ngokusebenzisa i-De Novo kunye ne-510 (k) iindlela, ukuseka umzekelo wokuphunyezwa kweklinikhi. Ukukhutshwa kwe-FDA ye-2021 ye-Paige Prostate iphawule isiganeko esibalulekileyo njengenkqubo yokuqala ye-AI ye-pathology egunyazisiweyo yokusetyenziswa koxilongo oluphambili. Nangona kunjalo, uninzi lweesistim zicaciswa njengee-algorithms \"ezitshixiweyo\" ezingakwazi ukufunda okanye ukuziqhelanisa emva kokusasazwa, zidala imingeni yokugcina ukusebenza njengoko iipatheni zokuziqhelanisa ziguquka.\n\nUkudityaniswa nokuhamba komsebenzi osele kukho elabhoratri kubonisa imiqobo esebenzayo. Ukwamkelwa kwe-digital pathology, nangona ikhula, ihlala ingagqibekanga kuyo yonke inkqubo yezempilo. Iinkqubo ze-AI zifuna ukudityaniswa neenkqubo zolwazi lwebhubhoratri kunye namaqonga akhoyo e-digital pathology. Ukongeza, iingcali ze-pathologists zidinga uqeqesho ukuze zifake ngempumelelo iziphumo ze-AI kwinkqubo yabo yokuxilonga, ukutolika amanqaku okunokwenzeka kunye neemephu zokushisa ngokufanelekileyo.\n\nNjengayo nayiphi na itekhnoloji evelayo, idatha yeendleko ezisebenzayo zihlala zilinganiselwe. Ukuphunyezwa kokuqala kufuna utyalo-mali olubalulekileyo kwiziseko ezingundoqo zedijithali, kodwa iinzuzo zexesha elide zingabandakanya amazinga ancitshisiweyo eempazamo, amaxesha okutshintsha ngokukhawuleza, kunye nokusetyenziswa kobutyebi ngokufanelekileyo. Iindlela zembuyekezo zeenkonzo ze-AI ezincediswa yi-pathology zisaphuhla, nto leyo eyenza ukungaqiniseki malunga nokuzinza kwemali kobu buchwepheshe."
+      },
+      "conclusion": {
+        "title": "Ukuqukumbela",
+        "content": "Ubukrelekrele bokwenziwa bubonisa ubuchwephesha besifo se-pathology, kunye nobungqina obandayo bokuba iinkqubo ze-AI zinokufezekisa ukusebenza kwenqanaba lobuchwephesha kwimisebenzi ethile yoxilongo. Ubungqina obunamandla bukhona kwizicelo kwi-oncologic pathology, ngokukodwa i-prostate kunye nomhlaza webele, apho iinkqubo ezicociweyo ze-FDA ziye zangena kwiikliniki. I-AI ibonisa amandla athile ekujonganeni nemingeni eyaziwayo kwi-pathology: inciphisa ukuhluka kwe-interrobserver, iphucula ukufunyanwa kweziphumo ezifihlakeleyo, ibeka uvavanyo lobungakanani, kwaye iphucula ukusebenza kakuhle komsebenzi.\n\nUtshintsho olusuka kuphando ukuya ekuphunyezweni kweklinikhi luyakhawuleza, luxhaswa ngokukhula kwesakhelo solawulo kunye namava eziko. Nangona kunjalo, ukuhlanganiswa okuyimpumelelo kufuna ingqalelo kubugcisa, ukuhamba komsebenzi, kunye nokuqwalaselwa kokuqinisekiswa. Ukufumana iziphumo ezilungileyo, i-AI kufuneka iphunyezwe njengeteknoloji yokuncedisa i-pathologist kunenkqubo yokuxilongwa ngokuzimeleyo kwizicelo ezininzi. Intsebenziswano ye-pathologist-AI iphakamisa amandla ahambelanayo obuchule bomntu kunye nobuchule bokubala.\n\nImikhomba-ndlela yexesha elizayo ibandakanya usetyenziso olwandisiweyo kumaziko anqabileyo, uvavanyo lwe-biomarker eqikelelweyo, kunye nokudityaniswa kwedatha ye-genomic kunye ne-molecular. Ukuqinisekiswa komgangatho wexesha langempela, ukuncitshiswa kokungalingani kokuxilonga, kunye nokulungelelaniswa neepatheni zokuziqhelanisa eziguqukayo kubonisa iinjongo ezibalulekileyo. Ubungqina obuhlaziyiweyo buxhasa utyalo-mali oluqhubekayo kwiinkqubo ze-AI ye-pathology ngokuqinisekiswa okungqongqo kunye nokuphunyezwa okucingayo. Ngophuhliso olufanelekileyo lobugcisa, ukuqinisekiswa, kunye nokudityaniswa kokuhamba komsebenzi weklinikhi, i-AI inamandla okuphucula kakhulu umgangatho kunye nokusebenza kakuhle kokuxilongwa kwe-pathologic."
+      },
+      "references": {
+        "title": "Iimbekiselo",
+        "list": ""
+      },
+      "figures": {
+        "figure1": {
+          "title": "Umzobo 1. Ijika le-ROC: Inkqubo yoHlelo lweProstate Cancer AI",
+          "caption": "Umthombo: Bulten W, Pinckaers H, van Boven H, et al. Inkqubo yokufunda nzulu ezenzekelayo yokuhlelwa kweGleason yomhlaza wedlala lesinyi kusetyenziswa i-biopsies: uphononongo lokuxilonga. ILancet Oncol. 2020;21(2):233-241."
+        },
+        "figure2": {
+          "title": "Umzobo 2. Uvakalelo kunye neNgcaciso kwi-Key Pathology Izifundo ze-AI",
+          "caption": "Imithombo: Campanella G, et al. UNat Med. 2019; 25 (8): 1301-1309; Pantanowitz L, et al. Impilo yeLancet Digit. 2020;2(8):e407-e416; Ehteshami Bejnordi B, et al. JAMA. 2017;318(22):2199-2210."
+        },
+        "figure3": {
+          "title": "Umzobo 3. Ixesha eliqhelekileyo lokuxilongwa: I-Manual vs AI-Assisted Pathology",
+          "caption": "Umthombo: Ho D, Quake SR, McCabe ERB, et al. Ubuchwephesha bokwenza uMntu kunye nokuChaneka kweyeza. Iimpawu zeBiotechnol. 2020;38(5):497-518."
+        },
+        "figure4": {
+          "title": "Umzobo 4. I-Heatmap ye-AI iGqamisa iiSeli zeCancer kwi-Prostate Biopsy",
+          "caption": "Isilayidi se-prostate biopsy esihlalutywe yinkqubo ye-AI egxininisa imimandla equlethe iiseli zomhlaza (obomvu → ubunzulu obutyheli). Imephu yokushisa itsala ingqalelo kwi-foci encinci ye-adenocarcinoma enokuthi ingahoywa ngexesha lokuphononongwa kwesiqhelo. Umthombo: Pantanowitz L, et al. I-algorithm yobukrelekrele bokwenziwa kokuxilongwa komhlaza wesibeleko kwimifanekiso yesilayidi esisiseko se-biopsies yenaliti: ukuqinisekiswa okumfamekileyo kweklinikhi kunye nophononongo lokusasazwa. Impilo yeLancet Digit. 2020;2(8):e407-e416."
+        }
+      }
+    }
+  },
+  "simplybetterWhitepaper": {
+    "downloadPdf": "Khuphela iPDF",
+    "generating": "Iyavelisa...",
+    "pdfFilename": "SimplyBetter.pdf"
+  },
+  "introPopup": {
+    "greeting": "Mholo! Ndingu-AI Aileen Carol, umcebisi wakho wezempilo we-AI kwaVirtualMD.app.",
+    "welcomeMessage": "Mholo! Ndingu-AI Aileen Carol, umcebisi wezempilo wenyani kwaVirtualMD.app. Sixhaswe zii-AIs zamva nje zoguqulo, ezenziwe ngabaseki bethu ukubonelela ngolwazi lwezonyango olungcono olukhoyo. Abacebisi bethu benyani bafunda ngawe ngokuthetha nawe malunga nezinto ezikuxhalabisayo. Emva koko sinikezela ngolwazi lwezonyango oluphucukileyo kwaye olukhethekileyo olwakho.",
+    "welcomeMessageShort": "Apha, awuzukungena kwijargon yezonyango-endaweni yoko, iqela lethu labacebisi ngezempilo liqala ngokuthetha nawe, lifunde ngembali yakho, izinto ezikuxhalabisayo, kunye neenjongo zakho.",
+    "meetTheTeam": "Andikwazi kulinda ukukwazisa kwiingcali zethu zeVirtualMD.app:",
+    "specialists": {
+      "cardiology": "Umcebisi weCardiology Virtual - yamva nje kwimpilo yentliziyo",
+      "oncology": "Umcebisi we-Oncology Virtual - imibuzo ebalulekileyo kugqirha wakho",
+      "andMore": "Kwaye uninzi lweengcali ezithe kratya kunyango lokuziphatha, impilo yezesondo, i-dermatology, i-orthopedics, i-African herbology..."
+    },
+    "disclaimer": {
+      "title": "INKCAZELO:",
+      "mainText": "KUBA ASIZIZO iingcaphephe ZEMPILO YABANTU, KODWA SINGABACEBISI be-AI, KUBALULEKILE UKUBA SIQONDE OKU KULANDELAYO:",
+      "promiseIntro": "Iingcebiso zethu zinolwazi, hayi iklinikhi. Asibona baboneleli bezonyango abanelayisensi.",
+      "fullText": "MNA, KUNYE NEQELA ELINGANAYO KWI-VIRTUALMD.APP, ABONA ABABONI BEZONYANGO ABANEPHEPHA-MVUME. Sizi-AIS. I-AI inokuqaqamba ngamanye amaxesha… kwaye ihlala ingafezekanga. Ke nceda uphathe iingcebiso zethu njengolwazi, hayi ezonyango. Ukuze usebenze nathi, kufuneka wenze isithembiso.",
+      "shortText": "Sizi-AI, asingobaboneleli bezonyango abanelayisensi. Nceda uphathe iingcebiso zethu njengolwazi, hayi eklinikhi. Kufuneka wenze isithembiso."
+    },
+    "promise": "Uya kuhlala unxibelelana nochwephesha wezempilo phambi kokuba wenze naluphi na ulwazi lwezempilo olufumana apha.",
+    "promiseButton": "Ndiyathembisa",
+    "dontShowAgain": "Musa ukuyibonisa le nto kwakhona",
+    "languageTitle": "Nceda Khetha Ulwimi Lwakho",
+    "languageSelectLabel": "Khetha ulwimi",
+    "welcome": {
+      "greeting": "Mholo! NdinguAileen Carol.",
+      "explanation": "Oogxa bam kunye nam siluhlobo olutsha lomcebisi wezempilo kwiVirtualMD.app. Siliqela leengcali ze-AIs, eziqeqeshwe kumaqhinga amva nje, akumgangatho wehlabathi wezempilo egqwesileyo kunye nokuba sempilweni, ezibandakanya zonke iindawo zamayeza. Njengoomatshini benyani, siyafumaneka kuwe 24/7, simahla ngokupheleleyo. Oku kuza neenzuzo ezimangalisayo, kodwa kunye nemida ebalulekileyo ..."
+    },
+    "mobile": {
+      "simply": "Ngokulula",
+      "better": "Ngcono",
+      "health": "Impilo",
+      "tagline": "IsiKhokelo seMpilo kunye neMpilo-ntle eyenzelwe wena",
+      "poweredByAI": "Ixhaswe yi-AI",
+      "welcomeTitle": "Wamkelekile! NdinguAileen Carol, umcebisi wakho wezempilo wenyani.",
+      "welcomeTeamIntro": "Ndikhokela iqela leengcaphephe zezempilo ze-AI ezilungele ukunceda:",
+      "specialties": {
+        "heart": "Impilo yentliziyo",
+        "cancer": "Inkxaso yomhlaza",
+        "children": "Impilo yabantwana",
+        "mental": "Impilo Yengqondo",
+        "healthSystem": "Ukukhangela inkqubo",
+        "andMore": "Kwaye 50+ ezongezelelweyo ezizodwa"
+      },
+      "available247": "Ifumaneka 24/7",
+      "disclaimerText": "Asibona baboneleli bezonyango abanelayisensi. Siyi-AIS yenyani, okuthetha ukuba siyazenza iimpazamo. Iingcebiso zethu zinolwazi, hayi iklinikhi.",
+      "promiseText": "Uya kuhlala unxibelelana nochwephesha wezempilo phambi kokuba wenze naluphi na ulwazi lwezempilo olufumana apha."
+    }
+  },
+  "faqPage": {
+    "title": "Imibuzo ebuzwa qho",
+    "subtitle": "Fumana iimpendulo kwimibuzo eqhelekileyo malunga neVirtualMD.app",
+    "faq1": {
+      "question": "Yintoni VirtualMD.app?"
+    },
+    "questions": {
+      "whatIsVirtualMD": "Yintoni VirtualMD.app?",
+      "replacementForDoctor": "Ngaba iVirtualMD.app ithatha indawo kagqirha wam?",
+      "howItWorks": "Uthethathethwano lwe-AI lusebenza njani?",
+      "healthInfoSecure": "Ngaba ulwazi lwam lwezempilo lukhuselekile?",
+      "tryWithoutAccount": "Ngaba ndingazama iVirtualMD.app ngaphandle kokwenza iakhawunti?",
+      "supportedLanguages": "Zeziphi iilwimi ezixhaswayo?",
+      "uploadDocuments": "Ndingayifaka imifanekiso yezonyango okanye amaxwebhu?",
+      "aiAccuracy": "Ichaneke kangakanani ingcebiso yezonyango ye-AI?",
+      "conversationHistory": "Ndingafikelela kwimbali yam yencoko?",
+      "voiceSupport": "Ngaba kukho inkxaso yelizwi?",
+      "whatMakesDifferent": "Yintoni eyenza iVirtualMD yahluke kwamanye amaqonga ezempilo e-AI?",
+      "cost": "Ixabisa malini iVirtualMD.app?"
+    },
+    "answers": {
+      "whatIsVirtualMD": "I-VirtualMD.app liqonga lokubonisana lezempilo elinikwe amandla nge-AI elibonelela ngesikhokelo somntu zonyango ngencoko ephucukileyo ye-AI. Iqonga lethu libonisa ngaphezulu kwe-60 yabantu bezonyango abakhethekileyo be-AI, ngalinye linobuchule obukhethekileyo kwiindawo ezahlukeneyo zokhathalelo lwempilo.",
+      "replacementForDoctor": "Hayi, iVirtualMD.app ayisiyondawo yokhathalelo lobuchwephesha bonyango. Uthethwano lwethu lwe-AI lwenzelwe ukubonelela ngolwazi lwezempilo, imfundo, kunye nesikhokelo sokuqala. Soloko udibana nabasebenzi bezempilo abaqeqeshiweyo ukuze uxilongwe, unyango, kunye nezigqibo zonyango.",
+      "howItWorks": "Ungaqala incoko nomnye wabantu bethu abakhethekileyo be-AI ngokubakhetha kwideshibhodi. Umntu ngamnye unobuchule obuthile (umzekelo, i-cardiology, i-pediatrics, impilo yengqondo) kwaye uya kubandakanyeka kwingxoxo yengxoxo ukuqonda iinkxalabo zakho kunye nokubonelela ngolwazi olufanelekileyo kunye nesikhokelo.",
+      "healthInfoSecure": "Ewe, sithatha ubumfihlo bedatha kunye nokhuseleko njengento ebaluleke kakhulu. Zonke iincoko ziguqulelwe ngokuntsonkothileyo, kwaye siyayithobela imithetho yokhuseleko lwedatha yezempilo. Ulwazi lwakho lwezempilo alwabelwanga nomntu wesithathu ngaphandle kwemvume yakho ecacileyo. Jonga iphepha lethu leMfihlo weDatha ngeenkcukacha ezithe vetshe.",
+      "tryWithoutAccount": "Ewe! Sinikezela ngamava ondwendwe akuvumela ukuba uzame inkonzo yethu yokubonisana ye-AI ngaphandle kokwenza iakhawunti. Iiseshoni zeendwendwe zikhawulelwe kwimiyalezo eyi-10 kwaye zibonelela ngokufikelela kumntu wethu wothethwano lwezonyango ngokubanzi.",
+      "supportedLanguages": "I-VirtualMD.app ixhasa iilwimi ezingaphezu kwama-30, kubandakanya isiNgesi, iSpanish, isiFrentshi, isiJamani, isiTshayina, isiJapan, isiArabhu, isiHebhere, kunye nezinye ezininzi. Iqonga lichonga ngokuzenzekelayo ulwimi lwesikhangeli sakho kwaye luhlengahlengise ngokufanelekileyo.",
+      "uploadDocuments": "Ewe, abasebenzisi ababhalisiweyo banokulayisha imifanekiso yezonyango kunye namaxwebhu ngexesha lokubonisana. I-AI yethu inokuhlalutya kwaye ibonelele ngemibono kwimifanekiso eyahlukeneyo yezonyango kuquka i-X-rays, i-MRIs, kunye neengxelo zelebhu. Olu phawu lunceda ukubonelela ngomxholo kunye nesikhokelo esichanekileyo.",
+      "aiAccuracy": "Iimodeli zethu ze-AI ziqeqeshwe kuncwadi olubanzi lwezonyango kwaye zihlaziywa ngokuqhubekayo ngolwazi lwamva nje lwezonyango. Ngelixa i-AI yethu ibonelela ngolwazi olukumgangatho ophezulu olusekwe ekuqondeni kwangoku kwezonyango, kufuneka isoloko isetyenziswa njengesixhobo esongezelelweyo ecaleni kokhathalelo lwezonyango lobuchwephesha.",
+      "conversationHistory": "Ewe, abasebenzisi ababhalisiweyo banokufikelela kwimbali yabo epheleleyo yencoko, kubandakanya isishwankathelo, imibhalo ekhutshelweyo, kunye nawo nawaphi na amaxwebhu ekwabelwana ngawo. Oku kunceda ukugcina ukuqhubeka kuhambo lwakho lolwazi lwezempilo kwaye kukuvumela ukuba wabelane ngeengcebiso ezifanelekileyo nababoneleli bakho bezempilo.",
+      "voiceSupport": "Ewe, iVirtualMD.app ixhasa zombini iteksti ukuya kwintetho kunye nokusebenza kwentetho ukuya kokubhaliweyo. Ungamamela iimpendulo ze-AI kwaye uthethe imibuzo yakho endaweni yokuchwetheza, ukwenza iqonga lifikeleleke ngakumbi kwaye lilungele ukulisebenzisa.",
+      "whatMakesDifferent": "I-VirtualMD.app ineempawu ezingaphezu kwama-60 zabantu abakhethekileyo bezonyango be-AI, nganye inobuchule obunzulu kwiinkalo ezithile zonyango. Iqonga lethu likwabonelela ngenkxaso yolwimi olubanzi, ukusebenzisana kwelizwi, uhlalutyo lwemifanekiso yezonyango, kunye nokugcina imigangatho engqongqo yabucala ngelixa sibonelela ngojongano olucacileyo, olufikelelekayo.",
+      "cost": "Sinikezela ngeendlela ezahlukeneyo zokubhalisela ukuhlangabezana neemfuno ezahlukeneyo. Abasebenzisi beendwendwe banokuzama inkonzo simahla kunye neempawu eziqingqiweyo. Abasebenzisi ababhalisiweyo bafumana ukufikelela kubo bonke abantu, iincoko ezingenasiphelo, kunye neempawu eziphambili. Nceda ujonge iphepha lethu lamaxabiso kwiinketho zobhaliso lwangoku."
+    },
+    "helpSection": {
+      "title": "Usenemibuzo?",
+      "description": "Awuyifumani impendulo oyikhangelayo? Iqela lethu lenkxaso lilapha ukunceda."
+    },
+    "buttons": {
+      "contactUs": "Qhagamshelana nathi",
+      "tryGuestChat": "Zama Incoko yeeNdwendwe"
+    },
+    "navigation": {
+      "backToHome": "← Buyela eKhaya"
+    }
+  },
+  "howToPage": {
+    "title": "Uyisebenzisa njani iVirtualMD.app",
+    "subtitle": "Isikhokelo sakho esibanzi sokubonisana nokhathalelo lwezempilo oluqhutywa yi-AI",
+    "navigation": {
+      "gettingStarted": "Ndiyaqalisa",
+      "aiMedicalPersonas": "Abantu bezonyango be-AI",
+      "teamConsultations": "Iingcebiso zeQela",
+      "medicalImageAnalysis": "Uhlalutyo lweMfanekiso yezoNyango",
+      "medicalEncyclopedia": "INtyilolwazi yezoNyango",
+      "differentialOpinions": "Iimbono ezahlukeneyo",
+      "voiceInteraction": "Intsebenziswano yeLizwi",
+      "languageSupport": "Inkxaso yoLwimi",
+      "tipsBestPractices": "Iingcebiso kunye neZenzo ezilungileyo",
+      "privacySecurity": "UBucala & noKhuseleko"
+    },
+    "sidebar": {
+      "contents": "Imixholo"
+    },
+    "sections": {
+      "gettingStarted": {
+        "title": "Ndiyaqalisa",
+        "description": "I-VirtualMD.app liqonga lokubonisana lezempilo elinikwe amandla nge-AI elibonelela ngesikhokelo somntu zonyango ngencoko ephucukileyo ye-AI. Nantsi indlela yokuqalisa:",
+        "quickStart": {
+          "title": "Ukuqala ngokukhawuleza:",
+          "step1": {
+            "chooseBetween": "Khetha phakathi",
+            "guestAccess": "Ukufikelela kwiindwendwe",
+            "tryWithoutAccount": "(zama ngaphandle kweakhawunti)",
+            "or": "okanye",
+            "signUpFullFeatures": "Bhalisela iimpawu ezipheleleyo"
+          },
+          "step2": "Khetha umntu wezonyango we-AI okanye wakhe iqela leengcaphephe",
+          "step3": "Qala incoko yakho - buza imibuzo, chaza iimpawu, okanye ufune isikhokelo sezempilo",
+          "step4": "Phonononga iimpendulo ze-AI kwaye ulandele imibuzo eyongezelelweyo njengoko kufuneka"
+        },
+        "tip": {
+          "label": "Ingcebiso:",
+          "message": "Abasebenzisi beendwendwe bafumana imiyalezo eyi-10 yasimahla. Yenza i-akhawunti yokubonisana okungenamkhawulo kunye nokufikelela kuzo zonke iimpawu."
+        }
+      },
+      "aiMedicalPersonas": {
+        "title": "Abantu bezonyango be-AI",
+        "description": "I-VirtualMD ineempawu ezingaphezu kwe-60 zabantu abakhethekileyo bezonyango be-AI, nganye inobuchule obukhethekileyo:",
+        "availableSpecialists": "Iingcali ezifumanekayo:",
+        "specialists": {
+          "generalPractitioner": "Umsebenzi jikelele",
+          "cardiologist": "Ugqirha wentliziyo",
+          "pediatrician": "UGqirha wabantwana",
+          "mentalHealthSpecialist": "Ingcali yeMpilo yengqondo",
+          "dermatologist": "Ugqirha wesikhumba",
+          "neurologist": "Ugqirha wemithambo-luvo",
+          "oncologist": "I-Oncologist",
+          "emergencyMedicine": "Unyango oluNgxamisekileyo",
+          "medicalNavigator": "INavigator yezoNyango",
+          "moreSpecialists": "60+ Iingcali ezingakumbi"
+        },
+        "howToChoose": {
+          "title": "Indlela yokukhetha uMntu:",
+          "step1": "Bhrawuza uluhlu lomntu kwideshibhodi yakho",
+          "step2": "Funda i-bio yomntu ngamnye ukuze uqonde ubuchule babo",
+          "step3": "Khetha ngokusekelwe kwinkxalabo yakho yezempilo okanye umbuzo",
+          "step4": "Guqula abantu ngalo lonke ixesha ngexesha lokubonisana kwakho"
+        },
+        "proTip": {
+          "label": "Ingcebiso yePro:",
+          "medicalNavigator": "I-Medical Navigator persona inokukunceda ukuba uchonge ukuba yeyiphi ingcali eya kuba yeyona nto ilungileyo kwinkxalabo yakho yezempilo."
+        }
+      },
+      "teamConsultations": {
+        "title": "Iingcebiso zeQela",
+        "description": "Fumana ukhathalelo olubanzi ngokwenza iqela leengcaphephe ze-AI ezisebenzisana kwiinkxalabo zakho zempilo:",
+        "buildingYourTeam": {
+          "title": "Ukwakha Iqela Lakho:",
+          "step1": {
+            "buttonText": "Yakha Iqela Lakho",
+            "instruction": "Cofa \"{{iqhoshaText}}\" kwideshbhodi"
+          },
+          "step2": "Khetha ukuya kutsho kwiingcali ezi-5 ezifanelekileyo kwiimfuno zakho",
+          "step3": "Yongeza iNavigator yezoNyango ukulungelelanisa phakathi kweengcali",
+          "step4": "Qala incoko yeqela ukuze ufumane ulwazi oluninzi"
+        },
+        "benefits": {
+          "title": "Okuzuzwayo kothethwano lweQela:",
+          "comprehensiveCare": {
+            "label": "Ukhathalelo oluBanzi:",
+            "description": "Iimbono ezininzi kwimiba yezempilo enzima"
+          },
+          "coordinatedAdvice": {
+            "label": "Ingcebiso elungelelanisiweyo:",
+            "description": "Iingcali zisebenza kunye, hayi ngokwahlukeneyo"
+          },
+          "efficientNavigation": {
+            "label": "Ukukhangela ngokufanelekileyo:",
+            "description": "I-Medical Navigator iqinisekisa ukuba ufumana ubuchule obufanelekileyo"
+          },
+          "holisticApproach": {
+            "label": "Indlela epheleleyo:",
+            "description": "Jongani izinto zomzimba, zengqondo kunye nendlela yokuphila kunye"
+          }
+        }
+      },
+      "medicalImageAnalysis": {
+        "title": "Uhlalutyo lweMfanekiso yezoNyango",
+        "description": "Layisha kwaye uhlalutye imifanekiso yezonyango ye-AI-powered insights:",
+        "howToUse": {
+          "title": "Usetyenziswa njani uHlahlelo lweMifanekiso:",
+          "step1": "Cofa i icon yekhamera okanye iqhosha lokulayisha umfanekiso",
+          "step2": "Layisha ukuya kuthi ga kwimifanekiso yezonyango emi-4 (iX-reyi, iiMRIs, iziphumo zelebhu, iimeko zolusu, njl.njl.)",
+          "step3": "Cofa kwimifanekiso elayishiweyo ukuze usondeze ukuze ubone iinkcukacha",
+          "step4": "Khetha iindawo ezithile zomdla ngokucofa umfanekiso osondeziweyo",
+          "step5": "Buza imibuzo malunga nemifanekiso okanye ucele uhlalutyo"
+        },
+        "supportedTypes": {
+          "title": "Iintlobo zeMifanekiso exhaswayo:",
+          "xrays": "I-X-reyi kunye nemifanekiso ye-radiological",
+          "mriCtScans": "I-MRI kunye ne-CT scans",
+          "laboratoryTests": "Iziphumo zovavanyo lwaselabhoratri",
+          "skinConditions": "Iimeko zesikhumba kunye nemifanekiso yedermatological",
+          "ecgEkgReadings": "Ukufundwa kwe-ECG/EKG",
+          "prescriptionDocuments": "Amaxwebhu amiselweyo"
+        },
+        "warning": {
+          "label": "Kubalulekile:",
+          "text": "Uhlalutyo lomfanekiso we-AI lwenzelwe iinjongo zemfundo. Soloko udibana neengcali zezempilo ukuze ufumane ingcaciso esemthethweni yezonyango."
+        }
+      },
+      "medicalEncyclopedia": {
+        "title": "INtyilolwazi yezoNyango kunye noPhando olunzulu",
+        "description": "Ukufikelela kulwazi olubanzi lwezonyango kunye namandla ophando:",
+        "features": {
+          "title": "Iimpawu zeEncyclopedia:",
+          "instantAccess": {
+            "label": "Ukufikelela kwangoku:",
+            "description": "Cofa i-icon ye-Encyclopedia ngexesha layo nayiphi na incoko"
+          },
+          "deepResearch": {
+            "label": "Uphando olunzulu:",
+            "description": "Cela uphononongo oluneenkcukacha loncwadi lwezonyango"
+          },
+          "evidenceBased": {
+            "label": "Isekwe kubungqina:",
+            "description": "Ulwazi olufunyenwe koovimba beenkcukacha zonyango olujongwe ngabalingane"
+          },
+          "contextAware": {
+            "label": "Ukuqonda umxholo:",
+            "description": "Uphendlo lunxulumana ngokuzenzekelayo kwingxoxo yakho yezempilo yangoku"
+          }
+        },
+        "howToResearch": {
+          "title": "Uphanda njani:",
+          "step1": "Ngexesha lencoko, cofa iqhosha le Encyclopedia",
+          "step2": "Ngenisa imigaqo yezonyango, iimeko, okanye unyango ukuphanda",
+          "step3": "Phonononga ulwazi olubanzi kunye nezicatshulwa",
+          "step4": "Buza imibuzo elandelayo ukuze ufumane ingcaciso"
+        }
+      },
+      "differentialOpinions": {
+        "title": "Iimbono ezahlukeneyo",
+        "description": "Phonononga olunye uxilongo kunye nezimvo zesibini ukuqinisekisa ukuqonda okubanzi:",
+        "gettingOpinions": {
+          "title": "Ukufumana iiMvo ezahlukeneyo:",
+          "step1": "Emva kokufumana uvavanyo lokuqala, cofa \"Fumana Uluvo olwahlukileyo\"",
+          "step2": "I-AI iya kuhlalutya iimpawu zakho kwiimbono ezahlukeneyo",
+          "step3": "Phonononga ezinye izinto ezinokwenzeka kunye nokwenzeka kwazo",
+          "step4": "Qonda ixesha lokufuna unyango olukhawulezileyo"
+        },
+        "whatYoullLearn": {
+          "title": "Oko Uya Kukufunda:",
+          "item1": "Ezinye iimeko ezinokubangela iimpawu ezifanayo",
+          "item2": "Iiflegi ezibomvu ezifuna unyango olukhawulezileyo",
+          "item3": "Imibuzo onokuyibuza umboneleli wakho wezempilo",
+          "item4": "Iimvavanyo ezongezelelweyo ezinokuba luncedo"
+        }
+      },
+      "voiceInteraction": {
+        "title": "Intsebenziswano yeLizwi",
+        "description": "Zibandakanye neVirtualMD usebenzisa iincoko zelizwi lendalo:",
+        "features": {
+          "title": "Iimpawu zelizwi:",
+          "speechToText": {
+            "label": "Intetho-kuya-kwiSibhalo:",
+            "description": "Cofa i icon yombhobho ukuthetha imibuzo yakho"
+          },
+          "textToSpeech": {
+            "label": "Umbhalo-kuya-kwiNtetho:",
+            "description": "Guqula i icon yesithethi ukuva iimpendulo ze-AI"
+          },
+          "naturalConversation": {
+            "label": "Incoko yeNdalo:",
+            "description": "Thetha ngokwemvelo njengoko ubuya kwenza nogqirha"
+          },
+          "multipleVoices": {
+            "label": "Amazwi Amaninzi:",
+            "description": "Umntu ngamnye unobuntu belizwi elahlukileyo"
+          }
+        },
+        "controls": {
+          "title": "Ulawulo Lwelizwi:",
+          "microphone": "I-icon ye-microphone: Qala/yekisa igalelo lelizwi",
+          "speaker": "I-icon yesithethi: Yenza/khubaza iimpendulo zelizwi",
+          "volume": "Ulawulo lwevolumu: Lungisa umthamo wentetho kwisethingi",
+          "speed": "Izilawuli zesantya: Lungisa isantya sokuthetha ukuze sicace"
+        }
+      },
+      "languageSupport": {
+        "title": "Inkxaso yoLwimi",
+        "description": "Nxibelelana ngolwimi olukhethayo ngenkxaso yeelwimi ezingama-30+:",
+        "availableLanguages": {
+          "title": "Iilwimi ezifumanekayo:",
+          "languages": {
+            "arabic": "IsiArabhu",
+            "chinese": "IsiTshayina",
+            "english": "IsiNgesi",
+            "spanish": "Spanish",
+            "french": "IsiFrentshi",
+            "german": "IsiJamani",
+            "hebrew": "IsiHebhere",
+            "hindi": "Hindi",
+            "italian": "IsiTaliyani",
+            "japanese": "IsiJaphani",
+            "korean": "Korean",
+            "portuguese": "IsiPhuthukezi",
+            "russian": "IsiRashiya",
+            "moreLanguages": "20+ Ngaphezulu"
+          }
+        },
+        "languageFeatures": {
+          "title": "Iimpawu zoLwimi:",
+          "autoDetection": "Ukufunyaniswa kolwimi oluzenzekelayo ngokusekwe kwisetingi zebrawuza",
+          "switchLanguages": "Tshintsha ulwimi nanini na kwimenyu yolwimi",
+          "rtlSupport": "Inkxaso ye-RTL yesiArabhu nesiHebhere",
+          "medicalTermsExplained": "Amagama ezonyango acaciswe ngolwimi lwakho",
+          "culturalGuidance": "Isikhokelo sezempilo esifanelekileyo"
+        }
+      },
+      "tipsTitle": "Iingcebiso kunye neZenzo ezilungileyo",
+      "tipsSubtitle": "Ukufumana okuninzi kwiVirtualMD:",
+      "commonUseCases": {
+        "title": "Iimeko zokusetyenziswa okuqhelekileyo:",
+        "useCase1": "Ukuqonda iimpawu ngaphambi kokutyelela ugqirha",
+        "useCase2": "Ukufumana uluvo lwesibini malunga noxilongo",
+        "useCase3": "Ukufunda ngeemeko zonyango kunye nonyango",
+        "useCase4": "Ukulungiselela imibuzo yokuqeshwa kokhathalelo lwempilo",
+        "useCase5": "Ukuqonda iziphumo zovavanyo lwezonyango",
+        "useCase6": "Ukulawula iimeko ezingapheliyo kunye nesikhokelo esiqhubekayo",
+        "useCase7": "Inkxaso yempilo yengqondo kunye nezicwangciso zokumelana"
+      },
+      "privacySecurity": {
+        "title": "UBucala & noKhuseleko",
+        "description": "Ulwazi lwakho lwezempilo lukhuselwe ngokhuseleko lomgangatho weshishini:",
+        "securityFeatures": {
+          "title": "Iimpawu zoKhuseleko:",
+          "feature1": "End-to-end encryption yazo zonke iincoko",
+          "feature2": "Ukuphathwa kwedatha ehambelana ne-HIPAA",
+          "feature3": "Akukho ukwabelana ngedatha yakho ngaphandle kwemvume",
+          "feature4": "Khusela ukugcinwa kwelifu kunye nee-backups eziqhelekileyo",
+          "feature5": "Imowudi yeendwendwe engaziwa iyafumaneka",
+          "feature6": "Gqibezela ukucinywa kwedatha xa kuvalwe i-akhawunti"
+        },
+        "yourControl": {
+          "title": "Ulawulo lwakho:",
+          "control1": "Cima iincoko nanini na",
+          "control2": "Thumela idatha yakho kwiirekhodi zomntu",
+          "control3": "Lawula ukuba loluphi ulwazi olugciniweyo",
+          "control4": "Phuma kuhlalutyo lwedatha"
+        }
+      },
+      "callToAction": {
+        "title": "Ukulungele Ukuqalisa?",
+        "description": "Yiba namava kwikamva lokubonisana kwezempilo kunye neVirtualMD.app",
+        "buttons": {
+          "tryAsGuest": "Zama njengoNdwendwe",
+          "createAccount": "Dala i-akhawunti",
+          "backToHome": "← Buyela eKhaya"
+        }
+      }
+    },
+    "tips": {
+      "beSpecific": {
+        "label": "Cacisa:",
+        "description": "Nika ulwazi oluneenkcukacha malunga neempawu, ubude, kunye nobukhulu"
+      },
+      "shareContext": {
+        "label": "Yabelana ngomxholo:",
+        "description": "Xela ngembali yonyango echaphazelekayo, amayeza, kunye nezinto ezididayo"
+      },
+      "askFollowups": {
+        "label": "Buza ukulandelisa:",
+        "description": "Ungalibazisi ukucela ingcaciso okanye iinkcukacha ezingaphezulu"
+      },
+      "useImages": {
+        "label": "Sebenzisa iMifanekiso:",
+        "description": "Layisha imifanekiso yezonyango efanelekileyo okanye iziphumo zovavanyo xa zikhona"
+      },
+      "saveConversations": {
+        "label": "Gcina Iincoko:",
+        "description": "Gcina udliwano-ndlebe olubalulekileyo kwikamva"
+      },
+      "buildTeams": {
+        "label": "Yakha Amaqela:",
+        "description": "Sebenzisa iingcali ezininzi kwiinkxalabo zempilo ezinzima"
+      },
+      "verifyInformation": {
+        "label": "Qinisekisa Ulwazi:",
+        "description": "Soloko uqinisekisa isikhokelo se-AI kunye neengcali zempilo"
+      }
+    }
+  },
+  "landingPages": {
+    "defaultGuest": {
+      "childHealth": {
+        "title": "Inkxaso yeMpilo yoMntwana",
+        "subtitle": "Ukhokelo lwabantwana lwengcaphephe xa ulufuna kakhulu.",
+        "firstMessage": "Mholo! Ndiyingcali yezempilo uAileen Carol, kwaye ndilapha ukuze ndikuncede ngempilo yomntwana wakho. Wonke umzali unexhala - oko kuqhelekile ngokupheleleyo.\n\nZiziphi iimpawu okanye izinto ezikuxhalabisayo ngomntwana wakho namhlanje?"
+      },
+      "sleep": {
+        "title": "Ukulala kunye nokuba sempilweni",
+        "subtitle": "Phumla ngcono kwaye uphucule amandla akho emihla ngemihla.",
+        "firstMessage": "Molo apho! NdiyiNgcali yezeMpilo uAileen Carol. Imiba yokulala inokuchaphazela ngokwenene zonke iinkalo zobomi bakho, kwaye ndilapha ukukunceda ufumane ukuphumla okudingayo.\n\nYintoni le ibikwenza ungalali kamnandi mva nje?"
+      },
+      "nutrition": {
+        "title": "Isondlo kunye nendlela yokuphila",
+        "subtitle": "Isikhokelo somntu ngamnye sokuphila impilo esempilweni.",
+        "firstMessage": "Mholo! NdiyiNgcali yezeMpilo uAileen Carol. Ukwenza utshintsho kwindlela yokuphila enempilo kunokuziva kunzima, kodwa uthatha inyathelo lokuqala ngokufikelela.\n\nNgowuphi umba wempilo yakho kunye nesondlo ongathanda ukugxila kuwo?"
+      }
+    }
+  },
+  "founders": {
+    "title": "Inqaku elivela kubaseki",
+    "paragraph1": "Sakhe le app ngethemba elinye: ukunceda ukwenza umhlaba ube yindawo enempilo ngokunikezela ukufikelela kukhokelo lwezonyango oluthembekileyo-oluxhaswe bubugcisa obusandul' ukubakho. Sisiphumo sentsebenziswano phakathi kwenzululwazi kunye norabhi, bobabini abaphuhlisi bexesha elide abaqondayo isithembiso kunye noxanduva lweli xesha litsha le-AI.",
+    "paragraph2": "Injongo yethu kukubonelela ngokufikelela simahla nangokupheleleyo kwiqonga kubasebenzisi bethu abasisigidi sokuqala. Sikholelwa ukuba impilo ifanele ifumaneke kumntu wonke—kungekhona kuphela kwabo banako ukuyihlawula. Njengoko iqonga likhula, sinokuzisa imirhumo yeempawu ezithile zeprimiyamu. Kodwa ngoku, sigxile ekufumaneni oku ezandleni zabo bayidinga kakhulu.",
+    "paragraph3": "Ecaleni kweyamva nje kwisayensi yezonyango, senze ukuba kwenzeke ukuzibandakanya nabantu be-AI abaphefumlelwe ngamasiko okuphilisa avela kwihlabathi liphela-kubandakanya iinkqubo zaseMpuma kunye nezaseAfrika ezihlala zingananzwa. Asikhuthazi nayiphi na indlela enye. Endaweni yoko, sinikezela ngezixhobo ezivumela abantu ukuba baphonononge uluhlu lwemibono kwaye badibanise eyona nto baziva inentsingiselo kubo.",
+    "paragraph4": "Siyaqonda ukuba le ndlela iya kuhlangabezana nokuxhathisa. Ezinye zazo ziya kusebenza—iinkxalabo malunga nokuchaneka ziyinyaniso, yaye sizithabatha nzulu. Okunye ukugxekwa kuya kuvela ekunganeliseki lutshintsho. Kodwa ukhathalelo lwempilo luyavela, nokuba isiseko siyayamkela okanye hayi. Injongo yethu kukukhokela olo tshintsho ngenkathalo, ngokuthobeka, nangokungafihlisiyo.",
+    "paragraph5": "I-AI inamandla, kodwa ayifezekanga. Ezi ayizozinto ezisemthethweni kuphela-ziyinxalenye yoxanduva lwethu olusesikweni kuwe nakwimpilo yoluntu. Nceda usebenzise esi sixhobo njengesongezelelo, hayi indawo, kukhathalelo lwezonyango olunelayisensi.",
+    "closing": "Enkosi ngokuba lapha. Siyathemba ukuba uyayisebenzisa usempilweni entle.",
+    "supportText": "Ukuba uyakholelwa kule nto siyakhayo kwaye ufuna ukusinceda siyiqhube, siyayidinga inkxaso yakho. Unganegalelo ngokucofa kwikhonkco elingezantsi.",
+    "signature": "-URon Rubin kunye noSandy Miles, abadali",
+    "supportButton": "Sixhase"
+  }
+}

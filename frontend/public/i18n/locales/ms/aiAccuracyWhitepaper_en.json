@@ -1,0 +1,66 @@
+{
+  "title": "Ketepatan dan Pertimbangan untuk AI dalam Maklumat Kesihatan dan Kesejahteraan",
+  "authors": "",
+  "downloadPdf": "Muat turun PDF",
+  "generating": "Menjana...",
+  "pdfFilename": "VirtualMD_AI_Accuracy_White_Paper.pdf",
+  "section1": {
+    "title": "1. Pengenalan: Janji AI dalam Kesihatan dan Kesejahteraan",
+    "content": "Kecerdasan Buatan (AI) mempunyai potensi besar untuk meningkatkan cara orang memahami dan mengurus kesihatan dan kesejahteraan mereka. Daripada menganalisis data berkaitan kesihatan kepada mengenal pasti corak yang mungkin menunjukkan arah aliran kesihatan, alatan AI menawarkan kemungkinan menyediakan maklumat kesihatan yang komprehensif dan boleh diakses. Mereka boleh memproses sejumlah besar literatur kesihatan dan kesejahteraan jauh lebih cepat daripada manusia, yang berpotensi membantu individu kekal termaklum tentang kebimbangan kesihatan mereka. Ejen perbualan yang dikuasakan AI, seperti yang digunakan oleh VirtualMD.app, memberikan pengguna maklumat kesihatan dan kesejahteraan yang boleh diakses, menjawab soalan berkaitan kesihatan dan membantu dalam memahami topik kesihatan yang kompleks. Matlamatnya adalah untuk berfungsi sebagai sumber maklumat tambahan yang melengkapkan—tidak pernah menggantikan—perundingan dengan profesional penjagaan kesihatan yang berkelayakan."
+  },
+  "section2": {
+    "title": "2. Memahami Ketepatan dan Had AI dalam Maklumat Kesihatan",
+    "intro": "Walaupun AI menunjukkan janji dalam menyediakan maklumat kesihatan dan kesejahteraan, memahami ketepatan dan batasannya adalah penting. Sistem AI boleh memberikan pandangan dan maklumat kesihatan yang berharga, tetapi keberkesanannya berbeza-beza berdasarkan topik tertentu, kualiti data latihan dan model AI yang digunakan.",
+    "aiSuccess": {
+      "title": "Contoh AI dalam Maklumat Kesihatan:",
+      "text": "Penyelidikan telah menunjukkan model AI boleh menyusun dan membentangkan maklumat kesihatan dengan berkesan mengenai pelbagai keadaan dan topik kesihatan. Sistem AI telah menunjukkan keupayaan untuk mensintesis maklumat daripada pelbagai sumber, mengenal pasti corak kesihatan yang berkaitan dan menyampaikan topik kesihatan yang kompleks dengan cara yang boleh diakses. Keupayaan ini menjadikan AI sebagai alat yang berharga untuk pendidikan kesihatan dan penyebaran maklumat, apabila digunakan sebagai tambahan kepada panduan penjagaan kesihatan profesional."
+    },
+    "aiErrors": {
+      "title": "Jenis Ralat AI:",
+      "text": "Ralat AI berbeza daripada ralat manusia. Ia boleh timbul daripada: Data Pisau (Jika data latihan kurang mewakili demografi tertentu, AI mungkin berprestasi buruk untuk kumpulan tersebut), Overfitting (AI mempelajari data latihan dengan terlalu baik, termasuk bunyi bising, dan gagal untuk membuat generalisasi kepada kes pengguna baharu yang tidak dapat dilihat), Kekurangan Konteks (AI mungkin bergelut dengan sejarah pengguna yang kompleks, komorbiditi atau simptom penghakiman bernuansa yang memerlukan perubahan, contoh klinikal yang lebih luas). berpotensi menyebabkan AI membuat ramalan yang salah sepenuhnya), Halusinasi (LLM kadangkala boleh menjana maklumat yang munasabah tetapi tidak betul atau tidak masuk akal secara fakta)."
+    },
+    "aiVsHuman": {
+      "title": "AI lwn. Pakar Kesihatan Manusia:",
+      "text": "Ia jarang sekali senario \"lebih baik atau lebih teruk\" yang mudah. Meta-analisis mungkin menunjukkan AI berprestasi sedikit daripada ahli radiologi secara purata untuk jenis imbasan tertentu (*konsep graf hipotesis*), tetapi pakar manusia selalunya cemerlang dalam kes atipikal atau apabila menyepadukan maklumat daripada pelbagai sumber. Sebaliknya, AI mungkin lebih konsisten dalam mengelakkan ralat berkaitan keletihan pada tugasan yang berulang. Senario yang ideal selalunya melibatkan kerjasama AI manusia."
+    }
+  },
+  "section3": {
+    "title": "3. Cabaran Komunikasi AI dalam Penjagaan Kesihatan",
+    "intro": "Di luar ketepatan diagnostik, halangan penting ialah cara AI menyampaikan maklumat kepada pengguna. Jawapan yang betul yang disampaikan dengan buruk boleh menjadi tidak membantu atau malah memudaratkan.",
+    "challenges": {
+      "empathy": "Kekurangan Empati dan Nuansa: Model AI sering kekurangan empati, jaminan dan keupayaan yang tulen untuk menyesuaikan penjelasan mengikut keadaan emosi dan pemahaman individu (cth., Ayers et al., Perubatan Dalaman JAMA, 2023 - contoh ilustrasi).",
+      "overload": "Lebihan Maklumat/Jargon: AI kadangkala boleh memberikan maklumat yang menyeluruh dan padat secara teknikal yang membebankan dan bukannya menjelaskan.",
+      "confidence": "Salah Kalibrasi Keyakinan: AI mungkin membentangkan maklumat dengan keyakinan tinggi walaupun ia tidak pasti atau tidak betul, yang berpotensi mengelirukan pengguna."
+    },
+    "VirtualMDApproach": "Di sinilah VirtualMD.app berusaha untuk menjadi **\"hanya lebih baik.\"** Kami menyasarkan bukan sahaja untuk ketepatan fakta dalam maklumat yang diberikan oleh persona AI kami tetapi juga memberi tumpuan yang besar pada *cara* penyampaian. Matlamat kami adalah untuk melatih dan membimbing pakar AI kami untuk berkomunikasi dengan jelas, padat dan dengan nada yang sesuai, memecahkan topik yang rumit dan mengakui batasan, merapatkan jurang antara output AI mentah dan komunikasi pengguna yang membantu."
+  },
+  "section4": {
+    "title": "4. Apa Makna Ini untuk Anda Menggunakan VirtualMD.app",
+    "guidelines": {
+      "information": "**Anggap ia sebagai Maklumat, Bukan Diagnosis:** Gunakan maklumat yang diberikan sebagai titik permulaan. Ia *bukan* pengganti untuk diagnosis perubatan profesional, pelan rawatan atau nasihat peribadi.",
+      "limitations": "**Berhati-hati Terhadap Had:** Fahami bahawa AI boleh membuat kesilapan, salah faham konteks atau memberikan maklumat yang tidak lengkap. Maklumat mungkin tidak terpakai pada situasi kesihatan anda yang khusus dan unik.",
+      "verify": "**Sahkan Maklumat Kritikal:** Sentiasa bincangkan kebimbangan kesihatan yang penting, simptom atau pilihan rawatan yang berpotensi dengan pembekal penjagaan kesihatan manusia yang berkelayakan.",
+      "personas": "**Peranan Simulasi Persona AI:** Pakar AI mensimulasikan peranan tetapi tidak memiliki kelayakan atau kedudukan undang-undang profesional manusia berlesen."
+    }
+  },
+  "section5": {
+    "title": "5. Penafian dan Maklumat Kecemasan",
+    "disclaimer": "VirtualMD.app berusaha untuk ketepatan. Walau bagaimanapun, ini dan mana-mana perkhidmatan berasaskan AI boleh memberikan maklumat yang salah. Maklumat yang diberikan adalah untuk tujuan pendidikan dan maklumat sahaja dan bukan merupakan nasihat perubatan. Sentiasa berunding dengan profesional penjagaan kesihatan manusia yang berkelayakan untuk sebarang kebimbangan kesihatan atau sebelum membuat sebarang keputusan yang berkaitan dengan kesihatan atau rawatan anda. Pergantungan pada sebarang maklumat yang diberikan oleh perkhidmatan ini adalah atas risiko anda sendiri.",
+    "emergency": "Dalam kecemasan, sentiasa hubungi nombor kecemasan tempatan anda:",
+    "emergencyNumbers": {
+      "US": "911",
+      "Canada": "911",
+      "UK": "999",
+      "Ireland": "999 atau 112",
+      "Australia": "000",
+      "New Zealand": "111",
+      "South Africa": "10111",
+      "India": "112",
+      "Jamaica": "119",
+      "Trinidad and Tobago": "999",
+      "Singapore": "999",
+      "Philippines": "911",
+      "default": "perkhidmatan kecemasan tempatan anda"
+    }
+  }
+}

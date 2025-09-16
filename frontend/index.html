@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Favicon for all browsers -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    
+    <!-- PNG favicons for modern browsers (simple V) -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.v2.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.v2.png">
+    
+    <!-- Apple Touch Icons for iOS -->
+    <link rel="apple-touch-icon" href="/apple-touch-icon.v2.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.v2.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.v2.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.v2.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.v2.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.v2.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.v2.png">
+    
+    <!-- Android Chrome Icons -->
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.v2.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.v2.png">
+    
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="/manifest.json">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="facebook-domain-verification" content="uc7oizb5q80psxohkm6kdhmpyed1j7" />
+    <title>VirtualMD.app</title>
+    
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KQZGWQNW');</script>
+    <!-- End Google Tag Manager -->
+    
+    <!-- Analytics (GA + Mixpanel) gated to non-localhost environments -->
+    <script>
+      (function() {
+        var ENABLE = !(location.hostname === 'localhost' || location.hostname === '127.0.0.1');
+        window.__ENABLE_ANALYTICS__ = ENABLE;
+
+        // Provide gtag stub
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){ if (window.__ENABLE_ANALYTICS__) { dataLayer.push(arguments); } }
+        window.gtag = gtag;
+
+        if (ENABLE) {
+          // GA4 now loads through GTM to prevent double counting
+          // Load Mixpanel
+          (function(f,b){if(!b.__SV){var e,g,i,h;window.mixpanel=b;b._i=[];b.init=function(c,a,d){function k(n,m){var l=m.split(".");2==l.length&&(n=n[l[0]],m=l[1]);n[m]=function(){n.push([m].concat(Array.prototype.slice.call(arguments,0)))}}var j=b;"undefined"!==typeof d?j=b[d]=[]:d="mixpanel";j.people=j.people||[];j.toString=function(c){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);c||(a+=" (stub)");return a};j.people.toString=function(){return j.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");for(h=0;h<i.length;h++)k(j,i[h]);var o="set set_once union unset remove".split(" ");j.get_group=function(){function c(a){b[a]=function(){call2_args=arguments;call2=[a].concat(Array.prototype.slice.call(call2_args,0));j.push(call2)}}for(var b={},a=["get_group_key","get_group_id","set_group","add_group","remove_group"],d=0;d<a.length;d++)c(a[d]);return b};b._i.push([c,a,d])};b.__SV=1.2;e=f.createElement("script");e.type="text/javascript";e.async=!0;e.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";g=f.getElementsByTagName("script")[0];g.parentNode.insertBefore(e,g)}})(document,window.mixpanel||[]);
+          mixpanel.init("3678af2d2c4a7f09bac0217f7157bc71", {debug: true, track_pageview: true, persistence: 'localStorage'});
+
+          // Meta Pixel
+          !function(f,b,e,v,n,t,s)
+          {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+          n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+          if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+          n.queue=[];t=b.createElement(e);t.async=!0;
+          t.src=v;s=b.getElementsByTagName(e)[0];
+          s.parentNode.insertBefore(t,s)}(window, document,'script',
+          'https://connect.facebook.net/en_US/fbevents.js');
+          fbq('init', '767942695987228');
+          fbq('track', 'PageView');
+        } else {
+          // Safe no-op stubs in dev
+          window.mixpanel = {
+            identify: function(){},
+            track: function(){},
+            register: function(){},
+            people: { set: function(){}, set_once: function(){}, increment: function(){}, append: function(){}, union: function(){}, track_charge: function(){}, clear_charges: function(){}, delete_user: function(){}, remove: function(){} },
+            reset: function(){}
+          };
+
+          // Meta Pixel stub
+          window.fbq = function(){};
+        }
+      })();
+    </script>
+
+
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KQZGWQNW"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Meta Pixel Code (noscript) -->
+    <noscript>
+      <img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=767942695987228&ev=PageView&noscript=1"/>
+    </noscript>
+    <!-- End Meta Pixel Code (noscript) -->
+    
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

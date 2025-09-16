@@ -1,0 +1,715 @@
+{
+  "actions": {
+    "startConsultation": "健康相談を始める",
+    "endConsultation": "相談終了",
+    "returnToConsultation": "相談に戻る",
+    "newConversation": "新しい会話を始める",
+    "saveConversation": "会話を保存",
+    "deleteConversation": "会話を削除",
+    "getSummary": "概要を取得",
+    "getTranscript": "トランスクリプトを取得",
+    "getDifferentialOpinion": "差別的な意見を得る",
+    "exportChat": "チャットのエクスポート",
+    "clearChat": "クリアチャット"
+  },
+  "audio": {
+    "aiMuted": "AIミュート",
+    "aiUnmuted": "AIオーディオオン",
+    "playbackFailed": "オーディオの再生に失敗しました",
+    "generationFailed": "音声生成に失敗しました"
+  },
+  "sidebar": {
+    "personaList": "医療専門家を選ぶ",
+    "conversations": "私の会話",
+    "profile": "マイプロフィール",
+    "settings": "設定",
+    "manageTeam": "チーム管理",
+    "teamBuilder": "AIチームビルダー",
+    "encyclopedia": "百科事典",
+    "bio": "プロフェッショナルバイオ",
+    "clickForBio": "バイオグラフィーを見る",
+    "clickToSpeak": "クリックしてアドバイザーに相談",
+    "summary": "協議概要",
+    "transcript": "会話の記録",
+    "imageContext": "画像のコンテキスト",
+    "newConversation": "新規相談"
+  },
+  "tooltips": {
+    "audioOnlyRegistered": "オーディオは登録ユーザーのみ利用可能です。"
+  },
+  "messages": {
+    "typeMessage": "ここにメッセージを入力してください...",
+    "send": "送信",
+    "thinking": "考え...",
+    "processing": "処理...",
+    "connecting": "接続中...",
+    "connected": "接続",
+    "disconnected": "切断",
+    "typing": "{{name}} が入力中です...",
+    "messageError": "メッセージを送信できませんでした",
+    "retryMessage": "リトライ",
+    "requestToSpeak": "{{name}}とお話しさせてください",
+    "messageDeleted": "メッセージを削除しました",
+    "systemMessage": "システムメッセージ"
+  },
+  "personas": {
+    "defaultName": "健康専門家アイリーン・キャロル",
+    "defaultSpecialty": "健康スペシャリスト",
+    "selectPersona": "医療専門家を選択する",
+    "noPersonasAvailable": "医療専門家がいない",
+    "personaDetails": "専門的な詳細",
+    "specialization": "専門分野",
+    "experience": "経験",
+    "education": "教育",
+    "certifications": "認定資格",
+    "languages": "言語",
+    "availableNow": "今すぐ入手可能",
+    "loading": "専門家を読み込んでいます..."
+  },
+  "personaSearch": {
+    "placeholder": "名前、専門分野、または症状（頭痛、不安など）で検索してください",
+    "selected": "選択済み",
+    "noResults": "「{{query}}」に該当するコンサルタントが見つかりません",
+    "searchSuggestions": "頭痛、不安、痛み、睡眠、糖尿病などを検索してみてください。"
+  },
+  "configurator": {
+    "title": "新しい健康相談を始める",
+    "subtitle": "AIヘルスチームから選択",
+    "changeTeam": "チームの変更",
+    "starting": "起動...",
+    "startConsult": "相談を開始",
+    "emptyTeam": "AIヘルスチームは空です",
+    "addSpecialists": "チームにスペシャリストを追加する",
+    "noOtherSpecialists": "チームに他の専門家がいません。AIヘルスエキスパートのキャロルとチャットしたり、",
+    "addSpecialistsLink": "チームに専門家を追加する",
+    "defaultPersona": {
+      "name": "AIヘルスエキスパート、アイリーン・キャロル",
+      "role": "私の主なAI健康アドバイザー"
+    },
+    "carolNote": {
+      "title": "AIヘルス専門家キャロルの参加に関する注記:",
+      "ruleA": "A. チームから 0 人または 2 人以上の他のスペシャリストが選択された場合に、AI ヘルス エキスパートの Carol が含まれます。",
+      "ruleB": "B. チームから他のスペシャリストが 1 人だけ選択された場合、AI ヘルス エキスパートの Carol は含まれません。"
+    }
+  },
+  "conversations": {
+    "noConversations": "まだ会話はありません",
+    "untitled": "無題の会話",
+    "today": "今日",
+    "yesterday": "昨日",
+    "thisWeek": "今週",
+    "lastWeek": "先週",
+    "older": "古い",
+    "editTitle": "タイトルを編集",
+    "saveTitle": "タイトルを保存",
+    "cancelEdit": "編集をキャンセル",
+    "deleteConsultation": "相談を削除",
+    "clickToReturn": "クリックして相談に戻る",
+    "deleteConfirm": "この会話を削除してもよろしいですか?",
+    "deleteSuccess": "会話は正常に削除されました",
+    "loadingConversations": "会話を読み込んでいます...",
+    "conversationError": "会話の読み込み中にエラーが発生しました",
+    "consultationsTitle": "相談",
+    "lastUpdate": "最終更新日: {{date}}",
+    "consultationDefault": "相談 {{id}}",
+    "noConsultationsYet": "まだ相談はありません。",
+    "noPastConsultations": "過去の相談は見つかりませんでした。"
+  },
+  "participants": {
+    "noParticipants": "表示する参加者がいません。",
+    "inThisConsult": "この仮想コンサルティングでは、"
+  },
+  "team": {
+    "myTeam": "私の健康チーム",
+    "addToTeam": "チームに追加",
+    "removeFromTeam": "チームから削除",
+    "teamFull": "チームは満員です",
+    "maxTeamSize": "チームの最大人数に達しました（{{max}} メンバー）",
+    "currentTeam": "現在のチームメンバー",
+    "buildTeam": "チームを構築する",
+    "teamRecommendations": "AIチームの推奨事項",
+    "acceptRecommendation": "推薦を受け入れる",
+    "getRecommendations": "AIによる推奨事項を取得する",
+    "teamBuilder": "AIチームビルダー",
+    "addTeamMembersInstruction": "右側のカードをクリックしてチームメンバーを追加します。",
+    "maxTeamSizeNote": "チームには最大5人のAIアドバイザーを追加できます。チームはいつでも変更できますが、コンサルテーション中は変更できません。",
+    "startConsultationWithTeam": "チームとの相談を始める",
+    "manageTeamTitle": "AIヘルスチームの管理（最大{{max}}人のスペシャリスト）",
+    "removeSpecialistToUseTeamBuilder": "AIヘルスエキスパートのキャロルのチームビルディングの推奨事項を使用するには、少なくとも1人のスペシャリストを削除してください。",
+    "aileenCarolRecommendTeam": "AIヘルスエキスパートのキャロルがあなたの健康チームを推薦します",
+    "teamFullRemoveToUseBuilder": "チームが満員です。AIチームビルディングを使用するには、少なくとも1人のスペシャリストを削除してください。",
+    "yourCurrentTeam": "現在のチーム ({{current}}/{{max}})",
+    "updatingTeam": "チームを更新しています...",
+    "coordinator": "コーディネーター",
+    "alwaysIncluded": "常に含まれる",
+    "specialist": "スペシャリスト",
+    "teamEmptyAddBelow": "スペシャリストチームが空です。以下にスペシャリストを追加してください。",
+    "teamFullRemoveMember": "チームの定員がいっぱいです（最大{{max}}人のスペシャリスト）。別のスペシャリストを追加する場合は、メンバーを削除してください。",
+    "addMembersClickCard": "メインエリアのカードをクリックしてチームメンバーを追加します",
+    "teamLead": "チームリーダー",
+    "currentMember": "現在の会員",
+    "analyzingNeeds": "あなたのニーズを分析しています...",
+    "emergencyDetected": "🚨 緊急事態を検出しました",
+    "backToSafety": "安全に戻る",
+    "recommendedTeam": "推奨される医療チーム",
+    "completeTeam": "チーム全体（{{count}}人）",
+    "teamLeadReason": "プライマリヘルスコーディネーター",
+    "keepingMembers": "現在のチームメンバー（維持）",
+    "newRecommendations": "新しい推奨事項",
+    "aileenCarolReasoning": "AIヘルス専門家キャロルの推論：",
+    "noMatchingSpecialists": "AIによる推奨に一致するスペシャリストが見つかりません。もう一度お試しいただくか、手動でチームを作成してください。",
+    "medicalDisclaimerTitle": "健康とウェルネスに関するアドバイス:",
+    "medicalDisclaimerText": "このプラットフォームは健康に関するアドバイスやガイダンスを提供しますが、専門的な医療に代わるものではありません。緊急時や深刻な健康上の懸念がある場合は、必ず資格のある医療専門家にご相談ください。",
+    "applyingTeam": "チームを申請中...",
+    "acceptTeam": "このチームを受け入れる",
+    "tryDifferent": "さまざまな推奨事項を試す",
+    "cancel": "キャンセル",
+    "myVirtualMDTeam": "私のVirtualMD.appチーム",
+    "availableSpecialists": "利用可能なAIヘルススペシャリスト",
+    "clickToAddInstruction": "チームに追加するカードをクリックします（選択済み{{current}}/{{max}}）。選択されたスペシャリストには「選択済み」バッジが表示されます。",
+    "teamFullInstruction": "チームは満員です。メンバーを 1 人削除して別のスペシャリストを追加してください。",
+    "selected": "選択済み",
+    "teamFullBadge": "チームフル",
+    "allSpecialistsAdded": "利用可能なすべてのスペシャリストがチームに追加されました。",
+    "otherSpecialists": "その他の専門家",
+    "specialistsCount": "{{count}}人のスペシャリスト",
+    "startTeamConsult": "チーム相談を開始する",
+    "starting": "起動...",
+    "myAIHealthTeam": "私のAIヘルスチーム",
+    "addMembersInstruction": "右側のカードをクリックしてチームメンバーを追加します。"
+  },
+  "specialistCategories": {
+    "diabetesBloodSugar": "糖尿病と血糖値",
+    "weightManagement": "体重管理",
+    "mentalHealthStress": "メンタルヘルスとストレス",
+    "cancerSupport": "がんサポート",
+    "heartHealth": "心臓の健康",
+    "painManagement": "疼痛管理",
+    "digestiveIssues": "消化器系の問題",
+    "sleepProblems": "睡眠障害",
+    "skinProblems": "皮膚の問題",
+    "womensHealth": "女性の健康",
+    "childrensHealth": "子どもの健康",
+    "agingSeniorHealth": "高齢化と高齢者の健康",
+    "nutritionDiet": "栄養と食事",
+    "allergiesImmuneSystem": "アレルギーと免疫システム",
+    "breathingLungIssues": "呼吸と肺の問題",
+    "sportsFitnessInjuries": "スポーツとフィットネスの怪我",
+    "easternAlternativeMedicine": "東洋と代替のウェルネス",
+    "cosmeticBeautyMedicine": "化粧品と美容ウェルネス",
+    "anxietyHelp": "不安の助け",
+    "medicationPharmacy": "医薬品と薬局",
+    "primaryCareGeneralHealth": "プライマリケアと一般健康",
+    "medicalSpecialties": "健康とウェルネスの専門分野"
+  },
+  "dialogs": {
+    "exitConsultation": "出口協議",
+    "exitMessage": "この相談を終了してもよろしいですか?",
+    "saveAndExit": "保存して終了",
+    "exitWithoutSaving": "保存せずに終了",
+    "cancel": "キャンセル",
+    "confirm": "確認する",
+    "logout": "ログアウト",
+    "logoutMessage": "現在、相談中です。ログアウトすると相談が終了します。どうしますか？",
+    "deleteConversation": "会話を削除",
+    "deleteMessage": "この操作は元に戻せません。よろしいですか?",
+    "summarizeFirst": "終了する前に概要を取得しますか?",
+    "summarizing": "概要を生成しています...",
+    "summaryGenerated": "概要が正常に生成されました",
+    "doneAlready": "もう終わりましたか？",
+    "doneAlreadyMessage": "いつでもお手伝いいたします。それまで、健康で幸せに過ごしてくださいね！",
+    "doneAlreadySignature": "VirtualMD.appの私たち全員（人間とAI）",
+    "exitConsultationButton": "出口協議",
+    "editTitle": "会話のタイトルを編集",
+    "conversationTitleLabel": "会話タイトル",
+    "save": "保存",
+    "deleteTitle": "会話を削除",
+    "deleteConfirmation": "「{{title}}」というタイトルの会話を削除してもよろしいですか?",
+    "delete": "消去",
+    "multiDeleteTitle": "選択した相談を削除",
+    "multiDeleteConfirmation": "選択した {{count}} 件の相談を削除してもよろしいですか? この操作は元に戻せません。",
+    "deleteSelected": "選択項目を削除",
+    "addSpecialistTitle": "チャットにスペシャリストを追加する",
+    "addSpecialistError": "アドバイザーを読み込めませんでした。",
+    "noAdvisersToAdd": "選択した AI ヘルス アドバイザー全員がすでにこのチャットに参加しているか、リストが空です (現在の参加者を除く)。",
+    "longRecording": {
+      "title": "長時間の録画を一時停止",
+      "message": "送信せずに30秒以上録音することはできません。どうしますか？",
+      "delete": "消去",
+      "transcribeToText": "テキストに転記する",
+      "transcribeAndSend": "書き起こして送信"
+    },
+    "finishConsultationTitle": "相談は終わりますか？",
+    "generatingSummary": "ご相談の概要を作成中です。しばらくお待ちください。",
+    "finishConsultationMessage": "アクティブなチャットセッションを終了します。よろしいですか？",
+    "summarizeAndFinish": "要約と終了",
+    "leaveWithoutSummarizing": "要約せずに去る",
+    "summarize": "要約する",
+    "moreInfoTitle": "さらなる情報が必要",
+    "moreInfoMessage": "この会話は短すぎるため、意味のある要約や異なる意見を生み出すことはできません。会話の内容が少なくとも150語になるまで議論を続けてください。",
+    "ok": "わかりました",
+    "deleteSuccessTitle": "会話を削除しました",
+    "deleteSuccessMessage": "会話は正常に削除されました。",
+    "logoutTitle": "残念です",
+    "aiHealthSpecialist": "あなたの健康とウェルネスのAIスペシャリスト",
+    "aileenCarol": "AIヘルスエキスパート キャロル",
+    "aiHealthAssistant": "AIヘルスアシスタント",
+    "deleteAndExit": "削除して終了",
+    "summaryTitle": "協議概要",
+    "consultationTitle": "VirtualMDコンサルティング: {{title}}",
+    "summaryUnavailable": "概要が生成中であるか、利用できません。",
+    "print": "印刷",
+    "copy": "コピー",
+    "close": "近い",
+    "shortConv": {
+      "title": "会話終了",
+      "messageLine1": "会話は終了しました。保存するには短すぎますが、またすぐに戻ってきてください。",
+      "messageLine2": "それまで、健康で幸せでいてください。"
+    }
+  },
+  "errors": {
+    "connectionError": "接続エラーです。インターネット接続を確認してください。",
+    "serverError": "サーバーエラーが発生しました。しばらくしてからもう一度お試しください。",
+    "authenticationError": "認証に失敗しました。再度ログインしてください。",
+    "messageFailedToSend": "メッセージを送信できませんでした",
+    "loadingFailed": "コンテンツの読み込みに失敗しました",
+    "personaUnavailable": "この医療専門家は現在利用できません",
+    "conversationNotFound": "会話が見つかりません",
+    "permissionDenied": "この会話にアクセスする権限がありません",
+    "failedToLogin": "ログインに失敗しました。",
+    "failedToRegister": "登録に失敗しました。",
+    "failedToLogout": "ログアウトに失敗しました。",
+    "emailAlreadyTaken": "このメールアドレスは既に使用されています。別のメールアドレスを試すか、ログインしてください。",
+    "anErrorOccurred": "エラーが発生しました。",
+    "selectImageFile": "画像ファイルを選択してください。",
+    "failedToSaveProfile": "プロフィールを保存できませんでした。もう一度お試しください。",
+    "teamIsFull": "チームの定員がいっぱいです（最大{{max}}人のスペシャリスト）。別のスペシャリストを追加する場合は、メンバーを削除してください。",
+    "selectOneSpecialist": "プライベート相談の場合は専門家を 1 名だけ選択してください。",
+    "contactErrorMessage": "メッセージの送信中にエラーが発生しました。しばらくしてからもう一度お試しください。",
+    "contactDirectlyAt": "info@virtualmd.app まで直接メールでお問い合わせいただくこともできます。"
+  },
+  "welcome": {
+    "title": "VirtualMD.appへようこそ",
+    "subtitle": "あなただけの健康相談を始めましょう",
+    "description": "AI を活用した健康アドバイザーのチームから選択して、パーソナライズされた健康に関する洞察とガイダンスを入手してください。",
+    "getStarted": "始める",
+    "chooseSpecialist": "専門家を選ぶ",
+    "startWithTeam": "チームから始める",
+    "howItWorks": "仕組み",
+    "aileenCarolName": "AIヘルスエキスパート、アイリーン・キャロル",
+    "danielGarciaName": "AIヘルス専門家ダニエル・ガルシア",
+    "greeting": "こんにちは、{{username}}さん。お会いできて嬉しいです！VirtualMDチームは24時間365日いつでもお手伝いいたします。",
+    "startTeamConsultation": "チーム相談を開始する",
+    "configureNewChat": "新しいチャットを設定する",
+    "encyclopedia": "VirtualMD.app 百科事典",
+    "myAIHealthTeam": "私のAIヘルスチーム",
+    "aileenCarolIntro": "こんにちは。AIヘルスエキスパートのアイリーン・キャロルです。本日はどのようなご用件でしょうか？",
+    "persona_welcome_message": "こんにちは。お客様の健康とウェルネスのニーズにお応えいたします。本日はどのようなご用件でしょうか？"
+  },
+  "imageUpload": {
+    "dragAndDrop": "画像をここにドラッグアンドドロップするか、クリックして選択してください",
+    "supportedFormats": "サポートされている形式: JPG、PNG、GIF",
+    "maxSize": "最大サイズ: {{size}}MB",
+    "uploadSuccess": "画像のアップロードに成功しました",
+    "uploadError": "画像のアップロードに失敗しました",
+    "processing": "画像を処理中...",
+    "removeImage": "画像を削除",
+    "addToContext": "会話のコンテキストに追加"
+  },
+  "voice": {
+    "startRecording": "音声録音を開始する",
+    "stopRecording": "録画を停止",
+    "recording": "録音中...",
+    "processingSpeech": "音声を処理中...",
+    "speechToText": "音声をテキストに変換しています...",
+    "noSpeechDetected": "音声が検出されませんでした",
+    "microphoneError": "マイクアクセスエラー",
+    "unsupportedBrowser": "このブラウザでは音声録音はサポートされていません"
+  },
+  "summary": {
+    "title": "協議概要",
+    "keyPoints": "要点",
+    "recommendations": "推奨事項",
+    "nextSteps": "次のステップ",
+    "followUp": "フォローアップ",
+    "generating": "概要を生成しています...",
+    "noSummary": "概要はありません",
+    "summaryError": "概要を生成できませんでした",
+    "downloadSummary": "ダウンロード概要",
+    "emailSummary": "メールの概要",
+    "return": "戻る",
+    "transcript": "トランスクリプト",
+    "print": "印刷",
+    "copy": "コピー",
+    "copyError": "コピーに失敗しました",
+    "notGenerated": "概要を生成できませんでした。"
+  },
+  "status": {
+    "online": "オンライン",
+    "offline": "オフライン",
+    "away": "離れて",
+    "busy": "忙しい",
+    "available": "利用可能",
+    "unavailable": "利用できません",
+    "lastSeen": "最終閲覧日時: {{time}}"
+  },
+  "mobileTeamBuilder": {
+    "title": {
+      "yourTeam": "あなたのチーム",
+      "teamBuilder": "AIチームビルダー"
+    },
+    "carolMessages": {
+      "teamFull": "{{name}}さん、あなたのチームは満員です！現在のチームと相談を開始するか、メンバーの一部を削除して新しい推奨事項を入手してください。",
+      "helpBuild": "{{name}}さん、あなたにぴったりの健康チームを作るお手伝いをさせていただきます！本日はどのようなご来訪ですか？"
+    },
+    "carolGreeting": {
+      "teamFull": "こんにちは、{{name}}！あなたのチームは満員です。",
+      "helpBuild": "こんにちは、{{name}}さん！あなたにぴったりの健康チームを作るお手伝いをさせていただきます。"
+    },
+    "currentTeam": "現在のチーム ({{current}}/{{max}})",
+    "aiSpecialist": "AI {{名前}}",
+    "specialist": "スペシャリスト",
+    "startConversation": "このチームと会話を始める",
+    "tellUsWhy": "あなたに最適な健康チームを作るために、今日ここに来られた理由をお聞かせください。",
+    "placeholder": "健康上の懸念、症状、または助けてほしいことについて説明してください...",
+    "questionnaire": {
+      "question": "今日は何のためにここに来たんですか？",
+      "keepExisting": "既存のチームメンバーを維持しますか?",
+      "existingMembers": "既存のチームメンバー",
+      "currentSize": "現在のチーム規模",
+      "availableSpots": "新しいスペシャリストの募集枠",
+      "maxRecommendations": "許可される最大推奨数"
+    }
+  },
+  "mobileNavigationTabs": {
+    "consultation": "相談",
+    "team": "チーム",
+    "history": "歴史",
+    "encyclopedia": "百科事典"
+  },
+  "autoListening": {
+    "turnOn": "自動リスニングをオンにする",
+    "turnOff": "自動リスニングをオフにする"
+  },
+  "speech": {
+    "processing": "音声処理",
+    "pauseListening": "クリックして一時停止",
+    "turnOnListening": "クリックしてリスニングをオンにする"
+  },
+  "help": {
+    "howDoesThisWork": "これはどのように作動しますか？",
+    "chatControls": "チャットコントロール",
+    "enterToSend": "送信するにはEnterまたは▷を押してください",
+    "shiftEnterToSpeak": "Shift+Enter または 🎤/⏸ で話す/一時停止します"
+  },
+  "fileUpload": {
+    "clickToUpload": "クリックしてファイルをアップロードします（チャットにファイルをドロップすることもできます）"
+  },
+  "send": {
+    "transcribeAndSend": "書き写して送信",
+    "sendMessage": "メッセージを送信"
+  },
+  "aileenCarol": {
+    "playAnalysis": "プレイヘルス専門家キャロルの分析",
+    "stopAnalysis": "ストップヘルス専門家キャロルの分析"
+  },
+  "profile": {
+    "editProfile": "プロフィールを編集",
+    "saveChanges": "変更を保存",
+    "cancelEdits": "編集をキャンセル",
+    "changePhoto": "写真を変更",
+    "removePhoto": "写真を削除",
+    "healthInfoTooltip": "服用している薬、診断、サプリメント、その他健康に関する重要な事柄を書いてください。",
+    "loadingProfile": "プロフィールを読み込んでいます...",
+    "errorLoadingProfile": "プロフィールの読み込み中にエラーが発生しました",
+    "noProfileData": "利用できるプロフィールデータがありません。",
+    "myProfile": "マイプロフィール",
+    "myAccount": "私のアカウント",
+    "displayName": "表示名",
+    "fullName": "フルネーム",
+    "email": "メール",
+    "emailCannotBeChanged": "メールアドレスは変更できません。",
+    "keyHealthInfo": "重要な健康情報",
+    "noHealthInfoRecorded": "重要な健康情報は記録されていません。",
+    "healthInfoPlaceholder": "薬、診断、サプリメントなどをリストします。",
+    "age": "年",
+    "gender": "性別"
+  },
+  "imageContext": {
+    "clearZoom": "このズーム選択をクリア",
+    "cropPromotionError": "ズーム画像の送信と追加に失敗しました。コンソールを確認してください。",
+    "startConversationToSend": "会話を開始してズームを送信します",
+    "sendZoomToTeam": "このズームをチームに送信",
+    "noActiveZoom": "送信するアクティブなズームがありません。画像上の領域を選択してください。",
+    "functionsUnavailable": "ズームを送信できません: 重要な機能が利用できません。",
+    "noImages": "コンテキスト内に画像がありません。開始するには画像をアップロードしてください。",
+    "allHidden": "現在、すべての画像は非表示になっています。ヘッダーのサムネイルをクリックすると画像が表示されます。",
+    "showFirst": "最初の画像を表示",
+    "imageDisplay": "画像表示（{{shown}} 表示 / {{total}} 合計）",
+    "hideImage": "画像を非表示",
+    "showImage": "画像を表示",
+    "zoomPreview": "ズームプレビュー",
+    "sendToTeam": "チームに送信",
+    "dragToZoom": "新しいズーム領域を選択するには、上の画像をクリックしてドラッグします。"
+  },
+  "mobileChat": {
+    "healthConsult": "健康相談",
+    "speakToAI": "{{name}}に話しかける",
+    "startConversation": "会話を始めましょう",
+    "requestToSpeakToAI": "{{name}}と話したいのですが"
+  },
+  "mobileWelcome": {
+    "greeting": "こんにちは！",
+    "aileenCarolIntro": "あなたのプライマリヘルスケアスペシャリスト、AI担当のアイリーン・キャロルです。お会いできるのを楽しみにしています。VirtualMD.appのAIヘルスケア専門家チームを率いています。24時間365日、いつでもお手伝いいたします。",
+    "startConsultation": "健康相談を始める",
+    "myTeam": "私のチーム",
+    "aiTeamBuilder": "AIヘルスエキスパートのキャロルがあなたのチーム選びをお手伝いします",
+    "priorConsultations": "事前相談",
+    "encyclopedia": "百科事典",
+    "myProfile": "マイプロフィール",
+    "logout": "ログアウト",
+    "labels": {
+      "chat": "チャット",
+      "advisory": "勧告",
+      "encyclopedia": "百科事典",
+      "myTeam": "私のチーム",
+      "history": "歴史",
+      "myProfile": "マイプロフィール"
+    }
+  },
+  "mobileInput": {
+    "listeningPlaceholder": "聞いています…今すぐ話してください",
+    "typePlaceholder": "メッセージを入力してください...",
+    "clear": "クリア",
+    "needHelp": "ヘルプが必要ですか?",
+    "takePhoto": "写真を撮る"
+  },
+  "mobileConsultations": {
+    "title": "事前相談",
+    "selectAll": "すべて選択",
+    "deselectAll": "すべて選択解除",
+    "deleteSelected": "選択した項目を削除 ({{count}})",
+    "consultationDefault": "相談 {{id}}",
+    "lastUpdate": "最終更新日: {{date}}",
+    "noUpdates": "まだ更新はありません",
+    "editTitle": "会話のタイトルを編集",
+    "enterNewTitle": "新しいタイトルを入力してください:",
+    "noConsultations": "まだ相談はありません。"
+  },
+  "mobileProfile": {
+    "title": "マイプロフィール",
+    "saveError": "プロフィールを保存できませんでした",
+    "saveSuccess": "プロフィールを更新しました！",
+    "changePhoto": "写真を変更",
+    "displayName": "表示名",
+    "fullName": "フルネーム",
+    "email": "メール",
+    "keyHealthInfo": "重要な健康情報",
+    "logout": "ログアウト"
+  },
+  "mobileNavigation": {
+    "consultation": "相談",
+    "team": "チーム",
+    "history": "歴史",
+    "exitConsultation": "出口協議",
+    "myTeam": "私のチーム",
+    "summary": "まとめ",
+    "differentialOpinion": "異なる意見",
+    "transcript": "トランスクリプト",
+    "encyclopedia": "百科事典",
+    "controls": "コントロール",
+    "aiSpeaker": "AIスピーカー",
+    "enabled": "有効",
+    "disabled": "無効",
+    "camera": "カメラ",
+    "comingSoon": "近日公開",
+    "menu": "メニュー"
+  },
+  "bioPanel": {
+    "loadingBio": "バイオを読み込んでいます...",
+    "noBiography": "経歴はありません。",
+    "returnToPanel": "パネルに戻る"
+  },
+  "sidebarHeader": {
+    "panel": "パネル",
+    "summary": "まとめ",
+    "differentialOpinion": "異なる意見",
+    "transcript": "トランスクリプト",
+    "encyclopedia": "VirtualMD.app 百科事典",
+    "endConversation": "会話を終了する",
+    "startChatWithTeam": "チームとのチャットを開始",
+    "configureNewChat": "新しいチャットを設定する",
+    "myAIHealthTeam": "私のAIヘルスチーム",
+    "aileenCarolTeamBuilder": "健康専門家のキャロルがあなたのチームの構築をお手伝いします。",
+    "savedConsultations": "保存された相談",
+    "myProfile": "マイプロフィール",
+    "imageNumber": "画像 {{number}}"
+  },
+  "differentialOpinion": {
+    "noOpinionAvailable": "差異意見は得られません。"
+  },
+  "encyclopedia": {
+    "title": "VirtualMD.app 百科事典",
+    "loadingMessage": "この件について現在調査中です。ご回答まで数秒お待ちください。",
+    "longWaitMessage": "詳細な回答には数分かかる場合があります。",
+    "searchButton": "百科事典を検索",
+    "return": "戻る",
+    "print": {
+      "button": "印刷",
+      "title": "百科事典検索結果",
+      "subtitle": "VirtualMD.app 百科事典"
+    },
+    "copy": "コピー",
+    "searchResult": "百科事典検索結果",
+    "attribution": "VirtualMD.appによる回答",
+    "emptyState": "上記のクエリを入力して、VirtualMD.app 百科事典を検索します。",
+    "copySuccess": "コンテンツがクリップボードにコピーされました。",
+    "copyError": "クリップボードへのコピーに失敗しました",
+    "generatingResponse": "包括的な対応を生成しています...",
+    "genericError": "エラーが発生しました",
+    "translatingContent": "コンテンツを翻訳しています..."
+  },
+  "input": {
+    "typeOrSpeakPlaceholder": "メッセージを入力または発声してください...\nEnter キーを押すか、▷ をクリックして送信してください。",
+    "typePlaceholder": "ここにメッセージを入力してください...\nEnterキーを押すか、▷をクリックして送信してください。",
+    "transcribing": "転記中...",
+    "enterTextHere": "ここにテキストを入力してください",
+    "startTypingMessage": "相談を始めるには、下のボックスにメッセージを入力してください。"
+  },
+  "quickActions": {
+    "whatToDoButton": "どうすればいいですか？",
+    "summaryButton": "まとめ",
+    "whatShouldIDo": "これまで話し合った内容を踏まえて、今何をすべきでしょうか？明確で実行可能な提案をお願いします。",
+    "requestSummary": "話し合われた主要なポイント、提案された内容、次のステップなど、これまでの会話の包括的な要約を提供してください。"
+  },
+  "upload": {
+    "uploading": "アップロード中…"
+  },
+  "camera": {
+    "notSupported": "このブラウザではカメラへのアクセスはサポートされていません",
+    "capturePhoto": "写真を撮る",
+    "accessDenied": "カメラへのアクセスが拒否されました。ブラウザの設定でカメラへのアクセスを許可してください。",
+    "accessFailed": "カメラにアクセスできませんでした"
+  },
+  "microphone": {
+    "turnOn": "マイクをオンにする",
+    "turnOff": "マイクをオフにする"
+  },
+  "specialistPanel": {
+    "guidanceSingle": "プライベートコンサルテーションのために AI スペシャリストを 1 人選択してください:",
+    "guidanceMulti": "AIヘルスエキスパートのキャロルは常時参加しています。追加のAIヘルスアドバイザーを選択してください：",
+    "startPrivateConsult": "プライベート相談を始める",
+    "startChat": "チャットを開始",
+    "selectSingle": "AIスペシャリストを選択",
+    "selectMulti": "追加アドバイザーを選択",
+    "warningSelectOne": "プライベートコンサルテーションには専門家を 1 名だけ選択してください。",
+    "noSpecialistsAvailable": "現在、プライベート相談に対応できる AI スペシャリストはいません。",
+    "noAdvisersAvailable": "追加の AI ヘルス アドバイザーは利用できません。"
+  },
+  "sidebarFooter": {
+    "disclaimerText": "VirtualMD.appは正確性を追求しておりますが、本アプリをはじめとするAIベースのサービスでは、誤った情報を提供する可能性があります。必ず資格のある医療専門家にご相談ください。",
+    "emergencyText": "医療上の緊急事態の場合は 911 に電話してください。",
+    "moreInformation": "詳細情報"
+  },
+  "teamBuilder": {
+    "healthConditions": {
+      "options": {
+        "${key}": "{{鍵}}"
+      }
+    },
+    "medicinePreferences": {
+      "options": {
+        "${key}": "{{鍵}}"
+      }
+    }
+  },
+  "account": {
+    "title": "アカウント設定",
+    "description": "ここからVirtualMD.appアカウントを完全に削除できます。この操作により、プロフィールとすべての相談履歴が削除されます。",
+    "deleteMyAccount": "アカウントを削除する",
+    "confirmDeleteTitle": "アカウントを削除",
+    "confirmDeleteText": "この操作は元に戻せません。プロフィール情報、相談内容、ファイルはすべて永久に削除されます。続行してもよろしいですか？",
+    "cancel": "キャンセル",
+    "yesDelete": "はい、削除"
+  },
+  "transcript": {
+    "noTranscript": "トランスクリプトは利用できません。",
+    "title": "協議記録",
+    "returnToConversation": "会話に戻る",
+    "print": "印刷",
+    "copy": "コピー",
+    "copyError": "コピーに失敗しました",
+    "roleLabels": {
+      "patient": "ユーザー：",
+      "assistant": "アシスタント："
+    }
+  },
+  "mobileRouter": {
+    "teamRecommendations": "チームの推奨事項",
+    "myTeam": "私のチーム",
+    "summary": "まとめ",
+    "differentialOpinion": "異なる意見",
+    "transcript": "トランスクリプト",
+    "encyclopedia": "百科事典",
+    "consultations": "相談",
+    "returnToChat": "チャットに戻る",
+    "pleaseLogIn": "ログインしてください",
+    "logInToView": "会話を表示したり、新しい会話を開始するには、ログインしてください。",
+    "logIn": "ログイン",
+    "loadingSpecialists": "スペシャリストを読み込んでいます..."
+  },
+  "chat": {
+    "pleaseLogIn": "ログインしてください",
+    "logInToView": "会話を表示したり、新しい会話を開始するには、ログインしてください。"
+  },
+  "loginPage": {
+    "signIn": "サインイン"
+  },
+  "imageProcessing": {
+    "preset": "プリセット",
+    "applyPreset": "フォーカスされた画像にプリセットを適用する",
+    "process": "プロセス",
+    "revertFocus": "元の画像に再び焦点を合わせる",
+    "revert": "元に戻す"
+  },
+  "guest": {
+    "consultation": "ゲスト相談",
+    "topics": {
+      "child": {
+        "title": "私の子供は病気だ",
+        "subtitle": "最も必要なときに専門の小児ケア",
+        "initialMessage": "AIのアイリーン・キャロルです。あなたのバーチャル健康アドバイザーです。お子さんが病気になると、どれほど心配になるか、よく分かります。何が起きているのか教えてください。注：私は人間ではなくAIです。アドバイスが間違っている可能性もありますので、資格のある医療専門家にご確認ください。"
+      },
+      "sleep": {
+        "title": "眠れません！",
+        "subtitle": "夜を取り戻し、日々を変える",
+        "initialMessage": "AIのアイリーン・キャロルです。バーチャル健康アドバイザーとして、睡眠専門のAIベンジャミン・スタイン（精神科）とAIアリス・チェン（神経科）と共にお手伝いさせていただきます。睡眠に関するお悩みをぜひお聞かせください。注：私たちはAIであり、人間ではありません。アドバイスが間違っている場合もありますので、資格のある（人間の）医療専門家にご確認ください。"
+      },
+      "nutrition": {
+        "title": "活力のための栄養",
+        "subtitle": "食べ物を通してエネルギー、健康、性的健康を高めましょう",
+        "initialMessage": "バーチャルヘルスアドバイザーのAI、アイリーン・キャロルです。チームには、AIのアンジェリカ・フォーダム（栄養士）、AIのセックスセラピー担当レイチェル・レヴィ、AIのアフリカンハーバリスト、アミナ・オクファーがいます。今日の気分はどうですか？ 注：私たちはAIであり、人間ではありません。アドバイスが間違っている可能性がありますので、資格のある医療専門家にご確認ください。"
+      }
+    },
+    "errors": {
+      "sessionFailed": "ゲストセッションを開始できませんでした"
+    },
+    "registrationRequired": "登録が必要です",
+    "uploadFeatures": {
+      "title": "ドキュメントと画像のアップロード機能",
+      "description": "当社のプラットフォームは、強力なドキュメントおよび画像分析機能を提供しており、次のようなことが可能です。",
+      "benefit1": "健康に関する文書、検査レポート、画像をアップロードする",
+      "benefit2": "特定の領域を拡大して詳細に分析する",
+      "benefit3": "AIヘルスアドバイザーがあなたの書類を評価し、話し合います",
+      "benefit4": "カメラから直接写真を撮ってすぐに相談できます",
+      "registeredOnly": "これらの特別な機能は登録ユーザーのみが利用できます。"
+    }
+  },
+  "activeChat": {
+    "guestMode": {
+      "advisorsTitle": "VirtualMD.app ヘルスアドバイザー",
+      "registrationRequired": "登録が必要です"
+    }
+  },
+  "healthAdvisors": "VirtualMD.app ヘルスアドバイザー"
+}

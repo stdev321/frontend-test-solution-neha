@@ -1,0 +1,907 @@
+{
+  "header": {
+    "login": "ログイン",
+    "register": "登録する",
+    "logout": "ログアウト",
+    "aboutUs": "私たちについて",
+    "learnMore": "もっと詳しく知る",
+    "advisory": "勧告",
+    "start": "始める",
+    "greetingHello": "こんにちは、{{name}}！",
+    "welcomeToVirtualMD": "VirtualMDへようこそ！",
+    "signupForFullAccess": "フルアクセスを登録する",
+    "profileTitle": "マイプロフィール / チャットへ",
+    "logoutTitle": "ログアウト",
+    "toggleTheme": "ライト/ダークモードを切り替える",
+    "toggleMode": "ライト/ダークモードを切り替える",
+    "myProfile": "マイプロフィール / チャットへ",
+    "dashboard": "ダッシュボード",
+    "endConversation": "会話を終了する",
+    "returnToConversation": "会話に戻る",
+    "startConversation": "会話を始める",
+    "endConsult": "相談終了",
+    "returnToConsult": "相談に戻る",
+    "startConsult": "相談を開始",
+    "home": "家",
+    "healthEncyclopedia": "健康百科事典",
+    "researchPublications": "研究と出版",
+    "contactUs": "お問い合わせ",
+    "light": "ライト",
+    "dark": "暗い",
+    "toggleModeText": "{{mode}} モードを切り替える",
+    "legal": "法律上の"
+  },
+  "howToUse": "使い方",
+  "settings": {
+    "lightMode": "ライトモード",
+    "darkMode": "ダークモード"
+  },
+  "navigation": {
+    "dashboard": "ダッシュボード",
+    "home": "家",
+    "aboutUs": "私たちについて",
+    "returnToChat": "チャットに戻る",
+    "continueConsultation": "相談を続ける",
+    "exitConsultation": "出口協議",
+    "startNewConsultation": "新しい相談を開始する",
+    "sections": {
+      "chatTools": "チャットツール",
+      "functionality": "機能性",
+      "aboutUs": "私たちについて",
+      "requiredDocuments": "必要書類",
+      "research": "研究",
+      "controls": "コントロール",
+      "settings": "設定"
+    },
+    "myTeam": "私のチーム",
+    "summary": "まとめ",
+    "transcript": "トランスクリプト",
+    "encyclopedia": "百科事典",
+    "priorChats": "以前のチャット",
+    "myProfile": "マイプロフィール",
+    "healthEncyclopedia": "健康百科事典",
+    "noteFromFounders": "創設者からのメッセージ",
+    "faq": "よくある質問",
+    "contactUs": "お問い合わせ",
+    "legal": "法律上の",
+    "dataPrivacy": "データプライバシー",
+    "aiAccuracyStudies": "AIの精度研究",
+    "empowerYourself": "自分自身に力を与える",
+    "deepResearch": "深い研究",
+    "aboutUsItems": {
+      "advisory": "勧告",
+      "dataPrivacy": "データプライバシー"
+    },
+    "learnMore": {
+      "imagingAI": "イメージングとAI",
+      "pathologyAI": "病理学とAI",
+      "dermatologyAI": "皮膚科とAI",
+      "mentalHealthAI": "メンタルヘルスとAI",
+      "accuracyStudies": "AIの精度研究",
+      "allResearch": "すべての研究",
+      "empowerYourself": "自分自身を強化する"
+    }
+  },
+  "landing": {
+    "title": "バーチャルMDアプリ",
+    "subtitle": "AIを活用したヘルスケアソリューション",
+    "tryItOut": "試してみる",
+    "scrollDown": "下にスクロール",
+    "scrollUp": "上にスクロール",
+    "alwaysHereForYou": "いつでもあなたのためにここにいます。",
+    "cards": {
+      "whyUse": {
+        "title": "なぜVirtualMDなのか?",
+        "description": "AIを活用したバーチャルヘルスプラットフォームの革新的なメリットをご覧ください"
+      },
+      "dataPrivacy": {
+        "title": "あなたのプライバシー",
+        "description": "信頼できる友人のように、あなたの健康の秘密は私たちに守られます"
+      },
+      "tryItOut": {
+        "title": "試してみる",
+        "description": "子供が病気です|眠れません！|愛のための栄養",
+        "tagline": "サインアップは必要ありません。"
+      },
+      "wellness": {
+        "title": "深い研究",
+        "description": "信頼できる情報源による健康百科事典"
+      },
+      "yourHealth": {
+        "title": "あなたの健康",
+        "description": "AIで健康づくりの旅を形づくる"
+      }
+    }
+  },
+  "chat": {
+    "startNewConsult": "新しい相談を開始する",
+    "noSpeechDetected": "聞き取れなかった",
+    "noSpeechMessage": "録音に音声が見つかりませんでした。少し声を大きくするか、マイクに近づいてもう一度お試しください。",
+    "dontShowAgain": "今後表示しない",
+    "gotIt": "わかった",
+    "loading": "読み込み中…"
+  },
+  "loading": {
+    "preparingHealthTeam": "AI ヘルスチームを準備しています...",
+    "connectingSpecialists": "医療専門家への接続...",
+    "initializingSystem": "パーソナライズされた健康システムを初期化しています...",
+    "almostReady": "すぐにサポートする準備が整いました...",
+    "dots": "..."
+  },
+  "common": {
+    "loading": "読み込み中…",
+    "user": {
+      "defaultInitial": "あなた",
+      "defaultName": "そこには",
+      "defaultAltText": "ユーザー"
+    },
+    "error": "エラー",
+    "success": "成功",
+    "cancel": "キャンセル",
+    "confirm": "確認する",
+    "save": "保存",
+    "delete": "消去",
+    "edit": "編集",
+    "close": "近い",
+    "next": "次",
+    "previous": "前の",
+    "submit": "提出する",
+    "search": "検索",
+    "filter": "フィルター",
+    "sort": "選別",
+    "upload": "アップロード",
+    "download": "ダウンロード",
+    "print": "印刷",
+    "share": "共有",
+    "copy": "コピー",
+    "paste": "ペースト",
+    "cut": "カット",
+    "undo": "元に戻す",
+    "redo": "やり直す",
+    "yes": "はい",
+    "no": "いいえ",
+    "ok": "わかりました",
+    "punctuation": {
+      "ellipsis": "..."
+    },
+    "apply": "適用する",
+    "reset": "リセット",
+    "clear": "クリア",
+    "back": "戻る",
+    "forward": "フォワード",
+    "home": "家",
+    "refresh": "リフレッシュ",
+    "reload": "リロード",
+    "help": "ヘルプ",
+    "about": "について",
+    "contact": "接触",
+    "profile": "プロフィール",
+    "account": "アカウント",
+    "privacy": "プライバシー",
+    "terms": "条項",
+    "legal": "法律上の",
+    "support": "サポート",
+    "feedback": "フィードバック",
+    "welcome": "いらっしゃいませ",
+    "goodbye": "さようなら",
+    "thankyou": "ありがとう",
+    "send": "送信",
+    "none": "なし",
+    "generating": "生成中...",
+    "settings": "設定"
+  },
+  "auth": {
+    "loginTitle": "サインイン",
+    "registerTitle": "アカウントを作成する",
+    "email": "メール",
+    "password": "パスワード",
+    "confirmPassword": "パスワードを認証する",
+    "fullName": "フルネーム",
+    "displayName": "表示名",
+    "rememberMe": "私を覚えてますか",
+    "forgotPassword": "パスワードをお忘れですか？",
+    "noAccount": "アカウントをお持ちではありませんか？",
+    "hasAccount": "すでにアカウントをお持ちですか?",
+    "signUp": "サインアップ",
+    "signIn": "サインイン",
+    "signOut": "サインアウト",
+    "createAccount": "アカウントを作成する",
+    "loginButton": "ログイン",
+    "registerButton": "登録する",
+    "logout": "ログアウト"
+  },
+  "footer": {
+    "copyright": "MindScript Technologies LLC. 無断複写・転載を禁じます。",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約",
+    "cookiePolicy": "クッキーポリシー",
+    "medicalAdvisory": "健康に関するアドバイス",
+    "yourPrivacy": "あなたのプライバシー",
+    "legal": "法律上の",
+    "contactUs": "お問い合わせ",
+    "howToUse": "使い方",
+    "faq": "よくある質問",
+    "noteFromFounders": "創設者からのメッセージ",
+    "medicalDisclaimerTooltip": "MindScriptは、AIを活用した健康ペルソナを用いて、最も正確で最新の健康情報を提供することに努めています。ただし、これらのペルソナは資格を有する医療専門家ではないため、不正確な情報が含まれている可能性があります。真の医療緊急事態が発生した場合は、911に電話するか、最寄りの救急外来を直ちに受診してください。その他の健康上の懸念がある場合、または治療や療法を試す前に、資格のある医療提供者または専門家にご相談ください。",
+    "advisory": "勧告"
+  },
+  "forms": {
+    "required": "この項目は必須です",
+    "invalidEmail": "有効なメールアドレスを入力してください",
+    "passwordTooShort": "パスワードは8文字以上でなければなりません",
+    "passwordsDoNotMatch": "パスワードが一致しません",
+    "invalidInput": "有効な入力をしてください",
+    "fieldRequired": "{{field}}は必須です",
+    "selectOption": "オプションを選択してください",
+    "uploadFile": "ファイルをアップロード",
+    "dragAndDrop": "ファイルをここにドラッグアンドドロップするか、クリックして選択してください",
+    "fileUploaded": "ファイルのアップロードに成功しました",
+    "uploadError": "ファイルのアップロード中にエラーが発生しました"
+  },
+  "language": {
+    "english": "英語",
+    "arabic": "アラビア語",
+    "hebrew": "ヘブライ語",
+    "switchTo": "{{language}} に切り替える",
+    "currentLanguage": "現在の言語: {{language}}"
+  },
+  "animation": {
+    "title": {
+      "simply": "単に",
+      "better": "より良い",
+      "health": "健康",
+      "period": "。"
+    }
+  },
+  "hero": {
+    "subtitle": "24時間365日、パーソナライズされた健康とウェルネスのアドバイス。",
+    "subtitleMobile": "24時間365日対応のAIによるパーソナライズ健康アドバイス",
+    "poweredBy": "AIを搭載。"
+  },
+  "research": {
+    "title": "研究と出版",
+    "subtitle": "エビデンスに基づくAIヘルスケアソリューション",
+    "aiImaging": {
+      "title": "診断画像におけるAI",
+      "description": "放射線学、病理学、眼科学にわたる健康画像診断における人工知能アプリケーションの包括的な分析。"
+    },
+    "pathologyAI": {
+      "title": "病理学AIアシスタンス",
+      "description": "がん検出と診断精度向上のためのデジタル病理学におけるディープラーニングの応用。"
+    },
+    "dermatologyAI": {
+      "title": "皮膚科AIソリューション",
+      "description": "コンピューター ビジョンと機械学習を使用した AI による肌の状態の検出と診断。"
+    },
+    "mentalHealthAI": {
+      "title": "メンタルヘルスとAI",
+      "description": "メンタルヘルスのスクリーニング、診断、治療サポートにおける人工知能の応用。"
+    },
+    "accuracyStudies": {
+      "title": "AIの精度研究",
+      "description": "実際の医療現場における AI 診断システムの臨床検証とパフォーマンス メトリック。"
+    }
+  },
+  "whitepapers": {
+    "downloadPdf": "PDFをダウンロード",
+    "generating": "生成中...",
+    "abstract": "抽象的な",
+    "introduction": "導入",
+    "methods": "方法/技術",
+    "results": "結果",
+    "discussion": "議論",
+    "conclusion": "結論",
+    "references": "参考文献",
+    "authors": "著者",
+    "email": "メール",
+    "organization": "組織"
+  },
+  "imageProcessing": {
+    "preset": "プリセット",
+    "process": "プロセス",
+    "revert": "元に戻す",
+    "applyPreset": "フォーカスされた画像にプリセットを適用する",
+    "revertFocus": "元の画像に再び焦点を合わせる"
+  },
+  "alt": {
+    "logo": "VirtualMD.app ロゴ",
+    "logoSmall": "MindScript スモールロゴ",
+    "integratedApproach": "統合的なウェルネスアプローチ",
+    "userProfile": "ユーザープロフィール",
+    "aiDoctor": "AIヘルスエキスパート キャロル",
+    "aiAssistant": "AIアシスタント",
+    "backgroundImage": "美しい背景画像",
+    "home": "MindScript ホーム",
+    "processed": "処理済み画像",
+    "zoomPreview": "画像ズームプレビュー"
+  },
+  "aria": {
+    "scrollDown": "下にスクロール",
+    "scrollUp": "上にスクロール",
+    "openMenu": "メニューを開く",
+    "togglePassword": "パスワードの表示を切り替える",
+    "chooseLanguage": "言語を選択",
+    "goHome": "ホームページへ",
+    "remove": "取り除く",
+    "edit": "編集",
+    "delete": "消去",
+    "save": "保存",
+    "cancel": "キャンセル",
+    "breadcrumb": "ナビゲーションパンくず",
+    "conversationChoice": "会話の選択",
+    "personaChoice": "ペルソナの選択",
+    "panel": "パネル",
+    "summary": "まとめ",
+    "differentialOpinion": "異なる意見",
+    "transcript": "トランスクリプト",
+    "encyclopedia": "百科事典",
+    "endConversation": "会話を終了する",
+    "startChat": "チームとのチャットを開始",
+    "configureChat": "新しいチャットを設定する",
+    "savedConsultations": "保存された相談",
+    "myProfile": "マイプロフィール"
+  },
+  "researchPage": {
+    "title": "研究と出版",
+    "healthAdvisory": {
+      "title": "健康に関するアドバイス",
+      "description": "重要な健康と安全に関する情報",
+      "button": "アドバイスを見る"
+    },
+    "imagingAI": {
+      "title": "診断画像におけるAI",
+      "description": "放射線科、病理学、眼科における健康画像診断における AI アプリケーション",
+      "button": "続きを読む"
+    },
+    "pathologyAI": {
+      "title": "AI支援病理学",
+      "description": "がん検出と診断精度向上のためのデジタル病理学におけるディープラーニングの応用",
+      "button": "続きを読む"
+    },
+    "dermatologyAI": {
+      "title": "皮膚科におけるAIソリューション",
+      "description": "コンピュータービジョンと機械学習を使用したAIによる皮膚状態の検出と診断",
+      "button": "続きを読む"
+    },
+    "mentalHealthAI": {
+      "title": "メンタルヘルスとAI",
+      "description": "メンタルヘルスのスクリーニング、診断、治療サポートにおけるAIの応用",
+      "button": "続きを読む"
+    },
+    "dataPrivacy": {
+      "title": "データのプライバシーとセキュリティ",
+      "description": "医療データ保護、HIPAAコンプライアンス、プライバシー保護",
+      "button": "続きを読む"
+    },
+    "aiAccuracy": {
+      "title": "AIの精度研究",
+      "description": "実際の医療現場における AI 診断システムの臨床検証とパフォーマンス指標",
+      "button": "続きを読む"
+    },
+    "aiForLaypeople": {
+      "title": "すべての人のためのAI",
+      "description": "ヘルスケアAIを簡単に理解する - 技術的な知識は不要",
+      "button": "続きを読む"
+    }
+  },
+  "dialogs": {
+    "startWithDefault": "健康専門家のキャロルから始めましょう",
+    "startWithSpecific": "{{name}}から始めましょう",
+    "longRecording": {},
+    "shortConv": {}
+  },
+  "team": {
+    "myAIHealthTeam": "私のAIヘルスチーム",
+    "addMembersInstruction": "右側のカードをクリックしてチームメンバーを追加します。",
+    "maxTeamSizeNote": "チームには最大5人のAIアドバイザーを追加できます。チームはいつでも変更できますが、コンサルテーション中は変更できません。",
+    "starting": "起動...",
+    "startTeamConsult": "チーム相談を開始する",
+    "startConsultationWithTeam": "チームとの相談を始める"
+  },
+  "newConversation": {
+    "aileenCarolOnly": "健康専門家キャロルのみ",
+    "oneOnOne": "一対一",
+    "consultationChoice": {
+      "question": "今日は誰に相談したいですか?"
+    },
+    "options": {
+      "allAdvisers": "すべてのAIヘルスアドバイザー",
+      "allAdvisersCarolOnly": "すべてのAIヘルスアドバイザー（AIヘルスエキスパートのキャロルのみ）",
+      "chooseSpecific": "リストから特定のものを選択"
+    },
+    "tooltips": {
+      "noAdvisersSelected": "プロフィールにアドバイザーが選択されていません。",
+      "loadingAdvisers": "アドバイザーを読み込んでいます...",
+      "noOtherAdvisers": "リストには他に選択できるアドバイザーがいません。プロフィールに追加してください。"
+    },
+    "errors": {
+      "loadingAdvisers": "アドバイザーデータの読み込み中にエラーが発生しました。"
+    },
+    "buttons": {
+      "cancel": "キャンセル",
+      "next": "次",
+      "start": "始める"
+    }
+  },
+  "aiAccuracyWhitepaper": {
+    "section1": {},
+    "section2": {
+      "aiSuccess": {},
+      "aiErrors": {},
+      "aiVsHuman": {}
+    },
+    "section3": {
+      "challenges": {}
+    },
+    "section4": {
+      "guidelines": {}
+    },
+    "section5": {}
+  },
+  "imagingAIExplainer": {
+    "whatIsImaging": {
+      "types": {}
+    },
+    "whatIsAI": {},
+    "howAIHelps": {
+      "accuracy": {},
+      "speed": {},
+      "consistency": {}
+    },
+    "challenges": {},
+    "conclusion": {}
+  },
+  "mentalHealthWhitepaper": {
+    "disclaimer": {},
+    "abstract": {},
+    "introduction": {},
+    "methods": {},
+    "results": {
+      "diagnosticSupport": {},
+      "therapeuticApplications": {},
+      "patientMonitoring": {}
+    },
+    "discussion": {},
+    "conclusion": {}
+  },
+  "audio": {},
+  "autoListening": {},
+  "speech": {},
+  "help": {},
+  "upload": {},
+  "fileUpload": {},
+  "input": {},
+  "send": {},
+  "controls": {
+    "aiSpeaker": "AIスピーカー",
+    "cameraUpload": "カメラ/アップロード",
+    "status": {
+      "enabled": "有効",
+      "disabled": "無効"
+    }
+  },
+  "welcome": {},
+  "account": {},
+  "participants": {},
+  "mobileChat": {},
+  "sidebar": {
+    "differentialOpinion": "異なる意見"
+  },
+  "bioPanel": {},
+  "conversations": {},
+  "mobileConsultations": {},
+  "encyclopedia": {},
+  "imageContext": {},
+  "profile": {},
+  "sidebarHeader": {
+    "plusBadge": "+"
+  },
+  "messages": {},
+  "sidebarFooter": {},
+  "summary": {},
+  "teamBuilder": {
+    "steps": {},
+    "alerts": {},
+    "existingTeam": {},
+    "primaryConcerns": {},
+    "healthConditions": {},
+    "urgencySymptoms": {},
+    "medicinePreferences": {},
+    "additionalInfo": {},
+    "aileenCarolIntro": {},
+    "buttons": {},
+    "dialogs": {}
+  },
+  "aileenCarol": {},
+  "transcript": {},
+  "registerPage": {},
+  "legal": {
+    "eligibility": {},
+    "feesAndPayment": {},
+    "termination": {}
+  },
+  "aboutEncyclopediaPage": {},
+  "loginPage": {},
+  "mobileTeamBuilder": {
+    "carolMessages": {},
+    "questionnaire": {},
+    "title": {},
+    "carolGreeting": {}
+  },
+  "mobileNavigation": {},
+  "mobileWelcome": {},
+  "mobileRouter": {},
+  "mobileInput": {},
+  "mobileProfile": {},
+  "clinicianInfoPage": {},
+  "contactPage": {},
+  "dataPrivacyWhitepaper": {
+    "sections": {},
+    "hero": {},
+    "privacyPledge": {
+      "secureInfo": {},
+      "noPersonalUse": {},
+      "neverSell": {},
+      "anonymizedData": {}
+    },
+    "securityLevels": {
+      "accountSecurity": {},
+      "hipaaHistory": {}
+    },
+    "mindscriptSecurity": {},
+    "hipaaConsiderations": {},
+    "userResponsibility": {},
+    "privacyScenarios": {},
+    "conclusion": {}
+  },
+  "encyclopediaPage": {},
+  "evidencePage": {
+    "researchEvidence": {
+      "radiology": {},
+      "pathology": {},
+      "dermatology": {},
+      "mentalHealthResearch": {}
+    },
+    "wellnessInsights": {
+      "personalizedWellness": {},
+      "holisticSignals": {},
+      "proactiveWellbeing": {},
+      "aiEnhancedClarity": {}
+    }
+  },
+  "featuresPage": {
+    "features": {
+      "instantWellnessInsights": {},
+      "holisticWellnessPicture": {},
+      "diverseAIPerspectives": {},
+      "everEvolvingIntelligence": {}
+    }
+  },
+  "healthAdvisoryPage": {
+    "sections": {
+      "consultation": {
+        "emergency": {}
+      },
+      "technology": {},
+      "disclaimer": {
+        "points": {}
+      }
+    }
+  },
+  "medicalImageProcessingPage": {},
+  "mentalHealthInfoPage": {},
+  "nurseInfoPage": {},
+  "patientInfoPage": {},
+  "pharmacistInfoPage": {},
+  "physicianInfoPage": {},
+  "wellnessPathwaysPage": {},
+  "whyVirtualMD": {
+    "sections": {
+      "whyUs": {
+        "points": {
+          "personalTeam": {},
+          "aiNavigator": {},
+          "empoweringChoices": {},
+          "easyToUse": {},
+          "advancedTechnology": {}
+        }
+      },
+      "hero": {},
+      "features": {
+        "points": {
+          "dynamicEnsemble": {},
+          "holisticUnderstanding": {},
+          "rapidAccess": {},
+          "reliableInteractions": {},
+          "insightfulLogs": {}
+        }
+      },
+      "technology": {},
+      "cta": {}
+    }
+  },
+  "yourHealthInYourHandsPage": {
+    "sections": {
+      "uniqueProfile": {},
+      "personalizedGoals": {},
+      "diverseInsights": {},
+      "proactivePartner": {}
+    },
+    "callToAction": {}
+  },
+  "session_complete": "セッション完了",
+  "your_free_trial_has_ended": "無料トライアルは終了しました",
+  "united_kingdom:_dial_999_or_11": "イギリス: 999または112にダイヤル",
+  "melanoma_and_skin_cancer_detec": "黒色腫および皮膚がんの検出",
+  "process_transactions_and_send_": "取引を処理し、確認書や請求書（該当する場合）などの関連情報を送信します。",
+  "information_we_collect": "収集する情報",
+  "in_a_medical_emergency:": "医療上の緊急事態の場合:",
+  "in_response_to_legal_process:": "法的手続きへの対応:",
+  "loading_chat": "チャットを読み込んでいます...",
+  "redirecting": "リダイレクト中...",
+  "israel:_dial_101_(magen_david_": "イスラエル: 101 にダイヤル ()",
+  "unlimited_messages_with_ai_doc": "AIヘルスエキスパートとの無制限のメッセージ",
+  "contact_information": "連絡先",
+  "real-world_implementation_and_": "実世界への実装とモバイルアプリケーション",
+  "your_access_to_or_use_of_or_in": "お客様による本サービスへのアクセスもしくは使用、または本サービスにアクセスもしくは使用できないこと。",
+  "your_computer_may_temporarily_": "お客様がこれらの資料にアクセスし、閲覧する際に、お客様のコンピュータは、当該資料のコピーを一時的に RAM に保存することがあります。",
+  "please_select_only_one_special": "プライベートコンサルテーションには専門家を 1 名だけ選択してください。",
+  "references": "参考文献",
+  "business_transfers:": "事業譲渡:",
+  "account_information:": "アカウント情報:",
+  "provide,_operate,_maintain,_an": "サービスの提供、運営、維持、改善。",
+  "assignment": "割り当て",
+  "sandymiles@mindspringhealth": "サンディマイルズ@mindspring.health",
+  "ai-generated_content_may_conta": "AI生成コンテンツには、当社の堅牢な検証プロセスにもかかわらず、誤りや欠落が含まれる可能性があります。",
+  "display_name": "表示名",
+  "any_content_obtained_from_the_": "本サービスから取得したコンテンツ、または",
+  "you_may_store_files_that_are_a": "表示を向上させる目的で、Web ブラウザによって自動的にキャッシュされるファイルを保存できます。",
+  "start_new_health_consultation": "新しい健康相談を始める",
+  "entire_agreement": "完全な合意",
+  "ophthalmology": "眼科",
+  "not": "ない",
+  "exit_conversation?": "会話を終了しますか?",
+  "grading_and_classification": "グレーディングと分類",
+  "unauthorized_access,_use,_or_a": "MindsCRIPT が本規約およびプライバシー ポリシーに概説されている合理的なセキュリティ対策を実施している場合でも、お客様の送信内容またはコンテンツへの不正アクセス、使用、または変更 (データ侵害を含む) は禁止されます。",
+  "checking_server_status": "サーバーの状態を確認しています...",
+  "not_a_hipaa-compliant_service": "HIPAA準拠のサービスではありません",
+  "radiology": "放射線科",
+  "united_states:_dial_911": "米国：911にダイヤル",
+  "save_and_review_conversation_h": "会話履歴を保存して確認する",
+  "abstract": "抽象的な",
+  "starting_your_consultation": "ご相談を開始します...",
+  "digital_pathology_overview": "デジタル病理学の概要",
+  "reasonable_business_security_p": "米国内の合理的なビジネスセキュリティ慣行",
+  "loading_transcript": "トランスクリプトを読み込んでいます...",
+  "cookies_and_similar_technologi": "クッキーおよび類似のテクノロジー:",
+  "internal_medicine": "内なる健康",
+  "no_specialists_currently_in_th": "現在このチャットにはスペシャリストがいません。",
+  "discussion": "議論",
+  "updating_team": "チームを更新しています...",
+  "your_privacy_choices": "プライバシーの選択",
+  "error:_unknown_active_chat_vie": "エラー: 不明なアクティブ チャット ビューです。",
+  "create_more_than_one_account_f": "自分用に複数のアカウントを作成します。",
+  "improve_the_accuracy,_efficacy": "匿名化され集約されたデータを使用して、AI モデルとプラットフォーム機能の精度、有効性、安全性を向上します。",
+  "user_content:": "ユーザーコンテンツ:",
+  "mindscript_does_not_provide_me": "MindScriptは医療診断や治療を提供しません",
+  "communicate_with_you_about_pro": "MindScript および他社が提供する製品、サービス、オファー、プロモーション、特典、イベントに関する情報をお客様にお知らせし、お客様が興味を持つと思われるニュースや情報を提供します (お客様のオプトアウト権に従います)。",
+  "aggregated_or_de-identified_da": "集計または匿名化されたデータ:",
+  "canada:_dial_911": "カナダ: 911 にダイヤル",
+  "retry": "リトライ",
+  "other_locations:_contact_your_": "その他の地域: 直ちに地元の緊急サービスに連絡してください",
+  "ron_rubin,_phd_and_sandy_miles": "ロン・ルービン博士とサンディ・マイルズ",
+  "australia:_dial_000_or_112": "オーストラリア：000または112をダイヤルしてください",
+  "data_deletion:": "データの削除:",
+  "we_do_not_guarantee_the_absolu": "当社はお客様の情報の絶対的な安全性を保証するものではありません",
+  "send_technical_notices,_update": "技術通知、更新、セキュリティ警告、サポートおよび管理メッセージを送信します。",
+  "consultation_summary": "協議概要",
+  "waiver": "免除",
+  "access_to_all_medical_specialt": "あらゆる医療専門分野へのアクセス",
+  "no_profile_data_available": "利用できるプロフィールデータがありません。",
+  "no_summary_available": "概要はありません。",
+  "test_app_-_mindscript": "テストアプリ - MindScript",
+  "respond_to_your_comments,_ques": "お客様のコメント、質問、リクエストに応答し、カスタマー サービスを提供します。",
+  "not_hipaa_compliant": "HIPAAに準拠していません",
+  "force_majeure": "不可抗力",
+  "you_may_print_or_download_one_": "お客様は、個人的な非営利的な情報使用のために、本サイトの適切な数のページを 1 部印刷またはダウンロードすることができますが、それ以上の複製、出版、配布はできません。",
+  "dr_aileen_carol": "健康専門家アイリーン・キャロル",
+  "family_medicine": "家族の健康",
+  "headings": "見出し",
+  "note_on_ai_aileencarol's_particip": "AIヘルス専門家キャロルの参加に関する注記:",
+  "ronrubin@mindscripthealth": "ronrubin@virtualmd.app",
+  "share_your_account_credentials": "アカウントの資格情報を共有したり、他のユーザーがアカウントにアクセスできるようにしたりします (組織アカウントに対して明示的に許可されている場合を除く)。",
+  "email_cannot_be_changed": "メールアドレスは変更できません。",
+  "your_unique_medical_history,_c": "あなたの健康履歴、状態、状況には専門家の評価が必要です",
+  "changes_to_these_terms_and_pol": "本規約およびポリシーの変更",
+  "other_ai_specialists": "その他のAIスペシャリスト",
+  "full_name": "フルネーム",
+  "governing_law_and_dispute_reso": "準拠法および紛争解決",
+  "loading…": "読み込み中…",
+  "personalized_health_insights": "パーソナライズされた健康情報",
+  "gastroenterology": "消化器内科",
+  "use_of_the_service_by_children": "児童による本サービスのご利用は禁止されています。",
+  "introduction": "導入",
+  "use_another_user's_account_wit": "他のユーザーのアカウントを許可なく使用する。",
+  "if_you_can_see_this,_react_is_": "これが表示できれば、React は動作しています。",
+  "ronrubin@mindspringhealth": "ronrubin@mindspring.health",
+  "children's_privacy": "子供のプライバシー",
+  "provide_false_or_misleading_in": "登録時またはアカウントプロフィールで虚偽または誤解を招く情報を提供する。",
+  "talk_to_a_specialist": "専門家に相談する",
+  "cannot": "できない",
+  "how_we_use_information": "情報の利用方法",
+  "results": "結果",
+  "loading_participants": "参加者を読み込んでいます...",
+  "sandymiles@mindscripthealth": "sandymiles@virtualmd.app",
+  "this_feature_is_coming_soon": "この機能は近日中にリリースされる予定です。",
+  "start_or_continue_conversation": "会話を開始または継続する",
+  "international_data_transfers": "国際データ転送",
+  "loading_bio": "バイオを読み込んでいます...",
+  "termination": "終了",
+  "no_image_active": "アクティブな画像がありません。",
+  "no_ai_health_advisers_selected": "AIヘルスアドバイザーが選択されていません。プロフィールでアドバイザーを管理できます。",
+  "dr_daniel_garcia": "健康専門家ダニエル・ガルシア",
+  "no_other_specialists_available": "他に追加できるスペシャリストはいません。",
+  "carry_out_any_other_purpose_de": "情報が収集された時点でお客様に説明されたその他の目的を実行します。",
+  "data_retention": "データ保持",
+  "informational_and_educational_": "情報提供および教育目的のみ",
+  "miscellaneous": "その他",
+  "non-cancerous_skin_condition_c": "非癌性皮膚疾患の分類",
+  "pathology": "病理学",
+  "promotional_communications:": "プロモーションコミュニケーション:",
+  "info@mindscripthealth": "info@virtualmd.app",
+  "methods/technologies": "方法/技術",
+  "how_we_share_information": "情報の共有方法",
+  "loading_profile": "プロフィールを読み込んでいます...",
+  "personalize_and_improve_the_se": "サービスをカスタマイズおよび改善し、ユーザーのプロフィールや興味に合ったコンテンツや機能を提供します。",
+  "with_vendors_and_service_provi": "ベンダーおよびサービスプロバイダーの場合:",
+  "health_information_may_become_": "健康知識が進化するにつれて、健康情報は古くなる可能性がある",
+  "with_whom_would_you_like_to_co": "今日は誰に相談したいですか?",
+  "mindscript_content:": "MindScript コンテンツ:",
+  "cookies:": "クッキー:",
+  "detect,_investigate,_and_preve": "不正な取引やその他の違法行為を検出、調査、防止し、MindScript およびその他の権利と財産を保護します。",
+  "medical_advice_requires_person": "健康アドバイスには、資格のある医療提供者による個別の評価が必要です。",
+  "create_an_account_for_anyone_o": "許可なく自分以外の人のアカウントを作成する。",
+  "options": "オプション",
+  "cannot_and_will_not_sue_or_hol": "マインドスクリプトテクノロジーズLLC、その関連会社、役員、取締役、従業員、代理人、またはライセンサーを訴えたり、責任を問うことはできず、また行いません。",
+  "with_your_consent:": "お客様の同意を得た場合:",
+  "add_specialists_to_your_team": "チームに専門家を追加する",
+  "usage_information:": "使用情報:",
+  "any_conduct_or_content_of_any_": "他のユーザーまたは第三者による中傷的、不快、または違法な行為を含むがこれに限定されない、本サービスにおける第三者の行為またはコンテンツ。",
+  "do_not_meet_the_specific_admin": "HIPAAセキュリティルールで義務付けられているPHIの取り扱いに関する特定の管理上、物理的、および技術的な保護要件を満たしていない",
+  "legal@mindscripthealth": "legal@virtualmd.app",
+  "cancel": "キャンセル",
+  "conclusion": "結論",
+  "professional_health_insights_a": "専門家による健康に関する洞察とガイダンス",
+  "cancer_detection": "がん検出",
+  "your_specialist_team_is_empty_": "スペシャリストチームが空です。以下にスペシャリストを追加してください。",
+  "workflow_optimization": "ワークフローの最適化",
+  "select_ai_specialists": "AIスペシャリストを選択",
+  "monitor_and_analyze_trends,_us": "当社のサービスに関連する傾向、使用状況、アクティビティを監視および分析します。",
+  "severability": "分離可能性",
+  "access_to_cardiology_and_neuro": "心臓病専門医と神経科専門医へのアクセス",
+  "searchLanguages": "言語を検索...",
+  "noLanguagesFound": "言語が見つかりません",
+  "you": "あなた",
+  "manageTeam": {
+    "title": "AIヘルスチームの管理（最大{{maxTeamMembers}}人のスペシャリスト）",
+    "currentTeamCount": "現在のチーム ({{current}}/{{max}})",
+    "updatingTeam": "チームを更新しています...",
+    "coordinatorLabel": "（コーディネーター）",
+    "alwaysIncluded": "常に含まれる",
+    "specialistFallback": "スペシャリスト",
+    "emptyTeamMessage": "スペシャリストチームが空です。以下にスペシャリストを追加してください。",
+    "teamFullMessage": "チームの定員が上限に達しました（最大{{maxTeamMembers}}人のスペシャリスト）。別のスペシャリストを追加する場合は、メンバーを削除してください。",
+    "otherSpecialistsTitle": "その他のAIスペシャリスト",
+    "addToTeamTooltip": "チームに追加",
+    "teamFullTooltip": "チームは満員です",
+    "systemSpecialistFallback": "システムスペシャリスト",
+    "noSpecialistsAvailable": "他に追加できるスペシャリストはいません。"
+  },
+  "personas": {
+    "defaultSpecialist": "AIスペシャリスト"
+  },
+  "personaList": {
+    "noSpecialistsFound": "AIスペシャリストが見つかりません。"
+  },
+  "guest": {
+    "user": "ゲストユーザー",
+    "userObject": {
+      "displayName": "ゲストユーザー",
+      "email": "guest@virtualmd.app"
+    },
+    "registration": {
+      "prompt": "完全な AI ヘルス チーム、会話履歴、高度な機能にフルアクセスするには、登録してください。",
+      "dialogTitle": "登録ユーザーは{{specialistName}}にアクセスできます",
+      "dialogDescription": "{{specialistName}} は、当社の総合的なバーチャル医療チームの一員です。",
+      "benefitsTitle": "VirtualMD.app アカウントがあれば、次の特典が得られます。",
+      "benefits": {
+        "access": "60名以上の専門AIヘルスアドバイザーにアクセス",
+        "personalized": "パーソナライズされた健康相談",
+        "saveConversations": "会話を保存して続ける",
+        "uploadImages": "画像をアップロードするか、コンピューター/カメラから直接撮影します",
+        "customTeam": "自分だけのカスタムヘルスチームを構築",
+        "availability": "健康に関する質問に24時間365日対応"
+      },
+      "buttons": {
+        "maybeLater": "後で",
+        "registerNow": "今すぐ登録"
+      }
+    },
+    "registrationRequired": "登録が必要です",
+    "profileRegistrationRequired": "ユーザープロフィール: 登録が必要です",
+    "landing": {
+      "title": "AI健康相談を体験",
+      "subtitle": "AIヘルススペシャリストから健康に関する洞察をすぐに入手できます。完全に無料、登録は不要です。",
+      "whatBringsYou": "今日は何のためにここに来たんですか？",
+      "selectConcern": "共通の懸念事項を選択するか、ご自身の懸念事項を記述してください",
+      "customConcernPlaceholder": "または、自分の言葉で健康上の懸念を説明してください...",
+      "startConsultation": "無料相談を始める",
+      "experienceIncludes": "無料ゲスト体験には以下が含まれます:",
+      "includes": {
+        "messages": "AIヘルススペシャリストへの10のメッセージ",
+        "time": "15分の相談時間",
+        "insights": "専門家による健康に関する洞察とガイダンス"
+      },
+      "personas": {
+        "defaultSpecialist": "AIスペシャリスト",
+        "aileen": {
+          "name": "健康専門家アイリーン・キャロル",
+          "specialty": "家族の健康"
+        },
+        "daniel": {
+          "name": "健康専門家ダニエル・ガルシア",
+          "specialty": "内なる健康"
+        }
+      }
+    },
+    "chat": {
+      "header": "AI健康相談",
+      "messagesLeft": "残り{{count}}件のメッセージ",
+      "timeLeft": "{{残り時間",
+      "startingConsultation": "ご相談が始まります。AIヘルスのスペシャリストがすぐにご返信いたします。",
+      "aiTyping": "AIスペシャリストが入力しています...",
+      "inputPlaceholder": "症状を説明したり、質問したりしてください..."
+    },
+    "expired": {
+      "title": "相談完了",
+      "subtitle": "AI健康相談の威力を体験しました",
+      "messagesUsed": "{{max}} 件中 {{used}} 件のメッセージを使用しました",
+      "continuePrompt": "無制限アクセスを継続しますか?",
+      "createAccount": "無料アカウントを作成",
+      "signIn": "サインイン"
+    },
+    "errors": {
+      "startFailed": "相談を開始できません。もう一度お試しください。",
+      "connectionLost": "接続が失われました。ページを更新してください。",
+      "sendFailed": "メッセージを送信できませんでした。もう一度お試しください。"
+    },
+    "profile": {
+      "age": "25",
+      "gender": "女性",
+      "bloodType": "A+",
+      "height": "5フィート6インチ",
+      "weight": "130ポンド",
+      "conditions": "鉄欠乏性貧血、中等度のうつ病",
+      "medications": "硫酸第一鉄325mg/日、セルトラリン50mg/日",
+      "allergies": "不明",
+      "healthInfo": "ここ6ヶ月、倦怠感とエネルギー不足に悩まされています。かかりつけの医師から鉄欠乏性貧血と診断され、鉄剤を服用しています。また、うつ病にも悩まされており、3ヶ月前から抗うつ薬を服用し始めました。この2つの症状を管理し、全体的なエネルギーレベルを向上させるためのアドバイスをいただければ幸いです。",
+      "emergencyContact": "サラ・ジョンソン（シスター） - (555) 123-4567"
+    },
+    "experience": {
+      "tryItOut": "ぜひ試してみてください。",
+      "noObligation": "義務はありません。",
+      "subtitle": "VirtualMD.app があなたのためにできることのほんの一部です。"
+    }
+  },
+  "aiPrefix": "人工知能",
+  "dashboard": "ダッシュボード",
+  "teamRecommendation": {
+    "submission": {
+      "primaryConcernsLabel": "現在、あなたの健康上の主な懸念は何ですか?",
+      "healthConditionsLabel": "あなたに当てはまる健康状態はどれですか?"
+    },
+    "defaults": {
+      "noneSpecified": "指定なし"
+    }
+  }
+}

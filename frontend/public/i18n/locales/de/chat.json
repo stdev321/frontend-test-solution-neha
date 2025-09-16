@@ -1,0 +1,715 @@
+{
+  "actions": {
+    "startConsultation": "Gesundheitsberatung starten",
+    "endConsultation": "Beratung beenden",
+    "returnToConsultation": "Zurück zur Beratung",
+    "newConversation": "Neue Konversation starten",
+    "saveConversation": "Konversation speichern",
+    "deleteConversation": "Konversation löschen",
+    "getSummary": "Zusammenfassung abrufen",
+    "getTranscript": "Transkript abrufen",
+    "getDifferentialOpinion": "Holen Sie sich eine differenzierte Meinung",
+    "exportChat": "Chat exportieren",
+    "clearChat": "Chat löschen"
+  },
+  "audio": {
+    "aiMuted": "KI stummgeschaltet",
+    "aiUnmuted": "AI-Audio ein",
+    "playbackFailed": "Audio konnte nicht abgespielt werden",
+    "generationFailed": "Sprachausgabe fehlgeschlagen"
+  },
+  "sidebar": {
+    "personaList": "Wählen Sie Ihren Arzt",
+    "conversations": "Meine Gespräche",
+    "profile": "Mein Profil",
+    "settings": "Einstellungen",
+    "manageTeam": "Team verwalten",
+    "teamBuilder": "KI-Team-Builder",
+    "encyclopedia": "Enzyklopädie",
+    "bio": "Beruflicher Werdegang",
+    "clickForBio": "Klicken Sie hier für die Biografie",
+    "clickToSpeak": "Klicken Sie hier, um mit dem Berater zu sprechen",
+    "summary": "Zusammenfassung der Konsultation",
+    "transcript": "Gesprächsprotokoll",
+    "imageContext": "Bildkontext",
+    "newConversation": "Neue Konsultation"
+  },
+  "tooltips": {
+    "audioOnlyRegistered": "Audio nur für registrierte Benutzer verfügbar."
+  },
+  "messages": {
+    "typeMessage": "Geben Sie hier Ihre Nachricht ein...",
+    "send": "Schicken",
+    "thinking": "Denken...",
+    "processing": "Verarbeitung...",
+    "connecting": "Verbinden...",
+    "connected": "Verbunden",
+    "disconnected": "Getrennt",
+    "typing": "{{name}} tippt …",
+    "messageError": "Senden der Nachricht fehlgeschlagen",
+    "retryMessage": "Wiederholen",
+    "requestToSpeak": "Bitte lassen Sie mich mit {{name}} sprechen",
+    "messageDeleted": "Nachricht gelöscht",
+    "systemMessage": "Systemmeldung"
+  },
+  "personas": {
+    "defaultName": "Gesundheitsexpertin Aileen Carol",
+    "defaultSpecialty": "Gesundheitsspezialist",
+    "selectPersona": "Wählen Sie einen Gesundheitsexperten",
+    "noPersonasAvailable": "Keine medizinischen Fachkräfte verfügbar",
+    "personaDetails": "Berufliche Details",
+    "specialization": "Spezialisierung",
+    "experience": "Erfahrung",
+    "education": "Ausbildung",
+    "certifications": "Zertifizierungen",
+    "languages": "Sprachen",
+    "availableNow": "Jetzt verfügbar",
+    "loading": "Profis werden geladen..."
+  },
+  "personaSearch": {
+    "placeholder": "Suchen Sie nach Namen, Fachgebiet oder beschreiben Sie Ihre Symptome (z. B. Kopfschmerzen, Angstzustände).",
+    "selected": "Ausgewählt",
+    "noResults": "Für \"{{query}}\" wurden keine Berater gefunden.",
+    "searchSuggestions": "Versuchen Sie, nach folgenden Suchbegriffen zu suchen: Kopfschmerzen, Angstzustände, Schmerzen, Schlaf, Diabetes usw."
+  },
+  "configurator": {
+    "title": "Neue Gesundheitsberatung starten",
+    "subtitle": "Wählen Sie aus Ihrem AI Health Team",
+    "changeTeam": "Team ändern",
+    "starting": "Start...",
+    "startConsult": "Beratung starten",
+    "emptyTeam": "Ihr AI Health Team ist leer",
+    "addSpecialists": "Fügen Sie Ihrem Team Spezialisten hinzu",
+    "noOtherSpecialists": "Keine anderen Spezialisten in Ihrem Team. Sie können mit AI Health Expert Carol chatten oder",
+    "addSpecialistsLink": "Fügen Sie Ihrem Team Spezialisten hinzu",
+    "defaultPersona": {
+      "name": "KI-Gesundheitsexpertin Aileen Carol",
+      "role": "Mein primärer KI-Gesundheitsberater"
+    },
+    "carolNote": {
+      "title": "Hinweis zur Teilnahme der KI-Gesundheitsexpertin Carol:",
+      "ruleA": "A. Die KI-Gesundheitsexpertin Carol ist enthalten, wenn 0 oder 2+ andere Spezialisten aus Ihrem Team ausgewählt werden.",
+      "ruleB": "B. Die KI-Gesundheitsexpertin Carol ist nicht enthalten, wenn nur 1 anderer Spezialist aus Ihrem Team ausgewählt wird."
+    }
+  },
+  "conversations": {
+    "noConversations": "Noch keine Gespräche",
+    "untitled": "Unbenanntes Gespräch",
+    "today": "Heute",
+    "yesterday": "Gestern",
+    "thisWeek": "Diese Woche",
+    "lastWeek": "Letzte Woche",
+    "older": "Älter",
+    "editTitle": "Titel bearbeiten",
+    "saveTitle": "Titel speichern",
+    "cancelEdit": "Bearbeiten abbrechen",
+    "deleteConsultation": "Konsultation löschen",
+    "clickToReturn": "Klicken Sie hier, um zur Konsultation zurückzukehren",
+    "deleteConfirm": "Möchten Sie diese Konversation wirklich löschen?",
+    "deleteSuccess": "Konversation erfolgreich gelöscht",
+    "loadingConversations": "Unterhaltungen werden geladen …",
+    "conversationError": "Fehler beim Laden der Konversation",
+    "consultationsTitle": "Konsultationen",
+    "lastUpdate": "Letzte Aktualisierung: {{date}}",
+    "consultationDefault": "Beratung {{id}}",
+    "noConsultationsYet": "Noch keine Beratungen.",
+    "noPastConsultations": "Keine früheren Konsultationen gefunden."
+  },
+  "participants": {
+    "noParticipants": "Keine Teilnehmer anzuzeigen.",
+    "inThisConsult": "In dieser virtuellen Beratung:"
+  },
+  "team": {
+    "myTeam": "Mein Gesundheitsteam",
+    "addToTeam": "Zum Team hinzufügen",
+    "removeFromTeam": "Aus dem Team entfernen",
+    "teamFull": "Ihr Team ist voll",
+    "maxTeamSize": "Maximale Teamgröße erreicht ({{max}} Mitglieder)",
+    "currentTeam": "Aktuelle Teammitglieder",
+    "buildTeam": "Bauen Sie Ihr Team auf",
+    "teamRecommendations": "Empfehlungen des KI-Teams",
+    "acceptRecommendation": "Empfehlung akzeptieren",
+    "getRecommendations": "KI-Empfehlungen erhalten",
+    "teamBuilder": "KI-Team-Builder",
+    "addTeamMembersInstruction": "Fügen Sie Teammitglieder hinzu, indem Sie rechts auf eine Karte klicken.",
+    "maxTeamSizeNote": "Maximal fünf KI-Berater können zu Ihrem Team hinzugefügt werden. Sie können Ihr Team jederzeit ändern, jedoch nicht während einer Beratung.",
+    "startConsultationWithTeam": "Starten Sie die Beratung mit Ihrem Team",
+    "manageTeamTitle": "Mein AI Health Team verwalten (Max. {{max}} Spezialisten)",
+    "removeSpecialistToUseTeamBuilder": "Bitte entfernen Sie mindestens einen Spezialisten, um die Teambuilding-Empfehlungen der KI-Gesundheitsexpertin Carol zu nutzen.",
+    "aileenCarolRecommendTeam": "Lassen Sie sich von der KI-Gesundheitsexpertin Carol Ihr Gesundheitsteam empfehlen",
+    "teamFullRemoveToUseBuilder": "Ihr Team ist voll. Bitte entfernen Sie mindestens einen Spezialisten, um die KI-Teambildung zu nutzen.",
+    "yourCurrentTeam": "Ihr aktuelles Team ({{current}}/{{max}})",
+    "updatingTeam": "Team wird aktualisiert …",
+    "coordinator": "Koordinator",
+    "alwaysIncluded": "Immer inklusive",
+    "specialist": "Spezialist",
+    "teamEmptyAddBelow": "Ihr Spezialistenteam ist leer. Fügen Sie unten Spezialisten hinzu.",
+    "teamFullRemoveMember": "Ihr Team ist voll (Max. {{max}} Spezialisten). Bitte entfernen Sie ein Mitglied, wenn Sie einen anderen Spezialisten hinzufügen möchten.",
+    "addMembersClickCard": "Fügen Sie Teammitglieder hinzu, indem Sie im Hauptbereich auf eine Karte klicken",
+    "teamLead": "Teamleiter",
+    "currentMember": "Aktuelles Mitglied",
+    "analyzingNeeds": "Analyse Ihrer Bedürfnisse ...",
+    "emergencyDetected": "🚨 Notfall erkannt",
+    "backToSafety": "Zurück zur Sicherheit",
+    "recommendedTeam": "Empfohlenes Gesundheitsteam",
+    "completeTeam": "Ihr komplettes Team ({{count}} Mitglieder)",
+    "teamLeadReason": "Primärer Gesundheitskoordinator",
+    "keepingMembers": "Aktuelle Teammitglieder (Behalten)",
+    "newRecommendations": "Neue Empfehlungen",
+    "aileenCarolReasoning": "Begründung der KI-Gesundheitsexpertin Carol:",
+    "noMatchingSpecialists": "Für die KI-Empfehlungen wurden keine passenden Spezialisten gefunden. Sie können es erneut versuchen oder Ihr Team manuell zusammenstellen.",
+    "medicalDisclaimerTitle": "Gesundheits- und Wellness-Hinweis:",
+    "medicalDisclaimerText": "Diese Plattform bietet Gesundheitsberatung und -anleitung, kann jedoch keine professionelle medizinische Versorgung ersetzen. Wenden Sie sich bei Notfällen oder ernsthaften gesundheitlichen Problemen immer an qualifiziertes medizinisches Fachpersonal.",
+    "applyingTeam": "Bewerbungsteam...",
+    "acceptTeam": "Akzeptieren Sie dieses Team",
+    "tryDifferent": "Probieren Sie verschiedene Empfehlungen aus",
+    "cancel": "Stornieren",
+    "myVirtualMDTeam": "Mein VirtualMD.app-Team",
+    "availableSpecialists": "Verfügbare AI-Gesundheitsspezialisten",
+    "clickToAddInstruction": "Klicken Sie auf eine Karte, um sie Ihrem Team hinzuzufügen ({{current}}/{{max}} ausgewählt). Ausgewählte Spezialisten werden mit dem Abzeichen „Ausgewählt“ gekennzeichnet.",
+    "teamFullInstruction": "Ihr Team ist voll. Entfernen Sie ein Mitglied, um einen anderen Spezialisten hinzuzufügen.",
+    "selected": "Ausgewählt",
+    "teamFullBadge": "Team voll",
+    "allSpecialistsAdded": "Alle verfügbaren Spezialisten wurden Ihrem Team hinzugefügt.",
+    "otherSpecialists": "Andere Spezialisten",
+    "specialistsCount": "{{count}} Spezialisten",
+    "startTeamConsult": "Teamberatung starten",
+    "starting": "Start...",
+    "myAIHealthTeam": "Mein AI Health Team",
+    "addMembersInstruction": "Fügen Sie Teammitglieder hinzu, indem Sie rechts auf eine Karte klicken."
+  },
+  "specialistCategories": {
+    "diabetesBloodSugar": "Diabetes und Blutzucker",
+    "weightManagement": "Gewichtskontrolle",
+    "mentalHealthStress": "Psychische Gesundheit und Stress",
+    "cancerSupport": "Krebshilfe",
+    "heartHealth": "Herzgesundheit",
+    "painManagement": "Schmerztherapie",
+    "digestiveIssues": "Verdauungsprobleme",
+    "sleepProblems": "Schlafprobleme",
+    "skinProblems": "Hautprobleme",
+    "womensHealth": "Frauengesundheit",
+    "childrensHealth": "Kindergesundheit",
+    "agingSeniorHealth": "Altern und Gesundheit im Alter",
+    "nutritionDiet": "Ernährung & Diät",
+    "allergiesImmuneSystem": "Allergien & Immunsystem",
+    "breathingLungIssues": "Atem- und Lungenprobleme",
+    "sportsFitnessInjuries": "Sport- und Fitnessverletzungen",
+    "easternAlternativeMedicine": "Östliche und alternative Wellness",
+    "cosmeticBeautyMedicine": "Kosmetik & Beauty Wellness",
+    "anxietyHelp": "Hilfe bei Angstzuständen",
+    "medicationPharmacy": "Medikamente & Pharmazie",
+    "primaryCareGeneralHealth": "Primärversorgung und allgemeine Gesundheit",
+    "medicalSpecialties": "Gesundheits- und Wellnessspezialitäten"
+  },
+  "dialogs": {
+    "exitConsultation": "Austrittsberatung",
+    "exitMessage": "Möchten Sie diese Konsultation wirklich beenden?",
+    "saveAndExit": "Speichern und beenden",
+    "exitWithoutSaving": "Beenden ohne Speichern",
+    "cancel": "Stornieren",
+    "confirm": "Bestätigen",
+    "logout": "Ausloggen",
+    "logoutMessage": "Sie befinden sich derzeit in einer Beratung. Durch Abmelden wird diese beendet. Was möchten Sie tun?",
+    "deleteConversation": "Konversation löschen",
+    "deleteMessage": "Diese Aktion kann nicht rückgängig gemacht werden. Sind Sie sicher?",
+    "summarizeFirst": "Möchten Sie vor dem Beenden eine Zusammenfassung erhalten?",
+    "summarizing": "Zusammenfassung wird erstellt ...",
+    "summaryGenerated": "Zusammenfassung erfolgreich erstellt",
+    "doneAlready": "Schon erledigt?",
+    "doneAlreadyMessage": "Wir sind jederzeit für Sie da. Bis dahin: Bleiben Sie gesund und glücklich!",
+    "doneAlreadySignature": "Wir alle (Mensch und KI) bei VirtualMD.app",
+    "exitConsultationButton": "Austrittsberatung",
+    "editTitle": "Konversationstitel bearbeiten",
+    "conversationTitleLabel": "Gesprächstitel",
+    "save": "Speichern",
+    "deleteTitle": "Konversation löschen",
+    "deleteConfirmation": "Möchten Sie die Konversation mit dem Titel „{{title}}“ wirklich löschen?",
+    "delete": "Löschen",
+    "multiDeleteTitle": "Ausgewählte Konsultationen löschen",
+    "multiDeleteConfirmation": "Möchten Sie wirklich {{count}} ausgewählte Beratung(en) löschen? Diese Aktion kann nicht rückgängig gemacht werden.",
+    "deleteSelected": "Auswahl löschen",
+    "addSpecialistTitle": "Spezialisten zum Chat hinzufügen",
+    "addSpecialistError": "Ihre Berater konnten nicht geladen werden.",
+    "noAdvisersToAdd": "Alle Ihre ausgewählten AI Health-Berater sind bereits in diesem Chat oder Ihre Liste ist leer (ausgenommen aktuelle Teilnehmer).",
+    "longRecording": {
+      "title": "Lange Aufnahme pausiert",
+      "message": "Wir können nicht mehr als 30 Sekunden aufnehmen, ohne es zu senden. Was möchten Sie tun?",
+      "delete": "Löschen",
+      "transcribeToText": "In Text transkribieren",
+      "transcribeAndSend": "Transkribieren und senden"
+    },
+    "finishConsultationTitle": "Beratung beenden?",
+    "generatingSummary": "Bitte warten Sie, während wir Ihre Beratungszusammenfassung erstellen …",
+    "finishConsultationMessage": "Dadurch wird die aktive Chat-Sitzung beendet. Sind Sie sicher?",
+    "summarizeAndFinish": "Zusammenfassen und abschließen",
+    "leaveWithoutSummarizing": "Verlassen ohne Zusammenfassung",
+    "summarize": "Zusammenfassen",
+    "moreInfoTitle": "Weitere Informationen erforderlich",
+    "moreInfoMessage": "Dieses Gespräch ist zu kurz, um eine aussagekräftige Zusammenfassung oder eine differenzierte Meinung zu erstellen. Bitte führen Sie die Diskussion fort, bis Sie mindestens 150 Wörter Gesprächsinhalt haben.",
+    "ok": "OK",
+    "deleteSuccessTitle": "Konversation gelöscht",
+    "deleteSuccessMessage": "Ihre Konversation wurde erfolgreich gelöscht.",
+    "logoutTitle": "Es tut uns leid, dass Sie gehen",
+    "aiHealthSpecialist": "Ihr primärer KI-Spezialist für Gesundheit und Wellness",
+    "aileenCarol": "KI-Gesundheitsexpertin Carol",
+    "aiHealthAssistant": "KI-Gesundheitsassistent",
+    "deleteAndExit": "Löschen und beenden",
+    "summaryTitle": "Zusammenfassung der Konsultation",
+    "consultationTitle": "VirtualMD-Beratung: {{title}}",
+    "summaryUnavailable": "Die Zusammenfassung wird generiert oder ist nicht verfügbar.",
+    "print": "Drucken",
+    "copy": "Kopie",
+    "close": "Schließen",
+    "shortConv": {
+      "title": "Gespräch beendet",
+      "messageLine1": "Das Gespräch ist beendet. Es ist zu kurz, um es zu speichern, aber kommen Sie bald wieder.",
+      "messageLine2": "Bis dahin, bleiben Sie gesund und glücklich."
+    }
+  },
+  "errors": {
+    "connectionError": "Verbindungsfehler. Bitte überprüfen Sie Ihre Internetverbindung.",
+    "serverError": "Serverfehler. Bitte versuche es später noch einmal.",
+    "authenticationError": "Authentifizierung fehlgeschlagen. Bitte melden Sie sich erneut an.",
+    "messageFailedToSend": "Senden der Nachricht fehlgeschlagen",
+    "loadingFailed": "Inhalt konnte nicht geladen werden",
+    "personaUnavailable": "Dieser Gesundheitsexperte ist derzeit nicht verfügbar",
+    "conversationNotFound": "Konversation nicht gefunden",
+    "permissionDenied": "Sie haben keine Berechtigung, auf diese Unterhaltung zuzugreifen",
+    "failedToLogin": "Anmeldung fehlgeschlagen.",
+    "failedToRegister": "Registrierung fehlgeschlagen.",
+    "failedToLogout": "Abmeldung fehlgeschlagen.",
+    "emailAlreadyTaken": "Diese E-Mail-Adresse ist bereits vergeben. Bitte versuchen Sie es mit einer anderen oder melden Sie sich an.",
+    "anErrorOccurred": "Ein Fehler ist aufgetreten.",
+    "selectImageFile": "Bitte wählen Sie eine Bilddatei aus.",
+    "failedToSaveProfile": "Profil konnte nicht gespeichert werden. Bitte versuchen Sie es erneut.",
+    "teamIsFull": "Ihr Team ist voll (Max. {{max}} Spezialisten). Bitte entfernen Sie ein Mitglied, wenn Sie einen anderen Spezialisten hinzufügen möchten.",
+    "selectOneSpecialist": "Bitte wählen Sie für eine private Beratung nur einen Spezialisten aus.",
+    "contactErrorMessage": "Beim Senden Ihrer Nachricht ist ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal oder",
+    "contactDirectlyAt": "Sie können uns auch direkt eine E-Mail an info@virtualmd.app senden."
+  },
+  "welcome": {
+    "title": "Willkommen bei VirtualMD.app",
+    "subtitle": "Starten Sie Ihre persönliche Gesundheitsberatung",
+    "description": "Wählen Sie aus unserem Team von KI-gestützten Gesundheitsberatern, um personalisierte Einblicke und Anleitungen zum Thema Wellness zu erhalten.",
+    "getStarted": "Erste Schritte",
+    "chooseSpecialist": "Wählen Sie Ihren Spezialisten",
+    "startWithTeam": "Beginnen Sie mit „Mein Team“",
+    "howItWorks": "So funktioniert es",
+    "aileenCarolName": "KI-Gesundheitsexpertin Aileen Carol",
+    "danielGarciaName": "KI-Gesundheitsexperte Daniel Garcia",
+    "greeting": "Hallo, {{username}}. Schön, Sie zu sehen! Ihr VirtualMD-Team ist rund um die Uhr für Sie da ...",
+    "startTeamConsultation": "Teamberatung starten",
+    "configureNewChat": "Neuen Chat konfigurieren",
+    "encyclopedia": "VirtualMD.app Enzyklopädie",
+    "myAIHealthTeam": "Mein AI Health Team",
+    "aileenCarolIntro": "Hallo, ich bin AI-Gesundheitsexpertin Aileen Carol. Wie kann ich Ihnen heute helfen?",
+    "persona_welcome_message": "Hallo, ich helfe Ihnen gerne bei Ihren Gesundheits- und Wellnessbedürfnissen. Wie kann ich Ihnen heute helfen?"
+  },
+  "imageUpload": {
+    "dragAndDrop": "Ziehen Sie Bilder hierher oder klicken Sie, um sie auszuwählen",
+    "supportedFormats": "Unterstützte Formate: JPG, PNG, GIF",
+    "maxSize": "Maximale Größe: {{size}}MB",
+    "uploadSuccess": "Bild erfolgreich hochgeladen",
+    "uploadError": "Das Hochladen des Bildes ist fehlgeschlagen.",
+    "processing": "Bild wird verarbeitet...",
+    "removeImage": "Bild entfernen",
+    "addToContext": "Zum Konversationskontext hinzufügen"
+  },
+  "voice": {
+    "startRecording": "Sprachaufnahme starten",
+    "stopRecording": "Aufnahme beenden",
+    "recording": "Aufnahme...",
+    "processingSpeech": "Sprache verarbeiten...",
+    "speechToText": "Sprache in Text umwandeln ...",
+    "noSpeechDetected": "Keine Sprache erkannt",
+    "microphoneError": "Mikrofonzugriffsfehler",
+    "unsupportedBrowser": "Sprachaufzeichnung wird in diesem Browser nicht unterstützt"
+  },
+  "summary": {
+    "title": "Zusammenfassung der Konsultation",
+    "keyPoints": "Wichtige Punkte",
+    "recommendations": "Empfehlungen",
+    "nextSteps": "Nächste Schritte",
+    "followUp": "Nachverfolgen",
+    "generating": "Zusammenfassung wird erstellt ...",
+    "noSummary": "Keine Zusammenfassung verfügbar",
+    "summaryError": "Zusammenfassung konnte nicht erstellt werden",
+    "downloadSummary": "Zusammenfassung herunterladen",
+    "emailSummary": "E-Mail-Zusammenfassung",
+    "return": "Zurückkehren",
+    "transcript": "Transkript",
+    "print": "Drucken",
+    "copy": "Kopie",
+    "copyError": "Kopieren fehlgeschlagen",
+    "notGenerated": "Zusammenfassung konnte nicht erstellt werden."
+  },
+  "status": {
+    "online": "Online",
+    "offline": "Offline",
+    "away": "Weg",
+    "busy": "Beschäftigt",
+    "available": "Verfügbar",
+    "unavailable": "Nicht verfügbar",
+    "lastSeen": "Zuletzt gesehen {{time}}"
+  },
+  "mobileTeamBuilder": {
+    "title": {
+      "yourTeam": "Ihr Team",
+      "teamBuilder": "KI-Team-Builder"
+    },
+    "carolMessages": {
+      "teamFull": "{{name}}, Ihr Team ist voll! Sie können eine Beratung mit Ihrem aktuellen Team beginnen oder einige Mitglieder entfernen, um neue Empfehlungen zu erhalten.",
+      "helpBuild": "{{name}}, ich helfe Ihnen gerne beim Aufbau Ihres perfekten Gesundheitsteams! Erzählen Sie mir, was Sie heute hierher führt."
+    },
+    "carolGreeting": {
+      "teamFull": "Hallo {{name}}! Ihr Team ist voll.",
+      "helpBuild": "Hallo {{name}}! Ich helfe Ihnen, Ihr perfektes Gesundheitsteam zusammenzustellen."
+    },
+    "currentTeam": "Aktuelles Team ({{current}}/{{max}})",
+    "aiSpecialist": "KI {{name}}",
+    "specialist": "Spezialist",
+    "startConversation": "Beginnen Sie eine Unterhaltung mit diesem Team",
+    "tellUsWhy": "Sagen Sie uns, warum Sie heute hier sind, damit wir Ihr perfektes Gesundheitsteam zusammenstellen können.",
+    "placeholder": "Beschreiben Sie Ihre gesundheitlichen Bedenken, Symptome oder wofür Sie Hilfe benötigen ...",
+    "questionnaire": {
+      "question": "Was führt Sie heute hierher?",
+      "keepExisting": "Bestehende Teammitglieder behalten?",
+      "existingMembers": "Bestehende Teammitglieder",
+      "currentSize": "Aktuelle Teamgröße",
+      "availableSpots": "Freie Plätze für neue Fachkräfte",
+      "maxRecommendations": "Maximal zulässige Empfehlungen"
+    }
+  },
+  "mobileNavigationTabs": {
+    "consultation": "Beratung",
+    "team": "Team",
+    "history": "Geschichte",
+    "encyclopedia": "Enzyklopädie"
+  },
+  "autoListening": {
+    "turnOn": "Automatisches Abhören aktivieren",
+    "turnOff": "Automatisches Abhören deaktivieren"
+  },
+  "speech": {
+    "processing": "Sprachverarbeitung",
+    "pauseListening": "Klicken Sie hier, um die Wiedergabe zu unterbrechen",
+    "turnOnListening": "Klicken Sie hier, um das Zuhören zu aktivieren"
+  },
+  "help": {
+    "howDoesThisWork": "Wie funktioniert das?",
+    "chatControls": "Chat-Steuerelemente",
+    "enterToSend": "Eingabe oder ▷ zum Senden",
+    "shiftEnterToSpeak": "Umschalt+Eingabe oder 🎤/⏸ zum Sprechen/Pausieren"
+  },
+  "fileUpload": {
+    "clickToUpload": "Klicken Sie hier, um die Datei hochzuladen (Sie können Dateien auch in den Chat ziehen)."
+  },
+  "send": {
+    "transcribeAndSend": "Transkribieren und senden",
+    "sendMessage": "Nachricht senden"
+  },
+  "aileenCarol": {
+    "playAnalysis": "Spielen Sie die Analyse der Gesundheitsexpertin Carol ab",
+    "stopAnalysis": "Analyse der Stop-Health-Expertin Carol"
+  },
+  "profile": {
+    "editProfile": "Profil bearbeiten",
+    "saveChanges": "Änderungen speichern",
+    "cancelEdits": "Änderungen abbrechen",
+    "changePhoto": "Foto ändern",
+    "removePhoto": "Foto entfernen",
+    "healthInfoTooltip": "Bitte schreiben oder listen Sie Medikamente, Diagnosen, Nahrungsergänzungsmittel und andere wichtige gesundheitsbezogene Informationen über Sie auf.",
+    "loadingProfile": "Profil wird geladen...",
+    "errorLoadingProfile": "Fehler beim Laden des Profils",
+    "noProfileData": "Keine Profildaten verfügbar.",
+    "myProfile": "Mein Profil",
+    "myAccount": "Mein Konto",
+    "displayName": "Anzeigename",
+    "fullName": "Vollständiger Name",
+    "email": "E-Mail",
+    "emailCannotBeChanged": "E-Mail kann nicht geändert werden.",
+    "keyHealthInfo": "Wichtige Gesundheitsinformationen",
+    "noHealthInfoRecorded": "Keine wichtigen Gesundheitsinformationen aufgezeichnet.",
+    "healthInfoPlaceholder": "Listen Sie Medikamente, Diagnosen, Nahrungsergänzungsmittel usw. auf.",
+    "age": "Alter",
+    "gender": "Geschlecht"
+  },
+  "imageContext": {
+    "clearZoom": "Diese Zoomauswahl löschen",
+    "cropPromotionError": "Das Senden und Hinzufügen des vergrößerten Bilds ist fehlgeschlagen. Überprüfen Sie die Konsole.",
+    "startConversationToSend": "Starten Sie eine Konversation, um Zoom zu senden",
+    "sendZoomToTeam": "Senden Sie diesen Zoom an das Team",
+    "noActiveZoom": "Kein aktiver Zoom zum Senden. Bitte wählen Sie einen Bereich auf einem Bild aus.",
+    "functionsUnavailable": "Zoom kann nicht gesendet werden: Wichtige Funktionen nicht verfügbar.",
+    "noImages": "Keine Bilder im Kontext. Laden Sie zunächst ein Bild hoch.",
+    "allHidden": "Alle Bilder sind derzeit ausgeblendet. Klicken Sie auf ein Miniaturbild in der Kopfzeile, um ein Bild anzuzeigen.",
+    "showFirst": "Erstes Bild anzeigen",
+    "imageDisplay": "Bildanzeige ({{shown}} angezeigt / {{total}} gesamt)",
+    "hideImage": "Bild ausblenden",
+    "showImage": "Bild anzeigen",
+    "zoomPreview": "Zoom-Vorschau",
+    "sendToTeam": "An Team senden",
+    "dragToZoom": "Klicken und ziehen Sie auf ein Bild oben, um einen neuen Zoombereich auszuwählen."
+  },
+  "mobileChat": {
+    "healthConsult": "Gesundheitsberatung",
+    "speakToAI": "Sprich mit {{name}}",
+    "startConversation": "Starten Sie unten Ihr Gespräch",
+    "requestToSpeakToAI": "Ich möchte mit {{name}} sprechen"
+  },
+  "mobileWelcome": {
+    "greeting": "Hallo!",
+    "aileenCarolIntro": "Ich bin AI Aileen Carol, Ihre Gesundheitsspezialistin. Ich freue mich darauf, Sie kennenzulernen. Ich leite Ihr VirtualMD.app AI-Team von Gesundheitsexperten. Wir sind rund um die Uhr für Sie da ...",
+    "startConsultation": "Gesundheitsberatung starten",
+    "myTeam": "Mein Team",
+    "aiTeamBuilder": "KI-Gesundheitsexpertin Carol hilft Ihnen bei der Auswahl Ihres Teams",
+    "priorConsultations": "Vorherige Konsultationen",
+    "encyclopedia": "Enzyklopädie",
+    "myProfile": "Mein Profil",
+    "logout": "Ausloggen",
+    "labels": {
+      "chat": "Chat",
+      "advisory": "Hinweis",
+      "encyclopedia": "Enzyklopädie",
+      "myTeam": "Mein Team",
+      "history": "Geschichte",
+      "myProfile": "Mein Profil"
+    }
+  },
+  "mobileInput": {
+    "listeningPlaceholder": "Zuhören... jetzt sprechen",
+    "typePlaceholder": "Geben Sie eine Nachricht ein...",
+    "clear": "Klar",
+    "needHelp": "Benötigen Sie Hilfe?",
+    "takePhoto": "Foto aufnehmen"
+  },
+  "mobileConsultations": {
+    "title": "Vorherige Konsultationen",
+    "selectAll": "Alles auswählen",
+    "deselectAll": "Auswahl aufheben",
+    "deleteSelected": "Auswahl löschen ({{count}})",
+    "consultationDefault": "Beratung {{id}}",
+    "lastUpdate": "Letzte Aktualisierung: {{date}}",
+    "noUpdates": "Noch keine Updates",
+    "editTitle": "Konversationstitel bearbeiten",
+    "enterNewTitle": "Neuen Titel eingeben:",
+    "noConsultations": "Noch keine Beratungen."
+  },
+  "mobileProfile": {
+    "title": "Mein Profil",
+    "saveError": "Profil konnte nicht gespeichert werden",
+    "saveSuccess": "Profil aktualisiert!",
+    "changePhoto": "Foto ändern",
+    "displayName": "Anzeigename",
+    "fullName": "Vollständiger Name",
+    "email": "E-Mail",
+    "keyHealthInfo": "Wichtige Gesundheitsinformationen",
+    "logout": "Ausloggen"
+  },
+  "mobileNavigation": {
+    "consultation": "Beratung",
+    "team": "Team",
+    "history": "Geschichte",
+    "exitConsultation": "Austrittsberatung",
+    "myTeam": "Mein Team",
+    "summary": "Zusammenfassung",
+    "differentialOpinion": "Unterschiedliche Meinungen",
+    "transcript": "Transkript",
+    "encyclopedia": "Enzyklopädie",
+    "controls": "Steuerungen",
+    "aiSpeaker": "KI-Lautsprecher",
+    "enabled": "Ermöglicht",
+    "disabled": "Deaktiviert",
+    "camera": "Kamera",
+    "comingSoon": "Demnächst verfügbar",
+    "menu": "Speisekarte"
+  },
+  "bioPanel": {
+    "loadingBio": "Biografie wird geladen...",
+    "noBiography": "Keine Biografie verfügbar.",
+    "returnToPanel": "Zurück zum Panel"
+  },
+  "sidebarHeader": {
+    "panel": "Panel",
+    "summary": "Zusammenfassung",
+    "differentialOpinion": "Unterschiedliche Meinungen",
+    "transcript": "Transkript",
+    "encyclopedia": "VirtualMD.app Enzyklopädie",
+    "endConversation": "Gespräch beenden",
+    "startChatWithTeam": "Chat mit dem Team starten",
+    "configureNewChat": "Neuen Chat konfigurieren",
+    "myAIHealthTeam": "Mein AI Health Team",
+    "aileenCarolTeamBuilder": "Gesundheitsexpertin Carol hilft Ihnen beim Aufbau Ihres Teams.",
+    "savedConsultations": "Gespeicherte Konsultationen",
+    "myProfile": "Mein Profil",
+    "imageNumber": "Bild {{number}}"
+  },
+  "differentialOpinion": {
+    "noOpinionAvailable": "Keine abweichende Meinung vorhanden."
+  },
+  "encyclopedia": {
+    "title": "VirtualMD.app Enzyklopädie",
+    "loadingMessage": "Wir recherchieren derzeit intensiv zu diesem Thema für Sie. Bitte warten Sie einige Sekunden auf Ihre Antwort.",
+    "longWaitMessage": "Die detaillierte Beantwortung kann einige Minuten dauern.",
+    "searchButton": "Enzyklopädie durchsuchen",
+    "return": "Zurückkehren",
+    "print": {
+      "button": "Drucken",
+      "title": "Enzyklopädie-Suchergebnis",
+      "subtitle": "VirtualMD.app Enzyklopädie"
+    },
+    "copy": "Kopie",
+    "searchResult": "Enzyklopädie-Suchergebnis",
+    "attribution": "Antwort von VirtualMD.app",
+    "emptyState": "Geben Sie oben eine Abfrage ein, um die VirtualMD.app-Enzyklopädie zu durchsuchen.",
+    "copySuccess": "Inhalt in die Zwischenablage kopiert!",
+    "copyError": "Kopieren in die Zwischenablage fehlgeschlagen",
+    "generatingResponse": "Umfassende Antwort generieren ...",
+    "genericError": "Ein Fehler ist aufgetreten",
+    "translatingContent": "Inhalt wird übersetzt..."
+  },
+  "input": {
+    "typeOrSpeakPlaceholder": "Geben Sie Ihre Nachricht ein oder sprechen Sie sie ...\nDrücken Sie die Eingabetaste oder klicken Sie auf ▷, um sie zu senden.",
+    "typePlaceholder": "Geben Sie hier Ihre Nachricht ein...\nDrücken Sie die Eingabetaste oder klicken Sie auf ▷, um zu senden.",
+    "transcribing": "Transkribieren...",
+    "enterTextHere": "Text hier eingeben",
+    "startTypingMessage": "Beginnen Sie mit der Eingabe Ihrer Nachricht in das Feld unten, um Ihre Beratung zu starten."
+  },
+  "quickActions": {
+    "whatToDoButton": "Was soll ich tun?",
+    "summaryButton": "Zusammenfassung",
+    "whatShouldIDo": "Was sollte ich jetzt auf Grundlage der besprochenen Punkte tun? Bitte geben Sie klare, umsetzbare Empfehlungen.",
+    "requestSummary": "Bitte geben Sie eine umfassende Zusammenfassung unseres bisherigen Gesprächs, einschließlich der wichtigsten besprochenen Punkte, der ausgesprochenen Empfehlungen und der nächsten Schritte."
+  },
+  "upload": {
+    "uploading": "Hochladen…"
+  },
+  "camera": {
+    "notSupported": "Der Kamerazugriff wird in diesem Browser nicht unterstützt",
+    "capturePhoto": "Foto aufnehmen",
+    "accessDenied": "Kamerazugriff verweigert. Bitte erlauben Sie den Kamerazugriff in Ihren Browsereinstellungen.",
+    "accessFailed": "Zugriff auf die Kamera fehlgeschlagen"
+  },
+  "microphone": {
+    "turnOn": "Mikrofon einschalten",
+    "turnOff": "Mikrofon ausschalten"
+  },
+  "specialistPanel": {
+    "guidanceSingle": "Wählen Sie einen KI-Spezialisten für eine private Beratung:",
+    "guidanceMulti": "KI-Gesundheitsexpertin Carol ist immer dabei. Wählen Sie zusätzliche KI-Gesundheitsberater:",
+    "startPrivateConsult": "Private Beratung starten",
+    "startChat": "Chat starten",
+    "selectSingle": "KI-Spezialisten auswählen",
+    "selectMulti": "Wählen Sie zusätzliche Berater aus",
+    "warningSelectOne": "Bitte wählen Sie für eine private Beratung nur einen Spezialisten aus.",
+    "noSpecialistsAvailable": "Derzeit sind keine KI-Spezialisten für eine private Beratung verfügbar.",
+    "noAdvisersAvailable": "Keine weiteren AI-Gesundheitsberater verfügbar."
+  },
+  "sidebarFooter": {
+    "disclaimerText": "VirtualMD.app ist um Genauigkeit bemüht. Dieser und jeder KI-basierte Dienst können jedoch falsche Informationen liefern. Wenden Sie sich immer an einen qualifizierten Arzt.",
+    "emergencyText": "Rufen Sie bei medizinischen Notfällen die Notrufnummer 911 an.",
+    "moreInformation": "Weitere Informationen"
+  },
+  "teamBuilder": {
+    "healthConditions": {
+      "options": {
+        "${key}": "{{Schlüssel}}"
+      }
+    },
+    "medicinePreferences": {
+      "options": {
+        "${key}": "{{Schlüssel}}"
+      }
+    }
+  },
+  "account": {
+    "title": "Kontoeinstellungen",
+    "description": "Von hier aus können Sie Ihr VirtualMD.app-Konto dauerhaft löschen. Dadurch werden Ihr Profil und alle Konsultationen gelöscht.",
+    "deleteMyAccount": "Mein Konto löschen",
+    "confirmDeleteTitle": "Konto löschen",
+    "confirmDeleteText": "Diese Aktion ist unwiderruflich. Alle Ihre Profilinformationen, Konsultationen und Dateien werden dauerhaft gelöscht. Möchten Sie wirklich fortfahren?",
+    "cancel": "Stornieren",
+    "yesDelete": "Ja, löschen"
+  },
+  "transcript": {
+    "noTranscript": "Kein Transkript verfügbar.",
+    "title": "Konsultationsprotokoll",
+    "returnToConversation": "Zurück zur Konversation",
+    "print": "Drucken",
+    "copy": "Kopie",
+    "copyError": "Kopieren fehlgeschlagen",
+    "roleLabels": {
+      "patient": "Benutzer:",
+      "assistant": "Assistent:"
+    }
+  },
+  "mobileRouter": {
+    "teamRecommendations": "Teamempfehlungen",
+    "myTeam": "Mein Team",
+    "summary": "Zusammenfassung",
+    "differentialOpinion": "Unterschiedliche Meinungen",
+    "transcript": "Transkript",
+    "encyclopedia": "Enzyklopädie",
+    "consultations": "Konsultationen",
+    "returnToChat": "Zurück zum Chat",
+    "pleaseLogIn": "Bitte melden Sie sich an",
+    "logInToView": "Melden Sie sich an, um Ihre Unterhaltungen anzuzeigen oder eine neue zu beginnen.",
+    "logIn": "Einloggen",
+    "loadingSpecialists": "Spezialisten werden geladen..."
+  },
+  "chat": {
+    "pleaseLogIn": "Bitte melden Sie sich an",
+    "logInToView": "Melden Sie sich an, um Ihre Unterhaltungen anzuzeigen oder eine neue zu beginnen."
+  },
+  "loginPage": {
+    "signIn": "anmelden"
+  },
+  "imageProcessing": {
+    "preset": "Vorgabe",
+    "applyPreset": "Vorgabe auf fokussiertes Bild anwenden",
+    "process": "Verfahren",
+    "revertFocus": "Fokussieren Sie erneut auf das Originalbild",
+    "revert": "Zurücksetzen"
+  },
+  "guest": {
+    "consultation": "Gästeberatung",
+    "topics": {
+      "child": {
+        "title": "Mein Kind ist krank",
+        "subtitle": "Kompetente Kinderbetreuung, wenn Sie sie am meisten brauchen",
+        "initialMessage": "Ich bin KI Aileen Carol, Ihre virtuelle Gesundheitsberaterin. Ich weiß, wie beunruhigend ein krankes Kind sein kann. Erzählen Sie mir, was los ist. Hinweis: Ich bin eine KI, kein Mensch. Meine Ratschläge können falsch sein – fragen Sie qualifiziertes medizinisches Fachpersonal."
+      },
+      "sleep": {
+        "title": "Ich kann nicht schlafen!",
+        "subtitle": "Erfrischen Sie Ihre Nächte, verwandeln Sie Ihre Tage",
+        "initialMessage": "Ich bin KI Aileen Carol, Ihre virtuelle Gesundheitsberaterin, zusammen mit den Schlafspezialisten Benjamin Stein (Psychiatrie) und Alice Chen (Neurologie). Teilen Sie uns Ihre Schlafprobleme mit, damit wir Ihnen helfen können. Hinweis: Wir sind KIs, keine Menschen. Unsere Ratschläge können falsch sein – lassen Sie sich von einem qualifizierten (menschlichen) Arzt bestätigen."
+      },
+      "nutrition": {
+        "title": "Ernährung für Vitalität",
+        "subtitle": "Steigern Sie Ihre Energie, Ihr Wohlbefinden und Ihre sexuelle Gesundheit durch Ernährung",
+        "initialMessage": "Ich bin KI Aileen Carol, Ihre virtuelle Gesundheitsberaterin, und bin hier mit Ihrem Team – KI Angelica Fordham (Ernährung), KI Rachel Levy (Sexualtherapie) und KI Amina Okufur (afrikanische Kräuterkundlerin). Wie geht es Ihnen heute? Hinweis: Wir sind KI, keine Menschen. Ratschläge können falsch sein – lassen Sie sich von einem qualifizierten Arzt bestätigen."
+      }
+    },
+    "errors": {
+      "sessionFailed": "Gastsitzung konnte nicht gestartet werden"
+    },
+    "registrationRequired": "Anmeldung erforderlich",
+    "uploadFeatures": {
+      "title": "Funktionen zum Hochladen von Dokumenten und Bildern",
+      "description": "Unsere Plattform bietet leistungsstarke Funktionen zur Dokument- und Bildanalyse, mit denen Sie:",
+      "benefit1": "Gesundheitsdokumente, Laborberichte und Bilder hochladen",
+      "benefit2": "Zoomen Sie für eine detaillierte Analyse auf bestimmte Bereiche",
+      "benefit3": "Lassen Sie Ihre Unterlagen von unseren KI-Gesundheitsberatern bewerten und besprechen",
+      "benefit4": "Machen Sie Fotos direkt mit Ihrer Kamera zur sofortigen Beratung",
+      "registeredOnly": "Diese Sonderfunktionen stehen registrierten Benutzern zur Verfügung."
+    }
+  },
+  "activeChat": {
+    "guestMode": {
+      "advisorsTitle": "VirtualMD.app Gesundheitsberater",
+      "registrationRequired": "Anmeldung erforderlich"
+    }
+  },
+  "healthAdvisors": "VirtualMD.app Gesundheitsberater"
+}

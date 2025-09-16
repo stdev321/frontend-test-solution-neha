@@ -1,0 +1,2425 @@
+{
+  "generated": "2025-08-25T13:06:33.905Z",
+  "summary": {
+    "total": 338,
+    "byCategory": {
+      "noTranslation": {
+        "count": 338,
+        "name": "🚫 No Translation (Pure Literal Strings)",
+        "description": "Text that has no translation at all"
+      },
+      "mixedContent": {
+        "count": 0,
+        "name": "⚠️  Mixed Content (Text + Translation)",
+        "description": "Text mixed with t() calls - partial translation"
+      },
+      "templateLiterals": {
+        "count": 0,
+        "name": "📝 Template Literals with Translations",
+        "description": "Template strings containing translations"
+      },
+      "attributeText": {
+        "count": 0,
+        "name": "🏷️  Attribute Text",
+        "description": "Hardcoded text in HTML attributes"
+      }
+    }
+  },
+  "issues": {
+    "noTranslation": {
+      "name": "🚫 No Translation (Pure Literal Strings)",
+      "color": "\u001b[31m",
+      "pattern": {},
+      "examples": [
+        {
+          "file": "src/components/IntroductoryPopup.jsx",
+          "line": 363,
+          "column": 86,
+          "message": "disallow literal string: <Typography sx={{ color: '#27A9E0', fontSize: '0.9rem' }}>★</Typography>",
+          "source": "<Typography sx={{ color: '#27A9E0', fontSize: '0.9rem' }}>★</Typography>"
+        },
+        {
+          "file": "src/components/IntroductoryPopup.jsx",
+          "line": 371,
+          "column": 86,
+          "message": "disallow literal string: <Typography sx={{ color: '#27A9E0', fontSize: '0.9rem' }}>★</Typography>",
+          "source": "<Typography sx={{ color: '#27A9E0', fontSize: '0.9rem' }}>★</Typography>"
+        },
+        {
+          "file": "src/components/IntroductoryPopup.jsx",
+          "line": 379,
+          "column": 86,
+          "message": "disallow literal string: <Typography sx={{ color: '#27A9E0', fontSize: '0.9rem' }}>★</Typography>",
+          "source": "<Typography sx={{ color: '#27A9E0', fontSize: '0.9rem' }}>★</Typography>"
+        },
+        {
+          "file": "src/components/IntroductoryPopup.jsx",
+          "line": 387,
+          "column": 86,
+          "message": "disallow literal string: <Typography sx={{ color: '#27A9E0', fontSize: '0.9rem' }}>★</Typography>",
+          "source": "<Typography sx={{ color: '#27A9E0', fontSize: '0.9rem' }}>★</Typography>"
+        },
+        {
+          "file": "src/components/PersonaSelection.js",
+          "line": 73,
+          "column": 21,
+          "message": "disallow literal string: <Typography>Error loading personas: {error}</Typography>",
+          "source": "<Typography>Error loading personas: {error}</Typography>"
+        },
+        {
+          "file": "src/components/PersonaSelection.js",
+          "line": 80,
+          "column": 45,
+          "message": "disallow literal string: <Typography variant=\"h6\" gutterBottom>\n        Select AI Personas for Your Conversation\n      </Typography>",
+          "source": "<Typography variant=\"h6\" gutterBottom>"
+        },
+        {
+          "file": "src/components/PersonaSelection.js",
+          "line": 83,
+          "column": 73,
+          "message": "disallow literal string: <Typography variant=\"body2\" color=\"text.secondary\" sx={{ mb: 2 }}>\n        Choose one or more AI personas to include in this conversation.\n      </Typography>",
+          "source": "<Typography variant=\"body2\" color=\"text.secondary\" sx={{ mb: 2 }}>"
+        },
+        {
+          "file": "src/pages/FAQPage.jsx",
+          "line": 129,
+          "column": 12,
+          "message": "disallow literal string: <Typography variant=\"h3\" component=\"h1\" gutterBottom sx={{ \n          fontWeight: 700,\n          fontSize: { xs: '2rem', sm: '2.5rem', md: '3rem' },\n          color: theme.palette.primary.main,\n          mb: 2,\n          textAlign: 'center',\n        }}>\n          Frequently Asked Questions\n        </Typography>",
+          "source": "}}>"
+        },
+        {
+          "file": "src/pages/FAQPage.jsx",
+          "line": 138,
+          "column": 12,
+          "message": "disallow literal string: <Typography variant=\"h6\" sx={{ \n          mb: 4,\n          textAlign: 'center',\n          color: theme.palette.text.secondary,\n          fontSize: { xs: '1rem', sm: '1.1rem', md: '1.25rem' }\n        }}>\n          Find answers to common questions about VirtualMD.app\n        </Typography>",
+          "source": "}}>"
+        },
+        {
+          "file": "src/pages/FAQPage.jsx",
+          "line": 202,
+          "column": 81,
+          "message": "disallow literal string: <Typography variant=\"h5\" gutterBottom sx={{ fontWeight: 600, mb: 2 }}>\n            Still have questions?\n          </Typography>",
+          "source": "<Typography variant=\"h5\" gutterBottom sx={{ fontWeight: 600, mb: 2 }}>"
+        },
+        {
+          "file": "src/pages/FAQPage.jsx",
+          "line": 205,
+          "column": 91,
+          "message": "disallow literal string: <Typography variant=\"body1\" sx={{ mb: 3, color: theme.palette.text.secondary }}>\n            Can't find the answer you're looking for? Our support team is here to help.\n          </Typography>",
+          "source": "<Typography variant=\"body1\" sx={{ mb: 3, color: theme.palette.text.secondary }}>"
+        },
+        {
+          "file": "src/pages/FAQPage.jsx",
+          "line": 215,
+          "column": 14,
+          "message": "disallow literal string: <Button\n              variant=\"contained\"\n              color=\"primary\"\n              size=\"large\"\n              onClick={() => navigate('/contact')}\n              sx={{ minWidth: 150 }}\n            >\n              Contact Us\n            </Button>",
+          "source": ">"
+        },
+        {
+          "file": "src/pages/FAQPage.jsx",
+          "line": 224,
+          "column": 14,
+          "message": "disallow literal string: <Button\n              variant=\"outlined\"\n              color=\"primary\"\n              size=\"large\"\n              onClick={() => navigate('/guest-chat')}\n              sx={{ minWidth: 150 }}\n            >\n              Try Guest Chat\n            </Button>",
+          "source": ">"
+        },
+        {
+          "file": "src/pages/FAQPage.jsx",
+          "line": 236,
+          "column": 12,
+          "message": "disallow literal string: <Button\n            variant=\"text\"\n            color=\"primary\"\n            onClick={() => navigate('/')}\n            sx={{ fontSize: '0.95rem' }}\n          >\n            ← Back to Home\n          </Button>",
+          "source": ">"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 89,
+          "column": 71,
+          "message": "disallow literal string: <Typography variant=\"h6\" sx={{ px: 3, mb: 2, fontWeight: 600 }}>\n        Contents\n      </Typography>",
+          "source": "<Typography variant=\"h6\" sx={{ px: 3, mb: 2, fontWeight: 600 }}>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 199,
+          "column": 14,
+          "message": "disallow literal string: <Typography variant=\"h2\" component=\"h1\" gutterBottom sx={{ \n            fontWeight: 700,\n            fontSize: { xs: '2rem', sm: '2.5rem', md: '3rem' },\n            color: theme.palette.primary.main,\n            mb: 4,\n            textAlign: 'center',\n          }}>\n            How to Use VirtualMD.app\n          </Typography>",
+          "source": "}}>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 207,
+          "column": 14,
+          "message": "disallow literal string: <Typography variant=\"h6\" sx={{ \n            mb: 6,\n            textAlign: 'center',\n            color: theme.palette.text.secondary,\n          }}>\n            Your comprehensive guide to AI-powered healthcare consultations\n          </Typography>",
+          "source": "}}>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 214,
+          "column": 67,
+          "message": "disallow literal string: <Typography variant=\"h4\" gutterBottom sx={{ fontWeight: 600, mb: 3 }}>\n              <ChatIcon sx={{ mr: 2, verticalAlign: 'bottom' }} />\n              Getting Started\n            </Typography>",
+          "source": "<ChatIcon sx={{ mr: 2, verticalAlign: 'bottom' }} />"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 217,
+          "column": 35,
+          "message": "disallow literal string: <Typography paragraph>\n              VirtualMD.app is an AI-powered healthcare consultation platform that provides personalized health guidance through advanced conversational AI. Here's how to begin:\n            </Typography>",
+          "source": "<Typography paragraph>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 221,
+          "column": 53,
+          "message": "disallow literal string: <Typography variant=\"h6\" gutterBottom>Quick Start:</Typography>",
+          "source": "<Typography variant=\"h6\" gutterBottom>Quick Start:</Typography>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 223,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Choose between <strong>Guest Access</strong> (try without account) or <strong>Sign Up</strong> for full features</Typography>",
+          "source": "<li><Typography paragraph>Choose between <strong>Guest Access</strong> (try without account) or <strong>Sign Up</strong> for full features</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 223,
+          "column": 66,
+          "message": "disallow literal string: <strong>Guest Access</strong>",
+          "source": "<li><Typography paragraph>Choose between <strong>Guest Access</strong> (try without account) or <strong>Sign Up</strong> for full features</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 223,
+          "column": 87,
+          "message": "disallow literal string: <Typography paragraph>Choose between <strong>Guest Access</strong> (try without account) or <strong>Sign Up</strong> for full features</Typography>",
+          "source": "<li><Typography paragraph>Choose between <strong>Guest Access</strong> (try without account) or <strong>Sign Up</strong> for full features</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 223,
+          "column": 121,
+          "message": "disallow literal string: <strong>Sign Up</strong>",
+          "source": "<li><Typography paragraph>Choose between <strong>Guest Access</strong> (try without account) or <strong>Sign Up</strong> for full features</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 223,
+          "column": 137,
+          "message": "disallow literal string: <Typography paragraph>Choose between <strong>Guest Access</strong> (try without account) or <strong>Sign Up</strong> for full features</Typography>",
+          "source": "<li><Typography paragraph>Choose between <strong>Guest Access</strong> (try without account) or <strong>Sign Up</strong> for full features</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 224,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Select an AI health persona or build a team of specialists</Typography>",
+          "source": "<li><Typography paragraph>Select an AI health persona or build a team of specialists</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 225,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Start your conversation - ask questions, describe symptoms, or seek health guidance</Typography>",
+          "source": "<li><Typography paragraph>Start your conversation - ask questions, describe symptoms, or seek health guidance</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 226,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Review AI responses and follow up with additional questions as needed</Typography>",
+          "source": "<li><Typography paragraph>Review AI responses and follow up with additional questions as needed</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 232,
+          "column": 27,
+          "message": "disallow literal string: <strong>Tip:</strong>",
+          "source": "<strong>Tip:</strong> Guest users get 10 free messages. Create an account for unlimited consultations and access to all features."
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 232,
+          "column": 40,
+          "message": "disallow literal string: <Typography variant=\"body2\" color=\"primary.main\">\n                  <strong>Tip:</strong> Guest users get 10 free messages. Create an account for unlimited consultations and access to all features.\n                </Typography>",
+          "source": "<strong>Tip:</strong> Guest users get 10 free messages. Create an account for unlimited consultations and access to all features."
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 241,
+          "column": 69,
+          "message": "disallow literal string: <Typography variant=\"h4\" gutterBottom sx={{ fontWeight: 600, mb: 3 }}>\n              <PersonIcon sx={{ mr: 2, verticalAlign: 'bottom' }} />\n              AI health personas\n            </Typography>",
+          "source": "<PersonIcon sx={{ mr: 2, verticalAlign: 'bottom' }} />"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 244,
+          "column": 35,
+          "message": "disallow literal string: <Typography paragraph>\n              VirtualMD features over 60 specialized AI health personas, each with unique expertise:\n            </Typography>",
+          "source": "<Typography paragraph>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 248,
+          "column": 53,
+          "message": "disallow literal string: <Typography variant=\"h6\" gutterBottom>Available Specialists:</Typography>",
+          "source": "<Typography variant=\"h6\" gutterBottom>Available Specialists:</Typography>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 263,
+          "column": 53,
+          "message": "disallow literal string: <Typography variant=\"h6\" gutterBottom>How to Choose a Persona:</Typography>",
+          "source": "<Typography variant=\"h6\" gutterBottom>How to Choose a Persona:</Typography>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 265,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Browse the persona list in your dashboard</Typography>",
+          "source": "<li><Typography paragraph>Browse the persona list in your dashboard</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 266,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Read each persona's bio to understand their expertise</Typography>",
+          "source": "<li><Typography paragraph>Read each persona's bio to understand their expertise</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 267,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Select based on your health concern or question</Typography>",
+          "source": "<li><Typography paragraph>Select based on your health concern or question</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 268,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Switch personas anytime during your consultation</Typography>",
+          "source": "<li><Typography paragraph>Switch personas anytime during your consultation</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 274,
+          "column": 27,
+          "message": "disallow literal string: <strong>Pro Tip:</strong>",
+          "source": "<strong>Pro Tip:</strong> The health Navigator persona can help you identify which specialist would be best for your specific health concern."
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 274,
+          "column": 44,
+          "message": "disallow literal string: <Typography variant=\"body2\" color=\"info.main\">\n                  <strong>Pro Tip:</strong> The health Navigator persona can help you identify which specialist would be best for your specific health concern.\n                </Typography>",
+          "source": "<strong>Pro Tip:</strong> The health Navigator persona can help you identify which specialist would be best for your specific health concern."
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 283,
+          "column": 68,
+          "message": "disallow literal string: <Typography variant=\"h4\" gutterBottom sx={{ fontWeight: 600, mb: 3 }}>\n              <GroupIcon sx={{ mr: 2, verticalAlign: 'bottom' }} />\n              Team Consultations\n            </Typography>",
+          "source": "<GroupIcon sx={{ mr: 2, verticalAlign: 'bottom' }} />"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 286,
+          "column": 35,
+          "message": "disallow literal string: <Typography paragraph>\n              Get comprehensive care by creating a team of AI specialists who collaborate on your health concerns:\n            </Typography>",
+          "source": "<Typography paragraph>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 290,
+          "column": 53,
+          "message": "disallow literal string: <Typography variant=\"h6\" gutterBottom>Building Your Team:</Typography>",
+          "source": "<Typography variant=\"h6\" gutterBottom>Building Your Team:</Typography>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 292,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Click \"Build Your Team\" in the dashboard</Typography>",
+          "source": "<li><Typography paragraph>Click \"Build Your Team\" in the dashboard</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 293,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Select up to 5 specialists relevant to your needs</Typography>",
+          "source": "<li><Typography paragraph>Select up to 5 specialists relevant to your needs</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 294,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Add a health Navigator to coordinate between specialists</Typography>",
+          "source": "<li><Typography paragraph>Add a health Navigator to coordinate between specialists</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 295,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Start a team conversation for multi-disciplinary insights</Typography>",
+          "source": "<li><Typography paragraph>Start a team conversation for multi-disciplinary insights</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 299,
+          "column": 53,
+          "message": "disallow literal string: <Typography variant=\"h6\" gutterBottom>Benefits of Team Consultations:</Typography>",
+          "source": "<Typography variant=\"h6\" gutterBottom>Benefits of Team Consultations:</Typography>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 301,
+          "column": 51,
+          "message": "disallow literal string: <strong>Comprehensive Care:</strong>",
+          "source": "<li><Typography paragraph><strong>Comprehensive Care:</strong> Multiple perspectives on complex health issues</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 301,
+          "column": 79,
+          "message": "disallow literal string: <Typography paragraph><strong>Comprehensive Care:</strong> Multiple perspectives on complex health issues</Typography>",
+          "source": "<li><Typography paragraph><strong>Comprehensive Care:</strong> Multiple perspectives on complex health issues</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 302,
+          "column": 51,
+          "message": "disallow literal string: <strong>Coordinated Advice:</strong>",
+          "source": "<li><Typography paragraph><strong>Coordinated Advice:</strong> Specialists work together, not in isolation</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 302,
+          "column": 79,
+          "message": "disallow literal string: <Typography paragraph><strong>Coordinated Advice:</strong> Specialists work together, not in isolation</Typography>",
+          "source": "<li><Typography paragraph><strong>Coordinated Advice:</strong> Specialists work together, not in isolation</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 303,
+          "column": 51,
+          "message": "disallow literal string: <strong>Efficient Navigation:</strong>",
+          "source": "<li><Typography paragraph><strong>Efficient Navigation:</strong> health Navigator ensures you get the right expertise</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 303,
+          "column": 81,
+          "message": "disallow literal string: <Typography paragraph><strong>Efficient Navigation:</strong> health Navigator ensures you get the right expertise</Typography>",
+          "source": "<li><Typography paragraph><strong>Efficient Navigation:</strong> health Navigator ensures you get the right expertise</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 304,
+          "column": 51,
+          "message": "disallow literal string: <strong>Holistic Approach:</strong>",
+          "source": "<li><Typography paragraph><strong>Holistic Approach:</strong> Address physical, mental, and lifestyle factors together</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 304,
+          "column": 78,
+          "message": "disallow literal string: <Typography paragraph><strong>Holistic Approach:</strong> Address physical, mental, and lifestyle factors together</Typography>",
+          "source": "<li><Typography paragraph><strong>Holistic Approach:</strong> Address physical, mental, and lifestyle factors together</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 312,
+          "column": 68,
+          "message": "disallow literal string: <Typography variant=\"h4\" gutterBottom sx={{ fontWeight: 600, mb: 3 }}>\n              <ImageIcon sx={{ mr: 2, verticalAlign: 'bottom' }} />\n              health Image Analysis\n            </Typography>",
+          "source": "<ImageIcon sx={{ mr: 2, verticalAlign: 'bottom' }} />"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 315,
+          "column": 35,
+          "message": "disallow literal string: <Typography paragraph>\n              Upload and analyze health images for AI-powered insights:\n            </Typography>",
+          "source": "<Typography paragraph>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 319,
+          "column": 53,
+          "message": "disallow literal string: <Typography variant=\"h6\" gutterBottom>How to Use Image Analysis:</Typography>",
+          "source": "<Typography variant=\"h6\" gutterBottom>How to Use Image Analysis:</Typography>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 321,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Click the camera icon or image upload button</Typography>",
+          "source": "<li><Typography paragraph>Click the camera icon or image upload button</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 323,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Click on uploaded images to zoom in for detailed view</Typography>",
+          "source": "<li><Typography paragraph>Click on uploaded images to zoom in for detailed view</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 324,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Select specific areas of interest by clicking on the zoomed image</Typography>",
+          "source": "<li><Typography paragraph>Select specific areas of interest by clicking on the zoomed image</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 325,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Ask questions about the images or request analysis</Typography>",
+          "source": "<li><Typography paragraph>Ask questions about the images or request analysis</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 329,
+          "column": 53,
+          "message": "disallow literal string: <Typography variant=\"h6\" gutterBottom>Supported Image Types:</Typography>",
+          "source": "<Typography variant=\"h6\" gutterBottom>Supported Image Types:</Typography>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 331,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>X-rays and radiological images</Typography>",
+          "source": "<li><Typography paragraph>X-rays and radiological images</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 332,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>MRI and CT scans</Typography>",
+          "source": "<li><Typography paragraph>MRI and CT scans</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 333,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Laboratory test results</Typography>",
+          "source": "<li><Typography paragraph>Laboratory test results</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 334,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Skin conditions and dermatological images</Typography>",
+          "source": "<li><Typography paragraph>Skin conditions and dermatological images</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 335,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>ECG/EKG readings</Typography>",
+          "source": "<li><Typography paragraph>ECG/EKG readings</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 336,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Prescription documents</Typography>",
+          "source": "<li><Typography paragraph>Prescription documents</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 342,
+          "column": 27,
+          "message": "disallow literal string: <strong>Important:</strong>",
+          "source": "<strong>Important:</strong> AI image analysis is for educational purposes. Always consult healthcare professionals for official health interpretation."
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 342,
+          "column": 46,
+          "message": "disallow literal string: <Typography variant=\"body2\" color=\"warning.main\">\n                  <strong>Important:</strong> AI image analysis is for educational purposes. Always consult healthcare professionals for official health interpretation.\n                </Typography>",
+          "source": "<strong>Important:</strong> AI image analysis is for educational purposes. Always consult healthcare professionals for official health interpretation."
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 351,
+          "column": 71,
+          "message": "disallow literal string: <Typography variant=\"h4\" gutterBottom sx={{ fontWeight: 600, mb: 3 }}>\n              <MenuBookIcon sx={{ mr: 2, verticalAlign: 'bottom' }} />\n              health Encyclopedia & Deep Research\n            </Typography>",
+          "source": "<MenuBookIcon sx={{ mr: 2, verticalAlign: 'bottom' }} />"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 354,
+          "column": 35,
+          "message": "disallow literal string: <Typography paragraph>\n              Access comprehensive health information and research capabilities:\n            </Typography>",
+          "source": "<Typography paragraph>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 358,
+          "column": 53,
+          "message": "disallow literal string: <Typography variant=\"h6\" gutterBottom>Encyclopedia Features:</Typography>",
+          "source": "<Typography variant=\"h6\" gutterBottom>Encyclopedia Features:</Typography>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 360,
+          "column": 51,
+          "message": "disallow literal string: <strong>Instant Access:</strong>",
+          "source": "<li><Typography paragraph><strong>Instant Access:</strong> Click the Encyclopedia icon during any conversation</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 360,
+          "column": 75,
+          "message": "disallow literal string: <Typography paragraph><strong>Instant Access:</strong> Click the Encyclopedia icon during any conversation</Typography>",
+          "source": "<li><Typography paragraph><strong>Instant Access:</strong> Click the Encyclopedia icon during any conversation</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 361,
+          "column": 51,
+          "message": "disallow literal string: <strong>Deep Research:</strong>",
+          "source": "<li><Typography paragraph><strong>Deep Research:</strong> Request detailed health literature reviews</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 361,
+          "column": 74,
+          "message": "disallow literal string: <Typography paragraph><strong>Deep Research:</strong> Request detailed health literature reviews</Typography>",
+          "source": "<li><Typography paragraph><strong>Deep Research:</strong> Request detailed health literature reviews</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 362,
+          "column": 51,
+          "message": "disallow literal string: <strong>Evidence-Based:</strong>",
+          "source": "<li><Typography paragraph><strong>Evidence-Based:</strong> Information sourced from peer-reviewed health databases</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 362,
+          "column": 75,
+          "message": "disallow literal string: <Typography paragraph><strong>Evidence-Based:</strong> Information sourced from peer-reviewed health databases</Typography>",
+          "source": "<li><Typography paragraph><strong>Evidence-Based:</strong> Information sourced from peer-reviewed health databases</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 363,
+          "column": 51,
+          "message": "disallow literal string: <strong>Context-Aware:</strong>",
+          "source": "<li><Typography paragraph><strong>Context-Aware:</strong> Searches automatically relate to your current health discussion</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 363,
+          "column": 74,
+          "message": "disallow literal string: <Typography paragraph><strong>Context-Aware:</strong> Searches automatically relate to your current health discussion</Typography>",
+          "source": "<li><Typography paragraph><strong>Context-Aware:</strong> Searches automatically relate to your current health discussion</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 367,
+          "column": 53,
+          "message": "disallow literal string: <Typography variant=\"h6\" gutterBottom>How to Research:</Typography>",
+          "source": "<Typography variant=\"h6\" gutterBottom>How to Research:</Typography>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 369,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>During conversation, click the Encyclopedia button</Typography>",
+          "source": "<li><Typography paragraph>During conversation, click the Encyclopedia button</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 370,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Enter health terms, conditions, or treatments to research</Typography>",
+          "source": "<li><Typography paragraph>Enter health terms, conditions, or treatments to research</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 371,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Review comprehensive information with citations</Typography>",
+          "source": "<li><Typography paragraph>Review comprehensive information with citations</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 372,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Ask follow-up questions for clarification</Typography>",
+          "source": "<li><Typography paragraph>Ask follow-up questions for clarification</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 380,
+          "column": 78,
+          "message": "disallow literal string: <Typography variant=\"h4\" gutterBottom sx={{ fontWeight: 600, mb: 3 }}>\n              <MedicalServicesIcon sx={{ mr: 2, verticalAlign: 'bottom' }} />\n              Differential Opinions\n            </Typography>",
+          "source": "<MedicalServicesIcon sx={{ mr: 2, verticalAlign: 'bottom' }} />"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 383,
+          "column": 35,
+          "message": "disallow literal string: <Typography paragraph>\n              Explore alternative diagnoses and second opinions to ensure comprehensive understanding:\n            </Typography>",
+          "source": "<Typography paragraph>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 387,
+          "column": 53,
+          "message": "disallow literal string: <Typography variant=\"h6\" gutterBottom>Getting Differential Opinions:</Typography>",
+          "source": "<Typography variant=\"h6\" gutterBottom>Getting Differential Opinions:</Typography>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 389,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>After receiving initial assessment, click \"Get Differential Opinion\"</Typography>",
+          "source": "<li><Typography paragraph>After receiving initial assessment, click \"Get Differential Opinion\"</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 390,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>AI will analyze your symptoms from different perspectives</Typography>",
+          "source": "<li><Typography paragraph>AI will analyze your symptoms from different perspectives</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 391,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Review alternative possibilities and their likelihood</Typography>",
+          "source": "<li><Typography paragraph>Review alternative possibilities and their likelihood</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 392,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Understand when to seek immediate health attention</Typography>",
+          "source": "<li><Typography paragraph>Understand when to seek immediate health attention</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 396,
+          "column": 53,
+          "message": "disallow literal string: <Typography variant=\"h6\" gutterBottom>What You'll Learn:</Typography>",
+          "source": "<Typography variant=\"h6\" gutterBottom>What You'll Learn:</Typography>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 398,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Other conditions that could cause similar symptoms</Typography>",
+          "source": "<li><Typography paragraph>Other conditions that could cause similar symptoms</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 399,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Red flags that require immediate health attention</Typography>",
+          "source": "<li><Typography paragraph>Red flags that require immediate health attention</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 400,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Questions to ask your healthcare provider</Typography>",
+          "source": "<li><Typography paragraph>Questions to ask your healthcare provider</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 401,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Additional tests that might be helpful</Typography>",
+          "source": "<li><Typography paragraph>Additional tests that might be helpful</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 409,
+          "column": 78,
+          "message": "disallow literal string: <Typography variant=\"h4\" gutterBottom sx={{ fontWeight: 600, mb: 3 }}>\n              <RecordVoiceOverIcon sx={{ mr: 2, verticalAlign: 'bottom' }} />\n              Voice Interaction\n            </Typography>",
+          "source": "<RecordVoiceOverIcon sx={{ mr: 2, verticalAlign: 'bottom' }} />"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 412,
+          "column": 35,
+          "message": "disallow literal string: <Typography paragraph>\n              Engage with VirtualMD using natural voice conversations:\n            </Typography>",
+          "source": "<Typography paragraph>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 416,
+          "column": 53,
+          "message": "disallow literal string: <Typography variant=\"h6\" gutterBottom>Voice Features:</Typography>",
+          "source": "<Typography variant=\"h6\" gutterBottom>Voice Features:</Typography>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 418,
+          "column": 51,
+          "message": "disallow literal string: <strong>Speech-to-Text:</strong>",
+          "source": "<li><Typography paragraph><strong>Speech-to-Text:</strong> Click microphone icon to speak your questions</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 418,
+          "column": 75,
+          "message": "disallow literal string: <Typography paragraph><strong>Speech-to-Text:</strong> Click microphone icon to speak your questions</Typography>",
+          "source": "<li><Typography paragraph><strong>Speech-to-Text:</strong> Click microphone icon to speak your questions</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 419,
+          "column": 51,
+          "message": "disallow literal string: <strong>Text-to-Speech:</strong>",
+          "source": "<li><Typography paragraph><strong>Text-to-Speech:</strong> Toggle speaker icon to hear AI responses</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 419,
+          "column": 75,
+          "message": "disallow literal string: <Typography paragraph><strong>Text-to-Speech:</strong> Toggle speaker icon to hear AI responses</Typography>",
+          "source": "<li><Typography paragraph><strong>Text-to-Speech:</strong> Toggle speaker icon to hear AI responses</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 420,
+          "column": 51,
+          "message": "disallow literal string: <strong>Natural Conversation:</strong>",
+          "source": "<li><Typography paragraph><strong>Natural Conversation:</strong> Speak naturally as you would with a doctor</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 420,
+          "column": 81,
+          "message": "disallow literal string: <Typography paragraph><strong>Natural Conversation:</strong> Speak naturally as you would with a doctor</Typography>",
+          "source": "<li><Typography paragraph><strong>Natural Conversation:</strong> Speak naturally as you would with a doctor</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 421,
+          "column": 51,
+          "message": "disallow literal string: <strong>Multiple Voices:</strong>",
+          "source": "<li><Typography paragraph><strong>Multiple Voices:</strong> Each persona has a unique voice personality</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 421,
+          "column": 76,
+          "message": "disallow literal string: <Typography paragraph><strong>Multiple Voices:</strong> Each persona has a unique voice personality</Typography>",
+          "source": "<li><Typography paragraph><strong>Multiple Voices:</strong> Each persona has a unique voice personality</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 425,
+          "column": 53,
+          "message": "disallow literal string: <Typography variant=\"h6\" gutterBottom>Voice Controls:</Typography>",
+          "source": "<Typography variant=\"h6\" gutterBottom>Voice Controls:</Typography>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 427,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Microphone icon: Start/stop voice input</Typography>",
+          "source": "<li><Typography paragraph>Microphone icon: Start/stop voice input</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 428,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Speaker icon: Enable/disable voice responses</Typography>",
+          "source": "<li><Typography paragraph>Speaker icon: Enable/disable voice responses</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 429,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Volume controls: Adjust speech volume in settings</Typography>",
+          "source": "<li><Typography paragraph>Volume controls: Adjust speech volume in settings</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 430,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Speed controls: Adjust speech rate for clarity</Typography>",
+          "source": "<li><Typography paragraph>Speed controls: Adjust speech rate for clarity</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 438,
+          "column": 71,
+          "message": "disallow literal string: <Typography variant=\"h4\" gutterBottom sx={{ fontWeight: 600, mb: 3 }}>\n              <LanguageIcon sx={{ mr: 2, verticalAlign: 'bottom' }} />\n              Language Support\n            </Typography>",
+          "source": "<LanguageIcon sx={{ mr: 2, verticalAlign: 'bottom' }} />"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 441,
+          "column": 35,
+          "message": "disallow literal string: <Typography paragraph>\n              Communicate in your preferred language with support for 30+ languages:\n            </Typography>",
+          "source": "<Typography paragraph>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 445,
+          "column": 53,
+          "message": "disallow literal string: <Typography variant=\"h6\" gutterBottom>Available Languages:</Typography>",
+          "source": "<Typography variant=\"h6\" gutterBottom>Available Languages:</Typography>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 464,
+          "column": 53,
+          "message": "disallow literal string: <Typography variant=\"h6\" gutterBottom>Language Features:</Typography>",
+          "source": "<Typography variant=\"h6\" gutterBottom>Language Features:</Typography>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 466,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Automatic language detection based on browser settings</Typography>",
+          "source": "<li><Typography paragraph>Automatic language detection based on browser settings</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 467,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Switch languages anytime from the language menu</Typography>",
+          "source": "<li><Typography paragraph>Switch languages anytime from the language menu</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 468,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>RTL support for Arabic and Hebrew</Typography>",
+          "source": "<li><Typography paragraph>RTL support for Arabic and Hebrew</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 469,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>health terms explained in your language</Typography>",
+          "source": "<li><Typography paragraph>health terms explained in your language</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 470,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Culturally appropriate health guidance</Typography>",
+          "source": "<li><Typography paragraph>Culturally appropriate health guidance</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 478,
+          "column": 77,
+          "message": "disallow literal string: <Typography variant=\"h4\" gutterBottom sx={{ fontWeight: 600, mb: 3 }}>\n              <TipsAndUpdatesIcon sx={{ mr: 2, verticalAlign: 'bottom' }} />\n              Tips & Best Practices\n            </Typography>",
+          "source": "<TipsAndUpdatesIcon sx={{ mr: 2, verticalAlign: 'bottom' }} />"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 482,
+          "column": 53,
+          "message": "disallow literal string: <Typography variant=\"h6\" gutterBottom>Getting the Most from VirtualMD:</Typography>",
+          "source": "<Typography variant=\"h6\" gutterBottom>Getting the Most from VirtualMD:</Typography>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 484,
+          "column": 51,
+          "message": "disallow literal string: <strong>Be Specific:</strong>",
+          "source": "<li><Typography paragraph><strong>Be Specific:</strong> Provide detailed information about symptoms, duration, and severity</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 484,
+          "column": 72,
+          "message": "disallow literal string: <Typography paragraph><strong>Be Specific:</strong> Provide detailed information about symptoms, duration, and severity</Typography>",
+          "source": "<li><Typography paragraph><strong>Be Specific:</strong> Provide detailed information about symptoms, duration, and severity</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 485,
+          "column": 51,
+          "message": "disallow literal string: <strong>Share Context:</strong>",
+          "source": "<li><Typography paragraph><strong>Share Context:</strong> Mention relevant health history, medications, and allergies</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 485,
+          "column": 74,
+          "message": "disallow literal string: <Typography paragraph><strong>Share Context:</strong> Mention relevant health history, medications, and allergies</Typography>",
+          "source": "<li><Typography paragraph><strong>Share Context:</strong> Mention relevant health history, medications, and allergies</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 486,
+          "column": 51,
+          "message": "disallow literal string: <strong>Ask Follow-ups:</strong>",
+          "source": "<li><Typography paragraph><strong>Ask Follow-ups:</strong> Don't hesitate to ask for clarification or more details</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 486,
+          "column": 75,
+          "message": "disallow literal string: <Typography paragraph><strong>Ask Follow-ups:</strong> Don't hesitate to ask for clarification or more details</Typography>",
+          "source": "<li><Typography paragraph><strong>Ask Follow-ups:</strong> Don't hesitate to ask for clarification or more details</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 487,
+          "column": 51,
+          "message": "disallow literal string: <strong>Use Images:</strong>",
+          "source": "<li><Typography paragraph><strong>Use Images:</strong> Upload relevant health images or test results when available</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 487,
+          "column": 71,
+          "message": "disallow literal string: <Typography paragraph><strong>Use Images:</strong> Upload relevant health images or test results when available</Typography>",
+          "source": "<li><Typography paragraph><strong>Use Images:</strong> Upload relevant health images or test results when available</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 488,
+          "column": 51,
+          "message": "disallow literal string: <strong>Save Conversations:</strong>",
+          "source": "<li><Typography paragraph><strong>Save Conversations:</strong> Keep important consultations for future reference</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 488,
+          "column": 79,
+          "message": "disallow literal string: <Typography paragraph><strong>Save Conversations:</strong> Keep important consultations for future reference</Typography>",
+          "source": "<li><Typography paragraph><strong>Save Conversations:</strong> Keep important consultations for future reference</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 489,
+          "column": 51,
+          "message": "disallow literal string: <strong>Build Teams:</strong>",
+          "source": "<li><Typography paragraph><strong>Build Teams:</strong> Use multiple specialists for complex health concerns</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 489,
+          "column": 72,
+          "message": "disallow literal string: <Typography paragraph><strong>Build Teams:</strong> Use multiple specialists for complex health concerns</Typography>",
+          "source": "<li><Typography paragraph><strong>Build Teams:</strong> Use multiple specialists for complex health concerns</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 490,
+          "column": 51,
+          "message": "disallow literal string: <strong>Verify Information:</strong>",
+          "source": "<li><Typography paragraph><strong>Verify Information:</strong> Always confirm AI guidance with healthcare professionals</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 490,
+          "column": 79,
+          "message": "disallow literal string: <Typography paragraph><strong>Verify Information:</strong> Always confirm AI guidance with healthcare professionals</Typography>",
+          "source": "<li><Typography paragraph><strong>Verify Information:</strong> Always confirm AI guidance with healthcare professionals</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 494,
+          "column": 53,
+          "message": "disallow literal string: <Typography variant=\"h6\" gutterBottom>Common Use Cases:</Typography>",
+          "source": "<Typography variant=\"h6\" gutterBottom>Common Use Cases:</Typography>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 496,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Understanding symptoms before doctor visits</Typography>",
+          "source": "<li><Typography paragraph>Understanding symptoms before doctor visits</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 497,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Getting second opinions on diagnoses</Typography>",
+          "source": "<li><Typography paragraph>Getting second opinions on diagnoses</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 498,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Learning about health conditions and treatments</Typography>",
+          "source": "<li><Typography paragraph>Learning about health conditions and treatments</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 499,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Preparing questions for healthcare appointments</Typography>",
+          "source": "<li><Typography paragraph>Preparing questions for healthcare appointments</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 500,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Understanding health test results</Typography>",
+          "source": "<li><Typography paragraph>Understanding health test results</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 501,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Managing chronic conditions with ongoing guidance</Typography>",
+          "source": "<li><Typography paragraph>Managing chronic conditions with ongoing guidance</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 502,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Mental health support and coping strategies</Typography>",
+          "source": "<li><Typography paragraph>Mental health support and coping strategies</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 510,
+          "column": 71,
+          "message": "disallow literal string: <Typography variant=\"h4\" gutterBottom sx={{ fontWeight: 600, mb: 3 }}>\n              <SecurityIcon sx={{ mr: 2, verticalAlign: 'bottom' }} />\n              Privacy & Security\n            </Typography>",
+          "source": "<SecurityIcon sx={{ mr: 2, verticalAlign: 'bottom' }} />"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 513,
+          "column": 35,
+          "message": "disallow literal string: <Typography paragraph>\n              Your health information is protected with enterprise-grade security:\n            </Typography>",
+          "source": "<Typography paragraph>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 517,
+          "column": 53,
+          "message": "disallow literal string: <Typography variant=\"h6\" gutterBottom>Security Features:</Typography>",
+          "source": "<Typography variant=\"h6\" gutterBottom>Security Features:</Typography>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 519,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>End-to-end encryption for all conversations</Typography>",
+          "source": "<li><Typography paragraph>End-to-end encryption for all conversations</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 520,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>HIPAA-compliant data handling</Typography>",
+          "source": "<li><Typography paragraph>HIPAA-compliant data handling</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 521,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>No sharing of personal data without consent</Typography>",
+          "source": "<li><Typography paragraph>No sharing of personal data without consent</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 522,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Secure cloud storage with regular backups</Typography>",
+          "source": "<li><Typography paragraph>Secure cloud storage with regular backups</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 523,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Anonymous guest mode available</Typography>",
+          "source": "<li><Typography paragraph>Anonymous guest mode available</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 524,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Complete data deletion upon account closure</Typography>",
+          "source": "<li><Typography paragraph>Complete data deletion upon account closure</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 528,
+          "column": 53,
+          "message": "disallow literal string: <Typography variant=\"h6\" gutterBottom>Your Control:</Typography>",
+          "source": "<Typography variant=\"h6\" gutterBottom>Your Control:</Typography>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 530,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Delete conversations anytime</Typography>",
+          "source": "<li><Typography paragraph>Delete conversations anytime</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 531,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Export your data for personal records</Typography>",
+          "source": "<li><Typography paragraph>Export your data for personal records</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 532,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Control what information is stored</Typography>",
+          "source": "<li><Typography paragraph>Control what information is stored</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 533,
+          "column": 43,
+          "message": "disallow literal string: <Typography paragraph>Opt-out of data analytics</Typography>",
+          "source": "<li><Typography paragraph>Opt-out of data analytics</Typography></li>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 546,
+          "column": 76,
+          "message": "disallow literal string: <Typography variant=\"h4\" gutterBottom sx={{ fontWeight: 600 }}>\n              Ready to Get Started?\n            </Typography>",
+          "source": "<Typography variant=\"h4\" gutterBottom sx={{ fontWeight: 600 }}>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 549,
+          "column": 56,
+          "message": "disallow literal string: <Typography variant=\"body1\" sx={{ mb: 4 }}>\n              Experience the future of healthcare consultation with VirtualMD.app\n            </Typography>",
+          "source": "<Typography variant=\"body1\" sx={{ mb: 4 }}>"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 563,
+          "column": 16,
+          "message": "disallow literal string: <Button\n                variant=\"contained\"\n                size=\"large\"\n                onClick={() => navigate('/guest-chat')}\n                sx={{ \n                  bgcolor: 'white',\n                  color: 'primary.main',\n                  '&:hover': { bgcolor: 'grey.100' },\n                  minWidth: 200\n                }}\n              >\n                Try as Guest\n              </Button>",
+          "source": ">"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 579,
+          "column": 16,
+          "message": "disallow literal string: <Button\n                variant=\"outlined\"\n                size=\"large\"\n                onClick={() => navigate('/register')}\n                sx={{ \n                  borderColor: 'white',\n                  color: 'white',\n                  '&:hover': { \n                    borderColor: 'white',\n                    bgcolor: 'rgba(255,255,255,0.1)' \n                  },\n                  minWidth: 200\n                }}\n              >\n                Create Account\n              </Button>",
+          "source": ">"
+        },
+        {
+          "file": "src/pages/HowToPage.jsx",
+          "line": 592,
+          "column": 14,
+          "message": "disallow literal string: <Button\n              variant=\"text\"\n              color=\"primary\"\n              onClick={() => navigate('/')}\n              sx={{ fontSize: '0.95rem' }}\n            >\n              ← Back to Home\n            </Button>",
+          "source": ">"
+        },
+        {
+          "file": "src/pages/LandingPage.jsx",
+          "line": 423,
+          "column": 77,
+          "message": "disallow literal string: <Typography variant=\"h5\" component=\"div\" sx={{ fontWeight: 600 }}>\n            Health Advisory\n          </Typography>",
+          "source": "<Typography variant=\"h5\" component=\"div\" sx={{ fontWeight: 600 }}>"
+        },
+        {
+          "file": "src/pages/LandingPage.jsx",
+          "line": 435,
+          "column": 21,
+          "message": "disallow literal string: <strong>IMPORTANT health ADVISORY:</strong>",
+          "source": "<strong>IMPORTANT health ADVISORY:</strong>"
+        },
+        {
+          "file": "src/pages/LandingPage.jsx",
+          "line": 437,
+          "column": 49,
+          "message": "disallow literal string: <Typography variant=\"body2\" paragraph>\n            VirtualMD.app is designed to provide health information and educational content. It is NOT a substitute for professional health advice, diagnosis, or treatment.\n          </Typography>",
+          "source": "<Typography variant=\"body2\" paragraph>"
+        },
+        {
+          "file": "src/pages/LandingPage.jsx",
+          "line": 440,
+          "column": 49,
+          "message": "disallow literal string: <Typography variant=\"body2\" paragraph>\n            Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a health condition. Never disregard professional health advice or delay in seeking it because of something you have read on VirtualMD.app.\n          </Typography>",
+          "source": "<Typography variant=\"body2\" paragraph>"
+        },
+        {
+          "file": "src/pages/LandingPage.jsx",
+          "line": 443,
+          "column": 49,
+          "message": "disallow literal string: <Typography variant=\"body2\" paragraph>\n            If you think you may have a health emergency, call your doctor, go to the emergency department, or call 911 immediately.\n          </Typography>",
+          "source": "<Typography variant=\"body2\" paragraph>"
+        },
+        {
+          "file": "src/pages/LandingPage.jsx",
+          "line": 448,
+          "column": 78,
+          "message": "disallow literal string: <Button onClick={() => setAdvisoryOpen(false)} variant=\"contained\">\n            I Understand\n          </Button>",
+          "source": "<Button onClick={() => setAdvisoryOpen(false)} variant=\"contained\">"
+        },
+        {
+          "file": "src/pages/LandingPage.jsx",
+          "line": 475,
+          "column": 77,
+          "message": "disallow literal string: <Typography variant=\"h5\" component=\"div\" sx={{ fontWeight: 600 }}>\n            Legal Terms\n          </Typography>",
+          "source": "<Typography variant=\"h5\" component=\"div\" sx={{ fontWeight: 600 }}>"
+        },
+        {
+          "file": "src/pages/LandingPage.jsx",
+          "line": 486,
+          "column": 49,
+          "message": "disallow literal string: <Typography variant=\"body2\" paragraph>\n            © 2024 VirtualMD. All rights reserved.\n          </Typography>",
+          "source": "<Typography variant=\"body2\" paragraph>"
+        },
+        {
+          "file": "src/pages/LandingPage.jsx",
+          "line": 489,
+          "column": 49,
+          "message": "disallow literal string: <Typography variant=\"body2\" paragraph>\n            By using VirtualMD.app, you agree to our Terms of Service and Privacy Policy. VirtualMD is a trademark of VirtualMD, Inc.\n          </Typography>",
+          "source": "<Typography variant=\"body2\" paragraph>"
+        },
+        {
+          "file": "src/pages/LandingPage.jsx",
+          "line": 492,
+          "column": 49,
+          "message": "disallow literal string: <Typography variant=\"body2\" paragraph>\n            The information provided on this platform is for educational purposes only and should not be considered as health advice. Please consult with a healthcare professional for health concerns.\n          </Typography>",
+          "source": "<Typography variant=\"body2\" paragraph>"
+        },
+        {
+          "file": "src/pages/LandingPage.jsx",
+          "line": 497,
+          "column": 75,
+          "message": "disallow literal string: <Button onClick={() => setLegalOpen(false)} variant=\"contained\">\n            Close\n          </Button>",
+          "source": "<Button onClick={() => setLegalOpen(false)} variant=\"contained\">"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 59,
+          "column": 164,
+          "message": "disallow literal string: <Typography variant=\"h1\" component=\"h1\" align=\"center\" gutterBottom sx={{ fontSize: { xs: '2.5rem', sm: '3rem', md: '3.5rem' }, fontWeight: 'bold', mb: 4 }}>\n        VirtualMD.app Legal Terms & Privacy Policy\n      </Typography>",
+          "source": "<Typography variant=\"h1\" component=\"h1\" align=\"center\" gutterBottom sx={{ fontSize: { xs: '2.5rem', sm: '3rem', md: '3.5rem' }, fontWeight: 'bold', mb: 4 }}>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 64,
+          "column": 113,
+          "message": "disallow literal string: <Typography variant=\"h2\" component=\"h2\" sx={h2Styles}><GavelIcon sx={{verticalAlign: 'middle', mr: 1}}/> Terms of Use</Typography>",
+          "source": "<Typography variant=\"h2\" component=\"h2\" sx={h2Styles}><GavelIcon sx={{verticalAlign: 'middle', mr: 1}}/> Terms of Use</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 66,
+          "column": 42,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n          Welcome to VirtualMD.app (the \"Service\", \"Site\"), operated by VirtualMD Technologies, LLC (\"VirtualMD\", \"we\", \"us\", \"our\"). These Terms of Use (\"Terms\") govern your access to and use of our website, AI personas, content, and services. By accessing or using the Service, you agree to be bound by these Terms and our Privacy Policy, incorporated herein by reference. If you do not agree to these Terms, do not use the Service.\n        </Typography>",
+          "source": "<Typography sx={paragraphStyles}>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 70,
+          "column": 51,
+          "message": "disallow literal string: <Typography component=\"div\" sx={h3Styles}>1. Service Description</Typography>",
+          "source": "<Typography component=\"div\" sx={h3Styles}>1. Service Description</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 71,
+          "column": 42,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n          VirtualMD.app provides access to advanced AI personas designed to offer health-related information and insights based on health literature, clinical guidelines, and AI training data. The Service is intended for informational and educational purposes only.\n        </Typography>",
+          "source": "<Typography sx={paragraphStyles}>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 75,
+          "column": 51,
+          "message": "disallow literal string: <Typography component=\"div\" sx={h3Styles}>2. Acceptance of Terms</Typography>",
+          "source": "<Typography component=\"div\" sx={h3Styles}>2. Acceptance of Terms</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 76,
+          "column": 42,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n          By registering for, accessing, browsing, or using the Service, you acknowledge that you have read, understood, and agree to be bound by these Terms. You represent that you are of legal age to form a binding contract. Your use of the Service constitutes your electronic signature to these Terms.\n        </Typography>",
+          "source": "<Typography sx={paragraphStyles}>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 81,
+          "column": 51,
+          "message": "disallow literal string: <Typography component=\"div\" sx={h3Styles}>3. Eligibility</Typography>",
+          "source": "<Typography component=\"div\" sx={h3Styles}>3. Eligibility</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 84,
+          "column": 51,
+          "message": "disallow literal string: <Typography component=\"div\" sx={h3Styles}>4. User Accounts and Registration</Typography>",
+          "source": "<Typography component=\"div\" sx={h3Styles}>4. User Accounts and Registration</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 87,
+          "column": 51,
+          "message": "disallow literal string: <Typography component=\"div\" sx={h3Styles}>5. Intellectual Property Rights</Typography>",
+          "source": "<Typography component=\"div\" sx={h3Styles}>5. Intellectual Property Rights</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 90,
+          "column": 101,
+          "message": "disallow literal string: <Typography component=\"div\" sx={{...h3Styles, color: 'text.secondary', fontStyle:'italic'}}>6. Fees and Payment (Placeholder)</Typography>",
+          "source": "<Typography component=\"div\" sx={{...h3Styles, color: 'text.secondary', fontStyle:'italic'}}>6. Fees and Payment (Placeholder)</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 95,
+          "column": 127,
+          "message": "disallow literal string: <Typography variant=\"h2\" component=\"h2\" sx={h2Styles}><CheckCircleOutlineIcon sx={{verticalAlign: 'middle', mr: 1}}/> Acceptable Use Policy</Typography>",
+          "source": "<Typography variant=\"h2\" component=\"h2\" sx={h2Styles}><CheckCircleOutlineIcon sx={{verticalAlign: 'middle', mr: 1}}/> Acceptable Use Policy</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 96,
+          "column": 43,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n           You agree to use VirtualMD.app only for lawful purposes and in accordance with these Terms. You agree not to use the Service:\n         </Typography>",
+          "source": "<Typography sx={paragraphStyles}>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 110,
+          "column": 129,
+          "message": "disallow literal string: <Typography variant=\"h2\" component=\"h2\" sx={h2Styles}><WarningAmberOutlinedIcon sx={{verticalAlign: 'middle', mr: 1}}/> Disclaimers and Limitation of Liability</Typography>",
+          "source": "<Typography variant=\"h2\" component=\"h2\" sx={h2Styles}><WarningAmberOutlinedIcon sx={{verticalAlign: 'middle', mr: 1}}/> Disclaimers and Limitation of Liability</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 112,
+          "column": 52,
+          "message": "disallow literal string: <Typography component=\"div\" sx={h3Styles}>1. Service Provided \"AS IS\"; ADVICE ONLY</Typography>",
+          "source": "<Typography component=\"div\" sx={h3Styles}>1. Service Provided \"AS IS\"; ADVICE ONLY</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 113,
+          "column": 43,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n            The information and services provided by VirtualMD.app, including all content generated by AI personas, are provided on an \"AS IS\" and \"AS AVAILABLE\" basis for <strong style={strongTextStyles}>INFORMATIONAL AND EDUCATIONAL PURPOSES ONLY</strong>. VirtualMD makes no representations or warranties of any kind, express or implied, as to the operation of the Service or the information, content, materials, or products included on the Service. You expressly agree that your use of the Service is at your sole risk.\n         </Typography>",
+          "source": "<Typography sx={paragraphStyles}>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 114,
+          "column": 206,
+          "message": "disallow literal string: <strong style={strongTextStyles}>INFORMATIONAL AND EDUCATIONAL PURPOSES ONLY</strong>",
+          "source": "The information and services provided by VirtualMD.app, including all content generated by AI personas, are provided on an \"AS IS\" and \"AS AVAILABLE\" basis for <strong style={strongTextStyles}>INFORMATIONAL AND EDUCATIONAL PURPOSES ONLY</strong>. VirtualMD makes no representations or warranties of any kind, express or implied, as to the operation of the Service or the information, content, materials, or products included on the Service. You expressly agree that your use of the Service is at your sole risk."
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 114,
+          "column": 258,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n            The information and services provided by VirtualMD.app, including all content generated by AI personas, are provided on an \"AS IS\" and \"AS AVAILABLE\" basis for <strong style={strongTextStyles}>INFORMATIONAL AND EDUCATIONAL PURPOSES ONLY</strong>. VirtualMD makes no representations or warranties of any kind, express or implied, as to the operation of the Service or the information, content, materials, or products included on the Service. You expressly agree that your use of the Service is at your sole risk.\n         </Typography>",
+          "source": "The information and services provided by VirtualMD.app, including all content generated by AI personas, are provided on an \"AS IS\" and \"AS AVAILABLE\" basis for <strong style={strongTextStyles}>INFORMATIONAL AND EDUCATIONAL PURPOSES ONLY</strong>. VirtualMD makes no representations or warranties of any kind, express or implied, as to the operation of the Service or the information, content, materials, or products included on the Service. You expressly agree that your use of the Service is at your sole risk."
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 116,
+          "column": 89,
+          "message": "disallow literal string: <Typography sx={{...paragraphStyles, fontWeight: 'bold', color: 'error.main'}}>\n            VirtualMD.app IS ADVICE ONLY. It is NOT a substitute for professional health advice, diagnosis, or treatment from a qualified healthcare provider. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a health condition. Never disregard professional health advice or delay in seeking it because of something you have read or interacted with on the Service.\n         </Typography>",
+          "source": "<Typography sx={{...paragraphStyles, fontWeight: 'bold', color: 'error.main'}}>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 119,
+          "column": 43,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n            VirtualMD does not provide health diagnosis or treatment. AI-generated content may contain errors or omissions despite our validation processes. health advice requires personalized evaluation by licensed healthcare providers. Health information may become outdated. Your unique health history requires professional evaluation.\n         </Typography>",
+          "source": "<Typography sx={paragraphStyles}>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 122,
+          "column": 90,
+          "message": "disallow literal string: <Typography sx={{...paragraphStyles, fontWeight: 'bold', color: 'error.main'}}>\n            The Service, its content, and its AI personas are NOT approved by the U.S. Food and Drug Administration (FDA) or any other regulatory body as a health device or for diagnostic or treatment purposes.\n          </Typography>",
+          "source": "<Typography sx={{...paragraphStyles, fontWeight: 'bold', color: 'error.main'}}>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 126,
+          "column": 52,
+          "message": "disallow literal string: <Typography component=\"div\" sx={h3Styles}>2. No HIPAA Compliance for General Use</Typography>",
+          "source": "<Typography component=\"div\" sx={h3Styles}>2. No HIPAA Compliance for General Use</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 127,
+          "column": 43,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n            You explicitly acknowledge and agree that VirtualMD.app, in its general consumer-facing service offering, is <strong style={strongTextStyles}>NOT A HIPAA-COMPLIANT SERVICE</strong> for the purposes of use by HIPAA Covered Entities or their Business Associates managing Protected Health Information (PHI) as defined under the Health Insurance Portability and Accountability Act of 1996 (HIPAA).\n         </Typography>",
+          "source": "<Typography sx={paragraphStyles}>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 128,
+          "column": 155,
+          "message": "disallow literal string: <strong style={strongTextStyles}>NOT A HIPAA-COMPLIANT SERVICE</strong>",
+          "source": "You explicitly acknowledge and agree that VirtualMD.app, in its general consumer-facing service offering, is <strong style={strongTextStyles}>NOT A HIPAA-COMPLIANT SERVICE</strong> for the purposes of use by HIPAA Covered Entities or their Business Associates managing Protected Health Information (PHI) as defined under the Health Insurance Portability and Accountability Act of 1996 (HIPAA)."
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 128,
+          "column": 193,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n            You explicitly acknowledge and agree that VirtualMD.app, in its general consumer-facing service offering, is <strong style={strongTextStyles}>NOT A HIPAA-COMPLIANT SERVICE</strong> for the purposes of use by HIPAA Covered Entities or their Business Associates managing Protected Health Information (PHI) as defined under the Health Insurance Portability and Accountability Act of 1996 (HIPAA).\n         </Typography>",
+          "source": "You explicitly acknowledge and agree that VirtualMD.app, in its general consumer-facing service offering, is <strong style={strongTextStyles}>NOT A HIPAA-COMPLIANT SERVICE</strong> for the purposes of use by HIPAA Covered Entities or their Business Associates managing Protected Health Information (PHI) as defined under the Health Insurance Portability and Accountability Act of 1996 (HIPAA)."
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 130,
+          "column": 44,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n             While VirtualMD implements strong security measures (detailed in the Privacy Policy section), the platform's architecture, data handling, and operational procedures for the general service <strong style={strongTextStyles}>do not meet the specific administrative, physical, and technical safeguard requirements mandated by the HIPAA Security Rule for handling PHI</strong> by Covered Entities or Business Associates acting on their behalf without a specific Business Associate Agreement (BAA) in place for a dedicated use case.\n         </Typography>",
+          "source": "<Typography sx={paragraphStyles}>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 131,
+          "column": 236,
+          "message": "disallow literal string: <strong style={strongTextStyles}>do not meet the specific administrative, physical, and technical safeguard requirements mandated by the HIPAA Security Rule for handling PHI</strong>",
+          "source": "While VirtualMD implements strong security measures (detailed in the Privacy Policy section), the platform's architecture, data handling, and operational procedures for the general service <strong style={strongTextStyles}>do not meet the specific administrative, physical, and technical safeguard requirements mandated by the HIPAA Security Rule for handling PHI</strong> by Covered Entities or Business Associates acting on their behalf without a specific Business Associate Agreement (BAA) in place for a dedicated use case."
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 131,
+          "column": 385,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n             While VirtualMD implements strong security measures (detailed in the Privacy Policy section), the platform's architecture, data handling, and operational procedures for the general service <strong style={strongTextStyles}>do not meet the specific administrative, physical, and technical safeguard requirements mandated by the HIPAA Security Rule for handling PHI</strong> by Covered Entities or Business Associates acting on their behalf without a specific Business Associate Agreement (BAA) in place for a dedicated use case.\n         </Typography>",
+          "source": "While VirtualMD implements strong security measures (detailed in the Privacy Policy section), the platform's architecture, data handling, and operational procedures for the general service <strong style={strongTextStyles}>do not meet the specific administrative, physical, and technical safeguard requirements mandated by the HIPAA Security Rule for handling PHI</strong> by Covered Entities or Business Associates acting on their behalf without a specific Business Associate Agreement (BAA) in place for a dedicated use case."
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 133,
+          "column": 43,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n            By using the Service, you agree that you will <strong style={strongTextStyles}>NOT</strong> use it to store, process, or transmit PHI in a manner that would require HIPAA compliance on the part of VirtualMD, unless you have entered into a separate, valid BAA with VirtualMD Technologies, LLC for a specific, agreed-upon purpose. You agree that the applicable data security standard for information you provide is that of <strong style={strongTextStyles}>reasonable business security practices within the United States</strong>, not the specific standards mandated by HIPAA for PHI.\n         </Typography>",
+          "source": "<Typography sx={paragraphStyles}>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 134,
+          "column": 104,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n            By using the Service, you agree that you will <strong style={strongTextStyles}>NOT</strong> use it to store, process, or transmit PHI in a manner that would require HIPAA compliance on the part of VirtualMD, unless you have entered into a separate, valid BAA with VirtualMD Technologies, LLC for a specific, agreed-upon purpose. You agree that the applicable data security standard for information you provide is that of <strong style={strongTextStyles}>reasonable business security practices within the United States</strong>, not the specific standards mandated by HIPAA for PHI.\n         </Typography>",
+          "source": "By using the Service, you agree that you will <strong style={strongTextStyles}>NOT</strong> use it to store, process, or transmit PHI in a manner that would require HIPAA compliance on the part of VirtualMD, unless you have entered into a separate, valid BAA with VirtualMD Technologies, LLC for a specific, agreed-upon purpose. You agree that the applicable data security standard for information you provide is that of <strong style={strongTextStyles}>reasonable business security practices within the United States</strong>, not the specific standards mandated by HIPAA for PHI."
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 134,
+          "column": 467,
+          "message": "disallow literal string: <strong style={strongTextStyles}>reasonable business security practices within the United States</strong>",
+          "source": "By using the Service, you agree that you will <strong style={strongTextStyles}>NOT</strong> use it to store, process, or transmit PHI in a manner that would require HIPAA compliance on the part of VirtualMD, unless you have entered into a separate, valid BAA with VirtualMD Technologies, LLC for a specific, agreed-upon purpose. You agree that the applicable data security standard for information you provide is that of <strong style={strongTextStyles}>reasonable business security practices within the United States</strong>, not the specific standards mandated by HIPAA for PHI."
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 134,
+          "column": 539,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n            By using the Service, you agree that you will <strong style={strongTextStyles}>NOT</strong> use it to store, process, or transmit PHI in a manner that would require HIPAA compliance on the part of VirtualMD, unless you have entered into a separate, valid BAA with VirtualMD Technologies, LLC for a specific, agreed-upon purpose. You agree that the applicable data security standard for information you provide is that of <strong style={strongTextStyles}>reasonable business security practices within the United States</strong>, not the specific standards mandated by HIPAA for PHI.\n         </Typography>",
+          "source": "By using the Service, you agree that you will <strong style={strongTextStyles}>NOT</strong> use it to store, process, or transmit PHI in a manner that would require HIPAA compliance on the part of VirtualMD, unless you have entered into a separate, valid BAA with VirtualMD Technologies, LLC for a specific, agreed-upon purpose. You agree that the applicable data security standard for information you provide is that of <strong style={strongTextStyles}>reasonable business security practices within the United States</strong>, not the specific standards mandated by HIPAA for PHI."
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 137,
+          "column": 53,
+          "message": "disallow literal string: <Typography component=\"div\" sx={h3Styles}>3. Limitation of Liability Regarding Data Security</Typography>",
+          "source": "<Typography component=\"div\" sx={h3Styles}>3. Limitation of Liability Regarding Data Security</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 138,
+          "column": 44,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n             VirtualMD implements commercially reasonable security measures, including encryption and authentication protocols (as detailed in our Privacy Policy), to protect the information you provide to the Service. However, no security system is impenetrable.\n         </Typography>",
+          "source": "<Typography sx={paragraphStyles}>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 141,
+          "column": 68,
+          "message": "disallow literal string: <Typography sx={{...paragraphStyles, fontWeight: 'bold'}}>\n            Therefore, by using this Site, you expressly acknowledge and agree that while VirtualMD will make reasonable efforts to protect your data consistent with standard business practices, <strong style={strongTextStyles}>WE DO NOT GUARANTEE THE ABSOLUTE SECURITY OF YOUR INFORMATION</strong>. You agree that you <strong style={strongTextStyles}>CANNOT AND WILL NOT SUE OR HOLD VirtualMD TECHNOLOGIES, LLC, ITS AFFILIATES, OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, OR LICENSORS LIABLE</strong> for any damages, losses, costs, or expenses arising out of or in connection with any unauthorized access, use, disclosure, alteration, or destruction of your information (including data breaches), provided that VirtualMD has implemented reasonable security measures. Your use of the Service constitutes your acceptance of this risk.\n          </Typography>",
+          "source": "<Typography sx={{...paragraphStyles, fontWeight: 'bold'}}>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 142,
+          "column": 229,
+          "message": "disallow literal string: <strong style={strongTextStyles}>WE DO NOT GUARANTEE THE ABSOLUTE SECURITY OF YOUR INFORMATION</strong>",
+          "source": "Therefore, by using this Site, you expressly acknowledge and agree that while VirtualMD will make reasonable efforts to protect your data consistent with standard business practices, <strong style={strongTextStyles}>WE DO NOT GUARANTEE THE ABSOLUTE SECURITY OF YOUR INFORMATION</strong>. You agree that you <strong style={strongTextStyles}>CANNOT AND WILL NOT SUE OR HOLD VirtualMD TECHNOLOGIES, LLC, ITS AFFILIATES, OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, OR LICENSORS LIABLE</strong> for any damages, losses, costs, or expenses arising out of or in connection with any unauthorized access, use, disclosure, alteration, or destruction of your information (including data breaches), provided that VirtualMD has implemented reasonable security measures. Your use of the Service constitutes your acceptance of this risk."
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 142,
+          "column": 299,
+          "message": "disallow literal string: <Typography sx={{...paragraphStyles, fontWeight: 'bold'}}>\n            Therefore, by using this Site, you expressly acknowledge and agree that while VirtualMD will make reasonable efforts to protect your data consistent with standard business practices, <strong style={strongTextStyles}>WE DO NOT GUARANTEE THE ABSOLUTE SECURITY OF YOUR INFORMATION</strong>. You agree that you <strong style={strongTextStyles}>CANNOT AND WILL NOT SUE OR HOLD VirtualMD TECHNOLOGIES, LLC, ITS AFFILIATES, OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, OR LICENSORS LIABLE</strong> for any damages, losses, costs, or expenses arising out of or in connection with any unauthorized access, use, disclosure, alteration, or destruction of your information (including data breaches), provided that VirtualMD has implemented reasonable security measures. Your use of the Service constitutes your acceptance of this risk.\n          </Typography>",
+          "source": "Therefore, by using this Site, you expressly acknowledge and agree that while VirtualMD will make reasonable efforts to protect your data consistent with standard business practices, <strong style={strongTextStyles}>WE DO NOT GUARANTEE THE ABSOLUTE SECURITY OF YOUR INFORMATION</strong>. You agree that you <strong style={strongTextStyles}>CANNOT AND WILL NOT SUE OR HOLD VirtualMD TECHNOLOGIES, LLC, ITS AFFILIATES, OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, OR LICENSORS LIABLE</strong> for any damages, losses, costs, or expenses arising out of or in connection with any unauthorized access, use, disclosure, alteration, or destruction of your information (including data breaches), provided that VirtualMD has implemented reasonable security measures. Your use of the Service constitutes your acceptance of this risk."
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 142,
+          "column": 353,
+          "message": "disallow literal string: <strong style={strongTextStyles}>CANNOT AND WILL NOT SUE OR HOLD VirtualMD TECHNOLOGIES, LLC, ITS AFFILIATES, OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, OR LICENSORS LIABLE</strong>",
+          "source": "Therefore, by using this Site, you expressly acknowledge and agree that while VirtualMD will make reasonable efforts to protect your data consistent with standard business practices, <strong style={strongTextStyles}>WE DO NOT GUARANTEE THE ABSOLUTE SECURITY OF YOUR INFORMATION</strong>. You agree that you <strong style={strongTextStyles}>CANNOT AND WILL NOT SUE OR HOLD VirtualMD TECHNOLOGIES, LLC, ITS AFFILIATES, OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, OR LICENSORS LIABLE</strong> for any damages, losses, costs, or expenses arising out of or in connection with any unauthorized access, use, disclosure, alteration, or destruction of your information (including data breaches), provided that VirtualMD has implemented reasonable security measures. Your use of the Service constitutes your acceptance of this risk."
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 142,
+          "column": 498,
+          "message": "disallow literal string: <Typography sx={{...paragraphStyles, fontWeight: 'bold'}}>\n            Therefore, by using this Site, you expressly acknowledge and agree that while VirtualMD will make reasonable efforts to protect your data consistent with standard business practices, <strong style={strongTextStyles}>WE DO NOT GUARANTEE THE ABSOLUTE SECURITY OF YOUR INFORMATION</strong>. You agree that you <strong style={strongTextStyles}>CANNOT AND WILL NOT SUE OR HOLD VirtualMD TECHNOLOGIES, LLC, ITS AFFILIATES, OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, OR LICENSORS LIABLE</strong> for any damages, losses, costs, or expenses arising out of or in connection with any unauthorized access, use, disclosure, alteration, or destruction of your information (including data breaches), provided that VirtualMD has implemented reasonable security measures. Your use of the Service constitutes your acceptance of this risk.\n          </Typography>",
+          "source": "Therefore, by using this Site, you expressly acknowledge and agree that while VirtualMD will make reasonable efforts to protect your data consistent with standard business practices, <strong style={strongTextStyles}>WE DO NOT GUARANTEE THE ABSOLUTE SECURITY OF YOUR INFORMATION</strong>. You agree that you <strong style={strongTextStyles}>CANNOT AND WILL NOT SUE OR HOLD VirtualMD TECHNOLOGIES, LLC, ITS AFFILIATES, OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, OR LICENSORS LIABLE</strong> for any damages, losses, costs, or expenses arising out of or in connection with any unauthorized access, use, disclosure, alteration, or destruction of your information (including data breaches), provided that VirtualMD has implemented reasonable security measures. Your use of the Service constitutes your acceptance of this risk."
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 145,
+          "column": 52,
+          "message": "disallow literal string: <Typography component=\"div\" sx={h3Styles}>4. General Limitation of Liability</Typography>",
+          "source": "<Typography component=\"div\" sx={h3Styles}>4. General Limitation of Liability</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 148,
+          "column": 52,
+          "message": "disallow literal string: <Typography component=\"div\" sx={h3Styles}>5. Emergency Situations</Typography>",
+          "source": "<Typography component=\"div\" sx={h3Styles}>5. Emergency Situations</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 149,
+          "column": 43,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n            VirtualMD.app <strong style={strongTextStyles}>CANNOT</strong> act on your behalf in an emergency. If the system suggests you call emergency services (e.g., 911, 999, 101, 000) or seek immediate health attention, you are solely responsible for taking that action. The Service does not dispatch emergency services. Always rely on local emergency services for urgent health needs.\n         </Typography>",
+          "source": "<Typography sx={paragraphStyles}>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 150,
+          "column": 75,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n            VirtualMD.app <strong style={strongTextStyles}>CANNOT</strong> act on your behalf in an emergency. If the system suggests you call emergency services (e.g., 911, 999, 101, 000) or seek immediate health attention, you are solely responsible for taking that action. The Service does not dispatch emergency services. Always rely on local emergency services for urgent health needs.\n         </Typography>",
+          "source": "VirtualMD.app <strong style={strongTextStyles}>CANNOT</strong> act on your behalf in an emergency. If the system suggests you call emergency services (e.g., 911, 999, 101, 000) or seek immediate health attention, you are solely responsible for taking that action. The Service does not dispatch emergency services. Always rely on local emergency services for urgent health needs."
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 155,
+          "column": 114,
+          "message": "disallow literal string: <Typography variant=\"h2\" component=\"h2\" sx={h2Styles}><PolicyIcon sx={{verticalAlign: 'middle', mr: 1}}/> Privacy Policy</Typography>",
+          "source": "<Typography variant=\"h2\" component=\"h2\" sx={h2Styles}><PolicyIcon sx={{verticalAlign: 'middle', mr: 1}}/> Privacy Policy</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 157,
+          "column": 42,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n          This Privacy Policy explains how VirtualMD Technologies, LLC collects, uses, and discloses information about you through our VirtualMD.app website and services. This policy is incorporated into our Terms of Use.\n        </Typography>",
+          "source": "<Typography sx={paragraphStyles}>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 161,
+          "column": 51,
+          "message": "disallow literal string: <Typography component=\"div\" sx={h3Styles}>1. Our Data Privacy Pledge</Typography>",
+          "source": "<Typography component=\"div\" sx={h3Styles}>1. Our Data Privacy Pledge</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 162,
+          "column": 42,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n          At VirtualMD.app, the privacy and security of your personal information are paramount. We are committed to maintaining the confidentiality and integrity of the data you entrust to us. Our platform is designed with robust security measures to protect your information from unauthorized access, disclosure, alteration, and destruction.\n        </Typography>",
+          "source": "<Typography sx={paragraphStyles}>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 172,
+          "column": 51,
+          "message": "disallow literal string: <Typography component=\"div\" sx={h3Styles}>2. Information We Collect & Other Privacy Details</Typography>",
+          "source": "<Typography component=\"div\" sx={h3Styles}>2. Information We Collect & Other Privacy Details</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 175,
+          "column": 51,
+          "message": "disallow literal string: <Typography component=\"div\" sx={h3Styles}>5. VirtualMD.app's Security Practices</Typography>",
+          "source": "<Typography component=\"div\" sx={h3Styles}>5. VirtualMD.app's Security Practices</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 176,
+          "column": 42,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n           We employ a multi-layered security strategy:\n        </Typography>",
+          "source": "<Typography sx={paragraphStyles}>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 187,
+          "column": 42,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n          These measures provide robust account security, but remember no system is 100% secure.\n        </Typography>",
+          "source": "<Typography sx={paragraphStyles}>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 191,
+          "column": 51,
+          "message": "disallow literal string: <Typography component=\"div\" sx={h3Styles}>6. VirtualMD.app & HIPAA Considerations (Reiteration)</Typography>",
+          "source": "<Typography component=\"div\" sx={h3Styles}>6. VirtualMD.app & HIPAA Considerations (Reiteration)</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 192,
+          "column": 42,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n          As stated in the Disclaimers, the general VirtualMD.app service is <strong style={strongTextStyles}>NOT HIPAA compliant</strong> for Covered Entity / Business Associate use cases involving PHI without a specific BAA. While we implement strong security, our general service operates under standard business security practices, not the specific requirements of the HIPAA Security Rule for PHI managed by Covered Entities.\n        </Typography>",
+          "source": "<Typography sx={paragraphStyles}>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 193,
+          "column": 111,
+          "message": "disallow literal string: <strong style={strongTextStyles}>NOT HIPAA compliant</strong>",
+          "source": "As stated in the Disclaimers, the general VirtualMD.app service is <strong style={strongTextStyles}>NOT HIPAA compliant</strong> for Covered Entity / Business Associate use cases involving PHI without a specific BAA. While we implement strong security, our general service operates under standard business security practices, not the specific requirements of the HIPAA Security Rule for PHI managed by Covered Entities."
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 193,
+          "column": 139,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n          As stated in the Disclaimers, the general VirtualMD.app service is <strong style={strongTextStyles}>NOT HIPAA compliant</strong> for Covered Entity / Business Associate use cases involving PHI without a specific BAA. While we implement strong security, our general service operates under standard business security practices, not the specific requirements of the HIPAA Security Rule for PHI managed by Covered Entities.\n        </Typography>",
+          "source": "As stated in the Disclaimers, the general VirtualMD.app service is <strong style={strongTextStyles}>NOT HIPAA compliant</strong> for Covered Entity / Business Associate use cases involving PHI without a specific BAA. While we implement strong security, our general service operates under standard business security practices, not the specific requirements of the HIPAA Security Rule for PHI managed by Covered Entities."
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 195,
+          "column": 127,
+          "message": "disallow literal string: <Typography sx={{...paragraphStyles, fontWeight: 'bold', textDecoration: 'underline', color: 'warning.main', my: 2}}>\n            Users requiring strict HIPAA compliance for PHI they manage should not use our general platform for such purposes without a BAA. Users must not input information traceable to individual patients in a context violating HIPAA without explicit, informed consent acknowledging the platform's non-HIPAA compliant status for that use.\n         </Typography>",
+          "source": "<Typography sx={{...paragraphStyles, fontWeight: 'bold', textDecoration: 'underline', color: 'warning.main', my: 2}}>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 199,
+          "column": 51,
+          "message": "disallow literal string: <Typography component=\"div\" sx={h3Styles}>7. Data Usage by Third-Party AI Engine Providers</Typography>",
+          "source": "<Typography component=\"div\" sx={h3Styles}>7. Data Usage by Third-Party AI Engine Providers</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 200,
+          "column": 42,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n           VirtualMD integrates with leading AI model providers (e.g., OpenAI, Anthropic, Google).\n        </Typography>",
+          "source": "<Typography sx={paragraphStyles}>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 211,
+          "column": 124,
+          "message": "disallow literal string: <Typography variant=\"h2\" component=\"h2\" sx={h2Styles}><BalanceOutlinedIcon sx={{verticalAlign: 'middle', mr: 1}}/> Other Legal Provisions</Typography>",
+          "source": "<Typography variant=\"h2\" component=\"h2\" sx={h2Styles}><BalanceOutlinedIcon sx={{verticalAlign: 'middle', mr: 1}}/> Other Legal Provisions</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 213,
+          "column": 53,
+          "message": "disallow literal string: <Typography component=\"div\" sx={h3Styles}>Changes to These Terms and Policy</Typography>",
+          "source": "<Typography component=\"div\" sx={h3Styles}>Changes to These Terms and Policy</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 216,
+          "column": 53,
+          "message": "disallow literal string: <Typography component=\"div\" sx={h3Styles}>Termination</Typography>",
+          "source": "<Typography component=\"div\" sx={h3Styles}>Termination</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 219,
+          "column": 53,
+          "message": "disallow literal string: <Typography component=\"div\" sx={h3Styles}>Governing Law and Dispute Resolution</Typography>",
+          "source": "<Typography component=\"div\" sx={h3Styles}>Governing Law and Dispute Resolution</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 222,
+          "column": 53,
+          "message": "disallow literal string: <Typography component=\"div\" sx={h3Styles}>Contact Information</Typography>",
+          "source": "<Typography component=\"div\" sx={h3Styles}>Contact Information</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 223,
+          "column": 44,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n             If you have any questions about these Terms or the Privacy Policy, please contact us at: <MuiLink href=\"mailto:legal@virtualmd.app\">legal@virtualmd.app</MuiLink> or via our Contact Us page.\n           </Typography>",
+          "source": "<Typography sx={paragraphStyles}>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 224,
+          "column": 146,
+          "message": "disallow literal string: <MuiLink href=\"mailto:legal@virtualmd.app\">legal@virtualmd.app</MuiLink>",
+          "source": "If you have any questions about these Terms or the Privacy Policy, please contact us at: <MuiLink href=\"mailto:legal@virtualmd.app\">legal@virtualmd.app</MuiLink> or via our Contact Us page."
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 224,
+          "column": 175,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n             If you have any questions about these Terms or the Privacy Policy, please contact us at: <MuiLink href=\"mailto:legal@virtualmd.app\">legal@virtualmd.app</MuiLink> or via our Contact Us page.\n           </Typography>",
+          "source": "If you have any questions about these Terms or the Privacy Policy, please contact us at: <MuiLink href=\"mailto:legal@virtualmd.app\">legal@virtualmd.app</MuiLink> or via our Contact Us page."
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 227,
+          "column": 54,
+          "message": "disallow literal string: <Typography component=\"div\" sx={h3Styles}>Miscellaneous</Typography>",
+          "source": "<Typography component=\"div\" sx={h3Styles}>Miscellaneous</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_backup.jsx",
+          "line": 230,
+          "column": 99,
+          "message": "disallow literal string: <Typography sx={{...paragraphStyles, mt: 3, fontSize: '0.75rem', textAlign: 'center'}}>\n             Last Updated: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}\n           </Typography>",
+          "source": "<Typography sx={{...paragraphStyles, mt: 3, fontSize: '0.75rem', textAlign: 'center'}}>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 61,
+          "column": 164,
+          "message": "disallow literal string: <Typography variant=\"h1\" component=\"h1\" align=\"center\" gutterBottom sx={{ fontSize: { xs: '2.5rem', sm: '3rem', md: '3.5rem' }, fontWeight: 'bold', mb: 4 }}>\n        VirtualMD.app Legal Terms & Privacy Policy\n      </Typography>",
+          "source": "<Typography variant=\"h1\" component=\"h1\" align=\"center\" gutterBottom sx={{ fontSize: { xs: '2.5rem', sm: '3rem', md: '3.5rem' }, fontWeight: 'bold', mb: 4 }}>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 66,
+          "column": 113,
+          "message": "disallow literal string: <Typography variant=\"h2\" component=\"h2\" sx={h2Styles}><GavelIcon sx={{verticalAlign: 'middle', mr: 1}}/> Terms of Use</Typography>",
+          "source": "<Typography variant=\"h2\" component=\"h2\" sx={h2Styles}><GavelIcon sx={{verticalAlign: 'middle', mr: 1}}/> Terms of Use</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 68,
+          "column": 42,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n          Welcome to VirtualMD.app (the \"Service\", \"Site\"), operated by VirtualMD Technologies, LLC (\"VirtualMD\", \"we\", \"us\", \"our\"). These Terms of Use (\"Terms\") govern your access to and use of our website, AI personas, content, and services. By accessing or using the Service, you agree to be bound by these Terms and our Privacy Policy, incorporated herein by reference. If you do not agree to these Terms, do not use the Service.\n        </Typography>",
+          "source": "<Typography sx={paragraphStyles}>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 72,
+          "column": 51,
+          "message": "disallow literal string: <Typography component=\"div\" sx={h3Styles}>1. Service Description</Typography>",
+          "source": "<Typography component=\"div\" sx={h3Styles}>1. Service Description</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 73,
+          "column": 42,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n          VirtualMD.app provides access to advanced AI personas designed to offer health-related information and insights based on health literature, clinical guidelines, and AI training data. The Service is intended for informational and educational purposes only.\n        </Typography>",
+          "source": "<Typography sx={paragraphStyles}>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 77,
+          "column": 51,
+          "message": "disallow literal string: <Typography component=\"div\" sx={h3Styles}>2. Acceptance of Terms</Typography>",
+          "source": "<Typography component=\"div\" sx={h3Styles}>2. Acceptance of Terms</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 78,
+          "column": 42,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n          By registering for, accessing, browsing, or using the Service, you acknowledge that you have read, understood, and agree to be bound by these Terms. You represent that you are of legal age to form a binding contract. Your use of the Service constitutes your electronic signature to these Terms.\n        </Typography>",
+          "source": "<Typography sx={paragraphStyles}>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 83,
+          "column": 51,
+          "message": "disallow literal string: <Typography component=\"div\" sx={h3Styles}>3. Eligibility</Typography>",
+          "source": "<Typography component=\"div\" sx={h3Styles}>3. Eligibility</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 86,
+          "column": 51,
+          "message": "disallow literal string: <Typography component=\"div\" sx={h3Styles}>4. User Accounts and Registration</Typography>",
+          "source": "<Typography component=\"div\" sx={h3Styles}>4. User Accounts and Registration</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 89,
+          "column": 51,
+          "message": "disallow literal string: <Typography component=\"div\" sx={h3Styles}>5. Intellectual Property Rights</Typography>",
+          "source": "<Typography component=\"div\" sx={h3Styles}>5. Intellectual Property Rights</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 92,
+          "column": 101,
+          "message": "disallow literal string: <Typography component=\"div\" sx={{...h3Styles, color: 'text.secondary', fontStyle:'italic'}}>6. Fees and Payment (Placeholder)</Typography>",
+          "source": "<Typography component=\"div\" sx={{...h3Styles, color: 'text.secondary', fontStyle:'italic'}}>6. Fees and Payment (Placeholder)</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 97,
+          "column": 127,
+          "message": "disallow literal string: <Typography variant=\"h2\" component=\"h2\" sx={h2Styles}><CheckCircleOutlineIcon sx={{verticalAlign: 'middle', mr: 1}}/> Acceptable Use Policy</Typography>",
+          "source": "<Typography variant=\"h2\" component=\"h2\" sx={h2Styles}><CheckCircleOutlineIcon sx={{verticalAlign: 'middle', mr: 1}}/> Acceptable Use Policy</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 98,
+          "column": 43,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n           You agree to use VirtualMD.app only for lawful purposes and in accordance with these Terms. You agree not to use the Service:\n         </Typography>",
+          "source": "<Typography sx={paragraphStyles}>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 112,
+          "column": 129,
+          "message": "disallow literal string: <Typography variant=\"h2\" component=\"h2\" sx={h2Styles}><WarningAmberOutlinedIcon sx={{verticalAlign: 'middle', mr: 1}}/> Disclaimers and Limitation of Liability</Typography>",
+          "source": "<Typography variant=\"h2\" component=\"h2\" sx={h2Styles}><WarningAmberOutlinedIcon sx={{verticalAlign: 'middle', mr: 1}}/> Disclaimers and Limitation of Liability</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 114,
+          "column": 52,
+          "message": "disallow literal string: <Typography component=\"div\" sx={h3Styles}>1. Service Provided \"AS IS\"; ADVICE ONLY</Typography>",
+          "source": "<Typography component=\"div\" sx={h3Styles}>1. Service Provided \"AS IS\"; ADVICE ONLY</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 115,
+          "column": 43,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n            The information and services provided by VirtualMD.app, including all content generated by AI personas, are provided on an \"AS IS\" and \"AS AVAILABLE\" basis for <strong style={strongTextStyles}>INFORMATIONAL AND EDUCATIONAL PURPOSES ONLY</strong>. VirtualMD makes no representations or warranties of any kind, express or implied, as to the operation of the Service or the information, content, materials, or products included on the Service. You expressly agree that your use of the Service is at your sole risk.\n         </Typography>",
+          "source": "<Typography sx={paragraphStyles}>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 116,
+          "column": 206,
+          "message": "disallow literal string: <strong style={strongTextStyles}>INFORMATIONAL AND EDUCATIONAL PURPOSES ONLY</strong>",
+          "source": "The information and services provided by VirtualMD.app, including all content generated by AI personas, are provided on an \"AS IS\" and \"AS AVAILABLE\" basis for <strong style={strongTextStyles}>INFORMATIONAL AND EDUCATIONAL PURPOSES ONLY</strong>. VirtualMD makes no representations or warranties of any kind, express or implied, as to the operation of the Service or the information, content, materials, or products included on the Service. You expressly agree that your use of the Service is at your sole risk."
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 116,
+          "column": 258,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n            The information and services provided by VirtualMD.app, including all content generated by AI personas, are provided on an \"AS IS\" and \"AS AVAILABLE\" basis for <strong style={strongTextStyles}>INFORMATIONAL AND EDUCATIONAL PURPOSES ONLY</strong>. VirtualMD makes no representations or warranties of any kind, express or implied, as to the operation of the Service or the information, content, materials, or products included on the Service. You expressly agree that your use of the Service is at your sole risk.\n         </Typography>",
+          "source": "The information and services provided by VirtualMD.app, including all content generated by AI personas, are provided on an \"AS IS\" and \"AS AVAILABLE\" basis for <strong style={strongTextStyles}>INFORMATIONAL AND EDUCATIONAL PURPOSES ONLY</strong>. VirtualMD makes no representations or warranties of any kind, express or implied, as to the operation of the Service or the information, content, materials, or products included on the Service. You expressly agree that your use of the Service is at your sole risk."
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 118,
+          "column": 89,
+          "message": "disallow literal string: <Typography sx={{...paragraphStyles, fontWeight: 'bold', color: 'error.main'}}>\n            VirtualMD.app IS ADVICE ONLY. It is NOT a substitute for professional health advice, diagnosis, or treatment from a qualified healthcare provider. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a health condition. Never disregard professional health advice or delay in seeking it because of something you have read or interacted with on the Service.\n         </Typography>",
+          "source": "<Typography sx={{...paragraphStyles, fontWeight: 'bold', color: 'error.main'}}>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 121,
+          "column": 43,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n            VirtualMD does not provide health diagnosis or treatment. AI-generated content may contain errors or omissions despite our validation processes. health advice requires personalized evaluation by licensed healthcare providers. Health information may become outdated. Your unique health history requires professional evaluation.\n         </Typography>",
+          "source": "<Typography sx={paragraphStyles}>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 124,
+          "column": 90,
+          "message": "disallow literal string: <Typography sx={{...paragraphStyles, fontWeight: 'bold', color: 'error.main'}}>\n            The Service, its content, and its AI personas are NOT approved by the U.S. Food and Drug Administration (FDA) or any other regulatory body as a health device or for diagnostic or treatment purposes.\n          </Typography>",
+          "source": "<Typography sx={{...paragraphStyles, fontWeight: 'bold', color: 'error.main'}}>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 128,
+          "column": 52,
+          "message": "disallow literal string: <Typography component=\"div\" sx={h3Styles}>2. No HIPAA Compliance for General Use</Typography>",
+          "source": "<Typography component=\"div\" sx={h3Styles}>2. No HIPAA Compliance for General Use</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 129,
+          "column": 43,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n            You explicitly acknowledge and agree that VirtualMD.app, in its general consumer-facing service offering, is <strong style={strongTextStyles}>NOT A HIPAA-COMPLIANT SERVICE</strong> for the purposes of use by HIPAA Covered Entities or their Business Associates managing Protected Health Information (PHI) as defined under the Health Insurance Portability and Accountability Act of 1996 (HIPAA).\n         </Typography>",
+          "source": "<Typography sx={paragraphStyles}>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 130,
+          "column": 155,
+          "message": "disallow literal string: <strong style={strongTextStyles}>NOT A HIPAA-COMPLIANT SERVICE</strong>",
+          "source": "You explicitly acknowledge and agree that VirtualMD.app, in its general consumer-facing service offering, is <strong style={strongTextStyles}>NOT A HIPAA-COMPLIANT SERVICE</strong> for the purposes of use by HIPAA Covered Entities or their Business Associates managing Protected Health Information (PHI) as defined under the Health Insurance Portability and Accountability Act of 1996 (HIPAA)."
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 130,
+          "column": 193,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n            You explicitly acknowledge and agree that VirtualMD.app, in its general consumer-facing service offering, is <strong style={strongTextStyles}>NOT A HIPAA-COMPLIANT SERVICE</strong> for the purposes of use by HIPAA Covered Entities or their Business Associates managing Protected Health Information (PHI) as defined under the Health Insurance Portability and Accountability Act of 1996 (HIPAA).\n         </Typography>",
+          "source": "You explicitly acknowledge and agree that VirtualMD.app, in its general consumer-facing service offering, is <strong style={strongTextStyles}>NOT A HIPAA-COMPLIANT SERVICE</strong> for the purposes of use by HIPAA Covered Entities or their Business Associates managing Protected Health Information (PHI) as defined under the Health Insurance Portability and Accountability Act of 1996 (HIPAA)."
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 132,
+          "column": 44,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n             While VirtualMD implements strong security measures (detailed in the Privacy Policy section), the platform's architecture, data handling, and operational procedures for the general service <strong style={strongTextStyles}>do not meet the specific administrative, physical, and technical safeguard requirements mandated by the HIPAA Security Rule for handling PHI</strong> by Covered Entities or Business Associates acting on their behalf without a specific Business Associate Agreement (BAA) in place for a dedicated use case.\n         </Typography>",
+          "source": "<Typography sx={paragraphStyles}>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 133,
+          "column": 236,
+          "message": "disallow literal string: <strong style={strongTextStyles}>do not meet the specific administrative, physical, and technical safeguard requirements mandated by the HIPAA Security Rule for handling PHI</strong>",
+          "source": "While VirtualMD implements strong security measures (detailed in the Privacy Policy section), the platform's architecture, data handling, and operational procedures for the general service <strong style={strongTextStyles}>do not meet the specific administrative, physical, and technical safeguard requirements mandated by the HIPAA Security Rule for handling PHI</strong> by Covered Entities or Business Associates acting on their behalf without a specific Business Associate Agreement (BAA) in place for a dedicated use case."
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 133,
+          "column": 385,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n             While VirtualMD implements strong security measures (detailed in the Privacy Policy section), the platform's architecture, data handling, and operational procedures for the general service <strong style={strongTextStyles}>do not meet the specific administrative, physical, and technical safeguard requirements mandated by the HIPAA Security Rule for handling PHI</strong> by Covered Entities or Business Associates acting on their behalf without a specific Business Associate Agreement (BAA) in place for a dedicated use case.\n         </Typography>",
+          "source": "While VirtualMD implements strong security measures (detailed in the Privacy Policy section), the platform's architecture, data handling, and operational procedures for the general service <strong style={strongTextStyles}>do not meet the specific administrative, physical, and technical safeguard requirements mandated by the HIPAA Security Rule for handling PHI</strong> by Covered Entities or Business Associates acting on their behalf without a specific Business Associate Agreement (BAA) in place for a dedicated use case."
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 135,
+          "column": 43,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n            By using the Service, you agree that you will <strong style={strongTextStyles}>NOT</strong> use it to store, process, or transmit PHI in a manner that would require HIPAA compliance on the part of VirtualMD, unless you have entered into a separate, valid BAA with VirtualMD Technologies, LLC for a specific, agreed-upon purpose. You agree that the applicable data security standard for information you provide is that of <strong style={strongTextStyles}>reasonable business security practices within the United States</strong>, not the specific standards mandated by HIPAA for PHI.\n         </Typography>",
+          "source": "<Typography sx={paragraphStyles}>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 136,
+          "column": 104,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n            By using the Service, you agree that you will <strong style={strongTextStyles}>NOT</strong> use it to store, process, or transmit PHI in a manner that would require HIPAA compliance on the part of VirtualMD, unless you have entered into a separate, valid BAA with VirtualMD Technologies, LLC for a specific, agreed-upon purpose. You agree that the applicable data security standard for information you provide is that of <strong style={strongTextStyles}>reasonable business security practices within the United States</strong>, not the specific standards mandated by HIPAA for PHI.\n         </Typography>",
+          "source": "By using the Service, you agree that you will <strong style={strongTextStyles}>NOT</strong> use it to store, process, or transmit PHI in a manner that would require HIPAA compliance on the part of VirtualMD, unless you have entered into a separate, valid BAA with VirtualMD Technologies, LLC for a specific, agreed-upon purpose. You agree that the applicable data security standard for information you provide is that of <strong style={strongTextStyles}>reasonable business security practices within the United States</strong>, not the specific standards mandated by HIPAA for PHI."
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 136,
+          "column": 467,
+          "message": "disallow literal string: <strong style={strongTextStyles}>reasonable business security practices within the United States</strong>",
+          "source": "By using the Service, you agree that you will <strong style={strongTextStyles}>NOT</strong> use it to store, process, or transmit PHI in a manner that would require HIPAA compliance on the part of VirtualMD, unless you have entered into a separate, valid BAA with VirtualMD Technologies, LLC for a specific, agreed-upon purpose. You agree that the applicable data security standard for information you provide is that of <strong style={strongTextStyles}>reasonable business security practices within the United States</strong>, not the specific standards mandated by HIPAA for PHI."
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 136,
+          "column": 539,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n            By using the Service, you agree that you will <strong style={strongTextStyles}>NOT</strong> use it to store, process, or transmit PHI in a manner that would require HIPAA compliance on the part of VirtualMD, unless you have entered into a separate, valid BAA with VirtualMD Technologies, LLC for a specific, agreed-upon purpose. You agree that the applicable data security standard for information you provide is that of <strong style={strongTextStyles}>reasonable business security practices within the United States</strong>, not the specific standards mandated by HIPAA for PHI.\n         </Typography>",
+          "source": "By using the Service, you agree that you will <strong style={strongTextStyles}>NOT</strong> use it to store, process, or transmit PHI in a manner that would require HIPAA compliance on the part of VirtualMD, unless you have entered into a separate, valid BAA with VirtualMD Technologies, LLC for a specific, agreed-upon purpose. You agree that the applicable data security standard for information you provide is that of <strong style={strongTextStyles}>reasonable business security practices within the United States</strong>, not the specific standards mandated by HIPAA for PHI."
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 139,
+          "column": 53,
+          "message": "disallow literal string: <Typography component=\"div\" sx={h3Styles}>3. Limitation of Liability Regarding Data Security</Typography>",
+          "source": "<Typography component=\"div\" sx={h3Styles}>3. Limitation of Liability Regarding Data Security</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 140,
+          "column": 44,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n             VirtualMD implements commercially reasonable security measures, including encryption and authentication protocols (as detailed in our Privacy Policy), to protect the information you provide to the Service. However, no security system is impenetrable.\n         </Typography>",
+          "source": "<Typography sx={paragraphStyles}>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 143,
+          "column": 68,
+          "message": "disallow literal string: <Typography sx={{...paragraphStyles, fontWeight: 'bold'}}>\n            Therefore, by using this Site, you expressly acknowledge and agree that while VirtualMD will make reasonable efforts to protect your data consistent with standard business practices, <strong style={strongTextStyles}>WE DO NOT GUARANTEE THE ABSOLUTE SECURITY OF YOUR INFORMATION</strong>. You agree that you <strong style={strongTextStyles}>CANNOT AND WILL NOT SUE OR HOLD VirtualMD TECHNOLOGIES, LLC, ITS AFFILIATES, OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, OR LICENSORS LIABLE</strong> for any damages, losses, costs, or expenses arising out of or in connection with any unauthorized access, use, disclosure, alteration, or destruction of your information (including data breaches), provided that VirtualMD has implemented reasonable security measures. Your use of the Service constitutes your acceptance of this risk.\n          </Typography>",
+          "source": "<Typography sx={{...paragraphStyles, fontWeight: 'bold'}}>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 144,
+          "column": 229,
+          "message": "disallow literal string: <strong style={strongTextStyles}>WE DO NOT GUARANTEE THE ABSOLUTE SECURITY OF YOUR INFORMATION</strong>",
+          "source": "Therefore, by using this Site, you expressly acknowledge and agree that while VirtualMD will make reasonable efforts to protect your data consistent with standard business practices, <strong style={strongTextStyles}>WE DO NOT GUARANTEE THE ABSOLUTE SECURITY OF YOUR INFORMATION</strong>. You agree that you <strong style={strongTextStyles}>CANNOT AND WILL NOT SUE OR HOLD VirtualMD TECHNOLOGIES, LLC, ITS AFFILIATES, OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, OR LICENSORS LIABLE</strong> for any damages, losses, costs, or expenses arising out of or in connection with any unauthorized access, use, disclosure, alteration, or destruction of your information (including data breaches), provided that VirtualMD has implemented reasonable security measures. Your use of the Service constitutes your acceptance of this risk."
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 144,
+          "column": 299,
+          "message": "disallow literal string: <Typography sx={{...paragraphStyles, fontWeight: 'bold'}}>\n            Therefore, by using this Site, you expressly acknowledge and agree that while VirtualMD will make reasonable efforts to protect your data consistent with standard business practices, <strong style={strongTextStyles}>WE DO NOT GUARANTEE THE ABSOLUTE SECURITY OF YOUR INFORMATION</strong>. You agree that you <strong style={strongTextStyles}>CANNOT AND WILL NOT SUE OR HOLD VirtualMD TECHNOLOGIES, LLC, ITS AFFILIATES, OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, OR LICENSORS LIABLE</strong> for any damages, losses, costs, or expenses arising out of or in connection with any unauthorized access, use, disclosure, alteration, or destruction of your information (including data breaches), provided that VirtualMD has implemented reasonable security measures. Your use of the Service constitutes your acceptance of this risk.\n          </Typography>",
+          "source": "Therefore, by using this Site, you expressly acknowledge and agree that while VirtualMD will make reasonable efforts to protect your data consistent with standard business practices, <strong style={strongTextStyles}>WE DO NOT GUARANTEE THE ABSOLUTE SECURITY OF YOUR INFORMATION</strong>. You agree that you <strong style={strongTextStyles}>CANNOT AND WILL NOT SUE OR HOLD VirtualMD TECHNOLOGIES, LLC, ITS AFFILIATES, OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, OR LICENSORS LIABLE</strong> for any damages, losses, costs, or expenses arising out of or in connection with any unauthorized access, use, disclosure, alteration, or destruction of your information (including data breaches), provided that VirtualMD has implemented reasonable security measures. Your use of the Service constitutes your acceptance of this risk."
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 144,
+          "column": 353,
+          "message": "disallow literal string: <strong style={strongTextStyles}>CANNOT AND WILL NOT SUE OR HOLD VirtualMD TECHNOLOGIES, LLC, ITS AFFILIATES, OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, OR LICENSORS LIABLE</strong>",
+          "source": "Therefore, by using this Site, you expressly acknowledge and agree that while VirtualMD will make reasonable efforts to protect your data consistent with standard business practices, <strong style={strongTextStyles}>WE DO NOT GUARANTEE THE ABSOLUTE SECURITY OF YOUR INFORMATION</strong>. You agree that you <strong style={strongTextStyles}>CANNOT AND WILL NOT SUE OR HOLD VirtualMD TECHNOLOGIES, LLC, ITS AFFILIATES, OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, OR LICENSORS LIABLE</strong> for any damages, losses, costs, or expenses arising out of or in connection with any unauthorized access, use, disclosure, alteration, or destruction of your information (including data breaches), provided that VirtualMD has implemented reasonable security measures. Your use of the Service constitutes your acceptance of this risk."
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 144,
+          "column": 498,
+          "message": "disallow literal string: <Typography sx={{...paragraphStyles, fontWeight: 'bold'}}>\n            Therefore, by using this Site, you expressly acknowledge and agree that while VirtualMD will make reasonable efforts to protect your data consistent with standard business practices, <strong style={strongTextStyles}>WE DO NOT GUARANTEE THE ABSOLUTE SECURITY OF YOUR INFORMATION</strong>. You agree that you <strong style={strongTextStyles}>CANNOT AND WILL NOT SUE OR HOLD VirtualMD TECHNOLOGIES, LLC, ITS AFFILIATES, OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, OR LICENSORS LIABLE</strong> for any damages, losses, costs, or expenses arising out of or in connection with any unauthorized access, use, disclosure, alteration, or destruction of your information (including data breaches), provided that VirtualMD has implemented reasonable security measures. Your use of the Service constitutes your acceptance of this risk.\n          </Typography>",
+          "source": "Therefore, by using this Site, you expressly acknowledge and agree that while VirtualMD will make reasonable efforts to protect your data consistent with standard business practices, <strong style={strongTextStyles}>WE DO NOT GUARANTEE THE ABSOLUTE SECURITY OF YOUR INFORMATION</strong>. You agree that you <strong style={strongTextStyles}>CANNOT AND WILL NOT SUE OR HOLD VirtualMD TECHNOLOGIES, LLC, ITS AFFILIATES, OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, OR LICENSORS LIABLE</strong> for any damages, losses, costs, or expenses arising out of or in connection with any unauthorized access, use, disclosure, alteration, or destruction of your information (including data breaches), provided that VirtualMD has implemented reasonable security measures. Your use of the Service constitutes your acceptance of this risk."
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 147,
+          "column": 52,
+          "message": "disallow literal string: <Typography component=\"div\" sx={h3Styles}>4. General Limitation of Liability</Typography>",
+          "source": "<Typography component=\"div\" sx={h3Styles}>4. General Limitation of Liability</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 150,
+          "column": 52,
+          "message": "disallow literal string: <Typography component=\"div\" sx={h3Styles}>5. Emergency Situations</Typography>",
+          "source": "<Typography component=\"div\" sx={h3Styles}>5. Emergency Situations</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 151,
+          "column": 43,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n            VirtualMD.app <strong style={strongTextStyles}>CANNOT</strong> act on your behalf in an emergency. If the system suggests you call emergency services (e.g., 911, 999, 101, 000) or seek immediate health attention, you are solely responsible for taking that action. The Service does not dispatch emergency services. Always rely on local emergency services for urgent health needs.\n         </Typography>",
+          "source": "<Typography sx={paragraphStyles}>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 152,
+          "column": 75,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n            VirtualMD.app <strong style={strongTextStyles}>CANNOT</strong> act on your behalf in an emergency. If the system suggests you call emergency services (e.g., 911, 999, 101, 000) or seek immediate health attention, you are solely responsible for taking that action. The Service does not dispatch emergency services. Always rely on local emergency services for urgent health needs.\n         </Typography>",
+          "source": "VirtualMD.app <strong style={strongTextStyles}>CANNOT</strong> act on your behalf in an emergency. If the system suggests you call emergency services (e.g., 911, 999, 101, 000) or seek immediate health attention, you are solely responsible for taking that action. The Service does not dispatch emergency services. Always rely on local emergency services for urgent health needs."
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 157,
+          "column": 114,
+          "message": "disallow literal string: <Typography variant=\"h2\" component=\"h2\" sx={h2Styles}><PolicyIcon sx={{verticalAlign: 'middle', mr: 1}}/> Privacy Policy</Typography>",
+          "source": "<Typography variant=\"h2\" component=\"h2\" sx={h2Styles}><PolicyIcon sx={{verticalAlign: 'middle', mr: 1}}/> Privacy Policy</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 159,
+          "column": 42,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n          This Privacy Policy explains how VirtualMD Technologies, LLC collects, uses, and discloses information about you through our VirtualMD.app website and services. This policy is incorporated into our Terms of Use.\n        </Typography>",
+          "source": "<Typography sx={paragraphStyles}>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 163,
+          "column": 51,
+          "message": "disallow literal string: <Typography component=\"div\" sx={h3Styles}>1. Our Data Privacy Pledge</Typography>",
+          "source": "<Typography component=\"div\" sx={h3Styles}>1. Our Data Privacy Pledge</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 164,
+          "column": 42,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n          At VirtualMD.app, the privacy and security of your personal information are paramount. We are committed to maintaining the confidentiality and integrity of the data you entrust to us. Our platform is designed with robust security measures to protect your information from unauthorized access, disclosure, alteration, and destruction.\n        </Typography>",
+          "source": "<Typography sx={paragraphStyles}>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 174,
+          "column": 51,
+          "message": "disallow literal string: <Typography component=\"div\" sx={h3Styles}>2. Information We Collect & Other Privacy Details</Typography>",
+          "source": "<Typography component=\"div\" sx={h3Styles}>2. Information We Collect & Other Privacy Details</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 177,
+          "column": 51,
+          "message": "disallow literal string: <Typography component=\"div\" sx={h3Styles}>5. VirtualMD.app's Security Practices</Typography>",
+          "source": "<Typography component=\"div\" sx={h3Styles}>5. VirtualMD.app's Security Practices</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 178,
+          "column": 42,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n           We employ a multi-layered security strategy:\n        </Typography>",
+          "source": "<Typography sx={paragraphStyles}>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 189,
+          "column": 42,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n          These measures provide robust account security, but remember no system is 100% secure.\n        </Typography>",
+          "source": "<Typography sx={paragraphStyles}>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 193,
+          "column": 51,
+          "message": "disallow literal string: <Typography component=\"div\" sx={h3Styles}>6. VirtualMD.app & HIPAA Considerations (Reiteration)</Typography>",
+          "source": "<Typography component=\"div\" sx={h3Styles}>6. VirtualMD.app & HIPAA Considerations (Reiteration)</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 194,
+          "column": 42,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n          As stated in the Disclaimers, the general VirtualMD.app service is <strong style={strongTextStyles}>NOT HIPAA compliant</strong> for Covered Entity / Business Associate use cases involving PHI without a specific BAA. While we implement strong security, our general service operates under standard business security practices, not the specific requirements of the HIPAA Security Rule for PHI managed by Covered Entities.\n        </Typography>",
+          "source": "<Typography sx={paragraphStyles}>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 195,
+          "column": 111,
+          "message": "disallow literal string: <strong style={strongTextStyles}>NOT HIPAA compliant</strong>",
+          "source": "As stated in the Disclaimers, the general VirtualMD.app service is <strong style={strongTextStyles}>NOT HIPAA compliant</strong> for Covered Entity / Business Associate use cases involving PHI without a specific BAA. While we implement strong security, our general service operates under standard business security practices, not the specific requirements of the HIPAA Security Rule for PHI managed by Covered Entities."
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 195,
+          "column": 139,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n          As stated in the Disclaimers, the general VirtualMD.app service is <strong style={strongTextStyles}>NOT HIPAA compliant</strong> for Covered Entity / Business Associate use cases involving PHI without a specific BAA. While we implement strong security, our general service operates under standard business security practices, not the specific requirements of the HIPAA Security Rule for PHI managed by Covered Entities.\n        </Typography>",
+          "source": "As stated in the Disclaimers, the general VirtualMD.app service is <strong style={strongTextStyles}>NOT HIPAA compliant</strong> for Covered Entity / Business Associate use cases involving PHI without a specific BAA. While we implement strong security, our general service operates under standard business security practices, not the specific requirements of the HIPAA Security Rule for PHI managed by Covered Entities."
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 197,
+          "column": 127,
+          "message": "disallow literal string: <Typography sx={{...paragraphStyles, fontWeight: 'bold', textDecoration: 'underline', color: 'warning.main', my: 2}}>\n            Users requiring strict HIPAA compliance for PHI they manage should not use our general platform for such purposes without a BAA. Users must not input information traceable to individual patients in a context violating HIPAA without explicit, informed consent acknowledging the platform's non-HIPAA compliant status for that use.\n         </Typography>",
+          "source": "<Typography sx={{...paragraphStyles, fontWeight: 'bold', textDecoration: 'underline', color: 'warning.main', my: 2}}>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 201,
+          "column": 51,
+          "message": "disallow literal string: <Typography component=\"div\" sx={h3Styles}>7. Data Usage by Third-Party AI Engine Providers</Typography>",
+          "source": "<Typography component=\"div\" sx={h3Styles}>7. Data Usage by Third-Party AI Engine Providers</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 202,
+          "column": 42,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n           VirtualMD integrates with leading AI model providers (e.g., OpenAI, Anthropic, Google).\n        </Typography>",
+          "source": "<Typography sx={paragraphStyles}>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 213,
+          "column": 124,
+          "message": "disallow literal string: <Typography variant=\"h2\" component=\"h2\" sx={h2Styles}><BalanceOutlinedIcon sx={{verticalAlign: 'middle', mr: 1}}/> Other Legal Provisions</Typography>",
+          "source": "<Typography variant=\"h2\" component=\"h2\" sx={h2Styles}><BalanceOutlinedIcon sx={{verticalAlign: 'middle', mr: 1}}/> Other Legal Provisions</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 215,
+          "column": 53,
+          "message": "disallow literal string: <Typography component=\"div\" sx={h3Styles}>Changes to These Terms and Policy</Typography>",
+          "source": "<Typography component=\"div\" sx={h3Styles}>Changes to These Terms and Policy</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 218,
+          "column": 53,
+          "message": "disallow literal string: <Typography component=\"div\" sx={h3Styles}>Termination</Typography>",
+          "source": "<Typography component=\"div\" sx={h3Styles}>Termination</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 221,
+          "column": 53,
+          "message": "disallow literal string: <Typography component=\"div\" sx={h3Styles}>Governing Law and Dispute Resolution</Typography>",
+          "source": "<Typography component=\"div\" sx={h3Styles}>Governing Law and Dispute Resolution</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 224,
+          "column": 53,
+          "message": "disallow literal string: <Typography component=\"div\" sx={h3Styles}>Contact Information</Typography>",
+          "source": "<Typography component=\"div\" sx={h3Styles}>Contact Information</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 225,
+          "column": 44,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n             If you have any questions about these Terms or the Privacy Policy, please contact us at: <MuiLink href=\"mailto:legal@virtualmd.app\">legal@virtualmd.app</MuiLink> or via our Contact Us page.\n           </Typography>",
+          "source": "<Typography sx={paragraphStyles}>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 226,
+          "column": 146,
+          "message": "disallow literal string: <MuiLink href=\"mailto:legal@virtualmd.app\">legal@virtualmd.app</MuiLink>",
+          "source": "If you have any questions about these Terms or the Privacy Policy, please contact us at: <MuiLink href=\"mailto:legal@virtualmd.app\">legal@virtualmd.app</MuiLink> or via our Contact Us page."
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 226,
+          "column": 175,
+          "message": "disallow literal string: <Typography sx={paragraphStyles}>\n             If you have any questions about these Terms or the Privacy Policy, please contact us at: <MuiLink href=\"mailto:legal@virtualmd.app\">legal@virtualmd.app</MuiLink> or via our Contact Us page.\n           </Typography>",
+          "source": "If you have any questions about these Terms or the Privacy Policy, please contact us at: <MuiLink href=\"mailto:legal@virtualmd.app\">legal@virtualmd.app</MuiLink> or via our Contact Us page."
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 229,
+          "column": 54,
+          "message": "disallow literal string: <Typography component=\"div\" sx={h3Styles}>Miscellaneous</Typography>",
+          "source": "<Typography component=\"div\" sx={h3Styles}>Miscellaneous</Typography>"
+        },
+        {
+          "file": "src/pages/LegalPage_original.jsx",
+          "line": 232,
+          "column": 99,
+          "message": "disallow literal string: <Typography sx={{...paragraphStyles, mt: 3, fontSize: '0.75rem', textAlign: 'center'}}>\n             Last Updated: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}\n           </Typography>",
+          "source": "<Typography sx={{...paragraphStyles, mt: 3, fontSize: '0.75rem', textAlign: 'center'}}>"
+        },
+        {
+          "file": "src/pages/WellnessPathwaysGuidePage.jsx",
+          "line": 25,
+          "column": 63,
+          "message": "disallow literal string: <Typography variant=\"h5\" gutterBottom color=\"error\">\n            Always Consult a Human Healthcare Provider\n          </Typography>",
+          "source": "<Typography variant=\"h5\" gutterBottom color=\"error\">"
+        },
+        {
+          "file": "src/pages/WellnessPathwaysGuidePage.jsx",
+          "line": 28,
+          "column": 49,
+          "message": "disallow literal string: <Typography variant=\"body1\" paragraph>\n            While VirtualMD's AI-powered health consultation system provides valuable health information, it is critical to always consult with qualified human healthcare providers for any health concerns. Our board-certified physicians developed this system to complement, not replace, professional health advice.\n          </Typography>",
+          "source": "<Typography variant=\"body1\" paragraph>"
+        },
+        {
+          "file": "src/pages/WellnessPathwaysGuidePage.jsx",
+          "line": 32,
+          "column": 21,
+          "message": "disallow literal string: <strong>In a health emergency:</strong>",
+          "source": "<strong>In a health emergency:</strong>"
+        },
+        {
+          "file": "src/pages/WellnessPathwaysGuidePage.jsx",
+          "line": 35,
+          "column": 17,
+          "message": "disallow literal string: <li>United States: Dial 911</li>",
+          "source": "<li>United States: Dial 911</li>"
+        },
+        {
+          "file": "src/pages/WellnessPathwaysGuidePage.jsx",
+          "line": 36,
+          "column": 17,
+          "message": "disallow literal string: <li>Canada: Dial 911</li>",
+          "source": "<li>Canada: Dial 911</li>"
+        },
+        {
+          "file": "src/pages/WellnessPathwaysGuidePage.jsx",
+          "line": 37,
+          "column": 17,
+          "message": "disallow literal string: <li>United Kingdom: Dial 999 or 112</li>",
+          "source": "<li>United Kingdom: Dial 999 or 112</li>"
+        },
+        {
+          "file": "src/pages/WellnessPathwaysGuidePage.jsx",
+          "line": 38,
+          "column": 17,
+          "message": "disallow literal string: <li>Australia: Dial 000 or 112</li>",
+          "source": "<li>Australia: Dial 000 or 112</li>"
+        },
+        {
+          "file": "src/pages/WellnessPathwaysGuidePage.jsx",
+          "line": 39,
+          "column": 17,
+          "message": "disallow literal string: <li>Israel: Dial 101 ()</li>",
+          "source": "<li>Israel: Dial 101 ()</li>"
+        },
+        {
+          "file": "src/pages/WellnessPathwaysGuidePage.jsx",
+          "line": 40,
+          "column": 17,
+          "message": "disallow literal string: <li>Other locations: Contact your local emergency services immediately</li>",
+          "source": "<li>Other locations: Contact your local emergency services immediately</li>"
+        },
+        {
+          "file": "src/pages/WellnessPathwaysGuidePage.jsx",
+          "line": 42,
+          "column": 64,
+          "message": "disallow literal string: <Typography variant=\"body1\" paragraph sx={{ mt: 2 }}>\n            If you're experiencing chest pain, difficulty breathing, severe bleeding, signs of stroke, or any other serious symptoms—do not wait. Seek emergency care now.\n          </Typography>",
+          "source": "<Typography variant=\"body1\" paragraph sx={{ mt: 2 }}>"
+        },
+        {
+          "file": "src/pages/WellnessPathwaysGuidePage.jsx",
+          "line": 50,
+          "column": 49,
+          "message": "disallow literal string: <Typography variant=\"h5\" gutterBottom>\n            VirtualMD's Advanced health AI Technology\n          </Typography>",
+          "source": "<Typography variant=\"h5\" gutterBottom>"
+        },
+        {
+          "file": "src/pages/WellnessPathwaysGuidePage.jsx",
+          "line": 53,
+          "column": 49,
+          "message": "disallow literal string: <Typography variant=\"body1\" paragraph>\n            VirtualMD employs patent-pending algorithms developed by our team of Harvard-trained physicians and AI experts to deliver exceptionally accurate health information. Our AI physician personas are trained on extensive health literature, clinical guidelines, and real-world health scenarios to provide insights that closely mirror those of board-certified specialists.\n          </Typography>",
+          "source": "<Typography variant=\"body1\" paragraph>"
+        },
+        {
+          "file": "src/pages/WellnessPathwaysGuidePage.jsx",
+          "line": 56,
+          "column": 49,
+          "message": "disallow literal string: <Typography variant=\"body1\" paragraph>\n            In controlled side-by-side comparisons for diagnostic accuracy, our system has demonstrated remarkable performance, often matching or exceeding the insights of experienced clinicians. Our AI personas can process thousands of health research papers, guidelines, and clinical protocols in seconds—accessing knowledge beyond what any single human physician could retain.\n          </Typography>",
+          "source": "<Typography variant=\"body1\" paragraph>"
+        },
+        {
+          "file": "src/pages/WellnessPathwaysGuidePage.jsx",
+          "line": 59,
+          "column": 49,
+          "message": "disallow literal string: <Typography variant=\"body1\" paragraph>\n            While we strive for exceptional accuracy and our physician-led team continuously improves the system, medicine is complex and individual health situations are unique. That's why we've designed our platform to augment—not replace—the invaluable expertise of human healthcare providers.\n          </Typography>",
+          "source": "<Typography variant=\"body1\" paragraph>"
+        },
+        {
+          "file": "src/pages/WellnessPathwaysGuidePage.jsx",
+          "line": 67,
+          "column": 63,
+          "message": "disallow literal string: <Typography variant=\"h5\" gutterBottom color=\"error\">\n            Use At Your Own Risk\n          </Typography>",
+          "source": "<Typography variant=\"h5\" gutterBottom color=\"error\">"
+        },
+        {
+          "file": "src/pages/WellnessPathwaysGuidePage.jsx",
+          "line": 70,
+          "column": 49,
+          "message": "disallow literal string: <Typography variant=\"body1\" paragraph>\n            The information provided by VirtualMD and its AI physician personas is for informational and educational purposes only. By using this service, you acknowledge and agree that:\n          </Typography>",
+          "source": "<Typography variant=\"body1\" paragraph>"
+        },
+        {
+          "file": "src/pages/WellnessPathwaysGuidePage.jsx",
+          "line": 74,
+          "column": 17,
+          "message": "disallow literal string: <li>VirtualMD does not provide health diagnosis or treatment</li>",
+          "source": "<li>VirtualMD does not provide health diagnosis or treatment</li>"
+        },
+        {
+          "file": "src/pages/WellnessPathwaysGuidePage.jsx",
+          "line": 75,
+          "column": 17,
+          "message": "disallow literal string: <li>AI-generated content may contain errors or omissions despite our robust validation processes</li>",
+          "source": "<li>AI-generated content may contain errors or omissions despite our robust validation processes</li>"
+        },
+        {
+          "file": "src/pages/WellnessPathwaysGuidePage.jsx",
+          "line": 76,
+          "column": 17,
+          "message": "disallow literal string: <li>health advice requires personalized evaluation by licensed healthcare providers</li>",
+          "source": "<li>health advice requires personalized evaluation by licensed healthcare providers</li>"
+        },
+        {
+          "file": "src/pages/WellnessPathwaysGuidePage.jsx",
+          "line": 77,
+          "column": 17,
+          "message": "disallow literal string: <li>Health information may become outdated as health knowledge evolves</li>",
+          "source": "<li>Health information may become outdated as health knowledge evolves</li>"
+        },
+        {
+          "file": "src/pages/WellnessPathwaysGuidePage.jsx",
+          "line": 78,
+          "column": 17,
+          "message": "disallow literal string: <li>Your unique health history, conditions, and circumstances require professional evaluation</li>",
+          "source": "<li>Your unique health history, conditions, and circumstances require professional evaluation</li>"
+        },
+        {
+          "file": "src/pages/WellnessPathwaysGuidePage.jsx",
+          "line": 80,
+          "column": 85,
+          "message": "disallow literal string: <Typography variant=\"body1\" paragraph sx={{ mt: 2, fontStyle: 'italic' }}>\n            While VirtualMD employs sophisticated technology to deliver valuable health insights, users assume all responsibility for how they utilize this information.\n          </Typography>",
+          "source": "<Typography variant=\"body1\" paragraph sx={{ mt: 2, fontStyle: 'italic' }}>"
+        },
+        {
+          "file": "src/pages/WellnessPathwaysGuidePage.jsx",
+          "line": 83,
+          "column": 84,
+          "message": "disallow literal string: <Typography variant=\"body1\" paragraph sx={{ fontWeight: 'bold', mt: 3 }}>\n            VirtualMD's team has developed this technology because we believe in democratizing access to world-class health knowledge and supporting better health decisions. Our AI system represents a revolutionary advance in health information technology that, when used properly alongside professional care, can help you make more informed health choices and have more productive conversations with your healthcare providers. Not using such advanced technology when available would be foregoing an opportunity to access potentially life-changing health knowledge.\n          </Typography>",
+          "source": "<Typography variant=\"body1\" paragraph sx={{ fontWeight: 'bold', mt: 3 }}>"
+        }
+      ],
+      "description": "Text that has no translation at all"
+    },
+    "mixedContent": {
+      "name": "⚠️  Mixed Content (Text + Translation)",
+      "color": "\u001b[33m",
+      "pattern": {},
+      "examples": [],
+      "description": "Text mixed with t() calls - partial translation"
+    },
+    "templateLiterals": {
+      "name": "📝 Template Literals with Translations",
+      "color": "\u001b[35m",
+      "pattern": {},
+      "examples": [],
+      "description": "Template strings containing translations"
+    },
+    "attributeText": {
+      "name": "🏷️  Attribute Text",
+      "color": "\u001b[36m",
+      "pattern": {},
+      "examples": [],
+      "description": "Hardcoded text in HTML attributes"
+    }
+  }
+}

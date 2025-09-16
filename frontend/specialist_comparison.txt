@@ -1,0 +1,81 @@
+SPECIALIST ID COMPARISON ANALYSIS
+=================================
+
+IDs in JSON but MISSING from allSpecialistIds array:
+----------------------------------------------------
+1. ai_persona_assaf_azoulay
+2. ai_persona_bertrand_jackson
+3. ai_persona_dr_daniel_hayes
+4. ai_persona_david_goldman
+5. ai_persona_dennis_porter
+6. ai_persona_diego_ramirez
+7. ai_persona_eli_goldberg
+8. ai_persona_ima
+9. ai_persona_jonathan_horowitz
+10. ai_persona_jonathan_lahav
+11. ai_persona_joseph_rivera
+12. ai_persona_juliana_chen
+13. ai_persona_kai_wong
+14. ai_persona_kevin_mcpherson
+15. ai_persona_leah_abramson
+16. ai_persona_ling_zhao
+17. ai_persona_lucan_white_pharmd
+18. ai_persona_l_wi_zhng_y_sh
+19. ai_persona_marcus_carter
+20. ai_persona_michael_lin
+21. ai_persona_michael_weiss
+22. ai_persona_olivia_brown
+23. ai_persona_patel
+24. ai_persona_rachel_levy
+25. ai_persona_rachel_rubin
+26. ai_persona_rebecca_shapiro
+27. ai_persona_richard_demarco
+28. ai_persona_robert_gehry
+29. ai_persona_robert_harris
+30. ai_persona_rohel_loeb
+31. ai_persona_samuel_kaplan
+32. ai_persona_dr_sarah_anderson
+33. ai_persona_sarah_gold
+34. ai_persona_sarah_morrison
+35. ai_persona_sarah_rubinstein
+36. ai_persona_sima_taweel
+37. ai_persona_sophia_miller
+38. ai_persona_william_johnson
+
+IDs in allSpecialistIds but NOT FOUND in JSON (possibly incorrect):
+-------------------------------------------------------------------
+1. ai_persona_brian_miller
+2. ai_persona_david_williams
+3. ai_persona_helen_robinson
+4. ai_persona_james_martin
+5. ai_persona_jane_anderson
+6. ai_persona_karen_jones
+7. ai_persona_lai_wong
+8. ai_persona_laura_torres
+9. ai_persona_lisa_brown
+10. ai_persona_mark_martinez
+11. ai_persona_mary_white
+12. ai_persona_michael_jackson
+13. ai_persona_mikhael_kohen
+14. ai_persona_nancy_rodriguez
+15. ai_persona_patricia_wilson
+16. ai_persona_richard_johnson
+17. ai_persona_robert_wilson
+18. ai_persona_sally_greenberg
+19. ai_persona_samuel_thompson
+20. ai_persona_sarah_hernandez
+21. ai_persona_susan_thompson
+22. ai_persona_william_taylor
+23. ai_persona_zhang_wei
+
+SUMMARY:
+--------
+- Total IDs in JSON: 61
+- Total IDs in allSpecialistIds: 47
+- Missing from allSpecialistIds: 38
+- Possibly incorrect in allSpecialistIds: 23
+- Common/Matching IDs: 24
+
+The allSpecialistIds array needs significant updates:
+1. Add 38 missing specialist IDs from the JSON
+2. Remove or verify 23 IDs that don't exist in the JSON

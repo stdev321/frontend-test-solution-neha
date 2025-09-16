@@ -1,0 +1,112 @@
+{
+  "defaultGuest": {
+    "childHealth": {
+      "title": "Ukwesekwa Kwempilo Yezingane",
+      "subtitle": "Isiqondiso sezingane esichwepheshile uma usidinga kakhulu.",
+      "firstMessage": "Sawubona! Nginguchwepheshe Wezempilo u-Aileen Carol, futhi ngilapha ukuze ngisize ngezinkinga zempilo yengane yakho. Wonke umzali ukhathazekile - lokho kuyinto evamile ngokuphelele.\n\nYiziphi izimpawu eziqondile noma okukukhathazayo ngengane yakho namuhla?"
+    },
+    "sleep": {
+      "title": "Ukulala Nokuphila",
+      "subtitle": "Thola ukuphumula okungcono futhi uthuthukise amandla akho osuku.",
+      "firstMessage": "Sawubona lapho! Nginguchwepheshe Wezempilo u-Aileen Carol. Izinkinga zokulala zingathinta ngempela yonke ingxenye yempilo yakho, futhi ngilapha ukuze ngikusize uthole ukuphumula okudingayo.\n\nYini ebikwenza ungalali kahle muva nje?"
+    },
+    "nutrition": {
+      "title": "Ukudla Okunempilo & Indlela Yokuphila",
+      "subtitle": "Isiqondiso somuntu siqu sokuphila okunempilo.",
+      "firstMessage": "Sawubona! Nginguchwepheshe Wezempilo u-Aileen Carol. Ukwenza izinguquko zendlela yokuphila enempilo kungazwakala kungaphezu kwamandla, kodwa uthatha isinyathelo esihle sokuqala ngokufinyelela.\n\nIyiphi ingxenye yempilo yakho nokudla ongathanda ukugxila kuyo?"
+    }
+  },
+  "genZStudents": {
+    "segment": "Gen Z / abafundi",
+    "description": "Abafundi abasebasha ababhekana nokucindezeleka kwezemfundo nokukhathazeka kwezempilo",
+    "examStress": {
+      "title": "Ingcindezi yokuhlolwa",
+      "subtitle": "Izindlela ezisheshayo zokwehlisa umoya nokugxila.",
+      "firstMessage": "Sawubona! Nginguchwepheshe Wezempilo u-Aileen Carol. Zama ukuphefumula okujulile - donsa umoya izikhathi ezi-4, ubambe 4, khipha umoya 4. Futhi cabanga nokuhamba imizuzu emi-5 noma ukwelula.\n\nKuze kube nini kuze kube sekuhlolweni kwakho, futhi ubulokhu ulele kahle muva nje?"
+    },
+    "acne": {
+      "title": "Izinduna nokunakekelwa kwesikhumba",
+      "subtitle": "Sula amathiphu esikhumba ongawethemba.",
+      "firstMessage": "Sawubona! Nginguchwepheshe Wezempilo u-Aileen Carol. Ngiyazi ukuthi ukubhekana nezinduna kungathinta ngempela ukuzethemba kwakho, ikakhulukazi phakathi nesikhathi esibaluleke kangaka empilweni yakho.\n\nNgitshele mayelana nenqubo yakho yamanje yokunakekela isikhumba - yini osuyizamile kuze kube manje?"
+    },
+    "lowEnergy": {
+      "title": "Awekho amandla okufunda",
+      "subtitle": "Thuthukisa isimo sakho sengqondo nokusebenza.",
+      "firstMessage": "Sawubona! Nginguchwepheshe Wezempilo u-Aileen Carol. Ngiyaqonda ukuthi ukungabi namandla kungaba nomthelela ngempela ezifundweni zakho nempilo yansuku zonke.\n\nIngabe uzibonile izinguquko endleleni yakho yokulala, ukuthanda ukudla, noma amazinga okucindezeleka kamuva nje?"
+    }
+  },
+  "elderly": {
+    "segment": "Abadala (55+)",
+    "description": "Izakhamuzi ezindala ezilawula izimo ezingapheli kanye nokuqapha impilo",
+    "bloodPressure": {
+      "title": "Hlola umfutho wegazi lami",
+      "subtitle": "Isiqondiso esilula ukusilandela.",
+      "firstMessage": "Sawubona! Nginguchwepheshe Wezempilo u-Aileen Carol. Nasi isiqondiso esilula sokuhlola umfutho wegazi lakho:\n1. Hlala uthule imizuzu emi-5 kuqala\n2. Phumula ingalo ezingeni lenhliziyo\n3. Thatha ukufundwa okungu-2-3, ngokuhlukana ngomzuzu ongu-1\n4. Qopha zonke izinombolo\n\nIngabe unaso isiqapha somfutho wegazi sasekhaya, futhi ugcine nini ukusihlola?"
+    },
+    "diabetes": {
+      "title": "Ukuphila nesifo sikashukela",
+      "subtitle": "Amathiphu asebenzayo, nsuku zonke.",
+      "firstMessage": "Sawubona, nginguchwepheshe Wezempilo u-Aileen Carol. Ukuphatha isifo sikashukela usuku nosuku kungazwakala kungaphezu kwamandla, kodwa uthatha isinyathelo esifanele ngokufuna isiqondiso.\n\nIyiphi ingxenye yokulawula isifo sikashukela oyithola iyinselele kakhulu njengamanje?"
+    },
+    "familySupport": {
+      "title": "Ukusekela umndeni",
+      "subtitle": "Ukuthula kwengqondo kwabathandekayo bakho.",
+      "firstMessage": "Sawubona, nginguchwepheshe Wezempilo u-Aileen Carol. Ngiyaqonda ukuthi ukhathazekile ngokweseka impilo nempilo yomndeni wakho.\n\nYiziphi izinkinga zempilo onazo ngabathandekayo bakho engingakusiza ngakho?"
+    }
+  },
+  "bpoWorkers": {
+    "sleep": {
+      "title": "Angikwazi ukulala!",
+      "subtitle": "Amathiphu asebenzayo okusetha kabusha iwashi lomzimba wakho.",
+      "firstMessage": "Sawubona! Nginguchwepheshe Wezempilo u-Aileen Carol, futhi ngiyaqonda ukuthi umsebenzi weshifu ungaba nzima kangakanani emjikelezweni wakho wokulala. Asisebenzisane ukuze sikutholele ukuphumula okudingayo.\n\nUnesikhathi esingakanani unenkinga yokulala, futhi injani ishejuli yakho yomsebenzi wamanje?"
+    },
+    "fatigue": {
+      "title": "Ukhathele njalo",
+      "subtitle": "Lawula ukukhathala futhi uthuthukise ukugxila.",
+      "firstMessage": "Nginguchwepheshe Wezempilo u-Aileen Carol, futhi ngikuqonda ngokuphelele ukuthi ukukhathala okungapheli kungase kukhathaze kangakanani, ikakhulukazi ngamashejuli omsebenzi anzima.\n\nNgitshele, kunini lapho uzizwa ukhathele kakhulu phakathi nosuku, futhi lokhu kuthinta kanjani ukusebenza kwakho komsebenzi?"
+    },
+    "stress": {
+      "title": "Ukucindezelwa ngokweqile",
+      "subtitle": "Izindlela ezilula zokuthulisa ingqondo yakho.",
+      "firstMessage": "Sawubona! Nginguchwepheshe Wezempilo u-Aileen Carol, futhi ngiyaqonda ukuthi uzizwa ugajwe ukucindezeleka. Ake sisebenzisane kumasu athile alula okwehlisa umoya.\n\nYiziphi izimo ezikubangela ukucindezeleka muva nje?"
+    }
+  },
+  "ofwsManila": {
+    "segment": "Ama-OFW (athuthela eManila ngomsebenzi)",
+    "description": "Abasebenzi baphesheya kwezilwandle basePhilippines bazijwayeza impilo yasemadolobheni yaseManila",
+    "urbanStress": {
+      "title": "Ingcindezi eManila",
+      "subtitle": "Amathiphu okujwayela impilo yasemadolobheni ematasa.",
+      "firstMessage": "Sawubona! Nginguchwepheshe Wezempilo u-Aileen Carol. Ngiyaqonda ukuthi ukuthuthela eManila kungaba nzima. Ijubane ledolobha likhulu impela.\n\nIngabe uhlangabezana nanoma yiziphi izimpawu zomzimba ezivela ekucindezelekeni, njengekhanda elibuhlungu noma izinkinga zokulala?"
+    },
+    "loneliness": {
+      "title": "Isizungu & ukukhathala",
+      "subtitle": "Isiqondiso sokuphila kahle kwengqondo.",
+      "firstMessage": "Sawubona! Nginguchwepheshe Wezempilo u-Aileen Carol. Ngiyaxolisa kakhulu ukuthi unesizungu nokukhathala - le mizwa ingakhandla ngempela.\n\nAke ngikusize uzizwe ungcono. Okokuqala, ingabe uthola ukulala kwekhwalithi eyanele ubusuku ngabunye? Futhi uke waqaphela uma ukukhathala kubi kakhulu ngezikhathi ezithile zosuku?"
+    },
+    "everydayHealth": {
+      "title": "Impilo yansuku zonke",
+      "subtitle": "Ukudla okunomsoco nendlela yokuphila yabasebenzi.",
+      "firstMessage": "Sawubona! Nginguchwepheshe Wezempilo u-Aileen Carol. Ngiyaqonda ukuthi ukulondoloza impilo enhle kuyilapho usebenza amahora amaningi kungaba inselele ngempela.\n\nIkuphi okukukhathaza kakhulu kwezempilo njengamanje - ingabe ukudla okunomsoco, amazinga wamandla, noma okunye?"
+    }
+  },
+  "parentsProvinces": {
+    "segment": "Abazali ezifundazweni (imali engenayo kasayizi ophakathi)",
+    "description": "Abazali abasezindaweni ezikude abanokufinyelela okulinganiselwe ekunakekelweni kwezempilo",
+    "childFever": {
+      "title": "Ingane yami inomkhuhlane",
+      "subtitle": "Izinyathelo ezicacile zabazali, emini noma ebusuku.",
+      "firstMessage": "Sawubona, nginguchwepheshe Wezempilo u-Aileen Carol. Ngiyazi ukuthi kungase kwesabe kanjani lapho ingane yakho inomkhuhlane, ikakhulukazi lapho ungaqiniseki ukuthi yini okufanele uyenze.\n\nOkokuqala, ake ngikusize uhlole isimo. Ineminyaka emingaki ingane yakho, futhi lithini izinga lokushisa layo lamanje?"
+    },
+    "remoteCare": {
+      "title": "Akekho udokotela eduze",
+      "subtitle": "Iseluleko esithembekile ngisho nasezindaweni ezikude.",
+      "firstMessage": "Nginguchwepheshe Wezempilo u-Aileen Carol, uchwepheshe wakho wezempilo oyinhloko. Ngiyaqonda ukuthi usendaweni ekude ngaphandle kokufinyelela kwezokwelashwa okuseduze. Ngilapha ukuze ngikusize nganoma yikuphi ukukhathazeka ngezempilo onakho.\n\nYiziphi izimpawu ezithile noma izinkinga zempilo ohlangabezana nazo namuhla?"
+    },
+    "costSavings": {
+      "title": "Yonga isikhathi nemali",
+      "subtitle": "Isiqondiso ngaphandle kohambo lwasemtholampilo olubizayo.",
+      "firstMessage": "Nginguchwepheshe Wezempilo u-Aileen Carol, uchwepheshe wakho wezempilo oyinhloko. Ngilapha ukuze nginikeze isiqondiso sokunakekelwa kwezempilo kwekhwalithi ngendlela efanele.\n\nYiziphi izinkinga zempilo engingakusiza ngazo namuhla?"
+    }
+  }
+}

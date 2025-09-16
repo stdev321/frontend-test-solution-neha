@@ -1,0 +1,27 @@
+{
+  "errors": {
+    "fileReadFailed": "Dosya okunamadı.",
+    "imageProcessFailed": "Görüntü işlenemedi. Bozuk veya desteklenmeyen bir formatta olabilir.",
+    "invalidImageFile": "Lütfen bir resim dosyası seçin.",
+    "loadingProfile": "Profil yüklenirken hata oluştu:",
+    "noData": "Profil verisi bulunamadı.",
+    "saveFailed": "Profil kaydedilemedi. Lütfen tekrar deneyin."
+  },
+  "healthInfo": {
+    "conditions": "Koşullar:",
+    "date": " (Tarih: ",
+    "diagnosed": "(Teşhis:",
+    "ended": "(Bitiş:",
+    "medicalEvents": "Sağlık Etkinlikleri:",
+    "medications": "İlaçlar:",
+    "notAvailable": "Yok",
+    "notes": "Notlar:",
+    "started": "(Başladı:"
+  },
+  "loading": {
+    "profile": "Profil yükleniyor..."
+  },
+  "success": {
+    "profileUpdated": "Profil başarıyla güncellendi!"
+  }
+}

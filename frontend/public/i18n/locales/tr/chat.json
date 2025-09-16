@@ -1,0 +1,715 @@
+{
+  "actions": {
+    "startConsultation": "Sağlık Danışmanlığı Başlat",
+    "endConsultation": "Danışmanlığın Sonu",
+    "returnToConsultation": "Danışmanlığa Dönüş",
+    "newConversation": "Yeni Konuşma Başlat",
+    "saveConversation": "Konuşmayı Kaydet",
+    "deleteConversation": "Konuşmayı Sil",
+    "getSummary": "Özeti Al",
+    "getTranscript": "Transkript Al",
+    "getDifferentialOpinion": "Farklı Görüş Alın",
+    "exportChat": "Sohbeti Dışa Aktar",
+    "clearChat": "Net Sohbet"
+  },
+  "audio": {
+    "aiMuted": "AI Sessiz",
+    "aiUnmuted": "AI Ses Açık",
+    "playbackFailed": "Ses çalınamadı",
+    "generationFailed": "Konuşma oluşturulamadı"
+  },
+  "sidebar": {
+    "personaList": "Sağlık Uzmanınızı Seçin",
+    "conversations": "Konuşmalarım",
+    "profile": "Profilim",
+    "settings": "Ayarlar",
+    "manageTeam": "Ekibi Yönet",
+    "teamBuilder": "Yapay Zeka Ekip Oluşturucu",
+    "encyclopedia": "Ansiklopedi",
+    "bio": "Profesyonel Biyografi",
+    "clickForBio": "Biyografi için tıklayın",
+    "clickToSpeak": "Danışmanla görüşmek için tıklayın",
+    "summary": "Danışma Özeti",
+    "transcript": "Konuşma Metni",
+    "imageContext": "Görüntü Bağlamı",
+    "newConversation": "Yeni Danışma"
+  },
+  "tooltips": {
+    "audioOnlyRegistered": "Ses yalnızca kayıtlı kullanıcılara açıktır."
+  },
+  "messages": {
+    "typeMessage": "Mesajınızı buraya yazın...",
+    "send": "Göndermek",
+    "thinking": "Düşünüyorum...",
+    "processing": "İşleme...",
+    "connecting": "Bağlanıyor...",
+    "connected": "Bağlı",
+    "disconnected": "Bağlantısı kesildi",
+    "typing": "{{name}} yazıyor...",
+    "messageError": "Mesaj gönderilemedi",
+    "retryMessage": "Tekrar dene",
+    "requestToSpeak": "Lütfen {{name}} ile konuşmama izin verin",
+    "messageDeleted": "Mesaj silindi",
+    "systemMessage": "Sistem mesajı"
+  },
+  "personas": {
+    "defaultName": "Sağlık Uzmanı Aileen Carol",
+    "defaultSpecialty": "Sağlık Uzmanı",
+    "selectPersona": "Bir Sağlık Uzmanı Seçin",
+    "noPersonasAvailable": "Sağlık profesyoneli yok",
+    "personaDetails": "Profesyonel Detaylar",
+    "specialization": "Uzmanlaşma",
+    "experience": "Deneyim",
+    "education": "Eğitim",
+    "certifications": "Sertifikalar",
+    "languages": "Diller",
+    "availableNow": "Şimdi Mevcut",
+    "loading": "Profesyoneller yükleniyor..."
+  },
+  "personaSearch": {
+    "placeholder": "İsme, uzmanlık alanına göre arayın veya semptomlarınızı tanımlayın (örneğin baş ağrısı, anksiyete)",
+    "selected": "Seçilmiş",
+    "noResults": "\"{{query}}\" için danışman bulunamadı",
+    "searchSuggestions": "Şunları aramayı deneyin: baş ağrısı, anksiyete, ağrı, uyku, diyabet, vb."
+  },
+  "configurator": {
+    "title": "Yeni Sağlık Danışmanlığı Başlatın",
+    "subtitle": "AI Sağlık Ekibinizden seçin",
+    "changeTeam": "Değişim Takımı",
+    "starting": "Başlangıç...",
+    "startConsult": "Başla Danışman",
+    "emptyTeam": "AI Sağlık Ekibiniz boş",
+    "addSpecialists": "Ekibinize uzmanlar ekleyin",
+    "noOtherSpecialists": "Ekibinizde başka uzman yok. Yapay Zeka Sağlık Uzmanı Carol ile sohbet edebilirsiniz veya",
+    "addSpecialistsLink": "ekibinize uzmanlar ekleyin",
+    "defaultPersona": {
+      "name": "Yapay Zeka Sağlık Uzmanı Aileen Carol",
+      "role": "Birincil AI Sağlık Danışmanım"
+    },
+    "carolNote": {
+      "title": "Yapay Zeka Sağlık Uzmanı Carol'ın Katılımına İlişkin Not:",
+      "ruleA": "A. Ekibinizden 0 veya 2+ uzman seçilirse AI Sağlık Uzmanı Carol dahil edilir.",
+      "ruleB": "B. Ekibinizden yalnızca 1 uzman seçilirse AI Sağlık Uzmanı Carol dahil edilmez."
+    }
+  },
+  "conversations": {
+    "noConversations": "Henüz konuşma yok",
+    "untitled": "Başlıksız Konuşma",
+    "today": "Bugün",
+    "yesterday": "Dün",
+    "thisWeek": "Bu hafta",
+    "lastWeek": "Geçen hafta",
+    "older": "Daha yaşlı",
+    "editTitle": "Başlığı Düzenle",
+    "saveTitle": "Başlığı Kaydet",
+    "cancelEdit": "Düzenlemeyi İptal Et",
+    "deleteConsultation": "Danışmanlığı Sil",
+    "clickToReturn": "Danışmak için geri dönmek üzere tıklayın",
+    "deleteConfirm": "Bu konuşmayı silmek istediğinizden emin misiniz?",
+    "deleteSuccess": "Konuşma başarıyla silindi",
+    "loadingConversations": "Konuşmalar yükleniyor...",
+    "conversationError": "Konuşma yüklenirken hata oluştu",
+    "consultationsTitle": "Danışmanlıklar",
+    "lastUpdate": "Son Güncelleme: {{date}}",
+    "consultationDefault": "Danışma {{id}}",
+    "noConsultationsYet": "Henüz bir görüşme yapılmadı.",
+    "noPastConsultations": "Geçmiş danışmanlık bulunamadı."
+  },
+  "participants": {
+    "noParticipants": "Gösterilecek katılımcı bulunamadı.",
+    "inThisConsult": "Bu Sanal Danışmanlıkta:"
+  },
+  "team": {
+    "myTeam": "Sağlık Ekibim",
+    "addToTeam": "Takıma Ekle",
+    "removeFromTeam": "Takımdan Kaldır",
+    "teamFull": "Takımınız dolu",
+    "maxTeamSize": "Maksimum ekip boyutuna ulaşıldı ({{max}} üye)",
+    "currentTeam": "Mevcut Ekip Üyeleri",
+    "buildTeam": "Ekibinizi Oluşturun",
+    "teamRecommendations": "AI Ekibi Önerileri",
+    "acceptRecommendation": "Tavsiyeyi Kabul Et",
+    "getRecommendations": "Yapay Zeka Önerileri Alın",
+    "teamBuilder": "Yapay Zeka Ekip Oluşturucu",
+    "addTeamMembersInstruction": "Sağdaki kartlardan birine tıklayarak ekip üyelerini ekleyin.",
+    "maxTeamSizeNote": "Ekibinize en fazla beş AI danışmanı ekleyebilirsiniz. Ekibinizi istediğiniz zaman değiştirebilirsiniz, ancak danışmanlık sırasında değiştiremezsiniz.",
+    "startConsultationWithTeam": "Ekibinizle istişareye başlayın",
+    "manageTeamTitle": "AI Sağlık Ekibimi Yönet (Maksimum {{max}} Uzman)",
+    "removeSpecialistToUseTeamBuilder": "Lütfen AI Sağlık Uzmanı Carol'ın ekip oluşturma önerilerini kullanmak için en az bir uzmanı kaldırın",
+    "aileenCarolRecommendTeam": "AI Sağlık Uzmanı Carol'ın sağlık ekibinizi önermesini sağlayın",
+    "teamFullRemoveToUseBuilder": "Ekibiniz dolu. Lütfen yapay zeka ekip oluşturma özelliğini kullanabilmek için en az bir uzmanı kadrodan çıkarın.",
+    "yourCurrentTeam": "Mevcut Ekibiniz ({{current}}/{{max}})",
+    "updatingTeam": "Takım güncelleniyor...",
+    "coordinator": "Koordinatör",
+    "alwaysIncluded": "Her zaman dahil",
+    "specialist": "Uzman",
+    "teamEmptyAddBelow": "Uzman ekibiniz boş. Aşağıdan uzman ekleyin.",
+    "teamFullRemoveMember": "Ekibiniz dolu (Maksimum {{maksimum}} uzman). Farklı bir uzman eklemek isterseniz lütfen bir üyeyi kaldırın.",
+    "addMembersClickCard": "Ana alandaki bir karta tıklayarak ekip üyelerini ekleyin",
+    "teamLead": "Takım Lideri",
+    "currentMember": "Mevcut Üye",
+    "analyzingNeeds": "İhtiyaçlarınızı analiz ediyoruz...",
+    "emergencyDetected": "🚨 Acil Durum Algılandı",
+    "backToSafety": "Güvenliğe Dönüş",
+    "recommendedTeam": "Önerilen Sağlık Ekibi",
+    "completeTeam": "Tam Ekibiniz ({{count}} üye)",
+    "teamLeadReason": "Birincil sağlık koordinatörü",
+    "keepingMembers": "Mevcut Ekip Üyeleri (Korumak)",
+    "newRecommendations": "Yeni Öneriler",
+    "aileenCarolReasoning": "Yapay Zeka Sağlık Uzmanı Carol'ın Mantığı:",
+    "noMatchingSpecialists": "Yapay zeka önerileriyle eşleşen uzman bulunamadı. Tekrar deneyebilir veya ekibinizi manuel olarak oluşturabilirsiniz.",
+    "medicalDisclaimerTitle": "Sağlık ve Zindelik Danışmanlığı:",
+    "medicalDisclaimerText": "Bu platform sağlık danışmanlığı ve rehberliği sağlar, ancak profesyonel sağlık hizmetlerinin yerini alamaz. Acil durumlar veya ciddi sağlık sorunları için daima kalifiye sağlık uzmanlarına danışın.",
+    "applyingTeam": "Başvuru Ekibi...",
+    "acceptTeam": "Bu Takımı Kabul Et",
+    "tryDifferent": "Farklı Önerileri Deneyin",
+    "cancel": "İptal etmek",
+    "myVirtualMDTeam": "VirtualMD.app Ekibim",
+    "availableSpecialists": "Mevcut AI Sağlık Uzmanları",
+    "clickToAddInstruction": "Takımınıza eklemek istediğiniz bir karta tıklayın ({{current}}/{{max}} seçili). Seçilen uzmanlar \"Seçildi\" rozetini gösterir.",
+    "teamFullInstruction": "Ekibiniz dolu. Farklı bir uzman eklemek için bir üyeyi çıkarın.",
+    "selected": "Seçilmiş",
+    "teamFullBadge": "Takım Tam",
+    "allSpecialistsAdded": "Ekibinize tüm mevcut uzmanlar eklendi.",
+    "otherSpecialists": "Diğer Uzmanlar",
+    "specialistsCount": "{{count}} uzman",
+    "startTeamConsult": "Takım Danışmanlığını Başlat",
+    "starting": "Başlangıç...",
+    "myAIHealthTeam": "Yapay Zeka Sağlık Ekibim",
+    "addMembersInstruction": "Sağdaki kartlardan birine tıklayarak ekip üyelerini ekleyin."
+  },
+  "specialistCategories": {
+    "diabetesBloodSugar": "Diyabet ve Kan Şekeri",
+    "weightManagement": "Kilo Yönetimi",
+    "mentalHealthStress": "Ruh Sağlığı ve Stres",
+    "cancerSupport": "Kanser Desteği",
+    "heartHealth": "Kalp Sağlığı",
+    "painManagement": "Ağrı Yönetimi",
+    "digestiveIssues": "Sindirim Sorunları",
+    "sleepProblems": "Uyku Sorunları",
+    "skinProblems": "Cilt Sorunları",
+    "womensHealth": "Kadın Sağlığı",
+    "childrensHealth": "Çocuk Sağlığı",
+    "agingSeniorHealth": "Yaşlanma ve Yaşlı Sağlığı",
+    "nutritionDiet": "Beslenme ve Diyet",
+    "allergiesImmuneSystem": "Alerjiler ve Bağışıklık Sistemi",
+    "breathingLungIssues": "Solunum ve Akciğer Sorunları",
+    "sportsFitnessInjuries": "Spor ve Fitness Yaralanmaları",
+    "easternAlternativeMedicine": "Doğu ve Alternatif Sağlık",
+    "cosmeticBeautyMedicine": "Kozmetik ve Güzellik Sağlığı",
+    "anxietyHelp": "Kaygı Yardımı",
+    "medicationPharmacy": "İlaç ve Eczane",
+    "primaryCareGeneralHealth": "Birincil Bakım ve Genel Sağlık",
+    "medicalSpecialties": "Sağlık ve Zindelik Uzmanlıkları"
+  },
+  "dialogs": {
+    "exitConsultation": "Çıkış Danışmanlığı",
+    "exitMessage": "Bu konsültasyondan çıkmak istediğinize emin misiniz?",
+    "saveAndExit": "Kaydet ve Çık",
+    "exitWithoutSaving": "Kaydetmeden Çık",
+    "cancel": "İptal etmek",
+    "confirm": "Onaylamak",
+    "logout": "Çıkış yap",
+    "logoutMessage": "Şu anda bir konsültasyon sürecindesiniz. Çıkış yaparsanız görüşme sona erecektir. Ne yapmak istersiniz?",
+    "deleteConversation": "Konuşmayı Sil",
+    "deleteMessage": "Bu işlem geri alınamaz. Emin misiniz?",
+    "summarizeFirst": "Çıkmadan önce bir özet almak ister misiniz?",
+    "summarizing": "Özet oluşturuluyor...",
+    "summaryGenerated": "Özet başarıyla oluşturuldu",
+    "doneAlready": "Bitti mi zaten?",
+    "doneAlreadyMessage": "İhtiyacınız olduğunda her zaman yanınızdayız. O zamana kadar sağlıklı ve mutlu kalın!",
+    "doneAlreadySignature": "Hepimiz (insan ve yapay zeka) VirtualMD.app'teyiz",
+    "exitConsultationButton": "Çıkış Danışmanlığı",
+    "editTitle": "Konuşma Başlığını Düzenle",
+    "conversationTitleLabel": "Konuşma Başlığı",
+    "save": "Kaydetmek",
+    "deleteTitle": "Konuşmayı Sil",
+    "deleteConfirmation": "\"{{title}}\" başlıklı konuşmayı silmek istediğinizden emin misiniz?",
+    "delete": "Silmek",
+    "multiDeleteTitle": "Seçili Danışmanlıkları Sil",
+    "multiDeleteConfirmation": "Seçili {{count}} konsültasyonu silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+    "deleteSelected": "Seçilenleri Sil",
+    "addSpecialistTitle": "Sohbete Uzman Ekle",
+    "addSpecialistError": "Danışmanlarınız yüklenemedi.",
+    "noAdvisersToAdd": "Seçtiğiniz tüm AI Sağlık Danışmanları zaten bu sohbette veya listeniz boş (mevcut katılımcılar hariç).",
+    "longRecording": {
+      "title": "Uzun Kayıt Duraklatıldı",
+      "message": "Göndermeden 30 saniyeden fazla kayıt yapamıyoruz. Ne yapmak istersiniz?",
+      "delete": "Silmek",
+      "transcribeToText": "Metne dönüştür",
+      "transcribeAndSend": "Transkript et ve gönder"
+    },
+    "finishConsultationTitle": "Danışmanlığı Tamamla?",
+    "generatingSummary": "Danışmanlık özetiniz oluşturulurken lütfen bekleyin...",
+    "finishConsultationMessage": "Bu, aktif sohbet oturumunu sonlandıracaktır. Emin misiniz?",
+    "summarizeAndFinish": "Özetle ve Bitir",
+    "leaveWithoutSummarizing": "Özetlemeden Çıkın",
+    "summarize": "Özetle",
+    "moreInfoTitle": "Daha Fazla Bilgiye İhtiyaç Var",
+    "moreInfoMessage": "Bu sohbet, anlamlı bir özet veya farklı bir görüş oluşturmak için çok kısa. Lütfen en az 150 kelimelik sohbet içeriği oluşana kadar tartışmaya devam edin.",
+    "ok": "TAMAM",
+    "deleteSuccessTitle": "Konuşma Silindi",
+    "deleteSuccessMessage": "Konuşmanız başarıyla silindi.",
+    "logoutTitle": "Gittiğinizi görmek bizi üzdü",
+    "aiHealthSpecialist": "Birincil sağlık ve esenlik yapay zeka uzmanınız",
+    "aileenCarol": "Yapay Zeka Sağlık Uzmanı Carol",
+    "aiHealthAssistant": "Yapay Zeka Sağlık Asistanı",
+    "deleteAndExit": "Sil ve Çık",
+    "summaryTitle": "Danışma Özeti",
+    "consultationTitle": "VirtualMD Danışmanlığı: {{title}}",
+    "summaryUnavailable": "Özet oluşturuluyor veya mevcut değil.",
+    "print": "Yazdır",
+    "copy": "Kopyala",
+    "close": "Kapalı",
+    "shortConv": {
+      "title": "Konuşma sona erdi",
+      "messageLine1": "Konuşma sona erdi. Kaydedilemeyecek kadar kısa, ama yakında tekrar bekleriz.",
+      "messageLine2": "O zamana kadar sağlıklı ve mutlu kalın."
+    }
+  },
+  "errors": {
+    "connectionError": "Bağlantı hatası. Lütfen internet bağlantınızı kontrol edin.",
+    "serverError": "Sunucu hatası. Lütfen daha sonra tekrar deneyin.",
+    "authenticationError": "Kimlik doğrulama başarısız oldu. Lütfen tekrar giriş yapın.",
+    "messageFailedToSend": "Mesaj gönderilemedi",
+    "loadingFailed": "İçerik yüklenemedi",
+    "personaUnavailable": "Bu sağlık uzmanı şu anda müsait değil",
+    "conversationNotFound": "Konuşma bulunamadı",
+    "permissionDenied": "Bu sohbete erişim izniniz yok",
+    "failedToLogin": "Giriş yapılamadı.",
+    "failedToRegister": "Kayıt işlemi başarısız oldu.",
+    "failedToLogout": "Çıkış yapılamadı.",
+    "emailAlreadyTaken": "Bu e-posta zaten alınmış. Lütfen başka bir tane deneyin veya giriş yapın.",
+    "anErrorOccurred": "Bir hata oluştu.",
+    "selectImageFile": "Lütfen bir resim dosyası seçin.",
+    "failedToSaveProfile": "Profil kaydedilemedi. Lütfen tekrar deneyin.",
+    "teamIsFull": "Ekibiniz dolu (Maksimum {{maksimum}} uzman). Farklı bir uzman eklemek isterseniz lütfen bir üyeyi kaldırın.",
+    "selectOneSpecialist": "Lütfen özel görüşme için yalnızca bir uzman seçin.",
+    "contactErrorMessage": "Mesajınız gönderilirken bir hata oluştu. Lütfen daha sonra tekrar deneyin veya",
+    "contactDirectlyAt": "Ayrıca bize doğrudan info@virtualmd.app adresinden e-posta gönderebilirsiniz."
+  },
+  "welcome": {
+    "title": "VirtualMD.app'e hoş geldiniz",
+    "subtitle": "Kişiselleştirilmiş sağlık danışmanlığınıza başlayın",
+    "description": "Kişiselleştirilmiş sağlık bilgileri ve rehberliği almak için yapay zeka destekli sağlık danışmanlarımızdan oluşan ekibimizden seçim yapın.",
+    "getStarted": "Başlayın",
+    "chooseSpecialist": "Uzmanınızı Seçin",
+    "startWithTeam": "Ekibimle Başlayın",
+    "howItWorks": "Nasıl Çalışır?",
+    "aileenCarolName": "Yapay Zeka Sağlık Uzmanı Aileen Carol",
+    "danielGarciaName": "Yapay Zeka Sağlık Uzmanı Daniel Garcia",
+    "greeting": "Merhaba {{username}}. Sizi görmek ne güzel! VirtualMD ekibiniz 7/24 yardıma hazır...",
+    "startTeamConsultation": "Takım Danışmanlığını Başlat",
+    "configureNewChat": "Yeni Sohbeti Yapılandır",
+    "encyclopedia": "VirtualMD.app Ansiklopedisi",
+    "myAIHealthTeam": "Yapay Zeka Sağlık Ekibim",
+    "aileenCarolIntro": "Merhaba, ben Yapay Zeka Sağlık Uzmanı Aileen Carol. Bugün size nasıl yardımcı olabilirim?",
+    "persona_welcome_message": "Merhaba, sağlık ve zindelik ihtiyaçlarınızda size yardımcı olmak için buradayım. Bugün size nasıl yardımcı olabilirim?"
+  },
+  "imageUpload": {
+    "dragAndDrop": "Resimleri buraya sürükleyip bırakın veya seçmek için tıklayın",
+    "supportedFormats": "Desteklenen formatlar: JPG, PNG, GIF",
+    "maxSize": "Maksimum boyut: {{size}}MB",
+    "uploadSuccess": "Resim başarıyla yüklendi",
+    "uploadError": "Resim yüklenemedi",
+    "processing": "Görüntü işleniyor...",
+    "removeImage": "Resmi kaldır",
+    "addToContext": "Konuşma bağlamına ekle"
+  },
+  "voice": {
+    "startRecording": "Ses kaydını başlat",
+    "stopRecording": "Kaydı durdur",
+    "recording": "Kayıt...",
+    "processingSpeech": "Konuşma işleniyor...",
+    "speechToText": "Konuşmayı metne dönüştürme...",
+    "noSpeechDetected": "Konuşma algılanmadı",
+    "microphoneError": "Mikrofon erişim hatası",
+    "unsupportedBrowser": "Bu tarayıcıda ses kaydı desteklenmiyor"
+  },
+  "summary": {
+    "title": "Danışma Özeti",
+    "keyPoints": "Önemli Noktalar",
+    "recommendations": "Öneriler",
+    "nextSteps": "Sonraki Adımlar",
+    "followUp": "Takip etmek",
+    "generating": "Özet oluşturuluyor...",
+    "noSummary": "Özet mevcut değil",
+    "summaryError": "Özet oluşturulamadı",
+    "downloadSummary": "Özeti İndir",
+    "emailSummary": "E-posta Özeti",
+    "return": "Geri dönmek",
+    "transcript": "Deşifre metni",
+    "print": "Yazdır",
+    "copy": "Kopyala",
+    "copyError": "Kopyalanamadı",
+    "notGenerated": "Özet oluşturulamadı."
+  },
+  "status": {
+    "online": "Çevrimiçi",
+    "offline": "Çevrimdışı",
+    "away": "Uzak",
+    "busy": "Meşgul",
+    "available": "Mevcut",
+    "unavailable": "Mevcut değil",
+    "lastSeen": "Son görülme {{time}}"
+  },
+  "mobileTeamBuilder": {
+    "title": {
+      "yourTeam": "Takımınız",
+      "teamBuilder": "Yapay Zeka Ekip Oluşturucu"
+    },
+    "carolMessages": {
+      "teamFull": "{{name}}, ekibiniz doldu! Mevcut ekibinizle bir danışma başlatabilir veya yeni öneriler almak için bazı üyeleri çıkarabilirsiniz.",
+      "helpBuild": "{{name}}, mükemmel sağlık ekibini kurmana yardımcı olmaktan mutluluk duyarım! Bugün seni buraya getiren şeyin ne olduğunu söyle bana."
+    },
+    "carolGreeting": {
+      "teamFull": "Merhaba {{name}}! Ekibiniz dolu.",
+      "helpBuild": "Merhaba {{name}}! Mükemmel sağlık ekibinizi oluşturmanıza yardımcı olacağım."
+    },
+    "currentTeam": "Mevcut Takım ({{current}}/{{max}})",
+    "aiSpecialist": "Yapay Zeka {{isim}}",
+    "specialist": "Uzman",
+    "startConversation": "Bu Ekip ile Konuşmaya Başlayın",
+    "tellUsWhy": "Bugün burada olmanızın sebebini bize bildirin, böylece mükemmel sağlık ekibinizi oluşturalım.",
+    "placeholder": "Sağlık sorunlarınızı, belirtilerinizi veya hangi konuda yardım istediğinizi açıklayın...",
+    "questionnaire": {
+      "question": "Bugün sizi buraya getiren ne?",
+      "keepExisting": "Mevcut ekip üyelerini tutmak mı?",
+      "existingMembers": "Mevcut ekip üyeleri",
+      "currentSize": "Mevcut ekip boyutu",
+      "availableSpots": "Yeni uzmanlar için mevcut yerler",
+      "maxRecommendations": "İzin verilen maksimum öneriler"
+    }
+  },
+  "mobileNavigationTabs": {
+    "consultation": "Danışma",
+    "team": "Takım",
+    "history": "Tarih",
+    "encyclopedia": "Ansiklopedi"
+  },
+  "autoListening": {
+    "turnOn": "Otomatik dinlemeyi açın",
+    "turnOff": "Otomatik dinlemeyi kapatın"
+  },
+  "speech": {
+    "processing": "Konuşmanın işlenmesi",
+    "pauseListening": "Dinlemeyi Duraklatmak İçin Tıklayın",
+    "turnOnListening": "Dinlemeyi Açmak İçin Tıklayın"
+  },
+  "help": {
+    "howDoesThisWork": "Bu nasıl çalışır?",
+    "chatControls": "Sohbet kontrolleri",
+    "enterToSend": "Göndermek için Enter'a veya ▷'a basın",
+    "shiftEnterToSpeak": "Konuşmak/duraklatmak için Shift+Enter veya 🎤/⏸ tuşlarına basın"
+  },
+  "fileUpload": {
+    "clickToUpload": "Dosyayı yüklemek için tıklayın (Dosyaları sohbete de bırakabilirsiniz)"
+  },
+  "send": {
+    "transcribeAndSend": "Transkript et ve gönder",
+    "sendMessage": "Mesaj gönder"
+  },
+  "aileenCarol": {
+    "playAnalysis": "Oyun Sağlık Uzmanı Carol'ın analizi",
+    "stopAnalysis": "Sağlık Uzmanı Carol'ın analizini durdurun"
+  },
+  "profile": {
+    "editProfile": "Profili Düzenle",
+    "saveChanges": "Değişiklikleri Kaydet",
+    "cancelEdits": "Düzenlemeleri İptal Et",
+    "changePhoto": "Fotoğrafı Değiştir",
+    "removePhoto": "Fotoğrafı Kaldır",
+    "healthInfoTooltip": "Lütfen kullandığınız ilaçları, teşhisleri, takviyeleri ve sağlığınızla ilgili diğer önemli bilgileri yazın veya listeleyin.",
+    "loadingProfile": "Profil yükleniyor...",
+    "errorLoadingProfile": "Profil yüklenirken hata oluştu",
+    "noProfileData": "Profil verisi bulunamadı.",
+    "myProfile": "Profilim",
+    "myAccount": "Hesabım",
+    "displayName": "Ekran adı",
+    "fullName": "Ad Soyad",
+    "email": "E-posta",
+    "emailCannotBeChanged": "E-posta değiştirilemiyor.",
+    "keyHealthInfo": "Temel Sağlık Bilgileri",
+    "noHealthInfoRecorded": "Önemli sağlık bilgisi kaydedilmedi.",
+    "healthInfoPlaceholder": "İlaçları, teşhisleri, takviyeleri vb. listeleyin.",
+    "age": "Yaş",
+    "gender": "Cinsiyet"
+  },
+  "imageContext": {
+    "clearZoom": "Bu yakınlaştırma seçimini temizle",
+    "cropPromotionError": "Yakınlaştırılmış görüntü gönderilemedi ve eklenemedi. Konsolu kontrol edin.",
+    "startConversationToSend": "Zoom'a göndermek için bir konuşma başlatın",
+    "sendZoomToTeam": "Bu yakınlaştırmayı ekibe gönder",
+    "noActiveZoom": "Gönderilecek etkin yakınlaştırma yok. Lütfen görüntüde bir alan seçin.",
+    "functionsUnavailable": "Yakınlaştırma gönderilemiyor: Temel işlevler kullanılamıyor.",
+    "noImages": "Bağlamda görsel yok. Başlamak için bir görsel yükleyin.",
+    "allHidden": "Tüm görseller şu anda gizli. Bir görseli görüntülemek için başlıktaki küçük resme tıklayın.",
+    "showFirst": "İlk Görseli Göster",
+    "imageDisplay": "Görüntü Görüntüleme ({{gösterilen}} gösterilen / {{toplam}} toplam)",
+    "hideImage": "Resmi gizle",
+    "showImage": "Görüntüyü göster",
+    "zoomPreview": "Yakınlaştırma Önizlemesi",
+    "sendToTeam": "Takıma Gönder",
+    "dragToZoom": "Yeni bir yakınlaştırma alanı seçmek için yukarıdaki bir resme tıklayıp sürükleyin."
+  },
+  "mobileChat": {
+    "healthConsult": "Sağlık Danışmanlığı",
+    "speakToAI": "{{name}} ile konuş",
+    "startConversation": "Aşağıdan konuşmanızı başlatın",
+    "requestToSpeakToAI": "{{name}} ile görüşmek istiyorum"
+  },
+  "mobileWelcome": {
+    "greeting": "MERHABA!",
+    "aileenCarolIntro": "Ben AI Aileen Carol, birincil sağlık uzmanınızım. Sizi tanımayı dört gözle bekliyorum. VirtualMD.app AI sağlık uzmanları ekibinizin başındayım. 7/24 yardıma hazırız...",
+    "startConsultation": "Sağlık Danışmanlığına Başlayın",
+    "myTeam": "Takımım",
+    "aiTeamBuilder": "Yapay Zeka Sağlık Uzmanı Carol ekibinizi seçmenize yardımcı oluyor",
+    "priorConsultations": "Ön Görüşmeler",
+    "encyclopedia": "Ansiklopedi",
+    "myProfile": "Profilim",
+    "logout": "Çıkış yap",
+    "labels": {
+      "chat": "Sohbet",
+      "advisory": "Danışmanlık",
+      "encyclopedia": "Ansiklopedi",
+      "myTeam": "Takımım",
+      "history": "Tarih",
+      "myProfile": "Profilim"
+    }
+  },
+  "mobileInput": {
+    "listeningPlaceholder": "Dinliyorum... şimdi konuş",
+    "typePlaceholder": "Bir mesaj yazın...",
+    "clear": "Temizlemek",
+    "needHelp": "Yardıma mı ihtiyacınız var?",
+    "takePhoto": "Fotoğraf çek"
+  },
+  "mobileConsultations": {
+    "title": "Ön Görüşmeler",
+    "selectAll": "Tümünü Seç",
+    "deselectAll": "Tümünü Seçimden Çıkar",
+    "deleteSelected": "Seçilenleri Sil ({{count}})",
+    "consultationDefault": "Danışma {{id}}",
+    "lastUpdate": "Son Güncelleme: {{date}}",
+    "noUpdates": "Henüz güncelleme yok",
+    "editTitle": "Konuşma Başlığını Düzenle",
+    "enterNewTitle": "Yeni başlığı girin:",
+    "noConsultations": "Henüz bir görüşme yapılmadı."
+  },
+  "mobileProfile": {
+    "title": "Profilim",
+    "saveError": "Profil kaydedilemedi",
+    "saveSuccess": "Profil güncellendi!",
+    "changePhoto": "Fotoğrafı değiştir",
+    "displayName": "Ekran adı",
+    "fullName": "Ad Soyad",
+    "email": "E-posta",
+    "keyHealthInfo": "Temel Sağlık Bilgileri",
+    "logout": "Çıkış yap"
+  },
+  "mobileNavigation": {
+    "consultation": "Danışma",
+    "team": "Takım",
+    "history": "Tarih",
+    "exitConsultation": "Çıkış Danışmanlığı",
+    "myTeam": "Takımım",
+    "summary": "Özet",
+    "differentialOpinion": "Farklı Görüş",
+    "transcript": "Deşifre metni",
+    "encyclopedia": "Ansiklopedi",
+    "controls": "Kontroller",
+    "aiSpeaker": "Yapay Zeka Konuşmacısı",
+    "enabled": "Etkinleştirilmiş",
+    "disabled": "Engelli",
+    "camera": "Kamera",
+    "comingSoon": "Yakında gelecek",
+    "menu": "Menü"
+  },
+  "bioPanel": {
+    "loadingBio": "Biyografi yükleniyor...",
+    "noBiography": "Biyografi bulunamadı.",
+    "returnToPanel": "Panele Dön"
+  },
+  "sidebarHeader": {
+    "panel": "Panel",
+    "summary": "Özet",
+    "differentialOpinion": "Farklı Görüş",
+    "transcript": "Deşifre metni",
+    "encyclopedia": "VirtualMD.app Ansiklopedisi",
+    "endConversation": "Konuşmayı Sonlandır",
+    "startChatWithTeam": "Ekip ile Sohbete Başlayın",
+    "configureNewChat": "Yeni Sohbeti Yapılandır",
+    "myAIHealthTeam": "Yapay Zeka Sağlık Ekibim",
+    "aileenCarolTeamBuilder": "Sağlık Uzmanı Carol ekibinizi oluşturmanıza yardımcı olur.",
+    "savedConsultations": "Kaydedilen Danışmanlıklar",
+    "myProfile": "Profilim",
+    "imageNumber": "Resim {{number}}"
+  },
+  "differentialOpinion": {
+    "noOpinionAvailable": "Farklı görüş bulunmamaktadır."
+  },
+  "encyclopedia": {
+    "title": "VirtualMD.app Ansiklopedisi",
+    "loadingMessage": "Bu konu üzerinde sizin için derinlemesine bir araştırma yapıyoruz. Cevabınız için lütfen birkaç saniye bekleyin.",
+    "longWaitMessage": "Detaylı cevapların gelmesi birkaç dakika sürebilir.",
+    "searchButton": "Ansiklopediyi Ara",
+    "return": "Geri dönmek",
+    "print": {
+      "button": "Yazdır",
+      "title": "Ansiklopedi Arama Sonucu",
+      "subtitle": "VirtualMD.app Ansiklopedisi"
+    },
+    "copy": "Kopyala",
+    "searchResult": "Ansiklopedi Arama Sonucu",
+    "attribution": "VirtualMD.app tarafından yanıtlandı",
+    "emptyState": "VirtualMD.app Ansiklopedisi'nde arama yapmak için yukarıya bir sorgu girin.",
+    "copySuccess": "İçerik panoya kopyalandı!",
+    "copyError": "Panoya kopyalanamadı",
+    "generatingResponse": "Kapsamlı bir yanıt üretiliyor...",
+    "genericError": "Bir hata oluştu",
+    "translatingContent": "İçerik çevriliyor..."
+  },
+  "input": {
+    "typeOrSpeakPlaceholder": "Mesajınızı yazın veya söyleyin...\nGöndermek için Enter tuşuna basın veya ▷'a tıklayın.",
+    "typePlaceholder": "Mesajınızı buraya yazın...\nGöndermek için Enter tuşuna basın veya ▷'a tıklayın.",
+    "transcribing": "Yazıya geçiriliyor...",
+    "enterTextHere": "Metni buraya girin",
+    "startTypingMessage": "Danışmanlığınıza başlamak için aşağıdaki kutuya mesajınızı yazmaya başlayın."
+  },
+  "quickActions": {
+    "whatToDoButton": "Ne yapmalıyım?",
+    "summaryButton": "Özet",
+    "whatShouldIDo": "Konuştuklarımıza dayanarak, şimdi ne yapmalıyım? Lütfen net ve uygulanabilir önerilerde bulunun.",
+    "requestSummary": "Lütfen şu ana kadar yaptığımız görüşmenin kapsamlı bir özetini, tartışılan temel noktaları, yapılan önerileri ve sonraki adımları da içerecek şekilde sunun."
+  },
+  "upload": {
+    "uploading": "Yükleniyor…"
+  },
+  "camera": {
+    "notSupported": "Bu tarayıcıda kamera erişimi desteklenmiyor",
+    "capturePhoto": "Fotoğraf Yakala",
+    "accessDenied": "Kamera erişimi engellendi. Lütfen tarayıcı ayarlarınızdan kamera erişimine izin verin.",
+    "accessFailed": "Kameraya erişim sağlanamadı"
+  },
+  "microphone": {
+    "turnOn": "Mikrofonu aç",
+    "turnOff": "Mikrofonu kapat"
+  },
+  "specialistPanel": {
+    "guidanceSingle": "Özel bir danışmanlık için bir Yapay Zeka Uzmanı seçin:",
+    "guidanceMulti": "Yapay Zeka Sağlık Uzmanı Carol her zaman dahil edilecektir. Ek Yapay Zeka Sağlık Danışmanları seçin:",
+    "startPrivateConsult": "Özel Danışmanlığa Başlayın",
+    "startChat": "Sohbete Başla",
+    "selectSingle": "AI Uzmanını Seçin",
+    "selectMulti": "Ek Danışmanları Seçin",
+    "warningSelectOne": "Lütfen özel görüşme için yalnızca bir uzman seçin.",
+    "noSpecialistsAvailable": "Şu anda özel danışmanlık için uygun AI uzmanı bulunmamaktadır.",
+    "noAdvisersAvailable": "Ek AI Sağlık Danışmanı mevcut değil."
+  },
+  "sidebarFooter": {
+    "disclaimerText": "VirtualMD.app doğruluk için çaba göstermektedir. Ancak, bu ve diğer yapay zeka tabanlı hizmetler yanlış bilgi verebilir. Daima kalifiye bir sağlık uzmanına danışın.",
+    "emergencyText": "Acil tıbbi durumlarda 112’yi arayın.",
+    "moreInformation": "Daha fazla bilgi"
+  },
+  "teamBuilder": {
+    "healthConditions": {
+      "options": {
+        "${key}": "{{anahtar}}"
+      }
+    },
+    "medicinePreferences": {
+      "options": {
+        "${key}": "{{anahtar}}"
+      }
+    }
+  },
+  "account": {
+    "title": "Hesap Ayarları",
+    "description": "Buradan VirtualMD.app hesabınızı kalıcı olarak silebilirsiniz. Bu işlem profilinizi ve tüm danışmanlıklarınızı kaldırır.",
+    "deleteMyAccount": "Hesabımı Sil",
+    "confirmDeleteTitle": "Hesabı Sil",
+    "confirmDeleteText": "Bu işlem geri alınamaz. Tüm profil bilgileriniz, danışmanlıklarınız ve dosyalarınız kalıcı olarak silinecektir. Devam etmek istediğinizden emin misiniz?",
+    "cancel": "İptal etmek",
+    "yesDelete": "Evet, Sil"
+  },
+  "transcript": {
+    "noTranscript": "Transkript mevcut değil.",
+    "title": "Danışma Transkripti",
+    "returnToConversation": "Konuşmaya Dön",
+    "print": "Yazdır",
+    "copy": "Kopyala",
+    "copyError": "Kopyalanamadı",
+    "roleLabels": {
+      "patient": "Kullanıcı:",
+      "assistant": "Asistan:"
+    }
+  },
+  "mobileRouter": {
+    "teamRecommendations": "Takım Önerileri",
+    "myTeam": "Takımım",
+    "summary": "Özet",
+    "differentialOpinion": "Farklı Görüş",
+    "transcript": "Deşifre metni",
+    "encyclopedia": "Ansiklopedi",
+    "consultations": "Danışmanlıklar",
+    "returnToChat": "Sohbete Dön",
+    "pleaseLogIn": "Lütfen Giriş Yapın",
+    "logInToView": "Konuşmalarınızı görüntülemek veya yeni bir konuşma başlatmak için giriş yapın.",
+    "logIn": "Giriş yapmak",
+    "loadingSpecialists": "Uzmanlar yükleniyor..."
+  },
+  "chat": {
+    "pleaseLogIn": "Lütfen Giriş Yapın",
+    "logInToView": "Konuşmalarınızı görüntülemek veya yeni bir konuşma başlatmak için giriş yapın."
+  },
+  "loginPage": {
+    "signIn": "Giriş yap"
+  },
+  "imageProcessing": {
+    "preset": "Ön ayar",
+    "applyPreset": "Ön ayarı odaklanmış görüntüye uygula",
+    "process": "İşlem",
+    "revertFocus": "Orijinal görüntüye yeniden odaklanın",
+    "revert": "Geri al"
+  },
+  "guest": {
+    "consultation": "Misafir Danışmanlığı",
+    "topics": {
+      "child": {
+        "title": "Çocuğum hasta",
+        "subtitle": "En çok ihtiyaç duyduğunuzda uzman pediatrik bakım",
+        "initialMessage": "Ben Yapay Zeka Aileen Carol, Sanal Sağlık Danışmanınız. Hasta bir çocuğun ne kadar endişe verici olabileceğini biliyorum. Bana neler olduğunu anlat. Not: Ben bir yapay zekayım, insan değilim; tavsiyelerim yanlış olabilir; kalifiye bir insan sağlık uzmanına danışın."
+      },
+      "sleep": {
+        "title": "Uyuyamıyorum!",
+        "subtitle": "Gecelerinizi geri getirin, günlerinizi dönüştürün",
+        "initialMessage": "Ben Yapay Zeka Aileen Carol, Sanal Sağlık Danışmanınız. Uyku uzmanı Yapay Zeka Benjamin Stein (Psikiyatri) ve Yapay Zeka Alice Chen (Nöroloji) ile birlikteyim. Uyku sorunlarınızı bizimle paylaşın, size yardımcı olalım. Not: Biz insan değiliz, yapay zekayız; tavsiyelerimiz yanlış olabilir; lütfen kalifiye (insan) bir sağlık uzmanına danışın."
+      },
+      "nutrition": {
+        "title": "Canlılık için beslenme",
+        "subtitle": "Yiyeceklerle enerjinizi, sağlığınızı ve cinsel sağlığınızı artırın",
+        "initialMessage": "Ben Sanal Sağlık Danışmanınız AI Aileen Carol, ekibinizle birlikte buradayım - AI Angelica Fordham (beslenme), Seks Terapisi AI Rachel Levy ve AI Afrika Bitki Uzmanı Amina Okufur. Bugün nasıl hissediyorsunuz? Not: Biz insan değil, yapay zekayız; tavsiyeler yanlış olabilir; lütfen kalifiye bir sağlık uzmanına danışın."
+      }
+    },
+    "errors": {
+      "sessionFailed": "Misafir oturumu başlatılamadı"
+    },
+    "registrationRequired": "Kayıt gereklidir",
+    "uploadFeatures": {
+      "title": "Belge ve Görüntü Yükleme Özellikleri",
+      "description": "Platformumuz, şunları yapabileceğiniz güçlü belge ve görüntü analiz yetenekleri sunar:",
+      "benefit1": "Sağlık belgelerinizi, laboratuvar raporlarınızı ve görsellerinizi yükleyin",
+      "benefit2": "Ayrıntılı analiz için belirli alanlara yakınlaştırın",
+      "benefit3": "AI sağlık danışmanlarımızın belgelerinizi değerlendirmesini ve tartışmasını sağlayın",
+      "benefit4": "Hemen danışmak için doğrudan kameranızdan fotoğraf çekin",
+      "registeredOnly": "Bu özel özellikler kayıtlı kullanıcılara açıktır."
+    }
+  },
+  "activeChat": {
+    "guestMode": {
+      "advisorsTitle": "VirtualMD.app Sağlık Danışmanları",
+      "registrationRequired": "Kayıt gereklidir"
+    }
+  },
+  "healthAdvisors": "VirtualMD.app Sağlık Danışmanları"
+}

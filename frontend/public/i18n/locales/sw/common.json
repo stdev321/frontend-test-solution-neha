@@ -1,0 +1,907 @@
+{
+  "header": {
+    "login": "Ingia",
+    "register": "Sajili",
+    "logout": "Ondoka",
+    "aboutUs": "Kuhusu Sisi",
+    "learnMore": "Jifunze Zaidi",
+    "advisory": "Ushauri",
+    "start": "Anza",
+    "greetingHello": "Hujambo {{jina}}!",
+    "welcomeToVirtualMD": "Karibu kwenye VirtualMD!",
+    "signupForFullAccess": "Jisajili kwa ufikiaji kamili",
+    "profileTitle": "Wasifu Wangu / Nenda kwa Gumzo",
+    "logoutTitle": "Ondoka",
+    "toggleTheme": "Geuza Hali ya Mwanga/Giza",
+    "toggleMode": "Geuza Hali ya Mwanga/Giza",
+    "myProfile": "Wasifu Wangu / Nenda kwa Gumzo",
+    "dashboard": "Dashibodi",
+    "endConversation": "Maliza Mazungumzo",
+    "returnToConversation": "Rudi kwenye Mazungumzo",
+    "startConversation": "Anza Mazungumzo",
+    "endConsult": "Maliza Ushauri",
+    "returnToConsult": "Rudi kwa Ushauri",
+    "startConsult": "Anza Ushauri",
+    "home": "Nyumbani",
+    "healthEncyclopedia": "Encyclopedia ya Afya",
+    "researchPublications": "Utafiti na Machapisho",
+    "contactUs": "Wasiliana Nasi",
+    "light": "Mwanga",
+    "dark": "Giza",
+    "toggleModeText": "Geuza Hali ya {{mode}}",
+    "legal": "Kisheria"
+  },
+  "howToUse": "Jinsi ya Kutumia",
+  "settings": {
+    "lightMode": "Hali ya Mwanga",
+    "darkMode": "Hali ya Giza"
+  },
+  "navigation": {
+    "dashboard": "Dashibodi",
+    "home": "Nyumbani",
+    "aboutUs": "Kuhusu Sisi",
+    "returnToChat": "Rudi kwa Gumzo",
+    "continueConsultation": "Endelea na mashauriano yako",
+    "exitConsultation": "Ondoka kwenye Ushauri",
+    "startNewConsultation": "Anza Ushauri Mpya",
+    "sections": {
+      "chatTools": "VYOMBO VYA CHAT",
+      "functionality": "UTEKELEZAJI",
+      "aboutUs": "KUHUSU SISI",
+      "requiredDocuments": "HATI ZINAZOTAKIWA",
+      "research": "UTAFITI",
+      "controls": "VIDHIBITI",
+      "settings": "MIPANGILIO"
+    },
+    "myTeam": "Timu yangu",
+    "summary": "Muhtasari",
+    "transcript": "Nakala",
+    "encyclopedia": "Encyclopedia",
+    "priorChats": "Mazungumzo ya Awali",
+    "myProfile": "Wasifu Wangu",
+    "healthEncyclopedia": "Encyclopedia ya Afya",
+    "noteFromFounders": "Dokezo kutoka kwa Waanzilishi",
+    "faq": "Maswali Yanayoulizwa Mara kwa Mara",
+    "contactUs": "Wasiliana Nasi",
+    "legal": "Kisheria",
+    "dataPrivacy": "Faragha ya Data",
+    "aiAccuracyStudies": "Mafunzo ya Usahihi wa AI",
+    "empowerYourself": "Jiwezeshe",
+    "deepResearch": "Utafiti wa Kina",
+    "aboutUsItems": {
+      "advisory": "Ushauri",
+      "dataPrivacy": "Faragha ya Data"
+    },
+    "learnMore": {
+      "imagingAI": "Imaging na AI",
+      "pathologyAI": "Patholojia na AI",
+      "dermatologyAI": "Dermatology na AI",
+      "mentalHealthAI": "Afya ya Akili na AI",
+      "accuracyStudies": "Mafunzo ya Usahihi wa AI",
+      "allResearch": "Utafiti wote",
+      "empowerYourself": "Jiwezeshe"
+    }
+  },
+  "landing": {
+    "title": "VirtualMD.app",
+    "subtitle": "Suluhisho la Huduma ya Afya Inayoendeshwa na AI",
+    "tryItOut": "Ijaribu",
+    "scrollDown": "Tembeza chini",
+    "scrollUp": "Tembeza juu",
+    "alwaysHereForYou": "Daima Nipo Kwa Ajili Yako.",
+    "cards": {
+      "whyUse": {
+        "title": "Kwa nini VirtualMD?",
+        "description": "Gundua manufaa ya kimapinduzi ya jukwaa letu la afya pepe linaloendeshwa na AI"
+      },
+      "dataPrivacy": {
+        "title": "Faragha yako",
+        "description": "Kama rafiki unayemwamini, siri zako za afya ziko salama ukiwa nasi"
+      },
+      "tryItOut": {
+        "title": "Ijaribu",
+        "description": "Mtoto wangu anaumwa|Siwezi kulala!|Lishe ya mapenzi",
+        "tagline": "Hakuna kujisajili kunahitajika."
+      },
+      "wellness": {
+        "title": "Utafiti wa Kina",
+        "description": "Ensaiklopidia ya afya yenye vyanzo vinavyoaminika"
+      },
+      "yourHealth": {
+        "title": "Afya yako",
+        "description": "Tengeneza safari yako ya ustawi na AI"
+      }
+    }
+  },
+  "chat": {
+    "startNewConsult": "Anza Ushauri Mpya",
+    "noSpeechDetected": "Sikupata hilo",
+    "noSpeechMessage": "Sikuweza kugundua hotuba yoyote katika rekodi yako. Tafadhali jaribu kuongea kwa sauti zaidi au kusogea karibu na maikrofoni yako, kisha ujaribu tena.",
+    "dontShowAgain": "Usinionyeshe tena",
+    "gotIt": "Nimeipata",
+    "loading": "Inapakia..."
+  },
+  "loading": {
+    "preparingHealthTeam": "Inatayarisha timu yako ya afya ya AI...",
+    "connectingSpecialists": "Inaunganishwa na wataalam wa afya...",
+    "initializingSystem": "Inaanzisha mfumo wako wa afya uliobinafsishwa...",
+    "almostReady": "Uko tayari kukusaidia...",
+    "dots": "..."
+  },
+  "common": {
+    "loading": "Inapakia...",
+    "user": {
+      "defaultInitial": "U",
+      "defaultName": "hapo",
+      "defaultAltText": "Mtumiaji"
+    },
+    "error": "Hitilafu",
+    "success": "Mafanikio",
+    "cancel": "Ghairi",
+    "confirm": "Thibitisha",
+    "save": "Hifadhi",
+    "delete": "Futa",
+    "edit": "Hariri",
+    "close": "Funga",
+    "next": "Inayofuata",
+    "previous": "Iliyotangulia",
+    "submit": "Wasilisha",
+    "search": "Tafuta",
+    "filter": "Chuja",
+    "sort": "Panga",
+    "upload": "Pakia",
+    "download": "Pakua",
+    "print": "Chapisha",
+    "share": "Shiriki",
+    "copy": "Nakili",
+    "paste": "Bandika",
+    "cut": "Kata",
+    "undo": "Tendua",
+    "redo": "Rudia",
+    "yes": "Ndiyo",
+    "no": "Hapana",
+    "ok": "Sawa",
+    "punctuation": {
+      "ellipsis": "..."
+    },
+    "apply": "Omba",
+    "reset": "Weka upya",
+    "clear": "Wazi",
+    "back": "Nyuma",
+    "forward": "Mbele",
+    "home": "Nyumbani",
+    "refresh": "Onyesha upya",
+    "reload": "Pakia upya",
+    "help": "Msaada",
+    "about": "Kuhusu",
+    "contact": "Wasiliana",
+    "profile": "Wasifu",
+    "account": "Akaunti",
+    "privacy": "Faragha",
+    "terms": "Masharti",
+    "legal": "Kisheria",
+    "support": "Msaada",
+    "feedback": "Maoni",
+    "welcome": "Karibu",
+    "goodbye": "Kwaheri",
+    "thankyou": "Asante",
+    "send": "Tuma",
+    "none": "Hakuna",
+    "generating": "Inazalisha...",
+    "settings": "Mipangilio"
+  },
+  "auth": {
+    "loginTitle": "Ingia",
+    "registerTitle": "Fungua Akaunti",
+    "email": "Barua pepe",
+    "password": "Nenosiri",
+    "confirmPassword": "Thibitisha Nenosiri",
+    "fullName": "Jina Kamili",
+    "displayName": "Jina la Kuonyesha",
+    "rememberMe": "Nikumbuke",
+    "forgotPassword": "Umesahau nenosiri?",
+    "noAccount": "Je, huna akaunti?",
+    "hasAccount": "Je, tayari una akaunti?",
+    "signUp": "Jisajili",
+    "signIn": "Ingia",
+    "signOut": "Ondoka",
+    "createAccount": "Fungua Akaunti",
+    "loginButton": "Ingia",
+    "registerButton": "Sajili",
+    "logout": "Ondoka"
+  },
+  "footer": {
+    "copyright": "MindScript Technologies LLC. Haki zote zimehifadhiwa..",
+    "privacyPolicy": "Sera ya Faragha",
+    "termsOfService": "Masharti ya Huduma",
+    "cookiePolicy": "Sera ya Vidakuzi",
+    "medicalAdvisory": "Ushauri wa Afya",
+    "yourPrivacy": "Faragha Yako",
+    "legal": "Kisheria",
+    "contactUs": "Wasiliana Nasi",
+    "howToUse": "Jinsi ya Kutumia",
+    "faq": "Maswali Yanayoulizwa Mara kwa Mara",
+    "noteFromFounders": "Kumbuka kutoka kwa Waanzilishi",
+    "medicalDisclaimerTooltip": "MindScript inajitahidi kutoa taarifa sahihi zaidi za afya, zilizosasishwa kwa kutumia watu wa afya wanaotumia AI. Walakini, watu hawa sio wataalam wa afya walioidhinishwa na wanaweza kuwa sio sahihi. Katika hali ya dharura ya kweli ya matibabu, piga 911 au nenda kwa idara ya dharura iliyo karibu nawe mara moja. Kwa maswala mengine yoyote ya kiafya au kabla ya kujaribu matibabu au tiba yoyote, tafadhali wasiliana na mtoa huduma wa afya ya binadamu aliyehitimu au mtaalamu.",
+    "advisory": "Ushauri"
+  },
+  "forms": {
+    "required": "Sehemu hii inahitajika",
+    "invalidEmail": "Tafadhali weka barua pepe halali",
+    "passwordTooShort": "Nenosiri lazima liwe na angalau vibambo 8",
+    "passwordsDoNotMatch": "Manenosiri hayalingani",
+    "invalidInput": "Tafadhali ingiza ingizo halali",
+    "fieldRequired": "{{field}} inahitajika",
+    "selectOption": "Tafadhali chagua chaguo",
+    "uploadFile": "Pakia faili",
+    "dragAndDrop": "Buruta na udondoshe faili hapa, au ubofye ili kuchagua",
+    "fileUploaded": "Faili imepakiwa",
+    "uploadError": "Hitilafu katika kupakia faili"
+  },
+  "language": {
+    "english": "Kiingereza",
+    "arabic": "العربية",
+    "hebrew": "עברית",
+    "switchTo": "Badili hadi {{lugha}}",
+    "currentLanguage": "Lugha ya sasa: {{lugha}}"
+  },
+  "animation": {
+    "title": {
+      "simply": "Kwa urahisi",
+      "better": "Bora zaidi",
+      "health": "Afya",
+      "period": "."
+    }
+  },
+  "hero": {
+    "subtitle": "Ushauri wa kibinafsi wa afya na ustawi 24/7.",
+    "subtitleMobile": "Ushauri wa afya wa AI uliobinafsishwa 24/7",
+    "poweredBy": "Inaendeshwa na AI."
+  },
+  "research": {
+    "title": "Utafiti na Machapisho",
+    "subtitle": "Masuluhisho ya huduma ya afya ya AI yenye ushahidi",
+    "aiImaging": {
+      "title": "AI katika Utambuzi wa Uchunguzi",
+      "description": "Uchanganuzi wa kina wa matumizi ya akili bandia katika taswira ya afya katika radiolojia, patholojia, na ophthalmology."
+    },
+    "pathologyAI": {
+      "title": "Msaada wa AI ya Patholojia",
+      "description": "Maombi ya kujifunza kwa kina katika ugonjwa wa kidijitali kwa utambuzi wa saratani na uboreshaji wa usahihi wa utambuzi."
+    },
+    "dermatologyAI": {
+      "title": "Ufumbuzi wa AI wa Dermatology",
+      "description": "Utambuzi na utambuzi wa hali ya ngozi unaoendeshwa na AI kwa kutumia maono ya kompyuta na kujifunza kwa mashine."
+    },
+    "mentalHealthAI": {
+      "title": "Afya ya Akili na AI",
+      "description": "Matumizi ya akili ya Bandia katika uchunguzi wa afya ya akili, utambuzi na usaidizi wa matibabu."
+    },
+    "accuracyStudies": {
+      "title": "Mafunzo ya Usahihi wa AI",
+      "description": "Uthibitishaji wa kliniki na vipimo vya utendaji vya mifumo ya uchunguzi wa AI katika mipangilio ya huduma ya afya ya ulimwengu halisi."
+    }
+  },
+  "whitepapers": {
+    "downloadPdf": "Pakua PDF",
+    "generating": "Inazalisha...",
+    "abstract": "Muhtasari",
+    "introduction": "Utangulizi",
+    "methods": "Mbinu/Teknolojia",
+    "results": "Matokeo",
+    "discussion": "Majadiliano",
+    "conclusion": "Hitimisho",
+    "references": "Marejeleo",
+    "authors": "Waandishi",
+    "email": "Barua pepe",
+    "organization": "Shirika"
+  },
+  "imageProcessing": {
+    "preset": "Weka mapema",
+    "process": "Mchakato",
+    "revert": "Rudisha",
+    "applyPreset": "Tekeleza uwekaji awali kwenye picha kwa umakini",
+    "revertFocus": "Angazia tena picha asili"
+  },
+  "alt": {
+    "logo": "Nembo ya VirtualMD.app",
+    "logoSmall": "Nembo Ndogo ya MindScript",
+    "integratedApproach": "Mbinu iliyojumuishwa ya ustawi",
+    "userProfile": "Wasifu wa mtumiaji",
+    "aiDoctor": "Mtaalam wa Afya wa AI Carol",
+    "aiAssistant": "Msaidizi wa AI",
+    "backgroundImage": "Picha nzuri ya mandharinyuma",
+    "home": "Nyumbani mwa MindScript",
+    "processed": "Picha iliyochakatwa",
+    "zoomPreview": "Onyesho la kukaza picha"
+  },
+  "aria": {
+    "scrollDown": "Tembeza chini",
+    "scrollUp": "Tembeza juu",
+    "openMenu": "Fungua menyu",
+    "togglePassword": "Geuza mwonekano wa nenosiri",
+    "chooseLanguage": "Chagua lugha",
+    "goHome": "Nenda kwenye ukurasa wa nyumbani",
+    "remove": "Ondoa",
+    "edit": "Hariri",
+    "delete": "Futa",
+    "save": "Hifadhi",
+    "cancel": "Ghairi",
+    "breadcrumb": "Urambazaji mkate",
+    "conversationChoice": "Chaguo la mazungumzo",
+    "personaChoice": "Chaguo la mtu",
+    "panel": "Paneli",
+    "summary": "Muhtasari",
+    "differentialOpinion": "Maoni ya Tofauti",
+    "transcript": "Nakala",
+    "encyclopedia": "Encyclopedia",
+    "endConversation": "Maliza Mazungumzo",
+    "startChat": "Anza gumzo na timu",
+    "configureChat": "Sanidi soga mpya",
+    "savedConsultations": "Mashauriano yaliyohifadhiwa",
+    "myProfile": "Wasifu Wangu"
+  },
+  "researchPage": {
+    "title": "Utafiti na Machapisho",
+    "healthAdvisory": {
+      "title": "Ushauri wa Afya",
+      "description": "Taarifa muhimu za afya na usalama",
+      "button": "Tazama Ushauri"
+    },
+    "imagingAI": {
+      "title": "AI katika Utambuzi wa Uchunguzi",
+      "description": "Utumizi wa AI katika upigaji picha wa afya kote kwenye radiolojia, ugonjwa wa magonjwa, na ophthalmology",
+      "button": "Soma Zaidi"
+    },
+    "pathologyAI": {
+      "title": "Patholojia inayosaidiwa na AI",
+      "description": "Maombi ya kujifunza kwa kina katika ugonjwa wa kidijitali kwa utambuzi wa saratani na usahihi wa utambuzi",
+      "button": "Soma Zaidi"
+    },
+    "dermatologyAI": {
+      "title": "Suluhisho za AI katika Dermatology",
+      "description": "Utambuzi na utambuzi wa hali ya ngozi unaoendeshwa na AI kwa kutumia maono ya kompyuta na kujifunza kwa mashine",
+      "button": "Soma Zaidi"
+    },
+    "mentalHealthAI": {
+      "title": "Afya ya Akili na AI",
+      "description": "Maombi ya AI katika uchunguzi wa afya ya akili, utambuzi, na usaidizi wa matibabu",
+      "button": "Soma Zaidi"
+    },
+    "dataPrivacy": {
+      "title": "Faragha na Usalama wa Data",
+      "description": "Ulinzi wa data wa huduma ya afya, kufuata kwa HIPAA, na ulinzi wa faragha",
+      "button": "Soma Zaidi"
+    },
+    "aiAccuracy": {
+      "title": "Mafunzo ya Usahihi wa AI",
+      "description": "Uthibitishaji wa kliniki na vipimo vya utendaji vya mifumo ya uchunguzi wa AI katika mipangilio ya huduma ya afya ya ulimwengu halisi",
+      "button": "Soma Zaidi"
+    },
+    "aiForLaypeople": {
+      "title": "AI kwa Kila mtu",
+      "description": "Kuelewa AI ya huduma ya afya kwa maneno rahisi - hakuna msingi wa kiufundi unaohitajika",
+      "button": "Soma Zaidi"
+    }
+  },
+  "dialogs": {
+    "startWithDefault": "Anza na Mtaalamu wa Afya Carol",
+    "startWithSpecific": "Anza na {{name}}",
+    "longRecording": {},
+    "shortConv": {}
+  },
+  "team": {
+    "myAIHealthTeam": "Timu yangu ya Afya ya AI",
+    "addMembersInstruction": "Ongeza washiriki wa timu kwa kubofya kadi iliyo upande wa kulia.",
+    "maxTeamSizeNote": "Kiwango cha juu cha washauri watano wa AI kinaweza kuongezwa kwa timu yako. Unaweza kubadilisha timu yako wakati wowote, lakini si wakati wa mashauriano.",
+    "starting": "Inaanza...",
+    "startTeamConsult": "Anza Ushauri wa Timu",
+    "startConsultationWithTeam": "Anza Mashauriano na Timu yako"
+  },
+  "newConversation": {
+    "aileenCarolOnly": "Mtaalam wa Afya Carol Pekee",
+    "oneOnOne": "Mmoja-kwa-Mmoja",
+    "consultationChoice": {
+      "question": "Je, ungependa kushauriana na nani leo?"
+    },
+    "options": {
+      "allAdvisers": "Washauri Wangu Wote wa Afya wa AI",
+      "allAdvisersCarolOnly": "Washauri Wangu Wote wa Afya wa AI (Mtaalamu wa AI Carol pekee)",
+      "chooseSpecific": "Chagua Maalum kutoka kwa Orodha Yangu"
+    },
+    "tooltips": {
+      "noAdvisersSelected": "Hakuna washauri waliochaguliwa katika wasifu wako.",
+      "loadingAdvisers": "Inapakia washauri wako...",
+      "noOtherAdvisers": "Hakuna washauri wengine katika orodha yako wa kuchagua kutoka. Ongeza zaidi katika wasifu wako."
+    },
+    "errors": {
+      "loadingAdvisers": "Hitilafu katika kupakia data ya mshauri."
+    },
+    "buttons": {
+      "cancel": "Ghairi",
+      "next": "Inayofuata",
+      "start": "Anza"
+    }
+  },
+  "aiAccuracyWhitepaper": {
+    "section1": {},
+    "section2": {
+      "aiSuccess": {},
+      "aiErrors": {},
+      "aiVsHuman": {}
+    },
+    "section3": {
+      "challenges": {}
+    },
+    "section4": {
+      "guidelines": {}
+    },
+    "section5": {}
+  },
+  "imagingAIExplainer": {
+    "whatIsImaging": {
+      "types": {}
+    },
+    "whatIsAI": {},
+    "howAIHelps": {
+      "accuracy": {},
+      "speed": {},
+      "consistency": {}
+    },
+    "challenges": {},
+    "conclusion": {}
+  },
+  "mentalHealthWhitepaper": {
+    "disclaimer": {},
+    "abstract": {},
+    "introduction": {},
+    "methods": {},
+    "results": {
+      "diagnosticSupport": {},
+      "therapeuticApplications": {},
+      "patientMonitoring": {}
+    },
+    "discussion": {},
+    "conclusion": {}
+  },
+  "audio": {},
+  "autoListening": {},
+  "speech": {},
+  "help": {},
+  "upload": {},
+  "fileUpload": {},
+  "input": {},
+  "send": {},
+  "controls": {
+    "aiSpeaker": "AI Spika",
+    "cameraUpload": "Kamera/Pakia",
+    "status": {
+      "enabled": "Imewashwa",
+      "disabled": "Imezimwa"
+    }
+  },
+  "welcome": {},
+  "account": {},
+  "participants": {},
+  "mobileChat": {},
+  "sidebar": {
+    "differentialOpinion": "Maoni ya Tofauti"
+  },
+  "bioPanel": {},
+  "conversations": {},
+  "mobileConsultations": {},
+  "encyclopedia": {},
+  "imageContext": {},
+  "profile": {},
+  "sidebarHeader": {
+    "plusBadge": "+"
+  },
+  "messages": {},
+  "sidebarFooter": {},
+  "summary": {},
+  "teamBuilder": {
+    "steps": {},
+    "alerts": {},
+    "existingTeam": {},
+    "primaryConcerns": {},
+    "healthConditions": {},
+    "urgencySymptoms": {},
+    "medicinePreferences": {},
+    "additionalInfo": {},
+    "aileenCarolIntro": {},
+    "buttons": {},
+    "dialogs": {}
+  },
+  "aileenCarol": {},
+  "transcript": {},
+  "registerPage": {},
+  "legal": {
+    "eligibility": {},
+    "feesAndPayment": {},
+    "termination": {}
+  },
+  "aboutEncyclopediaPage": {},
+  "loginPage": {},
+  "mobileTeamBuilder": {
+    "carolMessages": {},
+    "questionnaire": {},
+    "title": {},
+    "carolGreeting": {}
+  },
+  "mobileNavigation": {},
+  "mobileWelcome": {},
+  "mobileRouter": {},
+  "mobileInput": {},
+  "mobileProfile": {},
+  "clinicianInfoPage": {},
+  "contactPage": {},
+  "dataPrivacyWhitepaper": {
+    "sections": {},
+    "hero": {},
+    "privacyPledge": {
+      "secureInfo": {},
+      "noPersonalUse": {},
+      "neverSell": {},
+      "anonymizedData": {}
+    },
+    "securityLevels": {
+      "accountSecurity": {},
+      "hipaaHistory": {}
+    },
+    "mindscriptSecurity": {},
+    "hipaaConsiderations": {},
+    "userResponsibility": {},
+    "privacyScenarios": {},
+    "conclusion": {}
+  },
+  "encyclopediaPage": {},
+  "evidencePage": {
+    "researchEvidence": {
+      "radiology": {},
+      "pathology": {},
+      "dermatology": {},
+      "mentalHealthResearch": {}
+    },
+    "wellnessInsights": {
+      "personalizedWellness": {},
+      "holisticSignals": {},
+      "proactiveWellbeing": {},
+      "aiEnhancedClarity": {}
+    }
+  },
+  "featuresPage": {
+    "features": {
+      "instantWellnessInsights": {},
+      "holisticWellnessPicture": {},
+      "diverseAIPerspectives": {},
+      "everEvolvingIntelligence": {}
+    }
+  },
+  "healthAdvisoryPage": {
+    "sections": {
+      "consultation": {
+        "emergency": {}
+      },
+      "technology": {},
+      "disclaimer": {
+        "points": {}
+      }
+    }
+  },
+  "medicalImageProcessingPage": {},
+  "mentalHealthInfoPage": {},
+  "nurseInfoPage": {},
+  "patientInfoPage": {},
+  "pharmacistInfoPage": {},
+  "physicianInfoPage": {},
+  "wellnessPathwaysPage": {},
+  "whyVirtualMD": {
+    "sections": {
+      "whyUs": {
+        "points": {
+          "personalTeam": {},
+          "aiNavigator": {},
+          "empoweringChoices": {},
+          "easyToUse": {},
+          "advancedTechnology": {}
+        }
+      },
+      "hero": {},
+      "features": {
+        "points": {
+          "dynamicEnsemble": {},
+          "holisticUnderstanding": {},
+          "rapidAccess": {},
+          "reliableInteractions": {},
+          "insightfulLogs": {}
+        }
+      },
+      "technology": {},
+      "cta": {}
+    }
+  },
+  "yourHealthInYourHandsPage": {
+    "sections": {
+      "uniqueProfile": {},
+      "personalizedGoals": {},
+      "diverseInsights": {},
+      "proactivePartner": {}
+    },
+    "callToAction": {}
+  },
+  "session_complete": "Kikao Kimekamilika",
+  "your_free_trial_has_ended": "Jaribio Lako La Bila Malipo Limekwisha",
+  "united_kingdom:_dial_999_or_11": "Uingereza: Piga 999 au 112",
+  "melanoma_and_skin_cancer_detec": "Utambuzi wa Melanoma na Saratani ya Ngozi",
+  "process_transactions_and_send_": "Mchakato wa malipo na utume maelezo yanayohusiana, ikijumuisha uthibitishaji na ankara (ikiwa inatumika).",
+  "information_we_collect": "Habari Tunazokusanya",
+  "in_a_medical_emergency:": "Katika dharura ya matibabu:",
+  "in_response_to_legal_process:": "Katika majibu ya mchakato wa kisheria:",
+  "loading_chat": "Inapakia gumzo...",
+  "redirecting": "Inaelekeza...",
+  "israel:_dial_101_(magen_david_": "Israeli: Piga 101 ()",
+  "unlimited_messages_with_ai_doc": "Ujumbe usio na kikomo na wataalam wa afya wa AI",
+  "contact_information": "Maelezo ya Mawasiliano",
+  "real-world_implementation_and_": "Utekelezaji Halisi wa Ulimwenguni na Maombi ya Simu",
+  "your_access_to_or_use_of_or_in": "UPATIKANAJI WAKO WA AU MATUMIZI YA AU KUTOWEZA KUPATA AU KUTUMIA HUDUMA;",
+  "your_computer_may_temporarily_": "Kompyuta yako inaweza kuhifadhi kwa muda nakala za nyenzo kama hizo kwenye RAM kulingana na ufikiaji wako na kutazama nyenzo hizo.",
+  "please_select_only_one_special": "Tafadhali chagua mtaalamu mmoja tu kwa mashauriano ya kibinafsi.",
+  "references": "Marejeleo",
+  "business_transfers:": "Uhamisho wa Biashara:",
+  "account_information:": "Maelezo ya Akaunti:",
+  "provide,_operate,_maintain,_an": "Kutoa, kuendesha, kudumisha na kuboresha Huduma.",
+  "assignment": "Mgawo",
+  "sandymiles@mindspringhealth": "sandymiles@mindspring.afya",
+  "ai-generated_content_may_conta": "Maudhui yanayotokana na AI yanaweza kuwa na hitilafu au yaliyoachwa licha ya michakato yetu thabiti ya uthibitishaji",
+  "display_name": "Jina la Kuonyesha",
+  "any_content_obtained_from_the_": "MAUDHUI YOYOTE YANAYOPATIKANA KATIKA HUDUMA; AU",
+  "you_may_store_files_that_are_a": "Unaweza kuhifadhi faili ambazo zimehifadhiwa kiotomatiki na kivinjari chako cha Wavuti kwa madhumuni ya uboreshaji wa onyesho.",
+  "start_new_health_consultation": "Anza Ushauri Mpya wa Afya",
+  "entire_agreement": "Mkataba Mzima",
+  "ophthalmology": "Ophthalmology",
+  "not": "HAPANA",
+  "exit_conversation?": "Ungependa Kufunga Mazungumzo?",
+  "grading_and_classification": "Upangaji na Uainishaji",
+  "unauthorized_access,_use,_or_a": "UPATIKANAJI, MATUMIZI, AU KUBADILISHWA KWA USIMAMIZI AU MAUDHUI YAKO (Ikiwa ni pamoja na UKIUKAJI WA DATA), HATA IKIWA MAANDIKO IMETEKELEZA HATUA ZINAZO BUSARA ZA USALAMA, JINSI ILIVYOTAJWA KATIKA MASHARTI HAYA NA SERA YA FARAGHA.",
+  "checking_server_status": "Inakagua hali ya seva...",
+  "not_a_hipaa-compliant_service": "SI HUDUMA INAYOFUATA HIPAA",
+  "radiology": "Radiolojia",
+  "united_states:_dial_911": "Marekani: Piga 911",
+  "save_and_review_conversation_h": "Hifadhi na kagua historia ya mazungumzo",
+  "abstract": "Muhtasari",
+  "starting_your_consultation": "Inaanza mashauriano yako...",
+  "digital_pathology_overview": "Muhtasari wa Patholojia ya Dijiti",
+  "reasonable_business_security_p": "mazoea ya kuridhisha ya usalama wa biashara ndani ya Marekani",
+  "loading_transcript": "Inapakia manukuu...",
+  "cookies_and_similar_technologi": "Vidakuzi na Teknolojia Sawa:",
+  "internal_medicine": "Ustawi wa Ndani",
+  "no_specialists_currently_in_th": "Hakuna wataalamu katika gumzo hili kwa sasa.",
+  "discussion": "Majadiliano",
+  "updating_team": "Inasasisha timu...",
+  "your_privacy_choices": "Chaguo Zako za Faragha",
+  "error:_unknown_active_chat_vie": "Hitilafu: Mwonekano amilifu wa gumzo usiojulikana.",
+  "create_more_than_one_account_f": "Jiundie zaidi ya akaunti moja.",
+  "improve_the_accuracy,_efficacy": "Boresha usahihi, ufanisi na usalama wa miundo yetu ya AI na vipengele vya jukwaa kwa kutumia data iliyojumlishwa na iliyojumlishwa.",
+  "user_content:": "Maudhui ya Mtumiaji:",
+  "mindscript_does_not_provide_me": "MindScript haitoi uchunguzi wa kimatibabu au matibabu",
+  "communicate_with_you_about_pro": "Wasiliana nawe kuhusu bidhaa, huduma, ofa, ofa, zawadi na matukio yanayotolewa na MindScript na wengine, na utoe habari na maelezo tunayofikiri yatakuvutia (kulingana na haki zako za kuondoka).",
+  "aggregated_or_de-identified_da": "Data Iliyojumlishwa au Isiyotambulika:",
+  "canada:_dial_911": "Kanada: Piga 911",
+  "retry": "Jaribu tena",
+  "other_locations:_contact_your_": "Maeneo mengine: Wasiliana na huduma za dharura za karibu nawe mara moja",
+  "ron_rubin,_phd_and_sandy_miles": "Ron Rubin, PhD na Sandy Miles",
+  "australia:_dial_000_or_112": "Australia: Piga 000 au 112",
+  "data_deletion:": "Ufutaji wa Data:",
+  "we_do_not_guarantee_the_absolu": "HATUHAKIKISHI USALAMA KABISA WA HABARI YAKO",
+  "send_technical_notices,_update": "Tuma arifa za kiufundi, masasisho, arifa za usalama, na usaidizi na ujumbe wa usimamizi.",
+  "consultation_summary": "Muhtasari wa Ushauri",
+  "waiver": "Msamaha",
+  "access_to_all_medical_specialt": "Upatikanaji wa taaluma zote za afya",
+  "no_profile_data_available": "Hakuna data ya wasifu inayopatikana.",
+  "no_summary_available": "Hakuna muhtasari unaopatikana.",
+  "test_app_-_mindscript": "Programu ya Jaribio - MindScript",
+  "respond_to_your_comments,_ques": "Jibu maoni, maswali na maombi yako na utoe huduma kwa wateja.",
+  "not_hipaa_compliant": "SI HIPAA inavyotakikana",
+  "force_majeure": "Nguvu Majeure",
+  "you_may_print_or_download_one_": "Unaweza kuchapisha au kupakua nakala moja ya idadi inayofaa ya kurasa za Tovuti kwa matumizi yako binafsi ya habari, yasiyo ya kibiashara na si kwa ajili ya kuzaliana zaidi, kuchapishwa au kusambaza.",
+  "dr_aileen_carol": "Mtaalam wa Afya Aileen Carol",
+  "family_medicine": "Ustawi wa Familia",
+  "headings": "Vichwa",
+  "note_on_ai_aileencarol's_particip": "Kumbuka kuhusu Ushiriki wa Mtaalam wa Afya wa AI Carol:",
+  "ronrubin@mindscripthealth": "ronrubin@virtualmd.app",
+  "share_your_account_credentials": "Shiriki kitambulisho cha akaunti yako au uwaruhusu wengine kufikia akaunti yako (isipokuwa kama inavyoruhusiwa wazi kwa akaunti za shirika).",
+  "email_cannot_be_changed": "Barua pepe haiwezi kubadilishwa.",
+  "your_unique_medical_history,_c": "Historia yako ya kipekee ya afya, hali, na hali zinahitaji tathmini ya kitaalamu",
+  "changes_to_these_terms_and_pol": "Mabadiliko ya Sheria na Masharti na Sera Haya",
+  "other_ai_specialists": "Wataalamu wengine wa AI",
+  "full_name": "Jina Kamili",
+  "governing_law_and_dispute_reso": "Sheria ya Utawala na Utatuzi wa Migogoro",
+  "loading…": "Inapakia...",
+  "personalized_health_insights": "Maarifa ya kibinafsi ya afya",
+  "gastroenterology": "Gastroenterology",
+  "use_of_the_service_by_children": "Matumizi ya Huduma kwa watoto ni marufuku.",
+  "introduction": "Utangulizi",
+  "use_another_user's_account_wit": "Tumia akaunti ya mtumiaji mwingine bila ruhusa.",
+  "if_you_can_see_this,_react_is_": "Ikiwa unaweza kuona hii, React inafanya kazi!",
+  "ronrubin@mindspringhealth": "ronrubin@mindspring.afya",
+  "children's_privacy": "Faragha ya Watoto",
+  "provide_false_or_misleading_in": "Toa maelezo ya uwongo au ya kupotosha wakati wa usajili au katika wasifu wa akaunti yako.",
+  "talk_to_a_specialist": "Zungumza na Mtaalamu",
+  "cannot": "HAWEZI",
+  "how_we_use_information": "Jinsi Tunavyotumia Taarifa",
+  "results": "Matokeo",
+  "loading_participants": "Inapakia washiriki...",
+  "sandymiles@mindscripthealth": "sandymiles@virtualmd.app",
+  "this_feature_is_coming_soon": "Kipengele hiki kinakuja hivi karibuni!",
+  "start_or_continue_conversation": "Anza au Endelea na Mazungumzo",
+  "international_data_transfers": "Uhamisho wa Data wa Kimataifa",
+  "loading_bio": "Inapakia wasifu...",
+  "termination": "Kukomesha",
+  "no_image_active": "Hakuna picha inayotumika.",
+  "no_ai_health_advisers_selected": "Hakuna Washauri wa Afya wa AI waliochaguliwa. Unaweza kudhibiti washauri wako katika wasifu wako.",
+  "dr_daniel_garcia": "Mtaalam wa Afya Daniel Garcia",
+  "no_other_specialists_available": "Hakuna wataalamu wengine wanaopatikana wa kuongeza.",
+  "carry_out_any_other_purpose_de": "Tekeleza madhumuni mengine yoyote uliyoelezea wakati maelezo yanakusanywa.",
+  "data_retention": "Uhifadhi wa Data",
+  "informational_and_educational_": "MADHUMUNI YA HABARI NA KIELIMU TU",
+  "miscellaneous": "Mbalimbali",
+  "non-cancerous_skin_condition_c": "Uainishaji wa Hali ya Ngozi Isiyo na Saratani",
+  "pathology": "Patholojia",
+  "promotional_communications:": "Mawasiliano ya Matangazo:",
+  "info@mindscripthealth": "info@virtualmd.app",
+  "methods/technologies": "Mbinu/Teknolojia",
+  "how_we_share_information": "Jinsi Tunavyoshiriki Habari",
+  "loading_profile": "Inapakia wasifu...",
+  "personalize_and_improve_the_se": "Binafsisha na uboresha Huduma na utoe maudhui au vipengele vinavyolingana na wasifu au maslahi ya mtumiaji.",
+  "with_vendors_and_service_provi": "Na Wachuuzi na Watoa Huduma:",
+  "health_information_may_become_": "Taarifa za afya zinaweza kupitwa na wakati kadri maarifa ya afya yanavyoendelea",
+  "with_whom_would_you_like_to_co": "Je, ungependa kushauriana na nani leo?",
+  "mindscript_content:": "Maudhui ya MindScript:",
+  "cookies:": "Vidakuzi:",
+  "detect,_investigate,_and_preve": "Gundua, chunguza na uzuie miamala ya ulaghai na shughuli zingine haramu na ulinde haki na mali ya MindScript na zingine.",
+  "medical_advice_requires_person": "Ushauri wa afya unahitaji tathmini ya kibinafsi na watoa huduma za afya walio na leseni",
+  "create_an_account_for_anyone_o": "Fungua akaunti kwa mtu mwingine yeyote isipokuwa wewe mwenyewe bila ruhusa.",
+  "options": "Chaguo",
+  "cannot_and_will_not_sue_or_hol": "HAIWEZI NA HAITASHITAKI AU KUSHIKILIA TEKNOLOJIA YA AKILI, LLC, WASHIRIKA WAKE, MAAFISA, WAKURUGENZI, WAFANYAKAZI, MAWAKALA, AU WATOA LESENI.",
+  "with_your_consent:": "Kwa Idhini Yako:",
+  "add_specialists_to_your_team": "ongeza wataalamu kwenye timu yako",
+  "usage_information:": "Taarifa ya Matumizi:",
+  "any_conduct_or_content_of_any_": "MWENENDO AU MAUDHUI YOYOTE YA WATU WOWOTE WA TATU KWENYE HUDUMA, PAMOJA NA BILA KIKOMO, KUKASHIFU, KUKOSEA, AU MWENENDO HARAMU WA WATUMIAJI WENGINE AU WATU WA TATU;",
+  "do_not_meet_the_specific_admin": "haikidhi mahitaji mahususi ya kiutawala, kimwili, na kiufundi ya ulinzi yaliyoidhinishwa na Kanuni ya Usalama ya HIPAA ya kushughulikia PHI.",
+  "legal@mindscripthealth": "legal@virtualmd.app",
+  "cancel": "Ghairi",
+  "conclusion": "Hitimisho",
+  "professional_health_insights_a": "Maarifa ya kitaalamu ya afya na mwongozo",
+  "cancer_detection": "Utambuzi wa Saratani",
+  "your_specialist_team_is_empty_": "Timu yako ya wataalamu haina kitu. Ongeza wataalamu hapa chini.",
+  "workflow_optimization": "Uboreshaji wa mtiririko wa kazi",
+  "select_ai_specialists": "Chagua Wataalamu wa AI",
+  "monitor_and_analyze_trends,_us": "Fuatilia na uchanganue mienendo, matumizi, na shughuli zinazohusiana na Huduma yetu.",
+  "severability": "Upungufu",
+  "access_to_cardiology_and_neuro": "Upatikanaji wa wataalam wa magonjwa ya moyo na mishipa",
+  "searchLanguages": "Tafuta lugha...",
+  "noLanguagesFound": "Hakuna lugha zilizopatikana",
+  "you": "Wewe",
+  "manageTeam": {
+    "title": "Dhibiti Timu Yangu ya Afya ya AI (Max {{maxTeamMembers}} Wataalamu)",
+    "currentTeamCount": "Timu yako ya Sasa ({{current}}/{{max}})",
+    "updatingTeam": "Inasasisha timu...",
+    "coordinatorLabel": " (Mratibu)",
+    "alwaysIncluded": "Imejumuishwa kila wakati",
+    "specialistFallback": "Mtaalamu",
+    "emptyTeamMessage": "Timu yako ya wataalamu haina kitu. Ongeza wataalamu hapa chini.",
+    "teamFullMessage": "Timu yako imejaa (Max {{maxTeamMembers}} wataalam). Tafadhali ondoa mwanachama ikiwa ungependa kuongeza mtaalamu tofauti.",
+    "otherSpecialistsTitle": "Wataalamu wengine wa AI",
+    "addToTeamTooltip": "Ongeza kwa timu",
+    "teamFullTooltip": "Timu imejaa",
+    "systemSpecialistFallback": "Mtaalamu wa Mfumo",
+    "noSpecialistsAvailable": "Hakuna wataalamu wengine wanaopatikana wa kuongeza."
+  },
+  "personas": {
+    "defaultSpecialist": "Mtaalamu wa AI"
+  },
+  "personaList": {
+    "noSpecialistsFound": "Hakuna wataalamu wa AI waliopatikana."
+  },
+  "guest": {
+    "user": "Mtumiaji Mgeni",
+    "userObject": {
+      "displayName": "Mtumiaji Mgeni",
+      "email": "guest@virtualmd.app"
+    },
+    "registration": {
+      "prompt": "Jisajili ili upate ufikiaji kamili kwa timu yetu kamili ya afya ya AI, historia ya mazungumzo na vipengele vya kina.",
+      "dialogTitle": "Watumiaji waliosajiliwa wanaweza kufikia {{specialistName}}",
+      "dialogDescription": "{{specialistName}} ni sehemu ya timu yetu ya kina ya afya pepe.",
+      "benefitsTitle": "Ukiwa na akaunti ya VirtualMD.app, utapata:",
+      "benefits": {
+        "access": "Upatikanaji wa zaidi ya washauri 60 maalum wa afya wa AI",
+        "personalized": "Mashauriano ya afya ya kibinafsi",
+        "saveConversations": "Hifadhi na uendelee mazungumzo",
+        "uploadImages": "Pakia picha au uzichukue moja kwa moja kutoka kwa kompyuta/kamera yako",
+        "customTeam": "Unda timu yako maalum ya afya",
+        "availability": "Upatikanaji wa 24/7 kwa maswali ya afya"
+      },
+      "buttons": {
+        "maybeLater": "Labda Baadaye",
+        "registerNow": "Jisajili Sasa"
+      }
+    },
+    "registrationRequired": "Usajili unahitajika",
+    "profileRegistrationRequired": "Wasifu wa mtumiaji: usajili unahitajika",
+    "landing": {
+      "title": "Pata Ushauri wa Afya wa AI",
+      "subtitle": "Pata maarifa ya afya papo hapo kutoka kwa wataalamu wetu wa afya wa AI - bila malipo kabisa, hakuna usajili unaohitajika",
+      "whatBringsYou": "Nini kinakuleta hapa leo?",
+      "selectConcern": "Chagua jambo la kawaida au ueleze yako mwenyewe",
+      "customConcernPlaceholder": "Au elezea wasiwasi wako wa afya kwa maneno yako mwenyewe ...",
+      "startConsultation": "Anza Ushauri Bila Malipo",
+      "experienceIncludes": "Uzoefu Bila Malipo wa Wageni ni pamoja na:",
+      "includes": {
+        "messages": "Ujumbe 10 na wataalamu wa afya wa AI",
+        "time": "Dakika 15 za muda wa mashauriano",
+        "insights": "Maarifa ya kitaalamu ya afya na mwongozo"
+      },
+      "personas": {
+        "defaultSpecialist": "Mtaalamu wa AI",
+        "aileen": {
+          "name": "Mtaalam wa Afya Aileen Carol",
+          "specialty": "Ustawi wa Familia"
+        },
+        "daniel": {
+          "name": "Mtaalam wa Afya Daniel Garcia",
+          "specialty": "Ustawi wa Ndani"
+        }
+      }
+    },
+    "chat": {
+      "header": "Ushauri wa Afya wa AI",
+      "messagesLeft": "Ujumbe {{count}} umesalia",
+      "timeLeft": "{{time}} zimesalia",
+      "startingConsultation": "Ushauri wako unaanza. Mtaalamu wa afya wa AI atajibu hivi karibuni.",
+      "aiTyping": "Mtaalamu wa AI anaandika...",
+      "inputPlaceholder": "Eleza dalili zako au uliza swali..."
+    },
+    "expired": {
+      "title": "Ushauri Umekamilika",
+      "subtitle": "Umepitia uwezo wa mashauriano ya afya ya AI",
+      "messagesUsed": "Umetumia ujumbe {{used}} kati ya {{max}}",
+      "continuePrompt": "Je, ungependa kuendelea na ufikiaji usio na kikomo?",
+      "createAccount": "Unda Akaunti Bila Malipo",
+      "signIn": "Ingia"
+    },
+    "errors": {
+      "startFailed": "Imeshindwa kuanza mashauriano. Tafadhali jaribu tena.",
+      "connectionLost": "Muunganisho umepotea. Tafadhali onyesha upya ukurasa.",
+      "sendFailed": "Imeshindwa kutuma ujumbe. Tafadhali jaribu tena."
+    },
+    "profile": {
+      "age": "25",
+      "gender": "Mwanamke",
+      "bloodType": "A+",
+      "height": "5'6\"",
+      "weight": "Pauni 130",
+      "conditions": "Anemia ya upungufu wa chuma, unyogovu wa wastani",
+      "medications": "Ferrous sulfate 325mg kila siku, Sertraline 50mg kila siku",
+      "allergies": "Hakuna anayejulikana",
+      "healthInfo": "Nimekuwa nikikabiliana na uchovu na nishati kidogo kwa miezi 6 iliyopita. Mtaalamu wangu wa afya alinigundua nina upungufu wa anemia ya chuma na nimekuwa nikichukua virutubisho vya chuma. Pia ninapambana na unyogovu na nilianza dawamfadhaiko miezi 3 iliyopita. Natafuta ushauri kuhusu kudhibiti hali zote mbili na kuboresha viwango vyangu vya nishati kwa ujumla.",
+      "emergencyContact": "Sarah Johnson (Dada) - (555) 123-4567"
+    },
+    "experience": {
+      "tryItOut": "Ijaribu.",
+      "noObligation": "Hakuna wajibu.",
+      "subtitle": "Uchambuzi tu wa kile VirtualMD.app inaweza kukufanyia."
+    }
+  },
+  "aiPrefix": "AI",
+  "dashboard": "Dashibodi",
+  "teamRecommendation": {
+    "submission": {
+      "primaryConcernsLabel": "Je, matatizo yako ya kimsingi ya kiafya ni yapi leo?",
+      "healthConditionsLabel": "Ni hali gani za kiafya zinazohusika kwako?"
+    },
+    "defaults": {
+      "noneSpecified": "Hakuna iliyobainishwa"
+    }
+  }
+}

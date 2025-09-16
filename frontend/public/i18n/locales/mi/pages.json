@@ -1,0 +1,1397 @@
+{
+  "chatPage": {
+    "title": "VirtualMD.app Kōrerorero",
+    "welcomeMessage": "Nau mai ki to korero hauora whaiaro",
+    "startConversation": "Tīmata Kōrero Hou",
+    "selectPersona": "Kōwhiria To Ngaio Hauora",
+    "typeMessage": "Patohia to karere ki konei...",
+    "send": "Tukua",
+    "thinking": "Ka whakaaro...",
+    "error": "Kua he tetahi. Me ngana ano.",
+    "retry": "Ngana ano",
+    "clear": "Mārama Kōrerorero",
+    "save": "Tiakina te Korero",
+    "export": "Kaweake Kōrerorero",
+    "settings": "Tautuhinga Kōrerorero"
+  },
+  "loginPage": {
+    "home": "Kainga",
+    "title": "Waitohu ki VirtualMD.app",
+    "subtitle": "Uru atu ki o whiriwhiringa hauora whaiaro",
+    "email": "Wāhitau Īmēra",
+    "password": "Kupuhipa",
+    "signIn": "Waitohu mai",
+    "forgotPassword": "Wareware Kupuhipa?",
+    "noAccount": "Karekau he kaute?",
+    "signUp": "Waitohu",
+    "or": "ranei",
+    "signInWithGoogle": "Waitohu me Google",
+    "signInWithFacebook": "Waitohu ma Facebook",
+    "rememberMe": "Kia mahara ki ahau",
+    "emailRequired": "Kei te hiahiatia te imeera",
+    "passwordRequired": "Kei te hiahiatia te kupuhipa",
+    "invalidEmail": "Whakaurua koa he wahitau imeera whaimana",
+    "signInError": "Imeera muhu, kupuhipa ranei",
+    "signInSuccess": "Nau mai hoki mai!"
+  },
+  "registerPage": {
+    "title": "Waihangahia to Kaute VirtualMD.app",
+    "subtitle": "Hono atu ki nga mano o nga kaiwhakamahi e whiwhi ana i nga aratohu hauora whaiaro",
+    "firstName": "Ingoa Tuatahi",
+    "lastName": "Ingoa Whakamutunga",
+    "email": "Wāhitau Īmēra",
+    "password": "Kupuhipa",
+    "confirmPassword": "Whakaū Kupuhipa",
+    "signUp": "Waihanga Pūkete",
+    "hasAccount": "He pūkete kē?",
+    "signIn": "Waitohu mai",
+    "or": "ranei",
+    "signUpWithGoogle": "Waitohu ki a Google",
+    "signUpWithFacebook": "Waitohu ki Facebook",
+    "agreeToTerms": "E whakaae ana ahau ki nga Ture o te Ratonga me te Kaupapahere Whaiaro",
+    "firstNameRequired": "Ko te ingoa tuatahi e hiahiatia ana",
+    "lastNameRequired": "Ko te ingoa whakamutunga e hiahiatia ana",
+    "emailRequired": "Kei te hiahiatia te imeera",
+    "passwordRequired": "Kei te hiahiatia te kupuhipa",
+    "passwordMinLength": "Me 8 te iti rawa o te kupuhipa",
+    "passwordsDoNotMatch": "Karekau nga kupuhipa e taurite",
+    "invalidEmail": "Whakaurua koa he wahitau imeera whaimana",
+    "termsRequired": "Me whakaae koe ki nga tikanga me nga tikanga",
+    "signUpError": "I rahua te hanga pūkete. Me ngana ano.",
+    "signUpSuccess": "I angitu te hanga pūkete! Nau mai ki VirtualMD.app!",
+    "passwordHelperText": "Kia 6 neke atu nga tohu, tae atu ki nga reta, nga nama, me tetahi o @#$%^&*()! Kaore he waahi.",
+    "passwordNeedsLetter": "Me whakauru te kupuhipa kia kotahi te reta.",
+    "passwordNeedsNumber": "Me whakauru te kupuhipa kia kotahi te tau.",
+    "passwordNeedsSpecial": "Me whakauru te kupuhipa kia kotahi neke atu te ahua motuhake: !@#$%^&*()",
+    "passwordNoSpaces": "Kaore e taea e te kupuhipa te whakauru mokowā.",
+    "agreeToTermsModal": "Hei Rehita, me whakaae koe ki nga Ture me nga Tikanga. Paatohia te hononga Ture me nga Tikanga i konei.",
+    "agreeToTermsLabel": "E whakaae ana ahau ki te",
+    "termsAndConditions": "Nga Ture me nga Tikanga",
+    "register": "Rehita",
+    "alreadyHaveAccount": "He pūkete kē?",
+    "login": "Takiuru",
+    "home": "Kainga",
+    "emailInUseError": "Kua rēhita kētia tēnei wāhitau īmēra. Ngana ki te takiuru ki te whakamahi i tetahi imeera rereke ranei.",
+    "iAgree": "E whakaae ana ahau",
+    "unexpectedError": "He hapa ohorere i puta i te rehitatanga. Me ngana ano.",
+    "mustAgreeToTerms": "Me whakaae koe ki nga Ture me nga Tikanga ki te rehita."
+  },
+  "contactPage": {
+    "title": "Whakapā VirtualMD.app",
+    "subtitle": "Whakapa atu ki to taatau roopu",
+    "description": "He patai mo o maatau korero mo te hauora AI-powered? Kei konei matou ki te awhina.",
+    "name": "Ingoa Katoa",
+    "email": "Wāhitau Īmēra",
+    "subject": "Kaupapa",
+    "message": "Karere",
+    "send": "Tuku Karere",
+    "sending": "Tuku ana...",
+    "nameRequired": "Kei te hiahiatia te ingoa",
+    "emailRequired": "Kei te hiahiatia te imeera",
+    "subjectRequired": "Ka hiahiatia te kaupapa",
+    "messageRequired": "Kei te hiahiatia te karere",
+    "invalidEmail": "Whakaurua koa he wahitau imeera whaimana",
+    "sendError": "I rahua te tuku karere. Me ngana ano.",
+    "sendSuccess": "I tutuki pai te tuku karere! Ka hoki mai ano matou ki a koe.",
+    "errorMessage": "I puta he hapa. Me ngana ano i muri mai.",
+    "contactInfo": {
+      "title": "Nga korero Whakapā",
+      "address": "123 Tiriti Hauora, Takiwa Ora, Taone, State 12345",
+      "phone": "+1 (555) 123-4567",
+      "email": "info@virtualmd.app",
+      "hours": "Mane - Paraire: 9:00 AM - 6:00 PM PST"
+    },
+    "contactUs": "Whakapā mai",
+    "contactDescription": "He patai, he urupare ranei? Ka pai matou ki te whakarongo mai i a koe. Whakamahia koa te puka kei raro nei.",
+    "directEmail": "Mo te imeera tika, whakapaa mai ki a matou i",
+    "yourEmail": "Tō Wāhitau Īmēra",
+    "sendMessage": "Tuku Karere",
+    "messageSent": "Kua Tukua te Karere!",
+    "home": "Kainga",
+    "contactError": "I puta he hapa i te wa e tuku ana i to karere. Tena koa ngana ano i muri mai ranei",
+    "contactDirectly": "Ka taea hoki e koe te imeera tika ki a maatau info@virtualmd.app"
+  },
+  "researchPage": {
+    "title": "Rangahau & Whakaputa",
+    "subtitle": "Tirohia te putaiao kei muri i a maatau rongoatanga hauora a AI",
+    "description": "I hangaia to maatau papa i runga i nga rangahau me nga taunakitanga haumanu.",
+    "sections": {
+      "publications": "Nga whakaputanga",
+      "clinicalStudies": "Akoranga Haumanu",
+      "whitepapers": "Nga pepa ma",
+      "partnerships": "Nga hononga rangahau"
+    },
+    "healthAdvisory": {
+      "title": "Tohutohu Hauora",
+      "description": "Nga korero nui mo te whakamahi AI i roto i nga mahi hauora me te wa ki te korero ki nga kaiwhakarato hauora tangata.",
+      "button": "Pānuihia te Tohutohu Hauora"
+    },
+    "imagingAI": {
+      "title": "Atahanga AI Awhina",
+      "description": "Torotoro i ta maatau pepa maamaa mo te atahanga rongoa awhina a AI me ona paanga ki te tiaki hauora.",
+      "button": "Panui Pepa Ma"
+    },
+    "pathologyAI": {
+      "title": "Pathology AI awhina",
+      "description": "Torotoro i ta maatau pepa maamaa mo te pathology awhina a AI me ona tono ki te rapu mate pukupuku.",
+      "button": "Panui Pepa Ma"
+    },
+    "dermatologyAI": {
+      "title": "Awhina AI Dermatology",
+      "description": "Ko ta maatau rangahau mo nga tono AI i roto i te dermatology mo te kitenga o te kiri me te whakarōpūtanga.",
+      "button": "Panui Pepa Ma"
+    },
+    "mentalHealthAI": {
+      "title": "Hauora Hinengaro AI Insights",
+      "description": "Te ruku hohonu ki te mahi a AI ki te ahu whakamua i nga mahi hauora hinengaro, nga mahi tātari, me nga tono rongoa.",
+      "button": "Panui Pepa Ma"
+    },
+    "dataPrivacy": {
+      "title": "Raraunga Raraunga Ruku Hohonu",
+      "description": "He arotake matawhānui o ā mātou tikanga whakahaere raraunga, ine haumaru, me ngā whakaaro mō te HIPAA.",
+      "button": "Panui Pepa Ma"
+    },
+    "aiAccuracy": {
+      "title": "Tikanga Tikanga AI",
+      "description": "Akohia a maatau rangahau mo te tika o AI i roto i nga tohu rongoa me nga tohutohu maimoatanga.",
+      "button": "Tiro Akoranga"
+    },
+    "aiForLaypeople": {
+      "title": "AI Atahanga mo nga Reimana",
+      "description": "He whakamarama ngawari mo te whakarereke a AI i nga whakaahua rongoa me te tikanga mo nga turoro.",
+      "button": "Panui Whakamaramatanga"
+    }
+  },
+  "evidencePage": {
+    "title": "Nga taunakitanga haumanu",
+    "subtitle": "Ko nga rangahau arotake-a-hoa e tautoko ana i to maatau turanga hauora AI",
+    "description": "Ko te rongoa i runga i nga taunakitanga kei te kaupapa o nga mea katoa e mahia ana e matou.",
+    "heading": "Pioneering the Future of Health & Wellness",
+    "description2": "Ko VirtualMD.app te hurihanga i roto i te hauora me te oranga, i ahu mai i roto i nga rangahau hou me te akiakihia e te hiahia mo te oranga oranga. Ka whakaatuhia e matou te mana o AI i te wa e hanga ana i nga huarahi hou mo te oranga whaiaro, te oranga. He nui ake tenei i te taupānga; he tauira hou. Me whai waahi ki te hurihanga.",
+    "researchHeading": "Rangahau Taketake: Nga Whakaaetanga Whakamatau a AI",
+    "wellnessHeading": "The Wellness Revolution: Your Way to Next-Generation Well-being",
+    "researchEvidence": {
+      "radiology": {
+        "title": "AI i roto i te Irirangi: Whakanuia te Rapu",
+        "description": "Ko nga tauira AI i eke ki te 92% te tika ki te kite i nga mea rereke i roto i nga hihi-X pouaka, e whakaatu ana i te kaha ki te whakapai ake i te tere tātaritanga me te tika.",
+        "citation": "Journal of Radiology, 2023",
+        "explainSimply": "Whakamaramahia tenei",
+        "tooltip": "Paatohia he hononga e whakamarama ana i tenei tuhinga i roto i nga tikanga reimana."
+      },
+      "pathology": {
+        "title": "AI i roto i te Pathology: Whakapai ake i te Tika",
+        "description": "Ko te tātaritanga awhina a AI i pai ake te kitenga o te kiko kino ma te 15% i roto i nga kiriata pathology ka whakaritea ki te arotake a-ringa anake.",
+        "citation": "American Journal of Pathology, 2022"
+      },
+      "dermatology": {
+        "title": "AI i roto i te Dermatology: Mahinga Taumata Tohunga",
+        "description": "I roto i te rangahau matapo nui, i tautuhi tika a AI i te 95% o nga keehi mate pukupuku kiri mai i nga whakaahua, e rite ana ki nga mahi a nga tohunga tohunga kiri.",
+        "citation": "JAMA Dermatology, 2022"
+      },
+      "mentalHealthResearch": {
+        "title": "AI i roto i te Hauora Hinengaro: Rangahau Rapu Moata",
+        "description": "Ko nga rangahau e whakaatu ana i nga punaha AI e kite ana i nga tohu whakatupato moata mo te hokinga mai o te hauora hinengaro, e taea ai te wawaotanga me te tautoko i te waa.",
+        "citation": "JAMA Hinengaro, 2021"
+      }
+    },
+    "wellnessInsights": {
+      "personalizedWellness": {
+        "title": "Mahere Waiora Whaiaro Whakawhaiaro AI-Powered",
+        "description": "Tirohia me pehea e awhina ai to maatau AI ki te mahi i nga haerenga oranga kia rite ki o whainga takitahi me to oranga oranga, neke atu i tua atu i te kotahi-rahi-katoa."
+      },
+      "holisticSignals": {
+        "title": "Te Maramatanga ki nga Tohu Motuhake o To Tinana me AI",
+        "description": "Akohia me pehea te awhina a VirtualMD.app ki a koe ki te whakamaori i nga tauira maamaa mai i to oranga o ia ra ki te whakatipu hononga hohonu me to oranga."
+      },
+      "proactiveWellbeing": {
+        "title": "The Future: Proactive & Predictive Well-being",
+        "description": "Torotoro me pehea e whakamahia ai e to maatau papa nga tirohanga whakamua hei awhina i a koe ki te tatari mo nga hiahia me te whakakaha ake i to oranga me to kaha."
+      },
+      "aiEnhancedClarity": {
+        "title": "AI mo te Whakanuia te Whakanuia me te Maramatanga Hinengaro",
+        "description": "Tirohia me pehea te tuku taputapu me nga tirohanga a VirtualMD.app hei tautoko i te aronga hinengaro, te taurite kare-a-roto, me te oranga hinengaro katoa."
+      }
+    }
+  },
+  "featuresPage": {
+    "title": "Āhuatanga Pūhara",
+    "subtitle": "Nga taputapu korero mo te hauora e kaha ana a AI",
+    "description": "Tirohia nga ahuatanga katoa e hanga ahurei ana a VirtualMD.app.",
+    "heading": "Tirohia To Tatou Ara Hurihuri",
+    "features": {
+      "instantWellnessInsights": {
+        "title": "Nga Maramatanga Ora Inamata",
+        "description": "Tikina nga urupare me te maaramatanga mo o patai oranga, i nga wa e hiahia ana koe."
+      },
+      "holisticWellnessPicture": {
+        "title": "Pikitia Hauora Holistic",
+        "description": "Ka whakaarohia e to maatau AI nga waahanga katoa o to whakauru - tuhinga, whakaahua o to ahunga whakamua tinana, tuhinga tuhinga hautaka oranga - mo te tirohanga katoa."
+      },
+      "diverseAIPerspectives": {
+        "title": "Nga Tirohanga AI Kanorau",
+        "description": "Ka whai hua mai i te whānuitanga o nga tohunga hauora AI, ka whakawhiwhia e ia tangata nga tirohanga ahurei mo te maaramatanga pai."
+      },
+      "everEvolvingIntelligence": {
+        "title": "Maramatanga Puawai tonu",
+        "description": "Ka ako tonu to maatau papaaho me te whakamahine i ona mohiotanga ki te kawe mai i nga tohutohu oranga mo te wa me te whai take."
+      }
+    }
+  },
+  "clinicianInfoPage": {
+    "title": "Mo nga Kaitoi Hauora",
+    "subtitle": "Nga taputapu a AI hei whakarei ake i to mahi haumanu",
+    "description": "Whakanuia to tohungatanga me nga tirohanga AI matatau."
+  },
+  "healthAdvisoryPage": {
+    "title": "Tohutohu Hauora",
+    "subtitle": "Tutaki ki a maatau kaitohutohu rongoa tohunga",
+    "description": "Akohia nga tohunga rongoa e arahi ana i to maatau papaahi.",
+    "sections": {
+      "consultation": {
+        "title": "Me toro atu ki tetahi Kaituku Hauora Tangata",
+        "description": "Ahakoa ko te punaha korero a te AI-powered a VirtualMD.app e whakarato ana i nga korero hauora nui, he mea nui kia korero tonu ki nga kaiwhakarato hauora tangata whai tohu mo nga awangawanga hauora. I whakawhanakehia e o maatau rata kua whakamanahia e te poari tenei punaha ki te whakakii, kaua ki te whakakapi, nga tohutohu hauora ngaio.",
+        "emergencyTitle": "I roto i te ohorere hauora:",
+        "emergency": {
+          "us": "United States: Waea 911",
+          "canada": "Kanata: Waea 911",
+          "uk": "Ingarangi: Waea 999, 112 ranei",
+          "australia": "Ahitereiria: Waea 000, 112 ranei",
+          "israel": "Iharaira: Waea 101 ()",
+          "other": "Ētahi atu wāhi: Whakapā atu ki ō ratonga ohorere ā-rohe tonu"
+        },
+        "emergencyWarning": "Mena kei te mamae koe i te uma, te uaua ki te manawa, te toto nui, nga tohu o te whiu, etahi atu tohu kino ranei—kaua e tatari. Rapua te tiaki ohorere inaianei."
+      },
+      "technology": {
+        "title": "Hangarau AI Hauora Ake o VirtualMD.app",
+        "description1": "Ka whakamahi a VirtualMD.app i nga algorithms hou i whakawhanakehia e ta matou roopu o nga rata whakangungu a Harvard me nga tohunga AI ki te tuku korero hauora tino tika. Kua whakangungua a maatau tangata tohunga hauora AI mo nga tuhinga hauora whanui, nga aratohu haumanu, me nga ahuatanga hauora o te ao ki te whakarato i nga tirohanga e whakaata ana i nga tohungatanga kua whakamanahia e te poari.",
+        "description2": "I roto i nga whakataurite taha-taha-taha mo te tika o te taatai, kua whakaatuhia e to maatau punaha nga mahi whakamiharo, he rite tonu, he nui ake ranei i nga maaramatanga o nga tohunga haumanu. Ka taea e a maatau tangata AI te tukatuka i nga mano o nga pepa rangahau hauora, nga aratohu, me nga kawa haumanu i roto i nga hēkona-te uru atu ki nga matauranga ki tua atu i nga mea ka taea e tetahi tohunga hauora tangata te pupuri.",
+        "description3": "Ahakoa e tohe ana matou mo te tino tika me te whakapai tonu a taatau roopu i te punaha, he uaua te rongoa, he ahurei nga ahuatanga hauora takitahi. Koia te take i hoahoatia e matou to maatau papaahi ki te whakanui—kaore e whakakapi—te tino tohungatanga o nga kaiwhakarato hauora tangata."
+      },
+      "disclaimer": {
+        "title": "Whakamahia I Tou Morearea",
+        "description": "Ko nga korero i homai e VirtualMD.app me ona tangata tohunga hauora AI mo nga kaupapa korero me te kaupapa matauranga anake. Ma te whakamahi i tenei ratonga, ka whakaae koe ka whakaae koe:",
+        "points": {
+          "noDiagnosis": "Kaore a VirtualMD.app e whakarato i te rongoa rongoa, maimoatanga ranei",
+          "mayContainErrors": "Kei roto pea i nga ihirangi i hangaia e AI nga hapa me nga hapa ahakoa o taatau tikanga whakamana",
+          "requiresEvaluation": "Ko nga tohutohu hauora me arotake whaiaro e nga kaiwhakarato hauora whai raihana",
+          "mayBeOutdated": "Ko nga korero hauora ka ngaro pea i te wa e tipu ana te matauranga hauora",
+          "uniqueCircumstances": "Ko to hitori rongoa ahurei, nga ahuatanga, me nga ahuatanga e hiahia ana ki te aromatawai ngaio"
+        },
+        "userResponsibility": "Ahakoa e whakamahi ana a VirtualMD.app i nga hangarau matatau ki te whakaputa i nga tirohanga rongoa, ka mau nga kaiwhakamahi i nga kawenga katoa mo te whakamahi i enei korero.",
+        "missionStatement": "Kua whakawhanakehia e te roopu a VirtualMD.app tenei hangarau na te mea e whakapono ana matou ki te tuku manapori ki nga matauranga rongoa o te ao me te tautoko i nga whakatau hauora pai ake. Ko ta maatau punaha AI e whakaatu ana i te ahunga whakamua i roto i te hangarau korero hauora, ina whakamahia tika i te taha o te tiaki ngaio, ka awhina i a koe ki te whiriwhiri i nga whiringa hauora me te whai korero whai hua me o kaiwhakarato hauora. Ko te kore e whakamahi i nga hangarau matatau i te wa e waatea ana ka waiho he waahi ki te uru atu ki nga matauranga rongoa ka huri te ora."
+      }
+    }
+  },
+  "patientInfoPage": {
+    "title": "Mo nga Kaiwhakamahi",
+    "subtitle": "He aratohu hauora whaiaro kei o ringaringa",
+    "description": "Ko nga korero taipitopito mo te painga o VirtualMD.app ka watea mai ki nga turoro i konei tata."
+  },
+  "nurseInfoPage": {
+    "title": "Mo nga Neehi",
+    "subtitle": "Ko te manaaki a te hunga manawanui me te tautoko whakatau haumanu",
+    "description": "Ko nga korero taipitopito mo nga painga o VirtualMD.app ka waatea mai nga nēhi i konei tata."
+  },
+  "pharmacistInfoPage": {
+    "title": "Mo nga Kairangahau",
+    "subtitle": "Te whakahaere rongoa me nga maaramatanga taunekeneke tarukino",
+    "description": "Ko nga korero taipitopito mo te painga o VirtualMD.app ka waatea mai ki nga kai rongoa i konei tata."
+  },
+  "physicianInfoPage": {
+    "title": "Mo nga Takutai",
+    "subtitle": "Tautoko whakatau haumanu me te awhina tātaritanga",
+    "description": "Nga korero taipitopito mo nga painga o VirtualMD.app ka waatea mai nga rata ki konei."
+  },
+  "medicalImageProcessingPage": {
+    "title": "Tātari Atahanga Hauora",
+    "subtitle": "Whakamaramatanga atahanga tātaritanga a AI",
+    "description": "Te tātari atahanga matatau mo te tātaritanga hauora tika.",
+    "preset": "Tatūkē",
+    "chooseImage": "Kōwhiri Atahanga",
+    "process": "Tukanga",
+    "processedImage": "Atahanga Tukatuka"
+  },
+  "mentalHealthInfoPage": {
+    "title": "Tautoko Hauora Hinengaro",
+    "subtitle": "Te tirotiro hauora hinengaro me te tautoko a AI",
+    "description": "Ko nga korero taipitopito mo te painga o te VirtualMD.app mo nga tohunga hauora hinengaro ka waatea mai ki konei."
+  },
+  "wellnessPathwaysPage": {
+    "title": "Aratohu Aratohu Ora",
+    "subtitle": "Te whakamahere haerenga hauora whaiaro",
+    "description": "Tirohia to huarahi ki te hauora me te oranga pai."
+  },
+  "yourHealthInYourHandsPage": {
+    "title": "To Hauora i o ringaringa",
+    "subtitle": "Te whakamana i a koe ki te whakahaere i to hauora",
+    "description": "Nga taputapu me nga tirohanga hei awhina i a koe ki te whakatau whakatau hauora.",
+    "mainHeading": "Whakahaerehia: To hauora, o whakatau, to haerenga",
+    "sections": {
+      "uniqueProfile": {
+        "title": "Kia mohio ki to Profile ahurei",
+        "description1": "Kia hohonu ake nga maaramatanga ki to waahi oranga oranga. Ka awhina to maatau papaaho ki a koe ki te hono i nga tohu me te mohio ki nga mea e whai hua ana ki to oranga.",
+        "description2": "Te torotoro i nga ahuatanga rereke o to oranga, mai i nga tauira o te noho ki nga hiahia whaiaro, katoa i te waahi kotahi."
+      },
+      "personalizedGoals": {
+        "title": "Whakaritea me te Aroturuki i o Whainga Whaiaro",
+        "description1": "Tautuhia he aha te tikanga o te oranga mo *koe*. Ma te VirtualMD.app, ka taea e koe te whakarite whaainga whai kiko, ka taea te whakatutuki me te whai i to ahunga whakamua i te huarahi. Ka whakaratohia e matou nga taputapu me te tautoko hei awhina i a koe kia noho hihiri me te whakanui i o angitu.",
+        "description2": "Ahakoa ko te whakakaha ake i nga taumata o te kaha, te whakapai ake i te moe, te whakatipu i te marama o te hinengaro, he ahurei to haerenga."
+      },
+      "diverseInsights": {
+        "title": "Uru ki nga Maramatanga Kanorau mo nga Kowhiringa Maamaa",
+        "description1": "Ko te matauranga te mana. Ka whakawhiwhia e ta maatau papaaho te uru ki te whanuitanga o nga korero me nga tirohanga mai i a maatau momo kaiarahi oranga AI. Whakaritea nga whakatau maia i runga i te maaramatanga matawhānui, kaua ko nga meka motuhake.",
+        "description2": "Ka awhina matou ki a koe ki te whakatere i te ao matatini o nga korero oranga, kia taea ai e koe te whiriwhiri i nga mea e tika ana mo koe."
+      },
+      "proactivePartner": {
+        "title": "To hoa i roto i te oranga oranga",
+        "description1": "Ko te VirtualMD.app he nui ake i te taputapu noa; ko matou to hoa ki te hanga i tetahi hononga takatika, pai me to hauora. Kei konei matou ki te tautoko i a koe me nga rauemi, nga tirohanga, me te huarahi hurihuri mo te oranga whaiaro.",
+        "description2": "Kia Te Huringa i roto i to oranga ake. Tīmatahia to haerenga oranga oranga i tenei ra."
+      }
+    },
+    "callToAction": {
+      "title": "Kua rite ki te tuku i to hauora ki o ringaringa?",
+      "description": "Torotoro a maatau ahuatanga, korero me o maatau kaiarahi oranga AI, ka kitea te rereketanga ka taea e VirtualMD.app.",
+      "buttons": {
+        "tryAsGuest": "Whakamātauria hei Manuhiri"
+      }
+    }
+  },
+  "aboutEncyclopediaPage": {
+    "title": "VirtualMD.app Encyclopedia of Health and Wellness",
+    "p1": "I roto i te ao matihiko o enei ra, he waipuke nga korero hauora kei o tatou maihao, engari ko te wehewehe i nga tohutohu pono mai i nga korero pohehe ka tino kaha.",
+    "p2": "Ko te VirtualMD.app Encyclopedia e tapahi ana i te haruru, e tuku ana i te huarahi hurihuri ki te uru ki to oranga. Kua whakauruhia ki roto i ta maatau papaahi, ka taea e koe te uru atu ki nga tirohanga hohonu, tohutoro mai i nga hautaka rongoa rongonui me te kore e waiho i to korero korero me o taatau roopu tohunga AI.",
+    "p3": "Ehara tenei i te miihini rapu noa; he waahanga \"rangahau hohonu\" kua oti te whakangungu i hangaia hei rauemi pono i a koe e korerorero ana.",
+    "p4": "Whakaarohia kei roto koe i te korerorero me to maatau tohunga hinengaro AI me te tohunga kai e korero ana mo te whakahaere cholesterol. Ko te kupu \"statins\" kua whakahuahia, a kei te pirangi koe ki te maarama ake i nga mea taketake. Engari kaua e tatari i to korero ki te rapu i te ipurangi tuwhera, ka taea e koe te uru atu ki te VirtualMD.app Encyclopedia. Ka whakaratohia he whakarāpopototanga matawhānui, engari he ngawari ki te maarama mo te mahi o nga statins, o raatau painga, me nga paanga taha pea, me nga korero katoa i ahu mai i nga tuhinga kua arotakehia e nga hoa penei i te Lancet, i te New England Journal of Medicine ranei."
+  },
+  "dataPrivacyPage": {
+    "title": "Tūmataitinga Raraunga me te Haumarutanga",
+    "subtitle": "Ka tiakina to raraunga hauora ki nga paerewa haumarutanga teitei",
+    "description": "Akohia me pehea e pupuri ai matou i o korero hauora whaiaro kia haumaru, kia mau."
+  },
+  "encyclopediaPage": {
+    "title": "VirtualMD.app Encyclopedia",
+    "subtitle": "Ko te matauranga hauora whanui kei o ringaringa",
+    "description": "Tirotirohia to maatau papaa raraunga whanui mo nga ahuatanga hauora, maimoatanga, me nga korero hauora.",
+    "mainHeading": "VirtualMD.app Encyclopedia",
+    "p1": "Nau mai ki te VirtualMD.app Encyclopedia - to aratohu whanui mo te matauranga rongoa.",
+    "p2": "Kei roto i ta maatau encyclopedia te whānuitanga o nga kaupapa hauora, tikanga, me nga maimoatanga.",
+    "exampleTitle": "Kaupapa Tohua",
+    "exampleText": "Tirohia a maatau kaupapa hauora rongonui me nga tikanga hauora.",
+    "uniqueTitle": "He aha te mea ahurei tatou",
+    "p3": "Ko ta maatau encyclopedia a AI-powered e whakarato ana i nga korero hauora e pa ana ki nga taunakitanga."
+  },
+  "whyVirtualMDPage": {
+    "title": "He aha VirtualMD.app?",
+    "subtitle": "Ko te heke mai o te hauora whaiaro kei konei",
+    "description": "Rapua he aha te mea ahurei to maatau turanga hauora AI."
+  },
+  "landing": {
+    "tryItOut": "Whakamātauria",
+    "cards": {
+      "tryItOut": {
+        "tagline": "Kaore he hainatanga e hiahiatia ana."
+      }
+    }
+  },
+  "legalPage": {
+    "title": "Nga Korero Ture",
+    "subtitle": "Nga Ture o te Ratonga, Kaupapahere Whaiaro, me nga Panui Ture",
+    "description": "Nga korero ture nui mo te whakamahi i te VirtualMD.app."
+  },
+  "legal": {
+    "eligibility": {
+      "ageRequirement": "Hei whakamahi i te Ratonga VirtualMD.app, me 18 tau neke atu ranei to pakeke, te pakeke ranei o te nuinga o te ture i roto i to mana whakahaere, ahakoa he nui ake. Mena kei te whakamahi koe i te Ratonga mo tetahi whakahaere, ka tohu koe me te whakamana kei a koe te mana ki te here i taua whakahaere ki enei Ture, ka whakaae koe kia herea koe e enei Ture mo taua whakahaere.",
+      "legalCapacity": "Me whai mana hoki koe ki te uru ki enei Ture. Kaore pea koe e uru ki te whakamahi ranei i te Ratonga mena ka aukatia koe ki te whiwhi ratonga i raro i te ture e tika ana, kua whakatarewahia ranei i mua, kua tangohia mai ranei i te Ratonga e VirtualMD.",
+      "territorialRestrictions": "Ko te uru ki te Ratonga mai i nga rohe kei te kore he ture o ana ihirangi, whakamahi ranei, ka tino rahuitia. Ko nga Kaiwhakamahi te kawenga mo te whai i nga ture katoa o te rohe, nga ture, me nga ture mo te whakamahi i te Ratonga, tae atu ki nga mea e pa ana ki te whakahaere ipurangi me nga mea e manakohia ana."
+    },
+    "feesAndPayment": {
+      "currentlyFree": "I tenei wa, ko te uru ki nga ahuatanga taketake o te Ratonga VirtualMD.app ka tukuna mo te kore utu.",
+      "futureFeesNotice": "Kei a VirtualMD te mana ki te whakauru i nga utu mo etahi ahuatanga, nga taumata o te ratonga, te Ratonga katoa ranei a meake nei. Mena ka tukuna e matou nga utu, ka tukuna atu e matou ki a koe nga korero mo enei huringa me nga tikanga utu e tika ana. Ko to whakamahi tonu i nga ratonga utu-utu i muri i taua panui ko to whakaaetanga ki te utu i nga utu e tika ana.",
+      "paymentTerms": "Ko nga tikanga utu ka tukuna atu ki a koe i te wa e whakamahi ana, e haina ana ranei mo tetahi ratonga utu ka kiia he waahanga o enei Ture."
+    },
+    "termination": {
+      "userTermination": "Ka taea e koe te whakamutu i to putea me te whakamutu i te whakamahi i te Ratonga i nga wa katoa ma te whai i nga tohutohu i roto i te Ratonga me te whakapiri mai ranei ki a matou.",
+      "serviceTermination": "Ka taea e VirtualMD, i runga i tana whakaaro anake, ki te whakamutu, ki te whakamutu ranei i to uru ki te katoa, ki tetahi waahanga ranei o te Ratonga, me te kore panui, mo etahi take, tae atu ki te takahi i enei Ture. Ko nga take mo te whakamutua ka uru pea, engari karekau e whakawhäitihia ki te kore mahi mo te wa roa, nga tono a te hunga whakahaere ture, etahi atu tari a te kawanatanga, te whakamutua, te whakarereketanga rauemi ranei o te Ratonga, nga take hangarau, haumarutanga ohorere ranei.",
+      "effectOfTermination": "Ina whakamutua, ka mutu tonu to mana ki te whakamahi i te Ratonga. Ko nga tikanga katoa o nga Ture e ora tonu ana i te whakamutua ka ora tonu i te whakamutua, tae atu ki te kore e herea, nga tikanga mana pupuri, whakakao whakamana, utu, me te herenga o te taunahatanga.",
+      "noLiability": "E kore matou e tika ki a koe, ki tetahi atu tuatoru ranei mo te whakamutua o to uru ki te Ratonga."
+    },
+    "termsOfUse": {
+      "title": "Nga Ture Whakamahi",
+      "header": {
+        "company": "Paetukutuku VirtualMD.app",
+        "llc": "VirtualMD Hangarau LLC"
+      },
+      "welcome": "Nau mai ki VirtualMD.app (te \"Ratonga\", \"Pae\"), e whakahaeretia ana e VirtualMD Technologies, LLC (\"VirtualMD\", \"tatou\", \"tatou\", \"tatou\"). Ko enei Ture Whakamahi (\"Tuhinga\") ka whakahaere i to uru me te whakamahi i to maatau paetukutuku, AI personas, ihirangi, me nga ratonga. Ma te uru ki te whakamahi ranei i te Ratonga, ka whakaae koe kia herea koe e enei Ture me a maatau Kaupapahere Whaiaro, kua whakauruhia ki konei ma te tohutoro. Mena kaore koe e whakaae ki enei Ture, kaua e whakamahi i te Ratonga.",
+      "sections": {
+        "section1": {
+          "title": "To Tatou Raraunga Raraunga Taurangi",
+          "content": "I VirtualMD.app, he mea nui te noho muna me te haumaru o o korero whaiaro. E pono ana matou ki te pupuri i te muna me te pono o nga raraunga ka tukuna e koe ki a matou. I hangaia to maatau papaa me nga tikanga haumarutanga pakari hei tiaki i o korero mai i te uru kore mana, te whakaatu, te whakarereketanga me te whakangaromanga.",
+          "subsections": {
+            "": {
+              "content": "Raraunga ingoamuna mo te whakapai ake:\nKa whakamahia e matou nga raraunga whakaingoatia me te whakahiato (me nga PII katoa kua tangohia) hei whakarei ake i te tika, te whai hua, me te haumaru o a maatau tauira AI me nga ahuatanga papaaho. Kaore tenei e whakaae ki te tautuhi i tetahi kaiwhakamahi takitahi."
+            }
+          }
+        },
+        "section2": {
+          "title": "Nga Korero Ka Kohikohia e matou me etahi atu Taipitopito Matatapu",
+          "content": "Nga korero ka kohia e matou\n   Ka kohia e matou nga korero ka tukuna mai e koe ki a matou, nga korero ka kohikohi aunoa ma te whakamahi i te Ratonga, me nga korero mai i nga puna tuatoru.\n\nMōhiohio Pūkete: Ina rēhita koe, ka kohia e matou nga korero penei i to ingoa, to wahitau imeera, me te nama waea (mo nga kaupapa motuhēhēnga).\nIhirangi Kaiwhakamahi: Ka kohia e matou nga korero ka tukuna e koe i te wa e whakamahi ana koe i te Ratonga, tae atu ki nga tuhinga kua whakauruhia ki roto i nga hononga korerorero, nga korero korero (penei i nga rarangi rongoa, mena ka tukuna), me nga urupare.\nNga Korero Whakamahi: Ka kohikohi aunoa matou i nga korero mo o taunekeneke me te Ratonga, penei i te wahitau IP, te momo tirotiro, nga korero taputapu, te punaha whakahaere, nga wharangi kua tirohia, nga hononga kua paatohia, me nga ra me nga wa o to haerenga.\nPihikete me nga Hangarau Ōrite: Ka whakamahia e matou nga pihikete me nga hangarau aroturuki rite ki te whai i nga mahi i runga i ta maatau Ratonga me te pupuri i etahi korero. Ka taea e koe te ako i to kaitirotiro kia whakakore i nga pihikete katoa, tohu ranei ina tukuna he pihikete. Heoi, ki te kore koe e whakaae ki nga pihikete, kare pea koe e kaha ki te whakamahi i etahi waahanga o ta maatau Ratonga.\n\nMe pehea te whakamahi i nga korero\nKa whakamahia e matou nga korero ka kohia e matou mo nga kaupapa rereke, tae atu ki:\n\nTe whakarato, te whakahaere, te pupuri, me te whakapai ake i te Ratonga.\nTukatia nga whakawhitinga me te tuku korero e pa ana, tae atu ki nga whakapumautanga me nga nama (mehemea e tika ana).\nTukuna nga panui hangarau, nga whakahou, nga matohi haumarutanga, me nga karere tautoko me te whakahaere.\nWhakautu ki o korero, patai, tono me te whakarato ratonga kaihoko.\nWhakawhitiwhiti korero ki a koe mo nga hua, ratonga, tuku, whakatairanga, utu, me nga huihuinga e tukuna ana e VirtualMD me etahi atu, me te tuku korero me nga korero e whakaaro ana matou ka pai ki a koe (i raro i to mana whakaputa).\nAroturuki me te tātari i nga ia, te whakamahinga me nga mahi e pa ana ki ta maatau Ratonga.\nTe kimi, te tirotiro, me te aukati i nga whakawhitinga tinihanga me etahi atu mahi ture me te tiaki i nga tika me nga rawa o VirtualMD me etahi atu.\nWhakawhaiaro me te whakapai ake i te Ratonga me te whakarato i nga ihirangi me nga ahuatanga e rite ana ki nga korero a nga kaiwhakamahi me nga hiahia.\nWhakapai ake i te tika, te kaha, me te haumaru o a maatau tauira AI me nga ahuatanga papaaho ma te whakamahi i nga raraunga ingoamuna me te whakahiato.\nWhakahaerehia etahi atu kaupapa i whakaahuatia ki a koe i te wa i kohia ai nga korero.\n\nMe pehea ta matou tiri korero\n\nKi nga Kaihoko me nga Kaiwhakarato Ratonga: Ka tohatohahia pea e matou nga korero ki nga kaihoko tuatoru, nga kaitohutohu, me etahi atu kaiwhakarato ratonga e hiahia ana ki te uru atu ki aua korero hei whakahaere i nga mahi mo matou (hei tauira, nga kaiwhakarato manaaki, kaiwhakarato tātaritanga, tukatuka utu, kaiwhakarato API AI kua whirihorahia kia rite ki o maatau kaupapa here whakamahi raraunga).\nHei Whakautu ki te Tukatuka Ture: Ka taea e matou te whakaatu korero mena ka hiahiatia e te ture, i runga ranei i te whakapono pono e tika ana taua mahi ki te whakatutuki i tetahi herenga ture, te tiaki me te tiaki i nga tika me nga rawa o VirtualMD, te aukati, te tirotiro ranei i nga mahi he e pa ana ki te Ratonga, te tiaki i te haumaru whaiaro o nga kaiwhakamahi o te Ratonga, te iwi whanui ranei, te tiaki ranei i nga kawenga ture.\nMa to Whakaaetanga: Ka tiritiri pea matou i nga korero me to whakaaetanga, ma to tohutohu ranei.\nWhakawhiti Pakihi: Ka taea e matou te tiri, te whakawhiti ranei i nga korero e pa ana ki, i te wa ranei o nga whiriwhiringa mo te whakakotahitanga, te hokonga o nga rawa o te kamupene, te putea, te hoko ranei i te katoa, i tetahi waahanga ranei o a maatau pakihi e tetahi atu kamupene.\nRaraunga kua whakahiatotia, kua whakakorehia ranei: Ka tohatohahia pea e matou nga korero kua whakahiatotia, kua whakakorehia ranei, kaore e taea te whakamahi tika hei tautuhi i a koe.\n\nŌ Kōwhiringa Tūmataitinga\nMōhiohio Pūkete: Ka taea e koe te whakahou, te whakatika, te whakakore ranei i nga korero mo koe i nga wa katoa ma te takiuru ki to putea me te whakapiri mai ki a maatau. Mena kei te pirangi koe ki te muku i to putea, tena koa whakapiri mai ki a maatau, engari me mahara ka mau tonu etahi korero e hiahiatia ana e te ture, mo nga kaupapa pakihi tika ranei.\nMuku Raraunga: Ka rite ki te korero i raro i nga Mahi Haumarutanga, kei a koe nga taputapu hei whakakore i nga korerorero takitahi, i to putea katoa ranei.\nPihikete: Kua whakaritea te nuinga o nga kaitirotiro paetukutuku ki te whakaae taunoa. Ki te hiahia koe, ka taea e koe te whiriwhiri ki te tautuhi i to kaitirotiro ki te tango, ki te whakakore ranei i nga pihikete tirotiro.\nWhakatairanga Whakatairanga: Ka taea e koe te whakaputa i nga imeera whakatairanga mai i VirtualMD ma te whai i nga tohutohu kei roto i aua imeera. Ki te whakaputa koe, ka tukuna tonu e matou nga korero whakatairanga-kore, penei i nga korero mo to putea, mo o maatau hononga pakihi e haere tonu ana.\n\nPupuri Raraunga\nKa penapenahia e matou nga korero ka kohia e matou mo koe mo te wa e tika ana mo te kaupapa i kohia e matou i te tuatahi, mo etahi atu kaupapa pakihi tika, tae atu ki te whakatutuki i o maatau ture, ture, etahi atu herenga hanganga ture ranei. Ka pupuri matou i nga korero kaute mo te wa e kaha ana to putea me te wa tika i muri mai mena ka whakatau koe ki te whakahohe ano i te Ratonga. Ko nga raraunga ingoamuna me te whakahiato e whakamahia ana mo te whakapai ake i te punaha ka taea te pupuri mo ake tonu atu.\n\nWhakawhiti Raraunga Ao\nKo VirtualMD kei te United States, a ka tukatukahia, ka rokirokihia e matou nga korero i te U.S. Mena kei waho koe i te United States, kia mohio koe ko nga korero ka kohia e matou ka whakawhitia, ka tukatukahia, ka rongoa ki te United States. He rereke pea nga ture tiaki raraunga i te U.S. i nga ture o to whenua noho. Ma te whakamahi i te Ratonga, ka whakaae koe ki te whakawhiti i o korero ki te U.S. me te whakamahi me te whakaatu i o korero i whakaahuatia i roto i tenei Kaupapahere Whaiaro.\n\nMatatapu a nga tamariki\nKo te Ratonga VirtualMD.app he mea tika mo nga pakeke, kaore i tukuna ki nga tamariki kei raro iho i te 13 tau (te pakeke ranei e tika ana mo te whakaaetanga mamati i to mana whakahaere). Kaore matou i te kohi i nga korero whaiaro mai i nga tamariki. Ko te whakamahi i te Ratonga e nga tamariki e rahuitia ana. Mena he matua koe, he kaitiaki ranei me te whakapono kua tukuna he korero e to tamaiti ki a matou me te kore e whakaae mai, tena koa whakapiri mai ki a maatau i te legal@virtualmd.app. Mena ka mohio matou kua kohia e matou nga korero mai i tetahi tamaiti e takahi ana i te ture e tika ana, ka tere tonu matou ki te whakakore i aua korero.",
+          "subsections": {
+            "wemayshareinformationaboutyouasfollowsorasotherwisedescribedinthisprivacypolicy": {
+              "title": "Ka tohatoha pea matou i nga korero mo koe e whai ake nei, i etahi atu korero ranei i roto i tenei Kaupapahere Whaiaro"
+            }
+          }
+        },
+        "section3": {
+          "title": "Te herenga o te taunahatanga mo te haumarutanga raraunga",
+          "content": "Ka whakatinanahia e VirtualMD nga tikanga haumaru arumoni, tae atu ki nga kawa whakamunatanga me te whakamotuhēhēnga (e whai kiko ana i roto i ta maatau Kaupapahere Whaiaro), hei tiaki i nga korero ka tukuna e koe ki te Ratonga. Heoi, kaore he punaha haumaru e kore e taea te uru.\n\nNa reira, ma te whakamahi i tenei Pae, ka tino whakaae me te whakaae koe ahakoa ka whakapau kaha a VirtualMD ki te tiaki i o raraunga kia rite ki nga tikanga pakihi paerewa, KAORE TATOU E WHAKATAKI I TE WHAKAMAHI KAUPAPA O O KORERO. E whakaae ana koe KAORE e taea e koe, e kore e taea e koe te HAERE, te pupuri ranei i a VirtualMD TECHNOLOGIES, LLC, ANA WHAKAMAHI, Apiha, Kaiwhakahaere, Kaimahi, Kaitono, RĀNEI KAUPAPA KAUPAPA mo nga pakaru, ngaronga, utu, whakapaunga ranei i puta mai i runga ranei i te hononga ki tetahi urunga kore mana, te whakakore i to korero, te whakakore, te whakakore ranei i o korero. nga pakaru), mehemea kua whakatinanahia e VirtualMD nga tikanga haumarutanga whaitake. Ko to whakamahi i te Ratonga ko to whakaae ki tenei raru."
+        },
+        "section4": {
+          "title": "Whakawhāititanga Whānui o te taunahatanga",
+          "content": "KI TE KATOA E WHAKATAHIA E TE TURE KAUPAPA, I TE KAUPAPA KAUPAPA KAUPAPA A VirtualMD TECHNOLOGIES, LLC, ONA WHAKAMAHI, NGA Apiha, Kaiwhakahaere, Kaimahi, Kaitono, Kai Raihana ranei, ka whai mana mo nga mea katoa, mo te taha, mo te taha, mo te taha takitahi, mo te taha takitahi TE MONGONGA O NGA PUNA, KAUPAPA KAUPAPA, KAUPAPA KAUPAPA, KAUPAPA KAUPAPA, KAUPAPA KAUPAPA, KAUPAPA KAUPAPA, TE WHAKAMAHI, TE WHAKAMAHI, TE WHAKAMAHI I TE WHAKAMAHI, I TE WHAKAMAHI I TE WHAKAMAHI, I TE WHAKAMAHI I:\n\nTO URU KI TE WHAKAMAHI KI TE WHAKAMAHI RĀNEI TE KORERERE KI TE URU KI TE WHAKAMAHI KI TE RATONGA;\nTE WHAKAMAHI, TE WHAKAMAHI, TE WHAKAMAHI, TE WHAKAMAHI, TE WHAKAMAHI KAUPAPA, TE WHAKAMAHI KAUPAPA, TE WHAKAMAHI, TE WHAKAMAHI KAUPAPA, TE WHAKAMAHI KAUPAPA, TE WHAKAMAHI KI TE WHAKAMAHI I TE RATONGA;\nTĒTAHI KAUPAPA KAUPAPA I TE RATONGA; RĀNEI\nKAUPAPA KAUPAPA KAUPAPA, TE WHAKAMAHI, TE WHAKAMAHI RANEI I AU WHAKAMAHI, I TE KAUPAPA KAUPAPA (TAE KI TE WHAKAMAHI I TE RAARATANGA), AHAKOA I WHAKAMAHI a VirtualMD i nga tikanga whakamarumaru e tika ana i roto i enei kupu me te kaupapa here tūmataiti.\nKI TE KAUPAPA KAUPAPA E WHAKATAHIAtia ana e te ture, ka whakakorehia e VirtualMD nga mana katoa, te whakapuaki, te korero, te korero ranei, tae atu ki te, engari karekau i te mutunga ki nga tikanga mo te hokohoko, te tika mo te kaupapa motuhake, taitara, me te kore he.\n\nKAUA E KOE TE TAHATANGA KAUPAPA O VirtualMD me ona hoa mahi i mua ake i te kotahi rau taara o te US (USD $100.00) RĀNEI TE NUI I Utua e koe ki a VirtualMD, ki te mea, i roto i nga marama e ono kua pahure ake nei mo nga ratonga e tuku kereme ana.\n\nI raro i te potae taunahatanga whakahiato i mua ake nei, ahakoa etahi atu whakaritenga o enei Ture, ko to rongoa motuhake mo tetahi kereme i puta mai, e pa ana ranei ki enei Ture, ki te Ratonga ranei ka whakawhäitihia ki te whakaora i nga pakaru tika i puta mai i a koe. Ko nga utu tika e kiia ana ko nga utu i utua tika e koe ki a VirtualMD mo te waahanga motuhake o te Ratonga i puta ai te kereme i roto i nga marama e ono (6) i mua tonu mai o te huihuinga, a ka taea te whakahoki mai i te mea ka puta tika mai enei pakaru mai i nga mahi kino a VirtualMD kua kitea, i te kore rawa e mahia ana herenga i raro i enei Ture. Mo te whakamaramatanga, ko VirtualMD, ona hoa hono, kaipupuri hea, apiha, kaiwhakahaere, kaimahi, me nga apiha e kore e whai mana mo nga kino koretake, ohorere, motuhake, whai muri, whiu whiu ranei, utu a te roia, utu ranei, ahakoa te ariā o te taunahatanga, ahakoa i puta mai i te takahitanga o enei Ture, te takahi ranei i o mana-kore, engari ko te aukati i te aukati i o mana-kore. ture.\n\nKO NGA KAUPAPA KAUPAPA O TENEI WANANGA KA PANA KI TE WHAKAMAHI KI TE WHAKAMAHI KI TE WHAKAMAHI, AHAKOA I RUNGA I TE PUTANGA, KIRIATA, TUATAHI, TORT (TAE KI TE TANGATA), KI TE ATU KI TE WHAKAMAHI KI TE WHAKAMAHI I TE WHAKAMAHI KI TE WHAKAMAHI KI TE WHAKAMAHI KI TE WHAKAMAHI KI TE WHAKAMAHI I TE WHAKAMAHI, TE WHAKAMAHI KI TE WHAKAMAHI KI TE WHAKAMAHI KI TE WHAKAMAHI KI TE WHAKAMAHI KI TE WHAKAMAHI. HEI KIIA KI TE HUNGA I TONA KAUPAPA KAUPAPA.\n\nKORE ETAHI KAUPAPA KAUPAPA KAUPAPA KI TE WAETANGA I ETAHI WARANGI, TE KAUPAPA, TE KAUPAPA KAUPAPA I TE WHAKAMAHI KI TE WHAKAMAHI I TE WHAKAMAHI I TE WHAKAMAHI I TE WHAKAMAHI I TE WHAKAMAHI. HEI ANA, KO ETAHI O NGA RANGATIRATANGA I RUNGA KORE E PANA KI A KOE."
+        },
+        "section5": {
+          "title": "Nga Mahi Haumarutanga a VirtualMD.app",
+          "content": "Ka whakamahia e matou he rautaki haumaru-paparanga maha:\n\nMotuhēhēnga-rua (2FA):\nMe whakamana mo nga kaute katoa, me whakamana ma te take tuarua (hei tauira, te waehere ki te imeera/waea).\n\nKōwhiringa Motuhēhē-toru (3FA):\nKo te haumarutanga whakarei ake e hiahia ana ki te kupuhipa, te waehere imeera, me te waehere SMS.\n\nKo enei mahinga e whakarato ana i te haumaru kaute, engari kia mahara kaore he punaha e 100% haumaru.",
+          "subsections": {
+            "": {
+              "content": "Mana Uru:\nKo te uru atu ki nga rekoata papaa raraunga a nga kaimahi ka tino whakahaerehia, ka iti, ka tuhia, ka whakahaerehia e nga kaupapa here o roto. Kua rāhuitia te tirotiro haere tonu."
+            }
+          }
+        },
+        "section6": {
+          "title": "VirtualMD.app & HIPAA Whakaaro (Tuuturu)",
+          "content": "Ka rite ki te korero i roto i nga Whakakahoretanga, ko te ratonga VirtualMD.app whanui KORE i te HIPAA e tika ana mo nga keehi whakamahi a te Hinonga hipoki / Pakihi Pakihi e pa ana ki te PHI kaore he BAA motuhake. Ahakoa ka whakatinanahia e matou te haumarutanga kaha, ka whakahaerehia ta matou ratonga whanui i raro i nga tikanga haumaru pakihi, ehara i nga whakaritenga motuhake o te Ture Haumarutanga HIPAA mo te PHI e whakahaerehia ana e nga Hinonga Uwhi.\n\nKo nga kaiwhakamahi e hiahia ana kia u ki te ture HIPAA mo te PHI e whakahaerea ana e ratou, kaua e whakamahi i to maatau papaahi mo enei kaupapa kaore he BAA. Kaua nga kaiwhakamahi e whakauru i nga korero ka kitea ki nga turoro takitahi i roto i te horopaki e takahi ana i te HIPAA me te kore e marama, e mohio ana te whakaae ki te mana o te turanga kore-HIPAA mo taua whakamahinga."
+        },
+        "section7": {
+          "title": "Te Whakamahinga Raraunga e nga Kaiwhakarato Miihini AI Tuatoru",
+          "content": "Ka uru a VirtualMD ki nga kaiwhakarato tauira AI (hei tauira, OpenAI, Anthropic, Google).\n\nVirtualMD.app:\nKa whakamahi noa matou i nga raraunga ingoamuna, whakahiato hei whakapai ake i te punaha o roto.\n\nKaituku API API Tuatoru:\nKo nga kaiwhakarato nui i uru atu ma te API (penei i te OpenAI, Anthropic) e kii ana i roto i a raatau kaupapa here ko nga raraunga i tukuna ma te API KAORE e whakamahia hei whakangungu i o raatau tauira turanga whanui. Ka whirihorahia e matou to maatau whakamahi i enei ratonga kia rite ki enei whiringa tiaki-taputapu. Arotakehia a raatau kaupapa here mo nga taipitopito.\n\nĒtahi atu Whakaritenga Ture\nNga Huringa ki enei Ture me nga Kaupapahere\nKei a VirtualMD te tika, i runga i ta maatau whakaaro, ki te whakarereke, ki te whakakapi ranei i enei Ture me te Kaupapahere Whaiaro kua whakauruhia i nga wa katoa. Mēnā he rauemi te whakahou, ka tukuna e matou he panui 30 ra i mua i te mana o nga tikanga hou, ka tukuna pea ma te imeera ki te wahitau e pa ana ki to putea, ma te tuku panui ranei i runga i te Ratonga.\n\nHe aha te whakarereketanga o te taonga ka whakatauhia i runga i to maatau whakaaro.\n\nMa te haere tonu ki te uru, ki te whakamahi ranei i ta maatau Ratonga i muri i te whai huatanga o nga whakahoutanga, ka whakaae koe kia herea koe e nga tikanga kua whakahoutia. Ki te kore koe e whakaae ki nga tikanga hou, kua kore koe e whai mana ki te whakamahi i te Ratonga me mutu tonu te whakamahi.\n\nKei a koe te kawenga ki te tirotiro i enei Ture mo nga huringa.\n\nWhakamutua\nKa taea e koe te whakamutu i to putea ka mutu te whakamahi i te Ratonga i nga wa katoa ma te whai i nga tohutohu i roto i te Ratonga me te whakapiri mai ranei ki a matou.\n\nKa taea e VirtualMD, i runga i tana whakaaro anake, ki te whakamutu, ki te whakamutu ranei i to uru ki te katoa, ki tetahi waahanga ranei o te Ratonga, me te kore panui, mo etahi take, tae atu ki te takahi i enei Ture. Ko nga take mo te whakamutua ka uru pea, engari karekau e whakawhäitihia ki te kore mahi mo te wa roa, nga tono a te hunga whakahaere ture, etahi atu tari a te kawanatanga, te whakamutua, te whakarereketanga rauemi ranei o te Ratonga, nga take hangarau, haumarutanga ohorere ranei.\n\nIna whakamutua, ka mutu tonu to mana ki te whakamahi i te Ratonga. Ko nga tikanga katoa o nga Ture e ora tonu ana ki te whakamutua ka ora tonu i te whakamutua, tae atu ki te kore e herea, nga tikanga mana pupuri, whakakao whakamana, utu, me te herenga o te taunahatanga.\n\nE kore matou e tika ki a koe, ki tetahi atu tuatoru ranei mo te whakamutua o to uru ki te Ratonga.\n\nTure Whakahaere me te Whakatau Tautohetohe\nKo enei Ture me to whakamahi i te Ratonga ka whakahaeretia, ka whakamaoritia i runga ano i nga ture o te Commonwealth of Massachusetts, United States of America, me te kore e whakaaro ki ana taupatupatu o nga kaupapa ture.\n\nE whakaae ana koe ko nga mahi ture me nga mahi ka puta mai, e pa ana ranei ki enei Ture, ki te Ratonga ranei ka kawea anake i roto i nga kooti a te kawanatanga, i te kawanatanga ranei kei Suffolk County, Massachusetts, USA. Ka whakaae koe ki te mana motuhake me te waahi o aua kooti me te whakakore i nga whakahē mo te huihuinga whakararuraru.\n\nKa taea e VirtualMD, i runga i tana whakaaro anake, ki te tono kia tukuna e koe nga tautohetohe i puta mai i te whakamahinga o enei Ture, te Ratonga ranei, tae atu ki nga tautohetohe i puta mai i te whakamaoritanga ranei, i te takahi, i te koretake, i te kore mahi, i te whakamutu ranei, ki te apitireihana whakamutunga me te here i raro i nga Ture o te Apitireihana o Amerika Arbitration Association e tono ana i te ture Massachusetts.\n\nNga korero Whakapā\nMena kei a koe etahi patai mo enei Ture, Kaupapahere Whaiaro ranei, tena koa whakapiri mai ki a maatau i: legal@virtualmd.app ma te wharangi Whakapaa mai ranei.\n\nTe tini\nWhakaaetanga Katoa\nKo enei Ture me a maatau Kaupapahere Whaiaro te mea kotahi me te katoa o te whakaaetanga i waenga i a koe me VirtualMD Technologies, LLC mo te Ratonga me te whakakapi i nga maaramatanga o mua me o naianei, whakaaetanga, whakakitenga me nga whakamana, i te tuhi me te waha, mo te Ratonga.\n\nWehewehenga\nMena ka mau tetahi tikanga o enei Ture e te kooti, ​​e tetahi atu taraipiunara ranei o te mana whai mana ki te kore whaimana, ki te kore ture, ki te kore ranei e taea te whakamana mo tetahi take, ka whakakorehia, ka whakawhäitihia ranei ki te iti rawa o nga tikanga e toe ana o nga Ture ka mau tonu te mana me te whai mana.\n\nWhakakore\nKarekau he whakakorenga a VirtualMD o tetahi kupu, tikanga ranei e whakatakotoria ana i roto i enei Ture ka kiia he whakarerenga atu, haere tonu ranei o taua wa, tikanga ranei, he whakakorenga ranei o tetahi atu kupu, tikanga ranei, me te kore o VirtualMD ki te kii i tetahi tika, whakaritenga ranei i raro i enei Ture e kore e waiho hei whakakore i taua tika, whakaritenga ranei.\n\nTaumahi\nKo enei Ture, me nga mana me nga raihana kua tukuna i raro nei, kaore pea e taea te whakawhiti, te tuku ranei e koe, engari ka tukuna e VirtualMD kaore he here.\n\nNga Upoko\nKo nga upoko o nga waahanga e whakamahia ana i konei mo te waatea noa, kaore e tukuna he kawemai ture.\n\nKo te Kaha Majeure\nKarekau a VirtualMD e tika mo te kore e whakatutuki i ana herenga i raro nei ka puta mai he take i tua atu i te mana tika a VirtualMD, tae atu ki te kore e herea, te miihini, te hiko, te kore korero, te ngoikore ranei.\n\nWhakahoutanga Whakamutunga: Mei 12, 2025\n\nWhakapā mai\ninfo@virtualmd.app"
+        }
+      }
+    }
+  },
+  "dataPrivacyWhitepaper": {
+    "sections": {
+      "hero": "Kupu Whakataki",
+      "privacyPledge": "To Tatou Taputapu Taputapu",
+      "securityLevels": "Te mohio ki te Haumarutanga Raraunga",
+      "hipaaDeepDive": "HIPAA Kua whakamaramatia",
+      "VirtualMDSecurity": "VirtualMD.app Nga Mahi Haumarutanga",
+      "hipaaConsiderations": "VirtualMD.app & HIPAA",
+      "userResponsibility": "Haepapa Kaiwhakamahi me te Whakamahi Matatika",
+      "privacyScenarios": "Nga Tauari Matatapu Mahinga me nga Whakaaro Ake",
+      "conclusion": "Te Whakamutunga me nga Whakaaetanga Matua"
+    },
+    "hero": {
+      "title": "VirtualMD.app: Matatapu Raraunga & Koe",
+      "subtitle": "Te Maramatanga ki a matou Whakaaetanga ki to Haumarutanga Raraunga me to maatau huarahi ki nga Paerewa Korero Hauora, tae atu ki te HIPAA."
+    },
+    "privacyPledge": {
+      "title": "1. Te Whakaaetanga Matatapu Raraunga a VirtualMD.app",
+      "intro": "I VirtualMD.app, he mea nui te noho muna me te haumaru o o korero whaiaro. E pono ana matou ki te pupuri i te muna me te pono o nga raraunga ka tukuna e koe ki a matou. I hangaia to maatau papaahi me nga tikanga haumarutanga pakari ki te tiaki i o korero mai i te urunga kore mana, te whakaatu, te whakarereketanga me te whakangaromanga.",
+      "secureInfo": {
+        "title": "Ka whakapau kaha matou ki te pupuri haumaru i o korero.",
+        "description": "Ka whakamahia e matou nga kawa whakamunatanga paerewa-ahumahi mo nga raraunga i roto i te whakawhiti me te okiokinga, i te taha o nga hoahoanga haumaru maha-papa."
+      },
+      "noPersonalUse": {
+        "title": "Kare matou e whakamahi ana i o korero i runga i nga huarahi e kitea ana mo nga kaupapa o waho me te kore e tino whakaae mai koe.",
+        "description": "Ko o taunekeneke tika me o taipitopito whaiaro kei a koe anake."
+      },
+      "neverSell": {
+        "title": "E kore rawa matou e hoko atu i o korero whaiaro ki te hunga tuatoru.",
+        "description": "He mea utu nui to whakawhirinaki, a ka tautokohia e matou tenei ma te whakarite kia kore o raraunga e whakarereketia."
+      },
+      "anonymizedData": {
+        "title": "Ka whakamahia e matou o raraunga ingoamuna hei whakapai ake i to maatau punaha.",
+        "description": "Hei whakarei ake i te tika, te kaha, me te haumaru o a maatau tauira AI me nga ahuatanga papaaho, ka whakamahi matou i nga raraunga kua tino whakaingoatia me te whakahiato. Ko te tikanga ka tangohia nga korero tautuhi tangata katoa (PII), ka whakamahia nga raraunga i roto i te ahua huinga kaore e taea te tautuhi i tetahi kaiwhakamahi takitahi. He mea nui tenei tukanga mo te ako tonu me te whakapai ake i nga ratonga ka tukuna e matou ki nga kaiwhakamahi katoa."
+      }
+    },
+    "securityLevels": {
+      "title": "2. Te mohio ki nga Taumata Haumaru Raraunga & HIPAA",
+      "accountSecurity": {
+        "title": "Taumata o te Haumarutanga Kaute",
+        "description": "Ko te haumarutanga mamati e whakawhirinaki ana ki nga paparanga motuhēhēnga hei manatoko i te tuakiri o te kaiwhakamahi. I te nuinga o nga wa ka whakarōpūhia enei hei take:",
+        "sfaTitle": "Motuhēhēnga Tautahi (1FA):",
+        "sfaDescription": "Me kotahi noa te waahanga o te tiwhikete, te tikanga he kupuhipa. Ahakoa he mea noa, koinei te huarahi haumaru rawa atu na te mea ka taea te tahae, te whakapae, te pakaru ranei nga kupuhipa.",
+        "tfaTitle": "Motuhēhēnga-rua (2FA):",
+        "tfaDescription": "E hiahia ana kia rua nga momo tohu mai i nga waahanga motuhake e rua (hei tauira, he mea e mohio ana koe ano he kupuhipa, me tetahi mea kei a koe ano he waehere kotahi-wa ka tukuna ki to waea). Ka tino whakanui tenei i te haumarutanga.",
+        "mfaTitle": "Motuhēhēnga-Tutoru (3FA) / Motuhēhēnga-Maha-maha (MFA):",
+        "mfaDescription": "Me toru, neke atu ranei nga momo tohu tohu. Hei tauira, he kupuhipa (mohio), he waehere kotahi-wa ma te SMS (kei), me te matawai koiora penei i te tapumati (he). Ka whakaratohia e tenei he taumata tino nui o te haumarutanga."
+      },
+      "hipaaHistory": {
+        "title": "He Korero Poto me te Tirohanga mo te HIPAA",
+        "p1": "Ko te Health Insurance Portability and Accountability Act o 1996 (HIPAA) he ture a te United States e haangai ana ki te tiaki i nga korero hauora turoro tairongo kia kaua e whaakihia me te kore e whakaae, e mohio ana ranei te manawanui. I whai ano hoki ki te whakapai ake i te pai me te whai hua o te punaha hauora.",
+        "p2Title": "Ture HIPAA matua:",
+        "privacyRuleTitle": "Ture Tūmataitinga:",
+        "privacyRuleDescription": "Ka whakatauhia nga paerewa a-motu mo te whakamarumaru i nga korero hauora e mohiotia ana e te tangata takitahi (Nga Moohiohio Hauora Tiaki - PHI). Ka aro atu ki te whakamahi me te whakapuakitanga o te PHI e 'nga hinonga kua hipokina'.",
+        "securityRuleTitle": "Ture Haumarutanga:",
+        "securityRuleDescription": "Ka whakatakoto i nga paerewa a-motu mo te tiaki i te muna, te pono, me te waatea o te PHI hiko (ePHI). E hiahia ana nga hinonga hipoki ki te whakatinana i nga whakamarumaru whakahaere, tinana, hangarau hoki.",
+        "breachRuleTitle": "Waahi Ture Whakamōhiotanga:",
+        "breachRuleDescription": "E hiahia ana nga hinonga hipoki me o ratou hoa pakihi ki te tuku whakamohiotanga i muri i te takahitanga o te PHI kore haumaru.",
+        "coveredEntitiesTitle": "Ko wai nga hinonga kua hipokina?",
+        "coveredEntitiesDescription": "Ko nga ture HIPAA e pa ana ki nga mahere hauora, whare whakamaarama hauora, me nga kaiwhakarato hauora e whakahaere ana i etahi mahi hauora ma te rorohiko (hei tauira, nga taote, nga whare haumanu, nga hohipera, nga rongoa, nga kamupene inihua).",
+        "hipaaMeaningTitle": "He aha te tikanga o te HIPAA mo nga takuta me nga turoro?",
+        "hipaaMeaningDescription": "Mo nga taakuta me etahi atu kaiwhakarato hauora, ka whakahau a HIPAA i nga tikanga tino tika mo te whakahaere i nga raraunga turoro, me te whakarite kei te whakamahia anake mo nga kaupapa e whakaaetia ana (maimoatanga, utu, mahi hauora) me te whakamanatanga a te manawanui. Mo nga turoro, ka tukuna e te HIPAA nga mana mo o raatau korero hauora, tae atu ki nga tika ki te tirotiro me te tiki kape o o raatau rekoata hauora, me te tono whakatikatika."
+      }
+    },
+    "VirtualMDSecurity": {
+      "title": "3. Nga Mahi Haumarutanga a VirtualMD.app",
+      "intro": "Ka whakamahi a VirtualMD.app i tetahi rautaki haumaru-paparanga-maha i hangaia hei tiaki i to putea me to korero whaiaro, ma te whakatenatena mai i nga mahi pai mo te haumarutanga raraunga. Ahakoa he rereke ta matou mahi mai i tetahi kaiwhakarato hauora tuku iho i roto i te horopaki o te HIPAA, ka tukuna e matou nga waahanga haumaru pakari mo nga kaiwhakamahi katoa:",
+      "passwordEncryptionTitle": "Whakamuna Kupuhipa:",
+      "passwordEncryptionDescription": "Ko nga kupuhipa kaiwhakamahi katoa ka whakamunatia ma te whakamahi i nga tikanga hashing paerewa-ahumahi. Ko te tikanga karekau matou e penapena i to kupu huna-tuhi noa, e whakarato ana i te paparanga tino nui o te haumarutanga mo o taipitopito tuakiri.",
+      "twoFactorAuthTitle": "Motuhēhēnga-rua (2FA):",
+      "twoFactorAuthDescription": "Ka whakahaua e matou te 2FA mo nga kaute katoa. Ko tenei me manatoko koe i to tuakiri ma te whakamahi i tetahi take tuarua (te tikanga he waehere ka tukuna ki to imeera kua rehitatia, waea ranei) hei taapiri i to kupuhipa, ka tino whakaitihia te tupono o te urunga putea kore mana.",
+      "threeFactorAuthTitle": "Kōwhiringa Motuhēhē-toru (3FA):",
+      "threeFactorAuthDescription": "Mo te haumarutanga ake, ka tukuna e VirtualMD.app he tatūnga whakamotuhēhēnga-toru. Ki te whakahohea, me uru atu ki to putea me to kupu huna, ka tukuna he waehere ki to wahitau imeera kua rehitatia, me tetahi waehere ka tukuna ma te SMS ki to nama waea pūkoro kua whakamanahia. Na tenei ka hanga he arai whakamataku ki nga nganatanga kore mana ki te uru atu ki o korero rongoa kei roto i to maatau papaahi.",
+      "dataEncryptionTitle": "Whakamuna Raraunga:",
+      "dataEncryptionDescription": "Ko nga korero kei roto i to putea VirtualMD.app, tae atu ki nga raraunga korerorero, ka whakamunatia i te wa okiokinga. Ko nga raraunga ka tukuna i waenga i to taputapu me o maatau kaitoro kua whakamunatia ki te whakawhiti ma te whakamahi i nga tikanga TLS/SSL.",
+      "permanentDeletionTitle": "Muku Raraunga Tuturu:",
+      "permanentDeletionDescription": "Ka whakamanahia koe e matou ki te whakahaere i o raraunga. Kei a koe te kaha ki te whakakore i nga korerorero takitahi, i to putea katoa ranei. Ina mukua, kaore e taea te whakahoki mai i enei korero mai i a maatau punaha tuatahi, e hono ana ki nga maataapono o te whakaiti raraunga me te mana kaiwhakamahi.",
+      "outro": "Ko enei ine e whakarato ana i te taumata o te haumarutanga o nga kaute e rite ana ki tera o nga ratonga ipurangi nui e whakahaere ana i nga raraunga whaiaro tairongo, e whai ana ki te whakarite kia noho motuhake to putea VirtualMD.app me nga korero kei roto, kei raro hoki i to mana whakahaere."
+    },
+    "hipaaConsiderations": {
+      "title": "4. VirtualMD.app & HIPAA Whakaaro",
+      "p1": "He mea nui te mohio ki te mahi a VirtualMD.app me te Ture Whakaaetanga Inihua Hauora (HIPAA) mo o tatou kaiwhakamahi. Ka whakapau kaha matou ki te haumaru me te noho muna o nga korero ka tohatohahia e koe. Kei roto i ta maatau papaahi nga tikanga haumarutanga pakari, pera i nga korero i roto i te waahanga \"Mahinga Haumarutanga a VirtualMD.app\", tae atu ki te whakamunatanga kaha mo nga raraunga i te okiokinga me te whakawhiti, te Whakamotuhēhēnga-rua (2FA), me te Whakamotuhēhēnga-Tuatoru (3FA).",
+      "p2": "Heoi, he mea nui ki te mohio ko VirtualMD.app, i roto i tana ratonga e anga ana ki nga kaihoko o naianei, KORE i te tikanga mo nga keehi e hiahia ana kia tutuki nga ture HIPAA mo te whakauru tika, te rokiroki, te tukatuka ranei o nga Korero Hauora Parea (PHI) e nga kaiwhakamahi e mahi ana hei HIPAA Hipokina Hinonga me o raatau Pakihi Pakihi. Ko nga kaiwhakamahi e hiahia ana kia u ki te ture HIPAA mo te PHI e whakahaerehia ana e ratou, kaua e whakamahi i to maatau papaahi whanui mo nga kaupapa pera mena kaore he Whakaaetanga Pakihi Pakihi (BAA) motuhake me VirtualMD.app mo taua keehi whakamahi whakatapua. Mo te ratonga whaanui, kaua nga kaiwhakamahi e whakauru i nga korero ka taea te whakahoki mai ki tetahi turoro takitahi i roto i te horopaki ka takahi i te HIPAA, me te kore e whakaae mai te manawanui ki te whakamahi i tenei turanga.",
+      "approachTitle": "To Tatou Huarahi: Te Whakataurite i te Whakawhaiaro AI Arā Atu Ake me te Raraunga Raraunga",
+      "p3": "Hei whakarato ki a koe nga tohutohu hauora tino matatau, mohio ki te horopaki, me te whakawhaiaro e taea ana e to maatau AI, ka whakamahi a VirtualMD.app i tetahi punaha maamaa e taea ai e o maatau tangata hauora AI te ako mai i o taunekeneke me te tiri i nga horopaki e tika ana ki a raatau. Ko to tohunga hauora whaiaro AI, hei tauira, he mea hoahoa ki te pupuri i te horopaki puta noa i nga huihuinga me nga AI tohunga rereke hei tuku i te wheako whakakotahi me te mohio.",
+      "p4": "Ko tenei huarahi honohono-a-AI ko te tikanga he rereke nga miihini AI kei raro (ka whakahaerehia pea e nga kaiwhakarato penei i a OpenAI, Anthropic, Google, me etahi atu) ka taea te tukatuka i nga waahanga o o raraunga korero kua tautuhia, kua pseudonymized ranei o o korero korero hei waahanga o te tuku i tenei ratonga. Ahakoa ka whirihorahia e matou te whakamahi i enei API AI tuatoru-tuatoru hei aukati i a raatau ki te whakamahi i o raraunga ki te whakangungu i o raatau tauira whanui (he korero taipitopito i roto i ta maatau waahanga \"Whakamahi Raraunga e nga Kaituku Miihini AI Tuatoru\"), he rereke te ahua o tenei tauira AI toha, he rereke mai i nga tikanga tuku iho, he maha nga wa e hunahia ana, e whakahaere ana i nga raraunga i roto i nga punaha o roto o te kaiwhakarato hauora i hangaia mo te HIPAHIA tino rite.",
+      "p5": "E whakapono ana matou ka taea e tenei huarahi te tuku korero mo te hauora me te tautoko a AI. Heoi ano, me tino mohio: <strong style={{fontWeight: 'bold'}}>tenei whakawhaiaro me te taiao ako-a-AI, i roto i tona ahua whanui o naianei, he tauira whakahaere raraunga e rereke ana i nga whakamarumarutanga whakahaere, tinana, hangarau me nga tikanga whakahaere e whakahaua ana e te HIPAA mo nga Hinonga Taupokina e whakahaere ana i te PHI.",
+      "p6": "Kei te whakapau kaha matou ki te whakapai tonu i to maatau haumarutanga raraunga me te tirotiro i nga huarahi ki te whakangao ake ki nga paerewa raraunga motuhake mo te tiaki hauora mo nga momo taumata ratonga, tuku ranei. Ma te whakamahi i te ratonga whanui a VirtualMD.app, ka whakaae koe, ka whakaae hoki koe ki tenei toenga o naianei: ko te whakamahi i te AI matatau, hono hono mo nga matauranga hauora pai ake, he rereke te tauira whakahaere raraunga i tera o tetahi kaiwhakarato hauora tuku iho e mahi ana i raro i te HIPAA.",
+      "informedDiscussionsTitle": "Te Whakatairanga i nga Matapaki Maamaa",
+      "p7": "Mena kei te hiahia tetahi kaiwhakamahi, ina koa he tohunga hauora, ki te matapaki i nga korero e pa ana ki tetahi tangata motuhake (he manawanui), na te kaiwhakamahi <strong style={{fontWeight: 'bold'}}>te kawenga</strong>ki te whakarite kua whiwhi ratou i nga whakaaetanga katoa e tika ana, e tika ana i runga i te ture mai i taua tangata. Ko taua whakaaetanga me whakaatu marama i te mohiotanga o te tangata kei te korerohia nga korero i runga i te papaaarangi, ahakoa e haumaru ana, kaore i te whakahaere i raro i tetahi Whakaaetanga Tuarua Pakihi HIPAA me te kaiwhakamahi mo taua tauwhitinga motuhake me te rereke o te whakahaerenga raraunga o te papaaho mai i nga punaha tuku iho-a-HIPAA.",
+      "p8": "Ko nga kaiwhakamahi e hiahia ana ki te whakawhiti i nga korero i korerohia i runga i VirtualMD.app ki tetahi punaha whaimana HIPAA (hei tauira, te Rekoata Hauora Hiko a to taakuta) kei a raatau te kawenga mo te mahi haumaru me te rite ki nga ture katoa e pa ana me nga tikanga kua whakaritea e to raatau kaiwhakarato.",
+      "alignmentTitle": "Ko Te Wāhi Ka Whakaritea ki nga Tikanga HIPAA (I tua atu i te Haumarutanga Whanui)",
+      "userControlTitle": "Mana Kaiwhakamahi me te Muku Raraunga:",
+      "userControlDescription": "Ka hoatu e matou ki a koe nga taputapu ki te uru atu me te whakakore tonu i o korero me o korero kaute, kia rite ki nga maataapono o te whakaiti i nga raraunga me nga motika o te tangata takitahi e aro nui ana ki nga ture tūmataiti.",
+      "anonymizationTitle": "Whakaingoatanga mo te Whakapai i te punaha:",
+      "anonymizationDescription": "Ko ta matou whakamahi i nga raraunga ingoamuna, whakahiato mo te whakapai ake i te punaha he tikanga, ina tika ana te mahi, he huarahi paerewa mo te whakarei ake i nga ratonga AI i te wa e tiakina ana e te tangata takitahi."
+    },
+    "userResponsibility": {
+      "title": "5. Haepapa Kaiwhakamahi & Whakamahi Matatika",
+      "intro": "Ka whakaratohia e VirtualMD.app nga taputapu AI kaha mo te uru atu ki nga korero rongoa me te whai waahi ki nga korerorero e pa ana ki te hauora. Ahakoa e tohe ana matou mo te tika me te haumarutanga, ko te whakamahi haepapa o to maatau papa he herenga tahi. Ma te whakamahi i te VirtualMD.app, ka whakaae koe ki te u ki nga aratohu matatika me te mohio ki nga kaha me nga here o te turanga.",
+      "agreementTitle": "To Whakaaetanga mo te Whakawhitiwhiti Matatika:",
+      "noReviewTitle": "Karekau he Arotakenga mo nga Korero Whaiaro:",
+      "noReviewDescription": "Hei whakamarumaru i to noho muna, kaore nga kaimahi VirtualMD.app e arotake i o korero korero me o maatau tangata AI. E whakaatu ana tenei i te hiranga o to whakamahi tika i te turanga.",
+      "prohibitedContentTitle": "Ihirangi kua Rahuitia - He kino ki a koe ano, ki etahi atu ranei:",
+      "prohibitedContentDescription": "E whakaae ana koe kia kaua e whakamahi i te VirtualMD.app ki te rapu korero, arataki ranei mo te mahi kino i a koe, i etahi atu ranei. Kaore to maatau papa i hangaia mo te wawaotanga raru i roto i enei ahuatanga. Mena kei te raruraru koe i a koe ano, kei te tukino koe i etahi atu, me waea atu ki nga ratonga whawhati tata, ki te waea waea raru ranei.",
+      "consultPractitionerTitle": "Korero atu ki to Kaitoi Hauora:",
+      "consultPractitionerDescription": "He taputapu korero a VirtualMD.app me te KORE hei whakakapi mo nga tohutohu hauora ngaio, te taatai, te maimoatanga ranei mai i tetahi kaiwhakarato hauora whai mana. Me korero tonu ki to taakuta, ki etahi atu tohunga hauora whai tohu mo nga ahuatanga hauora kino, i mua ranei i te whakatau i nga whakatau e pa ana ki to hauora.",
+      "emergencySituationsTitle": "Nga ahuatanga ohorere:",
+      "emergencySituationsDescription": "KORE e taea e VirtualMD.app te mahi mo koe i roto i te ohorere. Hei tauira, ki te kii te punaha me waea koe ki te 911 ka haere ranei ki te ruma ohorere i runga i nga korero ka tukuna e koe, kei a koe anake te kawenga mo te mahi i taua mahi. Ko ta maatau papaahi kaore he mana ki te tuku ratonga ohorere.",
+      "outro": "Ko to piri ki enei aratohu ka whakarite he taiao haumaru me te whai hua mo nga kaiwhakamahi katoa me te awhina ki te pupuri i te pono o te tukanga rapu korero."
+    },
+    "privacyScenarios": {
+      "title": "6. Nga Ahuatanga Whaiaro Whaiaro me nga Whakaaro Ake",
+      "scenario1Title": "Tauari 1: Te Matapaki i nga Take Hauora Taapiri",
+      "scenario1Question": "Ka patai koe: \"E hiahia ana ahau ki te patai atu ki te roopu AI a VirtualMD.app mo tetahi take e pa ana ki te hauora e kore e pai me te whakama. He aha te tiaki i ahau?\"",
+      "scenario1Answer": "Ko ta matou Whakautu: Kei te mohio matou ka taea e nga korerorero mo te hauora te tino korero mo te tangata. He maha nga paparanga hei tiaki i a koe:",
+      "confidentialConvosTitle": "Nga Korero Matatapu:",
+      "confidentialConvosDescription": "Ko o korero me o maatau tangata AI i hangaia kia noho motuhake. Ka rite ki te korero i roto i ta maatau Whakaaetanga Matatapu, kaore nga kaimahi VirtualMD.app e arotake i nga korero mo o korero korero.",
+      "dataEncryptionTitle": "Whakamuna Raraunga:",
+      "dataEncryptionDescription": "Ko nga raraunga korerorero katoa kua whakamunatia i roto i te whakawhiti (i waenga i to taputapu me o maatau kaitoro e whakamahi ana i te TLS/SSL) me te okiokinga (i te wa e penapena ana ki o maatau papaa raraunga).",
+      "accountSecurityTitle": "Haumarutanga Pūkete:",
+      "accountSecurityDescription": "Ka parea to putea e to kupu huna me te whakamotuhēhēnga-rua-rua (2FA), me te kowhiringa mo te Motuhēhēnga Toru-Tau (3FA), ka tino uaua te urunga kore mana ki to hitori korero.",
+      "deletionControlTitle": "Mana Muku Raraunga:",
+      "deletionControlDescription": "Kei a koe te mana ki te muku tuturu i tetahi korerorero motuhake, i to putea katoa ranei i nga wa katoa, ma nga huarahi i hangaia kia kore e taea te whakahoki mai i o maatau punaha tuatahi.",
+      "anonymizationTitle": "Whakaingoatanga mo te Whakapai ake:",
+      "anonymizationDescription": "Ko nga raraunga ingoamuna me te whakahiato anake (kua tangohia nga tohu tohu whaiaro katoa) ka whakamahia hei whakapai ake i o maatau tauira AI. Ko to korero korero whaiaro, ka taea te tautuhi kaore e whakamahia mo tenei kaupapa me te kore ingoamuna.",
+      "scenario1Outro": "Ahakoa he whakamarumaru kaha enei mahi, me mahara tonu kaore he punaha e kore e taea te uru. Ka whakatenatena matou i nga kaiwhakamahi kia mahara ki nga korero ka tohatohahia e ratou, pera i a raatau i roto i nga korero mamati.",
+      "scenario2Title": "Tauari 2: Te Rokiroki i nga Moohiohio Whakaaturanga (hei tauira, Nga rongoa)",
+      "scenario2Question": "Ka patai koe: \"Kei runga ahau i etahi rongoa me te hiahia ki te penapena i roto i taku whaarangi kia whai horopaki ai a AI Health Expert Carol mo nga korerorero hou. Me pehea te tiaki i aku raraunga kia kore ai nga AI anake kaore he tangata e uru atu?\"",
+      "scenario2Answer": "To Tatou Whakautu: Ko te penapena i nga korero rongoa i roto i to korero ka taea te whakanui i te horopaki o nga whakautu AI. Anei me pehea te tiaki i taua raraunga:",
+      "profileSecurityTitle": "Haumarutanga Raraunga Kōtaha:",
+      "profileSecurityDescription": "Pērā i ō raraunga kōrerorero, ko ō pārongo kōtaha, tae atu ki ngā rārangi rongoā, ka tiakina e te haumarutanga pūkete ōrite (kupuhipa, 2FA/3FA) me te whakamunatanga (i te okiokinga me te whakawhiti).",
+      "accessControlsTitle": "Mana Uru me te Kaupapa here:",
+      "accessControlsDescription": "Ko te uru atu ki nga rekoata raraunga kaiwhakamahi e nga kaimahi VirtualMD.app ka tino whakahaerehia, he iti ki nga tangata whai mana mo nga hiahia whakahaere motuhake, tautoko ranei (hei tauira, te awhina i tetahi take kaute ka ripoatahia e koe), ka whakahaerehia e nga kaupapa here tūmataiti me te takiuru. Ko te tirotiro i nga wa katoa o nga raraunga kotaha kaiwhakamahi e aukati ana.",
+      "aiAccessTitle": "Te Uru AI mo te Horopaki:",
+      "aiAccessDescription": "Ko nga tangata AI, pera i a AI Health Expert Carol, ka uru atu ki nga waahanga e tika ana o to korero (penei i nga rarangi rongoa, mena kua whakaratohia e koe) ma te whakamaarama ki te whakarato i nga whakautu horopaki i a koe e korerorero ana. Ko tenei urunga tetahi waahanga o te arorau whakahaere a AI kia pai ake ai te mahi ki a koe.",
+      "techNoteTitle": "Tuhipoka Hangarau: Whakamunatanga o nga Raraunga Korero",
+      "techNoteQuestion": "I patai koe: \"Ka taea ranei te tarai i nga karere kia kore ai e taea e nga tangata whakahaere te kamupene te panui (penei i nga kupuhipa) me te kore e tino whakaae?\"",
+      "techNoteP1": "E pa ana tenei ki nga ariā penei i te whakamunatanga mutunga-ki-mutunga (E2EE) ko te kaiwhakamahi mutunga anake te pupuri i te matua wetemunatanga. Ka whakamahia e VirtualMD.app he <strong style={{fontWeight: 'bold'}}>whakamunatanga i te okiokinga</strong> mo nga raraunga tairongo katoa, tae atu ki to hitori korero me nga korero korero, ma te whakamahi i nga algorithms kaha, paerewa-ahumahi. Ko te tikanga kua whakamunatia nga raraunga e rongoa ana i roto i o maatau paparangi.",
+      "techNoteP2": "Ahakoa kaore matou i te whakatinana i tetahi punaha E2EE matua motuhake mo nga raraunga korero ka kore e taea e nga kaiwhakahaere punaha whai mana ki te wetewete (he rite ki te maha o nga ratonga kapua e whakahaere ana), ka tino aukatihia te uru ki nga raraunga whakamunatia, ka uru, ka whakahaeretia e te haumarutanga o roto me nga kaupapa here tūmataiti. Ka aukatihia a maatau kaimahi ki te uru atu ki o korero korero motuhake engari i raro i nga ahuatanga tino motuhake me te whakahaere, penei i te whakautu ki tetahi tono tautoko tika mai i a koe mo tetahi korerorero motuhake, e hiahiatia ana ranei e te ture. Ko tenei huarahi ka whakataurite i te haumarutanga kaha me nga hiahia whakahaere mo te pupuri me te tautoko i te turanga.",
+      "techNoteP3": "Heoi, he rereke te ahua o to kupuhipa putea: kua werohia me te tote, ko te tikanga kaore rawa matou e penapena i to kupuhipa tuuturu, kaore e taea te whakahoki mai.",
+      "thirdPartyDataTitle": "Te Whakamahi Raraunga e nga Kaituku Momo AI Tuatoru",
+      "thirdPartyDataQuestion": "I patai ano koe: \"Ko nga API mo nga miihini AI e whakamahia ana e matou ka taea te whakamarumaru mai i te whakamahi mo te whakangungu e (a) VirtualMD.app (b) OpenAI, (c) Anthropic...etc...? Ka tiakina katoa ranei he priori ma te taunoa?\"",
+      "thirdPartyDataAnswer": "He waahanga nui tenei o ta maatau whakahaere raraunga:",
+      "VirtualMDTrainingTitle": "(a) VirtualMD.app:",
+      "VirtualMDTrainingDescription": "Ka rite ki te korero i roto i ta matou Oati Matatapu, ka whakamahi noa matou i nga raraunga ingoamuna me te whakahiato mo te whakapai o roto me te whakangungu o a maatau punaha mana me te arorau whakahoahoa AI. Ko o raraunga whaiaro, korero korero mata ranei kaore e whakamahia mo tenei kaupapa me te kore ingoamuna.",
+      "thirdPartyTrainingTitle": "(b, c, me etahi atu) Kaiwhakarato API AI Tuatoru (hei tauira, OpenAI, Anthropic):",
+      "thirdPartyTrainingDescription": "Ko VirtualMD.app ka ata whiriwhiri me te whakauru ki nga kaiwhakarato tauira AI rangatira. Mo nga ratonga ka uru atu ma o raatau API (Atanga Papatono Tono), ko nga kaiwhakarato nui pera i a OpenAI me Anthropic he kaupapa here whakamahi raraunga e kii ana ko nga raraunga i tukuna ma o raatau API KORE e whakamahia e ratou ki te whakangungu i o raatau tauira turanga whanui. Ka whirihorahia e matou ta matou whakamahi i enei ratonga kia rite ki enei whiringa tiaki-taputapu. Ka akiaki matou ki a koe ki te arotake ano i nga kaupapa here whakamahi raraunga o enei kaiwhakarato AI kei raro i a koe mena kei a koe etahi awangawanga.",
+      "outro": "Ka whakapau kaha matou ki te whakarite kia kore e whai whakaaro noa o taunekeneke engari ka whakahaeretia ma te whakaute mo to noho muna puta noa i to maatau papaahi me o maatau hoa hangarau."
+    },
+    "conclusion": {
+      "title": "7. Te Whakamutunga me nga Kawenga Matua",
+      "intro": "Kua whakatapua a VirtualMD.app ki te whakamana i nga kaiwhakamahi ki nga korero hauora e waatea ana me te maarama ma te AI matatau. Ka aro nui matou ki te haumarutanga o o raraunga whaiaro me nga tikanga pakari tae atu ki te motuhēhēnga-maha me te whakamunatanga. Ahakoa e tohe ana matou mo nga paerewa teitei o te whakamarumaru raraunga, ko ta maatau papaapapa whanui ehara i te whakakapi mo nga ratonga e rite ana ki te HIPAA mo te tiaki tuuroro tika e nga kaiwhakarato hauora motuhake. Me mohio nga kaiwhakamahi ki enei wehewehenga me te whakamahi i te VirtualMD.app ma te tika me te tika.",
+      "recapTitle": "Nga Tohu Matua hei Maharahara:",
+      "privacyPriorityTitle": "Ko to Matatapu he kaupapa matua:",
+      "privacyPriorityDescription": "Ka tiakina e matou o raraunga me te kore e hoko i o korero whaiaro.",
+      "anonymizedDataTitle": "Raraunga ingoamuna mo te whakapai ake:",
+      "anonymizedDataDescription": "Ka whakamahi matou i nga raraunga kore-tautuhi hei whakarei ake i o maatau AI me nga ratonga papaaho.",
+      "accountSecurityTitle": "Haumarutanga Pūkete Kaha:",
+      "accountSecurityDescription": "Ka whakaekea e matou te 2FA (whakamana) me te 3FA (he kowhiringa) mo te tiaki kaute, he rite ki te arahi i nga ratonga ipurangi.",
+      "dataControlTitle": "Mana Raraunga:",
+      "dataControlDescription": "Ka taea e koe te whakakore i nga korerorero me to putea.",
+      "hipaaConsiderationsTitle": "Nga Whakaaro HIPAA:",
+      "hipaaConsiderationsDescription": "Ko te ratonga whanui a VirtualMD.app ehara i te Hinonga HIPAA. Ka parea e matou nga raraunga engari he rereke mai i te hanganga ture HIPAA mo te tiaki tuuroro tika me nga kaiwhakarato motuhake.",
+      "ethicalUseTitle": "Me Whakamahi Matatika:",
+      "ethicalUseDescription": "Kaua e whakamahi mo te whakakino i a koe ano/kino ki etahi atu. Me toro atu ki nga tohunga hauora mo nga ahuatanga kino. Kaore e taea e matou te tuku ratonga ohorere.",
+      "outro": "Ka akiaki matou ki a koe ki te whakamahi i te VirtualMD.app hei taputapu kaha mo te ako me te tuhura, me te hono tonu me nga kaiarahi mai i nga tohunga ngaio hauora whai mana. Ko to maaramatanga ki enei kaupapa here ka awhina i a maatau ki te pupuri i tetahi papaaahuru, haumaru me te whai hua mo te katoa."
+    }
+  },
+  "imagingAIExplainer": {
+    "title": "Te mohio ki a AI i nga Pikitia Hauora",
+    "subtitle": "He aratohu ngawari mo te awhina a nga rorohiko i nga tohunga hauora kia maarama ake.",
+    "author": "I whakamaramatia e: Ron Rubin, PhD (VirtualMD.app Hangarau)",
+    "whatIsImaging": {
+      "title": "He aha nga Pikitia Hauora (Whakaahua)?",
+      "intro": "Whakaarohia nga whakaahua hauora penei i te tango pikitia i roto i to tinana. Ka whakamahi nga tohunga hauora i nga miihini motuhake hei hanga i enei pikitia, hei awhina ia ratou ki te kite i nga wheua, nga whekau, nga kopa, me nga oko toto me te kore e mahi pokanga. Hei tauira, he pai rawa te hihi-X mo te kite i nga wheua ki te rapu i te whati, engari ma te CT scan e whakaatu ana i te kiko, te whiti-whitinga tirohanga o te okana penei i te roro.",
+      "typesIntro": "Ko nga momo noa ko:",
+      "types": {
+        "xrays": "<strong>Ngā hihi:</strong> He pai mō te kite i ngā hanganga mātotoru pēnei i te kōiwi.",
+        "ctScans": "<strong>CT Scans:</strong> Pērā i te tino taipitopito, 3D X-ray, e whakaatu ana i nga \"poro\" o te tinana.",
+        "mriScans": "<strong>MRI Matawai:</strong> Ka whakamahi aukume kaha ki te tiki pikitia tino marama o nga kopa ngohe, penei i te roro, nga uaua, nga uaua ranei.",
+        "ultrasound": "<strong>Ultrasound:</strong> Ka whakamahi ngaru oro ki te kite i nga whekau, me te mea tino mohio, ki te tirotiro i nga pepi i te wa e hapu ana.",
+        "microscope": "<strong>Microscope Kiriata:</strong> Ka tirohia nga tauira kiko iti i raro i te karu hei tirotiro i nga mate i te taumata pūkoro (Pathology).",
+        "eyePhotos": "<strong>Whakaahua Karu:</strong> He whakaahua motuhake o roto o te kanohi hei tirotiro mo nga ahuatanga penei i te retinopathy mate huka (Ophthalmology).",
+        "cameraScopes": "<strong>Pills/Scopes Camera:</strong> Ko nga kamera iti i whakamahia ki te titiro ki roto i te punaha keri (Gastroenterology)."
+      },
+      "outro": "He taputapu nui enei pikitia hei awhina i nga tohunga hauora ki te tirotiro i nga mate, ki te tirotiro i te pai o te mahi maimoatanga, ki te tirotiro wawe ranei mo nga raru pea."
+    },
+    "whatIsAI": {
+      "title": "He aha te Artificial Intelligence (AI)?",
+      "intro": "Ko AI te tino pūtaiao o te whakaako rorohiko ki te mahi i nga mahi e hiahia ana kia mohio te tangata, penei i te ako mai i nga tauira, te whakaoti rapanga, me te whakatau. I roto i nga whakaahua hauora, ka taea e tatou te whakaaro mo AI hei kaiawhina tino mohio mo nga tohunga hauora.",
+      "process": "Ka whakamahia e ia nga kaupapa rorohiko motuhake (algorithm) kua whakangunguhia mo nga mano, ahakoa miriona ranei, o nga pikitia rongoa. Ma te wetewete i te tini o nga raraunga, ka ako te AI ki te kite i nga tauira ngawari—he uaua etahi o enei ma te kanohi tangata e kite, he tauira ranei e tohu ana he nui te tupono o tetahi mate. Ko te tikanga matua ko nga raraunga (nga whakaahua) ka tukuna ki roto i te AI, ka puta he maaramatanga, penei i te haki i tetahi waahi whakapae."
+    },
+    "howAIHelps": {
+      "title": "Me pehea e awhina ai a AI me nga pikitia hauora?",
+      "intro": "Ko ta maatau rangahau putaiao e whakaatu ana i nga huarahi matua kua puta kee a AI:",
+      "accuracy": {
+        "title": "Te Rapu Raruraru Tika Atu",
+        "description": "I etahi wa, ko nga tohu tuatahi o te mate he tino ngawari me te ngawari ki te ngaro i te karapa. Ka taea e AI te mahi hei kanohi takirua tuarua, ma te tirotiro nahanaha i nga waahanga katoa o te ahua me te whakaatu i nga waahanga e tika ana kia ata tirohia. Hei tauira, ka taea e te AI te tuhi porowhita huri noa i tetahi tautau iti o nga pūtau i runga i te mammogram ka tohu moata mo te mate pukupuku.",
+        "example": "<strong>He tauira:</strong> I roto i nga mammograms (hihi X-u), i whakaatu tetahi rangahau i awhina a AI ki te kimi i te 29% atu o nga mate pukupuku me te kore e tohu i nga kaiwhakamahi hauora i te he. I roto i te colonoscopies (te rapu i nga tipu e kiia nei he polyps), i awhina a AI i nga tohunga hauora ki te kimi i nga polyps i mua i te mate pukupuku ma te whakaatu i a raatau i te waa-a-waa i runga i te whangai ataata."
+      },
+      "speed": {
+        "title": "Te Whakatere Mea",
+        "description": "Ko te panui i nga whakaahua rongoa, ina koa ko nga mea uaua penei i nga karapa CT tinana katoa, he nui te wa me te aro. Ka taea e AI te whakatere i tenei mahi. Ka taea e ia te whakariterite i mua i nga keehi, te tohu i nga mea tino akiaki mo te arotake tonu, ka whakahaere ranei i nga mahi tirotiro i nga wa katoa kia waatea ai te wa o nga tohunga.",
+        "example": "<strong>He tauira:</strong> Ka taea e te punaha AI mo te tirotiro i nga whakaahua kanohi mo nga tohu o te kino o te mate huka (diabetic retinopathy) ka puta he hua i roto tonu i te whare hauora tuatahi. Ko te tikanga karekau nga turoro e tatari mo te hui ki tetahi tohunga kanohi mo te tirotiro noa, ka tere ake te tiaki i nga tangata maha. I roto i tetahi atu rangahau nui, i awhina a AI ki te whakaiti i te wa i whakapaua e nga kaitoro irirangi ki te panui mammograms tata ki te haurua."
+      },
+      "consistency": {
+        "title": "Te Whakamaramatanga kia rite tonu",
+        "description": "Ahakoa i waenga i nga tohunga, he iti noa nga rereketanga o te ahuatanga o te whakamaoritanga o te ahua. Ka whakarato a AI i te wetewete, i nga wa katoa, e awhina ana ki te whakaiti i tenei rereketanga.",
+        "example": "<strong>He tauira:</strong> Ina titiro koe ki nga tauira kiko i raro i te karu (pathology), ka taea te whakatau i te \"koeke\" tika o te puku i etahi wa ka rangirua. Ko te punaha AI, i whakangungua i runga i nga raraunga kua whakamanahia e te roopu tohunga, ka taea te whakarato i te reanga riterite, me te whakarite kia pai ake nga hua me te pono puta noa i nga tohunga hauora me nga whakaurunga rereke."
+      }
+    },
+    "challenges": {
+      "title": "He tino pai a AI?",
+      "intro": "Kao, he mea nui kia mohio ki ona here. Ahakoa he kaha a AI, he wero nui hei whakatika:",
+      "bias": "<strong>Te Tika me te Whakawhanaunga:</strong> He rite te pai o te AI ki nga raraunga e whakangungua ana. Mena ka whakangunguhia i runga i nga pikitia mai i tetahi roopu tangata, kaore pea e pai mo etahi atu. Ko te whakarite i nga raraunga whakangungu kanorau he mea nui ki te aukati i te whakapae.",
+      "uncommonCases": "<strong>Ngā Take Taunoa:</strong> He pai a AI ki te mohio ki nga tauira kua kitea e ia i nga wa maha. Ka raru pea ki nga mate onge, ki nga whakaaturanga rereke ranei kaore ano kia whakangungua.",
+      "teamwork": "<strong>Te Hiranga o te Mahi Mahi:</strong> Ko te huarahi pai ko te mahi tahi a te tangata-AI. He taputapu a AI ki te *awhina* i nga tohunga hauora ma te whakahaere i nga mahi kaha-raraunga, engari kaore e whakakapi i o raatau wheako, ngakau aroha, me te mohio ki te kaiwhakamahi katoa.",
+      "regulation": "<strong>Haumaru me te Ture:</strong> Pērā i ngā taputapu hauora hou, me tino whakamātautau nga taputapu AI, te whakamana, me te aro turuki tonu kia noho haumaru, whai hua, me te whai hua pono ki nga kaiwhakamahi.",
+      "outro": "Kei te whakapau kaha nga kairangahau me nga kaiwhakahaere ki te whakatutuki i enei wero. Ko te whainga ko te whakauru i te AI ki roto i te hauora ma te haumaru me te whai hua hei whakapai ake i nga hua o te manawanui."
+    },
+    "conclusion": {
+      "title": "I roto i te poto",
+      "text": "Kei te noho a AI hei hoa whai hua mo nga whakaahua hauora, e awhina ana i nga tohunga hauora ki te rapu mate i mua ake, tere, me te pono. He rite ki te whakanikoniko i nga tohunga hauora me te kaiawhina kore e ngenge ki te arotake i nga pikitia uaua, i te mutunga ka pai ake te tiaki i nga kaiwhakamahi."
+    }
+  },
+  "mentalHealthWhitepaper": {
+    "title": "AI i roto i te Hauora Hinengaro: Nga Whakanuia, Nga Wero, me nga Tono Haumanu",
+    "authors": "Ron Rubin, PhD me Sandy Miles",
+    "organization": "Hangarau VirtualMD.app",
+    "disclaimer": {
+      "title": "Whakakahoretanga Hiranga",
+      "text": "Ahakoa e tuku ana a VirtualMD.app i te hangarau AI mo te aromatawai me te awhina i te hauora hinengaro, he mea nui kia mohio ko a maatau punaha AI, ahakoa o raatau maamaa, ehara i te whakakapi mo nga tohunga hauora hinengaro raihana. Ko nga korero me nga mohiotanga ka tukuna me arotakehia e nga kaiwhakarato hauora whai mana. I roto i te ohorere hauora hinengaro, waeahia te 911 (US), 999 (UK), 112 (EU), 101 (Israel), ranei 911 (Kanada) tonu, haere ranei ki to tari whawhati tata tata. Mo nga raruraru hauora hinengaro, whakatau maimoatanga ranei, me korero tonu ki nga kaiwhakarato hauora tangata whai mana. I hangaia te hangarau VirtualMD.app ki te whakanui me te tautoko i te hauora hinengaro ngaio, kaua e whakakapi."
+    },
+    "abstract": {
+      "title": "Putanga",
+      "text": "Ka tirotirohia e tenei pepa te mahi tere tipu o te matauranga hangai i roto i te tiaki hauora hinengaro, e whakaatu ana i nga ahunga whakamua o naianei, nga taunakitanga o te whaihua, me nga wero whakatinanatanga. Ka arotakehia e matou nga whanaketanga puta noa i nga waahanga e wha: te tautoko tātaritanga, nga tono rongoa, te aro turuki i te manawanui, me te tātari matapae. Ko nga rangahau haumanu tata nei e whakaatu ana ka taea e nga punaha AI te whakatutuki i te 80-92% te tika ki te kite i te pouri nui mai i nga tauira reo me nga tohu koiora reo, i te mea ka taea e nga huringa matakite rorohiko te tautuhi i te tupono ki te whakamomori me te 85% te tairongo ma te tātari i nga whakaaturanga kanohi me nga nekehanga moroiti. Ko nga tauira tukatuka reo maori i whakangunguhia mo nga korerorero rongoa e whakaatu ana i te oati ki te tuku i nga maataapono whakamaarama whanonga hinengaro, me nga whakamatautau whakahaere matapōkeretia e tohu ana i te whai huatanga e rite ana ki nga kaitakawaenga tangata mo te pouri me te awangawanga ngawari (Journal of Medical Internet Research, 2022). Ka taea e nga punaha aro turuki i runga i te waea atamai te kite i nga tohu whakatupato moata mo te hokinga mai o te mate hinengaro nui ki te 7 ra i mua i te ahua o te kino o te haumanu (JAMA Psychiatry, 2021). Ahakoa enei ahunga whakamua, ka mau tonu nga wero nui, tae atu ki te whirihoranga algorithm, te whakamanatanga iti puta noa i nga taupori kanorau, nga awangawanga tūmataiti, me te whakauru ki nga rerenga mahi haumanu. Ka matapakihia e matou nga whakaaro matatika, nga anga ture, me nga tikanga arotake mo te hauora hinengaro AI. Ahakoa e whakaatu ana nga hangarau AI i te oati nui mo te whakawhänui i te uru ki te hauora hinengaro me te whakarei ake i te kaha o te maimoatanga, me whakawhanake me te horahia i roto i te anga matawhānui e aro nui ana ki te whakamana haumanu, nga whakaaro matatika, me te whakatinana i te tangata ki te whakapai ake i nga hua hauora hinengaro."
+    },
+    "introduction": {
+      "title": "Kupu Whakataki",
+      "text": "Ko te taumahatanga o te mate hinengaro tetahi o nga tino wero nui o te hauora...",
+      "p1": "Ko te taumahatanga o te mate hinengaro tetahi o nga tino wero o te hauora. Tata ki te kotahi i roto i te rima nga pakeke puta noa i te ao ka pa ki nga mate hinengaro i ia tau, me te pouri anake e pa ana ki te 300 miriona taangata o te ao (WHO, 2022). I taua wa, ko nga ngoikoretanga o nga kaimahi e aukati ana i te uru ki te tiaki - e kii ana te Roopu Hauora o te Ao he ngoikore te ao mo te 1.18 miriona nga tohunga hauora hinengaro. Na tenei mokowhiti i waenga i nga hiahia me nga rauemi e waatea ana i tere ake te hiahia ki nga rongoaa-hangarau, ina koa nga punaha mohio (AI) ka taea te whakawhānui ake i te toronga me te kaha o nga ratonga hauora hinengaro.",
+      "p2": "Ko te whakawhitinga o AI me te hauora hinengaro kua whakaatu i te tipu whakamiharo i roto i nga tau tekau kua hipa. Mai i nga taputapu tirotiro aunoa me nga kaikorero korero ki te tātari matapae mo te aukati i te hokinga mai, kua tino piki haere nga tono AI mo te hinengaro me te hinengaro. Ko tenei kunenga kua whakahoahohia e te ahunga whakamua i roto i te tukatuka reo maori, te ako miihini, te tirohanga rorohiko, me te horapa o nga whai waahi tohu tohu mamati ma nga waea atamai me nga taputapu kakahu.",
+      "p3": "Ko te hauora hinengaro he wero ahurei me nga whai waahi mo te whakatinana AI. Kaore i rite ki te maha o nga tohungatanga rongoa, ka whakawhirinaki nui te aromatawai hinengaro ki nga purongo kaupapa, nga whanonga e kitea ana, nga tauira reo, me nga ahuatanga o te horopaki, kaua ki nga whakamatautau taiwhanga, atahanga ranei. He pai tenei ki te tipu haere o te kaha o AI ki te mohio ki te reo, te tohu tauira i roto i nga raraunga whanonga, me te wetewete i nga ahuatanga maha o nga whakaaturanga kare-a-roto.",
+      "p4": "Ko tenei pepa he arotake matawhānui o nga tono AI o naianei i roto i te hauora hinengaro, te tirotiro i te turanga taunakitanga mo o raatau whaihua, huarahi tikanga, wero whakatinanatanga, me nga whakaaro matatika. Ka whakarite matou i ta matou tātaritanga huri noa i nga rohe tuatahi e wha: nga punaha tautoko tātaritanga, nga tono rongoa, te aro turuki i nga turoro, me te tātari matapae mo te whakamahere maimoatanga. I ia waahi, ka aromatawaihia e matou te ahuatanga o te hangarau o naianei, ka whakarāpopoto i nga kitenga rangahau matua, me te tautuhi i nga waahi tino nui hei tirotirohia.",
+      "p5": "He mea nui kia maumahara ahakoa nga ahunga whakamua nui, ko nga taputapu AI i roto i te hauora hinengaro e kii ana ki te whakanui, kaua ki te whakakapi, nga rata tangata. Ko te hononga rongoa i waenga i te manawanui me te kaiwhakarato ka noho tonu ki te kaupapa hauora hinengaro whai hua. Ko nga tono tino whaihua e whakamahi ana i te AI ki te whakawhānui ake i nga kaha o te kaiwhakarato, ki te whakapai ake i te pai, ki te whakaahei i te wawaotanga o mua, me te whakapiki ake i te uru ki te tiaki i runga taunakitanga mo nga taupori iti."
+    },
+    "methods": {
+      "title": "Tikanga/Hangarau",
+      "text": "Ko nga punaha AI o naianei i roto i te hauora hinengaro e whakamahi ana i nga huarahi tikanga rereke...",
+      "p1": "Ko nga punaha AI o naianei i roto i te hauora hinengaro e whakamahi ana i nga huarahi tikanga kanorau, kei ia tangata he painga motuhake mo nga tono haumanu rereke. Ko nga turanga hangarau matua ko te tukatuka reo maori (NLP), te ako miihini (ML), te tirohanga rorohiko, me te tohu tohu mamati.",
+      "p2": "Ko te Tukatuka Reo Maori (NLP) te tuara o te maha o nga punaha AI hauora hinengaro, e taea ai te tātari i nga ihirangi reo me nga tauira korero. Ko nga tauira e ahu mai ana i te huringa matatau penei i te BERT (Bidirectional Encoder Representations from Transformers) me te GPT (Generative Pre-trained Transformer) ka taea e nga punaha te whakamaori i nga korero haumanu, nga tuhinga whakamaarama whakamaarama, me nga tuhinga i hangaia e te manawanui me te tino mohio ki te horopaki, te whakaaro, me te ihirangi hinengaro. Ka taea e enei tauira te tautuhi i nga tohu reo e pa ana ki nga ahuatanga motuhake, penei i te iti o te matatini o te syntactic i roto i te pouri, i te whakararu i te hononga o te reo i roto i nga raruraru hinengaro. Ko nga punaha NLP haumanu tino matatau he pai te whakarite mo te roopu hauora-a-hinengaro, tae atu ki nga tuhinga haumanu ingoamuna, tuhinga whakamaarama, me nga taputapu aromatawai hinengaro kua whakamanahia.",
+      "p3": "Ko nga huarahi Ako Miihini i roto i nga waahanga hauora hinengaro e maatakihia ana (mo nga tono tātaritanga), te whakahiato kaore i te tirotirohia (mo te tautuhi i nga tauira tohu tohu hou), te ako whakakaha (mo nga mahi whakawhaiaro), me te ako hohonu mo te whakauru raraunga maha. Ko nga raraunga whakangungu ko te nuinga o nga aromatawai haumanu kua hangahia (hei tauira, PHQ-9 mo te pouri, GAD-7 mo te awangawanga), nga tikanga whanonga, nga tohu whaiaroaro, me nga raraunga rekoata hauora hiko. I te nuinga o te wa ka whakamahia e nga tikanga whakamana te whakamana-whakawhiti-k-fold me nga huinga whakamatautau o waho, me te aromatawai i nga mahi ma te whakamahi i te tairongo, te motuhake, te uara matapae pai/kino, me te waahi kei raro i te anau ahuatanga whakahaere (AUC-ROC).",
+      "p4": "Ka tātarihia e nga tono Rorohiko Tirohanga nga ahua kanohi, nga tauira motuka, me nga whanonga kore korero e pa ana ki nga ahuatanga hinengaro. Ka taea e nga whatunga neural convolutional me nga tauira a-tinana (hei tauira, nga whatunga LSTM) te kite i nga whakaaturanga moroiti, nga tauira titiro, me nga huringa hinengaro e tohu ana i nga ahuatanga kare-a-roto, i nga tohu tohu ranei. He mea tino nui enei punaha mo nga ahuatanga e awhina ana te tirotiro whanonga ki te tātaritanga, penei i te mate tuāwhiorangi tuāwhiotanga, tohu catatonic ranei i roto i te mate hinengaro nui.",
+      "p5": "Ko te Tohu Tohu Mamati e tohu ana i tetahi huarahi e puta mai ana e whakamahi ana i te kohinga raraunga haungo mai i nga waea atamai me nga taputapu kakahu hei tautuhi i nga tauira whanonga e pa ana ki nga ahuatanga hinengaro. Ka tātarihia e enei punaha nga raraunga geolocation, nga taumata ngohe, nga tauira moe, te auau whakawhitiwhiti korero hapori, te hihiri patopato, me nga ahuatanga o te reo hei hanga i nga tohu koiora mamati o te mana hauora hinengaro. Ma tenei huarahi ka taea te tirotiro haere tonu, kaiao i waho o nga waahi haumanu, ka taea pea te kite wawe i nga huringa tohu.",
+      "p6": "Ko nga anga tuitui kei te whakakotahi i nga tikanga maha mo te aromatawai matawhānui. Hei tauira, ka wetewetehia e nga punaha nga ihirangi reo i te taha o nga reo oro me nga whakaaturanga kanohi i nga uiuinga haumanu hei whakapai ake i te tika o te taatai. Waihoki, ka taea e nga tono rongoa te whakauru i te wetewete kare-a-roto o nga whakawhitinga tuhinga me nga raraunga aro turuki ki te whakawhaiaro i te waa wawaotanga me te ihirangi.",
+      "p7": "Ko nga tikanga arotakenga mo nga punaha AI hauora hinengaro ko nga inenga tika tātaritanga tuku iho (te tairongo, te motuhake, te AUC), nga aromatawai whaihuatanga, me te piki haere, nga inenga huanga haumanu mai i nga whakamatautau kei mua. Ko nga paerewa koura mo te whakataurite he rereke ma te tono engari ko te tikanga ko nga uiuinga haumanu kua hangai, nga taputapu aromatawai whaimana, me nga tohu whakatau a te taote. He maha nga rangahau tata nei e whakamahi ana i nga hoahoa whakamatautau whakahaere matapōkeretia ki te arotake i te tiaki AI-augmented ki te maimoatanga pera i mua.",
+      "p8": "He mea nui nga huarahi tatauranga tiaki-taputapu i roto i nga tono hauora hinengaro na te ahua tairongo o nga raraunga hinengaro. Kei roto i enei ko te ako whakakotahi (kei te whakangungu nga tauira puta noa i nga waahi maha me te kore e whakauru i nga raraunga), nga tikanga tūmataiti rerekee, me te whakamaarama i nga tatauranga roopu-maha. Ka awhina enei tikanga ki te whakataurite i te hiahia mo nga huingararaunga whakangungu kanorau me nga whakaritenga matatika mo te whakamarumaru raraunga."
+    },
+    "results": {
+      "title": "Hua",
+      "diagnosticSupport": {
+        "title": "AI i roto i te Tautoko Tohu",
+        "text": "Kua whakaatuhia e nga punaha AI nga kaha ki te tautoko i te taatai ​​hauora hinengaro ...",
+        "p1": "Kua whakaatuhia e nga punaha AI nga kaha ki te tautoko i te taatai ​​hauora hinengaro puta noa i nga ahuatanga maha. Ka tātarihia e enei taputapu nga puna raraunga kanorau tae atu ki nga uiui haumanu, nga whakautu paatai, nga tauira korero, nga ahua kanohi, me te whanonga matihiko hei tohu i nga tohu tohu o nga mate hinengaro.",
+        "p2": "I roto i te kitenga pouri, ko nga NLP algorithms e tarai ana i nga ahuatanga reo kua tino angitu. He rangahau i te tau 2021 i JAMA Psychiatry i arotake i tetahi punaha NLP e tarai ana i nga whakautu kuputuhi-kore utu ki nga akiaki kua whakaritea puta noa i te 4,216 nga kaiuru. I whakaatuhia e te punaha te 87% te tairongo me te 84% te motuhake mo te kite i te mate pouri nui ina whakaritea ki nga uiuinga haumanu kua whakaritea. Ko etahi o nga ahuatanga matapae ko te whakamahi i nga kupu kupu tangata tuatahi, nga kupu kare-a-roto kino, me nga momo reo iti. Ka honoa ki te tātari reo oro (te hopu i nga ahuatanga prosodic penei i te rerekee o te reo me te reeti korero), ka piki ake te tika tātaritanga ki te 92%.",
+        "p3": "Waihoki, ko te tātari aunoa i nga tauira korero me te reo kua kitea te kaha ki te kite i te ngoikoretanga o te hinengaro. I roto i te rangahau whakamana e whai waahi ana ki te 382 pakeke pakeke, he punaha AI e tarai ana i te hononga o te reo, te uaua o te reo, me nga ahuatanga oro i te wa o te uiuinga hangahanga poto i tutuki i te 85% te tika ki te tautuhi i te ngoikoretanga o te hinengaro ngawari, he rite ki te whakamatautau neuropsychological poto engari me whai tauira korero 3 meneti anake.",
+        "p4": "Mo nga mate awangawanga, ko nga punaha multimodal e whakakotahi ana i nga raraunga ahupūngao (te rerekee o te ngakau, te mahi hiko) me nga tikanga whanonga kua whakaatu i te whaipainga. Ko te punaha e mau ana ki te tirotiro i nga tohu koiora motuhake i roto i nga taumahatanga kua whakatauhia he tika te whakariterite i te mate awangawanga whanui me te 83% te tika i roto i te tauira o nga kaiuru 189, me te kitenga o te mate ohorere ka tae ki te 88% te tairongo.",
+        "p5": "Kua whakaatuhia e nga tono tirohanga rorohiko te oati mo nga ahuatanga me nga waahanga whanonga e kitea ana. He punaha ako hohonu e tarai ana i nga ahuatanga kanohi me nga tauira nekehanga i te wa o nga uiui haumanu i kitea nga mate o te tuāwhiotanga tuāwhiotanga me te 86% tika i roto i nga tamariki 3-6 tau, ka taea pea te tirotiro i nga waahi tiaki tuatahi. Waihoki, ko te tātaritanga o nga rekoata ataata mai i nga aromatawai hanganga kua whakaatu i te tika o te 82% ki te kite i te mate bipolar i runga i nga rereketanga ngawari o te mahi motuka me te whakaatu kanohi i te wa o te manic me te pouri.",
+        "p6": "Ko nga huarahi tohu tohu mamati, te tarai i nga raraunga atamai atamai, kua kitea he mea nui mo te aro turuki i nga ahuatanga. Ko te entropy o te waahi (te rereke o nga tauira nekehanga), te roanga o te moe, me te auau korero kua whakaatu i te hononga nui (r=0.71-0.84) me nga paerewa whakatauranga pouri, e taea ai te aromatawai tonu i waenga i nga haerenga haumanu.",
+        "p7": "Ko te mea nui, ko nga mahi o naianei kua aro ki te whakatika i te whirihoranga algorithmic me te whakarite kia rite nga mahi puta noa i nga taupori kanorau. He rangahau whakamana-nui mo te huringa whakamaaramatanga o te pouritanga puta noa i te 8,200 nga kaiuru mai i nga momo iwi me te ohanga ohaoha i whakaatu i te tuatahi he iti iho (73% ki te 89%) mo nga kaiuru Pango ka whakaritea ki nga kaiuru ma. Whai muri i te whakatikatika tauira me te huinga whakangungu kanorau ake me nga paerewa tohutoro kua whakarereketia e te ahurea, i tino heke te rereketanga o nga mahi, me te piki ake ki te 85% puta noa i nga roopu taupori katoa.",
+        "p8": "Ahakoa enei ahunga whakamua, kei te noho tonu nga wero i roto i nga tono tātaritanga. Ko te nuinga o nga punaha kua whakamanahia i roto i nga waahi rangahau whakahaere, kaua ki nga taiao haumanu rereke. I tua atu, he maha nga mea i aro ki te whakarōpūtanga-rua (kei te noho/kaore he ahuatanga) kaua ki te huarahi ahu e pai ake ana i roto i nga mahi hinengaro hou. Ko nga mahi ki te whakatika i enei here ko te whanaketanga o nga tauira transdiagnostic e aromatawai ana i nga tohu tohu puta noa i nga rohe tātaritanga tuku iho, he pai ake te whakaata i te tino uaua o te mamae o te hinengaro."
+      },
+      "therapeuticApplications": {
+        "title": "AI i roto i nga tono rongoa",
+        "text": "Ko nga wawaotanga rongoa-a-AI mo te hauora hinengaro kua puta mai i nga punaha-a-ture ngawari ...",
+        "p1": "Ko nga wawaotanga rongoa-a-AI mo te hauora hinengaro kua tipu mai i nga punaha-a-ture ngawari ki nga kaikorero korero maamaa e kaha ana ki te tuku maataapono rongoa i runga i nga taunakitanga. Ka horahia e enei tono he awhiowhio mai i nga rongoatanga matihiko katoa ki te rongoa tangata kua whakanuia e AI.",
+        "p2": "Ko nga punaha AI korerorero e whakatinana ana i nga maataapono whakamaarama whanonga hinengaro (CBT) kua tino arotauhia. I roto i tetahi whakamätautau matapōkeretia i whakaputaina i roto i te Lancet Digital Health (2022), 1,032 nga kaiuru me te pouri ngawari i whakawhiwhia ki tetahi kaupapa CBT i tukuna mai e te AI, ki te maimoatanga ranei i mua. Ko te punaha AI, i uru atu ki nga kaiwhakamahi ki nga whakawhitinga korero i ia ra i runga i te tuhinga e whakamahi ana i nga tikanga CBT matua, i whakaatu i nga whakahekenga nui i roto i nga tatauranga pouri o te PHQ-9 i nga wiki 12 i whakaritea ki te roopu whakahaere (te rereke rereke -2.85 tohu, 95% CI -4.07 ki -1.63, p<0.001). I mau tonu nga paanga maimoatanga i te 6-marama whai muri. Otirā, ko nga reiti piri ki te kaupapa AI (68% e whakaoti ana i te kawa katoa) i nui ake i nga reiti angamaheni mo nga wawaotanga mamati aa-whaiaro (te nuinga o te 25-30%), e kii ana ko te atanga korero kua pai ake te whakauru.",
+        "p3": "Mo nga raruraru ohorere, he rite tonu te kaihoko korero e whakatinana ana i nga tikanga whakamaarama whakamaarama i whakaatu i te kaha mo te mate awangawanga whanui i roto i te whakamatautau o nga kaiuru 688. Ko te punaha, i arahi i nga kaiwhakamahi ma roto i nga aroākapa whakakitenga whaiaro me te piki haere o te uaua, i eke ki te 25% te whakahekenga ake o nga kaute GAD-7 ka whakaritea ki nga mana o te raarangi tatari, me nga paanga e rite ana ki te roopu CBT i arahina e te kaihaumanu i te aromatawai i muri i te maimoatanga. I tohuhia e te tātari-utu whaihua te utu wawaotanga AI tata ki te kotahi haurima o te rite o te rongoa i tukuna e te tangata i te wa e tukuna ana nga hua haumanu rite mo nga keehi ngawari me te ngawari.",
+        "p4": "I tua atu i nga mate o te ngakau me te awangawanga, kua oatihia e nga rongoa AI mo nga ahuatanga tae atu ki te ohoroa, te whakararuraru i muri i te mamae, me nga mate whakamahi matū. He punaha ako whakakaha mo te mate inu waipiro, nana nei i tuku nga karere whakahihiko i runga i nga ahuatanga morearea kua kitea, i whakahekehia nga ra inu inu-whaiaro ma te 34% ka whakatauritea ki nga ihirangi matauranga i roto i te whakamatautauranga 3-marama e 352 nga kaiuru. Ko te kaha o te punaha ki te tautuhi i te waa wawaotanga tino pai i runga i nga raraunga aro turuki hāngū (hei tauira, te raraunga waahi e tohu ana i te tata ki nga waahi inu auau) i puta ki te akiaki i tona kaha pai ake.",
+        "p5": "Ko te whakanui AI o te rongoa tangata kua whakaatu ano te uara. He punaha whakangungu whakamaarama i tātarihia nga tuhinga o te huihuinga hei whakarato i nga kaiawhina i nga urupare piri me nga tohu tohu i pai ake te pono o te kawa CBT e 32% me te hono atu ki te whakahekenga tohu nui ake (te rahi o te paanga d=0.41) ka whakatauritea ki te whakamaaramatanga kore i roto i te whakamatautau matapōkeretia. I kii nga Kairangahau ko nga urupare AI i awhina ki te pupuri i te aro ki nga tikanga e pa ana ki nga taunakitanga me te tautuhi i nga waahi mo nga wawaotanga motuhake kua ngaro pea."
+      },
+      "patientMonitoring": {
+        "title": "AI i roto i te Aroturuki Turoro me te Aukati Whakahoki",
+        "text": "Ko nga tono aro turuki tonu e tohu ana i tetahi rohe tino pai mo AI mo te hauora hinengaro...",
+        "p1": "Ko nga tono aro turuki tonu e tohu ana i tetahi rohe tino pai mo AI i roto i te hauora hinengaro, ka taea te kite i nga huringa tohu i waenga i nga haerenga haumanu me te wawaotanga moata. Ko enei punaha te nuinga o te whakamahi i nga puoro atamai, nga taputapu kakahu, me nga taunekeneke a nga kaiwhakamahi ki te hanga tohu koiora mamati o te ahua hinengaro.",
+        "p2": "Mo nga mate hinengaro nui, tae atu ki te schizophrenia me te mate bipolar, kua kitea e te kitenga o nga tohu whakatupato moata te tino whaihua haumanu. I roto i te rangahau mo nga marama 12 mo te 304 nga tangata whai schizophrenia, he punaha aro turuki i runga i te waea atamai e tarai ana i nga tauira korero, te moe, te neke, me te taunekeneke hapori i kitea 89% o nga mate hinengaro i te toharite o nga ra 7.4 i mua i te ahua o te kino o te haumanu i te wa e tiaki ana. I te whakaurunga ki te kawa urupare haumanu, ka whakahekehia e te punaha nga reiti whakamohiotanga ma te 28% ka whakaritea ki te maimoatanga pera i mua, e tohu ana he painga nui mo nga turoro me nga punaha hauora.",
+        "p3": "Ko nga huarahi rite kua whakaatu i te kaha ki te mate pukupuku. Ko te punaha multimodal e tātari ana i nga tauira patopato, oro reo, te roanga o te moe, me nga taumata mahi i kitea i te timatanga o te wahanga manic me te pouri me te 82% me te 77% te tika, e whakarato ana i te toharite o te 4-6 ra i mua i te whakatupato i mua i te whitinga o nga paepae haumanu. I te wa e tukuna ana me te punaha whakamohiotanga a te haumanu whakauru i roto i te whakamatautau matapōkere o nga kaiuru 397, ko te punaha aroturuki i hono ki te wa poto ake o te waahanga me te whakaheke i te kaha o te tohu ka whakaritea ki te tiaki paerewa.",
+        "p4": "Mo te aro turuki i te pouri, kua whakaatu nga punaha tātari i te whanonga matihiko i te hononga kaha me nga tohu tohu haumanu. Ko te tono whakamohiotanga mo te kohi raraunga mo nga tauira whakamahi waea atamai, te korikori tinana, me te whanonga hapori i whakaatu i te hononga 0.82 me nga tohu PHQ-9 i roto i te rangahau roa 6-marama o nga kaiuru 211 me te pouri tonu. Ko nga tauira ako miihini kua whakangunguhia mo enei ahuatanga whanonga e tohu ana i nga tohu tohu me te tino tika ki te wehewehe i te whakatau me te paheketanga o te pouri i roto i te 76% o nga keehi, ka kaha ake te wawaotanga i te waa.",
+        "p5": "Ko nga tono tirotiro mate kai kua whakamahi i nga whakaahua kai me te tātari tirohanga rorohiko me nga raraunga whanonga hei whai i nga tohu me nga whanonga tino tupono. I roto i te rangahau pairati mo nga tangata 157 me te bulimia nervosa, he punaha AI e tarai ana i nga ihirangi kai, nga tauira kai, me nga tohu whanonga utu i tohu tika i te 83% o nga huihuinga hokinga mai i runga i nga tohu koiora mamati anake, he pai te whakataurite ki nga ine ripoata-whaiaro. Ko te whakaurunga me nga wawaotanga urutau tika i roto i te waa i whakaatu i nga taunakitanga tuatahi mo te whakaiti i nga waahanga-purge ma te tautoko i nga waahi whakatau nui.",
+        "p6": "I roto i enei tono, ko te whai waahi a nga kaiwhakamahi me nga awangawanga tūmataiti ko nga wero tuatahi. Ko nga rangahau e whakatinana ana i te tiritiri raraunga e whakahaeretia ana e te kaiwhakamahi, nga whakamaarama maramataka algorithm, me nga whakaaturanga painga marama kua eke ki te reiti whakauru totika, tae atu ki te 71% o nga kaiuru e haere tonu ana mo te 6+ marama. Ko te mea nui, ko nga awangawanga e pa ana ki te noho muna ka iti ake ina kite nga kaiwhakamahi i nga painga hauora raima me te pupuri i te mana whakahaere mo te whakamahi raraunga."
+      }
+    },
+    "discussion": {
+      "title": "Matapakinga",
+      "text": "Ko ta maatau arotake o nga taunakitanga o naianei e whakaatu ana kua ahu whakamua nga tono AI i roto i te hauora hinengaro mai i nga kaupapa ariā ki nga taputapu whaimana haumanu me nga paanga ine ki te tika o te aromatawai, te tuku maimoatanga, me te aro turuki i nga ahuatanga. He maha nga kaupapa matua ka puta mai i nga kitenga huinga.\n\nTuatahi, ko nga huarahi multimodal e kaha ake ana i nga punaha tikanga kotahi puta noa i nga tono. Ko te whakakotahitanga o te wetewete reo, te aro turuki i nga whanonga, nga tohu ahuwhenua, me nga korero horopaki ka hanga he pikitia matawhānui ake o te ahua o te hinengaro i nga ine takitahi. E whakaatu ana tenei i te ahua matatini, te maha o nga ahuatanga o te hauora hinengaro, e kitea ana puta noa i nga waahi hinengaro, kare-a-roto, whanonga me te tinana. Me kaha tonu te whakawhanaketanga a meake nei ki te tuitui i nga puna raraunga taapiri ki roto i nga anga mahi aro matawai.\n\nTuarua, ko nga taunakitanga e tautoko ana i tetahi tauira ranu kei reira AI te whakanui ake i te whakakapi i nga kaimatai tangata. Ko nga whakatinanatanga tino angitu ka tuu a AI hei whakarea kaha mo te tohungatanga haumanu—te toro atu ki te toronga, te whakapai ake i te pai, te kaha tonu o te aromatawai, me te tautoko i nga mahi i runga i nga taunakitanga. Ko te hononga rongoa i waenga i te manawanui me te kaiwhakarato kei te noho tonu ki te mahi hauora hinengaro whai hua, me te ahua o te hangarau ka tino whai hua i te wa e whakanui ana, kaua ki te ngana ki te whakakapi i tenei hononga.\n\nTuatoru, ko te whakawhaiaro ka puta hei take nui mo te whaihua. Ko nga ahuatanga hauora hinengaro e whakaatu ana i te rereketanga nui i roto i te whakaaturanga, te haere whakamua, me te whakautu maimoatanga. Ko nga punaha AI e kaha ana ki te urutau ki nga tohu tohu takitahi, nga manakohanga whaiaro, me nga tauira whakautu kua whakaatu i nga putanga pai ake ki te whakataurite ki nga huarahi kotahi-rahi-katoa. E hāngai ana tenei ki te kaupapa whanui ki te mahi hinengaro tino tika, kei reira nga wawaotanga e whakangaohia ki nga tuhinga biopsychosocial takitahi.\n\nAhakoa enei whanaketanga pai, kei te noho tonu nga wero nui ki te whakamaori i nga mahi rangahau ki nga mahi haumanu. Ko nga here matua ko:\n\nAwangawanga rītaha hātepe me te whakawhānui: He maha nga punaha kua whakawhanakehia, kua whakamanahia i runga i nga taupori riterite, he patai mo nga mahi puta noa i nga roopu taupori kanorau. Ko nga taunakitanga tuatahi e kii ana he rereke te mahi a etahi algorithm puta noa i nga horopaki ahurea, ira tangata, me nga ahuatanga iwi/iwi. Ahakoa kua timata nga mahi o mua tata nei ki te whakatika i enei rereketanga na roto i te maha atu o nga raraunga whakangungu tohu me nga paerewa tohutoro e pa ana ki nga tikanga, ko te whakarite kia rite tonu te mahi hei wero tonu.\n\nHe iti nga taunakitanga roa: Ahakoa e whakaatu ana nga rangahau mo te wa poto i nga hua pai, he iti noa nga raraunga whai muri mo te wa roa mo te whakauru pumau, nga paanga maimoatanga roa, me nga hua ohorere o nga mahi AI. Ko te ahua tere o te tipu o te hangarau AI kei runga ake i te raarangi tuku iho mo te rangahau haumanu roa, e hanga ana i te waahi taunakitanga mau tonu.\n\nNga wero whakauru: Hangarau, rerenga mahi, me nga arai ahurea ka whakararu i te whakauru o nga taputapu AI ki nga punaha haumanu o naianei. Ko te whakatinanatanga angitu me aro ki te rerenga mahi a te taote, te whakauru ki nga rekoata hauora hiko, nga mahi maamaa me nga kawenga, nga anga kawenga, me nga tauira utu. Ko nga ahunga whakamua hangarau tino kaha ka kore e mohio ki o raatau kaha me te kore e aro nui ki enei waahanga whakatinanatanga.\n\nNga whakaaro tūmataiti me te haumarutanga: Ko nga raraunga hauora hinengaro kei roto i nga korero whaiaro tino tairongo. Ahakoa ko nga huarahi hangarau penei i te ako whakakotahi me te taatai ​​rereke ka awhina i enei awangawanga, ko nga anga whakahaere matawhānui mo te tiaki raraunga haepapa mo te hauora hinengaro AI kei te noho ngoikore. Ko te whakataurite i nga painga o nga huarahi e peia ana e nga raraunga me nga whakamarumaru matatapu pakari he wero tonu.\n\nTe koretake o te ture: Kei te whanake tonu te whenua ture mo AI i roto i te hauora hinengaro. Ko nga anga o naianei i hangaia mo nga taputapu rongoa tuku iho kaore pea i te tika ki te whakatutuki i nga ahuatanga ahurei o nga punaha AI urutau e ako tonu ana ki te tuku. Ko te whakawhanake i nga paerewa whakamana e tika ana, nga whakaritenga aro turuki, me te whakahou i nga kawa mo nga punaha ako he mea nui mo te mahi auaha.\n\nAhakoa enei wero, e tautoko ana nga taunakitanga i te whakawhanake tonu me te whakatinana tupato i nga tono AI e whakaatu ana i te painga haumanu, nga tikanga haumaru tika, me te aro ki nga whakaaro matatika. Ko te kaha ki te whakawhänui i te urunga ki te tiaki hauora hinengaro—otira mo nga taupori karekau e pa ana ki te ngoikore o nga kaiwhakarato—e whakaatu ana i te tino take mo te haere tonu o nga mahi auaha i tenei mara."
+    },
+    "conclusion": {
+      "title": "Whakamutunga",
+      "text": "Kua tino ahu whakamua nga tono matauranga hangai i roto i te hauora hinengaro i roto i nga tau tekau kua hipa, kua neke mai i nga ariā ariā ki nga taputapu kua whakamanahia e te haumanu me te whakaatu i te kaha puta noa i te tautoko tātaritanga, te tuku rongoa, te aro turuki i te manawanui, me te tātari matapae. Ko nga taunakitanga i arotakehia i roto i tenei pepa e whakaatu ana he tino kaha enei hangarau ki te whakatutuki i nga wero nui i roto i te hauora hinengaro, tae atu ki nga herenga urunga, nga herenga rauemi, me te hiahia kia kaha ake nga huarahi mo te aromatawai me te wawaotanga.\n\nHe maha nga maapono matua hei arahi i te whanaketanga me te whakatinanatanga a meake nei. Tuatahi, me whakanui e AI me te whakawhānui i te tohungatanga haumanu tangata, kaua ki te ngana ki te whakakapi i te hononga rongoa i waenga i te kaiwhakarato me te manawanui. Tuarua, ko nga huarahi multimodal te whakauru i nga puna raraunga kanorau e whakarato ana i te pikitia tino whanui me te tika o te mana hauora hinengaro. Tuatoru, ko nga kaha whakawhaiaro e urutau ana ki nga hiahia takitahi, nga hiahia, me nga tauira whakautu he mea nui ki te whakatutuki i nga hua tino pai. Tuawha, he mea nui te aro turuki ki te tika o te algorithm, te whakamanatanga marama puta noa i nga taupori kanorau, me te aro turuki tonu mo nga rītaha karekau he mea nui mo te whakatinana tika.\n\nAhakoa kei te mau tonu nga wero nui—tae atu ki te whakauru ki roto i nga rerengamahi haumanu, nga whakamarumarutanga muna, nga anga ture, me te whakawhanaketanga taunakitanga mo te wa roa—ko nga painga pea ka whakamanahia kia haere tonu te rangahau me te whakatinana haumanu tupato o nga punaha kua whakamanahia. Ko te aputa maimoatanga hauora hinengaro e pa ana ki nga miriona o te ao e kii ana i nga huarahi auaha e taea ai te toro atu ki te tiaki i runga i nga taunakitanga.\n\nMa te titiro whakamua, e tatari ana matou ki etahi huarahi whaihua mo te mara. Ko te whakaurunga o nga raraunga ira tangata me etahi atu raraunga koiora me nga tikanga whanonga me te hinengaro ka taea te whakaatu tika ake o nga korero morearea mo ia tangata me nga matapae urupare maimoatanga. Ko nga huarahi ako whakakotahi e taea ai te whakawhanake tauira puta noa i nga umanga me te kore e aro nui ki nga raraunga tairongo ka taea te whakatika i nga awangawanga mo te hunanga me te whakaahei i nga huinga whakangungu kanorau ake. Ko nga tauira mahi tahi a te tangata-AI hou e arotau ana i nga kaha o nga tohunga haumanu me nga mohiotanga horihori ka whai hua pai ake ki te whakataurite ki a raatau anake.\n\nI te tipu haere tonu o enei hangarau, he mea nui te pupuri i te tirohanga taurite—ma te mohio ki te kaha nui o AI ki te whakapai ake i te hauora hinengaro me te hiranga taketake o te hononga tangata, te mohio haumanu, me nga huarahi e aro ana ki te tangata. Ma te whakaaro nui o te whakawhanaketanga, te whakamanatanga kaha, me te whakatinanatanga tupato, ka kaha a AI ki te noho hei taputapu utu nui ki te whakatika i te taumahatanga o te ao mo te mate hinengaro me te ahu whakamua i te whainga kia whai waahi nga mahi hauora hinengaro ki te hunga katoa e hiahia ana."
+    }
+  },
+  "whyVirtualMD": {
+    "sections": {
+      "hero": {
+        "title": "VirtualMD.app",
+        "subtitle": "Wewete i to kaha hauora me VirtualMD.app. Tirohia nga kaiarahi AI kua whakangungua ki te Hauauru o te Tai Hauauru, te Waiora Hainamana, me etahi atu toi oranga—katoa i roto i te korerorero kotahi. Tikina nga tirohanga whaiaro 24/7 me te whakahaere i to hauora. Ko te tiaki hauora tenei, kua whakaarohia ano."
+      },
+      "whyUs": {
+        "title": "He aha te take i whiriwhiri ai i te VirtualMD.app mo to haerenga oranga?",
+        "points": {
+          "personalTeam": {
+            "title": "To Kapa Whaiaro",
+            "text": "Kōwhirihia to roopu o nga kaitohutohu hauora AI. Tuhia he tirohanga mai i te Hauora o te Tai Hauauru, te Ora Hainamana Tuku iho, me nga tohungatanga oranga pai."
+          },
+          "aiNavigator": {
+            "title": "Ko to Kaiwhakatere Whaiaro AI-Powered",
+            "text": "Ko to kaiwhakatere hauora AI whaiaro e arahi i a koe ki nga tirohanga me nga rautaki oranga e tino tika ana, ma te whakamaori i nga tirohanga mai i a maatau kaitohutohu AI motuhake hei tohutohu mahi maau."
+          },
+          "empoweringChoices": {
+            "title": "Te Whakamana i nga Kōwhiringa Hauora",
+            "text": "Tikina nga tirohanga marama, mahi, kia whai mana koe ki te whakatau whakatau mo to oranga."
+          },
+          "easyToUse": {
+            "title": "He ngawari ake te whakamahi",
+            "text": "I hangaia to maatau papaaho mo te whakawhitiwhiti whakaaro. Hono atu ki nga kaiarahi AI me te tuhura i nga huarahi oranga kaore he uaua."
+          },
+          "advancedTechnology": {
+            "title": "Hangarau Ake Hurihuri",
+            "text": "Ka wheako i a maatau rorohiko hou, i hangaia hei whakanui i te whakakotahitanga i waenga i te hiahia tangata me nga tirohanga oranga a AI."
+          }
+        }
+      },
+      "features": {
+        "title": "Āhuatanga Paparanga Matua",
+        "points": {
+          "dynamicEnsemble": {
+            "title": "Huihuinga AI Hihiko:",
+            "text": "Ko ta maatau whakahaere AI he whakakotahi i nga maaramatanga mai i nga momo kanorau o nga kaiarahi oranga AI motuhake—ko te oranga o te Tai Hauauru, te Ora Hainamana Tuku iho, me etahi atu—ki te whakautu i o patai motuhake i roto i te waa."
+          },
+          "holisticUnderstanding": {
+            "title": "Te Maramatanga Holistic:",
+            "text": "Ko ta maatau AI he whakamaori i nga whakaurunga kanorau—kuputuhi, whakaahua ranei o to ahunga whakamua tinana, urunga hautaka oranga—mo nga tirohanga oranga oranga me nga horopaki."
+          },
+          "rapidAccess": {
+            "title": "Te Uru Tere ki nga Aratohu AI:",
+            "text": "Hono tonu ki nga rau o nga kaiarahi hauora AI motuhake me te whakautu tuarua."
+          },
+          "reliableInteractions": {
+            "title": "Tauwhitinga Whakapono:",
+            "text": "Ko nga whakamarumaru haumaru aunoa ka whakarite i te wheako maeneene, kore e haukotia, ahakoa ka hiahia tetahi kaiarahi AI mo tetahi wa ki te whakatikatika."
+          },
+          "insightfulLogs": {
+            "title": "Rangitaki Whakawhitiwhiti Whakaaro:",
+            "text": "Kua rehitatia nga taunekeneke huihuinga hei tautoko i te whakapai tonu me te whakawhanaketanga o o tatou mohiotanga kaiarahi AI."
+          }
+        }
+      },
+      "technology": {
+        "title": "To Tatou Hangarau Hurihuri",
+        "description1": "Ka whakamahi a VirtualMD.app i nga tikanga whakahiato. Ma ta maatau punaha ka whai hua o patai mai i te roopu o nga kaiarahi AI, te tango mai i nga matauranga rongoa o te Tai Hauauru, nga maataapono Waiora Hainamana Tikanga, te puutaiao kai, nga tikanga whakaaro, nga rautaki whakapakari tinana, me etahi atu, ki te whakarato i te tirohanga tino whanui.",
+        "description2": "Ko ta maatau miihini whakaaro matatau e whakakotahi ana i nga korero mai i o whakaurunga kuputuhi, tuhinga tirohanga, me etahi atu raraunga oranga, e whakarato ana i nga tirohanga katoa e kore e taea e nga huarahi tuku iho te whakahoki.",
+        "description3": "Ma te whare pukapuka nui, e waatea ana mo nga kaiarahi oranga AI me nga kawa taunekeneke pakari, ka whakarite maatau te whakaurunga o te kounga teitei ki tetahi rohe.",
+        "description4": "Ko nga taunekeneke katoa ka ata tuhia, ka whakanui ake i te maarama me te whangai i te whanaketanga tonu o te whaihuatanga me te kounga o te maaramatanga."
+      },
+      "cta": {
+        "title": "Kua Riri ki te Whakahou i to oranga?",
+        "subtitle": "Hono atu ki te kaupapa <span>VirtualMD.app</span> ka kitea he wa hou mo te whai waahi ki nga tohutohu oranga oranga. Me whai i te taahiraa tuatahi ki te kaha ake, ki te mohio, ki te hihiri hoki. Torotoro nga tirohanga AI kanorau me to tatou turanga matauranga oranga oranga.",
+        "buttonText": "Tīmatahia ināianei"
+      }
+    }
+  },
+  "whitepapers": {
+    "downloadPdf": "Tikiake PDF"
+  },
+  "dermatologyaiWhitepaper": {
+    "title": "pokapū",
+    "downloadPdf": "Tikiake PDF",
+    "generating": "Whakaputa...",
+    "pdfFilename": "DermatologyAIWhitePaperPage.pdf",
+    "content1": ");\n        currentY = addWrappedText(doc, title, margin, currentY, contentWidth);\n        nāianeiY += 5;\n        doc.setFont(kaore i tautuhia, ",
+    "content2": "s te whakatikatika (te pono o nga tohu maia) me te whakamaramatanga (te kaha ki te whakaatu i nga rohe whakaahua e tika ana hei whakaatu i te mate).\n\nHe wero ahurei te kohinga Raraungaraunga: ko nga rereketanga o te rama, te tuunga, me te kounga o te ahua ka tino pa ki nga mahi algorithmic. Ko te nuinga o nga punaha e whakangunguhia ana mo nga kohinga whakaahua whakamuri mai i nga whare haumanu dermatology, e whakaatu mai ana i te whakararu o te hihinga - kaore pea nga whakaahua e whakaatu i te katoa o nga whakaaturanga i nga waahi tiaki tuatahi. Ko nga tauira ka puta he whakamanatanga na roto i nga huinga whakamatautau-a-waho, te whakamanatanga o waho i runga i nga huingararaunga motuhake, me te piki haere ma nga arotakenga haumanu e whakataurite ana i nga taunakitanga a AI ki nga whakatau a te tohunga kiri kiri me te pono o te whenua.",
+    "content3": "s te whakatikatika (te pono o nga tatauranga maia) me te whakamaramatanga (te kaha ki te whakaatu i nga rohe whakaahua e tika ana hei whakaatu i te tātaritanga).\n\nHe wero ahurei te kohinga Raraungaraunga: ko nga rereketanga o te rama, te tuunga, me te kounga o te ahua ka tino pa ki nga mahi algorithmic. Ko te nuinga o nga punaha e whakangunguhia ana mo nga kohinga whakaahua whakamuri mai i nga whare haumanu dermatology, e whakaatu mai ana i te whakararu o te hihinga - kaore pea nga whakaahua e whakaatu i te katoa o nga whakaaturanga i nga waahi tiaki tuatahi. Ko nga tauira ka puta he whakamanatanga na roto i nga huinga whakamatautau-a-waho, te whakamanatanga o waho i runga i nga huingararaunga motuhake, me te piki haere ma nga arotakenga haumanu e whakataurite ana i nga taunakitanga a AI ki nga whakatau a te tohunga kiri kiri me te pono o te whenua.",
+    "content4": "s whakaaro me te aro atu ki nga ahuatanga o te whiu e tika ana kia ata tirohia. Kua kitea e nga rangahau ko te whakarato i enei whakamaarama ka piki ake te whakawhirinaki a te taote ki nga taunakitanga AI me te whakapai ake i nga mahi tātaritanga tangata-AI.\n\nKo nga taunakitanga ka puta ake e kii ana ka kitea pea e AI nga melanomas i nga waahanga o mua atu i te nuinga o te waa i kitea i roto i nga mahi o ia ra. I roto i te tātaritanga whakamuri o nga melanomas i te tuatahi i pohehehia e nga tohunga kiri kiri engari i tohu tika e AI, he maha nga wa ka whakaatu nga whiu i nga ahuatanga atypical iti i raro i te paepae mo te awangawanga haumanu engari i hono ki te huringa kino moata. Ko tenei kaha ki te kite wawe ka taea te whakapai ake i nga putanga oranga, ahakoa kei te haere tonu nga rangahau e whai ana i nga putanga haumanu mo te wa roa.",
+    "content5": "s whakaaro me te aro atu ki nga ahuatanga o te whiu e tika ana kia ata tirohia. Kua kitea e nga rangahau ko te whakarato i enei whakamaarama ka piki ake te whakawhirinaki a te taote ki nga taunakitanga AI me te whakapai ake i nga mahi tātaritanga tangata-AI.\n\nKo nga taunakitanga ka puta ake e kii ana ka kitea pea e AI nga melanomas i nga waahanga o mua atu i te nuinga o te waa i kitea i roto i nga mahi o ia ra. I roto i te tātaritanga whakamuri o nga melanomas i te tuatahi i pohehehia e nga tohunga kiri kiri engari i tohu tika e AI, he maha nga wa ka whakaatu nga whiu i nga ahuatanga atypical iti i raro i te paepae mo te awangawanga haumanu engari i hono ki te huringa kino moata. Ko tenei kaha ki te kite wawe ka taea te whakapai ake i nga putanga oranga, ahakoa kei te haere tonu nga rangahau e whai ana i nga putanga haumanu mo te wa roa.",
+    "content6": "s runga-1 tika i tae ki te 85.9%.\n\nKua kitea nga mahi tino kaha mo nga ahuatanga motuhake penei i te psoriasis (93.1% te tika), te hakihaki vulgaris (90.4%), me te eczema (88.7%). Ko nga ahuatanga me nga whakaaturanga ngawari ake, rereke ranei, penei i te pahūtanga o te tarukino, i nga ahuatanga moata-a-mate autoimmune ranei, i whakaatu i te iti iho o nga reeti tika (70-75%), e tohu ana i nga waahi e hiahia ana ki te whakatikatika i te algorithm.\n\nHe mea whakamiharo, he punaha multimodal i whakawhanakehia e Google e whakauru ana i nga raraunga whakaahua me nga tohu kua whakaatuhia e te manawanui i whakaatu ake i nga whakapainga ake, ka eke ki runga-1 te tika o te 93% puta noa i nga tikanga noa 26. Ko te whakaurunga o nga raraunga whakaahua-kore i tino whai hua mo te wehewehe i nga ahuatanga ahua rite ki nga tohu rereke e pa ana, penei i te rerekeetanga o te mate mate mate mate mai i te dermatitis whakapaa irritant i runga i te ahua o te mamae me te hitori o te whakaaturanga.\n\nI roto i nga mate kiri tamariki, he iti rawa te uru atu ki nga tohunga, kua whakaatuhia e nga punaha AI te oati mo nga ahuatanga kiri o te tamarikitanga. I tutuki i tetahi tauira tamariki motuhake te 90.1% te tika mo nga ahuatanga tae atu ki te mate mate pukupuku, molluscum contagiosum, me nga tohu whanau noa. Ko te mea nui, i whakaatu te punaha i te 95.2% te tairongo mo te kite i nga mate-a-ringa-waewae-waha i nga wa o te pakarutanga, e kii ana he tono pea mo te tirotiro hauora a te iwi.",
+    "content7": "s runga-1 tika i tae ki te 85.9%.\n\nKua kitea nga mahi tino kaha mo nga ahuatanga motuhake penei i te psoriasis (93.1% te tika), te hakihaki vulgaris (90.4%), me te eczema (88.7%). Ko nga ahuatanga me nga whakaaturanga ngawari ake, rereke ranei, penei i te pahūtanga o te tarukino, i nga ahuatanga moata-a-mate autoimmune ranei, i whakaatu i te iti iho o nga reeti tika (70-75%), e tohu ana i nga waahi e hiahia ana ki te whakatikatika i te algorithm.\n\nHe mea whakamiharo, he punaha multimodal i whakawhanakehia e Google e whakauru ana i nga raraunga whakaahua me nga tohu kua whakaatuhia e te manawanui i whakaatu ake i nga whakapainga ake, ka eke ki runga-1 te tika o te 93% puta noa i nga tikanga noa 26. Ko te whakaurunga o nga raraunga whakaahua-kore i tino whai hua mo te wehewehe i nga ahuatanga ahua rite ki nga tohu rereke e pa ana, penei i te rerekeetanga o te mate mate mate mate mai i te dermatitis whakapaa irritant i runga i te ahua o te mamae me te hitori o te whakaaturanga.\n\nI roto i nga mate kiri tamariki, he iti rawa te uru atu ki nga tohunga, kua whakaatuhia e nga punaha AI te oati mo nga ahuatanga kiri o te tamarikitanga. Ko te tauira mo nga tamariki motuhake i eke ki te 90.1% te tika mo nga ahuatanga tae atu ki te mate mate pukupuku, molluscum contagiosum, me nga tohu whanau noa. Ko te mea nui, i whakaatu te punaha i te 95.2% te tairongo mo te kite i nga mate-a-ringa-waewae-waha i nga wa o te pakarutanga, e kii ana he tono pea mo te tirotiro hauora a te iwi.",
+    "content8": "Te whakatairitetanga o te tika tātaritanga i waenga i te AI me nga tohunga kiri kiri puta noa i te 26 nga ahuatanga kiri noa. Ka whakaraupapahia nga tikanga mai i te taha maui ki te taha matau kia pai ai te heke o te mate. I whakaatuhia e te punaha AI (paahi puru) he rite, he pai ake ranei te mahi ki nga tohunga kiri kiri (para karaka) mo te nuinga o nga ahuatanga. Puna: Liu Y, et al. He punaha ako hohonu mo te taatai ​​rereke o nga mate kiri. Rongoa Taiao. 2020;26(6):900-908."
+  },
+  "how-to-useWhitepaper": {
+    "downloadPdf": "Tikiake PDF",
+    "generating": "Whakaputa...",
+    "pdfFilename": "Me pehea te whakamahi.pdf"
+  },
+  "imagingaiWhitepaper": {
+    "title": "pokapū",
+    "downloadPdf": "Tikiake PDF",
+    "generating": "Whakaputa...",
+    "pdfFilename": "AtahangaAIWhitePaperPage.pdf",
+    "content1": ");\n        currentY = addWrappedText(doc, title, margin, currentY, contentWidth);\n        nāianeiY += 5;\n        doc.setFont(kaore i tautuhia, ",
+    "content2": ");\n         currentY = addWrappedText(doc, caption, margin, currentY, contentWidth);\n         nāianeiY += 20;\n         doc.setFont(kaore i tautuhia, ",
+    "content3": ", \n          tawhē, nāianeiY + 2, ihirangiWidth);\n       nāianeiY += 5;\n       currentY = tāpiriWrappedText(doc, \n          ",
+    "content4": ", \n          tawhē, nāianeiY + 2, ihirangiWidth);\n       nāianeiY += 5;\n       currentY = tāpiriWrappedText(doc, \n          ",
+    "content5": "Te hihi X o te uma me te mapi wera i hangaia e AI (whero →kowhai) e tohu ana i te nodule pulmonary mokemoke karekau e kitea i te tirohanga tuatahi a te tangata. Puna: van Beek EJR, Ahn JS, Kim MJ, Murchison JT. Te whakamanatanga o te algorithm ako hohonu mo te kite i nga mea rerekee i runga i nga reo irirangi pouaka. Clin Radiol. 2023;78(1):1–7.",
+    "content6": "Te hihi X o te uma me te mapi wera i hangaia e AI (whero →kowhai) e tohu ana i te nodule pulmonary mokemoke karekau e kitea i te tirohanga tuatahi a te tangata. Puna: van Beek EJR, Ahn JS, Kim MJ, Murchison JT. Te whakamanatanga o te algorithm ako hohonu mo te kite i nga mea rerekee i runga i nga reo irirangi pouaka. Clin Radiol. 2023;78(1):1–7.",
+    "content7": " te panui mahi ma te 44% (itnonline.com), ma te tuku kia kotahi te kaipanui, kaua ki te tokorua i roto i te maha o nga keehi. I kitea e tetahi atu rangahau ko te punaha AI mo te whakamohiotanga o te pouaka CT o nga kitenga whakapeka (hei tauira, te whakaheke toto o roto, te pulmonary embolism) ka taea te whakapoto i te wa-ki-whakamohiotanga o nga hua tino nui, me te awhina i nga keehi ohorere. I roto i nga whakamatautau maha, ko AI hei kaipanui tuarua ka piki ake te maarama mo te rapunga whiu (te hopu i nga kitenga e ngaro ana te tangata) i te wa e mau tonu ana te motuhake (itnonline.com, pubmed.ncbi.nlm.nih.gov). Heoi ano, ko AI tuuturu ehara i te mea he - tera pea ka whakaputa i nga hua pai, ka wareware ranei ki nga whakaaturanga onge, no reira ka whakamahia e te whakatinana haumanu te AI hei whakanui, kaua e whakakapi, te whakamaoritanga tangata.",
+    "content8": " te panui mahi ma te 44% (itnonline.com), ma te tuku kia kotahi te kaipanui, kaua ki te tokorua i roto i te maha o nga keehi. I kitea e tetahi atu rangahau ko te punaha AI mo te whakamohiotanga o te pouaka CT o nga kitenga whakapeka (hei tauira, te whakaheke toto o roto, te pulmonary embolism) ka taea te whakapoto i te wa-ki-whakamohiotanga o nga hua tino nui, me te awhina i nga keehi ohorere. I roto i nga whakamatautau maha, ko AI hei kaipanui tuarua ka piki ake te maarama mo te rapunga whiu (te hopu i nga kitenga e ngaro ana te tangata) i te wa e mau tonu ana te motuhake (itnonline.com, pubmed.ncbi.nlm.nih.gov). Heoi ano, ko AI tuuturu ehara i te mea he - tera pea ka whakaputa i nga hua pai, ka wareware ranei ki nga whakaaturanga onge, no reira ka whakamahia e te whakatinana haumanu te AI hei whakanui, kaua e whakakapi, te whakamaoritanga tangata.",
+    "content9": "s whakaaetanga māka (kappa tapawhā ~0.77) i rite ki te taha ki te tohunga pathologists mohio, me te tae noa ki te kōeke whakaae i roto i nga take uaua (nature.com). I roto i te mate pukupuku o te u, ko nga huringa ako hohonu i roto i te wero CAMELYON i tutuki te mahi tata-tangata mo te kitenga pukupuku metastatic i roto i nga ngongo lymph, me etahi i eke ki te AUC> 0.99. Ka taea e enei taputapu te mahi hei "
+  },
+  "pathologyaiWhitepaper": {
+    "title": "AI i roto i te Pathology: Ko te Whakanuia i te Tikanga Tatautanga me te Pai",
+    "subtitle": "He arotake matawhānui o nga tono mohio mohio i roto i te pathology anatomic me te haumanu",
+    "authors": {
+      "names": "Ron Rubin, PhD me Sandy Miles",
+      "organization": "Hangarau VirtualMD.app",
+      "emails": {
+        "ron": "ronrubin@virtualmd.app",
+        "sandy": "sandymiles@virtualmd.app"
+      }
+    },
+    "downloadPdf": "Tikiake PDF",
+    "generating": "Whakaputa...",
+    "pdfFilename": "VirtualMD_AI_Pathology_White_Paper.pdf",
+    "sections": {
+      "abstract": {
+        "title": "Putanga",
+        "content": "Kua puta mai te mohiotanga Artificial (AI) hei hangarau hurihuri i roto i te pathology, e whakaatu ana i nga kaha ki te whakapai ake i te tika o te tātaritanga, te whakahoki, me te pai o te rerenga mahi. Ka tirotirohia e tenei pepa ma te ahua o AI o naianei i roto i te pathology i runga i nga rangahau whakamanatanga haumanu o naianei, nga whakaritenga ture, me nga whakatinanatanga o te ao. Ka arotakehia e matou nga tono tuatahi tae atu ki te rapunga mate pukupuku, te māka, te aromatawai matapae, me te arotautanga rerengamahi. Ko nga kitenga matua ko nga reiti tairongo o te 95-99% mo te kitenga mate pukupuku puta noa i nga punaha okana maha, he whakahekenga nui o te rereketanga o te kaitirotiro, me te kaha mo te whakahekenga mahi nui. Ahakoa kua eke nga mahi hangarau ki nga taumata e manakohia ana mo te maha o nga tono, kei te noho tonu nga wero whakatinanatanga tae atu ki nga whakaaro ture, te whakauru rerengamahi, me te hiahia mo te whakamana tonu. Ka whakaratohia e matou he taunakitanga e pa ana ki nga taunakitanga mo nga tari pathology e whakaaro ana ki te tango AI, e whakanui ana i te hiranga o te whiriwhiringa keehi-whakamahi, te whakatinanatanga i nga waahanga, me te haere tonu o te aroturuki mahi. Ko nga taunakitanga e tohu ana ka piki ake a AI, kaua ki te whakakapi i nga tohunga pathologists, ka mahi hei taputapu kaha ki te whakarei ake i nga kaha tātaritanga me te whakahaere i te piki haere o nga tono mahi."
+      },
+      "introduction": {
+        "title": "Kupu Whakataki",
+        "content": "Ko te mara o te pathology e anga ana ki nga wero kaore ano i kitea i mua ake nei: te piki haere o nga pukapuka keehi, te piki haere o te uauatanga o nga paearu tātaritanga, te ngoikore o nga kaimahi, me te pehanga mo nga waa hurihuri tere. I te wa ano, me nui ake te whakamaarama o te oranga o te tinana, te aromatawai tohu koiora ine, me te whakauru i nga kitenga morphologic me nga raraunga rapoi. I runga i tenei papamuri, kua puta te mohiotanga horihori (AI) hei otinga pea hei whakarei ake i nga mahi pathology.\n\nAhakoa ko te AI i roto i nga whakaahua rongoa kua aro nui ki a raatau, ko te pathology he waahi ahurei me nga wero. Kaore i rite ki te reo irirangi i reira ka tātarihia e AI nga whakaahua o te anatomy mau tonu, me whakamaori te pathology AI i nga waahanga kiko moroiti e tohu ana i nga hanganga ahu-toru uaua kua whakahekehia ki nga kiriata rua-ahu. Ko te nui o nga raraunga e tino miharo ana - ka taea e te pikitia kiriata-katoa te whakauru i nga piriona pika, e hiahia ana ki nga huarahi rorohiko matatau.\n\nKo tenei pepa maamaa he arotake matawhānui mo nga tono AI i roto i te pathology, e aro ana ki nga hangarau kua kaha te whakamanatanga haumanu. Ka tirotirohia e matou te turanga taunakitanga, ka matapaki i nga whakaaro mo te whakatinanatanga, me te whakarato i nga aratohu whaitake mo nga tari pathology e arotake ana i te tangohanga AI. Ko ta matou tātaritanga i ahu mai i nga rangahau arotake-a-hoa, nga whakatau ture, me nga raraunga whakatinanatanga o te ao tuuturu."
+      },
+      "methods": {
+        "title": "Tikanga/Hangarau",
+        "content": "Ka whakamahia e nga punaha AI pathology o naianei nga hoahoanga ako hohonu, te nuinga o nga hononga neural convolutional (CNNs), ki te wetewete i nga whakaahua kiriata-katoa kua whakamamatitia ki te taumira teitei (te nuinga o te 20-40x te whakanui). Kua whakangunguhia enei punaha i runga i nga huingararaunga nui o nga whakaahua kua tapaina, he maha nga wa e hiahia ana ki nga tohu tohu tohunga tohunga ki te whakatau i te pono o te whenua. E rua nga huarahi matua a AI: ko te ako maataki ma te whakamahi i nga tohu tohu-a-rohe, taumata-whakarereke ranei, me te ako ngoikore e tika ana kia tirohia nga taumata keehi anake. I te nuinga o te wa ka uru ki te whakangungu nga tikanga maha-waahanga, ka kitea i te tuatahi nga rohe e pa ana ki te iti o te whakanuinga, katahi ka whakarōpū i enei rohe ki te whakanuinga teitei ake hei tautuhi i nga pathologies motuhake.\n\nKo nga inenga mahi matua ko te tairongo (te wahanga o nga hua pai pono kua tautuhia tika), te motuhake (te wahanga o nga toraro pono kua tautuhia tika), te waahi kei raro i te anau ahuatanga whakahaere (AUC), me nga ine whakaaetanga penei i te kappa a Cohen. Ko te whakamanatanga haumanu me whakamatau i nga huingararaunga motuhake mai i nga umanga maha hei whakapumau i te whanui puta noa i nga taupori turoro rereke, nga tikanga whakarite kiko, me nga taputapu matawai."
+      },
+      "results": {
+        "title": "Hua",
+        "digitalPathologyOverview": {
+          "title": "Mamati Pathology Overview",
+          "content": "He nui te tipu o te mate mamati, me te matapae ka eke te maakete o te ao ki te $1.4 piriona i te tau 2027. Kua tere ake te tangohanga o nga taiwhanga taiwhanga, otira ki nga whare hauora matauranga me nga whare taiwhanga tohutoro kua hinga nga arai ture tuatahi. I te tau 2017, i whakawāteahia e te FDA te punaha whakaata kiriata tuatahi mo te tātaritanga tuatahi (Philips IntelliSite Pathology Solution), whai muri i nga taapiri taapiri tae atu ki a Leica Aperio AT2 DX me Aperio GT 450 DX. Ka hangaia e enei punaha nga hanganga mamati e tika ana mo te mate rorohiko me nga tono AI.\n\nI timata a AI i roto i te pathology me nga tono arotahi i roto i nga horopaki histologic iti engari kua whakawhänui ki te whakauru i nga momo kiko me nga mahi tātaritanga. He rite tonu te tipu o nga huarahi rorohiko mai i te ako miihini tuku iho me nga ahuatanga miihini ki te ako hohonu mutunga-ki-te-mutunga ka taea te tango tika i nga ahuatanga mai i nga raraunga pika. Kua piki ake nga huingararaunga whakangungu mai i nga rau ki nga rau mano o nga kiriata, e kaha ake ai te whakamaarama whanui puta noa i nga taupori turoro me nga tikanga matawai."
+        },
+        "cancerDetection": {
+          "title": "Te kimi mate pukupuku",
+          "content": "I roto i te pathology oncologic, kua whakaatuhia e nga punaha AI te tino tika ki te kite i nga momo mate kino. Mo te mate pukupuku prostate, Pantanowitz et al. i arotakehia he AI ​​algorithm (Paige Prostate) i roto i te rangahau whakamanatanga maha-pae e 549 nga kiriata mai i nga turoro 100. I whakaatu te AI i te 98.8% te tairongo me te 97.3% te motuhake mo te kite i te mate pukupuku, he pai ake i nga tohunga pathologists otira ki nga keehi uaua (Lancet Digital Health, 2020). Waihoki, Campanella et al. I whakawhanakehia he huarahi ako kua maataki ngoikore i whakangunguhia i runga i te 15,000 neke atu i te 15,000 nga kiriata prostate i eke ki te AUC o 0.98 mo te kitenga mate pukupuku (Nature Medicine, 2019).\n\nMo te mate pukupuku o te uma, ko nga wero a CAMELYON i whakaatu nga taunakitanga nui mo te kaha o AI ki te kite i nga metastases i roto i nga ngongo lymph. I roto i te CAMELYON16, ko te algorithm pai rawa atu i tutuki te AUC o 0.994, nui atu i te mahi a nga tohunga pathologists e mahi ana i raro i nga herenga wa (AUC 0.810) (JAMA, 2017). Ka kitea e enei punaha nga pūtau mate pukupuku ka ngaro pea i te arotake a-ringa, ina koa nga micrometastases me nga pūtau puku taratahi.",
+          "content2": "I tua atu i enei mate pukupuku noa, kua whakawhanakehia nga punaha AI mo etahi atu mate kino. I roto i te pathology pūkahukahu, ka taea e nga algorithm ako hohonu te wehewehe i te adenocarcinoma mai i te squamous cell carcinoma me te 97% te tika me te tautuhi i nga whakarereketanga ira (hei tauira, nga huringa EGFR) mai i nga ahuatanga histomorphological (Nature Cancer, 2020). I roto i te pathology colorectal, ka taea e AI te kite i nga adenomas, te whakarōpū i nga momo waahanga histologic, me te tautuhi tika i te mana koretake o te microsatellite mai i nga kiriata H&E me te tairongo nui atu i te 95% (J Pathol, 2020).\n\nKo nga painga o te kitenga AI ka toro atu ki tua atu o te tairongo. I nga wa katoa ka whakaatuhia e nga rangahau te iti o te rereketanga o te kaitirotiro i te wa e awhina ana nga tohunga mate ki te AI. Hei tauira, ko Steiner et al. I whakaatu ko te awhina AI i whakanui ake i te whakaaetanga a nga kaimatai mate me te paerewa tohutoro mai i te 93.3% ki te 95.8% mo te kitenga metastasis mate pukupuku uma (Am J Surg Pathol, 2018). Ko tenei pikinga o te riterite he whai tikanga nui mo te tarai i nga keehi rohe me te whakatau i nga manaakitanga puta noa i nga umanga."
+        },
+        "gradingClassification": {
+          "title": "Te Maaka me te Whakaraupapa",
+          "content": "I tua atu i te kitenga mate pukupuku a-rua, he nui te ahunga whakamua a nga punaha AI i roto i nga mahi uaua ake e pa ana ki te tuhi-iti me te māka. Ko te mea nui, ko te reanga aunoa a Gleason mo te mate pukupuku repeure te aronga o te rangahau kaha na te rereketanga o te kaitirotiro i roto i tenei tohu tohu tino nui. Bulten et al. i whakawhanakehia he punaha ako hohonu e tohu ana i nga tohu a Gleason me nga mahi e rite ana ki nga tohunga urologic pathologists mohio (kappa = 0.62 vs. 0.57) me te tata ki te taumata o nga tohunga mo te mate pukupuku (kappa = 0.73) (Lancet Oncology, 2020). Waihoki, ko Ström et al. I korerohia he punaha AI e eke ana ki te reanga taumata pathologist me te AUC o 0.98 mo te wehewehe i nga rohe mate pukupuku me te AUC o 0.85-0.93 mo te whakarōpū i nga tohu rereke o Gleason (IEEE TMI, 2020).\n\nI roto i te pathology whatumanawa, kua whakawhanakehia nga punaha AI ki te whakarōpū i nga momo momo iti o te mate pukupuku o te renal cell me te > 95% tika mo nga momo e wha e tino kitea ana (Nat Mach Intell, 2019). Mo nga nodules thyroid, ka taea e AI te wehewehe i nga ahuatanga kino mai i nga ahuatanga kino me te 90-99% i runga i te momo mate pukupuku mate pukupuku (JAMA Network Open, 2019). Ka toro atu enei tono ki tua atu i te whakarōpūtanga mate pukupuku - Kua whakaatu a AI i te oati ki te tohu i nga mate mumura (hei tauira, te taumahatanga o te mate inflammatory bowel), te ine i te whakaurunga o nga pūtau mate mate (tumor microenvironment aromatawai), me te ine i nga ahuatanga morphologic e matapae ana i te urupare maimoatanga."
+        },
+        "workflowOptimization": {
+          "title": "Arotautanga Rerengamahi",
+          "content": "I tua atu i te tika tātaritanga, ka tukuna e AI te kaha nui mo te arotautanga rerenga mahi pathology. Ko te whakanikotanga rerengamahi matua ko te tirotiro i mua ki te whakarite i nga keehi me te whakaiti i te wa e whakapaua ana ki nga tauira ngawari, noa ranei. Ho et al. I whakaatu ko AI i mua i te tirotiro mo nga koiora prostate ka taea te whakaiti i nga mahi a te tohunga pathologist ma te 30-50% i te wa e pupuri ana i te tika o te taatai ​​(Mod Pathol, 2021). Waihoki, ko Da Silva et al. i kitea ko AI i mua i te tirotiro i nga cytology cervical ka taea te whakaiti i te arotake a-ringa ki te 40% (J Am Soc Cytopathol, 2021).\n\nI roto i te aromatawai ine, ka whakaaunoatia e nga punaha AI nga mahi a-ringa whakararuraru penei i te tatau mitotic, te tatauranga ohanga puku mo te PDL1, me te inenga o nga stains immunohistochemical. Mo te tohu Ki-67, Maeda et al. I whakaatu mai na te punaha AI aunoa i whakaiti i te wa aromatawai ma te 83% i te wa e mau tonu ana, e nui ake ranei te tika o te tatau a-ringa (Sci Rep, 2021). Ko tenei aunoatanga ka whakataurite i nga inenga e pa ana ki nga rereketanga o te kaitirotiro whanui.\n\nMo te tautoko whakatau haumanu, ka taea e nga punaha AI te tautuhi i nga keehi e hiahia ana ki te tohungatanga motuhake, ki etahi atu rangahau ranei. Chen et al. I whakaatu mai ka taea e te AI algorithm te tarai i te 98% o nga keehi o ia ra i te wa e tohu ana i te 2% anake mo te arotake a te tohunga pathotanga matua, kaore e ngaro te tika o te taatai ​​(Nat Commun, 2022). Ina whakauruhia ki nga punaha korero taiwhanga, ka taea e enei huarahi te whakaiti i nga wa hurihanga mo nga keehi o ia ra me te whakarite kia tika te arotake tohunga mo nga keehi wero."
+        }
+      },
+      "discussion": {
+        "title": "Matapakinga",
+        "content": "Ko nga taunakitanga kua kohia e whakaatu ana kua ahu whakamua a AI mai i te ariā rangahau ki te hangarau haumanu i roto i te pathology. Ko nga inenga mahi puta noa i nga rangahau maha e whakaatu ana i te tairongo me te motuhake nui ake i te 90% mo te maha o nga tono, he whakataetae, he nui ake ranei nga mahi a te tangata i roto i nga mahi motuhake. Heoi, he maha nga whakaaro nui e pa ana ki te whakamaori me te whakatinanatanga o enei kitenga.\n\nTe hiranga haumanu: Ka whakaatu a AI i te kaha o nga mahi e pa ana ki te tohu tauira me te ine. Mo te rapunga mate pukupuku, he maha nga wa ka nui ake te tairongo AI ki tera o nga tohunga kaiao mate whanui, tera pea ka whakaiti i nga reiti o nga tohu kua ngaro. I roto i nga whakatinanatanga, Pantanowitz et al. I kii ko AI i kitea he maha nga waahi mate pukupuku i ngaro i te tuatahi e nga tohunga pathologists, e whakaatu ana i tona uara hei \"kaiarotake tuarua\" (Lancet Digital Health, 2020). Mo nga mahi tohu, ka tukuna e AI nga hua riterite ake i nga tohunga pathologist takitahi, e whakaiti ana i te rereketanga ka pa ki te whakahaeretanga o nga turoro.\n\nTe Paanga Rerengamahi: Ko te wa o te Pathologist he rauemi iti ake nei, he mea tino nui te pai o te rerengamahi. Ko nga rangahau e whakaatu ana i te penapena wa o te 30-60% mo nga momo mahi ka whakamahi awhina AI. Ka whakamaoritia tenei ki nga painga whaihua - ka taea e te tari pathology e tukatuka ana i nga keehi prostate 100 ia wiki ka taea te whakaora i nga haora 15-30 tohunga mate, ka taea te aro ki nga keehi uaua e hiahia ana ki te tohungatanga tangata.\n\nTe rerekeetanga o te kaitirotiro: Ko te kitenga riterite puta noa i nga rangahau ka whakahekehia te rereketanga ina awhina a AI i nga tohunga mate. Mo te māka Gleason, ka piki ake te whakaaetanga a te kaitirotiro mai i nga uara kappa o 0.5-0.6 (whakaaetanga ngawari) ki te 0.7-0.8 (he whakaaetanga nui) me te awhina AI (Lancet Oncol, 2020). Ko tenei ahua pai ake he paanga nui mo te paerewa maimoatanga puta noa i nga waahi mahi rereke.\n\nAhakoa enei hua pai, ko nga here nui e tika ana kia whakaarohia. Ko te whakawhänui tonu te äwangawanga tuatahi - ko ngä pünaha AI kua whakangungua i runga i ngä raraunga mai i ngä pütahitanga motuhake, i ngä taupori manawanui, karekau pea e pai te mahi i roto i nga waahi rereke. Ko nga mea hangarau penei i te whakarite kiriata, nga kawa tae, me nga ahuatanga matawai ka awe i te mahinga AI. Kua mohio te FDA ki enei wero, e kii ana kia whakamanahia nga waahi-maha mo nga punaha AI e rapu ana i nga ture.\n\nKo te whakararu o te Raraunga Raraunga tetahi take nui. Ko te nuinga o nga algorithm e whakangungua ana i runga i nga taupori o te Tai Hauauru, a, ka iti pea te mahi i roto i etahi atu roopu iwi he rereke nga whakaaturanga mate. Hei tauira, ko te mate pukupuku prostate he maha nga ahuatanga rereke o te ahua o nga tane o Awherika o Amerika ki te whakataurite ki nga tane Caucasian, ka pa ki te mahi a AI algorithm mena karekau e tino whakaatuhia i roto i nga raraunga whakangungu.\n\nKo te tirotiro ture mo te pathology AI kei te tipu haere tonu. Kua whakakorehia e te FDA etahi taputapu pathology e pa ana ki te AI na roto i nga huarahi De Novo me 510 (k), ka whakatauhia he tauira mo te whakatinana haumanu. Ko te whakawāteatanga FDA o Paige Prostate i te tau 2021 i tohu i tetahi tohu nui i te mea ko te punaha AI pathology tuatahi i whakamanahia mo te whakamahi tātaritanga tuatahi. Heoi, ko te nuinga o nga punaha ka whakawāteahia hei \"maukati\" hātepee kaore e taea te ako, te urutau ranei i muri i te tukunga, ka puta he wero mo te pupuri i nga mahi i te wa e whanake ana nga tauira mahi.\n\nKo te whakaurunga ki nga rerengamahi taiwhanga o naianei ka whakaatu i nga arai whakatinanatanga. Ko te tangohanga pathology mamati, ahakoa e tipu haere ana, kare tonu i te oti puta noa i te punaha hauora. Ko nga punaha AI e hiahia ana ki te whakauru ki nga punaha korero taiwhanga me nga papaaaa mate mate mamati. I tua atu, me whakangungu nga tohunga pathologists ki te whakauru tika i nga putanga AI ki roto i a raatau mahi tātaritanga, me te whakamaori i nga tohu tupono me nga mapi wera.\n\nPērā i ngā hangarau ka puta ake, he iti tonu nga raraunga whaihua-utu. Ko te whakatinanatanga tuatahi he nui te haumi i roto i nga hanganga matihiko, engari ko nga painga mo te wa roa ka uru pea ki te whakaheke i nga reiti hapa, te tere o te hurihanga, me te pai ake o te whakamahi rauemi. Ko nga tikanga utu mo nga ratonga pathology awhina a AI kei te whanake tonu, ka puta te koretake mo te pumau moni o enei hangarau."
+      },
+      "conclusion": {
+        "title": "Whakamutunga",
+        "content": "Ko te mohiotanga horihori kua whakaatu i nga mahi pathology matatau, me te nui o nga taunakitanga ka taea e nga punaha AI te whakatutuki i nga mahi taumata tohunga i roto i nga mahi tātaritanga motuhake. Ko nga taunakitanga kaha rawa atu mo nga tono i roto i nga mate oncologic, otira ko te prostate me te mate pukupuku uma, i uru atu ai nga punaha kua whakakorehia e te FDA ki nga mahi haumanu. Ka whakaatu a AI i nga tino kaha ki te whakatika i nga wero e mohiotia ana i roto i te pathology: ka whakaiti i te rereketanga o te kaitirotiro, te whakaniko i te kitenga o nga kitenga ngawari, te whakatau i nga aromatawai ine, me te whakapai ake i te pai o te rerenga mahi.\n\nKei te tere haere te whakawhiti mai i te rangahau ki te whakatinana haumanu, e tautokohia ana e te tipu haere o te anga ture me te wheako whakahaere. Heoi, ko te whakauru angitu me aro ki nga whakaaro hangarau, rerenga mahi, me nga whakaaro whakamana. Mo nga hua tino pai, me whakatinanahia a AI hei hangarau awhina pathologist, kaua ko te punaha tātaritanga motuhake mo te nuinga o nga tono. Ko te mahi tahi a te pathologist-AI e whakamahi ana i nga kaha taapiri o te tohungatanga tangata me te kaha rorohiko.\n\nKo nga tohutohu a meake nei ko nga tono whakawhanui ki nga hinonga onge, te aromatawai tohu koiora matapae, me te whakaurunga ki nga raraunga ira tangata me te rauropi. Ko te whakapumautanga o te kounga o te waa tuuturu, te whakahekenga o nga rereketanga o te taatai, me te urutau ki nga tauira mahi e whanake ana hei tohu i nga whaainga nui. Ko nga taunakitanga i arotakehia e tautoko ana i te haumi tonu ki nga punaha AI pathology me te whakamana kaha me te whakatinana whakaaro. Ma te whakawhanaketanga hangarau tika, te whakamana, me te whakauru ki nga rerenga mahi haumanu, ka kaha a AI ki te whakanui ake i te kounga me te whai hua o te taatai ​​pathologic."
+      },
+      "references": {
+        "title": "Tohutoro",
+        "list": ""
+      },
+      "figures": {
+        "figure1": {
+          "title": "Whakaatu 1. Te Anau ROC: Pūnaha Tohu AI mo te mate pukupuku Prostate",
+          "caption": "Puna: Bulten W, Pinckaers H, van Boven H, et al. Pūnaha ako-hohonu aunoa mo te tohu Gleason mo te mate pukupuku repeure ma te whakamahi koiora: he rangahau tātaritanga. Lancet Oncol. 2020;21(2):233-241."
+        },
+        "figure2": {
+          "title": "Whakaahua 2. Te Taapiri me te Taapiri i roto i nga Maatauranga AI Pathology Matua",
+          "caption": "Puna: Campanella G, et al. Nat Med. 2019;25(8):1301-1309; Pantanowitz L, et al. Lancet Digit Health. 2020;2(8):e407-e416; Ehteshami Bejnordi B, et al. HAMA. 2017;318(22):2199-2210."
+        },
+        "figure3": {
+          "title": "Whakaatu 3. Wa Wawaenga ki te Whakamatau: Manual vs AI-Assisted Pathology",
+          "caption": "Puna: Ho D, Quake SR, McCabe ERB, et al. Whakahohe Hangarau mo te Rongoa Whaiaro me te Tika. Hangarau Hangarau ia ia. 2020;38(5):497-518."
+        },
+        "figure4": {
+          "title": "Whakaatu 4. AI Heatmap e Whakaatu ana i nga Waa Mate pukupuku i roto i te Prostate Biopsy",
+          "caption": "He kiriata biopsy prostate i tātarihia e te punaha AI e whakaatu ana i nga rohe kei roto nga pūtau mate pukupuku (he whero →te kaha kowhai). Ka aro atu te mapi wera ki nga waahi iti o te adenocarcinoma ka warewarehia i te waa arotake. Puna: Pantanowitz L, et al. He algorithm mohio mo te mate pukupuku mate pukupuku prostate i roto i nga whakaahua kiriata katoa o nga koiora ngira matua: he whakamanatanga haumanu matapo me te ako tuku. Lancet Digit Health. 2020;2(8):e407-e416."
+        }
+      }
+    }
+  },
+  "simplybetterWhitepaper": {
+    "downloadPdf": "Tikiake PDF",
+    "generating": "Whakaputa...",
+    "pdfFilename": "SimplyBetter.pdf"
+  },
+  "introPopup": {
+    "greeting": "Kia ora! Ko AI Aileen Carol ahau, to kaitohutohu hauora AI i VirtualMD.app.",
+    "welcomeMessage": "Kia ora! Ko AI Aileen Carol ahau, he kaitohutohu hauora mariko i VirtualMD.app. Kei te whakakahangia matou e nga AI hou hou, he mea hanga e o matou kaiwhakarewa hei whakarato i nga korero rongoa pai e waatea ana. Ka ako a maatau kaitohutohu mariko mo koe ma te korero ki a koe mo o awangawanga. Na ka tukuna atu e matou nga korero rongoa he mea hou, he mea motuhake nau.",
+    "welcomeMessageShort": "I konei, kare koe e haere i roto i nga korero rongoa—engari, ka timata ta matou roopu mariko o nga kaitohutohu hauora ma te korero ki a koe, te ako mo to hitori, o awangawanga me o whainga.",
+    "meetTheTeam": "Kare e taea e au te tatari ki te whakaatu atu ki a koe ki o maatau tohunga VirtualMD.app:",
+    "specialists": {
+      "cardiology": "Kaitohutohu Taonga Mariko - hou mo te hauora ngakau",
+      "oncology": "Kaitohutohu Oncology Mariko - nga patai tino nui mo to taakuta",
+      "andMore": "Me te maha atu o nga tohunga mariko i roto i - whakamaarama whanonga hinengaro, hauora moepuku, dermatology, orthopedics, herbology Awherika..."
+    },
+    "disclaimer": {
+      "title": "WHAKAARO:",
+      "mainText": "NA TE mea ehara matou i te tohunga mo te hauora tangata, engari he Kaitohutohu AI, he mea nui kia mohio ki enei korero e whai ake nei:",
+      "promiseIntro": "Ko ta matou tohutohu he korero, ehara i te haumanu. Ehara matou i nga kaiwhakarato hauora whai raihana.",
+      "fullText": "Ko ahau, me era atu o te roopu mariko i VIRTUALMD.APP, ehara i te Kaituku rongoa kua raihanatia. He AI matou. Ka taea e te AI te maamaa i etahi wa…me te kore e tino tika. No reira, tirohia o maatau tohutohu he korero korero, kaua ko te haumanu. Kia mahi tahi koe me matou, me oati koe.",
+      "shortText": "He AI matou, ehara i nga kaiwhakarato rongoa raihana. Tena koa tirohia a maatau tohutohu hei korero korero, ehara i te haumanu. Me oati koe."
+    },
+    "promise": "Ka korero tonu koe ki tetahi tohunga hauora tangata i mua i to mahi i nga korero hauora ka whiwhi koe i konei.",
+    "promiseButton": "Ka oati ahau",
+    "dontShowAgain": "Kaua e whakaatu ano i tenei",
+    "languageTitle": "Tīpakohia tō Reo",
+    "languageSelectLabel": "Tīpakohia te Reo",
+    "welcome": {
+      "greeting": "Kia ora! Ko Aileen Carol ahau.",
+      "explanation": "Ko au me aku hoa mahi he momo kaitohutohu hauora hou i VirtualMD.app. He roopu matou o nga tohunga AI, kua whakangungua mo nga rautaki hou o te ao mo te hauora me te oranga pai, e kapi ana i nga waahi rongoa katoa. Hei miihini mariko, kei te watea matou mo koe 24/7, tino kore utu. Ka tae mai tenei me nga painga whakamiharo, engari ano etahi here nui ..."
+    },
+    "mobile": {
+      "simply": "Maama noa",
+      "better": "Pai ake",
+      "health": "Hauora",
+      "tagline": "Te Arataki Hauora me te Waiora Whaiaro",
+      "poweredByAI": "Whakamanahia e AI",
+      "welcomeTitle": "Nau mai haere mai! Ko Aileen Carol ahau, to kaitohutohu hauora mariko.",
+      "welcomeTeamIntro": "Ka arahi ahau i tetahi roopu tohunga hauora AI kua rite ki te awhina i:",
+      "specialties": {
+        "heart": "Te hauora o te ngakau",
+        "cancer": "Tautoko mate pukupuku",
+        "children": "Te hauora o nga tamariki",
+        "mental": "Te hauora hinengaro",
+        "healthSystem": "Te whakatere i te punaha",
+        "andMore": "A 50+ atu tohungatanga"
+      },
+      "available247": "Wātea 24/7",
+      "disclaimerText": "Ehara matou i nga kaiwhakarato hauora whai raihana. He AI mariko tatou, ko te tikanga ka he tatou. Ko ta matou tohutohu he korero, ehara i te haumanu.",
+      "promiseText": "Ka korero tonu koe ki tetahi tohunga hauora tangata i mua i to mahi i nga korero hauora ka whiwhi koe i konei."
+    }
+  },
+  "faqPage": {
+    "title": "Pātai Auau",
+    "subtitle": "Kimihia nga whakautu ki nga patai noa mo VirtualMD.app",
+    "faq1": {
+      "question": "He aha te VirtualMD.app?"
+    },
+    "questions": {
+      "whatIsVirtualMD": "He aha te VirtualMD.app?",
+      "replacementForDoctor": "He whakakapi a VirtualMD.app mo taku rata?",
+      "howItWorks": "He pehea te mahi a te korero a AI?",
+      "healthInfoSecure": "He haumaru taku korero hauora?",
+      "tryWithoutAccount": "Ka taea e au te whakamatau i te VirtualMD.app me te kore e hanga he kaute?",
+      "supportedLanguages": "He aha nga reo e tautokohia ana?",
+      "uploadDocuments": "Ka taea e au te tuku whakaahua rongoa, tuhinga ranei?",
+      "aiAccuracy": "He pehea te tika o nga tohutohu hauora AI?",
+      "conversationHistory": "Ka taea e au te uru atu ki taku hitori korero?",
+      "voiceSupport": "He tautoko reo?",
+      "whatMakesDifferent": "He aha te rerekee o VirtualMD mai i etahi atu papaaho AI hauora?",
+      "cost": "E hia te utu a VirtualMD.app?"
+    },
+    "answers": {
+      "whatIsVirtualMD": "Ko VirtualMD.app he papaa korero mo te hauora a AI e whakarato ana i te arataki rongoa ma roto i nga korero korero matatau. Ko ta maatau papaahi kei runga ake i te 60 nga tohunga rongoa AI, he tohungatanga motuhake o ia ki nga waahi rereke o te hauora.",
+      "replacementForDoctor": "Kaore, ko VirtualMD.app ehara i te whakakapi mo te tiaki hauora ngaio. I hangaia a maatau korero AI ki te whakarato i nga korero hauora, te matauranga, me te arahi tuatahi. Me korero tonu me nga tohunga ngaio hauora whai tohu mo te taatai, te maimoatanga, me nga whakatau rongoa.",
+      "howItWorks": "Ka taea e koe te tiimata i te korerorero me tetahi o a maatau tangata AI motuhake ma te kowhiri i a raatau mai i te papatohu. Kei ia tangata nga tohungatanga motuhake (hei tauira, te mate ngakau, nga tamariki tamariki, te hauora hinengaro) ka uru ki te korerorero kia mohio ai koe ki o awangawanga me te whakarato i nga korero me nga kaiarahi e tika ana.",
+      "healthInfoSecure": "Ae, ka tino aro nui matou ki te noho muna me te haumarutanga. Kua whakamunatia nga korerorero katoa, a ka whai matou ki nga ture tiaki raraunga hauora. Ko o korero hauora whaiaro e kore e tiritiria ki etahi atu tuatoru me te kore e tino whakaae koe. Tirohia ta matou whaarangi Raraunga Raraunga mo etahi atu korero.",
+      "tryWithoutAccount": "Ae! Ka tukuna e matou he wheako manuhiri ka taea e koe te whakamatau i ta maatau ratonga korero AI me te kore e hanga he putea. Ko nga huihuinga manuhiri he iti ki te 10 nga karere me te whai waahi ki to maatau tangata korero hauora.",
+      "supportedLanguages": "Ka tautokohia e VirtualMD.app neke atu i te 30 nga reo, tae atu ki te reo Ingarihi, Spanish, French, German, Chinese, Japanese, Arabic, Hebrew, me te maha atu. Ka kitea aunoa e te papaaho nga manakohanga reo o to kaitirotiro me te whakarite kia rite.",
+      "uploadDocuments": "Ae, ka taea e nga kaiwhakamahi kua rehitatia te tuku whakaahua rongoa me nga tuhinga i nga wa e korerorero ana. Ka taea e ta maatau AI te tātari me te whakarato i nga tirohanga mo nga momo whakaahua rongoa tae atu ki nga hihi X, MRI, me nga purongo taiwhanga. Ka awhina tenei ahuatanga ki te whakarato i nga korero mo te horopaki me te tika.",
+      "aiAccuracy": "Ko o maatau tauira AI kua whakangungua mo nga tuhinga rongoa whanui me te whakahou tonu me nga matauranga rongoa hou. Ahakoa e whakarato ana ta maatau AI i nga korero kounga teitei i runga i te maaramatanga rongoa o naianei, me whakamahi tonu hei rauemi taapiri i te taha o te tiaki hauora ngaio.",
+      "conversationHistory": "Ae, ka taea e nga kaiwhakamahi kua rehita te uru atu ki o raatau hitori korero katoa, tae atu ki nga whakarāpopototanga, tuhinga tuhi, me nga tuhinga tiritahi. Ka awhina tenei ki te pupuri tonu i to haerenga korero hauora me te tuku korero ki a koe me o kaiwhakarato hauora.",
+      "voiceSupport": "Ae, kei te tautoko a VirtualMD.app i nga mahi kupu-ki-korero me te korero-ki-kuputuhi. Ka taea e koe te whakarongo ki nga whakautu a AI me te korero i o patai hei utu mo te patopato, kia pai ake ai te waatea me te waatea ki te whakamahi.",
+      "whatMakesDifferent": "E whakaatu ana a VirtualMD.app neke atu i te 60 nga tangata AI rongoa motuhake, he tohungatanga hohonu o ia tangata ki nga waahi rongoa motuhake. Ka whakawhiwhia ano e to maatau papaaho te tautoko reo matawhānui, te taunekeneke reo, te tātari whakaahua rongoa, me te pupuri i nga paerewa tūmataitinga i te wa e whakarato ana i te atanga maamaa, ngawari hoki.",
+      "cost": "Ka tukuna e matou nga momo reanga ohaurunga hei whakatutuki i nga hiahia rereke. Ka taea e nga manuhiri manuhiri te whakamatau i te ratonga mo te kore utu me nga waahanga iti. Ko nga kaiwhakamahi kua rehitatia ka uru ki nga tangata katoa, nga korerorero mutunga kore, me nga ahuatanga matatau. Tena tirohia to maatau wharangi utu mo nga whiringa ohaurunga o naianei."
+    },
+    "helpSection": {
+      "title": "He pātai tonu?",
+      "description": "Kaore e kitea te whakautu e rapu ana koe? Kei konei ta matou roopu tautoko ki te awhina."
+    },
+    "buttons": {
+      "contactUs": "Whakapā mai",
+      "tryGuestChat": "Whakamātauria te Kōrerorero Manuhiri"
+    },
+    "navigation": {
+      "backToHome": "← Hoki ki te Kāinga"
+    }
+  },
+  "howToPage": {
+    "title": "Me pehea te whakamahi VirtualMD.app",
+    "subtitle": "Ko to aratohu matawhānui ki nga whakawhitinga korero hauora a AI",
+    "navigation": {
+      "gettingStarted": "Te Timata",
+      "aiMedicalPersonas": "AI Medical Personas",
+      "teamConsultations": "Whakawhitiwhitinga Kapa",
+      "medicalImageAnalysis": "Tātari Atahanga Hauora",
+      "medicalEncyclopedia": "Te Matatini Hauora",
+      "differentialOpinions": "Whakaaro rereke",
+      "voiceInteraction": "Pāhekoheko reo",
+      "languageSupport": "Tautoko Reo",
+      "tipsBestPractices": "Tohutohu & Mahi Pai",
+      "privacySecurity": "Tūmataiti me te Haumarutanga"
+    },
+    "sidebar": {
+      "contents": "Ihirangi"
+    },
+    "sections": {
+      "gettingStarted": {
+        "title": "Te Timata",
+        "description": "Ko VirtualMD.app he papaa korero mo te hauora a AI e whakarato ana i te arataki rongoa ma roto i nga korero korero matatau. Anei me pehea te tiimata:",
+        "quickStart": {
+          "title": "Tīmata Tere:",
+          "step1": {
+            "chooseBetween": "Kōwhiri i waenga",
+            "guestAccess": "Urunga Manuhiri",
+            "tryWithoutAccount": "(whakamātauhia me te kore kaute)",
+            "or": "ranei",
+            "signUpFullFeatures": "Waitohu mo nga ahuatanga katoa"
+          },
+          "step2": "Tīpakohia he tangata hauora AI, hangaia ranei he roopu tohunga",
+          "step3": "Tīmatahia to korero - patapatai, whakaahuahia nga tohu, rapu tohutohu hauora ranei",
+          "step4": "Te arotake i nga whakautu AI me te whai i etahi atu patai ina hiahiatia"
+        },
+        "tip": {
+          "label": "Aki:",
+          "message": "Ka whiwhi nga manuhiri manuhiri 10 nga karere kore utu. Waihangahia he kaute mo nga whakawhitiwhitinga mutunga kore me te uru ki nga ahuatanga katoa."
+        }
+      },
+      "aiMedicalPersonas": {
+        "title": "AI Medical Personas",
+        "description": "Ko te VirtualMD neke atu i te 60 nga tohunga rongoa AI, he tohungatanga motuhake ia:",
+        "availableSpecialists": "Tohunga Wātea:",
+        "specialists": {
+          "generalPractitioner": "Takutai Whānui",
+          "cardiologist": "Kaimātai ngakau",
+          "pediatrician": "Taonga tamaiti",
+          "mentalHealthSpecialist": "Tohunga Hauora Hinengaro",
+          "dermatologist": "Kairangahau",
+          "neurologist": "Neurologist",
+          "oncologist": "Kaimātai mate pukupuku",
+          "emergencyMedicine": "Rongoa ohorere",
+          "medicalNavigator": "Kaiwhakatere Hauora",
+          "moreSpecialists": "60+ Nga Tohunga"
+        },
+        "howToChoose": {
+          "title": "Me pehea te whiriwhiri i tetahi tangata:",
+          "step1": "Tirotiro i te rarangi tangata kei to papatohu",
+          "step2": "Pānuihia te koiora o ia tangata kia mohio ai koe ki o raatau tohungatanga",
+          "step3": "Tīpakohia i runga i tō āwangawanga hauora, pātai rānei",
+          "step4": "Hurihia nga tangata i nga wa katoa i a koe e korero ana"
+        },
+        "proTip": {
+          "label": "Aki Pro:",
+          "medicalNavigator": "Ka taea e te Medical Navigator persona te awhina i a koe ki te tautuhi ko wai te tohunga ka pai mo to awangawanga hauora."
+        }
+      },
+      "teamConsultations": {
+        "title": "Whakawhitiwhitinga Kapa",
+        "description": "Tikina he tiaki matawhānui ma te hanga i tetahi roopu tohunga AI e mahi tahi ana ki o awangawanga hauora:",
+        "buildingYourTeam": {
+          "title": "Te hanga i to roopu:",
+          "step1": {
+            "buttonText": "Hanga To Rōpū",
+            "instruction": "Pāwhiritia \"{{buttonText}}\" i te papatohu"
+          },
+          "step2": "Tīpakohia kia 5 nga tohunga e pa ana ki o hiahia",
+          "step3": "Tāpirihia he Kaiwhakatere Hauora hei whakarite i waenga i nga tohunga",
+          "step4": "Tīmatahia he korerorero a te roopu mo nga mohiotanga-maha"
+        },
+        "benefits": {
+          "title": "Nga Painga o nga Whakawhitiwhitinga Roopu:",
+          "comprehensiveCare": {
+            "label": "Tiaki Matawhānui:",
+            "description": "Nga tirohanga maha mo nga take hauora uaua"
+          },
+          "coordinatedAdvice": {
+            "label": "Tohutohu Whakaritea:",
+            "description": "Ka mahi tahi nga tohunga, kaua e noho mokemoke"
+          },
+          "efficientNavigation": {
+            "label": "Whakaterenga Pai:",
+            "description": "Ma te Kaiwhakatere Hauora ka whiwhi koe i nga tohungatanga tika"
+          },
+          "holisticApproach": {
+            "label": "Te Ara Holistic:",
+            "description": "Whakaritea tahitia nga ahuatanga o te tinana, o te hinengaro, o te noho"
+          }
+        }
+      },
+      "medicalImageAnalysis": {
+        "title": "Tātari Atahanga Hauora",
+        "description": "Tukuna ka tātarihia nga whakaahua rongoa mo nga tirohanga a AI:",
+        "howToUse": {
+          "title": "Me pehea te whakamahi i te tātari atahanga:",
+          "step1": "Patohia te ata kamera, te paatene tuku whakaahua ranei",
+          "step2": "Tukuna ake ki te 4 whakaahua rongoa (X-hihi, MRI, hua taiwhanga, ahua kiri, me etahi atu)",
+          "step3": "Paatohia nga whakaahua kua tukuna kia toro atu mo te tirohanga taipitopito",
+          "step4": "Tīpakohia ngā wāhanga motuhake mā te pāwhiri i te atahanga kua topa",
+          "step5": "Patai mo nga whakaahua, tono tātari ranei"
+        },
+        "supportedTypes": {
+          "title": "Momo Atahanga Tautoko:",
+          "xrays": "X-hihi me nga whakaahua radiological",
+          "mriCtScans": "MRI me te CT scan",
+          "laboratoryTests": "Nga hua whakamatautau taiwhanga",
+          "skinConditions": "Nga ahuatanga kiri me nga whakaahua dermatological",
+          "ecgEkgReadings": "Nga panui ECG/EKG",
+          "prescriptionDocuments": "Tuhinga o mua"
+        },
+        "warning": {
+          "label": "Hiranga:",
+          "text": "Ko te tātari atahanga AI mo nga kaupapa matauranga. Me toro atu ki nga tohunga ngaio hauora mo te whakamaoritanga rongoa mana."
+        }
+      },
+      "medicalEncyclopedia": {
+        "title": "Te Matatini Hauora me te Rangahau Hohonu",
+        "description": "Te uru atu ki nga korero rongoa me nga kaha rangahau:",
+        "features": {
+          "title": "Ngā āhuatanga mātāpunenga:",
+          "instantAccess": {
+            "label": "Uru Inamata:",
+            "description": "Patohia te ata Te Matatini i te wa e korerorero ana"
+          },
+          "deepResearch": {
+            "label": "Rangahau Hohonu:",
+            "description": "Tonoa nga arotake tuhinga hauora taipitopito"
+          },
+          "evidenceBased": {
+            "label": "I runga i nga taunakitanga:",
+            "description": "I ahu mai nga korero mai i nga paataka rongoa kua arotakehia e nga hoa"
+          },
+          "contextAware": {
+            "label": "Horopaki-Mohio:",
+            "description": "Ko nga rapunga e pa ana ki to korero hauora o naianei"
+          }
+        },
+        "howToResearch": {
+          "title": "Me pehea te Rangahau:",
+          "step1": "I te wa e korerorero ana, pawhiria te paatene Encyclopedia",
+          "step2": "Whakauruhia nga tikanga hauora, tikanga, maimoatanga ranei hei rangahau",
+          "step3": "Te arotake i nga korero matawhānui me nga korero",
+          "step4": "Patai atu i nga patai whai ake hei whakamarama"
+        }
+      },
+      "differentialOpinions": {
+        "title": "Whakaaro rereke",
+        "description": "Te torotoro i nga tohu rereke me nga whakaaro tuarua hei whakarite i te maaramatanga matawhānui:",
+        "gettingOpinions": {
+          "title": "Tikina nga whakaaro rereke:",
+          "step1": "Whai muri i te whiwhinga i te aromatawai tuatahi, pawhiria te \"Tikina te whakaaro rereke\"",
+          "step2": "Ka tātarihia e AI o tohu mai i nga tirohanga rereke",
+          "step3": "Te arotake i nga huarahi rereke me o raatau tupono",
+          "step4": "Kia mohio koe ki te wa e rapu wawe ai koe i nga rongoa"
+        },
+        "whatYoullLearn": {
+          "title": "He aha ka ako koe:",
+          "item1": "Ko etahi atu ahuatanga ka puta he tohu rite",
+          "item2": "Ko nga haki whero e hiahia ana ki te tirotiro hauora tonu",
+          "item3": "Nga patai hei patai atu ki to kaiwhakarato hauora",
+          "item4": "Ko etahi atu whakamatautau ka awhina pea"
+        }
+      },
+      "voiceInteraction": {
+        "title": "Pāhekoheko reo",
+        "description": "Whakauru ki a VirtualMD ma te whakamahi i nga korero reo maori:",
+        "features": {
+          "title": "Āhuatanga reo:",
+          "speechToText": {
+            "label": "Korero-ki-kupu:",
+            "description": "Paatohia te ata hopuoro ki te korero i o patai"
+          },
+          "textToSpeech": {
+            "label": "Kuputuhi-ki-Korero:",
+            "description": "Takahurihia te ata korero kia rongo i nga whakautu AI"
+          },
+          "naturalConversation": {
+            "label": "Kōrero māori:",
+            "description": "Kia rite ki te korero ki te taote"
+          },
+          "multipleVoices": {
+            "label": "Reo Maha:",
+            "description": "He reo motuhake to ia tangata"
+          }
+        },
+        "controls": {
+          "title": "Mana Reo:",
+          "microphone": "Ata hopuoro: Tīmata/whakamutu te whakauru reo",
+          "speaker": "Tohu Kaikorero: Whakahohe/monohia nga whakautu reo",
+          "volume": "Nga mana oro: Whakaritea te reo oro ki nga tautuhinga",
+          "speed": "Mana tere: Whakaritehia te reiti korero kia marama"
+        }
+      },
+      "languageSupport": {
+        "title": "Tautoko Reo",
+        "description": "Whakawhitiwhiti korero i roto i to reo pai me te tautoko mo te 30+ reo:",
+        "availableLanguages": {
+          "title": "Reo Wātea:",
+          "languages": {
+            "arabic": "Arapi",
+            "chinese": "Hainamana",
+            "english": "Ingarihi",
+            "spanish": "Paniora",
+            "french": "Wīwī",
+            "german": "Tiamana",
+            "hebrew": "Hiperu",
+            "hindi": "Hindi",
+            "italian": "Itariana",
+            "japanese": "Hapanihi",
+            "korean": "Koreana",
+            "portuguese": "Potiti",
+            "russian": "Ruhia",
+            "moreLanguages": "20+ Ētahi atu"
+          }
+        },
+        "languageFeatures": {
+          "title": "Ngā Āhuatanga Reo:",
+          "autoDetection": "Te kimi reo aunoa i runga i nga tautuhinga tirotiro",
+          "switchLanguages": "Hurihia nga reo i nga wa katoa mai i te tahua reo",
+          "rtlSupport": "Tautoko RTL mo te Arapi me te Hiperu",
+          "medicalTermsExplained": "Ko nga kupu rongoa kua whakamaramatia i to reo",
+          "culturalGuidance": "Te arataki hauora e tika ana ki nga tikanga"
+        }
+      },
+      "tipsTitle": "Tohutohu & Mahi Pai",
+      "tipsSubtitle": "Te whiwhi i te nuinga mai i VirtualMD:",
+      "commonUseCases": {
+        "title": "Nga Take Whakamahinga Noa:",
+        "useCase1": "Te mohio ki nga tohu i mua i te haerenga o te taote",
+        "useCase2": "Te tiki whakaaro tuarua mo nga matea mate",
+        "useCase3": "Te ako mo nga tikanga hauora me nga maimoatanga",
+        "useCase4": "Te whakarite i nga paatai ​​​​mo nga huihuinga hauora",
+        "useCase5": "Te maarama ki nga hua whakamatautau hauora",
+        "useCase6": "Te whakahaere i nga ahuatanga tawhito me te arahi tonu",
+        "useCase7": "Te tautoko i te hauora hinengaro me nga rautaki whakatau"
+      },
+      "privacySecurity": {
+        "title": "Tūmataiti me te Haumarutanga",
+        "description": "Kua parea o korero mo te hauora ki te haumarutanga taumata hinonga:",
+        "securityFeatures": {
+          "title": "Āhuatanga Haumarutanga:",
+          "feature1": "Whakamunatanga mutunga-ki-mutunga mo nga korerorero katoa",
+          "feature2": "Te whakahaere raraunga e tika ana ki te HIPAA",
+          "feature3": "Kaore he tohatoha o nga raraunga whaiaro me te kore whakaae",
+          "feature4": "Pupuri kapua haumaru me nga taapiri auau",
+          "feature5": "Kei te waatea te aratau manuhiri ingoamuna",
+          "feature6": "Whakaotia te whakakorenga raraunga i te katinga o te kaute"
+        },
+        "yourControl": {
+          "title": "To Mana:",
+          "control1": "Mukua nga korerorero i nga wa katoa",
+          "control2": "Kaweake i o raraunga mo nga rekoata whaiaro",
+          "control3": "Whakahaerehia he aha nga korero kei te rongoa",
+          "control4": "Puta-waho i te tātari raraunga"
+        }
+      },
+      "callToAction": {
+        "title": "Kua Riri ki te Tīmata?",
+        "description": "Ka wheako i nga wa kei te heke mai mo nga korero hauora me VirtualMD.app",
+        "buttons": {
+          "tryAsGuest": "Whakamātauria hei Manuhiri",
+          "createAccount": "Waihanga Pūkete",
+          "backToHome": "← Hoki ki te Kāinga"
+        }
+      }
+    },
+    "tips": {
+      "beSpecific": {
+        "label": "Kia Tauwhāiti:",
+        "description": "Whakaratohia nga korero taipitopito mo nga tohu, te roa, me te kaha"
+      },
+      "shareContext": {
+        "label": "Tiri Horopaki:",
+        "description": "Whakahuatia nga hitori rongoa, rongoa, me nga mate mate"
+      },
+      "askFollowups": {
+        "label": "Uia nga Whaiwhai:",
+        "description": "Kaua e mangere ki te patai mo te whakamarama me etahi atu korero"
+      },
+      "useImages": {
+        "label": "Whakamahia nga Whakaahua:",
+        "description": "Tukuna nga whakaahua rongoa e tika ana, nga hua whakamatautau ranei ina watea"
+      },
+      "saveConversations": {
+        "label": "Tiakina nga Korero:",
+        "description": "Kia mau ki nga whakawhitinga korero nui hei tohutoro a meake nei"
+      },
+      "buildTeams": {
+        "label": "Hanga Rōpū:",
+        "description": "Whakamahia nga tohunga maha mo nga raruraru hauora uaua"
+      },
+      "verifyInformation": {
+        "label": "Manatokohia nga korero:",
+        "description": "Whakapumautia i nga wa katoa te arahi AI me nga tohunga ngaio hauora"
+      }
+    }
+  },
+  "landingPages": {
+    "defaultGuest": {
+      "childHealth": {
+        "title": "Tautoko Hauora Tamariki",
+        "subtitle": "Tohua nga tohutohu mo nga tamariki ina tino hiahia koe.",
+        "firstMessage": "Kia ora! Ko Aileen Carol te Tohunga Hauora ahau, kei konei ahau ki te awhina i nga raruraru hauora o to tamaiti. Kei te awangawanga nga matua katoa - he mea noa tera.\n\nHe aha nga tohu motuhake me nga awangawanga kei a koe mo to tamaiti i tenei ra?"
+      },
+      "sleep": {
+        "title": "Moe me te oranga",
+        "subtitle": "Kia pai ake te okioki me te whakapai ake i to kaha o ia ra.",
+        "firstMessage": "Kia ora! Ko Aileen Carol taku tohunga mo te hauora. Ko nga take mo te moe ka pa ki nga ahuatanga katoa o to oranga, kei konei ahau ki te awhina i a koe ki te whiwhi okiokinga e hiahia ana koe.\n\nHe aha koe i kore ai e moe pai i enei ra?"
+      },
+      "nutrition": {
+        "title": "Te kai me te oranga",
+        "subtitle": "He aratohu whaiaro mo te oranga hauora.",
+        "firstMessage": "Kia ora! Ko Aileen Carol taku tohunga mo te hauora. Ko te whakarereke i te ahua o te noho ora ka tino taumaha koe, engari kei te mahi koe i te mahi tuatahi ma te toro atu.\n\nHe aha te ahua o to hauora me to kai kai e hiahia ana koe ki te aro?"
+      }
+    }
+  },
+  "founders": {
+    "title": "He Panui na nga Kaihanga",
+    "paragraph1": "I hangahia e matou tenei taupānga me te tumanako kotahi: ki te awhina i te ao ki te noho hauora ma te tuku urunga ki te arataki rongoa pono—i whakakahangia e te hangarau no naianei ka taea. Ko te hua o te mahi tahi i waenga i te kaiputaiao me te rabi, nga kaiwhakawhanake kua roa e mohio ana ki te oati me te kawenga o tenei waa hou o AI.",
+    "paragraph2": "Ko ta matou whainga ko te tuku utu kore utu me te uru katoa ki te papaaho mo a maatau kotahi miriona kaiwhakamahi tuatahi. E whakapono ana matou me watea te hauora ki te katoa—kaore ki te hunga e kaha ana ki te utu. I te tipu haere o te turanga, ka tukuna pea e matou he utu mo etahi waahanga utu. Engari i tenei wa, e aro ana matou ki te tuku i tenei ki nga ringaringa o te hunga e tino hiahia ana.",
+    "paragraph3": "I te taha o nga mea hou o te putaiao rongoa, kua taea e matou te uru atu ki nga tangata AI i whakaaweahia e nga tikanga whakaora mai i te ao katoa—tae atu ki nga punaha o te Rawhiti me Awherika ka warewarehia. Kaore matou e whakatairanga i tetahi ara kotahi. Engari, ka tukuna e matou he taputapu e tuku ana i nga tangata takitahi ki te tuhura i te whānuitanga o nga tirohanga me te whakauru i nga mea e tino whai kiko ana ki a raatau.",
+    "paragraph4": "Kei te mohio matou ka tutuki tenei huarahi ki te aukati. Ko etahi ka whai mana—ko nga awangawanga mo te tika he pono, a ka whakaaro nui matou. Ko etahi atu whakapae ka puta mai i te pouri me te huringa. Engari kei te tipu haere te tiaki hauora, ahakoa ka powhirihia e te whakaturanga kaore ranei. Ko ta matou whainga ko te arahi i taua huringa ma te manaaki, te ngakau mahaki, me te marama.",
+    "paragraph5": "He kaha a AI, engari he koretake tonu. Ehara enei i te whakakao ture noa—he wahanga enei o ta matou kawenga matatika ki a koe me te hauora o te iwi. Tena koa whakamahia tenei taputapu hei taapiri, kaua hei whakakapi, mo te tiaki hauora whai raihana.",
+    "closing": "Mauruuru koe mo to tae mai ki konei. Ko te tumanako ka whakamahia e koe i roto i te hauora pai.",
+    "supportText": "Mena kei te whakapono koe ki ta matou e hanga nei me te hiahia ki te awhina i a maatau ki te haere tonu, kei te pirangi matou ki to tautoko. Ka taea e koe te koha ma te panui i te hono i raro nei.",
+    "signature": "– Ron Rubin & Sandy Miles, Kaihanga",
+    "supportButton": "Tautoko Mai"
+  }
+}

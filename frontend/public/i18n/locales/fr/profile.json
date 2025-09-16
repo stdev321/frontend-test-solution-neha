@@ -1,0 +1,27 @@
+{
+  "errors": {
+    "fileReadFailed": "Échec de la lecture du fichier.",
+    "imageProcessFailed": "Échec du traitement de l'image. Elle est peut-être corrompue ou son format n'est pas pris en charge.",
+    "invalidImageFile": "Veuillez sélectionner un fichier image.",
+    "loadingProfile": "Erreur lors du chargement du profil :",
+    "noData": "Aucune donnée de profil disponible.",
+    "saveFailed": "Échec de l'enregistrement du profil. Veuillez réessayer."
+  },
+  "healthInfo": {
+    "conditions": "Conditions:",
+    "date": " (Date: ",
+    "diagnosed": "(Diagnostiqué :",
+    "ended": "(Terminé :",
+    "medicalEvents": "Événements de santé :",
+    "medications": "Médicaments :",
+    "notAvailable": "N / A",
+    "notes": "Remarques :",
+    "started": " (Commencé: "
+  },
+  "loading": {
+    "profile": "Chargement du profil..."
+  },
+  "success": {
+    "profileUpdated": "Profil mis à jour avec succès !"
+  }
+}

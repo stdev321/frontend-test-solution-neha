@@ -1,0 +1,715 @@
+{
+  "actions": {
+    "startConsultation": "ਸਿਹਤ ਸਲਾਹ ਸ਼ੁਰੂ ਕਰੋ",
+    "endConsultation": "ਸਲਾਹ-ਮਸ਼ਵਰਾ ਖਤਮ ਕਰੋ",
+    "returnToConsultation": "ਸਲਾਹ-ਮਸ਼ਵਰੇ 'ਤੇ ਵਾਪਸ ਜਾਓ",
+    "newConversation": "ਨਵੀਂ ਗੱਲਬਾਤ ਸ਼ੁਰੂ ਕਰੋ",
+    "saveConversation": "ਗੱਲਬਾਤ ਸੁਰੱਖਿਅਤ ਕਰੋ",
+    "deleteConversation": "ਗੱਲਬਾਤ ਮਿਟਾਓ",
+    "getSummary": "ਸੰਖੇਪ ਪ੍ਰਾਪਤ ਕਰੋ",
+    "getTranscript": "ਟ੍ਰਾਂਸਕ੍ਰਿਪਟ ਪ੍ਰਾਪਤ ਕਰੋ",
+    "getDifferentialOpinion": "ਵੱਖਰਾ ਵਿਚਾਰ ਪ੍ਰਾਪਤ ਕਰੋ",
+    "exportChat": "ਚੈਟ ਐਕਸਪੋਰਟ ਕਰੋ",
+    "clearChat": "ਚੈਟ ਸਾਫ਼ ਕਰੋ"
+  },
+  "audio": {
+    "aiMuted": "AI ਮਿਊਟ ਕੀਤਾ ਗਿਆ",
+    "aiUnmuted": "AI ਆਡੀਓ ਚਾਲੂ",
+    "playbackFailed": "ਆਡੀਓ ਚਲਾਉਣ ਵਿੱਚ ਅਸਫਲ",
+    "generationFailed": "ਬੋਲੀ ਤਿਆਰ ਕਰਨ ਵਿੱਚ ਅਸਫਲ"
+  },
+  "sidebar": {
+    "personaList": "ਆਪਣਾ ਸਿਹਤ ਪੇਸ਼ੇਵਰ ਚੁਣੋ",
+    "conversations": "ਮੇਰੀਆਂ ਗੱਲਾਂਬਾਤਾਂ",
+    "profile": "ਮੇਰੀ ਪ੍ਰੋਫਾਈਲ",
+    "settings": "ਸੈਟਿੰਗਾਂ",
+    "manageTeam": "ਟੀਮ ਪ੍ਰਬੰਧਿਤ ਕਰੋ",
+    "teamBuilder": "ਏਆਈ ਟੀਮ ਬਿਲਡਰ",
+    "encyclopedia": "ਐਨਸਾਈਕਲੋਪੀਡੀਆ",
+    "bio": "ਪੇਸ਼ੇਵਰ ਬਾਇਓ",
+    "clickForBio": "ਬਾਇਓ ਲਈ ਕਲਿੱਕ ਕਰੋ",
+    "clickToSpeak": "ਸਲਾਹਕਾਰ ਨਾਲ ਗੱਲ ਕਰਨ ਲਈ ਕਲਿੱਕ ਕਰੋ",
+    "summary": "ਸਲਾਹ-ਮਸ਼ਵਰੇ ਦਾ ਸਾਰ",
+    "transcript": "ਗੱਲਬਾਤ ਟ੍ਰਾਂਸਕ੍ਰਿਪਟ",
+    "imageContext": "ਚਿੱਤਰ ਸੰਦਰਭ",
+    "newConversation": "ਨਵੀਂ ਸਲਾਹ-ਮਸ਼ਵਰਾ"
+  },
+  "tooltips": {
+    "audioOnlyRegistered": "ਆਡੀਓ ਸਿਰਫ਼ ਰਜਿਸਟਰਡ ਉਪਭੋਗਤਾਵਾਂ ਲਈ ਉਪਲਬਧ ਹੈ।"
+  },
+  "messages": {
+    "typeMessage": "ਆਪਣਾ ਸੁਨੇਹਾ ਇੱਥੇ ਟਾਈਪ ਕਰੋ...",
+    "send": "ਭੇਜੋ",
+    "thinking": "ਸੋਚ ਰਿਹਾ ਹਾਂ...",
+    "processing": "ਪ੍ਰਕਿਰਿਆ ਹੋ ਰਹੀ ਹੈ...",
+    "connecting": "ਕਨੈਕਟ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...",
+    "connected": "ਜੁੜਿਆ ਹੋਇਆ",
+    "disconnected": "ਡਿਸਕਨੈਕਟ ਕੀਤਾ ਗਿਆ",
+    "typing": "{{name}} ਟਾਈਪ ਕਰ ਰਿਹਾ ਹੈ...",
+    "messageError": "ਸੁਨੇਹਾ ਭੇਜਣਾ ਅਸਫਲ ਰਿਹਾ",
+    "retryMessage": "ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ",
+    "requestToSpeak": "ਕਿਰਪਾ ਕਰਕੇ ਮੈਨੂੰ {{name}} ਨਾਲ ਗੱਲ ਕਰਨ ਦਿਓ।",
+    "messageDeleted": "ਸੁਨੇਹਾ ਮਿਟਾਇਆ ਗਿਆ",
+    "systemMessage": "ਸਿਸਟਮ ਸੁਨੇਹਾ"
+  },
+  "personas": {
+    "defaultName": "ਸਿਹਤ ਮਾਹਿਰ ਏਲੀਨ ਕੈਰਲ",
+    "defaultSpecialty": "ਸਿਹਤ ਮਾਹਰ",
+    "selectPersona": "ਇੱਕ ਸਿਹਤ ਪੇਸ਼ੇਵਰ ਚੁਣੋ",
+    "noPersonasAvailable": "ਕੋਈ ਸਿਹਤ ਪੇਸ਼ੇਵਰ ਉਪਲਬਧ ਨਹੀਂ ਹੈ",
+    "personaDetails": "ਪੇਸ਼ੇਵਰ ਵੇਰਵੇ",
+    "specialization": "ਵਿਸ਼ੇਸ਼ਤਾ",
+    "experience": "ਅਨੁਭਵ",
+    "education": "ਸਿੱਖਿਆ",
+    "certifications": "ਪ੍ਰਮਾਣੀਕਰਣ",
+    "languages": "ਬੋਲੀਆਂ",
+    "availableNow": "ਹੁਣ ਉਪਲਬਧ ਹੈ",
+    "loading": "ਪੇਸ਼ੇਵਰਾਂ ਨੂੰ ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ..."
+  },
+  "personaSearch": {
+    "placeholder": "ਨਾਮ, ਵਿਸ਼ੇਸ਼ਤਾ ਦੁਆਰਾ ਖੋਜ ਕਰੋ, ਜਾਂ ਆਪਣੇ ਲੱਛਣਾਂ ਦਾ ਵਰਣਨ ਕਰੋ (ਜਿਵੇਂ ਕਿ, ਸਿਰ ਦਰਦ, ਚਿੰਤਾ)",
+    "selected": "ਚੁਣਿਆ ਗਿਆ",
+    "noResults": "\"{{query}}\" ਲਈ ਕੋਈ ਸਲਾਹਕਾਰ ਨਹੀਂ ਮਿਲਿਆ।",
+    "searchSuggestions": "ਇਹਨਾਂ ਦੀ ਖੋਜ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ: ਸਿਰ ਦਰਦ, ਚਿੰਤਾ, ਦਰਦ, ਨੀਂਦ, ਸ਼ੂਗਰ, ਆਦਿ।"
+  },
+  "configurator": {
+    "title": "ਨਵੀਂ ਸਿਹਤ ਸਲਾਹ-ਮਸ਼ਵਰਾ ਸ਼ੁਰੂ ਕਰੋ",
+    "subtitle": "ਆਪਣੀ AI ਹੈਲਥ ਟੀਮ ਵਿੱਚੋਂ ਚੁਣੋ",
+    "changeTeam": "ਟੀਮ ਬਦਲੋ",
+    "starting": "ਸ਼ੁਰੂ ਹੋ ਰਿਹਾ ਹੈ...",
+    "startConsult": "ਸਲਾਹ ਸ਼ੁਰੂ ਕਰੋ",
+    "emptyTeam": "ਤੁਹਾਡੀ AI ਹੈਲਥ ਟੀਮ ਖਾਲੀ ਹੈ।",
+    "addSpecialists": "ਆਪਣੀ ਟੀਮ ਵਿੱਚ ਮਾਹਿਰ ਸ਼ਾਮਲ ਕਰੋ",
+    "noOtherSpecialists": "ਤੁਹਾਡੀ ਟੀਮ ਵਿੱਚ ਕੋਈ ਹੋਰ ਮਾਹਰ ਨਹੀਂ ਹੈ। ਤੁਸੀਂ AI ਸਿਹਤ ਮਾਹਿਰ ਕੈਰੋਲ ਨਾਲ ਗੱਲਬਾਤ ਕਰ ਸਕਦੇ ਹੋ ਜਾਂ",
+    "addSpecialistsLink": "ਆਪਣੀ ਟੀਮ ਵਿੱਚ ਮਾਹਿਰ ਸ਼ਾਮਲ ਕਰੋ",
+    "defaultPersona": {
+      "name": "ਏਆਈ ਸਿਹਤ ਮਾਹਿਰ ਆਈਲੀਨ ਕੈਰਲ",
+      "role": "ਮੇਰਾ ਪ੍ਰਾਇਮਰੀ ਏਆਈ ਸਿਹਤ ਸਲਾਹਕਾਰ"
+    },
+    "carolNote": {
+      "title": "ਏਆਈ ਸਿਹਤ ਮਾਹਿਰ ਕੈਰੋਲ ਦੀ ਭਾਗੀਦਾਰੀ ਬਾਰੇ ਨੋਟ:",
+      "ruleA": "A. ਜੇਕਰ ਤੁਹਾਡੀ ਟੀਮ ਵਿੱਚੋਂ 0 ਜਾਂ 2+ ਹੋਰ ਮਾਹਿਰ ਚੁਣੇ ਜਾਂਦੇ ਹਨ ਤਾਂ AI ਹੈਲਥ ਐਕਸਪਰਟ ਕੈਰੋਲ ਨੂੰ ਸ਼ਾਮਲ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।",
+      "ruleB": "B. ਜੇਕਰ ਤੁਹਾਡੀ ਟੀਮ ਵਿੱਚੋਂ ਸਿਰਫ਼ 1 ਹੋਰ ਮਾਹਰ ਚੁਣਿਆ ਜਾਂਦਾ ਹੈ ਤਾਂ AI ਸਿਹਤ ਮਾਹਿਰ ਕੈਰੋਲ ਨੂੰ ਸ਼ਾਮਲ ਨਹੀਂ ਕੀਤਾ ਜਾਂਦਾ।"
+    }
+  },
+  "conversations": {
+    "noConversations": "ਹਾਲੇ ਕੋਈ ਗੱਲਬਾਤ ਨਹੀਂ",
+    "untitled": "ਬਿਨਾਂ ਸਿਰਲੇਖ ਵਾਲੀ ਗੱਲਬਾਤ",
+    "today": "ਅੱਜ",
+    "yesterday": "ਕੱਲ੍ਹ",
+    "thisWeek": "ਇਸ ਹਫ਼ਤੇ",
+    "lastWeek": "ਪਿਛਲੇ ਹਫ਼ਤੇ",
+    "older": "ਪੁਰਾਣਾ",
+    "editTitle": "ਸਿਰਲੇਖ ਸੰਪਾਦਿਤ ਕਰੋ",
+    "saveTitle": "ਸਿਰਲੇਖ ਰੱਖਿਅਤ ਕਰੋ",
+    "cancelEdit": "ਸੰਪਾਦਨ ਰੱਦ ਕਰੋ",
+    "deleteConsultation": "ਸਲਾਹ-ਮਸ਼ਵਰਾ ਮਿਟਾਓ",
+    "clickToReturn": "ਸਲਾਹ-ਮਸ਼ਵਰੇ ਲਈ ਵਾਪਸ ਜਾਣ ਲਈ ਕਲਿੱਕ ਕਰੋ",
+    "deleteConfirm": "ਕੀ ਤੁਸੀਂ ਯਕੀਨਨ ਇਸ ਗੱਲਬਾਤ ਨੂੰ ਮਿਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?",
+    "deleteSuccess": "ਗੱਲਬਾਤ ਸਫਲਤਾਪੂਰਵਕ ਮਿਟਾਈ ਗਈ",
+    "loadingConversations": "ਗੱਲਬਾਤਾਂ ਲੋਡ ਕੀਤੀਆਂ ਜਾ ਰਹੀਆਂ ਹਨ...",
+    "conversationError": "ਗੱਲਬਾਤ ਲੋਡ ਕਰਨ ਵਿੱਚ ਗੜਬੜ ਹੋਈ",
+    "consultationsTitle": "ਸਲਾਹ-ਮਸ਼ਵਰਾ",
+    "lastUpdate": "ਆਖਰੀ ਅੱਪਡੇਟ: {{date}}",
+    "consultationDefault": "ਸਲਾਹ-ਮਸ਼ਵਰਾ {{ਆਈਡੀ}}",
+    "noConsultationsYet": "ਅਜੇ ਕੋਈ ਸਲਾਹ-ਮਸ਼ਵਰਾ ਨਹੀਂ ਹੋਇਆ।",
+    "noPastConsultations": "ਕੋਈ ਪਿਛਲੀ ਸਲਾਹ-ਮਸ਼ਵਰਾ ਨਹੀਂ ਮਿਲਿਆ।"
+  },
+  "participants": {
+    "noParticipants": "ਦਿਖਾਉਣ ਲਈ ਕੋਈ ਭਾਗੀਦਾਰ ਨਹੀਂ।",
+    "inThisConsult": "ਇਸ ਵਰਚੁਅਲ ਸਲਾਹ-ਮਸ਼ਵਰੇ ਵਿੱਚ:"
+  },
+  "team": {
+    "myTeam": "ਮੇਰੀ ਸਿਹਤ ਟੀਮ",
+    "addToTeam": "ਟੀਮ ਵਿੱਚ ਸ਼ਾਮਲ ਕਰੋ",
+    "removeFromTeam": "ਟੀਮ ਤੋਂ ਹਟਾਓ",
+    "teamFull": "ਤੁਹਾਡੀ ਟੀਮ ਪੂਰੀ ਹੈ।",
+    "maxTeamSize": "ਟੀਮ ਦਾ ਵੱਧ ਤੋਂ ਵੱਧ ਆਕਾਰ ({{max}} ਮੈਂਬਰ) ਤੱਕ ਪਹੁੰਚ ਗਿਆ",
+    "currentTeam": "ਮੌਜੂਦਾ ਟੀਮ ਮੈਂਬਰ",
+    "buildTeam": "ਆਪਣੀ ਟੀਮ ਬਣਾਓ",
+    "teamRecommendations": "ਏਆਈ ਟੀਮ ਦੀਆਂ ਸਿਫ਼ਾਰਸ਼ਾਂ",
+    "acceptRecommendation": "ਸਿਫ਼ਾਰਸ਼ ਸਵੀਕਾਰ ਕਰੋ",
+    "getRecommendations": "AI ਸਿਫ਼ਾਰਸ਼ਾਂ ਪ੍ਰਾਪਤ ਕਰੋ",
+    "teamBuilder": "ਏਆਈ ਟੀਮ ਬਿਲਡਰ",
+    "addTeamMembersInstruction": "ਸੱਜੇ ਪਾਸੇ ਇੱਕ ਕਾਰਡ 'ਤੇ ਕਲਿੱਕ ਕਰਕੇ ਟੀਮ ਦੇ ਮੈਂਬਰਾਂ ਨੂੰ ਸ਼ਾਮਲ ਕਰੋ।",
+    "maxTeamSizeNote": "ਤੁਹਾਡੀ ਟੀਮ ਵਿੱਚ ਵੱਧ ਤੋਂ ਵੱਧ ਪੰਜ ਏਆਈ ਸਲਾਹਕਾਰ ਸ਼ਾਮਲ ਕੀਤੇ ਜਾ ਸਕਦੇ ਹਨ। ਤੁਸੀਂ ਆਪਣੀ ਟੀਮ ਨੂੰ ਕਿਸੇ ਵੀ ਸਮੇਂ ਬਦਲ ਸਕਦੇ ਹੋ, ਪਰ ਸਲਾਹ-ਮਸ਼ਵਰੇ ਦੌਰਾਨ ਨਹੀਂ।",
+    "startConsultationWithTeam": "ਆਪਣੀ ਟੀਮ ਨਾਲ ਸਲਾਹ-ਮਸ਼ਵਰਾ ਸ਼ੁਰੂ ਕਰੋ",
+    "manageTeamTitle": "ਮੇਰੀ ਏਆਈ ਹੈਲਥ ਟੀਮ ਦਾ ਪ੍ਰਬੰਧਨ ਕਰੋ (ਵੱਧ ਤੋਂ ਵੱਧ {{max}} ਮਾਹਿਰ)",
+    "removeSpecialistToUseTeamBuilder": "ਏਆਈ ਹੈਲਥ ਐਕਸਪਰਟ ਕੈਰੋਲ ਦੀਆਂ ਟੀਮ ਬਿਲਡਿੰਗ ਸਿਫ਼ਾਰਸ਼ਾਂ ਦੀ ਵਰਤੋਂ ਕਰਨ ਲਈ ਕਿਰਪਾ ਕਰਕੇ ਘੱਟੋ-ਘੱਟ ਇੱਕ ਮਾਹਰ ਨੂੰ ਹਟਾਓ।",
+    "aileenCarolRecommendTeam": "ਏਆਈ ਹੈਲਥ ਐਕਸਪਰਟ ਕੈਰੋਲ ਤੋਂ ਆਪਣੀ ਸਿਹਤ ਟੀਮ ਦੀ ਸਿਫ਼ਾਰਸ਼ ਕਰਵਾਓ",
+    "teamFullRemoveToUseBuilder": "ਤੁਹਾਡੀ ਟੀਮ ਭਰੀ ਹੋਈ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ AI ਟੀਮ ਬਿਲਡਿੰਗ ਦੀ ਵਰਤੋਂ ਕਰਨ ਲਈ ਘੱਟੋ-ਘੱਟ ਇੱਕ ਮਾਹਰ ਨੂੰ ਹਟਾਓ।",
+    "yourCurrentTeam": "ਤੁਹਾਡੀ ਮੌਜੂਦਾ ਟੀਮ ({{current}}/{{max}})",
+    "updatingTeam": "ਟੀਮ ਨੂੰ ਅੱਪਡੇਟ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...",
+    "coordinator": "ਕੋਆਰਡੀਨੇਟਰ",
+    "alwaysIncluded": "ਹਮੇਸ਼ਾ ਸ਼ਾਮਲ",
+    "specialist": "ਮਾਹਰ",
+    "teamEmptyAddBelow": "ਤੁਹਾਡੀ ਮਾਹਰ ਟੀਮ ਖਾਲੀ ਹੈ। ਹੇਠਾਂ ਮਾਹਰ ਸ਼ਾਮਲ ਕਰੋ।",
+    "teamFullRemoveMember": "ਤੁਹਾਡੀ ਟੀਮ ਭਰੀ ਹੋਈ ਹੈ (ਵੱਧ ਤੋਂ ਵੱਧ {{max}} ਮਾਹਿਰ)। ਜੇਕਰ ਤੁਸੀਂ ਕੋਈ ਵੱਖਰਾ ਮਾਹਰ ਸ਼ਾਮਲ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ ਕਿਰਪਾ ਕਰਕੇ ਕਿਸੇ ਮੈਂਬਰ ਨੂੰ ਹਟਾ ਦਿਓ।",
+    "addMembersClickCard": "ਮੁੱਖ ਖੇਤਰ ਵਿੱਚ ਇੱਕ ਕਾਰਡ 'ਤੇ ਕਲਿੱਕ ਕਰਕੇ ਟੀਮ ਦੇ ਮੈਂਬਰਾਂ ਨੂੰ ਸ਼ਾਮਲ ਕਰੋ।",
+    "teamLead": "ਟੀਮ ਲੀਡ",
+    "currentMember": "ਮੌਜੂਦਾ ਮੈਂਬਰ",
+    "analyzingNeeds": "ਤੁਹਾਡੀਆਂ ਜ਼ਰੂਰਤਾਂ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰਨਾ...",
+    "emergencyDetected": "🚨 ਐਮਰਜੈਂਸੀ ਦਾ ਪਤਾ ਲੱਗਿਆ",
+    "backToSafety": "ਸੁਰੱਖਿਆ 'ਤੇ ਵਾਪਸ ਜਾਓ",
+    "recommendedTeam": "ਸਿਫਾਰਸ਼ੀ ਸਿਹਤ ਟੀਮ",
+    "completeTeam": "ਤੁਹਾਡੀ ਪੂਰੀ ਟੀਮ ({{count}} ਮੈਂਬਰ)",
+    "teamLeadReason": "ਪ੍ਰਾਇਮਰੀ ਹੈਲਥ ਕੋਆਰਡੀਨੇਟਰ",
+    "keepingMembers": "ਮੌਜੂਦਾ ਟੀਮ ਮੈਂਬਰ (ਰੱਖ ਰਹੇ)",
+    "newRecommendations": "ਨਵੀਆਂ ਸਿਫ਼ਾਰਸ਼ਾਂ",
+    "aileenCarolReasoning": "ਏਆਈ ਸਿਹਤ ਮਾਹਿਰ ਕੈਰੋਲ ਦਾ ਤਰਕ:",
+    "noMatchingSpecialists": "AI ਸਿਫ਼ਾਰਸ਼ਾਂ ਲਈ ਕੋਈ ਮੇਲ ਖਾਂਦਾ ਮਾਹਰ ਨਹੀਂ ਮਿਲਿਆ। ਤੁਸੀਂ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰ ਸਕਦੇ ਹੋ ਜਾਂ ਆਪਣੀ ਟੀਮ ਹੱਥੀਂ ਬਣਾ ਸਕਦੇ ਹੋ।",
+    "medicalDisclaimerTitle": "ਸਿਹਤ ਅਤੇ ਤੰਦਰੁਸਤੀ ਸਲਾਹਕਾਰ:",
+    "medicalDisclaimerText": "ਇਹ ਪਲੇਟਫਾਰਮ ਸਿਹਤ ਸਲਾਹ ਅਤੇ ਮਾਰਗਦਰਸ਼ਨ ਪ੍ਰਦਾਨ ਕਰਦਾ ਹੈ ਪਰ ਪੇਸ਼ੇਵਰ ਸਿਹਤ ਸੰਭਾਲ ਦੀ ਥਾਂ ਨਹੀਂ ਲੈ ਸਕਦਾ। ਐਮਰਜੈਂਸੀ ਜਾਂ ਗੰਭੀਰ ਸਿਹਤ ਚਿੰਤਾਵਾਂ ਲਈ ਹਮੇਸ਼ਾਂ ਯੋਗ ਸਿਹਤ ਸੰਭਾਲ ਪੇਸ਼ੇਵਰਾਂ ਨਾਲ ਸਲਾਹ ਕਰੋ।",
+    "applyingTeam": "ਅਰਜ਼ੀ ਦੇਣ ਵਾਲੀ ਟੀਮ...",
+    "acceptTeam": "ਇਸ ਟੀਮ ਨੂੰ ਸਵੀਕਾਰ ਕਰੋ",
+    "tryDifferent": "ਵੱਖ-ਵੱਖ ਸਿਫ਼ਾਰਸ਼ਾਂ ਅਜ਼ਮਾਓ",
+    "cancel": "ਰੱਦ ਕਰੋ",
+    "myVirtualMDTeam": "ਮੇਰੀ VirtualMD.app ਟੀਮ",
+    "availableSpecialists": "ਉਪਲਬਧ ਏਆਈ ਸਿਹਤ ਮਾਹਿਰ",
+    "clickToAddInstruction": "ਆਪਣੀ ਟੀਮ ਵਿੱਚ ਸ਼ਾਮਲ ਕਰਨ ਲਈ ਇੱਕ ਕਾਰਡ 'ਤੇ ਕਲਿੱਕ ਕਰੋ ({{current}}/{{max}} ਚੁਣਿਆ ਗਿਆ)। ਚੁਣੇ ਹੋਏ ਮਾਹਰ \"ਚੁਣੇ ਹੋਏ\" ਬੈਜ ਦਿਖਾਉਂਦੇ ਹਨ।",
+    "teamFullInstruction": "ਤੁਹਾਡੀ ਟੀਮ ਭਰ ਗਈ ਹੈ। ਕਿਸੇ ਹੋਰ ਮਾਹਰ ਨੂੰ ਸ਼ਾਮਲ ਕਰਨ ਲਈ ਕਿਸੇ ਮੈਂਬਰ ਨੂੰ ਹਟਾਓ।",
+    "selected": "ਚੁਣਿਆ ਗਿਆ",
+    "teamFullBadge": "ਪੂਰੀ ਟੀਮ",
+    "allSpecialistsAdded": "ਤੁਹਾਡੀ ਟੀਮ ਵਿੱਚ ਸਾਰੇ ਉਪਲਬਧ ਮਾਹਿਰ ਸ਼ਾਮਲ ਕਰ ਦਿੱਤੇ ਗਏ ਹਨ।",
+    "otherSpecialists": "ਹੋਰ ਮਾਹਰ",
+    "specialistsCount": "{{count}} ਮਾਹਿਰ",
+    "startTeamConsult": "ਟੀਮ ਸਲਾਹ-ਮਸ਼ਵਰਾ ਸ਼ੁਰੂ ਕਰੋ",
+    "starting": "ਸ਼ੁਰੂ ਹੋ ਰਿਹਾ ਹੈ...",
+    "myAIHealthTeam": "ਮੇਰੀ ਏਆਈ ਹੈਲਥ ਟੀਮ",
+    "addMembersInstruction": "ਸੱਜੇ ਪਾਸੇ ਇੱਕ ਕਾਰਡ 'ਤੇ ਕਲਿੱਕ ਕਰਕੇ ਟੀਮ ਦੇ ਮੈਂਬਰਾਂ ਨੂੰ ਸ਼ਾਮਲ ਕਰੋ।"
+  },
+  "specialistCategories": {
+    "diabetesBloodSugar": "ਸ਼ੂਗਰ ਅਤੇ ਬਲੱਡ ਸ਼ੂਗਰ",
+    "weightManagement": "ਭਾਰ ਪ੍ਰਬੰਧਨ",
+    "mentalHealthStress": "ਮਾਨਸਿਕ ਸਿਹਤ ਅਤੇ ਤਣਾਅ",
+    "cancerSupport": "ਕੈਂਸਰ ਸਹਾਇਤਾ",
+    "heartHealth": "ਦਿਲ ਦੀ ਸਿਹਤ",
+    "painManagement": "ਦਰਦ ਪ੍ਰਬੰਧਨ",
+    "digestiveIssues": "ਪਾਚਨ ਸੰਬੰਧੀ ਸਮੱਸਿਆਵਾਂ",
+    "sleepProblems": "ਨੀਂਦ ਦੀਆਂ ਸਮੱਸਿਆਵਾਂ",
+    "skinProblems": "ਚਮੜੀ ਦੀਆਂ ਸਮੱਸਿਆਵਾਂ",
+    "womensHealth": "ਔਰਤਾਂ ਦੀ ਸਿਹਤ",
+    "childrensHealth": "ਬੱਚਿਆਂ ਦੀ ਸਿਹਤ",
+    "agingSeniorHealth": "ਬੁਢਾਪਾ ਅਤੇ ਬਜ਼ੁਰਗਾਂ ਦੀ ਸਿਹਤ",
+    "nutritionDiet": "ਪੋਸ਼ਣ ਅਤੇ ਖੁਰਾਕ",
+    "allergiesImmuneSystem": "ਐਲਰਜੀ ਅਤੇ ਇਮਿਊਨ ਸਿਸਟਮ",
+    "breathingLungIssues": "ਸਾਹ ਅਤੇ ਫੇਫੜਿਆਂ ਦੀਆਂ ਸਮੱਸਿਆਵਾਂ",
+    "sportsFitnessInjuries": "ਖੇਡਾਂ ਅਤੇ ਤੰਦਰੁਸਤੀ ਦੀਆਂ ਸੱਟਾਂ",
+    "easternAlternativeMedicine": "ਪੂਰਬੀ ਅਤੇ ਵਿਕਲਪਕ ਤੰਦਰੁਸਤੀ",
+    "cosmeticBeautyMedicine": "ਕਾਸਮੈਟਿਕ ਅਤੇ ਸੁੰਦਰਤਾ ਤੰਦਰੁਸਤੀ",
+    "anxietyHelp": "ਚਿੰਤਾ ਮਦਦ",
+    "medicationPharmacy": "ਦਵਾਈ ਅਤੇ ਫਾਰਮੇਸੀ",
+    "primaryCareGeneralHealth": "ਮੁੱਢਲੀ ਦੇਖਭਾਲ ਅਤੇ ਆਮ ਸਿਹਤ",
+    "medicalSpecialties": "ਸਿਹਤ ਅਤੇ ਤੰਦਰੁਸਤੀ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ"
+  },
+  "dialogs": {
+    "exitConsultation": "ਸਲਾਹ-ਮਸ਼ਵਰੇ ਤੋਂ ਬਾਹਰ ਨਿਕਲੋ",
+    "exitMessage": "ਕੀ ਤੁਸੀਂ ਪੱਕਾ ਇਸ ਸਲਾਹ-ਮਸ਼ਵਰੇ ਤੋਂ ਬਾਹਰ ਨਿਕਲਣਾ ਚਾਹੁੰਦੇ ਹੋ?",
+    "saveAndExit": "ਸੇਵ ਕਰੋ ਅਤੇ ਬਾਹਰ ਜਾਓ",
+    "exitWithoutSaving": "ਸੇਵ ਕੀਤੇ ਬਿਨਾਂ ਬਾਹਰ ਜਾਓ",
+    "cancel": "ਰੱਦ ਕਰੋ",
+    "confirm": "ਪੁਸ਼ਟੀ ਕਰੋ",
+    "logout": "ਲਾਗਆਉਟ",
+    "logoutMessage": "ਤੁਸੀਂ ਇਸ ਵੇਲੇ ਇੱਕ ਸਲਾਹ-ਮਸ਼ਵਰੇ ਵਿੱਚ ਹੋ। ਲੌਗ ਆਊਟ ਕਰਨ ਨਾਲ ਇਹ ਖਤਮ ਹੋ ਜਾਵੇਗਾ। ਤੁਸੀਂ ਕੀ ਕਰਨਾ ਚਾਹੋਗੇ?",
+    "deleteConversation": "ਗੱਲਬਾਤ ਮਿਟਾਓ",
+    "deleteMessage": "ਇਸ ਕਾਰਵਾਈ ਨੂੰ ਅਣਕੀਤਾ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ। ਕੀ ਤੁਹਾਨੂੰ ਯਕੀਨ ਹੈ?",
+    "summarizeFirst": "ਕੀ ਤੁਸੀਂ ਬਾਹਰ ਜਾਣ ਤੋਂ ਪਹਿਲਾਂ ਇੱਕ ਸਾਰ ਪ੍ਰਾਪਤ ਕਰਨਾ ਚਾਹੋਗੇ?",
+    "summarizing": "ਸਾਰਾਂਸ਼ ਤਿਆਰ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...",
+    "summaryGenerated": "ਸਾਰਾਂਸ਼ ਸਫਲਤਾਪੂਰਵਕ ਤਿਆਰ ਕੀਤਾ ਗਿਆ",
+    "doneAlready": "ਹੋ ਗਿਆ?",
+    "doneAlreadyMessage": "ਜਦੋਂ ਵੀ ਤੁਹਾਨੂੰ ਸਾਡੀ ਲੋੜ ਹੋਵੇ ਅਸੀਂ ਇੱਥੇ ਹਾਂ। ਉਦੋਂ ਤੱਕ, ਸਿਹਤਮੰਦ ਰਹੋ, ਖੁਸ਼ ਰਹੋ!",
+    "doneAlreadySignature": "VirtualMD.app 'ਤੇ ਅਸੀਂ ਸਾਰੇ (ਮਨੁੱਖੀ ਅਤੇ AI)",
+    "exitConsultationButton": "ਸਲਾਹ-ਮਸ਼ਵਰੇ ਤੋਂ ਬਾਹਰ ਨਿਕਲੋ",
+    "editTitle": "ਗੱਲਬਾਤ ਸਿਰਲੇਖ ਦਾ ਸੰਪਾਦਨ ਕਰੋ",
+    "conversationTitleLabel": "ਗੱਲਬਾਤ ਦਾ ਸਿਰਲੇਖ",
+    "save": "ਸੇਵ ਕਰੋ",
+    "deleteTitle": "ਗੱਲਬਾਤ ਮਿਟਾਓ",
+    "deleteConfirmation": "ਕੀ ਤੁਸੀਂ ਯਕੀਨਨ \"{{title}}\" ਸਿਰਲੇਖ ਵਾਲੀ ਗੱਲਬਾਤ ਨੂੰ ਮਿਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?",
+    "delete": "ਮਿਟਾਓ",
+    "multiDeleteTitle": "ਚੁਣੇ ਹੋਏ ਸਲਾਹ-ਮਸ਼ਵਰੇ ਮਿਟਾਓ",
+    "multiDeleteConfirmation": "ਕੀ ਤੁਸੀਂ ਪੱਕਾ {{count}} ਚੁਣੇ ਹੋਏ ਸਲਾਹ-ਮਸ਼ਵਰੇ(ਆਂ) ਨੂੰ ਮਿਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ? ਇਸ ਕਾਰਵਾਈ ਨੂੰ ਵਾਪਸ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ।",
+    "deleteSelected": "ਚੁਣੇ ਹੋਏ ਨੂੰ ਮਿਟਾਓ",
+    "addSpecialistTitle": "ਚੈਟ ਵਿੱਚ ਮਾਹਰ ਸ਼ਾਮਲ ਕਰੋ",
+    "addSpecialistError": "ਤੁਹਾਡੇ ਸਲਾਹਕਾਰਾਂ ਨੂੰ ਲੋਡ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ।",
+    "noAdvisersToAdd": "ਤੁਹਾਡੇ ਸਾਰੇ ਚੁਣੇ ਹੋਏ AI ਸਿਹਤ ਸਲਾਹਕਾਰ ਪਹਿਲਾਂ ਹੀ ਇਸ ਚੈਟ ਵਿੱਚ ਹਨ, ਜਾਂ ਤੁਹਾਡੀ ਸੂਚੀ ਖਾਲੀ ਹੈ (ਮੌਜੂਦਾ ਭਾਗੀਦਾਰਾਂ ਨੂੰ ਛੱਡ ਕੇ)।",
+    "longRecording": {
+      "title": "ਲੰਬੀ ਰਿਕਾਰਡਿੰਗ ਰੋਕੀ ਗਈ",
+      "message": "ਅਸੀਂ ਇਸਨੂੰ ਭੇਜੇ ਬਿਨਾਂ 30 ਸਕਿੰਟਾਂ ਤੋਂ ਵੱਧ ਰਿਕਾਰਡ ਨਹੀਂ ਕਰ ਸਕਦੇ। ਤੁਸੀਂ ਕੀ ਕਰਨਾ ਚਾਹੋਗੇ?",
+      "delete": "ਮਿਟਾਓ",
+      "transcribeToText": "ਲਿਖਤ ਵਿੱਚ ਟ੍ਰਾਂਸਕ੍ਰਾਈਬ ਕਰੋ",
+      "transcribeAndSend": "ਟ੍ਰਾਂਸਕ੍ਰਾਈਬ ਕਰੋ ਅਤੇ ਭੇਜੋ"
+    },
+    "finishConsultationTitle": "ਸਲਾਹ-ਮਸ਼ਵਰਾ ਖਤਮ?",
+    "generatingSummary": "ਕਿਰਪਾ ਕਰਕੇ ਸਾਡੇ ਵੱਲੋਂ ਤੁਹਾਡੇ ਸਲਾਹ-ਮਸ਼ਵਰੇ ਦਾ ਸਾਰ ਤਿਆਰ ਕਰਨ ਤੱਕ ਉਡੀਕ ਕਰੋ...",
+    "finishConsultationMessage": "ਇਹ ਕਿਰਿਆਸ਼ੀਲ ਚੈਟ ਸੈਸ਼ਨ ਨੂੰ ਖਤਮ ਕਰ ਦੇਵੇਗਾ। ਕੀ ਤੁਸੀਂ ਪੱਕਾ ਹੋ?",
+    "summarizeAndFinish": "ਸੰਖੇਪ ਅਤੇ ਸਮਾਪਤ",
+    "leaveWithoutSummarizing": "ਸੰਖੇਪ ਕੀਤੇ ਬਿਨਾਂ ਛੱਡ ਦਿਓ",
+    "summarize": "ਸੰਖੇਪ ਵਿੱਚ",
+    "moreInfoTitle": "ਹੋਰ ਜਾਣਕਾਰੀ ਦੀ ਲੋੜ ਹੈ",
+    "moreInfoMessage": "ਇਹ ਗੱਲਬਾਤ ਇੱਕ ਅਰਥਪੂਰਨ ਸਾਰ ਜਾਂ ਵਿਭਿੰਨ ਰਾਏ ਪੈਦਾ ਕਰਨ ਲਈ ਬਹੁਤ ਛੋਟੀ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਚਰਚਾ ਉਦੋਂ ਤੱਕ ਜਾਰੀ ਰੱਖੋ ਜਦੋਂ ਤੱਕ ਤੁਹਾਡੇ ਕੋਲ ਘੱਟੋ-ਘੱਟ 150 ਸ਼ਬਦਾਂ ਦੀ ਗੱਲਬਾਤ ਸਮੱਗਰੀ ਨਾ ਹੋ ਜਾਵੇ।",
+    "ok": "ਠੀਕ ਹੈ",
+    "deleteSuccessTitle": "ਗੱਲਬਾਤ ਮਿਟਾਈ ਗਈ",
+    "deleteSuccessMessage": "ਤੁਹਾਡੀ ਗੱਲਬਾਤ ਸਫਲਤਾਪੂਰਵਕ ਮਿਟਾ ਦਿੱਤੀ ਗਈ ਹੈ।",
+    "logoutTitle": "ਸਾਨੂੰ ਤੁਹਾਡੇ ਜਾਣ ਦਾ ਦੁੱਖ ਹੈ।",
+    "aiHealthSpecialist": "ਤੁਹਾਡਾ ਪ੍ਰਾਇਮਰੀ ਸਿਹਤ ਅਤੇ ਤੰਦਰੁਸਤੀ AI ਮਾਹਰ",
+    "aileenCarol": "ਏਆਈ ਸਿਹਤ ਮਾਹਿਰ ਕੈਰੋਲ",
+    "aiHealthAssistant": "ਏਆਈ ਹੈਲਥ ਅਸਿਸਟੈਂਟ",
+    "deleteAndExit": "ਮਿਟਾਓ ਅਤੇ ਬਾਹਰ ਜਾਓ",
+    "summaryTitle": "ਸਲਾਹ-ਮਸ਼ਵਰੇ ਦਾ ਸਾਰ",
+    "consultationTitle": "ਵਰਚੁਅਲਐਮਡੀ ਸਲਾਹ: {{title}}",
+    "summaryUnavailable": "ਸਾਰਾਂਸ਼ ਤਿਆਰ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ ਜਾਂ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।",
+    "print": "ਪ੍ਰਿੰਟ",
+    "copy": "ਕਾਪੀ ਕਰੋ",
+    "close": "ਬੰਦ ਕਰੋ",
+    "shortConv": {
+      "title": "ਗੱਲਬਾਤ ਸਮਾਪਤ ਹੋਈ",
+      "messageLine1": "ਗੱਲਬਾਤ ਖਤਮ ਹੋ ਗਈ ਹੈ। ਇਸਨੂੰ ਬਚਾਉਣ ਲਈ ਬਹੁਤ ਛੋਟਾ ਹੈ, ਪਰ ਜਲਦੀ ਹੀ ਦੁਬਾਰਾ ਆਓ।",
+      "messageLine2": "ਉਦੋਂ ਤੱਕ, ਸਿਹਤਮੰਦ ਰਹੋ, ਖੁਸ਼ ਰਹੋ।"
+    }
+  },
+  "errors": {
+    "connectionError": "ਕਨੈਕਸ਼ਨ ਗਲਤੀ। ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੇ ਇੰਟਰਨੈੱਟ ਕਨੈਕਸ਼ਨ ਦੀ ਜਾਂਚ ਕਰੋ।",
+    "serverError": "ਸਰਵਰ ਗਲਤੀ। ਕਿਰਪਾ ਕਰਕੇ ਬਾਅਦ ਵਿੱਚ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+    "authenticationError": "ਪ੍ਰਮਾਣੀਕਰਨ ਅਸਫਲ ਰਿਹਾ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਲੌਗਇਨ ਕਰੋ।",
+    "messageFailedToSend": "ਸੁਨੇਹਾ ਭੇਜਣਾ ਅਸਫਲ ਰਿਹਾ",
+    "loadingFailed": "ਸਮੱਗਰੀ ਲੋਡ ਕਰਨ ਵਿੱਚ ਅਸਫਲ",
+    "personaUnavailable": "ਇਹ ਸਿਹਤ ਪੇਸ਼ੇਵਰ ਇਸ ਵੇਲੇ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।",
+    "conversationNotFound": "ਗੱਲਬਾਤ ਨਹੀਂ ਮਿਲੀ",
+    "permissionDenied": "ਤੁਹਾਨੂੰ ਇਸ ਗੱਲਬਾਤ ਤੱਕ ਪਹੁੰਚ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ ਹੈ।",
+    "failedToLogin": "ਲੌਗਇਨ ਕਰਨ ਵਿੱਚ ਅਸਫਲ।",
+    "failedToRegister": "ਰਜਿਸਟਰ ਕਰਨ ਵਿੱਚ ਅਸਫਲ।",
+    "failedToLogout": "ਲੌਗਆਉਟ ਕਰਨ ਵਿੱਚ ਅਸਫਲ।",
+    "emailAlreadyTaken": "ਇਹ ਈਮੇਲ ਪਹਿਲਾਂ ਹੀ ਲਈ ਜਾ ਚੁੱਕੀ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਕੋਈ ਹੋਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜਾਂ ਲੌਗਇਨ ਕਰੋ।",
+    "anErrorOccurred": "ਕੋਈ ਗੜਬੜ ਹੋਈ।",
+    "selectImageFile": "ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਚਿੱਤਰ ਫਾਈਲ ਚੁਣੋ।",
+    "failedToSaveProfile": "ਪ੍ਰੋਫਾਈਲ ਸੁਰੱਖਿਅਤ ਕਰਨ ਵਿੱਚ ਅਸਫਲ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+    "teamIsFull": "ਤੁਹਾਡੀ ਟੀਮ ਭਰੀ ਹੋਈ ਹੈ (ਵੱਧ ਤੋਂ ਵੱਧ {{max}} ਮਾਹਿਰ)। ਜੇਕਰ ਤੁਸੀਂ ਕੋਈ ਵੱਖਰਾ ਮਾਹਰ ਸ਼ਾਮਲ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ ਕਿਰਪਾ ਕਰਕੇ ਕਿਸੇ ਮੈਂਬਰ ਨੂੰ ਹਟਾ ਦਿਓ।",
+    "selectOneSpecialist": "ਕਿਰਪਾ ਕਰਕੇ ਨਿੱਜੀ ਸਲਾਹ-ਮਸ਼ਵਰੇ ਲਈ ਸਿਰਫ਼ ਇੱਕ ਮਾਹਰ ਦੀ ਚੋਣ ਕਰੋ।",
+    "contactErrorMessage": "ਤੁਹਾਡਾ ਸੁਨੇਹਾ ਭੇਜਣ ਵੇਲੇ ਇੱਕ ਗਲਤੀ ਆਈ। ਕਿਰਪਾ ਕਰਕੇ ਬਾਅਦ ਵਿੱਚ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜਾਂ",
+    "contactDirectlyAt": "ਤੁਸੀਂ ਸਾਨੂੰ ਸਿੱਧਾ info@virtualmd.app 'ਤੇ ਈਮੇਲ ਵੀ ਕਰ ਸਕਦੇ ਹੋ।"
+  },
+  "welcome": {
+    "title": "VirtualMD.app ਵਿੱਚ ਤੁਹਾਡਾ ਸਵਾਗਤ ਹੈ।",
+    "subtitle": "ਆਪਣੀ ਵਿਅਕਤੀਗਤ ਸਿਹਤ ਸਲਾਹ-ਮਸ਼ਵਰਾ ਸ਼ੁਰੂ ਕਰੋ",
+    "description": "ਵਿਅਕਤੀਗਤ ਤੰਦਰੁਸਤੀ ਸੂਝ ਅਤੇ ਮਾਰਗਦਰਸ਼ਨ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਸਾਡੀ AI-ਸੰਚਾਲਿਤ ਸਿਹਤ ਸਲਾਹਕਾਰਾਂ ਦੀ ਟੀਮ ਵਿੱਚੋਂ ਚੁਣੋ।",
+    "getStarted": "ਸ਼ੁਰੂ ਕਰੋ",
+    "chooseSpecialist": "ਆਪਣਾ ਮਾਹਰ ਚੁਣੋ",
+    "startWithTeam": "ਮੇਰੀ ਟੀਮ ਨਾਲ ਸ਼ੁਰੂਆਤ ਕਰੋ",
+    "howItWorks": "ਕਿਦਾ ਚਲਦਾ",
+    "aileenCarolName": "ਏਆਈ ਸਿਹਤ ਮਾਹਿਰ ਆਈਲੀਨ ਕੈਰਲ",
+    "danielGarciaName": "ਏਆਈ ਸਿਹਤ ਮਾਹਿਰ ਡੈਨੀਅਲ ਗਾਰਸੀਆ",
+    "greeting": "ਹੈਲੋ, {{username}}। ਤੁਹਾਨੂੰ ਦੇਖ ਕੇ ਬਹੁਤ ਖੁਸ਼ੀ ਹੋਈ! ਤੁਹਾਡੀ VirtualMD ਟੀਮ ਮਦਦ ਲਈ 24/7 ਤਿਆਰ ਹੈ...",
+    "startTeamConsultation": "ਟੀਮ ਸਲਾਹ-ਮਸ਼ਵਰਾ ਸ਼ੁਰੂ ਕਰੋ",
+    "configureNewChat": "ਨਵੀਂ ਚੈਟ ਕੌਂਫਿਗਰ ਕਰੋ",
+    "encyclopedia": "VirtualMD.app ਐਨਸਾਈਕਲੋਪੀਡੀਆ",
+    "myAIHealthTeam": "ਮੇਰੀ ਏਆਈ ਹੈਲਥ ਟੀਮ",
+    "aileenCarolIntro": "ਹੈਲੋ, ਮੈਂ ਏਆਈ ਹੈਲਥ ਐਕਸਪਰਟ ਏਲੀਨ ਕੈਰੋਲ ਹਾਂ। ਮੈਂ ਅੱਜ ਤੁਹਾਡੀ ਕਿਵੇਂ ਮਦਦ ਕਰ ਸਕਦੀ ਹਾਂ?",
+    "persona_welcome_message": "ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ, ਮੈਂ ਤੁਹਾਡੀ ਸਿਹਤ ਅਤੇ ਤੰਦਰੁਸਤੀ ਦੀਆਂ ਜ਼ਰੂਰਤਾਂ ਵਿੱਚ ਮਦਦ ਕਰਨ ਲਈ ਹਾਂ। ਅੱਜ ਮੈਂ ਤੁਹਾਡੀ ਕਿਵੇਂ ਮਦਦ ਕਰ ਸਕਦਾ ਹਾਂ?"
+  },
+  "imageUpload": {
+    "dragAndDrop": "ਇੱਥੇ ਤਸਵੀਰਾਂ ਖਿੱਚੋ ਅਤੇ ਛੱਡੋ, ਜਾਂ ਚੁਣਨ ਲਈ ਕਲਿੱਕ ਕਰੋ",
+    "supportedFormats": "ਸਮਰਥਿਤ ਫਾਰਮੈਟ: JPG, PNG, GIF",
+    "maxSize": "ਵੱਧ ਤੋਂ ਵੱਧ ਆਕਾਰ: {{size}}MB",
+    "uploadSuccess": "ਚਿੱਤਰ ਸਫਲਤਾਪੂਰਵਕ ਅੱਪਲੋਡ ਕੀਤਾ ਗਿਆ",
+    "uploadError": "ਚਿੱਤਰ ਅੱਪਲੋਡ ਕਰਨ ਵਿੱਚ ਅਸਫਲ ਰਿਹਾ",
+    "processing": "ਚਿੱਤਰ ਦੀ ਪ੍ਰਕਿਰਿਆ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ...",
+    "removeImage": "ਚਿੱਤਰ ਹਟਾਓ",
+    "addToContext": "ਗੱਲਬਾਤ ਸੰਦਰਭ ਵਿੱਚ ਸ਼ਾਮਲ ਕਰੋ"
+  },
+  "voice": {
+    "startRecording": "ਵੌਇਸ ਰਿਕਾਰਡਿੰਗ ਸ਼ੁਰੂ ਕਰੋ",
+    "stopRecording": "ਰਿਕਾਰਡਿੰਗ ਬੰਦ ਕਰੋ",
+    "recording": "ਰਿਕਾਰਡਿੰਗ...",
+    "processingSpeech": "ਬੋਲੀ ਦੀ ਪ੍ਰਕਿਰਿਆ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ...",
+    "speechToText": "ਬੋਲੀ ਨੂੰ ਲਿਖਤ ਵਿੱਚ ਬਦਲਿਆ ਜਾ ਰਿਹਾ ਹੈ...",
+    "noSpeechDetected": "ਕੋਈ ਬੋਲੀ ਨਹੀਂ ਮਿਲੀ",
+    "microphoneError": "ਮਾਈਕ੍ਰੋਫ਼ੋਨ ਪਹੁੰਚ ਗਲਤੀ",
+    "unsupportedBrowser": "ਇਸ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ ਵੌਇਸ ਰਿਕਾਰਡਿੰਗ ਸਮਰਥਿਤ ਨਹੀਂ ਹੈ"
+  },
+  "summary": {
+    "title": "ਸਲਾਹ-ਮਸ਼ਵਰੇ ਦਾ ਸਾਰ",
+    "keyPoints": "ਮੁੱਖ ਨੁਕਤੇ",
+    "recommendations": "ਸਿਫ਼ਾਰਸ਼ਾਂ",
+    "nextSteps": "ਅਗਲੇ ਕਦਮ",
+    "followUp": "Ran leti",
+    "generating": "ਸਾਰਾਂਸ਼ ਤਿਆਰ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...",
+    "noSummary": "ਕੋਈ ਸਾਰਾਂਸ਼ ਉਪਲਬਧ ਨਹੀਂ ਹੈ",
+    "summaryError": "ਸਾਰਾਂਸ਼ ਤਿਆਰ ਕਰਨ ਵਿੱਚ ਅਸਫਲ ਰਿਹਾ",
+    "downloadSummary": "ਸਾਰਾਂਸ਼ ਡਾਊਨਲੋਡ ਕਰੋ",
+    "emailSummary": "ਈਮੇਲ ਸਾਰਾਂਸ਼",
+    "return": "ਵਾਪਸੀ",
+    "transcript": "ਟ੍ਰਾਂਸਕ੍ਰਿਪਟ",
+    "print": "ਪ੍ਰਿੰਟ",
+    "copy": "ਕਾਪੀ ਕਰੋ",
+    "copyError": "ਕਾਪੀ ਕਰਨਾ ਅਸਫਲ ਰਿਹਾ",
+    "notGenerated": "ਸਾਰਾਂਸ਼ ਤਿਆਰ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ।"
+  },
+  "status": {
+    "online": "ਔਨਲਾਈਨ",
+    "offline": "ਆਫ਼ਲਾਈਨ",
+    "away": "ਦੂਰ",
+    "busy": "ਵਿਅਸਤ",
+    "available": "ਉਪਲਬਧ",
+    "unavailable": "ਅਣਉਪਲਬਧ",
+    "lastSeen": "ਆਖਰੀ ਵਾਰ ਦੇਖਿਆ ਗਿਆ {{time}}"
+  },
+  "mobileTeamBuilder": {
+    "title": {
+      "yourTeam": "ਤੁਹਾਡੀ ਟੀਮ",
+      "teamBuilder": "ਏਆਈ ਟੀਮ ਬਿਲਡਰ"
+    },
+    "carolMessages": {
+      "teamFull": "{{name}}, ਤੁਹਾਡੀ ਟੀਮ ਭਰ ਗਈ ਹੈ! ਤੁਸੀਂ ਆਪਣੀ ਮੌਜੂਦਾ ਟੀਮ ਨਾਲ ਸਲਾਹ-ਮਸ਼ਵਰਾ ਸ਼ੁਰੂ ਕਰ ਸਕਦੇ ਹੋ ਜਾਂ ਨਵੀਆਂ ਸਿਫ਼ਾਰਸ਼ਾਂ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਕੁਝ ਮੈਂਬਰਾਂ ਨੂੰ ਹਟਾ ਸਕਦੇ ਹੋ।",
+      "helpBuild": "{{name}}, ਮੈਨੂੰ ਤੁਹਾਡੀ ਸੰਪੂਰਨ ਸਿਹਤ ਟੀਮ ਬਣਾਉਣ ਵਿੱਚ ਤੁਹਾਡੀ ਮਦਦ ਕਰਨਾ ਪਸੰਦ ਆਵੇਗਾ! ਮੈਨੂੰ ਦੱਸੋ ਕਿ ਅੱਜ ਤੁਹਾਨੂੰ ਇੱਥੇ ਕੀ ਲੈ ਕੇ ਆਇਆ ਹੈ।"
+    },
+    "carolGreeting": {
+      "teamFull": "ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ {{name}}! ਤੁਹਾਡੀ ਟੀਮ ਪੂਰੀ ਤਰ੍ਹਾਂ ਭਰ ਗਈ ਹੈ।",
+      "helpBuild": "ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ {{name}}! ਮੈਂ ਤੁਹਾਡੀ ਸੰਪੂਰਨ ਸਿਹਤ ਟੀਮ ਬਣਾਉਣ ਵਿੱਚ ਤੁਹਾਡੀ ਮਦਦ ਕਰਾਂਗਾ।"
+    },
+    "currentTeam": "ਮੌਜੂਦਾ ਟੀਮ ({{ਮੌਜੂਦਾ}}/{{ਵੱਧ ਤੋਂ ਵੱਧ}})",
+    "aiSpecialist": "ਏਆਈ {{ਨਾਮ}}",
+    "specialist": "ਮਾਹਰ",
+    "startConversation": "ਇਸ ਟੀਮ ਨਾਲ ਗੱਲਬਾਤ ਸ਼ੁਰੂ ਕਰੋ",
+    "tellUsWhy": "ਸਾਨੂੰ ਦੱਸੋ ਕਿ ਤੁਸੀਂ ਅੱਜ ਇੱਥੇ ਕਿਉਂ ਹੋ ਤਾਂ ਜੋ ਅਸੀਂ ਤੁਹਾਡੀ ਸੰਪੂਰਨ ਸਿਹਤ ਟੀਮ ਬਣਾ ਸਕੀਏ।",
+    "placeholder": "ਆਪਣੀਆਂ ਸਿਹਤ ਸੰਬੰਧੀ ਚਿੰਤਾਵਾਂ, ਲੱਛਣਾਂ, ਜਾਂ ਤੁਸੀਂ ਕਿਸ ਚੀਜ਼ ਵਿੱਚ ਮਦਦ ਚਾਹੁੰਦੇ ਹੋ, ਉਸਦਾ ਵਰਣਨ ਕਰੋ...",
+    "questionnaire": {
+      "question": "ਅੱਜ ਤੁਹਾਨੂੰ ਇੱਥੇ ਕੀ ਲੈ ਕੇ ਆਇਆ ਹੈ?",
+      "keepExisting": "ਕੀ ਮੌਜੂਦਾ ਟੀਮ ਮੈਂਬਰਾਂ ਨੂੰ ਰੱਖਣਾ ਹੈ?",
+      "existingMembers": "ਮੌਜੂਦਾ ਟੀਮ ਮੈਂਬਰ",
+      "currentSize": "ਮੌਜੂਦਾ ਟੀਮ ਦਾ ਆਕਾਰ",
+      "availableSpots": "ਨਵੇਂ ਮਾਹਿਰਾਂ ਲਈ ਉਪਲਬਧ ਥਾਵਾਂ",
+      "maxRecommendations": "ਵੱਧ ਤੋਂ ਵੱਧ ਸਿਫ਼ਾਰਸ਼ਾਂ ਦੀ ਇਜਾਜ਼ਤ ਹੈ"
+    }
+  },
+  "mobileNavigationTabs": {
+    "consultation": "ਸਲਾਹ-ਮਸ਼ਵਰਾ",
+    "team": "ਟੀਮ",
+    "history": "ਇਤਿਹਾਸ",
+    "encyclopedia": "ਐਨਸਾਈਕਲੋਪੀਡੀਆ"
+  },
+  "autoListening": {
+    "turnOn": "ਆਟੋ-ਲਿਸਨਿੰਗ ਚਾਲੂ ਕਰੋ",
+    "turnOff": "ਆਟੋ-ਲਿਸਨਿੰਗ ਬੰਦ ਕਰੋ"
+  },
+  "speech": {
+    "processing": "ਬੋਲੀ ਦੀ ਪ੍ਰਕਿਰਿਆ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ",
+    "pauseListening": "ਸੁਣਨਾ ਰੋਕਣ ਲਈ ਕਲਿੱਕ ਕਰੋ",
+    "turnOnListening": "ਸੁਣਨਾ ਚਾਲੂ ਕਰਨ ਲਈ ਕਲਿੱਕ ਕਰੋ"
+  },
+  "help": {
+    "howDoesThisWork": "ਇਹ ਕਿਵੇਂ ਕੰਮ ਕਰਦਾ ਹੈ?",
+    "chatControls": "ਚੈਟ ਕੰਟਰੋਲ",
+    "enterToSend": "ਭੇਜਣ ਲਈ ਦਰਜ ਕਰੋ ਜਾਂ ▷",
+    "shiftEnterToSpeak": "ਬੋਲਣ/ਰੋਕਣ ਲਈ Shift+Enter ਜਾਂ 🎤/⏸ ਦਬਾਓ।"
+  },
+  "fileUpload": {
+    "clickToUpload": "ਫਾਈਲ ਅਪਲੋਡ ਕਰਨ ਲਈ ਕਲਿੱਕ ਕਰੋ (ਤੁਸੀਂ ਫਾਈਲਾਂ ਨੂੰ ਚੈਟ ਵਿੱਚ ਵੀ ਛੱਡ ਸਕਦੇ ਹੋ)"
+  },
+  "send": {
+    "transcribeAndSend": "ਟ੍ਰਾਂਸਕ੍ਰਾਈਬ ਕਰੋ ਅਤੇ ਭੇਜੋ",
+    "sendMessage": "ਸੁਨੇਹਾ ਭੇਜੋ"
+  },
+  "aileenCarol": {
+    "playAnalysis": "ਹੈਲਥ ਐਕਸਪਰਟ ਕੈਰੋਲ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਚਲਾਓ",
+    "stopAnalysis": "ਸਿਹਤ ਮਾਹਿਰ ਕੈਰੋਲ ਦੇ ਵਿਸ਼ਲੇਸ਼ਣ ਨੂੰ ਰੋਕੋ"
+  },
+  "profile": {
+    "editProfile": "ਪ੍ਰੋਫਾਈਲ ਸੋਧੋ",
+    "saveChanges": "ਬਦਲਾਅ ਸੰਭਾਲੋ",
+    "cancelEdits": "ਸੰਪਾਦਨ ਰੱਦ ਕਰੋ",
+    "changePhoto": "ਫੋਟੋ ਬਦਲੋ",
+    "removePhoto": "ਫੋਟੋ ਹਟਾਓ",
+    "healthInfoTooltip": "ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੇ ਬਾਰੇ ਦਵਾਈਆਂ, ਨਿਦਾਨ, ਪੂਰਕਾਂ ਅਤੇ ਹੋਰ ਮਹੱਤਵਪੂਰਨ ਸਿਹਤ ਸੰਬੰਧੀ ਚੀਜ਼ਾਂ ਲਿਖੋ ਜਾਂ ਸੂਚੀਬੱਧ ਕਰੋ।",
+    "loadingProfile": "ਪ੍ਰੋਫਾਈਲ ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...",
+    "errorLoadingProfile": "ਪ੍ਰੋਫਾਈਲ ਲੋਡ ਕਰਨ ਵਿੱਚ ਗੜਬੜ ਹੋਈ",
+    "noProfileData": "ਕੋਈ ਪ੍ਰੋਫਾਈਲ ਡੇਟਾ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।",
+    "myProfile": "ਮੇਰੀ ਪ੍ਰੋਫਾਈਲ",
+    "myAccount": "ਮੇਰਾ ਖਾਤਾ",
+    "displayName": "ਦਿਖਾਇਆ ਹੋਇਆ ਨਾਮ",
+    "fullName": "ਪੂਰਾ ਨਾਂਮ",
+    "email": "ਈਮੇਲ",
+    "emailCannotBeChanged": "ਈਮੇਲ ਬਦਲਿਆ ਨਹੀਂ ਜਾ ਸਕਦਾ।",
+    "keyHealthInfo": "ਮੁੱਖ ਸਿਹਤ ਜਾਣਕਾਰੀ",
+    "noHealthInfoRecorded": "ਕੋਈ ਮੁੱਖ ਸਿਹਤ ਜਾਣਕਾਰੀ ਦਰਜ ਨਹੀਂ ਕੀਤੀ ਗਈ।",
+    "healthInfoPlaceholder": "ਦਵਾਈਆਂ, ਨਿਦਾਨ, ਪੂਰਕਾਂ, ਆਦਿ ਦੀ ਸੂਚੀ ਬਣਾਓ।",
+    "age": "ਉਮਰ",
+    "gender": "ਲਿੰਗ"
+  },
+  "imageContext": {
+    "clearZoom": "ਇਸ ਜ਼ੂਮ ਚੋਣ ਨੂੰ ਸਾਫ਼ ਕਰੋ",
+    "cropPromotionError": "ਜ਼ੂਮ ਕੀਤੀ ਤਸਵੀਰ ਭੇਜਣ ਅਤੇ ਜੋੜਨ ਵਿੱਚ ਅਸਫਲ। ਕੰਸੋਲ ਦੀ ਜਾਂਚ ਕਰੋ।",
+    "startConversationToSend": "ਜ਼ੂਮ ਭੇਜਣ ਲਈ ਗੱਲਬਾਤ ਸ਼ੁਰੂ ਕਰੋ",
+    "sendZoomToTeam": "ਇਸ ਜ਼ੂਮ ਨੂੰ ਟੀਮ ਨੂੰ ਭੇਜੋ।",
+    "noActiveZoom": "ਭੇਜਣ ਲਈ ਕੋਈ ਕਿਰਿਆਸ਼ੀਲ ਜ਼ੂਮ ਨਹੀਂ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਚਿੱਤਰ 'ਤੇ ਇੱਕ ਖੇਤਰ ਚੁਣੋ।",
+    "functionsUnavailable": "ਜ਼ੂਮ ਨਹੀਂ ਭੇਜਿਆ ਜਾ ਸਕਦਾ: ਜ਼ਰੂਰੀ ਫੰਕਸ਼ਨ ਉਪਲਬਧ ਨਹੀਂ ਹਨ।",
+    "noImages": "ਸੰਦਰਭ ਵਿੱਚ ਕੋਈ ਚਿੱਤਰ ਨਹੀਂ ਹੈ। ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਇੱਕ ਚਿੱਤਰ ਅੱਪਲੋਡ ਕਰੋ।",
+    "allHidden": "ਸਾਰੀਆਂ ਤਸਵੀਰਾਂ ਇਸ ਵੇਲੇ ਲੁਕੀਆਂ ਹੋਈਆਂ ਹਨ। ਇੱਕ ਤਸਵੀਰ ਦਿਖਾਉਣ ਲਈ ਹੈਡਰ ਵਿੱਚ ਇੱਕ ਥੰਬਨੇਲ 'ਤੇ ਕਲਿੱਕ ਕਰੋ।",
+    "showFirst": "ਪਹਿਲੀ ਤਸਵੀਰ ਦਿਖਾਓ",
+    "imageDisplay": "ਚਿੱਤਰ ਡਿਸਪਲੇ ({{shown}} ਦਿਖਾਇਆ ਗਿਆ / {{total}} ਕੁੱਲ)",
+    "hideImage": "ਚਿੱਤਰ ਲੁਕਾਓ",
+    "showImage": "ਚਿੱਤਰ ਦਿਖਾਓ",
+    "zoomPreview": "ਜ਼ੂਮ ਪ੍ਰੀਵਿਊ",
+    "sendToTeam": "ਟੀਮ ਨੂੰ ਭੇਜੋ",
+    "dragToZoom": "ਇੱਕ ਨਵਾਂ ਜ਼ੂਮ ਖੇਤਰ ਚੁਣਨ ਲਈ ਉੱਪਰ ਦਿੱਤੇ ਚਿੱਤਰ 'ਤੇ ਕਲਿੱਕ ਕਰੋ ਅਤੇ ਘਸੀਟੋ।"
+  },
+  "mobileChat": {
+    "healthConsult": "ਸਿਹਤ ਸਲਾਹ",
+    "speakToAI": "{{name}} ਨਾਲ ਗੱਲ ਕਰੋ",
+    "startConversation": "ਹੇਠਾਂ ਆਪਣੀ ਗੱਲਬਾਤ ਸ਼ੁਰੂ ਕਰੋ",
+    "requestToSpeakToAI": "ਮੈਂ {{name}} ਨਾਲ ਗੱਲ ਕਰਨਾ ਚਾਹੁੰਦਾ ਹਾਂ।"
+  },
+  "mobileWelcome": {
+    "greeting": "ਹੈਲੋ!",
+    "aileenCarolIntro": "ਮੈਂ AI Aileen Carol ਹਾਂ, ਤੁਹਾਡੀ ਪ੍ਰਾਇਮਰੀ ਸਿਹਤ ਮਾਹਰ। ਮੈਨੂੰ ਤੁਹਾਡੇ ਨਾਲ ਜਾਣ-ਪਛਾਣ ਦੀ ਬਹੁਤ ਉਮੀਦ ਹੈ। ਮੈਂ ਤੁਹਾਡੀ VirtualMD.app AI ਸਿਹਤ ਮਾਹਿਰਾਂ ਦੀ ਟੀਮ ਦਾ ਇੰਚਾਰਜ ਹਾਂ। ਅਸੀਂ 24/7 ਮਦਦ ਕਰਨ ਲਈ ਤਿਆਰ ਹਾਂ...",
+    "startConsultation": "ਸਿਹਤ ਸਲਾਹ-ਮਸ਼ਵਰਾ ਸ਼ੁਰੂ ਕਰੋ",
+    "myTeam": "ਮੇਰੀ ਟੀਮ",
+    "aiTeamBuilder": "ਏਆਈ ਹੈਲਥ ਐਕਸਪਰਟ ਕੈਰੋਲ ਤੁਹਾਡੀ ਟੀਮ ਚੁਣਨ ਵਿੱਚ ਤੁਹਾਡੀ ਮਦਦ ਕਰਦਾ ਹੈ",
+    "priorConsultations": "ਪਹਿਲਾਂ ਸਲਾਹ-ਮਸ਼ਵਰੇ",
+    "encyclopedia": "ਐਨਸਾਈਕਲੋਪੀਡੀਆ",
+    "myProfile": "ਮੇਰੀ ਪ੍ਰੋਫਾਈਲ",
+    "logout": "ਲਾਗਆਉਟ",
+    "labels": {
+      "chat": "ਚੈਟ",
+      "advisory": "ਸਲਾਹਕਾਰੀ",
+      "encyclopedia": "ਐਨਸਾਈਕਲੋਪੀਡੀਆ",
+      "myTeam": "ਮੇਰੀ ਟੀਮ",
+      "history": "ਇਤਿਹਾਸ",
+      "myProfile": "ਮੇਰੀ ਪ੍ਰੋਫਾਈਲ"
+    }
+  },
+  "mobileInput": {
+    "listeningPlaceholder": "ਸੁਣ ਰਿਹਾ ਹਾਂ... ਹੁਣ ਬੋਲੋ",
+    "typePlaceholder": "ਸੁਨੇਹਾ ਟਾਈਪ ਕਰੋ...",
+    "clear": "ਸਾਫ਼",
+    "needHelp": "ਮਦਦ ਦੀ ਲੋੜ ਹੈ?",
+    "takePhoto": "ਫੋਟੋ ਖਿੱਚੋ"
+  },
+  "mobileConsultations": {
+    "title": "ਪਹਿਲਾਂ ਸਲਾਹ-ਮਸ਼ਵਰੇ",
+    "selectAll": "ਸਭ ਚੁਣੋ",
+    "deselectAll": "ਸਭ ਨੂੰ ਅਣਚੁਣਿਆ ਕਰੋ",
+    "deleteSelected": "ਚੁਣੇ ਹੋਏ ਨੂੰ ਮਿਟਾਓ ({{count}})",
+    "consultationDefault": "ਸਲਾਹ-ਮਸ਼ਵਰਾ {{ਆਈਡੀ}}",
+    "lastUpdate": "ਆਖਰੀ ਅੱਪਡੇਟ: {{date}}",
+    "noUpdates": "ਹਾਲੇ ਕੋਈ ਅੱਪਡੇਟ ਨਹੀਂ",
+    "editTitle": "ਗੱਲਬਾਤ ਸਿਰਲੇਖ ਦਾ ਸੰਪਾਦਨ ਕਰੋ",
+    "enterNewTitle": "ਨਵਾਂ ਸਿਰਲੇਖ ਦਰਜ ਕਰੋ:",
+    "noConsultations": "ਅਜੇ ਕੋਈ ਸਲਾਹ-ਮਸ਼ਵਰਾ ਨਹੀਂ ਹੋਇਆ।"
+  },
+  "mobileProfile": {
+    "title": "ਮੇਰੀ ਪ੍ਰੋਫਾਈਲ",
+    "saveError": "ਪ੍ਰੋਫਾਈਲ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰਨ ਵਿੱਚ ਅਸਫਲ",
+    "saveSuccess": "ਪ੍ਰੋਫਾਈਲ ਅੱਪਡੇਟ ਕੀਤਾ ਗਿਆ!",
+    "changePhoto": "ਫੋਟੋ ਬਦਲੋ",
+    "displayName": "ਦਿਖਾਇਆ ਹੋਇਆ ਨਾਮ",
+    "fullName": "ਪੂਰਾ ਨਾਂਮ",
+    "email": "ਈਮੇਲ",
+    "keyHealthInfo": "ਮੁੱਖ ਸਿਹਤ ਜਾਣਕਾਰੀ",
+    "logout": "ਲਾਗਆਉਟ"
+  },
+  "mobileNavigation": {
+    "consultation": "ਸਲਾਹ-ਮਸ਼ਵਰਾ",
+    "team": "ਟੀਮ",
+    "history": "ਇਤਿਹਾਸ",
+    "exitConsultation": "ਸਲਾਹ-ਮਸ਼ਵਰੇ ਤੋਂ ਬਾਹਰ ਨਿਕਲੋ",
+    "myTeam": "ਮੇਰੀ ਟੀਮ",
+    "summary": "ਸੰਖੇਪ",
+    "differentialOpinion": "ਵਿਭਿੰਨ ਰਾਏ",
+    "transcript": "ਟ੍ਰਾਂਸਕ੍ਰਿਪਟ",
+    "encyclopedia": "ਐਨਸਾਈਕਲੋਪੀਡੀਆ",
+    "controls": "ਨਿਯੰਤਰਣ",
+    "aiSpeaker": "ਏਆਈ ਸਪੀਕਰ",
+    "enabled": "ਯੋਗ ਬਣਾਇਆ ਗਿਆ",
+    "disabled": "ਅਯੋਗ",
+    "camera": "ਕੈਮਰਾ",
+    "comingSoon": "ਆਨ ਵਾਲੀ",
+    "menu": "ਮੀਨੂ"
+  },
+  "bioPanel": {
+    "loadingBio": "ਬਾਇਓ ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...",
+    "noBiography": "ਕੋਈ ਜੀਵਨੀ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।",
+    "returnToPanel": "ਪੈਨਲ 'ਤੇ ਵਾਪਸ ਜਾਓ"
+  },
+  "sidebarHeader": {
+    "panel": "ਪੈਨਲ",
+    "summary": "ਸੰਖੇਪ",
+    "differentialOpinion": "ਵਿਭਿੰਨ ਰਾਏ",
+    "transcript": "ਟ੍ਰਾਂਸਕ੍ਰਿਪਟ",
+    "encyclopedia": "VirtualMD.app ਐਨਸਾਈਕਲੋਪੀਡੀਆ",
+    "endConversation": "ਗੱਲਬਾਤ ਸਮਾਪਤ ਕਰੋ",
+    "startChatWithTeam": "ਟੀਮ ਨਾਲ ਚੈਟ ਸ਼ੁਰੂ ਕਰੋ",
+    "configureNewChat": "ਨਵੀਂ ਚੈਟ ਕੌਂਫਿਗਰ ਕਰੋ",
+    "myAIHealthTeam": "ਮੇਰੀ ਏਆਈ ਹੈਲਥ ਟੀਮ",
+    "aileenCarolTeamBuilder": "ਸਿਹਤ ਮਾਹਿਰ ਕੈਰਲ ਤੁਹਾਡੀ ਟੀਮ ਬਣਾਉਣ ਵਿੱਚ ਮਦਦ ਕਰਦੇ ਹਨ।",
+    "savedConsultations": "ਸੇਵ ਕੀਤੇ ਸਲਾਹ-ਮਸ਼ਵਰੇ",
+    "myProfile": "ਮੇਰੀ ਪ੍ਰੋਫਾਈਲ",
+    "imageNumber": "ਚਿੱਤਰ {{ਨੰਬਰ}}"
+  },
+  "differentialOpinion": {
+    "noOpinionAvailable": "ਕੋਈ ਵੱਖਰਾ ਵਿਚਾਰ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।"
+  },
+  "encyclopedia": {
+    "title": "VirtualMD.app ਐਨਸਾਈਕਲੋਪੀਡੀਆ",
+    "loadingMessage": "ਅਸੀਂ ਤੁਹਾਡੇ ਲਈ ਇਸ ਵਿਸ਼ੇ 'ਤੇ ਡੂੰਘੀ ਖੋਜ ਕਰ ਰਹੇ ਹਾਂ। ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੇ ਜਵਾਬ ਲਈ ਕੁਝ ਸਕਿੰਟ ਉਡੀਕ ਕਰੋ।",
+    "longWaitMessage": "ਵਿਸਤ੍ਰਿਤ ਜਵਾਬਾਂ ਲਈ ਕੁਝ ਮਿੰਟ ਲੱਗ ਸਕਦੇ ਹਨ।",
+    "searchButton": "ਖੋਜ ਐਨਸਾਈਕਲੋਪੀਡੀਆ",
+    "return": "ਵਾਪਸੀ",
+    "print": {
+      "button": "ਪ੍ਰਿੰਟ",
+      "title": "ਐਨਸਾਈਕਲੋਪੀਡੀਆ ਖੋਜ ਨਤੀਜਾ",
+      "subtitle": "VirtualMD.app ਐਨਸਾਈਕਲੋਪੀਡੀਆ"
+    },
+    "copy": "ਕਾਪੀ ਕਰੋ",
+    "searchResult": "ਐਨਸਾਈਕਲੋਪੀਡੀਆ ਖੋਜ ਨਤੀਜਾ",
+    "attribution": "VirtualMD.app ਵੱਲੋਂ ਜਵਾਬ",
+    "emptyState": "VirtualMD.app ਐਨਸਾਈਕਲੋਪੀਡੀਆ ਖੋਜਣ ਲਈ ਉੱਪਰ ਇੱਕ ਪੁੱਛਗਿੱਛ ਦਰਜ ਕਰੋ।",
+    "copySuccess": "ਸਮੱਗਰੀ ਕਲਿੱਪਬੋਰਡ 'ਤੇ ਕਾਪੀ ਕੀਤੀ ਗਈ!",
+    "copyError": "ਕਲਿੱਪਬੋਰਡ 'ਤੇ ਕਾਪੀ ਕਰਨਾ ਅਸਫਲ ਰਿਹਾ",
+    "generatingResponse": "ਵਿਆਪਕ ਜਵਾਬ ਪੈਦਾ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...",
+    "genericError": "ਕੋਈ ਗੜਬੜ ਹੋ ਗਈ।",
+    "translatingContent": "ਸਮੱਗਰੀ ਦਾ ਅਨੁਵਾਦ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ..."
+  },
+  "input": {
+    "typeOrSpeakPlaceholder": "ਆਪਣਾ ਸੁਨੇਹਾ ਟਾਈਪ ਕਰੋ ਜਾਂ ਬੋਲੋ...\nਭੇਜਣ ਲਈ ਐਂਟਰ ਦਬਾਓ ਜਾਂ ▷ 'ਤੇ ਕਲਿੱਕ ਕਰੋ।",
+    "typePlaceholder": "ਇੱਥੇ ਸੁਨੇਹਾ ਟਾਈਪ ਕਰੋ...\nਭੇਜਣ ਲਈ ਐਂਟਰ ਦਬਾਓ ਜਾਂ ▷ 'ਤੇ ਕਲਿੱਕ ਕਰੋ।",
+    "transcribing": "ਟ੍ਰਾਂਸਕ੍ਰਾਈਬ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...",
+    "enterTextHere": "ਇੱਥੇ ਟੈਕਸਟ ਦਰਜ ਕਰੋ",
+    "startTypingMessage": "ਆਪਣੀ ਸਲਾਹ-ਮਸ਼ਵਰਾ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਹੇਠਾਂ ਦਿੱਤੇ ਬਕਸੇ ਵਿੱਚ ਆਪਣਾ ਸੁਨੇਹਾ ਟਾਈਪ ਕਰਨਾ ਸ਼ੁਰੂ ਕਰੋ।"
+  },
+  "quickActions": {
+    "whatToDoButton": "ਮੈਨੂੰ ਕੀ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ?",
+    "summaryButton": "ਸੰਖੇਪ",
+    "whatShouldIDo": "ਸਾਡੇ ਦੁਆਰਾ ਚਰਚਾ ਕੀਤੀ ਗਈ ਹਰ ਚੀਜ਼ ਦੇ ਆਧਾਰ 'ਤੇ, ਮੈਨੂੰ ਹੁਣ ਕੀ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ? ਕਿਰਪਾ ਕਰਕੇ ਸਪੱਸ਼ਟ, ਕਾਰਵਾਈਯੋਗ ਸਿਫ਼ਾਰਸ਼ਾਂ ਪ੍ਰਦਾਨ ਕਰੋ।",
+    "requestSummary": "ਕਿਰਪਾ ਕਰਕੇ ਹੁਣ ਤੱਕ ਸਾਡੀ ਗੱਲਬਾਤ ਦਾ ਇੱਕ ਵਿਆਪਕ ਸਾਰ ਪ੍ਰਦਾਨ ਕਰੋ, ਜਿਸ ਵਿੱਚ ਵਿਚਾਰੇ ਗਏ ਮੁੱਖ ਨੁਕਤੇ, ਕੀਤੀਆਂ ਗਈਆਂ ਸਿਫ਼ਾਰਸ਼ਾਂ ਅਤੇ ਅਗਲੇ ਕਦਮ ਸ਼ਾਮਲ ਹਨ।"
+  },
+  "upload": {
+    "uploading": "ਅੱਪਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ..."
+  },
+  "camera": {
+    "notSupported": "ਇਸ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ ਕੈਮਰਾ ਪਹੁੰਚ ਸਮਰਥਿਤ ਨਹੀਂ ਹੈ",
+    "capturePhoto": "ਫੋਟੋ ਕੈਪਚਰ ਕਰੋ",
+    "accessDenied": "ਕੈਮਰੇ ਤੱਕ ਪਹੁੰਚ ਤੋਂ ਇਨਕਾਰ ਕੀਤਾ ਗਿਆ। ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੀਆਂ ਬ੍ਰਾਊਜ਼ਰ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਕੈਮਰੇ ਤੱਕ ਪਹੁੰਚ ਦੀ ਆਗਿਆ ਦਿਓ।",
+    "accessFailed": "ਕੈਮਰੇ ਤੱਕ ਪਹੁੰਚ ਕਰਨ ਵਿੱਚ ਅਸਫਲ"
+  },
+  "microphone": {
+    "turnOn": "ਮਾਈਕ ਚਾਲੂ ਕਰੋ",
+    "turnOff": "ਮਾਈਕ ਬੰਦ ਕਰੋ"
+  },
+  "specialistPanel": {
+    "guidanceSingle": "ਨਿੱਜੀ ਸਲਾਹ-ਮਸ਼ਵਰੇ ਲਈ ਇੱਕ ਏਆਈ ਮਾਹਰ ਚੁਣੋ:",
+    "guidanceMulti": "ਏਆਈ ਸਿਹਤ ਮਾਹਿਰ ਕੈਰੋਲ ਨੂੰ ਹਮੇਸ਼ਾ ਸ਼ਾਮਲ ਕੀਤਾ ਜਾਵੇਗਾ। ਵਾਧੂ ਏਆਈ ਸਿਹਤ ਸਲਾਹਕਾਰ ਚੁਣੋ:",
+    "startPrivateConsult": "ਨਿੱਜੀ ਸਲਾਹ ਸ਼ੁਰੂ ਕਰੋ",
+    "startChat": "ਚੈਟ ਸ਼ੁਰੂ ਕਰੋ",
+    "selectSingle": "ਏਆਈ ਸਪੈਸ਼ਲਿਸਟ ਚੁਣੋ",
+    "selectMulti": "ਵਾਧੂ ਸਲਾਹਕਾਰ ਚੁਣੋ",
+    "warningSelectOne": "ਕਿਰਪਾ ਕਰਕੇ ਨਿੱਜੀ ਸਲਾਹ-ਮਸ਼ਵਰੇ ਲਈ ਸਿਰਫ਼ ਇੱਕ ਮਾਹਰ ਦੀ ਚੋਣ ਕਰੋ।",
+    "noSpecialistsAvailable": "ਇਸ ਵੇਲੇ ਨਿੱਜੀ ਸਲਾਹ-ਮਸ਼ਵਰੇ ਲਈ ਕੋਈ AI ਮਾਹਰ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।",
+    "noAdvisersAvailable": "ਕੋਈ ਵਾਧੂ AI ਸਿਹਤ ਸਲਾਹਕਾਰ ਉਪਲਬਧ ਨਹੀਂ ਹਨ।"
+  },
+  "sidebarFooter": {
+    "disclaimerText": "VirtualMD.app ਸ਼ੁੱਧਤਾ ਲਈ ਯਤਨਸ਼ੀਲ ਹੈ। ਹਾਲਾਂਕਿ, ਇਹ ਅਤੇ ਕੋਈ ਵੀ AI-ਅਧਾਰਿਤ ਸੇਵਾ ਗਲਤ ਜਾਣਕਾਰੀ ਦੇ ਸਕਦੀ ਹੈ। ਹਮੇਸ਼ਾ ਇੱਕ ਯੋਗ ਮਨੁੱਖੀ ਸਿਹਤ ਸੰਭਾਲ ਪੇਸ਼ੇਵਰ ਨਾਲ ਸਲਾਹ ਕਰੋ।",
+    "emergencyText": "ਡਾਕਟਰੀ ਐਮਰਜੈਂਸੀ ਲਈ 911 'ਤੇ ਕਾਲ ਕਰੋ।",
+    "moreInformation": "ਹੋਰ ਜਾਣਕਾਰੀ"
+  },
+  "teamBuilder": {
+    "healthConditions": {
+      "options": {
+        "${key}": "{{ਕੁੰਜੀ}}"
+      }
+    },
+    "medicinePreferences": {
+      "options": {
+        "${key}": "{{ਕੁੰਜੀ}}"
+      }
+    }
+  },
+  "account": {
+    "title": "ਖਾਤਾ ਯੋਜਨਾ",
+    "description": "ਇੱਥੋਂ ਤੁਸੀਂ ਆਪਣੇ VirtualMD.app ਖਾਤੇ ਨੂੰ ਪੱਕੇ ਤੌਰ 'ਤੇ ਮਿਟਾ ਸਕਦੇ ਹੋ। ਇਹ ਕਾਰਵਾਈ ਤੁਹਾਡੀ ਪ੍ਰੋਫਾਈਲ ਅਤੇ ਸਾਰੇ ਸਲਾਹ-ਮਸ਼ਵਰੇ ਨੂੰ ਮਿਟਾ ਦਿੰਦੀ ਹੈ।",
+    "deleteMyAccount": "ਮੇਰਾ ਖਾਤਾ ਮਿਟਾਓ",
+    "confirmDeleteTitle": "ਖਾਤਾ ਮਿਟਾਓ",
+    "confirmDeleteText": "ਇਹ ਕਾਰਵਾਈ ਵਾਪਸ ਨਹੀਂ ਲਈ ਜਾ ਸਕਦੀ। ਤੁਹਾਡੀ ਸਾਰੀ ਪ੍ਰੋਫਾਈਲ ਜਾਣਕਾਰੀ, ਸਲਾਹ-ਮਸ਼ਵਰੇ, ਅਤੇ ਫਾਈਲਾਂ ਸਥਾਈ ਤੌਰ 'ਤੇ ਹਟਾ ਦਿੱਤੀਆਂ ਜਾਣਗੀਆਂ। ਕੀ ਤੁਸੀਂ ਪੱਕਾ ਜਾਰੀ ਰੱਖਣਾ ਚਾਹੁੰਦੇ ਹੋ?",
+    "cancel": "ਰੱਦ ਕਰੋ",
+    "yesDelete": "ਹਾਂ, ਮਿਟਾਓ"
+  },
+  "transcript": {
+    "noTranscript": "ਕੋਈ ਟ੍ਰਾਂਸਕ੍ਰਿਪਟ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।",
+    "title": "ਸਲਾਹ-ਮਸ਼ਵਰਾ ਟ੍ਰਾਂਸਕ੍ਰਿਪਟ",
+    "returnToConversation": "ਗੱਲਬਾਤ 'ਤੇ ਵਾਪਸ ਜਾਓ",
+    "print": "ਪ੍ਰਿੰਟ",
+    "copy": "ਕਾਪੀ ਕਰੋ",
+    "copyError": "ਕਾਪੀ ਕਰਨਾ ਅਸਫਲ ਰਿਹਾ",
+    "roleLabels": {
+      "patient": "ਯੂਜ਼ਰ:",
+      "assistant": "ਸਹਾਇਕ:"
+    }
+  },
+  "mobileRouter": {
+    "teamRecommendations": "ਟੀਮ ਸਿਫ਼ਾਰਸ਼ਾਂ",
+    "myTeam": "ਮੇਰੀ ਟੀਮ",
+    "summary": "ਸੰਖੇਪ",
+    "differentialOpinion": "ਵਿਭਿੰਨ ਰਾਏ",
+    "transcript": "ਟ੍ਰਾਂਸਕ੍ਰਿਪਟ",
+    "encyclopedia": "ਐਨਸਾਈਕਲੋਪੀਡੀਆ",
+    "consultations": "ਸਲਾਹ-ਮਸ਼ਵਰਾ",
+    "returnToChat": "ਚੈਟ 'ਤੇ ਵਾਪਸ ਜਾਓ",
+    "pleaseLogIn": "ਕਿਰਪਾ ਕਰਕੇ ਲਾਗਇਨ ਕਰੋ",
+    "logInToView": "ਆਪਣੀਆਂ ਗੱਲਬਾਤਾਂ ਦੇਖਣ ਲਈ ਜਾਂ ਇੱਕ ਨਵੀਂ ਗੱਲਬਾਤ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਲੌਗ ਇਨ ਕਰੋ।",
+    "logIn": "ਲਾਗਿਨ",
+    "loadingSpecialists": "ਮਾਹਿਰਾਂ ਨੂੰ ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ..."
+  },
+  "chat": {
+    "pleaseLogIn": "ਕਿਰਪਾ ਕਰਕੇ ਲਾਗਇਨ ਕਰੋ",
+    "logInToView": "ਆਪਣੀਆਂ ਗੱਲਬਾਤਾਂ ਦੇਖਣ ਲਈ ਜਾਂ ਇੱਕ ਨਵੀਂ ਗੱਲਬਾਤ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਲੌਗ ਇਨ ਕਰੋ।"
+  },
+  "loginPage": {
+    "signIn": "ਸਾਈਨ - ਇਨ"
+  },
+  "imageProcessing": {
+    "preset": "ਪ੍ਰੀਸੈੱਟ",
+    "applyPreset": "ਫੋਕਸ ਕੀਤੇ ਚਿੱਤਰ 'ਤੇ ਪ੍ਰੀਸੈੱਟ ਲਾਗੂ ਕਰੋ",
+    "process": "ਪ੍ਰਕਿਰਿਆ",
+    "revertFocus": "ਮੂਲ ਚਿੱਤਰ 'ਤੇ ਮੁੜ ਕੇਂਦ੍ਰਿਤ ਕਰੋ",
+    "revert": "ਵਾਪਸ ਕਰੋ"
+  },
+  "guest": {
+    "consultation": "ਮਹਿਮਾਨ ਸਲਾਹ-ਮਸ਼ਵਰਾ",
+    "topics": {
+      "child": {
+        "title": "ਮੇਰਾ ਬੱਚਾ ਬਿਮਾਰ ਹੈ |",
+        "subtitle": "ਜਦੋਂ ਤੁਹਾਨੂੰ ਸਭ ਤੋਂ ਵੱਧ ਲੋੜ ਹੋਵੇ ਤਾਂ ਮਾਹਰ ਬਾਲ ਰੋਗ ਦੇਖਭਾਲ",
+        "initialMessage": "ਮੈਂ ਏਆਈ ਆਈਲੀਨ ਕੈਰੋਲ ਹਾਂ, ਤੁਹਾਡੀ ਵਰਚੁਅਲ ਹੈਲਥ ਸਲਾਹਕਾਰ। ਮੈਨੂੰ ਪਤਾ ਹੈ ਕਿ ਇੱਕ ਬਿਮਾਰ ਬੱਚਾ ਕਿੰਨਾ ਚਿੰਤਾਜਨਕ ਹੋ ਸਕਦਾ ਹੈ। ਮੈਨੂੰ ਦੱਸੋ ਕਿ ਕੀ ਹੋ ਰਿਹਾ ਹੈ। ਨੋਟ: ਮੈਂ ਇੱਕ ਏਆਈ ਹਾਂ, ਮਨੁੱਖ ਨਹੀਂ; ਮੇਰੀ ਸਲਾਹ ਗਲਤ ਹੋ ਸਕਦੀ ਹੈ—ਕਿਸੇ ਯੋਗ ਮਨੁੱਖੀ ਸਿਹਤ ਸੰਭਾਲ ਪੇਸ਼ੇਵਰ ਨਾਲ ਪੁਸ਼ਟੀ ਕਰੋ।"
+      },
+      "sleep": {
+        "title": "ਮੈਨੂੰ ਨੀਂਦ ਨਹੀਂ ਆ ਰਹੀ!",
+        "subtitle": "ਆਪਣੀਆਂ ਰਾਤਾਂ ਨੂੰ ਬਹਾਲ ਕਰੋ, ਆਪਣੇ ਦਿਨ ਬਦਲ ਦਿਓ",
+        "initialMessage": "ਮੈਂ ਏਆਈ ਆਈਲੀਨ ਕੈਰੋਲ ਹਾਂ, ਤੁਹਾਡੀ ਵਰਚੁਅਲ ਹੈਲਥ ਸਲਾਹਕਾਰ, ਨੀਂਦ ਮਾਹਿਰ ਏਆਈ ਬੈਂਜਾਮਿਨ ਸਟਾਈਨ (ਮਨੋਵਿਗਿਆਨ) ਅਤੇ ਏਆਈ ਐਲਿਸ ਚੇਨ (ਨਿਊਰੋਲੋਜੀ) ਨਾਲ। ਆਪਣੀਆਂ ਨੀਂਦ ਦੀਆਂ ਚੁਣੌਤੀਆਂ ਸਾਂਝੀਆਂ ਕਰੋ ਤਾਂ ਜੋ ਅਸੀਂ ਮਦਦ ਕਰ ਸਕੀਏ। ਨੋਟ: ਅਸੀਂ ਏਆਈ ਹਾਂ, ਮਨੁੱਖ ਨਹੀਂ; ਸਾਡੀ ਸਲਾਹ ਗਲਤ ਹੋ ਸਕਦੀ ਹੈ—ਕਿਸੇ ਯੋਗਤਾ ਪ੍ਰਾਪਤ (ਮਨੁੱਖੀ) ਸਿਹਤ ਸੰਭਾਲ ਪੇਸ਼ੇਵਰ ਨਾਲ ਪੁਸ਼ਟੀ ਕਰੋ।"
+      },
+      "nutrition": {
+        "title": "ਜੀਵਨਸ਼ਕਤੀ ਲਈ ਪੋਸ਼ਣ",
+        "subtitle": "ਭੋਜਨ ਰਾਹੀਂ ਆਪਣੀ ਊਰਜਾ, ਤੰਦਰੁਸਤੀ ਅਤੇ ਜਿਨਸੀ ਸਿਹਤ ਨੂੰ ਵਧਾਓ",
+        "initialMessage": "ਮੈਂ AI Aileen Carol ਹਾਂ, ਤੁਹਾਡੀ ਵਰਚੁਅਲ ਹੈਲਥ ਸਲਾਹਕਾਰ, ਤੁਹਾਡੀ ਟੀਮ - AI Angelica Fordham (ਪੋਸ਼ਣ), ਸੈਕਸ ਥੈਰੇਪੀ AI Rachel Levy, ਅਤੇ AI African Herbalist Amina Okufur ਨਾਲ ਹਾਂ। ਅੱਜ ਤੁਸੀਂ ਕਿਵੇਂ ਮਹਿਸੂਸ ਕਰ ਰਹੇ ਹੋ? ਨੋਟ: ਅਸੀਂ AI ਹਾਂ, ਇਨਸਾਨ ਨਹੀਂ; ਸਲਾਹ ਗਲਤ ਹੋ ਸਕਦੀ ਹੈ—ਕਿਸੇ ਯੋਗ ਸਿਹਤ ਸੰਭਾਲ ਪੇਸ਼ੇਵਰ ਨਾਲ ਪੁਸ਼ਟੀ ਕਰੋ।"
+      }
+    },
+    "errors": {
+      "sessionFailed": "ਮਹਿਮਾਨ ਸੈਸ਼ਨ ਸ਼ੁਰੂ ਕਰਨ ਵਿੱਚ ਅਸਫਲ"
+    },
+    "registrationRequired": "ਰਜਿਸਟ੍ਰੇਸ਼ਨ ਦੀ ਲੋੜ ਹੈ",
+    "uploadFeatures": {
+      "title": "ਦਸਤਾਵੇਜ਼ ਅਤੇ ਚਿੱਤਰ ਅੱਪਲੋਡ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ",
+      "description": "ਸਾਡਾ ਪਲੇਟਫਾਰਮ ਸ਼ਕਤੀਸ਼ਾਲੀ ਦਸਤਾਵੇਜ਼ ਅਤੇ ਚਿੱਤਰ ਵਿਸ਼ਲੇਸ਼ਣ ਸਮਰੱਥਾਵਾਂ ਦੀ ਪੇਸ਼ਕਸ਼ ਕਰਦਾ ਹੈ ਜਿੱਥੇ ਤੁਸੀਂ ਇਹ ਕਰ ਸਕਦੇ ਹੋ:",
+      "benefit1": "ਸਿਹਤ ਦਸਤਾਵੇਜ਼, ਪ੍ਰਯੋਗਸ਼ਾਲਾ ਰਿਪੋਰਟਾਂ ਅਤੇ ਤਸਵੀਰਾਂ ਅਪਲੋਡ ਕਰੋ",
+      "benefit2": "ਵਿਸਤ੍ਰਿਤ ਵਿਸ਼ਲੇਸ਼ਣ ਲਈ ਖਾਸ ਖੇਤਰਾਂ 'ਤੇ ਜ਼ੂਮ ਇਨ ਕਰੋ",
+      "benefit3": "ਸਾਡੇ AI ਸਿਹਤ ਸਲਾਹਕਾਰਾਂ ਤੋਂ ਆਪਣੇ ਦਸਤਾਵੇਜ਼ਾਂ ਦਾ ਮੁਲਾਂਕਣ ਅਤੇ ਚਰਚਾ ਕਰਵਾਓ।",
+      "benefit4": "ਤੁਰੰਤ ਸਲਾਹ-ਮਸ਼ਵਰੇ ਲਈ ਆਪਣੇ ਕੈਮਰੇ ਤੋਂ ਸਿੱਧੇ ਫੋਟੋਆਂ ਲਓ",
+      "registeredOnly": "ਇਹ ਵਿਸ਼ੇਸ਼ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਰਜਿਸਟਰਡ ਉਪਭੋਗਤਾਵਾਂ ਲਈ ਉਪਲਬਧ ਹਨ।"
+    }
+  },
+  "activeChat": {
+    "guestMode": {
+      "advisorsTitle": "VirtualMD.app ਸਿਹਤ ਸਲਾਹਕਾਰ",
+      "registrationRequired": "ਰਜਿਸਟ੍ਰੇਸ਼ਨ ਦੀ ਲੋੜ ਹੈ"
+    }
+  },
+  "healthAdvisors": "VirtualMD.app ਸਿਹਤ ਸਲਾਹਕਾਰ"
+}

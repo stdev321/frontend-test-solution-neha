@@ -1,0 +1,27 @@
+{
+  "errors": {
+    "fileReadFailed": "Error al leer el archivo.",
+    "imageProcessFailed": "No se pudo procesar la imagen. Podría estar dañada o tener un formato no compatible.",
+    "invalidImageFile": "Seleccione un archivo de imagen.",
+    "loadingProfile": "Error al cargar el perfil:",
+    "noData": "No hay datos de perfil disponibles",
+    "saveFailed": "No se pudo guardar el perfil. Inténtalo de nuevo."
+  },
+  "healthInfo": {
+    "conditions": "Condiciones:",
+    "date": " (Fecha: ",
+    "diagnosed": "(Diagnosticado:",
+    "ended": "(Fin:",
+    "medicalEvents": "Eventos de salud:",
+    "medications": "Medicamentos:",
+    "notAvailable": "N / A",
+    "notes": "Notas:",
+    "started": " (Comenzó: "
+  },
+  "loading": {
+    "profile": "Cargando perfil..."
+  },
+  "success": {
+    "profileUpdated": "¡Perfil actualizado exitosamente!"
+  }
+}

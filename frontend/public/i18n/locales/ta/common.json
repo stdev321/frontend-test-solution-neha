@@ -1,0 +1,907 @@
+{
+  "header": {
+    "login": "உள்நுழைய",
+    "register": "பதிவு",
+    "logout": "வெளியேறு",
+    "aboutUs": "எங்களை பற்றி",
+    "learnMore": "மேலும் அறிக",
+    "advisory": "ஆலோசனை",
+    "start": "தொடங்கு",
+    "greetingHello": "வணக்கம் {{பெயர்}}!",
+    "welcomeToVirtualMD": "VirtualMDக்கு வருக!",
+    "signupForFullAccess": "முழு அணுகலுக்குப் பதிவு செய்யவும்",
+    "profileTitle": "எனது சுயவிவரம் / அரட்டைக்குச் செல்லவும்",
+    "logoutTitle": "வெளியேறு",
+    "toggleTheme": "ஒளி/இருண்ட பயன்முறையை நிலைமாற்று",
+    "toggleMode": "ஒளி/இருண்ட பயன்முறையை நிலைமாற்று",
+    "myProfile": "எனது சுயவிவரம் / அரட்டைக்குச் செல்லவும்",
+    "dashboard": "டாஷ்போர்டு",
+    "endConversation": "உரையாடலை முடிக்கவும்",
+    "returnToConversation": "உரையாடலுக்குத் திரும்பு",
+    "startConversation": "உரையாடலைத் தொடங்கு",
+    "endConsult": "ஆலோசனையை முடிக்கவும்",
+    "returnToConsult": "ஆலோசனைக்குத் திரும்பு",
+    "startConsult": "ஆலோசனையைத் தொடங்குங்கள்",
+    "home": "முகப்புப் பக்கம்",
+    "healthEncyclopedia": "சுகாதார கலைக்களஞ்சியம்",
+    "researchPublications": "ஆராய்ச்சி & வெளியீடுகள்",
+    "contactUs": "எங்களை தொடர்பு கொள்ள",
+    "light": "ஒளி",
+    "dark": "இருள்",
+    "toggleModeText": "{{mode}} பயன்முறையை மாற்று",
+    "legal": "சட்டம் சார்ந்தது"
+  },
+  "howToUse": "எப்படி உபயோகிப்பது",
+  "settings": {
+    "lightMode": "ஒளி முறை",
+    "darkMode": "இருண்ட பயன்முறை"
+  },
+  "navigation": {
+    "dashboard": "டாஷ்போர்டு",
+    "home": "முகப்புப் பக்கம்",
+    "aboutUs": "எங்களை பற்றி",
+    "returnToChat": "அரட்டைக்குத் திரும்பு",
+    "continueConsultation": "உங்கள் ஆலோசனையைத் தொடருங்கள்.",
+    "exitConsultation": "வெளியேறு ஆலோசனை",
+    "startNewConsultation": "புதிய ஆலோசனையைத் தொடங்குங்கள்",
+    "sections": {
+      "chatTools": "அரட்டை கருவிகள்",
+      "functionality": "செயல்பாடு",
+      "aboutUs": "எங்களைப் பற்றி",
+      "requiredDocuments": "தேவையான ஆவணங்கள்",
+      "research": "ஆராய்ச்சி",
+      "controls": "கட்டுப்பாடுகள்",
+      "settings": "அமைப்புகள்"
+    },
+    "myTeam": "எனது அணி",
+    "summary": "சுருக்கம்",
+    "transcript": "எழுத்துப்படி",
+    "encyclopedia": "கலைக்களஞ்சியம்",
+    "priorChats": "முந்தைய அரட்டைகள்",
+    "myProfile": "எனது சுயவிவரம்",
+    "healthEncyclopedia": "சுகாதார கலைக்களஞ்சியம்",
+    "noteFromFounders": "நிறுவனர்களின் குறிப்பு",
+    "faq": "அடிக்கடி கேட்கப்படும் கேள்விகள்",
+    "contactUs": "எங்களை தொடர்பு கொள்ள",
+    "legal": "சட்டம் சார்ந்தது",
+    "dataPrivacy": "தரவு தனியுரிமை",
+    "aiAccuracyStudies": "AI துல்லிய ஆய்வுகள்",
+    "empowerYourself": "உங்களை நீங்களே பலப்படுத்திக் கொள்ளுங்கள்",
+    "deepResearch": "ஆழமான ஆராய்ச்சி",
+    "aboutUsItems": {
+      "advisory": "ஆலோசனை",
+      "dataPrivacy": "தரவு தனியுரிமை"
+    },
+    "learnMore": {
+      "imagingAI": "இமேஜிங் மற்றும் AI",
+      "pathologyAI": "நோயியல் மற்றும் AI",
+      "dermatologyAI": "தோல் மருத்துவம் மற்றும் AI",
+      "mentalHealthAI": "மன ஆரோக்கியம் மற்றும் AI",
+      "accuracyStudies": "AI துல்லிய ஆய்வுகள்",
+      "allResearch": "அனைத்து ஆராய்ச்சிகளும்",
+      "empowerYourself": "உங்களை நீங்களே பலப்படுத்திக் கொள்ளுங்கள்"
+    }
+  },
+  "landing": {
+    "title": "மெய்நிகர்எம்டி.ஆப்",
+    "subtitle": "AI- இயங்கும் சுகாதாரப் பராமரிப்பு தீர்வுகள்",
+    "tryItOut": "முயற்சி செய்து பாருங்கள்",
+    "scrollDown": "கீழே உருட்டவும்",
+    "scrollUp": "மேலே உருட்டு",
+    "alwaysHereForYou": "எப்போதும் உங்களுக்காக.",
+    "cards": {
+      "whyUse": {
+        "title": "ஏன் VirtualMD?",
+        "description": "எங்கள் AI-இயங்கும் மெய்நிகர் சுகாதார தளத்தின் புரட்சிகரமான நன்மைகளைக் கண்டறியவும்."
+      },
+      "dataPrivacy": {
+        "title": "உங்கள் தனியுரிமை",
+        "description": "ஒரு நம்பகமான நண்பரைப் போல, உங்கள் உடல்நல ரகசியங்கள் எங்களிடம் பாதுகாப்பாக உள்ளன."
+      },
+      "tryItOut": {
+        "title": "முயற்சி செய்து பாருங்கள்",
+        "description": "என் குழந்தைக்கு உடம்பு சரியில்லை|என்னால் தூங்க முடியவில்லை!|அன்புக்கு ஊட்டச்சத்து",
+        "tagline": "பதிவு தேவையில்லை."
+      },
+      "wellness": {
+        "title": "ஆழமான ஆராய்ச்சி",
+        "description": "நம்பகமான ஆதாரங்களுடன் கூடிய சுகாதார கலைக்களஞ்சியம்."
+      },
+      "yourHealth": {
+        "title": "உங்கள் உடல்நலம்",
+        "description": "AI உடன் உங்கள் ஆரோக்கிய பயணத்தை வடிவமைக்கவும்"
+      }
+    }
+  },
+  "chat": {
+    "startNewConsult": "புதிய ஆலோசனையைத் தொடங்கு",
+    "noSpeechDetected": "எனக்குப் புரியல.",
+    "noSpeechMessage": "உங்க ரெக்கார்டிங்ல எந்தப் பேச்சையும் கண்டுபிடிக்க முடியல. கொஞ்சம் சத்தமாப் பேசுறது அல்லது உங்க மைக்ரோஃபோனுக்கு பக்கத்துல போய்ப் பேசுறது, அப்புறம் மறுபடியும் முயற்சி பண்ணுங்க.",
+    "dontShowAgain": "எனக்கு மீண்டும் காட்டாதே",
+    "gotIt": "சரியாயிடுச்சு.",
+    "loading": "ஏற்றுகிறது..."
+  },
+  "loading": {
+    "preparingHealthTeam": "உங்கள் AI சுகாதார குழுவை தயார்படுத்துதல்...",
+    "connectingSpecialists": "சுகாதார நிபுணர்களுடன் இணைதல்...",
+    "initializingSystem": "உங்கள் தனிப்பயனாக்கப்பட்ட சுகாதார அமைப்பைத் தொடங்குதல்...",
+    "almostReady": "உங்களுக்கு உதவ கிட்டத்தட்ட தயாராக இருக்கிறேன்...",
+    "dots": "..."
+  },
+  "common": {
+    "loading": "ஏற்றுகிறது...",
+    "user": {
+      "defaultInitial": "ஸ",
+      "defaultName": "அங்கே",
+      "defaultAltText": "பயனர்"
+    },
+    "error": "பிழை",
+    "success": "வெற்றி",
+    "cancel": "ரத்துசெய்",
+    "confirm": "உறுதிப்படுத்தவும்",
+    "save": "சேமிக்கவும்",
+    "delete": "நீக்கு",
+    "edit": "திருத்து",
+    "close": "மூடு",
+    "next": "அடுத்து",
+    "previous": "முந்தையது",
+    "submit": "சமர்ப்பிக்கவும்",
+    "search": "தேடல்",
+    "filter": "வடிகட்டி",
+    "sort": "வரிசைப்படுத்து",
+    "upload": "பதிவேற்று",
+    "download": "பதிவிறக்கவும்",
+    "print": "அச்சு",
+    "share": "பகிர்",
+    "copy": "நகலெடு",
+    "paste": "ஒட்டு",
+    "cut": "வெட்டு",
+    "undo": "செயல்தவிர்",
+    "redo": "மீண்டும் செய்",
+    "yes": "ஆம்",
+    "no": "இல்லை",
+    "ok": "சரி",
+    "punctuation": {
+      "ellipsis": "..."
+    },
+    "apply": "விண்ணப்பிக்கவும்",
+    "reset": "மீட்டமைக்கவும்",
+    "clear": "தெளிவு",
+    "back": "மீண்டும்",
+    "forward": "முன்னோக்கி",
+    "home": "முகப்புப் பக்கம்",
+    "refresh": "புதுப்பி",
+    "reload": "மீண்டும் ஏற்று",
+    "help": "உதவி",
+    "about": "பற்றி",
+    "contact": "தொடர்பு",
+    "profile": "சுயவிவரம்",
+    "account": "கணக்கு",
+    "privacy": "தனியுரிமை",
+    "terms": "விதிமுறைகள்",
+    "legal": "சட்டம் சார்ந்தது",
+    "support": "ஆதரவு",
+    "feedback": "கருத்து",
+    "welcome": "வரவேற்பு",
+    "goodbye": "பிரியாவிடை",
+    "thankyou": "நன்றி",
+    "send": "அனுப்பவும்",
+    "none": "யாரும் இல்லை",
+    "generating": "உருவாக்குகிறது...",
+    "settings": "அமைப்புகள்"
+  },
+  "auth": {
+    "loginTitle": "உள்நுழையவும்",
+    "registerTitle": "கணக்கை உருவாக்கு",
+    "email": "மின்னஞ்சல்",
+    "password": "கடவுச்சொல்",
+    "confirmPassword": "கடவுச்சொல்லை உறுதிப்படுத்தவும்",
+    "fullName": "முழு பெயர்",
+    "displayName": "காட்சிப் பெயர்",
+    "rememberMe": "என்னை நினைவில் வையுங்கள்",
+    "forgotPassword": "கடவுச்சொல்லை மறந்துவிட்டீர்களா?",
+    "noAccount": "கணக்கு இல்லையா?",
+    "hasAccount": "ஏற்கனவே ஒரு கணக்கு உள்ளதா?",
+    "signUp": "பதிவு செய்யவும்",
+    "signIn": "உள்நுழையவும்",
+    "signOut": "வெளியேறு",
+    "createAccount": "கணக்கை உருவாக்கு",
+    "loginButton": "உள்நுழைய",
+    "registerButton": "பதிவு",
+    "logout": "வெளியேறு"
+  },
+  "footer": {
+    "copyright": "மைண்ட்ஸ்கிரிப்ட் டெக்னாலஜிஸ் எல்எல்சி. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை..",
+    "privacyPolicy": "தனியுரிமைக் கொள்கை",
+    "termsOfService": "சேவை விதிமுறைகள்",
+    "cookiePolicy": "குக்கீ கொள்கை",
+    "medicalAdvisory": "சுகாதார ஆலோசனை",
+    "yourPrivacy": "உங்கள் தனியுரிமை",
+    "legal": "சட்டம் சார்ந்தது",
+    "contactUs": "எங்களை தொடர்பு கொள்ள",
+    "howToUse": "எப்படி உபயோகிப்பது",
+    "faq": "அடிக்கடி கேட்கப்படும் கேள்விகள்",
+    "noteFromFounders": "நிறுவனர்களின் குறிப்பு",
+    "medicalDisclaimerTooltip": "AI-இயக்கப்படும் சுகாதார நபர்களைப் பயன்படுத்தி மிகவும் துல்லியமான, புதுப்பித்த சுகாதாரத் தகவலை வழங்க மைண்ட்ஸ்கிரிப்ட் பாடுபடுகிறது. இருப்பினும், இந்த நபர்கள் உரிமம் பெற்ற சுகாதார நிபுணர்கள் அல்ல, மேலும் தவறாக இருக்கலாம். உண்மையான மருத்துவ அவசரநிலையில், 911 ஐ டயல் செய்யவும் அல்லது உடனடியாக உங்கள் அருகிலுள்ள அவசர சிகிச்சைப் பிரிவுக்குச் செல்லவும். வேறு ஏதேனும் உடல்நலக் கவலைகளுக்கு அல்லது எந்தவொரு சிகிச்சைகள் அல்லது தீர்வுகளையும் முயற்சிக்கும் முன், தயவுசெய்து ஒரு தகுதிவாய்ந்த மனித சுகாதார வழங்குநர் அல்லது நிபுணரை அணுகவும்.",
+    "advisory": "ஆலோசனை"
+  },
+  "forms": {
+    "required": "இந்தப் புலம் அவசியம்",
+    "invalidEmail": "தயவுசெய்து ஒரு செல்லுபடியாகும் மின்னஞ்சல் முகவரியை உள்ளிடவும்.",
+    "passwordTooShort": "கடவுச்சொல் குறைந்தது 8 எழுத்துகள் இருக்க வேண்டும்.",
+    "passwordsDoNotMatch": "கடவுச்சொற்கள் பொருந்தவில்லை.",
+    "invalidInput": "தயவுசெய்து செல்லுபடியாகும் உள்ளீட்டை உள்ளிடவும்.",
+    "fieldRequired": "{{புலம்}} அவசியம்",
+    "selectOption": "ஒரு விருப்பத்தைத் தேர்ந்தெடுக்கவும்.",
+    "uploadFile": "கோப்பை பதிவேற்று",
+    "dragAndDrop": "கோப்புகளை இங்கே இழுத்து விடுங்கள், அல்லது தேர்ந்தெடுக்க கிளிக் செய்யவும்",
+    "fileUploaded": "கோப்பு வெற்றிகரமாக பதிவேற்றப்பட்டது.",
+    "uploadError": "கோப்பை பதிவேற்றுவதில் பிழை"
+  },
+  "language": {
+    "english": "ஆங்கிலம்",
+    "arabic": "العربية தமிழ் in இல்",
+    "hebrew": "ஹீப்ரு",
+    "switchTo": "{{மொழி}}க்கு மாறவும்",
+    "currentLanguage": "தற்போதைய மொழி: {{language}}"
+  },
+  "animation": {
+    "title": {
+      "simply": "வெறுமனே",
+      "better": "சிறந்தது",
+      "health": "சுகாதாரம்",
+      "period": "."
+    }
+  },
+  "hero": {
+    "subtitle": "தனிப்பயனாக்கப்பட்ட உடல்நலம் மற்றும் நல்வாழ்வு ஆலோசனை 24/7.",
+    "subtitleMobile": "தனிப்பயனாக்கப்பட்ட AI சுகாதார ஆலோசனை 24/7",
+    "poweredBy": "AI ஆல் இயக்கப்படுகிறது."
+  },
+  "research": {
+    "title": "ஆராய்ச்சி & வெளியீடுகள்",
+    "subtitle": "சான்றுகள் சார்ந்த AI சுகாதாரத் தீர்வுகள்",
+    "aiImaging": {
+      "title": "நோயறிதல் இமேஜிங்கில் AI",
+      "description": "கதிரியக்கவியல், நோயியல் மற்றும் கண் மருத்துவம் முழுவதும் சுகாதார இமேஜிங்கில் செயற்கை நுண்ணறிவு பயன்பாடுகளின் விரிவான பகுப்பாய்வு."
+    },
+    "pathologyAI": {
+      "title": "நோயியல் AI உதவி",
+      "description": "புற்றுநோய் கண்டறிதல் மற்றும் நோயறிதல் துல்லிய மேம்பாட்டிற்கான டிஜிட்டல் நோயியலில் ஆழமான கற்றல் பயன்பாடுகள்."
+    },
+    "dermatologyAI": {
+      "title": "தோல் மருத்துவம் AI தீர்வுகள்",
+      "description": "கணினி பார்வை மற்றும் இயந்திர கற்றலைப் பயன்படுத்தி AI- இயங்கும் தோல் நிலை கண்டறிதல் மற்றும் நோயறிதல்."
+    },
+    "mentalHealthAI": {
+      "title": "மன ஆரோக்கியம் மற்றும் AI",
+      "description": "மனநல பரிசோதனை, நோயறிதல் மற்றும் சிகிச்சை ஆதரவில் செயற்கை நுண்ணறிவு பயன்பாடுகள்."
+    },
+    "accuracyStudies": {
+      "title": "AI துல்லிய ஆய்வுகள்",
+      "description": "நிஜ உலக சுகாதார அமைப்புகளில் AI கண்டறியும் அமைப்புகளின் மருத்துவ சரிபார்ப்பு மற்றும் செயல்திறன் அளவீடுகள்."
+    }
+  },
+  "whitepapers": {
+    "downloadPdf": "PDF ஐ பதிவிறக்கவும்",
+    "generating": "உருவாக்குகிறது...",
+    "abstract": "சுருக்கம்",
+    "introduction": "அறிமுகம்",
+    "methods": "முறைகள்/தொழில்நுட்பங்கள்",
+    "results": "முடிவுகள்",
+    "discussion": "கலந்துரையாடல்",
+    "conclusion": "முடிவுரை",
+    "references": "குறிப்புகள்",
+    "authors": "ஆசிரியர்கள்",
+    "email": "மின்னஞ்சல்",
+    "organization": "அமைப்பு"
+  },
+  "imageProcessing": {
+    "preset": "முன்னமைவு",
+    "process": "செயல்முறை",
+    "revert": "மாற்றியமை",
+    "applyPreset": "ஃபோகஸில் உள்ள படத்திற்கு முன்னமைவைப் பயன்படுத்துங்கள்",
+    "revertFocus": "அசல் படத்தில் மீண்டும் கவனம் செலுத்துங்கள்"
+  },
+  "alt": {
+    "logo": "VirtualMD.app லோகோ",
+    "logoSmall": "மைண்ட்ஸ்கிரிப்ட் சிறிய லோகோ",
+    "integratedApproach": "ஒருங்கிணைந்த ஆரோக்கிய அணுகுமுறை",
+    "userProfile": "பயனர் சுயவிவரம்",
+    "aiDoctor": "AI சுகாதார நிபுணர் கரோல்",
+    "aiAssistant": "AI உதவியாளர்",
+    "backgroundImage": "அழகான பின்னணி படம்",
+    "home": "மைண்ட்ஸ்கிரிப்ட் முகப்பு",
+    "processed": "செயலாக்கப்பட்ட படம்",
+    "zoomPreview": "படத்தை பெரிதாக்கு முன்னோட்டம்"
+  },
+  "aria": {
+    "scrollDown": "கீழே உருட்டவும்",
+    "scrollUp": "மேலே உருட்டு",
+    "openMenu": "மெனுவைத் திற",
+    "togglePassword": "கடவுச்சொல் தெரிவுநிலையை நிலைமாற்று",
+    "chooseLanguage": "மொழியைத் தேர்வுசெய்க",
+    "goHome": "முகப்புப் பக்கத்திற்குச் செல்",
+    "remove": "அகற்று",
+    "edit": "திருத்து",
+    "delete": "நீக்கு",
+    "save": "சேமிக்கவும்",
+    "cancel": "ரத்துசெய்",
+    "breadcrumb": "வழிசெலுத்தல் பிரட்க்ரம்ப்ஸ்",
+    "conversationChoice": "உரையாடல் தேர்வு",
+    "personaChoice": "ஆளுமைத் தேர்வு",
+    "panel": "குழு",
+    "summary": "சுருக்கம்",
+    "differentialOpinion": "வேறுபட்ட கருத்து",
+    "transcript": "எழுத்துவடிவம்",
+    "encyclopedia": "கலைக்களஞ்சியம்",
+    "endConversation": "உரையாடலை முடிக்கவும்",
+    "startChat": "குழுவுடன் அரட்டையைத் தொடங்குங்கள்",
+    "configureChat": "புதிய அரட்டையை உள்ளமைக்கவும்",
+    "savedConsultations": "சேமிக்கப்பட்ட ஆலோசனைகள்",
+    "myProfile": "எனது சுயவிவரம்"
+  },
+  "researchPage": {
+    "title": "ஆராய்ச்சி & வெளியீடுகள்",
+    "healthAdvisory": {
+      "title": "சுகாதார ஆலோசனை",
+      "description": "முக்கியமான சுகாதாரம் மற்றும் பாதுகாப்பு தகவல்கள்",
+      "button": "ஆலோசனையைக் காண்க"
+    },
+    "imagingAI": {
+      "title": "நோயறிதல் இமேஜிங்கில் AI",
+      "description": "கதிரியக்கவியல், நோயியல் மற்றும் கண் மருத்துவம் முழுவதும் சுகாதார இமேஜிங்கில் AI பயன்பாடுகள்.",
+      "button": "மேலும் படிக்க"
+    },
+    "pathologyAI": {
+      "title": "AI- உதவி நோயியல்",
+      "description": "புற்றுநோய் கண்டறிதல் மற்றும் நோயறிதல் துல்லியத்திற்கான டிஜிட்டல் நோயியலில் ஆழமான கற்றல் பயன்பாடுகள்.",
+      "button": "மேலும் படிக்க"
+    },
+    "dermatologyAI": {
+      "title": "தோல் மருத்துவத்தில் AI தீர்வுகள்",
+      "description": "கணினி பார்வை மற்றும் இயந்திர கற்றலைப் பயன்படுத்தி AI- இயங்கும் தோல் நிலை கண்டறிதல் மற்றும் நோயறிதல்.",
+      "button": "மேலும் படிக்க"
+    },
+    "mentalHealthAI": {
+      "title": "மனநலம் & AI",
+      "description": "மனநல பரிசோதனை, நோயறிதல் மற்றும் சிகிச்சை ஆதரவில் AI பயன்பாடுகள்",
+      "button": "மேலும் படிக்க"
+    },
+    "dataPrivacy": {
+      "title": "தரவு தனியுரிமை & பாதுகாப்பு",
+      "description": "சுகாதாரத் தரவுப் பாதுகாப்பு, HIPAA இணக்கம் மற்றும் தனியுரிமைப் பாதுகாப்புகள்",
+      "button": "மேலும் படிக்க"
+    },
+    "aiAccuracy": {
+      "title": "AI துல்லிய ஆய்வுகள்",
+      "description": "நிஜ உலக சுகாதார அமைப்புகளில் AI கண்டறியும் அமைப்புகளின் மருத்துவ சரிபார்ப்பு மற்றும் செயல்திறன் அளவீடுகள்.",
+      "button": "மேலும் படிக்க"
+    },
+    "aiForLaypeople": {
+      "title": "அனைவருக்கும் AI",
+      "description": "சுகாதார AI-ஐ எளிமையான சொற்களில் புரிந்துகொள்வது - தொழில்நுட்ப பின்னணி தேவையில்லை.",
+      "button": "மேலும் படிக்க"
+    }
+  },
+  "dialogs": {
+    "startWithDefault": "சுகாதார நிபுணர் கரோலுடன் தொடங்குங்கள்.",
+    "startWithSpecific": "{{name}} உடன் தொடங்குங்கள்",
+    "longRecording": {},
+    "shortConv": {}
+  },
+  "team": {
+    "myAIHealthTeam": "எனது AI சுகாதார குழு",
+    "addMembersInstruction": "வலதுபுறத்தில் உள்ள அட்டையைக் கிளிக் செய்வதன் மூலம் குழு உறுப்பினர்களைச் சேர்க்கவும்.",
+    "maxTeamSizeNote": "உங்கள் குழுவில் அதிகபட்சம் ஐந்து AI ஆலோசகர்களைச் சேர்க்கலாம். நீங்கள் எந்த நேரத்திலும் உங்கள் குழுவை மாற்றலாம், ஆனால் ஆலோசனையின் போது அல்ல.",
+    "starting": "தொடங்குகிறது...",
+    "startTeamConsult": "குழு ஆலோசனையைத் தொடங்குங்கள்",
+    "startConsultationWithTeam": "உங்கள் குழுவுடன் ஆலோசனையைத் தொடங்குங்கள்"
+  },
+  "newConversation": {
+    "aileenCarolOnly": "சுகாதார நிபுணர் கரோல் மட்டும்",
+    "oneOnOne": "ஒன்றுக்கு ஒன்று",
+    "consultationChoice": {
+      "question": "இன்று நீங்கள் யாருடன் கலந்தாலோசிக்க விரும்புகிறீர்கள்?"
+    },
+    "options": {
+      "allAdvisers": "எனது அனைத்து AI சுகாதார ஆலோசகர்களும்",
+      "allAdvisersCarolOnly": "எனது அனைத்து AI சுகாதார ஆலோசகர்களும் (AI சுகாதார நிபுணர் கரோல் மட்டும்)",
+      "chooseSpecific": "எனது பட்டியலிலிருந்து குறிப்பிட்டதைத் தேர்ந்தெடுக்கவும்."
+    },
+    "tooltips": {
+      "noAdvisersSelected": "உங்கள் சுயவிவரத்தில் ஆலோசகர்கள் யாரும் தேர்ந்தெடுக்கப்படவில்லை.",
+      "loadingAdvisers": "உங்கள் ஆலோசகர்களை ஏற்றுகிறது...",
+      "noOtherAdvisers": "உங்கள் பட்டியலில் வேறு ஆலோசகர்கள் யாரும் இல்லை. உங்கள் சுயவிவரத்தில் மேலும் சேர்க்கவும்."
+    },
+    "errors": {
+      "loadingAdvisers": "ஆலோசகர் தரவை ஏற்றுவதில் பிழை."
+    },
+    "buttons": {
+      "cancel": "ரத்துசெய்",
+      "next": "அடுத்து",
+      "start": "தொடங்கு"
+    }
+  },
+  "aiAccuracyWhitepaper": {
+    "section1": {},
+    "section2": {
+      "aiSuccess": {},
+      "aiErrors": {},
+      "aiVsHuman": {}
+    },
+    "section3": {
+      "challenges": {}
+    },
+    "section4": {
+      "guidelines": {}
+    },
+    "section5": {}
+  },
+  "imagingAIExplainer": {
+    "whatIsImaging": {
+      "types": {}
+    },
+    "whatIsAI": {},
+    "howAIHelps": {
+      "accuracy": {},
+      "speed": {},
+      "consistency": {}
+    },
+    "challenges": {},
+    "conclusion": {}
+  },
+  "mentalHealthWhitepaper": {
+    "disclaimer": {},
+    "abstract": {},
+    "introduction": {},
+    "methods": {},
+    "results": {
+      "diagnosticSupport": {},
+      "therapeuticApplications": {},
+      "patientMonitoring": {}
+    },
+    "discussion": {},
+    "conclusion": {}
+  },
+  "audio": {},
+  "autoListening": {},
+  "speech": {},
+  "help": {},
+  "upload": {},
+  "fileUpload": {},
+  "input": {},
+  "send": {},
+  "controls": {
+    "aiSpeaker": "AI ஸ்பீக்கர்",
+    "cameraUpload": "கேமரா/பதிவேற்றம்",
+    "status": {
+      "enabled": "இயக்கப்பட்டது",
+      "disabled": "முடக்கப்பட்டது"
+    }
+  },
+  "welcome": {},
+  "account": {},
+  "participants": {},
+  "mobileChat": {},
+  "sidebar": {
+    "differentialOpinion": "வேறுபட்ட கருத்து"
+  },
+  "bioPanel": {},
+  "conversations": {},
+  "mobileConsultations": {},
+  "encyclopedia": {},
+  "imageContext": {},
+  "profile": {},
+  "sidebarHeader": {
+    "plusBadge": "+"
+  },
+  "messages": {},
+  "sidebarFooter": {},
+  "summary": {},
+  "teamBuilder": {
+    "steps": {},
+    "alerts": {},
+    "existingTeam": {},
+    "primaryConcerns": {},
+    "healthConditions": {},
+    "urgencySymptoms": {},
+    "medicinePreferences": {},
+    "additionalInfo": {},
+    "aileenCarolIntro": {},
+    "buttons": {},
+    "dialogs": {}
+  },
+  "aileenCarol": {},
+  "transcript": {},
+  "registerPage": {},
+  "legal": {
+    "eligibility": {},
+    "feesAndPayment": {},
+    "termination": {}
+  },
+  "aboutEncyclopediaPage": {},
+  "loginPage": {},
+  "mobileTeamBuilder": {
+    "carolMessages": {},
+    "questionnaire": {},
+    "title": {},
+    "carolGreeting": {}
+  },
+  "mobileNavigation": {},
+  "mobileWelcome": {},
+  "mobileRouter": {},
+  "mobileInput": {},
+  "mobileProfile": {},
+  "clinicianInfoPage": {},
+  "contactPage": {},
+  "dataPrivacyWhitepaper": {
+    "sections": {},
+    "hero": {},
+    "privacyPledge": {
+      "secureInfo": {},
+      "noPersonalUse": {},
+      "neverSell": {},
+      "anonymizedData": {}
+    },
+    "securityLevels": {
+      "accountSecurity": {},
+      "hipaaHistory": {}
+    },
+    "mindscriptSecurity": {},
+    "hipaaConsiderations": {},
+    "userResponsibility": {},
+    "privacyScenarios": {},
+    "conclusion": {}
+  },
+  "encyclopediaPage": {},
+  "evidencePage": {
+    "researchEvidence": {
+      "radiology": {},
+      "pathology": {},
+      "dermatology": {},
+      "mentalHealthResearch": {}
+    },
+    "wellnessInsights": {
+      "personalizedWellness": {},
+      "holisticSignals": {},
+      "proactiveWellbeing": {},
+      "aiEnhancedClarity": {}
+    }
+  },
+  "featuresPage": {
+    "features": {
+      "instantWellnessInsights": {},
+      "holisticWellnessPicture": {},
+      "diverseAIPerspectives": {},
+      "everEvolvingIntelligence": {}
+    }
+  },
+  "healthAdvisoryPage": {
+    "sections": {
+      "consultation": {
+        "emergency": {}
+      },
+      "technology": {},
+      "disclaimer": {
+        "points": {}
+      }
+    }
+  },
+  "medicalImageProcessingPage": {},
+  "mentalHealthInfoPage": {},
+  "nurseInfoPage": {},
+  "patientInfoPage": {},
+  "pharmacistInfoPage": {},
+  "physicianInfoPage": {},
+  "wellnessPathwaysPage": {},
+  "whyVirtualMD": {
+    "sections": {
+      "whyUs": {
+        "points": {
+          "personalTeam": {},
+          "aiNavigator": {},
+          "empoweringChoices": {},
+          "easyToUse": {},
+          "advancedTechnology": {}
+        }
+      },
+      "hero": {},
+      "features": {
+        "points": {
+          "dynamicEnsemble": {},
+          "holisticUnderstanding": {},
+          "rapidAccess": {},
+          "reliableInteractions": {},
+          "insightfulLogs": {}
+        }
+      },
+      "technology": {},
+      "cta": {}
+    }
+  },
+  "yourHealthInYourHandsPage": {
+    "sections": {
+      "uniqueProfile": {},
+      "personalizedGoals": {},
+      "diverseInsights": {},
+      "proactivePartner": {}
+    },
+    "callToAction": {}
+  },
+  "session_complete": "அமர்வு முடிந்தது",
+  "your_free_trial_has_ended": "உங்கள் இலவச சோதனை முடிந்தது.",
+  "united_kingdom:_dial_999_or_11": "யுனைடெட் கிங்டம்: 999 அல்லது 112 ஐ டயல் செய்யவும்",
+  "melanoma_and_skin_cancer_detec": "மெலனோமா மற்றும் தோல் புற்றுநோய் கண்டறிதல்",
+  "process_transactions_and_send_": "பரிவர்த்தனைகளைச் செயல்படுத்தி, உறுதிப்படுத்தல்கள் மற்றும் இன்வாய்ஸ்கள் (பொருந்தினால்) உள்ளிட்ட தொடர்புடைய தகவல்களை அனுப்பவும்.",
+  "information_we_collect": "நாங்கள் சேகரிக்கும் தகவல்கள்",
+  "in_a_medical_emergency:": "மருத்துவ அவசரநிலையில்:",
+  "in_response_to_legal_process:": "சட்ட செயல்முறைக்கு பதிலளிக்கும் விதமாக:",
+  "loading_chat": "அரட்டையை ஏற்றுகிறது...",
+  "redirecting": "திருப்பிவிடுகிறது...",
+  "israel:_dial_101_(magen_david_": "இஸ்ரேல்: 101 ஐ டயல் செய்யவும் ()",
+  "unlimited_messages_with_ai_doc": "AI சுகாதார நிபுணர்களுடன் வரம்பற்ற செய்திகள்",
+  "contact_information": "தொடர்புகொள்ள தகவல்",
+  "real-world_implementation_and_": "நிஜ உலக செயல்படுத்தல் மற்றும் மொபைல் பயன்பாடுகள்",
+  "your_access_to_or_use_of_or_in": "சேவையை அணுகுதல் அல்லது பயன்படுத்துதல் அல்லது சேவையை அணுக அல்லது பயன்படுத்த இயலாமை;",
+  "your_computer_may_temporarily_": "நீங்கள் அந்த பொருட்களை அணுகுவதற்கும் பார்ப்பதற்கும் இடையூறாக, உங்கள் கணினி தற்காலிகமாக RAM இல் அத்தகைய பொருட்களின் நகல்களைச் சேமிக்கலாம்.",
+  "please_select_only_one_special": "தனிப்பட்ட ஆலோசனைக்கு ஒரே ஒரு நிபுணரை மட்டும் தேர்ந்தெடுக்கவும்.",
+  "references": "குறிப்புகள்",
+  "business_transfers:": "வணிக இடமாற்றங்கள்:",
+  "account_information:": "கணக்கு தகவல்:",
+  "provide,_operate,_maintain,_an": "சேவையை வழங்குதல், இயக்குதல், பராமரித்தல் மற்றும் மேம்படுத்துதல்.",
+  "assignment": "பணி",
+  "sandymiles@mindspringhealth": "sandymiles@mindspring.health",
+  "ai-generated_content_may_conta": "எங்கள் வலுவான சரிபார்ப்பு செயல்முறைகள் இருந்தபோதிலும், AI-உருவாக்கிய உள்ளடக்கத்தில் பிழைகள் அல்லது குறைபாடுகள் இருக்கலாம்.",
+  "display_name": "காட்சிப் பெயர்",
+  "any_content_obtained_from_the_": "சேவையிலிருந்து பெறப்பட்ட எந்தவொரு உள்ளடக்கமும்; அல்லது",
+  "you_may_store_files_that_are_a": "காட்சி மேம்பாட்டு நோக்கங்களுக்காக உங்கள் வலை உலாவியால் தானாகவே தற்காலிகமாக சேமிக்கப்படும் கோப்புகளை நீங்கள் சேமிக்கலாம்.",
+  "start_new_health_consultation": "புதிய சுகாதார ஆலோசனையைத் தொடங்குங்கள்",
+  "entire_agreement": "முழு ஒப்பந்தம்",
+  "ophthalmology": "கண் மருத்துவம்",
+  "not": "இல்லை",
+  "exit_conversation?": "உரையாடலில் இருந்து வெளியேறவா?",
+  "grading_and_classification": "தரப்படுத்தல் மற்றும் வகைப்பாடு",
+  "unauthorized_access,_use,_or_a": "இந்த விதிமுறைகள் மற்றும் தனியுரிமைக் கொள்கையில் கோடிட்டுக் காட்டப்பட்டுள்ளபடி, MINDSCRIPT நியாயமான பாதுகாப்பு நடவடிக்கைகளைச் செயல்படுத்தியிருந்தாலும் கூட, உங்கள் பரிமாற்றங்கள் அல்லது உள்ளடக்கத்தின் அங்கீகரிக்கப்படாத அணுகல், பயன்பாடு அல்லது மாற்றம் (தரவு மீறல்கள் உட்பட).",
+  "checking_server_status": "சேவையக நிலையைச் சரிபார்க்கிறது...",
+  "not_a_hipaa-compliant_service": "HIPAA-இணக்கமான சேவை அல்ல",
+  "radiology": "கதிரியக்கவியல்",
+  "united_states:_dial_911": "அமெரிக்கா: 911 ஐ டயல் செய்யவும்",
+  "save_and_review_conversation_h": "உரையாடல் வரலாற்றைச் சேமித்து மதிப்பாய்வு செய்யவும்",
+  "abstract": "சுருக்கம்",
+  "starting_your_consultation": "உங்கள் ஆலோசனையைத் தொடங்குகிறேன்...",
+  "digital_pathology_overview": "டிஜிட்டல் நோயியல் கண்ணோட்டம்",
+  "reasonable_business_security_p": "அமெரிக்காவிற்குள் நியாயமான வணிகப் பாதுகாப்பு நடைமுறைகள்",
+  "loading_transcript": "டிரான்ஸ்கிரிப்டை ஏற்றுகிறது...",
+  "cookies_and_similar_technologi": "குக்கீகள் மற்றும் ஒத்த தொழில்நுட்பங்கள்:",
+  "internal_medicine": "உள் நலம்",
+  "no_specialists_currently_in_th": "இந்த அரட்டையில் தற்போது எந்த நிபுணர்களும் இல்லை.",
+  "discussion": "கலந்துரையாடல்",
+  "updating_team": "குழுவைப் புதுப்பிக்கிறது...",
+  "your_privacy_choices": "உங்கள் தனியுரிமை விருப்பங்கள்",
+  "error:_unknown_active_chat_vie": "பிழை: தெரியாத செயலில் உள்ள அரட்டை காட்சி.",
+  "create_more_than_one_account_f": "உங்களுக்காக ஒன்றுக்கு மேற்பட்ட கணக்குகளை உருவாக்குங்கள்.",
+  "improve_the_accuracy,_efficacy": "அநாமதேயமாக்கப்பட்ட மற்றும் ஒருங்கிணைக்கப்பட்ட தரவைப் பயன்படுத்தி எங்கள் AI மாதிரிகள் மற்றும் இயங்குதள அம்சங்களின் துல்லியம், செயல்திறன் மற்றும் பாதுகாப்பை மேம்படுத்தவும்.",
+  "user_content:": "பயனர் உள்ளடக்கம்:",
+  "mindscript_does_not_provide_me": "மைண்ட்ஸ்கிரிப்ட் மருத்துவ நோயறிதல் அல்லது சிகிச்சையை வழங்காது.",
+  "communicate_with_you_about_pro": "மைண்ட்ஸ்கிரிப்ட் மற்றும் பிறரால் வழங்கப்படும் தயாரிப்புகள், சேவைகள், சலுகைகள், விளம்பரங்கள், வெகுமதிகள் மற்றும் நிகழ்வுகள் பற்றி உங்களுடன் தொடர்பு கொள்ளவும், உங்களுக்கு ஆர்வமாக இருக்கும் என்று நாங்கள் நினைக்கும் செய்திகள் மற்றும் தகவல்களை வழங்கவும் (உங்கள் விலகல் உரிமைகளுக்கு உட்பட்டது).",
+  "aggregated_or_de-identified_da": "திரட்டப்பட்ட அல்லது அடையாளம் காணப்படாத தரவு:",
+  "canada:_dial_911": "கனடா: 911 ஐ டயல் செய்யவும்",
+  "retry": "மீண்டும் முயற்சிக்கவும்",
+  "other_locations:_contact_your_": "பிற இடங்கள்: உங்கள் உள்ளூர் அவசர சேவைகளை உடனடியாகத் தொடர்பு கொள்ளவும்.",
+  "ron_rubin,_phd_and_sandy_miles": "ரான் ரூபின், PhD மற்றும் சாண்டி மைல்ஸ்",
+  "australia:_dial_000_or_112": "ஆஸ்திரேலியா: 000 அல்லது 112 ஐ டயல் செய்யவும்",
+  "data_deletion:": "தரவு நீக்கம்:",
+  "we_do_not_guarantee_the_absolu": "உங்கள் தகவலின் முழுமையான பாதுகாப்பை நாங்கள் உத்தரவாதம் செய்வதில்லை.",
+  "send_technical_notices,_update": "தொழில்நுட்ப அறிவிப்புகள், புதுப்பிப்புகள், பாதுகாப்பு எச்சரிக்கைகள் மற்றும் ஆதரவு மற்றும் நிர்வாக செய்திகளை அனுப்பவும்.",
+  "consultation_summary": "ஆலோசனை சுருக்கம்",
+  "waiver": "விலக்கு",
+  "access_to_all_medical_specialt": "அனைத்து சுகாதார சிறப்புகளுக்கும் அணுகல்",
+  "no_profile_data_available": "சுயவிவரத் தரவு எதுவும் கிடைக்கவில்லை.",
+  "no_summary_available": "சுருக்கம் எதுவும் கிடைக்கவில்லை.",
+  "test_app_-_mindscript": "சோதனை பயன்பாடு - மைண்ட்ஸ்கிரிப்ட்",
+  "respond_to_your_comments,_ques": "உங்கள் கருத்துகள், கேள்விகள் மற்றும் கோரிக்கைகளுக்கு பதிலளித்து வாடிக்கையாளர் சேவையை வழங்குங்கள்.",
+  "not_hipaa_compliant": "HIPAA இணக்கமற்றது",
+  "force_majeure": "ஃபோர்ஸ் மஜூர்",
+  "you_may_print_or_download_one_": "உங்கள் சொந்த தனிப்பட்ட, வணிகரீதியான தகவல் பயன்பாட்டிற்காக தளத்தின் நியாயமான எண்ணிக்கையிலான பக்கங்களின் ஒரு நகலை நீங்கள் அச்சிடலாம் அல்லது பதிவிறக்கம் செய்யலாம், மேலும் மறுஉருவாக்கம், வெளியீடு அல்லது விநியோகத்திற்காக அல்ல.",
+  "dr_aileen_carol": "சுகாதார நிபுணர் ஐலீன் கரோல்",
+  "family_medicine": "குடும்ப நலம்",
+  "headings": "தலைப்புகள்",
+  "note_on_ai_aileencarol's_particip": "AI சுகாதார நிபுணர் கரோலின் பங்கேற்பு பற்றிய குறிப்பு:",
+  "ronrubin@mindscripthealth": "ronrubin@virtualmd.app முகவரிக்கு மின்னஞ்சல் அனுப்புக.",
+  "share_your_account_credentials": "உங்கள் கணக்குச் சான்றுகளைப் பகிரவும் அல்லது மற்றவர்கள் உங்கள் கணக்கை அணுக அனுமதிக்கவும் (நிறுவனக் கணக்குகளுக்கு வெளிப்படையாக அனுமதிக்கப்பட்டவை தவிர).",
+  "email_cannot_be_changed": "மின்னஞ்சலை மாற்ற முடியாது.",
+  "your_unique_medical_history,_c": "உங்கள் தனித்துவமான சுகாதார வரலாறு, நிலைமைகள் மற்றும் சூழ்நிலைகளுக்கு தொழில்முறை மதிப்பீடு தேவை.",
+  "changes_to_these_terms_and_pol": "இந்த விதிமுறைகள் மற்றும் கொள்கையில் மாற்றங்கள்",
+  "other_ai_specialists": "பிற AI நிபுணர்கள்",
+  "full_name": "முழு பெயர்",
+  "governing_law_and_dispute_reso": "ஆளும் சட்டம் மற்றும் தகராறு தீர்வு",
+  "loading…": "ஏற்றுகிறது...",
+  "personalized_health_insights": "தனிப்பயனாக்கப்பட்ட சுகாதார நுண்ணறிவுகள்",
+  "gastroenterology": "இரைப்பை குடல் மருத்துவம்",
+  "use_of_the_service_by_children": "குழந்தைகள் சேவையைப் பயன்படுத்துவது தடைசெய்யப்பட்டுள்ளது.",
+  "introduction": "அறிமுகம்",
+  "use_another_user's_account_wit": "அனுமதியின்றி வேறொரு பயனரின் கணக்கைப் பயன்படுத்துதல்.",
+  "if_you_can_see_this,_react_is_": "இதைப் பார்க்க முடிந்தால், ரியாக்ட் வேலை செய்கிறது!",
+  "ronrubin@mindspringhealth": "ronrubin@mindspring.health",
+  "children's_privacy": "குழந்தைகளின் தனியுரிமை",
+  "provide_false_or_misleading_in": "பதிவு செய்யும் போது அல்லது உங்கள் கணக்கு சுயவிவரத்தில் தவறான அல்லது தவறான தகவல்களை வழங்கவும்.",
+  "talk_to_a_specialist": "ஒரு நிபுணரிடம் பேசுங்கள்",
+  "cannot": "முடியாது",
+  "how_we_use_information": "நாங்கள் தகவலை எவ்வாறு பயன்படுத்துகிறோம்",
+  "results": "முடிவுகள்",
+  "loading_participants": "பங்கேற்பாளர்களை ஏற்றுகிறது...",
+  "sandymiles@mindscripthealth": "sandymiles@virtualmd.app முகவரி",
+  "this_feature_is_coming_soon": "இந்த அம்சம் விரைவில் வருகிறது!",
+  "start_or_continue_conversation": "உரையாடலைத் தொடங்கு அல்லது தொடர்",
+  "international_data_transfers": "சர்வதேச தரவு பரிமாற்றங்கள்",
+  "loading_bio": "பயோவை ஏற்றுகிறது...",
+  "termination": "முடித்தல்",
+  "no_image_active": "எந்த படமும் செயலில் இல்லை.",
+  "no_ai_health_advisers_selected": "AI சுகாதார ஆலோசகர்கள் யாரும் தேர்ந்தெடுக்கப்படவில்லை. உங்கள் சுயவிவரத்தில் உங்கள் ஆலோசகர்களை நிர்வகிக்கலாம்.",
+  "dr_daniel_garcia": "சுகாதார நிபுணர் டேனியல் கார்சியா",
+  "no_other_specialists_available": "வேறு எந்த நிபுணர்களையும் சேர்க்க முடியாது.",
+  "carry_out_any_other_purpose_de": "தகவல் சேகரிக்கப்பட்ட நேரத்தில் உங்களுக்கு விவரிக்கப்பட்ட வேறு எந்த நோக்கத்தையும் நிறைவேற்றவும்.",
+  "data_retention": "தரவு வைத்திருத்தல்",
+  "informational_and_educational_": "தகவல் மற்றும் கல்வி நோக்கங்களுக்காக மட்டுமே",
+  "miscellaneous": "இதர",
+  "non-cancerous_skin_condition_c": "புற்றுநோய் அல்லாத தோல் நிலை வகைப்பாடு",
+  "pathology": "நோயியல்",
+  "promotional_communications:": "விளம்பரத் தொடர்புகள்:",
+  "info@mindscripthealth": "info@virtualmd.app முகவரி:",
+  "methods/technologies": "முறைகள்/தொழில்நுட்பங்கள்",
+  "how_we_share_information": "நாங்கள் தகவல்களை எவ்வாறு பகிர்ந்து கொள்கிறோம்",
+  "loading_profile": "சுயவிவரத்தை ஏற்றுகிறது...",
+  "personalize_and_improve_the_se": "சேவையைத் தனிப்பயனாக்கி மேம்படுத்தி, பயனர் சுயவிவரங்கள் அல்லது ஆர்வங்களுடன் பொருந்தக்கூடிய உள்ளடக்கம் அல்லது அம்சங்களை வழங்கவும்.",
+  "with_vendors_and_service_provi": "விற்பனையாளர்கள் மற்றும் சேவை வழங்குநர்களுடன்:",
+  "health_information_may_become_": "சுகாதார அறிவு உருவாகும்போது சுகாதார தகவல்கள் காலாவதியாகிவிடும்.",
+  "with_whom_would_you_like_to_co": "இன்று நீங்கள் யாருடன் கலந்தாலோசிக்க விரும்புகிறீர்கள்?",
+  "mindscript_content:": "மைண்ட்ஸ்கிரிப்ட் உள்ளடக்கம்:",
+  "cookies:": "குக்கீகள்:",
+  "detect,_investigate,_and_preve": "மோசடி பரிவர்த்தனைகள் மற்றும் பிற சட்டவிரோத நடவடிக்கைகளைக் கண்டறிந்து, விசாரித்து, தடுக்கவும், மைண்ட்ஸ்கிரிப்ட் மற்றும் பிறரின் உரிமைகள் மற்றும் சொத்துக்களைப் பாதுகாக்கவும்.",
+  "medical_advice_requires_person": "சுகாதார ஆலோசனைக்கு உரிமம் பெற்ற சுகாதார வழங்குநர்களால் தனிப்பயனாக்கப்பட்ட மதிப்பீடு தேவைப்படுகிறது.",
+  "create_an_account_for_anyone_o": "உங்களைத் தவிர வேறு யாருக்கும் அனுமதியின்றி ஒரு கணக்கை உருவாக்குங்கள்.",
+  "options": "விருப்பங்கள்",
+  "cannot_and_will_not_sue_or_hol": "MINDSCRIPT TECHNOLOGIES, LLC, அதன் துணை நிறுவனங்கள், அதிகாரிகள், இயக்குநர்கள், ஊழியர்கள், முகவர்கள் அல்லது உரிமதாரர்கள் மீது வழக்குத் தொடரவோ அல்லது வைத்திருக்கவோ முடியாது மற்றும் வைத்திருக்கவோ முடியாது.",
+  "with_your_consent:": "உங்கள் ஒப்புதலுடன்:",
+  "add_specialists_to_your_team": "உங்கள் குழுவில் நிபுணர்களைச் சேர்க்கவும்.",
+  "usage_information:": "பயன்பாட்டு தகவல்:",
+  "any_conduct_or_content_of_any_": "சேவையில் உள்ள எந்தவொரு மூன்றாம் தரப்பினரின் எந்தவொரு நடத்தை அல்லது உள்ளடக்கம், வரம்பில்லாமல், பிற பயனர்கள் அல்லது மூன்றாம் தரப்பினரின் எந்தவொரு அவதூறான, புண்படுத்தும் அல்லது சட்டவிரோதமான நடத்தை;",
+  "do_not_meet_the_specific_admin": "PHI-யைக் கையாளுவதற்கு HIPAA பாதுகாப்பு விதியால் கட்டாயப்படுத்தப்பட்ட குறிப்பிட்ட நிர்வாக, உடல் மற்றும் தொழில்நுட்ப பாதுகாப்புத் தேவைகளைப் பூர்த்தி செய்யவில்லை.",
+  "legal@mindscripthealth": "legal@virtualmd.app முகவரி:",
+  "cancel": "ரத்துசெய்",
+  "conclusion": "முடிவுரை",
+  "professional_health_insights_a": "தொழில்முறை சுகாதார நுண்ணறிவு மற்றும் வழிகாட்டுதல்",
+  "cancer_detection": "புற்றுநோய் கண்டறிதல்",
+  "your_specialist_team_is_empty_": "உங்கள் நிபுணர் குழு காலியாக உள்ளது. கீழே நிபுணர்களைச் சேர்க்கவும்.",
+  "workflow_optimization": "பணிப்பாய்வு உகப்பாக்கம்",
+  "select_ai_specialists": "AI நிபுணர்களைத் தேர்ந்தெடுக்கவும்",
+  "monitor_and_analyze_trends,_us": "எங்கள் சேவையுடன் தொடர்புடைய போக்குகள், பயன்பாடு மற்றும் செயல்பாடுகளைக் கண்காணித்து பகுப்பாய்வு செய்யுங்கள்.",
+  "severability": "பிரிக்கக்கூடிய தன்மை",
+  "access_to_cardiology_and_neuro": "இருதயவியல் மற்றும் நரம்பியல் நிபுணர்களுக்கான அணுகல்",
+  "searchLanguages": "மொழிகளைத் தேடு...",
+  "noLanguagesFound": "மொழிகள் எதுவும் கிடைக்கவில்லை.",
+  "you": "நீங்கள்",
+  "manageTeam": {
+    "title": "எனது AI சுகாதாரக் குழுவை நிர்வகிக்கவும் (அதிகபட்ச {{maxTeamMembers}} நிபுணர்கள்)",
+    "currentTeamCount": "உங்கள் தற்போதைய குழு ({{current}}/{{max}})",
+    "updatingTeam": "குழுவைப் புதுப்பிக்கிறது...",
+    "coordinatorLabel": "(ஒருங்கிணைப்பாளர்)",
+    "alwaysIncluded": "எப்போதும் சேர்க்கப்பட்டுள்ளது",
+    "specialistFallback": "நிபுணர்",
+    "emptyTeamMessage": "உங்கள் நிபுணர் குழு காலியாக உள்ளது. கீழே நிபுணர்களைச் சேர்க்கவும்.",
+    "teamFullMessage": "உங்கள் குழுவில் (அதிகபட்சம் {{maxTeamMembers}} நிபுணர்கள்) நிரம்பிவிட்டனர். வேறு நிபுணரைச் சேர்க்க விரும்பினால், ஒரு உறுப்பினரை அகற்றவும்.",
+    "otherSpecialistsTitle": "பிற AI நிபுணர்கள்",
+    "addToTeamTooltip": "அணியில் சேர்",
+    "teamFullTooltip": "குழு நிரம்பி விட்டது.",
+    "systemSpecialistFallback": "சிஸ்டம் ஸ்பெஷலிஸ்ட்",
+    "noSpecialistsAvailable": "வேறு எந்த நிபுணர்களையும் சேர்க்க முடியாது."
+  },
+  "personas": {
+    "defaultSpecialist": "AI நிபுணர்"
+  },
+  "personaList": {
+    "noSpecialistsFound": "AI நிபுணர்கள் யாரும் இல்லை."
+  },
+  "guest": {
+    "user": "விருந்தினர் பயனர்",
+    "userObject": {
+      "displayName": "விருந்தினர் பயனர்",
+      "email": "விருந்தினர்@virtualmd.app"
+    },
+    "registration": {
+      "prompt": "எங்கள் முழுமையான AI சுகாதார குழு, உரையாடல் வரலாறு மற்றும் மேம்பட்ட அம்சங்களுக்கான முழு அணுகலுக்கு பதிவு செய்யவும்.",
+      "dialogTitle": "பதிவுசெய்யப்பட்ட பயனர்களுக்கு {{specialistName}} ஐ அணுக முடியும்.",
+      "dialogDescription": "{{specialistName}} எங்கள் விரிவான மெய்நிகர் சுகாதாரக் குழுவின் ஒரு பகுதியாகும்.",
+      "benefitsTitle": "VirtualMD.app கணக்குடன், நீங்கள் பெறுவீர்கள்:",
+      "benefits": {
+        "access": "60க்கும் மேற்பட்ட சிறப்பு AI சுகாதார ஆலோசகர்களுக்கான அணுகல்",
+        "personalized": "தனிப்பயனாக்கப்பட்ட சுகாதார ஆலோசனைகள்",
+        "saveConversations": "சேமித்து உரையாடல்களைத் தொடரவும்.",
+        "uploadImages": "படங்களை பதிவேற்றவும் அல்லது உங்கள் கணினி/கேமராவிலிருந்து நேரடியாக எடுக்கவும்.",
+        "customTeam": "உங்கள் சொந்த தனிப்பயன் சுகாதார குழுவை உருவாக்குங்கள்.",
+        "availability": "உடல்நலக் கேள்விகளுக்கு 24/7 கிடைக்கும் தன்மை"
+      },
+      "buttons": {
+        "maybeLater": "ஒருவேளை பின்னர்",
+        "registerNow": "இப்போதே பதிவு செய்யுங்கள்"
+      }
+    },
+    "registrationRequired": "பதிவு அவசியம்",
+    "profileRegistrationRequired": "பயனர் சுயவிவரம்: பதிவு அவசியம்",
+    "landing": {
+      "title": "AI சுகாதார ஆலோசனையை அனுபவியுங்கள்",
+      "subtitle": "எங்கள் AI சுகாதார நிபுணர்களிடமிருந்து உடனடி சுகாதார நுண்ணறிவுகளைப் பெறுங்கள் - முற்றிலும் இலவசம், பதிவு தேவையில்லை.",
+      "whatBringsYou": "இன்று உங்களை இங்கு அழைத்து வந்தது எது?",
+      "selectConcern": "பொதுவான கவலையைத் தேர்ந்தெடுக்கவும் அல்லது உங்களுடையதை விவரிக்கவும்.",
+      "customConcernPlaceholder": "அல்லது உங்கள் உடல்நலக் கவலையை உங்கள் சொந்த வார்த்தைகளில் விவரிக்கவும்...",
+      "startConsultation": "இலவச ஆலோசனையைத் தொடங்குங்கள்",
+      "experienceIncludes": "இலவச விருந்தினர் அனுபவத்தில் பின்வருவன அடங்கும்:",
+      "includes": {
+        "messages": "AI சுகாதார நிபுணர்களுடன் 10 செய்திகள்",
+        "time": "ஆலோசனைக்கு 15 நிமிடங்கள்",
+        "insights": "தொழில்முறை சுகாதார நுண்ணறிவு மற்றும் வழிகாட்டுதல்"
+      },
+      "personas": {
+        "defaultSpecialist": "AI நிபுணர்",
+        "aileen": {
+          "name": "சுகாதார நிபுணர் ஐலீன் கரோல்",
+          "specialty": "குடும்ப நலம்"
+        },
+        "daniel": {
+          "name": "சுகாதார நிபுணர் டேனியல் கார்சியா",
+          "specialty": "உள் நலம்"
+        }
+      }
+    },
+    "chat": {
+      "header": "AI சுகாதார ஆலோசனை",
+      "messagesLeft": "{{count}} செய்திகள் மீதமுள்ளன",
+      "timeLeft": "{{நேரம்}} மீதமுள்ளது",
+      "startingConsultation": "உங்கள் ஆலோசனை தொடங்குகிறது. AI சுகாதார நிபுணர் விரைவில் பதிலளிப்பார்.",
+      "aiTyping": "AI நிபுணர் தட்டச்சு செய்கிறார்...",
+      "inputPlaceholder": "உங்கள் அறிகுறிகளை விவரிக்கவும் அல்லது ஒரு கேள்வியைக் கேட்கவும்..."
+    },
+    "expired": {
+      "title": "ஆலோசனை முடிந்தது",
+      "subtitle": "நீங்கள் AI சுகாதார ஆலோசனையின் சக்தியை அனுபவித்திருக்கிறீர்கள்.",
+      "messagesUsed": "நீங்கள் {{max}} செய்திகளில் {{used}} ஐப் பயன்படுத்தினீர்கள்",
+      "continuePrompt": "வரம்பற்ற அணுகலுடன் தொடர விரும்புகிறீர்களா?",
+      "createAccount": "இலவச கணக்கை உருவாக்குங்கள்",
+      "signIn": "உள்நுழையவும்"
+    },
+    "errors": {
+      "startFailed": "ஆலோசனையைத் தொடங்க முடியவில்லை. மீண்டும் முயற்சிக்கவும்.",
+      "connectionLost": "இணைப்பு துண்டிக்கப்பட்டது. பக்கத்தைப் புதுப்பிக்கவும்.",
+      "sendFailed": "செய்தியை அனுப்ப முடியவில்லை. மீண்டும் முயற்சிக்கவும்."
+    },
+    "profile": {
+      "age": "25",
+      "gender": "பெண்",
+      "bloodType": "அ+",
+      "height": "5'6\"",
+      "weight": "130 பவுண்டுகள்",
+      "conditions": "இரும்புச்சத்து குறைபாடு இரத்த சோகை, மிதமான மனச்சோர்வு",
+      "medications": "இரும்பு சல்பேட் தினமும் 325 மி.கி., செர்ட்ராலைன் தினமும் 50 மி.கி.",
+      "allergies": "எதுவும் தெரியவில்லை",
+      "healthInfo": "கடந்த 6 மாதங்களாக எனக்கு சோர்வு மற்றும் ஆற்றல் குறைவு ஏற்பட்டுள்ளது. எனது சுகாதார நிபுணர் எனக்கு இரும்புச்சத்து குறைபாடு இரத்த சோகை இருப்பதாகக் கண்டறிந்தார், நான் இரும்புச் சத்துக்களை எடுத்து வருகிறேன். நான் மன அழுத்தத்தாலும் போராடுகிறேன், 3 மாதங்களுக்கு முன்பு மன அழுத்த எதிர்ப்பு மருந்துகளை எடுத்துக்கொள்ள ஆரம்பித்தேன். இரண்டு நிலைகளையும் நிர்வகிப்பது மற்றும் எனது ஒட்டுமொத்த ஆற்றல் அளவை மேம்படுத்துவது குறித்து ஆலோசனை தேடுகிறேன்.",
+      "emergencyContact": "சாரா ஜான்சன் (சகோதரி) - (555) 123-4567"
+    },
+    "experience": {
+      "tryItOut": "முயற்சி செய்து பாருங்கள்.",
+      "noObligation": "எந்த கடமையும் இல்லை.",
+      "subtitle": "VirtualMD.app உங்களுக்கு என்ன செய்ய முடியும் என்பதற்கான ஒரு சிறிய பகுதி."
+    }
+  },
+  "aiPrefix": "செயற்கை நுண்ணறிவு",
+  "dashboard": "டாஷ்போர்டு",
+  "teamRecommendation": {
+    "submission": {
+      "primaryConcernsLabel": "இன்று உங்கள் முதன்மை சுகாதார கவலைகள் என்ன?",
+      "healthConditionsLabel": "உங்களுக்கு என்ன சுகாதார நிலைமைகள் பொருந்தும்?"
+    },
+    "defaults": {
+      "noneSpecified": "எதுவும் குறிப்பிடப்படவில்லை"
+    }
+  }
+}

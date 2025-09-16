@@ -1,0 +1,715 @@
+{
+  "actions": {
+    "startConsultation": "Qala Ukubonisana Kwezempilo",
+    "endConsultation": "Qeda Ukubonisana",
+    "returnToConsultation": "Buyela kokuthi Ukubonisana",
+    "newConversation": "Qala Ingxoxo Entsha",
+    "saveConversation": "Londoloza Ingxoxo",
+    "deleteConversation": "Susa Ingxoxo",
+    "getSummary": "Thola Isifinyezo",
+    "getTranscript": "Thola Okulotshiweyo",
+    "getDifferentialOpinion": "Thola Umbono Ohlukile",
+    "exportChat": "Thumela Ingxoxo",
+    "clearChat": "Sula Ingxoxo"
+  },
+  "audio": {
+    "aiMuted": "I-AI Ithulisiwe",
+    "aiUnmuted": "I-AI yomsindo ivuliwe",
+    "playbackFailed": "Yehlulekile ukudlala umsindo",
+    "generationFailed": "Yehlulekile ukukhiqiza inkulumo"
+  },
+  "sidebar": {
+    "personaList": "Khetha Uchwepheshe Wakho Wezempilo",
+    "conversations": "Izingxoxo Zami",
+    "profile": "Iphrofayela Yami",
+    "settings": "Izilungiselelo",
+    "manageTeam": "Phatha Ithimba",
+    "teamBuilder": "I-AI Team Builder",
+    "encyclopedia": "I-Encyclopedia",
+    "bio": "I-Professional Bio",
+    "clickForBio": "Chofoza ukuze uthole i-Bio",
+    "clickToSpeak": "Chofoza ukuze ukhulume noMeluleki",
+    "summary": "Isifinyezo Sokubonisana",
+    "transcript": "Okulotshiweyo Kwengxoxo",
+    "imageContext": "Isimo Sesithombe",
+    "newConversation": "Ukubonisana Okusha"
+  },
+  "tooltips": {
+    "audioOnlyRegistered": "Umsindo utholakala kuphela kubasebenzisi ababhalisiwe."
+  },
+  "messages": {
+    "typeMessage": "Thayipha umlayezo wakho lapha...",
+    "send": "Thumela",
+    "thinking": "Ukucabanga...",
+    "processing": "Iyacubungula...",
+    "connecting": "Iyaxhuma...",
+    "connected": "Ixhunyiwe",
+    "disconnected": "Inqanyuliwe",
+    "typing": "U-{{name}} uyathayipha...",
+    "messageError": "Yehlulekile ukuthumela umlayezo",
+    "retryMessage": "Zama futhi",
+    "requestToSpeak": "Ngicela ungivumele ngikhulume no-{{name}}",
+    "messageDeleted": "Umlayezo ususiwe",
+    "systemMessage": "Umlayezo wesistimu"
+  },
+  "personas": {
+    "defaultName": "Uchwepheshe Wezempilo u-Aileen Carol",
+    "defaultSpecialty": "Uchwepheshe Wezempilo",
+    "selectPersona": "Khetha Uchwepheshe Wezempilo",
+    "noPersonasAvailable": "Abekho ochwepheshe bezempilo abatholakalayo",
+    "personaDetails": "Imininingwane Yochwepheshe",
+    "specialization": "Ubungcweti",
+    "experience": "Isipiliyoni",
+    "education": "Imfundo",
+    "certifications": "Izitifiketi",
+    "languages": "Izilimi",
+    "availableNow": "Iyatholakala Manje",
+    "loading": "Ilayisha ochwepheshe..."
+  },
+  "personaSearch": {
+    "placeholder": "Sesha ngegama, okukhethekile, noma chaza izimpawu zakho (isb., ikhanda elibuhlungu, ukukhathazeka)",
+    "selected": "Ikhethiwe",
+    "noResults": "Abekho abaxhumanisi abatholelwe i-\"{{query}}\"",
+    "searchSuggestions": "Zama ukusesha: ikhanda, ukukhathazeka, ubuhlungu, ukulala, isifo sikashukela, njll."
+  },
+  "configurator": {
+    "title": "Qala Ukubonisana Okusha Kwezempilo",
+    "subtitle": "Khetha Eqenjini lakho Lezempilo le-AI",
+    "changeTeam": "Shintsha Ithimba",
+    "starting": "Iyaqala...",
+    "startConsult": "Qala Ukubonisana",
+    "emptyTeam": "Ithimba lakho Lezempilo le-AI alinalutho",
+    "addSpecialists": "Engeza ochwepheshe eqenjini lakho",
+    "noOtherSpecialists": "Abekho abanye ochwepheshe eqenjini lakho. Ungaxoxa ne-AI Health Expert Carol noma",
+    "addSpecialistsLink": "engeza ochwepheshe eqenjini lakho",
+    "defaultPersona": {
+      "name": "Isazi Sezempilo se-AI u-Aileen Carol",
+      "role": "Umeluleki Wami Wezempilo Oyisisekelo we-AI"
+    },
+    "carolNote": {
+      "title": "Inothi ngokubamba iqhaza kwe-AI Health Expert Carol:",
+      "ruleA": "A. Isazi Sezempilo se-AI uCarol sifakiwe uma kukhethwa abanye ochwepheshe abangu-0 noma abangu-2+ eqenjini lakho.",
+      "ruleB": "B. Isazi Sezempilo se-AI uCarol asifakiwe uma kukhethwa omunye uchwepheshe ongu-1 eqenjini lakho."
+    }
+  },
+  "conversations": {
+    "noConversations": "Azikho izingxoxo okwamanje",
+    "untitled": "Ingxoxo Engenasihloko",
+    "today": "Namuhla",
+    "yesterday": "Izolo",
+    "thisWeek": "Kuleli viki",
+    "lastWeek": "Evikini eledlule",
+    "older": "Omdala",
+    "editTitle": "Hlela Isihloko",
+    "saveTitle": "Londoloza Isihloko",
+    "cancelEdit": "Khansela ukuhlela",
+    "deleteConsultation": "Susa Ukubonisana",
+    "clickToReturn": "Chofoza ukuze ubuyele ukuze uxoxe",
+    "deleteConfirm": "Uqinisekile ukuthi ufuna ukususa le ngxoxo?",
+    "deleteSuccess": "Ingxoxo isuswe ngempumelelo",
+    "loadingConversations": "Ilayisha izingxoxo...",
+    "conversationError": "Iphutha ekulayisheni ingxoxo",
+    "consultationsTitle": "Ukubonisana",
+    "lastUpdate": "Isibuyekezo Sokugcina: {{date}}",
+    "consultationDefault": "Ukubonisana {{id}}",
+    "noConsultationsYet": "Akukho ukubonisana okwamanje.",
+    "noPastConsultations": "Akukho ukubonisana okudlule okutholiwe."
+  },
+  "participants": {
+    "noParticipants": "Abekho ababambiqhaza abazoboniswa.",
+    "inThisConsult": "Kulesi Ukubonisana Okubonakalayo:"
+  },
+  "team": {
+    "myTeam": "Ithimba Lami Lezempilo",
+    "addToTeam": "Engeza Ethimbeni",
+    "removeFromTeam": "Susa Eqenjini",
+    "teamFull": "Ithimba lakho ligcwele",
+    "maxTeamSize": "Umkhawulo kasayizi weqembu ufinyelelwe ({{max}} amalungu)",
+    "currentTeam": "Amalungu Eqembu Amanje",
+    "buildTeam": "Yakha Ithimba Lakho",
+    "teamRecommendations": "Izincomo zethimba le-AI",
+    "acceptRecommendation": "Yamukela Izincomo",
+    "getRecommendations": "Thola Izincomo ze-AI",
+    "teamBuilder": "I-AI Team Builder",
+    "addTeamMembersInstruction": "Engeza amalungu eqembu ngokuchofoza ekhadini elingakwesokudla.",
+    "maxTeamSizeNote": "Ubuningi babeluleki be-AI abahlanu bungangezwa eqenjini lakho. Ungashintsha iqembu lakho noma kunini, kodwa hhayi ngesikhathi sokubonisana.",
+    "startConsultationWithTeam": "Qala ukubonisana nethimba lakho",
+    "manageTeamTitle": "Phatha Ithimba Lami Lezempilo le-AI (Ochwepheshe Abaphezulu {{max}})",
+    "removeSpecialistToUseTeamBuilder": "Sicela ususe okungenani uchwepheshe oyedwa ukuze usebenzise izincomo zokwakha zethimba le-AI Expert Carol",
+    "aileenCarolRecommendTeam": "Yiba ne-AI Health Expert Carol incoma ithimba lakho lezempilo",
+    "teamFullRemoveToUseBuilder": "Ithimba lakho ligcwele. Sicela ususe okungenani uchwepheshe oyedwa ukuze usebenzise isakhiwo seqembu se-AI.",
+    "yourCurrentTeam": "Ithimba Lakho Lamanje ({{current}}/{{max}})",
+    "updatingTeam": "Ibuyekeza ithimba...",
+    "coordinator": "Umxhumanisi",
+    "alwaysIncluded": "Kufakwe njalo",
+    "specialist": "Uchwepheshe",
+    "teamEmptyAddBelow": "Ithimba lakho lochwepheshe alinalutho. Engeza ochwepheshe ngezansi.",
+    "teamFullRemoveMember": "Ithimba lakho ligcwele (Ubuningi bochwepheshe abangu-{{max}}). Sicela ususe ilungu uma ungathanda ukwengeza uchwepheshe ohlukile.",
+    "addMembersClickCard": "Engeza amalungu eqembu ngokuchofoza ikhadi endaweni eyinhloko",
+    "teamLead": "Umholi Weqembu",
+    "currentMember": "Ilungu Lamanje",
+    "analyzingNeeds": "Ihlaziya izidingo zakho...",
+    "emergencyDetected": "🚨 Isimo Esiphuthumayo Sitholiwe",
+    "backToSafety": "Buyela Ekuphepheni",
+    "recommendedTeam": "Ithimba Lezempilo Elinconyiwe",
+    "completeTeam": "Ithimba Lakho Eliphelele ({{count}} amalungu)",
+    "teamLeadReason": "Umxhumanisi wezempilo oyisisekelo",
+    "keepingMembers": "Amalungu Eqembu Amanje (Ukugcina)",
+    "newRecommendations": "Izincomo Ezintsha",
+    "aileenCarolReasoning": "Imibono kaCarol Isazi Sezempilo se-AI:",
+    "noMatchingSpecialists": "Abekho ochwepheshe abafanayo abatholelwe izincomo ze-AI. Ungazama futhi noma wakhe ithimba lakho mathupha.",
+    "medicalDisclaimerTitle": "Ukwelulekwa Kwezempilo Nokuphila:",
+    "medicalDisclaimerText": "Le nkundla inikeza iseluleko sezempilo nesiqondiso kodwa ayikwazi ukuthatha indawo yokunakekelwa kwezempilo okuchwepheshile. Hlala uthintana nochwepheshe bezokunakekelwa kwempilo abaqeqeshiwe mayelana nezimo eziphuthumayo noma izinkinga zempilo ezingathi sína.",
+    "applyingTeam": "Ithimba Elisebenza...",
+    "acceptTeam": "Yamukela Lelithimba",
+    "tryDifferent": "Zama Izincomo Ezihlukile",
+    "cancel": "Khansela",
+    "myVirtualMDTeam": "Ithimba lami le-VirtualMD.app",
+    "availableSpecialists": "Ochwepheshe Bezempilo be-AI abatholakalayo",
+    "clickToAddInstruction": "Chofoza ikhadi ukuze ungeze eqenjini lakho ({{current}}/{{max}} ekhethiwe). Ochwepheshe abakhethiwe babonisa ibheji \"Ekhethiwe\".",
+    "teamFullInstruction": "Ithimba lakho ligcwele. Susa ilungu ukuze ungeze uchwepheshe ohlukile.",
+    "selected": "Ikhethiwe",
+    "teamFullBadge": "Ithimba Eligcwele",
+    "allSpecialistsAdded": "Bonke ochwepheshe abakhona bengeziwe eqenjini lakho.",
+    "otherSpecialists": "Abanye Ongoti",
+    "specialistsCount": "{{count}} ochwepheshe",
+    "startTeamConsult": "Qala Ukubonisana Nethimba",
+    "starting": "Iyaqala...",
+    "myAIHealthTeam": "Ithimba lami lezempilo le-AI",
+    "addMembersInstruction": "Engeza amalungu eqembu ngokuchofoza ekhadini elingakwesokudla."
+  },
+  "specialistCategories": {
+    "diabetesBloodSugar": "Isifo sikashukela kanye noshukela wegazi",
+    "weightManagement": "Ukuphathwa Kwesisindo",
+    "mentalHealthStress": "Impilo Yengqondo Nokucindezeleka",
+    "cancerSupport": "Ukusekela Umdlavuza",
+    "heartHealth": "Impilo Yenhliziyo",
+    "painManagement": "Ukuphathwa Kwezinhlungu",
+    "digestiveIssues": "Izinkinga Zokugaya ukudla",
+    "sleepProblems": "Izinkinga Zobuthongo",
+    "skinProblems": "Izinkinga Zesikhumba",
+    "womensHealth": "Impilo Yabesifazane",
+    "childrensHealth": "Impilo Yezingane",
+    "agingSeniorHealth": "Ukuguga kanye Nezempilo Eziphakeme",
+    "nutritionDiet": "Ukudla Okunomsoco & Ukudla",
+    "allergiesImmuneSystem": "I-Allergies & Isistimu Yamasosha omzimba",
+    "breathingLungIssues": "Izinkinga Zokuphefumula Nemaphaphu",
+    "sportsFitnessInjuries": "Ukulimala Kwezemidlalo Nokufaneleka",
+    "easternAlternativeMedicine": "I-Eastern & Alternative Wellness",
+    "cosmeticBeautyMedicine": "I-Cosmetic & Beauty Wellness",
+    "anxietyHelp": "Usizo Lokukhathazeka",
+    "medicationPharmacy": "Imithi & Ikhemisi",
+    "primaryCareGeneralHealth": "Ukunakekelwa Okuyisisekelo kanye Nezempilo Ezijwayelekile",
+    "medicalSpecialties": "Impilo Nokuphila Okukhethekile"
+  },
+  "dialogs": {
+    "exitConsultation": "Phuma Ekubonisaneni",
+    "exitMessage": "Uqinisekile ukuthi ufuna ukuphuma kulokhu kuxoxisana?",
+    "saveAndExit": "Londoloza & Uphume",
+    "exitWithoutSaving": "Phuma Ngaphandle Kokulondoloza",
+    "cancel": "Khansela",
+    "confirm": "Qinisekisa",
+    "logout": "Phuma",
+    "logoutMessage": "Okwamanje usekubonisaneni. Ukuphuma ngemvume kuzokuqeda. Ungathanda ukwenzani?",
+    "deleteConversation": "Susa Ingxoxo",
+    "deleteMessage": "Lesi senzo asikwazi ukuhlehliswa. Uqinisekile?",
+    "summarizeFirst": "Ungathanda ukuthola isifinyezo ngaphambi kokuphuma?",
+    "summarizing": "Ikhiqiza isifinyezo...",
+    "summaryGenerated": "Isifinyezo senziwe ngempumelelo",
+    "doneAlready": "Kwenziwe kakade?",
+    "doneAlreadyMessage": "Sikhona noma nini lapho usidinga. Kuze kube yileso sikhathi, yiba nempilo, ujabule!",
+    "doneAlreadySignature": "Sonke (abantu kanye ne-AI) ku-VirtualMD.app",
+    "exitConsultationButton": "Phuma Ekubonisaneni",
+    "editTitle": "Hlela Isihloko Sengxoxo",
+    "conversationTitleLabel": "Isihloko Sengxoxo",
+    "save": "Londoloza",
+    "deleteTitle": "Susa Ingxoxo",
+    "deleteConfirmation": "Uqinisekile ukuthi ufuna ukususa ingxoxo enesihloko esithi \"{{title}}\"?",
+    "delete": "Susa",
+    "multiDeleteTitle": "Susa Ukubonisana Okukhethiwe",
+    "multiDeleteConfirmation": "Ingabe uqinisekile ukuthi ufuna ukususa izingxoxo ezikhethiwe ezingu-{{count}}? Lesi senzo asikwazi ukuhlehliswa.",
+    "deleteSelected": "Susa Okukhethiwe",
+    "addSpecialistTitle": "Engeza Uchwepheshe engxoxweni",
+    "addSpecialistError": "Ayikwazanga ukulayisha abeluleki bakho.",
+    "noAdvisersToAdd": "Bonke abeluleki bakho bezempilo be-AI abakhethiwe sebevele bekule ngxoxo, noma uhlu lwakho alunalutho (ngaphandle kwabahlanganyeli bamanje).",
+    "longRecording": {
+      "title": "Ukurekhoda Okude Kumiswe Isikhashana",
+      "message": "Asikwazi ukurekhoda ngaphezu kwamasekhondi angu-30 ngaphandle kokuyithumela. Ungathanda ukwenzani?",
+      "delete": "Susa",
+      "transcribeToText": "Bhala umbhalo",
+      "transcribeAndSend": "Loba futhi uthumele"
+    },
+    "finishConsultationTitle": "Qeda Ukubonisana?",
+    "generatingSummary": "Sicela ulinde ngenkathi senza isifinyezo sakho sokubonisana...",
+    "finishConsultationMessage": "Lokhu kuzoqeda iseshini yengxoxo esebenzayo. Uqinisekile?",
+    "summarizeAndFinish": "Fingqa futhi uqedele",
+    "leaveWithoutSummarizing": "Hamba ngaphandle kokufingqa",
+    "summarize": "Fingqa",
+    "moreInfoTitle": "Kudingeka Ulwazi Olwengeziwe",
+    "moreInfoMessage": "Le ngxoxo yimfushane kakhulu ukukhiqiza isifinyezo esizwakalayo noma umbono ohlukile. Sicela uqhubeke nengxoxo uze ube namagama okungenani ayi-150 okuqukethwe kwengxoxo.",
+    "ok": "KULUNGILE",
+    "deleteSuccessTitle": "Ingxoxo Isusiwe",
+    "deleteSuccessMessage": "Ingxoxo yakho isuswe ngempumelelo.",
+    "logoutTitle": "Siyaxolisa ukukubona uhamba",
+    "aiHealthSpecialist": "Uchwepheshe wakho oyinhloko we-AI wezempilo nokuphila kahle",
+    "aileenCarol": "Isazi Sezempilo se-AI uCarol",
+    "aiHealthAssistant": "Umsizi Wezempilo we-AI",
+    "deleteAndExit": "Susa futhi Uphume",
+    "summaryTitle": "Isifinyezo Sokubonisana",
+    "consultationTitle": "I-VirtualMD Consult: {{title}}",
+    "summaryUnavailable": "Isifinyezo siyakhiqizwa noma asitholakali.",
+    "print": "Phrinta",
+    "copy": "Kopisha",
+    "close": "Vala",
+    "shortConv": {
+      "title": "Ingxoxo Iphelile",
+      "messageLine1": "Ingxoxo isiphelile. Lifushane kakhulu ukuthi ungaligcina, kodwa woza futhi maduze.",
+      "messageLine2": "Kuze kube yileso sikhathi, yiba nempilo, ujabule."
+    }
+  },
+  "errors": {
+    "connectionError": "Iphutha lokuxhuma. Sicela uhlole uxhumano lwakho lwe-inthanethi.",
+    "serverError": "Iphutha leseva. Sicela uzame futhi emuva kwesikhathi.",
+    "authenticationError": "Ukuqinisekisa kuhlulekile. Sicela ungene ngemvume futhi.",
+    "messageFailedToSend": "Umlayezo uhlulekile ukuthunyelwa",
+    "loadingFailed": "Yehlulekile ukulayisha okuqukethwe",
+    "personaUnavailable": "Lo chwepheshe wezempilo akatholakali okwamanje",
+    "conversationNotFound": "Ingxoxo ayitholakali",
+    "permissionDenied": "Awunayo imvume yokufinyelela le ngxoxo",
+    "failedToLogin": "Yehlulekile ukungena ngemvume.",
+    "failedToRegister": "Yehlulekile ukubhalisa.",
+    "failedToLogout": "Yehlulekile ukuphuma.",
+    "emailAlreadyTaken": "Le imeyili isivele ithathiwe. Sicela uzame enye noma ngena ngemvume.",
+    "anErrorOccurred": "Kwenzeke iphutha.",
+    "selectImageFile": "Sicela ukhethe ifayela lesithombe.",
+    "failedToSaveProfile": "Yehlulekile ukulondoloza iphrofayela. Sicela uzame futhi.",
+    "teamIsFull": "Ithimba lakho ligcwele (Ubuningi bochwepheshe abangu-{{max}}). Sicela ususe ilungu uma ungathanda ukwengeza uchwepheshe ohlukile.",
+    "selectOneSpecialist": "Sicela ukhethe uchwepheshe oyedwa kuphela ukuze uthole ukubonisana okuyimfihlo.",
+    "contactErrorMessage": "Kwenzeke iphutha ngenkathi kuthunyelwa umlayezo wakho. Sicela uzame futhi emuva kwesikhathi noma",
+    "contactDirectlyAt": "Ungase futhi usithumele i-imeyili ngokuqondile ku-info@virtualmd.app"
+  },
+  "welcome": {
+    "title": "Siyakwamukela ku-VirtualMD.app",
+    "subtitle": "Qala ukubonisana kwakho kwezempilo komuntu siqu",
+    "description": "Khetha eqenjini lethu labeluleki bezempilo abaxhaswe yi-AI ukuze uthole imininingwane yomuntu siqu yezempilo kanye nesiqondiso.",
+    "getStarted": "Qalisa",
+    "chooseSpecialist": "Khetha Uchwepheshe Wakho",
+    "startWithTeam": "Qala ngeThimba Lami",
+    "howItWorks": "Indlela Esebenza Ngayo",
+    "aileenCarolName": "Isazi Sezempilo se-AI u-Aileen Carol",
+    "danielGarciaName": "Isazi Sezempilo se-AI uDaniel Garcia",
+    "greeting": "Sawubona, {{username}}. Kuhle kakhulu ukukubona! Ithimba lakho le-VirtualMD likulungele 24/7 ukusiza...",
+    "startTeamConsultation": "Qala Ukubonisana Nethimba",
+    "configureNewChat": "Lungiselela Ingxoxo Entsha",
+    "encyclopedia": "I-VirtualMD.app Encyclopedia",
+    "myAIHealthTeam": "Ithimba lami Lezempilo le-AI",
+    "aileenCarolIntro": "Sawubona, nginguchwepheshe we-AI Wezempilo u-Aileen Carol. Ngingakusiza ngani namuhla?",
+    "persona_welcome_message": "Sawubona, ngilapha ukuze ngikusize ngezidingo zakho zempilo nempilo. Ngingakusiza kanjani namuhla?"
+  },
+  "imageUpload": {
+    "dragAndDrop": "Hudula bese udedela izithombe lapha, noma chofoza ukuze ukhethe",
+    "supportedFormats": "Amafomethi asekelwayo: i-JPG, i-PNG, i-GIF",
+    "maxSize": "Usayizi omkhulu: {{size}}MB",
+    "uploadSuccess": "Isithombe silayishwe ngempumelelo",
+    "uploadError": "Yehlulekile ukulayisha isithombe",
+    "processing": "Icubungula isithombe...",
+    "removeImage": "Susa isithombe",
+    "addToContext": "Engeza kumongo wengxoxo"
+  },
+  "voice": {
+    "startRecording": "Qala ukurekhoda kwezwi",
+    "stopRecording": "Misa ukurekhoda",
+    "recording": "Iyarekhoda...",
+    "processingSpeech": "Icubungula inkulumo...",
+    "speechToText": "Iguqulela inkulumo ibe umbhalo...",
+    "noSpeechDetected": "Ayikho inkulumo etholiwe",
+    "microphoneError": "Iphutha lokufinyelela imakrofoni",
+    "unsupportedBrowser": "Ukurekhoda kwezwi akusekelwe kulesi siphequluli"
+  },
+  "summary": {
+    "title": "Isifinyezo Sokubonisana",
+    "keyPoints": "Amaphuzu Abalulekile",
+    "recommendations": "Izincomo",
+    "nextSteps": "Izinyathelo Ezilandelayo",
+    "followUp": "Landelela",
+    "generating": "Ikhiqiza isifinyezo...",
+    "noSummary": "Asikho isifinyezo esitholakalayo",
+    "summaryError": "Yehlulekile ukwenza isifinyezo",
+    "downloadSummary": "Landa Isifinyezo",
+    "emailSummary": "Isifinyezo se-imeyili",
+    "return": "Buyela",
+    "transcript": "Okulotshiweyo",
+    "print": "Phrinta",
+    "copy": "Kopisha",
+    "copyError": "Yehlulekile ukukopisha",
+    "notGenerated": "Isifinyezo asikwazanga ukwenziwa."
+  },
+  "status": {
+    "online": "Ku-inthanethi",
+    "offline": "Okungaxhunyiwe ku-inthanethi",
+    "away": "Ukude",
+    "busy": "Umatasa",
+    "available": "Iyatholakala",
+    "unavailable": "Ayitholakali",
+    "lastSeen": "Ugcine ukubonwa ngo-{{time}}"
+  },
+  "mobileTeamBuilder": {
+    "title": {
+      "yourTeam": "Ithimba Lakho",
+      "teamBuilder": "I-AI Team Builder"
+    },
+    "carolMessages": {
+      "teamFull": "{{name}}, ithimba lakho ligcwele! Ungaqala ukubonisana nethimba lakho lamanje noma ususe amalungu athile ukuze uthole izincomo ezintsha.",
+      "helpBuild": "{{name}}, ngingathanda ukukusiza ukuthi wakhe ithimba lakho lezempilo eliphelele! Ngitshele ukuthi yini ekulethela lapha namuhla."
+    },
+    "carolGreeting": {
+      "teamFull": "Sawubona {{igama}}! Ithimba lakho ligcwele.",
+      "helpBuild": "Sawubona {{igama}}! Ngizokusiza ukwakha ithimba lakho lezempilo eliphelele."
+    },
+    "currentTeam": "Ithimba lamanje ({{current}}/{{max}})",
+    "aiSpecialist": "I-AI {{igama}}",
+    "specialist": "Uchwepheshe",
+    "startConversation": "Qala Ingxoxo Naleli thimba",
+    "tellUsWhy": "Sitshele ukuthi kungani ulapha namuhla ukuze sikwazi ukudala ithimba lakho lezempilo eliphelele.",
+    "placeholder": "Chaza okukukhathazayo ngempilo, izimpawu, noma ukuthi yini ongathanda ukusizwa ngayo...",
+    "questionnaire": {
+      "question": "Yini ekulethela lapha namuhla?",
+      "keepExisting": "Gcina amalungu eqembu akhona?",
+      "existingMembers": "Amalungu eqembu akhona",
+      "currentSize": "Usayizi weqembu wamanje",
+      "availableSpots": "Izindawo ezitholakalayo zochwepheshe abasha",
+      "maxRecommendations": "Izincomo eziphezulu ezivunyelwe"
+    }
+  },
+  "mobileNavigationTabs": {
+    "consultation": "Ukubonisana",
+    "team": "Ithimba",
+    "history": "Umlando",
+    "encyclopedia": "I-Encyclopedia"
+  },
+  "autoListening": {
+    "turnOn": "Vula ukulalela ngokuzenzakalela",
+    "turnOff": "Vala ukulalela ngokuzenzakalela"
+  },
+  "speech": {
+    "processing": "Icubungula inkulumo",
+    "pauseListening": "Chofoza ukuze Umise kancane Ukulalela",
+    "turnOnListening": "Chofoza ukuze Vula Ukulalela"
+  },
+  "help": {
+    "howDoesThisWork": "Isebenza kanjani?",
+    "chatControls": "Izilawuli zengxoxo",
+    "enterToSend": "Faka noma ▷ ukuze uthumele",
+    "shiftEnterToSpeak": "Shift+Enter noma 🎤/⏸ ukuze ukhulume/umise kancane"
+  },
+  "fileUpload": {
+    "clickToUpload": "Chofoza ukuze ulayishe ifayela (Ungabeka amafayela nasengxoxweni)"
+  },
+  "send": {
+    "transcribeAndSend": "Loba bese uthumela",
+    "sendMessage": "Thumela umlayezo"
+  },
+  "aileenCarol": {
+    "playAnalysis": "Ukuhlaziya kwe-Play Health Expert Carol",
+    "stopAnalysis": "Misa Ukuhlaziywa Kwengcweti Yezempilo uCarol"
+  },
+  "profile": {
+    "editProfile": "Hlela iphrofayela",
+    "saveChanges": "Londoloza Izinguquko",
+    "cancelEdits": "Khansela ukuhlela",
+    "changePhoto": "Shintsha Isithombe",
+    "removePhoto": "Susa Isithombe",
+    "healthInfoTooltip": "Sicela ubhale noma wenze uhlu lwemithi, izifo, izithasiselo nezinye izinto ezibalulekile ezihlobene nempilo ngawe.",
+    "loadingProfile": "Ilayisha iphrofayela...",
+    "errorLoadingProfile": "Iphutha ekulayisheni iphrofayela",
+    "noProfileData": "Ayikho idatha yephrofayela etholakalayo.",
+    "myProfile": "Iphrofayela Yami",
+    "myAccount": "I-akhawunti yami",
+    "displayName": "Bonisa igama",
+    "fullName": "Igama eligcwele",
+    "email": "I-imeyili",
+    "emailCannotBeChanged": "I-imeyili ayikwazi ukushintshwa.",
+    "keyHealthInfo": "Ulwazi Lwezempilo Olubalulekile",
+    "noHealthInfoRecorded": "Alukho ulwazi lwezempilo olubalulekile olurekhodiwe.",
+    "healthInfoPlaceholder": "Faka ohlwini imithi, izifo, izithasiselo, njll.",
+    "age": "Ubudala",
+    "gender": "Ubulili"
+  },
+  "imageContext": {
+    "clearZoom": "Sula le nketho yokusondeza",
+    "cropPromotionError": "Yehlulekile ukuthumela nokwengeza isithombe esondeziwe. Hlola ikhonsoli.",
+    "startConversationToSend": "Qala ingxoxo ukuze uthumele ukusondeza",
+    "sendZoomToTeam": "Thumela lokhu kusondeza eqenjini",
+    "noActiveZoom": "Akukho ukusondeza okusebenzayo okungathunyelwa. Sicela ukhethe indawo esithombeni.",
+    "functionsUnavailable": "Ayikwazi ukuthumela ukusondeza: Imisebenzi ebalulekile ayitholakali.",
+    "noImages": "Azikho izithombe kumongo. Layisha isithombe ukuze uqale.",
+    "allHidden": "Zonke izithombe zifihliwe okwamanje. Chofoza isithonjana kunhlokweni ukuze ubonise isithombe.",
+    "showFirst": "Bonisa Isithombe sokuqala",
+    "imageDisplay": "Ukuboniswa kwesithombe ({{kubonisiwe}} kubonisiwe / {{total}} inani)",
+    "hideImage": "Fihla isithombe",
+    "showImage": "Bonisa isithombe",
+    "zoomPreview": "Sondeza Buka kuqala",
+    "sendToTeam": "Thumela Eqenjini",
+    "dragToZoom": "Chofoza bese uhudula isithombe esingenhla ukuze ukhethe indawo yokusondeza entsha."
+  },
+  "mobileChat": {
+    "healthConsult": "Ukubonisana Ngezempilo",
+    "speakToAI": "Khuluma no-{{name}}",
+    "startConversation": "Qala ingxoxo yakho ngezansi",
+    "requestToSpeakToAI": "Ngingathanda ukukhuluma no-{{name}}"
+  },
+  "mobileWelcome": {
+    "greeting": "Sawubona!",
+    "aileenCarolIntro": "Ngingu-AI Aileen Carol, uchwepheshe wakho wezempilo oyinhloko. Ngibheke ngabomvu ukukwazi. Ngiphethe ithimba lakho le-VirtualMD.app AI lochwepheshe bezempilo. Silungele ukusiza 24/7...",
+    "startConsultation": "Qala Ukubonisana Ngezempilo",
+    "myTeam": "Ithimba Lami",
+    "aiTeamBuilder": "Isazi sezempilo se-AI uCarol sikusiza ukuthi ukhethe iqembu lakho",
+    "priorConsultations": "Ukubonisana Ngaphambili",
+    "encyclopedia": "I-Encyclopedia",
+    "myProfile": "Iphrofayela Yami",
+    "logout": "Phuma",
+    "labels": {
+      "chat": "Xoxa",
+      "advisory": "Ukweluleka",
+      "encyclopedia": "I-Encyclopedia",
+      "myTeam": "Ithimba Lami",
+      "history": "Umlando",
+      "myProfile": "Iphrofayela Yami"
+    }
+  },
+  "mobileInput": {
+    "listeningPlaceholder": "Ukulalela... khuluma manje",
+    "typePlaceholder": "Thayipha umlayezo...",
+    "clear": "Kucace",
+    "needHelp": "Udinga Usizo?",
+    "takePhoto": "Thatha isithombe"
+  },
+  "mobileConsultations": {
+    "title": "Ukubonisana Ngaphambili",
+    "selectAll": "Khetha Konke",
+    "deselectAll": "Yekisa Ukukhetha Konke",
+    "deleteSelected": "Susa Okukhethiwe ({{count}})",
+    "consultationDefault": "Ukubonisana {{id}}",
+    "lastUpdate": "Isibuyekezo Sokugcina: {{date}}",
+    "noUpdates": "Azikho izibuyekezo okwamanje",
+    "editTitle": "Hlela Isihloko Sengxoxo",
+    "enterNewTitle": "Faka isihloko esisha:",
+    "noConsultations": "Akukho ukubonisana okwamanje."
+  },
+  "mobileProfile": {
+    "title": "Iphrofayela Yami",
+    "saveError": "Yehlulekile ukulondoloza iphrofayela",
+    "saveSuccess": "Iphrofayela ibuyekeziwe!",
+    "changePhoto": "Shintsha isithombe",
+    "displayName": "Bonisa igama",
+    "fullName": "Igama eligcwele",
+    "email": "I-imeyili",
+    "keyHealthInfo": "Ulwazi Lwezempilo Olubalulekile",
+    "logout": "Phuma"
+  },
+  "mobileNavigation": {
+    "consultation": "Ukubonisana",
+    "team": "Ithimba",
+    "history": "Umlando",
+    "exitConsultation": "Phuma Ekubonisaneni",
+    "myTeam": "Ithimba Lami",
+    "summary": "Isifinyezo",
+    "differentialOpinion": "Umbono Ohlukile",
+    "transcript": "Okulotshiweyo",
+    "encyclopedia": "I-Encyclopedia",
+    "controls": "Izilawuli",
+    "aiSpeaker": "I-AI Somlomo",
+    "enabled": "Inikwe amandla",
+    "disabled": "Ikhutshaziwe",
+    "camera": "Ikhamera",
+    "comingSoon": "Kuyeza maduze",
+    "menu": "Imenyu"
+  },
+  "bioPanel": {
+    "loadingBio": "Ilayisha umlando...",
+    "noBiography": "Ayikho i-biography etholakalayo.",
+    "returnToPanel": "Buyela kuphaneli"
+  },
+  "sidebarHeader": {
+    "panel": "Iphaneli",
+    "summary": "Isifinyezo",
+    "differentialOpinion": "Umbono Ohlukile",
+    "transcript": "Okulotshiweyo",
+    "encyclopedia": "I-VirtualMD.app Encyclopedia",
+    "endConversation": "Qeda Ingxoxo",
+    "startChatWithTeam": "Qala Ingxoxo Nethimba",
+    "configureNewChat": "Lungiselela Ingxoxo Entsha",
+    "myAIHealthTeam": "Ithimba lami Lezempilo le-AI",
+    "aileenCarolTeamBuilder": "Uchwepheshe Wezempilo uCarol usiza ukwakha iqembu lakho.",
+    "savedConsultations": "Ukubonisana Okulondoloziwe",
+    "myProfile": "Iphrofayela Yami",
+    "imageNumber": "Isithombe {{inombolo}}"
+  },
+  "differentialOpinion": {
+    "noOpinionAvailable": "Awukho umbono ohlukile otholakalayo."
+  },
+  "encyclopedia": {
+    "title": "I-VirtualMD.app Encyclopedia",
+    "loadingMessage": "Sikwenzela ucwaningo olujulile ngalesi sihloko. Sicela ulinde imizuzwana embalwa ukuze uthole impendulo yakho.",
+    "longWaitMessage": "Lokhu kungathatha imizuzu embalwa ukuthola izimpendulo ezinemininingwane.",
+    "searchButton": "Sesha i-Encyclopedia",
+    "return": "Buyela",
+    "print": {
+      "button": "Phrinta",
+      "title": "Umphumela Wosesho lwe-Encyclopedia",
+      "subtitle": "I-VirtualMD.app Encyclopedia"
+    },
+    "copy": "Kopisha",
+    "searchResult": "Umphumela Wosesho lwe-Encyclopedia",
+    "attribution": "Impendulo nge-VirtualMD.app",
+    "emptyState": "Faka umbuzo ngenhla ukuze useshe i-VirtualMD.app Encyclopedia.",
+    "copySuccess": "Okuqukethwe kukopishwe ebhodini lokunamathisela!",
+    "copyError": "Yehlulekile ukukopishela ebhodini lokunamathisela",
+    "generatingResponse": "Ikhiqiza impendulo ephelele...",
+    "genericError": "Kwenzeke iphutha",
+    "translatingContent": "Kuhunyushwa okuqukethwe..."
+  },
+  "input": {
+    "typeOrSpeakPlaceholder": "Thayipha noma ukhulume umlayezo wakho...\nCindezela u-Enter noma chofoza u-▷ ukuze uthumele.",
+    "typePlaceholder": "Thayipha umlayezo lapha...\nCindezela u-Enter noma chofoza u-▷ ukuze uthumele.",
+    "transcribing": "Iyaloba...",
+    "enterTextHere": "Faka umbhalo lapha",
+    "startTypingMessage": "Qala ukuthayipha umlayezo wakho ebhokisini elingezansi ukuze uqale ukubonisana kwakho."
+  },
+  "quickActions": {
+    "whatToDoButton": "Kumele ngenzeni?",
+    "summaryButton": "Isifinyezo",
+    "whatShouldIDo": "Ngokusekelwe kukho konke esixoxile ngakho, yini okufanele ngiyenze manje? Sicela unikeze izincomo ezicacile, ezingasetshenzwa.",
+    "requestSummary": "Sicela unikeze isifinyezo esibanzi sengxoxo yethu kuze kube manje, okuhlanganisa amaphuzu abalulekile okukhulunywe ngawo, izincomo ezenziwe, nezinyathelo ezilandelayo."
+  },
+  "upload": {
+    "uploading": "Iyalayisha..."
+  },
+  "camera": {
+    "notSupported": "Ukufinyelela kwekhamera akusekelwe kulesi siphequluli",
+    "capturePhoto": "Thwebula Isithombe",
+    "accessDenied": "Ukufinyelela kwekhamera kunqatshiwe. Sicela uvumele ukufinyelela kwekhamera kuzilungiselelo zesiphequluli sakho.",
+    "accessFailed": "Yehlulekile ukufinyelela ikhamera"
+  },
+  "microphone": {
+    "turnOn": "Vula imakrofoni",
+    "turnOff": "Vala imakrofoni"
+  },
+  "specialistPanel": {
+    "guidanceSingle": "Khetha Uchwepheshe oyedwa we-AI ukuze uthole ukubonisana okuyimfihlo:",
+    "guidanceMulti": "Uchwepheshe wezempilo we-AI uCarol uzohlala efakiwe. Khetha abeluleki bezempilo be-AI abengeziwe:",
+    "startPrivateConsult": "Qala Ukubonisana Kwangasese",
+    "startChat": "Qala Ingxoxo",
+    "selectSingle": "Khetha uchwepheshe we-AI",
+    "selectMulti": "Khetha Abeluleki abengeziwe",
+    "warningSelectOne": "Sicela ukhethe uchwepheshe oyedwa kuphela ukuze uthole ukubonisana okuyimfihlo.",
+    "noSpecialistsAvailable": "Abekho ochwepheshe be-AI okwamanje abatholakalayo ukuze kukhulunywe nabo ngasese.",
+    "noAdvisersAvailable": "Abekho abeluleki bezempilo abengeziwe be-AI abatholakalayo."
+  },
+  "sidebarFooter": {
+    "disclaimerText": "I-VirtualMD.app ilwela ukunemba. Nokho, lokhu kanye nanoma iyiphi insizakalo esekwe ku-AI inganikeza ulwazi olungalungile. Hlala uthintana nochwepheshe bezempilo bomuntu oqeqeshiwe.",
+    "emergencyText": "Shayela ku-911 ngezimo eziphuthumayo zezokwelapha.",
+    "moreInformation": "Ulwazi olwengeziwe"
+  },
+  "teamBuilder": {
+    "healthConditions": {
+      "options": {
+        "${key}": "{{ukhiye}}"
+      }
+    },
+    "medicinePreferences": {
+      "options": {
+        "${key}": "{{ukhiye}}"
+      }
+    }
+  },
+  "account": {
+    "title": "Amasethingi we-akhawunti",
+    "description": "Kusuka lapha ungasusa unomphela i-akhawunti yakho ye-VirtualMD.app. Lesi senzo sisusa iphrofayela yakho nakho konke ukubonisana.",
+    "deleteMyAccount": "Susa i-akhawunti yami",
+    "confirmDeleteTitle": "Susa i-akhawunti",
+    "confirmDeleteText": "Lesi senzo asinakuhlehliswa. Lonke ulwazi lwephrofayela yakho, ukubonisana, namafayela kuzosuswa unomphela. Uqinisekile ukuthi ufuna ukuqhubeka?",
+    "cancel": "Khansela",
+    "yesDelete": "Yebo, Susa"
+  },
+  "transcript": {
+    "noTranscript": "Akukho okulotshiweyo okutholakalayo.",
+    "title": "Umbhalo Wokubonisana",
+    "returnToConversation": "Buyela Engxoxweni",
+    "print": "Phrinta",
+    "copy": "Kopisha",
+    "copyError": "Yehlulekile ukukopisha",
+    "roleLabels": {
+      "patient": "Umsebenzisi:",
+      "assistant": "Umsizi:"
+    }
+  },
+  "mobileRouter": {
+    "teamRecommendations": "Izincomo zethimba",
+    "myTeam": "Ithimba Lami",
+    "summary": "Isifinyezo",
+    "differentialOpinion": "Umbono Ohlukile",
+    "transcript": "Okulotshiweyo",
+    "encyclopedia": "I-Encyclopedia",
+    "consultations": "Ukubonisana",
+    "returnToChat": "Buyela ku-Chat",
+    "pleaseLogIn": "Sicela Ungene",
+    "logInToView": "Ngena ngemvume ukuze ubuke izingxoxo zakho noma uqale entsha.",
+    "logIn": "Ngena ngemvume",
+    "loadingSpecialists": "Ilayisha ochwepheshe..."
+  },
+  "chat": {
+    "pleaseLogIn": "Sicela Ungene",
+    "logInToView": "Ngena ngemvume ukuze ubuke izingxoxo zakho noma uqale entsha."
+  },
+  "loginPage": {
+    "signIn": "Ngena ngemvume"
+  },
+  "imageProcessing": {
+    "preset": "Setha kusengaphambili",
+    "applyPreset": "Sebenzisa ukusetha ngaphambilini esithombeni esigxilile",
+    "process": "Inqubo",
+    "revertFocus": "Gxila kabusha esithombeni sokuqala",
+    "revert": "Buyela emuva"
+  },
+  "guest": {
+    "consultation": "Ukubonisana Nezivakashi",
+    "topics": {
+      "child": {
+        "title": "Ingane yami iyagula",
+        "subtitle": "Ukunakekelwa kwezingane okuchwepheshile lapho ukudinga kakhulu",
+        "initialMessage": "Ngingu-AI Aileen Carol, Umeluleki wakho Wezempilo Obonakalayo. Ngiyazi ukuthi ingane egulayo ikhathazeka kangakanani. Ngitshele ukuthi kwenzakalani.  Qaphela: Ngiyi-AI, hhayi umuntu; iseluleko sami singase asilungile—qinisekisa ngochwepheshe bezempilo bomuntu abaqeqeshiwe."
+      },
+      "sleep": {
+        "title": "Angikwazi ukulala!",
+        "subtitle": "Buyisela ubusuku bakho, uguqule izinsuku zakho",
+        "initialMessage": "Ngingu-AI Aileen Carol, Umeluleki wakho Wezempilo Obonakalayo, onochwepheshe bokulala u-AIS Benjamin Stein (wengqondo) kanye no-AI Alice Chen (Neurology). Yabelana ngezinselele zakho zokulala ukuze sikusize. Qaphela: Singama-AIS, hhayi abantu; iseluleko sethu singase singalungile—qinisekisa ngochwepheshe (ongumuntu) wezempilo oqeqeshiwe."
+      },
+      "nutrition": {
+        "title": "Umsoco wokuphila",
+        "subtitle": "Thuthukisa amandla akho, ukuphila kahle, nempilo yezocansi ngokudla",
+        "initialMessage": "Ngingu-AI Aileen Carol, Umeluleki wakho Wezempilo Obonakalayo, lapha nethimba lakho - AI Angelica Fordham (ukudla okunomsoco), Ukwelapha Ngocansi AI Rachel Levy, kanye no-AI African Herbalist u-Amina Okufur. Uzizwa unjani namuhla? Qaphela: Siyi-AI, hhayi abantu; iseluleko singase singalungile—qinisekisa ngochwepheshe bezempilo abaqeqeshiwe."
+      }
+    },
+    "errors": {
+      "sessionFailed": "Yehlulekile ukuqala iseshini yesivakashi"
+    },
+    "registrationRequired": "Ukubhalisa kuyadingeka",
+    "uploadFeatures": {
+      "title": "Izici Zokulayishwa Kwedokhumenti Nezithombe",
+      "description": "Inkundla yethu inikezela ngamakhono anamandla okuhlaziya amadokhumenti nezithombe lapho ungakwazi khona:",
+      "benefit1": "Layisha amadokhumenti ezempilo, imibiko yelebhu, nezithombe",
+      "benefit2": "Sondeza eduze ezindaweni ezithile ukuze uthole ukuhlaziya okuningiliziwe",
+      "benefit3": "Cela abeluleki bethu bezempilo be-AI ukuthi bahlole futhi baxoxe ngamadokhumenti akho",
+      "benefit4": "Thatha izithombe ngqo kwikhamera yakho ukuze nibonisane ngokushesha",
+      "registeredOnly": "Lezi zici ezikhethekile ziyatholakala kubasebenzisi ababhalisiwe."
+    }
+  },
+  "activeChat": {
+    "guestMode": {
+      "advisorsTitle": "I-VirtualMD.app Abeluleki Bezempilo",
+      "registrationRequired": "Ukubhalisa kuyadingeka"
+    }
+  },
+  "healthAdvisors": "I-VirtualMD.app Abeluleki Bezempilo"
+}

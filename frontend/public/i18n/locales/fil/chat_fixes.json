@@ -1,0 +1,158 @@
+{
+  "team": {
+    "manageTeamTitle": {
+      "current": "Manage AI Team (Max {{max}})",
+      "english": "Manage My AI Health Team (Max {{max}} Specialists)",
+      "contentType": "sectionTitle",
+      "action": "retranslate-full"
+    },
+    "aileenCarolRecommendTeam": {
+      "current": "Iparekomenda kay AI Health Expert Carol ang iyong pangkat ng kalusugan",
+      "english": "Have AI Health Expert Carol recommend your health team",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "teamLeadReason": {
+      "current": "Pangunahing tagapag-ugnay ng kalusugan",
+      "english": "Primary health coordinator",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "medicalDisclaimerText": {
+      "current": "Ang platform na ito ay nagbibigay ng payo at gabay sa kalusugan ngunit hindi maaaring palitan ang propesyonal na pangangalagang medikal.",
+      "english": "This platform provides health advice and guidance but cannot replace professional medical care. Always consult qualified healthcare professionals for medical emergencies or serious health concerns.",
+      "contentType": "paragraph",
+      "action": "retranslate-full"
+    }
+  },
+  "specialistCategories": {
+    "mentalHealthStress": {
+      "current": " ng Pag-iisip at Stress",
+      "english": "Mental Health & Stress",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "heartHealth": {
+      "current": "Kalusugan ng Puso",
+      "english": "Heart Health",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "womensHealth": {
+      "current": "Kalusugan ng Kababaihan",
+      "english": "Women's Health",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "childrensHealth": {
+      "current": "Kalusugan ng Bata",
+      "english": "Children's Health",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "primaryCareGeneralHealth": {
+      "current": "Pangunahing Pangangalaga at general Kalusugan",
+      "english": "Primary Care & General Health",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "errors": {
+    "personaUnavailable": {
+      "current": "Kasalukuyang hindi available ang health professional na ito",
+      "english": "This health professional is currently unavailable",
+      "contentType": "menuItem",
+      "action": "smart-shorten"
+    }
+  },
+  "welcome": {
+    "persona_welcome_message": {
+      "current": "Kumusta, narito ako para tumulong sa iyong pangangailangan sa kalusugan at wellness. Paano kita matutulungan ngayon?",
+      "english": "Hello, I'm here to help with your health and wellness needs. How can I assist you today?",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "mobileTeamBuilder": {
+    "carolMessages": {
+      "helpBuild": {
+        "current": "{{name}}, gusto kong tulungan kang bumuo ng iyong perpektong pangkat ng kalusugan! Sabihin mo sa akin kung ano ang nagdadala sa iyo dito ngayon.",
+        "english": "{{name}}, I'd love to help you build your perfect health team! Tell me what brings you here today.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      }
+    },
+    "carolGreeting": {
+      "helpBuild": {
+        "current": "Hi {{name}}! Tutulungan kitang buuin ang iyong perpektong pangkat ng kalusugan.",
+        "english": "Hi {{name}}! I'll help you build your perfect health team.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      }
+    },
+    "tellUsWhy": {
+      "current": "Sabihin sa amin kung bakit ka naririto ngayon para magawa namin ang iyong perpektong pangkat ng kalusugan.",
+      "english": "Tell us why you are here today so we can create your perfect health team.",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "placeholder": {
+      "current": "Ilarawan ang iyong alalahanin sa kalusugan, sintomas, o kung ano ang gusto mong tulong sa...",
+      "english": "Describe your health concerns, symptoms, or what you'd like help with...",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "profile": {
+    "healthInfoTooltip": {
+      "current": "Mangyaring sumulat o maglista ng gamot, pagsusuri, suplemento at iba pang mahahalagang bagay na may kaugnayan sa kalusugan tungkol sa iyo.",
+      "english": "Please write or list medications, diagnoses, supplements and other important health related things about you.",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "keyHealthInfo": {
+      "current": "Pangunahing Impormasyon sa Kalusugan",
+      "english": "Key Health Information",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "noHealthInfoRecorded": {
+      "current": "Walang mahalagang impormasyon sa kalusugan na naitala.",
+      "english": "No key health information recorded.",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "imageContext": {
+    "functionsUnavailable": {
+      "current": "Hindi maipadala ang zoom: Hindi available ang mahahalagang function.",
+      "english": "Cannot send zoom: Essential functions unavailable.",
+      "contentType": "menuItem",
+      "action": "smart-shorten"
+    }
+  },
+  "mobileWelcome": {
+    "startConsultation": {
+      "current": "Simulan ang consult sa Kalusugan",
+      "english": "Start Health Consultation",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "mobileProfile": {
+    "keyHealthInfo": {
+      "current": "Pangunahing Impormasyon sa Kalusugan",
+      "english": "Key Health Information",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "sidebarFooter": {
+    "disclaimerText": {
+      "current": "VirtualMD.Ang kalusugan ay nagsusumikap para sa katumpakan.",
+      "english": "VirtualMD.app strives for accuracy. However, this and any AI-based service can give incorrect information. Always consult a qualified human healthcare professional.",
+      "contentType": "paragraph",
+      "action": "retranslate-full"
+    }
+  }
+}

@@ -1,0 +1,1397 @@
+{
+  "chatPage": {
+    "title": "VirtualMD.app Gumzo",
+    "welcomeMessage": "Karibu kwa mashauriano yako ya afya ya kibinafsi",
+    "startConversation": "Anzisha Mazungumzo Mapya",
+    "selectPersona": "Chagua Mtaalamu wako wa Afya",
+    "typeMessage": "Andika ujumbe wako hapa...",
+    "send": "Tuma",
+    "thinking": "Kufikiri...",
+    "error": "Hitilafu fulani imetokea. Tafadhali jaribu tena.",
+    "retry": "Jaribu tena",
+    "clear": "Futa Gumzo",
+    "save": "Hifadhi Mazungumzo",
+    "export": "Hamisha Gumzo",
+    "settings": "Mipangilio ya Gumzo"
+  },
+  "loginPage": {
+    "home": "Nyumbani",
+    "title": "Ingia kwenye VirtualMD.app",
+    "subtitle": "Fikia mashauriano yako ya afya yaliyobinafsishwa",
+    "email": "Anwani ya Barua Pepe",
+    "password": "Nenosiri",
+    "signIn": "Ingia",
+    "forgotPassword": "Umesahau Nenosiri?",
+    "noAccount": "Je, huna akaunti?",
+    "signUp": "Jisajili",
+    "or": "au",
+    "signInWithGoogle": "Ingia kwa kutumia Google",
+    "signInWithFacebook": "Ingia kwa kutumia Facebook",
+    "rememberMe": "Nikumbuke",
+    "emailRequired": "Barua pepe inahitajika",
+    "passwordRequired": "Nenosiri linahitajika",
+    "invalidEmail": "Tafadhali weka barua pepe halali",
+    "signInError": "Barua pepe au nenosiri batili",
+    "signInSuccess": "Karibu tena!"
+  },
+  "registerPage": {
+    "title": "Fungua Akaunti yako ya VirtualMD.app",
+    "subtitle": "Jiunge na maelfu ya watumiaji kupata mwongozo wa afya unaokufaa",
+    "firstName": "Jina la kwanza",
+    "lastName": "Jina la mwisho",
+    "email": "Anwani ya Barua Pepe",
+    "password": "Nenosiri",
+    "confirmPassword": "Thibitisha Nenosiri",
+    "signUp": "Fungua Akaunti",
+    "hasAccount": "Je, tayari una akaunti?",
+    "signIn": "Ingia",
+    "or": "au",
+    "signUpWithGoogle": "Jisajili na Google",
+    "signUpWithFacebook": "Jisajili na Facebook",
+    "agreeToTerms": "Ninakubali Sheria na Masharti na Sera ya Faragha",
+    "firstNameRequired": "Jina la kwanza linahitajika",
+    "lastNameRequired": "Jina la mwisho linahitajika",
+    "emailRequired": "Barua pepe inahitajika",
+    "passwordRequired": "Nenosiri linahitajika",
+    "passwordMinLength": "Nenosiri lazima liwe na angalau vibambo 8",
+    "passwordsDoNotMatch": "Manenosiri hayalingani",
+    "invalidEmail": "Tafadhali weka barua pepe halali",
+    "termsRequired": "Lazima ukubali sheria na masharti",
+    "signUpError": "Imeshindwa kuunda akaunti. Tafadhali jaribu tena.",
+    "signUpSuccess": "Akaunti imeundwa! Karibu kwenye VirtualMD.app!",
+    "passwordHelperText": "Angalau herufi 6, ikijumuisha herufi, nambari, na moja ya @#$%^&*()! Hakuna nafasi.",
+    "passwordNeedsLetter": "Nenosiri lazima lijumuishe angalau herufi moja.",
+    "passwordNeedsNumber": "Nenosiri lazima lijumuishe angalau nambari moja.",
+    "passwordNeedsSpecial": "Nenosiri lazima lijumuishe angalau herufi moja maalum: !@#$%^&*()",
+    "passwordNoSpaces": "Nenosiri haliwezi kuwa na nafasi.",
+    "agreeToTermsModal": "Ili Kujiandikisha, lazima ukubali Sheria na Masharti. Bofya kiungo cha Sheria na Masharti hapa.",
+    "agreeToTermsLabel": "Nakubaliana na",
+    "termsAndConditions": "Vigezo na Masharti",
+    "register": "Sajili",
+    "alreadyHaveAccount": "Je, tayari una akaunti?",
+    "login": "Ingia",
+    "home": "Nyumbani",
+    "emailInUseError": "Barua pepe hii tayari imesajiliwa. Tafadhali jaribu kuingia au tumia barua pepe tofauti.",
+    "iAgree": "Nakubali",
+    "unexpectedError": "Hitilafu isiyotarajiwa ilitokea wakati wa usajili. Tafadhali jaribu tena.",
+    "mustAgreeToTerms": "Lazima ukubali Sheria na Masharti ili kujiandikisha."
+  },
+  "contactPage": {
+    "title": "Wasiliana na VirtualMD.app",
+    "subtitle": "Wasiliana na timu yetu",
+    "description": "Je, una maswali kuhusu mashauriano yetu ya afya yanayoendeshwa na AI? Tuko hapa kusaidia.",
+    "name": "Jina Kamili",
+    "email": "Anwani ya Barua Pepe",
+    "subject": "Somo",
+    "message": "Ujumbe",
+    "send": "Tuma Ujumbe",
+    "sending": "Inatuma...",
+    "nameRequired": "Jina linahitajika",
+    "emailRequired": "Barua pepe inahitajika",
+    "subjectRequired": "Mada inahitajika",
+    "messageRequired": "Ujumbe unahitajika",
+    "invalidEmail": "Tafadhali weka barua pepe halali",
+    "sendError": "Imeshindwa kutuma ujumbe. Tafadhali jaribu tena.",
+    "sendSuccess": "Ujumbe umetumwa kwa mafanikio! Tutarudi kwako hivi karibuni.",
+    "errorMessage": "Hitilafu imetokea. Tafadhali jaribu tena baadaye.",
+    "contactInfo": {
+      "title": "Maelezo ya Mawasiliano",
+      "address": "123 Health Street, Wellness District, City, State 12345",
+      "phone": "+1 (555) 123-4567",
+      "email": "info@virtualmd.app",
+      "hours": "Jumatatu - Ijumaa: 9:00 AM - 6:00 PM PST"
+    },
+    "contactUs": "Wasiliana Nasi",
+    "contactDescription": "Maswali au maoni? Tungependa kusikia kutoka kwako. Tafadhali tumia fomu iliyo hapa chini.",
+    "directEmail": "Kwa barua pepe ya moja kwa moja, wasiliana nasi kwa",
+    "yourEmail": "Anwani yako ya barua pepe",
+    "sendMessage": "Tuma Ujumbe",
+    "messageSent": "Ujumbe Umetumwa!",
+    "home": "Nyumbani",
+    "contactError": "Hitilafu ilitokea wakati wa kutuma ujumbe wako. Tafadhali jaribu tena baadaye au",
+    "contactDirectly": "Unaweza pia kututumia barua pepe moja kwa moja kwa info@virtualmd.app"
+  },
+  "researchPage": {
+    "title": "Utafiti na Machapisho",
+    "subtitle": "Gundua sayansi nyuma ya suluhisho zetu za afya zinazoendeshwa na AI",
+    "description": "Jukwaa letu limejengwa juu ya utafiti wa hali ya juu na ushahidi wa kimatibabu.",
+    "sections": {
+      "publications": "Machapisho",
+      "clinicalStudies": "Masomo ya Kliniki",
+      "whitepapers": "Karatasi nyeupe",
+      "partnerships": "Ushirikiano wa Utafiti"
+    },
+    "healthAdvisory": {
+      "title": "Ushauri wa Afya",
+      "description": "Taarifa muhimu kuhusu kutumia AI katika huduma ya afya na wakati wa kushauriana na watoa huduma za afya ya binadamu.",
+      "button": "Soma Ushauri wa Afya"
+    },
+    "imagingAI": {
+      "title": "Usaidizi wa AI wa Kupiga picha",
+      "description": "Gundua karatasi yetu ya kina juu ya picha za matibabu zinazosaidiwa na AI na athari zake kwa huduma ya afya.",
+      "button": "Soma Karatasi Nyeupe"
+    },
+    "pathologyAI": {
+      "title": "Msaada wa AI ya Patholojia",
+      "description": "Chunguza karatasi yetu nyeupe ya kina juu ya ugonjwa unaosaidiwa na AI na matumizi yake katika kugundua saratani.",
+      "button": "Soma Karatasi Nyeupe"
+    },
+    "dermatologyAI": {
+      "title": "Msaada wa AI ya Dermatology",
+      "description": "Utafiti wetu juu ya matumizi ya AI katika ngozi ya ugunduzi na uainishaji wa vidonda vya ngozi.",
+      "button": "Soma Karatasi Nyeupe"
+    },
+    "mentalHealthAI": {
+      "title": "Maarifa ya AI ya Afya ya Akili",
+      "description": "Jionee kwa kina jukumu la AI katika kuendeleza huduma ya afya ya akili, uchunguzi na matumizi ya matibabu.",
+      "button": "Soma Karatasi Nyeupe"
+    },
+    "dataPrivacy": {
+      "title": "Upigaji mbizi wa Faragha ya Data",
+      "description": "Mapitio ya kina ya mbinu zetu za kushughulikia data, hatua za usalama na mambo yanayozingatiwa kuhusu HIPAA.",
+      "button": "Soma Karatasi Nyeupe"
+    },
+    "aiAccuracy": {
+      "title": "Mafunzo ya Usahihi wa AI",
+      "description": "Jifunze kuhusu utafiti wetu kuhusu usahihi wa AI katika uchunguzi wa kimatibabu na mapendekezo ya matibabu.",
+      "button": "Tazama Masomo"
+    },
+    "aiForLaypeople": {
+      "title": "AI Imaging kwa Laypeople",
+      "description": "Maelezo yaliyorahisishwa ya jinsi AI inavyobadilisha taswira ya kimatibabu na maana yake kwa wagonjwa.",
+      "button": "Soma Ufafanuzi"
+    }
+  },
+  "evidencePage": {
+    "title": "Ushahidi wa Kliniki",
+    "subtitle": "Utafiti uliopitiwa na rika unaosaidia jukwaa letu la afya la AI",
+    "description": "Dawa inayotegemea ushahidi ndio msingi wa kila kitu tunachofanya.",
+    "heading": "Kuanzisha Mustakabali wa Afya na Ustawi",
+    "description2": "VirtualMD.app ni mapinduzi ya afya na siha, yenye msingi wa utafiti wa hali ya juu na yanachochewa na shauku ya kuleta mabadiliko katika ustawi. Tunaonyesha uwezo uliothibitishwa wa AI huku tukibuni njia mpya za ustawi wa kibinafsi na makini. Hii ni zaidi ya programu; ni dhana mpya. Kuwa sehemu ya mapinduzi.",
+    "researchHeading": "Utafiti wa Msingi: Uwezo uliothibitishwa wa AI",
+    "wellnessHeading": "Mapinduzi ya Ustawi: Njia yako ya Ustawi wa Kizazi Kijacho",
+    "researchEvidence": {
+      "radiology": {
+        "title": "AI katika Radiolojia: Utambuzi Ulioimarishwa",
+        "description": "Miundo ya AI ilipata usahihi wa 92% katika kugundua kasoro katika X-rays ya kifua, kuonyesha uwezekano wa kuboreshwa kwa kasi ya uchunguzi na usahihi.",
+        "citation": "Jarida la Radiolojia, 2023",
+        "explainSimply": "Eleza Hili kwa Urahisi",
+        "tooltip": "Bofya ili kupata kiungo kinachoelezea makala hii kwa maneno ya kawaida."
+      },
+      "pathology": {
+        "title": "AI katika Patholojia: Usahihi ulioboreshwa",
+        "description": "Uchunguzi wa kusaidiwa na AI uliboresha ugunduzi wa tishu mbaya kwa 15% katika slaidi za ugonjwa ikilinganishwa na ukaguzi wa mwongozo pekee.",
+        "citation": "Jarida la Marekani la Patholojia, 2022"
+      },
+      "dermatology": {
+        "title": "AI katika Dermatology: Utendaji wa Ngazi ya Mtaalam",
+        "description": "Katika utafiti mkubwa wa kipofu, AI ilitambua kwa usahihi 95% ya matukio ya saratani ya ngozi kutoka kwa picha, vinavyolingana na utendaji wa dermatologists wenye ujuzi.",
+        "citation": "JAMA Dermatology, 2022"
+      },
+      "mentalHealthResearch": {
+        "title": "AI katika Afya ya Akili: Utafiti wa Ugunduzi wa Mapema",
+        "description": "Utafiti unaonyesha mifumo ya AI inagundua dalili za mapema za kurudi tena kwa afya ya akili, kuwezesha uingiliaji kati na usaidizi kwa wakati.",
+        "citation": "JAMA Psychiatry, 2021"
+      }
+    },
+    "wellnessInsights": {
+      "personalizedWellness": {
+        "title": "Mipango ya Ustawi Iliyobinafsishwa Inayoendeshwa na AI",
+        "description": "Gundua jinsi AI yetu inavyosaidia kuunda safari za ustawi zinazolengwa kipekee kwa malengo na mtindo wako wa maisha, ukisonga zaidi ya saizi moja-inafaa-yote."
+      },
+      "holisticSignals": {
+        "title": "Kuelewa Ishara za Kipekee za Mwili Wako na AI",
+        "description": "Jifunze jinsi VirtualMD.app hukusaidia kutafsiri mifumo fiche kutoka kwa maisha yako ya kila siku ili kukuza muunganisho wa kina na ustawi wako."
+      },
+      "proactiveWellbeing": {
+        "title": "Wakati Ujao: Ustawi wa Kusonga mbele na Utabiri",
+        "description": "Gundua jinsi mfumo wetu unavyotumia maarifa ya kutazamia mbele ili kukusaidia kutarajia mahitaji na kuimarisha uhai na uthabiti wako."
+      },
+      "aiEnhancedClarity": {
+        "title": "AI kwa Ufahamu Ulioimarishwa na Uwazi wa Akili",
+        "description": "Tazama jinsi VirtualMD.app inavyotoa zana na mitazamo kusaidia umakini wa kiakili, usawaziko wa kihisia, na ustawi wa jumla wa utambuzi."
+      }
+    }
+  },
+  "featuresPage": {
+    "title": "Vipengele vya Jukwaa",
+    "subtitle": "Zana za mashauriano za afya zinazoendeshwa na AI",
+    "description": "Gundua vipengele vyote vinavyofanya VirtualMD.app kuwa ya kipekee.",
+    "heading": "Gundua Mbinu Yetu ya Mapinduzi",
+    "features": {
+      "instantWellnessInsights": {
+        "title": "Maarifa ya Papo Hapo ya Ustawi",
+        "description": "Pata maoni ya haraka na uelewa wa maswali yako ya afya, wakati wowote unapoyahitaji."
+      },
+      "holisticWellnessPicture": {
+        "title": "Picha ya Ustawi kamili",
+        "description": "AI yetu inazingatia vipengele vyote vya mchango wako - maandishi, picha za maendeleo yako ya siha, au maingizo ya jarida la afya - kwa mtazamo kamili."
+      },
+      "diverseAIPerspectives": {
+        "title": "Mitazamo tofauti ya AI",
+        "description": "Faidika kutoka kwa anuwai ya wataalam wa ustawi wa AI, kila mmoja akitoa maarifa ya kipekee kwa ufahamu kamili."
+      },
+      "everEvolvingIntelligence": {
+        "title": "Akili Inayoendelea Kubadilika",
+        "description": "Jukwaa letu hujifunza na kuboresha ujuzi wake kila mara ili kukuletea ushauri wa kisasa na unaofaa zaidi wa afya."
+      }
+    }
+  },
+  "clinicianInfoPage": {
+    "title": "Kwa Wataalamu wa Afya",
+    "subtitle": "Zana zinazoendeshwa na AI ili kuboresha mazoezi yako ya kliniki",
+    "description": "Ongeza ujuzi wako na maarifa ya hali ya juu ya AI."
+  },
+  "healthAdvisoryPage": {
+    "title": "Ushauri wa Afya",
+    "subtitle": "Kutana na washauri wetu wa matibabu waliobobea",
+    "description": "Jifunze kuhusu wataalamu wa matibabu wanaoongoza jukwaa letu.",
+    "sections": {
+      "consultation": {
+        "title": "Daima Wasiliana na Mtoa Huduma ya Afya ya Binadamu",
+        "description": "Ingawa mfumo wa mashauriano unaoendeshwa na VirtualMD.app unaoendeshwa na AI hutoa taarifa muhimu za afya, ni muhimu kushauriana na watoa huduma za afya waliohitimu kila mara kwa matatizo yoyote ya kiafya. Madaktari wetu walioidhinishwa na bodi walitengeneza mfumo huu ili kukamilisha, sio kuchukua nafasi, ushauri wa kitaalamu wa matibabu.",
+        "emergencyTitle": "Katika dharura ya matibabu:",
+        "emergency": {
+          "us": "Marekani: Piga 911",
+          "canada": "Kanada: Piga 911",
+          "uk": "Uingereza: Piga 999 au 112",
+          "australia": "Australia: Piga 000 au 112",
+          "israel": "Israeli: Piga 101 ()",
+          "other": "Maeneo mengine: Wasiliana na huduma za dharura za karibu nawe mara moja"
+        },
+        "emergencyWarning": "Ikiwa unakabiliwa na maumivu ya kifua, kupumua kwa shida, kutokwa na damu nyingi, dalili za kiharusi, au dalili nyingine yoyote mbaya-usisubiri. Tafuta huduma ya dharura sasa."
+      },
+      "technology": {
+        "title": "Teknolojia ya AI ya Afya ya Juu ya VirtualMD.app",
+        "description1": "VirtualMD.app hutumia algoriti mpya zilizotengenezwa na timu yetu ya madaktari waliofunzwa Harvard na wataalamu wa AI ili kutoa taarifa sahihi za afya. Wataalamu wetu wa afya wa AI wamefunzwa kuhusu fasihi pana za afya, miongozo ya kimatibabu, na hali halisi za afya ili kutoa maarifa ambayo yanaakisi kwa karibu yale ya wataalamu walioidhinishwa na bodi.",
+        "description2": "Katika ulinganisho unaodhibitiwa wa kando kwa upande kwa usahihi wa uchunguzi, mfumo wetu umeonyesha utendakazi wa ajabu, mara nyingi unalingana au kupita maarifa ya matabibu wenye uzoefu. Watu wetu wa AI wanaweza kuchakata maelfu ya karatasi za utafiti wa afya, miongozo, na itifaki za kimatibabu kwa sekunde-kufikia maarifa zaidi ya yale ambayo mtaalam yeyote wa afya ya binadamu angeweza kubakiza.",
+        "description3": "Ingawa tunajitahidi kupata usahihi wa kipekee na timu yetu inaboresha mfumo kila mara, dawa ni ngumu na hali za kiafya ni za kipekee. Ndiyo maana tumeunda jukwaa letu ili kuongeza—si kuchukua nafasi—utaalamu muhimu sana wa watoa huduma za afya ya binadamu."
+      },
+      "disclaimer": {
+        "title": "Tumia Kwa Hatari Yako Mwenyewe",
+        "description": "Taarifa iliyotolewa na VirtualMD.app na wataalamu wake wa afya wa AI ni kwa madhumuni ya taarifa na elimu pekee. Kwa kutumia huduma hii, unakubali na kukubali kuwa:",
+        "points": {
+          "noDiagnosis": "VirtualMD.app haitoi uchunguzi wa kimatibabu au matibabu",
+          "mayContainErrors": "Maudhui yanayotokana na AI yanaweza kuwa na hitilafu au yaliyoachwa licha ya michakato yetu thabiti ya uthibitishaji",
+          "requiresEvaluation": "Ushauri wa kimatibabu unahitaji tathmini ya kibinafsi na watoa huduma za afya walio na leseni",
+          "mayBeOutdated": "Huenda maelezo ya afya yakapitwa na wakati kadri maarifa ya matibabu yanavyoendelea",
+          "uniqueCircumstances": "Historia yako ya kipekee ya matibabu, hali na hali zinahitaji tathmini ya kitaalamu"
+        },
+        "userResponsibility": "Ingawa VirtualMD.app hutumia teknolojia ya hali ya juu kutoa maarifa muhimu ya matibabu, watumiaji huchukua jukumu lote la jinsi wanavyotumia maelezo haya.",
+        "missionStatement": "Timu ya VirtualMD.app imeunda teknolojia hii kwa sababu tunaamini katika kuweka kidemokrasia ufikiaji wa maarifa ya kiwango cha juu cha matibabu na kuunga mkono maamuzi bora ya afya. Mfumo wetu wa AI unawakilisha maendeleo ya kimapinduzi katika teknolojia ya habari ya afya ambayo, ikitumiwa ipasavyo pamoja na utunzaji wa kitaalamu, inaweza kukusaidia kufanya maamuzi bora ya afya na kuwa na mazungumzo yenye tija zaidi na watoa huduma wako wa afya. Kutotumia teknolojia hiyo ya hali ya juu inapopatikana kutakuwa ni fursa ya kupata maarifa ya matibabu yanayoweza kubadilisha maisha."
+      }
+    }
+  },
+  "patientInfoPage": {
+    "title": "Kwa Watumiaji",
+    "subtitle": "Mwongozo wa afya uliobinafsishwa kiganjani mwako",
+    "description": "Maelezo ya kina kuhusu jinsi VirtualMD.app inavyonufaisha wagonjwa yatapatikana hapa hivi karibuni."
+  },
+  "nurseInfoPage": {
+    "title": "Kwa Wauguzi",
+    "subtitle": "Utunzaji wa mgonjwa ulioimarishwa na AI na usaidizi wa uamuzi wa kliniki",
+    "description": "Maelezo ya kina kuhusu jinsi VirtualMD.app inavyowanufaisha wauguzi yatapatikana hapa hivi karibuni."
+  },
+  "pharmacistInfoPage": {
+    "title": "Kwa wafamasia",
+    "subtitle": "Usimamizi wa dawa na maarifa ya mwingiliano wa dawa",
+    "description": "Maelezo ya kina kuhusu jinsi VirtualMD.app inavyowanufaisha wafamasia yatapatikana hapa hivi karibuni."
+  },
+  "physicianInfoPage": {
+    "title": "Kwa Madaktari",
+    "subtitle": "Usaidizi wa uamuzi wa kliniki na usaidizi wa uchunguzi",
+    "description": "Maelezo ya kina kuhusu jinsi VirtualMD.app inavyowanufaisha madaktari yatapatikana hapa hivi karibuni."
+  },
+  "medicalImageProcessingPage": {
+    "title": "Uchambuzi wa Picha za Afya",
+    "subtitle": "Ufafanuzi wa picha za uchunguzi unaoendeshwa na AI",
+    "description": "Uchambuzi wa hali ya juu wa picha kwa utambuzi sahihi wa matibabu.",
+    "preset": "Weka mapema",
+    "chooseImage": "Chagua Picha",
+    "process": "Mchakato",
+    "processedImage": "Picha Iliyochakatwa"
+  },
+  "mentalHealthInfoPage": {
+    "title": "Msaada wa Afya ya Akili",
+    "subtitle": "Uchunguzi wa afya ya akili unaosaidiwa na AI na usaidizi",
+    "description": "Maelezo ya kina kuhusu jinsi VirtualMD.app inavyowanufaisha wataalamu wa afya ya akili yatapatikana hapa hivi karibuni."
+  },
+  "wellnessPathwaysPage": {
+    "title": "Mwongozo wa Njia za Ustawi",
+    "subtitle": "Upangaji wa safari ya afya ya kibinafsi",
+    "description": "Gundua njia yako ya afya bora na ustawi."
+  },
+  "yourHealthInYourHandsPage": {
+    "title": "Afya Yako Mikononi Mwako",
+    "subtitle": "Kukupa uwezo wa kudhibiti afya yako",
+    "description": "Zana na maarifa ya kukusaidia kufanya maamuzi sahihi ya afya.",
+    "mainHeading": "Chukua Udhibiti: Afya Yako, Maamuzi Yako, Safari Yako",
+    "sections": {
+      "uniqueProfile": {
+        "title": "Fahamu Wasifu Wako wa Kipekee",
+        "description1": "Pata maarifa zaidi juu ya mazingira ya ustawi wako binafsi. Mfumo wetu hukusaidia kuunganisha nukta na kuelewa mambo yanayochangia uhai wako kwa ujumla.",
+        "description2": "Gundua vipengele tofauti vya ustawi wako, kuanzia mitindo ya maisha hadi mapendeleo ya kibinafsi, yote katika sehemu moja."
+      },
+      "personalizedGoals": {
+        "title": "Weka na Ufuatilie Malengo Yako Iliyobinafsishwa",
+        "description1": "Bainisha nini maana ya ustawi *kwako*. Ukiwa na VirtualMD.app, unaweza kuweka malengo yenye maana, yanayoweza kufikiwa na kufuatilia maendeleo yako ukiendelea. Tunatoa zana na usaidizi ili kukusaidia kuendelea kuwa na motisha na kusherehekea mafanikio yako.",
+        "description2": "Iwe ni kuongeza viwango vya nishati, kuboresha usingizi, au kudumisha uwazi wa kiakili, safari yako ni ya kipekee."
+      },
+      "diverseInsights": {
+        "title": "Fikia Maarifa Mbalimbali kwa Chaguo Zilizoarifiwa",
+        "description1": "Maarifa ni nguvu. Jukwaa letu linatoa ufikiaji wa wigo mpana wa habari na mitazamo kutoka kwa miongozo yetu tofauti ya ustawi wa AI. Fanya maamuzi ya kujiamini kulingana na ufahamu wa kina, sio tu ukweli uliotengwa.",
+        "description2": "Tunakusaidia kuabiri ulimwengu changamano wa taarifa za afya, ili uweze kuchagua kinachokufaa."
+      },
+      "proactivePartner": {
+        "title": "Mshirika wako katika Ustawi Mwema",
+        "description1": "VirtualMD.app ni zaidi ya chombo; sisi ni mshirika wako katika kujenga uhusiano makini na chanya na afya yako. Tuko hapa kukusaidia kwa nyenzo, maarifa, na mbinu ya kimapinduzi ya ustawi wa kibinafsi.",
+        "description2": "Kuwa Mapinduzi katika maisha yako mwenyewe. Anza safari yako ya afya iliyowezeshwa leo."
+      }
+    },
+    "callToAction": {
+      "title": "Uko tayari kuweka afya yako mikononi mwako?",
+      "description": "Gundua vipengele vyetu, zungumza na miongozo yetu ya ustawi wa AI, na ugundue tofauti ambayo VirtualMD.app inaweza kuleta.",
+      "buttons": {
+        "tryAsGuest": "Jaribu kama Mgeni"
+      }
+    }
+  },
+  "aboutEncyclopediaPage": {
+    "title": "VirtualMD.app Encyclopedia of Health and Wellness",
+    "p1": "Katika ulimwengu wa kisasa wa kidijitali, habari nyingi za afya ziko mikononi mwetu, lakini kutofautisha ushauri wa kuaminika na habari potofu kunaweza kuwa mwingi.",
+    "p2": "VirtualMD.app Encyclopedia inapunguza kelele, ikitoa njia ya kimapinduzi ya kujihusisha na ustawi wako. Imeunganishwa kwa njia ya kipekee kwenye jukwaa letu, hukuruhusu kupata maarifa ya kina, yaliyorejelewa kutoka kwa majarida ya matibabu yanayoheshimiwa bila kuacha mashauriano yako ya moja kwa moja na timu yetu ya wataalam wa AI.",
+    "p3": "Hii si tu injini ya utafutaji; ni sehemu ya \"utafiti wa kina\" iliyofunzwa maalum iliyoundwa kuwa nyenzo yako unayoiamini wakati wa mazungumzo.",
+    "p4": "Fikiria uko kwenye gumzo na daktari wetu wa magonjwa ya moyo na lishe wa AI anayejadili udhibiti wa kolesteroli. Neno \"statins\" limetajwa, na unataka kuelewa zaidi ya msingi tu. Badala ya kusitisha mjadala wako ili kutafuta mtandao wazi, unaweza kufikia VirtualMD.app Encyclopedia papo hapo. Itatoa muhtasari wa kina, lakini ambao ni rahisi kueleweka wa jinsi statins hufanya kazi, faida zake, na athari zinazowezekana, pamoja na maelezo yote kutoka kwa machapisho yaliyopitiwa na marafiki kama vile The Lancet au New England Journal of Medicine."
+  },
+  "dataPrivacyPage": {
+    "title": "Faragha na Usalama wa Data",
+    "subtitle": "Data yako ya afya inalindwa kwa viwango vya juu zaidi vya usalama",
+    "description": "Jifunze jinsi tunavyoweka maelezo yako ya kibinafsi ya afya salama."
+  },
+  "encyclopediaPage": {
+    "title": "VirtualMD.app Encyclopedia",
+    "subtitle": "Ujuzi wa kina wa matibabu kwa vidole vyako",
+    "description": "Gundua hifadhidata yetu ya kina ya hali ya matibabu, matibabu na maelezo ya afya.",
+    "mainHeading": "VirtualMD.app Encyclopedia",
+    "p1": "Karibu kwenye VirtualMD.app Encyclopedia - mwongozo wako wa kina wa maarifa ya matibabu.",
+    "p2": "Ensaiklopidia yetu inashughulikia mada mbalimbali za afya, hali na matibabu.",
+    "exampleTitle": "Mada Zilizoangaziwa",
+    "exampleText": "Gundua mada zetu maarufu za afya na hali ya matibabu.",
+    "uniqueTitle": "Kinachotufanya Tuwe wa Kipekee",
+    "p3": "Ensaiklopidia yetu inayoendeshwa na AI hutoa maelezo ya afya ya kibinafsi, yanayotegemea ushahidi."
+  },
+  "whyVirtualMDPage": {
+    "title": "Kwa nini VirtualMD.app?",
+    "subtitle": "Mustakabali wa huduma ya afya iliyobinafsishwa uko hapa",
+    "description": "Gundua kinachofanya jukwaa letu la afya linaloendeshwa na AI kuwa la kipekee."
+  },
+  "landing": {
+    "tryItOut": "Ijaribu",
+    "cards": {
+      "tryItOut": {
+        "tagline": "Hakuna kujisajili kunahitajika."
+      }
+    }
+  },
+  "legalPage": {
+    "title": "Taarifa za Kisheria",
+    "subtitle": "Masharti ya Huduma, Sera ya Faragha, na Notisi za Kisheria",
+    "description": "Taarifa muhimu za kisheria kuhusu kutumia VirtualMD.app."
+  },
+  "legal": {
+    "eligibility": {
+      "ageRequirement": "Ili kutumia Huduma ya VirtualMD.app, ni lazima uwe na angalau umri wa miaka 18 au umri wa mtu mwenye mamlaka halali katika eneo lako la mamlaka, kwa vyovyote vile ni kubwa zaidi. Ikiwa unatumia Huduma kwa niaba ya shirika, unawakilisha na kuthibitisha kwamba una mamlaka ya kulishurutisha shirika hilo kwa Sheria na Masharti haya, na unakubali kuwa chini ya Sheria na Masharti haya kwa niaba ya shirika hilo.",
+      "legalCapacity": "Lazima pia uwe na uwezo wa kisheria ili kuingia katika Masharti haya. Huwezi kufikia au kutumia Huduma ikiwa umepigwa marufuku kupokea huduma chini ya sheria inayotumika au hapo awali umesimamishwa au kuondolewa kwenye Huduma na VirtualMD.",
+      "territorialRestrictions": "Ufikiaji wa Huduma kutoka kwa maeneo ambayo maudhui au matumizi yake ni kinyume cha sheria ni marufuku kabisa. Watumiaji wana wajibu wa kutii sheria, sheria na kanuni zote za ndani kuhusu matumizi yao ya Huduma, ikiwa ni pamoja na zile zinazohusiana na mwenendo wa mtandaoni na maudhui yanayokubalika."
+    },
+    "feesAndPayment": {
+      "currentlyFree": "Hivi sasa, ufikiaji wa vipengele vya msingi vya Huduma ya VirtualMD.app hutolewa bila malipo.",
+      "futureFeesNotice": "VirtualMD inahifadhi haki ya kuanzisha ada za vipengele fulani, viwango vya huduma, au Huduma kwa ujumla katika siku zijazo. Iwapo tutaanzisha ada, tutakupa taarifa ya mapema ya mabadiliko hayo na masharti ya malipo yanayotumika. Kuendelea kwako kutumia huduma kulingana na ada baada ya notisi kama hiyo kunajumuisha makubaliano yako ya kulipa ada zinazotumika.",
+      "paymentTerms": "Masharti yoyote ya malipo yanayowasilishwa kwako katika mchakato wa kutumia au kujisajili kwa huduma ya kulipia yanachukuliwa kuwa sehemu ya Sheria na Masharti haya."
+    },
+    "termination": {
+      "userTermination": "Unaweza kusimamisha akaunti yako na kuacha kutumia Huduma wakati wowote kwa kufuata maagizo ndani ya Huduma au kuwasiliana nasi.",
+      "serviceTermination": "VirtualMD inaweza, kwa hiari yake pekee, kusimamisha au kukomesha ufikiaji wako kwa yote au sehemu ya Huduma, kwa au bila ilani, kwa sababu yoyote, ikijumuisha, bila kikomo, ukiukaji wa Masharti haya. Sababu za kusitishwa zinaweza kujumuisha, lakini sio tu, kutotumika kwa muda mrefu, maombi ya watekelezaji sheria au mashirika mengine ya serikali, kusitishwa au urekebishaji wa nyenzo wa Huduma, au masuala ya kiufundi au usalama yasiyotarajiwa.",
+      "effectOfTermination": "Baada ya kusitishwa, haki yako ya kutumia Huduma itakoma mara moja. Masharti yote ya Sheria na Masharti ambayo kwa asili yake yanapaswa kudumu kukomeshwa yatadumu kukomeshwa, ikijumuisha, bila kizuizi, masharti ya umiliki, makanusho ya udhamini, fidia na vikwazo vya dhima.",
+      "noLiability": "Hatutawajibika kwako au mtu mwingine yeyote kwa kukomesha ufikiaji wako kwa Huduma."
+    },
+    "termsOfUse": {
+      "title": "Masharti ya Matumizi",
+      "header": {
+        "company": "Wavuti ya VirtualMD.app",
+        "llc": "VirtualMD Technologies LLC"
+      },
+      "welcome": "Karibu kwenye VirtualMD.app (\"Huduma\", \"Tovuti\"), inayoendeshwa na VirtualMD Technologies, LLC (\"VirtualMD\", \"sisi\", \"sisi\", \"yetu\"). Masharti haya ya Matumizi (\"Masharti\") yanasimamia ufikiaji wako na matumizi ya tovuti yetu, watu wa AI, maudhui na huduma. Kwa kufikia au kutumia Huduma, unakubali kuwa chini ya Sheria na Masharti haya na Sera yetu ya Faragha, iliyojumuishwa humu kwa marejeleo. Ikiwa hukubaliani na Masharti haya, usitumie Huduma.",
+      "sections": {
+        "section1": {
+          "title": "Ahadi Yetu ya Faragha ya Data",
+          "content": "Katika VirtualMD.app, faragha na usalama wa maelezo yako ya kibinafsi ni muhimu. Tumejitolea kudumisha usiri na uadilifu wa data unayotukabidhi. Mfumo wetu umeundwa kwa hatua dhabiti za usalama ili kulinda maelezo yako dhidi ya ufikiaji usioidhinishwa, ufichuzi, mabadiliko na uharibifu.",
+          "subsections": {
+            "": {
+              "content": "Data Isiyojulikana kwa Uboreshaji:\nTunatumia data isiyojulikana na iliyojumlishwa kwa ukali (PII zote zimeondolewa) ili kuimarisha usahihi, ufanisi na usalama wa miundo yetu ya AI na vipengele vya jukwaa. Hii hairuhusu utambulisho wa mtumiaji yeyote binafsi."
+            }
+          }
+        },
+        "section2": {
+          "title": "Taarifa Tunazokusanya na Maelezo Mengine ya Faragha",
+          "content": "Habari Tunazokusanya\n   Tunakusanya maelezo unayotupa moja kwa moja, maelezo tunayokusanya kiotomatiki kupitia matumizi yako ya Huduma, na taarifa kutoka kwa vyanzo vingine.\n\nTaarifa ya Akaunti: Unapojisajili, tunakusanya taarifa kama vile jina lako, anwani ya barua pepe na nambari ya simu (kwa madhumuni ya uthibitishaji).\nMaudhui ya Mtumiaji: Tunakusanya maelezo unayotoa unapotumia Huduma, ikiwa ni pamoja na maandishi yaliyowekwa kwenye violesura vya gumzo, maelezo ya wasifu (kama vile orodha za dawa, ikitolewa), na maoni.\nMaelezo ya Matumizi: Tunakusanya maelezo kiotomatiki kuhusu mwingiliano wako na Huduma, kama vile anwani ya IP, aina ya kivinjari, maelezo ya kifaa, mfumo wa uendeshaji, kurasa zilizotazamwa, viungo vilivyobofya, na tarehe na saa za ziara zako.\nVidakuzi na Teknolojia Sawa: Tunatumia vidakuzi na teknolojia sawa za ufuatiliaji ili kufuatilia shughuli kwenye Huduma yetu na kuhifadhi taarifa fulani. Unaweza kuagiza kivinjari chako kukataa vidakuzi vyote au kuonyesha wakati kidakuzi kinatumwa. Hata hivyo, ikiwa hukubali vidakuzi, huenda usiweze kutumia baadhi ya sehemu za Huduma yetu.\n\nJinsi Tunavyotumia Taarifa\nTunatumia maelezo tunayokusanya kwa madhumuni mbalimbali, ikiwa ni pamoja na:\n\nKutoa, kuendesha, kudumisha na kuboresha Huduma.\nMchakato wa malipo na utume maelezo yanayohusiana, ikijumuisha uthibitishaji na ankara (ikiwa inatumika).\nTuma arifa za kiufundi, masasisho, arifa za usalama, na usaidizi na ujumbe wa usimamizi.\nJibu maoni, maswali na maombi yako na utoe huduma kwa wateja.\nWasiliana nawe kuhusu bidhaa, huduma, ofa, ofa, zawadi na matukio yanayotolewa na VirtualMD na wengine, na utoe habari na maelezo tunayofikiri yatakuwa ya manufaa kwako (kulingana na haki zako za kuondoka).\nFuatilia na uchanganue mienendo, matumizi, na shughuli zinazohusiana na Huduma yetu.\nGundua, chunguza na uzuie miamala ya ulaghai na shughuli zingine haramu na ulinde haki na mali ya VirtualMD na zingine.\nBinafsisha na uboresha Huduma na utoe maudhui au vipengele vinavyolingana na wasifu au maslahi ya mtumiaji.\nBoresha usahihi, ufanisi na usalama wa miundo yetu ya AI na vipengele vya jukwaa kwa kutumia data isiyojulikana na iliyojumlishwa.\nTekeleza madhumuni mengine yoyote uliyoelezea wakati maelezo yanakusanywa.\n\nJinsi Tunavyoshiriki Habari\n\nNa Wachuuzi na Watoa Huduma: Tunaweza kushiriki maelezo na wachuuzi, washauri, na watoa huduma wengine ambao wanahitaji ufikiaji wa maelezo kama haya ili kutekeleza kazi kwa niaba yetu (k.m., watoa huduma waandaji, watoa huduma za uchanganuzi, wasindikaji wa malipo, watoa huduma wa AI API waliosanidiwa kulingana na sera zetu za matumizi ya data).\nKatika Kukabiliana na Mchakato wa Kisheria: Tunaweza kufichua taarifa ikihitajika kufanya hivyo kisheria au kwa imani njema kwamba hatua hiyo ni muhimu ili kutii wajibu wa kisheria, kulinda na kutetea haki au mali ya VirtualMD, kuzuia au kuchunguza makosa yanayoweza kutokea kuhusiana na Huduma, kulinda usalama wa kibinafsi wa watumiaji wa Huduma au umma, au kulinda dhidi ya dhima ya kisheria.\nKwa Idhini Yako: Tunaweza kushiriki maelezo kwa idhini yako au kwa maelekezo yako.\nUhamisho wa Biashara: Tunaweza kushiriki au kuhamisha maelezo kuhusiana na, au wakati wa mazungumzo ya, muunganisho wowote, uuzaji wa mali ya kampuni, ufadhili, au upataji wa yote au sehemu ya biashara yetu na kampuni nyingine.\nData Iliyojumlishwa au Isiyotambulika: Tunaweza kushiriki habari iliyojumlishwa au isiyotambulika, ambayo haiwezi kutumiwa kwa njia inayofaa kukutambulisha.\n\nChaguo Zako za Faragha\nTaarifa ya Akaunti: Unaweza kusasisha, kusahihisha au kufuta maelezo kukuhusu wakati wowote kwa kuingia katika akaunti yako au kuwasiliana nasi. Ikiwa ungependa kufuta akaunti yako, tafadhali wasiliana nasi, lakini kumbuka kwamba tunaweza kuhifadhi maelezo fulani kama inavyotakiwa na sheria au kwa madhumuni halali ya biashara.\nUfutaji wa Data: Kama ilivyotajwa chini ya Mbinu za Usalama, una zana za kufuta kabisa mazungumzo ya mtu binafsi au akaunti yako yote.\nVidakuzi: Vivinjari vingi vya wavuti vimewekwa ili kukubali vidakuzi kwa chaguomsingi. Ukipenda, unaweza kuchagua kuweka kivinjari chako kuondoa au kukataa vidakuzi vya kivinjari.\nMawasiliano ya Matangazo: Unaweza kuchagua kutopokea barua pepe za matangazo kutoka VirtualMD kwa kufuata maagizo katika barua pepe hizo. Ukichagua kutoka, bado tunaweza kukutumia mawasiliano yasiyo ya utangazaji, kama vile yale kuhusu akaunti yako au mahusiano yetu ya kibiashara yanayoendelea.\n\nUhifadhi wa Data\nTunahifadhi maelezo tunayokusanya kukuhusu kwa muda kadri inavyohitajika kwa madhumuni ambayo tuliyakusanya awali, au kwa madhumuni mengine halali ya biashara, ikijumuisha kutimiza wajibu wetu wa kisheria, udhibiti au utiifu. Tunahifadhi maelezo ya akaunti kwa muda wote akaunti yako inapotumika na kwa muda unaofaa baada ya hapo iwapo utaamua kuwezesha Huduma tena. Data isiyojulikana na iliyojumlishwa inayotumika kuboresha mfumo inaweza kuhifadhiwa kwa muda usiojulikana.\n\nUhamisho wa Data wa Kimataifa\nVirtualMD iko nchini Marekani, na tunachakata na kuhifadhi taarifa nchini Marekani. Ikiwa uko nje ya Marekani, tafadhali fahamu kuwa maelezo tunayokusanya yatahamishwa, kuchakatwa na kuhifadhiwa Marekani. Sheria za kulinda data nchini Marekani zinaweza kuwa tofauti na zile za nchi unakoishi. Kwa kutumia Huduma, unakubali kuhamishwa kwa maelezo yako hadi Marekani na matumizi na ufichuzi wa maelezo yako kama ilivyofafanuliwa katika Sera hii ya Faragha.\n\nFaragha ya Watoto\nHuduma ya VirtualMD.app imekusudiwa watu wazima na hailengiwi watoto walio na umri wa chini ya miaka 13 (au umri husika wa idhini ya dijiti katika eneo lako). Hatukusanyi taarifa za kibinafsi kutoka kwa watoto kimakusudi. Matumizi ya Huduma kwa watoto ni marufuku. Ikiwa wewe ni mzazi au mlezi na unaamini kuwa mtoto wako ametupatia maelezo isivyo halali bila kibali chako, tafadhali wasiliana nasi mara moja kupitia legal@virtualmd.app. Tukijua kwamba tumekusanya maelezo kutoka kwa mtoto kinyume na sheria inayotumika, tutachukua hatua mara moja kufuta maelezo hayo.",
+          "subsections": {
+            "wemayshareinformationaboutyouasfollowsorasotherwisedescribedinthisprivacypolicy": {
+              "title": "Tunaweza kushiriki maelezo kukuhusu kama ifuatavyo au jinsi ilivyoelezwa vinginevyo katika Sera hii ya Faragha"
+            }
+          }
+        },
+        "section3": {
+          "title": "Kizuizi cha Dhima Kuhusu Usalama wa Data",
+          "content": "VirtualMD hutekeleza hatua za usalama zinazokubalika kibiashara, ikijumuisha usimbaji fiche na itifaki za uthibitishaji (kama ilivyofafanuliwa katika Sera yetu ya Faragha), ili kulinda maelezo unayotoa kwa Huduma. Walakini, hakuna mfumo wa usalama ambao hauwezi kupenya.\n\nKwa hivyo, kwa kutumia Tovuti hii, unakubali na kukubali kwamba ingawa VirtualMD itafanya juhudi zinazofaa ili kulinda data yako kulingana na mazoea ya kawaida ya biashara, HATUHAKIKISHI USALAMA KABISA WA MAELEZO YAKO. Unakubali kwamba HUWEZI NA HAUTAWASHITAKI AU KUSHIKILIA TEKNOLOJIA YA VirtualMD, LLC, WASHIRIKA WAKE, MAOFISA, WAKURUGENZI, WAFANYAKAZI, MAWAKALA, AU WAKOSI WA LESENI WANAWAJIBIKA kwa uharibifu wowote, hasara, gharama, au gharama zinazotokana na au zinazohusiana na utumiaji usioidhinishwa, uharibifu au ufikiaji usioidhinishwa. uvunjaji wa data), mradi VirtualMD imetekeleza hatua za usalama zinazofaa. Matumizi yako ya Huduma yanajumuisha kukubali kwako hatari hii."
+        },
+        "section4": {
+          "title": "Ukomo wa Jumla wa Dhima",
+          "content": "KWA KIWANGO KAMILI KINACHORUHUSIWA NA SHERIA HUSIKA, KWA TUKIO HAKUNA TEKNOLOJIA YA VirtualMD, LLC, WASHIRIKA WAKE, MAOFISA, WAKURUGENZI WAKE, WAFANYAKAZI, MAWAKALA, AU WATOA LESENI WOWOTE, WASIWASI, WASIWASI, WASIWASI, WASIWASI, WASIWASI, WASIWASI WAKE HASARA, AU HASARA YOYOTE YA FAIDA AU MAPATO, YAWE YAMETOKEA MOJA KWA MOJA AU KWA MOJA KWA MOJA, AU UPOTEVU WOWOTE WA DATA, MATUMIZI, MAPENZI, AU HASARA NYINGINE ILIYOTOKANA NA:\n\nUPATIKANAJI WAKO WA AU MATUMIZI YA AU KUTOWEZA KUPATA AU KUTUMIA HUDUMA;\nMWENENDO AU MAUDHUI YOYOTE YA WATU WOWOTE WA TATU KWENYE HUDUMA, PAMOJA NA BILA KIKOMO, KUKASHIFU, KUKOSEA, AU MWENENDO HARAMU WA WATUMIAJI WENGINE AU WATU WA TATU;\nMAUDHUI YOYOTE YANAYOPATIKANA KATIKA HUDUMA; AU\nUPATIKANAJI, MATUMIZI, AU KUBADILISHWA KWA USIMAMIZI AU MAUDHUI YAKO (Ikiwa ni pamoja na UKIUKAJI WA DATA), HATA IKIWA VirtualMD IMETEKELEZA HATUA ZINAZO BUSARA ZA USALAMA, JINSI ILIVYOTAJWA KATIKA MASHARTI HAYA NA SERA YA FARAGHA.\nKWA KIWANGO KAMILI KINACHORUHUSIWA NA SHERIA, VirtualMD IMEKANUSHA DHAMANA ZOTE, WAZI AU ZILIZODISISHWA, IKIWEMO, LAKINI SI KIKOMO, DHAMANA ILIYOHUSISHWA YA UUZAJI, KUFAA KWA KUSUDI FULANI, CHEO NA UHAKIKI.\n\nHAKUNA MATUKIO YOYOTE DHIMA YA UJUMLA YA VirtualMD NA WASHIRIKA WAKE HAITAZIDI KUBWA YA DOLA MIA MOJA ZA U.S. (USD $100.00) AU KIASI ULICHOLIPA VirtualMD, IKIWA HICHO, KATIKA MIEZI SITA ILIYOPITA KWA AJILI YA KUPANGIZA HUDUMA YA HUDUMA.\n\nKwa kutegemea kiwango cha juu cha dhima iliyotangulia, na bila kujali masharti mengine yoyote ya Sheria na Masharti haya, suluhu lako la pekee na la kipekee kwa dai lolote linalotokana na au linalohusiana na Sheria na Masharti haya au Huduma litawekwa tu katika kurejesha uharibifu wa moja kwa moja uliosababishwa na wewe. Uharibifu kama huo wa moja kwa moja unafafanuliwa kuwa ada ulizolipa moja kwa moja kwa VirtualMD kwa sehemu mahususi ya Huduma iliyosababisha dai katika muda wa miezi sita (6) mara moja kabla ya tukio, na zinaweza kurejeshwa kwa kiwango ambacho uharibifu kama huo hutokana moja kwa moja na utovu wa nidhamu uliothibitishwa wa VirtualMD au uzembe mkubwa katika kutekeleza majukumu yake chini ya Sheria na Masharti haya. Kwa uwazi, VirtualMD, washirika wake, wanahisa, maafisa, wakurugenzi, wafanyakazi, na mawakala hawatawajibika kwa uharibifu wowote usio wa moja kwa moja, wa bahati mbaya, maalum, wa matokeo au adhabu, ada za wakili, au gharama, bila kujali nadharia ya dhima, hata kama inatokana na ukiukaji wa Sheria na Masharti haya au ukiukaji wa haki zako, isipokuwa ambapo sheria zisizokatazwa zinatumika.\n\nMAPUNGUFU YA KIFUNGU HIKI YATATUMIKA KWA NADHARIA YOYOTE YA DHIMA, IKIWE KWA MSINGI WA DHAMANA, MKATABA, SHERIA, TORT (PAMOJA NA UZEMBE), AU VINGINEVYO, NA IWAPO VirtualMD IMEFAHAMISHWA NAFASI, NA IFADHI YOYOTE. INAYOELEZWA HAPA INAPATIKANA IMESHINDWA KUSUDI LAKE MUHIMU.\n\nBAADHI YA MAMLAKA HAYARUHUSU KUTOTOLEWA KWA DHAMANA FULANI AU KIKOMO AU KUTOTOLEWA KWA DHIMA KWA UHARIBIFU WA TUKIO AU KUTOKEA. KWA HIYO, BAADHI YA VIKOMO HAPO HAPO JUU HUENDA YASIKUHUSU."
+        },
+        "section5": {
+          "title": "Mbinu za Usalama za VirtualMD.app",
+          "content": "Tunatumia mkakati wa usalama wa tabaka nyingi:\n\nUthibitishaji wa Mambo Mbili (2FA):\nLazima kwa akaunti zote, inayohitaji uthibitishaji kupitia kipengele cha pili (k.m., msimbo kwa barua pepe/simu).\n\nChaguo la Uthibitishaji wa Mambo Tatu (3FA):\nUsalama ulioimarishwa wa hiari unaohitaji nenosiri, msimbo wa barua pepe na msimbo wa SMS.\n\nHatua hizi hutoa usalama thabiti wa akaunti, lakini kumbuka hakuna mfumo ambao ni salama 100%.",
+          "subsections": {
+            "": {
+              "content": "Vidhibiti vya Ufikiaji:\nUfikiaji wa rekodi za hifadhidata za watumiaji na wafanyikazi unadhibitiwa kabisa, umedhibitiwa, umeingia na kutawaliwa na sera za ndani. Kuvinjari mara kwa mara ni marufuku."
+            }
+          }
+        },
+        "section6": {
+          "title": "VirtualMD.app na Mazingatio ya HIPAA (Marudio)",
+          "content": "Kama ilivyobainishwa katika Kanusho, huduma ya jumla ya VirtualMD.app HAIFAI HIPAA kwa kesi za utumiaji za Huluki/Mshirika wa Biashara zinazohusisha PHI bila BAA mahususi. Ingawa tunatekeleza usalama thabiti, huduma yetu ya jumla hufanya kazi chini ya kanuni za kawaida za usalama wa biashara, si mahitaji mahususi ya Kanuni ya Usalama ya HIPAA kwa PHI inayodhibitiwa na Mashirika Yanayotumika.\n\nWatumiaji wanaohitaji kufuata madhubuti kwa HIPAA kwa PHI wanayosimamia hawapaswi kutumia mfumo wetu wa jumla kwa madhumuni kama hayo bila BAA. Watumiaji lazima wasiingize taarifa zinazoweza kufuatiliwa kwa wagonjwa binafsi katika muktadha unaokiuka HIPAA bila ridhaa ya moja kwa moja, iliyoarifiwa inayokubali hali ya mfumo ya kutotii HIPAA kwa matumizi hayo."
+        },
+        "section7": {
+          "title": "Matumizi ya Data na Watoa Huduma wa Injini ya AI ya Wengine",
+          "content": "VirtualMD inaunganishwa na watoa huduma wakuu wa mifano ya AI (k.m., OpenAI, Anthropic, Google).\n\nVirtualMD.app:\nTunatumia tu data isiyojulikana, iliyojumlishwa kuboresha mfumo wa ndani.\n\nWatoa Huduma za API za Wahusika Watatu:\nWatoa huduma wakuu wanaofikiwa kupitia API (kama vile OpenAI, Anthropic) kwa kawaida hutaja katika sera zao kuwa data inayowasilishwa kupitia API HAITUMIKI kutoa mafunzo kwa miundo yao ya msingi ya jumla. Tunasanidi matumizi yetu ya huduma hizi ili kupatana na chaguo hizi za kuhifadhi faragha. Kagua sera zao mahususi kwa maelezo.\n\nMasharti Mengine ya Kisheria\nMabadiliko ya Sheria na Masharti na Sera Haya\nVirtualMD inahifadhi haki, kwa hiari yetu, kurekebisha au kubadilisha Masharti haya na Sera ya Faragha iliyojumuishwa wakati wowote. Iwapo masahihisho ni muhimu, tutatoa angalau notisi ya siku 30 kabla ya sheria na masharti yoyote mapya kutekelezwa, ambayo yanaweza kutolewa kupitia barua pepe kwa anwani inayohusishwa na akaunti yako au kwa kutuma notisi kwenye Huduma.\n\nNi nini kinachojumuisha mabadiliko ya nyenzo kitaamuliwa kwa hiari yetu pekee.\n\nKwa kuendelea kufikia au kutumia Huduma yetu baada ya marekebisho yoyote kuanza kutumika, unakubali kuwa chini ya sheria na masharti yaliyorekebishwa. Iwapo hukubaliani na sheria na masharti mapya, huna idhini tena ya kutumia Huduma na unapaswa kuacha kuitumia mara moja.\n\nNi wajibu wako kuangalia Sheria na Masharti haya mara kwa mara kwa mabadiliko.\n\nKukomesha\nUnaweza kusimamisha akaunti yako na kuacha kutumia Huduma wakati wowote kwa kufuata maagizo ndani ya Huduma au kuwasiliana nasi.\n\nVirtualMD inaweza, kwa hiari yake pekee, kusimamisha au kukomesha ufikiaji wako kwa yote au sehemu ya Huduma, kwa au bila ilani, kwa sababu yoyote, ikijumuisha, bila kikomo, ukiukaji wa Masharti haya. Sababu za kusitishwa zinaweza kujumuisha, lakini sio tu, kutotumika kwa muda mrefu, maombi ya watekelezaji sheria au mashirika mengine ya serikali, kusitishwa au urekebishaji wa nyenzo wa Huduma, au masuala ya kiufundi au usalama yasiyotarajiwa.\n\nBaada ya kusitishwa, haki yako ya kutumia Huduma itakoma mara moja. Masharti yote ya Sheria na Masharti ambayo kwa asili yake yanapaswa kudumu kukomeshwa yatadumu kukomeshwa, ikijumuisha, bila kizuizi, masharti ya umiliki, kanusho za udhamini, fidia na vikwazo vya dhima.\n\nHatutawajibika kwako au mtu mwingine yeyote kwa kukomesha ufikiaji wako kwa Huduma.\n\nSheria ya Utawala na Utatuzi wa Migogoro\nSheria na Masharti haya na matumizi yako ya Huduma yatasimamiwa na kufasiriwa kwa mujibu wa sheria za Jumuiya ya Madola ya Massachusetts, Marekani, bila kuzingatia kanuni zake za sheria zinazokinzana.\n\nUnakubali kwamba hatua yoyote ya kisheria au shauri linalotokana na au linalohusiana na Sheria na Masharti haya au Huduma litaletwa katika mahakama ya shirikisho au jimbo lililo katika Kaunti ya Suffolk, Massachusetts, Marekani pekee. Kwa hivyo unakubali mamlaka na eneo la kipekee la mahakama kama hizo na unaondoa pingamizi lolote kuhusu mijadala isiyofaa.\n\nVirtualMD inaweza, kwa hiari yake, kukuhitaji uwasilishe mizozo yoyote inayotokana na matumizi ya Sheria na Masharti au Huduma hizi, ikijumuisha mizozo inayotokana na au kuhusu tafsiri yao, ukiukaji, ubatilifu, kutotenda kazi, au kusitisha, hadi usuluhishi wa mwisho na wa kulazimisha chini ya Sheria za Usuluhishi za Jumuiya ya Usuluhishi ya Amerika inayotumia sheria ya Massachusetts.\n\nMaelezo ya Mawasiliano\nIkiwa una maswali yoyote kuhusu Masharti haya au Sera ya Faragha, tafadhali wasiliana nasi kwa: legal@virtualmd.app au kupitia ukurasa wetu wa Wasiliana Nasi.\n\nMbalimbali\nMkataba Mzima\nSheria na Masharti haya na Sera yetu ya Faragha ni makubaliano ya pekee na yote kati yako na VirtualMD Technologies, LLC kuhusu Huduma na kuchukua nafasi ya uelewano wote wa awali na wa wakati mmoja, makubaliano, uwakilishi na dhamana, kwa maandishi na kwa mdomo, kuhusu Huduma.\n\nUpungufu\nIwapo kifungu chochote cha Sheria na Masharti haya kinashikiliwa na mahakama au mahakama nyingine yenye mamlaka kuwa ni batili, kinyume cha sheria, au haiwezi kutekelezeka kwa sababu yoyote, utoaji huo utaondolewa au kuwekewa mipaka kwa kiwango cha chini kabisa kwamba vipengee vilivyosalia vya Sheria na Masharti vitaendelea kwa nguvu kamili na athari.\n\nMsamaha\nHakuna msamaha na VirtualMD wa masharti yoyote au masharti yaliyowekwa katika Sheria na Masharti haya yatachukuliwa kuwa ni msamaha zaidi au unaoendelea wa muda au hali hiyo au msamaha wa masharti au masharti yoyote, na kushindwa kwa VirtualMD kudai haki au utoaji chini ya Masharti haya haitajumuisha msamaha wa haki au utoaji huo.\n\nMgawo\nSheria na Masharti haya, na haki na leseni zozote zilizotolewa hapa chini, haziwezi kuhamishwa au kukabidhiwa na wewe, lakini zinaweza kupewa na VirtualMD bila kizuizi.\n\nVichwa\nVichwa vya sehemu vilivyotumika humu ni vya urahisishaji pekee na havitapewa uingizaji wowote wa kisheria.\n\nNguvu Majeure\nVirtualMD haitawajibika kwa kushindwa kutekeleza majukumu yake hapa chini ambapo kushindwa kama hivyo kunatokea kutokana na sababu yoyote iliyo nje ya udhibiti unaofaa wa VirtualMD, ikiwa ni pamoja na, bila kizuizi, kushindwa kwa mitambo, elektroniki, au mawasiliano au uharibifu.\n\nIlisasishwa Mwisho: Mei 12, 2025\n\nWasiliana Nasi\ninfo@virtualmd.app"
+        }
+      }
+    }
+  },
+  "dataPrivacyWhitepaper": {
+    "sections": {
+      "hero": "Utangulizi",
+      "privacyPledge": "Ahadi Yetu ya Faragha",
+      "securityLevels": "Kuelewa Usalama wa Data",
+      "hipaaDeepDive": "HIPAA Imeeleza",
+      "VirtualMDSecurity": "Mbinu za Usalama za VirtualMD.app",
+      "hipaaConsiderations": "VirtualMD.app na HIPAA",
+      "userResponsibility": "Wajibu wa Mtumiaji & Matumizi ya Kiadili",
+      "privacyScenarios": "Matukio ya Faragha ya Kiutendaji na Mazingatio ya Kina",
+      "conclusion": "Hitimisho & Mambo Muhimu ya Kuchukua"
+    },
+    "hero": {
+      "title": "VirtualMD.app: Faragha ya Data na Wewe",
+      "subtitle": "Kuelewa Ahadi Yetu kwa Usalama wa Data yako na Mbinu Yetu ya Viwango vya Taarifa za Afya, ikiwa ni pamoja na HIPAA."
+    },
+    "privacyPledge": {
+      "title": "1. Ahadi ya Faragha ya Data ya VirtualMD.app",
+      "intro": "Katika VirtualMD.app, faragha na usalama wa maelezo yako ya kibinafsi ni muhimu. Tumejitolea kudumisha usiri na uadilifu wa data unayotukabidhi. Mfumo wetu umeundwa kwa hatua dhabiti za usalama ili kulinda maelezo yako dhidi ya ufikiaji usioidhinishwa, ufichuzi, mabadiliko na uharibifu.",
+      "secureInfo": {
+        "title": "Tunajitahidi kuweka maelezo yako salama.",
+        "description": "Tunatumia itifaki za usimbaji fiche za kiwango cha sekta kwa data katika usafiri na wakati wa kupumzika, pamoja na usanifu wa usalama wa tabaka nyingi."
+      },
+      "noPersonalUse": {
+        "title": "Hatutumii maelezo yako kwa njia yoyote inayomtambulisha mtu binafsi kwa madhumuni ya nje bila idhini yako ya wazi.",
+        "description": "Mwingiliano wako wa moja kwa moja na maelezo ya kibinafsi ni yako peke yako."
+      },
+      "neverSell": {
+        "title": "Hatutawahi kuuza taarifa zako za kibinafsi kwa wahusika wengine.",
+        "description": "Uaminifu wako ni wa thamani sana, na tunashikilia hili kwa kuhakikisha kuwa data yako haitumiwi."
+      },
+      "anonymizedData": {
+        "title": "Tutakuwa tukitumia data yako ambayo haijatambulishwa ili kuboresha mfumo wetu.",
+        "description": "Ili kuimarisha usahihi, ufanisi na usalama wa miundo yetu ya AI na vipengele vya jukwaa, tunatumia data ambayo haijatambulishwa kwa ukali na kujumlishwa. Hii ina maana kwamba taarifa zote zinazoweza kumtambulisha mtu binafsi (PII) zimeondolewa, na data inatumiwa katika fomu ya pamoja ambayo hairuhusu utambulisho wa mtumiaji yeyote binafsi. Utaratibu huu ni muhimu kwa ujifunzaji na uboreshaji endelevu wa huduma tunazotoa kwa watumiaji wote."
+      }
+    },
+    "securityLevels": {
+      "title": "2. Kuelewa Viwango vya Usalama wa Data & HIPAA",
+      "accountSecurity": {
+        "title": "Viwango vya Usalama wa Akaunti",
+        "description": "Usalama wa kidijitali unategemea safu za uthibitishaji ili kuthibitisha utambulisho wa mtumiaji. Hizi mara nyingi huwekwa kama sababu:",
+        "sfaTitle": "Uthibitishaji wa Kipengele Kimoja (1FA):",
+        "sfaDescription": "Inahitaji aina moja tu ya kitambulisho, kwa kawaida nenosiri. Ingawa ni ya kawaida, hii ndiyo njia salama zaidi kwani manenosiri yanaweza kuibiwa, kukisiwa au kupasuka.",
+        "tfaTitle": "Uthibitishaji wa Mambo Mbili (2FA):",
+        "tfaDescription": "Inahitaji aina mbili tofauti za vitambulisho kutoka kategoria mbili tofauti (k.m., kitu ambacho unajua kama nenosiri, pamoja na kitu ambacho una kama msimbo wa mara moja uliotumwa kwa simu yako). Hii kwa kiasi kikubwa huongeza usalama.",
+        "mfaTitle": "Uthibitishaji wa Mambo Tatu (3FA) / Uthibitishaji wa Vipengele vingi (MFA):",
+        "mfaDescription": "Inahitaji aina tatu au zaidi tofauti za kitambulisho. Kwa mfano, nenosiri (jua), msimbo wa mara moja kupitia SMS (kuwa), na uchunguzi wa kibayometriki kama alama ya kidole (ni). Hii inatoa kiwango cha juu sana cha usalama."
+      },
+      "hipaaHistory": {
+        "title": "Historia fupi na Muhtasari wa HIPAA",
+        "p1": "Sheria ya Ubebaji na Uwajibikaji wa Bima ya Afya ya 1996 (HIPAA) ni sheria ya shirikisho la Marekani iliyoundwa ili kulinda taarifa nyeti za afya ya mgonjwa zisifichuliwe bila ridhaa au maarifa ya mgonjwa. Pia ililenga kuboresha ufanisi na ufanisi wa mfumo wa huduma ya afya.",
+        "p2Title": "Sheria kuu za HIPAA:",
+        "privacyRuleTitle": "Kanuni ya Faragha:",
+        "privacyRuleDescription": "Huweka viwango vya kitaifa vya ulinzi wa taarifa za afya zinazoweza kutambulika kibinafsi (Maelezo ya Afya Yanayolindwa - PHI). Inashughulikia matumizi na ufichuzi wa PHI na 'huluki zilizofunikwa.'",
+        "securityRuleTitle": "Sheria ya Usalama:",
+        "securityRuleDescription": "Huweka viwango vya kitaifa vya kulinda usiri, uadilifu na upatikanaji wa PHI ya kielektroniki (ePHI). Inahitaji huluki zinazosimamiwa kutekeleza ulinzi wa kiutawala, kimwili na kiufundi.",
+        "breachRuleTitle": "Kanuni ya Arifa ya Ukiukaji:",
+        "breachRuleDescription": "Inahitaji huluki zinazolipwa na washirika wao wa kibiashara kutoa arifa kufuatia ukiukaji wa PHI isiyolindwa.",
+        "coveredEntitiesTitle": "Vyombo Vilivyofunikwa ni Nani?",
+        "coveredEntitiesDescription": "Sheria za HIPAA kwa ujumla hutumika kwa mipango ya afya, nyumba za kusafisha huduma za afya, na watoa huduma za afya wanaofanya shughuli fulani za afya kielektroniki (k.m., madaktari, kliniki, hospitali, maduka ya dawa, makampuni ya bima).",
+        "hipaaMeaningTitle": "HIPAA inamaanisha nini kwa Madaktari na Wagonjwa?",
+        "hipaaMeaningDescription": "Kwa madaktari na watoa huduma wengine wa afya, HIPAA huamuru itifaki kali za kushughulikia data ya mgonjwa, kuhakikisha inatumika kwa madhumuni yanayoruhusiwa (matibabu, malipo, shughuli za afya) au kwa idhini ya mgonjwa. Kwa wagonjwa, HIPAA hutoa haki juu ya taarifa zao za afya, ikiwa ni pamoja na haki za kuchunguza na kupata nakala ya rekodi zao za afya, na kuomba marekebisho."
+      }
+    },
+    "VirtualMDSecurity": {
+      "title": "3. Mbinu za Usalama za VirtualMD.app",
+      "intro": "VirtualMD.app hutumia mkakati wa usalama wa tabaka nyingi iliyoundwa ili kulinda akaunti yako na maelezo ya kibinafsi, ikichochewa na mbinu bora za usalama wa data. Ingawa tunafanya kazi tofauti na mtoa huduma wa afya wa kitamaduni katika muktadha wa HIPAA, tunatoa vipengele thabiti vya usalama kwa watumiaji wote:",
+      "passwordEncryptionTitle": "Usimbaji wa Nenosiri:",
+      "passwordEncryptionDescription": "Manenosiri yote ya mtumiaji yamesimbwa kwa njia fiche kwa kutumia kanuni za hashing za kiwango cha sekta. Hii inamaanisha kuwa hatuhifadhi nenosiri lako la maandishi wazi, na kutoa safu muhimu ya usalama kwa vitambulisho vya akaunti yako.",
+      "twoFactorAuthTitle": "Uthibitishaji wa Mambo Mbili (2FA):",
+      "twoFactorAuthDescription": "Tunaamuru 2FA kwa akaunti zote. Hii inakuhitaji uthibitishe utambulisho wako kwa kutumia kipengele cha pili (kawaida msimbo unaotumwa kwa barua pepe au simu yako iliyosajiliwa) pamoja na nenosiri lako, na hivyo kupunguza kwa kiasi kikubwa hatari ya ufikiaji wa akaunti ambayo haijaidhinishwa.",
+      "threeFactorAuthTitle": "Chaguo la Uthibitishaji wa Mambo Tatu (3FA):",
+      "threeFactorAuthDescription": "Kwa usalama ulioimarishwa, VirtualMD.app inatoa usanidi wa hiari wa uthibitishaji wa vipengele vitatu. Ikiwashwa, kufikia akaunti yako kutahitaji nenosiri lako, msimbo kutumwa kwa anwani yako ya barua pepe iliyosajiliwa, NA msimbo uliotumwa kupitia SMS kwa nambari yako ya simu ya mkononi iliyothibitishwa. Hili huweka kizuizi kikubwa dhidi ya majaribio yasiyoidhinishwa ya kufikia maelezo yako ya matibabu yaliyohifadhiwa ndani ya mfumo wetu.",
+      "dataEncryptionTitle": "Usimbaji wa Data:",
+      "dataEncryptionDescription": "Taarifa zilizohifadhiwa ndani ya akaunti yako ya VirtualMD.app, ikijumuisha data ya mazungumzo, husimbwa kwa njia fiche wakati wa mapumziko. Data inayotumwa kati ya kifaa chako na seva zetu imesimbwa kwa njia fiche kwa kutumia itifaki za TLS/SSL.",
+      "permanentDeletionTitle": "Ufutaji wa Data wa Kudumu:",
+      "permanentDeletionDescription": "Tunakuwezesha kudhibiti data yako. Una uwezo wa kufuta kabisa mazungumzo ya mtu binafsi au akaunti yako yote. Baada ya kufutwa, maelezo haya hayawezi kurejeshwa kutoka kwa mifumo yetu ya msingi, kwa kuzingatia kanuni za kupunguza data na udhibiti wa watumiaji.",
+      "outro": "Hatua hizi hutoa kiwango cha usalama wa akaunti kulinganishwa na huduma kuu za mtandaoni zinazoshughulikia data nyeti ya kibinafsi, zinazolenga kuhakikisha akaunti yako ya VirtualMD.app na maelezo ndani yake yanasalia kuwa ya faragha na chini ya udhibiti wako."
+    },
+    "hipaaConsiderations": {
+      "title": "4. VirtualMD.app & HIPAA Mazingatio",
+      "p1": "Kuelewa jinsi VirtualMD.app inavyoingiliana na Sheria ya Ubebaji na Uwajibikaji wa Bima ya Afya (HIPAA) ni muhimu kwa watumiaji wetu. Tumejitolea sana kwa usalama na faragha ya habari unayoshiriki. Mfumo wetu unajumuisha hatua dhabiti za usalama, kama inavyofafanuliwa katika sehemu ya \"Taratibu za Usalama za VirtualMD.app\", ikijumuisha usimbaji fiche dhabiti wa data wakati wa mapumziko na wakati wa kupita, Uthibitishaji wa lazima wa Mambo Mbili (2FA), na Uthibitishaji wa Mambo Tatu (3FA) wa hiari.",
+      "p2": "Hata hivyo, ni muhimu kuelewa kwamba VirtualMD.app, katika huduma yake ya sasa ya jumla inayowakabili watumiaji, HAKUSUDIWA kwa hali za matumizi zinazohitaji kufuata rasmi kwa HIPAA kwa uingizaji wa moja kwa moja, uhifadhi, au usindikaji wa Taarifa za Afya Zilizolindwa (PHI) na watumiaji wanaofanya kazi kama Mashirika Yanayotumika ya HIPAA au Washirika wao wa Biashara. Watumiaji wanaohitaji kufuata madhubuti kwa HIPAA kwa PHI wanayosimamia hawapaswi kutumia mfumo wetu wa jumla kwa madhumuni kama hayo isipokuwa kuna Makubaliano mahususi ya Mshirika wa Biashara (BAA) na VirtualMD.app kwa kesi hiyo maalum ya utumiaji. Kwa huduma ya jumla, watumiaji lazima wasiingize taarifa yoyote ambayo inaweza kufuatiliwa hadi kwa mgonjwa binafsi katika muktadha ambao utakiuka HIPAA, bila ridhaa ya mgonjwa huyo iliyo wazi na iliyoarifiwa inayokubali matumizi ya mfumo huu.",
+      "approachTitle": "Mbinu Yetu: Kusawazisha Ubinafsishaji wa Hali ya Juu wa AI na Faragha ya Data",
+      "p3": "Ili kukupa ushauri wa hali ya juu zaidi, unaofahamu muktadha, na unaobinafsishwa kuhusu afya AI yetu inaweza kufanya, VirtualMD.app hutumia mfumo wa hali ya juu ambapo watu wetu wa afya wa AI wanaweza kujifunza kutokana na mwingiliano wako na kushiriki muktadha unaofaa wao kwa wao. Mtaalamu wako wa afya ya kibinafsi wa AI, kwa mfano, ameundwa ili kudumisha muktadha katika vipindi vyote na kwa AI maalum za kitaalamu ili kukupa uzoefu wenye ushirikiano na wa akili zaidi.",
+      "p4": "Mbinu hii iliyounganishwa inayoendeshwa na AI inamaanisha kuwa injini tofauti za msingi za AI (ambazo zinaweza kupangishwa na watoa huduma kama vile OpenAI, Anthropic, Google, na wengineo) zinaweza kuchakata sehemu za data ya mazungumzo yako ambayo haijatambuliwa au kubinafsishwa au vipengele vya maelezo yako ya wasifu kama sehemu ya kutoa huduma hii. Ingawa tunasanidi matumizi yetu ya API hizi za AI za wahusika wengine ili kuzizuia kutumia data yako kutoa mafunzo kwa miundo yao ya jumla (kama ilivyofafanuliwa zaidi katika sehemu yetu ya \"Matumizi ya Data na Watoa Huduma za Injini za AI\"), asili ya muundo huu wa hali ya juu, unaosambazwa wa AI ni tofauti na ushughulikiaji wa data wa kitamaduni, ambao mara nyingi huhifadhiwa ndani ya mtoa huduma wa afya kwa ajili ya utiifu wa mifumo ya ndani ya HIPAAli.",
+      "p5": "Tunaamini mbinu hii inaturuhusu kutoa taarifa na usaidizi wa afya unaoendeshwa na AI usio na kifani. Hata hivyo, inahitaji uelewa wazi: <strong style={{fontWeight: 'bold'}}>mazingira haya ya kisasa ya ubinafsishaji na ujifunzaji baina ya AI, katika hali yake ya sasa ya jumla, inahusisha modeli ya kushughulikia data ambayo ni tofauti na ulinzi mahususi wa kiutawala, kimwili na kiufundi na taratibu za uendeshaji zilizoidhinishwa na HIPAA kwa Vyombo Vinavyosimamiwa vinavyosimamia PHI.",
+      "p6": "Tunafanya kazi bila kuchoka ili kuendelea kuimarisha usalama wetu wa data na kuchunguza njia za kupata upatanishi zaidi na viwango vya data mahususi vya afya kwa viwango au matoleo mbalimbali ya huduma. Kwa kutumia huduma ya jumla ya VirtualMD.app, unakubali na kukubali salio hili la sasa: kutumia AI ya hali ya juu, iliyounganishwa kwa maarifa bora ya matibabu inahusisha muundo tofauti wa kushughulikia data kuliko ule wa mtoa huduma wa afya wa jadi anayefanya kazi chini ya HIPAA.",
+      "informedDiscussionsTitle": "Kuwezesha Majadiliano Yenye Taarifa",
+      "p7": "Iwapo mtumiaji, hasa mtaalamu wa afya, angependa kujadili maelezo ambayo yanaweza kumhusu mtu mahususi (mgonjwa), ni <strong style={{fontWeight: 'bold'}}>jukumu la pekee</strong> la mtumiaji kuhakikisha kuwa amepata idhini zote muhimu na zinazofaa kisheria kutoka kwa mtu huyo. Idhini kama hiyo lazima ieleze kwa uwazi uelewa wa mtu binafsi kwamba maelezo yanajadiliwa kwenye jukwaa ambalo, ingawa ni salama, halifanyi kazi chini ya Makubaliano rasmi ya Mshirika wa Biashara wa HIPAA na mtumiaji kwa mwingiliano huo mahususi na kwamba utunzaji wa data wa jukwaa hutofautiana na mifumo ya jadi inayotii HIPAA.",
+      "p8": "Watumiaji wanaotaka kuhamisha maelezo yaliyojadiliwa kwenye VirtualMD.app hadi kwa mfumo rasmi, unaotii HIPAA (k.m. Rekodi ya Kielektroniki ya Matibabu ya daktari) wana wajibu wa kufanya hivyo kwa usalama na kwa njia inayotii kanuni zote zinazotumika na taratibu zilizowekwa na mtoa huduma wao.",
+      "alignmentTitle": "Ambapo Tunalingana na Kanuni za HIPAA (Zaidi ya Usalama wa Jumla)",
+      "userControlTitle": "Udhibiti wa Mtumiaji na Ufutaji wa Data:",
+      "userControlDescription": "Tunakupa zana za kufikia na kufuta kabisa mazungumzo yako na maelezo ya akaunti, kwa kuzingatia kanuni za kupunguza data na haki za mtu binafsi zinazosisitizwa mara nyingi katika kanuni za faragha.",
+      "anonymizationTitle": "Kutokutambulisha kwa Uboreshaji wa Mfumo:",
+      "anonymizationDescription": "Utumiaji wetu wa data iliyojumlishwa bila utambulisho kwa ajili ya kuboresha mfumo ni desturi ambayo, inapotekelezwa ipasavyo, ni mbinu ya kawaida ya kuimarisha huduma za AI huku tukilinda faragha ya mtu binafsi."
+    },
+    "userResponsibility": {
+      "title": "5. Wajibu wa Mtumiaji & Matumizi ya Maadili",
+      "intro": "VirtualMD.app hutoa zana zenye nguvu za AI za kufikia maelezo ya matibabu na kushiriki katika mazungumzo yanayohusiana na afya. Ingawa tunajitahidi kupata usahihi na usalama, matumizi yanayowajibika ya jukwaa letu ni ahadi ya pamoja. Kwa kutumia VirtualMD.app, unakubali kufuata miongozo ya maadili na kuelewa uwezo na vikwazo vya jukwaa.",
+      "agreementTitle": "Makubaliano Yako ya Mwingiliano wa Kimaadili:",
+      "noReviewTitle": "Hakuna Mapitio ya Mazungumzo ya Kibinafsi:",
+      "noReviewDescription": "Ili kulinda faragha yako, wafanyakazi wa VirtualMD.app hawahakiki mara kwa mara mazungumzo yako ya faragha na watu wetu wa AI. Hii inasisitiza umuhimu wa matumizi yako ya kuwajibika ya jukwaa.",
+      "prohibitedContentTitle": "Maudhui Yanayopigwa Marufuku - Kujidhuru au Kwa Wengine:",
+      "prohibitedContentDescription": "Unakubali kutotumia VirtualMD.app kutafuta maelezo au mwongozo kuhusu jinsi ya kujidhuru wewe mwenyewe au wengine. Jukwaa letu halijaundwa kwa ajili ya kuingilia kati mgogoro katika hali kama hizi. Iwapo unapata mawazo ya kujidhuru au kuwadhuru wengine, tafadhali wasiliana na huduma za dharura au simu ya dharura mara moja.",
+      "consultPractitionerTitle": "Wasiliana na Daktari wako wa Huduma ya Afya:",
+      "consultPractitionerDescription": "VirtualMD.app ni zana ya taarifa na SI kibadala cha ushauri wa kitaalamu wa matibabu, utambuzi au matibabu kutoka kwa mtoa huduma wa afya aliyehitimu. Daima wasiliana na daktari wako au mtaalamu mwingine wa afya aliyehitimu kwa hali yoyote mbaya ya matibabu au kabla ya kufanya maamuzi yoyote yanayohusiana na afya yako.",
+      "emergencySituationsTitle": "Hali za Dharura:",
+      "emergencySituationsDescription": "VirtualMD.app HAIWEZI kuchukua hatua kwa niaba yako wakati wa dharura. Kwa mfano, ikiwa mfumo unapendekeza upige simu kwa 911 au uende kwenye chumba cha dharura kulingana na maelezo unayotoa, ni wewe tu ndiye unayewajibika kuchukua hatua hiyo. Mfumo wetu hauna uwezo wa kutuma huduma za dharura.",
+      "outro": "Kuzingatia kwako miongozo hii huhakikisha mazingira salama na yenye tija kwa watumiaji wote na husaidia kudumisha uadilifu wa mchakato wa kutafuta taarifa."
+    },
+    "privacyScenarios": {
+      "title": "6. Matukio Yanayotumika ya Faragha & Mazingatio ya Kina",
+      "scenario1Title": "Tukio la 1: Kujadili Masuala Nyeti ya Afya",
+      "scenario1Question": "Unauliza: \"Ningependa kuuliza timu ya VirtualMD.app ya AI kuhusu suala lisilofurahisha na la aibu linalohusiana na afya. Ni nini kinachonilinda?\"",
+      "scenario1Answer": "Jibu Letu: Tunaelewa kwamba majadiliano ya afya yanaweza kuwa ya kibinafsi sana. Tabaka kadhaa hukulinda:",
+      "confidentialConvosTitle": "Mazungumzo ya Siri:",
+      "confidentialConvosDescription": "Mazungumzo yako na watu wetu wa AI yameundwa kuwa ya faragha. Kama ilivyoelezwa katika Ahadi yetu ya Faragha, wafanyakazi wa VirtualMD.app hawahakiki mara kwa mara maudhui yako ya mazungumzo ya faragha.",
+      "dataEncryptionTitle": "Usimbaji wa Data:",
+      "dataEncryptionDescription": "Data yote ya mazungumzo imesimbwa kwa njia fiche katika upitishaji (kati ya kifaa chako na seva zetu kwa kutumia TLS/SSL) na wakati wa mapumziko (ikihifadhiwa katika hifadhidata zetu).",
+      "accountSecurityTitle": "Usalama wa Akaunti:",
+      "accountSecurityDescription": "Akaunti yako inalindwa na nenosiri lako na Uthibitishaji wa lazima wa Mambo Mbili (2FA), pamoja na chaguo la Uthibitishaji wa Mambo Tatu (3FA), na kufanya ufikiaji usioidhinishwa kwa historia ya mazungumzo yako kuwa mgumu sana.",
+      "deletionControlTitle": "Udhibiti wa Kufuta Data:",
+      "deletionControlDescription": "Una uwezo wa kufuta kabisa mazungumzo yoyote mahususi au akaunti yako yote wakati wowote, kwa njia ambazo zimeundwa kuwa zisizorejesheka kutoka kwa mifumo yetu ya msingi.",
+      "anonymizationTitle": "Kutokutambulisha kwa Uboreshaji:",
+      "anonymizationDescription": "Data isiyojulikana na iliyojumlishwa pekee (iliyoondolewa vitambulisho vyote vya kibinafsi) inatumiwa kuboresha miundo yetu ya AI. Maudhui yako ya mazungumzo ya kibinafsi, yanayotambulika hayatumiwi kwa madhumuni haya bila kutokujulikana.",
+      "scenario1Outro": "Ingawa hatua hizi hutoa ulinzi thabiti, kumbuka kila wakati kuwa hakuna mfumo usioweza kupenyezwa. Tunawahimiza watumiaji kuzingatia maelezo wanayoshiriki, kama wangefanya katika mawasiliano yoyote ya kidijitali.",
+      "scenario2Title": "Tukio la 2: Kuhifadhi Maelezo ya Wasifu (k.m., Dawa)",
+      "scenario2Question": "Unauliza: \"Ninatumia dawa fulani na ninataka kuzihifadhi katika wasifu wangu ili Mtaalamu wa Afya wa AI Carol awe na muktadha wa mazungumzo mapya. Je, data yangu inalindwaje ili AI pekee na hakuna binadamu wataweza kufikia?\"",
+      "scenario2Answer": "Jibu letu: Kuhifadhi maelezo ya dawa katika wasifu wako kunaweza kuboresha muktadha wa majibu ya AI. Hivi ndivyo data hiyo inalindwa:",
+      "profileSecurityTitle": "Usalama wa Data ya Wasifu:",
+      "profileSecurityDescription": "Kama vile data ya mazungumzo yako, maelezo yako ya wasifu, ikijumuisha orodha za dawa, inalindwa na usalama wa akaunti sawa (nenosiri, 2FA/3FA) na hatua za usimbaji (ukiwa umepumzika na unaposafiri).",
+      "accessControlsTitle": "Sera na Vidhibiti Vikali vya Ufikiaji:",
+      "accessControlsDescription": "Ufikiaji wa rekodi za hifadhidata ya mtumiaji na wafanyakazi wa VirtualMD.app unadhibitiwa kwa ukali, pekee kwa watu walioidhinishwa kwa mahitaji mahususi ya uendeshaji au usaidizi (k.m., kusaidia suala la akaunti unayoripoti), na kutawaliwa na sera za faragha za ndani na kumbukumbu. Uvinjari wa mara kwa mara wa data ya wasifu wa mtumiaji umepigwa marufuku.",
+      "aiAccessTitle": "Ufikiaji wa AI kwa Muktadha:",
+      "aiAccessDescription": "Watu wa AI, kama vile Mtaalamu wa Afya wa AI Carol, wanafikia sehemu zinazofaa za wasifu wako (kama vile orodha za dawa, ikiwa umezitoa) kwa utaratibu ili kutoa majibu yenye muktadha wakati wa mazungumzo yako. Ufikiaji huu ni sehemu ya mantiki ya uendeshaji ya AI ili kukuhudumia vyema zaidi.",
+      "techNoteTitle": "Kumbuka Kiufundi: Usimbaji fiche wa Data ya Mazungumzo",
+      "techNoteQuestion": "Uliuliza: \"Je, inawezekana kupiga ujumbe ili hata wanadamu wanaoendesha kampuni hawataweza kusoma (kama nywila) bila ruhusa ya wazi?\"",
+      "techNoteP1": "Hii inarejelea dhana kama vile usimbaji fiche kutoka mwanzo hadi mwisho (E2EE) ambapo ni mtumiaji wa mwisho pekee ndiye anayeshikilia ufunguo wa mwisho wa usimbuaji. VirtualMD.app hutumia <strong style={{fontWeight: 'bold'}}>usimbaji fiche wakati umepumzika</strong> kwa data zote nyeti, ikiwa ni pamoja na historia ya mazungumzo yako na maelezo ya wasifu, kwa kutumia algoriti dhabiti, za viwango vya sekta. Hii inamaanisha kuwa data iliyohifadhiwa katika hifadhidata zetu imesimbwa kwa njia fiche.",
+      "techNoteP2": "Ingawa kwa sasa hatutekelezi ufunguo mahususi wa mtumiaji wa mfumo wa E2EE wa data ya mazungumzo ambao utafanya isiwezekane kiufundi kwa wasimamizi wa mfumo walioidhinishwa kusimbua (sawa na huduma ngapi za wingu hufanya kazi), ufikiaji wa data iliyosimbwa kwa njia fiche umewekewa vikwazo vya juu sana, umeingia na kutawaliwa na usalama wa ndani na sera za faragha. Wafanyakazi wetu hawaruhusiwi kufikia maudhui ya mazungumzo yako ya faragha isipokuwa katika hali mahususi na zinazodhibitiwa, kama vile kujibu ombi la usaidizi wa moja kwa moja kutoka kwako kuhusu mazungumzo mahususi au inavyotakiwa na sheria. Mbinu hii inasawazisha usalama thabiti na mahitaji ya uendeshaji ya kudumisha na kusaidia jukwaa.",
+      "techNoteP3": "Nenosiri la akaunti yako, hata hivyo, linashughulikiwa kwa njia tofauti: linaharakishwa na kutiwa chumvi, kumaanisha kwamba hatuhifadhi nenosiri lako halisi na hatuwezi kulirejesha.",
+      "thirdPartyDataTitle": "Matumizi ya Data na Watoa Huduma wa Injini ya AI ya Wengine",
+      "thirdPartyDataQuestion": "Uliuliza pia: \"Je, API za injini za AI tunazotumia zinaweza kulindwa dhidi ya kutumiwa kwa mafunzo na (a) VirtualMD.app (b) OpenAI, (c) Anthropic...nk...? Au zote zimelindwa kama priori kwa chaguo-msingi?\"",
+      "thirdPartyDataAnswer": "Hiki ni kipengele muhimu cha utunzaji wetu wa data:",
+      "VirtualMDTrainingTitle": "(a) VirtualMD.app:",
+      "VirtualMDTrainingDescription": "Kama ilivyoelezwa katika Ahadi yetu ya Faragha, tunatumia tu data isiyojulikana na iliyojumlishwa kwa ajili ya uboreshaji wa ndani na mafunzo ya mifumo yetu ya umiliki na mantiki ya uratibu wa AI. Data yako ya kibinafsi au maudhui ghafi ya mazungumzo hayatumiwi kwa madhumuni haya bila kutokujulikana.",
+      "thirdPartyTrainingTitle": "(b, c, n.k.) Watoa Huduma za API za Wahusika Wengine (k.m., OpenAI, Anthropic):",
+      "thirdPartyTrainingDescription": "VirtualMD.app huchagua kwa uangalifu na kuunganishwa na watoa huduma wakuu wa mifano ya AI. Kwa huduma zinazofikiwa kupitia API zao (Violesura vya Kuandaa Programu), watoa huduma wakuu kama OpenAI na Anthropic wana sera za utumiaji wa data ambazo kwa kawaida zinasema kuwa data inayowasilishwa kupitia API zao HAITUMWI nao kutoa mafunzo kwa miundo ya msingi ya jumla. Tunasanidi matumizi yetu ya huduma hizi ili kupatana na chaguo hizi za kuhifadhi faragha. Tunakuhimiza pia ukague sera za matumizi ya data za watoa huduma hawa wa msingi wa AI ikiwa una matatizo mahususi.",
+      "outro": "Tumejitolea kuhakikisha kwamba mwingiliano wako sio tu wa maarifa bali pia unashughulikiwa kwa heshima ya faragha yako kwenye jukwaa letu na washirika wetu wa teknolojia."
+    },
+    "conclusion": {
+      "title": "7. Hitimisho & Mambo Muhimu ya Kuchukua",
+      "intro": "VirtualMD.app imejitolea kuwawezesha watumiaji na taarifa za afya zinazoweza kufikiwa na zinazoeleweka kupitia AI ya hali ya juu. Tunatanguliza usalama wa data yako ya kibinafsi kwa hatua madhubuti ikijumuisha uthibitishaji wa mambo mengi na usimbaji fiche. Ingawa tunajitahidi kupata viwango vya juu zaidi vya ulinzi wa data, mfumo wetu wa jumla si mbadala wa huduma ambazo zinatii HIPAA kwa ajili ya huduma ya moja kwa moja ya mgonjwa na watoa huduma mahususi wa afya. Watumiaji wanapaswa kuelewa tofauti hizi na kutumia VirtualMD.app kwa kuwajibika na kimaadili.",
+      "recapTitle": "Mambo Muhimu ya Kukumbuka:",
+      "privacyPriorityTitle": "Faragha Yako ni Kipaumbele:",
+      "privacyPriorityDescription": "Tunalinda data yako na hatutauza maelezo yako ya kibinafsi.",
+      "anonymizedDataTitle": "Data Isiyojulikana kwa Uboreshaji:",
+      "anonymizedDataDescription": "Tunatumia data isiyoweza kutambulika ili kuboresha huduma zetu za AI na jukwaa.",
+      "accountSecurityTitle": "Usalama thabiti wa Akaunti:",
+      "accountSecurityDescription": "Tunatoa 2FA (lazima) na 3FA (si lazima) kwa ulinzi wa akaunti, ikilinganishwa na huduma kuu za mtandaoni.",
+      "dataControlTitle": "Udhibiti wa Data:",
+      "dataControlDescription": "Unaweza kufuta kabisa mazungumzo na akaunti yako.",
+      "hipaaConsiderationsTitle": "Mazingatio ya HIPAA:",
+      "hipaaConsiderationsDescription": "Huduma ya jumla ya VirtualMD.app si Huluki Iliyofunikwa na HIPAA. Tunalinda data lakini tunatofautiana na utiifu rasmi wa HIPAA kwa huduma ya moja kwa moja ya mgonjwa na watoa huduma mahususi.",
+      "ethicalUseTitle": "Matumizi ya Kimaadili Yanahitajika:",
+      "ethicalUseDescription": "Usitumie kujidhuru/kudhuru wengine. Daima wasiliana na wataalamu wa afya kwa hali mbaya. Hatuwezi kutuma huduma za dharura.",
+      "outro": "Tunakuhimiza utumie VirtualMD.app kama zana madhubuti ya kujifunza na kugundua, kila wakati kwa kushirikiana na mwongozo kutoka kwa wataalamu wa afya waliohitimu. Uelewa wako wa sera hizi hutusaidia kudumisha mfumo salama, salama na unaofaa kwa kila mtu."
+    }
+  },
+  "imagingAIExplainer": {
+    "title": "Kuelewa AI katika Picha za Afya",
+    "subtitle": "Mwongozo rahisi wa jinsi kompyuta zinavyosaidia wataalam wa afya kuona kwa uwazi zaidi.",
+    "author": "Imefafanuliwa na: Ron Rubin, PhD (VirtualMD.app Technologies)",
+    "whatIsImaging": {
+      "title": "Picha za Afya (Picha) ni nini?",
+      "intro": "Fikiria picha za afya kama kuchukua picha ndani ya mwili wako. Wataalamu wa afya hutumia mashine maalum kutengeneza picha hizi, zikiwasaidia kuona mifupa, viungo, tishu na mishipa ya damu bila kufanyiwa upasuaji. Kwa mfano, X-ray ni bora kwa kuona mifupa ili kupata fracture, wakati CT scan hutoa mtazamo wa kina zaidi, wa sehemu mbalimbali wa kiungo kama ubongo.",
+      "typesIntro": "Aina za kawaida ni pamoja na:",
+      "types": {
+        "xrays": "<strong>X-rays:</strong> Nzuri kwa kuona miundo minene kama mifupa.",
+        "ctScans": "<strong>CT Scans:</strong> Kama vile x-ray ya kina, 3D, inayoonyesha \"vipande\" vya mwili.",
+        "mriScans": "<strong>Mchanganuo wa MRI:</strong> Hutumia sumaku zenye nguvu kupata picha wazi kabisa za tishu laini, kama vile ubongo, misuli, au mishipa.",
+        "ultrasound": "<strong>Ultrasound:</strong> Hutumia mawimbi ya sauti kuona viungo na, inayojulikana zaidi, kuangalia watoto wakati wa ujauzito.",
+        "microscope": "<strong>Slaidi za Hadubini:</strong> Sampuli za tishu ndogo hutazamwa kwa darubini ili kutambua magonjwa katika kiwango cha seli (Patholojia).",
+        "eyePhotos": "<strong>Picha za Macho:</strong> Picha maalum za sehemu ya ndani ya jicho ili kuchunguzwa kwa ajili ya hali kama vile kisukari retinopathy (Ophthalmology).",
+        "cameraScopes": "<strong>Vidonge/Upeo wa Kamera:</strong> Kamera ndogo hutumika kuangalia ndani ya mfumo wa usagaji chakula (Gastroenterology)."
+      },
+      "outro": "Picha hizi ni zana muhimu zinazosaidia wataalam wa afya kutambua magonjwa, kuangalia jinsi matibabu yanavyofanya kazi vizuri au kuchunguza matatizo yanayoweza kutokea mapema."
+    },
+    "whatIsAI": {
+      "title": "Akili Bandia (AI) ni nini?",
+      "intro": "AI kimsingi ni sayansi ya kufundisha kompyuta kufanya kazi ambazo kwa kawaida zinahitaji akili ya binadamu, kama vile kujifunza kutoka kwa mifano, kutatua matatizo, na kufanya maamuzi. Katika taswira ya afya, tunaweza kufikiria AI kama msaidizi mwerevu zaidi kwa wataalam wa afya.",
+      "process": "Inatumia programu maalum za kompyuta (algorithms) ambazo zimefunzwa kwenye maelfu, au hata mamilioni, ya picha za matibabu. Kwa kuchanganua kiasi hiki kikubwa cha data, AI hujifunza kutambua mifumo fiche—ambayo baadhi yake ni vigumu kwa macho ya binadamu kuona, au mifumo inayoonyesha uwezekano mkubwa wa ugonjwa fulani. Mchakato wa kimsingi ni kwamba data (picha) huingizwa kwenye AI, ambayo hutoa maarifa, kama vile kuripoti eneo linalotiliwa shaka."
+    },
+    "howAIHelps": {
+      "title": "Je, AI Inawezaje Kusaidia na Picha za Afya?",
+      "intro": "Utafiti wetu wa kisayansi unaonyesha njia kadhaa muhimu AI tayari kuleta mabadiliko:",
+      "accuracy": {
+        "title": "Kupata Matatizo kwa Usahihi Zaidi",
+        "description": "Wakati mwingine, dalili za mwanzo za ugonjwa zinaweza kuwa fiche sana na rahisi kukosa kwenye skanisho. AI inaweza kutenda kama jozi ya pili ya macho, ikiangalia kwa utaratibu kila sehemu ya picha na kuangazia maeneo ambayo yanahitaji uangalizi wa karibu. Kwa mfano, AI inaweza kuchora mduara kuzunguka nguzo ndogo ya seli kwenye mammogram ambayo inaweza kuwa kiashiria cha mapema cha saratani.",
+        "example": "<strong>Mfano:</strong> Katika uchunguzi wa matiti (X-rays ya matiti), utafiti mmoja ulionyesha AI ilisaidia kupata saratani zaidi ya 29% bila kuripoti watumiaji wenye afya zaidi kimakosa. Katika colonoscopies (kutafuta ukuaji unaoitwa polyps), AI ilisaidia wataalam wa afya kupata polipisi ambazo zinaweza kuwa kabla ya saratani kwa kuziangazia katika muda halisi kwenye mpasho wa video."
+      },
+      "speed": {
+        "title": "Kuharakisha Mambo",
+        "description": "Kusoma picha za matibabu, hasa zile changamano kama vile CT scan za mwili mzima, huchukua muda mwingi na umakini. AI inaweza kuongeza kasi ya mchakato huu. Inaweza kupanga mapema kesi, kualamisha zile muhimu zaidi kwa ukaguzi wa haraka, au kushughulikia kazi za uchunguzi wa kawaida ili kuokoa muda wa wataalamu.",
+        "example": "<strong>Mfano:</strong> Mfumo wa AI wa kuangalia picha za macho kwa dalili za uharibifu wa kisukari (retinopathy ya kisukari) unaweza kutoa matokeo mara moja katika kliniki ya huduma ya msingi. Hii ina maana kwamba wagonjwa hawahitaji kusubiri miadi na mtaalamu wa macho ili tu kuchunguzwa, na hivyo kusababisha huduma ya haraka kwa watu zaidi. Katika utafiti mwingine mkubwa, AI ilisaidia kupunguza muda wa radiologists alitumia kusoma mammogram kwa karibu nusu."
+      },
+      "consistency": {
+        "title": "Kufanya Utambuzi Kufanana Zaidi",
+        "description": "Hata kati ya wataalam, kunaweza kuwa na tofauti ndogo, za kibinafsi katika jinsi picha inavyofasiriwa. AI hutoa uchambuzi sanifu, wa lengo kila wakati, ambao husaidia kupunguza utofauti huu.",
+        "example": "<strong>Mfano:</strong> Unapoangalia sampuli za tishu chini ya darubini (patholojia), kubainisha \"daraja\" kamili ya uvimbe wakati mwingine kunaweza kuwa na utata. Mfumo wa AI, uliofunzwa kwenye data iliyoidhinishwa na jopo la wataalam, unaweza kutoa daraja thabiti, kuhakikisha kwamba matokeo yanalingana na yanategemewa kwa wataalam na vituo mbalimbali vya afya."
+      }
+    },
+    "challenges": {
+      "title": "Je, AI ni kamili?",
+      "intro": "Hapana, na ni muhimu kuelewa mapungufu yake. Ingawa AI ina nguvu, kuna changamoto muhimu za kushughulikia:",
+      "bias": "<strong>Uadilifu na Upendeleo:</strong> AI ni nzuri tu kama data ambayo imefunzwa. Ikiwa imefunzwa tu kwenye picha kutoka kwa kundi moja la watu, huenda isifanye kazi vizuri kwa wengine. Kuhakikisha data mbalimbali za mafunzo ni muhimu ili kuzuia upendeleo.",
+      "uncommonCases": "<strong>Kesi Zisizo za Kawaida:</strong> AI inafaulu katika kutambua mifumo ambayo imeona mara nyingi. Inaweza kukabiliana na magonjwa adimu au maonyesho yasiyo ya kawaida ambayo haijafunzwa.",
+      "teamwork": "<strong>Umuhimu wa Kazi ya Pamoja:</strong> Mbinu bora zaidi ni ushirikiano kati ya binadamu na AI. AI ni zana ya *kusaidia* wataalam wa afya kwa kushughulikia kazi zinazohitaji data nyingi, lakini haichukui nafasi ya uzoefu wao, huruma na uwezo wao wa kuelewa mtumiaji mzima.",
+      "regulation": "<strong>Usalama na Udhibiti:</strong> Kama kifaa chochote kipya cha afya, zana za AI zinahitaji majaribio makali, uthibitisho na ufuatiliaji unaoendelea ili kuhakikisha kuwa ni salama, zinafaa na zinatoa manufaa halisi kwa watumiaji.",
+      "outro": "Watafiti na wadhibiti wanafanya bidii kushughulikia changamoto hizi. Lengo ni kuunganisha AI katika huduma ya afya kwa usalama na kwa ufanisi ili kuboresha matokeo ya mgonjwa."
+    },
+    "conclusion": {
+      "title": "Kwa Ufupi",
+      "text": "AI inakuwa mshirika muhimu katika taswira ya afya, kusaidia wataalam wa afya kupata magonjwa mapema, haraka, na kwa uhakika zaidi. Ni kama kuwapa wataalamu wa afya uwezo wa kuona vizuri na msaidizi bila kuchoka kukagua picha tata, na hivyo kusababisha huduma bora kwa watumiaji."
+    }
+  },
+  "mentalHealthWhitepaper": {
+    "title": "AI katika Afya ya Akili: Maendeleo, Changamoto, na Maombi ya Kliniki",
+    "authors": "Ron Rubin, PhD na Sandy Miles",
+    "organization": "VirtualMD.app Technologies",
+    "disclaimer": {
+      "title": "Kanusho Muhimu",
+      "text": "Ingawa programu ya VirtualMD.app inatoa teknolojia ya kisasa ya AI kwa tathmini na usaidizi wa afya ya akili, ni muhimu kuelewa kwamba mifumo yetu ya AI, bila kujali ustadi wake, SIO mbadala wa wataalamu wa afya ya akili walioidhinishwa. Habari na maarifa yanayotolewa yanapaswa kutathminiwa kila wakati na watoa huduma wa afya waliohitimu. Katika dharura ya afya ya akili, tafadhali piga 911 (US), 999 (Uingereza), 112 (EU), 101 (Israel), au 911 (Kanada) mara moja, au nenda kwa idara ya dharura iliyo karibu nawe. Kwa masuala yoyote ya afya ya akili au maamuzi ya matibabu, daima wasiliana na watoa huduma wa afya ya binadamu waliohitimu. Teknolojia ya VirtualMD.app imeundwa ili kuongeza na kusaidia afya ya akili ya kitaalamu, wala si kuibadilisha."
+    },
+    "abstract": {
+      "title": "Muhtasari",
+      "text": "Karatasi hii inachunguza nafasi inayoendelea kwa kasi ya akili bandia katika huduma ya afya ya akili, ikiangazia maendeleo ya hivi majuzi, ushahidi wa ufanisi, na changamoto za utekelezaji. Tunakagua maendeleo katika vikoa vinne: usaidizi wa uchunguzi, maombi ya matibabu, ufuatiliaji wa wagonjwa na uchanganuzi wa kutabiri. Tafiti za hivi majuzi za kimatibabu zinaonyesha kuwa mifumo ya AI inaweza kufikia usahihi wa 80-92% katika kugundua mfadhaiko mkubwa kutoka kwa mifumo ya lugha na viashirio vya sauti, ilhali kanuni za maono ya kompyuta zinaweza kutambua hatari ya mawazo ya kujiua kwa unyeti wa 85% kwa kuchanganua sura za uso na harakati ndogo. Mitindo ya usindikaji wa lugha asilia iliyofunzwa kwenye mazungumzo ya kimatibabu huonyesha ahadi katika kutoa kanuni za tiba ya kitabia ya utambuzi, na majaribio yaliyodhibitiwa nasibu yanayoonyesha ufanisi kulinganishwa na wataalamu wa tiba ya binadamu kwa unyogovu wa wastani hadi wa wastani (Journal of Medical Internet Research, 2022). Mifumo ya ufuatiliaji inayotegemea simu mahiri inaweza kutambua dalili za mapema za kurudi tena katika ugonjwa mbaya wa akili hadi siku 7 kabla ya kuzorota kwa kliniki kudhihirika (JAMA Psychiatry, 2021). Licha ya maendeleo haya, changamoto kubwa zimesalia, ikiwa ni pamoja na upendeleo wa algorithm, uthibitishaji mdogo katika makundi mbalimbali, masuala ya faragha, na ujumuishaji katika utendakazi uliopo wa kimatibabu. Tunajadili masuala ya kimaadili, mifumo ya udhibiti, na mbinu za tathmini za AI ya afya ya akili. Ingawa teknolojia za AI zinaonyesha ahadi kubwa ya kupanua ufikiaji wa huduma ya afya ya akili na kuimarisha ufanisi wa matibabu, lazima iandaliwe na kutumwa ndani ya mfumo mpana ambao unatanguliza uthibitisho wa kimatibabu, mazingatio ya kimaadili, na utekelezaji unaozingatia binadamu ili kuboresha matokeo ya afya ya akili."
+    },
+    "introduction": {
+      "title": "Utangulizi",
+      "text": "Mzigo wa ugonjwa wa akili unatoa moja ya changamoto kubwa zaidi za afya ...",
+      "p1": "Mzigo wa ugonjwa wa akili hutoa moja ya changamoto kubwa zaidi za afya. Takriban mtu mzima mmoja kati ya watano duniani kote hupata matatizo ya afya ya akili kila mwaka, huku msongo wa mawazo pekee ukiathiri zaidi ya watu milioni 300 duniani kote (WHO, 2022). Wakati huo huo, uhaba wa wafanyakazi unaoendelea unapunguza upatikanaji wa huduma - Shirika la Afya Ulimwenguni linakadiria uhaba wa kimataifa wa wataalamu wa afya ya akili milioni 1.18. Pengo hili kati ya hitaji na rasilimali zinazopatikana limeongeza shauku katika suluhisho zinazotegemea teknolojia, haswa mifumo ya akili bandia (AI) ambayo inaweza kupanua ufikiaji na ufanisi wa huduma za afya ya akili.",
+      "p2": "Makutano ya AI na afya ya akili imeonyesha ukuaji wa ajabu katika muongo mmoja uliopita. Kutoka kwa zana za uchunguzi wa kiotomatiki na mawakala wa mazungumzo hadi uchanganuzi wa ubashiri wa kuzuia kurudi tena, matumizi ya AI katika magonjwa ya akili na saikolojia yamepanuka sana. Mageuzi haya yamewezeshwa na maendeleo katika uchakataji wa lugha asilia, kujifunza kwa mashine, uwezo wa kuona kwenye kompyuta, na kuenea kwa fursa za ubunifu wa kidijitali kupitia simu mahiri na vifaa vinavyoweza kuvaliwa.",
+      "p3": "Afya ya akili inatoa changamoto na fursa za kipekee za utekelezaji wa AI. Tofauti na taaluma nyingi za kimatibabu, tathmini ya kiakili hutegemea sana kuripoti kibinafsi, mienendo inayoonekana, mifumo ya lugha na vipengele vya muktadha badala ya vipimo vya maabara au taswira. Hili linapatana vyema na uwezo unaokua wa AI katika uelewaji wa lugha, utambuzi wa muundo katika data ya tabia, na uchanganuzi wa namna nyingi wa semi za kihisia.",
+      "p4": "Karatasi hii inatoa mapitio ya kina ya maombi ya sasa ya AI katika huduma ya afya ya akili, kuchunguza msingi wa ushahidi kwa ufanisi wao, mbinu za mbinu, changamoto za utekelezaji, na kuzingatia maadili. Tunapanga uchanganuzi wetu katika vikoa vinne vya msingi: mifumo ya usaidizi wa uchunguzi, maombi ya matibabu, ufuatiliaji wa wagonjwa na uchanganuzi wa utabiri wa kupanga matibabu. Katika kila eneo, tunatathmini hali ya sasa ya teknolojia, tunatoa muhtasari wa matokeo muhimu ya utafiti, na kutambua mapungufu muhimu ambayo yanahitaji uchunguzi zaidi.",
+      "p5": "Ni muhimu kutambua kwamba licha ya maendeleo makubwa, zana za AI katika afya ya akili zinakusudiwa kuongeza, sio kuchukua nafasi ya matabibu wa kibinadamu. Muungano wa kimatibabu kati ya mgonjwa na mtoa huduma unabaki kuwa kitovu cha huduma bora ya afya ya akili. Programu zinazoahidi zaidi huongeza AI kupanua uwezo wa watoa huduma, kuboresha ufanisi, kuwezesha uingiliaji kati mapema, na uwezekano wa kuongeza ufikiaji wa huduma inayotegemea ushahidi kwa watu ambao hawajahudumiwa."
+    },
+    "methods": {
+      "title": "Mbinu/Teknolojia",
+      "text": "Mifumo ya kisasa ya AI katika afya ya akili hutumia mbinu tofauti ...",
+      "p1": "Mifumo ya kisasa ya AI katika afya ya akili hutumia mbinu mbalimbali za mbinu, kila moja ikiwa na faida mahususi kwa matumizi tofauti ya kimatibabu. Misingi muhimu ya kiufundi ni pamoja na usindikaji wa lugha asilia (NLP), kujifunza kwa mashine (ML), maono ya kompyuta, na uchapaji wa kidijitali.",
+      "p2": "Usindikaji wa Lugha Asilia (NLP) huunda uti wa mgongo wa mifumo mingi ya AI ya afya ya akili, kuwezesha uchanganuzi wa maudhui ya lugha na mifumo ya mawasiliano. Miundo ya hali ya juu inayotegemea kibadilishaji kibadilishaji kama vile BERT (Uwakilishi wa Kisimbaji cha Bidirectional kutoka Transfoma) na vibadala vya GPT (Generative Pre-trained Transformer) huruhusu mifumo kutafsiri masimulizi ya kimatibabu, nakala za kipindi cha tiba na maandishi yanayozalishwa na mgonjwa yenye uelewa wa hali ya juu zaidi wa muktadha, hisia na maudhui ya kisaikolojia. Miundo hii inaweza kutambua viashirio vya kiisimu vinavyohusishwa na hali mahususi, kama vile uchangamano uliopunguzwa wa kisintaksia katika mfadhaiko au usumbufu wa kisemantiki katika matatizo ya akili. Mifumo ya hali ya juu zaidi ya kimatibabu ya NLP imesanifiwa vyema kuhusu shirika mahususi la afya ya akili, ikijumuisha maelezo ya kimatibabu ambayo hayakutambulisha, nakala za tiba na zana zilizothibitishwa za tathmini ya kisaikolojia.",
+      "p3": "Mbinu za Kujifunza kwa Mashine katika uainishaji unaosimamiwa wa muda wa afya ya akili (kwa ajili ya maombi ya uchunguzi), makundi yasiyodhibitiwa (ya kutambua mwelekeo mpya wa dalili), uimarishaji wa kujifunza (kwa uingiliaji wa kibinafsi), na kuongezeka, kujifunza kwa kina kwa ujumuishaji wa data nyingi. Data ya mafunzo kwa kawaida hujumuisha tathmini za kimatibabu zilizopangwa (k.m., PHQ-9 ya mfadhaiko, GAD-7 kwa wasiwasi), hatua za kitabia, ishara za kisaikolojia na data ya rekodi ya afya ya kielektroniki. Mbinu za uthibitishaji kwa ujumla hutumia uthibitishaji mtambuka wa k-fold na seti za majaribio ya nje, na utendakazi unaotathminiwa kwa kutumia unyeti, umaalumu, thamani za ubashiri chanya/hasi, na eneo chini ya mkondo wa tabia ya kipokezi (AUC-ROC).",
+      "p4": "Programu za Maono ya Kompyuta huchanganua sura za uso, mifumo ya gari, na tabia zisizo za maneno zinazohusiana na hali ya akili. Mitandao ya kimabadiliko ya neva na miundo ya muda (k.m., mitandao ya LSTM) inaweza kugundua misemo midogo, mifumo ya kutazama na mabadiliko ya kisaikolojia ambayo yanaweza kuonyesha hali ya kihisia au udhihirisho wa dalili. Mifumo hii ni muhimu sana kwa hali ambapo uchunguzi wa kitabia husaidia utambuzi, kama vile matatizo ya wigo wa tawahudi au dalili za katuni katika ugonjwa mbaya wa akili.",
+      "p5": "Phenotyping Dijiti inawakilisha mbinu ibuka inayotumia ukusanyaji wa data tulivu kutoka kwa simu mahiri na vifaa vinavyoweza kuvaliwa ili kutambua mifumo ya tabia inayohusishwa na hali ya akili. Mifumo hii huchanganua data ya eneo la kijiografia, viwango vya shughuli, mifumo ya kulala, marudio ya mawasiliano ya kijamii, mienendo ya uchapaji na sifa za sauti ili kuunda vialama dijitali vya hali ya afya ya akili. Mbinu hii huwezesha ufuatiliaji unaoendelea, wa ikolojia nje ya mipangilio ya kimatibabu, uwezekano wa kuruhusu ugunduzi wa mapema wa mabadiliko ya dalili.",
+      "p6": "Mifumo ya ujumuishaji inazidi kuchanganya mbinu nyingi kwa tathmini ya kina zaidi. Kwa mfano, mifumo inaweza kuchanganua maudhui ya lugha pamoja na sauti za sauti na sura za uso wakati wa mahojiano ya kimatibabu ili kuboresha usahihi wa uchunguzi. Vile vile, matumizi ya matibabu yanaweza kujumuisha uchanganuzi wa hisia wa ubadilishanaji wa maandishi na data ya ufuatiliaji wa hali ya juu ili kubinafsisha muda wa kuingilia kati na maudhui.",
+      "p7": "Mbinu za tathmini za mifumo ya AI ya afya ya akili ni pamoja na metriki za kitamaduni za usahihi wa uchunguzi (unyeti, umaalumu, AUC), tathmini za utumizi, na zaidi, hatua za matokeo ya kimatibabu kutoka kwa majaribio yanayotarajiwa. Viwango vya dhahabu vya kulinganisha hutofautiana kulingana na matumizi lakini kwa kawaida hujumuisha mahojiano ya kimatibabu yaliyopangwa, zana za tathmini zilizoidhinishwa, na uchunguzi wa makubaliano ya kitabibu. Tafiti nyingi za hivi majuzi hutumia miundo ya majaribio iliyodhibitiwa nasibu ili kutathmini utunzaji ulioboreshwa na AI dhidi ya matibabu kama kawaida.",
+      "p8": "Mbinu za kukokotoa za kuhifadhi faragha ni muhimu hasa katika matumizi ya afya ya akili kutokana na hali nyeti ya data ya kisaikolojia. Hizi ni pamoja na ujifunzaji wa shirikisho (ambapo miundo inafunzwa kwenye tovuti nyingi bila kuweka data kati), mbinu tofauti za faragha, na hesabu salama ya vyama vingi. Mbinu hizi husaidia kusawazisha hitaji la seti kubwa, tofauti za mafunzo na mahitaji ya maadili ya ulinzi wa data."
+    },
+    "results": {
+      "title": "Matokeo",
+      "diagnosticSupport": {
+        "title": "AI katika Usaidizi wa Uchunguzi",
+        "text": "Mifumo ya AI imeonyesha uwezo wa kuahidi katika kusaidia utambuzi wa afya ya akili ...",
+        "p1": "Mifumo ya AI imeonyesha uwezo wa kuahidi katika kusaidia utambuzi wa afya ya akili katika hali kadhaa. Zana hizi huchanganua vyanzo mbalimbali vya data ikiwa ni pamoja na mahojiano ya kimatibabu, majibu ya dodoso, mifumo ya usemi, sura ya uso na tabia ya kidijitali ili kutambua saini za tabia za matatizo ya kisaikolojia.",
+        "p2": "Katika utambuzi wa unyogovu, algoriti za NLP zinazochanganua vipengele vya lugha zimepata mafanikio makubwa. Utafiti wa 2021 katika JAMA Psychiatry ulitathmini mfumo wa NLP unaochanganua majibu ya maandishi bila malipo kwa vidokezo sanifu kati ya washiriki 4,216. Mfumo ulionyesha usikivu wa 87% na umaalumu wa 84% wa kugundua shida kuu ya mfadhaiko ikilinganishwa na mahojiano ya kliniki yaliyopangwa. Vipengele vinavyotabirika hasa vilijumuisha matumizi ya kiwakilishi cha pekee cha nafsi ya kwanza, maneno ya hisia hasi na utofauti wa lugha. Inapojumuishwa na uchanganuzi wa akustisk ya sauti (kunasa vipengele vya prosodic kama vile utofauti wa sauti na kasi ya kuzungumza), usahihi wa uchunguzi uliongezeka hadi 92%.",
+        "p3": "Vile vile, uchanganuzi wa kiotomatiki wa mifumo ya usemi na lugha umeonyesha ufanisi katika kugundua kasoro za utambuzi. Katika uchunguzi unaotarajiwa wa uthibitisho uliohusisha watu wazima 382, ​​mfumo wa AI unaochanganua upatanishi wa kisemantiki, uchangamano wa kisintaksia, na vipengele vya akustika wakati wa mahojiano mafupi yaliyopangwa ulipata usahihi wa 85% katika kutambua upungufu mdogo wa utambuzi, kulinganishwa na majaribio mafupi ya neurosaikolojia lakini inayohitaji tu sampuli ya hotuba ya dakika 3.",
+        "p4": "Kwa matatizo ya wasiwasi, mifumo mingi inayochanganya data ya kisaikolojia (kubadilika kwa kiwango cha moyo, shughuli za electrodermal) na hatua za tabia zimeonyesha manufaa fulani. Mfumo unaovaliwa unaofuatilia viashirio vya kibaolojia vinavyojiendesha wakati wa mifadhaiko sanifu uliainisha kwa usahihi ugonjwa wa wasiwasi wa jumla na usahihi wa 83% katika sampuli ya washiriki 189, huku utambuzi wa ugonjwa wa hofu ukifikia unyeti wa 88%.",
+        "p5": "Programu za maono ya kompyuta zimeonyesha ahadi kwa hali na vipengele vya tabia vinavyoonekana. Mfumo wa kina wa kujifunza unaochanganua sura za uso na mwelekeo wa harakati wakati wa mahojiano ya kimatibabu ulibainisha matatizo ya wigo wa tawahudi kwa usahihi wa 86% kwa watoto walio na umri wa miaka 3-6, uwezekano wa kuwezesha uchunguzi wa mapema katika mipangilio ya huduma ya msingi. Vile vile, uchambuzi wa rekodi za video kutoka kwa tathmini zilizopangwa umeonyesha usahihi wa 82% katika kugundua ugonjwa wa bipolar kulingana na tofauti za hila katika shughuli za magari na udhihirisho wa uso wakati wa manic dhidi ya awamu za huzuni.",
+        "p6": "Mbinu za upembuzi wa kidijitali, kuchanganua data ya simu mahiri, zimethibitishwa kuwa muhimu kwa ufuatiliaji wa hali. Entropy ya eneo (kubadilika kwa mifumo ya harakati), muda wa kulala, na marudio ya mawasiliano yameonyesha uwiano wa juu (r=0.71-0.84) na mizani ya ukadiriaji wa unyogovu, kuwezesha tathmini endelevu kati ya ziara za kimatibabu.",
+        "p7": "Muhimu zaidi, kazi ya hivi majuzi imelenga kushughulikia upendeleo wa algoriti na kuhakikisha utendakazi sawa katika makundi mbalimbali. Utafiti mkubwa wa uthibitishaji wa algoriti ya uchunguzi wa mfadhaiko kati ya washiriki 8,200 kutoka asili mbalimbali za rangi na kijamii na kiuchumi ulionyesha awali umahususi wa chini (73% dhidi ya 89%) kwa washiriki Weusi ikilinganishwa na washiriki weupe. Baada ya urekebishaji wa modeli na seti tofauti zaidi za mafunzo na viwango vya marejeleo vilivyorekebishwa kitamaduni, tofauti za utendakazi zilipunguzwa kwa kiasi kikubwa, huku umaalum ukiimarika hadi 85% katika vikundi vyote vya idadi ya watu.",
+        "p8": "Licha ya maendeleo haya, changamoto zimesalia katika maombi ya uchunguzi. Mifumo mingi imethibitishwa kimsingi katika mipangilio ya utafiti inayodhibitiwa badala ya mazingira tofauti ya kiafya. Zaidi ya hayo, wengi wameangazia uainishaji wa mfumo shirikishi (uwepo/kutokuwepo kwa hali) badala ya mkabala wa hali inayozidi kupendelewa katika mazoezi ya kisasa ya magonjwa ya akili. Juhudi za kushughulikia mapungufu haya ni pamoja na uundaji wa miundo ya uchunguzi ambayo hutathmini vipimo vya dalili katika mipaka ya kitamaduni ya uchunguzi, ikionyesha vyema ukweli changamano wa dhiki ya kisaikolojia."
+      },
+      "therapeuticApplications": {
+        "title": "AI katika Maombi ya Tiba",
+        "text": "Uingiliaji kati wa matibabu wa msingi wa AI kwa afya ya akili umeibuka kutoka kwa mifumo rahisi ya msingi ...",
+        "p1": "Uingiliaji kati wa matibabu unaotegemea AI kwa afya ya akili umetokana na mifumo rahisi inayotegemea kanuni hadi kwa mawakala wa kisasa wa mazungumzo wenye uwezo wa kutoa kanuni za matibabu zinazotegemea ushahidi. Maombi haya yanachukua wigo kutoka kwa matibabu ya kidijitali ya kiotomatiki hadi tiba ya binadamu iliyoboreshwa na AI.",
+        "p2": "Mifumo ya mazungumzo ya AI inayotekeleza kanuni za tiba ya kitabia ya utambuzi (CBT) imepitia tathmini kali zaidi. Katika jaribio la kihistoria lililodhibitiwa bila mpangilio lililochapishwa katika The Lancet Digital Health (2022), washiriki 1,032 walio na unyogovu wa wastani walipangiwa ama mpango wa CBT uliowasilishwa na AI au matibabu kama kawaida. Mfumo wa AI, ambao uliwashirikisha watumiaji katika mazungumzo ya kila siku ya maandishi yanayotekeleza mbinu za msingi za CBT, ulionyesha kupungua kwa takwimu katika alama za unyogovu za PHQ-9 katika wiki za 12 ikilinganishwa na kikundi cha udhibiti (tofauti ya wastani -2.85 pointi, 95% CI -4.07 hadi -1.63, p<0.001). Athari za matibabu zilidumishwa katika ufuatiliaji wa miezi 6. Hasa, viwango vya ufuasi wa programu ya AI (68% ya kukamilisha itifaki kamili) vilizidi viwango vya kawaida vya uingiliaji wa kidijitali unaojiongoza (kawaida 25-30%), na kupendekeza kiolesura cha mazungumzo kuboreshwa kwa ushiriki.",
+        "p3": "Kwa matatizo ya wasiwasi, wakala sawa wa mazungumzo anayetekeleza kanuni za tiba ya kukaribia aliyeambukizwa alionyesha ufanisi kwa ugonjwa wa wasiwasi wa jumla katika jaribio la washiriki 688. Mfumo huu, ambao uliwaongoza watumiaji kupitia viwango vya kukaribiana vilivyobinafsishwa vilivyo na ugumu wa kujirekebisha, ulipata punguzo kubwa la 25% katika alama za GAD-7 ikilinganishwa na vidhibiti vya orodha ya wanaosubiri, na madoido yakilinganishwa na CBT ya kikundi kinachoongozwa na mtaalamu katika tathmini ya baada ya matibabu. Uchanganuzi wa ufanisi wa gharama ulionyesha kuwa uingiliaji kati wa AI uligharimu takriban moja ya tano ya matibabu sawa yaliyotolewa na binadamu huku ikitoa manufaa sawa ya kimatibabu kwa kesi za wastani hadi za wastani.",
+        "p4": "Zaidi ya matatizo ya hisia na wasiwasi, matibabu ya AI yameonyesha ahadi kwa hali ikiwa ni pamoja na usingizi, ugonjwa wa mkazo wa baada ya kiwewe, na matatizo ya matumizi ya madawa ya kulevya. Mfumo wa uimarishaji wa kujifunza kwa tatizo la matumizi ya pombe, ambao uliwasilisha ujumbe wa motisha uliobinafsishwa kulingana na hali za hatari zilizotambuliwa, ulipunguza siku za unywaji zilizoripotiwa kibinafsi kwa 34% ikilinganishwa na maudhui tuli ya elimu katika jaribio la miezi 3 lililohusisha washiriki 352. Uwezo wa mfumo wa kutambua muda unaofaa zaidi wa kuingilia kati kulingana na data ya ufuatiliaji wa hali ya chini (k.m., data ya eneo inayoonyesha ukaribu wa maeneo ya kunywa mara kwa mara) ilionekana kuendeleza ufanisi wake.",
+        "p5": "Uboreshaji wa AI wa tiba ya binadamu pia umeonyesha thamani. Mfumo wa kufundisha tiba ambao ulichanganua nakala za kipindi ili kuwapa watabibu maoni ya utiifu na mapendekezo ya kuboresha uaminifu wa itifaki ya CBT kwa 32% na ulihusishwa na upunguzaji mkubwa wa dalili (ukubwa wa athari d=0.41) ikilinganishwa na tiba isiyo ya kawaida katika jaribio la nasibu. Madaktari waliripoti kwamba maoni ya AI yalisaidia kudumisha kuzingatia mbinu za msingi wa ushahidi na kutambua fursa za uingiliaji kati maalum ambao unaweza kukosa."
+      },
+      "patientMonitoring": {
+        "title": "AI katika Ufuatiliaji wa Mgonjwa na Uzuiaji wa Kurudi tena",
+        "text": "Maombi ya ufuatiliaji wa mara kwa mara yanawakilisha kikoa kinachoahidi hasa kwa AI katika afya ya akili...",
+        "p1": "Ufuatiliaji unaoendelea wa maombi huwakilisha kikoa kinachoahidi hasa kwa AI katika afya ya akili, kuwezesha ugunduzi wa mabadiliko ya dalili kati ya ziara za kliniki na uingiliaji wa mapema unaowezekana. Mifumo hii kwa kawaida hutumia vitambuzi vya simu mahiri, vifaa vinavyoweza kuvaliwa na mwingiliano wa watumiaji ili kuunda vialama vya kidijitali vya hali ya akili.",
+        "p2": "Kwa ugonjwa mbaya wa akili, ikiwa ni pamoja na skizofrenia na ugonjwa wa bipolar, utambuzi wa ishara za mapema umeonyesha manufaa muhimu ya kliniki. Katika uchunguzi unaotarajiwa wa miezi 12 wa watu 304 walio na skizofrenia, mfumo wa ufuatiliaji unaotegemea simu mahiri unaochanganua mifumo ya usemi, usingizi, uhamaji, na mwingiliano wa kijamii uligundua 89% ya kurudi tena kwa kisaikolojia kwa wastani wa siku 7.4 kabla ya kuzorota kwa kliniki kudhihirika wakati wa utunzaji wa kawaida. Ulipounganishwa na itifaki ya majibu ya kimatibabu, mfumo huu ulipunguza viwango vya kulazwa hospitalini kwa 28% ikilinganishwa na matibabu kama kawaida, na hivyo kupendekeza manufaa makubwa kwa wagonjwa na mifumo ya afya.",
+        "p3": "Mbinu sawa zimeonyesha ufanisi katika ugonjwa wa bipolar. Mfumo wa aina nyingi unaochanganua mifumo ya uchapaji, sauti za sauti, muda wa kulala, na viwango vya shughuli vilibainisha mwanzo wa matukio ya mvuto na mfadhaiko kwa usahihi wa 82% na 77% mtawalia, ukitoa wastani wa onyo la mapema la siku 4-6 kabla ya vizingiti vya kimatibabu kuvuka. Ilipotumiwa na mfumo jumuishi wa taarifa za kitabibu katika jaribio la nasibu la washiriki 397, mfumo wa ufuatiliaji ulihusishwa na muda mfupi wa kipindi na kupunguza ukali wa dalili ikilinganishwa na huduma ya kawaida.",
+        "p4": "Kwa ufuatiliaji wa unyogovu, mifumo inayochanganua tabia ya kidijitali imeonyesha uhusiano mkubwa na hatua za dalili za kimatibabu. Programu ya hisi inayokusanya data kuhusu mifumo ya matumizi ya simu mahiri, shughuli za kimwili, na tabia ya kijamii ilionyesha uwiano wa 0.82 na alama za PHQ-9 katika utafiti wa muda wa miezi 6 wa washiriki 211 walio na mfadhaiko wa mara kwa mara. Miundo ya mashine ya kujifunza iliyofunzwa kuhusu vipengele hivi vya kitabia ilitabiri mwelekeo wa dalili kwa usahihi wa kutosha ili kutofautisha utatuzi dhidi ya unyogovu unaozidi kuwa mbaya zaidi katika 76% ya matukio, ambayo yanaweza kuwezesha uingiliaji kati kwa wakati unaofaa.",
+        "p5": "Programu za ufuatiliaji wa matatizo ya kula zimetumia upigaji picha wa chakula na uchanganuzi wa maono ya kompyuta pamoja na data ya kitabia kufuatilia dalili na tabia hatarishi. Katika uchunguzi wa majaribio wa watu 157 walio na bulimia nervosa, mfumo wa AI unaochanganua maudhui ya mlo, mifumo ya ulaji, na viashirio vya fidia vya tabia ulibainisha kwa usahihi 83% ya matukio ya kurudi tena kwa msingi wa vialama vya kidijitali pekee, ukilinganisha vyema na hatua za kujiripoti. Ujumuishaji na uingiliaji wa wakati unaofaa ulionyesha ushahidi wa awali wa kupunguza vipindi vya utakaso mwingi kwa kutoa usaidizi katika sehemu muhimu za maamuzi.",
+        "p6": "Katika programu hizi zote, ushiriki wa mtumiaji na masuala ya faragha yamekuwa changamoto kuu. Tafiti zinazotekeleza ushiriki wa data unaodhibitiwa na mtumiaji, ufafanuzi wa algoriti kwa uwazi, na uonyeshaji wazi wa manufaa umefikia viwango vya juu zaidi vya ushirikishwaji, huku hadi 71% ya washiriki wakiendelea kutumia mara kwa mara kwa miezi 6+. Hasa, wasiwasi kuhusu faragha huonekana kupunguzwa watumiaji wanapotambua manufaa madhubuti ya afya na kudumisha udhibiti wa matumizi ya data."
+      }
+    },
+    "discussion": {
+      "title": "Majadiliano",
+      "text": "Ukaguzi wetu wa ushahidi wa sasa unaonyesha kuwa matumizi ya AI katika afya ya akili yameendelea kutoka kwa uwezekano wa kinadharia hadi zana zilizoidhinishwa kliniki na athari zinazoweza kupimika kwenye usahihi wa tathmini, utoaji wa matibabu, na ufuatiliaji wa hali. Mada kadhaa muhimu huibuka kutoka kwa matokeo ya pamoja.\n\nKwanza, mbinu za aina nyingi mara kwa mara hupita mifumo ya hali moja katika programu zote. Ujumuishaji wa uchanganuzi wa lugha, ufuatiliaji wa tabia, ishara za kisaikolojia, na maelezo ya muktadha huunda picha ya kina zaidi ya hali ya akili kuliko kipimo chochote cha mtu binafsi. Hii inaonyesha hali changamano, yenye pande nyingi za hali ya afya ya akili, ambayo hujitokeza katika nyanja za utambuzi, kihisia, kitabia na fiziolojia. Maendeleo yajayo yanapaswa kuendelea kusisitiza ujumuishaji wa vyanzo vya data vya ziada ndani ya mifumo madhubuti ya tathmini.\n\nPili, ushahidi unaunga mkono mfano wa mseto ambapo AI huongeza badala ya kuchukua nafasi ya matabibu wa kibinadamu. Utekelezaji uliofanikiwa zaidi nafasi ya AI kama kizidishi cha nguvu kwa utaalam wa kliniki-kupanua ufikiaji, kuboresha ufanisi, kuwezesha tathmini endelevu zaidi, na kusaidia mazoezi ya msingi wa ushahidi. Muungano wa kimatibabu kati ya mgonjwa na mtoa huduma unasalia kuwa kitovu cha huduma bora ya afya ya akili, na teknolojia inaonekana kuwa bora zaidi inapoimarishwa badala ya kujaribu kuchukua nafasi ya uhusiano huu.\n\nTatu, ubinafsishaji unaibuka kama jambo muhimu katika ufanisi. Hali za afya ya akili zinaonyesha tofauti kubwa katika uwasilishaji, maendeleo, na mwitikio wa matibabu. Mifumo ya AI yenye uwezo wa kukabiliana na wasifu wa dalili za mtu binafsi, mapendekezo ya kibinafsi, na mifumo ya majibu imeonyesha matokeo bora ikilinganishwa na mbinu za ukubwa mmoja. Hii inapatana na harakati pana kuelekea saikolojia ya usahihi, ambapo uingiliaji kati unalenga wasifu wa kibinafsi wa biopsychosocial.\n\nLicha ya maendeleo haya ya kuahidi, changamoto kubwa zimesalia katika kutafsiri maendeleo ya utafiti kuwa mazoezi ya kimatibabu. Vizuizi muhimu ni pamoja na:\n\nUpendeleo wa algorithmic na wasiwasi wa ujumuishaji wa jumla: Mifumo mingi imeundwa na kuthibitishwa kwa idadi ya watu walio sawa, na kuibua maswali kuhusu utendakazi katika vikundi tofauti vya idadi ya watu. Ushahidi wa awali unapendekeza baadhi ya algoriti hufanya kazi tofauti katika miktadha ya kitamaduni, jinsia na asili ya rangi/kabila. Ingawa kazi ya hivi majuzi imeanza kushughulikia tofauti hizi kupitia data wakilishi zaidi ya mafunzo na viwango vya marejeleo vilivyo na taarifa za kitamaduni, kuhakikisha utendakazi sawa bado ni changamoto inayoendelea.\n\nUshahidi mdogo wa muda mrefu: Ingawa tafiti za muda mfupi zinaonyesha matokeo ya kuahidi, kuna uhaba wa data ya ufuatiliaji wa muda mrefu juu ya ushirikiano endelevu, athari za matibabu ya kudumu, na matokeo yasiyotarajiwa ya afua za AI. Asili inayobadilika kwa kasi ya teknolojia ya AI inapita muda wa jadi wa utafiti wa kitabibu wa muda mrefu, na kuunda pengo la ushahidi linaloendelea.\n\nChangamoto za ujumuishaji: Kiufundi, mtiririko wa kazi, na vizuizi vya kitamaduni vinatatiza ujumuishaji wa zana za AI katika mifumo iliyopo ya kliniki. Utekelezaji wenye mafanikio unahitaji umakini kwa utendakazi wa kitabibu, ujumuishaji na rekodi za afya za kielektroniki, majukumu na wajibu wazi, mifumo ya dhima na miundo ya ulipaji. Maendeleo ya kiufundi ya kuvutia zaidi yanaweza kushindwa kutambua uwezo wao bila kuzingatia kwa makini vipengele hivi vya utekelezaji.\n\nMazingatio ya faragha na usalama: Data ya afya ya akili ni miongoni mwa taarifa nyeti zaidi za kibinafsi. Ingawa mbinu za kiufundi kama vile ujifunzaji wa shirikisho na ufaragha tofauti husaidia kushughulikia maswala haya, mifumo ya kina ya utawala ya usimamizi unaowajibika wa data katika AI ya afya ya akili bado haijakuzwa. Kusawazisha manufaa ya mbinu zinazoendeshwa na data na ulinzi thabiti wa faragha kunawakilisha changamoto inayoendelea.\n\nKutokuwa na uhakika wa udhibiti: Mazingira ya udhibiti wa AI katika afya ya akili bado yanaendelea. Mifumo ya sasa iliyoundwa kwa ajili ya vifaa vya jadi vya matibabu huenda isishughulikie ipasavyo sifa za kipekee za mifumo ya AI inayobadilika ambayo inaendelea kujifunza katika matumizi. Kukuza viwango vinavyofaa vya uthibitishaji, mahitaji ya ufuatiliaji, na kusasisha itifaki za mifumo ya kujifunza itakuwa muhimu kwa uvumbuzi unaowajibika.\n\nChangamoto hizi licha ya kuwa, ushahidi unaunga mkono uendelezaji wa maendeleo na utekelezaji wa tahadhari wa maombi ya AI ambayo yanaonyesha manufaa ya kiafya, hatua zinazofaa za usalama, na kuzingatia maadili. Uwezo wa kupanua ufikiaji wa huduma ya afya ya akili - haswa kwa watu ambao hawajahudumiwa wanaokabiliwa na uhaba wa watoa huduma - unatoa mantiki ya kulazimisha kwa uvumbuzi unaoendelea katika uwanja huu."
+    },
+    "conclusion": {
+      "title": "Hitimisho",
+      "text": "Utumiaji wa akili Bandia katika afya ya akili umeendelea kwa kiasi kikubwa katika muongo mmoja uliopita, kutoka kwa dhana za kinadharia hadi zana zilizoidhinishwa kliniki na zinaonyesha ufanisi katika usaidizi wa uchunguzi, utoaji wa matibabu, ufuatiliaji wa wagonjwa, na uchanganuzi wa kutabiri. Ushahidi uliopitiwa katika karatasi hii unaonyesha kuwa teknolojia hizi zina uwezo wa kweli wa kushughulikia changamoto muhimu katika huduma ya afya ya akili, ikiwa ni pamoja na mapungufu ya ufikiaji, vikwazo vya rasilimali, na haja ya mbinu za kuendelea na za kibinafsi za tathmini na kuingilia kati.\n\nKanuni kadhaa muhimu zinapaswa kuongoza maendeleo na utekelezaji wa siku zijazo. Kwanza, AI inapaswa kuongeza na kupanua utaalamu wa kliniki wa binadamu badala ya kujaribu kuchukua nafasi ya uhusiano muhimu wa matibabu kati ya mtoaji na mgonjwa. Pili, mbinu nyingi zinazojumuisha vyanzo mbalimbali vya data hutoa picha ya kina na sahihi zaidi ya hali ya afya ya akili. Tatu, uwezo wa ubinafsishaji unaolingana na mahitaji ya mtu binafsi, mapendeleo, na mifumo ya mwitikio ni muhimu katika kufikia matokeo bora. Nne, uzingatiaji makini wa uadilifu wa kanuni, uthibitishaji wa uwazi katika makundi mbalimbali, na ufuatiliaji unaoendelea wa uwezekano wa kupendelea ni muhimu kwa utekelezaji sawa.\n\nIngawa changamoto kubwa zimesalia—ikiwa ni pamoja na ujumuishaji katika utendakazi wa kimatibabu, ulinzi wa faragha, mifumo ya udhibiti, na uundaji wa ushahidi wa muda mrefu—manufaa yanayoweza kutokea yanahitaji kuendelea kwa utafiti na utekelezaji wa kimatibabu wa mifumo iliyoidhinishwa kwa uangalifu. Pengo la matibabu ya afya ya akili linaloathiri mamilioni ya watu ulimwenguni kote linahitaji mbinu bunifu zinazoweza kupanua ufikiaji wa utunzaji unaotegemea ushahidi.\n\nKuangalia mbele, tunatarajia maelekezo kadhaa ya kuahidi kwa uwanja. Ujumuishaji wa data ya jeni na data nyingine ya kibayolojia na hatua za kitabia na kisaikolojia inaweza kuwezesha ubainishaji sahihi zaidi wa wasifu wa mtu binafsi wa hatari na vitabiri vya majibu ya matibabu. Mbinu za ujifunzaji zilizoshirikishwa zinazowezesha maendeleo ya kielelezo katika taasisi zote bila kuweka data nyeti kati zinaweza kushughulikia masuala ya faragha huku kuwezesha seti tofauti zaidi za mafunzo zinazowakilisha. Miundo ya riwaya ya ushirikiano wa binadamu na AI ambayo huongeza uwezo husika wa matabibu na akili ya bandia inaweza kutoa matokeo bora ikilinganishwa na peke yake.\n\nKadiri teknolojia hizi zinavyoendelea kubadilika, kudumisha mtazamo uliosawazishwa ni muhimu—kukubali uwezo mkubwa wa AI kuboresha huduma ya afya ya akili na umuhimu wa kimsingi wa uhusiano wa kibinadamu, hekima ya kimatibabu, na mbinu zinazomlenga mtu. Kwa maendeleo ya kufikirika, uthibitisho mkali, na utekelezaji makini, AI ina uwezo wa kuwa chombo muhimu katika kushughulikia mzigo wa kimataifa wa magonjwa ya akili na kuendeleza lengo la kufanya huduma ya afya ya akili ipatikane kwa wote wanaohitaji."
+    }
+  },
+  "whyVirtualMD": {
+    "sections": {
+      "hero": {
+        "title": "VirtualMD.app",
+        "subtitle": "Fungua uwezo wako wa kiafya ukitumia VirtualMD.app. Wasiliana na waelekezi wa AI waliofunzwa katika Uzima wa Magharibi, Uzima wa Kichina wa Jadi, na sanaa zingine za ustawi—yote katika mazungumzo moja. Pata maarifa yanayokufaa 24/7 na udhibiti afya yako. Hii ni huduma ya afya, iliyofikiriwa upya."
+      },
+      "whyUs": {
+        "title": "Kwa Nini Uchague VirtualMD.app kwa Safari Yako ya Ustawi?",
+        "points": {
+          "personalTeam": {
+            "title": "Timu yako ya kibinafsi",
+            "text": "Chagua timu yako ya washauri wa afya wa AI. Chora maarifa kutoka kwa Uzima wa Magharibi, Ustawi wa Jadi wa Kichina, na utaalamu wa ziada wa afya."
+          },
+          "aiNavigator": {
+            "title": "Navigator yako ya Kibinafsi Inayoendeshwa na AI",
+            "text": "Urambazaji wako wa kibinafsi wa afya ya AI hukuongoza kwenye maarifa na mikakati inayofaa zaidi ya afya, ikitafsiri maarifa kutoka kwa washauri wetu maalum wa AI kuwa ushauri unaoweza kutekelezeka."
+          },
+          "empoweringChoices": {
+            "title": "Kuwezesha Uchaguzi wa Afya",
+            "text": "Pata mitazamo iliyo wazi, inayotekelezeka, inayokupa uwezo wa kufanya maamuzi sahihi kwa ajili ya ustawi wako."
+          },
+          "easyToUse": {
+            "title": "Rahisi Kutumia",
+            "text": "Jukwaa letu limeundwa kwa mwingiliano wa angavu. Ungana na miongozo ya AI na uchunguze njia za ustawi bila ugumu."
+          },
+          "advancedTechnology": {
+            "title": "Mapinduzi ya Juu ya Teknolojia",
+            "text": "Furahia programu yetu ya kisasa, iliyoundwa ili kuongeza maelewano kati ya udadisi wa binadamu na maarifa ya afya yanayoendeshwa na AI."
+          }
+        }
+      },
+      "features": {
+        "title": "Sifa Muhimu za Jukwaa",
+        "points": {
+          "dynamicEnsemble": {
+            "title": "Mkusanyiko wa AI wa Nguvu:",
+            "text": "AI yetu ya kupanga inachanganya maarifa kutoka kwa safu mbalimbali za miongozo maalum ya ustawi ya AI—iliyojumuisha Ustawi wa Magharibi, Ustawi wa Jadi wa Kichina, na zaidi—ili kushughulikia maswali yako mahususi kwa wakati halisi."
+          },
+          "holisticUnderstanding": {
+            "title": "Uelewa wa Jumla:",
+            "text": "AI yetu inafasiri vipengee mbalimbali—maandishi, au picha za maendeleo yako ya siha, au maingizo katika jarida la afya—kwa mitazamo ya kina, iliyojaa muktadha wa ustawi."
+          },
+          "rapidAccess": {
+            "title": "Ufikiaji wa Haraka kwa Miongozo ya AI:",
+            "text": "Unganisha papo hapo na mamia ya miongozo maalum ya ustawi wa AI na majibu ya sekunde ndogo."
+          },
+          "reliableInteractions": {
+            "title": "Mwingiliano wa Kuaminika:",
+            "text": "Ulinzi otomatiki wa usalama huhakikisha matumizi laini, yasiyokatizwa, hata kama mwongozo wa AI unahitaji muda kurekebisha tena."
+          },
+          "insightfulLogs": {
+            "title": "Kumbukumbu za Mwingiliano wa Utambuzi:",
+            "text": "Maingiliano ya kipindi yamewekwa ili kusaidia uboreshaji unaoendelea na ukuzaji wa maarifa ya viongozi wetu wa AI."
+          }
+        }
+      },
+      "technology": {
+        "title": "Teknolojia yetu ya Mapinduzi",
+        "description1": "VirtualMD.app hutumia mbinu za kisasa za ochestration. Mfumo wetu unahakikisha kuwa maswali yako yananufaika kutoka kwa kikundi cha waongozo wa AI, kutokana na ujuzi wa matibabu wa Magharibi, kanuni za Ustawi wa Kichina za Jadi, sayansi ya lishe, mbinu za kuzingatia, mikakati ya siha, na zaidi, ili kutoa mtazamo mpana zaidi.",
+        "description2": "Injini yetu ya juu ya hoja inachanganya maelezo kutoka kwa maingizo yako ya maandishi, kumbukumbu zinazoonekana, na data nyingine ya afya, ikitoa maarifa kamili ambayo mbinu za kitamaduni haziwezi kuigwa.",
+        "description3": "Kwa maktaba pana, inayofikika papo hapo ya miongozo ya ustawi wa AI na itifaki thabiti za mwingiliano, tunahakikisha ushirikishwaji thabiti na wa hali ya juu katika kikoa chochote.",
+        "description4": "Kila mwingiliano huwekwa kwa uangalifu, na hivyo kuimarisha uwazi na kulisha mageuzi endelevu ya ufanisi na ubora wa maarifa ya jukwaa."
+      },
+      "cta": {
+        "title": "Je, uko tayari Kubadilisha Ustawi Wako?",
+        "subtitle": "Jiunge na harakati ya <span>VirtualMD.app</span> na ugundue enzi mpya ya ufikiaji wa ushauri wa hali ya juu wa afya. Chukua hatua ya kwanza kuelekea kuwezeshwa zaidi, mwenye ujuzi, na mchangamfu zaidi. Gundua mitazamo tofauti ya AI na msingi wetu wa kina wa maarifa ya ustawi.",
+        "buttonText": "Anza Sasa"
+      }
+    }
+  },
+  "whitepapers": {
+    "downloadPdf": "Pakua PDF"
+  },
+  "dermatologyaiWhitepaper": {
+    "title": "kituo",
+    "downloadPdf": "Pakua PDF",
+    "generating": "Inazalisha...",
+    "pdfFilename": "DermatologyAIWhitePaperPage.pdf",
+    "content1": ");\n        currentY = addWrappedText(hati, kichwa, ukingo, currentY, contentWidth);\n        sasaY += 5;\n        doc.setFont(haijafafanuliwa, ",
+    "content2": "s urekebishaji (kuegemea kwa alama za kujiamini) na kuelezeka (uwezo wa kuangazia maeneo ya picha yanayofahamisha utambuzi).\n\nUratibu wa seti ya data hutoa changamoto za kipekee: tofauti za mwanga, nafasi na ubora wa picha zinaweza kuathiri pakubwa utendaji wa algoriti. Mifumo mingi imefunzwa kuhusu mkusanyo wa picha rejea kutoka kliniki za ngozi, ambayo huleta upendeleo unaowezekana wa wigo - huenda picha zisionyeshe mawasilisho mengi katika mipangilio ya huduma ya msingi. Miundo inayotokana hupitia uthibitisho kupitia seti za majaribio ya muda, uthibitisho wa nje kwenye hifadhidata huru, na zaidi kupitia tathmini tarajiwa za kimatibabu kulinganisha mapendekezo ya AI na maamuzi ya daktari wa ngozi na ukweli wa msingi wa historia.",
+    "content3": "s urekebishaji (kutegemewa kwa alama za kujiamini) na kuelezeka (uwezo wa kuangazia maeneo ya picha yanayofahamisha utambuzi).\n\nUratibu wa seti ya data hutoa changamoto za kipekee: tofauti za mwanga, nafasi na ubora wa picha zinaweza kuathiri pakubwa utendaji wa algoriti. Mifumo mingi imefunzwa kuhusu mkusanyo wa picha rejea kutoka kliniki za ngozi, ambayo huleta upendeleo unaowezekana wa wigo - huenda picha zisionyeshe mawasilisho mengi katika mipangilio ya huduma ya msingi. Miundo inayotokana hupitia uthibitisho kupitia seti za majaribio ya muda, uthibitisho wa nje kwenye hifadhidata huru, na zaidi kupitia tathmini tarajiwa za kimatibabu kulinganisha mapendekezo ya AI na maamuzi ya daktari wa ngozi na ukweli wa msingi wa historia.",
+    "content4": "s hoja na huelekeza umakini kwenye vipengele maalum vya kidonda vinavyohitaji uchunguzi wa karibu. Uchunguzi umegundua kuwa kutoa maelezo haya huongeza imani ya madaktari katika mapendekezo ya AI na kuboresha utendaji wa uchunguzi wa binadamu na AI.\n\nUshahidi unaoibuka unaonyesha AI inaweza kugundua melanoma katika hatua za awali kuliko inavyotambuliwa katika mazoezi ya kawaida. Katika uchanganuzi wa kurudi nyuma wa melanoma ambayo hapo awali ilitambuliwa kimakosa kama isiyofaa na madaktari wa ngozi lakini iliyoalamishwa kwa usahihi na AI, vidonda mara nyingi vilionyesha vipengele vya siri vilivyo chini ya kizingiti cha wasiwasi wa kiafya lakini vilihusishwa na mabadiliko mabaya ya mapema. Uwezo huu wa kutambua mapema unaweza kuboresha matokeo ya kuokoka, ingawa tafiti tarajiwa za kufuatilia matokeo ya muda mrefu ya kimatibabu bado zinaendelea.",
+    "content5": "s hoja na huelekeza umakini kwenye vipengele maalum vya kidonda vinavyohitaji uchunguzi wa karibu. Uchunguzi umegundua kuwa kutoa maelezo haya huongeza imani ya madaktari katika mapendekezo ya AI na kuboresha utendaji wa uchunguzi wa binadamu na AI.\n\nUshahidi unaoibuka unaonyesha AI inaweza kugundua melanoma katika hatua za awali kuliko inavyotambuliwa katika mazoezi ya kawaida. Katika uchanganuzi wa kurudi nyuma wa melanoma ambayo hapo awali ilitambuliwa kimakosa kama isiyofaa na madaktari wa ngozi lakini iliyoalamishwa kwa usahihi na AI, vidonda mara nyingi vilionyesha vipengele vya siri vilivyo chini ya kizingiti cha wasiwasi wa kiafya lakini vilihusishwa na mabadiliko mabaya ya mapema. Uwezo huu wa kutambua mapema unaweza kuboresha matokeo ya kuokoka, ingawa tafiti tarajiwa za kufuatilia matokeo ya muda mrefu ya kimatibabu bado zinaendelea.",
+    "content6": "Usahihi wa 1 wa juu ulifikia 85.9%.\n\nUtendaji thabiti umezingatiwa kwa hali tofauti kama vile psoriasis (usahihi wa 93.1%), chunusi vulgaris (90.4%), na ukurutu (88.7%). Masharti yenye mawasilisho ya hila au tofauti, kama vile milipuko ya madawa ya kulevya au hali ya awali ya kinga ya mwili, yalionyesha viwango vya chini vya usahihi (70-75%), kuonyesha maeneo yanayohitaji uboreshaji zaidi wa algoriti.\n\nInashangaza, mfumo wa miundo mingi ulioendelezwa na Google ambao ulijumuisha data ya picha na dalili zilizoripotiwa na mgonjwa ulionyesha maboresho zaidi, na kufikia usahihi wa 1 wa juu wa 93% katika hali 26 za kawaida. Ujumuishaji wa data isiyo ya picha ulithibitika kuwa muhimu sana kwa kutofautisha hali zinazofanana kwa mwonekano na dalili tofauti zinazohusiana, kama vile kutofautisha ugonjwa wa ngozi ya mguso na ugonjwa wa ngozi unaowasha kulingana na ukali ulioripotiwa wa kuwasha na historia ya kukaribiana.\n\nKatika dermatology ya watoto, ambapo upatikanaji wa wataalam ni mdogo sana, mifumo ya AI imeonyesha ahadi kwa hali ya kawaida ya ngozi ya utoto. Muundo maalum wa matibabu ya watoto ulipata usahihi wa 90.1% kwa hali ikiwa ni pamoja na ugonjwa wa ngozi ya atopiki, molluscum contagiosum, na alama za kuzaliwa za kawaida. Hasa, mfumo ulionyesha usikivu wa 95.2% wa kugundua ugonjwa wa mkono-mdomo wakati wa mlipuko, na kupendekeza matumizi yanayoweza kutumika katika ufuatiliaji wa afya ya umma.",
+    "content7": "Usahihi wa 1 wa juu ulifikia 85.9%.\n\nUtendaji thabiti umezingatiwa kwa hali tofauti kama vile psoriasis (usahihi wa 93.1%), chunusi vulgaris (90.4%), na ukurutu (88.7%). Masharti yenye mawasilisho ya hila au tofauti, kama vile milipuko ya madawa ya kulevya au hali ya awali ya kinga ya mwili, yalionyesha viwango vya chini vya usahihi (70-75%), kuonyesha maeneo yanayohitaji uboreshaji zaidi wa algoriti.\n\nInashangaza, mfumo wa miundo mingi ulioendelezwa na Google ambao ulijumuisha data ya picha na dalili zilizoripotiwa na mgonjwa ulionyesha maboresho zaidi, na kufikia usahihi wa 1 wa juu wa 93% katika hali 26 za kawaida. Ujumuishaji wa data isiyo ya picha ulithibitika kuwa muhimu sana kwa kutofautisha hali zinazofanana kwa mwonekano na dalili tofauti zinazohusiana, kama vile kutofautisha ugonjwa wa ngozi ya mguso na ugonjwa wa ngozi unaowasha kulingana na ukali ulioripotiwa wa kuwasha na historia ya kukaribiana.\n\nKatika dermatology ya watoto, ambapo upatikanaji wa wataalam ni mdogo sana, mifumo ya AI imeonyesha ahadi kwa hali ya kawaida ya ngozi ya utoto. Muundo maalum wa watoto ulipata usahihi wa 90.1% kwa hali ikiwa ni pamoja na ugonjwa wa ngozi ya atopiki, molluscum contagiosum, na alama za kuzaliwa za kawaida. Hasa, mfumo ulionyesha usikivu wa 95.2% wa kugundua ugonjwa wa mkono-mdomo wakati wa mlipuko, na kupendekeza matumizi yanayoweza kutumika katika ufuatiliaji wa afya ya umma.",
+    "content8": "Ulinganisho wa usahihi wa uchunguzi kati ya AI na madaktari wa ngozi katika hali 26 za kawaida za ngozi. Masharti yamepangwa kutoka kushoto kwenda kulia ili kupunguza kiwango cha maambukizi. Mfumo wa AI (paa za buluu) ulionyesha utendaji unaolinganishwa au bora kuliko wa madaktari wa ngozi (paa za chungwa) kwa hali nyingi. Chanzo: Liu Y, et al. Mfumo wa kujifunza kwa kina kwa utambuzi tofauti wa magonjwa ya ngozi. Dawa ya Asili. 2020;26(6):900-908."
+  },
+  "how-to-useWhitepaper": {
+    "downloadPdf": "Pakua PDF",
+    "generating": "Inazalisha...",
+    "pdfFilename": "Jinsi ya kutumia.pdf"
+  },
+  "imagingaiWhitepaper": {
+    "title": "kituo",
+    "downloadPdf": "Pakua PDF",
+    "generating": "Inazalisha...",
+    "pdfFilename": "ImagingAIWhitePaperPage.pdf",
+    "content1": ");\n        currentY = addWrappedText(hati, kichwa, ukingo, currentY, contentWidth);\n        sasaY += 5;\n        doc.setFont(haijafafanuliwa, ",
+    "content2": ");\n         currentY = addWrappedText(hati, maelezo mafupi, ukingo, sasaY, contentWidth);\n         sasaY += 20;\n         doc.setFont(haijafafanuliwa, ",
+    "content3": ", \n          ukingo, sasaY + 2, contentWidth);\n       sasaY += 5;\n       currentY = addWrappedText(hati, \n          ",
+    "content4": ", \n          ukingo, sasaY + 2, contentWidth);\n       sasaY += 5;\n       currentY = addWrappedText(hati, \n          ",
+    "content5": "X-ray ya kifua yenye ramani ya joto inayozalishwa na AI (nyekundu → manjano) inayoashiria kinundu cha mapafu kisichoonekana kwa urahisi kwenye ukaguzi wa awali wa mwanadamu. Chanzo: van Beek EJR, Ahn JS, Kim MJ, Murchison JT. Uthibitishaji wa kanuni ya kina ya kujifunza kwa ajili ya kugundua upungufu wa kifua kwenye radiografu ya kifua. Clin Radiol. 2023;78(1):1–7.",
+    "content6": "X-ray ya kifua yenye ramani ya joto inayozalishwa na AI (nyekundu → manjano) inayoashiria kinundu cha mapafu kisichoonekana kwa urahisi kwenye ukaguzi wa awali wa mwanadamu. Chanzo: van Beek EJR, Ahn JS, Kim MJ, Murchison JT. Uthibitishaji wa kanuni ya kina ya kujifunza kwa ajili ya kugundua upungufu wa kifua kwenye radiografu ya kifua. Clin Radiol. 2023;78(1):1–7.",
+    "content7": " kusoma mzigo wa kazi kwa 44% (itnonline.com), kwa kuruhusu msomaji mmoja badala ya wawili mara nyingi. Utafiti mwingine uligundua kuwa mfumo wa AI wa uchunguzi wa CT ya kifua wa matokeo ya papo hapo (kwa mfano, kutokwa na damu ndani ya fuvu, embolism ya pulmona) inaweza kufupisha kwa kiasi kikubwa muda wa taarifa ya matokeo muhimu, kusaidia kuweka kipaumbele kwa kesi za dharura. Katika majaribio mengi, AI kama kisomaji cha pili huwa na mwelekeo wa kuongeza usikivu wa ugunduzi wa vidonda (kupata matokeo ambayo wanadamu hukosa) huku ikidumisha umaalum unaokubalika (itnonline.com, pubmed.ncbi.nlm.nih.gov). Hata hivyo, AI inayojitegemea haina makosa - inaweza kuzalisha chanya za uwongo au kupuuza uwasilishaji adimu, kwa hivyo utekelezaji wa kimatibabu mara nyingi hutumia AI kuongeza, sio kuchukua nafasi, tafsiri ya mwanadamu.",
+    "content8": " kusoma mzigo wa kazi kwa 44% (itnonline.com), kwa kuruhusu msomaji mmoja badala ya wawili mara nyingi. Utafiti mwingine uligundua kuwa mfumo wa AI wa uchunguzi wa CT ya kifua wa matokeo ya papo hapo (kwa mfano, kutokwa na damu ndani ya fuvu, embolism ya pulmona) inaweza kufupisha kwa kiasi kikubwa muda wa taarifa ya matokeo muhimu, kusaidia kuweka kipaumbele kwa kesi za dharura. Katika majaribio mengi, AI kama kisomaji cha pili huwa na mwelekeo wa kuongeza usikivu wa ugunduzi wa vidonda (kupata matokeo ambayo wanadamu hukosa) huku ikidumisha umaalum unaokubalika (itnonline.com, pubmed.ncbi.nlm.nih.gov). Hata hivyo, AI inayojitegemea haina makosa - inaweza kuzalisha chanya za uwongo au kupuuza uwasilishaji adimu, kwa hivyo utekelezaji wa kimatibabu mara nyingi hutumia AI kuongeza, sio kuchukua nafasi, tafsiri ya mwanadamu.",
+    "content9": "Makubaliano ya kuweka alama (quadratic kappa ~0.77) yalikuwa sawa na wanapatholojia wenye uzoefu na hata walikaribia daraja la makubaliano katika hali ngumu (nature.com). Katika ugonjwa wa matiti, algoriti za kujifunza kwa kina katika changamoto ya CAMELYON zilipata utendaji wa karibu wa binadamu wa kugundua uvimbe wa metastatic katika nodi za limfu, huku baadhi zikifikia AUC> 0.99. Zana hizi zinaweza kutumika kama a "
+  },
+  "pathologyaiWhitepaper": {
+    "title": "AI katika Patholojia: Kuendeleza Usahihi wa Utambuzi na Ufanisi",
+    "subtitle": "Mapitio ya kina ya matumizi ya akili ya bandia katika ugonjwa wa anatomiki na kliniki",
+    "authors": {
+      "names": "Ron Rubin, PhD na Sandy Miles",
+      "organization": "VirtualMD.app Technologies",
+      "emails": {
+        "ron": "ronrubin@virtualmd.app",
+        "sandy": "sandymiles@virtualmd.app"
+      }
+    },
+    "downloadPdf": "Pakua PDF",
+    "generating": "Inazalisha...",
+    "pdfFilename": "VirtualMD_AI_Pathology_White_Paper.pdf",
+    "sections": {
+      "abstract": {
+        "title": "Muhtasari",
+        "content": "Akili ya Bandia (AI) imeibuka kama teknolojia ya mabadiliko katika ugonjwa, inayoonyesha uwezo wa kuboresha usahihi wa uchunguzi, uzazi, na ufanisi wa mtiririko wa kazi. Karatasi hii nyeupe inachunguza hali ya sasa ya AI katika ugonjwa kulingana na tafiti za hivi karibuni za uthibitishaji wa kliniki, vibali vya udhibiti, na utekelezaji wa ulimwengu halisi. Tunakagua maombi ya msingi ikiwa ni pamoja na utambuzi wa saratani, kuweka alama, tathmini ya ubashiri na uboreshaji wa mtiririko wa kazi. Matokeo muhimu ni pamoja na viwango vya unyeti vya 95-99% vya kugundua saratani katika mifumo mingi ya viungo, kupunguzwa kwa kiwango kikubwa kwa utofauti wa interobserver, na uwezekano wa kupunguza kwa kiasi kikubwa mzigo wa kazi. Ingawa utendaji wa kiufundi umefikia viwango vinavyokubalika kimatibabu kwa programu nyingi, changamoto za utekelezaji zimesalia ikiwa ni pamoja na masuala ya udhibiti, ujumuishaji wa mtiririko wa kazi, na hitaji la uthibitishaji unaoendelea. Tunatoa mapendekezo kulingana na ushahidi kwa idara za ugonjwa zinazozingatia kupitishwa kwa AI, tukisisitiza umuhimu wa uteuzi wa kesi za utumiaji kwa uangalifu, utekelezaji wa hatua na ufuatiliaji wa utendaji unaoendelea. Ushahidi unaonyesha kwamba AI itaongeza badala ya kuchukua nafasi ya wanapatholojia, ikitumika kama chombo chenye nguvu cha kuboresha uwezo wa utambuzi na kudhibiti mahitaji ya mzigo wa kazi."
+      },
+      "introduction": {
+        "title": "Utangulizi",
+        "content": "Uga wa ugonjwa unakabiliwa na changamoto ambazo hazijawahi kushuhudiwa: kuongezeka kwa idadi ya kesi, kuongezeka kwa utata wa vigezo vya uchunguzi, uhaba wa wafanyakazi, na shinikizo kwa nyakati za haraka za mabadiliko. Wakati huo huo, ustawi wa usahihi hudai uchanganuzi wa kina zaidi wa tishu, tathmini ya idadi ya alama za kibayolojia, na ujumuishaji wa matokeo ya kimofolojia na data ya molekuli. Kinyume na hali hii, akili ya bandia (AI) imeibuka kama suluhisho linalowezekana la kuboresha mazoezi ya ugonjwa.\n\nIngawa AI katika taswira ya matibabu imepokea uangalifu mkubwa, ugonjwa hutoa fursa na changamoto za kipekee. Tofauti na radiolojia ambapo AI huchanganua picha za anatomia isiyobadilika, patholojia AI lazima ifasiri sehemu za tishu za hadubini zinazowakilisha miundo changamano ya pande tatu iliyopunguzwa hadi slaidi za pande mbili. Kiasi kamili cha data ni cha kushangaza - picha moja ya slaidi nzima inaweza kuwa na mabilioni ya saizi, inayohitaji mbinu za kisasa za kukokotoa.\n\nKaratasi hii nyeupe inatoa mapitio ya kina ya maombi ya AI katika ugonjwa, ikilenga teknolojia ambazo zimepitia uthibitisho mkali wa kliniki. Tunachunguza msingi wa ushahidi, kujadili masuala ya utekelezaji, na kutoa mwongozo wa vitendo kwa idara za patholojia zinazotathmini kupitishwa kwa AI. Uchambuzi wetu unatokana na tafiti zilizopitiwa na marafiki, maamuzi ya udhibiti na data ya mapema ya utekelezaji wa ulimwengu halisi."
+      },
+      "methods": {
+        "title": "Mbinu/Teknolojia",
+        "content": "Mifumo ya kisasa ya AI ya patholojia hutumia usanifu wa kina wa kujifunza, kimsingi mitandao ya neural ya ushawishi (CNNs), kuchanganua picha za slaidi nzima zilizonakiliwa katika mwonekano wa juu (kawaida 20-40× ukuzaji). Mifumo hii imefunzwa kwenye mkusanyiko mkubwa wa data wa picha zilizo na lebo, mara nyingi huhitaji maelezo ya kitaalamu ya mwanapatholojia ili kubaini ukweli wa kimsingi. Mbinu mbili kuu za AI zinatumika: ujifunzaji unaosimamiwa kwa kutumia maelezo ya kiwango cha kanda au kiwango cha slaidi, na ujifunzaji usiosimamiwa vizuri ambao unahitaji uchunguzi wa kiwango cha kesi pekee. Mafunzo kwa kawaida huhusisha michakato ya hatua nyingi, kwanza kugundua maeneo ya kupendeza kwa ukuzaji wa chini, kisha kuainisha maeneo haya katika ukuzaji wa juu ili kutambua magonjwa maalum.\n\nVipimo muhimu vya utendakazi ni pamoja na unyeti (idadi ya chanya za kweli zilizotambuliwa kwa usahihi), umaalumu (idadi ya hasi halisi iliyotambuliwa kwa usahihi), eneo chini ya mkondo wa tabia ya kipokeaji (AUC), na hatua za makubaliano kama vile kappa ya Cohen. Uthibitishaji wa kimatibabu unahitaji upimaji kwenye hifadhidata huru kutoka kwa taasisi nyingi ili kuhakikisha ujanibishaji katika makundi mbalimbali ya wagonjwa, mbinu za utayarishaji wa tishu, na vifaa vya kuchanganua."
+      },
+      "results": {
+        "title": "Matokeo",
+        "digitalPathologyOverview": {
+          "title": "Muhtasari wa Patholojia ya Dijiti",
+          "content": "Patholojia ya kidijitali imepata ukuaji mkubwa, na soko la kimataifa linatarajiwa kufikia dola bilioni 1.4 ifikapo 2027. Kupitishwa kwa maabara kumeongezeka, haswa katika vituo vya matibabu vya kitaaluma na maabara za marejeleo ambapo vikwazo vya awali vya udhibiti vimeshindwa. Mnamo 2017, FDA ilifuta mfumo mzima wa kwanza wa kupiga picha za slaidi kwa uchunguzi wa kimsingi (Philips IntelliSite Pathology Solution), ikifuatiwa na vibali vya ziada ikiwa ni pamoja na Leica Aperio AT2 DX na Aperio GT 450 DX. Mifumo hii huunda miundombinu ya kidijitali muhimu kwa ugonjwa wa hesabu na matumizi ya AI.\n\nAI katika patholojia ilianza na matumizi yaliyolenga katika muktadha mdogo wa kihistoria lakini imepanuka ili kujumuisha aina nyingi za tishu na kazi za uchunguzi. Mbinu za kukokotoa zimebadilika vile vile kutoka kwa ujifunzaji wa mashine wa kitamaduni wenye vipengele vilivyobuniwa hadi ujifunzaji wa kina wa mwisho hadi mwisho wenye uwezo wa kutoa vipengele moja kwa moja kutoka kwa data ya pikseli. Seti za data za mafunzo zimeongezeka kutoka mamia hadi mamia ya maelfu ya slaidi, kuwezesha ujanibishaji thabiti zaidi katika idadi ya wagonjwa na hali za kuchanganua."
+        },
+        "cancerDetection": {
+          "title": "Utambuzi wa Saratani",
+          "content": "Katika patholojia ya oncologic, mifumo ya AI imeonyesha usahihi wa ajabu katika kuchunguza malignancies mbalimbali. Kwa saratani ya kibofu, Pantanowitz et al. ilitathmini algoriti ya AI (Paige Prostate) katika utafiti wa uthibitishaji wa tovuti nyingi unaohusisha slaidi 549 kutoka kwa wagonjwa 100. AI ilionyesha usikivu wa 98.8% na umaalum wa 97.3% wa kugundua saratani, na kuwashinda wanapatholojia wa jumla haswa katika kesi zenye changamoto (Lancet Digital Health, 2020). Vile vile, Campanella et al. ilibuni mbinu ya ujifunzaji isiyosimamiwa vizuri iliyofunzwa kwenye slaidi zaidi ya 15,000 za tezi dume ambayo ilipata AUC ya 0.98 ya utambuzi wa saratani (Tiba Asili, 2019).\n\nKwa saratani ya matiti, changamoto za CAMELYON zilitoa ushahidi muhimu kwa ufanisi wa AI katika kugundua metastases kwenye nodi za limfu. Mnamo CAMELYON16, kanuni bora zaidi ilipata AUC ya 0.994, na kuzidi utendakazi wa wanapatholojia wanaofanya kazi chini ya vizuizi vya muda (AUC 0.810) (JAMA, 2017). Mifumo hii hugundua seli za saratani ambazo zinaweza kukosa wakati wa ukaguzi wa mwongozo, haswa micrometastases na seli za tumor zilizotengwa.",
+          "content2": "Zaidi ya saratani hizi za kawaida, mifumo ya AI imetengenezwa kwa magonjwa mengine mengi mabaya. Katika ugonjwa wa mapafu, kanuni za ujifunzaji wa kina zinaweza kutofautisha adenocarcinoma na saratani ya squamous cell kwa usahihi wa 97% na kutambua mabadiliko ya kijeni (k.m. mabadiliko ya EGFR) kutoka kwa vipengele vya histomorphological (Saratani ya Asili, 2020). Katika patholojia ya rangi ya utumbo mpana, AI inaweza kugundua adenomas, kuainisha aina ndogo za historia, na kutambua hali ya kuyumba kwa satelaiti ndogo moja kwa moja kutoka kwa slaidi za H&E zenye usikivu unaozidi 95% (J Pathol, 2020).\n\nFaida za ugunduzi wa AI zinaenea zaidi ya unyeti. Uchunguzi unaonyesha mara kwa mara utofauti uliopunguzwa wa interobserver wakati wanapatholojia wana usaidizi wa AI. Kwa mfano, Steiner et al. ilionyesha kuwa usaidizi wa AI uliongeza makubaliano ya wanapatholojia kwa kiwango cha marejeleo kutoka 93.3% hadi 95.8% kwa utambuzi wa metastasis ya saratani ya matiti (Am J Surg Pathol, 2018). Uthabiti huu ulioongezeka una athari muhimu katika kuchunguza kesi za mpaka na kusawazisha huduma katika taasisi zote."
+        },
+        "gradingClassification": {
+          "title": "Upangaji na Uainishaji",
+          "content": "Zaidi ya ugunduzi wa saratani ya binary, mifumo ya AI imepata maendeleo makubwa katika kazi ngumu zaidi zinazohusisha uchapaji na upangaji alama. Hasa zaidi, uwekaji daraja otomatiki wa Gleason wa saratani ya tezi dume umekuwa lengo la utafiti wa kina kutokana na tofauti inayojulikana ya interobserver katika alama hii muhimu ya ubashiri. Bulten na wengine. ilitengeneza mfumo wa kina wa kujifunza unaotoa alama za kina za Gleason na utendakazi sawa na wataalam wa magonjwa ya mfumo wa mkojo wenye uzoefu (kappa = 0.62 dhidi ya 0.57) na unaokaribia kiwango cha wataalamu wa viungo vya uzazi (kappa = 0.73) (Lancet Oncology, 2020). Vile vile, Ström et al. iliripoti mfumo wa AI unaofanikisha upangaji wa kiwango cha mwanapatholojia na AUC ya 0.98 kwa kutofautisha maeneo yenye saratani na AUC ya 0.85-0.93 kwa kuainisha madaraja tofauti ya Gleason (IEEE TMI, 2020).\n\nKatika ugonjwa wa figo, mifumo ya AI imeundwa ili kuainisha aina ndogo ndogo za saratani ya seli ya figo kwa > usahihi wa 95% kwa aina nne zinazojulikana zaidi (Nat Mach Intell, 2019). Kwa vinundu vya tezi, AI inaweza kutofautisha sifa mbaya na mbaya zenye unyeti wa 90-99% kulingana na aina mahususi ya saratani ya tezi (JAMA Network Open, 2019). Maombi haya yanaenea zaidi ya uainishaji wa saratani - AI imeonyesha ahadi katika kuweka viwango vya magonjwa ya uchochezi (k.m., ukali wa ugonjwa wa matumbo ya uchochezi), kutathmini upenyezaji wa seli za kinga (tathmini ya mazingira ya tumor), na kupima vipengele vya mofolojia vinavyotabiri majibu ya matibabu."
+        },
+        "workflowOptimization": {
+          "title": "Uboreshaji wa mtiririko wa kazi",
+          "content": "Zaidi ya usahihi wa uchunguzi, AI inatoa uwezekano mkubwa wa uboreshaji wa mtiririko wa kazi ya patholojia. Uboreshaji muhimu wa mtiririko wa kazi ni ukaguzi wa mapema ili kutanguliza kesi na kupunguza muda unaotumika kwenye sampuli zisizo na madhara au za kawaida. Ho na al. ilionyesha kuwa uchunguzi wa awali wa AI kwa biopsies ya tezi dume unaweza kupunguza mzigo wa kazi wa mwanapatholojia kwa 30-50% huku ukidumisha usahihi wa uchunguzi (Mod Pathol, 2021). Vile vile, Da Silva et al. iligundua kuwa uchunguzi wa awali wa AI wa cytology ya seviksi unaweza kupunguza uhakiki wa mwongozo kwa hadi 40% (J Am Soc Cytopathol, 2021).\n\nKatika tathmini ya kiasi, mifumo ya AI huweka otomatiki kazi za mwongozo za kuchosha kama vile kuhesabu mitotiki, alama za uwiano wa uvimbe kwa PDL1, na ukadiriaji wa madoa ya immunohistokemikali. Kwa bao la Ki-67, Maeda et al. ilionyesha kuwa mfumo wa kiotomatiki wa AI ulipunguza muda wa tathmini kwa 83% huku ukidumisha au ukizidi usahihi wa kuhesabu kwa mikono (Sci Rep, 2021). Uendeshaji huu otomatiki husawazisha vipimo ambavyo kijadi vinakumbwa na utofauti mpana wa interobserver.\n\nKwa usaidizi wa uamuzi wa kimatibabu, mifumo ya AI inaweza kutambua kesi zinazohitaji utaalamu wa taaluma ndogo au masomo ya ziada. Chen na wengine. ilionyesha kuwa algoriti ya AI inaweza kudhibiti 98% ya kesi za kawaida huku ikiashiria 2% tu kwa ukaguzi wa mwanapatholojia mkuu, bila hasara katika usahihi wa uchunguzi (Nat Commun, 2022). Inapounganishwa na mifumo ya taarifa ya maabara, mbinu hizi zinaweza kupunguza kwa kiasi kikubwa nyakati za mabadiliko kwa kesi za kawaida huku ikihakikisha uhakiki ufaao wa kitaalamu wa kesi zenye changamoto."
+        }
+      },
+      "discussion": {
+        "title": "Majadiliano",
+        "content": "Ushahidi uliokusanywa unaonyesha kuwa AI imeendelea kutoka kwa dhana ya utafiti hadi teknolojia ya kiwango cha kliniki katika ugonjwa. Vipimo vya utendaji katika tafiti nyingi huonyesha unyeti na umaalum unaozidi 90% kwa programu nyingi, kushindana au kupita utendakazi wa binadamu katika kazi mahususi. Hata hivyo, masuala kadhaa muhimu yanaathiri tafsiri na utekelezaji wa matokeo haya.\n\nUmuhimu wa kiafya: AI huonyesha nguvu mahususi katika kazi zinazohusisha utambuzi wa muundo na ukadiriaji. Kwa ugunduzi wa saratani, unyeti wa AI mara nyingi huzidi ule wa wanapatholojia wa jumla, uwezekano wa kupunguza viwango vya utambuzi uliokosa. Katika utekelezaji unaotarajiwa, Pantanowitz et al. iliripoti kwamba AI iligundua foci kadhaa za saratani hapo awali ambazo walikosa na wanapatholojia, ikionyesha thamani yake kama \"mkaguzi wa pili\" (Lancet Digital Health, 2020). Kwa kazi za kuweka alama, AI hutoa matokeo thabiti zaidi kuliko wataalam wa magonjwa ya mtu binafsi, kupunguza utofauti ambao unaweza kuathiri usimamizi wa mgonjwa.\n\nAthari ya mtiririko wa kazi: Muda wa mwanapatholojia ni rasilimali inayozidi kuwa ndogo, na kufanya ufanisi wa mtiririko wa kazi kuwa muhimu. Uchunguzi unaonyesha kuokoa muda wa 30-60% kwa kazi mbalimbali wakati wa kutumia msaada wa AI. Hii inatafsiri kwa manufaa ya vitendo - idara ya patholojia inayoshughulikia kesi 100 za tezi dume kila wiki inaweza kuokoa saa 15-30 za mwanapatholojia, ikiruhusu kuzingatia kesi ngumu zinazohitaji utaalamu wa binadamu.\n\nTofauti za Interobserver: Ugunduzi thabiti katika tafiti zote hupunguzwa utofauti wakati AI inawasaidia wanapatholojia. Kwa upangaji wa daraja la Gleason, makubaliano ya interrobserver kwa kawaida huongezeka kutoka thamani za kappa za 0.5-0.6 (makubaliano ya wastani) hadi 0.7-0.8 (makubaliano makubwa) kwa usaidizi wa AI (Lancet Oncol, 2020). Uthabiti huu ulioboreshwa una athari muhimu kwa kusawazisha matibabu katika mipangilio tofauti ya mazoezi.\n\nLicha ya matokeo haya ya kuahidi, mapungufu muhimu yanastahili kuzingatiwa. Ujumla unasalia kuwa jambo la msingi - Mifumo ya AI iliyofunzwa data kutoka kwa taasisi mahususi au idadi ya wagonjwa inaweza isifanye vizuri katika mazingira tofauti. Mambo ya kiufundi kama vile utayarishaji wa slaidi, itifaki za uwekaji madoa, na sifa za skana zinaweza kuathiri utendakazi wa AI. FDA imetambua changamoto hizi, ikipendekeza uthibitisho wa tovuti nyingi kwa mifumo ya AI inayotafuta kibali cha udhibiti.\n\nUpendeleo wa seti ya data ni suala lingine muhimu. Algorithms nyingi zimefunzwa kwa idadi ya watu wa Magharibi na zinaweza kufanya vibaya katika makabila mengine yenye mawasilisho tofauti ya magonjwa. Kwa mfano, saratani ya tezi dume mara nyingi huwasilisha mifumo tofauti ya kimofolojia katika wanaume wa Kiafrika ikilinganishwa na wanaume wa Caucasia, ambayo inaweza kuathiri utendaji wa algorithm ya AI ikiwa haijawakilishwa vya kutosha katika data ya mafunzo.\n\nUangalizi wa udhibiti wa ugonjwa wa AI unaendelea kubadilika. FDA imefuta vifaa kadhaa vya patholojia vinavyotegemea AI kupitia njia za De Novo na 510(k), na kuanzisha mfano wa utekelezaji wa kimatibabu. Uidhinishaji wa FDA wa 2021 wa Paige Prostate uliashiria hatua muhimu kama mfumo wa kwanza wa ugonjwa wa AI ulioidhinishwa kwa matumizi ya msingi ya uchunguzi. Hata hivyo, mifumo mingi inafutwa kama kanuni \"zilizofungwa\" ambazo haziwezi kujifunza au kubadilika baada ya kutekelezwa, hivyo basi kuleta changamoto za kudumisha utendaji kadri mifumo ya mazoezi inavyobadilika.\n\nKuunganishwa na mtiririko wa kazi uliopo wa maabara huwasilisha vizuizi vya utekelezaji wa vitendo. Kupitishwa kwa patholojia ya kidijitali, ingawa inakua, bado haijakamilika katika mfumo wa huduma ya afya. Mifumo ya AI inahitaji kuunganishwa na mifumo ya habari ya maabara na majukwaa yaliyopo ya patholojia ya dijiti. Zaidi ya hayo, wanapatholojia wanahitaji mafunzo ili kujumuisha matokeo ya AI katika mchakato wao wa uchunguzi, kutafsiri alama za uwezekano na ramani za joto ipasavyo.\n\nKama ilivyo kwa teknolojia yoyote inayoibuka, data ya ufanisi wa gharama inasalia kuwa ndogo. Utekelezaji wa awali unahitaji uwekezaji mkubwa katika miundombinu ya kidijitali, lakini manufaa ya muda mrefu yanaweza kujumuisha viwango vilivyopunguzwa vya makosa, nyakati za urejeshaji haraka na utumiaji bora wa rasilimali. Mbinu za urejeshaji wa huduma za patholojia zinazosaidiwa na AI bado zinaendelea, na hivyo kusababisha kutokuwa na uhakika kuhusu uendelevu wa kifedha wa teknolojia hizi."
+      },
+      "conclusion": {
+        "title": "Hitimisho",
+        "content": "Upelelezi wa Bandia una mazoezi ya hali ya juu ya ugonjwa, na ushahidi unaoongezeka kwamba mifumo ya AI inaweza kufikia utendaji wa kiwango cha utaalamu katika kazi mahususi za uchunguzi. Ushahidi wenye nguvu zaidi upo kwa ajili ya maombi katika patholojia ya oncologic, hasa saratani ya kibofu na matiti, ambapo mifumo iliyoondolewa na FDA imeingia katika mazoezi ya kliniki. AI huonyesha uwezo fulani katika kushughulikia changamoto zinazojulikana katika ugonjwa: inapunguza utofauti wa interobserver, huongeza ugunduzi wa matokeo ya hila, kusawazisha tathmini za kiasi, na kuboresha ufanisi wa kazi.\n\nMpito kutoka kwa utafiti hadi utekelezaji wa kimatibabu unaongezeka, ukiungwa mkono na mfumo unaokua wa udhibiti na uzoefu wa kitaasisi. Walakini, ujumuishaji uliofanikiwa unahitaji umakini wa kiufundi, mtiririko wa kazi, na uthibitishaji. Kwa matokeo bora, AI inapaswa kutekelezwa kama teknolojia ya usaidizi wa mwanapatholojia badala ya mfumo wa uchunguzi unaojitegemea kwa programu nyingi. Ushirikiano wa mwanapatholojia-AI huongeza nguvu za ziada za utaalamu wa binadamu na uwezo wa kukokotoa.\n\nMaelekezo ya siku zijazo yanajumuisha matumizi yaliyopanuliwa kwa huluki adimu, tathmini ya ubashiri ya alama za kibayolojia, na ujumuishaji na data ya jeni na molekuli. Uhakikisho wa ubora wa wakati halisi, kupunguzwa kwa tofauti za uchunguzi, na kukabiliana na mifumo ya mazoezi inayoendelea inawakilisha malengo muhimu. Ushahidi uliopitiwa unaunga mkono uwekezaji unaoendelea katika mifumo ya AI ya patholojia na uthibitisho mkali na utekelezaji wa kufikiria. Kwa maendeleo sahihi ya kiufundi, uthibitishaji, na ushirikiano katika utiririshaji wa kliniki, AI ina uwezo wa kuimarisha kwa kiasi kikubwa ubora na ufanisi wa uchunguzi wa patholojia."
+      },
+      "references": {
+        "title": "Marejeleo",
+        "list": ""
+      },
+      "figures": {
+        "figure1": {
+          "title": "Kielelezo 1. Mzingo wa ROC: Mfumo wa Uainishaji wa Saratani ya Prostate AI",
+          "caption": "Chanzo: Bulten W, Pinckaers H, van Boven H, et al. Mfumo wa kiotomatiki wa kujifunza kwa kina kwa uwekaji daraja wa Gleason wa saratani ya kibofu kwa kutumia biopsies: uchunguzi wa uchunguzi. Lancet Oncol. 2020;21(2):233-241."
+        },
+        "figure2": {
+          "title": "Kielelezo 2. Usikivu na Umaalumu katika Mafunzo ya AI muhimu ya Patholojia",
+          "caption": "Vyanzo: Campanella G, et al. Nat Med. 2019;25(8):1301-1309; Pantanowitz L, na wengine. Lancet Digit Afya. 2020;2(8):e407-e416; Ehteshami Bejnordi B, na wenzake. JAMA. 2017;318(22):2199-2210."
+        },
+        "figure3": {
+          "title": "Kielelezo 3. Muda Wastani wa Utambuzi: Mwongozo vs AI-Kusaidiwa Patholojia",
+          "caption": "Chanzo: Ho D, Quake SR, McCabe ERB, et al. Uwezeshaji wa Teknolojia kwa Dawa Iliyobinafsishwa na Usahihi. Mitindo ya Biotechnol. 2020;38(5):497-518."
+        },
+        "figure4": {
+          "title": "Kielelezo 4. Ramani ya joto ya AI Inaangazia Seli za Saratani katika Biopsy ya Prostate",
+          "caption": "Slaidi ya kibofu cha kibofu iliyochambuliwa na mfumo wa AI unaoangazia maeneo yenye seli za saratani (nyekundu → kiwango cha manjano). Ramani ya joto huvutia umakini kwa foci ndogo ya adenocarcinoma ambayo inaweza kupuuzwa wakati wa ukaguzi wa kawaida. Chanzo: Pantanowitz L, et al. Algorithm ya akili ya bandia ya utambuzi wa saratani ya tezi dume katika picha nzima za slaidi za biopsies ya msingi ya sindano: uthibitisho wa kliniki uliopofushwa na utafiti wa kupelekwa. Lancet Digit Afya. 2020;2(8):e407-e416."
+        }
+      }
+    }
+  },
+  "simplybetterWhitepaper": {
+    "downloadPdf": "Pakua PDF",
+    "generating": "Inazalisha...",
+    "pdfFilename": "SimplyBetter.pdf"
+  },
+  "introPopup": {
+    "greeting": "Habari! Mimi ni AI Aileen Carol, mshauri wako wa afya wa AI katika VirtualMD.app.",
+    "welcomeMessage": "Habari! Mimi ni AI Aileen Carol, mshauri wa afya pepe katika VirtualMD.app. Tunawezeshwa na AI za hivi punde za kimapinduzi, iliyoundwa na waanzilishi wetu ili kutoa taarifa bora zaidi za matibabu zinazopatikana. Washauri wetu wa mtandaoni hujifunza kukuhusu kwa kuzungumza nawe kuhusu matatizo yako. Kisha tunakuletea maelezo ya matibabu ambayo ni ya kisasa na yako ya kipekee.",
+    "welcomeMessageShort": "Hapa, hutapitia jargon ya matibabu—badala yake, timu yetu pepe ya washauri wa afya huanza kwa kuzungumza nawe, kujifunza kuhusu historia yako, wasiwasi wako na malengo yako.",
+    "meetTheTeam": "Ninasubiri kukutambulisha kwa wataalamu wetu wa VirtualMD.app:",
+    "specialists": {
+      "cardiology": "Mshauri wa Utaalam wa Magonjwa ya Moyo - karibuni zaidi katika afya ya moyo",
+      "oncology": "Mshauri wa Kansa halisi - maswali muhimu kwa daktari wako",
+      "andMore": "Na wataalam wengi zaidi pepe katika - tiba ya utambuzi ya tabia, afya ya ngono, ngozi, mifupa, mimea ya Kiafrika..."
+    },
+    "disclaimer": {
+      "title": "KANUSHO:",
+      "mainText": "KWA SABABU SISI SI WATAALAM WA AFYA YA BINADAMU, BALI WASHAURI WA AI, NI MUHIMU KUELEWA YAFUATAYO:",
+      "promiseIntro": "Ushauri wetu ni wa habari, sio wa kiafya. Sisi si watoa huduma za matibabu wenye leseni.",
+      "fullText": "MIMI, NA WENGINE WA TIMU YA VIRTUAL KATIKA VIRTUALMD.APP, SIO WATOA TIBA AMBAO WANA LESENI. Sisi ni AI. AI inaweza kuwa nzuri wakati mwingine…na mara nyingi sio kamilifu. Kwa hivyo tafadhali chukulia ushauri wetu kama wa habari, sio wa kiafya. Ili ufanye kazi nasi, lazima utoe ahadi.",
+      "shortText": "Sisi ni AI, sio watoa huduma za matibabu wenye leseni. Tafadhali chukulia ushauri wetu kama wa habari, sio wa kiafya. Lazima utoe ahadi."
+    },
+    "promise": "Utawasiliana na mtaalamu wa afya ya binadamu kila mara kabla ya kuchukua hatua kuhusu taarifa zozote za afya utakazopokea hapa.",
+    "promiseButton": "Naahidi",
+    "dontShowAgain": "Usionyeshe hii tena",
+    "languageTitle": "Tafadhali Chagua Lugha Yako",
+    "languageSelectLabel": "Chagua Lugha",
+    "welcome": {
+      "greeting": "Habari! Mimi ni Aileen Carol.",
+      "explanation": "Wenzangu na mimi ni aina mpya ya mshauri wa afya katika VirtualMD.app. Sisi ni timu ya wataalamu wa AI, waliofunzwa kuhusu mikakati ya hivi punde, ya kiwango cha kimataifa ya afya bora na siha bora, inayoshughulikia maeneo yote ya dawa. Kama mashine pepe, tunapatikana kwa ajili yako 24/7, bila malipo kabisa. Hii inakuja na faida za ajabu, lakini pia vikwazo vingine muhimu ..."
+    },
+    "mobile": {
+      "simply": "Kwa urahisi",
+      "better": "Bora zaidi",
+      "health": "Afya",
+      "tagline": "Mwongozo wa Afya na Ustawi Uliobinafsishwa",
+      "poweredByAI": "Inaendeshwa na AI",
+      "welcomeTitle": "Karibu! Mimi ni Aileen Carol, mshauri wako wa afya pepe.",
+      "welcomeTeamIntro": "Ninaongoza timu ya wataalam wa afya ya AI tayari kusaidia na:",
+      "specialties": {
+        "heart": "Afya ya moyo",
+        "cancer": "Msaada wa saratani",
+        "children": "Afya ya watoto",
+        "mental": "Afya ya akili",
+        "healthSystem": "Kuelekeza mfumo",
+        "andMore": "Na 50+ maalum zaidi"
+      },
+      "available247": "Inapatikana 24/7",
+      "disclaimerText": "Sisi si watoa huduma za matibabu wenye leseni. Sisi ni AIS halisi, ambayo ina maana kwamba tunafanya makosa. Ushauri wetu ni wa habari, sio wa kiafya.",
+      "promiseText": "Utawasiliana na mtaalamu wa afya ya binadamu kila mara kabla ya kuchukua hatua kuhusu taarifa zozote za afya utakazopokea hapa."
+    }
+  },
+  "faqPage": {
+    "title": "Maswali Yanayoulizwa Mara Kwa Mara",
+    "subtitle": "Pata majibu kwa maswali ya kawaida kuhusu VirtualMD.app",
+    "faq1": {
+      "question": "VirtualMD.app ni nini?"
+    },
+    "questions": {
+      "whatIsVirtualMD": "VirtualMD.app ni nini?",
+      "replacementForDoctor": "Je, VirtualMD.app ni mbadala wa daktari wangu?",
+      "howItWorks": "Ushauri wa AI hufanyaje kazi?",
+      "healthInfoSecure": "Je, maelezo yangu ya afya ni salama?",
+      "tryWithoutAccount": "Je, ninaweza kujaribu VirtualMD.app bila kuunda akaunti?",
+      "supportedLanguages": "Lugha gani zinaungwa mkono?",
+      "uploadDocuments": "Je, ninaweza kupakia picha za matibabu au hati?",
+      "aiAccuracy": "Ushauri wa matibabu wa AI ni sahihi kwa kiasi gani?",
+      "conversationHistory": "Je, ninaweza kufikia historia ya mazungumzo yangu?",
+      "voiceSupport": "Je, kuna usaidizi wa sauti?",
+      "whatMakesDifferent": "Ni nini hufanya VirtualMD kuwa tofauti na majukwaa mengine ya afya ya AI?",
+      "cost": "VirtualMD.app inagharimu kiasi gani?"
+    },
+    "answers": {
+      "whatIsVirtualMD": "VirtualMD.app ni jukwaa la mashauriano la huduma ya afya linaloendeshwa na AI ambalo hutoa mwongozo wa kibinafsi wa matibabu kupitia AI ya mazungumzo ya hali ya juu. Jukwaa letu lina zaidi ya watu 60 maalum wa matibabu wa AI, kila mmoja akiwa na utaalam wa kipekee katika maeneo tofauti ya huduma ya afya.",
+      "replacementForDoctor": "Hapana, VirtualMD.app si mbadala wa matibabu ya kitaalamu. Mashauriano yetu ya AI yameundwa ili kutoa maelezo ya afya, elimu, na mwongozo wa awali. Daima wasiliana na wataalamu wa afya waliohitimu kwa uchunguzi, matibabu na maamuzi ya matibabu.",
+      "howItWorks": "Unaweza kuanzisha mazungumzo na mmoja wa watu wetu maalum wa AI kwa kuwachagua kutoka kwenye dashibodi. Kila mtu ana utaalamu mahususi (k.m., magonjwa ya moyo, magonjwa ya watoto, afya ya akili) na atashiriki katika mazungumzo ya mazungumzo ili kuelewa matatizo yako na kutoa taarifa na mwongozo unaofaa.",
+      "healthInfoSecure": "Ndiyo, tunachukulia faragha na usalama wa data kwa umakini sana. Mazungumzo yote yamesimbwa kwa njia fiche, na tunatii kanuni za ulinzi wa data za afya. Taarifa yako ya afya ya kibinafsi haishirikiwi kamwe na washirika wengine bila idhini yako ya wazi. Tazama ukurasa wetu wa Faragha ya Data kwa maelezo zaidi.",
+      "tryWithoutAccount": "Ndiyo! Tunatoa uzoefu wa wageni ambao hukuruhusu kujaribu huduma yetu ya mashauriano ya AI bila kuunda akaunti. Vipindi vya wageni ni ujumbe 10 pekee na hutoa ufikiaji wa watu wetu wa jumla wa mashauriano ya matibabu.",
+      "supportedLanguages": "VirtualMD.app inaweza kutumia zaidi ya lugha 30, ikijumuisha Kiingereza, Kihispania, Kifaransa, Kijerumani, Kichina, Kijapani, Kiarabu, Kiebrania na nyinginezo nyingi. Jukwaa hutambua mapendeleo ya lugha ya kivinjari chako kiotomatiki na kurekebisha ipasavyo.",
+      "uploadDocuments": "Ndiyo, watumiaji waliojiandikisha wanaweza kupakia picha na nyaraka za matibabu wakati wa mashauriano. AI yetu inaweza kuchanganua na kutoa maarifa kuhusu picha mbalimbali za matibabu ikiwa ni pamoja na X-rays, MRIs na ripoti za maabara. Kipengele hiki husaidia kutoa mwongozo wa muktadha na sahihi zaidi.",
+      "aiAccuracy": "Mitindo yetu ya AI imefunzwa juu ya fasihi nyingi za matibabu na kusasishwa kila mara na maarifa ya hivi punde ya matibabu. Ingawa AI yetu hutoa maelezo ya ubora wa juu kulingana na uelewa wa sasa wa matibabu, inapaswa kutumika kama nyenzo ya ziada pamoja na huduma ya matibabu ya kitaaluma.",
+      "conversationHistory": "Ndiyo, watumiaji waliojiandikisha wanaweza kufikia historia kamili ya mazungumzo yao, ikijumuisha muhtasari, nakala na hati zozote zinazoshirikiwa. Hii husaidia kudumisha mwendelezo katika safari yako ya maelezo ya afya na hukuruhusu kushiriki mashauriano yanayofaa na watoa huduma wako wa afya.",
+      "voiceSupport": "Ndiyo, VirtualMD.app inasaidia utendakazi wa maandishi hadi usemi na utendakazi wa hotuba hadi maandishi. Unaweza kusikiliza majibu ya AI na kuongea maswali yako badala ya kuandika, na kufanya jukwaa kufikiwa zaidi na rahisi kutumia.",
+      "whatMakesDifferent": "VirtualMD.app ina zaidi ya watu 60 maalum wa matibabu wa AI, kila mmoja akiwa na utaalamu wa kina katika nyanja mahususi za matibabu. Mfumo wetu pia hutoa usaidizi wa kina wa lugha, mwingiliano wa sauti, uchanganuzi wa picha za matibabu na kudumisha viwango vikali vya faragha huku ukitoa kiolesura cha angavu na kinachoweza kufikiwa.",
+      "cost": "Tunatoa viwango tofauti vya usajili ili kukidhi mahitaji tofauti. Watumiaji walioalikwa wanaweza kujaribu huduma bila malipo na vipengele vichache. Watumiaji waliosajiliwa hupata ufikiaji wa watu wote, mazungumzo yasiyo na kikomo na vipengele vya kina. Tafadhali angalia ukurasa wetu wa bei kwa chaguo za sasa za usajili."
+    },
+    "helpSection": {
+      "title": "Bado una maswali?",
+      "description": "Huwezi kupata jibu unalotafuta? Timu yetu ya usaidizi iko hapa kusaidia."
+    },
+    "buttons": {
+      "contactUs": "Wasiliana Nasi",
+      "tryGuestChat": "Jaribu Gumzo la Wageni"
+    },
+    "navigation": {
+      "backToHome": "← Rudi Nyumbani"
+    }
+  },
+  "howToPage": {
+    "title": "Jinsi ya kutumia VirtualMD.app",
+    "subtitle": "Mwongozo wako wa kina wa mashauriano ya afya yanayoendeshwa na AI",
+    "navigation": {
+      "gettingStarted": "Kuanza",
+      "aiMedicalPersonas": "Watu wa Matibabu wa AI",
+      "teamConsultations": "Mashauriano ya Timu",
+      "medicalImageAnalysis": "Uchambuzi wa Picha za Matibabu",
+      "medicalEncyclopedia": "Encyclopedia ya Matibabu",
+      "differentialOpinions": "Maoni Tofauti",
+      "voiceInteraction": "Mwingiliano wa Sauti",
+      "languageSupport": "Usaidizi wa Lugha",
+      "tipsBestPractices": "Vidokezo na Mbinu Bora",
+      "privacySecurity": "Faragha na Usalama"
+    },
+    "sidebar": {
+      "contents": "Yaliyomo"
+    },
+    "sections": {
+      "gettingStarted": {
+        "title": "Kuanza",
+        "description": "VirtualMD.app ni jukwaa la mashauriano la huduma ya afya linaloendeshwa na AI ambalo hutoa mwongozo wa kibinafsi wa matibabu kupitia AI ya mazungumzo ya hali ya juu. Hivi ndivyo jinsi ya kuanza:",
+        "quickStart": {
+          "title": "Anza Haraka:",
+          "step1": {
+            "chooseBetween": "Chagua kati ya",
+            "guestAccess": "Ufikiaji wa Wageni",
+            "tryWithoutAccount": "(jaribu bila akaunti)",
+            "or": "au",
+            "signUpFullFeatures": "Jisajili kwa vipengele kamili"
+          },
+          "step2": "Chagua mtaalamu wa matibabu wa AI au unda timu ya wataalamu",
+          "step3": "Anza mazungumzo yako - uliza maswali, eleza dalili, au tafuta mwongozo wa afya",
+          "step4": "Kagua majibu ya AI na ufuatilie maswali ya ziada inapohitajika"
+        },
+        "tip": {
+          "label": "Kidokezo:",
+          "message": "Watumiaji wageni hupokea ujumbe 10 bila malipo. Unda akaunti kwa mashauriano yasiyo na kikomo na ufikiaji wa vipengele vyote."
+        }
+      },
+      "aiMedicalPersonas": {
+        "title": "Watu wa Matibabu wa AI",
+        "description": "VirtualMD ina zaidi ya watu 60 maalum wa matibabu wa AI, kila mmoja akiwa na utaalam wa kipekee:",
+        "availableSpecialists": "Wataalamu Wanaopatikana:",
+        "specialists": {
+          "generalPractitioner": "Daktari Mkuu",
+          "cardiologist": "Daktari wa moyo",
+          "pediatrician": "Daktari wa watoto",
+          "mentalHealthSpecialist": "Mtaalamu wa Afya ya Akili",
+          "dermatologist": "Daktari wa ngozi",
+          "neurologist": "Daktari wa neva",
+          "oncologist": "Oncologist",
+          "emergencyMedicine": "Dawa ya Dharura",
+          "medicalNavigator": "Navigator ya Matibabu",
+          "moreSpecialists": "Wataalam 60+ Zaidi"
+        },
+        "howToChoose": {
+          "title": "Jinsi ya kuchagua mtu:",
+          "step1": "Vinjari orodha ya mtu binafsi kwenye dashibodi yako",
+          "step2": "Soma wasifu wa kila mtu ili kuelewa utaalamu wao",
+          "step3": "Chagua kulingana na wasiwasi wako wa kiafya au swali",
+          "step4": "Badilisha ubinafsi wakati wowote wakati wa mashauriano yako"
+        },
+        "proTip": {
+          "label": "Kidokezo cha Pro:",
+          "medicalNavigator": "The Medical Navigator persona inaweza kukusaidia kutambua ni mtaalamu gani anafaa zaidi kwa ajili ya wasiwasi wako mahususi wa kiafya."
+        }
+      },
+      "teamConsultations": {
+        "title": "Mashauriano ya Timu",
+        "description": "Pata huduma ya kina kwa kuunda timu ya wataalamu wa AI ambao hushirikiana katika masuala yako ya afya:",
+        "buildingYourTeam": {
+          "title": "Kujenga Timu Yako:",
+          "step1": {
+            "buttonText": "Jenga Timu Yako",
+            "instruction": "Bofya \"{{buttonText}}\" kwenye dashibodi"
+          },
+          "step2": "Chagua hadi wataalamu 5 wanaofaa mahitaji yako",
+          "step3": "Ongeza Navigator ya Matibabu ili kuratibu kati ya wataalamu",
+          "step4": "Anzisha mazungumzo ya timu kwa maarifa ya taaluma nyingi"
+        },
+        "benefits": {
+          "title": "Faida za Mashauriano ya Timu:",
+          "comprehensiveCare": {
+            "label": "Utunzaji wa kina:",
+            "description": "Mitazamo mingi juu ya maswala magumu ya kiafya"
+          },
+          "coordinatedAdvice": {
+            "label": "Ushauri Ulioratibiwa:",
+            "description": "Wataalamu hufanya kazi pamoja, sio kwa kutengwa"
+          },
+          "efficientNavigation": {
+            "label": "Urambazaji Bora:",
+            "description": "Medical Navigator huhakikisha unapata utaalamu unaofaa"
+          },
+          "holisticApproach": {
+            "label": "Mbinu ya Ujumla:",
+            "description": "Shughulikia mambo ya kimwili, kiakili, na mtindo wa maisha pamoja"
+          }
+        }
+      },
+      "medicalImageAnalysis": {
+        "title": "Uchambuzi wa Picha za Matibabu",
+        "description": "Pakia na uchanganue picha za matibabu kwa maarifa yanayoendeshwa na AI:",
+        "howToUse": {
+          "title": "Jinsi ya kutumia Uchambuzi wa Picha:",
+          "step1": "Bofya ikoni ya kamera au kitufe cha kupakia picha",
+          "step2": "Pakia hadi picha 4 za matibabu (X-rays, MRIs, matokeo ya maabara, hali ya ngozi, n.k.)",
+          "step3": "Bofya picha zilizopakiwa ili kuvuta karibu kwa mtazamo wa kina",
+          "step4": "Chagua maeneo maalum ya kupendeza kwa kubofya picha iliyokuzwa",
+          "step5": "Uliza maswali kuhusu picha au ombi uchanganuzi"
+        },
+        "supportedTypes": {
+          "title": "Aina za Picha Zinazotumika:",
+          "xrays": "X-rays na picha za radiolojia",
+          "mriCtScans": "MRI na CT scans",
+          "laboratoryTests": "Matokeo ya mtihani wa maabara",
+          "skinConditions": "Hali ya ngozi na picha za dermatological",
+          "ecgEkgReadings": "Usomaji wa ECG/EKG",
+          "prescriptionDocuments": "Nyaraka za maagizo"
+        },
+        "warning": {
+          "label": "Muhimu:",
+          "text": "Uchambuzi wa picha za AI ni kwa madhumuni ya kielimu. Daima wasiliana na wataalamu wa afya kwa tafsiri rasmi ya matibabu."
+        }
+      },
+      "medicalEncyclopedia": {
+        "title": "Encyclopedia ya Matibabu na Utafiti wa Kina",
+        "description": "Fikia maelezo ya kina ya matibabu na uwezo wa utafiti:",
+        "features": {
+          "title": "Vipengele vya Encyclopedia:",
+          "instantAccess": {
+            "label": "Ufikiaji wa Papo hapo:",
+            "description": "Bofya ikoni ya Encyclopedia wakati wa mazungumzo yoyote"
+          },
+          "deepResearch": {
+            "label": "Utafiti wa kina:",
+            "description": "Omba ukaguzi wa kina wa fasihi ya matibabu"
+          },
+          "evidenceBased": {
+            "label": "Kulingana na Ushahidi:",
+            "description": "Taarifa kutoka kwa hifadhidata za matibabu zilizokaguliwa na marafiki"
+          },
+          "contextAware": {
+            "label": "Kufahamu Muktadha:",
+            "description": "Utafutaji huhusiana kiotomatiki na mjadala wako wa sasa wa afya"
+          }
+        },
+        "howToResearch": {
+          "title": "Jinsi ya Utafiti:",
+          "step1": "Wakati wa mazungumzo, bofya kitufe cha Encyclopedia",
+          "step2": "Weka masharti ya matibabu, masharti au matibabu ili kufanya utafiti",
+          "step3": "Kagua maelezo ya kina yenye manukuu",
+          "step4": "Uliza maswali ya kufuatilia ili kupata ufafanuzi"
+        }
+      },
+      "differentialOpinions": {
+        "title": "Maoni Tofauti",
+        "description": "Chunguza utambuzi mbadala na maoni ya pili ili kuhakikisha uelewa wa kina:",
+        "gettingOpinions": {
+          "title": "Kupata maoni tofauti:",
+          "step1": "Baada ya kupokea tathmini ya awali, bofya \"Pata Maoni Tofauti\"",
+          "step2": "AI itachambua dalili zako kutoka kwa mitazamo tofauti",
+          "step3": "Kagua uwezekano mbadala na uwezekano wao",
+          "step4": "Kuelewa wakati wa kutafuta matibabu ya haraka"
+        },
+        "whatYoullLearn": {
+          "title": "Utakachojifunza:",
+          "item1": "Hali zingine ambazo zinaweza kusababisha dalili zinazofanana",
+          "item2": "Bendera nyekundu zinazohitaji matibabu ya haraka",
+          "item3": "Maswali ya kuuliza mtoa huduma wako wa afya",
+          "item4": "Majaribio ya ziada ambayo yanaweza kusaidia"
+        }
+      },
+      "voiceInteraction": {
+        "title": "Mwingiliano wa Sauti",
+        "description": "Shirikiana na VirtualMD kwa kutumia mazungumzo ya sauti asilia:",
+        "features": {
+          "title": "Vipengele vya Sauti:",
+          "speechToText": {
+            "label": "Hotuba-kwa-Maandishi:",
+            "description": "Bofya aikoni ya maikrofoni ili kuzungumza maswali yako"
+          },
+          "textToSpeech": {
+            "label": "Maandishi-hadi-Hotuba:",
+            "description": "Geuza ikoni ya spika ili kusikia majibu ya AI"
+          },
+          "naturalConversation": {
+            "label": "Mazungumzo ya Asili:",
+            "description": "Ongea kwa kawaida kama vile ungezungumza na daktari"
+          },
+          "multipleVoices": {
+            "label": "Sauti Nyingi:",
+            "description": "Kila mtu ana utu wa kipekee wa sauti"
+          }
+        },
+        "controls": {
+          "title": "Vidhibiti vya Sauti:",
+          "microphone": "Aikoni ya maikrofoni: Anza/simamisha ingizo la sauti",
+          "speaker": "Aikoni ya spika: Washa/zima majibu ya sauti",
+          "volume": "Vidhibiti vya sauti: Rekebisha sauti ya sauti katika mipangilio",
+          "speed": "Vidhibiti vya kasi: Rekebisha kasi ya usemi kwa uwazi"
+        }
+      },
+      "languageSupport": {
+        "title": "Usaidizi wa Lugha",
+        "description": "Wasiliana katika lugha unayopendelea kwa usaidizi wa lugha 30+:",
+        "availableLanguages": {
+          "title": "Lugha Zinazopatikana:",
+          "languages": {
+            "arabic": "Kiarabu",
+            "chinese": "Kichina",
+            "english": "Kiingereza",
+            "spanish": "Kihispania",
+            "french": "Kifaransa",
+            "german": "Kijerumani",
+            "hebrew": "Kiebrania",
+            "hindi": "Kihindi",
+            "italian": "Kiitaliano",
+            "japanese": "Kijapani",
+            "korean": "Kikorea",
+            "portuguese": "Kireno",
+            "russian": "Kirusi",
+            "moreLanguages": "20+ Zaidi"
+          }
+        },
+        "languageFeatures": {
+          "title": "Vipengele vya Lugha:",
+          "autoDetection": "Utambuzi wa lugha kiotomatiki kulingana na mipangilio ya kivinjari",
+          "switchLanguages": "Badilisha lugha wakati wowote kutoka kwa menyu ya lugha",
+          "rtlSupport": "Usaidizi wa RTL kwa Kiarabu na Kiebrania",
+          "medicalTermsExplained": "Masharti ya matibabu yamefafanuliwa katika lugha yako",
+          "culturalGuidance": "Mwongozo unaofaa wa kiafya"
+        }
+      },
+      "tipsTitle": "Vidokezo na Mbinu Bora",
+      "tipsSubtitle": "Kupata Zaidi kutoka kwa VirtualMD:",
+      "commonUseCases": {
+        "title": "Kesi za matumizi ya kawaida:",
+        "useCase1": "Kuelewa dalili kabla ya kutembelea daktari",
+        "useCase2": "Kupata maoni ya pili juu ya utambuzi",
+        "useCase3": "Kujifunza kuhusu hali ya matibabu na matibabu",
+        "useCase4": "Kuandaa maswali kwa miadi ya huduma ya afya",
+        "useCase5": "Kuelewa matokeo ya mtihani wa matibabu",
+        "useCase6": "Kudhibiti hali sugu kwa mwongozo unaoendelea",
+        "useCase7": "Msaada wa afya ya akili na mikakati ya kukabiliana"
+      },
+      "privacySecurity": {
+        "title": "Faragha na Usalama",
+        "description": "Taarifa zako za afya zinalindwa na usalama wa kiwango cha biashara:",
+        "securityFeatures": {
+          "title": "Vipengele vya Usalama:",
+          "feature1": "Usimbaji fiche wa mwanzo hadi mwisho kwa mazungumzo yote",
+          "feature2": "Utunzaji wa data unaoendana na HIPAA",
+          "feature3": "Hakuna kushiriki data ya kibinafsi bila idhini",
+          "feature4": "Salama uhifadhi wa wingu na chelezo za kawaida",
+          "feature5": "Hali ya mgeni isiyojulikana inapatikana",
+          "feature6": "Kamilisha kufuta data baada ya akaunti kufungwa"
+        },
+        "yourControl": {
+          "title": "Udhibiti Wako:",
+          "control1": "Futa mazungumzo wakati wowote",
+          "control2": "Hamisha data yako kwa rekodi za kibinafsi",
+          "control3": "Dhibiti ni habari gani iliyohifadhiwa",
+          "control4": "Jiondoe kwenye uchanganuzi wa data"
+        }
+      },
+      "callToAction": {
+        "title": "Je, uko tayari Kuanza?",
+        "description": "Furahia mustakabali wa mashauriano ya afya na VirtualMD.app",
+        "buttons": {
+          "tryAsGuest": "Jaribu kama Mgeni",
+          "createAccount": "Fungua Akaunti",
+          "backToHome": "← Rudi Nyumbani"
+        }
+      }
+    },
+    "tips": {
+      "beSpecific": {
+        "label": "Kuwa Maalum:",
+        "description": "Toa maelezo ya kina kuhusu dalili, muda na ukali"
+      },
+      "shareContext": {
+        "label": "Shiriki Muktadha:",
+        "description": "Taja historia husika ya matibabu, dawa, na mizio"
+      },
+      "askFollowups": {
+        "label": "Uliza Ufuatiliaji:",
+        "description": "Usisite kuuliza ufafanuzi au maelezo zaidi"
+      },
+      "useImages": {
+        "label": "Tumia Picha:",
+        "description": "Pakia picha zinazofaa za matibabu au matokeo ya majaribio yanapopatikana"
+      },
+      "saveConversations": {
+        "label": "Hifadhi Mazungumzo:",
+        "description": "Weka mashauriano muhimu kwa marejeleo ya baadaye"
+      },
+      "buildTeams": {
+        "label": "Tengeneza Timu:",
+        "description": "Tumia wataalamu wengi kwa maswala magumu ya kiafya"
+      },
+      "verifyInformation": {
+        "label": "Thibitisha Taarifa:",
+        "description": "Daima thibitisha mwongozo wa AI na wataalamu wa afya"
+      }
+    }
+  },
+  "landingPages": {
+    "defaultGuest": {
+      "childHealth": {
+        "title": "Msaada wa Afya ya Mtoto",
+        "subtitle": "Mwongozo wa kitaalam wa watoto unapouhitaji zaidi.",
+        "firstMessage": "Habari! Mimi ni Mtaalamu wa Afya Aileen Carol, na niko hapa kukusaidia na masuala ya afya ya mtoto wako. Kila mzazi ana wasiwasi - hiyo ni kawaida kabisa.\n\nJe, una dalili au wasiwasi gani kuhusu mtoto wako leo?"
+      },
+      "sleep": {
+        "title": "Usingizi & Uzima",
+        "subtitle": "Pata mapumziko bora na uboresha nishati yako ya kila siku.",
+        "firstMessage": "Habari! Mimi ni Mtaalamu wa Afya Aileen Carol. Matatizo ya usingizi yanaweza kuathiri kila sehemu ya maisha yako, na niko hapa kukusaidia kupata mapumziko unayohitaji.\n\nNi nini kimekuzuia kupata usingizi mzuri hivi majuzi?"
+      },
+      "nutrition": {
+        "title": "Lishe na Mtindo wa Maisha",
+        "subtitle": "Mwongozo wa kibinafsi kwa maisha bora.",
+        "firstMessage": "Habari! Mimi ni Mtaalamu wa Afya Aileen Carol. Kufanya mabadiliko ya mtindo wa maisha yenye afya kunaweza kuhisi kulemea, lakini unachukua hatua nzuri ya kwanza kwa kufikia mapendeleo.\n\nJe, ungependa kuzingatia kipengele gani cha afya na lishe yako?"
+      }
+    }
+  },
+  "founders": {
+    "title": "Ujumbe kutoka kwa Waanzilishi",
+    "paragraph1": "Tumeunda programu hii tukiwa na tumaini moja: kusaidia kufanya ulimwengu kuwa mahali pa afya zaidi kwa kutoa ufikiaji wa mwongozo wa kuaminika wa matibabu-unaoendeshwa na teknolojia ambayo imewezekana hivi majuzi. Ni matokeo ya ushirikiano kati ya mwanasayansi na rabi, watengenezaji wa muda mrefu ambao wanaelewa ahadi na wajibu wa enzi hii mpya ya AI.",
+    "paragraph2": "Lengo letu ni kutoa ufikiaji wa bure na kamili kwa jukwaa kwa watumiaji wetu milioni moja wa kwanza. Tunaamini afya inapaswa kupatikana kwa wote—sio tu kwa wale wanaoweza kumudu. Mfumo unapokua, tunaweza kuanzisha ada za vipengele fulani vinavyolipiwa. Lakini hivi sasa, tunalenga kupata hii mikononi mwa wale wanaoihitaji zaidi.",
+    "paragraph3": "Pamoja na ya hivi punde zaidi katika sayansi ya matibabu, tumewezesha kujihusisha na watu wa AI waliochochewa na mila za uponyaji kutoka duniani kote—ikiwa ni pamoja na mifumo ya Mashariki na Afrika ambayo mara nyingi hupuuzwa. Hatutangazi njia yoyote moja. Badala yake, tunatoa zana ambazo huwaruhusu watu binafsi kuchunguza aina mbalimbali za mitazamo na kuunganisha kile kinachohisi kuwa muhimu zaidi kwao.",
+    "paragraph4": "Tunaelewa kuwa mbinu hii itakabiliana na upinzani. Baadhi yake zitakuwa halali—wasiwasi kuhusu usahihi ni wa kweli, na tunazichukua kwa uzito. Ukosoaji mwingine utatoka kwa usumbufu na mabadiliko. Lakini huduma ya afya inaendelea, iwe taasisi inakaribisha au la. Lengo letu ni kuongoza mabadiliko hayo kwa uangalifu, unyenyekevu, na uwazi.",
+    "paragraph5": "AI ina nguvu, lakini bado haijakamilika. Haya si tu kanusho za kisheria—ni sehemu ya wajibu wetu wa kimaadili kwako na kwa afya ya umma. Tafadhali tumia zana hii kama nyongeza, si kibadala, kwa huduma ya matibabu iliyoidhinishwa.",
+    "closing": "Asante kwa kuwa hapa. Tunatumahi utaitumia kwa afya njema.",
+    "supportText": "Ikiwa unaamini katika kile tunachounda na unataka kutusaidia kuendelea, tunahitaji usaidizi wako. Unaweza kuchangia kwa kubofya kiungo kilicho hapa chini.",
+    "signature": "- Ron Rubin & Sandy Miles, Waumbaji",
+    "supportButton": "Tuunge Mkono"
+  }
+}

@@ -1,0 +1,907 @@
+{
+  "header": {
+    "login": "लॉग इन करें",
+    "register": "पंजीकरण करवाना",
+    "logout": "लॉग आउट",
+    "aboutUs": "हमारे बारे में",
+    "learnMore": "और अधिक जानें",
+    "advisory": "सलाहकार",
+    "start": "शुरू",
+    "greetingHello": "नमस्ते {{नाम}}!",
+    "welcomeToVirtualMD": "वर्चुअलएमडी में आपका स्वागत है!",
+    "signupForFullAccess": "पूर्ण पहुँच के लिए साइनअप करें",
+    "profileTitle": "मेरी प्रोफ़ाइल / चैट पर जाएँ",
+    "logoutTitle": "लॉग आउट",
+    "toggleTheme": "लाइट/डार्क मोड टॉगल करें",
+    "toggleMode": "लाइट/डार्क मोड टॉगल करें",
+    "myProfile": "मेरी प्रोफ़ाइल / चैट पर जाएँ",
+    "dashboard": "डैशबोर्ड",
+    "endConversation": "बातचीत समाप्त करें",
+    "returnToConversation": "बातचीत पर लौटें",
+    "startConversation": "बातचीत शुरू करें",
+    "endConsult": "परामर्श समाप्त करें",
+    "returnToConsult": "परामर्श पर लौटें",
+    "startConsult": "परामर्श शुरू करें",
+    "home": "घर",
+    "healthEncyclopedia": "स्वास्थ्य विश्वकोश",
+    "researchPublications": "अनुसंधान और प्रकाशन",
+    "contactUs": "हमसे संपर्क करें",
+    "light": "रोशनी",
+    "dark": "अँधेरा",
+    "toggleModeText": "टॉगल {{मोड}} मोड",
+    "legal": "कानूनी"
+  },
+  "howToUse": "का उपयोग कैसे करें",
+  "settings": {
+    "lightMode": "लाइट मोड",
+    "darkMode": "डार्क मोड"
+  },
+  "navigation": {
+    "dashboard": "डैशबोर्ड",
+    "home": "घर",
+    "aboutUs": "हमारे बारे में",
+    "returnToChat": "चैट पर लौटें",
+    "continueConsultation": "अपना परामर्श जारी रखें",
+    "exitConsultation": "निकास परामर्श",
+    "startNewConsultation": "नया परामर्श शुरू करें",
+    "sections": {
+      "chatTools": "चैट टूल्स",
+      "functionality": "कार्यक्षमता",
+      "aboutUs": "हमारे बारे में",
+      "requiredDocuments": "आवश्यक दस्तावेज",
+      "research": "अनुसंधान",
+      "controls": "को नियंत्रित करता है",
+      "settings": "सेटिंग्स"
+    },
+    "myTeam": "मेरी टीम",
+    "summary": "सारांश",
+    "transcript": "प्रतिलिपि",
+    "encyclopedia": "विश्वकोश",
+    "priorChats": "पूर्व चैट",
+    "myProfile": "मेरी प्रोफाइल",
+    "healthEncyclopedia": "स्वास्थ्य विश्वकोश",
+    "noteFromFounders": "संस्थापकों का नोट",
+    "faq": "अक्सर पूछे जाने वाले प्रश्न",
+    "contactUs": "हमसे संपर्क करें",
+    "legal": "कानूनी",
+    "dataPrivacy": "डाटा प्राइवेसी",
+    "aiAccuracyStudies": "एआई सटीकता अध्ययन",
+    "empowerYourself": "स्वयं को शक्तिवान बनाएं",
+    "deepResearch": "गहन शोध",
+    "aboutUsItems": {
+      "advisory": "सलाहकार",
+      "dataPrivacy": "डाटा प्राइवेसी"
+    },
+    "learnMore": {
+      "imagingAI": "इमेजिंग और एआई",
+      "pathologyAI": "पैथोलॉजी और एआई",
+      "dermatologyAI": "त्वचाविज्ञान और कृत्रिम बुद्धिमत्ता",
+      "mentalHealthAI": "मानसिक स्वास्थ्य और एआई",
+      "accuracyStudies": "एआई सटीकता अध्ययन",
+      "allResearch": "सभी शोध",
+      "empowerYourself": "स्वयं को शक्तिवान बनाएं"
+    }
+  },
+  "landing": {
+    "title": "VirtualMD.app",
+    "subtitle": "एआई-संचालित स्वास्थ्य सेवा समाधान",
+    "tryItOut": "कोशिश करके देखो",
+    "scrollDown": "नीचे स्क्रॉल करें",
+    "scrollUp": "ऊपर स्क्रॉल करें",
+    "alwaysHereForYou": "सदैव आपके लिए यहाँ.",
+    "cards": {
+      "whyUse": {
+        "title": "वर्चुअलएमडी क्यों?",
+        "description": "हमारे AI-संचालित वर्चुअल हेल्थ प्लेटफ़ॉर्म के क्रांतिकारी लाभों की खोज करें"
+      },
+      "dataPrivacy": {
+        "title": "आपकी गोपनीयता",
+        "description": "एक विश्वसनीय मित्र की तरह, आपके स्वास्थ्य रहस्य हमारे पास सुरक्षित हैं"
+      },
+      "tryItOut": {
+        "title": "कोशिश करके देखो",
+        "description": "मेरा बच्चा बीमार है|मुझे नींद नहीं आ रही है!|प्यार के लिए पोषण",
+        "tagline": "कोई साइन-अप आवश्यक नहीं है."
+      },
+      "wellness": {
+        "title": "गहन शोध",
+        "description": "विश्वसनीय स्रोतों के साथ स्वास्थ्य विश्वकोश"
+      },
+      "yourHealth": {
+        "title": "आपका स्वास्थ्य",
+        "description": "AI के साथ अपनी कल्याण यात्रा को आकार दें"
+      }
+    }
+  },
+  "chat": {
+    "startNewConsult": "नया परामर्श शुरू करें",
+    "noSpeechDetected": "मुझे यह बात समझ नहीं आई",
+    "noSpeechMessage": "मुझे आपकी रिकॉर्डिंग में कोई आवाज़ नहीं सुनाई दे रही है। कृपया थोड़ा ज़ोर से बोलें या अपने माइक्रोफ़ोन के पास जाएँ, फिर दोबारा कोशिश करें।",
+    "dontShowAgain": "मुझे फिर मत दिखाना",
+    "gotIt": "समझ गया",
+    "loading": "लोड हो रहा है…"
+  },
+  "loading": {
+    "preparingHealthTeam": "अपनी AI स्वास्थ्य टीम तैयार करना...",
+    "connectingSpecialists": "स्वास्थ्य विशेषज्ञों से संपर्क...",
+    "initializingSystem": "आपकी व्यक्तिगत स्वास्थ्य प्रणाली आरंभ हो रही है...",
+    "almostReady": "आपकी सहायता के लिए लगभग तैयार...",
+    "dots": "..."
+  },
+  "common": {
+    "loading": "लोड हो रहा है…",
+    "user": {
+      "defaultInitial": "यू",
+      "defaultName": "वहाँ",
+      "defaultAltText": "उपयोगकर्ता"
+    },
+    "error": "गलती",
+    "success": "सफलता",
+    "cancel": "रद्द करना",
+    "confirm": "पुष्टि करना",
+    "save": "बचाना",
+    "delete": "मिटाना",
+    "edit": "संपादन करना",
+    "close": "बंद करना",
+    "next": "अगला",
+    "previous": "पहले का",
+    "submit": "जमा करना",
+    "search": "खोज",
+    "filter": "फ़िल्टर",
+    "sort": "क्रम से लगाना",
+    "upload": "अपलोड करें",
+    "download": "डाउनलोड करना",
+    "print": "छाप",
+    "share": "शेयर करना",
+    "copy": "प्रतिलिपि",
+    "paste": "पेस्ट करें",
+    "cut": "काटना",
+    "undo": "पूर्ववत",
+    "redo": "फिर से करना",
+    "yes": "हाँ",
+    "no": "नहीं",
+    "ok": "ठीक है",
+    "punctuation": {
+      "ellipsis": "..."
+    },
+    "apply": "आवेदन करना",
+    "reset": "रीसेट करें",
+    "clear": "स्पष्ट",
+    "back": "पीछे",
+    "forward": "आगे",
+    "home": "घर",
+    "refresh": "ताज़ा करना",
+    "reload": "पुनः लोड करें",
+    "help": "मदद",
+    "about": "के बारे में",
+    "contact": "संपर्क",
+    "profile": "प्रोफ़ाइल",
+    "account": "खाता",
+    "privacy": "गोपनीयता",
+    "terms": "शर्तें",
+    "legal": "कानूनी",
+    "support": "सहायता",
+    "feedback": "प्रतिक्रिया",
+    "welcome": "स्वागत",
+    "goodbye": "अलविदा",
+    "thankyou": "धन्यवाद",
+    "send": "भेजना",
+    "none": "कोई नहीं",
+    "generating": "उत्पन्न...",
+    "settings": "सेटिंग्स"
+  },
+  "auth": {
+    "loginTitle": "दाखिल करना",
+    "registerTitle": "खाता बनाएं",
+    "email": "ईमेल",
+    "password": "पासवर्ड",
+    "confirmPassword": "पासवर्ड की पुष्टि कीजिये",
+    "fullName": "पूरा नाम",
+    "displayName": "प्रदर्शित होने वाला नाम",
+    "rememberMe": "मुझे याद करो",
+    "forgotPassword": "पासवर्ड भूल गए?",
+    "noAccount": "क्या आपके पास खाता नहीं है?",
+    "hasAccount": "क्या आपके पास पहले से एक खाता मौजूद है?",
+    "signUp": "साइन अप करें",
+    "signIn": "दाखिल करना",
+    "signOut": "साइन आउट",
+    "createAccount": "खाता बनाएं",
+    "loginButton": "लॉग इन करें",
+    "registerButton": "पंजीकरण करवाना",
+    "logout": "लॉग आउट"
+  },
+  "footer": {
+    "copyright": "माइंडस्क्रिप्ट टेक्नोलॉजीज एलएलसी. सर्वाधिकार सुरक्षित.",
+    "privacyPolicy": "गोपनीयता नीति",
+    "termsOfService": "सेवा की शर्तें",
+    "cookiePolicy": "कूकी नीति",
+    "medicalAdvisory": "स्वास्थ्य सलाह",
+    "yourPrivacy": "आपकी गोपनीयता",
+    "legal": "कानूनी",
+    "contactUs": "हमसे संपर्क करें",
+    "howToUse": "का उपयोग कैसे करें",
+    "faq": "अक्सर पूछे जाने वाले प्रश्न",
+    "noteFromFounders": "संस्थापकों का नोट",
+    "medicalDisclaimerTooltip": "माइंडस्क्रिप्ट, एआई-संचालित स्वास्थ्य विशेषज्ञों का उपयोग करके सबसे सटीक और अद्यतन स्वास्थ्य जानकारी प्रदान करने का प्रयास करता है। हालाँकि, ये विशेषज्ञ लाइसेंस प्राप्त स्वास्थ्य विशेषज्ञ नहीं हैं और गलत भी हो सकते हैं। किसी भी गंभीर चिकित्सा आपात स्थिति में, 911 डायल करें या तुरंत अपने नज़दीकी आपातकालीन विभाग में जाएँ। किसी भी अन्य स्वास्थ्य समस्या के लिए या कोई भी उपचार या उपाय आजमाने से पहले, कृपया किसी योग्य मानव स्वास्थ्य सेवा प्रदाता या विशेषज्ञ से परामर्श लें।",
+    "advisory": "सलाहकार"
+  },
+  "forms": {
+    "required": "यह फ़ील्ड आवश्यक है",
+    "invalidEmail": "कृपया एक मान्य ईमेल पता प्रविष्ट करें",
+    "passwordTooShort": "पासवर्ड कम से कम 8 वर्णों का होना चाहिए",
+    "passwordsDoNotMatch": "सांकेतिक शब्द मेल नहीं खाते",
+    "invalidInput": "कृपया मान्य इनपुट दर्ज करें",
+    "fieldRequired": "{{ये स्थान भरा जाना है",
+    "selectOption": "कृपया एक विकल्प चुनें",
+    "uploadFile": "फ़ाइल अपलोड करें",
+    "dragAndDrop": "फ़ाइलों को यहां खींचें और छोड़ें, या चयन करने के लिए क्लिक करें",
+    "fileUploaded": "फ़ाइल सफलतापूर्वक अपलोड की गई",
+    "uploadError": "फ़ाइल अपलोड करने में त्रुटि"
+  },
+  "language": {
+    "english": "अंग्रेज़ी",
+    "arabic": "العربية",
+    "hebrew": "עברית",
+    "switchTo": "{{भाषा}} पर स्विच करें",
+    "currentLanguage": "वर्तमान भाषा: {{भाषा}}"
+  },
+  "animation": {
+    "title": {
+      "simply": "केवल",
+      "better": "बेहतर",
+      "health": "स्वास्थ्य",
+      "period": "."
+    }
+  },
+  "hero": {
+    "subtitle": "24/7 व्यक्तिगत स्वास्थ्य और कल्याण सलाह।",
+    "subtitleMobile": "24/7 व्यक्तिगत AI स्वास्थ्य सलाह",
+    "poweredBy": "एआई द्वारा संचालित."
+  },
+  "research": {
+    "title": "अनुसंधान और प्रकाशन",
+    "subtitle": "साक्ष्य-आधारित एआई स्वास्थ्य सेवा समाधान",
+    "aiImaging": {
+      "title": "डायग्नोस्टिक इमेजिंग में एआई",
+      "description": "रेडियोलॉजी, पैथोलॉजी और नेत्र विज्ञान में स्वास्थ्य इमेजिंग में कृत्रिम बुद्धिमत्ता अनुप्रयोगों का व्यापक विश्लेषण।"
+    },
+    "pathologyAI": {
+      "title": "पैथोलॉजी एआई सहायता",
+      "description": "कैंसर का पता लगाने और निदान सटीकता में सुधार के लिए डिजिटल पैथोलॉजी में गहन शिक्षण अनुप्रयोग।"
+    },
+    "dermatologyAI": {
+      "title": "त्वचाविज्ञान एआई समाधान",
+      "description": "कंप्यूटर विज़न और मशीन लर्निंग का उपयोग करके AI-संचालित त्वचा की स्थिति का पता लगाना और निदान करना।"
+    },
+    "mentalHealthAI": {
+      "title": "मानसिक स्वास्थ्य और एआई",
+      "description": "मानसिक स्वास्थ्य जांच, निदान और उपचार सहायता में कृत्रिम बुद्धिमत्ता अनुप्रयोग।"
+    },
+    "accuracyStudies": {
+      "title": "एआई सटीकता अध्ययन",
+      "description": "वास्तविक विश्व स्वास्थ्य देखभाल सेटिंग्स में एआई डायग्नोस्टिक प्रणालियों का नैदानिक ​​सत्यापन और प्रदर्शन मेट्रिक्स।"
+    }
+  },
+  "whitepapers": {
+    "downloadPdf": "पीडीएफ डाउनलोड करें",
+    "generating": "उत्पन्न...",
+    "abstract": "अमूर्त",
+    "introduction": "परिचय",
+    "methods": "विधियाँ/प्रौद्योगिकियाँ",
+    "results": "परिणाम",
+    "discussion": "बहस",
+    "conclusion": "निष्कर्ष",
+    "references": "संदर्भ",
+    "authors": "लेखक",
+    "email": "ईमेल",
+    "organization": "संगठन"
+  },
+  "imageProcessing": {
+    "preset": "प्रीसेट",
+    "process": "प्रक्रिया",
+    "revert": "फिर लौट आना",
+    "applyPreset": "फ़ोकस में छवि पर प्रीसेट लागू करें",
+    "revertFocus": "मूल छवि पर पुनः ध्यान केंद्रित करें"
+  },
+  "alt": {
+    "logo": "VirtualMD.app लोगो",
+    "logoSmall": "माइंडस्क्रिप्ट छोटा लोगो",
+    "integratedApproach": "एकीकृत कल्याण दृष्टिकोण",
+    "userProfile": "उपयोगकर्ता रूपरेखा",
+    "aiDoctor": "एआई स्वास्थ्य विशेषज्ञ कैरोल",
+    "aiAssistant": "एआई सहायक",
+    "backgroundImage": "सुंदर पृष्ठभूमि छवि",
+    "home": "माइंडस्क्रिप्ट होम",
+    "processed": "संसाधित छवि",
+    "zoomPreview": "छवि ज़ूम पूर्वावलोकन"
+  },
+  "aria": {
+    "scrollDown": "नीचे स्क्रॉल करें",
+    "scrollUp": "ऊपर स्क्रॉल करें",
+    "openMenu": "मेनू खोलें",
+    "togglePassword": "पासवर्ड दृश्यता टॉगल करें",
+    "chooseLanguage": "भाषा चुनें",
+    "goHome": "मुखपृष्ठ प्र जाएं",
+    "remove": "निकालना",
+    "edit": "संपादन करना",
+    "delete": "मिटाना",
+    "save": "बचाना",
+    "cancel": "रद्द करना",
+    "breadcrumb": "नेविगेशन ब्रेडक्रम्ब",
+    "conversationChoice": "बातचीत का विकल्प",
+    "personaChoice": "व्यक्तित्व का चुनाव",
+    "panel": "पैनल",
+    "summary": "सारांश",
+    "differentialOpinion": "भिन्न राय",
+    "transcript": "प्रतिलिपि",
+    "encyclopedia": "विश्वकोश",
+    "endConversation": "बातचीत समाप्त करें",
+    "startChat": "टीम के साथ चैट शुरू करें",
+    "configureChat": "नई चैट कॉन्फ़िगर करें",
+    "savedConsultations": "सहेजे गए परामर्श",
+    "myProfile": "मेरी प्रोफाइल"
+  },
+  "researchPage": {
+    "title": "अनुसंधान और प्रकाशन",
+    "healthAdvisory": {
+      "title": "स्वास्थ्य सलाह",
+      "description": "महत्वपूर्ण स्वास्थ्य और सुरक्षा जानकारी",
+      "button": "सलाह देखें"
+    },
+    "imagingAI": {
+      "title": "डायग्नोस्टिक इमेजिंग में एआई",
+      "description": "रेडियोलॉजी, पैथोलॉजी और नेत्र विज्ञान में स्वास्थ्य इमेजिंग में एआई अनुप्रयोग",
+      "button": "और पढ़ें"
+    },
+    "pathologyAI": {
+      "title": "एआई-सहायता प्राप्त पैथोलॉजी",
+      "description": "कैंसर का पता लगाने और निदान सटीकता के लिए डिजिटल पैथोलॉजी में गहन शिक्षण अनुप्रयोग",
+      "button": "और पढ़ें"
+    },
+    "dermatologyAI": {
+      "title": "त्वचाविज्ञान में एआई समाधान",
+      "description": "कंप्यूटर विज़न और मशीन लर्निंग का उपयोग करके AI-संचालित त्वचा की स्थिति का पता लगाना और निदान करना",
+      "button": "और पढ़ें"
+    },
+    "mentalHealthAI": {
+      "title": "मानसिक स्वास्थ्य और एआई",
+      "description": "मानसिक स्वास्थ्य जांच, निदान और चिकित्सीय सहायता में एआई अनुप्रयोग",
+      "button": "और पढ़ें"
+    },
+    "dataPrivacy": {
+      "title": "डेटा गोपनीयता और सुरक्षा",
+      "description": "स्वास्थ्य सेवा डेटा सुरक्षा, HIPAA अनुपालन और गोपनीयता सुरक्षा उपाय",
+      "button": "और पढ़ें"
+    },
+    "aiAccuracy": {
+      "title": "एआई सटीकता अध्ययन",
+      "description": "वास्तविक विश्व स्वास्थ्य देखभाल सेटिंग्स में एआई डायग्नोस्टिक प्रणालियों का नैदानिक ​​सत्यापन और प्रदर्शन मीट्रिक",
+      "button": "और पढ़ें"
+    },
+    "aiForLaypeople": {
+      "title": "सभी के लिए AI",
+      "description": "हेल्थकेयर एआई को सरल शब्दों में समझें - किसी तकनीकी पृष्ठभूमि की आवश्यकता नहीं",
+      "button": "और पढ़ें"
+    }
+  },
+  "dialogs": {
+    "startWithDefault": "स्वास्थ्य विशेषज्ञ कैरोल से शुरुआत करें",
+    "startWithSpecific": "{{name}} से शुरू करें",
+    "longRecording": {},
+    "shortConv": {}
+  },
+  "team": {
+    "myAIHealthTeam": "मेरी AI स्वास्थ्य टीम",
+    "addMembersInstruction": "दाईं ओर दिए गए कार्ड पर क्लिक करके टीम के सदस्यों को जोड़ें।",
+    "maxTeamSizeNote": "आपकी टीम में अधिकतम पाँच AI सलाहकार जोड़े जा सकते हैं। आप अपनी टीम कभी भी बदल सकते हैं, लेकिन परामर्श के दौरान नहीं।",
+    "starting": "शुरू...",
+    "startTeamConsult": "टीम परामर्श शुरू करें",
+    "startConsultationWithTeam": "अपनी टीम के साथ परामर्श शुरू करें"
+  },
+  "newConversation": {
+    "aileenCarolOnly": "स्वास्थ्य विशेषज्ञ कैरोल ओनली",
+    "oneOnOne": "एक एक करके",
+    "consultationChoice": {
+      "question": "आज आप किससे परामर्श करना चाहेंगे?"
+    },
+    "options": {
+      "allAdvisers": "मेरे सभी AI स्वास्थ्य सलाहकार",
+      "allAdvisersCarolOnly": "मेरे सभी AI स्वास्थ्य सलाहकार (केवल AI स्वास्थ्य विशेषज्ञ कैरोल)",
+      "chooseSpecific": "मेरी सूची से विशिष्ट चुनें"
+    },
+    "tooltips": {
+      "noAdvisersSelected": "आपकी प्रोफ़ाइल में कोई सलाहकार चयनित नहीं है.",
+      "loadingAdvisers": "आपके सलाहकार लोड हो रहे हैं...",
+      "noOtherAdvisers": "आपकी सूची में चुनने के लिए कोई अन्य सलाहकार नहीं है। अपनी प्रोफ़ाइल में और जोड़ें।"
+    },
+    "errors": {
+      "loadingAdvisers": "सलाहकार डेटा लोड करने में त्रुटि."
+    },
+    "buttons": {
+      "cancel": "रद्द करना",
+      "next": "अगला",
+      "start": "शुरू"
+    }
+  },
+  "aiAccuracyWhitepaper": {
+    "section1": {},
+    "section2": {
+      "aiSuccess": {},
+      "aiErrors": {},
+      "aiVsHuman": {}
+    },
+    "section3": {
+      "challenges": {}
+    },
+    "section4": {
+      "guidelines": {}
+    },
+    "section5": {}
+  },
+  "imagingAIExplainer": {
+    "whatIsImaging": {
+      "types": {}
+    },
+    "whatIsAI": {},
+    "howAIHelps": {
+      "accuracy": {},
+      "speed": {},
+      "consistency": {}
+    },
+    "challenges": {},
+    "conclusion": {}
+  },
+  "mentalHealthWhitepaper": {
+    "disclaimer": {},
+    "abstract": {},
+    "introduction": {},
+    "methods": {},
+    "results": {
+      "diagnosticSupport": {},
+      "therapeuticApplications": {},
+      "patientMonitoring": {}
+    },
+    "discussion": {},
+    "conclusion": {}
+  },
+  "audio": {},
+  "autoListening": {},
+  "speech": {},
+  "help": {},
+  "upload": {},
+  "fileUpload": {},
+  "input": {},
+  "send": {},
+  "controls": {
+    "aiSpeaker": "एआई स्पीकर",
+    "cameraUpload": "कैमरा/अपलोड",
+    "status": {
+      "enabled": "सक्रिय",
+      "disabled": "अक्षम"
+    }
+  },
+  "welcome": {},
+  "account": {},
+  "participants": {},
+  "mobileChat": {},
+  "sidebar": {
+    "differentialOpinion": "भिन्न राय"
+  },
+  "bioPanel": {},
+  "conversations": {},
+  "mobileConsultations": {},
+  "encyclopedia": {},
+  "imageContext": {},
+  "profile": {},
+  "sidebarHeader": {
+    "plusBadge": "+"
+  },
+  "messages": {},
+  "sidebarFooter": {},
+  "summary": {},
+  "teamBuilder": {
+    "steps": {},
+    "alerts": {},
+    "existingTeam": {},
+    "primaryConcerns": {},
+    "healthConditions": {},
+    "urgencySymptoms": {},
+    "medicinePreferences": {},
+    "additionalInfo": {},
+    "aileenCarolIntro": {},
+    "buttons": {},
+    "dialogs": {}
+  },
+  "aileenCarol": {},
+  "transcript": {},
+  "registerPage": {},
+  "legal": {
+    "eligibility": {},
+    "feesAndPayment": {},
+    "termination": {}
+  },
+  "aboutEncyclopediaPage": {},
+  "loginPage": {},
+  "mobileTeamBuilder": {
+    "carolMessages": {},
+    "questionnaire": {},
+    "title": {},
+    "carolGreeting": {}
+  },
+  "mobileNavigation": {},
+  "mobileWelcome": {},
+  "mobileRouter": {},
+  "mobileInput": {},
+  "mobileProfile": {},
+  "clinicianInfoPage": {},
+  "contactPage": {},
+  "dataPrivacyWhitepaper": {
+    "sections": {},
+    "hero": {},
+    "privacyPledge": {
+      "secureInfo": {},
+      "noPersonalUse": {},
+      "neverSell": {},
+      "anonymizedData": {}
+    },
+    "securityLevels": {
+      "accountSecurity": {},
+      "hipaaHistory": {}
+    },
+    "mindscriptSecurity": {},
+    "hipaaConsiderations": {},
+    "userResponsibility": {},
+    "privacyScenarios": {},
+    "conclusion": {}
+  },
+  "encyclopediaPage": {},
+  "evidencePage": {
+    "researchEvidence": {
+      "radiology": {},
+      "pathology": {},
+      "dermatology": {},
+      "mentalHealthResearch": {}
+    },
+    "wellnessInsights": {
+      "personalizedWellness": {},
+      "holisticSignals": {},
+      "proactiveWellbeing": {},
+      "aiEnhancedClarity": {}
+    }
+  },
+  "featuresPage": {
+    "features": {
+      "instantWellnessInsights": {},
+      "holisticWellnessPicture": {},
+      "diverseAIPerspectives": {},
+      "everEvolvingIntelligence": {}
+    }
+  },
+  "healthAdvisoryPage": {
+    "sections": {
+      "consultation": {
+        "emergency": {}
+      },
+      "technology": {},
+      "disclaimer": {
+        "points": {}
+      }
+    }
+  },
+  "medicalImageProcessingPage": {},
+  "mentalHealthInfoPage": {},
+  "nurseInfoPage": {},
+  "patientInfoPage": {},
+  "pharmacistInfoPage": {},
+  "physicianInfoPage": {},
+  "wellnessPathwaysPage": {},
+  "whyVirtualMD": {
+    "sections": {
+      "whyUs": {
+        "points": {
+          "personalTeam": {},
+          "aiNavigator": {},
+          "empoweringChoices": {},
+          "easyToUse": {},
+          "advancedTechnology": {}
+        }
+      },
+      "hero": {},
+      "features": {
+        "points": {
+          "dynamicEnsemble": {},
+          "holisticUnderstanding": {},
+          "rapidAccess": {},
+          "reliableInteractions": {},
+          "insightfulLogs": {}
+        }
+      },
+      "technology": {},
+      "cta": {}
+    }
+  },
+  "yourHealthInYourHandsPage": {
+    "sections": {
+      "uniqueProfile": {},
+      "personalizedGoals": {},
+      "diverseInsights": {},
+      "proactivePartner": {}
+    },
+    "callToAction": {}
+  },
+  "session_complete": "सत्र पूर्ण",
+  "your_free_trial_has_ended": "आपका निःशुल्क परीक्षण समाप्त हो गया है",
+  "united_kingdom:_dial_999_or_11": "यूनाइटेड किंगडम: 999 या 112 डायल करें",
+  "melanoma_and_skin_cancer_detec": "मेलेनोमा और त्वचा कैंसर का पता लगाना",
+  "process_transactions_and_send_": "लेनदेन की प्रक्रिया करें और संबंधित जानकारी भेजें, जिसमें पुष्टिकरण और चालान (यदि लागू हो) शामिल हैं।",
+  "information_we_collect": "हमारे द्वारा एकत्रित की जाने वाली जानकारी",
+  "in_a_medical_emergency:": "चिकित्सा आपातस्थिति में:",
+  "in_response_to_legal_process:": "कानूनी प्रक्रिया के जवाब में:",
+  "loading_chat": "चैट लोड हो रही है...",
+  "redirecting": "पुनर्निर्देशित किया जा रहा है...",
+  "israel:_dial_101_(magen_david_": "इज़राइल: 101 डायल करें ()",
+  "unlimited_messages_with_ai_doc": "AI स्वास्थ्य विशेषज्ञों के साथ असीमित संदेश",
+  "contact_information": "संपर्क जानकारी",
+  "real-world_implementation_and_": "वास्तविक दुनिया कार्यान्वयन और मोबाइल अनुप्रयोग",
+  "your_access_to_or_use_of_or_in": "आपकी सेवा तक पहुंच या उपयोग या सेवा तक पहुंचने या उपयोग करने में असमर्थता;",
+  "your_computer_may_temporarily_": "आपका कंप्यूटर ऐसी सामग्रियों की प्रतियों को अस्थायी रूप से RAM में संग्रहीत कर सकता है, जो आपके द्वारा उन सामग्रियों तक पहुंचने और उन्हें देखने के लिए प्रासंगिक हो।",
+  "please_select_only_one_special": "कृपया निजी परामर्श के लिए केवल एक विशेषज्ञ का चयन करें।",
+  "references": "संदर्भ",
+  "business_transfers:": "व्यवसाय स्थानान्तरण:",
+  "account_information:": "खाता संबंधी जानकारी:",
+  "provide,_operate,_maintain,_an": "सेवा प्रदान करना, संचालित करना, रखरखाव करना और सुधारना।",
+  "assignment": "कार्यभार",
+  "sandymiles@mindspringhealth": "सैंडीमाइल्स@माइंडस्प्रिंग.हेल्थ",
+  "ai-generated_content_may_conta": "हमारी मज़बूत सत्यापन प्रक्रियाओं के बावजूद, AI द्वारा निर्मित सामग्री में त्रुटियाँ या चूक हो सकती हैं",
+  "display_name": "प्रदर्शित होने वाला नाम",
+  "any_content_obtained_from_the_": "सेवा से प्राप्त कोई भी सामग्री; या",
+  "you_may_store_files_that_are_a": "आप प्रदर्शन संवर्द्धन के उद्देश्य से ऐसी फ़ाइलें संग्रहीत कर सकते हैं जो आपके वेब ब्राउज़र द्वारा स्वचालित रूप से कैश कर ली जाती हैं।",
+  "start_new_health_consultation": "नया स्वास्थ्य परामर्श शुरू करें",
+  "entire_agreement": "पूरे समझौते",
+  "ophthalmology": "नेत्र विज्ञान",
+  "not": "नहीं",
+  "exit_conversation?": "बातचीत से बाहर निकलें?",
+  "grading_and_classification": "ग्रेडिंग और वर्गीकरण",
+  "unauthorized_access,_use,_or_a": "आपके प्रसारण या सामग्री (डेटा उल्लंघनों सहित) तक अनधिकृत पहुंच, उपयोग या परिवर्तन, भले ही माइंडस्क्रिप्ट ने इन शर्तों और गोपनीयता नीति में उल्लिखित उचित सुरक्षा उपायों को लागू किया हो।",
+  "checking_server_status": "सर्वर स्थिति की जाँच की जा रही है...",
+  "not_a_hipaa-compliant_service": "HIPAA-अनुपालक सेवा नहीं",
+  "radiology": "रेडियोलॉजी",
+  "united_states:_dial_911": "संयुक्त राज्य अमेरिका: 911 डायल करें",
+  "save_and_review_conversation_h": "वार्तालाप इतिहास सहेजें और समीक्षा करें",
+  "abstract": "अमूर्त",
+  "starting_your_consultation": "आपका परामर्श शुरू हो रहा है...",
+  "digital_pathology_overview": "डिजिटल पैथोलॉजी अवलोकन",
+  "reasonable_business_security_p": "संयुक्त राज्य अमेरिका के भीतर उचित व्यावसायिक सुरक्षा प्रथाएँ",
+  "loading_transcript": "ट्रांसक्रिप्ट लोड हो रहा है...",
+  "cookies_and_similar_technologi": "कुकीज़ और समान प्रौद्योगिकियां:",
+  "internal_medicine": "आंतरिक कल्याण",
+  "no_specialists_currently_in_th": "इस चैट में फिलहाल कोई विशेषज्ञ नहीं है।",
+  "discussion": "बहस",
+  "updating_team": "टीम अपडेट हो रही है...",
+  "your_privacy_choices": "आपकी गोपनीयता विकल्प",
+  "error:_unknown_active_chat_vie": "त्रुटि: अज्ञात सक्रिय चैट दृश्य.",
+  "create_more_than_one_account_f": "अपने लिए एक से अधिक खाते बनाएं.",
+  "improve_the_accuracy,_efficacy": "अनाम और समेकित डेटा का उपयोग करके हमारे AI मॉडल और प्लेटफ़ॉर्म सुविधाओं की सटीकता, प्रभावकारिता और सुरक्षा में सुधार करें।",
+  "user_content:": "उपयोगकर्ता सामग्री:",
+  "mindscript_does_not_provide_me": "माइंडस्क्रिप्ट चिकित्सा निदान या उपचार प्रदान नहीं करता है",
+  "communicate_with_you_about_pro": "माइंडस्क्रिप्ट और अन्य द्वारा प्रस्तुत उत्पादों, सेवाओं, प्रस्तावों, प्रचारों, पुरस्कारों और कार्यक्रमों के बारे में आपसे संवाद करना, तथा ऐसी खबरें और जानकारी प्रदान करना जो हमें लगता है कि आपके लिए रुचिकर होंगी (आपके ऑप्ट-आउट अधिकारों के अधीन)।",
+  "aggregated_or_de-identified_da": "एकत्रित या अज्ञात डेटा:",
+  "canada:_dial_911": "कनाडा: 911 डायल करें",
+  "retry": "पुन: प्रयास करें",
+  "other_locations:_contact_your_": "अन्य स्थान: अपनी स्थानीय आपातकालीन सेवाओं से तुरंत संपर्क करें",
+  "ron_rubin,_phd_and_sandy_miles": "रॉन रुबिन, पीएचडी और सैंडी माइल्स",
+  "australia:_dial_000_or_112": "ऑस्ट्रेलिया: 000 या 112 डायल करें",
+  "data_deletion:": "डेटा हटाना:",
+  "we_do_not_guarantee_the_absolu": "हम आपकी जानकारी की पूर्ण सुरक्षा की गारंटी नहीं देते हैं",
+  "send_technical_notices,_update": "तकनीकी सूचनाएं, अद्यतन, सुरक्षा चेतावनियाँ, तथा समर्थन एवं प्रशासनिक संदेश भेजें।",
+  "consultation_summary": "परामर्श सारांश",
+  "waiver": "त्याग",
+  "access_to_all_medical_specialt": "सभी स्वास्थ्य विशेषज्ञताओं तक पहुँच",
+  "no_profile_data_available": "कोई प्रोफ़ाइल डेटा उपलब्ध नहीं है.",
+  "no_summary_available": "कोई सारांश उपलब्ध नहीं है.",
+  "test_app_-_mindscript": "टेस्ट ऐप - माइंडस्क्रिप्ट",
+  "respond_to_your_comments,_ques": "आपकी टिप्पणियों, प्रश्नों और अनुरोधों का जवाब देना तथा ग्राहक सेवा प्रदान करना।",
+  "not_hipaa_compliant": "HIPAA के अनुरूप नहीं",
+  "force_majeure": "अप्रत्याशित घटना",
+  "you_may_print_or_download_one_": "आप अपने निजी, गैर-व्यावसायिक सूचनात्मक उपयोग के लिए साइट के उचित संख्या में पृष्ठों की एक प्रति प्रिंट या डाउनलोड कर सकते हैं, तथा इसका उपयोग आगे पुनरुत्पादन, प्रकाशन या वितरण के लिए नहीं कर सकते हैं।",
+  "dr_aileen_carol": "स्वास्थ्य विशेषज्ञ ऐलीन कैरोल",
+  "family_medicine": "पारिवारिक कल्याण",
+  "headings": "शीर्षकों",
+  "note_on_ai_aileencarol's_particip": "एआई स्वास्थ्य विशेषज्ञ कैरोल की भागीदारी पर टिप्पणी:",
+  "ronrubin@mindscripthealth": "ronrubin@virtualmd.app",
+  "share_your_account_credentials": "अपने खाते के क्रेडेंशियल साझा करें या अन्य लोगों को अपने खाते तक पहुंचने की अनुमति दें (संगठनात्मक खातों के लिए स्पष्ट रूप से अनुमति को छोड़कर)।",
+  "email_cannot_be_changed": "ईमेल बदला नहीं जा सकता.",
+  "your_unique_medical_history,_c": "आपके विशिष्ट स्वास्थ्य इतिहास, स्थितियों और परिस्थितियों के लिए पेशेवर मूल्यांकन की आवश्यकता है",
+  "changes_to_these_terms_and_pol": "इन शर्तों और नीति में परिवर्तन",
+  "other_ai_specialists": "अन्य AI विशेषज्ञ",
+  "full_name": "पूरा नाम",
+  "governing_law_and_dispute_reso": "शासन कानून और विवाद समाधान",
+  "loading…": "लोड हो रहा है…",
+  "personalized_health_insights": "व्यक्तिगत स्वास्थ्य अंतर्दृष्टि",
+  "gastroenterology": "गैस्ट्रोएंटरोलॉजी",
+  "use_of_the_service_by_children": "बच्चों द्वारा सेवा का उपयोग निषिद्ध है।",
+  "introduction": "परिचय",
+  "use_another_user's_account_wit": "बिना अनुमति के किसी अन्य उपयोगकर्ता के खाते का उपयोग करना।",
+  "if_you_can_see_this,_react_is_": "यदि आप यह देख सकते हैं, तो React काम कर रहा है!",
+  "ronrubin@mindspringhealth": "ronrubin@mindspring.health",
+  "children's_privacy": "बच्चों की गोपनीयता",
+  "provide_false_or_misleading_in": "पंजीकरण के दौरान या अपने खाता प्रोफ़ाइल में गलत या भ्रामक जानकारी प्रदान करना।",
+  "talk_to_a_specialist": "किसी विशेषज्ञ से बात करें",
+  "cannot": "नही सकता",
+  "how_we_use_information": "हम जानकारी का उपयोग कैसे करते हैं",
+  "results": "परिणाम",
+  "loading_participants": "प्रतिभागियों को लोड किया जा रहा है...",
+  "sandymiles@mindscripthealth": "sandymiles@virtualmd.app",
+  "this_feature_is_coming_soon": "यह सुविधा जल्द ही आ रही है!",
+  "start_or_continue_conversation": "बातचीत शुरू करें या जारी रखें",
+  "international_data_transfers": "अंतर्राष्ट्रीय डेटा स्थानांतरण",
+  "loading_bio": "बायो लोड हो रहा है...",
+  "termination": "समापन",
+  "no_image_active": "कोई छवि सक्रिय नहीं है.",
+  "no_ai_health_advisers_selected": "कोई AI स्वास्थ्य सलाहकार नहीं चुना गया। आप अपनी प्रोफ़ाइल में अपने सलाहकारों को प्रबंधित कर सकते हैं।",
+  "dr_daniel_garcia": "स्वास्थ्य विशेषज्ञ डैनियल गार्सिया",
+  "no_other_specialists_available": "जोड़ने के लिए कोई अन्य विशेषज्ञ उपलब्ध नहीं है।",
+  "carry_out_any_other_purpose_de": "जानकारी एकत्रित करते समय आपको बताए गए किसी अन्य उद्देश्य को पूरा करना।",
+  "data_retention": "डेटा प्रतिधारण",
+  "informational_and_educational_": "केवल सूचनात्मक और शैक्षिक उद्देश्यों के लिए",
+  "miscellaneous": "मिश्रित",
+  "non-cancerous_skin_condition_c": "गैर-कैंसरयुक्त त्वचा स्थिति का वर्गीकरण",
+  "pathology": "विकृति विज्ञान",
+  "promotional_communications:": "प्रचारात्मक संचार:",
+  "info@mindscripthealth": "info@virtualmd.app",
+  "methods/technologies": "विधियाँ/प्रौद्योगिकियाँ",
+  "how_we_share_information": "हम जानकारी कैसे साझा करते हैं",
+  "loading_profile": "प्रोफ़ाइल लोड हो रही है...",
+  "personalize_and_improve_the_se": "सेवा को वैयक्तिकृत और बेहतर बनाना तथा उपयोगकर्ता प्रोफाइल या रुचियों से मेल खाने वाली सामग्री या सुविधाएँ प्रदान करना।",
+  "with_vendors_and_service_provi": "विक्रेताओं और सेवा प्रदाताओं के साथ:",
+  "health_information_may_become_": "स्वास्थ्य ज्ञान के विकास के साथ स्वास्थ्य संबंधी जानकारी पुरानी हो सकती है",
+  "with_whom_would_you_like_to_co": "आज आप किससे परामर्श करना चाहेंगे?",
+  "mindscript_content:": "माइंडस्क्रिप्ट सामग्री:",
+  "cookies:": "कुकीज़:",
+  "detect,_investigate,_and_preve": "धोखाधड़ी वाले लेनदेन और अन्य अवैध गतिविधियों का पता लगाना, जांच करना और रोकना तथा माइंडस्क्रिप्ट और अन्य के अधिकारों और संपत्ति की रक्षा करना।",
+  "medical_advice_requires_person": "स्वास्थ्य सलाह के लिए लाइसेंस प्राप्त स्वास्थ्य सेवा प्रदाताओं द्वारा व्यक्तिगत मूल्यांकन की आवश्यकता होती है",
+  "create_an_account_for_anyone_o": "बिना अनुमति के अपने अलावा किसी अन्य के लिए खाता न बनाएं।",
+  "options": "विकल्प",
+  "cannot_and_will_not_sue_or_hol": "माइंडस्क्रिप्ट टेक्नोलॉजीज, एलएलसी, उसके सहयोगियों, अधिकारियों, निदेशकों, कर्मचारियों, एजेंटों, या लाइसेंसधारकों पर मुकदमा नहीं कर सकता और न ही उन्हें उत्तरदायी ठहराएगा",
+  "with_your_consent:": "आपकी सहमति से:",
+  "add_specialists_to_your_team": "अपनी टीम में विशेषज्ञों को जोड़ें",
+  "usage_information:": "उपयोग जानकारी:",
+  "any_conduct_or_content_of_any_": "सेवा पर किसी भी तीसरे पक्ष का कोई भी आचरण या सामग्री, जिसमें बिना किसी सीमा के, अन्य उपयोगकर्ताओं या तीसरे पक्ष का कोई भी अपमानजनक, आपत्तिजनक या अवैध आचरण शामिल है;",
+  "do_not_meet_the_specific_admin": "PHI को संभालने के लिए HIPAA सुरक्षा नियम द्वारा अनिवार्य विशिष्ट प्रशासनिक, भौतिक और तकनीकी सुरक्षा आवश्यकताओं को पूरा नहीं करते हैं",
+  "legal@mindscripthealth": "legal@virtualmd.app",
+  "cancel": "रद्द करना",
+  "conclusion": "निष्कर्ष",
+  "professional_health_insights_a": "व्यावसायिक स्वास्थ्य अंतर्दृष्टि और मार्गदर्शन",
+  "cancer_detection": "कैंसर का पता लगाना",
+  "your_specialist_team_is_empty_": "आपकी विशेषज्ञ टीम खाली है। नीचे विशेषज्ञ जोड़ें।",
+  "workflow_optimization": "वर्कफ़्लो अनुकूलन",
+  "select_ai_specialists": "AI विशेषज्ञों का चयन करें",
+  "monitor_and_analyze_trends,_us": "हमारी सेवा के संबंध में रुझानों, उपयोग और गतिविधियों की निगरानी और विश्लेषण करें।",
+  "severability": "विच्छेदनीयता",
+  "access_to_cardiology_and_neuro": "कार्डियोलॉजी और न्यूरोलॉजी विशेषज्ञों तक पहुंच",
+  "searchLanguages": "भाषाएं खोजें...",
+  "noLanguagesFound": "कोई भाषा नहीं मिली",
+  "you": "आप",
+  "manageTeam": {
+    "title": "मेरी AI स्वास्थ्य टीम प्रबंधित करें (अधिकतम {{maxTeamMembers}} विशेषज्ञ)",
+    "currentTeamCount": "आपकी वर्तमान टीम ({{current}}/{{max}})",
+    "updatingTeam": "टीम अपडेट हो रही है...",
+    "coordinatorLabel": "(समन्वयक)",
+    "alwaysIncluded": "हमेशा शामिल",
+    "specialistFallback": "SPECIALIST",
+    "emptyTeamMessage": "आपकी विशेषज्ञ टीम खाली है। नीचे विशेषज्ञ जोड़ें।",
+    "teamFullMessage": "आपकी टीम में अधिकतम {{maxTeamMembers}} विशेषज्ञ हैं। यदि आप किसी अन्य विशेषज्ञ को जोड़ना चाहते हैं, तो कृपया किसी सदस्य को हटा दें।",
+    "otherSpecialistsTitle": "अन्य AI विशेषज्ञ",
+    "addToTeamTooltip": "टीम में जोड़ें",
+    "teamFullTooltip": "टीम पूरी है",
+    "systemSpecialistFallback": "सिस्टम विशेषज्ञ",
+    "noSpecialistsAvailable": "जोड़ने के लिए कोई अन्य विशेषज्ञ उपलब्ध नहीं है।"
+  },
+  "personas": {
+    "defaultSpecialist": "एआई विशेषज्ञ"
+  },
+  "personaList": {
+    "noSpecialistsFound": "कोई AI विशेषज्ञ नहीं मिला."
+  },
+  "guest": {
+    "user": "अतिथि उपयोगकर्ता",
+    "userObject": {
+      "displayName": "अतिथि उपयोगकर्ता",
+      "email": "guest@virtualmd.app"
+    },
+    "registration": {
+      "prompt": "हमारी संपूर्ण AI स्वास्थ्य टीम, वार्तालाप इतिहास और उन्नत सुविधाओं तक पूर्ण पहुंच के लिए पंजीकरण करें।",
+      "dialogTitle": "पंजीकृत उपयोगकर्ताओं के पास {{specialistName}} तक पहुंच है",
+      "dialogDescription": "{{specialistName}} हमारी व्यापक आभासी स्वास्थ्य टीम का हिस्सा है।",
+      "benefitsTitle": "VirtualMD.app खाते के साथ, आपको मिलेगा:",
+      "benefits": {
+        "access": "60 से अधिक विशिष्ट AI स्वास्थ्य सलाहकारों तक पहुँच",
+        "personalized": "व्यक्तिगत स्वास्थ्य परामर्श",
+        "saveConversations": "वार्तालाप सहेजें और जारी रखें",
+        "uploadImages": "चित्र अपलोड करें या उन्हें सीधे अपने कंप्यूटर/कैमरे से लें",
+        "customTeam": "अपनी स्वयं की कस्टम स्वास्थ्य टीम बनाएँ",
+        "availability": "स्वास्थ्य संबंधी प्रश्नों के लिए 24/7 उपलब्धता"
+      },
+      "buttons": {
+        "maybeLater": "शायद बाद में",
+        "registerNow": "अभी पंजीकरण करें"
+      }
+    },
+    "registrationRequired": "पंजीकरण आवश्यक",
+    "profileRegistrationRequired": "उपयोगकर्ता प्रोफ़ाइल: पंजीकरण आवश्यक",
+    "landing": {
+      "title": "एआई स्वास्थ्य परामर्श का अनुभव करें",
+      "subtitle": "हमारे AI स्वास्थ्य विशेषज्ञों से तुरंत स्वास्थ्य संबंधी जानकारी प्राप्त करें - पूरी तरह निःशुल्क, पंजीकरण की आवश्यकता नहीं",
+      "whatBringsYou": "आज आप इधर कैसे?",
+      "selectConcern": "एक सामान्य चिंता का चयन करें या अपनी चिंता का वर्णन करें",
+      "customConcernPlaceholder": "या अपने स्वास्थ्य संबंधी चिंता को अपने शब्दों में बताएं...",
+      "startConsultation": "निःशुल्क परामर्श शुरू करें",
+      "experienceIncludes": "निःशुल्क अतिथि अनुभव में शामिल हैं:",
+      "includes": {
+        "messages": "एआई स्वास्थ्य विशेषज्ञों के साथ 10 संदेश",
+        "time": "परामर्श का समय 15 मिनट",
+        "insights": "व्यावसायिक स्वास्थ्य अंतर्दृष्टि और मार्गदर्शन"
+      },
+      "personas": {
+        "defaultSpecialist": "एआई विशेषज्ञ",
+        "aileen": {
+          "name": "स्वास्थ्य विशेषज्ञ ऐलीन कैरोल",
+          "specialty": "पारिवारिक कल्याण"
+        },
+        "daniel": {
+          "name": "स्वास्थ्य विशेषज्ञ डैनियल गार्सिया",
+          "specialty": "आंतरिक कल्याण"
+        }
+      }
+    },
+    "chat": {
+      "header": "एआई स्वास्थ्य परामर्श",
+      "messagesLeft": "{{count}} संदेश शेष",
+      "timeLeft": "{{शेष समय",
+      "startingConsultation": "आपका परामर्श शुरू हो रहा है। एक AI स्वास्थ्य विशेषज्ञ जल्द ही जवाब देगा।",
+      "aiTyping": "एआई विशेषज्ञ टाइप कर रहा है...",
+      "inputPlaceholder": "अपने लक्षण बताएं या कोई प्रश्न पूछें..."
+    },
+    "expired": {
+      "title": "परामर्श पूर्ण",
+      "subtitle": "आपने AI स्वास्थ्य परामर्श की शक्ति का अनुभव किया है",
+      "messagesUsed": "आपने {{अधिकतम}} में से {{used}} संदेशों का उपयोग किया",
+      "continuePrompt": "क्या आप असीमित पहुंच जारी रखना चाहते हैं?",
+      "createAccount": "मुफ्त खाता बनाओ",
+      "signIn": "दाखिल करना"
+    },
+    "errors": {
+      "startFailed": "परामर्श शुरू नहीं हो सका। कृपया पुनः प्रयास करें।",
+      "connectionLost": "कनेक्शन टूट गया है। कृपया पेज रीफ़्रेश करें।",
+      "sendFailed": "संदेश भेजने में विफल. कृपया पुनः प्रयास करें."
+    },
+    "profile": {
+      "age": "25",
+      "gender": "महिला",
+      "bloodType": "ए+",
+      "height": "5'6\"",
+      "weight": "130 पाउंड",
+      "conditions": "आयरन की कमी से एनीमिया, मध्यम अवसाद",
+      "medications": "फेरस सल्फेट 325 मि.ग्रा. प्रतिदिन, सेर्ट्रालाइन 50 मि.ग्रा. प्रतिदिन",
+      "allergies": "कोई ज्ञात नहीं",
+      "healthInfo": "मैं पिछले 6 महीनों से थकान और कम ऊर्जा की समस्या से जूझ रहा हूँ। मेरे स्वास्थ्य विशेषज्ञ ने मुझे आयरन की कमी से होने वाले एनीमिया का निदान किया है और मैं आयरन सप्लीमेंट्स ले रहा हूँ। मैं अवसाद से भी जूझ रहा हूँ और 3 महीने पहले मैंने एंटीडिप्रेसेंट लेना शुरू किया है। मैं इन दोनों स्थितियों से निपटने और अपने समग्र ऊर्जा स्तर को बेहतर बनाने के लिए सलाह चाहता हूँ।",
+      "emergencyContact": "सारा जॉनसन (बहन) - (555) 123-4567"
+    },
+    "experience": {
+      "tryItOut": "कोशिश करके देखो।",
+      "noObligation": "कोई बाध्यता नहीं.",
+      "subtitle": "VirtualMD.app आपके लिए क्या कर सकता है, यह तो बस एक छोटी सी बात है।"
+    }
+  },
+  "aiPrefix": "ऐ",
+  "dashboard": "डैशबोर्ड",
+  "teamRecommendation": {
+    "submission": {
+      "primaryConcernsLabel": "आज आपकी प्राथमिक स्वास्थ्य चिंताएँ क्या हैं?",
+      "healthConditionsLabel": "आप पर कौन सी स्वास्थ्य स्थितियां लागू होती हैं?"
+    },
+    "defaults": {
+      "noneSpecified": "कोई निर्दिष्ट नहीं"
+    }
+  }
+}

@@ -1,0 +1,715 @@
+{
+  "actions": {
+    "startConsultation": "የጤና ማማከር ይጀምሩ",
+    "endConsultation": "ምክክርን ጨርስ",
+    "returnToConsultation": "ወደ ምክክር ተመለስ",
+    "newConversation": "አዲስ ውይይት ጀምር",
+    "saveConversation": "ውይይት አስቀምጥ",
+    "deleteConversation": "ውይይት ሰርዝ",
+    "getSummary": "ማጠቃለያ አግኝ",
+    "getTranscript": "ግልባጭ ያግኙ",
+    "getDifferentialOpinion": "ልዩነት አስተያየት ያግኙ",
+    "exportChat": "ውይይት ወደ ውጪ ላክ",
+    "clearChat": "ውይይት አጽዳ"
+  },
+  "audio": {
+    "aiMuted": "AI ድምጸ-ከል ተደርጓል",
+    "aiUnmuted": "AI ኦዲዮ በርቷል።",
+    "playbackFailed": "ኦዲዮን ማጫወት አልተሳካም።",
+    "generationFailed": "ንግግር ማመንጨት አልተሳካም።"
+  },
+  "sidebar": {
+    "personaList": "የጤና ባለሙያዎን ይምረጡ",
+    "conversations": "የእኔ ውይይቶች",
+    "profile": "የእኔ መገለጫ",
+    "settings": "ቅንብሮች",
+    "manageTeam": "ቡድን አስተዳድር",
+    "teamBuilder": "AI ቡድን ገንቢ",
+    "encyclopedia": "ኢንሳይክሎፔዲያ",
+    "bio": "ፕሮፌሽናል ባዮ",
+    "clickForBio": "ለባዮ ጠቅ ያድርጉ",
+    "clickToSpeak": "አማካሪን ለማነጋገር ጠቅ ያድርጉ",
+    "summary": "የምክክር ማጠቃለያ",
+    "transcript": "የውይይት ግልባጭ",
+    "imageContext": "የምስል አውድ",
+    "newConversation": "አዲስ ምክክር"
+  },
+  "tooltips": {
+    "audioOnlyRegistered": "ኦዲዮ ለተመዘገቡ ተጠቃሚዎች ብቻ ይገኛል።"
+  },
+  "messages": {
+    "typeMessage": "መልእክትህን እዚህ ተይብ...",
+    "send": "ላክ",
+    "thinking": "በማሰብ...",
+    "processing": "በማስሄድ ላይ...",
+    "connecting": "በመገናኘት ላይ...",
+    "connected": "ተገናኝቷል።",
+    "disconnected": "ግንኙነት ተቋርጧል",
+    "typing": "{{name}} እየተየበ ነው...",
+    "messageError": "መልዕክት መላክ አልተሳካም።",
+    "retryMessage": "እንደገና ይሞክሩ",
+    "requestToSpeak": "እባክዎን {{name}}ን እንዳናግር ፍቀድልኝ",
+    "messageDeleted": "መልእክት ተሰርዟል።",
+    "systemMessage": "የስርዓት መልእክት"
+  },
+  "personas": {
+    "defaultName": "የጤና ባለሙያ አይሊን ካሮል",
+    "defaultSpecialty": "የጤና ባለሙያ",
+    "selectPersona": "የጤና ባለሙያ ይምረጡ",
+    "noPersonasAvailable": "ምንም የጤና ባለሙያዎች የሉም",
+    "personaDetails": "ሙያዊ ዝርዝሮች",
+    "specialization": "ስፔሻላይዜሽን",
+    "experience": "ልምድ",
+    "education": "ትምህርት",
+    "certifications": "የምስክር ወረቀቶች",
+    "languages": "ቋንቋዎች",
+    "availableNow": "አሁን ይገኛል።",
+    "loading": "ባለሙያዎችን በመጫን ላይ..."
+  },
+  "personaSearch": {
+    "placeholder": "በስም ፣ በልዩ ባለሙያ ፣ ወይም ምልክቶችዎን ይግለጹ (ለምሳሌ ፣ ራስ ምታት ፣ ጭንቀት)",
+    "selected": "ተመርጧል",
+    "noResults": "ለ«{{ጥያቄ}}» ምንም አማካሪዎች አልተገኙም",
+    "searchSuggestions": "ለመፈለግ ይሞክሩ፡ ራስ ምታት፣ ጭንቀት፣ ህመም፣ እንቅልፍ፣ የስኳር በሽታ፣ ወዘተ."
+  },
+  "configurator": {
+    "title": "አዲስ የጤና ምክክር ይጀምሩ",
+    "subtitle": "ከእርስዎ AI የጤና ቡድን ይምረጡ",
+    "changeTeam": "ቡድን ቀይር",
+    "starting": "በመጀመር ላይ...",
+    "startConsult": "ማማከር ይጀምሩ",
+    "emptyTeam": "የእርስዎ AI ጤና ቡድን ባዶ ነው።",
+    "addSpecialists": "ልዩ ባለሙያዎችን ወደ ቡድንዎ ያክሉ",
+    "noOtherSpecialists": "በቡድንዎ ውስጥ ሌላ ልዩ ባለሙያዎች የሉም። ከ AI የጤና ባለሙያ ካሮል ጋር መወያየት ይችላሉ ወይም",
+    "addSpecialistsLink": "ልዩ ባለሙያዎችን ወደ ቡድንዎ ያክሉ",
+    "defaultPersona": {
+      "name": "AI የጤና ኤክስፐርት አይሊን ካሮል",
+      "role": "የእኔ ዋና AI የጤና አማካሪ"
+    },
+    "carolNote": {
+      "title": "ስለ AI የጤና ባለሙያ የካሮል ተሳትፎ ማስታወሻ፡-",
+      "ruleA": "ከቡድንዎ 0 ወይም 2+ ሌሎች ስፔሻሊስቶች ከተመረጡ የ AI የጤና ባለሙያ ካሮል ይካተታል።",
+      "ruleB": "B. ከቡድንዎ ውስጥ ሌላ 1 ስፔሻሊስት ከተመረጠ የ AI የጤና ባለሙያ ካሮል አይካተትም።"
+    }
+  },
+  "conversations": {
+    "noConversations": "እስካሁን ምንም ንግግሮች የሉም",
+    "untitled": "ርዕስ አልባ ውይይት",
+    "today": "ዛሬ",
+    "yesterday": "ትናንት",
+    "thisWeek": "በዚህ ሳምንት",
+    "lastWeek": "ባለፈው ሳምንት",
+    "older": "የቆዩ",
+    "editTitle": "ርዕስ አርትዕ",
+    "saveTitle": "ርዕስ አስቀምጥ",
+    "cancelEdit": "አርትዕን ሰርዝ",
+    "deleteConsultation": "ምክክርን ሰርዝ",
+    "clickToReturn": "ለማማከር ለመመለስ ይንኩ።",
+    "deleteConfirm": "እርግጠኛ ነዎት ይህን ውይይት መሰረዝ ይፈልጋሉ?",
+    "deleteSuccess": "ውይይት በተሳካ ሁኔታ ተሰርዟል።",
+    "loadingConversations": "ንግግሮችን በመጫን ላይ...",
+    "conversationError": "ውይይትን መጫን ላይ ስህተት",
+    "consultationsTitle": "ምክክር",
+    "lastUpdate": "የመጨረሻ ዝመና፡ {{ቀን}}",
+    "consultationDefault": "ምክክር {{id}}",
+    "noConsultationsYet": "እስካሁን ምንም ምክክር የለም።",
+    "noPastConsultations": "ያለፉ ምክክር አልተገኙም።"
+  },
+  "participants": {
+    "noParticipants": "ምንም የሚታዩ ተሳታፊዎች የሉም።",
+    "inThisConsult": "በዚህ ምናባዊ ምክክር ውስጥ፡-"
+  },
+  "team": {
+    "myTeam": "የእኔ የጤና ቡድን",
+    "addToTeam": "ወደ ቡድን ያክሉ",
+    "removeFromTeam": "ከቡድን አስወግድ",
+    "teamFull": "ቡድንህ ሞልቷል።",
+    "maxTeamSize": "ከፍተኛው የቡድን መጠን ደርሷል ({{max}} አባላት)",
+    "currentTeam": "የአሁን የቡድን አባላት",
+    "buildTeam": "ቡድንዎን ይገንቡ",
+    "teamRecommendations": "AI ቡድን ምክሮች",
+    "acceptRecommendation": "ምክሩን ተቀበል",
+    "getRecommendations": "የ AI ምክሮችን ያግኙ",
+    "teamBuilder": "AI ቡድን ገንቢ",
+    "addTeamMembersInstruction": "በቀኝ በኩል ባለው ካርድ ላይ ጠቅ በማድረግ የቡድን አባላትን ያክሉ።",
+    "maxTeamSizeNote": "ከፍተኛው አምስት AI አማካሪዎች ወደ ቡድንዎ ሊጨመሩ ይችላሉ። በማንኛውም ጊዜ ቡድንዎን መቀየር ይችላሉ, ነገር ግን በምክክር ጊዜ አይደለም.",
+    "startConsultationWithTeam": "ከቡድንዎ ጋር ምክክር ይጀምሩ",
+    "manageTeamTitle": "የእኔን AI ጤና ቡድን አስተዳድር (ከፍተኛ {{max}} ስፔሻሊስቶች)",
+    "removeSpecialistToUseTeamBuilder": "እባክዎ የ AI ጤና ኤክስፐርት የካሮል ቡድን ግንባታ ምክሮችን ለመጠቀም ቢያንስ አንድ ስፔሻሊስት ያስወግዱ",
+    "aileenCarolRecommendTeam": "የ AI የጤና ባለሙያ ካሮል የጤና ቡድንዎን እንዲመክሩት ያድርጉ",
+    "teamFullRemoveToUseBuilder": "ቡድንህ ሞልቷል። እባክዎ የ AI ቡድን ግንባታን ለመጠቀም ቢያንስ አንድ ስፔሻሊስት ያስወግዱ።",
+    "yourCurrentTeam": "የእርስዎ የአሁኑ ቡድን ({{current}}/{{max}})",
+    "updatingTeam": "ቡድን በማዘመን ላይ...",
+    "coordinator": "አስተባባሪ",
+    "alwaysIncluded": "ሁልጊዜም ይካተታል",
+    "specialist": "ስፔሻሊስት",
+    "teamEmptyAddBelow": "የእርስዎ ስፔሻሊስት ቡድን ባዶ ነው። ከዚህ በታች ስፔሻሊስቶችን ያክሉ።",
+    "teamFullRemoveMember": "ቡድንዎ ሙሉ ነው (ከፍተኛ {{max}} ስፔሻሊስቶች)። ሌላ ስፔሻሊስት ማከል ከፈለጉ እባክዎን አባል ያስወግዱ።",
+    "addMembersClickCard": "በዋናው አካባቢ ካርድ ላይ ጠቅ በማድረግ የቡድን አባላትን ያክሉ",
+    "teamLead": "የቡድን መሪ",
+    "currentMember": "የአሁኑ አባል",
+    "analyzingNeeds": "ፍላጎቶችዎን በመተንተን ላይ...",
+    "emergencyDetected": "🚨 የአደጋ ጊዜ ተገኝቷል",
+    "backToSafety": "ወደ ደህንነት ተመለስ",
+    "recommendedTeam": "የሚመከር የጤና ቡድን",
+    "completeTeam": "የእርስዎ ሙሉ ቡድን ({{count}} አባላት)",
+    "teamLeadReason": "የመጀመሪያ ደረጃ የጤና አስተባባሪ",
+    "keepingMembers": "የአሁን የቡድን አባላት (መጠበቅ)",
+    "newRecommendations": "አዲስ ምክሮች",
+    "aileenCarolReasoning": "የ AI የጤና ባለሙያ የካሮል ምክንያት፡-",
+    "noMatchingSpecialists": "ለ AI ምክሮች ምንም ተዛማጅ ስፔሻሊስቶች አልተገኙም። እንደገና መሞከር ወይም ቡድንዎን እራስዎ መገንባት ይችላሉ።",
+    "medicalDisclaimerTitle": "የጤና እና ጤና ምክር፡-",
+    "medicalDisclaimerText": "ይህ መድረክ የጤና ምክር እና መመሪያ ይሰጣል ነገር ግን ሙያዊ የጤና እንክብካቤን ሊተካ አይችልም። ለድንገተኛ አደጋ ወይም ለከባድ የጤና ችግሮች ብቁ የሆኑ የጤና እንክብካቤ ባለሙያዎችን ሁልጊዜ ያማክሩ።",
+    "applyingTeam": "አመልካች ቡድን...",
+    "acceptTeam": "ይህንን ቡድን ተቀበል",
+    "tryDifferent": "የተለያዩ ምክሮችን ይሞክሩ",
+    "cancel": "ሰርዝ",
+    "myVirtualMDTeam": "የእኔ VirtualMD.app ቡድን",
+    "availableSpecialists": "የ AI ጤና ስፔሻሊስቶች ይገኛሉ",
+    "clickToAddInstruction": "ወደ ቡድንዎ ለመጨመር ካርድ ላይ ጠቅ ያድርጉ ({{አሁን}}/{{max}} ተመርጧል)። የተመረጡ ስፔሻሊስቶች \"የተመረጠ\" ባጅ ያሳያሉ.",
+    "teamFullInstruction": "ቡድንህ ሞልቷል። የተለየ ስፔሻሊስት ለመጨመር አባልን ያስወግዱ።",
+    "selected": "ተመርጧል",
+    "teamFullBadge": "ቡድን ሙሉ",
+    "allSpecialistsAdded": "ሁሉም የሚገኙ ልዩ ባለሙያዎች ወደ ቡድንዎ ታክለዋል።",
+    "otherSpecialists": "ሌሎች ስፔሻሊስቶች",
+    "specialistsCount": "{{count}} ስፔሻሊስቶች",
+    "startTeamConsult": "የቡድን ምክክርን ጀምር",
+    "starting": "በመጀመር ላይ...",
+    "myAIHealthTeam": "የእኔ AI ጤና ቡድን",
+    "addMembersInstruction": "በቀኝ በኩል ባለው ካርድ ላይ ጠቅ በማድረግ የቡድን አባላትን ያክሉ።"
+  },
+  "specialistCategories": {
+    "diabetesBloodSugar": "የስኳር በሽታ እና የደም ስኳር",
+    "weightManagement": "የክብደት አስተዳደር",
+    "mentalHealthStress": "የአእምሮ ጤና እና ውጥረት",
+    "cancerSupport": "የካንሰር ድጋፍ",
+    "heartHealth": "የልብ ጤና",
+    "painManagement": "የህመም ማስታገሻ",
+    "digestiveIssues": "የምግብ መፈጨት ችግሮች",
+    "sleepProblems": "የእንቅልፍ ችግሮች",
+    "skinProblems": "የቆዳ ችግሮች",
+    "womensHealth": "የሴቶች ጤና",
+    "childrensHealth": "የልጆች ጤና",
+    "agingSeniorHealth": "እርጅና እና ከፍተኛ ጤና",
+    "nutritionDiet": "አመጋገብ እና አመጋገብ",
+    "allergiesImmuneSystem": "አለርጂ እና የበሽታ መከላከያ ስርዓት",
+    "breathingLungIssues": "የመተንፈስ እና የሳንባ ጉዳዮች",
+    "sportsFitnessInjuries": "የስፖርት እና የአካል ብቃት ጉዳቶች",
+    "easternAlternativeMedicine": "የምስራቃዊ እና አማራጭ ጤና",
+    "cosmeticBeautyMedicine": "የመዋቢያ እና የውበት ደህንነት",
+    "anxietyHelp": "የጭንቀት እርዳታ",
+    "medicationPharmacy": "መድሃኒት እና ፋርማሲ",
+    "primaryCareGeneralHealth": "የመጀመሪያ ደረጃ እንክብካቤ እና አጠቃላይ ጤና",
+    "medicalSpecialties": "የጤና እና ደህንነት ልዩ ነገሮች"
+  },
+  "dialogs": {
+    "exitConsultation": "ምክክርን ውጣ",
+    "exitMessage": "እርግጠኛ ነዎት ከዚህ ምክክር ለመውጣት ይፈልጋሉ?",
+    "saveAndExit": "አስቀምጥ እና ውጣ",
+    "exitWithoutSaving": "ሳታስቀምጥ ውጣ",
+    "cancel": "ሰርዝ",
+    "confirm": "አረጋግጥ",
+    "logout": "ውጣ",
+    "logoutMessage": "በአሁኑ ጊዜ በመመካከር ላይ ነዎት። መውጣት ያበቃል። ምን ማድረግ ይፈልጋሉ?",
+    "deleteConversation": "ውይይት ሰርዝ",
+    "deleteMessage": "ይህ እርምጃ ሊቀለበስ አይችልም። ኧረ",
+    "summarizeFirst": "ከመውጣትህ በፊት ማጠቃለያ ማግኘት ትፈልጋለህ?",
+    "summarizing": "ማጠቃለያ በማመንጨት ላይ...",
+    "summaryGenerated": "ማጠቃለያ በተሳካ ሁኔታ ተፈጥሯል።",
+    "doneAlready": "ቀድሞውኑ ተከናውኗል?",
+    "doneAlreadyMessage": "በሚፈልጉን በማንኛውም ጊዜ እዚህ ነን። እስከዚያ ድረስ ጤናማ ይሁኑ, ደስተኛ ይሁኑ!",
+    "doneAlreadySignature": "ሁላችንም (ሰው እና AI) በ VirtualMD.app",
+    "exitConsultationButton": "ምክክርን ውጣ",
+    "editTitle": "የውይይት ርዕስ አርትዕ",
+    "conversationTitleLabel": "የውይይት ርዕስ",
+    "save": "አስቀምጥ",
+    "deleteTitle": "ውይይት ሰርዝ",
+    "deleteConfirmation": "እርግጠኛ ነህ \"{{title}}\" በሚል ርዕስ ያለውን ውይይት መሰረዝ ትፈልጋለህ?",
+    "delete": "ሰርዝ",
+    "multiDeleteTitle": "የተመረጡ ምክሮችን ሰርዝ",
+    "multiDeleteConfirmation": "እርግጠኛ ነዎት {{count}} የተመረጡ ምክክር(ዎች) መሰረዝ ይፈልጋሉ? ይህ እርምጃ ሊቀለበስ አይችልም።",
+    "deleteSelected": "የተመረጠውን ሰርዝ",
+    "addSpecialistTitle": "ወደ ውይይት ስፔሻሊስት ያክሉ",
+    "addSpecialistError": "አማካሪዎችዎን መጫን አልተቻለም።",
+    "noAdvisersToAdd": "ሁሉም የተመረጡ AI ጤና አማካሪዎችዎ በዚህ ውይይት ውስጥ አሉ ወይም ዝርዝርዎ ባዶ ነው (የአሁኑ ተሳታፊዎችን ሳይጨምር)።",
+    "longRecording": {
+      "title": "ረጅም ቀረጻ ባለበት ቆሟል",
+      "message": "ሳንላክ ከ30 ሰከንድ በላይ መቅዳት አንችልም። ምን ማድረግ ይፈልጋሉ?",
+      "delete": "ሰርዝ",
+      "transcribeToText": "ወደ ጽሑፍ ገልብጥ",
+      "transcribeAndSend": "ገልብጠው ላክ"
+    },
+    "finishConsultationTitle": "ምክክር ይጠናቀቅ?",
+    "generatingSummary": "የምክክር ማጠቃለያዎን እስክናወጣ ድረስ እባክዎ ይጠብቁ...",
+    "finishConsultationMessage": "ይህ ንቁ የውይይት ክፍለ ጊዜን ያበቃል። ኧረ",
+    "summarizeAndFinish": "ማጠቃለል እና ጨርስ",
+    "leaveWithoutSummarizing": "ሳታጠቃልል ውጣ",
+    "summarize": "ማጠቃለል",
+    "moreInfoTitle": "ተጨማሪ መረጃ ያስፈልጋል",
+    "moreInfoMessage": "ይህ ውይይት ትርጉም ያለው ማጠቃለያ ወይም የተለየ አስተያየት ለመፍጠር በጣም አጭር ነው። ቢያንስ 150 የውይይት ቃላቶች እስካልዎት ድረስ እባክዎ ውይይቱን ይቀጥሉ።",
+    "ok": "እሺ",
+    "deleteSuccessTitle": "ውይይት ተሰርዟል።",
+    "deleteSuccessMessage": "ንግግርህ በተሳካ ሁኔታ ተሰርዟል።",
+    "logoutTitle": "ስትሄድ በማየታችን እናዝናለን።",
+    "aiHealthSpecialist": "የእርስዎ የመጀመሪያ ደረጃ ጤና እና ደህንነት AI ስፔሻሊስት",
+    "aileenCarol": "AI የጤና ባለሙያ ካሮል",
+    "aiHealthAssistant": "AI የጤና ረዳት",
+    "deleteAndExit": "ሰርዝ እና ውጣ",
+    "summaryTitle": "የምክክር ማጠቃለያ",
+    "consultationTitle": "VirtualMD ምክክር፡ {{title}}",
+    "summaryUnavailable": "ማጠቃለያ እየተፈጠረ ነው ወይም አይገኝም።",
+    "print": "አትም",
+    "copy": "ቅዳ",
+    "close": "ገጠመ",
+    "shortConv": {
+      "title": "ውይይቱ አልቋል",
+      "messageLine1": "ውይይቱ አልቋል። ለማዳን በጣም አጭር ነው፣ ግን በቅርቡ እንደገና ይምጡ።",
+      "messageLine2": "እስከዚያ ድረስ ጤናማ ይሁኑ, ደስተኛ ይሁኑ."
+    }
+  },
+  "errors": {
+    "connectionError": "የግንኙነት ስህተት። እባክዎ የበይነመረብ ግንኙነትዎን ያረጋግጡ።",
+    "serverError": "የአገልጋይ ስህተት። እባክዎ ቆይተው እንደገና ይሞክሩ።",
+    "authenticationError": "ማረጋገጥ አልተሳካም። እባክዎ እንደገና ይግቡ።",
+    "messageFailedToSend": "መልእክት መላክ አልተሳካም።",
+    "loadingFailed": "ይዘትን መጫን አልተሳካም።",
+    "personaUnavailable": "ይህ የጤና ባለሙያ በአሁኑ ጊዜ አይገኝም",
+    "conversationNotFound": "ውይይት አልተገኘም።",
+    "permissionDenied": "ይህን ውይይት የመድረስ ፍቃድ የለዎትም።",
+    "failedToLogin": "መግባት አልተሳካም።",
+    "failedToRegister": "መመዝገብ አልተሳካም።",
+    "failedToLogout": "መውጣት አልተሳካም።",
+    "emailAlreadyTaken": "ይህ ኢሜይል አስቀድሞ ተወስዷል። እባክዎ ሌላ ይሞክሩ ወይም ይግቡ።",
+    "anErrorOccurred": "ስህተት ተከስቷል።",
+    "selectImageFile": "እባክዎ የምስል ፋይል ይምረጡ።",
+    "failedToSaveProfile": "መገለጫን ማስቀመጥ አልተሳካም። እባክዎ እንደገና ይሞክሩ።",
+    "teamIsFull": "ቡድንዎ ሙሉ ነው (ከፍተኛ {{max}} ስፔሻሊስቶች)። ሌላ ስፔሻሊስት ማከል ከፈለጉ እባክዎን አባል ያስወግዱ።",
+    "selectOneSpecialist": "እባክዎ ለግል ምክክር አንድ ስፔሻሊስት ብቻ ይምረጡ።",
+    "contactErrorMessage": "መልእክትዎን በመላክ ላይ ስህተት አጋጥሟል። እባክዎ ቆይተው እንደገና ይሞክሩ ወይም",
+    "contactDirectlyAt": "በቀጥታ info@virtuald.app ላይ ሊልኩልን ይችላሉ።"
+  },
+  "welcome": {
+    "title": "ወደ VirtualMD.app እንኳን በደህና መጡ",
+    "subtitle": "የግል የጤና ምክክርዎን ይጀምሩ",
+    "description": "ግላዊነትን የተላበሱ የጤና ግንዛቤዎችን እና መመሪያዎችን ለማግኘት ከቡድናችን በአይ-የተጎለበተ የጤና አማካሪዎች ይምረጡ።",
+    "getStarted": "እንጀምር",
+    "chooseSpecialist": "የእርስዎን ልዩ ባለሙያ ይምረጡ",
+    "startWithTeam": "በእኔ ቡድን ጀምር",
+    "howItWorks": "እንዴት እንደሚሰራ",
+    "aileenCarolName": "AI የጤና ኤክስፐርት አይሊን ካሮል",
+    "danielGarciaName": "AI የጤና ባለሙያ ዳንኤል ጋርሺያ",
+    "greeting": "ሰላም፣ {{የተጠቃሚ ስም}}። በማየቴ በጣም ጥሩ ነው! የእርስዎ VirtualMD ቡድን ለመርዳት 24/7 ዝግጁ ነው...",
+    "startTeamConsultation": "የቡድን ምክክርን ጀምር",
+    "configureNewChat": "አዲስ ውይይት አዋቅር",
+    "encyclopedia": "VirtualMD.app ኢንሳይክሎፒዲያ",
+    "myAIHealthTeam": "የእኔ AI ጤና ቡድን",
+    "aileenCarolIntro": "ጤና ይስጥልኝ ፣ እኔ የ AI የጤና ባለሙያ ነኝ አይሊን ካሮል። ዛሬ እንዴት ልረዳህ እችላለሁ?",
+    "persona_welcome_message": "ጤና ይስጥልኝ፣ የጤና እና የጤንነት ፍላጎቶችዎን ለመርዳት እዚህ መጥቻለሁ። ዛሬ እንዴት ልረዳህ እችላለሁ?"
+  },
+  "imageUpload": {
+    "dragAndDrop": "ምስሎችን ወደዚህ ይጎትቱ እና ይጣሉ ወይም ለመምረጥ ጠቅ ያድርጉ",
+    "supportedFormats": "የሚደገፉ ቅርጸቶች፡ JPG፣ PNG፣ GIF",
+    "maxSize": "ከፍተኛ መጠን፡ {{መጠን}}ሜባ",
+    "uploadSuccess": "ምስል በተሳካ ሁኔታ ተሰቅሏል።",
+    "uploadError": "ምስል መስቀል አልተሳካም።",
+    "processing": "ምስልን በመስራት ላይ...",
+    "removeImage": "ምስል አስወግድ",
+    "addToContext": "ወደ የውይይት አውድ ያክሉ"
+  },
+  "voice": {
+    "startRecording": "የድምጽ መቅዳት ይጀምሩ",
+    "stopRecording": "መቅዳት አቁም",
+    "recording": "በመቅዳት ላይ...",
+    "processingSpeech": "ንግግርን በማስኬድ ላይ...",
+    "speechToText": "ንግግርን ወደ ጽሑፍ በመቀየር ላይ...",
+    "noSpeechDetected": "ምንም ንግግር አልተገኘም።",
+    "microphoneError": "የማይክሮፎን መዳረሻ ስህተት",
+    "unsupportedBrowser": "በዚህ አሳሽ ውስጥ የድምጽ ቀረጻ አይደገፍም።"
+  },
+  "summary": {
+    "title": "የምክክር ማጠቃለያ",
+    "keyPoints": "ቁልፍ ነጥቦች",
+    "recommendations": "ምክሮች",
+    "nextSteps": "ቀጣይ እርምጃዎች",
+    "followUp": "ክትትል",
+    "generating": "ማጠቃለያ በማመንጨት ላይ...",
+    "noSummary": "ምንም ማጠቃለያ የለም።",
+    "summaryError": "ማጠቃለያ መፍጠር አልተሳካም።",
+    "downloadSummary": "የማውረድ ማጠቃለያ",
+    "emailSummary": "የኢሜል ማጠቃለያ",
+    "return": "ተመለስ",
+    "transcript": "ግልባጭ",
+    "print": "አትም",
+    "copy": "ቅዳ",
+    "copyError": "መቅዳት አልተሳካም።",
+    "notGenerated": "ማጠቃለያ ሊፈጠር አልቻለም።"
+  },
+  "status": {
+    "online": "በመስመር ላይ",
+    "offline": "ከመስመር ውጭ",
+    "away": "ራቅ",
+    "busy": "ስራ የበዛበት",
+    "available": "ይገኛል።",
+    "unavailable": "አይገኝም",
+    "lastSeen": "መጨረሻ የታየው {{ጊዜ}}"
+  },
+  "mobileTeamBuilder": {
+    "title": {
+      "yourTeam": "የእርስዎ ቡድን",
+      "teamBuilder": "AI ቡድን ገንቢ"
+    },
+    "carolMessages": {
+      "teamFull": "{{name}}፣ ቡድንህ ሞልቷል! አዲስ ምክሮችን ለማግኘት ከአሁኑ ቡድንዎ ጋር ምክክር መጀመር ወይም አንዳንድ አባላትን ማስወገድ ይችላሉ።",
+      "helpBuild": "{{name}}፣ ፍጹም የጤና ቡድንዎን እንዲገነቡ ልንረዳዎ እፈልጋለሁ! ዛሬ ምን እንዳመጣህ ንገረኝ።"
+    },
+    "carolGreeting": {
+      "teamFull": "ሰላም {{ስም}}! ቡድንህ ሞልቷል።",
+      "helpBuild": "ሰላም {{ስም}}! ፍጹም የጤና ቡድንዎን እንዲገነቡ እረዳዎታለሁ።"
+    },
+    "currentTeam": "የአሁኑ ቡድን ({{current}}/{{max}})",
+    "aiSpecialist": "AI {{ስም}}",
+    "specialist": "ስፔሻሊስት",
+    "startConversation": "ከዚህ ቡድን ጋር ውይይት ይጀምሩ",
+    "tellUsWhy": "ፍፁም የሆነ የጤና ቡድንህን መፍጠር እንድንችል ዛሬ ለምን እንደሆንክ ንገረን።",
+    "placeholder": "የጤና ስጋቶችዎን፣ ምልክቶችዎን ወይም ምን ላይ እርዳታ እንደሚፈልጉ ያብራሩ።",
+    "questionnaire": {
+      "question": "ዛሬ ምን አመጣህ?",
+      "keepExisting": "ያሉትን የቡድን አባላት ይቆዩ?",
+      "existingMembers": "ነባር የቡድን አባላት",
+      "currentSize": "የአሁኑ የቡድን መጠን",
+      "availableSpots": "ለአዲስ ስፔሻሊስቶች የሚገኙ ቦታዎች",
+      "maxRecommendations": "የሚፈቀደው ከፍተኛ ምክሮች"
+    }
+  },
+  "mobileNavigationTabs": {
+    "consultation": "ምክክር",
+    "team": "ቡድን",
+    "history": "ታሪክ",
+    "encyclopedia": "ኢንሳይክሎፔዲያ"
+  },
+  "autoListening": {
+    "turnOn": "ራስ-ማዳመጥን ያብሩ",
+    "turnOff": "ራስ-ማዳመጥን ያጥፉ"
+  },
+  "speech": {
+    "processing": "ንግግርን ማካሄድ",
+    "pauseListening": "ማዳመጥን ለአፍታ ለማቆም ጠቅ ያድርጉ",
+    "turnOnListening": "ማዳመጥን ለማብራት ጠቅ ያድርጉ"
+  },
+  "help": {
+    "howDoesThisWork": "ይህ እንዴት ነው የሚሰራው?",
+    "chatControls": "የውይይት መቆጣጠሪያዎች",
+    "enterToSend": "አስገባ ወይም ▷ ለመላክ",
+    "shiftEnterToSpeak": "ለመናገር/ለአፍታ ለማቆም Shift+Enter ወይም 🎤/⏸"
+  },
+  "fileUpload": {
+    "clickToUpload": "ፋይል ለመስቀል ጠቅ ያድርጉ (ፋይሎችን ወደ ቻቱ ውስጥ መጣል ይችላሉ)"
+  },
+  "send": {
+    "transcribeAndSend": "ገልብጠው ላክ",
+    "sendMessage": "መልእክት ላክ"
+  },
+  "aileenCarol": {
+    "playAnalysis": "የጤና ኤክስፐርት የካሮል ትንታኔን ይጫወቱ",
+    "stopAnalysis": "የጤና ኤክስፐርት የካሮል ትንታኔን አቁም"
+  },
+  "profile": {
+    "editProfile": "መገለጫ አርትዕ",
+    "saveChanges": "ለውጦችን ያስቀምጡ",
+    "cancelEdits": "አርትዖቶችን ሰርዝ",
+    "changePhoto": "ፎቶ ቀይር",
+    "removePhoto": "ፎቶ አስወግድ",
+    "healthInfoTooltip": "እባክዎን መድሃኒቶችን፣ ምርመራዎችን፣ ማሟያዎችን እና ሌሎች አስፈላጊ ከጤና ጋር የተያያዙ ነገሮችን ይፃፉ ወይም ይዘርዝሩ።",
+    "loadingProfile": "መገለጫን በመጫን ላይ...",
+    "errorLoadingProfile": "መገለጫን መጫን ላይ ስህተት",
+    "noProfileData": "ምንም የመገለጫ ውሂብ አይገኝም።",
+    "myProfile": "የእኔ መገለጫ",
+    "myAccount": "የእኔ መለያ",
+    "displayName": "የማሳያ ስም",
+    "fullName": "ሙሉ ስም",
+    "email": "ኢሜይል",
+    "emailCannotBeChanged": "ኢሜል መቀየር አይቻልም።",
+    "keyHealthInfo": "ቁልፍ የጤና መረጃ",
+    "noHealthInfoRecorded": "ምንም ቁልፍ የጤና መረጃ አልተመዘገበም።",
+    "healthInfoPlaceholder": "መድኃኒቶችን፣ ምርመራዎችን፣ ማሟያዎችን፣ ወዘተ ይዘርዝሩ።",
+    "age": "ዕድሜ",
+    "gender": "ጾታ"
+  },
+  "imageContext": {
+    "clearZoom": "ይህን የማጉላት ምርጫ አጽዳ",
+    "cropPromotionError": "ያጉላውን ምስል መላክ እና ማከል አልተሳካም። ኮንሶሉን ያረጋግጡ።",
+    "startConversationToSend": "አጉላ ለመላክ ንግግር ጀምር",
+    "sendZoomToTeam": "ይህንን ማጉላት ለቡድኑ ይላኩ።",
+    "noActiveZoom": "ምንም የሚላክ ማጉላት የለም። እባክዎ በምስሉ ላይ አንድ ቦታ ይምረጡ።",
+    "functionsUnavailable": "ማጉላትን መላክ አይቻልም፡ አስፈላጊ ተግባራት አይገኙም።",
+    "noImages": "በአውድ ውስጥ ምንም ምስሎች የሉም። ለመጀመር ምስል ይስቀሉ።",
+    "allHidden": "ሁሉም ምስሎች በአሁኑ ጊዜ ተደብቀዋል። ምስልን ለማሳየት በርዕሱ ላይ ድንክዬ ይንኩ።",
+    "showFirst": "የመጀመሪያውን ምስል አሳይ",
+    "imageDisplay": "የምስል ማሳያ ({{የሚታየው}} የሚታየው / {{total}} አጠቃላይ)",
+    "hideImage": "ምስል ደብቅ",
+    "showImage": "ምስል አሳይ",
+    "zoomPreview": "አጉላ ቅድመ እይታ",
+    "sendToTeam": "ወደ ቡድን ላክ",
+    "dragToZoom": "አዲስ የማጉላት ቦታ ለመምረጥ ከላይ ያለውን ምስል ጠቅ ያድርጉ እና ይጎትቱ።"
+  },
+  "mobileChat": {
+    "healthConsult": "የጤና ማማከር",
+    "speakToAI": "ለ{{ስም}} ተናገር",
+    "startConversation": "ንግግርህን ከዚህ በታች ጀምር",
+    "requestToSpeakToAI": "{{name}}ን ማነጋገር እፈልጋለሁ"
+  },
+  "mobileWelcome": {
+    "greeting": "ሃይ!",
+    "aileenCarolIntro": "እኔ AI Aileen Carol ነኝ፣ የእርስዎ የመጀመሪያ ደረጃ የጤና ባለሙያ። እርስዎን ለማወቅ በጉጉት እጠባበቃለሁ። እኔ የእርስዎን የVirtualMD.app AI የጤና ባለሙያዎች ቡድን ኃላፊ ነኝ። 24/7 ለመርዳት ዝግጁ ነን...",
+    "startConsultation": "የጤና ምክክርን ይጀምሩ",
+    "myTeam": "የእኔ ቡድን",
+    "aiTeamBuilder": "የ AI የጤና ባለሙያ ካሮል ቡድንዎን እንዲመርጡ ይረዳዎታል",
+    "priorConsultations": "ቀዳሚ ምክክር",
+    "encyclopedia": "ኢንሳይክሎፔዲያ",
+    "myProfile": "የእኔ መገለጫ",
+    "logout": "ውጣ",
+    "labels": {
+      "chat": "ተወያይ",
+      "advisory": "ምክር",
+      "encyclopedia": "ኢንሳይክሎፔዲያ",
+      "myTeam": "የእኔ ቡድን",
+      "history": "ታሪክ",
+      "myProfile": "የእኔ መገለጫ"
+    }
+  },
+  "mobileInput": {
+    "listeningPlaceholder": "እየሰማህ ነው... አሁን ተናገር",
+    "typePlaceholder": "መልዕክት ይተይቡ...",
+    "clear": "ግልጽ",
+    "needHelp": "እርዳታ ይፈልጋሉ?",
+    "takePhoto": "ፎቶ አንሳ"
+  },
+  "mobileConsultations": {
+    "title": "ቀዳሚ ምክክር",
+    "selectAll": "ሁሉንም ይምረጡ",
+    "deselectAll": "ሁሉንም አይምረጡ",
+    "deleteSelected": "የተመረጠውን ሰርዝ ({{count}})",
+    "consultationDefault": "ምክክር {{id}}",
+    "lastUpdate": "የመጨረሻ ዝመና፡ {{ቀን}}",
+    "noUpdates": "እስካሁን ምንም ዝመናዎች የሉም",
+    "editTitle": "የውይይት ርዕስ አርትዕ",
+    "enterNewTitle": "አዲስ ርዕስ አስገባ፡",
+    "noConsultations": "እስካሁን ምንም ምክክር የለም።"
+  },
+  "mobileProfile": {
+    "title": "የእኔ መገለጫ",
+    "saveError": "መገለጫን ማስቀመጥ አልተሳካም።",
+    "saveSuccess": "መገለጫ ተዘምኗል!",
+    "changePhoto": "ፎቶ ቀይር",
+    "displayName": "የማሳያ ስም",
+    "fullName": "ሙሉ ስም",
+    "email": "ኢሜይል",
+    "keyHealthInfo": "ቁልፍ የጤና መረጃ",
+    "logout": "ውጣ"
+  },
+  "mobileNavigation": {
+    "consultation": "ምክክር",
+    "team": "ቡድን",
+    "history": "ታሪክ",
+    "exitConsultation": "ምክክርን ውጣ",
+    "myTeam": "የእኔ ቡድን",
+    "summary": "ማጠቃለያ",
+    "differentialOpinion": "ልዩነት አስተያየት",
+    "transcript": "ግልባጭ",
+    "encyclopedia": "ኢንሳይክሎፔዲያ",
+    "controls": "መቆጣጠሪያዎች",
+    "aiSpeaker": "AI ተናጋሪ",
+    "enabled": "ነቅቷል",
+    "disabled": "ተሰናክሏል።",
+    "camera": "ካሜራ",
+    "comingSoon": "በቅርብ ቀን",
+    "menu": "ምናሌ"
+  },
+  "bioPanel": {
+    "loadingBio": "የህይወት ታሪክን በመጫን ላይ...",
+    "noBiography": "ምንም የህይወት ታሪክ አይገኝም።",
+    "returnToPanel": "ወደ ፓነል ተመለስ"
+  },
+  "sidebarHeader": {
+    "panel": "ፓነል",
+    "summary": "ማጠቃለያ",
+    "differentialOpinion": "ልዩነት አስተያየት",
+    "transcript": "ግልባጭ",
+    "encyclopedia": "VirtualMD.app ኢንሳይክሎፒዲያ",
+    "endConversation": "ውይይት ጨርስ",
+    "startChatWithTeam": "ከቡድን ጋር ውይይት ይጀምሩ",
+    "configureNewChat": "አዲስ ውይይት አዋቅር",
+    "myAIHealthTeam": "የእኔ AI ጤና ቡድን",
+    "aileenCarolTeamBuilder": "የጤና ኤክስፐርት ካሮል ቡድንዎን ለመገንባት ይረዳል.",
+    "savedConsultations": "የተቀመጡ ምክክሮች",
+    "myProfile": "የእኔ መገለጫ",
+    "imageNumber": "ምስል {{ቁጥር}}"
+  },
+  "differentialOpinion": {
+    "noOpinionAvailable": "ምንም የተለየ አስተያየት የለም."
+  },
+  "encyclopedia": {
+    "title": "VirtualMD.app ኢንሳይክሎፒዲያ",
+    "loadingMessage": "በዚህ ርዕስ ላይ ለእርስዎ ጥልቅ ምርምር እያደረግን ነው። እባክዎን መልስ ለማግኘት ለጥቂት ሰከንዶች ይጠብቁ።",
+    "longWaitMessage": "ለዝርዝር መልሶች ይህ ጥቂት ደቂቃዎችን ሊወስድ ይችላል።",
+    "searchButton": "የፍለጋ ኢንሳይክሎፔዲያ",
+    "return": "ተመለስ",
+    "print": {
+      "button": "አትም",
+      "title": "የኢንሳይክሎፒዲያ ፍለጋ ውጤት",
+      "subtitle": "VirtualMD.app ኢንሳይክሎፒዲያ"
+    },
+    "copy": "ቅዳ",
+    "searchResult": "የኢንሳይክሎፒዲያ ፍለጋ ውጤት",
+    "attribution": "በ VirtualMD.app መልሱ",
+    "emptyState": "የ VirtualMD.app ኢንሳይክሎፔዲያን ለመፈለግ ከላይ ያለውን ጥያቄ አስገባ።",
+    "copySuccess": "ይዘት ወደ ቅንጥብ ሰሌዳ ተቀድቷል!",
+    "copyError": "ወደ ቅንጥብ ሰሌዳ መቅዳት አልተሳካም።",
+    "generatingResponse": "አጠቃላይ ምላሽ በማመንጨት ላይ...",
+    "genericError": "ስህተት ተከስቷል።",
+    "translatingContent": "ይዘትን በመተርጎም ላይ..."
+  },
+  "input": {
+    "typeOrSpeakPlaceholder": "መልእክትህን ተይብ ወይም ተናገር...\nለመላክ አስገባን ይጫኑ ወይም ▷ ን ይጫኑ።",
+    "typePlaceholder": "መልእክት እዚህ ይተይቡ...\nለመላክ አስገባን ይጫኑ ወይም ▷ ን ይጫኑ።",
+    "transcribing": "በመገልበጥ ላይ...",
+    "enterTextHere": "እዚህ ጽሑፍ ያስገቡ",
+    "startTypingMessage": "ምክክርዎን ለመጀመር መልእክትዎን ከታች ባለው ሳጥን ውስጥ መተየብ ይጀምሩ።"
+  },
+  "quickActions": {
+    "whatToDoButton": "ምን ማድረግ ነው የሚገባኝ፧",
+    "summaryButton": "ማጠቃለያ",
+    "whatShouldIDo": "በተነጋገርናቸው ነገሮች ላይ በመመስረት አሁን ምን ማድረግ አለብኝ? እባክዎ ግልጽ፣ ተግባራዊ ሊሆኑ የሚችሉ ምክሮችን ይስጡ።",
+    "requestSummary": "እባኮትን እስካሁን ያደረግነውን ውይይት አጠቃላይ ማጠቃለያ ያቅርቡ፣ የተወያዩባቸው ዋና ዋና ነጥቦችን፣ የተሰጡ ምክሮችን እና ቀጣይ እርምጃዎችን ጨምሮ።"
+  },
+  "upload": {
+    "uploading": "በመስቀል ላይ…"
+  },
+  "camera": {
+    "notSupported": "በዚህ አሳሽ ውስጥ የካሜራ መዳረሻ አይደገፍም።",
+    "capturePhoto": "ፎቶ አንሳ",
+    "accessDenied": "የካሜራ መዳረሻ ተከልክሏል። እባክዎ በአሳሽዎ ቅንብሮች ውስጥ የካሜራ መዳረሻን ይፍቀዱ።",
+    "accessFailed": "ካሜራን መድረስ አልተሳካም።"
+  },
+  "microphone": {
+    "turnOn": "ማይክሮፎኑን አብራ",
+    "turnOff": "ማይክሮፎኑን ያጥፉ"
+  },
+  "specialistPanel": {
+    "guidanceSingle": "ለግል ምክክር አንድ AI ስፔሻሊስት ይምረጡ፡",
+    "guidanceMulti": "የ AI የጤና ኤክስፐርት ካሮል ሁልጊዜም ይካተታል. ተጨማሪ AI የጤና አማካሪዎችን ይምረጡ፡-",
+    "startPrivateConsult": "የግል ማማከርን ጀምር",
+    "startChat": "ውይይት ጀምር",
+    "selectSingle": "AI ስፔሻሊስት ይምረጡ",
+    "selectMulti": "ተጨማሪ አማካሪዎችን ይምረጡ",
+    "warningSelectOne": "እባክዎ ለግል ምክክር አንድ ስፔሻሊስት ብቻ ይምረጡ።",
+    "noSpecialistsAvailable": "በአሁኑ ጊዜ ለግል ምክክር ምንም የ AI ስፔሻሊስቶች የሉም።",
+    "noAdvisersAvailable": "ምንም ተጨማሪ የ AI ጤና አማካሪዎች የሉም።"
+  },
+  "sidebarFooter": {
+    "disclaimerText": "VirtualMD.app ለትክክለኛነት ይጥራል። ሆኖም ይህ እና ማንኛውም AI ላይ የተመሰረተ አገልግሎት የተሳሳተ መረጃ ሊሰጥ ይችላል። ሁል ጊዜ ብቃት ያለው የሰው ጤና አጠባበቅ ባለሙያ ያማክሩ።",
+    "emergencyText": "ለድንገተኛ ህክምና ወደ 911 ይደውሉ።",
+    "moreInformation": "ተጨማሪ መረጃ"
+  },
+  "teamBuilder": {
+    "healthConditions": {
+      "options": {
+        "${key}": "{{ቁልፍ}}"
+      }
+    },
+    "medicinePreferences": {
+      "options": {
+        "${key}": "{{ቁልፍ}}"
+      }
+    }
+  },
+  "account": {
+    "title": "የመለያ ቅንብሮች",
+    "description": "ከዚህ ሆነው የVirtualMD.app መለያዎን በቋሚነት መሰረዝ ይችላሉ። ይህ እርምጃ መገለጫዎን እና ሁሉንም ምክክሮች ያስወግዳል።",
+    "deleteMyAccount": "መለያዬን ሰርዝ",
+    "confirmDeleteTitle": "መለያ ሰርዝ",
+    "confirmDeleteText": "ይህ እርምጃ የማይቀለበስ ነው። ሁሉም የመገለጫዎ መረጃ፣ ምክክር እና ፋይሎች እስከመጨረሻው ይወገዳሉ። እርግጠኛ ነህ መቀጠል ትፈልጋለህ?",
+    "cancel": "ሰርዝ",
+    "yesDelete": "አዎ ሰርዝ"
+  },
+  "transcript": {
+    "noTranscript": "ምንም ግልባጭ አይገኝም።",
+    "title": "የምክክር ግልባጭ",
+    "returnToConversation": "ወደ ውይይት ተመለስ",
+    "print": "አትም",
+    "copy": "ቅዳ",
+    "copyError": "መቅዳት አልተሳካም።",
+    "roleLabels": {
+      "patient": "ተጠቃሚ፡",
+      "assistant": "ረዳት፡"
+    }
+  },
+  "mobileRouter": {
+    "teamRecommendations": "የቡድን ምክሮች",
+    "myTeam": "የእኔ ቡድን",
+    "summary": "ማጠቃለያ",
+    "differentialOpinion": "ልዩነት አስተያየት",
+    "transcript": "ግልባጭ",
+    "encyclopedia": "ኢንሳይክሎፔዲያ",
+    "consultations": "ምክክር",
+    "returnToChat": "ወደ ውይይት ተመለስ",
+    "pleaseLogIn": "እባክዎ ይግቡ",
+    "logInToView": "የእርስዎን ንግግሮች ለማየት ይግቡ ወይም አዲስ ለመጀመር።",
+    "logIn": "ግባ",
+    "loadingSpecialists": "ልዩ ባለሙያዎችን በመጫን ላይ..."
+  },
+  "chat": {
+    "pleaseLogIn": "እባክዎ ይግቡ",
+    "logInToView": "የእርስዎን ንግግሮች ለማየት ይግቡ ወይም አዲስ ለመጀመር።"
+  },
+  "loginPage": {
+    "signIn": "ይግቡ"
+  },
+  "imageProcessing": {
+    "preset": "ቅድመ ዝግጅት",
+    "applyPreset": "ለታለመ ምስል ቅድመ ዝግጅትን ተግብር",
+    "process": "ሂደት",
+    "revertFocus": "በመጀመሪያው ምስል ላይ እንደገና አተኩር",
+    "revert": "ተመለስ"
+  },
+  "guest": {
+    "consultation": "የእንግዳ ማማከር",
+    "topics": {
+      "child": {
+        "title": "ልጄ ታሟል",
+        "subtitle": "በጣም በሚፈልጉበት ጊዜ የባለሙያ የህፃናት ህክምና",
+        "initialMessage": "እኔ AI Aileen Carol ነኝ፣ የእርስዎ ምናባዊ የጤና አማካሪ። የታመመ ልጅ ምን ያህል መጨነቅ እንዳለበት አውቃለሁ. ምን እየሆነ እንዳለ ንገረኝ.  ማሳሰቢያ: እኔ AI ነኝ, ሰው አይደለሁም; ምክሬ ስህተት ሊሆን ይችላል - ብቁ ከሆነ የሰው ጤና አጠባበቅ ባለሙያ ጋር ያረጋግጡ።"
+      },
+      "sleep": {
+        "title": "መተኛት አልችልም!",
+        "subtitle": "ምሽቶችዎን ወደነበሩበት ይመልሱ ፣ ቀናትዎን ይለውጡ",
+        "initialMessage": "እኔ AI አይሊን ካሮል ነኝ፣ የእርስዎ ምናባዊ ጤና አማካሪ፣ ከእንቅልፍ ባለሙያ ኤይስ ቤንጃሚን ስታይን (የአእምሮ ህክምና) እና AI አሊስ ቼን (ኒውሮሎጂ) ጋር። እኛ መርዳት እንድንችል የእንቅልፍ ፈተናዎችዎን ያካፍሉ። ማሳሰቢያ፡ እኛ AI ነን እንጂ ሰው አይደለንም; የእኛ ምክር የተሳሳተ ሊሆን ይችላል - ብቃት ካለው (የሰው) የጤና እንክብካቤ ባለሙያ ጋር ያረጋግጡ።"
+      },
+      "nutrition": {
+        "title": "ለሕይወት የተመጣጠነ ምግብ",
+        "subtitle": "ጉልበትዎን፣ ጤናዎን እና የወሲብ ጤናዎን በምግብ በኩል ያሳድጉ",
+        "initialMessage": "እኔ AI አይሊን ካሮል ነኝ፣ የቨርቹዋል ጤና አማካሪህ፣ እዚህ ከቡድንህ ጋር - AI አንጀሊካ ፎርድሃም (የተመጣጠነ ምግብ)፣ የወሲብ ቴራፒ AI Rachel Levy እና AI አፍሪካዊ እፅዋት ባለሙያ አሚና ኦኩፉር። ዛሬ ምን ይሰማሃል? ማሳሰቢያ: እኛ AI ነን, ሰው አይደለንም; ምክር ስህተት ሊሆን ይችላል - ብቃት ካለው የጤና እንክብካቤ ባለሙያ ጋር ያረጋግጡ።"
+      }
+    },
+    "errors": {
+      "sessionFailed": "የእንግዳ ክፍለ ጊዜ መጀመር አልተሳካም።"
+    },
+    "registrationRequired": "መመዝገብ ያስፈልጋል",
+    "uploadFeatures": {
+      "title": "ሰነድ እና ምስል ሰቀላ ባህሪያት",
+      "description": "የእኛ መድረክ እርስዎ በሚችሉበት ቦታ ኃይለኛ የሰነድ እና የምስል ትንተና ችሎታዎችን ያቀርባል፡-",
+      "benefit1": "የጤና ሰነዶችን፣ የላብራቶሪ ሪፖርቶችን እና ምስሎችን ይስቀሉ።",
+      "benefit2": "ለዝርዝር ትንተና የተወሰኑ ቦታዎችን ያሳድጉ",
+      "benefit3": "የእኛ AI የጤና አማካሪዎች የእርስዎን ሰነዶች እንዲገመግሙ እና እንዲወያዩ ያድርጉ",
+      "benefit4": "ለአፋጣኝ ምክክር በቀጥታ ከካሜራዎ ፎቶዎችን ያንሱ",
+      "registeredOnly": "እነዚህ ልዩ ባህሪያት ለተመዘገቡ ተጠቃሚዎች ይገኛሉ."
+    }
+  },
+  "activeChat": {
+    "guestMode": {
+      "advisorsTitle": "VirtualMD.app የጤና አማካሪዎች",
+      "registrationRequired": "መመዝገብ ያስፈልጋል"
+    }
+  },
+  "healthAdvisors": "VirtualMD.app የጤና አማካሪዎች"
+}

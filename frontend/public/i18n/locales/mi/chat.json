@@ -1,0 +1,715 @@
+{
+  "actions": {
+    "startConsultation": "Tīmatahia te Health Consult",
+    "endConsultation": "Whakamutua te Whakawhitiwhitinga",
+    "returnToConsultation": "Hoki atu ki te Whakawhitiwhitinga",
+    "newConversation": "Tīmata Kōrero Hou",
+    "saveConversation": "Tiakina te Korero",
+    "deleteConversation": "Mukua te Korero",
+    "getSummary": "Tikina Whakarāpopototanga",
+    "getTranscript": "Tikina Tuhinga",
+    "getDifferentialOpinion": "Tikina te whakaaro rereke",
+    "exportChat": "Kaweake Kōrerorero",
+    "clearChat": "Mārama Kōrerorero"
+  },
+  "audio": {
+    "aiMuted": "AI Wahangu",
+    "aiUnmuted": "AI Ororongo Kei",
+    "playbackFailed": "I rahua te purei ororongo",
+    "generationFailed": "I rahua te whakaputa korero"
+  },
+  "sidebar": {
+    "personaList": "Kōwhiria To Ngaio Hauora",
+    "conversations": "Aku Korero",
+    "profile": "Taku Kōtaha",
+    "settings": "Tautuhinga",
+    "manageTeam": "Whakahaere Rōpū",
+    "teamBuilder": "Kaihanga Kaihanga AI",
+    "encyclopedia": "Mātāpunenga",
+    "bio": "Koiora Ngaio",
+    "clickForBio": "Paatohia mo te Bio",
+    "clickToSpeak": "Paatohia ki te korero ki te Kaitohutohu",
+    "summary": "Whakarāpopototanga Whakawhitiwhiti",
+    "transcript": "Panui Korero",
+    "imageContext": "Horopaki Whakaahua",
+    "newConversation": "Whakawhitiwhitinga Hou"
+  },
+  "tooltips": {
+    "audioOnlyRegistered": "Kei te waatea noa nga ororongo mo nga kaiwhakamahi kua rehitatia."
+  },
+  "messages": {
+    "typeMessage": "Patohia to karere ki konei...",
+    "send": "Tukua",
+    "thinking": "Ka whakaaro...",
+    "processing": "Tukatuka...",
+    "connecting": "Tūhono ana...",
+    "connected": "Kua hono",
+    "disconnected": "Momotuhia",
+    "typing": "Kei te pato a {{name}}...",
+    "messageError": "I rahua te tuku karere",
+    "retryMessage": "Ngana ano",
+    "requestToSpeak": "Tukua mai kia korero ahau ki a {{name}}",
+    "messageDeleted": "Kua mukua te karere",
+    "systemMessage": "Karere pūnaha"
+  },
+  "personas": {
+    "defaultName": "Tohunga Hauora Aileen Carol",
+    "defaultSpecialty": "Tohunga Hauora",
+    "selectPersona": "Tīpakohia he Ngaio Hauora",
+    "noPersonasAvailable": "Karekau he tohunga hauora e waatea ana",
+    "personaDetails": "Nga Taipitopito Ngaio",
+    "specialization": "Te tohungatanga",
+    "experience": "Te wheako",
+    "education": "Mātauranga",
+    "certifications": "Tiwhikete",
+    "languages": "Nga reo",
+    "availableNow": "Kei te waatea inaianei",
+    "loading": "Uta ana i nga tohungatanga..."
+  },
+  "personaSearch": {
+    "placeholder": "Rapua ma te ingoa, maataki, whakaahuahia ranei o tohu (hei tauira, te mahunga, te awangawanga)",
+    "selected": "Kua tohua",
+    "noResults": "Karekau he kaitohutohu i kitea mo \"{{query}}\"",
+    "searchSuggestions": "Ngana ki te rapu: te upoko, te awangawanga, te mamae, te moe, te mate huka, aha atu."
+  },
+  "configurator": {
+    "title": "Tīmatahia te Whakawhitiwhitinga Hauora Hou",
+    "subtitle": "Tīpakohia mai i to Kapa Hauora AI",
+    "changeTeam": "Huri Kapa",
+    "starting": "Ka timata...",
+    "startConsult": "Tīmata Kōrero",
+    "emptyTeam": "Kei te putua to roopu Hauora AI",
+    "addSpecialists": "Tāpirihia nga tohungatanga ki to roopu",
+    "noOtherSpecialists": "Karekau he tohungatanga o to roopu. Ka taea e koe te korero ki a AI Health Expert Carol ranei",
+    "addSpecialistsLink": "tāpiri tohunga ki tō tīma",
+    "defaultPersona": {
+      "name": "Tohunga Hauora AI Aileen Carol",
+      "role": "Taku Kaitohutohu Hauora AI Tuatahi"
+    },
+    "carolNote": {
+      "title": "Tuhipoka mo te whai waahi a Carol mo te Tohunga Hauora AI:",
+      "ruleA": "A. Kei roto ko Carol Tohunga Hauora AI ki te 0, 2+ ranei etahi atu tohunga ka tohua mai i to roopu.",
+      "ruleB": "B. AI Health Expert Carol e kore e whakaurua ki te 1 anake etahi atu tohunga ka tohua mai i to roopu."
+    }
+  },
+  "conversations": {
+    "noConversations": "Kaore ano kia korero",
+    "untitled": "Korero Korerokore",
+    "today": "I tenei ra",
+    "yesterday": "Inanahi",
+    "thisWeek": "I tenei wiki",
+    "lastWeek": "I tera wiki",
+    "older": "Tawhito",
+    "editTitle": "Whakatika Taitara",
+    "saveTitle": "Tiaki Taitara",
+    "cancelEdit": "Whakakore Whakatika",
+    "deleteConsultation": "Mukua te Whakawhitiwhitinga",
+    "clickToReturn": "Paatohia kia hoki mai ki te korero",
+    "deleteConfirm": "Kei te tino hiahia koe ki te muku i tenei korerorero?",
+    "deleteSuccess": "I pai te whakakore i nga korero",
+    "loadingConversations": "Uta ana i nga korero...",
+    "conversationError": "Hapa te uta korero",
+    "consultationsTitle": "Whakawhitiwhitinga",
+    "lastUpdate": "Whakahoutanga Whakamutunga: {{date}}",
+    "consultationDefault": "Whakawhitiwhitinga {{id}}",
+    "noConsultationsYet": "Kare ano he korerorero.",
+    "noPastConsultations": "Kaore i kitea nga korero o mua."
+  },
+  "participants": {
+    "noParticipants": "Kaore he kaiuru hei whakaatu.",
+    "inThisConsult": "I roto i tenei Whakatakotoranga Mariko:"
+  },
+  "team": {
+    "myTeam": "Taku Kapa Hauora",
+    "addToTeam": "Tāpiri ki te Rōpū",
+    "removeFromTeam": "Tango mai i te Kapa",
+    "teamFull": "Kua ki to roopu",
+    "maxTeamSize": "Kua tae te rahi o te roopu ({{max}} mema)",
+    "currentTeam": "Nga mema o te roopu o naianei",
+    "buildTeam": "Hanga to Rōpū",
+    "teamRecommendations": "Nga Tohutohu a te roopu AI",
+    "acceptRecommendation": "Whakaaetia te Tohutohu",
+    "getRecommendations": "Tikina Nga Tohutohu AI",
+    "teamBuilder": "Kaihanga Kaihanga AI",
+    "addTeamMembersInstruction": "Taapirihia nga mema o te roopu ma te paatene i te kaari kei te taha matau.",
+    "maxTeamSizeNote": "Ko te nuinga o nga kaitohutohu AI e rima ka taea te taapiri atu ki to roopu. Ka taea e koe te whakarereke i to roopu i nga wa katoa, engari kaua i te wa e korerorero ana.",
+    "startConsultationWithTeam": "Tīmatahia te whakawhitiwhiti whakaaro me to roopu",
+    "manageTeamTitle": "Whakahaerehia Taku Kapa Hauora AI (Max {{max}} Tohunga)",
+    "removeSpecialistToUseTeamBuilder": "Tena koa tangohia tetahi tohunga ki te whakamahi i nga taunakitanga hanga roopu a AI Health Expert Carol",
+    "aileenCarolRecommendTeam": "Me tono e te Tohunga Hauora AI a Carol mo to roopu hauora",
+    "teamFullRemoveToUseBuilder": "Kua ki to roopu. Tena koa tangohia tetahi tohunga hei whakamahi i te hanga roopu AI.",
+    "yourCurrentTeam": "Tō Kapa o nāianei ({{current}}/{{max}})",
+    "updatingTeam": "Whakahōu kapa...",
+    "coordinator": "Kairuruku",
+    "alwaysIncluded": "Kei roto i nga wa katoa",
+    "specialist": "Tohunga",
+    "teamEmptyAddBelow": "Kei te putua to roopu tohunga. Tāpirihia nga tohunga ki raro.",
+    "teamFullRemoveMember": "Kua ki tonu to roopu (Max {{max}} tohunga). Tena koa tangohia tetahi mema ki te hiahia koe ki te taapiri i tetahi tohunga motuhake.",
+    "addMembersClickCard": "Tāpirihia nga mema o te roopu ma te paatene i te kaari i te waahi matua",
+    "teamLead": "Kaitaki Kapa",
+    "currentMember": "Mema o naianei",
+    "analyzingNeeds": "Te tātari i o hiahia...",
+    "emergencyDetected": "🚨 Kua kitea ohorere",
+    "backToSafety": "Hoki ki te Haumaru",
+    "recommendedTeam": "Rōpū Hauora Manakohia",
+    "completeTeam": "To Kapa Katoa ({{count}} mema)",
+    "teamLeadReason": "Kairuruku hauora tuatahi",
+    "keepingMembers": "Nga Mema o te Kapa o naianei (Kei te pupuri)",
+    "newRecommendations": "Nga Tohutohu Hou",
+    "aileenCarolReasoning": "Ko nga whakaaro a Carol mo te Tohunga Hauora AI:",
+    "noMatchingSpecialists": "Karekau he tohunga taurite i kitea mo nga taunakitanga AI. Ka taea e koe te ngana ano, te hanga a-ringa ranei i to roopu.",
+    "medicalDisclaimerTitle": "Tohutohu Hauora me te Ora:",
+    "medicalDisclaimerText": "Ka whakaratohia e tenei papaaho he tohutohu hauora me te arahi engari kaore e taea te whakakapi i nga mahi hauora ngaio. Me toro atu ki nga tohunga ngaio hauora whai mana mo nga ohorere me nga awangawanga hauora nui.",
+    "applyingTeam": "E tono ana i te Rōpū...",
+    "acceptTeam": "Whakaaetia tenei Kapa",
+    "tryDifferent": "Whakamātauria nga Tohutohu Rerekē",
+    "cancel": "Whakakore",
+    "myVirtualMDTeam": "Taku Kapa VirtualMD.app",
+    "availableSpecialists": "Kei te waatea nga Tohunga Hauora AI",
+    "clickToAddInstruction": "Patohia te kaari hei taapiri atu ki to roopu ({{current}}/{{max}} kua tohua). Ka whakaatuhia e nga tohungatanga kua tohua he tohu \"Kua tohua\".",
+    "teamFullInstruction": "Kua ki to roopu. Tangohia he mema ki te taapiri i tetahi tohunga motuhake.",
+    "selected": "Kua tohua",
+    "teamFullBadge": "Kapa Katoa",
+    "allSpecialistsAdded": "Ko nga tohunga katoa e waatea ana kua taapirihia ki to roopu.",
+    "otherSpecialists": "Ētahi atu Tohunga",
+    "specialistsCount": "{{count}} tohunga",
+    "startTeamConsult": "Tīmatahia te Whakawhitiwhitinga Roopu",
+    "starting": "Ka timata...",
+    "myAIHealthTeam": "Taku Kapa Hauora AI",
+    "addMembersInstruction": "Taapirihia nga mema o te roopu ma te paatene i te kaari kei te taha matau."
+  },
+  "specialistCategories": {
+    "diabetesBloodSugar": "Te huka me te huka toto",
+    "weightManagement": "Whakahaere Taumaha",
+    "mentalHealthStress": "Te Hauora Hinengaro me te Awetea",
+    "cancerSupport": "Tautoko Matepukupuku",
+    "heartHealth": "Hauora Manawa",
+    "painManagement": "Whakahaere mamae",
+    "digestiveIssues": "Nga Take Digestive",
+    "sleepProblems": "Nga raruraru moe",
+    "skinProblems": "Nga raruraru kiri",
+    "womensHealth": "Hauora Wahine",
+    "childrensHealth": "Te Hauora o nga Tamariki",
+    "agingSeniorHealth": "Te Kaumātua me te Hauora Matua",
+    "nutritionDiet": "Te Kai me te Kai",
+    "allergiesImmuneSystem": "Nga mate mate me te punaha mate",
+    "breathingLungIssues": "Nga Take Manawa & Pukahukahu",
+    "sportsFitnessInjuries": "Nga Taonga Hakinakina me te Whakaora",
+    "easternAlternativeMedicine": "Te Rawhiti me te oranga rereke",
+    "cosmeticBeautyMedicine": "Whakapaipai me te Ataahua Waiora",
+    "anxietyHelp": "Āwhina mānukanuka",
+    "medicationPharmacy": "Rongoa me te Pharmacy",
+    "primaryCareGeneralHealth": "Tiaki Tuatahi me te Hauora Whanui",
+    "medicalSpecialties": "Nga Tohu Hauora me te Waiora"
+  },
+  "dialogs": {
+    "exitConsultation": "Puta i te Whakawhitiwhitinga",
+    "exitMessage": "Kei te tino hiahia koe ki te puta i tenei korerorero?",
+    "saveAndExit": "Tiaki & Putaatu",
+    "exitWithoutSaving": "Puta atu me te kore Tiaki",
+    "cancel": "Whakakore",
+    "confirm": "Whakaū",
+    "logout": "Takiputa",
+    "logoutMessage": "I tenei wa kei te korerorero koe. Ko te takiuru ki waho ka mutu. He aha taau e hiahia ana?",
+    "deleteConversation": "Mukua te Korero",
+    "deleteMessage": "Kaore e taea te whakakore i tenei mahi. Kei te tino mohio koe?",
+    "summarizeFirst": "Kei te hiahia koe ki te tiki whakarāpopototanga i mua i to putanga?",
+    "summarizing": "Te whakaputa whakarāpopototanga...",
+    "summaryGenerated": "I tutuki pai te whakarāpopototanga",
+    "doneAlready": "Kua oti kē?",
+    "doneAlreadyMessage": "Kei konei matou i nga wa e hiahia ana koe. Kia ora, kia hari!",
+    "doneAlreadySignature": "Tatou katoa (tangata me AI) i VirtualMD.app",
+    "exitConsultationButton": "Puta atu i te Whakawhitiwhitinga",
+    "editTitle": "Whakatikaina te Taitara Korero",
+    "conversationTitleLabel": "Taitara Korero",
+    "save": "Tiaki",
+    "deleteTitle": "Mukua te Korero",
+    "deleteConfirmation": "E tino hiahia ana koe ki te muku i te korero ko \"{{title}}\"?",
+    "delete": "Mukua",
+    "multiDeleteTitle": "Mukua nga Whakawhitiwhitinga Kua Kowhiria",
+    "multiDeleteConfirmation": "E tino hiahia ana koe ki te muku i te {{count}} (ng) whiriwhiringa korero? Kaore e taea te whakakore i tenei mahi.",
+    "deleteSelected": "Mukua kua tohua",
+    "addSpecialistTitle": "Tāpiri Tohunga ki te Kōrerorero",
+    "addSpecialistError": "Kaore i taea te uta i o kaitohutohu.",
+    "noAdvisersToAdd": "Ko te katoa o nga Kaitohutohu Hauora AI kua tohua kei roto i tenei korerorero, kei te putua ranei to rarangi (haunga nga kaiuru o naianei).",
+    "longRecording": {
+      "title": "Kua Tatari te Rekoata Roa",
+      "message": "Kaore e taea e matou te tuhi neke atu i te 30 hēkona me te kore e tukuna. He aha taau e hiahia ana?",
+      "delete": "Mukua",
+      "transcribeToText": "Tuhia ki te kuputuhi",
+      "transcribeAndSend": "Tuhia me te tuku"
+    },
+    "finishConsultationTitle": "Whakaoti Whakawhitiwhitinga?",
+    "generatingSummary": "Tatari koa kia mahia e matou to whakarāpopototanga kōrero...",
+    "finishConsultationMessage": "Ma tenei ka mutu te waahi korerorero hohe. Kei te tino mohio koe?",
+    "summarizeAndFinish": "Whakarāpopoto & Whakaoti",
+    "leaveWithoutSummarizing": "Waiho me te kore e whakarapopototia",
+    "summarize": "Whakarāpopoto",
+    "moreInfoTitle": "Ētahi atu korero e hiahiatia ana",
+    "moreInfoMessage": "He poto rawa tenei korero ki te whakaputa i tetahi whakarāpopototanga whai kiko, whakaaro rereke ranei. Tena koa haere tonu te korerorero kia 150 pea nga kupu o te korero korero.",
+    "ok": "pai",
+    "deleteSuccessTitle": "Kua Mukua te Korero",
+    "deleteSuccessMessage": "Kua pai te whakakore i to korero.",
+    "logoutTitle": "E pouri ana matou ki te kite i a koe e haere ana",
+    "aiHealthSpecialist": "Ko to tohunga mo te hauora me te oranga AI",
+    "aileenCarol": "AI Health Expert Carol",
+    "aiHealthAssistant": "Kaiawhina Hauora AI",
+    "deleteAndExit": "Mukua & Putaatu",
+    "summaryTitle": "Whakarāpopototanga Whakawhitiwhiti",
+    "consultationTitle": "VirtualMD Consult: {{title}}",
+    "summaryUnavailable": "Kei te hangaia he whakarāpopototanga, kāore rānei i te wātea.",
+    "print": "Taa",
+    "copy": "Tārua",
+    "close": "Katia",
+    "shortConv": {
+      "title": "Kua Mutu te Korero",
+      "messageLine1": "Kua mutu te korero. He poto rawa ki te penapena, engari ka hoki mai ano.",
+      "messageLine2": "Kia ora, kia koa."
+    }
+  },
+  "errors": {
+    "connectionError": "Hapa hononga. Tena koa tirohia to hononga ipurangi.",
+    "serverError": "Hapa tūmau. Me ngana ano i muri mai.",
+    "authenticationError": "I rahua te motuhēhēnga. Tena koa takiuru ano.",
+    "messageFailedToSend": "I rahua te tuku karere",
+    "loadingFailed": "I rahua te uta i nga ihirangi",
+    "personaUnavailable": "Karekau tenei tohunga hauora i te waatea i tenei wa",
+    "conversationNotFound": "Kaore i kitea te korerorero",
+    "permissionDenied": "Kaore koe e whai mana ki te uru atu ki tenei korerorero",
+    "failedToLogin": "I rahua te takiuru.",
+    "failedToRegister": "I rahua te rehita.",
+    "failedToLogout": "I rahua te takiputa.",
+    "emailAlreadyTaken": "Kua tangohia kētia tēnei īmēra. Ngana ki tetahi atu, takiuru ranei.",
+    "anErrorOccurred": "I puta he hapa.",
+    "selectImageFile": "Tīpakohia koa he kōnae atahanga.",
+    "failedToSaveProfile": "I rahua te tiaki kōtaha. Me ngana ano.",
+    "teamIsFull": "Kua ki tonu to roopu (Max {{max}} tohunga). Tena koa tangohia tetahi mema ki te hiahia koe ki te taapiri i tetahi tohunga motuhake.",
+    "selectOneSpecialist": "Tīpakohia kia kotahi anake te tohunga mo te whiriwhiringa takitahi.",
+    "contactErrorMessage": "I puta he hapa i te wa e tuku ana i to karere. Tena koa ngana ano i muri mai ranei",
+    "contactDirectlyAt": "Ka taea hoki e koe te imeera tika ki a maatau info@virtualmd.app"
+  },
+  "welcome": {
+    "title": "Nau mai ki VirtualMD.app",
+    "subtitle": "Tīmatahia to korero hauora whaiaro",
+    "description": "Whiriwhiria mai i ta maatau roopu o nga kaitohutohu hauora e kaha ana ki te AI ki te tiki i nga tirohanga oranga me te arahi.",
+    "getStarted": "Tīmatahia",
+    "chooseSpecialist": "Whiriwhiria to Tohunga",
+    "startWithTeam": "Tīmatahia me taku Kapa",
+    "howItWorks": "Pehea te Mahi",
+    "aileenCarolName": "Tohunga Hauora AI Aileen Carol",
+    "danielGarciaName": "Tohunga Hauora AI Daniel Garcia",
+    "greeting": "Kia ora, {{username}}. Ka pai te kite i a koe! Kua rite to roopu VirtualMD 24/7 ki te awhina ...",
+    "startTeamConsultation": "Tīmatahia te Whakawhitiwhitinga Roopu",
+    "configureNewChat": "Whirihora Kōrerorero Hou",
+    "encyclopedia": "VirtualMD.app Encyclopedia",
+    "myAIHealthTeam": "Taku Kapa Hauora AI",
+    "aileenCarolIntro": "Kia ora, Ko Aileen Carol Tohunga Hauora ahau. Me pehea taku awhina i a koe i tenei ra?",
+    "persona_welcome_message": "Kia ora, kei konei ahau ki te awhina i o hiahia hauora me te oranga. Me pehea taku awhina i a koe i tenei ra?"
+  },
+  "imageUpload": {
+    "dragAndDrop": "Tōia ka whakataka atahanga ki konei, ka paato ranei hei kowhiri",
+    "supportedFormats": "Nga whakatakotoranga tautoko: JPG, PNG, GIF",
+    "maxSize": "Rahi mōrahi: {{rahi}}MB",
+    "uploadSuccess": "I pai te tukunga ake o te ahua",
+    "uploadError": "I rahua te tuku pikitia",
+    "processing": "Tukatuka pikitia...",
+    "removeImage": "Tango atahanga",
+    "addToContext": "Tāpirihia ki te horopaki kōrero"
+  },
+  "voice": {
+    "startRecording": "Tīmatahia te hopu reo",
+    "stopRecording": "Kati te tuhi",
+    "recording": "E hopu ana...",
+    "processingSpeech": "Tukatuka korero...",
+    "speechToText": "Hurihia ana te whaikorero ki te kupu...",
+    "noSpeechDetected": "Karekau he korero i kitea",
+    "microphoneError": "Hapa uru hopuoro",
+    "unsupportedBrowser": "Ko te rekoata reo kaore i te tautokohia i tenei kaitirotiro"
+  },
+  "summary": {
+    "title": "Whakarāpopototanga Whakawhitiwhiti",
+    "keyPoints": "Nga Tohu Matua",
+    "recommendations": "Nga Tohutohu",
+    "nextSteps": "Nga Mahi Panuku",
+    "followUp": "Whaiwhai",
+    "generating": "Te whakaputa whakarāpopototanga...",
+    "noSummary": "Karekau he whakarāpopototanga e wātea ana",
+    "summaryError": "I rahua te whakaputa whakarāpopototanga",
+    "downloadSummary": "Tikiake Whakarāpopototanga",
+    "emailSummary": "Īmēra Whakarāpopototanga",
+    "return": "Hoki mai",
+    "transcript": "Tuhinga",
+    "print": "Taa",
+    "copy": "Tārua",
+    "copyError": "I rahua te kape",
+    "notGenerated": "Kāore i taea te whakarāpopototanga."
+  },
+  "status": {
+    "online": "ipurangi",
+    "offline": "Tuimotu",
+    "away": "atu",
+    "busy": "He pukumahi",
+    "available": "Kei te waatea",
+    "unavailable": "Kāore i te wātea",
+    "lastSeen": "I kite whakamutunga {{time}}"
+  },
+  "mobileTeamBuilder": {
+    "title": {
+      "yourTeam": "To Kapa",
+      "teamBuilder": "Kaihanga Kaihanga AI"
+    },
+    "carolMessages": {
+      "teamFull": "{{name}}, kua ki tonu to tira! Ka taea e koe te timata i te korerorero me to roopu o naianei, te tango ranei i etahi mema ki te tiki taunakitanga hou.",
+      "helpBuild": "{{ingoa}}, Kei te pirangi au ki te awhina i a koe ki te hanga i to roopu hauora tino pai! Korero mai ki ahau he aha koe i kawe mai ai i tenei ra."
+    },
+    "carolGreeting": {
+      "teamFull": "Kia ora {{name}}! Kua ki to roopu.",
+      "helpBuild": "Kia ora {{name}}! Maku koe e awhina ki te hanga i to roopu hauora tino pai."
+    },
+    "currentTeam": "Kapa o nāianei ({{current}}/{{max}})",
+    "aiSpecialist": "AI {{ingoa}}",
+    "specialist": "Tohunga",
+    "startConversation": "Tīmata te Kōrerorero me tēnei Rōpū",
+    "tellUsWhy": "Korerohia mai he aha koe i konei i tenei ra kia taea e matou te hanga i to roopu hauora tino pai.",
+    "placeholder": "Whakaahuahia o awangawanga hauora, tohu, he aha ranei e hiahia ana koe ki te awhina...",
+    "questionnaire": {
+      "question": "He aha koe i kawe mai ai i tenei ra?",
+      "keepExisting": "Kia mau tonu nga mema o te roopu?",
+      "existingMembers": "Nga mema o te roopu o naianei",
+      "currentSize": "Te rahi o te roopu o naianei",
+      "availableSpots": "Nga waahi e waatea ana mo nga tohunga hou",
+      "maxRecommendations": "Ko nga taunakitanga morahi e whakaaetia ana"
+    }
+  },
+  "mobileNavigationTabs": {
+    "consultation": "Whakawhitiwhitinga",
+    "team": "Kapa",
+    "history": "Hītori",
+    "encyclopedia": "Mātāpunenga"
+  },
+  "autoListening": {
+    "turnOn": "Whakakāhia te whakarongo-aunoa",
+    "turnOff": "Whakawetohia te whakarongo-aunoa"
+  },
+  "speech": {
+    "processing": "Tukatuka korero",
+    "pauseListening": "Pāwhiri ki te Tatari Whakarongo",
+    "turnOnListening": "Pāwhiri ki te Whakakā Whakarongo"
+  },
+  "help": {
+    "howDoesThisWork": "Me pehea tenei mahi?",
+    "chatControls": "Nga whakahaere korerorero",
+    "enterToSend": "Whakauruhia ▷ ranei hei tuku",
+    "shiftEnterToSpeak": "Shift+Enter or 🎤/⏸ ki te korero/tatari"
+  },
+  "fileUpload": {
+    "clickToUpload": "Paatohia ki te tuku ake i te konae (Ka taea e koe te tuku i nga konae ki roto i te korerorero)"
+  },
+  "send": {
+    "transcribeAndSend": "Tuhia me te tuku",
+    "sendMessage": "Tuku karere"
+  },
+  "aileenCarol": {
+    "playAnalysis": "Whakaarihia te tātaritanga a te Tohunga Hauora Carol",
+    "stopAnalysis": "Kati te tātaritanga a te Tohunga Hauora Carol"
+  },
+  "profile": {
+    "editProfile": "Whakatika Kōtaha",
+    "saveChanges": "Tiaki Huringa",
+    "cancelEdits": "Whakakore Whakatikatika",
+    "changePhoto": "Huri Whakaahua",
+    "removePhoto": "Tango Whakaahua",
+    "healthInfoTooltip": "Tuhia mai, whakarārangihia rānei ngā rongoā, tātaritanga, tāpiringa me ētahi atu mea nui e pā ana ki te hauora mōu.",
+    "loadingProfile": "Uta ana i te kōtaha...",
+    "errorLoadingProfile": "Hapa te uta kōtaha",
+    "noProfileData": "Kāore he raraunga kōtaha e wātea ana.",
+    "myProfile": "Taku Kōtaha",
+    "myAccount": "Taku Kaute",
+    "displayName": "Whakaatu Ingoa",
+    "fullName": "Ingoa Katoa",
+    "email": "Īmēra",
+    "emailCannotBeChanged": "Kaore e taea te huri i te imeera.",
+    "keyHealthInfo": "Nga Korero Hauora Matua",
+    "noHealthInfoRecorded": "Karekau he korero nui mo te hauora i tuhia.",
+    "healthInfoPlaceholder": "Whakarārangihia ngā rongoā, tātaritanga, tāpiringa, aha atu.",
+    "age": "Te tau",
+    "gender": "Ira tangata"
+  },
+  "imageContext": {
+    "clearZoom": "Ūkuia tēnei kōwhiringa topa",
+    "cropPromotionError": "I rahua te tuku me te taapiri i te atahanga topa. Tirohia te papatohu.",
+    "startConversationToSend": "Tīmatahia he korerorero ki te tuku topa",
+    "sendZoomToTeam": "Tukua tenei topa ki te kapa",
+    "noActiveZoom": "Kaore he topa kaha ki te tuku. Tīpakohia koa tētahi wāhi kei runga i tētahi atahanga.",
+    "functionsUnavailable": "Kaore e taea te tuku topa: Karekau i te waatea nga mahi whakahirahira.",
+    "noImages": "Karekau he whakaahua i te horopaki. Tukuna he whakaahua hei timata.",
+    "allHidden": "Kei te huna nga whakaahua katoa i tenei wa. Patohia he karakōnui i te pane hei whakaatu i tētahi atahanga.",
+    "showFirst": "Whakaatuhia te Whakaahua Tuatahi",
+    "imageDisplay": "Whakaatu Atahanga ({{whakaatuhia}} kua whakaaturia / {{tapeke}} tapeke)",
+    "hideImage": "Huna pikitia",
+    "showImage": "Whakaatu whakaahua",
+    "zoomPreview": "Topa Arokite",
+    "sendToTeam": "Tukuna ki te Kapa",
+    "dragToZoom": "Patohia ka toia tetahi atahanga ki runga ki te kowhiri i tetahi waahi topa hou."
+  },
+  "mobileChat": {
+    "healthConsult": "Health Consult",
+    "speakToAI": "Korero ki a {{name}}",
+    "startConversation": "Tīmatahia to korero i raro nei",
+    "requestToSpeakToAI": "Kei te pirangi au ki te korero ki a {{name}}"
+  },
+  "mobileWelcome": {
+    "greeting": "Kia ora!",
+    "aileenCarolIntro": "Ko AI Aileen Carol ahau, to tohunga hauora tuatahi. Kei te tumanako ahau ki te mohio ki a koe. Ko ahau te rangatira o to roopu tohunga hauora VirtualMD.app AI. Kua rite matou ki te awhina 24/7...",
+    "startConsultation": "Tīmatahia te Whakawhitiwhitinga Hauora",
+    "myTeam": "Taku Kapa",
+    "aiTeamBuilder": "Ka awhina a AI Health Expert Carol ki te whiriwhiri i to roopu",
+    "priorConsultations": "Tuhinga o mua",
+    "encyclopedia": "Mātāpunenga",
+    "myProfile": "Taku Kōtaha",
+    "logout": "Takiputa",
+    "labels": {
+      "chat": "Kōrerorero",
+      "advisory": "Tohutohu",
+      "encyclopedia": "Mātāpunenga",
+      "myTeam": "Taku Kapa",
+      "history": "Hītori",
+      "myProfile": "Taku Kōtaha"
+    }
+  },
+  "mobileInput": {
+    "listeningPlaceholder": "Whakarongo... korero inaianei",
+    "typePlaceholder": "Patohia he karere...",
+    "clear": "Maamaa",
+    "needHelp": "Me awhina?",
+    "takePhoto": "Tango whakaahua"
+  },
+  "mobileConsultations": {
+    "title": "Tuhinga o mua",
+    "selectAll": "Tīpakohia Katoa",
+    "deselectAll": "Whakakorehia te Katoa",
+    "deleteSelected": "Mukua kua tohua ({{count}})",
+    "consultationDefault": "Whakawhitiwhitinga {{id}}",
+    "lastUpdate": "Whakahoutanga Whakamutunga: {{date}}",
+    "noUpdates": "Karekau he whakahou",
+    "editTitle": "Whakatikaina te Taitara Korero",
+    "enterNewTitle": "Whakauruhia te taitara hou:",
+    "noConsultations": "Kare ano he korerorero."
+  },
+  "mobileProfile": {
+    "title": "Taku Kōtaha",
+    "saveError": "I rahua te tiaki kōtaha",
+    "saveSuccess": "Kua whakahoutia te whaarangi!",
+    "changePhoto": "Hurihia te whakaahua",
+    "displayName": "Whakaatu Ingoa",
+    "fullName": "Ingoa Katoa",
+    "email": "Īmēra",
+    "keyHealthInfo": "Nga Korero Hauora Matua",
+    "logout": "Takiputa"
+  },
+  "mobileNavigation": {
+    "consultation": "Whakawhitiwhitinga",
+    "team": "Kapa",
+    "history": "Hītori",
+    "exitConsultation": "Puta i te Whakawhitiwhitinga",
+    "myTeam": "Taku Kapa",
+    "summary": "Whakarāpopototanga",
+    "differentialOpinion": "Whakaaro rereke",
+    "transcript": "Tuhinga",
+    "encyclopedia": "Mātāpunenga",
+    "controls": "Mana whakahaere",
+    "aiSpeaker": "Kaikōrero AI",
+    "enabled": "Whakahohe",
+    "disabled": "Kua haua",
+    "camera": "Kāmera",
+    "comingSoon": "Ka haere mai",
+    "menu": "Tahua"
+  },
+  "bioPanel": {
+    "loadingBio": "Uta ana i te koiora...",
+    "noBiography": "Karekau he haurongo e waatea ana.",
+    "returnToPanel": "Hoki ki te Paewhiri"
+  },
+  "sidebarHeader": {
+    "panel": "Paewhiri",
+    "summary": "Whakarāpopototanga",
+    "differentialOpinion": "Whakaaro rereke",
+    "transcript": "Tuhinga",
+    "encyclopedia": "VirtualMD.app Encyclopedia",
+    "endConversation": "Whakamutua te Korero",
+    "startChatWithTeam": "Tīmata Kōrerorero me te Rōpū",
+    "configureNewChat": "Whirihora Kōrerorero Hou",
+    "myAIHealthTeam": "Taku Kapa Hauora AI",
+    "aileenCarolTeamBuilder": "Ka awhina te Tohunga Hauora Carol ki te hanga i to roopu.",
+    "savedConsultations": "Nga Whakawhitiwhitinga Whakaoranga",
+    "myProfile": "Taku Kōtaha",
+    "imageNumber": "Atahanga {{nama}}"
+  },
+  "differentialOpinion": {
+    "noOpinionAvailable": "Karekau he whakaaro rereke e waatea ana."
+  },
+  "encyclopedia": {
+    "title": "VirtualMD.app Encyclopedia",
+    "loadingMessage": "Kei te rangahau hohonu matou mo tenei kaupapa mo koe. Tatari koa mo etahi hēkona mo to whakautu.",
+    "longWaitMessage": "He meneti torutoru pea tenei mo nga whakautu taipitopito.",
+    "searchButton": "Rapu Te Matatini",
+    "return": "Hoki mai",
+    "print": {
+      "button": "Taa",
+      "title": "Hua Rapu Matauranga",
+      "subtitle": "VirtualMD.app Encyclopedia"
+    },
+    "copy": "Tārua",
+    "searchResult": "Hua Rapu Matauranga",
+    "attribution": "Na VirtualMD.app te whakautu",
+    "emptyState": "Whakauruhia he patai i runga ake nei hei rapu i te VirtualMD.app Encyclopedia.",
+    "copySuccess": "I tāruahia te ihirangi ki te papatopenga!",
+    "copyError": "I rahua te tārua ki te papatopenga",
+    "generatingResponse": "Te whakaputa whakautu matawhānui...",
+    "genericError": "I puta he hapa",
+    "translatingContent": "Whakamaori ihirangi..."
+  },
+  "input": {
+    "typeOrSpeakPlaceholder": "Patohia, korerohia ranei to karere...\nPatohia te Whakauru ka paato ranei ▷ ki te tuku.",
+    "typePlaceholder": "Patohia te karere ki konei...\nPatohia te Whakauru ka paato ranei ▷ ki te tuku.",
+    "transcribing": "Whakatuhi...",
+    "enterTextHere": "Whakauruhia te kuputuhi ki konei",
+    "startTypingMessage": "Tīmatahia te tuhi i to karere ki te pouaka i raro nei hei timata i to korero."
+  },
+  "quickActions": {
+    "whatToDoButton": "Me aha ahau?",
+    "summaryButton": "Whakarāpopototanga",
+    "whatShouldIDo": "I runga i nga mea katoa i korerohia e matou, me aha ahau inaianei? Tena koa homai nga taunakitanga marama, mahi.",
+    "requestSummary": "Tena koa homai he whakarāpopototanga matawhānui o ā mātou whakawhitinga kōrero i tēnei wā, tae atu ki ngā kaupapa matua i kōrerohia, ngā tūtohutanga i whakatakotoria, me ngā mahi ka whai ake."
+  },
+  "upload": {
+    "uploading": "Tukuake ana…"
+  },
+  "camera": {
+    "notSupported": "Kaore i te tautokohia te urunga kamera ki tenei tirotiro",
+    "capturePhoto": "Hopu Whakaahua",
+    "accessDenied": "Karekau te urunga kamera. Whakaaetia te urunga kamera ki o tautuhinga tirotiro.",
+    "accessFailed": "I rahua te uru ki te kamera"
+  },
+  "microphone": {
+    "turnOn": "Whakakāhia te hopuoro",
+    "turnOff": "Whakawetohia te hopuoro"
+  },
+  "specialistPanel": {
+    "guidanceSingle": "Whiriwhiria tetahi Tohunga AI mo te korerorero motuhake:",
+    "guidanceMulti": "AI Health Expert Carol ka uru tonu. Kōwhirihia etahi atu Kaitohutohu Hauora AI:",
+    "startPrivateConsult": "Tīmatahia te Whakawhitiwhiti Whaiaro",
+    "startChat": "Tīmata Kōrerorero",
+    "selectSingle": "Tīpakohia te Tohunga AI",
+    "selectMulti": "Tīpakohia etahi atu Kaitohutohu",
+    "warningSelectOne": "Tīpakohia kia kotahi anake te tohunga mo te whiriwhiringa takitahi.",
+    "noSpecialistsAvailable": "Karekau he tohunga AI e waatea ana mo te korerorero takitahi.",
+    "noAdvisersAvailable": "Kaore he Kaitohutohu Hauora AI e waatea ana."
+  },
+  "sidebarFooter": {
+    "disclaimerText": "E tohe ana a VirtualMD.app mo te tika. Heoi, ka taea e tenei me tetahi ratonga-a-AI te tuku korero he. Me toro atu ki tetahi tohunga ngaio hauora tangata.",
+    "emergencyText": "Waea 911 mo nga mate ohorere.",
+    "moreInformation": "Ētahi atu kōrero"
+  },
+  "teamBuilder": {
+    "healthConditions": {
+      "options": {
+        "${key}": "{{key}}"
+      }
+    },
+    "medicinePreferences": {
+      "options": {
+        "${key}": "{{key}}"
+      }
+    }
+  },
+  "account": {
+    "title": "Tautuhinga Pūkete",
+    "description": "Mai i konei ka taea e koe te whakakore i to putea VirtualMD.app. Ka tangohia e tenei mahi to korero me nga korero katoa.",
+    "deleteMyAccount": "Mukua Taku Kaute",
+    "confirmDeleteTitle": "Muku Pūkete",
+    "confirmDeleteText": "Ko tenei mahi e kore e taea te huri. Ka tangohia katoatia o korero korero, korero, me nga konae. Me haere tonu?",
+    "cancel": "Whakakore",
+    "yesDelete": "Ae, Mukua"
+  },
+  "transcript": {
+    "noTranscript": "Karekau he tuhinga e waatea ana.",
+    "title": "Tuhinga Whakawhitiwhiti",
+    "returnToConversation": "Hoki atu ki te Korero",
+    "print": "Taa",
+    "copy": "Tārua",
+    "copyError": "I rahua te kape",
+    "roleLabels": {
+      "patient": "Kaiwhakamahi:",
+      "assistant": "Kaiāwhina:"
+    }
+  },
+  "mobileRouter": {
+    "teamRecommendations": "Nga Tohutohu a te Kapa",
+    "myTeam": "Taku Kapa",
+    "summary": "Whakarāpopototanga",
+    "differentialOpinion": "Whakaaro rereke",
+    "transcript": "Tuhinga",
+    "encyclopedia": "Mātāpunenga",
+    "consultations": "Whakawhitiwhitinga",
+    "returnToChat": "Hoki ki te Kōrerorero",
+    "pleaseLogIn": "Tena koa Takiuru",
+    "logInToView": "Takiuru ki te tiro i o korero, ki te timata ranei i tetahi korero hou.",
+    "logIn": "Takiuru",
+    "loadingSpecialists": "Uta ana i nga tohungatanga..."
+  },
+  "chat": {
+    "pleaseLogIn": "Tena koa Takiuru",
+    "logInToView": "Takiuru ki te tiro i o korero, ki te timata ranei i tetahi korero hou."
+  },
+  "loginPage": {
+    "signIn": "Waitohu mai"
+  },
+  "imageProcessing": {
+    "preset": "Tatūkē",
+    "applyPreset": "Hoatu tatūkē ki te atahanga arotahi",
+    "process": "Tukanga",
+    "revertFocus": "Arotahi ano ki te ahua taketake",
+    "revert": "Whakahoki"
+  },
+  "guest": {
+    "consultation": "Whakawhitiwhitinga Manuhiri",
+    "topics": {
+      "child": {
+        "title": "Kei te mate taku tamaiti",
+        "subtitle": "Tohunga tiaki tamariki ina tino hiahia koe",
+        "initialMessage": "Ko AI Aileen Carol ahau, to Kaitohutohu Hauora Mariko. E mohio ana ahau ki te awangawanga o te tamaiti mate. Korerotia mai he aha kei te haere.  Tuhipoka: He AI ahau, ehara i te tangata; kei te he taku tohutohu—whakapumauhia me tetahi tohunga ngaio hauora tangata."
+      },
+      "sleep": {
+        "title": "Kaore au e moe!",
+        "subtitle": "Whakahokia o po, hurihia o ra",
+        "initialMessage": "Ko AI Aileen Carol ahau, to Kaitohutohu Hauora Mariko, me te tohunga mo te moe a AIs Benjamin Stein (Psychiatry) me AI Alice Chen (Neurology). Tohaina o wero moe kia taea e matou te awhina. Tuhipoka: He AI matou, ehara i te tangata; he he pea ta matou tohutohu—whakapumauhia me tetahi tohunga (tangata) ngaio hauora."
+      },
+      "nutrition": {
+        "title": "Te kai mo te oranga",
+        "subtitle": "Whakanuia to kaha, to oranga, me to hauora moepuku ma te kai",
+        "initialMessage": "Ko AI Aileen Carol ahau, to Kaitohutohu Hauora Mariko, kei konei me to roopu - AI Angelica Fordham (kainga kai), Whakaora Ira AI Rachel Levy, me AI African Herbalist Amina Okufur. Kei te pehea koe i tenei ra? Tuhipoka: He AI matou, ehara i te tangata; he he pea nga tohutohu—whakapumauhia me tetahi tohunga ngaio hauora whai mana."
+      }
+    },
+    "errors": {
+      "sessionFailed": "I rahua te tiimata i te waahi manuhiri"
+    },
+    "registrationRequired": "Me rehita",
+    "uploadFeatures": {
+      "title": "Tuhinga & Atahanga Tukuake Ahuatanga",
+      "description": "Ko ta maatau papaahi e tuku ana i nga tuhinga kaha me nga mahi tātari whakaahua ka taea e koe:",
+      "benefit1": "Tukuna nga tuhinga hauora, nga purongo taiwhanga, me nga whakaahua",
+      "benefit2": "Topa atu ki runga i nga waahi motuhake mo te whakamaarama taipitopito",
+      "benefit3": "Tukuna a maatau kaitohutohu hauora AI ki te arotake me te matapaki i o tuhinga",
+      "benefit4": "Tangohia nga whakaahua mai i to kaamera mo te korerorero tonu",
+      "registeredOnly": "Ko enei ahuatanga motuhake e waatea ana ki nga kaiwhakamahi kua rehitatia."
+    }
+  },
+  "activeChat": {
+    "guestMode": {
+      "advisorsTitle": "VirtualMD.app Kaitohutohu Hauora",
+      "registrationRequired": "Me rehita"
+    }
+  },
+  "healthAdvisors": "VirtualMD.app Kaitohutohu Hauora"
+}

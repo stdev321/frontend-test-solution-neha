@@ -1,0 +1,27 @@
+{
+  "errors": {
+    "fileReadFailed": "Failed to read file.",
+    "imageProcessFailed": "Failed to process image. It might be corrupted or an unsupported format.",
+    "invalidImageFile": "Please select an image file.",
+    "loadingProfile": "Error loading profile: ",
+    "noData": "No profile data available.",
+    "saveFailed": "Failed to save profile. Please try again."
+  },
+  "healthInfo": {
+    "conditions": "Conditions:",
+    "date": " (Date: ",
+    "diagnosed": " (Diagnosed: ",
+    "ended": " (Ended: ",
+    "medicalEvents": "Health Events:",
+    "medications": "Medications:",
+    "notAvailable": "N/A",
+    "notes": "  Notes: ",
+    "started": " (Started: "
+  },
+  "loading": {
+    "profile": "Loading profile..."
+  },
+  "success": {
+    "profileUpdated": "Profile updated successfully!"
+  }
+}

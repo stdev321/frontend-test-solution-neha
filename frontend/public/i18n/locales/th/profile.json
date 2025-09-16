@@ -1,0 +1,27 @@
+{
+  "errors": {
+    "fileReadFailed": "ไม่สามารถอ่านไฟล์ได้",
+    "imageProcessFailed": "การประมวลผลภาพล้มเหลว อาจเกิดจากไฟล์เสียหายหรือรูปแบบที่ไม่รองรับ",
+    "invalidImageFile": "กรุณาเลือกไฟล์รูปภาพ.",
+    "loadingProfile": "ข้อผิดพลาดในการโหลดโปรไฟล์:",
+    "noData": "ไม่มีข้อมูลโปรไฟล์",
+    "saveFailed": "บันทึกโปรไฟล์ไม่สำเร็จ กรุณาลองอีกครั้ง"
+  },
+  "healthInfo": {
+    "conditions": "เงื่อนไข:",
+    "date": " (วันที่: ",
+    "diagnosed": "(วินิจฉัย:",
+    "ended": "(จบ:",
+    "medicalEvents": "กิจกรรมด้านสุขภาพ:",
+    "medications": "ยา:",
+    "notAvailable": "ไม่มีข้อมูล",
+    "notes": "หมายเหตุ:",
+    "started": " (เริ่ม: "
+  },
+  "loading": {
+    "profile": "กำลังโหลดโปรไฟล์..."
+  },
+  "success": {
+    "profileUpdated": "อัปเดตโปรไฟล์สำเร็จแล้ว!"
+  }
+}

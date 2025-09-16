@@ -1,0 +1,907 @@
+{
+  "header": {
+    "login": "Ngema",
+    "register": "Bhalisa",
+    "logout": "Phuma",
+    "aboutUs": "Ngathi",
+    "learnMore": "Funda nzulu",
+    "advisory": "Ingcebiso",
+    "start": "Qala",
+    "greetingHello": "Molo {{igama}}!",
+    "welcomeToVirtualMD": "Wamkelekile kwiVirtualMD!",
+    "signupForFullAccess": "Bhalisa ukufikelela ngokupheleleyo",
+    "profileTitle": "Iprofayile yam / Yiya kwiNcokola",
+    "logoutTitle": "Phuma",
+    "toggleTheme": "Guqula Ukukhanya/Imo Emnyama",
+    "toggleMode": "Guqula Ukukhanya/Imo Emnyama",
+    "myProfile": "Iprofayile yam / Yiya kwiNcokola",
+    "dashboard": "Dashboard",
+    "endConversation": "Phelisa Incoko",
+    "returnToConversation": "Buyela kwiNgxoxo",
+    "startConversation": "Qalisa Incoko",
+    "endConsult": "Qeda uthethwano",
+    "returnToConsult": "Buyela kuNxibelelwano",
+    "startConsult": "Qala Consulting",
+    "home": "Ekhaya",
+    "healthEncyclopedia": "Health Encyclopedia",
+    "researchPublications": "UPhando nopapasho",
+    "contactUs": "Qhagamshelana nathi",
+    "light": "Ukukhanya",
+    "dark": "Mnyama",
+    "toggleModeText": "Guqula {{imowudi}} Imo",
+    "legal": "Ezomthetho"
+  },
+  "howToUse": "Kusetyenziswa kwanjani",
+  "settings": {
+    "lightMode": "Imowudi yokukhanya",
+    "darkMode": "Imo Emnyama"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "home": "Ekhaya",
+    "aboutUs": "Ngathi",
+    "returnToChat": "Buyela kwiNcoko",
+    "continueConsultation": "Qhubeka nothethwano lwakho",
+    "exitConsultation": "Phuma kuthethwano",
+    "startNewConsultation": "Qala uthethwano olutsha",
+    "sections": {
+      "chatTools": "IZIXHOBO ZOKUXOXA",
+      "functionality": "UKUSEBENZA",
+      "aboutUs": "NGATHI",
+      "requiredDocuments": "AMAPHEPHA ESIFUNEKAYO",
+      "research": "UPHANDO",
+      "controls": "ULAWULO",
+      "settings": "IISETHINGI"
+    },
+    "myTeam": "Iqela lam",
+    "summary": "Isishwankathelo",
+    "transcript": "Ushicilelo",
+    "encyclopedia": "Encyclopedia",
+    "priorChats": "IiNgxoxo zangaphambili",
+    "myProfile": "Iprofayile yam",
+    "healthEncyclopedia": "Health Encyclopedia",
+    "noteFromFounders": "Inqaku elivela kubaseki",
+    "faq": "FAQ",
+    "contactUs": "Qhagamshelana nathi",
+    "legal": "Ezomthetho",
+    "dataPrivacy": "UBucala beDatha",
+    "aiAccuracyStudies": "Izifundo zokuchaneka kwe-AI",
+    "empowerYourself": "Zixhobise",
+    "deepResearch": "Uphando olunzulu",
+    "aboutUsItems": {
+      "advisory": "Ingcebiso",
+      "dataPrivacy": "Ubumfihlo bedatha"
+    },
+    "learnMore": {
+      "imagingAI": "Umfanekiso kunye ne-AI",
+      "pathologyAI": "I-Pathology kunye ne-AI",
+      "dermatologyAI": "I-Dermatology kunye ne-AI",
+      "mentalHealthAI": "Impilo yengqondo kunye ne-AI",
+      "accuracyStudies": "Izifundo zokuchaneka kwe-AI",
+      "allResearch": "Lonke uPhando",
+      "empowerYourself": "Zixhobise"
+    }
+  },
+  "landing": {
+    "title": "VirtualMD.app",
+    "subtitle": "I-AI-Powered Healthcare Solutions",
+    "tryItOut": "Yizame",
+    "scrollDown": "Yehlela",
+    "scrollUp": "Skrolela phezulu",
+    "alwaysHereForYou": "Soloko Ilapha Kuwe.",
+    "cards": {
+      "whyUse": {
+        "title": "Kutheni le nto VirtualMD?",
+        "description": "Fumanisa iingenelo zoguqulo lweqonga lethu lezempilo elinikwe amandla nge-AI"
+      },
+      "dataPrivacy": {
+        "title": "Imfihlo yakho",
+        "description": "Njengomhlobo omthembileyo, iimfihlo zakho zempilo zikhuselekile kuthi"
+      },
+      "tryItOut": {
+        "title": "Yizame",
+        "description": "Umntwana wam uyagula|Andikwazi kulala!|Isondlo sothando",
+        "tagline": "Akukho bhaliso olufunekayo."
+      },
+      "wellness": {
+        "title": "Uphando olunzulu",
+        "description": "I-encyclopedia yezempilo enemithombo ethembekileyo"
+      },
+      "yourHealth": {
+        "title": "Impilo Yakho",
+        "description": "Yenza uhambo lwakho lwempilo nge-AI"
+      }
+    }
+  },
+  "chat": {
+    "startNewConsult": "Qala uQhagamshelwano olutsha",
+    "noSpeechDetected": "Khange ndiyibambe lonto",
+    "noSpeechMessage": "Khange ndibone nanye intetho ekurekhodweni kwakho. Nceda uzame ukuthethela phezulu okanye ukusondela kumbhobho wakho, uze uzame kwakhona.",
+    "dontShowAgain": "Ungandibonisi kwakhona",
+    "gotIt": "Ndiyifumene",
+    "loading": "Iyalayisha..."
+  },
+  "loading": {
+    "preparingHealthTeam": "Ukulungiselela iqela lakho lezempilo le-AI...",
+    "connectingSpecialists": "Iqhagamshelana neengcali zempilo...",
+    "initializingSystem": "Ukuqala inkqubo yakho yezempilo eyeyakho...",
+    "almostReady": "Phantse ukulungele ukukunceda...",
+    "dots": "..."
+  },
+  "common": {
+    "loading": "Iyalayisha...",
+    "user": {
+      "defaultInitial": "U",
+      "defaultName": "Pha",
+      "defaultAltText": "Umsebenzisi"
+    },
+    "error": "Impazamo",
+    "success": "Impumelelo",
+    "cancel": "Rhoxisa",
+    "confirm": "Qinisekisa",
+    "save": "Gcina",
+    "delete": "Cima",
+    "edit": "Hlela",
+    "close": "Vala",
+    "next": "Okulandelayo",
+    "previous": "Ngaphambili",
+    "submit": "Ngenisa",
+    "search": "Khangela",
+    "filter": "Hluza",
+    "sort": "Hlela",
+    "upload": "Layisha",
+    "download": "Khuphela",
+    "print": "Shicilela",
+    "share": "Yabelana",
+    "copy": "Khuphela",
+    "paste": "Ncamathelisa",
+    "cut": "Sika",
+    "undo": "qhaqha",
+    "redo": "Phinda wenze",
+    "yes": "Ewe",
+    "no": "Hayi",
+    "ok": "KULUNGILE",
+    "punctuation": {
+      "ellipsis": "..."
+    },
+    "apply": "Faka isicelo",
+    "reset": "Lungisa kwakhona",
+    "clear": "Cacileyo",
+    "back": "Emva",
+    "forward": "Phambili",
+    "home": "Ekhaya",
+    "refresh": "Hlaziya",
+    "reload": "Layisha kwakhona",
+    "help": "Nceda",
+    "about": "Malunga",
+    "contact": "Qhagamshelana",
+    "profile": "Inkangeleko yesimo",
+    "account": "Iakhawunti",
+    "privacy": "Ubumfihlo",
+    "terms": "Imigaqo",
+    "legal": "Ezomthetho",
+    "support": "Inkxaso",
+    "feedback": "Ingxelo",
+    "welcome": "Wamkelekile",
+    "goodbye": "Sala kakuhle",
+    "thankyou": "Enkosi",
+    "send": "Thumela",
+    "none": "Akukho nanye",
+    "generating": "Iyavelisa...",
+    "settings": "Iisetingi"
+  },
+  "auth": {
+    "loginTitle": "Ngena",
+    "registerTitle": "Dala i-akhawunti",
+    "email": "I-imeyile",
+    "password": "Inombolo yokuvula",
+    "confirmPassword": "Ngqina iphasiwedi",
+    "fullName": "Igama eliphelele",
+    "displayName": "Igama elibonisiwe",
+    "rememberMe": "Ndikhumbule",
+    "forgotPassword": "Ingaba uyilibele iphasiwedi?",
+    "noAccount": "Awunayo iakhawunti?",
+    "hasAccount": "Ngaba sele unayo i-akhawunti?",
+    "signUp": "Bhalisa",
+    "signIn": "Ngena",
+    "signOut": "Phuma",
+    "createAccount": "Dala i-akhawunti",
+    "loginButton": "Ngema",
+    "registerButton": "Bhalisa",
+    "logout": "Phuma"
+  },
+  "footer": {
+    "copyright": "MindScript Technologies LLC. Onke Amalungelo Agciniwe..",
+    "privacyPolicy": "Umthetho wabucala",
+    "termsOfService": "Imimmisele yenkonzo",
+    "cookiePolicy": "Umgaqo-nkqubo we-cookie",
+    "medicalAdvisory": "Health Advisory",
+    "yourPrivacy": "Ubumfihlo bakho",
+    "legal": "Ezomthetho",
+    "contactUs": "Qhagamshelana nathi",
+    "howToUse": "Kusetyenziswa kwanjani",
+    "faq": "FAQ",
+    "noteFromFounders": "Inqaku elivela kubaseki",
+    "medicalDisclaimerTooltip": "I-MindScript izama ukuhambisa olona lwazi luchanekileyo, oluhlaziyiweyo lwezempilo kusetyenziswa abantu bezempilo be-AI. Nangona kunjalo, aba bantu abazizo iingcali zempilo ezinelayisenisi kwaye zisenokungachanekanga. Kwimeko engxamisekileyo yokwenene yonyango, cofa u-911 okanye uye kwisebe elikufutshane nawe likaxakeka ngoko nangoko. Ngayo nayiphi na eminye imiba yezempilo okanye phambi kokuba uzame naluphi na unyango okanye amayeza, nceda udibane nomboneleli wezempilo onolwazi okanye ingcali.",
+    "advisory": "Ingcebiso"
+  },
+  "forms": {
+    "required": "Le ndawo iyafuneka",
+    "invalidEmail": "Nceda ufake idilesi ekhona",
+    "passwordTooShort": "Igama lokugqithisa kufuneka libe noonobumba abasi-8 ubuncinane",
+    "passwordsDoNotMatch": "Amagama okugqithisa awahambelani",
+    "invalidInput": "Nceda ngenisa igalelo elisebenzayo",
+    "fieldRequired": "{{intsimi}} iyafuneka",
+    "selectOption": "Nceda khetha ukhetho",
+    "uploadFile": "Layisha ifayile",
+    "dragAndDrop": "Tsala kwaye ulahle iifayile apha, okanye ucofe ukukhetha",
+    "fileUploaded": "Ifayile ilayishwe ngempumelelo",
+    "uploadError": "Impazamo ekufakeni ifayile"
+  },
+  "language": {
+    "english": "IsiNgesi",
+    "arabic": "العربية",
+    "hebrew": "עברית",
+    "switchTo": "Tshintshela {{ulwimi}}",
+    "currentLanguage": "Ulwimi lwangoku: {{ulwimi}}"
+  },
+  "animation": {
+    "title": {
+      "simply": "Ngokulula",
+      "better": "Ngcono",
+      "health": "Impilo",
+      "period": "."
+    }
+  },
+  "hero": {
+    "subtitle": "Iingcebiso zempilo kunye nokuba sempilweni komntu 24/7.",
+    "subtitleMobile": "Ingcebiso yezempilo ye-AI eyenzelwe umntu 24/7",
+    "poweredBy": "Ixhaswe yi-AI."
+  },
+  "research": {
+    "title": "UPhando nopapasho",
+    "subtitle": "Izisombululo zezempilo ze-AI ezisekelwe kubungqina",
+    "aiImaging": {
+      "title": "I-AI kwi-Diagnostic Imaging",
+      "description": "Uhlalutyo olupheleleyo lwezicelo zobukrelekrele bokwenziwa kwimifanekiso yezempilo kuyo yonke iradiology, i-pathology, kunye ne-ophthalmology."
+    },
+    "pathologyAI": {
+      "title": "Uncedo lwe-AI yePathology",
+      "description": "Izicelo zokufunda ezinzulu kwi-digital pathology yokufumanisa umhlaza kunye nokuphucula ukuchaneka kokuxilongwa."
+    },
+    "dermatologyAI": {
+      "title": "Dermatology AI Solutions",
+      "description": "Ukufunyanwa kwemeko yesikhumba enikwe amandla e-AI kunye nokuxilongwa kusetyenziswa umbono wekhompyuter kunye nokufunda koomatshini."
+    },
+    "mentalHealthAI": {
+      "title": "Impilo yengqondo kunye ne-AI",
+      "description": "Izicelo zobukrelekrele bokwenziwa ekuhlolweni kwempilo yengqondo, ukuxilongwa, kunye nenkxaso yonyango."
+    },
+    "accuracyStudies": {
+      "title": "Izifundo zokuchaneka kwe-AI",
+      "description": "Ukuqinisekiswa kweklinikhi kunye neemetrics zokusebenza kweenkqubo zokuxilonga ze-AI kwiisetingi zezempilo zehlabathi zangempela."
+    }
+  },
+  "whitepapers": {
+    "downloadPdf": "Khuphela iPDF",
+    "generating": "Iyavelisa...",
+    "abstract": "Abstract",
+    "introduction": "Intshayelelo",
+    "methods": "Iindlela/uBugcisa",
+    "results": "Iziphumo",
+    "discussion": "Ingxoxo",
+    "conclusion": "Ukuqukumbela",
+    "references": "Iimbekiselo",
+    "authors": "Ababhali",
+    "email": "I-imeyile",
+    "organization": "Umbutho"
+  },
+  "imageProcessing": {
+    "preset": "Seta kwangaphambili",
+    "process": "Inkqubo",
+    "revert": "Buyela kwakhona",
+    "applyPreset": "Faka useto lwangaphambili kumfanekiso kugxininiso",
+    "revertFocus": "Gxininisa kwakhona kumfanekiso wokuqala"
+  },
+  "alt": {
+    "logo": "ILogo yeVirtualMD.app",
+    "logoSmall": "I-MindScript encinci yelogo",
+    "integratedApproach": "Indlela edibeneyo yempilo",
+    "userProfile": "Iprofayile yomsebenzisi",
+    "aiDoctor": "Ingcali yezempilo ye-AI uCarol",
+    "aiAssistant": "Umncedisi we-AI",
+    "backgroundImage": "Umfanekiso omhle ongasemva",
+    "home": "Ikhaya leMindScript",
+    "processed": "Umfanekiso ogqityiweyo",
+    "zoomPreview": "Umfanekiso wokwandisa umfanekiso"
+  },
+  "aria": {
+    "scrollDown": "Yehlela",
+    "scrollUp": "Skrolela phezulu",
+    "openMenu": "Vula imenyu",
+    "togglePassword": "Guqula ukubonakala kwegama lokugqitha",
+    "chooseLanguage": "Khetha ulwimi",
+    "goHome": "Yiya kwiphepha lasekhaya",
+    "remove": "Susa",
+    "edit": "Hlela",
+    "delete": "Cima",
+    "save": "Gcina",
+    "cancel": "Rhoxisa",
+    "breadcrumb": "Navigation breadcrumb",
+    "conversationChoice": "Ukukhetha incoko",
+    "personaChoice": "Ukhetho lomntu",
+    "panel": "Iphaneli",
+    "summary": "Isishwankathelo",
+    "differentialOpinion": "Uluvo olwahlukileyo",
+    "transcript": "Ushicilelo",
+    "encyclopedia": "Encyclopedia",
+    "endConversation": "Phelisa Incoko",
+    "startChat": "Qala incoko neqela",
+    "configureChat": "Qwalasela incoko entsha",
+    "savedConsultations": "Iingcebiso ezigciniweyo",
+    "myProfile": "Iprofayile yam"
+  },
+  "researchPage": {
+    "title": "UPhando nopapasho",
+    "healthAdvisory": {
+      "title": "Health Advisory",
+      "description": "Ulwazi olubalulekileyo lwezempilo nokhuseleko",
+      "button": "Jonga iingcebiso"
+    },
+    "imagingAI": {
+      "title": "I-AI kwi-Diagnostic Imaging",
+      "description": "Ukusetyenziswa kwe-AI kumfanekiso wezempilo kuyo yonke i-radiology, i-pathology, kunye ne-ophthalmology",
+      "button": "Funda ngokugqithisileyo"
+    },
+    "pathologyAI": {
+      "title": "I-AI-Ncediswa ngePathology",
+      "description": "Izicelo zokufunda ezinzulu kwi-digital pathology yokufumanisa umhlaza kunye nokuchaneka kokuxilongwa",
+      "button": "Funda ngokugqithisileyo"
+    },
+    "dermatologyAI": {
+      "title": "Izisombululo ze-AI kwiDermatology",
+      "description": "Ukufunyanwa kwemeko yesikhumba enikwe amandla e-AI kunye nokuxilongwa kusetyenziswa umbono wekhompyuter kunye nokufunda koomatshini",
+      "button": "Funda ngokugqithisileyo"
+    },
+    "mentalHealthAI": {
+      "title": "Impilo yengqondo kunye ne-AI",
+      "description": "Ukusetyenziswa kwe-AI ekuhloleni impilo yengqondo, ukuxilongwa, kunye nenkxaso yonyango",
+      "button": "Funda ngokugqithisileyo"
+    },
+    "dataPrivacy": {
+      "title": "UBucala beDatha kunye noKhuseleko",
+      "description": "Ukhuseleko lwedatha yezempilo, ukuthotyelwa kwe-HIPAA, kunye nokhuseleko lwabucala",
+      "button": "Funda ngokugqithisileyo"
+    },
+    "aiAccuracy": {
+      "title": "Izifundo zokuchaneka kwe-AI",
+      "description": "Ukuqinisekiswa kweklinikhi kunye neemetrics zokusebenza kweenkqubo zokuxilonga ze-AI kwiisetingi zokhathalelo lwempilo lwehlabathi",
+      "button": "Funda ngokugqithisileyo"
+    },
+    "aiForLaypeople": {
+      "title": "I-AI yomntu wonke",
+      "description": "Ukuqonda i-AI yokhathalelo lwempilo ngokwemigaqo elula - akukho mvelaphi yobugcisa efunekayo",
+      "button": "Funda ngokugqithisileyo"
+    }
+  },
+  "dialogs": {
+    "startWithDefault": "Qala ngeNgcali yezeMpilo uCarol",
+    "startWithSpecific": "Qala ngo {{igama}}",
+    "longRecording": {},
+    "shortConv": {}
+  },
+  "team": {
+    "myAIHealthTeam": "Iqela lam lezeMpilo le-AI",
+    "addMembersInstruction": "Yongeza amalungu eqela ngokucofa kwikhadi elisekunene.",
+    "maxTeamSizeNote": "Ubuninzi babacebisi be-AI bongezwa kwiqela lakho. Ungalitshintsha iqela lakho nangaliphi na ixesha, kodwa hayi ngexesha lokubonisana.",
+    "starting": "Iyaqala...",
+    "startTeamConsult": "Qala uthethwano lweQela",
+    "startConsultationWithTeam": "Qala uthethwano neqela lakho"
+  },
+  "newConversation": {
+    "aileenCarolOnly": "Ingcaphephe yezempilo uCarol Kuphela",
+    "oneOnOne": "Umntu-ngoNye",
+    "consultationChoice": {
+      "question": "Ngubani ongathanda ukubonisana naye namhlanje?"
+    },
+    "options": {
+      "allAdvisers": "Bonke abacebisi bam bezempilo be-AI",
+      "allAdvisersCarolOnly": "Bonke abacebisi bam bezempilo be-AI (iNgcali yezempilo ye-AI uCarol kuphela)",
+      "chooseSpecific": "Khetha Okuthile kuLuhlu Lwam"
+    },
+    "tooltips": {
+      "noAdvisersSelected": "Akukho bacebisi abakhethiweyo kwiprofayile yakho.",
+      "loadingAdvisers": "Ilayisha abacebisi bakho...",
+      "noOtherAdvisers": "Akukho abanye abacebisi kuluhlu lwakho onokukhetha kubo. Yongeza ngakumbi kwiprofayile yakho."
+    },
+    "errors": {
+      "loadingAdvisers": "Impazamo yokulayisha idatha yomcebisi."
+    },
+    "buttons": {
+      "cancel": "Rhoxisa",
+      "next": "Okulandelayo",
+      "start": "Qala"
+    }
+  },
+  "aiAccuracyWhitepaper": {
+    "section1": {},
+    "section2": {
+      "aiSuccess": {},
+      "aiErrors": {},
+      "aiVsHuman": {}
+    },
+    "section3": {
+      "challenges": {}
+    },
+    "section4": {
+      "guidelines": {}
+    },
+    "section5": {}
+  },
+  "imagingAIExplainer": {
+    "whatIsImaging": {
+      "types": {}
+    },
+    "whatIsAI": {},
+    "howAIHelps": {
+      "accuracy": {},
+      "speed": {},
+      "consistency": {}
+    },
+    "challenges": {},
+    "conclusion": {}
+  },
+  "mentalHealthWhitepaper": {
+    "disclaimer": {},
+    "abstract": {},
+    "introduction": {},
+    "methods": {},
+    "results": {
+      "diagnosticSupport": {},
+      "therapeuticApplications": {},
+      "patientMonitoring": {}
+    },
+    "discussion": {},
+    "conclusion": {}
+  },
+  "audio": {},
+  "autoListening": {},
+  "speech": {},
+  "help": {},
+  "upload": {},
+  "fileUpload": {},
+  "input": {},
+  "send": {},
+  "controls": {
+    "aiSpeaker": "Isithethi se-AI",
+    "cameraUpload": "Ikhamera/Layisha",
+    "status": {
+      "enabled": "Ivuliwe",
+      "disabled": "Kukhubazekile"
+    }
+  },
+  "welcome": {},
+  "account": {},
+  "participants": {},
+  "mobileChat": {},
+  "sidebar": {
+    "differentialOpinion": "Uluvo olwahlukileyo"
+  },
+  "bioPanel": {},
+  "conversations": {},
+  "mobileConsultations": {},
+  "encyclopedia": {},
+  "imageContext": {},
+  "profile": {},
+  "sidebarHeader": {
+    "plusBadge": "+"
+  },
+  "messages": {},
+  "sidebarFooter": {},
+  "summary": {},
+  "teamBuilder": {
+    "steps": {},
+    "alerts": {},
+    "existingTeam": {},
+    "primaryConcerns": {},
+    "healthConditions": {},
+    "urgencySymptoms": {},
+    "medicinePreferences": {},
+    "additionalInfo": {},
+    "aileenCarolIntro": {},
+    "buttons": {},
+    "dialogs": {}
+  },
+  "aileenCarol": {},
+  "transcript": {},
+  "registerPage": {},
+  "legal": {
+    "eligibility": {},
+    "feesAndPayment": {},
+    "termination": {}
+  },
+  "aboutEncyclopediaPage": {},
+  "loginPage": {},
+  "mobileTeamBuilder": {
+    "carolMessages": {},
+    "questionnaire": {},
+    "title": {},
+    "carolGreeting": {}
+  },
+  "mobileNavigation": {},
+  "mobileWelcome": {},
+  "mobileRouter": {},
+  "mobileInput": {},
+  "mobileProfile": {},
+  "clinicianInfoPage": {},
+  "contactPage": {},
+  "dataPrivacyWhitepaper": {
+    "sections": {},
+    "hero": {},
+    "privacyPledge": {
+      "secureInfo": {},
+      "noPersonalUse": {},
+      "neverSell": {},
+      "anonymizedData": {}
+    },
+    "securityLevels": {
+      "accountSecurity": {},
+      "hipaaHistory": {}
+    },
+    "mindscriptSecurity": {},
+    "hipaaConsiderations": {},
+    "userResponsibility": {},
+    "privacyScenarios": {},
+    "conclusion": {}
+  },
+  "encyclopediaPage": {},
+  "evidencePage": {
+    "researchEvidence": {
+      "radiology": {},
+      "pathology": {},
+      "dermatology": {},
+      "mentalHealthResearch": {}
+    },
+    "wellnessInsights": {
+      "personalizedWellness": {},
+      "holisticSignals": {},
+      "proactiveWellbeing": {},
+      "aiEnhancedClarity": {}
+    }
+  },
+  "featuresPage": {
+    "features": {
+      "instantWellnessInsights": {},
+      "holisticWellnessPicture": {},
+      "diverseAIPerspectives": {},
+      "everEvolvingIntelligence": {}
+    }
+  },
+  "healthAdvisoryPage": {
+    "sections": {
+      "consultation": {
+        "emergency": {}
+      },
+      "technology": {},
+      "disclaimer": {
+        "points": {}
+      }
+    }
+  },
+  "medicalImageProcessingPage": {},
+  "mentalHealthInfoPage": {},
+  "nurseInfoPage": {},
+  "patientInfoPage": {},
+  "pharmacistInfoPage": {},
+  "physicianInfoPage": {},
+  "wellnessPathwaysPage": {},
+  "whyVirtualMD": {
+    "sections": {
+      "whyUs": {
+        "points": {
+          "personalTeam": {},
+          "aiNavigator": {},
+          "empoweringChoices": {},
+          "easyToUse": {},
+          "advancedTechnology": {}
+        }
+      },
+      "hero": {},
+      "features": {
+        "points": {
+          "dynamicEnsemble": {},
+          "holisticUnderstanding": {},
+          "rapidAccess": {},
+          "reliableInteractions": {},
+          "insightfulLogs": {}
+        }
+      },
+      "technology": {},
+      "cta": {}
+    }
+  },
+  "yourHealthInYourHandsPage": {
+    "sections": {
+      "uniqueProfile": {},
+      "personalizedGoals": {},
+      "diverseInsights": {},
+      "proactivePartner": {}
+    },
+    "callToAction": {}
+  },
+  "session_complete": "Iseshoni Igqityiwe",
+  "your_free_trial_has_ended": "Isilingo sakho sasimahla siphelile",
+  "united_kingdom:_dial_999_or_11": "EUnited Kingdom: Cofa u-999 okanye u-112",
+  "melanoma_and_skin_cancer_detec": "Ukufunyanwa kweMelanoma kunye noMhlaza woLusu",
+  "process_transactions_and_send_": "Inkqubo yentengiselwano kunye nokuthumela ulwazi oluhambelanayo, kubandakanywa iziqinisekiso kunye nee-invoyisi (ukuba ziyasebenza).",
+  "information_we_collect": "Ulwazi Esiluqokelelayo",
+  "in_a_medical_emergency:": "Kwimeko yonyango olungxamisekileyo:",
+  "in_response_to_legal_process:": "Kwimpendulo yeNkqubo yoMthetho:",
+  "loading_chat": "Ilayisha incoko...",
+  "redirecting": "Isalathisa kwakhona...",
+  "israel:_dial_101_(magen_david_": "USirayeli: Cofa u-101 ()",
+  "unlimited_messages_with_ai_doc": "Imiyalezo engenamkhawulo kunye neengcali zezempilo ze-AI",
+  "contact_information": "Iinkcukacha zoqhakamshelwano",
+  "real-world_implementation_and_": "UkuPhunyezwa kweHlabathi lokwenyani kunye nezicelo zeMobile",
+  "your_access_to_or_use_of_or_in": "UKUFIKELELA KWAKHO OKANYE UKUSETYENZISWA OKANYE UKUNGAKWAZI UKUFUMANA OKANYE UKUYISEBENZISA LE NKONZO;",
+  "your_computer_may_temporarily_": "Ikhompyuter yakho inokugcina okwethutyana iikopi zezixhobo ezinjalo kwi-RAM ehambelana nokufikelela kwakho kunye nokujonga ezo mathiriyeli.",
+  "please_select_only_one_special": "Nceda ukhethe ingcali enye kuphela yothethwano lwabucala.",
+  "references": "Iimbekiselo",
+  "business_transfers:": "Ugqithiselo lweShishini:",
+  "account_information:": "Iinkcukacha zeAkhawunti:",
+  "provide,_operate,_maintain,_an": "Ukubonelela, sebenzisa, gcina, kwaye uphucule iNkonzo.",
+  "assignment": "Isabelo",
+  "sandymiles@mindspringhealth": "sandymiles@mindspring.health",
+  "ai-generated_content_may_conta": "Umxholo owenziwe yi-AI unokuqulatha iimpazamo okanye izinto ezishiyiweyo ngaphandle kwenkqubo yethu yokuqinisekisa eyomeleleyo",
+  "display_name": "Igama elibonisiwe",
+  "any_content_obtained_from_the_": "Nasiphi na isiqulatho ESIFUMANELWE KWINKONZO; OKANYE",
+  "you_may_store_files_that_are_a": "Unokugcina iifayile ezigcinwe ngokuzenzekela sisikhangeli seWebhu ngeenjongo zokwandiswa kwesibonisi.",
+  "start_new_health_consultation": "Qalisa Uthethwano olutsha lwezeMpilo",
+  "entire_agreement": "IsiVumelwano sisonke",
+  "ophthalmology": "I-Ophthalmology",
+  "not": "HAYI",
+  "exit_conversation?": "Phuma Kwincoko?",
+  "grading_and_classification": "UHlelo noHlelo",
+  "unauthorized_access,_use,_or_a": "UKUFIKELELA, UKUSETYENZISWA KOKUNGAGUNYAZWAYO, OKANYE UKUTSHINTSHWA OKANYE UMQULATHO WAKHO (KUHLANGANISA ULWAPHULO LWEENKCUKACHA), NANGONA UKUBA I-MINDSCRIPT IPHUMZE IMIQATHANGO YOKHUSELEKO ENGQIQIWEYO KULE MIGAQO KUNYE NOMGAQO-NKQUBO WASEMFIHLO.",
+  "checking_server_status": "Ijonga ubume beseva...",
+  "not_a_hipaa-compliant_service": "AYIKHO INKONZO YOKUTHOBELA i-HIPAA",
+  "radiology": "Iradiology",
+  "united_states:_dial_911": "EUnited States: Cofa u-911",
+  "save_and_review_conversation_h": "Gcina kwaye uphonononge imbali yencoko",
+  "abstract": "Abstract",
+  "starting_your_consultation": "Ukuqala ukubonisana kwakho...",
+  "digital_pathology_overview": "Digital Pathology Overview",
+  "reasonable_business_security_p": "iindlela zokhuseleko loshishino olufanelekileyo ngaphakathi eUnited States",
+  "loading_transcript": "Ilayisha umbhalo...",
+  "cookies_and_similar_technologi": "Iikuki kunye nobuChwephesha obufanayo:",
+  "internal_medicine": "Impilo Yangaphakathi",
+  "no_specialists_currently_in_th": "Akukho ngcaphephe ngoku kule ngxoxo.",
+  "discussion": "Ingxoxo",
+  "updating_team": "Ihlaziya iqela...",
+  "your_privacy_choices": "Ukhetho lwakho lwabucala",
+  "error:_unknown_active_chat_vie": "Imposiso: Imbono yengxoxo esebenzayo engaziwayo.",
+  "create_more_than_one_account_f": "Zizenzele ngaphezu kweakhawunti enye.",
+  "improve_the_accuracy,_efficacy": "Ukuphucula ukuchaneka, ukusebenza kakuhle, kunye nokhuseleko lweemodeli zethu ze-AI kunye neempawu zeqonga kusetyenziswa idatha engaziwa kwaye idityanisiwe.",
+  "user_content:": "Umxholo woMsebenzisi:",
+  "mindscript_does_not_provide_me": "I-MindScript ayiboneleli ngoxilongo lwezonyango okanye unyango",
+  "communicate_with_you_about_pro": "Nxibelelana nawe malunga neemveliso, iinkonzo, izibonelelo, ukunyuswa, imivuzo, kunye neziganeko ezinikezelwa yi-MindScript kunye nabanye, kwaye unikeze iindaba kunye nolwazi esicinga ukuba luya kuba nomdla kuwe (ngokuxhomekeke kumalungelo akho okuphuma).",
+  "aggregated_or_de-identified_da": "Idatha eHlanganisiweyo okanye engachongwanga:",
+  "canada:_dial_911": "EKhanada: Cofa ku-911",
+  "retry": "Zama kwakhona",
+  "other_locations:_contact_your_": "Ezinye iindawo: Qhagamshelana neenkonzo zikaxakeka zasekuhlaleni ngokukhawuleza",
+  "ron_rubin,_phd_and_sandy_miles": "Ron Rubin, PhD kunye noSandy Miles",
+  "australia:_dial_000_or_112": "EOstreliya: Cofa u-000 okanye uyi-112",
+  "data_deletion:": "Ukucinywa kwedatha:",
+  "we_do_not_guarantee_the_absolu": "ASIQINISEKISI UKHUSELEKO OLUPHELELEYO LOLWAZI LWAKHO",
+  "send_technical_notices,_update": "Thumela izaziso zobugcisa, uhlaziyo, izilumkiso zokhuseleko, kunye nenkxaso kunye nemiyalezo yolawulo.",
+  "consultation_summary": "Isishwankathelo sothethwano",
+  "waiver": "Ukurhoxisa",
+  "access_to_all_medical_specialt": "Ukufikelela kuzo zonke iingcali zempilo",
+  "no_profile_data_available": "Akukho datha yeprofayile ekhoyo.",
+  "no_summary_available": "Akukho sishwankathelo sikhoyo.",
+  "test_app_-_mindscript": "Uvavanyo lwe-App-MindScript",
+  "respond_to_your_comments,_ques": "Phendula kwizimvo zakho, imibuzo, kunye nezicelo kwaye unikezele ngenkonzo yabathengi.",
+  "not_hipaa_compliant": "AKUKHO HIPAA ethobelayo",
+  "force_majeure": "Nje kancinci",
+  "you_may_print_or_download_one_": "Ungaprinta okanye ukhuphele ikopi enye yenani elifanelekileyo lamaphepha eSiza ukuze usebenzise ulwazi lwakho lomntu siqu, olungelulo olorhwebo kwaye hayi ukuvelisa kwakhona, ukupapashwa, okanye ukusasazwa.",
+  "dr_aileen_carol": "Ingcaphephe yezempilo uAileen Carol",
+  "family_medicine": "Impilontle yoSapho",
+  "headings": "Izihloko",
+  "note_on_ai_aileencarol's_particip": "Qaphela kwi-AI yeNgcali yeMpilo kaCarol yokuthatha inxaxheba:",
+  "ronrubin@mindscripthealth": "ronrubin@virtualmd.app",
+  "share_your_account_credentials": "Yabelana ngeenkcukacha zeakhawunti yakho okanye uvumele abanye ukuba bafikelele kwi-akhawunti yakho (ngaphandle kokuba kuvunyelwe ngokucacileyo kwii-akhawunti zombutho).",
+  "email_cannot_be_changed": "I-imeyile ayinakuguqulwa.",
+  "your_unique_medical_history,_c": "Imbali yakho yempilo eyodwa, iimeko, kunye neemeko zifuna uphononongo lobuchwephesha",
+  "changes_to_these_terms_and_pol": "Utshintsho kule Miqathango kunye nePolisi",
+  "other_ai_specialists": "Ezinye iiNgcali ze-AI",
+  "full_name": "Igama eliphelele",
+  "governing_law_and_dispute_reso": "UMthetho oLawulayo kunye noSombululo lweeMbango",
+  "loading…": "Iyalayisha...",
+  "personalized_health_insights": "Iimbono zempilo ezenzelwe wena",
+  "gastroenterology": "I-Gastroenterology",
+  "use_of_the_service_by_children": "Ukusetyenziswa kweNkonzo ngabantwana akuvumelekanga.",
+  "introduction": "Intshayelelo",
+  "use_another_user's_account_wit": "Sebenzisa iakhawunti yomnye umsebenzisi ngaphandle kwemvume.",
+  "if_you_can_see_this,_react_is_": "Ukuba uyayibona le nto, iReact iyasebenza!",
+  "ronrubin@mindspringhealth": "ronrubin@mindspring.health",
+  "children's_privacy": "UBucala babantwana",
+  "provide_false_or_misleading_in": "Nika ulwazi olungeyonyani okanye olulahlekisayo ngexesha lobhaliso okanye kwiprofayile yakho yeakhawunti.",
+  "talk_to_a_specialist": "Thetha Nengcali",
+  "cannot": "AWUKWAZI",
+  "how_we_use_information": "Indlela Esilusebenzisa Ngayo Ulwazi",
+  "results": "Iziphumo",
+  "loading_participants": "Ilayisha abathathi-nxaxheba...",
+  "sandymiles@mindscripthealth": "sandymiles@virtualmd.app",
+  "this_feature_is_coming_soon": "Olu phawu luyeza kungekudala!",
+  "start_or_continue_conversation": "Qala okanye Qhuba Incoko",
+  "international_data_transfers": "Ugqithiso lweDatha lwamazwe ngamazwe",
+  "loading_bio": "Ilayisha ngebhayoriya...",
+  "termination": "Ukupheliswa",
+  "no_image_active": "Akukho mfanekiso usebenzayo.",
+  "no_ai_health_advisers_selected": "Akukho bacebisi bezempilo be-AI abakhethiweyo. Ungalawula abacebisi bakho kwiprofayile yakho.",
+  "dr_daniel_garcia": "Ingcali yezempilo uDaniel Garcia",
+  "no_other_specialists_available": "Azikho ezinye iingcaphephe ezinokuzongezwa.",
+  "carry_out_any_other_purpose_de": "Yenza nayiphi na enye injongo echazwe kuwe ngexesha lokuqokelela ulwazi.",
+  "data_retention": "Ukugcinwa kwedatha",
+  "informational_and_educational_": "IINJONGO ZOLWAZI NEZEMFUNDO KUPHELA",
+  "miscellaneous": "Iintlobo ngeentlobo",
+  "non-cancerous_skin_condition_c": "Ulwahlulo lwemeko yolusu olungenaCansa",
+  "pathology": "I-Pathology",
+  "promotional_communications:": "IiNtengiso zoNxibelelwano:",
+  "info@mindscripthealth": "info@virtualmd.app",
+  "methods/technologies": "Iindlela/uBugcisa",
+  "how_we_share_information": "Indlela Esabelana Ngayo Ngolwazi",
+  "loading_profile": "Ilayisha iprofayile...",
+  "personalize_and_improve_the_se": "Yenza ngokwezifiso kwaye uphucule iNkonzo kwaye unikeze umxholo okanye iimpawu ezihambelana neeprofayili zabasebenzisi okanye umdla.",
+  "with_vendors_and_service_provi": "Nabathengisi kunye nabaBoneleli beNkonzo:",
+  "health_information_may_become_": "Ulwazi lwezempilo lusenokuphelelwa lixesha njengoko ulwazi lwezempilo lukhula",
+  "with_whom_would_you_like_to_co": "Ngubani ongathanda ukubonisana naye namhlanje?",
+  "mindscript_content:": "Umxholo weMindScript:",
+  "cookies:": "Iikuki:",
+  "detect,_investigate,_and_preve": "Khangela, uphande, kwaye uthintele iintengiselwano zobuqhophololo kunye neminye imisebenzi engekho mthethweni kwaye ukhusele amalungelo kunye nepropathi ye-MindScript kunye nabanye.",
+  "medical_advice_requires_person": "Iingcebiso ngezempilo zifuna uvavanyo lomntu ngamnye ngababoneleli bezempilo abanelayisensi",
+  "create_an_account_for_anyone_o": "Yenza iakhawunti yakhe nabani na ngaphandle kwakho ngaphandle kwemvume.",
+  "options": "Iinketho",
+  "cannot_and_will_not_sue_or_hol": "AWUKWAZI KWAYE AYIYI KUBANGALA OKANYE UKUBAMBA I-MINDSCRIPT TECHNOLOGIES, LLC, AMAGQEBA AYO, AMAGOSA, ABALAWULI, ABAQESHWA, II-AGENSI, OKANYE ABANTU BAKHONA IPHEPHA-MVUME.",
+  "with_your_consent:": "Ngemvume Yakho:",
+  "add_specialists_to_your_team": "yongeza iingcali kwiqela lakho",
+  "usage_information:": "Ulwazi Lokusetyenziswa:",
+  "any_conduct_or_content_of_any_": "NAKUPHI NA UKUZIPHATHA OKANYE UMQULATHO WALO NAliphi na IQELA LESITHATHU KWINKONZO, KUBANDAKANYA NGAPHANDLE KOMNIKELO, NAKUPHI NA UKUZIPHATHA, UKUKHUSEKA, OKANYE UKUZIPHATHA OKUNGEKHO EMTHETHWENI KWABANYE ABASEBENZISI OKANYE AMAQELA ESITHATHU;",
+  "do_not_meet_the_specific_admin": "ungahlangabezani neemfuno ezithile zolawulo, zomzimba, kunye nezobuchwephesha ezigunyaziswe nguMgaqo woKhuseleko weHIPAA wokuphatha i-PHI.",
+  "legal@mindscripthealth": "legal@virtualmd.app",
+  "cancel": "Rhoxisa",
+  "conclusion": "Ukuqukumbela",
+  "professional_health_insights_a": "Ulwazi lwezempilo kunye nesikhokelo",
+  "cancer_detection": "Ukufunyanwa koMhlaza",
+  "your_specialist_team_is_empty_": "Iqela lakho lengcali alinanto. Yongeza iingcaphephe ngezantsi.",
+  "workflow_optimization": "UkuPhuculwa koMsebenzi",
+  "select_ai_specialists": "Khetha iiNgcali ze-AI",
+  "monitor_and_analyze_trends,_us": "Jonga kwaye uhlalutye iintsingiselo, ukusetyenziswa, kunye nemisebenzi ngokunxulumene neNkonzo yethu.",
+  "severability": "Ukuba ngqongqo",
+  "access_to_cardiology_and_neuro": "Ukufikelela kwiingcali ze-cardiology kunye neurology",
+  "searchLanguages": "Phendla iilwimi...",
+  "noLanguagesFound": "Akukho lwimi lufunyenweyo",
+  "you": "Wena",
+  "manageTeam": {
+    "title": "Lawula iQela lam lezeMpilo le-AI (Ubukhulu {{maxTeamMembers}} Iingcali)",
+    "currentTeamCount": "Iqela lakho langoku ({{yangoku}}/{{max}})",
+    "updatingTeam": "Ihlaziya iqela...",
+    "coordinatorLabel": " (Umnxibelelanisi)",
+    "alwaysIncluded": "Ngalo lonke ixesha ibandakanyiwe",
+    "specialistFallback": "Ingcali",
+    "emptyTeamMessage": "Iqela lakho lengcali alinanto. Yongeza iingcaphephe ngezantsi.",
+    "teamFullMessage": "Iqela lakho ligcwele (Ubukhulu {{maxTeamMembers}} iingcaphephe). Nceda ususe ilungu ukuba ungathanda ukongeza ingcali eyahlukileyo.",
+    "otherSpecialistsTitle": "Ezinye iiNgcali ze-AI",
+    "addToTeamTooltip": "Yongeza kwiqela",
+    "teamFullTooltip": "Iqela ligcwele",
+    "systemSpecialistFallback": "IiNgcali zeNkqubo",
+    "noSpecialistsAvailable": "Azikho ezinye iingcaphephe ezinokuzongezwa."
+  },
+  "personas": {
+    "defaultSpecialist": "Ingcali ye-AI"
+  },
+  "personaList": {
+    "noSpecialistsFound": "Akukho ngcaphephe ze-AI zifunyenweyo."
+  },
+  "guest": {
+    "user": "Umsebenzisi weeNdwendwe",
+    "userObject": {
+      "displayName": "Umsebenzisi weeNdwendwe",
+      "email": "guest@virtualmd.app"
+    },
+    "registration": {
+      "prompt": "Bhalisa ukufikelela ngokupheleleyo kwiqela lethu lezempilo le-AI elipheleleyo, imbali yencoko, kunye neempawu eziphambili.",
+      "dialogTitle": "Abasebenzisi ababhalisiweyo banokufikelela kwi- {{specialistName}}",
+      "dialogDescription": "{{specialistName}} yinxalenye yeqela lethu lezempilo elibanzi.",
+      "benefitsTitle": "Ngeakhawunti yeVirtualMD.app, uya kufumana:",
+      "benefits": {
+        "access": "Ukufikelela kubacebisi bezempilo be-AI abangaphezulu kwama-60",
+        "personalized": "Uthethwano lwezempilo olulolwakho",
+        "saveConversations": "Gcina kwaye uqhubeke neencoko",
+        "uploadImages": "Layisha imifanekiso okanye uyithathe ngqo kwikhompyuter yakho/ikhamera",
+        "customTeam": "Yakha iqela lakho lezempilo lesiqhelo",
+        "availability": "24/7 ukufumaneka kwimibuzo yezempilo"
+      },
+      "buttons": {
+        "maybeLater": "Mhlawumbi mva",
+        "registerNow": "Bhalisa ngoku"
+      }
+    },
+    "registrationRequired": "Ubhaliso luyafuneka",
+    "profileRegistrationRequired": "Iprofayile yomsebenzisi: ubhaliso luyafuneka",
+    "landing": {
+      "title": "Amava othethwano lwezempilo lwe-AI",
+      "subtitle": "Fumana ulwazi lwezempilo ngoko nangoko kwiingcali zethu zezempilo ze-AI - simahla, akukho bhaliso lufunekayo",
+      "whatBringsYou": "Ubekwa yintoni apha namhlanje?",
+      "selectConcern": "Khetha inkxalabo eqhelekileyo okanye uchaze eyakho",
+      "customConcernPlaceholder": "Okanye chaza inkxalabo ngempilo yakho ngamazwi akho...",
+      "startConsultation": "Qala Uthethwano lwasimahla",
+      "experienceIncludes": "Amava oNdwendwe asimahla aquka:",
+      "includes": {
+        "messages": "Imiyalezo ye-10 kunye neengcali zempilo ye-AI",
+        "time": "Imizuzu eyi-15 yexesha lokubonisana",
+        "insights": "Ulwazi lwezempilo kunye nesikhokelo"
+      },
+      "personas": {
+        "defaultSpecialist": "Ingcali ye-AI",
+        "aileen": {
+          "name": "Ingcaphephe yezempilo uAileen Carol",
+          "specialty": "Impilontle yoSapho"
+        },
+        "daniel": {
+          "name": "Ingcali yezempilo uDaniel Garcia",
+          "specialty": "Impilo Yangaphakathi"
+        }
+      }
+    },
+    "chat": {
+      "header": "Uthethwano lwezeMpilo lwe-AI",
+      "messagesLeft": "{{count}} imiyalezo eseleyo",
+      "timeLeft": "{{ixesha elishiyekile",
+      "startingConsultation": "Uthethwano lwakho luyaqala. Ingcali yezempilo ye-AI iya kuphendula kungekudala.",
+      "aiTyping": "Ingcali ye-AI iyabhala...",
+      "inputPlaceholder": "Chaza iimpawu zakho okanye ubuze umbuzo..."
+    },
+    "expired": {
+      "title": "Uthethwano Lugqityiwe",
+      "subtitle": "Ufumene amandla othethwano lwezempilo lwe-AI",
+      "messagesUsed": "Usebenzise {{ed}} ye {{max}} imiyalezo",
+      "continuePrompt": "Ngaba ufuna ukuqhubeka nofikelelo olungenamda?",
+      "createAccount": "Yenza iAkhawunti yasimahla",
+      "signIn": "Ngena"
+    },
+    "errors": {
+      "startFailed": "Ayikwazi ukuqalisa ukubonisana. Nceda zama kwakhona.",
+      "connectionLost": "Uqhagamshelo lulahlekile. Nceda uhlaziye iphepha.",
+      "sendFailed": "Ayiphumelelanga ukuthumela umyalezo. Nceda zama kwakhona."
+    },
+    "profile": {
+      "age": "25",
+      "gender": "Ibhinqa",
+      "bloodType": "A+",
+      "height": "5'6\"",
+      "weight": "130 lbs",
+      "conditions": "Ukunqongophala kwe-iron anemia, ukudakumba okuphakathi",
+      "medications": "I-Ferrous sulfate 325mg imihla ngemihla, i-Sertraline 50mg imihla ngemihla",
+      "allergies": "Akukho kwaziwayo",
+      "healthInfo": "Ndiye ndijongene nokukhathala kunye namandla aphantsi kwiinyanga ezidlulileyo ze-6. Ingcali yam yezempilo yandifumanisa ndine-anemia yokusilela kwesinyithi kwaye bendithatha izongezo ze-iron. Ndiyasokola nokudakumba kwaye ndaqala i-antidepressants kwiinyanga ezi-3 ezidlulileyo. Ndikhangela iingcebiso zokulawula zombini iimeko kunye nokuphucula amanqanaba am amandla ewonke.",
+      "emergencyContact": "USarah Johnson (uDade) - (555) 123-4567"
+    },
+    "experience": {
+      "tryItOut": "Yizame.",
+      "noObligation": "Akukho sibophelelo.",
+      "subtitle": "I-smidgeon nje yento iVirtualMD.app enokukwenzela yona."
+    }
+  },
+  "aiPrefix": "AI",
+  "dashboard": "Dashboard",
+  "teamRecommendation": {
+    "submission": {
+      "primaryConcernsLabel": "Ziziphi izinto ezikuxhalabisayo zempilo yakho namhlanje?",
+      "healthConditionsLabel": "Zeziphi iimeko zempilo ezisebenzayo kuwe?"
+    },
+    "defaults": {
+      "noneSpecified": "Akukho nanye ixeliweyo"
+    }
+  }
+}
