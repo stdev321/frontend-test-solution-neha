@@ -1,0 +1,907 @@
+{
+  "header": {
+    "login": "Σύνδεση",
+    "register": "Μητρώο",
+    "logout": "Αποσύνδεση",
+    "aboutUs": "Σχετικά με εμάς",
+    "learnMore": "Μάθετε περισσότερα",
+    "advisory": "Συμβουλευτικός",
+    "start": "Αρχή",
+    "greetingHello": "Γεια σου {{όνομα}}!",
+    "welcomeToVirtualMD": "Καλώς ορίσατε στο VirtualMD!",
+    "signupForFullAccess": "Εγγραφείτε για πλήρη πρόσβαση",
+    "profileTitle": "Το προφίλ μου / Μετάβαση στη συνομιλία",
+    "logoutTitle": "Αποσύνδεση",
+    "toggleTheme": "Εναλλαγή λειτουργίας φωτεινότητας/σκότους",
+    "toggleMode": "Εναλλαγή λειτουργίας φωτεινότητας/σκότους",
+    "myProfile": "Το προφίλ μου / Μετάβαση στη συνομιλία",
+    "dashboard": "Ταμπλό",
+    "endConversation": "Τερματισμός συνομιλίας",
+    "returnToConversation": "Επιστροφή στη συνομιλία",
+    "startConversation": "Έναρξη συνομιλίας",
+    "endConsult": "Τέλος συμβουλευτικής",
+    "returnToConsult": "Επιστροφή στη Συμβουλευτική",
+    "startConsult": "Έναρξη Συμβουλευτικής",
+    "home": "Σπίτι",
+    "healthEncyclopedia": "Εγκυκλοπαίδεια Υγείας",
+    "researchPublications": "Έρευνα & Δημοσιεύσεις",
+    "contactUs": "Επικοινωνήστε μαζί μας",
+    "light": "Φως",
+    "dark": "Σκοτάδι",
+    "toggleModeText": "Εναλλαγή λειτουργίας {{mode}}",
+    "legal": "Νομικός"
+  },
+  "howToUse": "Πώς να χρησιμοποιήσετε",
+  "settings": {
+    "lightMode": "Λειτουργία φωτισμού",
+    "darkMode": "Σκοτεινή λειτουργία"
+  },
+  "navigation": {
+    "dashboard": "Ταμπλό",
+    "home": "Σπίτι",
+    "aboutUs": "Σχετικά με εμάς",
+    "returnToChat": "Επιστροφή στη συνομιλία",
+    "continueConsultation": "Συνεχίστε τη συμβουλευτική σας",
+    "exitConsultation": "Διαβούλευση εξόδου",
+    "startNewConsultation": "Έναρξη νέας διαβούλευσης",
+    "sections": {
+      "chatTools": "ΕΡΓΑΛΕΙΑ ΣΥΝΟΜΙΛΙΑΣ",
+      "functionality": "ΛΕΙΤΟΥΡΓΙΚΟΤΗΤΑ",
+      "aboutUs": "ΣΧΕΤΙΚΑ ΜΕ ΕΜΑΣ",
+      "requiredDocuments": "ΑΠΑΙΤΟΥΜΕΝΑ ΕΓΓΡΑΦΑ",
+      "research": "ΕΡΕΥΝΑ",
+      "controls": "ΕΛΕΓΧΟΙ",
+      "settings": "ΡΥΘΜΙΣΕΙΣ"
+    },
+    "myTeam": "Η ομάδα μου",
+    "summary": "Περίληψη",
+    "transcript": "Αντίγραφο",
+    "encyclopedia": "Εγκυκλοπαιδεία",
+    "priorChats": "Προηγούμενες συνομιλίες",
+    "myProfile": "Το προφίλ μου",
+    "healthEncyclopedia": "Εγκυκλοπαίδεια Υγείας",
+    "noteFromFounders": "Σημείωση από τους Ιδρυτές",
+    "faq": "Συχνές ερωτήσεις",
+    "contactUs": "Επικοινωνήστε μαζί μας",
+    "legal": "Νομικός",
+    "dataPrivacy": "Απόρρητο Δεδομένων",
+    "aiAccuracyStudies": "Μελέτες Ακρίβειας Τεχνητής Νοημοσύνης",
+    "empowerYourself": "Ενδυναμώστε τον Εαυτό σας",
+    "deepResearch": "Βαθιά Έρευνα",
+    "aboutUsItems": {
+      "advisory": "Συμβουλευτικός",
+      "dataPrivacy": "Απόρρητο Δεδομένων"
+    },
+    "learnMore": {
+      "imagingAI": "Απεικόνιση και Τεχνητή Νοημοσύνη",
+      "pathologyAI": "Παθολογία και Τεχνητή Νοημοσύνη",
+      "dermatologyAI": "Δερματολογία και Τεχνητή Νοημοσύνη",
+      "mentalHealthAI": "Ψυχική Υγεία και Τεχνητή Νοημοσύνη",
+      "accuracyStudies": "Μελέτες Ακρίβειας Τεχνητής Νοημοσύνης",
+      "allResearch": "Όλη η έρευνα",
+      "empowerYourself": "Ενδυναμώστε τον Εαυτό σας"
+    }
+  },
+  "landing": {
+    "title": "VirtualMD.app",
+    "subtitle": "Λύσεις υγειονομικής περίθαλψης με τεχνητή νοημοσύνη",
+    "tryItOut": "Δοκιμάστε το",
+    "scrollDown": "Κάντε κύλιση προς τα κάτω",
+    "scrollUp": "Κύλιση προς τα πάνω",
+    "alwaysHereForYou": "Πάντα εδώ για εσάς.",
+    "cards": {
+      "whyUse": {
+        "title": "Γιατί VirtualMD;",
+        "description": "Ανακαλύψτε τα επαναστατικά οφέλη της πλατφόρμας εικονικής υγείας μας με τεχνητή νοημοσύνη"
+      },
+      "dataPrivacy": {
+        "title": "Το απόρρητό σας",
+        "description": "Σαν ένας έμπιστος φίλος, τα μυστικά της υγείας σας είναι ασφαλή μαζί μας"
+      },
+      "tryItOut": {
+        "title": "Δοκιμάστε το",
+        "description": "Το παιδί μου είναι άρρωστο | Δεν μπορώ να κοιμηθώ! | Διατροφή για αγάπη",
+        "tagline": "Δεν απαιτείται εγγραφή."
+      },
+      "wellness": {
+        "title": "Βαθιά Έρευνα",
+        "description": "Εγκυκλοπαίδεια υγείας με αξιόπιστες πηγές"
+      },
+      "yourHealth": {
+        "title": "Η υγεία σας",
+        "description": "Διαμορφώστε το ταξίδι ευεξίας σας με την Τεχνητή Νοημοσύνη"
+      }
+    }
+  },
+  "chat": {
+    "startNewConsult": "Έναρξη Νέας Συμβουλευτικής",
+    "noSpeechDetected": "Δεν το κατάλαβα",
+    "noSpeechMessage": "Δεν μπόρεσα να εντοπίσω καμία ομιλία στην ηχογράφηση. Δοκιμάστε να μιλήσετε λίγο πιο δυνατά ή να πλησιάσετε το μικρόφωνό σας και, στη συνέχεια, δοκιμάστε ξανά.",
+    "dontShowAgain": "Να μην μου ξαναεμφανιστεί",
+    "gotIt": "Το κατάλαβα",
+    "loading": "Φόρτωση…"
+  },
+  "loading": {
+    "preparingHealthTeam": "Προετοιμασία της ομάδας υγείας σας για την Τεχνητή Νοημοσύνη...",
+    "connectingSpecialists": "Σύνδεση με ειδικούς υγείας...",
+    "initializingSystem": "Αρχικοποίηση του εξατομικευμένου συστήματος υγείας σας...",
+    "almostReady": "Σχεδόν έτοιμοι να σας βοηθήσουμε...",
+    "dots": "..."
+  },
+  "common": {
+    "loading": "Φόρτωση…",
+    "user": {
+      "defaultInitial": "Κατάλληλο για όλους",
+      "defaultName": "εκεί",
+      "defaultAltText": "Μεταχειριζόμενος"
+    },
+    "error": "Σφάλμα",
+    "success": "Επιτυχία",
+    "cancel": "Ματαίωση",
+    "confirm": "Επιβεβαιώνω",
+    "save": "Εκτός",
+    "delete": "Διαγράφω",
+    "edit": "Εκδίδω",
+    "close": "Κοντά",
+    "next": "Επόμενος",
+    "previous": "Προηγούμενος",
+    "submit": "Υποτάσσομαι",
+    "search": "Ερευνα",
+    "filter": "Φίλτρο",
+    "sort": "Είδος",
+    "upload": "Μεταφόρτωση",
+    "download": "Λήψη",
+    "print": "Αποτύπωμα",
+    "share": "Μερίδιο",
+    "copy": "Αντίγραφο",
+    "paste": "Πάστα",
+    "cut": "Τομή",
+    "undo": "Ξεκάνω",
+    "redo": "Ξανακάνω",
+    "yes": "Ναί",
+    "no": "Οχι",
+    "ok": "ΕΝΤΑΞΕΙ",
+    "punctuation": {
+      "ellipsis": "..."
+    },
+    "apply": "Εφαρμόζω",
+    "reset": "Επαναφορά",
+    "clear": "Σαφής",
+    "back": "Πίσω",
+    "forward": "Προς τα εμπρός",
+    "home": "Σπίτι",
+    "refresh": "Φρεσκάρω",
+    "reload": "Γεμίζω πάλι",
+    "help": "Βοήθεια",
+    "about": "Για",
+    "contact": "Επαφή",
+    "profile": "Προφίλ",
+    "account": "Λογαριασμός",
+    "privacy": "Μυστικότητα",
+    "terms": "Οροι",
+    "legal": "Νομικός",
+    "support": "Υποστήριξη",
+    "feedback": "Ανατροφοδότηση",
+    "welcome": "Καλωσόρισμα",
+    "goodbye": "Αντίο",
+    "thankyou": "Σας ευχαριστώ",
+    "send": "Στέλνω",
+    "none": "Κανένας",
+    "generating": "Δημιουργία...",
+    "settings": "Ρυθμίσεις"
+  },
+  "auth": {
+    "loginTitle": "Σύνδεση",
+    "registerTitle": "Δημιουργία λογαριασμού",
+    "email": "E-mail",
+    "password": "Σύνθημα",
+    "confirmPassword": "Επιβεβαίωση κωδικού πρόσβασης",
+    "fullName": "Ονοματεπώνυμο",
+    "displayName": "Εμφανιζόμενο όνομα",
+    "rememberMe": "Θυμήσου με",
+    "forgotPassword": "Ξεχάσατε τον κωδικό πρόσβασης;",
+    "noAccount": "Δεν έχετε λογαριασμό;",
+    "hasAccount": "Έχετε ήδη λογαριασμό;",
+    "signUp": "Εγγραφή",
+    "signIn": "Σύνδεση",
+    "signOut": "Αποσύνδεση",
+    "createAccount": "Δημιουργία λογαριασμού",
+    "loginButton": "Σύνδεση",
+    "registerButton": "Μητρώο",
+    "logout": "Αποσύνδεση"
+  },
+  "footer": {
+    "copyright": "MindScript Technologies LLC. Με επιφύλαξη παντός δικαιώματος..",
+    "privacyPolicy": "Πολιτική Απορρήτου",
+    "termsOfService": "Όροι Παροχής Υπηρεσιών",
+    "cookiePolicy": "Πολιτική για τα cookie",
+    "medicalAdvisory": "Συμβουλευτική για την υγεία",
+    "yourPrivacy": "Το απόρρητό σας",
+    "legal": "Νομικός",
+    "contactUs": "Επικοινωνήστε μαζί μας",
+    "howToUse": "Πώς να χρησιμοποιήσετε",
+    "faq": "Συχνές ερωτήσεις",
+    "noteFromFounders": "Σημείωμα από τους Ιδρυτές",
+    "medicalDisclaimerTooltip": "Η MindScript προσπαθεί να παρέχει τις πιο ακριβείς και ενημερωμένες πληροφορίες για την υγεία χρησιμοποιώντας προσωπικές προσωπικότητες υγείας με την υποστήριξη της Τεχνητής Νοημοσύνης. Ωστόσο, αυτές οι προσωπικότητες δεν είναι αδειοδοτημένοι ειδικοί υγείας και ενδέχεται να είναι λανθασμένες. Σε περίπτωση πραγματικής ιατρικής έκτακτης ανάγκης, καλέστε το 911 ή μεταβείτε αμέσως στο πλησιέστερο τμήμα επειγόντων περιστατικών. Για οποιεσδήποτε άλλες ανησυχίες για την υγεία ή πριν δοκιμάσετε οποιεσδήποτε θεραπείες ή διορθωτικά μέτρα, συμβουλευτείτε έναν εξειδικευμένο πάροχο υγειονομικής περίθαλψης ή ειδικό.",
+    "advisory": "Συμβουλευτικός"
+  },
+  "forms": {
+    "required": "Αυτό το πεδίο είναι υποχρεωτικό",
+    "invalidEmail": "Παρακαλώ εισάγετε μια έγκυρη διεύθυνση ηλεκτρονικού ταχυδρομείου",
+    "passwordTooShort": "Ο κωδικός πρόσβασης πρέπει να έχει τουλάχιστον 8 χαρακτήρες",
+    "passwordsDoNotMatch": "Οι κωδικοί πρόσβασης δεν ταιριάζουν",
+    "invalidInput": "Παρακαλώ εισάγετε έγκυρα δεδομένα εισόδου",
+    "fieldRequired": "Απαιτείται το {{field}}",
+    "selectOption": "Παρακαλώ επιλέξτε μια επιλογή",
+    "uploadFile": "Μεταφόρτωση αρχείου",
+    "dragAndDrop": "Σύρετε και αποθέστε αρχεία εδώ ή κάντε κλικ για να τα επιλέξετε",
+    "fileUploaded": "Το αρχείο μεταφορτώθηκε με επιτυχία.",
+    "uploadError": "Σφάλμα μεταφόρτωσης αρχείου κατά την αποστολή"
+  },
+  "language": {
+    "english": "αγγλικός",
+    "arabic": "Αραβικά",
+    "hebrew": "Εβραϊκά",
+    "switchTo": "Μετάβαση σε {{γλώσσα}}",
+    "currentLanguage": "Τρέχουσα γλώσσα: {{γλώσσα}}"
+  },
+  "animation": {
+    "title": {
+      "simply": "Απλά",
+      "better": "Καλύτερα",
+      "health": "Υγεία",
+      "period": "."
+    }
+  },
+  "hero": {
+    "subtitle": "Εξατομικευμένες συμβουλές υγείας και ευεξίας 24/7.",
+    "subtitleMobile": "Εξατομικευμένες συμβουλές υγείας μέσω τεχνητής νοημοσύνης 24/7",
+    "poweredBy": "Υποστηρίζεται από Τεχνητή Νοημοσύνη."
+  },
+  "research": {
+    "title": "Έρευνα & Δημοσιεύσεις",
+    "subtitle": "Λύσεις υγειονομικής περίθαλψης με τεχνητή νοημοσύνη βασισμένες σε τεκμήρια",
+    "aiImaging": {
+      "title": "Τεχνητή Νοημοσύνη στη Διαγνωστική Απεικόνιση",
+      "description": "Ολοκληρωμένη ανάλυση εφαρμογών τεχνητής νοημοσύνης στην απεικόνιση υγείας σε ακτινολογία, παθολογία και οφθαλμολογία."
+    },
+    "pathologyAI": {
+      "title": "Βοήθεια με Τεχνητή Νοημοσύνη για Παθολογία",
+      "description": "Εφαρμογές βαθιάς μάθησης στην ψηφιακή παθολογία για την ανίχνευση καρκίνου και τη βελτίωση της διαγνωστικής ακρίβειας."
+    },
+    "dermatologyAI": {
+      "title": "Λύσεις Τεχνητής Νοημοσύνης για Δερματολογία",
+      "description": "Ανίχνευση και διάγνωση δερματικών παθήσεων με τεχνητή νοημοσύνη χρησιμοποιώντας υπολογιστική όραση και μηχανική μάθηση."
+    },
+    "mentalHealthAI": {
+      "title": "Ψυχική Υγεία και Τεχνητή Νοημοσύνη",
+      "description": "Εφαρμογές τεχνητής νοημοσύνης στον έλεγχο, τη διάγνωση και την υποστήριξη θεραπείας ψυχικής υγείας."
+    },
+    "accuracyStudies": {
+      "title": "Μελέτες Ακρίβειας Τεχνητής Νοημοσύνης",
+      "description": "Κλινική επικύρωση και μετρήσεις απόδοσης διαγνωστικών συστημάτων τεχνητής νοημοσύνης σε πραγματικά περιβάλλοντα υγειονομικής περίθαλψης."
+    }
+  },
+  "whitepapers": {
+    "downloadPdf": "Λήψη PDF",
+    "generating": "Δημιουργία...",
+    "abstract": "Περίληψη",
+    "introduction": "Εισαγωγή",
+    "methods": "Μέθοδοι/Τεχνολογίες",
+    "results": "Αποτελέσματα",
+    "discussion": "Συζήτηση",
+    "conclusion": "Σύναψη",
+    "references": "Αναφορές",
+    "authors": "Συγγραφείς",
+    "email": "E-mail",
+    "organization": "Οργάνωση"
+  },
+  "imageProcessing": {
+    "preset": "Προεπιλογή",
+    "process": "Διαδικασία",
+    "revert": "Επαναστρέφω",
+    "applyPreset": "Εφαρμογή προεπιλογής στην εικόνα σε εστίαση",
+    "revertFocus": "Επαναεστίαση στην αρχική εικόνα"
+  },
+  "alt": {
+    "logo": "Λογότυπο VirtualMD.app",
+    "logoSmall": "Μικρό λογότυπο MindScript",
+    "integratedApproach": "Ολοκληρωμένη προσέγγιση ευεξίας",
+    "userProfile": "Προφίλ χρήστη",
+    "aiDoctor": "Η ειδικός υγείας της τεχνητής νοημοσύνης Κάρολ",
+    "aiAssistant": "Βοηθός Τεχνητής Νοημοσύνης",
+    "backgroundImage": "Όμορφη εικόνα φόντου",
+    "home": "Αρχική σελίδα MindScript",
+    "processed": "Επεξεργασμένη εικόνα",
+    "zoomPreview": "Προεπισκόπηση ζουμ εικόνας"
+  },
+  "aria": {
+    "scrollDown": "Κάντε κύλιση προς τα κάτω",
+    "scrollUp": "Κύλιση προς τα πάνω",
+    "openMenu": "Άνοιγμα μενού",
+    "togglePassword": "Εναλλαγή ορατότητας κωδικού πρόσβασης",
+    "chooseLanguage": "Επιλέξτε γλώσσα",
+    "goHome": "Μετάβαση στην αρχική σελίδα",
+    "remove": "Αφαιρώ",
+    "edit": "Εκδίδω",
+    "delete": "Διαγράφω",
+    "save": "Εκτός",
+    "cancel": "Ματαίωση",
+    "breadcrumb": "Ποιότητα πλοήγησης",
+    "conversationChoice": "Επιλογή συνομιλίας",
+    "personaChoice": "Επιλογή προσώπου",
+    "panel": "Πίνακας",
+    "summary": "Περίληψη",
+    "differentialOpinion": "Διαφορετική γνώμη",
+    "transcript": "Αντίγραφο",
+    "encyclopedia": "Εγκυκλοπαιδεία",
+    "endConversation": "Τερματισμός συνομιλίας",
+    "startChat": "Έναρξη συνομιλίας με την ομάδα",
+    "configureChat": "Ρύθμιση παραμέτρων νέας συνομιλίας",
+    "savedConsultations": "Αποθηκευμένες διαβουλεύσεις",
+    "myProfile": "Το προφίλ μου"
+  },
+  "researchPage": {
+    "title": "Έρευνα & Δημοσιεύσεις",
+    "healthAdvisory": {
+      "title": "Συμβουλευτική για την υγεία",
+      "description": "Σημαντικές πληροφορίες για την υγεία και την ασφάλεια",
+      "button": "Δείτε την ειδοποίηση"
+    },
+    "imagingAI": {
+      "title": "Τεχνητή Νοημοσύνη στη Διαγνωστική Απεικόνιση",
+      "description": "Εφαρμογές Τεχνητής Νοημοσύνης στην απεικόνιση υγείας σε ακτινολογία, παθολογία και οφθαλμολογία",
+      "button": "Διαβάστε περισσότερα"
+    },
+    "pathologyAI": {
+      "title": "Παθολογία με υποβοήθηση τεχνητής νοημοσύνης",
+      "description": "Εφαρμογές βαθιάς μάθησης στην ψηφιακή παθολογία για την ανίχνευση καρκίνου και τη διαγνωστική ακρίβεια",
+      "button": "Διαβάστε περισσότερα"
+    },
+    "dermatologyAI": {
+      "title": "Λύσεις Τεχνητής Νοημοσύνης στη Δερματολογία",
+      "description": "Ανίχνευση και διάγνωση δερματικών παθήσεων με τεχνητή νοημοσύνη χρησιμοποιώντας υπολογιστική όραση και μηχανική μάθηση",
+      "button": "Διαβάστε περισσότερα"
+    },
+    "mentalHealthAI": {
+      "title": "Ψυχική Υγεία & Τεχνητή Νοημοσύνη",
+      "description": "Εφαρμογές Τεχνητής Νοημοσύνης στον έλεγχο, τη διάγνωση και τη θεραπευτική υποστήριξη ψυχικής υγείας",
+      "button": "Διαβάστε περισσότερα"
+    },
+    "dataPrivacy": {
+      "title": "Απόρρητο και ασφάλεια δεδομένων",
+      "description": "Προστασία δεδομένων υγειονομικής περίθαλψης, συμμόρφωση με τον HIPAA και διασφαλίσεις απορρήτου",
+      "button": "Διαβάστε περισσότερα"
+    },
+    "aiAccuracy": {
+      "title": "Μελέτες Ακρίβειας Τεχνητής Νοημοσύνης",
+      "description": "Κλινική επικύρωση και μετρήσεις απόδοσης διαγνωστικών συστημάτων τεχνητής νοημοσύνης σε πραγματικά περιβάλλοντα υγειονομικής περίθαλψης",
+      "button": "Διαβάστε περισσότερα"
+    },
+    "aiForLaypeople": {
+      "title": "Τεχνητή Νοημοσύνη για Όλους",
+      "description": "Κατανόηση της Τεχνητής Νοημοσύνης στον τομέα της υγειονομικής περίθαλψης με απλά λόγια - δεν απαιτείται τεχνικό υπόβαθρο",
+      "button": "Διαβάστε περισσότερα"
+    }
+  },
+  "dialogs": {
+    "startWithDefault": "Ξεκινήστε με την Ειδικό Υγείας Κάρολ",
+    "startWithSpecific": "Ξεκινήστε με {{όνομα}}",
+    "longRecording": {},
+    "shortConv": {}
+  },
+  "team": {
+    "myAIHealthTeam": "Η ομάδα υγείας μου για την τεχνητή νοημοσύνη",
+    "addMembersInstruction": "Προσθέστε μέλη της ομάδας κάνοντας κλικ σε μια κάρτα στα δεξιά.",
+    "maxTeamSizeNote": "Μπορείτε να προσθέσετε στην ομάδα σας έως και πέντε συμβούλους Τεχνητής Νοημοσύνης. Μπορείτε να αλλάξετε την ομάδα σας ανά πάσα στιγμή, αλλά όχι κατά τη διάρκεια μιας διαβούλευσης.",
+    "starting": "Εκκίνηση...",
+    "startTeamConsult": "Έναρξη Συμβουλευτικής Ομάδας",
+    "startConsultationWithTeam": "Ξεκινήστε τη διαβούλευση με την ομάδα σας"
+  },
+  "newConversation": {
+    "aileenCarolOnly": "Ειδικός Υγείας Carol Only",
+    "oneOnOne": "Ένας προς έναν",
+    "consultationChoice": {
+      "question": "Με ποιον θα θέλατε να συμβουλευτείτε σήμερα;"
+    },
+    "options": {
+      "allAdvisers": "Όλοι οι Σύμβουλοί μου για την Υγεία στην Τεχνητή Νοημοσύνη",
+      "allAdvisersCarolOnly": "Όλοι οι Σύμβουλοί μου για την Υγεία στην Τεχνητή Νοημοσύνη (μόνο για την Ειδικό Υγείας στην Τεχνητή Νοημοσύνη, Κάρολ)",
+      "chooseSpecific": "Επιλέξτε συγκεκριμένο από τη λίστα μου"
+    },
+    "tooltips": {
+      "noAdvisersSelected": "Δεν έχουν επιλεγεί σύμβουλοι στο προφίλ σας.",
+      "loadingAdvisers": "Φόρτωση των συμβούλων σας...",
+      "noOtherAdvisers": "Δεν υπάρχουν άλλοι σύμβουλοι στη λίστα σας για να διαλέξετε. Προσθέστε περισσότερους στο προφίλ σας."
+    },
+    "errors": {
+      "loadingAdvisers": "Σφάλμα κατά τη φόρτωση δεδομένων συμβούλου."
+    },
+    "buttons": {
+      "cancel": "Ματαίωση",
+      "next": "Επόμενος",
+      "start": "Αρχή"
+    }
+  },
+  "aiAccuracyWhitepaper": {
+    "section1": {},
+    "section2": {
+      "aiSuccess": {},
+      "aiErrors": {},
+      "aiVsHuman": {}
+    },
+    "section3": {
+      "challenges": {}
+    },
+    "section4": {
+      "guidelines": {}
+    },
+    "section5": {}
+  },
+  "imagingAIExplainer": {
+    "whatIsImaging": {
+      "types": {}
+    },
+    "whatIsAI": {},
+    "howAIHelps": {
+      "accuracy": {},
+      "speed": {},
+      "consistency": {}
+    },
+    "challenges": {},
+    "conclusion": {}
+  },
+  "mentalHealthWhitepaper": {
+    "disclaimer": {},
+    "abstract": {},
+    "introduction": {},
+    "methods": {},
+    "results": {
+      "diagnosticSupport": {},
+      "therapeuticApplications": {},
+      "patientMonitoring": {}
+    },
+    "discussion": {},
+    "conclusion": {}
+  },
+  "audio": {},
+  "autoListening": {},
+  "speech": {},
+  "help": {},
+  "upload": {},
+  "fileUpload": {},
+  "input": {},
+  "send": {},
+  "controls": {
+    "aiSpeaker": "Ηχείο Τεχνητής Νοημοσύνης",
+    "cameraUpload": "Κάμερα/Μεταφόρτωση",
+    "status": {
+      "enabled": "Ενεργοποιημένο",
+      "disabled": "Ανάπηρος"
+    }
+  },
+  "welcome": {},
+  "account": {},
+  "participants": {},
+  "mobileChat": {},
+  "sidebar": {
+    "differentialOpinion": "Διαφορετική γνώμη"
+  },
+  "bioPanel": {},
+  "conversations": {},
+  "mobileConsultations": {},
+  "encyclopedia": {},
+  "imageContext": {},
+  "profile": {},
+  "sidebarHeader": {
+    "plusBadge": "+"
+  },
+  "messages": {},
+  "sidebarFooter": {},
+  "summary": {},
+  "teamBuilder": {
+    "steps": {},
+    "alerts": {},
+    "existingTeam": {},
+    "primaryConcerns": {},
+    "healthConditions": {},
+    "urgencySymptoms": {},
+    "medicinePreferences": {},
+    "additionalInfo": {},
+    "aileenCarolIntro": {},
+    "buttons": {},
+    "dialogs": {}
+  },
+  "aileenCarol": {},
+  "transcript": {},
+  "registerPage": {},
+  "legal": {
+    "eligibility": {},
+    "feesAndPayment": {},
+    "termination": {}
+  },
+  "aboutEncyclopediaPage": {},
+  "loginPage": {},
+  "mobileTeamBuilder": {
+    "carolMessages": {},
+    "questionnaire": {},
+    "title": {},
+    "carolGreeting": {}
+  },
+  "mobileNavigation": {},
+  "mobileWelcome": {},
+  "mobileRouter": {},
+  "mobileInput": {},
+  "mobileProfile": {},
+  "clinicianInfoPage": {},
+  "contactPage": {},
+  "dataPrivacyWhitepaper": {
+    "sections": {},
+    "hero": {},
+    "privacyPledge": {
+      "secureInfo": {},
+      "noPersonalUse": {},
+      "neverSell": {},
+      "anonymizedData": {}
+    },
+    "securityLevels": {
+      "accountSecurity": {},
+      "hipaaHistory": {}
+    },
+    "mindscriptSecurity": {},
+    "hipaaConsiderations": {},
+    "userResponsibility": {},
+    "privacyScenarios": {},
+    "conclusion": {}
+  },
+  "encyclopediaPage": {},
+  "evidencePage": {
+    "researchEvidence": {
+      "radiology": {},
+      "pathology": {},
+      "dermatology": {},
+      "mentalHealthResearch": {}
+    },
+    "wellnessInsights": {
+      "personalizedWellness": {},
+      "holisticSignals": {},
+      "proactiveWellbeing": {},
+      "aiEnhancedClarity": {}
+    }
+  },
+  "featuresPage": {
+    "features": {
+      "instantWellnessInsights": {},
+      "holisticWellnessPicture": {},
+      "diverseAIPerspectives": {},
+      "everEvolvingIntelligence": {}
+    }
+  },
+  "healthAdvisoryPage": {
+    "sections": {
+      "consultation": {
+        "emergency": {}
+      },
+      "technology": {},
+      "disclaimer": {
+        "points": {}
+      }
+    }
+  },
+  "medicalImageProcessingPage": {},
+  "mentalHealthInfoPage": {},
+  "nurseInfoPage": {},
+  "patientInfoPage": {},
+  "pharmacistInfoPage": {},
+  "physicianInfoPage": {},
+  "wellnessPathwaysPage": {},
+  "whyVirtualMD": {
+    "sections": {
+      "whyUs": {
+        "points": {
+          "personalTeam": {},
+          "aiNavigator": {},
+          "empoweringChoices": {},
+          "easyToUse": {},
+          "advancedTechnology": {}
+        }
+      },
+      "hero": {},
+      "features": {
+        "points": {
+          "dynamicEnsemble": {},
+          "holisticUnderstanding": {},
+          "rapidAccess": {},
+          "reliableInteractions": {},
+          "insightfulLogs": {}
+        }
+      },
+      "technology": {},
+      "cta": {}
+    }
+  },
+  "yourHealthInYourHandsPage": {
+    "sections": {
+      "uniqueProfile": {},
+      "personalizedGoals": {},
+      "diverseInsights": {},
+      "proactivePartner": {}
+    },
+    "callToAction": {}
+  },
+  "session_complete": "Η συνεδρία ολοκληρώθηκε",
+  "your_free_trial_has_ended": "Η δωρεάν δοκιμή σας έληξε",
+  "united_kingdom:_dial_999_or_11": "Ηνωμένο Βασίλειο: Καλέστε 999 ή 112",
+  "melanoma_and_skin_cancer_detec": "Ανίχνευση μελανώματος και καρκίνου του δέρματος",
+  "process_transactions_and_send_": "Επεξεργασία συναλλαγών και αποστολή σχετικών πληροφοριών, συμπεριλαμβανομένων επιβεβαιώσεων και τιμολογίων (εάν υπάρχουν).",
+  "information_we_collect": "Πληροφορίες που συλλέγουμε",
+  "in_a_medical_emergency:": "Σε περίπτωση επείγοντος ιατρικού περιστατικού:",
+  "in_response_to_legal_process:": "Σε απάντηση στη νομική διαδικασία:",
+  "loading_chat": "Φόρτωση συνομιλίας...",
+  "redirecting": "Ανακατεύθυνση...",
+  "israel:_dial_101_(magen_david_": "Ισραήλ: Καλέστε 101 ()",
+  "unlimited_messages_with_ai_doc": "Απεριόριστα μηνύματα με ειδικούς υγείας με τεχνητή νοημοσύνη",
+  "contact_information": "Στοιχεία επικοινωνίας",
+  "real-world_implementation_and_": "Υλοποίηση σε πραγματικό κόσμο και εφαρμογές για κινητά",
+  "your_access_to_or_use_of_or_in": "Η ΠΡΟΣΒΑΣΗ Ή Η ΧΡΗΣΗ Ή Η ΑΔΥΝΑΜΙΑ ΠΡΟΣΒΑΣΗΣ Ή ΧΡΗΣΗΣ ΤΗΣ ΥΠΗΡΕΣΙΑΣ.",
+  "your_computer_may_temporarily_": "Ο υπολογιστής σας ενδέχεται να αποθηκεύει προσωρινά αντίγραφα τέτοιων υλικών στη μνήμη RAM, σε περίπτωση που έχετε πρόσβαση και προβολή αυτών των υλικών.",
+  "please_select_only_one_special": "Παρακαλούμε επιλέξτε μόνο έναν ειδικό για μια ιδιωτική συμβουλευτική συνεδρία.",
+  "references": "Αναφορές",
+  "business_transfers:": "Μεταβιβάσεις Επιχειρήσεων:",
+  "account_information:": "Πληροφορίες Λογαριασμού:",
+  "provide,_operate,_maintain,_an": "Παροχή, λειτουργία, συντήρηση και βελτίωση της Υπηρεσίας.",
+  "assignment": "Εκχώρηση",
+  "sandymiles@mindspringhealth": "sandymiles@mindspring.health",
+  "ai-generated_content_may_conta": "Το περιεχόμενο που δημιουργείται από τεχνητή νοημοσύνη ενδέχεται να περιέχει σφάλματα ή παραλείψεις παρά τις αυστηρές διαδικασίες επικύρωσης που εφαρμόζουμε.",
+  "display_name": "Εμφανιζόμενο όνομα",
+  "any_content_obtained_from_the_": "ΟΠΟΙΟΔΗΠΟΤΕ ΠΕΡΙΕΧΟΜΕΝΟ ΠΟΥ ΛΑΜΒΑΝΕΤΑΙ ΑΠΟ ΤΗΝ ΥΠΗΡΕΣΙΑ Ή",
+  "you_may_store_files_that_are_a": "Μπορείτε να αποθηκεύσετε αρχεία που αποθηκεύονται αυτόματα στην προσωρινή μνήμη από το πρόγραμμα περιήγησης ιστού σας για σκοπούς βελτίωσης της εμφάνισης.",
+  "start_new_health_consultation": "Έναρξη Νέας Συμβουλευτικής Υγείας",
+  "entire_agreement": "Ολόκληρη η Συμφωνία",
+  "ophthalmology": "Οφθαλμολογία",
+  "not": "ΔΕΝ",
+  "exit_conversation?": "Έξοδος από τη συνομιλία;",
+  "grading_and_classification": "Βαθμολόγηση και Ταξινόμηση",
+  "unauthorized_access,_use,_or_a": "ΜΗ ΕΞΟΥΣΙΟΔΟΤΗΜΕΝΗ ΠΡΟΣΒΑΣΗ, ΧΡΗΣΗ Ή ΤΡΟΠΟΠΟΙΗΣΗ ΤΩΝ ΜΕΤΑΔΟΣΕΩΝ Ή ΤΟΥ ΠΕΡΙΕΧΟΜΕΝΟΥ ΣΑΣ (ΣΥΜΠΕΡΙΛΑΜΒΑΝΟΜΕΝΩΝ ΤΩΝ ΠΑΡΑΒΙΑΣΕΩΝ ΔΕΔΟΜΕΝΩΝ), ΑΚΟΜΑ ΚΑΙ ΑΝ Η MINDSCRIPT ΕΧΕΙ ΕΦΑΡΜΟΣΕΙ ΕΥΛΟΓΑ ΜΕΤΡΑ ΑΣΦΑΛΕΙΑΣ ΟΠΩΣ ΠΕΡΙΓΡΑΦΟΝΤΑΙ ΣΤΟΥΣ ΠΑΡΟΝΤΕΣ ΟΡΟΥΣ ΚΑΙ ΤΗΝ ΠΟΛΙΤΙΚΗ ΑΠΟΡΡΗΤΟΥ.",
+  "checking_server_status": "Έλεγχος κατάστασης διακομιστή...",
+  "not_a_hipaa-compliant_service": "ΔΕΝ ΕΙΝΑΙ ΥΠΗΡΕΣΙΑ ΣΥΜΜΟΡΦΩΜΕΝΗ ΜΕ ΤΟ HIPAA",
+  "radiology": "Ραδιολογία",
+  "united_states:_dial_911": "Ηνωμένες Πολιτείες: Καλέστε το 911",
+  "save_and_review_conversation_h": "Αποθήκευση και έλεγχος ιστορικού συνομιλιών",
+  "abstract": "Περίληψη",
+  "starting_your_consultation": "Έναρξη της συμβουλευτικής σας συνεδρίας...",
+  "digital_pathology_overview": "Επισκόπηση Ψηφιακής Παθολογίας",
+  "reasonable_business_security_p": "εύλογες πρακτικές ασφάλειας επιχειρήσεων εντός των Ηνωμένων Πολιτειών",
+  "loading_transcript": "Φόρτωση μεταγραφής...",
+  "cookies_and_similar_technologi": "Cookies και Παρόμοιες Τεχνολογίες:",
+  "internal_medicine": "Εσωτερική Ευεξία",
+  "no_specialists_currently_in_th": "Δεν υπάρχουν ειδικοί αυτήν τη στιγμή σε αυτήν τη συνομιλία.",
+  "discussion": "Συζήτηση",
+  "updating_team": "Ενημέρωση ομάδας...",
+  "your_privacy_choices": "Οι επιλογές απορρήτου σας",
+  "error:_unknown_active_chat_vie": "Σφάλμα: Άγνωστη ενεργή προβολή συνομιλίας.",
+  "create_more_than_one_account_f": "Δημιουργήστε περισσότερους από έναν λογαριασμούς για τον εαυτό σας.",
+  "improve_the_accuracy,_efficacy": "Βελτιώστε την ακρίβεια, την αποτελεσματικότητα και την ασφάλεια των μοντέλων τεχνητής νοημοσύνης και των λειτουργιών της πλατφόρμας μας χρησιμοποιώντας ανώνυμα και συγκεντρωτικά δεδομένα.",
+  "user_content:": "Περιεχόμενο χρήστη:",
+  "mindscript_does_not_provide_me": "Το MindScript δεν παρέχει ιατρική διάγνωση ή θεραπεία",
+  "communicate_with_you_about_pro": "Να επικοινωνούμε μαζί σας σχετικά με προϊόντα, υπηρεσίες, προσφορές, προωθητικές ενέργειες, ανταμοιβές και εκδηλώσεις που προσφέρονται από την MindScript και άλλους, και να σας παρέχουμε νέα και πληροφορίες που πιστεύουμε ότι θα σας ενδιαφέρουν (με την επιφύλαξη των δικαιωμάτων εξαίρεσης).",
+  "aggregated_or_de-identified_da": "Συγκεντρωτικά ή ανώνυμα δεδομένα:",
+  "canada:_dial_911": "Καναδάς: Καλέστε το 911",
+  "retry": "Δοκιμάζω πάλι",
+  "other_locations:_contact_your_": "Άλλες τοποθεσίες: Επικοινωνήστε αμέσως με τις τοπικές υπηρεσίες έκτακτης ανάγκης",
+  "ron_rubin,_phd_and_sandy_miles": "Ρον Ρούμπιν, PhD και Σάντι Μάιλς",
+  "australia:_dial_000_or_112": "Αυστραλία: Καλέστε 000 ή 112",
+  "data_deletion:": "Διαγραφή δεδομένων:",
+  "we_do_not_guarantee_the_absolu": "ΔΕΝ ΕΓΓΥΟΥΜΑΣΤΕ ΤΗΝ ΑΠΟΛΥΤΗ ΑΣΦΑΛΕΙΑ ΤΩΝ ΠΛΗΡΟΦΟΡΙΩΝ ΣΑΣ",
+  "send_technical_notices,_update": "Αποστολή τεχνικών ειδοποιήσεων, ενημερώσεων, ειδοποιήσεων ασφαλείας, καθώς και μηνυμάτων υποστήριξης και διαχείρισης.",
+  "consultation_summary": "Σύνοψη Διαβούλευσης",
+  "waiver": "Παραίτηση",
+  "access_to_all_medical_specialt": "Πρόσβαση σε όλες τις ειδικότητες υγείας",
+  "no_profile_data_available": "Δεν υπάρχουν διαθέσιμα δεδομένα προφίλ.",
+  "no_summary_available": "Δεν υπάρχει διαθέσιμη περίληψη.",
+  "test_app_-_mindscript": "Εφαρμογή δοκιμής - MindScript",
+  "respond_to_your_comments,_ques": "Απαντήστε στα σχόλια, τις ερωτήσεις και τα αιτήματά σας και παρέχετε εξυπηρέτηση πελατών.",
+  "not_hipaa_compliant": "ΔΕΝ συμμορφώνεται με τον HIPAA",
+  "force_majeure": "Ανώτερη βία",
+  "you_may_print_or_download_one_": "Μπορείτε να εκτυπώσετε ή να κατεβάσετε ένα αντίγραφο από έναν εύλογο αριθμό σελίδων του Ιστότοπου για προσωπική σας, μη εμπορική ενημερωτική χρήση και όχι για περαιτέρω αναπαραγωγή, δημοσίευση ή διανομή.",
+  "dr_aileen_carol": "Ειδικός Υγείας Aileen Carol",
+  "family_medicine": "Οικογενειακή Ευεξία",
+  "headings": "Επικεφαλίδες",
+  "note_on_ai_aileencarol's_particip": "Σημείωση σχετικά με τη συμμετοχή της Carol, εμπειρογνώμονα υγείας σε θέματα τεχνητής νοημοσύνης:",
+  "ronrubin@mindscripthealth": "ronrubin@virtualmd.app",
+  "share_your_account_credentials": "Κοινοποιήστε τα διαπιστευτήρια του λογαριασμού σας ή επιτρέψτε σε άλλους να έχουν πρόσβαση στον λογαριασμό σας (εκτός από τις περιπτώσεις που επιτρέπεται ρητά για εταιρικούς λογαριασμούς).",
+  "email_cannot_be_changed": "Η αλλαγή του email δεν είναι δυνατή.",
+  "your_unique_medical_history,_c": "Το μοναδικό σας ιστορικό υγείας, οι παθήσεις και οι περιστάσεις απαιτούν επαγγελματική αξιολόγηση.",
+  "changes_to_these_terms_and_pol": "Αλλαγές στους παρόντες Όρους και την Πολιτική",
+  "other_ai_specialists": "Άλλοι ειδικοί τεχνητής νοημοσύνης",
+  "full_name": "Ονοματεπώνυμο",
+  "governing_law_and_dispute_reso": "Εφαρμοστέο Δίκαιο και Επίλυση Διαφορών",
+  "loading…": "Φόρτωση…",
+  "personalized_health_insights": "Εξατομικευμένες πληροφορίες για την υγεία",
+  "gastroenterology": "Γαστρεντερολογία",
+  "use_of_the_service_by_children": "Απαγορεύεται η χρήση της Υπηρεσίας από παιδιά.",
+  "introduction": "Εισαγωγή",
+  "use_another_user's_account_wit": "Χρήση λογαριασμού άλλου χρήστη χωρίς άδεια.",
+  "if_you_can_see_this,_react_is_": "Αν μπορείτε να το δείτε αυτό, τότε το React λειτουργεί!",
+  "ronrubin@mindspringhealth": "ronrubin@mindspring.health",
+  "children's_privacy": "Ιδιωτικότητα Παιδιών",
+  "provide_false_or_misleading_in": "Παροχή ψευδών ή παραπλανητικών πληροφοριών κατά την εγγραφή ή στο προφίλ του λογαριασμού σας.",
+  "talk_to_a_specialist": "Μιλήστε με έναν ειδικό",
+  "cannot": "ΔΕΝ ΜΠΟΡΕΙ",
+  "how_we_use_information": "Πώς χρησιμοποιούμε τις πληροφορίες",
+  "results": "Αποτελέσματα",
+  "loading_participants": "Φόρτωση συμμετεχόντων...",
+  "sandymiles@mindscripthealth": "sandymiles@virtualmd.app",
+  "this_feature_is_coming_soon": "Αυτή η λειτουργία θα είναι σύντομα διαθέσιμη!",
+  "start_or_continue_conversation": "Έναρξη ή Συνέχιση Συνομιλίας",
+  "international_data_transfers": "Διεθνείς Μεταφορές Δεδομένων",
+  "loading_bio": "Φόρτωση βιογραφικού...",
+  "termination": "Λήξη",
+  "no_image_active": "Δεν υπάρχει ενεργή εικόνα.",
+  "no_ai_health_advisers_selected": "Δεν έχουν επιλεγεί Σύμβουλοι Υγείας Τεχνητής Νοημοσύνης. Μπορείτε να διαχειριστείτε τους συμβούλους σας στο προφίλ σας.",
+  "dr_daniel_garcia": "Ειδικός Υγείας Ντάνιελ Γκαρσία",
+  "no_other_specialists_available": "Δεν υπάρχουν άλλοι ειδικοί διαθέσιμοι για προσθήκη.",
+  "carry_out_any_other_purpose_de": "Εκτελέστε οποιονδήποτε άλλο σκοπό που σας έχει περιγραφεί κατά τη στιγμή της συλλογής των πληροφοριών.",
+  "data_retention": "Διατήρηση Δεδομένων",
+  "informational_and_educational_": "ΜΟΝΟ ΓΙΑ ΕΝΗΜΕΡΩΤΙΚΟΥΣ ΚΑΙ ΕΚΠΑΙΔΕΥΤΙΚΟΥΣ ΣΚΟΠΟΥΣ",
+  "miscellaneous": "Ανάμικτος",
+  "non-cancerous_skin_condition_c": "Ταξινόμηση μη καρκινικών δερματικών παθήσεων",
+  "pathology": "Παθολογία",
+  "promotional_communications:": "Προωθητικές Επικοινωνίες:",
+  "info@mindscripthealth": "info@virtualmd.app",
+  "methods/technologies": "Μέθοδοι/Τεχνολογίες",
+  "how_we_share_information": "Πώς Κοινοποιούμε Πληροφορίες",
+  "loading_profile": "Φόρτωση προφίλ...",
+  "personalize_and_improve_the_se": "Εξατομικεύστε και βελτιώστε την Υπηρεσία και παρέχετε περιεχόμενο ή λειτουργίες που ταιριάζουν με τα προφίλ ή τα ενδιαφέροντα των χρηστών.",
+  "with_vendors_and_service_provi": "Με Προμηθευτές και Παρόχους Υπηρεσιών:",
+  "health_information_may_become_": "Οι πληροφορίες για την υγεία ενδέχεται να καταστούν παρωχημένες καθώς εξελίσσονται οι γνώσεις για την υγεία",
+  "with_whom_would_you_like_to_co": "Με ποιον θα θέλατε να συμβουλευτείτε σήμερα;",
+  "mindscript_content:": "Περιεχόμενο MindScript:",
+  "cookies:": "Μπισκότα:",
+  "detect,_investigate,_and_preve": "Εντοπισμός, διερεύνηση και πρόληψη δόλιων συναλλαγών και άλλων παράνομων δραστηριοτήτων και προστασία των δικαιωμάτων και της περιουσίας της MindScript και άλλων.",
+  "medical_advice_requires_person": "Οι συμβουλές υγείας απαιτούν εξατομικευμένη αξιολόγηση από αδειοδοτημένους παρόχους υγειονομικής περίθαλψης.",
+  "create_an_account_for_anyone_o": "Δημιουργήστε λογαριασμό για οποιονδήποτε άλλον εκτός από εσάς χωρίς άδεια.",
+  "options": "Επιλογές",
+  "cannot_and_will_not_sue_or_hol": "ΔΕΝ ΜΠΟΡΕΙ ΚΑΙ ΔΕΝ ΘΑ ΥΠΟΒΑΛΕΙ ΜΗΝΥΣΗ Ή ΘΕΣΗ ΤΗΣ MINDSCRIPT TECHNOLOGIES, LLC, ΤΩΝ ΣΥΝΔΕΔΕΜΕΝΩΝ ΕΤΑΙΡΕΙΩΝ ΤΗΣ, ΤΩΝ ΣΤΕΛΕΧΩΝ, ΤΩΝ ΔΙΕΥΘΥΝΤΩΝ, ΤΩΝ ΥΠΑΛΛΗΛΩΝ, ΤΩΝ ΑΝΤΙΠΡΟΣΩΠΩΝ Ή ΤΩΝ ΑΔΕΙΟΔΟΤΩΝ ΤΗΣ ΕΥΘΥΝΩΝ",
+  "with_your_consent:": "Με τη συγκατάθεσή σας:",
+  "add_specialists_to_your_team": "προσθέστε ειδικούς στην ομάδα σας",
+  "usage_information:": "Πληροφορίες Χρήσης:",
+  "any_conduct_or_content_of_any_": "ΟΠΟΙΑΔΗΠΟΤΕ ΣΥΜΠΕΡΙΦΟΡΑ Ή ΠΕΡΙΕΧΟΜΕΝΟ ΟΠΟΙΟΥΔΗΠΟΤΕ ΤΡΙΤΟΥ ΣΤΗΝ ΥΠΗΡΕΣΙΑ, ΣΥΜΠΕΡΙΛΑΜΒΑΝΟΜΕΝΩΝ, ΕΝΔΕΙΚΤΙΚΑ, ΟΠΟΙΑΣΔΗΠΟΤΕ ΔΥΣΦΗΜΙΣΤΙΚΗΣ, ΠΡΟΣΒΛΗΤΙΚΗΣ Ή ΠΑΡΑΝΟΜΗΣ ΣΥΜΠΕΡΙΦΟΡΑΣ ΑΛΛΩΝ ΧΡΗΣΤΩΝ Ή ΤΡΙΤΩΝ.",
+  "do_not_meet_the_specific_admin": "δεν πληρούν τις συγκεκριμένες διοικητικές, φυσικές και τεχνικές απαιτήσεις προστασίας που επιβάλλονται από τον Κανόνα Ασφαλείας HIPAA για τον χειρισμό PHI",
+  "legal@mindscripthealth": "legal@virtualmd.app",
+  "cancel": "Ματαίωση",
+  "conclusion": "Σύναψη",
+  "professional_health_insights_a": "Επαγγελματικές γνώσεις και καθοδήγηση για την υγεία",
+  "cancer_detection": "Ανίχνευση καρκίνου",
+  "your_specialist_team_is_empty_": "Η ομάδα ειδικών σας είναι κενή. Προσθέστε ειδικούς παρακάτω.",
+  "workflow_optimization": "Βελτιστοποίηση ροής εργασίας",
+  "select_ai_specialists": "Επιλεγμένοι ειδικοί τεχνητής νοημοσύνης",
+  "monitor_and_analyze_trends,_us": "Παρακολουθούμε και αναλύουμε τάσεις, χρήση και δραστηριότητες σε σχέση με την Υπηρεσία μας.",
+  "severability": "Διαχωρισμός",
+  "access_to_cardiology_and_neuro": "Πρόσβαση σε ειδικούς καρδιολόγους και νευρολόγους",
+  "searchLanguages": "Αναζήτηση γλωσσών...",
+  "noLanguagesFound": "Δεν βρέθηκαν γλώσσες",
+  "you": "Εσείς",
+  "manageTeam": {
+    "title": "Διαχείριση της ομάδας υγείας τεχνητής νοημοσύνης μου (μέγιστος αριθμός {{maxTeamMembers}} ειδικών)",
+    "currentTeamCount": "Η τρέχουσα ομάδα σας ({{current}}/{{max}})",
+    "updatingTeam": "Ενημέρωση ομάδας...",
+    "coordinatorLabel": "(Συντονιστής)",
+    "alwaysIncluded": "Πάντα συμπεριλαμβανόμενο",
+    "specialistFallback": "Ειδικός",
+    "emptyTeamMessage": "Η ομάδα ειδικών σας είναι κενή. Προσθέστε ειδικούς παρακάτω.",
+    "teamFullMessage": "Η ομάδα σας είναι πλήρης (μέγιστος αριθμός {{maxTeamMembers}} ειδικών). Παρακαλούμε αφαιρέστε ένα μέλος εάν θέλετε να προσθέσετε έναν διαφορετικό ειδικό.",
+    "otherSpecialistsTitle": "Άλλοι ειδικοί τεχνητής νοημοσύνης",
+    "addToTeamTooltip": "Προσθήκη στην ομάδα",
+    "teamFullTooltip": "Η ομάδα είναι πλήρης",
+    "systemSpecialistFallback": "Ειδικός Συστημάτων",
+    "noSpecialistsAvailable": "Δεν υπάρχουν άλλοι ειδικοί διαθέσιμοι για προσθήκη."
+  },
+  "personas": {
+    "defaultSpecialist": "Ειδικός Τεχνητής Νοημοσύνης"
+  },
+  "personaList": {
+    "noSpecialistsFound": "Δεν βρέθηκαν ειδικοί τεχνητής νοημοσύνης."
+  },
+  "guest": {
+    "user": "Επισκέπτης",
+    "userObject": {
+      "displayName": "Επισκέπτης",
+      "email": "guest@virtualmd.app"
+    },
+    "registration": {
+      "prompt": "Εγγραφείτε για πλήρη πρόσβαση στην ολοκληρωμένη ομάδα υγείας της Τεχνητής Νοημοσύνης, στο ιστορικό συνομιλιών και στις προηγμένες λειτουργίες.",
+      "dialogTitle": "Οι εγγεγραμμένοι χρήστες έχουν πρόσβαση στο {{specialistName}}",
+      "dialogDescription": "Ο/Η {{specialistName}} είναι μέλος της ολοκληρωμένης ομάδας εικονικής υγείας μας.",
+      "benefitsTitle": "Με έναν λογαριασμό VirtualMD.app, θα έχετε:",
+      "benefits": {
+        "access": "Πρόσβαση σε πάνω από 60 εξειδικευμένους συμβούλους υγείας στον τομέα της Τεχνητής Νοημοσύνης",
+        "personalized": "Εξατομικευμένες συμβουλές υγείας",
+        "saveConversations": "Αποθήκευση και συνέχιση συνομιλιών",
+        "uploadImages": "Ανεβάστε εικόνες ή τραβήξτε τες απευθείας από τον υπολογιστή/τη φωτογραφική μηχανή σας",
+        "customTeam": "Δημιουργήστε τη δική σας προσαρμοσμένη ομάδα υγείας",
+        "availability": "Διαθεσιμότητα 24/7 για ερωτήσεις υγείας"
+      },
+      "buttons": {
+        "maybeLater": "Ίσως αργότερα",
+        "registerNow": "Εγγραφείτε τώρα"
+      }
+    },
+    "registrationRequired": "Απαιτείται εγγραφή",
+    "profileRegistrationRequired": "Προφίλ χρήστη: απαιτείται εγγραφή",
+    "landing": {
+      "title": "Ζήστε την εμπειρία της συμβουλευτικής για την υγεία μέσω τεχνητής νοημοσύνης",
+      "subtitle": "Λάβετε άμεσα πληροφορίες για την υγεία από τους ειδικούς υγείας μας στην Τεχνητή Νοημοσύνη - εντελώς δωρεάν, δεν απαιτείται εγγραφή, χωρίς να απαιτείται εγγραφή.",
+      "whatBringsYou": "Τι σας φέρνει εδώ σήμερα;",
+      "selectConcern": "Επιλέξτε μια κοινή ανησυχία ή περιγράψτε τη δική σας",
+      "customConcernPlaceholder": "Ή περιγράψτε την ανησυχία σας για την υγεία με δικά σας λόγια...",
+      "startConsultation": "Ξεκινήστε Δωρεάν Συμβουλευτική",
+      "experienceIncludes": "Η δωρεάν εμπειρία επισκέπτη περιλαμβάνει:",
+      "includes": {
+        "messages": "10 μηνύματα με ειδικούς υγείας στην Τεχνητή Νοημοσύνη",
+        "time": "15 λεπτά χρόνου διαβούλευσης",
+        "insights": "Επαγγελματικές γνώσεις και καθοδήγηση για την υγεία"
+      },
+      "personas": {
+        "defaultSpecialist": "Ειδικός Τεχνητής Νοημοσύνης",
+        "aileen": {
+          "name": "Ειδικός Υγείας Aileen Carol",
+          "specialty": "Οικογενειακή Ευεξία"
+        },
+        "daniel": {
+          "name": "Ειδικός Υγείας Ντάνιελ Γκαρσία",
+          "specialty": "Εσωτερική Ευεξία"
+        }
+      }
+    },
+    "chat": {
+      "header": "Συμβουλευτική για την υγεία με τεχνητή νοημοσύνη",
+      "messagesLeft": "{{count}} μηνύματα έχουν απομείνει",
+      "timeLeft": "{{time}} απομένουν",
+      "startingConsultation": "Η συμβουλευτική σας συνάντηση ξεκινά. Ένας ειδικός στον τομέα της τεχνητής νοημοσύνης θα σας απαντήσει σύντομα.",
+      "aiTyping": "Ο ειδικός στην Τεχνητή Νοημοσύνη πληκτρολογεί...",
+      "inputPlaceholder": "Περιγράψτε τα συμπτώματά σας ή κάντε μια ερώτηση..."
+    },
+    "expired": {
+      "title": "Η διαβούλευση ολοκληρώθηκε",
+      "subtitle": "Έχετε βιώσει τη δύναμη της συμβουλευτικής για την υγεία σε θέματα Τεχνητής Νοημοσύνης",
+      "messagesUsed": "Χρησιμοποιήσατε {{used}} από {{max}} μηνύματα",
+      "continuePrompt": "Θέλετε να συνεχίσετε με απεριόριστη πρόσβαση;",
+      "createAccount": "Δημιουργήστε δωρεάν λογαριασμό",
+      "signIn": "Σύνδεση"
+    },
+    "errors": {
+      "startFailed": "Δεν είναι δυνατή η έναρξη της διαβούλευσης. Δοκιμάστε ξανά.",
+      "connectionLost": "Η σύνδεση χάθηκε. Ανανεώστε τη σελίδα.",
+      "sendFailed": "Αποτυχία αποστολής μηνύματος. Δοκιμάστε ξανά."
+    },
+    "profile": {
+      "age": "25",
+      "gender": "Θηλυκός",
+      "bloodType": "Α+",
+      "height": "1,75 μ.",
+      "weight": "130 λίβρες",
+      "conditions": "Αναιμία από ανεπάρκεια σιδήρου, μέτρια κατάθλιψη",
+      "medications": "Θειικός σίδηρος 325 mg ημερησίως, σετραλίνη 50 mg ημερησίως",
+      "allergies": "Κανένα γνωστό",
+      "healthInfo": "Τους τελευταίους 6 μήνες αντιμετωπίζω κόπωση και χαμηλή ενέργεια. Ο ειδικός υγείας μου με διέγνωσε με σιδηροπενική αναιμία και παίρνω συμπληρώματα σιδήρου. Επίσης, παλεύω με την κατάθλιψη και ξεκίνησα αντικαταθλιπτικά πριν από 3 μήνες. Αναζητώ συμβουλές για τη διαχείριση και των δύο παθήσεων και τη βελτίωση των συνολικών επιπέδων ενέργειάς μου.",
+      "emergencyContact": "Σάρα Τζόνσον (Αδελφή) - (555) 123-4567"
+    },
+    "experience": {
+      "tryItOut": "Δοκιμάστε το.",
+      "noObligation": "Καμία υποχρέωση.",
+      "subtitle": "Μια μικρή γεύση από το τι μπορεί να κάνει το VirtualMD.app για εσάς."
+    }
+  },
+  "aiPrefix": "Όλα συμπεριλαμβάνονται",
+  "dashboard": "Ταμπλό",
+  "teamRecommendation": {
+    "submission": {
+      "primaryConcernsLabel": "Ποιες είναι οι κύριες ανησυχίες σας για την υγεία σήμερα;",
+      "healthConditionsLabel": "Ποιες παθήσεις ισχύουν για εσάς;"
+    },
+    "defaults": {
+      "noneSpecified": "Δεν έχει καθοριστεί κανένα"
+    }
+  }
+}

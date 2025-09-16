@@ -1,0 +1,715 @@
+{
+  "actions": {
+    "startConsultation": "Anza Ushauri wa Afya",
+    "endConsultation": "Maliza Mashauriano",
+    "returnToConsultation": "Rudi kwa Ushauri",
+    "newConversation": "Anzisha Mazungumzo Mapya",
+    "saveConversation": "Hifadhi Mazungumzo",
+    "deleteConversation": "Futa Mazungumzo",
+    "getSummary": "Pata Muhtasari",
+    "getTranscript": "Pata Nakala",
+    "getDifferentialOpinion": "Pata Maoni Tofauti",
+    "exportChat": "Hamisha Gumzo",
+    "clearChat": "Futa Gumzo"
+  },
+  "audio": {
+    "aiMuted": "AI Imezimwa",
+    "aiUnmuted": "Sauti ya AI Imewashwa",
+    "playbackFailed": "Imeshindwa kucheza sauti",
+    "generationFailed": "Imeshindwa kutoa hotuba"
+  },
+  "sidebar": {
+    "personaList": "Chagua Mtaalamu wako wa Afya",
+    "conversations": "Mazungumzo Yangu",
+    "profile": "Wasifu Wangu",
+    "settings": "Mipangilio",
+    "manageTeam": "Dhibiti Timu",
+    "teamBuilder": "Mjenzi wa Timu ya AI",
+    "encyclopedia": "Encyclopedia",
+    "bio": "Wasifu wa Kitaalamu",
+    "clickForBio": "Bonyeza kwa Bio",
+    "clickToSpeak": "Bofya ili kuzungumza na Mshauri",
+    "summary": "Muhtasari wa Ushauri",
+    "transcript": "Nakala ya Mazungumzo",
+    "imageContext": "Muktadha wa Picha",
+    "newConversation": "Ushauri Mpya"
+  },
+  "tooltips": {
+    "audioOnlyRegistered": "Sauti inapatikana kwa watumiaji waliojiandikisha pekee."
+  },
+  "messages": {
+    "typeMessage": "Andika ujumbe wako hapa...",
+    "send": "Tuma",
+    "thinking": "Kufikiri...",
+    "processing": "Inachakata...",
+    "connecting": "Inaunganisha...",
+    "connected": "Imeunganishwa",
+    "disconnected": "Imetenganishwa",
+    "typing": "{{name}} anaandika...",
+    "messageError": "Imeshindwa kutuma ujumbe",
+    "retryMessage": "Jaribu tena",
+    "requestToSpeak": "Tafadhali niruhusu nizungumze na {{name}}",
+    "messageDeleted": "Ujumbe umefutwa",
+    "systemMessage": "Ujumbe wa mfumo"
+  },
+  "personas": {
+    "defaultName": "Mtaalam wa Afya Aileen Carol",
+    "defaultSpecialty": "Mtaalamu wa Afya",
+    "selectPersona": "Chagua Mtaalamu wa Afya",
+    "noPersonasAvailable": "Hakuna wataalamu wa afya wanaopatikana",
+    "personaDetails": "Maelezo ya Kitaalam",
+    "specialization": "Umaalumu",
+    "experience": "Uzoefu",
+    "education": "Elimu",
+    "certifications": "Vyeti",
+    "languages": "Lugha",
+    "availableNow": "Inapatikana Sasa",
+    "loading": "Inapakia wataalamu..."
+  },
+  "personaSearch": {
+    "placeholder": "Tafuta kwa jina, utaalamu, au eleza dalili zako (k.m., maumivu ya kichwa, wasiwasi)",
+    "selected": "Imechaguliwa",
+    "noResults": "Hakuna washauri waliopatikana wa \"{{query}}\"",
+    "searchSuggestions": "Jaribu kutafuta: maumivu ya kichwa, wasiwasi, maumivu, usingizi, kisukari, nk."
+  },
+  "configurator": {
+    "title": "Anza Ushauri Mpya wa Afya",
+    "subtitle": "Chagua kutoka kwa Timu yako ya Afya ya AI",
+    "changeTeam": "Badilisha Timu",
+    "starting": "Inaanza...",
+    "startConsult": "Anza Ushauri",
+    "emptyTeam": "Timu yako ya Afya ya AI haina kitu",
+    "addSpecialists": "Ongeza wataalamu kwenye timu yako",
+    "noOtherSpecialists": "Hakuna wataalamu wengine katika timu yako. Unaweza kuzungumza na Mtaalam wa Afya wa AI Carol au",
+    "addSpecialistsLink": "ongeza wataalamu kwenye timu yako",
+    "defaultPersona": {
+      "name": "Mtaalam wa Afya wa AI Aileen Carol",
+      "role": "Mshauri wangu wa Msingi wa Afya wa AI"
+    },
+    "carolNote": {
+      "title": "Kumbuka kuhusu Ushiriki wa Mtaalam wa Afya wa AI Carol:",
+      "ruleA": "A. Mtaalamu wa Afya wa AI Carol amejumuishwa ikiwa wataalamu wengine 0 au 2+ wamechaguliwa kutoka kwa timu yako.",
+      "ruleB": "B. AI Mtaalamu wa Afya Carol hajajumuishwa ikiwa ni mtaalamu mwingine 1 pekee aliyechaguliwa kutoka kwa timu yako."
+    }
+  },
+  "conversations": {
+    "noConversations": "Hakuna mazungumzo bado",
+    "untitled": "Mazungumzo Yasiyo na Kichwa",
+    "today": "Leo",
+    "yesterday": "Jana",
+    "thisWeek": "Wiki Hii",
+    "lastWeek": "Wiki Iliyopita",
+    "older": "Mzee",
+    "editTitle": "Badilisha Kichwa",
+    "saveTitle": "Hifadhi Kichwa",
+    "cancelEdit": "Ghairi Kuhariri",
+    "deleteConsultation": "Futa Ushauri",
+    "clickToReturn": "Bofya ili kurudi ili kushauriana",
+    "deleteConfirm": "Je, una uhakika unataka kufuta mazungumzo haya?",
+    "deleteSuccess": "Mazungumzo yamefutwa",
+    "loadingConversations": "Inapakia mazungumzo...",
+    "conversationError": "Hitilafu katika kupakia mazungumzo",
+    "consultationsTitle": "Mashauriano",
+    "lastUpdate": "Sasisho la Mwisho: {{date}}",
+    "consultationDefault": "Ushauri {{id}}",
+    "noConsultationsYet": "Bado hakuna mashauriano.",
+    "noPastConsultations": "Hakuna mashauriano ya awali yaliyopatikana."
+  },
+  "participants": {
+    "noParticipants": "Hakuna washiriki wa kuonyesha.",
+    "inThisConsult": "Katika Ushauri huu wa Mtandaoni:"
+  },
+  "team": {
+    "myTeam": "Timu yangu ya Afya",
+    "addToTeam": "Ongeza kwa Timu",
+    "removeFromTeam": "Ondoa kutoka kwa Timu",
+    "teamFull": "Timu yako imejaa",
+    "maxTeamSize": "Upeo wa ukubwa wa timu umefikiwa ({{max}} washiriki)",
+    "currentTeam": "Wanachama wa Timu ya Sasa",
+    "buildTeam": "Jenga Timu Yako",
+    "teamRecommendations": "Mapendekezo ya Timu ya AI",
+    "acceptRecommendation": "Kubali Pendekezo",
+    "getRecommendations": "Pata Mapendekezo ya AI",
+    "teamBuilder": "Mjenzi wa Timu ya AI",
+    "addTeamMembersInstruction": "Ongeza washiriki wa timu kwa kubofya kadi iliyo upande wa kulia.",
+    "maxTeamSizeNote": "Kiwango cha juu cha washauri watano wa AI kinaweza kuongezwa kwa timu yako. Unaweza kubadilisha timu yako wakati wowote, lakini si wakati wa mashauriano.",
+    "startConsultationWithTeam": "Anza mashauriano na timu yako",
+    "manageTeamTitle": "Dhibiti Timu Yangu ya Afya ya AI (Wataalamu wa Juu {{max}})",
+    "removeSpecialistToUseTeamBuilder": "Tafadhali ondoa angalau mtaalamu mmoja ili kutumia mapendekezo ya ujenzi ya timu ya Mtaalamu wa Afya wa AI Carol",
+    "aileenCarolRecommendTeam": "Pata Mtaalamu wa Afya wa AI Carol apendekeze timu yako ya afya",
+    "teamFullRemoveToUseBuilder": "Timu yako imejaa. Tafadhali ondoa angalau mtaalamu mmoja ili kutumia jengo la timu la AI.",
+    "yourCurrentTeam": "Timu yako ya Sasa ({{current}}/{{max}})",
+    "updatingTeam": "Inasasisha timu...",
+    "coordinator": "Mratibu",
+    "alwaysIncluded": "Imejumuishwa kila wakati",
+    "specialist": "Mtaalamu",
+    "teamEmptyAddBelow": "Timu yako ya wataalamu haina kitu. Ongeza wataalamu hapa chini.",
+    "teamFullRemoveMember": "Timu yako imejaa (Max {{max}} wataalam). Tafadhali ondoa mwanachama ikiwa ungependa kuongeza mtaalamu tofauti.",
+    "addMembersClickCard": "Ongeza washiriki wa timu kwa kubofya kadi katika eneo kuu",
+    "teamLead": "Kiongozi wa Timu",
+    "currentMember": "Mwanachama wa Sasa",
+    "analyzingNeeds": "Inachambua mahitaji yako...",
+    "emergencyDetected": "🚨 Dharura Imegunduliwa",
+    "backToSafety": "Rudi kwa Usalama",
+    "recommendedTeam": "Timu ya Afya Iliyopendekezwa",
+    "completeTeam": "Timu yako Kamili ({{count}} wanachama)",
+    "teamLeadReason": "Mratibu wa afya ya msingi",
+    "keepingMembers": "Wanachama wa Timu ya Sasa (Kuweka)",
+    "newRecommendations": "Mapendekezo Mapya",
+    "aileenCarolReasoning": "Hoja za Mtaalamu wa Afya wa AI Carol:",
+    "noMatchingSpecialists": "Hakuna wataalamu wanaolingana waliopatikana kwa mapendekezo ya AI. Unaweza kujaribu tena au kuunda timu yako mwenyewe.",
+    "medicalDisclaimerTitle": "Ushauri wa Afya na Ustawi:",
+    "medicalDisclaimerText": "Mfumo huu hutoa ushauri na mwongozo wa afya lakini hauwezi kuchukua nafasi ya huduma za afya za kitaalamu. Daima wasiliana na wataalamu wa afya waliohitimu kwa dharura au maswala mazito ya kiafya.",
+    "applyingTeam": "Timu inayotuma maombi...",
+    "acceptTeam": "Kubali Timu Hii",
+    "tryDifferent": "Jaribu Mapendekezo Tofauti",
+    "cancel": "Ghairi",
+    "myVirtualMDTeam": "Timu yangu ya VirtualMD.app",
+    "availableSpecialists": "Wataalamu wa Afya wa AI wanaopatikana",
+    "clickToAddInstruction": "Bofya kwenye kadi ili kuongeza kwenye timu yako ({{current}}/{{max}} imechaguliwa). Wataalamu waliochaguliwa huonyesha beji \"Iliyochaguliwa\".",
+    "teamFullInstruction": "Timu yako imejaa. Ondoa mwanachama ili kuongeza mtaalamu tofauti.",
+    "selected": "Imechaguliwa",
+    "teamFullBadge": "Timu Imejaa",
+    "allSpecialistsAdded": "Wataalamu wote wanaopatikana wameongezwa kwenye timu yako.",
+    "otherSpecialists": "Wataalamu Wengine",
+    "specialistsCount": "{{count}} wataalamu",
+    "startTeamConsult": "Anza Ushauri wa Timu",
+    "starting": "Inaanza...",
+    "myAIHealthTeam": "Timu yangu ya Afya ya AI",
+    "addMembersInstruction": "Ongeza washiriki wa timu kwa kubofya kadi iliyo upande wa kulia."
+  },
+  "specialistCategories": {
+    "diabetesBloodSugar": "Kisukari & Sukari ya Damu",
+    "weightManagement": "Kusimamia Uzito",
+    "mentalHealthStress": "Afya ya Akili & Msongo wa Mawazo",
+    "cancerSupport": "Msaada wa Saratani",
+    "heartHealth": "Afya ya Moyo",
+    "painManagement": "Udhibiti wa Maumivu",
+    "digestiveIssues": "Masuala ya Usagaji chakula",
+    "sleepProblems": "Matatizo ya Usingizi",
+    "skinProblems": "Matatizo ya Ngozi",
+    "womensHealth": "Afya ya Wanawake",
+    "childrensHealth": "Afya ya Watoto",
+    "agingSeniorHealth": "Uzee na Afya ya Wazee",
+    "nutritionDiet": "Lishe na Chakula",
+    "allergiesImmuneSystem": "Mzio na Mfumo wa Kinga",
+    "breathingLungIssues": "Masuala ya Kupumua na Mapafu",
+    "sportsFitnessInjuries": "Majeraha ya Michezo na Siha",
+    "easternAlternativeMedicine": "Ustawi wa Mashariki na Mbadala",
+    "cosmeticBeautyMedicine": "Uzuri na Urembo",
+    "anxietyHelp": "Msaada wa Wasiwasi",
+    "medicationPharmacy": "Dawa & Famasia",
+    "primaryCareGeneralHealth": "Huduma ya Msingi & Afya ya Jumla",
+    "medicalSpecialties": "Utaalam wa Afya na Ustawi"
+  },
+  "dialogs": {
+    "exitConsultation": "Ondoka kwenye Ushauri",
+    "exitMessage": "Je, una uhakika ungependa kuondoka kwenye mashauriano haya?",
+    "saveAndExit": "Hifadhi na Uondoke",
+    "exitWithoutSaving": "Ondoka Bila Kuhifadhi",
+    "cancel": "Ghairi",
+    "confirm": "Thibitisha",
+    "logout": "Ondoka",
+    "logoutMessage": "Kwa sasa uko kwenye mashauriano. Kuondoka kutamaliza. Je, ungependa kufanya nini?",
+    "deleteConversation": "Futa Mazungumzo",
+    "deleteMessage": "Kitendo hiki hakiwezi kutenduliwa. Je, una uhakika?",
+    "summarizeFirst": "Je, ungependa kupata muhtasari kabla ya kuondoka?",
+    "summarizing": "Inazalisha muhtasari...",
+    "summaryGenerated": "Muhtasari umetolewa",
+    "doneAlready": "Je, tayari?",
+    "doneAlreadyMessage": "Tuko hapa wakati wowote unapotuhitaji. Hadi wakati huo, kuwa na afya, kuwa na furaha!",
+    "doneAlreadySignature": "Sisi sote (binadamu na AI) katika VirtualMD.app",
+    "exitConsultationButton": "Ondoka kwenye Ushauri",
+    "editTitle": "Badilisha Kichwa cha Mazungumzo",
+    "conversationTitleLabel": "Kichwa cha Mazungumzo",
+    "save": "Hifadhi",
+    "deleteTitle": "Futa Mazungumzo",
+    "deleteConfirmation": "Je, una uhakika unataka kufuta mazungumzo yenye kichwa \"{{title}}\"?",
+    "delete": "Futa",
+    "multiDeleteTitle": "Futa Ushauri Uliochaguliwa",
+    "multiDeleteConfirmation": "Je, una uhakika unataka kufuta mashauri {{count}} yaliyochaguliwa? Kitendo hiki hakiwezi kutenduliwa.",
+    "deleteSelected": "Futa Uliochaguliwa",
+    "addSpecialistTitle": "Ongeza Mtaalamu kwenye Gumzo",
+    "addSpecialistError": "Haikuweza kupakia washauri wako.",
+    "noAdvisersToAdd": "Washauri wako wote wa Afya wa AI waliochaguliwa tayari wako kwenye gumzo hili, au orodha yako ni tupu (bila kujumuisha washiriki wa sasa).",
+    "longRecording": {
+      "title": "Kurekodi kwa Muda Mrefu Kumesitishwa",
+      "message": "Hatuwezi kurekodi zaidi ya sekunde 30 bila kuituma. Je, ungependa kufanya nini?",
+      "delete": "Futa",
+      "transcribeToText": "Nakili kwa maandishi",
+      "transcribeAndSend": "Nakili na utume"
+    },
+    "finishConsultationTitle": "Je, Ungependa Kumaliza Mashauriano?",
+    "generatingSummary": "Tafadhali subiri tunapotoa muhtasari wa mashauriano yako...",
+    "finishConsultationMessage": "Hii itamaliza kipindi cha gumzo kinachoendelea. Je, una uhakika?",
+    "summarizeAndFinish": "Fupisha & Maliza",
+    "leaveWithoutSummarizing": "Ondoka bila Kufupisha",
+    "summarize": "Fanya muhtasari",
+    "moreInfoTitle": "Taarifa Zaidi Zinahitajika",
+    "moreInfoMessage": "Mazungumzo haya ni mafupi sana kuweza kutoa muhtasari wa maana au maoni tofauti. Tafadhali endeleza mjadala hadi uwe na angalau maneno 150 ya maudhui ya mazungumzo.",
+    "ok": "Sawa",
+    "deleteSuccessTitle": "Mazungumzo Yamefutwa",
+    "deleteSuccessMessage": "Mazungumzo yako yamefaulu kufutwa.",
+    "logoutTitle": "Tunasikitika kukuona ukienda",
+    "aiHealthSpecialist": "Mtaalamu wako wa msingi wa AI ya afya na ustawi",
+    "aileenCarol": "Mtaalam wa Afya wa AI Carol",
+    "aiHealthAssistant": "Msaidizi wa Afya wa AI",
+    "deleteAndExit": "Futa na Uondoke",
+    "summaryTitle": "Muhtasari wa Ushauri",
+    "consultationTitle": "Ushauri wa VirtualMD: {{title}}",
+    "summaryUnavailable": "Muhtasari unatolewa au haupatikani.",
+    "print": "Chapisha",
+    "copy": "Nakili",
+    "close": "Funga",
+    "shortConv": {
+      "title": "Mazungumzo Yameisha",
+      "messageLine1": "Mazungumzo yameisha. Ni fupi sana kuhifadhi, lakini njoo tena hivi karibuni.",
+      "messageLine2": "Hadi wakati huo, kuwa na afya, kuwa na furaha."
+    }
+  },
+  "errors": {
+    "connectionError": "Hitilafu ya muunganisho. Tafadhali angalia muunganisho wako wa intaneti.",
+    "serverError": "Hitilafu ya seva. Tafadhali jaribu tena baadaye.",
+    "authenticationError": "Uthibitishaji umeshindwa. Tafadhali ingia tena.",
+    "messageFailedToSend": "Ujumbe umeshindwa kutumwa",
+    "loadingFailed": "Imeshindwa kupakia maudhui",
+    "personaUnavailable": "Mtaalamu huyu wa afya hapatikani kwa sasa",
+    "conversationNotFound": "Mazungumzo hayajapatikana",
+    "permissionDenied": "Huna ruhusa ya kufikia mazungumzo haya",
+    "failedToLogin": "Imeshindwa kuingia.",
+    "failedToRegister": "Imeshindwa kujiandikisha.",
+    "failedToLogout": "Imeshindwa kuondoka.",
+    "emailAlreadyTaken": "Barua pepe hii tayari imechukuliwa. Tafadhali jaribu nyingine au ingia.",
+    "anErrorOccurred": "Hitilafu imetokea.",
+    "selectImageFile": "Tafadhali chagua faili ya picha.",
+    "failedToSaveProfile": "Imeshindwa kuhifadhi wasifu. Tafadhali jaribu tena.",
+    "teamIsFull": "Timu yako imejaa (Max {{max}} wataalam). Tafadhali ondoa mwanachama ikiwa ungependa kuongeza mtaalamu tofauti.",
+    "selectOneSpecialist": "Tafadhali chagua mtaalamu mmoja tu kwa mashauriano ya kibinafsi.",
+    "contactErrorMessage": "Hitilafu ilitokea wakati wa kutuma ujumbe wako. Tafadhali jaribu tena baadaye au",
+    "contactDirectlyAt": "Unaweza pia kututumia barua pepe moja kwa moja kwa info@virtualmd.app"
+  },
+  "welcome": {
+    "title": "Karibu kwenye VirtualMD.app",
+    "subtitle": "Anza mashauriano yako ya afya ya kibinafsi",
+    "description": "Chagua kutoka kwa timu yetu ya washauri wa afya wanaoendeshwa na AI ili upate maarifa ya kibinafsi ya afya na mwongozo.",
+    "getStarted": "Anza",
+    "chooseSpecialist": "Chagua Mtaalamu wako",
+    "startWithTeam": "Anza na Timu Yangu",
+    "howItWorks": "Jinsi Inavyofanya Kazi",
+    "aileenCarolName": "Mtaalam wa Afya wa AI Aileen Carol",
+    "danielGarciaName": "Mtaalam wa Afya wa AI Daniel Garcia",
+    "greeting": "Hujambo, {{username}}. Ni vizuri kukuona! Timu yako ya VirtualMD iko tayari 24/7 kukusaidia...",
+    "startTeamConsultation": "Anza Ushauri wa Timu",
+    "configureNewChat": "Sanidi Gumzo Mpya",
+    "encyclopedia": "VirtualMD.app Encyclopedia",
+    "myAIHealthTeam": "Timu yangu ya Afya ya AI",
+    "aileenCarolIntro": "Hujambo, mimi ni Mtaalamu wa Afya wa AI Aileen Carol. Nikusaidieje leo?",
+    "persona_welcome_message": "Hujambo, niko hapa kukusaidia kwa mahitaji yako ya kiafya na kiafya. Je, ninaweza kukusaidiaje leo?"
+  },
+  "imageUpload": {
+    "dragAndDrop": "Buruta na udondoshe picha hapa, au bofya ili kuchagua",
+    "supportedFormats": "Miundo inayotumika: JPG, PNG, GIF",
+    "maxSize": "Ukubwa wa juu zaidi: MB {{size}}",
+    "uploadSuccess": "Picha imepakiwa",
+    "uploadError": "Imeshindwa kupakia picha",
+    "processing": "Inachakata picha...",
+    "removeImage": "Ondoa picha",
+    "addToContext": "Ongeza kwa muktadha wa mazungumzo"
+  },
+  "voice": {
+    "startRecording": "Anza kurekodi sauti",
+    "stopRecording": "Acha kurekodi",
+    "recording": "Inarekodi...",
+    "processingSpeech": "Inachakata hotuba...",
+    "speechToText": "Inabadilisha hotuba kuwa maandishi...",
+    "noSpeechDetected": "Hakuna hotuba iliyotambuliwa",
+    "microphoneError": "Hitilafu ya ufikiaji wa maikrofoni",
+    "unsupportedBrowser": "Rekodi ya sauti haitumiki katika kivinjari hiki"
+  },
+  "summary": {
+    "title": "Muhtasari wa Ushauri",
+    "keyPoints": "Mambo Muhimu",
+    "recommendations": "Mapendekezo",
+    "nextSteps": "Hatua Zinazofuata",
+    "followUp": "Ufuatiliaji",
+    "generating": "Inazalisha muhtasari...",
+    "noSummary": "Hakuna muhtasari unaopatikana",
+    "summaryError": "Imeshindwa kutoa muhtasari",
+    "downloadSummary": "Pakua Muhtasari",
+    "emailSummary": "Muhtasari wa Barua Pepe",
+    "return": "Rudi",
+    "transcript": "Nakala",
+    "print": "Chapisha",
+    "copy": "Nakili",
+    "copyError": "Imeshindwa kunakili",
+    "notGenerated": "Muhtasari haukuweza kuzalishwa."
+  },
+  "status": {
+    "online": "Mtandaoni",
+    "offline": "Nje ya mtandao",
+    "away": "Mbali",
+    "busy": "Shughuli",
+    "available": "Inapatikana",
+    "unavailable": "Haipatikani",
+    "lastSeen": "Alionekana mwisho {{time}}"
+  },
+  "mobileTeamBuilder": {
+    "title": {
+      "yourTeam": "Timu yako",
+      "teamBuilder": "Mjenzi wa Timu ya AI"
+    },
+    "carolMessages": {
+      "teamFull": "{{jina}}, timu yako imejaa! Unaweza kuanza mashauriano na timu yako ya sasa au uwaondoe baadhi ya wanachama ili kupata mapendekezo mapya.",
+      "helpBuild": "{{jina}}, ningependa kukusaidia kuunda timu yako bora ya afya! Niambie nini kinakuleta hapa leo."
+    },
+    "carolGreeting": {
+      "teamFull": "Hujambo {{jina}}! Timu yako imejaa.",
+      "helpBuild": "Hujambo {{jina}}! Nitakusaidia kuunda timu yako bora ya afya."
+    },
+    "currentTeam": "Timu ya Sasa ({{sasa}}/{{max}})",
+    "aiSpecialist": "AI {{jina}}",
+    "specialist": "Mtaalamu",
+    "startConversation": "Anza Mazungumzo na Timu Hii",
+    "tellUsWhy": "Tuambie kwa nini uko hapa leo ili tuweze kuunda timu yako bora ya afya.",
+    "placeholder": "Eleza wasiwasi wako wa kiafya, dalili, au kile ambacho ungependa usaidizi...",
+    "questionnaire": {
+      "question": "Nini kinakuleta hapa leo?",
+      "keepExisting": "Je, ungependa kuhifadhi washiriki wa timu waliopo?",
+      "existingMembers": "Washiriki wa timu waliopo",
+      "currentSize": "Ukubwa wa timu ya sasa",
+      "availableSpots": "Maeneo yanayopatikana kwa wataalamu wapya",
+      "maxRecommendations": "Mapendekezo ya juu zaidi yanayoruhusiwa"
+    }
+  },
+  "mobileNavigationTabs": {
+    "consultation": "Ushauri",
+    "team": "Timu",
+    "history": "Historia",
+    "encyclopedia": "Encyclopedia"
+  },
+  "autoListening": {
+    "turnOn": "Washa usikilizaji kiotomatiki",
+    "turnOff": "Zima usikilizaji kiotomatiki"
+  },
+  "speech": {
+    "processing": "Inachakata hotuba",
+    "pauseListening": "Bofya ili Kusitisha Kusikiliza",
+    "turnOnListening": "Bofya ili Kuwasha Kusikiliza"
+  },
+  "help": {
+    "howDoesThisWork": "Je, hii inafanyaje kazi?",
+    "chatControls": "Vidhibiti vya gumzo",
+    "enterToSend": "Ingiza au ▷ kutuma",
+    "shiftEnterToSpeak": "Shift+Enter au 🎤/⏸ ili kuzungumza/kusitisha"
+  },
+  "fileUpload": {
+    "clickToUpload": "Bofya ili kupakia faili (Unaweza kuweka faili kwenye gumzo pia)"
+  },
+  "send": {
+    "transcribeAndSend": "Nakili na kutuma",
+    "sendMessage": "Tuma ujumbe"
+  },
+  "aileenCarol": {
+    "playAnalysis": "Uchambuzi wa Mtaalam wa Afya Carol",
+    "stopAnalysis": "Acha uchambuzi wa Mtaalam wa Afya Carol"
+  },
+  "profile": {
+    "editProfile": "Badilisha Wasifu",
+    "saveChanges": "Hifadhi Mabadiliko",
+    "cancelEdits": "Ghairi Mahariri",
+    "changePhoto": "Badilisha Picha",
+    "removePhoto": "Ondoa Picha",
+    "healthInfoTooltip": "Tafadhali andika au orodhesha dawa, uchunguzi, virutubisho na mambo mengine muhimu yanayohusiana na afya kukuhusu.",
+    "loadingProfile": "Inapakia wasifu...",
+    "errorLoadingProfile": "Hitilafu katika kupakia wasifu",
+    "noProfileData": "Hakuna data ya wasifu inayopatikana.",
+    "myProfile": "Wasifu Wangu",
+    "myAccount": "Akaunti Yangu",
+    "displayName": "Jina la Kuonyesha",
+    "fullName": "Jina Kamili",
+    "email": "Barua pepe",
+    "emailCannotBeChanged": "Barua pepe haiwezi kubadilishwa.",
+    "keyHealthInfo": "Taarifa Muhimu za Afya",
+    "noHealthInfoRecorded": "Hakuna taarifa muhimu za afya zilizorekodiwa.",
+    "healthInfoPlaceholder": "Orodhesha dawa, utambuzi, virutubisho, nk.",
+    "age": "Umri",
+    "gender": "Jinsia"
+  },
+  "imageContext": {
+    "clearZoom": "Futa uteuzi huu wa kukuza",
+    "cropPromotionError": "Imeshindwa kutuma na kuongeza picha iliyokuzwa. Angalia console.",
+    "startConversationToSend": "Anzisha mazungumzo ili kutuma kukuza",
+    "sendZoomToTeam": "Tuma ukuzaji huu kwa timu",
+    "noActiveZoom": "Hakuna ukuzaji unaotumika wa kutuma. Tafadhali chagua eneo kwenye picha.",
+    "functionsUnavailable": "Haiwezi kutuma kukuza: Utendaji muhimu haupatikani.",
+    "noImages": "Hakuna picha katika muktadha. Pakia picha ili kuanza.",
+    "allHidden": "Picha zote zimefichwa kwa sasa. Bofya kijipicha kwenye kichwa ili kuonyesha picha.",
+    "showFirst": "Onyesha Picha ya Kwanza",
+    "imageDisplay": "Onyesho la Picha ({{inavyoonyeshwa}} imeonyeshwa / {{jumla}} jumla)",
+    "hideImage": "Ficha picha",
+    "showImage": "Onyesha picha",
+    "zoomPreview": "Onyesho la Kuza",
+    "sendToTeam": "Tuma kwa Timu",
+    "dragToZoom": "Bofya na uburute kwenye picha iliyo hapo juu ili kuchagua eneo jipya la kukuza."
+  },
+  "mobileChat": {
+    "healthConsult": "Ushauri wa Afya",
+    "speakToAI": "Ongea na {{name}}",
+    "startConversation": "Anzisha mazungumzo yako hapa chini",
+    "requestToSpeakToAI": "Ningependa kuongea na {{name}}"
+  },
+  "mobileWelcome": {
+    "greeting": "Habari!",
+    "aileenCarolIntro": "Mimi ni AI Aileen Carol, mtaalamu wako wa msingi wa afya. Natarajia kukufahamu. Ninasimamia timu yako ya VirtualMD.app AI ya wataalam wa afya. Tuko tayari kusaidia 24/7...",
+    "startConsultation": "Anza Ushauri wa Afya",
+    "myTeam": "Timu yangu",
+    "aiTeamBuilder": "Mtaalamu wa Afya wa AI Carol hukusaidia kuchagua timu yako",
+    "priorConsultations": "Mashauriano ya Awali",
+    "encyclopedia": "Encyclopedia",
+    "myProfile": "Wasifu Wangu",
+    "logout": "Ondoka",
+    "labels": {
+      "chat": "Soga",
+      "advisory": "Ushauri",
+      "encyclopedia": "Encyclopedia",
+      "myTeam": "Timu yangu",
+      "history": "Historia",
+      "myProfile": "Wasifu Wangu"
+    }
+  },
+  "mobileInput": {
+    "listeningPlaceholder": "Sikiliza... sema sasa",
+    "typePlaceholder": "Andika ujumbe...",
+    "clear": "Wazi",
+    "needHelp": "Je, unahitaji Msaada?",
+    "takePhoto": "Piga picha"
+  },
+  "mobileConsultations": {
+    "title": "Mashauriano ya Awali",
+    "selectAll": "Chagua Zote",
+    "deselectAll": "Usichague Zote",
+    "deleteSelected": "Futa Uliochaguliwa ({{count}})",
+    "consultationDefault": "Ushauri {{id}}",
+    "lastUpdate": "Sasisho la Mwisho: {{date}}",
+    "noUpdates": "Bado hakuna masasisho",
+    "editTitle": "Badilisha Kichwa cha Mazungumzo",
+    "enterNewTitle": "Weka kichwa kipya:",
+    "noConsultations": "Bado hakuna mashauriano."
+  },
+  "mobileProfile": {
+    "title": "Wasifu Wangu",
+    "saveError": "Imeshindwa kuhifadhi wasifu",
+    "saveSuccess": "Wasifu umesasishwa!",
+    "changePhoto": "Badilisha picha",
+    "displayName": "Jina la Kuonyesha",
+    "fullName": "Jina Kamili",
+    "email": "Barua pepe",
+    "keyHealthInfo": "Taarifa Muhimu za Afya",
+    "logout": "Ondoka"
+  },
+  "mobileNavigation": {
+    "consultation": "Ushauri",
+    "team": "Timu",
+    "history": "Historia",
+    "exitConsultation": "Ondoka kwenye Ushauri",
+    "myTeam": "Timu yangu",
+    "summary": "Muhtasari",
+    "differentialOpinion": "Maoni ya Tofauti",
+    "transcript": "Nakala",
+    "encyclopedia": "Encyclopedia",
+    "controls": "Vidhibiti",
+    "aiSpeaker": "AI Spika",
+    "enabled": "Imewashwa",
+    "disabled": "Imezimwa",
+    "camera": "Kamera",
+    "comingSoon": "Inakuja Hivi Karibuni",
+    "menu": "Menyu"
+  },
+  "bioPanel": {
+    "loadingBio": "Inapakia wasifu...",
+    "noBiography": "Hakuna wasifu unaopatikana.",
+    "returnToPanel": "Rudi kwenye Paneli"
+  },
+  "sidebarHeader": {
+    "panel": "Paneli",
+    "summary": "Muhtasari",
+    "differentialOpinion": "Maoni ya Tofauti",
+    "transcript": "Nakala",
+    "encyclopedia": "VirtualMD.app Encyclopedia",
+    "endConversation": "Maliza Mazungumzo",
+    "startChatWithTeam": "Anza Gumzo na Timu",
+    "configureNewChat": "Sanidi Gumzo Mpya",
+    "myAIHealthTeam": "Timu yangu ya Afya ya AI",
+    "aileenCarolTeamBuilder": "Mtaalamu wa Afya Carol husaidia kujenga timu yako.",
+    "savedConsultations": "Mashauriano Yaliyohifadhiwa",
+    "myProfile": "Wasifu Wangu",
+    "imageNumber": "Picha {{namba}}"
+  },
+  "differentialOpinion": {
+    "noOpinionAvailable": "Hakuna maoni tofauti yanayopatikana."
+  },
+  "encyclopedia": {
+    "title": "VirtualMD.app Encyclopedia",
+    "loadingMessage": "Tunakufanyia utafiti wa kina kuhusu mada hii. Tafadhali subiri sekunde chache kwa jibu lako.",
+    "longWaitMessage": "Hii inaweza kuchukua dakika chache kwa majibu ya kina.",
+    "searchButton": "Tafuta Encyclopedia",
+    "return": "Rudi",
+    "print": {
+      "button": "Chapisha",
+      "title": "Matokeo ya Utafutaji wa Encyclopedia",
+      "subtitle": "VirtualMD.app Encyclopedia"
+    },
+    "copy": "Nakili",
+    "searchResult": "Matokeo ya Utafutaji wa Encyclopedia",
+    "attribution": "Jibu kwa VirtualMD.app",
+    "emptyState": "Ingiza swali hapo juu ili kutafuta VirtualMD.app Encyclopedia.",
+    "copySuccess": "Maudhui yamenakiliwa kwenye ubao wa kunakili!",
+    "copyError": "Imeshindwa kunakili kwenye ubao wa kunakili",
+    "generatingResponse": "Inazalisha majibu ya kina...",
+    "genericError": "Hitilafu imetokea",
+    "translatingContent": "Inatafsiri maudhui..."
+  },
+  "input": {
+    "typeOrSpeakPlaceholder": "Andika au zungumza ujumbe wako...\nBonyeza Enter au ubofye ▷ ili kutuma.",
+    "typePlaceholder": "Andika ujumbe hapa...\nBonyeza Enter au ubofye ▷ ili kutuma.",
+    "transcribing": "Inanukuu...",
+    "enterTextHere": "Ingiza maandishi hapa",
+    "startTypingMessage": "Anza kuandika ujumbe wako kwenye kisanduku kilicho hapa chini ili kuanza mashauriano yako."
+  },
+  "quickActions": {
+    "whatToDoButton": "Nifanye nini?",
+    "summaryButton": "Muhtasari",
+    "whatShouldIDo": "Kulingana na kila kitu ambacho tumejadili, nifanye nini sasa? Tafadhali toa mapendekezo yaliyo wazi, yanayotekelezeka.",
+    "requestSummary": "Tafadhali toa muhtasari wa kina wa mazungumzo yetu kufikia sasa, ikijumuisha mambo muhimu yaliyojadiliwa, mapendekezo yaliyotolewa na hatua zinazofuata."
+  },
+  "upload": {
+    "uploading": "Inapakia..."
+  },
+  "camera": {
+    "notSupported": "Ufikiaji wa kamera hauauniwi katika kivinjari hiki",
+    "capturePhoto": "Piga Picha",
+    "accessDenied": "Ufikiaji wa kamera umekataliwa. Tafadhali ruhusu ufikiaji wa kamera katika mipangilio ya kivinjari chako.",
+    "accessFailed": "Imeshindwa kufikia kamera"
+  },
+  "microphone": {
+    "turnOn": "Washa maikrofoni",
+    "turnOff": "Zima maikrofoni"
+  },
+  "specialistPanel": {
+    "guidanceSingle": "Chagua Mtaalamu mmoja wa AI kwa mashauriano ya kibinafsi:",
+    "guidanceMulti": "Mtaalamu wa Afya wa AI Carol atajumuishwa kila wakati. Chagua Washauri wa ziada wa Afya wa AI:",
+    "startPrivateConsult": "Anza Ushauri wa Kibinafsi",
+    "startChat": "Anzisha Gumzo",
+    "selectSingle": "Chagua Mtaalamu wa AI",
+    "selectMulti": "Chagua Washauri wa Ziada",
+    "warningSelectOne": "Tafadhali chagua mtaalamu mmoja tu kwa mashauriano ya kibinafsi.",
+    "noSpecialistsAvailable": "Hakuna wataalamu wa AI wanaopatikana kwa sasa kwa mashauriano ya kibinafsi.",
+    "noAdvisersAvailable": "Hakuna Washauri wa ziada wa Afya wa AI wanaopatikana."
+  },
+  "sidebarFooter": {
+    "disclaimerText": "VirtualMD.app inajitahidi kupata usahihi. Walakini, huduma hii na yoyote ya msingi wa AI inaweza kutoa habari isiyo sahihi. Daima wasiliana na mtaalamu wa afya ya binadamu aliyehitimu.",
+    "emergencyText": "Piga 911 kwa dharura za matibabu.",
+    "moreInformation": "Taarifa zaidi"
+  },
+  "teamBuilder": {
+    "healthConditions": {
+      "options": {
+        "${key}": "{{ufunguo}}"
+      }
+    },
+    "medicinePreferences": {
+      "options": {
+        "${key}": "{{ufunguo}}"
+      }
+    }
+  },
+  "account": {
+    "title": "Mipangilio ya Akaunti",
+    "description": "Kuanzia hapa unaweza kufuta kabisa akaunti yako ya VirtualMD.app. Hatua hii itaondoa wasifu wako na mashauriano yote.",
+    "deleteMyAccount": "Futa Akaunti Yangu",
+    "confirmDeleteTitle": "Futa Akaunti",
+    "confirmDeleteText": "Kitendo hiki hakiwezi kutenduliwa. Maelezo yako yote ya wasifu, mashauriano na faili zitaondolewa kabisa. Je, una uhakika ungependa kuendelea?",
+    "cancel": "Ghairi",
+    "yesDelete": "Ndiyo, Futa"
+  },
+  "transcript": {
+    "noTranscript": "Hakuna nakala inayopatikana.",
+    "title": "Nakala ya Ushauri",
+    "returnToConversation": "Rudi kwenye Mazungumzo",
+    "print": "Chapisha",
+    "copy": "Nakili",
+    "copyError": "Imeshindwa kunakili",
+    "roleLabels": {
+      "patient": "Mtumiaji:",
+      "assistant": "Msaidizi:"
+    }
+  },
+  "mobileRouter": {
+    "teamRecommendations": "Mapendekezo ya Timu",
+    "myTeam": "Timu yangu",
+    "summary": "Muhtasari",
+    "differentialOpinion": "Maoni ya Tofauti",
+    "transcript": "Nakala",
+    "encyclopedia": "Encyclopedia",
+    "consultations": "Mashauriano",
+    "returnToChat": "Rudi kwa Gumzo",
+    "pleaseLogIn": "Tafadhali Ingia",
+    "logInToView": "Ingia ili kutazama mazungumzo yako au anza mazungumzo mapya.",
+    "logIn": "Ingia",
+    "loadingSpecialists": "Inapakia wataalamu..."
+  },
+  "chat": {
+    "pleaseLogIn": "Tafadhali Ingia",
+    "logInToView": "Ingia ili kutazama mazungumzo yako au anza mazungumzo mapya."
+  },
+  "loginPage": {
+    "signIn": "Ingia"
+  },
+  "imageProcessing": {
+    "preset": "Weka mapema",
+    "applyPreset": "Tekeleza uwekaji awali kwa picha inayolengwa",
+    "process": "Mchakato",
+    "revertFocus": "Zingatia tena picha asili",
+    "revert": "Rudisha"
+  },
+  "guest": {
+    "consultation": "Ushauri wa Wageni",
+    "topics": {
+      "child": {
+        "title": "Mtoto wangu ni mgonjwa",
+        "subtitle": "Utunzaji wa kitaalam wa watoto wakati unahitaji sana",
+        "initialMessage": "Mimi ni AI Aileen Carol, Mshauri wako wa Afya ya Mtandaoni. Ninajua jinsi mtoto mgonjwa anaweza kuwa na wasiwasi. Niambie nini kinaendelea.  Kumbuka: Mimi ni AI, si binadamu; ushauri wangu unaweza kuwa sio sahihi-thibitisha na mtaalamu aliyehitimu wa afya ya binadamu."
+      },
+      "sleep": {
+        "title": "Siwezi kulala!",
+        "subtitle": "Rejesha usiku wako, ubadilishe siku zako",
+        "initialMessage": "Mimi ni AI Aileen Carol, Mshauri wako wa Afya Pembeni, pamoja na mtaalamu wa usingizi AIs Benjamin Stein (Psychiatry) na AI Alice Chen (Neurology). Shiriki matatizo yako ya usingizi ili tuweze kukusaidia. Kumbuka: Sisi ni AIS, si binadamu; ushauri wetu unaweza kuwa sio sahihi—thibitisha na mtaalamu aliyehitimu (binadamu)."
+      },
+      "nutrition": {
+        "title": "Lishe kwa uhai",
+        "subtitle": "Boresha nishati yako, uzima, na afya ya ngono kupitia chakula",
+        "initialMessage": "Mimi ni AI Aileen Carol, Mshauri wako wa Afya ya Mtandaoni, hapa na timu yako - AI Angelica Fordham (lishe), Tiba ya Ngono AI Rachel Levy, na Mtaalamu wa Tiba wa Kiafrika wa AI Amina Okufur. Unajisikiaje leo? Kumbuka: Sisi ni AI, si binadamu; ushauri unaweza kuwa sio sahihi - thibitisha kwa mtaalamu aliyehitimu."
+      }
+    },
+    "errors": {
+      "sessionFailed": "Imeshindwa kuanzisha kipindi cha wageni"
+    },
+    "registrationRequired": "Usajili unahitajika",
+    "uploadFeatures": {
+      "title": "Vipengele vya Upakiaji wa Hati na Picha",
+      "description": "Mfumo wetu hutoa uwezo mkubwa wa kuchanganua hati na picha ambapo unaweza:",
+      "benefit1": "Pakia hati za afya, ripoti za maabara na picha",
+      "benefit2": "Vuta karibu maeneo mahususi kwa uchanganuzi wa kina",
+      "benefit3": "Wape washauri wetu wa afya wa AI kutathmini na kujadili hati zako",
+      "benefit4": "Piga picha moja kwa moja kutoka kwa kamera yako kwa mashauriano ya haraka",
+      "registeredOnly": "Vipengele hivi maalum vinapatikana kwa watumiaji waliojiandikisha."
+    }
+  },
+  "activeChat": {
+    "guestMode": {
+      "advisorsTitle": "VirtualMD.app Washauri wa Afya",
+      "registrationRequired": "Usajili unahitajika"
+    }
+  },
+  "healthAdvisors": "VirtualMD.app Washauri wa Afya"
+}

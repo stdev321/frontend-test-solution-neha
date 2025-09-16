@@ -1,0 +1,907 @@
+{
+  "header": {
+    "login": "Login",
+    "register": "Daftar",
+    "logout": "Keluar",
+    "aboutUs": "Tentang Kami",
+    "learnMore": "Pelajari Lebih Lanjut",
+    "advisory": "Penasehat",
+    "start": "Awal",
+    "greetingHello": "Halo nama}}!",
+    "welcomeToVirtualMD": "Selamat datang di VirtualMD!",
+    "signupForFullAccess": "Daftar untuk akses penuh",
+    "profileTitle": "Profil Saya / Buka Obrolan",
+    "logoutTitle": "Keluar",
+    "toggleTheme": "Alihkan Mode Terang/Gelap",
+    "toggleMode": "Alihkan Mode Terang/Gelap",
+    "myProfile": "Profil Saya / Buka Obrolan",
+    "dashboard": "Dasbor",
+    "endConversation": "Akhiri Percakapan",
+    "returnToConversation": "Kembali ke Percakapan",
+    "startConversation": "Mulai Percakapan",
+    "endConsult": "Akhiri Konsultasi",
+    "returnToConsult": "Kembali ke Konsultasi",
+    "startConsult": "Mulai Konsultasi",
+    "home": "Rumah",
+    "healthEncyclopedia": "Ensiklopedia Kesehatan",
+    "researchPublications": "Penelitian & Publikasi",
+    "contactUs": "Hubungi kami",
+    "light": "Lampu",
+    "dark": "Gelap",
+    "toggleModeText": "Beralih {{mode}} Mode",
+    "legal": "Legal"
+  },
+  "howToUse": "Cara Penggunaan",
+  "settings": {
+    "lightMode": "Mode Cahaya",
+    "darkMode": "Mode Gelap"
+  },
+  "navigation": {
+    "dashboard": "Dasbor",
+    "home": "Rumah",
+    "aboutUs": "Tentang Kami",
+    "returnToChat": "Kembali ke Obrolan",
+    "continueConsultation": "Lanjutkan konsultasi Anda",
+    "exitConsultation": "Konsultasi Keluar",
+    "startNewConsultation": "Mulai Konsultasi Baru",
+    "sections": {
+      "chatTools": "ALAT CHAT",
+      "functionality": "FUNGSIONALITAS",
+      "aboutUs": "TENTANG KAMI",
+      "requiredDocuments": "DOKUMEN YANG DIPERLUKAN",
+      "research": "RISET",
+      "controls": "KONTROL",
+      "settings": "PENGATURAN"
+    },
+    "myTeam": "Tim Saya",
+    "summary": "Ringkasan",
+    "transcript": "Salinan",
+    "encyclopedia": "Ensiklopedi",
+    "priorChats": "Obrolan Sebelumnya",
+    "myProfile": "Profil Saya",
+    "healthEncyclopedia": "Ensiklopedia Kesehatan",
+    "noteFromFounders": "Catatan dari Pendiri",
+    "faq": "Tanya Jawab Umum",
+    "contactUs": "Hubungi kami",
+    "legal": "Legal",
+    "dataPrivacy": "Privasi Data",
+    "aiAccuracyStudies": "Studi Akurasi AI",
+    "empowerYourself": "Berdayakan Diri Anda",
+    "deepResearch": "Penelitian Mendalam",
+    "aboutUsItems": {
+      "advisory": "Penasehat",
+      "dataPrivacy": "Privasi Data"
+    },
+    "learnMore": {
+      "imagingAI": "Pencitraan dan AI",
+      "pathologyAI": "Patologi dan AI",
+      "dermatologyAI": "Dermatologi dan AI",
+      "mentalHealthAI": "Kesehatan Mental dan AI",
+      "accuracyStudies": "Studi Akurasi AI",
+      "allResearch": "Semua Penelitian",
+      "empowerYourself": "Berdayakan Diri Anda"
+    }
+  },
+  "landing": {
+    "title": "VirtualMD.app",
+    "subtitle": "Solusi Kesehatan Bertenaga AI",
+    "tryItOut": "Cobalah",
+    "scrollDown": "Gulir ke bawah",
+    "scrollUp": "Gulir ke atas",
+    "alwaysHereForYou": "Selalu Ada Untuk Anda.",
+    "cards": {
+      "whyUse": {
+        "title": "Mengapa VirtualMD?",
+        "description": "Temukan manfaat revolusioner dari platform kesehatan virtual bertenaga AI kami"
+      },
+      "dataPrivacy": {
+        "title": "Privasi Anda",
+        "description": "Seperti teman tepercaya, rahasia kesehatan Anda aman bersama kami"
+      },
+      "tryItOut": {
+        "title": "Cobalah",
+        "description": "Anak saya sakit|Saya tidak bisa tidur!|Nutrisi untuk cinta",
+        "tagline": "Tidak perlu mendaftar."
+      },
+      "wellness": {
+        "title": "Penelitian Mendalam",
+        "description": "Ensiklopedia kesehatan dengan sumber tepercaya"
+      },
+      "yourHealth": {
+        "title": "Kesehatan Anda",
+        "description": "Bentuk perjalanan kesehatan Anda dengan AI"
+      }
+    }
+  },
+  "chat": {
+    "startNewConsult": "Mulai Konsultasi Baru",
+    "noSpeechDetected": "aku tidak menangkapnya",
+    "noSpeechMessage": "Saya tidak dapat mendeteksi adanya ucapan dalam rekaman Anda. Coba bicara sedikit lebih keras atau mendekatkan diri ke mikrofon, lalu coba lagi.",
+    "dontShowAgain": "Jangan tunjukkan padaku lagi",
+    "gotIt": "Mengerti",
+    "loading": "Memuat…"
+  },
+  "loading": {
+    "preparingHealthTeam": "Mempersiapkan tim kesehatan AI Anda...",
+    "connectingSpecialists": "Menghubungkan ke spesialis kesehatan...",
+    "initializingSystem": "Inisialisasi sistem kesehatan pribadi Anda...",
+    "almostReady": "Hampir siap membantu Anda...",
+    "dots": "..."
+  },
+  "common": {
+    "loading": "Memuat…",
+    "user": {
+      "defaultInitial": "Kamu",
+      "defaultName": "di sana",
+      "defaultAltText": "Pengguna"
+    },
+    "error": "Kesalahan",
+    "success": "Kesuksesan",
+    "cancel": "Membatalkan",
+    "confirm": "Mengonfirmasi",
+    "save": "Menyimpan",
+    "delete": "Menghapus",
+    "edit": "Sunting",
+    "close": "Menutup",
+    "next": "Berikutnya",
+    "previous": "Sebelumnya",
+    "submit": "Kirim",
+    "search": "Mencari",
+    "filter": "Menyaring",
+    "sort": "Menyortir",
+    "upload": "Mengunggah",
+    "download": "Unduh",
+    "print": "Mencetak",
+    "share": "Membagikan",
+    "copy": "Menyalin",
+    "paste": "Pasta",
+    "cut": "Memotong",
+    "undo": "Membuka",
+    "redo": "Mengulangi",
+    "yes": "Ya",
+    "no": "TIDAK",
+    "ok": "OKE",
+    "punctuation": {
+      "ellipsis": "..."
+    },
+    "apply": "Menerapkan",
+    "reset": "Mengatur ulang",
+    "clear": "Jernih",
+    "back": "Kembali",
+    "forward": "Maju",
+    "home": "Rumah",
+    "refresh": "Menyegarkan",
+    "reload": "Muat ulang",
+    "help": "Membantu",
+    "about": "Tentang",
+    "contact": "Kontak",
+    "profile": "Profil",
+    "account": "Akun",
+    "privacy": "Pribadi",
+    "terms": "Ketentuan",
+    "legal": "Legal",
+    "support": "Mendukung",
+    "feedback": "Masukan",
+    "welcome": "Selamat datang",
+    "goodbye": "Selamat tinggal",
+    "thankyou": "Terima kasih",
+    "send": "Mengirim",
+    "none": "Tidak ada",
+    "generating": "Menghasilkan...",
+    "settings": "Pengaturan"
+  },
+  "auth": {
+    "loginTitle": "Masuk",
+    "registerTitle": "Buat Akun",
+    "email": "E-mail",
+    "password": "Kata sandi",
+    "confirmPassword": "Konfirmasi Kata Sandi",
+    "fullName": "Nama Lengkap",
+    "displayName": "Nama Tampilan",
+    "rememberMe": "Ingat aku",
+    "forgotPassword": "Lupa kata sandi?",
+    "noAccount": "Belum punya akun?",
+    "hasAccount": "Sudah punya akun?",
+    "signUp": "Mendaftar",
+    "signIn": "Masuk",
+    "signOut": "Keluar",
+    "createAccount": "Buat Akun",
+    "loginButton": "Login",
+    "registerButton": "Daftar",
+    "logout": "Keluar"
+  },
+  "footer": {
+    "copyright": "MindScript Technologies LLC. Seluruh hak cipta dilindungi undang-undang.",
+    "privacyPolicy": "Kebijakan Privasi",
+    "termsOfService": "Ketentuan Layanan",
+    "cookiePolicy": "Kebijakan Cookie",
+    "medicalAdvisory": "Saran Kesehatan",
+    "yourPrivacy": "Privasi Anda",
+    "legal": "Legal",
+    "contactUs": "Hubungi kami",
+    "howToUse": "Cara Penggunaan",
+    "faq": "Tanya Jawab Umum",
+    "noteFromFounders": "Catatan dari Para Pendiri",
+    "medicalDisclaimerTooltip": "MindScript berupaya memberikan informasi kesehatan yang paling akurat dan terkini menggunakan persona kesehatan berbasis AI. Namun, persona ini bukan pakar kesehatan berlisensi dan mungkin saja salah. Jika terjadi keadaan darurat medis, segera hubungi 911 atau pergi ke unit gawat darurat terdekat. Untuk masalah kesehatan lainnya atau sebelum mencoba perawatan atau pengobatan apa pun, silakan berkonsultasi dengan penyedia layanan kesehatan manusia atau spesialis yang berkualifikasi.",
+    "advisory": "Penasehat"
+  },
+  "forms": {
+    "required": "Bidang ini wajib diisi",
+    "invalidEmail": "Silakan masukkan alamat email yang valid",
+    "passwordTooShort": "Kata sandi harus minimal 8 karakter",
+    "passwordsDoNotMatch": "Kata sandi tidak cocok",
+    "invalidInput": "Silakan masukkan input yang valid",
+    "fieldRequired": "{{field}} wajib diisi",
+    "selectOption": "Silakan pilih opsi",
+    "uploadFile": "Unggah berkas",
+    "dragAndDrop": "Seret dan letakkan file di sini, atau klik untuk memilih",
+    "fileUploaded": "File berhasil diunggah",
+    "uploadError": "Terjadi kesalahan saat mengunggah file"
+  },
+  "language": {
+    "english": "Bahasa inggris",
+    "arabic": "العربية",
+    "hebrew": "עברית",
+    "switchTo": "Beralih ke {{bahasa}}",
+    "currentLanguage": "Bahasa saat ini: {{language}}"
+  },
+  "animation": {
+    "title": {
+      "simply": "Hanya",
+      "better": "Lebih baik",
+      "health": "Kesehatan",
+      "period": "."
+    }
+  },
+  "hero": {
+    "subtitle": "Saran kesehatan dan kebugaran yang dipersonalisasi 24/7.",
+    "subtitleMobile": "Saran kesehatan AI yang dipersonalisasi 24/7",
+    "poweredBy": "Didukung oleh AI."
+  },
+  "research": {
+    "title": "Penelitian & Publikasi",
+    "subtitle": "Solusi perawatan kesehatan AI berbasis bukti",
+    "aiImaging": {
+      "title": "AI dalam Pencitraan Diagnostik",
+      "description": "Analisis komprehensif aplikasi kecerdasan buatan dalam pencitraan kesehatan di seluruh radiologi, patologi, dan oftalmologi."
+    },
+    "pathologyAI": {
+      "title": "Bantuan AI Patologi",
+      "description": "Aplikasi pembelajaran mendalam dalam patologi digital untuk deteksi kanker dan peningkatan akurasi diagnostik."
+    },
+    "dermatologyAI": {
+      "title": "Solusi AI Dermatologi",
+      "description": "Deteksi dan diagnosis kondisi kulit bertenaga AI menggunakan visi komputer dan pembelajaran mesin."
+    },
+    "mentalHealthAI": {
+      "title": "Kesehatan Mental dan AI",
+      "description": "Aplikasi kecerdasan buatan dalam penyaringan kesehatan mental, diagnosis, dan dukungan perawatan."
+    },
+    "accuracyStudies": {
+      "title": "Studi Akurasi AI",
+      "description": "Validasi klinis dan metrik kinerja sistem diagnostik AI dalam pengaturan perawatan kesehatan dunia nyata."
+    }
+  },
+  "whitepapers": {
+    "downloadPdf": "Unduh PDF",
+    "generating": "Menghasilkan...",
+    "abstract": "Abstrak",
+    "introduction": "Perkenalan",
+    "methods": "Metode/Teknologi",
+    "results": "Hasil",
+    "discussion": "Diskusi",
+    "conclusion": "Kesimpulan",
+    "references": "Referensi",
+    "authors": "Penulis",
+    "email": "E-mail",
+    "organization": "Organisasi"
+  },
+  "imageProcessing": {
+    "preset": "Prasetel",
+    "process": "Proses",
+    "revert": "Kembali",
+    "applyPreset": "Terapkan preset ke gambar yang difokuskan",
+    "revertFocus": "Fokus kembali pada gambar asli"
+  },
+  "alt": {
+    "logo": "Logo VirtualMD.app",
+    "logoSmall": "Logo Kecil MindScript",
+    "integratedApproach": "Pendekatan kesehatan terpadu",
+    "userProfile": "Profil pengguna",
+    "aiDoctor": "Pakar Kesehatan AI Carol",
+    "aiAssistant": "Asisten AI",
+    "backgroundImage": "Gambar latar belakang yang indah",
+    "home": "Beranda MindScript",
+    "processed": "Gambar yang diproses",
+    "zoomPreview": "Pratinjau zoom gambar"
+  },
+  "aria": {
+    "scrollDown": "Gulir ke bawah",
+    "scrollUp": "Gulir ke atas",
+    "openMenu": "Buka menu",
+    "togglePassword": "Alihkan visibilitas kata sandi",
+    "chooseLanguage": "Pilih bahasa",
+    "goHome": "Pergi ke beranda",
+    "remove": "Menghapus",
+    "edit": "Sunting",
+    "delete": "Menghapus",
+    "save": "Menyimpan",
+    "cancel": "Membatalkan",
+    "breadcrumb": "Remah roti navigasi",
+    "conversationChoice": "Pilihan percakapan",
+    "personaChoice": "Pilihan persona",
+    "panel": "Panel",
+    "summary": "Ringkasan",
+    "differentialOpinion": "Pendapat Diferensial",
+    "transcript": "Salinan",
+    "encyclopedia": "Ensiklopedi",
+    "endConversation": "Akhiri Percakapan",
+    "startChat": "Mulai mengobrol dengan tim",
+    "configureChat": "Konfigurasikan obrolan baru",
+    "savedConsultations": "Konsultasi yang disimpan",
+    "myProfile": "Profil Saya"
+  },
+  "researchPage": {
+    "title": "Penelitian & Publikasi",
+    "healthAdvisory": {
+      "title": "Saran Kesehatan",
+      "description": "Informasi penting tentang kesehatan dan keselamatan",
+      "button": "Lihat Penasihat"
+    },
+    "imagingAI": {
+      "title": "AI dalam Pencitraan Diagnostik",
+      "description": "Aplikasi AI dalam pencitraan kesehatan di bidang radiologi, patologi, dan oftalmologi",
+      "button": "Baca selengkapnya"
+    },
+    "pathologyAI": {
+      "title": "Patologi Berbantuan AI",
+      "description": "Aplikasi pembelajaran mendalam dalam patologi digital untuk deteksi kanker dan akurasi diagnostik",
+      "button": "Baca selengkapnya"
+    },
+    "dermatologyAI": {
+      "title": "Solusi AI dalam Dermatologi",
+      "description": "Deteksi dan diagnosis kondisi kulit bertenaga AI menggunakan visi komputer dan pembelajaran mesin",
+      "button": "Baca selengkapnya"
+    },
+    "mentalHealthAI": {
+      "title": "Kesehatan Mental & AI",
+      "description": "Aplikasi AI dalam skrining kesehatan mental, diagnosis, dan dukungan terapi",
+      "button": "Baca selengkapnya"
+    },
+    "dataPrivacy": {
+      "title": "Privasi & Keamanan Data",
+      "description": "Perlindungan data perawatan kesehatan, kepatuhan HIPAA, dan perlindungan privasi",
+      "button": "Baca selengkapnya"
+    },
+    "aiAccuracy": {
+      "title": "Studi Akurasi AI",
+      "description": "Validasi klinis dan metrik kinerja sistem diagnostik AI dalam pengaturan layanan kesehatan dunia nyata",
+      "button": "Baca selengkapnya"
+    },
+    "aiForLaypeople": {
+      "title": "AI untuk Semua Orang",
+      "description": "Memahami AI di bidang kesehatan secara sederhana - tidak memerlukan latar belakang teknis",
+      "button": "Baca selengkapnya"
+    }
+  },
+  "dialogs": {
+    "startWithDefault": "Mulailah dengan Pakar Kesehatan Carol",
+    "startWithSpecific": "Dimulai dengan {{name}}",
+    "longRecording": {},
+    "shortConv": {}
+  },
+  "team": {
+    "myAIHealthTeam": "Tim Kesehatan AI Saya",
+    "addMembersInstruction": "Tambahkan anggota tim dengan mengklik kartu di sebelah kanan.",
+    "maxTeamSizeNote": "Maksimal lima penasihat AI dapat ditambahkan ke tim Anda. Anda dapat mengubah tim kapan saja, tetapi tidak selama konsultasi.",
+    "starting": "Memulai...",
+    "startTeamConsult": "Mulai Konsultasi Tim",
+    "startConsultationWithTeam": "Mulai Konsultasi dengan Tim Anda"
+  },
+  "newConversation": {
+    "aileenCarolOnly": "Pakar Kesehatan Carol Only",
+    "oneOnOne": "Satu lawan satu",
+    "consultationChoice": {
+      "question": "Dengan siapa Anda ingin berkonsultasi hari ini?"
+    },
+    "options": {
+      "allAdvisers": "Semua Penasihat Kesehatan AI Saya",
+      "allAdvisersCarolOnly": "Semua Penasihat Kesehatan AI Saya (Pakar Kesehatan AI Carol saja)",
+      "chooseSpecific": "Pilih Spesifik dari Daftar Saya"
+    },
+    "tooltips": {
+      "noAdvisersSelected": "Tidak ada penasihat yang dipilih di profil Anda.",
+      "loadingAdvisers": "Memuat penasihat Anda...",
+      "noOtherAdvisers": "Tidak ada penasihat lain dalam daftar Anda untuk dipilih. Tambahkan penasihat lain di profil Anda."
+    },
+    "errors": {
+      "loadingAdvisers": "Terjadi kesalahan saat memuat data penasihat."
+    },
+    "buttons": {
+      "cancel": "Membatalkan",
+      "next": "Berikutnya",
+      "start": "Awal"
+    }
+  },
+  "aiAccuracyWhitepaper": {
+    "section1": {},
+    "section2": {
+      "aiSuccess": {},
+      "aiErrors": {},
+      "aiVsHuman": {}
+    },
+    "section3": {
+      "challenges": {}
+    },
+    "section4": {
+      "guidelines": {}
+    },
+    "section5": {}
+  },
+  "imagingAIExplainer": {
+    "whatIsImaging": {
+      "types": {}
+    },
+    "whatIsAI": {},
+    "howAIHelps": {
+      "accuracy": {},
+      "speed": {},
+      "consistency": {}
+    },
+    "challenges": {},
+    "conclusion": {}
+  },
+  "mentalHealthWhitepaper": {
+    "disclaimer": {},
+    "abstract": {},
+    "introduction": {},
+    "methods": {},
+    "results": {
+      "diagnosticSupport": {},
+      "therapeuticApplications": {},
+      "patientMonitoring": {}
+    },
+    "discussion": {},
+    "conclusion": {}
+  },
+  "audio": {},
+  "autoListening": {},
+  "speech": {},
+  "help": {},
+  "upload": {},
+  "fileUpload": {},
+  "input": {},
+  "send": {},
+  "controls": {
+    "aiSpeaker": "Pembicara AI",
+    "cameraUpload": "Kamera/Unggah",
+    "status": {
+      "enabled": "Diaktifkan",
+      "disabled": "Dengan disabilitas"
+    }
+  },
+  "welcome": {},
+  "account": {},
+  "participants": {},
+  "mobileChat": {},
+  "sidebar": {
+    "differentialOpinion": "Pendapat Diferensial"
+  },
+  "bioPanel": {},
+  "conversations": {},
+  "mobileConsultations": {},
+  "encyclopedia": {},
+  "imageContext": {},
+  "profile": {},
+  "sidebarHeader": {
+    "plusBadge": "+"
+  },
+  "messages": {},
+  "sidebarFooter": {},
+  "summary": {},
+  "teamBuilder": {
+    "steps": {},
+    "alerts": {},
+    "existingTeam": {},
+    "primaryConcerns": {},
+    "healthConditions": {},
+    "urgencySymptoms": {},
+    "medicinePreferences": {},
+    "additionalInfo": {},
+    "aileenCarolIntro": {},
+    "buttons": {},
+    "dialogs": {}
+  },
+  "aileenCarol": {},
+  "transcript": {},
+  "registerPage": {},
+  "legal": {
+    "eligibility": {},
+    "feesAndPayment": {},
+    "termination": {}
+  },
+  "aboutEncyclopediaPage": {},
+  "loginPage": {},
+  "mobileTeamBuilder": {
+    "carolMessages": {},
+    "questionnaire": {},
+    "title": {},
+    "carolGreeting": {}
+  },
+  "mobileNavigation": {},
+  "mobileWelcome": {},
+  "mobileRouter": {},
+  "mobileInput": {},
+  "mobileProfile": {},
+  "clinicianInfoPage": {},
+  "contactPage": {},
+  "dataPrivacyWhitepaper": {
+    "sections": {},
+    "hero": {},
+    "privacyPledge": {
+      "secureInfo": {},
+      "noPersonalUse": {},
+      "neverSell": {},
+      "anonymizedData": {}
+    },
+    "securityLevels": {
+      "accountSecurity": {},
+      "hipaaHistory": {}
+    },
+    "mindscriptSecurity": {},
+    "hipaaConsiderations": {},
+    "userResponsibility": {},
+    "privacyScenarios": {},
+    "conclusion": {}
+  },
+  "encyclopediaPage": {},
+  "evidencePage": {
+    "researchEvidence": {
+      "radiology": {},
+      "pathology": {},
+      "dermatology": {},
+      "mentalHealthResearch": {}
+    },
+    "wellnessInsights": {
+      "personalizedWellness": {},
+      "holisticSignals": {},
+      "proactiveWellbeing": {},
+      "aiEnhancedClarity": {}
+    }
+  },
+  "featuresPage": {
+    "features": {
+      "instantWellnessInsights": {},
+      "holisticWellnessPicture": {},
+      "diverseAIPerspectives": {},
+      "everEvolvingIntelligence": {}
+    }
+  },
+  "healthAdvisoryPage": {
+    "sections": {
+      "consultation": {
+        "emergency": {}
+      },
+      "technology": {},
+      "disclaimer": {
+        "points": {}
+      }
+    }
+  },
+  "medicalImageProcessingPage": {},
+  "mentalHealthInfoPage": {},
+  "nurseInfoPage": {},
+  "patientInfoPage": {},
+  "pharmacistInfoPage": {},
+  "physicianInfoPage": {},
+  "wellnessPathwaysPage": {},
+  "whyVirtualMD": {
+    "sections": {
+      "whyUs": {
+        "points": {
+          "personalTeam": {},
+          "aiNavigator": {},
+          "empoweringChoices": {},
+          "easyToUse": {},
+          "advancedTechnology": {}
+        }
+      },
+      "hero": {},
+      "features": {
+        "points": {
+          "dynamicEnsemble": {},
+          "holisticUnderstanding": {},
+          "rapidAccess": {},
+          "reliableInteractions": {},
+          "insightfulLogs": {}
+        }
+      },
+      "technology": {},
+      "cta": {}
+    }
+  },
+  "yourHealthInYourHandsPage": {
+    "sections": {
+      "uniqueProfile": {},
+      "personalizedGoals": {},
+      "diverseInsights": {},
+      "proactivePartner": {}
+    },
+    "callToAction": {}
+  },
+  "session_complete": "Sesi Selesai",
+  "your_free_trial_has_ended": "Uji Coba Gratis Anda Telah Berakhir",
+  "united_kingdom:_dial_999_or_11": "Inggris Raya: Hubungi 999 atau 112",
+  "melanoma_and_skin_cancer_detec": "Deteksi Melanoma dan Kanker Kulit",
+  "process_transactions_and_send_": "Memproses transaksi dan mengirimkan informasi terkait, termasuk konfirmasi dan faktur (jika berlaku).",
+  "information_we_collect": "Informasi yang Kami Kumpulkan",
+  "in_a_medical_emergency:": "Dalam keadaan darurat medis:",
+  "in_response_to_legal_process:": "Menanggapi Proses Hukum:",
+  "loading_chat": "Memuat obrolan...",
+  "redirecting": "Mengalihkan...",
+  "israel:_dial_101_(magen_david_": "Israel: Tekan 101 ()",
+  "unlimited_messages_with_ai_doc": "Pesan tak terbatas dengan pakar kesehatan AI",
+  "contact_information": "Informasi Kontak",
+  "real-world_implementation_and_": "Implementasi Dunia Nyata dan Aplikasi Seluler",
+  "your_access_to_or_use_of_or_in": "AKSES ANDA TERHADAP ATAU PENGGUNAAN ANDA TERHADAP ATAU KETIDAKMAMPUAN ANDA UNTUK MENGAKSES ATAU MENGGUNAKAN LAYANAN;",
+  "your_computer_may_temporarily_": "Komputer Anda mungkin menyimpan salinan materi tersebut untuk sementara waktu di RAM saat Anda mengakses dan melihat materi tersebut.",
+  "please_select_only_one_special": "Silakan pilih hanya satu spesialis untuk konsultasi pribadi.",
+  "references": "Referensi",
+  "business_transfers:": "Transfer Bisnis:",
+  "account_information:": "Informasi Akun:",
+  "provide,_operate,_maintain,_an": "Menyediakan, mengoperasikan, memelihara, dan meningkatkan Layanan.",
+  "assignment": "Penugasan",
+  "sandymiles@mindspringhealth": "sandymiles@mindspring.health",
+  "ai-generated_content_may_conta": "Konten yang dihasilkan AI mungkin mengandung kesalahan atau kelalaian meskipun proses validasi kami kuat",
+  "display_name": "Nama Tampilan",
+  "any_content_obtained_from_the_": "KONTEN APAPUN YANG DIPEROLEH DARI LAYANAN; ATAU",
+  "you_may_store_files_that_are_a": "Anda dapat menyimpan file yang secara otomatis di-cache oleh peramban Web Anda untuk tujuan peningkatan tampilan.",
+  "start_new_health_consultation": "Mulai Konsultasi Kesehatan Baru",
+  "entire_agreement": "Seluruh Perjanjian",
+  "ophthalmology": "Oftalmologi",
+  "not": "BUKAN",
+  "exit_conversation?": "Keluar dari Percakapan?",
+  "grading_and_classification": "Pemeringkatan dan Klasifikasi",
+  "unauthorized_access,_use,_or_a": "AKSES, PENGGUNAAN, ATAU PERUBAHAN YANG TIDAK SAH TERHADAP TRANSMISI ATAU KONTEN ANDA (TERMASUK PELANGGARAN DATA), BAHKAN JIKA MINDSCRIPT TELAH MENERAPKAN LANGKAH-LANGKAH KEAMANAN YANG WAJAR SEBAGAIMANA DITETAPKAN DALAM KETENTUAN INI DAN KEBIJAKAN PRIVASI.",
+  "checking_server_status": "Memeriksa status server...",
+  "not_a_hipaa-compliant_service": "BUKAN LAYANAN YANG SESUAI DENGAN HIPAA",
+  "radiology": "Radiologi",
+  "united_states:_dial_911": "Amerika Serikat: Hubungi 911",
+  "save_and_review_conversation_h": "Simpan dan tinjau riwayat percakapan",
+  "abstract": "Abstrak",
+  "starting_your_consultation": "Memulai konsultasi Anda...",
+  "digital_pathology_overview": "Tinjauan Patologi Digital",
+  "reasonable_business_security_p": "praktik keamanan bisnis yang wajar di Amerika Serikat",
+  "loading_transcript": "Memuat transkrip...",
+  "cookies_and_similar_technologi": "Cookie dan Teknologi Serupa:",
+  "internal_medicine": "Kesehatan Internal",
+  "no_specialists_currently_in_th": "Saat ini tidak ada spesialis dalam obrolan ini.",
+  "discussion": "Diskusi",
+  "updating_team": "Memperbarui tim...",
+  "your_privacy_choices": "Pilihan Privasi Anda",
+  "error:_unknown_active_chat_vie": "Kesalahan: Tampilan obrolan aktif tidak diketahui.",
+  "create_more_than_one_account_f": "Buat lebih dari satu akun untuk Anda sendiri.",
+  "improve_the_accuracy,_efficacy": "Tingkatkan akurasi, kemanjuran, dan keamanan model AI dan fitur platform kami menggunakan data anonim dan agregat.",
+  "user_content:": "Konten Pengguna:",
+  "mindscript_does_not_provide_me": "MindScript tidak menyediakan diagnosis atau perawatan medis",
+  "communicate_with_you_about_pro": "Berkomunikasi dengan Anda tentang produk, layanan, penawaran, promosi, hadiah, dan acara yang ditawarkan oleh MindScript dan lainnya, dan memberikan berita dan informasi yang menurut kami akan menarik bagi Anda (tunduk pada hak Anda untuk tidak ikut serta).",
+  "aggregated_or_de-identified_da": "Data Agregat atau Data yang Tidak Teridentifikasi:",
+  "canada:_dial_911": "Kanada: Hubungi 911",
+  "retry": "Mencoba kembali",
+  "other_locations:_contact_your_": "Lokasi lain: Segera hubungi layanan darurat setempat Anda",
+  "ron_rubin,_phd_and_sandy_miles": "Ron Rubin, PhD dan Sandy Miles",
+  "australia:_dial_000_or_112": "Australia: Tekan 000 atau 112",
+  "data_deletion:": "Penghapusan Data:",
+  "we_do_not_guarantee_the_absolu": "KAMI TIDAK MENJAMIN KEAMANAN MUTLAK INFORMASI ANDA",
+  "send_technical_notices,_update": "Kirim pemberitahuan teknis, pembaruan, peringatan keamanan, serta pesan dukungan dan administratif.",
+  "consultation_summary": "Ringkasan Konsultasi",
+  "waiver": "Pengabaian",
+  "access_to_all_medical_specialt": "Akses ke semua spesialisasi kesehatan",
+  "no_profile_data_available": "Tidak ada data profil tersedia.",
+  "no_summary_available": "Tidak ada ringkasan yang tersedia.",
+  "test_app_-_mindscript": "Aplikasi Uji - MindScript",
+  "respond_to_your_comments,_ques": "Tanggapi komentar, pertanyaan, dan permintaan Anda serta berikan layanan pelanggan.",
+  "not_hipaa_compliant": "TIDAK sesuai dengan HIPAA",
+  "force_majeure": "Keadaan Kahar",
+  "you_may_print_or_download_one_": "Anda dapat mencetak atau mengunduh satu salinan dari sejumlah halaman Situs yang wajar untuk penggunaan informasi pribadi dan nonkomersial Anda sendiri dan bukan untuk reproduksi, publikasi, atau distribusi lebih lanjut.",
+  "dr_aileen_carol": "Pakar Kesehatan Aileen Carol",
+  "family_medicine": "Kesehatan Keluarga",
+  "headings": "Judul",
+  "note_on_ai_aileencarol's_particip": "Catatan tentang Partisipasi Pakar Kesehatan AI Carol:",
+  "ronrubin@mindscripthealth": "ronrubin@virtualmd.app",
+  "share_your_account_credentials": "Bagikan kredensial akun Anda atau izinkan orang lain mengakses akun Anda (kecuali diizinkan secara tegas untuk akun organisasi).",
+  "email_cannot_be_changed": "Email tidak dapat diubah.",
+  "your_unique_medical_history,_c": "Riwayat kesehatan, kondisi, dan keadaan unik Anda memerlukan evaluasi profesional",
+  "changes_to_these_terms_and_pol": "Perubahan pada Ketentuan dan Kebijakan Ini",
+  "other_ai_specialists": "Spesialis AI Lainnya",
+  "full_name": "Nama Lengkap",
+  "governing_law_and_dispute_reso": "Hukum yang Mengatur dan Penyelesaian Sengketa",
+  "loading…": "Memuat…",
+  "personalized_health_insights": "Wawasan kesehatan yang dipersonalisasi",
+  "gastroenterology": "Gastroenterologi",
+  "use_of_the_service_by_children": "Penggunaan Layanan oleh anak-anak dilarang.",
+  "introduction": "Perkenalan",
+  "use_another_user's_account_wit": "Menggunakan akun pengguna lain tanpa izin.",
+  "if_you_can_see_this,_react_is_": "Jika Anda dapat melihat ini, React berfungsi!",
+  "ronrubin@mindspringhealth": "ronrubin@mindspring.health",
+  "children's_privacy": "Privasi Anak",
+  "provide_false_or_misleading_in": "Memberikan informasi palsu atau menyesatkan saat pendaftaran atau di profil akun Anda.",
+  "talk_to_a_specialist": "Bicaralah dengan Spesialis",
+  "cannot": "TIDAK BISA",
+  "how_we_use_information": "Bagaimana Kami Menggunakan Informasi",
+  "results": "Hasil",
+  "loading_participants": "Memuat peserta...",
+  "sandymiles@mindscripthealth": "sandymiles@virtualmd.app",
+  "this_feature_is_coming_soon": "Fitur ini akan segera hadir!",
+  "start_or_continue_conversation": "Mulai atau Lanjutkan Percakapan",
+  "international_data_transfers": "Transfer Data Internasional",
+  "loading_bio": "Memuat bio...",
+  "termination": "Penghentian",
+  "no_image_active": "Tidak ada gambar yang aktif.",
+  "no_ai_health_advisers_selected": "Tidak ada Penasihat Kesehatan AI yang dipilih. Anda dapat mengelola penasihat Anda di profil Anda.",
+  "dr_daniel_garcia": "Pakar Kesehatan Daniel Garcia",
+  "no_other_specialists_available": "Tidak ada spesialis lain yang tersedia untuk ditambahkan.",
+  "carry_out_any_other_purpose_de": "Melaksanakan tujuan lain yang dijelaskan kepada Anda pada saat informasi dikumpulkan.",
+  "data_retention": "Retensi Data",
+  "informational_and_educational_": "HANYA UNTUK TUJUAN INFORMASI DAN PENDIDIKAN",
+  "miscellaneous": "Aneka ragam",
+  "non-cancerous_skin_condition_c": "Klasifikasi Kondisi Kulit Non-Kanker",
+  "pathology": "Patologi",
+  "promotional_communications:": "Komunikasi Promosi:",
+  "info@mindscripthealth": "info@virtualmd.app",
+  "methods/technologies": "Metode/Teknologi",
+  "how_we_share_information": "Bagaimana Kami Membagikan Informasi",
+  "loading_profile": "Memuat profil...",
+  "personalize_and_improve_the_se": "Personalisasi dan tingkatkan Layanan dan sediakan konten atau fitur yang sesuai dengan profil atau minat pengguna.",
+  "with_vendors_and_service_provi": "Dengan Vendor dan Penyedia Layanan:",
+  "health_information_may_become_": "Informasi kesehatan mungkin menjadi usang seiring dengan berkembangnya pengetahuan kesehatan",
+  "with_whom_would_you_like_to_co": "Dengan siapa Anda ingin berkonsultasi hari ini?",
+  "mindscript_content:": "Konten MindScript:",
+  "cookies:": "Kue:",
+  "detect,_investigate,_and_preve": "Deteksi, selidiki, dan cegah transaksi penipuan dan aktivitas ilegal lainnya serta lindungi hak dan properti MindScript dan pihak lain.",
+  "medical_advice_requires_person": "Saran kesehatan memerlukan evaluasi yang dipersonalisasi oleh penyedia layanan kesehatan berlisensi",
+  "create_an_account_for_anyone_o": "Membuat akun untuk siapa pun selain diri Anda sendiri tanpa izin.",
+  "options": "Pilihan",
+  "cannot_and_will_not_sue_or_hol": "TIDAK BISA DAN TIDAK AKAN MENUNTUT ATAU MEMBEBASKAN TANGGUNG JAWAB ATAS MINDSCRIPT TECHNOLOGIES, LLC, AFILIASINYA, PEJABAT, DIREKTUR, KARYAWAN, AGEN, ATAU PEMBERI LISENSINYA",
+  "with_your_consent:": "Dengan Persetujuan Anda:",
+  "add_specialists_to_your_team": "tambahkan spesialis ke tim Anda",
+  "usage_information:": "Informasi Penggunaan:",
+  "any_conduct_or_content_of_any_": "SETIAP PERILAKU ATAU KONTEN PIHAK KETIGA MANAPUN PADA LAYANAN, TERMASUK NAMUN TIDAK TERBATAS PADA, SETIAP PERILAKU YANG MENGKRITIK NAMA BAIK, MENYINGGUNG, ATAU MELANGGAR HUKUM DARI PENGGUNA LAIN ATAU PIHAK KETIGA;",
+  "do_not_meet_the_specific_admin": "tidak memenuhi persyaratan perlindungan administratif, fisik, dan teknis khusus yang diamanatkan oleh Aturan Keamanan HIPAA untuk menangani PHI",
+  "legal@mindscripthealth": "legal@virtualmd.app",
+  "cancel": "Membatalkan",
+  "conclusion": "Kesimpulan",
+  "professional_health_insights_a": "Wawasan dan panduan kesehatan profesional",
+  "cancer_detection": "Deteksi Kanker",
+  "your_specialist_team_is_empty_": "Tim spesialis Anda kosong. Tambahkan spesialis di bawah ini.",
+  "workflow_optimization": "Optimasi Alur Kerja",
+  "select_ai_specialists": "Pilih Spesialis AI",
+  "monitor_and_analyze_trends,_us": "Memantau dan menganalisis tren, penggunaan, dan aktivitas yang berhubungan dengan Layanan kami.",
+  "severability": "Keterpisahan",
+  "access_to_cardiology_and_neuro": "Akses ke spesialis kardiologi dan neurologi",
+  "searchLanguages": "Cari bahasa...",
+  "noLanguagesFound": "Tidak ada bahasa yang ditemukan",
+  "you": "Anda",
+  "manageTeam": {
+    "title": "Kelola Tim Kesehatan AI Saya (Max {{maxTeamMembers}} Spesialis)",
+    "currentTeamCount": "Tim Anda Saat Ini ({{current}}/{{max}})",
+    "updatingTeam": "Memperbarui tim...",
+    "coordinatorLabel": "(Koordinator)",
+    "alwaysIncluded": "Selalu disertakan",
+    "specialistFallback": "Spesialis",
+    "emptyTeamMessage": "Tim spesialis Anda kosong. Tambahkan spesialis di bawah ini.",
+    "teamFullMessage": "Tim Anda sudah penuh (Maksimal {{maxTeamMembers}} spesialis). Silakan hapus satu anggota jika Anda ingin menambahkan spesialis lain.",
+    "otherSpecialistsTitle": "Spesialis AI Lainnya",
+    "addToTeamTooltip": "Tambahkan ke tim",
+    "teamFullTooltip": "Tim sudah penuh",
+    "systemSpecialistFallback": "Spesialis Sistem",
+    "noSpecialistsAvailable": "Tidak ada spesialis lain yang tersedia untuk ditambahkan."
+  },
+  "personas": {
+    "defaultSpecialist": "Spesialis AI"
+  },
+  "personaList": {
+    "noSpecialistsFound": "Tidak ada spesialis AI yang ditemukan."
+  },
+  "guest": {
+    "user": "Pengguna Tamu",
+    "userObject": {
+      "displayName": "Pengguna Tamu",
+      "email": "tamu@virtualmd.app"
+    },
+    "registration": {
+      "prompt": "Daftar untuk akses penuh ke tim kesehatan AI kami yang lengkap, riwayat percakapan, dan fitur-fitur canggih.",
+      "dialogTitle": "Pengguna terdaftar memiliki akses ke {{specialistName}}",
+      "dialogDescription": "{{specialistName}} adalah bagian dari tim kesehatan virtual kami yang komprehensif.",
+      "benefitsTitle": "Dengan akun VirtualMD.app, Anda akan mendapatkan:",
+      "benefits": {
+        "access": "Akses ke lebih dari 60 penasihat kesehatan AI khusus",
+        "personalized": "Konsultasi kesehatan yang dipersonalisasi",
+        "saveConversations": "Simpan dan lanjutkan percakapan",
+        "uploadImages": "Unggah gambar atau ambil langsung dari komputer/kamera Anda",
+        "customTeam": "Bangun tim kesehatan khusus Anda sendiri",
+        "availability": "Tersedia 24/7 untuk pertanyaan kesehatan"
+      },
+      "buttons": {
+        "maybeLater": "Mungkin nanti",
+        "registerNow": "Daftar Sekarang"
+      }
+    },
+    "registrationRequired": "Diperlukan registrasi",
+    "profileRegistrationRequired": "Profil pengguna: diperlukan registrasi",
+    "landing": {
+      "title": "Konsultasi Kesehatan AI Alami",
+      "subtitle": "Dapatkan wawasan kesehatan instan dari spesialis kesehatan AI kami - sepenuhnya gratis, tidak perlu registrasi",
+      "whatBringsYou": "Apa yang membawa Anda ke sini hari ini?",
+      "selectConcern": "Pilihlah masalah umum atau jelaskan masalah Anda sendiri",
+      "customConcernPlaceholder": "Atau jelaskan masalah kesehatan Anda dengan kata-kata Anda sendiri...",
+      "startConsultation": "Mulai Konsultasi Gratis",
+      "experienceIncludes": "Pengalaman Tamu Gratis Termasuk:",
+      "includes": {
+        "messages": "10 pesan dengan spesialis kesehatan AI",
+        "time": "15 menit waktu konsultasi",
+        "insights": "Wawasan dan panduan kesehatan profesional"
+      },
+      "personas": {
+        "defaultSpecialist": "Spesialis AI",
+        "aileen": {
+          "name": "Pakar Kesehatan Aileen Carol",
+          "specialty": "Kesehatan Keluarga"
+        },
+        "daniel": {
+          "name": "Pakar Kesehatan Daniel Garcia",
+          "specialty": "Kesehatan Internal"
+        }
+      }
+    },
+    "chat": {
+      "header": "Konsultasi Kesehatan AI",
+      "messagesLeft": "{{count}} pesan tersisa",
+      "timeLeft": "{{waktu}} tersisa",
+      "startingConsultation": "Konsultasi Anda sedang dimulai. Spesialis kesehatan AI akan segera merespons.",
+      "aiTyping": "Spesialis AI sedang mengetik...",
+      "inputPlaceholder": "Jelaskan gejala Anda atau ajukan pertanyaan..."
+    },
+    "expired": {
+      "title": "Konsultasi Selesai",
+      "subtitle": "Anda telah merasakan kekuatan konsultasi kesehatan AI",
+      "messagesUsed": "Anda telah menggunakan {{used}} dari {{max}} pesan",
+      "continuePrompt": "Ingin melanjutkan dengan akses tak terbatas?",
+      "createAccount": "Buat Akun Gratis",
+      "signIn": "Masuk"
+    },
+    "errors": {
+      "startFailed": "Tidak dapat memulai konsultasi. Silakan coba lagi.",
+      "connectionLost": "Koneksi terputus. Harap segarkan halaman.",
+      "sendFailed": "Gagal mengirim pesan. Silakan coba lagi."
+    },
+    "profile": {
+      "age": "25",
+      "gender": "Perempuan",
+      "bloodType": "A+",
+      "height": "Tinggi 5'6\"",
+      "weight": "130 pon",
+      "conditions": "Anemia defisiensi besi, Depresi sedang",
+      "medications": "Ferrous sulfate 325 mg setiap hari, Sertraline 50 mg setiap hari",
+      "allergies": "Tidak diketahui",
+      "healthInfo": "Saya telah mengalami kelelahan dan energi rendah selama 6 bulan terakhir. Pakar kesehatan saya mendiagnosis saya menderita anemia defisiensi besi dan saya telah mengonsumsi suplemen zat besi. Saya juga berjuang melawan depresi dan mulai mengonsumsi antidepresan 3 bulan yang lalu. Saya mencari saran untuk mengelola kedua kondisi tersebut dan meningkatkan tingkat energi saya secara keseluruhan.",
+      "emergencyContact": "Sarah Johnson (Suster) - (555) 123-4567"
+    },
+    "experience": {
+      "tryItOut": "Cobalah.",
+      "noObligation": "Tidak ada kewajiban.",
+      "subtitle": "Hanya sedikit tentang apa yang VirtualMD.app dapat lakukan untuk Anda."
+    }
+  },
+  "aiPrefix": "Kecerdasan buatan",
+  "dashboard": "Dasbor",
+  "teamRecommendation": {
+    "submission": {
+      "primaryConcernsLabel": "Apa masalah kesehatan utama Anda saat ini?",
+      "healthConditionsLabel": "Kondisi kesehatan apa yang berlaku untuk Anda?"
+    },
+    "defaults": {
+      "noneSpecified": "Tidak ditentukan"
+    }
+  }
+}

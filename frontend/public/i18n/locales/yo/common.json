@@ -1,0 +1,907 @@
+{
+  "header": {
+    "login": "Wo ile",
+    "register": "Forukọsilẹ",
+    "logout": "Jade jade",
+    "aboutUs": "Nipa re",
+    "learnMore": "Kọ ẹkọ diẹ si",
+    "advisory": "Igbaninimoran",
+    "start": "Bẹrẹ",
+    "greetingHello": "Kaabo {{oruko}}!",
+    "welcomeToVirtualMD": "Kaabo si VirtualMD!",
+    "signupForFullAccess": "Iforukọsilẹ fun wiwọle ni kikun",
+    "profileTitle": "Profaili mi / Lọ si iwiregbe",
+    "logoutTitle": "Jade jade",
+    "toggleTheme": "Yipada Ina/ Ipo Dudu",
+    "toggleMode": "Yipada Ina/ Ipo Dudu",
+    "myProfile": "Profaili mi / Lọ si iwiregbe",
+    "dashboard": "Dasibodu",
+    "endConversation": "Ibaraẹnisọrọ Pari",
+    "returnToConversation": "Pada si Ibaraẹnisọrọ",
+    "startConversation": "Bẹrẹ Ibaraẹnisọrọ",
+    "endConsult": "Ipari Ijumọsọrọ",
+    "returnToConsult": "Pada si ijumọsọrọ",
+    "startConsult": "Bẹrẹ Ijumọsọrọ",
+    "home": "Ile",
+    "healthEncyclopedia": "Health Encyclopedia",
+    "researchPublications": "Iwadi & Awọn atẹjade",
+    "contactUs": "Pe wa",
+    "light": "Imọlẹ",
+    "dark": "Dudu",
+    "toggleModeText": "Yi ipo {{mode}} pada",
+    "legal": "Ofin"
+  },
+  "howToUse": "Bawo ni lati Lo",
+  "settings": {
+    "lightMode": "Ipo Imọlẹ",
+    "darkMode": "Ipo Dudu"
+  },
+  "navigation": {
+    "dashboard": "Dasibodu",
+    "home": "Ile",
+    "aboutUs": "Nipa re",
+    "returnToChat": "Pada si iwiregbe",
+    "continueConsultation": "Tesiwaju ijumọsọrọ rẹ",
+    "exitConsultation": "Jade Ijumọsọrọ",
+    "startNewConsultation": "Bẹrẹ Ijumọsọrọ Tuntun",
+    "sections": {
+      "chatTools": "Awọn irinṣẹ OBROLAN",
+      "functionality": "IṢẸ́",
+      "aboutUs": "NIPA RE",
+      "requiredDocuments": "Awọn iwe aṣẹ ti a beere",
+      "research": "Iwadi",
+      "controls": "Awọn iṣakoso",
+      "settings": "Awọn eto"
+    },
+    "myTeam": "Egbe mi",
+    "summary": "Lakotan",
+    "transcript": "Tiransikiripiti",
+    "encyclopedia": "Encyclopedia",
+    "priorChats": "Awọn ibaraẹnisọrọ iṣaaju",
+    "myProfile": "Profaili Mi",
+    "healthEncyclopedia": "Health Encyclopedia",
+    "noteFromFounders": "Akiyesi lati awọn oludasilẹ",
+    "faq": "FAQ",
+    "contactUs": "Pe wa",
+    "legal": "Ofin",
+    "dataPrivacy": "Asiri Data",
+    "aiAccuracyStudies": "Awọn ẹkọ Ipeye AI",
+    "empowerYourself": "Fi agbara fun ara Rẹ",
+    "deepResearch": "Iwadi Jin",
+    "aboutUsItems": {
+      "advisory": "Igbaninimoran",
+      "dataPrivacy": "Asiri Data"
+    },
+    "learnMore": {
+      "imagingAI": "Aworan ati AI",
+      "pathologyAI": "Ẹkọ aisan ara ati AI",
+      "dermatologyAI": "Ẹkọ nipa iwọ-ara ati AI",
+      "mentalHealthAI": "Opolo Health ati AI",
+      "accuracyStudies": "Awọn ẹkọ Ipeye AI",
+      "allResearch": "Gbogbo Iwadi",
+      "empowerYourself": "Fi agbara fun ara Rẹ"
+    }
+  },
+  "landing": {
+    "title": "VirtualMD.app",
+    "subtitle": "AI-Agbara Ilera Solutions",
+    "tryItOut": "Gbiyanju o jade",
+    "scrollDown": "Yi lọ si isalẹ",
+    "scrollUp": "Yi lọ soke",
+    "alwaysHereForYou": "Nigbagbogbo Nibi Fun O.",
+    "cards": {
+      "whyUse": {
+        "title": "Kini idi ti VirtualMD?",
+        "description": "Ṣe afẹri awọn anfani rogbodiyan ti Syeed ilera foju ti AI-agbara wa"
+      },
+      "dataPrivacy": {
+        "title": "Aṣiri rẹ",
+        "description": "Gẹgẹbi ọrẹ ti o gbẹkẹle, awọn aṣiri ilera rẹ wa ni ailewu pẹlu wa"
+      },
+      "tryItOut": {
+        "title": "Gbiyanju o jade",
+        "description": "Omo mi n se aisan|Nko le sun!|Ounje fun ife",
+        "tagline": "Ko si iforukọsilẹ ti o nilo."
+      },
+      "wellness": {
+        "title": "Iwadi Jin",
+        "description": "Iwe-ìmọ ọfẹ ilera pẹlu awọn orisun igbẹkẹle"
+      },
+      "yourHealth": {
+        "title": "Ilera Rẹ",
+        "description": "Ṣe apẹrẹ irin-ajo alafia rẹ pẹlu AI"
+      }
+    }
+  },
+  "chat": {
+    "startNewConsult": "Bẹrẹ Ijumọsọrọ Tuntun",
+    "noSpeechDetected": "Emi ko mu iyẹn",
+    "noSpeechMessage": "Mi o le ri ọrọ kankan ninu gbigbasilẹ rẹ. Jọwọ gbiyanju lati sọ ariwo diẹ tabi gbigbe si gbohungbohun rẹ, lẹhinna gbiyanju lẹẹkansi.",
+    "dontShowAgain": "Maṣe fi mi han lẹẹkansi",
+    "gotIt": "Ṣe o ri",
+    "loading": "Nkojọpọ…"
+  },
+  "loading": {
+    "preparingHealthTeam": "Ngbaradi ẹgbẹ ilera AI rẹ...",
+    "connectingSpecialists": "Nsopọ si awọn alamọja ilera ...",
+    "initializingSystem": "Bibẹrẹ eto ilera ti ara ẹni…",
+    "almostReady": "O fẹrẹ ṣetan lati ran ọ lọwọ ...",
+    "dots": "..."
+  },
+  "common": {
+    "loading": "Nkojọpọ…",
+    "user": {
+      "defaultInitial": "U",
+      "defaultName": "Nibẹ",
+      "defaultAltText": "Olumulo"
+    },
+    "error": "Asise",
+    "success": "Aseyori",
+    "cancel": "Fagilee",
+    "confirm": "Jẹrisi",
+    "save": "Fipamọ",
+    "delete": "Paarẹ",
+    "edit": "Ṣatunkọ",
+    "close": "Sunmọ",
+    "next": "Itele",
+    "previous": "Ti tẹlẹ",
+    "submit": "Fi silẹ",
+    "search": "Wa",
+    "filter": "Àlẹmọ",
+    "sort": "Too",
+    "upload": "Gbee si",
+    "download": "Gba lati ayelujara",
+    "print": "Titẹ sita",
+    "share": "Pinpin",
+    "copy": "Daakọ",
+    "paste": "Lẹẹmọ",
+    "cut": "Ge",
+    "undo": "Yipada",
+    "redo": "Tunṣe",
+    "yes": "Bẹẹni",
+    "no": "Rara",
+    "ok": "O DARA",
+    "punctuation": {
+      "ellipsis": "..."
+    },
+    "apply": "Waye",
+    "reset": "Tunto",
+    "clear": "Ko o",
+    "back": "Pada",
+    "forward": "Siwaju",
+    "home": "Ile",
+    "refresh": "Tuntun",
+    "reload": "Tun gbee si",
+    "help": "Egba Mi O",
+    "about": "Nipa",
+    "contact": "Olubasọrọ",
+    "profile": "Profaili",
+    "account": "Iroyin",
+    "privacy": "Asiri",
+    "terms": "Awọn ofin",
+    "legal": "Ofin",
+    "support": "Atilẹyin",
+    "feedback": "Esi",
+    "welcome": "Kaabo",
+    "goodbye": "O dabọ",
+    "thankyou": "e dupe",
+    "send": "Firanṣẹ",
+    "none": "Ko si",
+    "generating": "Ṣiṣẹda...",
+    "settings": "Eto"
+  },
+  "auth": {
+    "loginTitle": "wọle",
+    "registerTitle": "Se akanti fun ra re",
+    "email": "Imeeli",
+    "password": "Ọrọigbaniwọle",
+    "confirmPassword": "So ni pato orukoabawole re",
+    "fullName": "Akokun Oruko",
+    "displayName": "Fi oruko han",
+    "rememberMe": "Ranti mi",
+    "forgotPassword": "Gbagbe ọrọ aṣina bi?",
+    "noAccount": "Ṣe ko ni akọọlẹ kan?",
+    "hasAccount": "Ti ni iroyin tẹlẹ?",
+    "signUp": "forukọsilẹ",
+    "signIn": "wọle",
+    "signOut": "ifowosi jada",
+    "createAccount": "Se akanti fun ra re",
+    "loginButton": "Wo ile",
+    "registerButton": "Forukọsilẹ",
+    "logout": "Jade jade"
+  },
+  "footer": {
+    "copyright": "MindScript Technologies LLC. Gbogbo awọn ẹtọ wa ni ipamọ..",
+    "privacyPolicy": "Asiri Afihan",
+    "termsOfService": "Awọn ofin ti Service",
+    "cookiePolicy": "kukisi Afihan",
+    "medicalAdvisory": "Ilera Advisory",
+    "yourPrivacy": "Asiri rẹ",
+    "legal": "Ofin",
+    "contactUs": "Pe wa",
+    "howToUse": "Bawo ni lati Lo",
+    "faq": "FAQ",
+    "noteFromFounders": "Akiyesi lati awọn oludasilẹ",
+    "medicalDisclaimerTooltip": "MindScript tiraka lati jiṣẹ deede julọ, alaye ilera ti ode-ọjọ nipa lilo awọn eniyan ilera ti o ni agbara AI. Sibẹsibẹ, awọn eniyan wọnyi kii ṣe awọn amoye ilera ti o ni iwe-aṣẹ ati pe o le jẹ aṣiṣe. Ni pajawiri iṣoogun tootọ, tẹ 911 tabi lọ si ẹka pajawiri ti o sunmọ julọ lẹsẹkẹsẹ. Fun eyikeyi awọn ifiyesi ilera miiran tabi ṣaaju igbiyanju eyikeyi awọn itọju tabi awọn atunṣe, jọwọ kan si olupese ilera ilera eniyan tabi alamọja.",
+    "advisory": "Igbaninimoran"
+  },
+  "forms": {
+    "required": "E ni lati se nkan si aye yi",
+    "invalidEmail": "Jowo fun fun wa ni imeli re to je otito",
+    "passwordTooShort": "Ọrọigbaniwọle gbọdọ jẹ o kere ju awọn ohun kikọ 8",
+    "passwordsDoNotMatch": "Awọn ọrọ igbaniwọle ko baramu",
+    "invalidInput": "Jọwọ tẹ titẹ sii to wulo",
+    "fieldRequired": "{{oko}} ni a nilo",
+    "selectOption": "Jọwọ yan aṣayan kan",
+    "uploadFile": "Ṣe igbasilẹ faili",
+    "dragAndDrop": "Fa ati ju silẹ awọn faili nibi, tabi tẹ lati yan",
+    "fileUploaded": "Ti kojọpọ faili ni aṣeyọri",
+    "uploadError": "Aṣiṣe gbigbe faili"
+  },
+  "language": {
+    "english": "English",
+    "arabic": "العربية",
+    "hebrew": "ibe",
+    "switchTo": "Yipada si {{ede}}",
+    "currentLanguage": "Ede lọwọlọwọ: {{ede}}"
+  },
+  "animation": {
+    "title": {
+      "simply": "Nikan",
+      "better": "Dara julọ",
+      "health": "Ilera",
+      "period": "."
+    }
+  },
+  "hero": {
+    "subtitle": "Imọran ilera ti ara ẹni ati ilera 24/7.",
+    "subtitleMobile": "Imọran ilera AI ti ara ẹni 24/7",
+    "poweredBy": "Agbara nipasẹ AI."
+  },
+  "research": {
+    "title": "Iwadi & Awọn atẹjade",
+    "subtitle": "Awọn ipinnu ilera ilera AI ti o da lori ẹri",
+    "aiImaging": {
+      "title": "AI ni Aworan Aisan",
+      "description": "Itupalẹ okeerẹ ti awọn ohun elo itetisi atọwọda ni aworan ilera kọja redio, pathology, ati ophthalmology."
+    },
+    "pathologyAI": {
+      "title": "Ẹkọ aisan ara AI Iranlọwọ",
+      "description": "Awọn ohun elo ẹkọ ti o jinlẹ ni imọ-jinlẹ oni-nọmba fun wiwa akàn ati ilọsiwaju deede iwadii."
+    },
+    "dermatologyAI": {
+      "title": "Ẹkọ nipa iwọ-ara AI Solutions",
+      "description": "Ṣiṣawari ipo awọ ara ti o ni agbara AI ati iwadii nipa lilo iran kọnputa ati ẹkọ ẹrọ."
+    },
+    "mentalHealthAI": {
+      "title": "Opolo Health ati AI",
+      "description": "Awọn ohun elo itetisi atọwọda ni ibojuwo ilera ọpọlọ, iwadii aisan, ati atilẹyin itọju."
+    },
+    "accuracyStudies": {
+      "title": "Awọn ẹkọ Ipeye AI",
+      "description": "Ifọwọsi ile-iwosan ati awọn metiriki iṣẹ ṣiṣe ti awọn eto iwadii AI ni awọn eto ilera gidi-aye."
+    }
+  },
+  "whitepapers": {
+    "downloadPdf": "Ṣe igbasilẹ PDF",
+    "generating": "Ṣiṣẹda...",
+    "abstract": "Áljẹbrà",
+    "introduction": "Ọrọ Iṣaaju",
+    "methods": "Awọn ọna / Awọn ọna ẹrọ",
+    "results": "Esi",
+    "discussion": "Ifọrọwanilẹnuwo",
+    "conclusion": "Ipari",
+    "references": "Awọn itọkasi",
+    "authors": "Awọn onkọwe",
+    "email": "Imeeli",
+    "organization": "Ajo"
+  },
+  "imageProcessing": {
+    "preset": "Tito tẹlẹ",
+    "process": "Ilana",
+    "revert": "Pada",
+    "applyPreset": "Waye tito tẹlẹ si aworan ni idojukọ",
+    "revertFocus": "Tun-dojukọ lori atilẹba aworan"
+  },
+  "alt": {
+    "logo": "Logo VirtualMD.app",
+    "logoSmall": "MindScript Kekere Logo",
+    "integratedApproach": "Isepo alafia ona",
+    "userProfile": "Profaili olumulo",
+    "aiDoctor": "AI Health Amoye Carol",
+    "aiAssistant": "AI Iranlọwọ",
+    "backgroundImage": "Lẹwa isale aworan",
+    "home": "Ile MindScript",
+    "processed": "Aworan ti a ṣe ilana",
+    "zoomPreview": "Awotẹlẹ sun aworan"
+  },
+  "aria": {
+    "scrollDown": "Yi lọ si isalẹ",
+    "scrollUp": "Yi lọ soke",
+    "openMenu": "Ṣii akojọ aṣayan",
+    "togglePassword": "Yi hihan ọrọ igbaniwọle pada",
+    "chooseLanguage": "Yan ede",
+    "goHome": "Lọ si oju-ile",
+    "remove": "Yọ kuro",
+    "edit": "Ṣatunkọ",
+    "delete": "Paarẹ",
+    "save": "Fipamọ",
+    "cancel": "Fagilee",
+    "breadcrumb": "breadcrumb lilọ kiri",
+    "conversationChoice": "Aṣayan ibaraẹnisọrọ",
+    "personaChoice": "Aṣayan eniyan",
+    "panel": "Igbimọ",
+    "summary": "Lakotan",
+    "differentialOpinion": "Iyatọ Ero",
+    "transcript": "Tiransikiripiti",
+    "encyclopedia": "Encyclopedia",
+    "endConversation": "Ibaraẹnisọrọ Pari",
+    "startChat": "Bẹrẹ iwiregbe pẹlu ẹgbẹ",
+    "configureChat": "Tunto titun iwiregbe",
+    "savedConsultations": "Awọn ijumọsọrọ ti o fipamọ",
+    "myProfile": "Profaili Mi"
+  },
+  "researchPage": {
+    "title": "Iwadi & Awọn atẹjade",
+    "healthAdvisory": {
+      "title": "Ilera Advisory",
+      "description": "Alaye pataki ilera ati ailewu",
+      "button": "Wo Advisory"
+    },
+    "imagingAI": {
+      "title": "AI ni Aworan Aisan",
+      "description": "Awọn ohun elo AI ni aworan ilera kọja redio, pathology, ati ophthalmology",
+      "button": "Ka siwaju"
+    },
+    "pathologyAI": {
+      "title": "AI-Iranlọwọ Ẹkọ aisan ara",
+      "description": "Awọn ohun elo ẹkọ ti o jinlẹ ni imọ-jinlẹ oni-nọmba fun wiwa akàn ati iṣedede ayẹwo",
+      "button": "Ka siwaju"
+    },
+    "dermatologyAI": {
+      "title": "Awọn solusan AI ni Ẹkọ nipa iwọ-ara",
+      "description": "Ṣiṣawari ipo awọ ara ti o ni agbara AI ati iwadii nipa lilo iran kọnputa ati ẹkọ ẹrọ",
+      "button": "Ka siwaju"
+    },
+    "mentalHealthAI": {
+      "title": "Opolo Health & AI",
+      "description": "Awọn ohun elo AI ni ibojuwo ilera ọpọlọ, iwadii aisan, ati atilẹyin itọju",
+      "button": "Ka siwaju"
+    },
+    "dataPrivacy": {
+      "title": "Asiri Data & Aabo",
+      "description": "Idaabobo data ilera, ibamu HIPAA, ati awọn aabo ikọkọ",
+      "button": "Ka siwaju"
+    },
+    "aiAccuracy": {
+      "title": "Awọn ẹkọ Ipeye AI",
+      "description": "Ifọwọsi ile-iwosan ati awọn metiriki iṣẹ ṣiṣe ti awọn eto iwadii AI ni awọn eto ilera gidi-aye",
+      "button": "Ka siwaju"
+    },
+    "aiForLaypeople": {
+      "title": "AI fun Gbogbo eniyan",
+      "description": "Loye ilera AI ni awọn ofin ti o rọrun - ko si abẹlẹ imọ-ẹrọ ti o nilo",
+      "button": "Ka siwaju"
+    }
+  },
+  "dialogs": {
+    "startWithDefault": "Bẹrẹ pẹlu Health Amoye Carol",
+    "startWithSpecific": "Bẹrẹ pẹlu {{name}}",
+    "longRecording": {},
+    "shortConv": {}
+  },
+  "team": {
+    "myAIHealthTeam": "Ẹgbẹ Ilera AI mi",
+    "addMembersInstruction": "Ṣafikun awọn ọmọ ẹgbẹ ẹgbẹ nipa tite lori kaadi ni apa ọtun.",
+    "maxTeamSizeNote": "O pọju ti awọn onimọran AI marun ni a le ṣafikun si ẹgbẹ rẹ. O le yi ẹgbẹ rẹ pada nigbakugba, ṣugbọn kii ṣe lakoko ijumọsọrọ kan.",
+    "starting": "Bibẹrẹ...",
+    "startTeamConsult": "Bẹrẹ Ijumọsọrọ Ẹgbẹ",
+    "startConsultationWithTeam": "Bẹrẹ Ijumọsọrọ pẹlu Ẹgbẹ rẹ"
+  },
+  "newConversation": {
+    "aileenCarolOnly": "Health Amoye Carol Nikan",
+    "oneOnOne": "Ọkan-lori-Ọkan",
+    "consultationChoice": {
+      "question": "Pẹlu tani iwọ yoo fẹ lati kan si alagbawo loni?"
+    },
+    "options": {
+      "allAdvisers": "Gbogbo Awọn onimọran Ilera AI mi",
+      "allAdvisersCarolOnly": "Gbogbo Awọn oludamọran Ilera AI Mi (Amọye Ilera AI Carol nikan)",
+      "chooseSpecific": "Yan Specific lati Atokọ Mi"
+    },
+    "tooltips": {
+      "noAdvisersSelected": "Ko si awọn oludamọran ti a yan ninu profaili rẹ.",
+      "loadingAdvisers": "Nkojọpọ awọn alamọran rẹ...",
+      "noOtherAdvisers": "Ko si awọn oludamọran miiran ninu atokọ rẹ lati yan lati. Fi diẹ sii ninu profaili rẹ."
+    },
+    "errors": {
+      "loadingAdvisers": "Aṣiṣe ikojọpọ data onimọran."
+    },
+    "buttons": {
+      "cancel": "Fagilee",
+      "next": "Itele",
+      "start": "Bẹrẹ"
+    }
+  },
+  "aiAccuracyWhitepaper": {
+    "section1": {},
+    "section2": {
+      "aiSuccess": {},
+      "aiErrors": {},
+      "aiVsHuman": {}
+    },
+    "section3": {
+      "challenges": {}
+    },
+    "section4": {
+      "guidelines": {}
+    },
+    "section5": {}
+  },
+  "imagingAIExplainer": {
+    "whatIsImaging": {
+      "types": {}
+    },
+    "whatIsAI": {},
+    "howAIHelps": {
+      "accuracy": {},
+      "speed": {},
+      "consistency": {}
+    },
+    "challenges": {},
+    "conclusion": {}
+  },
+  "mentalHealthWhitepaper": {
+    "disclaimer": {},
+    "abstract": {},
+    "introduction": {},
+    "methods": {},
+    "results": {
+      "diagnosticSupport": {},
+      "therapeuticApplications": {},
+      "patientMonitoring": {}
+    },
+    "discussion": {},
+    "conclusion": {}
+  },
+  "audio": {},
+  "autoListening": {},
+  "speech": {},
+  "help": {},
+  "upload": {},
+  "fileUpload": {},
+  "input": {},
+  "send": {},
+  "controls": {
+    "aiSpeaker": "AI Agbọrọsọ",
+    "cameraUpload": "Kamẹra/Po si",
+    "status": {
+      "enabled": "Ti ṣiṣẹ",
+      "disabled": "Alaabo"
+    }
+  },
+  "welcome": {},
+  "account": {},
+  "participants": {},
+  "mobileChat": {},
+  "sidebar": {
+    "differentialOpinion": "Iyatọ Ero"
+  },
+  "bioPanel": {},
+  "conversations": {},
+  "mobileConsultations": {},
+  "encyclopedia": {},
+  "imageContext": {},
+  "profile": {},
+  "sidebarHeader": {
+    "plusBadge": "+"
+  },
+  "messages": {},
+  "sidebarFooter": {},
+  "summary": {},
+  "teamBuilder": {
+    "steps": {},
+    "alerts": {},
+    "existingTeam": {},
+    "primaryConcerns": {},
+    "healthConditions": {},
+    "urgencySymptoms": {},
+    "medicinePreferences": {},
+    "additionalInfo": {},
+    "aileenCarolIntro": {},
+    "buttons": {},
+    "dialogs": {}
+  },
+  "aileenCarol": {},
+  "transcript": {},
+  "registerPage": {},
+  "legal": {
+    "eligibility": {},
+    "feesAndPayment": {},
+    "termination": {}
+  },
+  "aboutEncyclopediaPage": {},
+  "loginPage": {},
+  "mobileTeamBuilder": {
+    "carolMessages": {},
+    "questionnaire": {},
+    "title": {},
+    "carolGreeting": {}
+  },
+  "mobileNavigation": {},
+  "mobileWelcome": {},
+  "mobileRouter": {},
+  "mobileInput": {},
+  "mobileProfile": {},
+  "clinicianInfoPage": {},
+  "contactPage": {},
+  "dataPrivacyWhitepaper": {
+    "sections": {},
+    "hero": {},
+    "privacyPledge": {
+      "secureInfo": {},
+      "noPersonalUse": {},
+      "neverSell": {},
+      "anonymizedData": {}
+    },
+    "securityLevels": {
+      "accountSecurity": {},
+      "hipaaHistory": {}
+    },
+    "mindscriptSecurity": {},
+    "hipaaConsiderations": {},
+    "userResponsibility": {},
+    "privacyScenarios": {},
+    "conclusion": {}
+  },
+  "encyclopediaPage": {},
+  "evidencePage": {
+    "researchEvidence": {
+      "radiology": {},
+      "pathology": {},
+      "dermatology": {},
+      "mentalHealthResearch": {}
+    },
+    "wellnessInsights": {
+      "personalizedWellness": {},
+      "holisticSignals": {},
+      "proactiveWellbeing": {},
+      "aiEnhancedClarity": {}
+    }
+  },
+  "featuresPage": {
+    "features": {
+      "instantWellnessInsights": {},
+      "holisticWellnessPicture": {},
+      "diverseAIPerspectives": {},
+      "everEvolvingIntelligence": {}
+    }
+  },
+  "healthAdvisoryPage": {
+    "sections": {
+      "consultation": {
+        "emergency": {}
+      },
+      "technology": {},
+      "disclaimer": {
+        "points": {}
+      }
+    }
+  },
+  "medicalImageProcessingPage": {},
+  "mentalHealthInfoPage": {},
+  "nurseInfoPage": {},
+  "patientInfoPage": {},
+  "pharmacistInfoPage": {},
+  "physicianInfoPage": {},
+  "wellnessPathwaysPage": {},
+  "whyVirtualMD": {
+    "sections": {
+      "whyUs": {
+        "points": {
+          "personalTeam": {},
+          "aiNavigator": {},
+          "empoweringChoices": {},
+          "easyToUse": {},
+          "advancedTechnology": {}
+        }
+      },
+      "hero": {},
+      "features": {
+        "points": {
+          "dynamicEnsemble": {},
+          "holisticUnderstanding": {},
+          "rapidAccess": {},
+          "reliableInteractions": {},
+          "insightfulLogs": {}
+        }
+      },
+      "technology": {},
+      "cta": {}
+    }
+  },
+  "yourHealthInYourHandsPage": {
+    "sections": {
+      "uniqueProfile": {},
+      "personalizedGoals": {},
+      "diverseInsights": {},
+      "proactivePartner": {}
+    },
+    "callToAction": {}
+  },
+  "session_complete": "Ikoni Pari",
+  "your_free_trial_has_ended": "Idanwo Ọfẹ Rẹ ti pari",
+  "united_kingdom:_dial_999_or_11": "United Kingdom: Tẹ 999 tabi 112",
+  "melanoma_and_skin_cancer_detec": "Melanoma ati Iwari Akàn Awọ",
+  "process_transactions_and_send_": "Awọn iṣowo ilana ati firanṣẹ alaye ti o jọmọ, pẹlu awọn ijẹrisi ati awọn iwe-ẹri (ti o ba wulo).",
+  "information_we_collect": "Alaye A Gba",
+  "in_a_medical_emergency:": "Ninu pajawiri iṣoogun:",
+  "in_response_to_legal_process:": "Ni Idahun si Ilana Ofin:",
+  "loading_chat": "Nkojọpọ iwiregbe...",
+  "redirecting": "Ndarí...",
+  "israel:_dial_101_(magen_david_": "Israeli: Tẹ 101 ()",
+  "unlimited_messages_with_ai_doc": "Awọn ifiranṣẹ ailopin pẹlu awọn amoye ilera AI",
+  "contact_information": "Ibi iwifunni",
+  "real-world_implementation_and_": "Imuse gidi-aye ati Awọn ohun elo Alagbeka",
+  "your_access_to_or_use_of_or_in": "Wiwọle si TABI LILO TABI AILẸ LATI WẸ TABI LO Iṣẹ naa;",
+  "your_computer_may_temporarily_": "Kọmputa rẹ le tọju awọn ẹda iru awọn ohun elo fun igba diẹ sinu Ramu lairotẹlẹ si iraye si ati wiwo awọn ohun elo yẹn.",
+  "please_select_only_one_special": "Jọwọ yan alamọja kan nikan fun ijumọsọrọ aladani.",
+  "references": "Awọn itọkasi",
+  "business_transfers:": "Awọn gbigbe Iṣowo:",
+  "account_information:": "Alaye Account:",
+  "provide,_operate,_maintain,_an": "Pese, ṣiṣẹ, ṣetọju, ati ilọsiwaju Iṣẹ naa.",
+  "assignment": "Iṣẹ iyansilẹ",
+  "sandymiles@mindspringhealth": "sandymiles@mindspring.health",
+  "ai-generated_content_may_conta": "Akoonu ti o ṣe ipilẹṣẹ AI le ni awọn aṣiṣe ninu tabi awọn aṣiṣe laibikita awọn ilana afọwọsi ti o lagbara wa",
+  "display_name": "Fi oruko han",
+  "any_content_obtained_from_the_": "Akoonu KANKAN TI O GBA LATI IṢẸ; TABI",
+  "you_may_store_files_that_are_a": "O le fi awọn faili pamọ laifọwọyi nipasẹ ẹrọ aṣawakiri wẹẹbu rẹ fun awọn idi imudara ifihan.",
+  "start_new_health_consultation": "Bẹrẹ Ijumọsọrọ Ilera Tuntun",
+  "entire_agreement": "Gbogbo Adehun",
+  "ophthalmology": "Ophthalmology",
+  "not": "KO",
+  "exit_conversation?": "Jade Ọrọ sisọ?",
+  "grading_and_classification": "Igbelewọn ati Classification",
+  "unauthorized_access,_use,_or_a": "Wiwọle laigba aṣẹ, LILO, TABI Iyipada awọn gbigbe tabi Akoonu Rẹ (pẹlu awọn irufin data), Paapaa ti ẸRỌ NIPA TI ṢEṢE Awọn iwọn Aabo ti o ni oye bi A ti ṣe alaye ninu Awọn ofin wọnyi ati EPO Aṣiri.",
+  "checking_server_status": "Ṣiṣayẹwo ipo olupin...",
+  "not_a_hipaa-compliant_service": "KO IṢẸ HIPAA-FARA",
+  "radiology": "Radiology",
+  "united_states:_dial_911": "Orilẹ Amẹrika: Tẹ 911",
+  "save_and_review_conversation_h": "Fipamọ ati atunyẹwo itan ibaraẹnisọrọ",
+  "abstract": "Áljẹbrà",
+  "starting_your_consultation": "Bibẹrẹ ijumọsọrọ rẹ...",
+  "digital_pathology_overview": "Digital Ẹkọ aisan ara Akopọ",
+  "reasonable_business_security_p": "awọn iṣe aabo iṣowo ti o tọ laarin Amẹrika",
+  "loading_transcript": "Nkojọpọ iwe afọwọkọ...",
+  "cookies_and_similar_technologi": "Awọn kuki ati Awọn imọ-ẹrọ to jọra:",
+  "internal_medicine": "Ti abẹnu Nini alafia",
+  "no_specialists_currently_in_th": "Ko si awọn alamọja lọwọlọwọ ninu iwiregbe yii.",
+  "discussion": "Ifọrọwanilẹnuwo",
+  "updating_team": "Nmu egbe dojuiwọn...",
+  "your_privacy_choices": "Awọn Aṣayan Aṣiri Rẹ",
+  "error:_unknown_active_chat_vie": "Aṣiṣe: Wiwo iwiregbe ti nṣiṣe lọwọ Aimọ.",
+  "create_more_than_one_account_f": "Ṣẹda iroyin diẹ sii ju ọkan lọ fun ara rẹ.",
+  "improve_the_accuracy,_efficacy": "Ṣe ilọsiwaju deede, imunadoko, ati ailewu ti awọn awoṣe AI wa ati awọn ẹya ipilẹ ni lilo data ailorukọ ati akojọpọ.",
+  "user_content:": "Akoonu olumulo:",
+  "mindscript_does_not_provide_me": "MindScript ko pese ayẹwo iṣoogun tabi itọju",
+  "communicate_with_you_about_pro": "Ṣe ibasọrọ pẹlu rẹ nipa awọn ọja, awọn iṣẹ, awọn ipese, awọn igbega, awọn ere, ati awọn iṣẹlẹ ti a funni nipasẹ MindScript ati awọn miiran, ati pese awọn iroyin ati alaye ti a ro pe yoo jẹ anfani si ọ (koko ọrọ si awọn ẹtọ ijade rẹ).",
+  "aggregated_or_de-identified_da": "Akopọ tabi De-Idamo Data:",
+  "canada:_dial_911": "Canada: Tẹ 911",
+  "retry": "Tun gbiyanju",
+  "other_locations:_contact_your_": "Awọn ipo miiran: Kan si awọn iṣẹ pajawiri ti agbegbe rẹ lẹsẹkẹsẹ",
+  "ron_rubin,_phd_and_sandy_miles": "Ron Rubin, PhD ati Sandy Miles",
+  "australia:_dial_000_or_112": "Australia: Tẹ 000 tabi 112",
+  "data_deletion:": "Paarẹ data:",
+  "we_do_not_guarantee_the_absolu": "A KO ṣe idaniloju Aabo pipe ti ALAYE RẸ",
+  "send_technical_notices,_update": "Firanṣẹ awọn akiyesi imọ-ẹrọ, awọn imudojuiwọn, awọn itaniji aabo, ati atilẹyin ati awọn ifiranṣẹ iṣakoso.",
+  "consultation_summary": "Ijumọsọrọ Lakotan",
+  "waiver": "Idaduro",
+  "access_to_all_medical_specialt": "Wiwọle si gbogbo awọn pataki ilera",
+  "no_profile_data_available": "Ko si data profaili to wa.",
+  "no_summary_available": "Ko si akopọ ti o wa.",
+  "test_app_-_mindscript": "Idanwo App - MindScript",
+  "respond_to_your_comments,_ques": "Dahun si awọn asọye rẹ, awọn ibeere, ati awọn ibeere ati pese iṣẹ alabara.",
+  "not_hipaa_compliant": "KO HIPAA ni ifaramọ",
+  "force_majeure": "Force Majeure",
+  "you_may_print_or_download_one_": "O le tẹjade tabi ṣe igbasilẹ ẹda kan ti nọmba awọn oju-iwe ti o ni oye ti Aye fun ti ara rẹ, lilo alaye ti kii ṣe ti owo kii ṣe fun ẹda siwaju, titẹjade, tabi pinpin.",
+  "dr_aileen_carol": "Ilera Amoye Aileen Carol",
+  "family_medicine": "Nini alafia idile",
+  "headings": "Awọn akọle",
+  "note_on_ai_aileencarol's_particip": "Akiyesi lori Ikopa Ilera AI Carol:",
+  "ronrubin@mindscripthealth": "ronrubin@virtuald.app",
+  "share_your_account_credentials": "Pin awọn iwe-ẹri akọọlẹ rẹ tabi gba awọn miiran laaye lati wọle si akọọlẹ rẹ (ayafi bi a ti gba laaye ni gbangba fun awọn akọọlẹ iṣeto).",
+  "email_cannot_be_changed": "Imeeli ko le yipada.",
+  "your_unique_medical_history,_c": "Itan ilera alailẹgbẹ rẹ, awọn ipo, ati awọn ayidayida nilo igbelewọn alamọdaju",
+  "changes_to_these_terms_and_pol": "Awọn iyipada si Awọn ofin ati Ilana wọnyi",
+  "other_ai_specialists": "Miiran AI Specialists",
+  "full_name": "Akokun Oruko",
+  "governing_law_and_dispute_reso": "Ofin ti o nṣakoso ati ipinnu ariyanjiyan",
+  "loading…": "Nkojọpọ…",
+  "personalized_health_insights": "Awọn oye ilera ti ara ẹni",
+  "gastroenterology": "Gastroenterology",
+  "use_of_the_service_by_children": "Lilo Iṣẹ naa nipasẹ awọn ọmọde ti ni idinamọ.",
+  "introduction": "Ọrọ Iṣaaju",
+  "use_another_user's_account_wit": "Lo akọọlẹ olumulo miiran laisi igbanilaaye.",
+  "if_you_can_see_this,_react_is_": "Ti o ba le rii eyi, React n ṣiṣẹ!",
+  "ronrubin@mindspringhealth": "ronrubin@mindspring.health",
+  "children's_privacy": "Omode Asiri",
+  "provide_false_or_misleading_in": "Pese alaye eke tabi ṣinilona lakoko iforukọsilẹ tabi ni profaili akọọlẹ rẹ.",
+  "talk_to_a_specialist": "Ọrọ lati a Specialist",
+  "cannot": "KO LE",
+  "how_we_use_information": "Bawo ni A Lo Alaye",
+  "results": "Esi",
+  "loading_participants": "Nkojọpọ awọn olukopa...",
+  "sandymiles@mindscripthealth": "sandymiles@virtuald.app",
+  "this_feature_is_coming_soon": "Ẹya yii n bọ laipẹ!",
+  "start_or_continue_conversation": "Bẹrẹ tabi Tẹsiwaju ibaraẹnisọrọ",
+  "international_data_transfers": "International Data Gbigbe",
+  "loading_bio": "Nkojọpọ bio...",
+  "termination": "Ifopinsi",
+  "no_image_active": "Ko si aworan ti nṣiṣe lọwọ.",
+  "no_ai_health_advisers_selected": "Ko si awọn oludamọran ilera AI ti a yan. O le ṣakoso awọn onimọran rẹ ninu profaili rẹ.",
+  "dr_daniel_garcia": "Health Amoye Daniel Garcia",
+  "no_other_specialists_available": "Ko si awọn alamọja miiran ti o wa lati ṣafikun.",
+  "carry_out_any_other_purpose_de": "Ṣe eyikeyi idi miiran ti a ṣapejuwe fun ọ ni akoko gbigba alaye naa.",
+  "data_retention": "Idaduro data",
+  "informational_and_educational_": "ALAYE ATI IDI ẸKỌ NIKAN",
+  "miscellaneous": "Oriṣiriṣi",
+  "non-cancerous_skin_condition_c": "Ti kii-Cancerous ara Ipò Classification",
+  "pathology": "Ẹkọ aisan ara",
+  "promotional_communications:": "Awọn ibaraẹnisọrọ igbega:",
+  "info@mindscripthealth": "info@virtuald.app",
+  "methods/technologies": "Awọn ọna / Awọn ọna ẹrọ",
+  "how_we_share_information": "Bawo ni A Pin Alaye",
+  "loading_profile": "Nkojọpọ profaili...",
+  "personalize_and_improve_the_se": "Ṣe akanṣe ati ilọsiwaju Iṣẹ naa ki o pese akoonu tabi awọn ẹya ti o baamu awọn profaili olumulo tabi awọn iwulo.",
+  "with_vendors_and_service_provi": "Pẹlu Awọn olutaja ati Awọn Olupese Iṣẹ:",
+  "health_information_may_become_": "Alaye ilera le di igba atijọ bi imọ ilera ṣe n dagbasoke",
+  "with_whom_would_you_like_to_co": "Pẹlu tani iwọ yoo fẹ lati kan si alagbawo loni?",
+  "mindscript_content:": "Akoonu MindScript:",
+  "cookies:": "Awọn kuki:",
+  "detect,_investigate,_and_preve": "Wa, ṣe iwadii, ati ṣe idiwọ awọn iṣowo arekereke ati awọn iṣe arufin miiran ati daabobo awọn ẹtọ ati ohun-ini ti MindScript ati awọn miiran.",
+  "medical_advice_requires_person": "Imọran ilera nilo igbelewọn ara ẹni nipasẹ awọn olupese ilera ti o ni iwe-aṣẹ",
+  "create_an_account_for_anyone_o": "Ṣẹda akọọlẹ kan fun ẹnikẹni miiran yatọ si ara rẹ laisi igbanilaaye.",
+  "options": "Awọn aṣayan",
+  "cannot_and_will_not_sue_or_hol": "KO le ati pe kii yoo fi ẹsun kan tabi mu awọn imọ-ẹrọ imọ-ọrọ mọlẹ, LLC, awọn alafaramo rẹ, awọn alaṣẹ, awọn oludari, awọn oṣiṣẹ, awọn aṣoju, tabi awọn iwe-aṣẹ",
+  "with_your_consent:": "Pẹlu Igbanilaaye Rẹ:",
+  "add_specialists_to_your_team": "fi ojogbon si rẹ egbe",
+  "usage_information:": "Alaye Lilo:",
+  "any_conduct_or_content_of_any_": "IWA TABI AKỌỌỌ NIPA KANKAN TI ẸTA KẸTA LORI IṢẸRỌ NAA, PẸLU LAISI OPIN, EYIKEYI IDI, Ẹṣẹ, TABI IWA Aimọfin ti awọn olumulo miiran tabi awọn ẹgbẹ kẹta;",
+  "do_not_meet_the_specific_admin": "maṣe pade awọn ibeere aabo ti iṣakoso, ti ara, ati imọ-ẹrọ ti a fun ni aṣẹ nipasẹ Ofin Aabo HIPAA fun mimu PHI.",
+  "legal@mindscripthealth": "ofin@virtuald.app",
+  "cancel": "Fagilee",
+  "conclusion": "Ipari",
+  "professional_health_insights_a": "Awọn oye ilera ọjọgbọn ati itọsọna",
+  "cancer_detection": "Akàn erin",
+  "your_specialist_team_is_empty_": "Ẹgbẹ pataki rẹ ti ṣofo. Ṣafikun awọn alamọja ni isalẹ.",
+  "workflow_optimization": "Iṣapejuwe iṣan-iṣẹ",
+  "select_ai_specialists": "Yan AI Specialists",
+  "monitor_and_analyze_trends,_us": "Atẹle ati itupalẹ awọn aṣa, lilo, ati awọn iṣe ni asopọ pẹlu Iṣẹ wa.",
+  "severability": "Iyara",
+  "access_to_cardiology_and_neuro": "Wiwọle si Ẹkọ nipa ọkan ati awọn alamọja Neurology",
+  "searchLanguages": "Wa awọn ede...",
+  "noLanguagesFound": "Ko si awọn ede ti a rii",
+  "you": "Iwọ",
+  "manageTeam": {
+    "title": "Ṣakoso Ẹgbẹ Ilera AI Mi (Max {{maxTeamMembers}} Awọn alamọja)",
+    "currentTeamCount": "Ẹgbẹ Rẹ lọwọlọwọ ({{lọwọlọwọ}}/{{max}})",
+    "updatingTeam": "Nmu egbe dojuiwọn...",
+    "coordinatorLabel": " (Alakoso)",
+    "alwaysIncluded": "Nigbagbogbo pẹlu",
+    "specialistFallback": "Ogbontarigi",
+    "emptyTeamMessage": "Ẹgbẹ pataki rẹ ti ṣofo. Ṣafikun awọn alamọja ni isalẹ.",
+    "teamFullMessage": "Ẹgbẹ rẹ ti kun (Max {{maxTeamMembers}} awọn alamọja). Jọwọ yọ ọmọ ẹgbẹ kan kuro ti o ba fẹ lati ṣafikun alamọja ti o yatọ.",
+    "otherSpecialistsTitle": "Miiran AI Specialists",
+    "addToTeamTooltip": "Fi si ẹgbẹ",
+    "teamFullTooltip": "Egbe ti kun",
+    "systemSpecialistFallback": "System Specialist",
+    "noSpecialistsAvailable": "Ko si awọn alamọja miiran ti o wa lati ṣafikun."
+  },
+  "personas": {
+    "defaultSpecialist": "AI Specialist"
+  },
+  "personaList": {
+    "noSpecialistsFound": "Ko si awọn alamọja AI ti a rii."
+  },
+  "guest": {
+    "user": "Alejo User",
+    "userObject": {
+      "displayName": "Alejo User",
+      "email": "alejo@virtuald.app"
+    },
+    "registration": {
+      "prompt": "Forukọsilẹ fun iraye ni kikun si ẹgbẹ ilera AI pipe, itan-akọọlẹ ibaraẹnisọrọ, ati awọn ẹya ilọsiwaju.",
+      "dialogTitle": "Awọn olumulo ti o forukọsilẹ ni aye si {{specialistName}}",
+      "dialogDescription": "{{specialistName}} jẹ́ ara ẹgbẹ́ ìlera aláfojúdi tó péye.",
+      "benefitsTitle": "Pẹlu akọọlẹ VirtualMD.app kan, iwọ yoo gba:",
+      "benefits": {
+        "access": "Wiwọle si awọn onimọran ilera AI ti o ju 60 lọ",
+        "personalized": "Awọn ijumọsọrọ ilera ti ara ẹni",
+        "saveConversations": "Fipamọ ati tẹsiwaju awọn ibaraẹnisọrọ",
+        "uploadImages": "Po si awọn aworan tabi ya wọn taara lati kọmputa rẹ/kamẹra",
+        "customTeam": "Kọ ẹgbẹ ilera aṣa tirẹ",
+        "availability": "24/7 wiwa fun ilera ibeere"
+      },
+      "buttons": {
+        "maybeLater": "Boya Nigbamii",
+        "registerNow": "Forukọsilẹ Bayi"
+      }
+    },
+    "registrationRequired": "Iforukọsilẹ beere",
+    "profileRegistrationRequired": "Profaili olumulo: ìforúkọsílẹ beere",
+    "landing": {
+      "title": "Ni iriri Ijumọsọrọ Ilera AI",
+      "subtitle": "Gba awọn oye ilera lẹsẹkẹsẹ lati ọdọ awọn alamọja ilera AI wa - ọfẹ patapata, ko si iforukọsilẹ ti o nilo",
+      "whatBringsYou": "Kini o mu wa si ibi loni?",
+      "selectConcern": "Yan ibakcdun ti o wọpọ tabi ṣapejuwe tirẹ",
+      "customConcernPlaceholder": "Tabi ṣe apejuwe ibakcdun ilera rẹ ni awọn ọrọ tirẹ…",
+      "startConsultation": "Bẹrẹ Ijumọsọrọ Ọfẹ",
+      "experienceIncludes": "Iriri Alejo Ọfẹ Pẹlu:",
+      "includes": {
+        "messages": "Awọn ifiranṣẹ 10 pẹlu awọn alamọja ilera AI",
+        "time": "Awọn iṣẹju 15 ti akoko ijumọsọrọ",
+        "insights": "Awọn oye ilera ọjọgbọn ati itọsọna"
+      },
+      "personas": {
+        "defaultSpecialist": "AI Specialist",
+        "aileen": {
+          "name": "Ilera Amoye Aileen Carol",
+          "specialty": "Nini alafia idile"
+        },
+        "daniel": {
+          "name": "Health Amoye Daniel Garcia",
+          "specialty": "Ti abẹnu Nini alafia"
+        }
+      }
+    },
+    "chat": {
+      "header": "AI Health ijumọsọrọ",
+      "messagesLeft": "{{count}} awọn ifiranṣẹ osi",
+      "timeLeft": "{{asiko ti o seku",
+      "startingConsultation": "Ijumọsọrọ rẹ n bẹrẹ. Alamọja ilera AI yoo dahun laipẹ.",
+      "aiTyping": "Alamọja AI n tẹ...",
+      "inputPlaceholder": "Ṣe apejuwe awọn aami aisan rẹ tabi beere ibeere kan ..."
+    },
+    "expired": {
+      "title": "Ijumọsọrọ Pari",
+      "subtitle": "O ti ni iriri agbara ijumọsọrọ ilera AI",
+      "messagesUsed": "O lo {{lo}} ti awọn ifiranṣẹ {{max}}",
+      "continuePrompt": "Ṣe o fẹ tẹsiwaju pẹlu iraye si ailopin?",
+      "createAccount": "Ṣẹda Account Ọfẹ",
+      "signIn": "wọle"
+    },
+    "errors": {
+      "startFailed": "Ko le bẹrẹ ijumọsọrọ. Jọwọ gbiyanju lẹẹkansi.",
+      "connectionLost": "Asopọ ti sọnu. Jọwọ sọ oju-iwe naa sọ.",
+      "sendFailed": "Kuna lati fi ifiranṣẹ ranṣẹ. Jọwọ gbiyanju lẹẹkansi."
+    },
+    "profile": {
+      "age": "25",
+      "gender": "Obirin",
+      "bloodType": "A+",
+      "height": "5'6\"",
+      "weight": "130 lbs",
+      "conditions": "Aini aipe irin, aiṣan ẹjẹ, Irẹwẹsi iwọntunwọnsi",
+      "medications": "Sulfate ferrous 325mg lojoojumọ, Sertraline 50mg lojoojumọ",
+      "allergies": "Kò mọ",
+      "healthInfo": "Mo ti n ṣe pẹlu rirẹ ati agbara kekere fun awọn oṣu 6 sẹhin. Onimọran ilera mi ṣe ayẹwo mi pẹlu ẹjẹ aipe iron ati pe Mo ti mu awọn afikun irin. Mo tun Ijakadi pẹlu şuga ati ki o bere antidepressants 3 osu seyin. Mo n wa imọran lori ṣiṣakoso awọn ipo mejeeji ati imudarasi awọn ipele agbara gbogbogbo mi.",
+      "emergencyContact": "Sarah Johnson (Arabinrin) - (555) 123-4567"
+    },
+    "experience": {
+      "tryItOut": "Gbiyanju o jade.",
+      "noObligation": "Ko si ọranyan.",
+      "subtitle": "O kan smidgeon ti ohun ti VirtualMD.app le ṣe fun ọ."
+    }
+  },
+  "aiPrefix": "AI",
+  "dashboard": "Dasibodu",
+  "teamRecommendation": {
+    "submission": {
+      "primaryConcernsLabel": "Kini awọn ifiyesi ilera akọkọ rẹ loni?",
+      "healthConditionsLabel": "Awọn ipo ilera wo ni o kan ọ?"
+    },
+    "defaults": {
+      "noneSpecified": "Ko si pato"
+    }
+  }
+}

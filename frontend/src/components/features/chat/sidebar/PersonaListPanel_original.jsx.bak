@@ -1,0 +1,330 @@
+// PersonaListPanel.jsx
+import React, { useState, useEffect } from 'react';
+import {
+  List,
+  ListItem,
+  ListItemButton,
+  ListItemText,
+  ListItemAvatar,
+  Avatar,
+  Typography,
+  IconButton,
+  ListItemSecondaryAction,
+  Tooltip,
+  Box,
+} from '@mui/material';
+import { useTranslation } from 'react-i18next';
+import MedicalServicesIcon from '@mui/icons-material/MedicalServices';
+import RemoveIcon from '@mui/icons-material/Remove';
+import InfoIcon from '@mui/icons-material/Info';
+import { constructImageUrl } from '../../../../utils/imageUtils';
+import translationService from '../../../../services/translationService';
+
+const PersonaListPanel = ({
+  personas = [],
+  onSelectPersona,
+  activePersonaId,
+  onRemovePersona,
+  nonRemovableIds = [],
+  showRemoveIcon = true,
+  onSendMessage, // New prop for sending "speak to" messages
+}) => {
+    const { t, i18n } = useTranslation('chat');
+    
+    // State for translated personas and caching
+    const [translatedPersonas, setTranslatedPersonas] = useState([]);
+    const [isTranslating, setIsTranslating] = useState(false);
+    const [translationCache, setTranslationCache] = useState({});
+
+    // Create cache key for personas data
+    const createCacheKey = (personasData, language) => {
+        if (!personasData || personasData.length === 0) return null;
+        // Create a simple hash based on persona IDs and language
+        const personaIds = personasData.map(p => p.id).sort().join(',');
+        return `personas_list_${personaIds}_${language}`;
+    };
+
+    // Translation effect - runs when personas or language changes
+    useEffect(() => {
+        const translatePersonasData = async () => {
+            console.log(`[PersonaListPanel] Translation effect triggered - personas:`, personas?.length, 'language:', i18n.language);
+            console.log(`[PersonaListPanel] Personas data:`, personas);
+            
+            if (!personas || personas.length === 0) {
+                console.log(`[PersonaListPanel] No personas, setting empty array`);
+                setTranslatedPersonas([]);
+                return;
+            }
+
+            const cacheKey = createCacheKey(personas, i18n.language);
+            console.log(`[PersonaListPanel] Cache key:`, cacheKey);
+
+            // Force fresh translation for debugging - skip cache
+            if (i18n.language !== 'en') {
+                console.log(`[PersonaListPanel] FORCING fresh translation for debugging`);
+                
+                setIsTranslating(true);
+
+                try {
+                    // Prepare texts for batch translation
+                    const textsToTranslate = [];
+                    personas.forEach((persona, index) => {
+                        console.log(`[PersonaListPanel] Processing persona ${index}:`, { name: persona.name, specialty: persona.specialty });
+                        
+                        // Handle name translation - preserve "AI" prefix
+                        if (persona.name) {
+                            if (persona.name.startsWith('AI ')) {
+                                const nameWithoutAI = persona.name.substring(3); // Remove "AI " prefix
+                                textsToTranslate.push({
+                                    type: 'name',
+                                    index,
+                                    text: nameWithoutAI,
+                                    hasAIPrefix: true
+                                });
+                                console.log(`[PersonaListPanel] Added name for translation:`, nameWithoutAI);
+                            } else {
+                                textsToTranslate.push({
+                                    type: 'name',
+                                    index,
+                                    text: persona.name,
+                                    hasAIPrefix: false
+                                });
+                            }
+                        }
+
+                        // Add specialty for translation
+                        if (persona.specialty) {
+                            textsToTranslate.push({
+                                type: 'specialty',
+                                index,
+                                text: persona.specialty
+                            });
+                            console.log(`[PersonaListPanel] Added specialty for translation:`, persona.specialty);
+                        }
+                    });
+
+                    console.log(`[PersonaListPanel] Texts to translate:`, textsToTranslate);
+
+                    // Use existing batch translation service with current language
+                    const translations = await translationService.batchTranslate(
+                        textsToTranslate.map(item => item.text),
+                        i18n.language
+                    );
+
+                    console.log(`[PersonaListPanel] Translation results:`, translations);
+
+                    // Apply translations back to personas
+                    const translatedPersonasData = personas.map((persona, index) => ({ ...persona }));
+
+                    translations.forEach((translation, translationIndex) => {
+                        const textItem = textsToTranslate[translationIndex];
+                        const personaIndex = textItem.index;
+
+                        console.log(`[PersonaListPanel] Processing translation ${translationIndex}:`, {
+                            original: textItem.text,
+                            translated: translation.translatedText,
+                            success: translation.success,
+                            type: textItem.type
+                        });
+
+                        if (translation.success) {
+                            if (textItem.type === 'name') {
+                                // Reconstruct name with AI prefix if it had one
+                                const newName = textItem.hasAIPrefix 
+                                    ? `AI ${translation.translatedText}`
+                                    : translation.translatedText;
+                                console.log(`[PersonaListPanel] Setting translated name:`, newName);
+                                translatedPersonasData[personaIndex].name = newName;
+                            } else if (textItem.type === 'specialty') {
+                                console.log(`[PersonaListPanel] Setting translated specialty:`, translation.translatedText);
+                                translatedPersonasData[personaIndex].specialty = translation.translatedText;
+                            }
+                        } else {
+                            console.warn(`[PersonaListPanel] Translation failed for:`, textItem.text, translation.error);
+                        }
+                    });
+
+                    console.log(`[PersonaListPanel] Final translated personas:`, translatedPersonasData);
+                    setTranslatedPersonas(translatedPersonasData);
+                } catch (error) {
+                    console.error('Error translating personas in PersonaListPanel:', error);
+                    setTranslatedPersonas(personas);
+                } finally {
+                    setIsTranslating(false);
+                }
+            } else {
+                console.log(`[PersonaListPanel] Language is English, using original personas`);
+                setTranslatedPersonas(personas);
+            }
+        };
+
+        translatePersonasData();
+    }, [personas, i18n.language]); // Remove translationCache dependency to force fresh translation
+
+    // Use translated personas for display
+    const displayPersonas = isTranslating ? personas : translatedPersonas;
+
+    // Helper to parse image data URI from database (handles potential JSON) - NO LONGER USED FOR PATHS
+    // const parseImageData = (imageData) => { ... }; // Commented out or remove
+
+    if (!displayPersonas || displayPersonas.length === 0) {
+        return (
+            <Typography variant="body2" color="text.secondary" sx={{ textAlign: 'center', mt: 2 }}>
+                No AI specialists found.
+            </Typography>
+        );
+    }
+    console.log("PersonaListPanel: Rendering with translated personas:", displayPersonas); // Log all personas data
+
+    return (
+        <List disablePadding>
+            {displayPersonas.map(persona => {
+                const isPersonaActive = persona.id === activePersonaId;
+                
+                let imagePath = null;
+                if (persona.image && typeof persona.image === 'string') {
+                    const trimmed = persona.image.trim();
+
+                    // ── Legacy JSON-string format ──────────────────────
+                    if (trimmed.startsWith('{')) {
+                        try {
+                            const imageData = JSON.parse(trimmed);
+                            if (imageData.light && typeof imageData.light === 'string' && imageData.light.trim() !== '') {
+                                imagePath = imageData.light;
+                            } else if (imageData.path && typeof imageData.path === 'string' && imageData.path.trim() !== '') {
+                                imagePath = imageData.path;
+                            } else {
+                               console.warn(`PersonaListPanel: Persona ${persona.id} has JSON image data but no 'light' or 'path' key:`, persona.image);
+                            }
+                        } catch (e) {
+                            console.error(`PersonaListPanel: Failed to parse persona.image JSON for ${persona.id}:`, persona.image, e);
+                        }
+
+                    // ── Current plain-string path format ──────────────
+                    } else {
+                        imagePath = trimmed; // e.g. "/persona_images/aileen-carol.png"
+                    }
+
+                } else if (persona.image && typeof persona.image === 'object' && persona.image !== null) {
+                    // If persona.image is already an object (e.g., from myAdvisers context which might pre-process it)
+                    if (persona.image.light && typeof persona.image.light === 'string') {
+                        imagePath = persona.image.light;
+                    } else if (persona.image.path && typeof persona.image.path === 'string') {
+                        imagePath = persona.image.path;
+                    } else if (typeof persona.image.src === 'string'){ // another common pattern
+                        imagePath = persona.image.src;
+                    } else {
+                        console.warn(`PersonaListPanel: Persona ${persona.id} has object image data with unknown structure:`, persona.image);
+                    }
+                }
+
+                console.log(`PersonaListPanel: Persona ID: ${persona.id}, original persona.image:`, JSON.stringify(persona.image), `, derived imagePath: ${imagePath}`);
+                const imageUrl = constructImageUrl(imagePath);
+                console.log(`PersonaListPanel: Persona ID: ${persona.id}, constructed imageUrl: ${imageUrl}`);
+
+                return (
+                    <ListItem key={persona.id} disablePadding sx={{ mb: 0.5 }}>
+                        <ListItemButton 
+                            onClick={() => {
+                                console.log('PersonaListPanel: Card clicked for', persona.name);
+                                // In pre-consultation mode, clicking the card shows the bio
+                                if (!onSendMessage) {
+                                    console.log('PersonaListPanel: Pre-consultation mode, showing bio');
+                                    onSelectPersona(persona.id);
+                                } else {
+                                    // During active chat, send "speak to" message
+                                    console.log('PersonaListPanel: Active chat mode, sending speak to message');
+                                    const message = `I would like to speak to ${persona.name}`;
+                                    console.log('PersonaListPanel: Sending message:', message);
+                                    onSendMessage(message);
+                                }
+                            }}
+                            selected={isPersonaActive}
+                            sx={{ 
+                                borderRadius: 1,
+                                position: 'relative',
+                            }}
+                        >
+                            <ListItemAvatar>
+                                <Avatar sx={{ bgcolor: 'primary.light' }}>
+                                    {imageUrl ? (
+                                        <img 
+                                            src={imageUrl}
+                                            alt={persona.name}
+                                            width="100%" 
+                                            height="100%" 
+                                            style={{ 
+                                                objectFit: 'cover', 
+                                                objectPosition: 'center top',
+                                                borderRadius: '50%' 
+                                            }}
+                                            onError={(e) => {
+                                                console.error(`PersonaListPanel: Error loading image for ${persona.id}: ${imageUrl}`, e);
+                                                e.target.onerror = null; 
+                                                // Replace with a visible icon placeholder inside Avatar
+                                                const avatarNode = e.target.parentNode;
+                                                if(avatarNode) {
+                                                    e.target.style.display = 'none'; // Hide broken img
+                                                    // Check if MedicalServicesIcon already there (to avoid duplicates if onError fires multiple times)
+                                                    if (!avatarNode.querySelector('.mui-fallback-icon')) {
+                                                        const icon = document.createElement('span');
+                                                        icon.className = 'mui-fallback-icon'; // for querySelector check
+                                                        // Can't directly render MUI icon here without React context, so use text or basic SVG if needed
+                                                        // For simplicity, we let the (imageUrl ? ... : <MedicalServicesIcon/>) handle it by re-render or ensure default is visible
+                                                        // The current logic will fall through to the MedicalServicesIcon outside this if image load fails and imageUrl becomes effectively null for rendering
+                                                    }
+                                                }
+                                            }}
+                                        />
+                                    ) : (
+                                        <MedicalServicesIcon />
+                                    )}
+                                </Avatar>
+                            </ListItemAvatar>
+                            <ListItemText 
+                                primary={persona.name} 
+                                secondary={persona.specialty} 
+                                primaryTypographyProps={{ 
+                                    variant: 'body2', 
+                                    fontWeight: isPersonaActive ? 'bold' : 'normal' 
+                                }}
+                                secondaryTypographyProps={{ variant: 'caption' }}
+                            />
+                            {/* Button container for remove button only */}
+                            <Box sx={{ 
+                                position: 'absolute', 
+                                bottom: 4, 
+                                right: 4, 
+                                display: 'flex', 
+                                gap: 0.5 
+                            }}>
+                                {/* Remove button - only show in pre-consultation when remove is allowed */}
+                                {showRemoveIcon && !nonRemovableIds.includes(persona.id) && !onSendMessage && (
+                                    <Tooltip title={t('team.removeFromTeam')}>
+                                        <IconButton 
+                                            size="small"
+                                            onClick={(e) => {
+                                                e.stopPropagation();
+                                                onRemovePersona(persona.id);
+                                            }}
+                                            sx={{ 
+                                                bgcolor: 'rgba(255, 255, 255, 0.9)',
+                                                '&:hover': { bgcolor: 'rgba(255, 255, 255, 1)' },
+                                                width: 24,
+                                                height: 24
+                                            }}
+                                        >
+                                            <RemoveIcon fontSize="small" />
+                                        </IconButton>
+                                    </Tooltip>
+                                )}
+                            </Box>
+                        </ListItemButton>
+                    </ListItem>
+                );
+            })}
+        </List>
+    );
+};
+
+export default PersonaListPanel;

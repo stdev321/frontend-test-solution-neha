@@ -1,0 +1,1270 @@
+{
+  "chatPage": {
+    "welcomeMessage": {
+      "current": "ברוכים הבאים ליעוץ הבריאות האישי שלכם",
+      "english": "Welcome to your personalized health consultation",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "selectPersona": {
+      "current": "בחר את איש המקצוע הרפואי שלך",
+      "english": "Choose Your Health Professional",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "loginPage": {
+    "subtitle": {
+      "current": "גישה ליעוץ הבריאות האישי שלך",
+      "english": "Access your personalized health consultations",
+      "contentType": "pageTitle",
+      "action": "retranslate-full"
+    }
+  },
+  "registerPage": {
+    "subtitle": {
+      "current": "הצטרף לאלפי משתמשים הקבלים הדרכה בריאותית אישית",
+      "english": "Join thousands of users getting personalized health guidance",
+      "contentType": "pageTitle",
+      "action": "retranslate-full"
+    },
+    "mustAgreeToTerms": {
+      "current": "עליך להסכים לתנאים והתניות כדי להירשם.",
+      "english": "You must agree to the Terms and Conditions to register.",
+      "contentType": "chip",
+      "action": "smart-shorten"
+    }
+  },
+  "contactPage": {
+    "description": {
+      "current": "יש לך שאלות על יעוץ הבריאות המבוסס בינה מלאכותית שלנו? אנחנו כאן לעזור.",
+      "english": "Have questions about our AI-powered health consultations? We're here to help.",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "researchPage": {
+    "subtitle": {
+      "current": "גלה את המדע מאחורי פתרונות הבריאות המבוססים בינה מלאכותית שלנו",
+      "english": "Discover the science behind our AI-powered health solutions",
+      "contentType": "pageTitle",
+      "action": "retranslate-full"
+    },
+    "healthAdvisory": {
+      "title": {
+        "current": "ייעוץ בריאות",
+        "english": "Health Advisory",
+        "contentType": "pageTitle",
+        "action": "retranslate-full"
+      },
+      "description": {
+        "current": "מידע חשוב על שימוש בבינה מלאכותית בבריאות ומתי להתייעץ עם ספקי בריאות אנושיים.",
+        "english": "Important information about using AI in healthcare and when to consult with human healthcare providers.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "button": {
+        "current": "קרא ייעוץ בריאות",
+        "english": "Read Health Advisory",
+        "contentType": "button",
+        "action": "retranslate-full"
+      }
+    },
+    "imagingAI": {
+      "title": {
+        "current": "סיוע בינה מלאכותית בהדמיה",
+        "english": "Imaging AI Assistance",
+        "contentType": "pageTitle",
+        "action": "retranslate-full"
+      }
+    },
+    "pathologyAI": {
+      "title": {
+        "current": "סיוע בינה מלאכותית בפתולוגיה",
+        "english": "Pathology AI Assistance",
+        "contentType": "pageTitle",
+        "action": "retranslate-full"
+      }
+    },
+    "dermatologyAI": {
+      "title": {
+        "current": "סיוע בינה מלאכותית בדרמטולוגיה",
+        "english": "Dermatology AI Assistance",
+        "contentType": "pageTitle",
+        "action": "retranslate-full"
+      },
+      "description": {
+        "current": "המחקר שלנו על יישומי בינה מלאכותית בדרמטולוגיה לגילוי וסיווג נגעי עור.",
+        "english": "Our research on AI applications in dermatology for skin lesion detection and classification.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      }
+    },
+    "mentalHealthAI": {
+      "title": {
+        "current": "תובנות בינה מלאכותית בבריאות נפש",
+        "english": "Mental Health AI Insights",
+        "contentType": "pageTitle",
+        "action": "retranslate-full"
+      },
+      "description": {
+        "current": "צלילה עמוקה לתפקיד הבינה המלאכותית בקידום הבריאות הנפשית, אבחון ויישומים טיפוליים.",
+        "english": "Deep dive into AI's role in advancing mental healthcare, diagnostics, and therapeutic applications.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      }
+    },
+    "aiAccuracy": {
+      "title": {
+        "current": "מחקרי דיוק בינה מלאכותית",
+        "english": "AI Accuracy Studies",
+        "contentType": "pageTitle",
+        "action": "retranslate-full"
+      },
+      "description": {
+        "current": "למד על המחקר שלנו על דיוק בינה מלאכותית באבחון רפואי והמלצות טיפול.",
+        "english": "Learn about our research on AI accuracy in medical diagnosis and treatment recommendations.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      }
+    },
+    "aiForLaypeople": {
+      "title": {
+        "current": "הדמיית בינה מלאכותית לציבור הרחב",
+        "english": "AI Imaging for Laypeople",
+        "contentType": "pageTitle",
+        "action": "retranslate-full"
+      },
+      "description": {
+        "current": "הסבר פשוט כיצד בינה מלאכותית משנה את ההדמיה הרפואית ומה זה אומר למטופלים.",
+        "english": "A simplified explanation of how AI is transforming medical imaging and what it means for patients.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      }
+    }
+  },
+  "evidencePage": {
+    "subtitle": {
+      "current": "מחקר עמיתים התומך בפלטפורמת הבריאות שלנו מבוססת AI",
+      "english": "Peer-reviewed research supporting our AI health platform",
+      "contentType": "pageTitle",
+      "action": "retranslate-full"
+    },
+    "heading": {
+      "current": "חלוצי עתיד הבריאות והרווחה",
+      "english": "Pioneering the Future of Health & Wellness",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "description2": {
+      "current": "VirtualMD.app-היא המהפכה בבריאות ורווחה, מבוססת על מחקר חדשני ומונעת מתשוקה לרווחה טרנספורמטיבית. אנחנו מדגימים את הכוח המוכח של AI תוך יצירת דרכים חדשות לרווחה אישית ופרואקטיבית. זה יותר מאפליקציה; זוהי פרדיגמה חדשה. הצטרפו למהפכה.",
+      "english": "VirtualMD.app is THE revolution in health and wellness, grounded in cutting-edge research and driven by a passion for transformative well-being. We demonstrate AI's proven power while forging new paths for personalized, proactive wellness. This is more than an app; it's a new paradigm. Be part of the revolution.",
+      "contentType": "description",
+      "action": "smart-shorten"
+    },
+    "researchEvidence": {
+      "mentalHealthResearch": {
+        "title": {
+          "current": "AI בבריאות הנפש: מחקר זיהוי מוקדם",
+          "english": "AI in Mental Health: Early Detection Research",
+          "contentType": "pageTitle",
+          "action": "retranslate-full"
+        },
+        "description": {
+          "current": "מחקרים מראים מערכות AI שמזהות סימני אזהרה מוקדמים של הישנות בבריאות הנפש, מה שמאפשר התערבות ותמיכה בזמן.",
+          "english": "Research shows AI systems detecting early warning signs of mental health relapses, enabling timely intervention and support.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      }
+    },
+    "wellnessInsights": {
+      "aiEnhancedClarity": {
+        "title": {
+          "current": "AI לעירנות משופרת ובהירות מנטלית",
+          "english": "AI for Enhanced Mindfulness & Mental Clarity",
+          "contentType": "pageTitle",
+          "action": "retranslate-full"
+        },
+        "description": {
+          "current": "ראה כיצד VirtualMD.app מציעה כלים ונקודות מבט לתמיכה במיקוד מנטלי, איזון רגשי ורווחה קוגניטיבית כוללת.",
+          "english": "See how VirtualMD.app offers tools and perspectives to support mental focus, emotional balance, and overall cognitive wellness.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      }
+    }
+  },
+  "featuresPage": {
+    "subtitle": {
+      "current": "כלי ייעוץ בריאות מקיפים מונעי AI",
+      "english": "Comprehensive AI-powered health consultation tools",
+      "contentType": "pageTitle",
+      "action": "retranslate-full"
+    }
+  },
+  "healthAdvisoryPage": {
+    "sections": {
+      "consultation": {
+        "description": {
+          "current": "למרות שמערכת הייעוץ הרפואי המבוססת בינה מלאכותית של מיינדסקריפט מספקת מידע בריאותי חשוב, קריטי להתייעץ תמיד עם ספקי שירותי בריאות אנושיים מוסמכים בכל דאגה רפואית. הרופאים הבעלי הסמכת הלוח שלנו פיתחו מערכת זו כדי להשלים, ולא להחליף, ייעוץ רפואי מקצועי.",
+          "english": "While VirtualMD's AI-powered medical consultation system provides valuable health information, it is critical to always consult with qualified human healthcare providers for any medical concerns. Our board-certified physicians developed this system to complement, not replace, professional medical advice.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      },
+      "technology": {
+        "title": {
+          "current": "הטכנולוגיה הרפואית המתקדמת של מיינדסקריפט",
+          "english": "VirtualMD's Advanced Medical AI Technology",
+          "contentType": "pageTitle",
+          "action": "retranslate-full"
+        },
+        "description1": {
+          "current": "מיינדסקריפט משתמשת באלגוריתמים הממתינים לפטנט שפותחו על ידי צוות הרופאים המיומנים בהרווארד ומומחי הבינה המלאכותית שלנו כדי לספק מידע בריאותי מדויק במיוחד. הפרסונות הרפואיות של הבינה המלאכותית שלנו מאומנות על ספרות רפואית נרחבת, הנחיות קליניות, ותרחישים רפואיים מהעולם האמיתי כדי לספק תובנות הדומות מאוד לאלו של מומחים עם הסמכת לוח.",
+          "english": "VirtualMD employs patent-pending algorithms developed by our team of Harvard-trained physicians and AI experts to deliver exceptionally accurate health information. Our AI physician personas are trained on extensive medical literature, clinical guidelines, and real-world medical scenarios to provide insights that closely mirror those of board-certified specialists.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        },
+        "description2": {
+          "current": "בהשוואות מבוקרות צד לצד לדיוק אבחנתי, המערכת שלנו הפגינה ביצועים מרשימים, לעיתים קרובות תואמת או עולה על התובנות של קלינאים מנוסים. הפרסונות הבינה המלאכותית שלנו יכולות לעבד אלפי מאמרי מחקר רפואיים, הנחיות ופרוטוקולים קליניים תוך שניות - ניגשות לידע מעבר למה שכל רופא אנושי יחיד יכול לשמור.",
+          "english": "In controlled side-by-side comparisons for diagnostic accuracy, our system has demonstrated remarkable performance, often matching or exceeding the insights of experienced clinicians. Our AI personas can process thousands of medical research papers, guidelines, and clinical protocols in seconds—accessing knowledge beyond what any single human physician could retain.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        },
+        "description3": {
+          "current": "למרות שאנו שואפים לדיוק יוצא דופן והצוות שלנו משפר כל הזמן את המערכת, הרפואה מורכבת ומצבי בריאות אישיים הם ייחודיים. זו הסיבה שעיצבנו את הפלטפורמה שלנו כדי להגביר - לא להחליף - את המומחיות החשובה של ספקי שירותי הבריאות האנושיים.",
+          "english": "While we strive for exceptional accuracy and our team continuously improves the system, medicine is complex and individual health situations are unique. That's why we've designed our platform to augment—not replace—the invaluable expertise of human healthcare providers.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      },
+      "disclaimer": {
+        "description": {
+          "current": "המידע הנמסר על ידי מיינדסקריפט והפרסונות הרפואיות של הבינה המלאכותית שלה הוא למטרות מידע וחינוך בלבד. על ידי שימוש בשירות זה, אתם מאשרים ומסכימים כי:",
+          "english": "The information provided by VirtualMD and its AI physician personas is for informational and educational purposes only. By using this service, you acknowledge and agree that:",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      }
+    }
+  },
+  "patientInfoPage": {
+    "subtitle": {
+      "current": "הדרכה בריאותית אישית בקצות האצבעות שלך",
+      "english": "Personalized health guidance at your fingertips",
+      "contentType": "pageTitle",
+      "action": "retranslate-full"
+    }
+  },
+  "mentalHealthInfoPage": {
+    "title": {
+      "current": "תמיכה בבריאות הנפש",
+      "english": "Mental Health Support",
+      "contentType": "pageTitle",
+      "action": "retranslate-full"
+    },
+    "subtitle": {
+      "current": "סקרינינג ותמיכה בבריאות הנפש בסיוע AI",
+      "english": "AI-assisted mental health screening and support",
+      "contentType": "pageTitle",
+      "action": "retranslate-full"
+    },
+    "description": {
+      "current": "מידע מפורט על אופן שבו VirtualMD.app מיטיבה למומחי בריאות נפש יהיה זמין כאן בקרוב.",
+      "english": "Detailed information about how VirtualMD.app benefits mental health specialists will be available here soon.",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "wellnessPathwaysPage": {
+    "subtitle": {
+      "current": "תכנון מסע בריאות אישי",
+      "english": "Personalized health journey planning",
+      "contentType": "pageTitle",
+      "action": "retranslate-full"
+    },
+    "description": {
+      "current": "גלה את הדרך שלך לבריאות ורווחה מיטביים.",
+      "english": "Discover your path to optimal health and wellness.",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "yourHealthInYourHandsPage": {
+    "title": {
+      "current": "הבריאות שלך בידיים שלך",
+      "english": "Your Health in Your Hands",
+      "contentType": "pageTitle",
+      "action": "retranslate-full"
+    },
+    "subtitle": {
+      "current": "מעצים אותך לקחת שליטה על הבריאות שלך",
+      "english": "Empowering you to take control of your health",
+      "contentType": "pageTitle",
+      "action": "retranslate-full"
+    },
+    "description": {
+      "current": "כלים ותובנות שיעזרו לך לקבל החלטות בריאות מושכלות.",
+      "english": "Tools and insights to help you make informed health decisions.",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "sections": {
+      "personalizedGoals": {
+        "description1": {
+          "current": "הגדר מה רווחה אומרת *לך*. עם VirtualMD.app, אתה יכול להציב מטרות משמעותיות וניתנות להשגה ולעקוב אחר התקדמותך לאורך הדרך. אנחנו מספקים את הכלים והתמיכה כדי לעזור לך להישאר מוטיב ולחגוג את ההצלחות שלך.",
+          "english": "Define what wellness means to *you*. With VirtualMD.app, you can set meaningful, achievable goals and track your progress along the way. We provide the tools and support to help you stay motivated and celebrate your successes.",
+          "contentType": "description",
+          "action": "smart-shorten"
+        },
+        "description2": {
+          "current": "בין אם זה שיפור רמות האנרגיה, שיפור השינה או טיפוח בהירות נפשית, המסע שלך הוא ייחודי.",
+          "english": "Whether it's enhancing energy levels, improving sleep, or fostering mental clarity, your journey is unique.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      },
+      "diverseInsights": {
+        "description1": {
+          "current": "ידע זה כוח. הפלטפורמה שלנו מציעה גישה לספקטרום רחב של מידע ונקודות מבט ממדריכי הרווחה המגוונים שלנו עם בינה מלאכותית. קבל החלטות בטוחות על בסיס הבנה מקיפה, לא רק עובדות מבודדות.",
+          "english": "Knowledge is power. Our platform offers access to a broad spectrum of information and perspectives from our diverse AI wellness guides. Make confident decisions based on a comprehensive understanding, not just isolated facts.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      }
+    },
+    "callToAction": {
+      "title": {
+        "current": "מוכן לשים את הבריאות שלך בידיים שלך?",
+        "english": "Ready to put your health in your hands?",
+        "contentType": "pageTitle",
+        "action": "retranslate-full"
+      },
+      "description": {
+        "current": "חקור את התכונות שלנו, שוחח עם מדריכי הרווחה שלנו עם בינה מלאכותית, וגלה את ההבדל ש-VirtualMD.app יכולה לעשות.",
+        "english": "Explore our features, chat with our AI wellness guides, and discover the difference VirtualMD.app can make.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      }
+    }
+  },
+  "aboutEncyclopediaPage": {
+    "title": {
+      "current": "אנציקלופדיית VirtualMD לבריאות ורווחה",
+      "english": "VirtualMD Encyclopedia of Health and Wellness",
+      "contentType": "pageTitle",
+      "action": "retranslate-full"
+    },
+    "p1": {
+      "current": "בעולם הדיגיטלי של היום מוצפת ברשת מידע רפואי, אך להבחין בין עצה אמינה לבין מידע מטעה יכול להיות מתיש.",
+      "english": "In today's digital world, a flood of health information is at our fingertips, but distinguishing credible advice from misinformation can be overwhelming.",
+      "contentType": "paragraph",
+      "action": "retranslate-full"
+    },
+    "p4": {
+      "current": "דמיין שאתה משוחח עם הקרדיולוג ותזונאי ה-AI שלנו על ניהול כולסטרול ומוזכר המונח \"סטטינים\". במקום לעצור את הדיון ולחפש באינטרנט הפתוח, תוכל לגשת מיד לאנציקלופדיית ‎VirtualMD.app ולקבל סיכום מקיף אך קל להבנה של אופן פעולת הסטטינים, יתרונותיהם ותופעות הלוואי האפשריות, כאשר כל המידע מקורו בכתבי עת בעלי ביקורת עמיתים כגון The Lancet או The New England Journal of Medicine.",
+      "english": "Imagine you're in a chat with our AI cardiologist and nutritionist discussing cholesterol management. The term \"statins\" is mentioned, and you want to understand more than just the basics. Instead of pausing your discussion to search the open internet, you can instantly access the VirtualMD.app Encyclopedia. It will provide a comprehensive, yet easy-to-understand summary of how statins work, their benefits, and potential side effects, with all information sourced from peer-reviewed publications like The Lancet or the New England Journal of Medicine.",
+      "contentType": "description",
+      "action": "smart-shorten"
+    }
+  },
+  "dataPrivacyPage": {
+    "subtitle": {
+      "current": "נתוני הבריאות שלך מוגנים בתקני האבטחה הגבוהים ביותר",
+      "english": "Your health data is protected with the highest security standards",
+      "contentType": "pageTitle",
+      "action": "retranslate-full"
+    },
+    "description": {
+      "current": "למד כיצד אנחנו שומרים על המידע הבריאותי האישי שלך בבטיחות ובעין.",
+      "english": "Learn how we keep your personal health information safe and secure.",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "encyclopediaPage": {
+    "description": {
+      "current": "חקור את מאגר הנתונים הנרחב שלנו של מצבים רפואיים, טיפולים ומידע בריאותי.",
+      "english": "Explore our extensive database of medical conditions, treatments, and health information.",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "whyVirtualMDPage": {
+    "description": {
+      "current": "גלה מה הופך את פלטפורמת הבריאות מונעת AI שלנו לייחודית.",
+      "english": "Discover what makes our AI-powered health platform unique.",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "legal": {
+    "eligibility": {
+      "ageRequirement": {
+        "current": "VirtualMD.app-כדי להשתמש בשירות, עליך להיות בן 18 לפחות או בגיל הרשיון המשפטי בתחום השיפוט שלך, לפי הגבוה מביניהם. אם אתה משתמש בשירות בשם ארגון, אתה מצהיר ומבטיח שיש לך סמכות לחייב את הארגון הזה לתנאים אלו, ואתה מסכים להיות מחוייב לתנאים אלו בשם הארגון הזה.",
+        "english": "To use the VirtualMD.app Service, you must be at least 18 years old or the age of legal majority in your jurisdiction, whichever is greater. If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms, and you agree to be bound by these Terms on behalf of that organization.",
+        "contentType": "description",
+        "action": "smart-shorten"
+      }
+    },
+    "feesAndPayment": {
+      "futureFeesNotice": {
+        "current": "VirtualMD שומרת על הזכות להכניס תשלומים עבור תכונות מסוימות, רמות שירות או השירות כמקשה אחת בעתיד. אם נכניס תשלומים, נספק לך הודעה מראש על שינויים כאלו ותנאי התשלום הרלוונטיים. המשך השימוש שלך בשירותים בתשלום לאחר הודעה כזו מהווה הסכמתך לשלם את התשלומים הרלוונטיים.",
+        "english": "VirtualMD reserves the right to introduce fees for certain features, tiers of service, or the Service as a whole in the future. Should we introduce fees, we will provide you with advance notice of such changes and the applicable payment terms. Your continued use of fee-based services after such notice constitutes your agreement to pay the applicable fees.",
+        "contentType": "description",
+        "action": "smart-shorten"
+      }
+    },
+    "termination": {
+      "serviceTermination": {
+        "current": "VirtualMD עשויה, לפי שיקול דעתה הבלעדי, להשעות או לסיים את הגישה שלך לכל השירות או לחלק ממנו, עם או בלי הודעה, מכל סיבה שהיא, לרבות, בלי הגבלה, הפרה של תנאים אלו. סיבות לסיום עשויות לכלול, בלי הגבלה, אי-פעילות ממושכת, בקשות מצד רשויות אכיפת החוק או וכאלויות ממשלתיות אחרות, הפסקה או שינוי מהותי של השירות, או בעיות טכניות או אבטחה בלתי צפויות.",
+        "english": "VirtualMD may, in its sole discretion, suspend or terminate your access to all or part of the Service, with or without notice, for any reason, including, without limitation, breach of these Terms. Reasons for termination may include, but are not limited to, prolonged inactivity, requests by law enforcement or other government agencies, discontinuance or material modification of the Service, or unexpected technical or security issues.",
+        "contentType": "description",
+        "action": "smart-shorten"
+      }
+    }
+  },
+  "dataPrivacyWhitepaper": {
+    "privacyPledge": {
+      "noPersonalUse": {
+        "title": {
+          "current": "אנו לא משתמשים במידע שלך בשום דרך המאפשרת זיהוי אישי למטרות חיצוניות ללא הסכמתך המפורשת.",
+          "english": "We do not use your information in any personally identifiable way for external purposes without your explicit consent.",
+          "contentType": "sectionTitle",
+          "action": "smart-shorten"
+        }
+      },
+      "anonymizedData": {
+        "description": {
+          "current": "כדי לשפר את הדיוק, היעילות והבטיחות של מודלי הבינה המלאכותית ותכונות הפלטפורמה שלנו, אנו משתמשים בנתונים שעברו אנונימיזציה וצבירה קפדנית. משמעות הדבר היא שכל המידע המאפשר זיהוי אישי (PII) מוסר, והנתונים משמשים בצורה קולקטיבית שאינה מאפשרת זיהוי של אף משתמש בודד. תהליך זה חיוני ללמידה מתמשכת ושיפור השירותים שאנו מספקים לכלל המשתמשים.",
+          "english": "To enhance the accuracy, efficacy, and safety of our AI models and platform features, we utilize data that has been rigorously anonymized and aggregated. This means all personally identifiable information (PII) is removed, and data is used in a collective form that does not allow for the identification of any individual user. This process is crucial for continuous learning and improvement of the services we provide to all users.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      }
+    },
+    "securityLevels": {
+      "hipaaHistory": {
+        "p1": {
+          "current": "חוק ניידות ואחריות ביטוח בריאות משנת 1996 (HIPAA) הוא חוק פדרלי של ארצות הברית שנועד להגן על מידע בריאותי רגיש של מטופלים מפני חשיפה ללא הסכמת המטופל או ידיעתו. הוא נועד גם לשפר את היעילות והאפקטיביות של מערכת הבריאות.",
+          "english": "The Health Insurance Portability and Accountability Act of 1996 (HIPAA) is a United States federal law designed to protect sensitive patient health information from being disclosed without the patient's consent or knowledge. It also aimed to improve the efficiency and effectiveness of the healthcare system.",
+          "contentType": "paragraph",
+          "action": "retranslate-full"
+        },
+        "privacyRuleDescription": {
+          "current": "קובע תקנים לאומיים להגנה על מידע בריאותי המאפשר זיהוי אישי (מידע בריאותי מוגן - PHI). הוא עוסק בשימוש ובחשיפה של PHI על ידי 'ישויות מכוסות'.",
+          "english": "Establishes national standards for the protection of individually identifiable health information (Protected Health Information - PHI). It addresses the use and disclosure of PHI by 'covered entities.'",
+          "contentType": "description",
+          "action": "retranslate-full"
+        },
+        "coveredEntitiesDescription": {
+          "current": "כללי HIPAA חלים בדרך כלל על תוכניות בריאות, בתי סליקה של שירותי בריאות וספקי שירותי בריאות המבצעים עסקאות בריאות מסוימות באופן אלקטרוני (למשל, רופאים, מרפאות, בתי חולים, בתי מרקחת, חברות ביטוח).",
+          "english": "HIPAA rules generally apply to health plans, healthcare clearinghouses, and healthcare providers who conduct certain healthcare transactions electronically (e.g., doctors, clinics, hospitals, pharmacies, insurance companies).",
+          "contentType": "description",
+          "action": "retranslate-full"
+        },
+        "hipaaMeaningDescription": {
+          "current": "עבור רופאים וספקי שירותי בריאות אחרים, HIPAA מחייב פרוטוקולים מחמירים לטיפול בנתוני מטופלים, המבטיחים שימוש בהם רק למטרות מותרות (טיפול, תשלום, פעולות שירותי בריאות) או באישור המטופל. עבור מטופלים, HIPAA מספק זכויות על המידע הבריאותי שלהם, כולל זכויות לבחון ולקבל עותק של התיקים הרפואיים שלהם, ולבקש תיקונים.",
+          "english": "For doctors and other healthcare providers, HIPAA mandates strict protocols for handling patient data, ensuring it's used only for permitted purposes (treatment, payment, healthcare operations) or with patient authorization. For patients, HIPAA provides rights over their health information, including rights to examine and obtain a copy of their health records, and to request corrections.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      }
+    },
+    "VirtualMDSecurity": {
+      "threeFactorAuthDescription": {
+        "current": "לאבטחה מוגברת, VirtualMD.app מציעה הגדרת אימות תלת-שלבי אופציונלית. אם מופעלת, הגישה לחשבון שלך תדרוש את הסיסמה שלך, קוד שנשלח לכתובת האימייל הרשומה שלך, וקוד שנשלח באמצעות SMS למספר הטלפון הנייד המאומת שלך. זה יוצר מחסום אדיר נגד ניסיונות לא מורשים לגשת למידע הרפואי שלך המאוחסן בפלטפורמה שלנו.",
+        "english": "For enhanced security, VirtualMD.app offers an optional three-factor authentication setup. If enabled, accessing your account would require your password, a code sent to your registered email address, AND a code sent via SMS to your verified mobile phone number. This creates a formidable barrier against unauthorized attempts to access your medical information stored within our platform.",
+        "contentType": "description",
+        "action": "smart-shorten"
+      },
+      "permanentDeletionDescription": {
+        "current": "אנו מעצימים אותך עם שליטה על הנתונים שלך. יש לך את היכולת למחוק באופן קבוע שיחות בודדות או את כל החשבון שלך. לאחר המחיקה, מידע זה אינו ניתן לשחזור מהמערכות הראשיות שלנו, בהתאם לעקרונות של מזעור נתונים ושליטת משתמש.",
+        "english": "We empower you with control over your data. You have the ability to permanently delete individual conversations or your entire account. Once deleted, this information is irrecoverable from our primary systems, aligning with principles of data minimization and user control.",
+        "contentType": "description",
+        "action": "smart-shorten"
+      }
+    },
+    "hipaaConsiderations": {
+      "p2": {
+        "current": "עם זאת, חיוני להבין שVirtualMD.app, בשירות הכללי הנוכח הפונה לצרכן, אינה מיועדת למקרי שימוש הדורשים ציות רשמי ל-HIPAA עבור קלט ישיר, אחסון או עיבוד של מידע בריאותי מוגן (PHI) על ידי משתמשים הפועלים כישויות מכוסות HIPAA או השותפים העסקיים שלהם. משתמשים הדורשים ציות קפדני ל-HIPAA עבור ה-PHI שהם מנהלים לא צריכים להשתמש בפלטפורמה הכללית שלנו למטרות כאלה אלא אם כן הסכם שותף עסקי (BAA) ספציפי קיים עם VirtualMD.app למקרה השימוש הייעודי הזה. עבור השירות הכללי, משתמשים לא חייבים להזין מידע כלשהו שניתן לעקוב אחריו חזרה למטופל בודד בהקשר שיפר את HIPAA, ללא הסכמה מפורשת ומושכלת של אותו מטופל המכירה בשימוש בפלטפורמה זו.",
+        "english": "However, it is crucial to understand that VirtualMD.app, in its current general consumer-facing service, is NOT intended for use cases that require formal HIPAA compliance for the direct input, storage, or processing of Protected Health Information (PHI) by users acting as HIPAA Covered Entities or their Business Associates. Users who require strict HIPAA compliance for the PHI they manage should not use our general platform for such purposes unless a specific Business Associate Agreement (BAA) is in place with VirtualMD.app for that dedicated use case. For the general service, users must not input any information that could be traced back to an individual patient in a context that would violate HIPAA, without that patient's explicit, informed consent acknowledging the use of this platform.",
+        "contentType": "paragraph",
+        "action": "smart-shorten"
+      },
+      "approachTitle": {
+        "current": "הגישה שלנו: איזון בין התאמה אישית מתקדמת של בינה מלאכותית לפרטיות נתונים",
+        "english": "Our Approach: Balancing Advanced AI Personalization with Data Privacy",
+        "contentType": "sectionTitle",
+        "action": "retranslate-full"
+      },
+      "anonymizationDescription": {
+        "current": "השימוש שלנו בנתונים אנונימיים ומצרפים לשיפור המערכת הוא נוהג שכאשר מבוצע כראוי, הוא גישה סטנדרטית לשיפור שירותי בינה מלאכותית תוך הגנה על פרטיות הפרט.",
+        "english": "Our use of anonymized, aggregated data for system improvement is a practice that, when properly executed, is a standard approach for enhancing AI services while protecting individual privacy.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      }
+    },
+    "userResponsibility": {
+      "noReviewDescription": {
+        "current": "כדי להגן על הפרטיות שלכם, אנשי VirtualMD.app אינם בוחנים באופן שגרתי את השיחות הפרטיות שלכם עם דמויות הבינה המלאכותית שלנו. זה מדגיש את החשיבות של השימוש האחראי שלכם בפלטפורמה.",
+        "english": "To protect your privacy, VirtualMD.app personnel do not routinely review your private conversations with our AI personas. This underscores the importance of your responsible use of the platform.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "prohibitedContentDescription": {
+        "current": "אתם מסכימים לא להשתמש ב-VirtualMD.app כדי לחפש מידע או הדרכה על איך לפגוע בעצמכם או באחרים. הפלטפורמה שלנו אינה מיועדת להתערבות במשבר בתרחישים כאלה. אם אתם חווים מחשבות על פגיעה עצמית או פגיעה באחרים, אנא צרו קשר עם שירותי חירום או קו חירום למשבר מיד.",
+        "english": "You agree not to use VirtualMD.app to seek information or guidance on how to harm yourself or others. Our platform is not designed for crisis intervention in such scenarios. If you are experiencing thoughts of self-harm or harming others, please contact emergency services or a crisis hotline immediately.",
+        "contentType": "description",
+        "action": "smart-shorten"
+      },
+      "consultPractitionerDescription": {
+        "current": "VirtualMD.app היא כלי מידעי ואינה תחליף לייעוץ רפואי מקצועי, אבחון או טיפול מספק שירותי בריאות מוסמך. תמיד היוועצו עם הרופא שלכם או איש מקצוע אחר מוסמך בתחום הבריאות עבור מצבים רפואיים חמורים או לפני קבלת החלטות הקשורות לבריאות שלכם.",
+        "english": "VirtualMD.app is an informational tool and NOT a substitute for professional medical advice, diagnosis, or treatment from a qualified healthcare provider. Always consult with your doctor or other qualified health practitioner for any serious medical conditions or before making any decisions related to your health.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "emergencySituationsDescription": {
+        "current": "VirtualMD.app לא יכולה לפעול בשמכם במצב חירום. למשל, אם המערכת מציעה לכם להתקשר למקב'ס או ללכת לחדר מיון על סמך המידע שאתם מספקים, אתם לבדכם אחראים לנקוט בפעולה זו. לפלטפורמה שלנו אין את היכולת לשלוח שירותי חירום.",
+        "english": "VirtualMD.app CANNOT act on your behalf in an emergency. For example, if the system suggests that you call 911 or go to the emergency room based on the information you provide, you are solely responsible for taking that action. Our platform does not have the capability to dispatch emergency services.",
+        "contentType": "description",
+        "action": "smart-shorten"
+      }
+    },
+    "privacyScenarios": {
+      "scenario1Title": {
+        "current": "תרחיש 1: דיון בנושאי בריאות רגישים",
+        "english": "Scenario 1: Discussing Sensitive Health Issues",
+        "contentType": "sectionTitle",
+        "action": "retranslate-full"
+      },
+      "confidentialConvosTitle": {
+        "current": "שיחות סודיות:",
+        "english": "Confidential Conversations:",
+        "contentType": "sectionTitle",
+        "action": "retranslate-full"
+      },
+      "confidentialConvosDescription": {
+        "current": "השיחות שלכם עם דמויות הבינה המלאכותית שלנו מיועדות להיות פרטיות. כפי שנאמר בהתחייבות הפרטיות שלנו, אנשי VirtualMD.app אינם בוחנים באופן שגרתי את תוכן השיחה הפרטית שלכם.",
+        "english": "Your conversations with our AI personas are designed to be private. As stated in our Privacy Pledge, VirtualMD.app personnel do not routinely review your private conversation content.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "anonymizationDescription": {
+        "current": "רק נתונים אנונימיים ומצרפים (מופשטים מכל המזהים האישיים) משמשים לשיפור מודלי הבינה המלאכותית שלנו. תוכן השיחה האישי והניתן לזיהוי שלכם אינו משמש למטרה זו ללא אנונימיזציה כזו.",
+        "english": "Only anonymized and aggregated data (stripped of all personal identifiers) is used to improve our AI models. Your personal, identifiable conversation content is not used for this purpose without such anonymization.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "accessControlsDescription": {
+        "current": "הגישה לרשומות מאגר נתוני משתמשים על ידי אנשי VirtualMD.app נשלטת בקפדנות, מוגבלת לאנשים מורשים לצרכים תפעוליים או תמיכה ספציפיים (למשל, סיוע בבעיית חשבון שאתם מדווחים), ונשלטת על ידי מדיניות פרטיות פנימית ותיעוד. עיון שגרתי בנתוני פרופיל משתמש אסור.",
+        "english": "Access to user database records by VirtualMD.app personnel is strictly controlled, limited to authorized individuals for specific operational or support needs (e.g., assisting with an account issue you report), and governed by internal privacy policies and logging. Routine browsing of user profile data is prohibited.",
+        "contentType": "description",
+        "action": "smart-shorten"
+      },
+      "aiAccessTitle": {
+        "current": "גישת בינה מלאכותית להקשר:",
+        "english": "AI Access for Context:",
+        "contentType": "sectionTitle",
+        "action": "retranslate-full"
+      },
+      "aiAccessDescription": {
+        "current": "דמויות הבינה המלאכותית, כמו AI ד\"ר קרול, ניגשות לחלקים הרלוונטיים בפרופיל שלכם (כמו רשימות תרופות, אם סיפקתם אותן) באופן תכנותי כדי לספק תגובות הקשריות במהלך השיחות שלכם. גישה זו היא חלק מהלוגיקה התפעולית של הבינה המלאכותית כדי לשרת אתכם טוב יותר.",
+        "english": "The AI personas, like AI Health Expert Carol, access relevant parts of your profile (such as medication lists, if you've provided them) programmatically to provide contextualized responses during your conversations. This access is part of the AI's operational logic to serve you better.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "techNoteP2": {
+        "current": "למרות שאנחנו כרגע לא מיישמים מערכת E2EE ספציפית למשתמש לנתוני שיחה שתהפוך את זה לבלתי אפשרי טכנית למנהלי מערכת מורשים לפענח (דומה לאופן שבו שירותי ענן רבים פועלים), הגישה לנתונים המוצפנים הבסיסיים מוגבלת מאוד, מתועדת ונשלטת על ידי מדיניות אבטחה ופרטיות פנימית קפדנית. לאנשי הצוות שלנו אסור לגשת לתוכן השיחה הפרטית שלכם אלא בנסיבות מאוד ספציפיות ומבוקרות, כמו מענה לבקשת תמיכה ישירה מכם בנוגע לשיחה ספציפית או כפי שנדרש על ידי החוק. גישה זו מאזנת בין אבטחה חזקה לצרכים תפעוליים לתחזוקה ותמיכה בפלטפורמה.",
+        "english": "While we do not currently implement a user-specific key E2EE system for conversation data that would make it technically impossible for authorized system administrators to decrypt (similar to how many cloud services operate), access to the underlying encrypted data is highly restricted, logged, and governed by strict internal security and privacy policies. Our personnel are prohibited from accessing your private conversation content except under very specific and controlled circumstances, such as responding to a direct support request from you regarding a specific conversation or as required by law. This approach balances strong security with operational necessities for maintaining and supporting the platform.",
+        "contentType": "paragraph",
+        "action": "smart-shorten"
+      },
+      "thirdPartyDataTitle": {
+        "current": "שימוש בנתונים על ידי ספקי מנועי בינה מלאכותית צד שלישי",
+        "english": "Data Usage by Third-Party AI Engine Providers",
+        "contentType": "sectionTitle",
+        "action": "retranslate-full"
+      },
+      "VirtualMDTrainingDescription": {
+        "current": "כפי שנאמר בהתחייבות הפרטיות שלנו, אנו משתמשים רק בנתונים אנונימיים ומצרפים לשיפור פנימי ואימון של המערכות הקנייניות שלנו ולוגיקת תיאום הבינה המלאכותית. הנתונים הניתנים לזיהוי אישי שלכם או תוכן השיחה הגולמי אינם משמשים למטרה זו ללא אנונימיזציה כזו.",
+        "english": "As stated in our Privacy Pledge, we only use anonymized and aggregated data for the internal improvement and training of our proprietary systems and AI coordination logic. Your personally identifiable data or raw conversation content is not used for this purpose without such anonymization.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "thirdPartyTrainingDescription": {
+        "current": "VirtualMD.app בוחרת בקפידה ומשתלבת עם ספקי מודלי בינה מלאכותית מובילים. עבור שירותים שניגשים אליהם דרך ה-APIs שלהם (ממשקי תכנות יישומים), ספקים מרכזיים כמו OpenAI ו-Anthropic יש להם מדיניות שימוש בנתונים שבדרך כלל קובעת שנתונים המועברים דרך ה-APIs שלהם אינם משמשים אותם לאמן את המודלים היסודיים הכלליים שלהם. אנו מגדירים את השימוש שלנו בשירותים אלה להתאים לאפשרויות שמירת הפרטיות האלה. אנו מעודדים אתכם גם לעיין במדיניות שימוש הנתונים של ספקי הבינה המלאכותית הבסיסיים האלה אם יש לכם חששות ספציפיים.",
+        "english": "VirtualMD.app carefully selects and integrates with leading AI model providers. For services accessed via their APIs (Application Programming Interfaces), major providers like OpenAI and Anthropic have data usage policies that typically state that data submitted via their APIs is NOT used by them to train their general foundation models. We configure our use of these services to align with these privacy-preserving options. We encourage you to also review the data usage policies of these underlying AI providers if you have specific concerns.",
+        "contentType": "description",
+        "action": "smart-shorten"
+      }
+    },
+    "conclusion": {
+      "anonymizedDataDescription": {
+        "current": "אנו משתמשים בנתונים שאינם ניתנים לזיהוי כדי לשפר את שירותי הבינה המלאכותית והפלטפורמה שלנו.",
+        "english": "We use non-identifiable data to enhance our AI and platform services.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      }
+    }
+  },
+  "imagingAIExplainer": {
+    "title": {
+      "current": "הבנת בינה מלאכותית בתמונות רפואיות",
+      "english": "Understanding AI in Medical Pictures",
+      "contentType": "sectionTitle",
+      "action": "retranslate-full"
+    },
+    "whatIsImaging": {
+      "intro": {
+        "current": "תמונות רפואיות הן כמו צילומים מיוחדים של גופך מבפנים. בדיוק כמו שאתה צולם תמונה רגילה, רופאים יכולים לצלם תמונות של עצמותיך, איבריך, ואפילו הדם שלך.",
+        "english": "Think of medical imaging like taking pictures inside your body. Doctors use special machines to create these pictures, helping them see bones, organs, tissues, and blood vessels without having to do surgery. For example, an X-ray is excellent for seeing bones to find a fracture, while a CT scan provides a more detailed, cross-sectional view of an organ like the brain.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "types": {
+        "mriScans": {
+          "current": "MRI סקאנים - משתמשים במגנטים כדי לראות רקמות רכות כמו המוח",
+          "english": "<strong>MRI Scans:</strong> Uses powerful magnets to get very clear pictures of soft tissues, like the brain, muscles, or ligaments.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        },
+        "microscope": {
+          "current": "תמונות מיקרוסקופ - הסתכלות על תאים קטנטנים בדגימות רקמה",
+          "english": "<strong>Microscope Slides:</strong> Tiny tissue samples are viewed under a microscope to diagnose diseases at a cellular level (Pathology).",
+          "contentType": "description",
+          "action": "retranslate-full"
+        },
+        "eyePhotos": {
+          "current": "תמונות עיניים - צילום חלקי העין כדי לבדוק בעיות ראייה",
+          "english": "<strong>Eye Photos:</strong> Special photos of the inside of the eye to screen for conditions like diabetic retinopathy (Ophthalmology).",
+          "contentType": "description",
+          "action": "retranslate-full"
+        },
+        "cameraScopes": {
+          "current": "קמרות קטנות - נכנסות לגוף כדי לראות דברים מקרוב",
+          "english": "<strong>Camera Pills/Scopes:</strong> Tiny cameras used to look inside the digestive system (Gastroenterology).",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      },
+      "outro": {
+        "current": "כל התמונות האלה עוזרות לרופאים לראות מה קורה בגופך מבלי לפתוח אותך!",
+        "english": "These pictures are essential tools that help doctors diagnose illnesses, check how well a treatment is working, or screen for potential problems early on.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      }
+    },
+    "whatIsAI": {
+      "process": {
+        "current": "זה עובד כך: אנחנו מראים לקומפיוטר אלפי תמונות רפואיות ואומרים לו מה נורמלי ומה לא. אחרי זמן, הוא הופך להיות ממש טוב בזיהוי דברים שרופאים מחפשים.",
+        "english": "It uses special computer programs (algorithms) that have been trained on thousands, or even millions, of medical pictures. By analyzing this vast amount of data, the AI learns to spot subtle patterns—some of which are difficult for the human eye to see, or patterns that indicate a high probability of a certain disease. The basic process is that data (the images) are fed into the AI, which then produces an insight, such as flagging a suspicious area.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      }
+    },
+    "howAIHelps": {
+      "intro": {
+        "current": "AI עוזרת לרופאים בשלוש דרכים עיקריות:",
+        "english": "Our scientific research highlights several key ways AI is already making a difference:",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "accuracy": {
+        "description": {
+          "current": "לפעמים רופאים מסתכלים על אלפי תמונות ביום. זה כמו לחפש מחט בערימת שחת! AI אף פעם לא מתעייפת ויכולה לזהות דברים קטנטנים שהעין האנושית עלולה לפספס.",
+          "english": "Sometimes, the earliest signs of a disease can be incredibly subtle and easy to miss on a scan. AI can act as a vigilant second pair of eyes, systematically checking every part of an image and highlighting areas that warrant a closer look. For instance, an AI might draw a circle around a tiny cluster of cells on a mammogram that could be an early indicator of cancer.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        },
+        "example": {
+          "current": "למשל, AI יכולה לזהות סרטן קטן בצילום שד שעדיין קשה לרופא לראות.",
+          "english": "<strong>Example:</strong> In mammograms (breast X-rays), one study showed AI helped find 29% more cancers without flagging more healthy patients incorrectly. In colonoscopies (looking for growths called polyps), AI helped doctors find significantly more potentially pre-cancerous polyps by highlighting them in real-time on the video feed.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      },
+      "speed": {
+        "description": {
+          "current": "בזמן שלרופא לוקח 30 דקות לבדוק תמונה אחת בקפידה, AI יכולה לבדוק אותה תמונה ב-30 שניות! זה עוזר לחולים לקבל תשובות מהר יותר.",
+          "english": "Reading medical images, especially complex ones like full-body CT scans, takes a great deal of time and concentration. AI can dramatically accelerate this process. It can pre-sort cases, flagging the most urgent ones for immediate review, or handle routine screening tasks to free up specialists' time.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        },
+        "example": {
+          "current": "במקרי חירום, AI יכולה מיד לספר לרופאים אם יש שבר בעצם או דימום במוח.",
+          "english": "<strong>Example:</strong> An AI system for checking eye photos for signs of diabetes damage (diabetic retinopathy) can give a result right away in a primary care clinic. This means patients don't have to wait for an appointment with an eye specialist just for a screening, leading to faster care for more people. In another large study, AI helped reduce the time radiologists spent reading mammograms by almost half.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      },
+      "consistency": {
+        "title": {
+          "current": "עקביות בכל פעם",
+          "english": "Making Diagnoses More Consistent",
+          "contentType": "sectionTitle",
+          "action": "retranslate-full"
+        },
+        "example": {
+          "current": "גם אם זה 3 בלילה, AI תבדוק צילום רנטגן באותה קפידה כמו ב-3 אחר הצהריים.",
+          "english": "<strong>Example:</strong> When looking at tissue samples under a microscope (pathology), determining the exact \"grade\" of a tumor can sometimes be ambiguous. An AI system, trained on data validated by a panel of experts, can provide a consistent grade, ensuring that results are more uniform and reliable across different doctors and hospitals.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      }
+    },
+    "challenges": {
+      "title": {
+        "current": "אתגרים ועתיד",
+        "english": "Is AI Perfect?",
+        "contentType": "sectionTitle",
+        "action": "retranslate-full"
+      },
+      "intro": {
+        "current": "למרות ש-AI מדהימה, יש עדיין כמה דברים שצריך לעבוד עליהם:",
+        "english": "No, and it's crucial to understand its limitations. While AI is powerful, there are important challenges to address:",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "bias": {
+        "current": "לוודא ש-AI עובדת טוב עבור כל האנשים, לא רק הקבוצות שהיא ראתה בהכשרה",
+        "english": "<strong>Fairness and Bias:</strong> An AI is only as good as the data it's trained on. If it's only trained on pictures from one group of people, it might not work as well for others. Ensuring diverse training data is critical to prevent bias.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "uncommonCases": {
+        "current": "איך להתמודד עם מצבים נדירים או יוצאי דופן שAI לא ראתה בעבר",
+        "english": "<strong>Uncommon Cases:</strong> AI excels at recognizing patterns it has seen many times. It might struggle with rare diseases or unusual presentations it hasn't been trained on.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "teamwork": {
+        "current": "לוודא שרופאים ו-AI עובדים יחד בצורה הטובה ביותר",
+        "english": "<strong>The Importance of Teamwork:</strong> The best approach is human-AI collaboration. AI is a tool to *help* doctors by handling data-intensive tasks, but it doesn't replace their experience, empathy, and ability to understand the whole patient.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "regulation": {
+        "current": "יצירת חוקים כדי לוודא ש-AI בטוחה ואמינה",
+        "english": "<strong>Safety and Regulation:</strong> Like any new medical device, AI tools need rigorous testing, validation, and ongoing monitoring to make sure they are safe, effective, and providing real benefits to patients.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "outro": {
+        "current": "החדשות הטובות הן שחוקרים עובדים על כל הבעיות האלה, והעתיד נראה מבטיח!",
+        "english": "Researchers and regulators are working hard to address these challenges. The goal is to integrate AI into healthcare safely and effectively to improve patient outcomes.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      }
+    }
+  },
+  "aiAccuracyWhitepaper": {
+    "title": {
+      "current": "דיוק ושיקולים לבינה מלאכותית במידע רפואי",
+      "english": "Accuracy and Considerations for AI in Medical Information",
+      "contentType": "sectionTitle",
+      "action": "retranslate-full"
+    },
+    "section1": {
+      "title": {
+        "current": "1. מבוא: הבטחת הבינה המלאכותית ברפואה",
+        "english": "1. Introduction: The Promise of AI in Medicine",
+        "contentType": "sectionTitle",
+        "action": "retranslate-full"
+      }
+    },
+    "section2": {
+      "title": {
+        "current": "2. הבנת דיוק ושגיאות בינה מלאכותית ברפואה",
+        "english": "2. Understanding AI Accuracy and Errors in Medicine",
+        "contentType": "sectionTitle",
+        "action": "retranslate-full"
+      },
+      "aiSuccess": {
+        "title": {
+          "current": "דוגמאות להצלחת בינה מלאכותית:",
+          "english": "Examples of AI Success:",
+          "contentType": "sectionTitle",
+          "action": "retranslate-full"
+        },
+        "text": {
+          "current": "מחקרים הראו שמודלים של בינה מלאכותית משיגים דיוק ברמת דרמטולוגים בסיווג סרטן עור מתמונות (למשל, Esteva et al., Nature, 2017 - דוגמה המחשה). באופן דומה, בינה מלאכותית הוכיחה דיוק גבוה בזיהוי רטינופתיה סכרתית מבדיקות רשתית (למשל, Gulshan et al., JAMA, 2016 - דוגמה המחשה). במשימות מסוימות צרות ועשירות בנתונים, בינה מלאכותית יכולה להתאים או אפילו לעלות על הביצועים האנושיים בשל יכולתה לזהות דפוסים עדינים.",
+          "english": "Research has shown AI models achieving dermatologist-level accuracy in classifying skin cancers from images (e.g., Esteva et al., Nature, 2017 - illustrative example). Similarly, AI has demonstrated high accuracy in detecting diabetic retinopathy from retinal scans (e.g., Gulshan et al., JAMA, 2016 - illustrative example). In certain narrow, data-rich tasks, AI can match or even exceed human performance due to its ability to detect subtle patterns.",
+          "contentType": "paragraph",
+          "action": "retranslate-full"
+        }
+      },
+      "aiErrors": {
+        "title": {
+          "current": "סוגי שגיאות בינה מלאכותית:",
+          "english": "Types of AI Errors:",
+          "contentType": "sectionTitle",
+          "action": "retranslate-full"
+        },
+        "text": {
+          "current": "שגיאות בינה מלאכותית שונות משגיאות אנושיות. הן יכולות לנבוע מ: נתונים מוטים (אם נתוני האימון מייצגים חסר מסוימים דמוגרפיים, הבינה המלאכותית עשויה לתפקד בצורה גרועה עבור אותן קבוצות), התאמה יתר (הבינה המלאכותית לומדת את נתוני האימון טוב מדי, כולל רעש, ונכשלת בהכללה למקרי מטופלים חדשים ובלתי ראויים), חוסר הקשר (בינה מלאכותית עשויה להיאבק עם היסטוריות מטופלים מורכבות, מחלות נלוות או תסמינים עדינים הדורשים שיקול דעת קליני רחב יותר), דוגמאות יריבות (שינויים קלים ובלתי מורגשים בנתוני הקלט עלולים לגרום לבינה מלאכותית לבצע תחזית שגויה לחלוטין), הזיות (מודלים של שפה גדולה יכולים לעיתים ליצור מידע הנשמע סביר אך שגוי מבחינה עובדתית או חסר משמעות).",
+          "english": "AI errors differ from human errors. They can arise from: Biased Data (If training data underrepresents certain demographics, the AI may perform poorly for those groups), Overfitting (The AI learns the training data too well, including noise, and fails to generalize to new, unseen patient cases), Lack of Context (AI may struggle with complex patient histories, comorbidities, or nuanced symptoms that require broader clinical judgment), Adversarial Examples (Minor, imperceptible changes to input data could potentially cause an AI to make a completely wrong prediction), Hallucinations (LLMs can sometimes generate plausible-sounding but factually incorrect or nonsensical information).",
+          "contentType": "paragraph",
+          "action": "retranslate-full"
+        }
+      },
+      "aiVsHuman": {
+        "title": {
+          "current": "בינה מלאכותית מול רופאים אנושיים:",
+          "english": "AI vs. Human Doctors:",
+          "contentType": "sectionTitle",
+          "action": "retranslate-full"
+        },
+        "text": {
+          "current": "זה לעתים רחוקות תרחיש פשוט של \"טוב יותר או גרוע יותר\". מטא-אנליזה עשויה להראות שבינה מלאכותית מתעלה במעט על רדיולוגים בממוצע לסוג בדיקה ספציפי (רעיון גרף היפותטי), אך מומחים אנושיים לרוב מצטיינים במקרים לא טיפוסיים או כאשר משלבים מידע ממספר מקורות. לעומת זאת, בינה מלאכותית עשויה להיות עקבית יותר בהימנעות משגיאות הקשורות לעייפות במשימות חוזרות. התרחיש האידיאלי כרוך לעיתים קרובות בשיתוף פעולה בין אדם לבינה מלאכותית.",
+          "english": "It's rarely a simple \"better or worse\" scenario. A meta-analysis might show AI slightly outperforming radiologists on average for a specific scan type (*hypothetical graph concept*), but human experts often excel in atypical cases or when integrating information from multiple sources. Conversely, AI might be more consistent in avoiding fatigue-related errors on repetitive tasks. The ideal scenario often involves human-AI collaboration.",
+          "contentType": "paragraph",
+          "action": "retranslate-full"
+        }
+      }
+    },
+    "section3": {
+      "title": {
+        "current": "3. האתגר של תקשורת בינה מלאכותית בבריאות",
+        "english": "3. The Challenge of AI Communication in Healthcare",
+        "contentType": "sectionTitle",
+        "action": "retranslate-full"
+      }
+    }
+  },
+  "mentalHealthWhitepaper": {
+    "title": {
+      "current": "בינה מלאכותית בבריאות הנפש: התקדמויות, אתגרים ויישומים קליניים",
+      "english": "AI in Mental Health: Advancements, Challenges, and Clinical Applications",
+      "contentType": "sectionTitle",
+      "action": "retranslate-full"
+    },
+    "disclaimer": {
+      "text": {
+        "current": "בעוד ש-VirtualMD.app מציעה טכנולוגיית בינה מלאכותית חדשנית להערכות וסיוע בבריאות הנפש, חיוני להבין שמערכות הבינה המלאכותית שלנו, ללא קשר לתחכומן, אינן מהוות תחליף לאנשי מקצוע מורשים בתחום בריאות הנפש. יש להעריך תמיד את המידע והתובנות המסופקים על ידי ספקי שירותי בריאות מוסמכים. במקרה חירום של בריאות הנפש, אנא חייג 911 (ארה\"ב), 999 (בריטניה), 112 (האיחוד האירופי), 101 (ישראל), או 911 (קנדה) באופן מיידי, או פנה למחלקת המיון הקרובה ביותר. לכל חשש בבריאות הנפש או החלטות טיפוליות, התייעץ תמיד עם ספקי שירותי בריאות אנושיים מוסמכים. טכנולוגיית VirtualMD נועדה להגביר ולתמוך בטיפול מקצועי בבריאות הנפש, לא להחליף אותו.",
+        "english": "While VirtualMD.app offers cutting-edge AI technology for mental health assessments and assistance, it is crucial to understand that our AI systems, regardless of their sophistication, are NOT substitutes for licensed mental health professionals. The information and insights provided should always be evaluated by qualified healthcare providers. In a mental health emergency, please dial 911 (US), 999 (UK), 112 (EU), 101 (Israel), or 911 (Canada) immediately, or go to your nearest emergency department. For any mental health concerns or treatment decisions, always consult with qualified human healthcare providers. VirtualMD technology is designed to augment and support professional mental healthcare, not replace it.",
+        "contentType": "paragraph",
+        "action": "retranslate-full"
+      }
+    },
+    "abstract": {
+      "text": {
+        "current": "מאמר זה בוחן את הפוטנציאל המהפכני של בינה מלאכותית (AI) בתחום בריאות הנפש. אנו סוקרים את הנוף הנוכחי של יישומי בינה מלאכותית, החל מסיוע אבחוני ופלטפורמות טיפול מותאמות אישית ועד לניתוח חיזוי עבור אוכלוסיות בסיכון. המאמר דן בטכנולוגיות הבסיסיות, כולל עיבוד שפה טבעית (NLP) ולמידת מכונה, המאפשרות חידושים אלה. אנו בוחנים גם את השיקולים האתיים והאתגרים המשמעותיים, כגון פרטיות נתונים, הטיה אלגוריתמית וחשיבות הקשר בין אדם למטפל. לבסוף, אנו מציגים פרספקטיבה צופה פני עתיד על האופן שבו ניתן לשלב בינה מלאכותית בתהליכי עבודה קליניים כדי להגביר את יכולותיהם של אנשי מקצוע בתחום בריאות הנפש, לשפר את תוצאות המטופלים ולהגדיל את הגישה לטיפול.",
+        "english": "This paper examines the rapidly evolving role of artificial intelligence in mental healthcare, highlighting recent advancements, evidence of efficacy, and implementation challenges. We review developments across four domains: diagnostic support, therapeutic applications, patient monitoring, and predictive analytics. Recent clinical studies demonstrate AI systems can achieve 80-92% accuracy in detecting major depression from linguistic patterns and voice biomarkers, while computer vision algorithms can identify suicidal ideation risk with 85% sensitivity by analyzing facial expressions and micro-movements. Natural language processing models trained on therapeutic conversations show promise in delivering cognitive behavioral therapy principles, with randomized controlled trials indicating effectiveness comparable to human therapists for mild-to-moderate depression and anxiety (Journal of Medical Internet Research, 2022). Smartphone-based passive monitoring systems can detect early warning signs of relapse in serious mental illness up to 7 days before clinical deterioration becomes apparent (JAMA Psychiatry, 2021). Despite these advances, significant challenges remain, including algorithm bias, limited validation across diverse populations, privacy concerns, and integration into existing clinical workflows. We discuss ethical considerations, regulatory frameworks, and evaluation methodologies for mental health AI. While AI technologies show substantial promise for expanding access to mental healthcare and enhancing treatment efficacy, they must be developed and deployed within a comprehensive framework that prioritizes clinical validation, ethical considerations, and human-centered implementation to truly improve mental health outcomes.",
+        "contentType": "paragraph",
+        "action": "retranslate-full"
+      }
+    },
+    "introduction": {
+      "p1": {
+        "current": "The burden of mental illness presents one of healthcare's most pressing challenges. Approximately one in five adults worldwide experiences mental health disorders annually, with depression alone affecting over 300 million people globally (WHO, 2022). Meanwhile, persistent workforce shortages limit access to care – the World Health Organization estimates a global shortage of 1.18 million mental health professionals. This gap between need and available resources has accelerated interest in technology-based solutions, particularly artificial intelligence (AI) systems that can potentially extend the reach and efficacy of mental health services.",
+        "english": "The burden of mental illness presents one of healthcare's most pressing challenges. Approximately one in five adults worldwide experiences mental health disorders annually, with depression alone affecting over 300 million people globally (WHO, 2022). Meanwhile, persistent workforce shortages limit access to care – the World Health Organization estimates a global shortage of 1.18 million mental health professionals. This gap between need and available resources has accelerated interest in technology-based solutions, particularly artificial intelligence (AI) systems that can potentially extend the reach and efficacy of mental health services.",
+        "contentType": "paragraph",
+        "action": "smart-shorten"
+      }
+    },
+    "methods": {
+      "p2": {
+        "current": "Natural Language Processing (NLP) forms the backbone of many mental health AI systems, enabling the analysis of linguistic content and communication patterns. Advanced transformer-based models like BERT (Bidirectional Encoder Representations from Transformers) and GPT (Generative Pre-trained Transformer) variants allow systems to interpret clinical narratives, therapy session transcripts, and patient-generated text with increasingly sophisticated understanding of context, sentiment, and psychological content. These models can identify linguistic markers associated with specific conditions, such as reduced syntactic complexity in depression or semantic coherence disruptions in psychotic disorders. The most advanced clinical NLP systems are fine-tuned on mental health-specific corpora, including anonymized clinical notes, therapy transcripts, and validated psychological assessment instruments.",
+        "english": "Natural Language Processing (NLP) forms the backbone of many mental health AI systems, enabling the analysis of linguistic content and communication patterns. Advanced transformer-based models like BERT (Bidirectional Encoder Representations from Transformers) and GPT (Generative Pre-trained Transformer) variants allow systems to interpret clinical narratives, therapy session transcripts, and patient-generated text with increasingly sophisticated understanding of context, sentiment, and psychological content. These models can identify linguistic markers associated with specific conditions, such as reduced syntactic complexity in depression or semantic coherence disruptions in psychotic disorders. The most advanced clinical NLP systems are fine-tuned on mental health-specific corpora, including anonymized clinical notes, therapy transcripts, and validated psychological assessment instruments.",
+        "contentType": "paragraph",
+        "action": "smart-shorten"
+      }
+    },
+    "results": {
+      "diagnosticSupport": {
+        "title": {
+          "current": "בינה מלאכותית בתמיכה אבחונית",
+          "english": "AI in Diagnostic Support",
+          "contentType": "sectionTitle",
+          "action": "retranslate-full"
+        },
+        "p2": {
+          "current": "In depression detection, NLP algorithms analyzing linguistic features have achieved notable success. A 2021 study in JAMA Psychiatry evaluated an NLP system analyzing free-text responses to standardized prompts across 4,216 participants. The system demonstrated 87% sensitivity and 84% specificity for detecting major depressive disorder when compared with structured clinical interviews. Particularly predictive features included first-person singular pronoun usage, negative emotion words, and reduced linguistic variety. When combined with voice acoustic analysis (capturing prosodic features like reduced pitch variation and speaking rate), diagnostic accuracy increased to 92%.",
+          "english": "In depression detection, NLP algorithms analyzing linguistic features have achieved notable success. A 2021 study in JAMA Psychiatry evaluated an NLP system analyzing free-text responses to standardized prompts across 4,216 participants. The system demonstrated 87% sensitivity and 84% specificity for detecting major depressive disorder when compared with structured clinical interviews. Particularly predictive features included first-person singular pronoun usage, negative emotion words, and reduced linguistic variety. When combined with voice acoustic analysis (capturing prosodic features like reduced pitch variation and speaking rate), diagnostic accuracy increased to 92%.",
+          "contentType": "paragraph",
+          "action": "smart-shorten"
+        }
+      },
+      "therapeuticApplications": {
+        "title": {
+          "current": "בינה מלאכותית ביישומים טיפוליים",
+          "english": "AI in Therapeutic Applications",
+          "contentType": "sectionTitle",
+          "action": "retranslate-full"
+        },
+        "p2": {
+          "current": "Conversational AI systems implementing cognitive behavioral therapy (CBT) principles have undergone the most rigorous evaluation. In a landmark randomized controlled trial published in The Lancet Digital Health (2022), 1,032 participants with moderate depression were assigned to either an AI-delivered CBT program or treatment as usual. The AI system, which engaged users in daily text-based conversations implementing core CBT techniques, demonstrated statistically significant reductions in PHQ-9 depression scores at 12 weeks compared to the control group (mean difference -2.85 points, 95% CI -4.07 to -1.63, p<0.001). Treatment effects were maintained at 6-month follow-up. Notably, adherence rates to the AI program (68% completing the full protocol) exceeded typical rates for self-guided digital interventions (typically 25-30%), suggesting the conversational interface improved engagement.",
+          "english": "Conversational AI systems implementing cognitive behavioral therapy (CBT) principles have undergone the most rigorous evaluation. In a landmark randomized controlled trial published in The Lancet Digital Health (2022), 1,032 participants with moderate depression were assigned to either an AI-delivered CBT program or treatment as usual. The AI system, which engaged users in daily text-based conversations implementing core CBT techniques, demonstrated statistically significant reductions in PHQ-9 depression scores at 12 weeks compared to the control group (mean difference -2.85 points, 95% CI -4.07 to -1.63, p<0.001). Treatment effects were maintained at 6-month follow-up. Notably, adherence rates to the AI program (68% completing the full protocol) exceeded typical rates for self-guided digital interventions (typically 25-30%), suggesting the conversational interface improved engagement.",
+          "contentType": "paragraph",
+          "action": "smart-shorten"
+        }
+      },
+      "patientMonitoring": {
+        "title": {
+          "current": "בינה מלאכותית בניטור מטופלים ומניעת הישנות",
+          "english": "AI in Patient Monitoring and Relapse Prevention",
+          "contentType": "sectionTitle",
+          "action": "retranslate-full"
+        },
+        "p2": {
+          "current": "For serious mental illness, including schizophrenia and bipolar disorder, early warning sign detection has shown significant clinical utility. In a 12-month prospective study of 304 individuals with schizophrenia, a smartphone-based monitoring system analyzing speech patterns, sleep, mobility, and social interaction detected 89% of psychotic relapses an average of 7.4 days before clinical deterioration became apparent during routine care. When integrated with a clinical response protocol, the system reduced hospitalization rates by 28% compared to treatment as usual, suggesting substantial benefit for both patients and healthcare systems.",
+          "english": "For serious mental illness, including schizophrenia and bipolar disorder, early warning sign detection has shown significant clinical utility. In a 12-month prospective study of 304 individuals with schizophrenia, a smartphone-based monitoring system analyzing speech patterns, sleep, mobility, and social interaction detected 89% of psychotic relapses an average of 7.4 days before clinical deterioration became apparent during routine care. When integrated with a clinical response protocol, the system reduced hospitalization rates by 28% compared to treatment as usual, suggesting substantial benefit for both patients and healthcare systems.",
+          "contentType": "paragraph",
+          "action": "smart-shorten"
+        }
+      }
+    },
+    "discussion": {
+      "text": {
+        "current": "סקירת העדויות הנוכחיות שלנו מדגימה כי יישומי בינה מלאכותית בבריאות הנפש התקדמו מאפשרויות תיאורטיות לכלים מאומתים קלינית עם השפעות מדידות על דיוק הערכה, מתן טיפול וניטור מצב. מספר נושאים מרכזיים עולים מהממצאים הקולקטיביים.\n\nראשית, גישות רב-מודאליות עולות באופן עקבי על מערכות חד-מודאליות בכל היישומים. שילוב של ניתוח לשוני, ניטור התנהגותי, אותות פיזיולוגיים ומידע הקשרי יוצר תמונה מקיפה יותר של מצב נפשי מכל מדד בודד. זה משקף את האופי המורכב והרב-גוני של מצבי בריאות הנפש, המתבטאים בתחומים קוגניטיביים, רגשיים, התנהגותיים ופיזיולוגיים. פיתוח עתידי צריך להמשיך ולהדגיש את שילוב מקורות נתונים משלימים במסגרות הערכה קוהרנטיות.\n\nשנית, הראיות תומכות במודל היברידי שבו בינה מלאכותית מגבירה ולא מחליפה קלינאים אנושיים. היישומים המוצלחים ביותר ממצבים את הבינה המלאכותית כמכפיל כוח למומחיות קלינית - הרחבת טווח, שיפור יעילות, מתן אפשרות להערכה רציפה יותר ותמיכה בפרקטיקה מבוססת ראיות. הברית הטיפולית בין מטופל לספק נותרה מרכזית לטיפול יעיל בבריאות הנפש, ונראה שהטכנולוגיה יעילה ביותר כאשר היא משפרת ולא מנסה להחליף את הקשר הזה.\n\nשלישית, התאמה אישית מתגלה כגורם קריטי ביעילות. מצבי בריאות הנפש מציגים הטרוגניות משמעותית בהצגה, בהתקדמות ובתגובה לטיפול. מערכות בינה מלאכותית המסוגלות להסתגל לפרופילי תסמינים אישיים, העדפות אישיות ודפוסי תגובה הראו תוצאות עדיפות בהשוואה לגישות של מידה אחת מתאימה לכולם. זה מתיישב עם התנועה הרחבה יותר לעבר פסיכיאטריה מדויקת, שבה התערבויות מותאמות לפרופילים ביו-פסיכו-חברתיים אישיים.\n\nלמרות התפתחויות מבטיחות אלה, נותרו אתגרים משמעותיים בתרגום התקדמות מחקרית לפרקטיקה קלינית. מגבלות עיקריות כוללות:\n\nהטיה אלגוריתמית וחששות כלליות: מערכות רבות פותחו ואומתו על אוכלוסיות הומוגניות יחסית, מה שמעלה שאלות לגבי ביצועים בקבוצות דמוגרפיות מגוונות. עדויות ראשוניות מצביעות על כך שאלגוריתמים מסוימים מתפקדים באופן שונה בהקשרים תרבותיים, מגדריים וגזעיים/אתניים שונים. בעוד שעבודה אחרונה החלה להתמודד עם פערים אלה באמצעות נתוני הדרכה ייצוגיים יותר ותקני ייחוס מודעים תרבותית, הבטחת ביצועים שוויוניים נותרה אתגר מתמשך.\n\nראיות אורך מוגבלות: בעוד שמחקרים לטווח קצר מראים תוצאות מבטיחות, קיים מחסור בנתוני מעקב ארוכי טווח על מעורבות מתמשכת, השפעות טיפוליות עמידות ותוצאות בלתי מכוונות פוטנציאליות של התערבויות בינה מלאכותית. האופי המתפתח במהירות של טכנולוגיית הבינה המלאכותית עולה על לוח הזמנים המסורתי למחקר קליני אורך, ויוצר פער ראיות מתמשך.\n\nאתגרי אינטגרציה: חסמים טכניים, זרימת עבודה ותרבותיים מסבכים את שילוב כלי הבינה המלאכותית במערכות קליניות קיימות. יישום מוצלח דורש תשומת לב לזרימת העבודה של הקלינאי, אינטגרציה עם תיקים רפואיים אלקטרוניים, תפקידים ואחריות ברורים, מסגרות אחריות ומודלים של החזרים. ההתקדמות הטכנולוגית המשכנעת ביותר עלולה להיכשל במימוש הפוטנציאל שלה ללא תשומת לב קפדנית לגורמי יישום אלה.\n\nשיקולי פרטיות ואבטחה: נתוני בריאות הנפש הם מהמידע האישי הרגיש ביותר. בעוד שגישות טכניות כמו למידה מאוחדת ופרטיות דיפרנציאלית מסייעות בטיפול בחששות אלה, מסגרות ממשל מקיפות לניהול נתונים אחראי בבינה מלאכותית לבריאות הנפש נותרו לא מפותחות. איזון בין היתרונות של גישות מונעות נתונים לבין הגנות פרטיות חזקות מהווה אתגר מתמשך.\n\nאי ודאות רגולטורית: הנוף הרגולטורי לבינה מלאכותית בבריאות הנפש עדיין מתפתח. מסגרות נוכחיות המיועדות למכשירים רפואיים מסורתיים עשויות שלא להתייחס כראוי למאפיינים הייחודיים של מערכות בינה מלאכותית אדפטיביות הממשיכות ללמוד בפריסה. פיתוח תקני אימות מתאימים, דרישות ניטור ופרוטוקולי עדכון למערכות למידה יהיה חיוני לחדשנות אחראית.\n\nלמרות אתגרים אלה, הראיות תומכות בפיתוח מתמשך ויישום זהיר של יישומי בינה מלאכותית המדגימים תועלת קלינית, אמצעי בטיחות מתאימים ותשומת לב לשיקולים אתיים. הפוטנציאל להרחיב את הגישה לטיפול בבריאות הנפש - במיוחד עבור אוכלוסיות מוחלשות המתמודדות עם מחסור בספקים - מהווה רציונל משכנע לחדשנות מתמשכת בתחום זה.",
+        "english": "Our review of the current evidence demonstrates that AI applications in mental health have progressed from theoretical possibilities to clinically validated tools with measurable impacts on assessment accuracy, treatment delivery, and condition monitoring. Several key themes emerge from the collective findings.\n\nFirst, multimodal approaches consistently outperform single-modality systems across applications. The integration of linguistic analysis, behavioral monitoring, physiological signals, and contextual information creates a more comprehensive picture of mental state than any individual measure. This reflects the complex, multifaceted nature of mental health conditions, which manifest across cognitive, emotional, behavioral, and physiological domains. Future development should continue emphasizing the integration of complementary data sources within coherent assessment frameworks.\n\nSecond, the evidence supports a hybrid model where AI augments rather than replaces human clinicians. The most successful implementations position AI as a force multiplier for clinical expertise—extending reach, improving efficiency, enabling more continuous assessment, and supporting evidence-based practice. The therapeutic alliance between patient and provider remains central to effective mental healthcare, and technology appears most effective when enhancing rather than attempting to substitute for this relationship.\n\nThird, personalization emerges as a critical factor in efficacy. Mental health conditions exhibit substantial heterogeneity in presentation, progression, and treatment response. AI systems capable of adapting to individual symptom profiles, personal preferences, and response patterns have demonstrated superior outcomes compared to one-size-fits-all approaches. This aligns with the broader movement toward precision psychiatry, where interventions are tailored to individual biopsychosocial profiles.\n\nDespite these promising developments, significant challenges remain in translating research advancements into clinical practice. Key limitations include:\n\nAlgorithmic bias and generalizability concerns: Many systems have been developed and validated on relatively homogeneous populations, raising questions about performance across diverse demographic groups. Initial evidence suggests some algorithms perform differently across cultural contexts, gender, and racial/ethnic backgrounds. While recent work has begun addressing these disparities through more representative training data and culturally-informed reference standards, ensuring equitable performance remains an ongoing challenge.\n\nLimited longitudinal evidence: While short-term studies show promising results, there is a shortage of long-term follow-up data on sustained engagement, durable treatment effects, and potential unintended consequences of AI interventions. The rapidly evolving nature of AI technology outpaces the traditional timeline for longitudinal clinical research, creating a persistent evidence gap.\n\nIntegration challenges: Technical, workflow, and cultural barriers complicate the integration of AI tools into existing clinical systems. Successful implementation requires attention to clinician workflow, integration with electronic health records, clear roles and responsibilities, liability frameworks, and reimbursement models. The most compelling technical advances may fail to realize their potential without careful attention to these implementation factors.\n\nPrivacy and security considerations: Mental health data is among the most sensitive personal information. While technical approaches like federated learning and differential privacy help address these concerns, comprehensive governance frameworks for responsible data stewardship in mental health AI remain underdeveloped. Balancing the benefits of data-driven approaches with robust privacy protections represents an ongoing challenge.\n\nRegulatory uncertainty: The regulatory landscape for AI in mental health is still evolving. Current frameworks designed for traditional medical devices may not adequately address the unique characteristics of adaptive AI systems that continue learning in deployment. Developing appropriate validation standards, monitoring requirements, and update protocols for learning systems will be essential for responsible innovation.\n\nThese challenges notwithstanding, the evidence supports continued development and cautious implementation of AI applications that demonstrate clinical benefit, appropriate safety measures, and attention to ethical considerations. The potential to expand access to mental healthcare—particularly for underserved populations facing provider shortages—presents a compelling rationale for ongoing innovation in this field.",
+        "contentType": "paragraph",
+        "action": "retranslate-full"
+      }
+    },
+    "conclusion": {
+      "text": {
+        "current": "יישומי בינה מלאכותית בבריאות הנפש התקדמו באופן משמעותי בעשור האחרון, ועברו ממושגים תיאורטיים לכלים מאומתים קלינית עם יעילות מוכחת בתמיכה אבחונית, מתן טיפול, ניטור מטופלים וניתוח חיזוי. הראיות שנסקרו במאמר זה מצביעות על כך שלטכנולוגיות אלה יש פוטנציאל אמיתי להתמודד עם אתגרים קריטיים בטיפול בבריאות הנפש, כולל מגבלות גישה, אילוצי משאבים והצורך בגישות רציפות ומותאמות אישית יותר להערכה והתערבות.\n\nמספר עקרונות מפתח צריכים להנחות את הפיתוח והיישום העתידיים. ראשית, בינה מלאכותית צריכה להגביר ולהרחיב את המומחיות הקלינית האנושית במקום לנסות להחליף את הקשר הטיפולי החיוני בין ספק למטופל. שנית, גישות רב-מודאליות המשלבות מקורות נתונים מגוונים מספקות את התמונה המקיפה והמדויקת ביותר של מצב בריאות הנפש. שלישית, יכולות התאמה אישית המתאימות לצרכים אישיים, העדפות ודפוסי תגובה הן מרכזיות להשגת תוצאות מיטביות. רביעית, תשומת לב קפדנית להגינות אלגוריתמית, אימות שקוף באוכלוסיות מגוונות וניטור מתמשך אחר הטיות פוטנציאליות חיוניים ליישום שוויוני.\n\nבעוד שנותרו אתגרים משמעותיים - כולל אינטגרציה בזרימות עבודה קליניות, הגנה על פרטיות, מסגרות רגולטוריות ופיתוח ראיות ארוכות טווח - היתרונות הפוטנציאליים מצדיקים מחקר מתמשך ויישום קליני זהיר של מערכות מאומתות היטב. פער הטיפול בבריאות הנפש המשפיע על מיליונים ברחבי העולם דורש גישות חדשניות שיכולות להרחיב את טווח הטיפול מבוסס הראיות.\n\nבמבט קדימה, אנו צופים מספר כיוונים מבטיחים לתחום. שילוב של נתונים גנומיים וביולוגיים אחרים עם מדדים התנהגותיים ופסיכולוגיים עשוי לאפשר אפיון מדויק יותר של פרופילי סיכון אישיים ומנבאי תגובה לטיפול. גישות למידה מאוחדות המאפשרות פיתוח מודלים על פני מוסדות מבלי לרכז נתונים רגישים יכולות לטפל בחששות לפרטיות תוך מתן אפשרות למערכי הדרכה מגוונים ומייצגים יותר. מודלים חדשים של שיתוף פעולה בין אדם לבינה מלאכותית המייעלים את נקודות החוזק של כל אחד מהקלינאים והבינה המלאכותית עשויים להניב תוצאות עדיפות בהשוואה לכל אחד מהם לבדו.\n\nככל שטכנולוגיות אלו ממשיכות להתפתח, חיוני לשמור על פרספקטיבה מאוזנת - הכרה הן בפוטנציאל הרב של בינה מלאכותית לשפר את הטיפול בבריאות הנפש והן בחשיבות היסודית של קשר אנושי, חוכמה קלינית וגישות ממוקדות אדם. עם פיתוח מדרוס, אימות קפדני ויישום זהיר, לבינה מלאכותית יש פוטנציאל להפוך לכלי רב ערך בהתמודדות עם הנטל העולמי של מחלות נפש וקידום המטרה של הנגשת טיפול יעיל בבריאות הנפש לכל מי שזקוק לו.",
+        "english": "Artificial intelligence applications in mental health have progressed significantly over the past decade, moving from theoretical concepts to clinically validated tools with demonstrated efficacy across diagnostic support, therapeutic delivery, patient monitoring, and predictive analytics. The evidence reviewed in this paper suggests these technologies have genuine potential to address critical challenges in mental healthcare, including access limitations, resource constraints, and the need for more continuous and personalized approaches to assessment and intervention.\n\nSeveral key principles should guide future development and implementation. First, AI should augment and extend human clinical expertise rather than attempting to replace the essential therapeutic relationship between provider and patient. Second, multimodal approaches integrating diverse data sources provide the most comprehensive and accurate picture of mental health status. Third, personalization capabilities that adapt to individual needs, preferences, and response patterns are central to achieving optimal outcomes. Fourth, careful attention to algorithm fairness, transparent validation across diverse populations, and ongoing monitoring for potential biases is essential for equitable implementation.\n\nWhile significant challenges remain—including integration into clinical workflows, privacy protections, regulatory frameworks, and long-term evidence development—the potential benefits warrant continued research and cautious clinical implementation of well-validated systems. The mental health treatment gap affecting millions globally demands innovative approaches that can extend the reach of evidence-based care.\n\nLooking forward, we anticipate several promising directions for the field. Integration of genomic and other biological data with behavioral and psychological measures may enable more precise characterization of individual risk profiles and treatment response predictors. Federated learning approaches that enable model development across institutions without centralizing sensitive data could address privacy concerns while enabling more diverse and representative training sets. Novel human-AI collaboration models that optimize the respective strengths of clinicians and artificial intelligence may yield superior outcomes compared to either alone.\n\nAs these technologies continue to evolve, maintaining a balanced perspective is essential—acknowledging both the substantial potential of AI to improve mental healthcare and the fundamental importance of human connection, clinical wisdom, and person-centered approaches. With thoughtful development, rigorous validation, and careful implementation, AI has the potential to become a valuable tool in addressing the global burden of mental illness and advancing the goal of making effective mental healthcare accessible to all who need it.",
+        "contentType": "paragraph",
+        "action": "retranslate-full"
+      }
+    }
+  },
+  "whyVirtualMD": {
+    "sections": {
+      "hero": {
+        "subtitle": {
+          "current": "פתח את הפוטנציאל הבריאותי שלך עם VirtualMD.app. התייעץ עם מדריכי AI מאומנים ברפואה מערבית, רפואה סינית מסורתית ואומנויות רווחה אחרות—הכל בשיחה אחת. קבל תובנות מותאמות אישית 24/7 וקח שליטה על הבריאות שלך. זו רפואה, שנמצאה מחדש.",
+          "english": "Unlock your health potential with VirtualMD.app. Consult AI guides trained in Western Medicine, Traditional Chinese Medicine, and other wellness arts—all in one conversation. Get personalized insights 24/7 and take control of your health. This is healthcare, reimagined.",
+          "contentType": "sectionTitle",
+          "action": "smart-shorten"
+        }
+      },
+      "whyUs": {
+        "points": {
+          "personalTeam": {
+            "text": {
+              "current": "בחר את הצוות של יועצי הבריאות AI שלך. השתמש בתובנות מרפואה מערבית, רפואה סינית מסורתית ומומחיות רווחה משלימה.",
+              "english": "Choose your team of AI health advisors. Draw insights from Western Medicine, Traditional Chinese Medicine, and complementary wellness expertise.",
+              "contentType": "paragraph",
+              "action": "retranslate-full"
+            }
+          },
+          "aiNavigator": {
+            "text": {
+              "current": "נווט הבריאות האישי שלך מונע על ידי AI מנחה אותך לתובנות הרווחה והאסטרטגיות הרלוונטיות ביותר, מתרגם תובנות מהיועצים המתמחים שלנו לעצות מעשיות עבורך.",
+              "english": "Your personal AI health navigator guides you to the most relevant wellness insights and strategies, translating insights from our specialized AI advisors into actionable advice for you.",
+              "contentType": "menuItem",
+              "action": "retranslate-full"
+            }
+          },
+          "empoweringChoices": {
+            "title": {
+              "current": "בחירות בריאות מעצימות",
+              "english": "Empowering Health Choices",
+              "contentType": "sectionTitle",
+              "action": "retranslate-full"
+            }
+          }
+        }
+      },
+      "technology": {
+        "description1": {
+          "current": "VirtualMD.app משתמשת בשיטות תזמור חדשניות. המערכת שלנו מבטיחה שהשאלות שלך מרוויחות ממקהלה של מדריכי AI, השואבים מידע רפואי מערבי, עקרונות רפואה סינית מסורתית, מדע התזונה, טכניקות מיינדפולנס, אסטרטגיות כושר ועוד, כדי לספק את הנקודת המבט המקיפה ביותר.",
+          "english": "VirtualMD.app employs cutting-edge orchestration methods. Our system ensures your inquiries benefit from a chorus of AI guides, drawing from Western medical knowledge, Traditional Chinese Medicine principles, nutritional science, mindfulness techniques, fitness strategies, and more, to provide the most comprehensive perspective.",
+          "contentType": "description",
+          "action": "smart-shorten"
+        }
+      },
+      "cta": {
+        "subtitle": {
+          "current": "הצטרף לתנועת <span>VirtualMD.app</span> וגלה עידן חדש של גישה לעצות רווחה חדשניות. קח את הצעד הראשון לקראת אתה מעצים, בעל ידע וחיוני יותר. חקור נקודות מבט מגוונות של AI ובסיס הידע המקיף שלנו על רווחה.",
+          "english": "Join the <span>VirtualMD.app</span> movement and discover a new era of access to cutting-edge wellness advice. Take the first step toward a more empowered, knowledgeable, and vibrant you. Explore diverse AI perspectives and our comprehensive wellness knowledge base.",
+          "contentType": "sectionTitle",
+          "action": "smart-shorten"
+        }
+      }
+    }
+  },
+  "dermatologyaiWhitepaper": {
+    "section22": {
+      "title": {
+        "current": "[TRANSLATE TO HE] , margin, currentY, contentWidth); currentY += 10;\n      doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 10;\n      doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section25": {
+      "title": {
+        "current": "[TRANSLATE TO HE] , margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section26": {
+      "title": {
+        "current": "[TRANSLATE TO HE] ); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "english": "); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section31": {
+      "title": {
+        "current": "[TRANSLATE TO HE] , margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section32": {
+      "title": {
+        "current": "[TRANSLATE TO HE] ); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "english": "); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section35": {
+      "title": {
+        "current": "[TRANSLATE TO HE] , margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section36": {
+      "title": {
+        "current": "[TRANSLATE TO HE] ); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "english": "); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section37": {
+      "title": {
+        "current": "[TRANSLATE TO HE] Figure 3. Time to Dermatologist Consultation: Standard vs. AI-Assisted Referral",
+        "english": "Figure 3. Time to Dermatologist Consultation: Standard vs. AI-Assisted Referral",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section47": {
+      "title": {
+        "current": "[TRANSLATE TO HE] , margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section68": {
+      "title": {
+        "current": "[TRANSLATE TO HE]  paragraph>\n            A key advancement has been the development of ",
+        "english": " paragraph>\n            A key advancement has been the development of ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    }
+  },
+  "imagingaiWhitepaper": {
+    "section21": {
+      "title": {
+        "current": "[TRANSLATE TO HE] , margin, currentY, contentWidth); currentY += 10;\n       doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 10;\n       doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section24": {
+      "title": {
+        "current": "[TRANSLATE TO HE] , margin, currentY, contentWidth); currentY += 5;\n       doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 5;\n       doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section25": {
+      "title": {
+        "current": "[TRANSLATE TO HE] ); doc.setFontSize(10);\n       currentY = addWrappedText(doc, \n          ",
+        "english": "); doc.setFontSize(10);\n       currentY = addWrappedText(doc, \n          ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section30": {
+      "title": {
+        "current": "[TRANSLATE TO HE] , margin, currentY, contentWidth); currentY += 5;\n       doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 5;\n       doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section31": {
+      "title": {
+        "current": "[TRANSLATE TO HE] ); doc.setFontSize(10);\n       currentY = addWrappedText(doc, \n         ",
+        "english": "); doc.setFontSize(10);\n       currentY = addWrappedText(doc, \n         ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section33": {
+      "title": {
+        "current": "[TRANSLATE TO HE] , margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section34": {
+      "title": {
+        "current": "[TRANSLATE TO HE] ); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "english": "); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section38": {
+      "title": {
+        "current": "[TRANSLATE TO HE] , margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section39": {
+      "title": {
+        "current": "[TRANSLATE TO HE] ); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "english": "); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section40": {
+      "title": {
+        "current": "[TRANSLATE TO HE] Figure 2. Sensitivity and Specificity in Key Imaging AI Studies",
+        "english": "Figure 2. Sensitivity and Specificity in Key Imaging AI Studies",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section48": {
+      "title": {
+        "current": "[TRANSLATE TO HE] , margin, currentY, contentWidth); currentY += 5;\n       doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 5;\n       doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    }
+  },
+  "pathologyaiWhitepaper": {
+    "section18": {
+      "title": {
+        "current": "[TRANSLATE TO HE]  is not valid inside a JSX element\n363|            <Typography variant=",
+        "english": " is not valid inside a JSX element\n363|            <Typography variant=",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section20": {
+      "title": {
+        "current": "[TRANSLATE TO HE]  concerns common to deep learning systems in clinical applications.",
+        "english": " concerns common to deep learning systems in clinical applications.",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section22": {
+      "title": {
+        "current": "[TRANSLATE TO HE] , margin, currentY, contentWidth); currentY += 10;\n      doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 10;\n      doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section25": {
+      "title": {
+        "current": "[TRANSLATE TO HE] , margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section26": {
+      "title": {
+        "current": "[TRANSLATE TO HE] ); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "english": "); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section28": {
+      "title": {
+        "current": "[TRANSLATE TO HE] , margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section29": {
+      "title": {
+        "current": "[TRANSLATE TO HE] ); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "english": "); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section33": {
+      "title": {
+        "current": "[TRANSLATE TO HE] , margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section34": {
+      "title": {
+        "current": "[TRANSLATE TO HE] ); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "english": "); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section37": {
+      "title": {
+        "current": "[TRANSLATE TO HE] , margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section38": {
+      "title": {
+        "current": "[TRANSLATE TO HE] ); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "english": "); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section39": {
+      "title": {
+        "current": "[TRANSLATE TO HE] , \n        margin, currentY + 2, contentWidth);\n      currentY += 15;\n      \n      addFigure(",
+        "english": ", \n        margin, currentY + 2, contentWidth);\n      currentY += 15;\n      \n      addFigure(",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section48": {
+      "title": {
+        "current": "[TRANSLATE TO HE] , margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    }
+  }
+}

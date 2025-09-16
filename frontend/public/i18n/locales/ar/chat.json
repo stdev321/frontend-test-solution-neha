@@ -1,0 +1,715 @@
+{
+  "actions": {
+    "startConsultation": "ابدأ استشارة صحية",
+    "endConsultation": "إنهاء الاستشارة",
+    "returnToConsultation": "العودة إلى الاستشارة",
+    "newConversation": "ابدأ محادثة جديدة",
+    "saveConversation": "حفظ المحادثة",
+    "deleteConversation": "حذف المحادثة",
+    "getSummary": "احصل على الملخص",
+    "getTranscript": "احصل على النص",
+    "getDifferentialOpinion": "احصل على رأي مختلف",
+    "exportChat": "تصدير الدردشة",
+    "clearChat": "دردشة واضحة"
+  },
+  "audio": {
+    "aiMuted": "تم كتم صوت الذكاء الاصطناعي",
+    "aiUnmuted": "تشغيل الصوت AI",
+    "playbackFailed": "فشل تشغيل الصوت",
+    "generationFailed": "فشل في توليد الكلام"
+  },
+  "sidebar": {
+    "personaList": "اختر أخصائي الرعاية الصحية الخاص بك",
+    "conversations": "محادثاتي",
+    "profile": "ملفي الشخصي",
+    "settings": "إعدادات",
+    "manageTeam": "إدارة الفريق",
+    "teamBuilder": "منشئ فريق الذكاء الاصطناعي",
+    "encyclopedia": "موسوعة",
+    "bio": "السيرة الذاتية المهنية",
+    "clickForBio": "انقر للحصول على السيرة الذاتية",
+    "clickToSpeak": "انقر للتحدث مع المستشار",
+    "summary": "ملخص الاستشارة",
+    "transcript": "نص المحادثة",
+    "imageContext": "سياق الصورة",
+    "newConversation": "استشارة جديدة"
+  },
+  "tooltips": {
+    "audioOnlyRegistered": "الصوت متاح فقط للمستخدمين المسجلين."
+  },
+  "messages": {
+    "typeMessage": "اكتب رسالتك هنا...",
+    "send": "يرسل",
+    "thinking": "أفكر...",
+    "processing": "يعالج...",
+    "connecting": "جاري الاتصال...",
+    "connected": "متصل",
+    "disconnected": "منقطع",
+    "typing": "{{name}} يكتب...",
+    "messageError": "فشل في إرسال الرسالة",
+    "retryMessage": "إعادة المحاولة",
+    "requestToSpeak": "من فضلك اسمح لي أن أتحدث إلى {{name}}",
+    "messageDeleted": "تم حذف الرسالة",
+    "systemMessage": "رسالة النظام"
+  },
+  "personas": {
+    "defaultName": "خبيرة الصحة أيلين كارول",
+    "defaultSpecialty": "أخصائي الصحة",
+    "selectPersona": "اختر أخصائي الرعاية الصحية",
+    "noPersonasAvailable": "لا يوجد متخصصون صحيون متاحون",
+    "personaDetails": "التفاصيل المهنية",
+    "specialization": "التخصص",
+    "experience": "خبرة",
+    "education": "تعليم",
+    "certifications": "الشهادات",
+    "languages": "اللغات",
+    "availableNow": "متوفر الآن",
+    "loading": "جاري تحميل المحترفين..."
+  },
+  "personaSearch": {
+    "placeholder": "ابحث حسب الاسم أو التخصص أو وصف الأعراض التي تعاني منها (على سبيل المثال، الصداع، والقلق)",
+    "selected": "مُختار",
+    "noResults": "لم يتم العثور على مستشارين لـ \"{{query}}\"",
+    "searchSuggestions": "حاول البحث عن: الصداع، القلق، الألم، النوم، مرض السكري، وما إلى ذلك."
+  },
+  "configurator": {
+    "title": "ابدأ استشارة صحية جديدة",
+    "subtitle": "اختر من فريق AI Health الخاص بك",
+    "changeTeam": "فريق التغيير",
+    "starting": "بدء...",
+    "startConsult": "ابدأ الاستشارة",
+    "emptyTeam": "فريق AI Health الخاص بك فارغ",
+    "addSpecialists": "أضف متخصصين إلى فريقك",
+    "noOtherSpecialists": "لا يوجد متخصصون آخرون في فريقك. يمكنك الدردشة مع خبيرة الذكاء الاصطناعي كارول أو",
+    "addSpecialistsLink": "أضف متخصصين إلى فريقك",
+    "defaultPersona": {
+      "name": "خبيرة الصحة بالذكاء الاصطناعي أيلين كارول",
+      "role": "مستشاري الصحي الأساسي للذكاء الاصطناعي"
+    },
+    "carolNote": {
+      "title": "ملاحظة حول مشاركة خبيرة الذكاء الاصطناعي في مجال الصحة كارول:",
+      "ruleA": "أ. يتم تضمين خبيرة الصحة بالذكاء الاصطناعي كارول إذا تم اختيار 0 أو 2+ متخصصين آخرين من فريقك.",
+      "ruleB": "ب. لا يتم تضمين خبيرة الصحة بالذكاء الاصطناعي كارول إذا تم اختيار أخصائي آخر فقط من فريقك."
+    }
+  },
+  "conversations": {
+    "noConversations": "لا توجد محادثات حتى الآن",
+    "untitled": "محادثة بلا عنوان",
+    "today": "اليوم",
+    "yesterday": "أمس",
+    "thisWeek": "هذا الاسبوع",
+    "lastWeek": "الأسبوع الماضي",
+    "older": "أكبر سنا",
+    "editTitle": "تعديل العنوان",
+    "saveTitle": "حفظ العنوان",
+    "cancelEdit": "إلغاء التعديل",
+    "deleteConsultation": "حذف الاستشارة",
+    "clickToReturn": "انقر للعودة للتشاور",
+    "deleteConfirm": "هل أنت متأكد أنك تريد حذف هذه المحادثة؟",
+    "deleteSuccess": "تم حذف المحادثة بنجاح",
+    "loadingConversations": "جاري تحميل المحادثات...",
+    "conversationError": "خطأ في تحميل المحادثة",
+    "consultationsTitle": "الاستشارات",
+    "lastUpdate": "آخر تحديث: {{date}}",
+    "consultationDefault": "استشارة {{id}}",
+    "noConsultationsYet": "لا توجد استشارات حتى الآن.",
+    "noPastConsultations": "لم يتم العثور على استشارات سابقة."
+  },
+  "participants": {
+    "noParticipants": "لا يوجد مشاركين لعرضهم.",
+    "inThisConsult": "في هذه الاستشارة الافتراضية:"
+  },
+  "team": {
+    "myTeam": "فريق صحتي",
+    "addToTeam": "أضف إلى الفريق",
+    "removeFromTeam": "إزالة من الفريق",
+    "teamFull": "فريقك ممتلئ",
+    "maxTeamSize": "تم الوصول إلى الحد الأقصى لحجم الفريق ({{max}} عضوًا)",
+    "currentTeam": "أعضاء الفريق الحاليين",
+    "buildTeam": "بناء فريقك",
+    "teamRecommendations": "توصيات فريق الذكاء الاصطناعي",
+    "acceptRecommendation": "قبول التوصية",
+    "getRecommendations": "احصل على توصيات الذكاء الاصطناعي",
+    "teamBuilder": "منشئ فريق الذكاء الاصطناعي",
+    "addTeamMembersInstruction": "قم بإضافة أعضاء الفريق بالنقر على البطاقة الموجودة على اليمين.",
+    "maxTeamSizeNote": "يمكنك إضافة خمسة مستشارين ذكاء اصطناعي كحد أقصى إلى فريقك. يمكنك تغيير فريقك في أي وقت، ولكن ليس خلال الاستشارة.",
+    "startConsultationWithTeam": "ابدأ التشاور مع فريقك",
+    "manageTeamTitle": "إدارة فريق AI Health الخاص بي (الحد الأقصى {{max}} من المتخصصين)",
+    "removeSpecialistToUseTeamBuilder": "يرجى إزالة متخصص واحد على الأقل لاستخدام توصيات بناء الفريق الخاصة بخبير الصحة في الذكاء الاصطناعي كارول",
+    "aileenCarolRecommendTeam": "اطلب من خبيرة الصحة بالذكاء الاصطناعي كارول أن توصي بفريقك الصحي",
+    "teamFullRemoveToUseBuilder": "فريقك ممتلئ. يُرجى إزالة متخصص واحد على الأقل لاستخدام بناء الفريق بالذكاء الاصطناعي.",
+    "yourCurrentTeam": "فريقك الحالي ({{current}}/{{max}})",
+    "updatingTeam": "تحديث الفريق...",
+    "coordinator": "منسق",
+    "alwaysIncluded": "مشمول دائما",
+    "specialist": "متخصص",
+    "teamEmptyAddBelow": "فريقك المتخصص فارغ. أضف متخصصين أدناه.",
+    "teamFullRemoveMember": "فريقك ممتلئ (الحد الأقصى {{max}} متخصص). يُرجى إزالة عضو إذا كنت ترغب في إضافة متخصص آخر.",
+    "addMembersClickCard": "أضف أعضاء الفريق بالنقر على بطاقة في المنطقة الرئيسية",
+    "teamLead": "قائد الفريق",
+    "currentMember": "العضو الحالي",
+    "analyzingNeeds": "تحليل احتياجاتك...",
+    "emergencyDetected": "🚨 تم اكتشاف حالة طوارئ",
+    "backToSafety": "العودة إلى الأمان",
+    "recommendedTeam": "فريق الصحة الموصى به",
+    "completeTeam": "فريقك الكامل ({{count}} عضوًا)",
+    "teamLeadReason": "منسق الصحة الأولية",
+    "keepingMembers": "أعضاء الفريق الحاليين (الاحتفاظ)",
+    "newRecommendations": "توصيات جديدة",
+    "aileenCarolReasoning": "تفكير خبيرة الصحة بالذكاء الاصطناعي كارول:",
+    "noMatchingSpecialists": "لم يتم العثور على متخصصين مطابقين لتوصيات الذكاء الاصطناعي. يمكنك المحاولة مرة أخرى أو إنشاء فريقك يدويًا.",
+    "medicalDisclaimerTitle": "استشارة الصحة والعافية:",
+    "medicalDisclaimerText": "تقدم هذه المنصة نصائح وإرشادات صحية، ولكنها لا تُغني عن الرعاية الصحية الاحترافية. استشر دائمًا أخصائيي الرعاية الصحية المؤهلين في حالات الطوارئ أو المشكلات الصحية الخطيرة.",
+    "applyingTeam": "فريق التقديم...",
+    "acceptTeam": "اقبل هذا الفريق",
+    "tryDifferent": "جرب توصيات مختلفة",
+    "cancel": "يلغي",
+    "myVirtualMDTeam": "فريق VirtualMD.app الخاص بي",
+    "availableSpecialists": "متخصصو الصحة بالذكاء الاصطناعي المتاحون",
+    "clickToAddInstruction": "انقر على بطاقة لإضافتها إلى فريقك (تم اختيار {{current}}/{{max}}). يظهر للمتخصصين المختارين شارة \"مختار\".",
+    "teamFullInstruction": "فريقك ممتلئ. احذف عضوًا لإضافة متخصص آخر.",
+    "selected": "مُختار",
+    "teamFullBadge": "الفريق كامل",
+    "allSpecialistsAdded": "لقد تمت إضافة جميع المتخصصين المتاحين إلى فريقك.",
+    "otherSpecialists": "متخصصون آخرون",
+    "specialistsCount": "{{count}} متخصصين",
+    "startTeamConsult": "بدء استشارة الفريق",
+    "starting": "بدء...",
+    "myAIHealthTeam": "فريق الذكاء الاصطناعي الصحي الخاص بي",
+    "addMembersInstruction": "قم بإضافة أعضاء الفريق بالنقر على البطاقة الموجودة على اليمين."
+  },
+  "specialistCategories": {
+    "diabetesBloodSugar": "مرض السكري وسكر الدم",
+    "weightManagement": "إدارة الوزن",
+    "mentalHealthStress": "الصحة العقلية والتوتر",
+    "cancerSupport": "دعم مرضى السرطان",
+    "heartHealth": "صحة القلب",
+    "painManagement": "إدارة الألم",
+    "digestiveIssues": "مشاكل الجهاز الهضمي",
+    "sleepProblems": "مشاكل النوم",
+    "skinProblems": "مشاكل الجلد",
+    "womensHealth": "صحة المرأة",
+    "childrensHealth": "صحة الأطفال",
+    "agingSeniorHealth": "الشيخوخة وصحة كبار السن",
+    "nutritionDiet": "التغذية والنظام الغذائي",
+    "allergiesImmuneSystem": "الحساسية والجهاز المناعي",
+    "breathingLungIssues": "مشاكل التنفس والرئة",
+    "sportsFitnessInjuries": "إصابات الرياضة واللياقة البدنية",
+    "easternAlternativeMedicine": "العافية الشرقية والبديلة",
+    "cosmeticBeautyMedicine": "مستحضرات التجميل والعافية",
+    "anxietyHelp": "مساعدة القلق",
+    "medicationPharmacy": "الأدوية والصيدلة",
+    "primaryCareGeneralHealth": "الرعاية الأولية والصحة العامة",
+    "medicalSpecialties": "تخصصات الصحة والعافية"
+  },
+  "dialogs": {
+    "exitConsultation": "استشارة الخروج",
+    "exitMessage": "هل أنت متأكد أنك تريد الخروج من هذه الاستشارة؟",
+    "saveAndExit": "حفظ وخروج",
+    "exitWithoutSaving": "الخروج بدون حفظ",
+    "cancel": "يلغي",
+    "confirm": "يتأكد",
+    "logout": "تسجيل الخروج",
+    "logoutMessage": "أنت حاليًا في استشارة. تسجيل الخروج سينهيها. ماذا تريد أن تفعل؟",
+    "deleteConversation": "حذف المحادثة",
+    "deleteMessage": "لا يمكن التراجع عن هذا الإجراء. هل أنت متأكد؟",
+    "summarizeFirst": "هل ترغب في الحصول على ملخص قبل الخروج؟",
+    "summarizing": "جاري إنشاء الملخص...",
+    "summaryGenerated": "تم إنشاء الملخص بنجاح",
+    "doneAlready": "هل تم ذلك بالفعل؟",
+    "doneAlreadyMessage": "نحن هنا في أي وقت تحتاجوننا فيه. إلى ذلك الحين، دمتم بصحة وسعادة!",
+    "doneAlreadySignature": "جميعنا (البشر والذكاء الاصطناعي) في VirtualMD.app",
+    "exitConsultationButton": "استشارة الخروج",
+    "editTitle": "تعديل عنوان المحادثة",
+    "conversationTitleLabel": "عنوان المحادثة",
+    "save": "يحفظ",
+    "deleteTitle": "حذف المحادثة",
+    "deleteConfirmation": "هل أنت متأكد أنك تريد حذف المحادثة التي تحمل عنوان \"{{title}}\"؟",
+    "delete": "يمسح",
+    "multiDeleteTitle": "حذف الاستشارات المحددة",
+    "multiDeleteConfirmation": "هل أنت متأكد من حذف {{count}} استشارة محددة؟ لا يمكن التراجع عن هذا الإجراء.",
+    "deleteSelected": "حذف المحدد",
+    "addSpecialistTitle": "إضافة متخصص إلى الدردشة",
+    "addSpecialistError": "لم يتمكن من تحميل المستشارين الخاص بك.",
+    "noAdvisersToAdd": "جميع مستشاري الصحة بالذكاء الاصطناعي المحددين لديك موجودون بالفعل في هذه الدردشة، أو أن قائمتك فارغة (باستثناء المشاركين الحاليين).",
+    "longRecording": {
+      "title": "تم إيقاف التسجيل الطويل مؤقتًا",
+      "message": "لا يمكننا تسجيل أكثر من 30 ثانية دون إرسالها. ماذا تريد أن تفعل؟",
+      "delete": "يمسح",
+      "transcribeToText": "تحويل إلى نص",
+      "transcribeAndSend": "نسخ وإرسال"
+    },
+    "finishConsultationTitle": "إنهاء الاستشارة؟",
+    "generatingSummary": "يرجى الانتظار بينما نقوم بإنشاء ملخص الاستشارة الخاص بك...",
+    "finishConsultationMessage": "سيؤدي هذا إلى إنهاء جلسة الدردشة النشطة. هل أنت متأكد؟",
+    "summarizeAndFinish": "تلخيص وإنهاء",
+    "leaveWithoutSummarizing": "اترك دون تلخيص",
+    "summarize": "تلخيص",
+    "moreInfoTitle": "مزيد من المعلومات المطلوبة",
+    "moreInfoMessage": "هذه المحادثة قصيرة جدًا بحيث لا تُنتج ملخصًا ذا معنى أو رأيًا مُختلفًا. يُرجى مُتابعة النقاش حتى يصل محتوى المحادثة إلى ١٥٠ كلمة على الأقل.",
+    "ok": "نعم",
+    "deleteSuccessTitle": "تم حذف المحادثة",
+    "deleteSuccessMessage": "لقد تم حذف محادثتك بنجاح.",
+    "logoutTitle": "نحن نأسف لرؤيتك تذهب",
+    "aiHealthSpecialist": "أخصائي الذكاء الاصطناعي الأساسي للصحة والعافية",
+    "aileenCarol": "خبيرة الصحة بالذكاء الاصطناعي كارول",
+    "aiHealthAssistant": "مساعد صحي بالذكاء الاصطناعي",
+    "deleteAndExit": "حذف وخروج",
+    "summaryTitle": "ملخص الاستشارة",
+    "consultationTitle": "استشارة VirtualMD: {{title}}",
+    "summaryUnavailable": "يتم إنشاء الملخص أو أنه غير متاح.",
+    "print": "مطبعة",
+    "copy": "ينسخ",
+    "close": "يغلق",
+    "shortConv": {
+      "title": "انتهت المحادثة",
+      "messageLine1": "انتهت المحادثة. إنها قصيرة جدًا بحيث لا يمكن حفظها، لكن عد إليها قريبًا.",
+      "messageLine2": "حتى ذلك الحين، كن بصحة جيدة، وكن سعيدًا."
+    }
+  },
+  "errors": {
+    "connectionError": "خطأ في الاتصال. يُرجى التحقق من اتصالك بالإنترنت.",
+    "serverError": "خطأ في الخادم. يُرجى المحاولة لاحقًا.",
+    "authenticationError": "فشل المصادقة. يُرجى تسجيل الدخول مرة أخرى.",
+    "messageFailedToSend": "فشلت الرسالة في الإرسال",
+    "loadingFailed": "فشل تحميل المحتوى",
+    "personaUnavailable": "هذا المتخصص الصحي غير متاح حاليًا",
+    "conversationNotFound": "لم يتم العثور على المحادثة",
+    "permissionDenied": "ليس لديك إذن للوصول إلى هذه المحادثة",
+    "failedToLogin": "فشل في تسجيل الدخول.",
+    "failedToRegister": "فشل في التسجيل.",
+    "failedToLogout": "فشل في تسجيل الخروج.",
+    "emailAlreadyTaken": "هذا البريد الإلكتروني مستخدم. يُرجى محاولة إرسال بريد آخر أو تسجيل الدخول.",
+    "anErrorOccurred": "حدث خطأ.",
+    "selectImageFile": "الرجاء تحديد ملف الصورة.",
+    "failedToSaveProfile": "فشل حفظ الملف الشخصي. يُرجى المحاولة مرة أخرى.",
+    "teamIsFull": "فريقك ممتلئ (الحد الأقصى {{max}} متخصص). يُرجى إزالة عضو إذا كنت ترغب في إضافة متخصص آخر.",
+    "selectOneSpecialist": "يرجى اختيار أخصائي واحد فقط للحصول على استشارة خاصة.",
+    "contactErrorMessage": "حدث خطأ أثناء إرسال رسالتك. يُرجى المحاولة لاحقًا أو",
+    "contactDirectlyAt": "يمكنك أيضًا مراسلتنا عبر البريد الإلكتروني مباشرةً على info@virtualmd.app"
+  },
+  "welcome": {
+    "title": "مرحباً بكم في VirtualMD.app",
+    "subtitle": "ابدأ استشارتك الصحية الشخصية",
+    "description": "اختر من فريقنا من مستشاري الصحة المدعومين بالذكاء الاصطناعي للحصول على رؤى وتوجيهات صحية مخصصة.",
+    "getStarted": "البدء",
+    "chooseSpecialist": "اختر المتخصص الخاص بك",
+    "startWithTeam": "ابدأ مع فريقي",
+    "howItWorks": "كيف يعمل",
+    "aileenCarolName": "خبيرة الصحة بالذكاء الاصطناعي أيلين كارول",
+    "danielGarciaName": "خبير الصحة بالذكاء الاصطناعي دانيال جارسيا",
+    "greeting": "مرحباً، {{اسم المستخدم}}. سررنا برؤيتك! فريق VirtualMD جاهز لمساعدتك على مدار الساعة طوال أيام الأسبوع...",
+    "startTeamConsultation": "بدء استشارة الفريق",
+    "configureNewChat": "تكوين محادثة جديدة",
+    "encyclopedia": "موسوعة VirtualMD.app",
+    "myAIHealthTeam": "فريق الذكاء الاصطناعي الصحي الخاص بي",
+    "aileenCarolIntro": "مرحباً، أنا خبيرة الذكاء الاصطناعي في مجال الصحة، أيلين كارول. كيف يمكنني مساعدتك اليوم؟",
+    "persona_welcome_message": "مرحباً، أنا هنا لمساعدتك في احتياجاتك الصحية. كيف يمكنني مساعدتك اليوم؟"
+  },
+  "imageUpload": {
+    "dragAndDrop": "اسحب وأفلِت الصور هنا، أو انقر لتحديدها",
+    "supportedFormats": "الصيغ المدعومة: JPG، PNG، GIF",
+    "maxSize": "الحجم الأقصى: {{size}} ميجابايت",
+    "uploadSuccess": "تم تحميل الصورة بنجاح",
+    "uploadError": "فشل تحميل الصورة",
+    "processing": "معالجة الصورة...",
+    "removeImage": "إزالة الصورة",
+    "addToContext": "أضف إلى سياق المحادثة"
+  },
+  "voice": {
+    "startRecording": "بدء تسجيل الصوت",
+    "stopRecording": "إيقاف التسجيل",
+    "recording": "تسجيل...",
+    "processingSpeech": "معالجة الكلام...",
+    "speechToText": "تحويل الكلام إلى نص...",
+    "noSpeechDetected": "لم يتم الكشف عن أي كلام",
+    "microphoneError": "خطأ في الوصول إلى الميكروفون",
+    "unsupportedBrowser": "لا يدعم هذا المتصفح التسجيل الصوتي"
+  },
+  "summary": {
+    "title": "ملخص الاستشارة",
+    "keyPoints": "النقاط الرئيسية",
+    "recommendations": "التوصيات",
+    "nextSteps": "الخطوات التالية",
+    "followUp": "المتابعة",
+    "generating": "جاري إنشاء الملخص...",
+    "noSummary": "لا يوجد ملخص متاح",
+    "summaryError": "فشل في إنشاء الملخص",
+    "downloadSummary": "تنزيل الملخص",
+    "emailSummary": "ملخص البريد الإلكتروني",
+    "return": "يعود",
+    "transcript": "نص",
+    "print": "مطبعة",
+    "copy": "ينسخ",
+    "copyError": "فشل في النسخ",
+    "notGenerated": "لم يتم إنشاء الملخص."
+  },
+  "status": {
+    "online": "متصل",
+    "offline": "غير متصل",
+    "away": "بعيد",
+    "busy": "مشغول",
+    "available": "متاح",
+    "unavailable": "غير متاح",
+    "lastSeen": "آخر ظهور منذ {{time}}"
+  },
+  "mobileTeamBuilder": {
+    "title": {
+      "yourTeam": "فريقك",
+      "teamBuilder": "منشئ فريق الذكاء الاصطناعي"
+    },
+    "carolMessages": {
+      "teamFull": "{{name}}، فريقك ممتلئ! يمكنك بدء استشارة مع فريقك الحالي أو إزالة بعض الأعضاء للحصول على توصيات جديدة.",
+      "helpBuild": "{{name}}، يسعدني مساعدتك في بناء فريقك الصحي المثالي! أخبرني ما الذي أتى بك إلى هنا اليوم."
+    },
+    "carolGreeting": {
+      "teamFull": "مرحباً {{name}}! فريقك ممتلئ.",
+      "helpBuild": "مرحباً {{name}}! سأساعدك في بناء فريقك الصحي المثالي."
+    },
+    "currentTeam": "الفريق الحالي ({{current}}/{{max}})",
+    "aiSpecialist": "الذكاء الاصطناعي {{الاسم}}",
+    "specialist": "متخصص",
+    "startConversation": "ابدأ محادثة مع هذا الفريق",
+    "tellUsWhy": "أخبرنا لماذا أنت هنا اليوم حتى نتمكن من إنشاء فريق الصحة المثالي لك.",
+    "placeholder": "صف مخاوفك الصحية، أو أعراضك، أو ما تريد المساعدة فيه...",
+    "questionnaire": {
+      "question": "ما الذي أتى بك إلى هنا اليوم؟",
+      "keepExisting": "الاحتفاظ بأعضاء الفريق الحاليين؟",
+      "existingMembers": "أعضاء الفريق الحاليين",
+      "currentSize": "حجم الفريق الحالي",
+      "availableSpots": "أماكن متاحة للمتخصصين الجدد",
+      "maxRecommendations": "الحد الأقصى للتوصيات المسموح بها"
+    }
+  },
+  "mobileNavigationTabs": {
+    "consultation": "الاستشارة",
+    "team": "فريق",
+    "history": "تاريخ",
+    "encyclopedia": "موسوعة"
+  },
+  "autoListening": {
+    "turnOn": "تشغيل الاستماع التلقائي",
+    "turnOff": "إيقاف الاستماع التلقائي"
+  },
+  "speech": {
+    "processing": "معالجة الكلام",
+    "pauseListening": "انقر لإيقاف الاستماع مؤقتًا",
+    "turnOnListening": "انقر لتشغيل الاستماع"
+  },
+  "help": {
+    "howDoesThisWork": "كيف يعمل هذا؟",
+    "chatControls": "عناصر التحكم في الدردشة",
+    "enterToSend": "أدخل أو ▷ للإرسال",
+    "shiftEnterToSpeak": "Shift+Enter أو 🎤/⏸ للتحدث/الإيقاف المؤقت"
+  },
+  "fileUpload": {
+    "clickToUpload": "انقر لتحميل الملف (يمكنك أيضًا إسقاط الملفات في الدردشة)"
+  },
+  "send": {
+    "transcribeAndSend": "نسخ وإرسال",
+    "sendMessage": "إرسال رسالة"
+  },
+  "aileenCarol": {
+    "playAnalysis": "تحليل خبيرة الصحة كارول",
+    "stopAnalysis": "أوقف تحليل خبير الصحة كارول"
+  },
+  "profile": {
+    "editProfile": "تعديل الملف الشخصي",
+    "saveChanges": "حفظ التغييرات",
+    "cancelEdits": "إلغاء التعديلات",
+    "changePhoto": "تغيير الصورة",
+    "removePhoto": "إزالة الصورة",
+    "healthInfoTooltip": "يرجى كتابة أو إدراج الأدوية والتشخيصات والمكملات الغذائية وغيرها من الأمور المهمة المتعلقة بصحتك.",
+    "loadingProfile": "جاري تحميل الملف الشخصي...",
+    "errorLoadingProfile": "خطأ في تحميل الملف الشخصي",
+    "noProfileData": "لا تتوفر بيانات الملف الشخصي.",
+    "myProfile": "ملفي الشخصي",
+    "myAccount": "حسابي",
+    "displayName": "اسم العرض",
+    "fullName": "الاسم الكامل",
+    "email": "بريد إلكتروني",
+    "emailCannotBeChanged": "لا يمكن تغيير البريد الإلكتروني.",
+    "keyHealthInfo": "معلومات صحية أساسية",
+    "noHealthInfoRecorded": "لم يتم تسجيل أي معلومات صحية رئيسية.",
+    "healthInfoPlaceholder": "قم بإدراج الأدوية، والتشخيصات، والمكملات الغذائية، وما إلى ذلك.",
+    "age": "عمر",
+    "gender": "جنس"
+  },
+  "imageContext": {
+    "clearZoom": "مسح اختيار التكبير هذا",
+    "cropPromotionError": "فشل إرسال الصورة المكبرة وإضافتها. تحقق من وحدة التحكم.",
+    "startConversationToSend": "ابدأ محادثة لإرسال التكبير",
+    "sendZoomToTeam": "أرسل هذه الصورة إلى الفريق",
+    "noActiveZoom": "لا يوجد تكبير نشط للإرسال. يُرجى تحديد منطقة في الصورة.",
+    "functionsUnavailable": "لا يمكن إرسال التكبير: الوظائف الأساسية غير متوفرة.",
+    "noImages": "لا توجد صور في السياق. حمّل صورة للبدء.",
+    "allHidden": "جميع الصور مخفية حاليًا. انقر على الصورة المصغرة في العنوان لعرضها.",
+    "showFirst": "إظهار الصورة الأولى",
+    "imageDisplay": "عرض الصورة ({{shown}} معروض / {{total}} إجمالي)",
+    "hideImage": "إخفاء الصورة",
+    "showImage": "إظهار الصورة",
+    "zoomPreview": "معاينة التكبير",
+    "sendToTeam": "إرسال إلى الفريق",
+    "dragToZoom": "انقر واسحب على الصورة أعلاه لتحديد منطقة تكبير جديدة."
+  },
+  "mobileChat": {
+    "healthConsult": "استشارة صحية",
+    "speakToAI": "تحدث إلى {{name}}",
+    "startConversation": "ابدأ محادثتك أدناه",
+    "requestToSpeakToAI": "أريد التحدث مع {{name}}"
+  },
+  "mobileWelcome": {
+    "greeting": "أهلاً!",
+    "aileenCarolIntro": "أنا أيلين كارول، أخصائية الرعاية الصحية الأولية لديكم. أتطلع إلى التعرف عليكم. أشرف على فريق خبراء الصحة في VirtualMD.app AI. نحن جاهزون للمساعدة على مدار الساعة طوال أيام الأسبوع...",
+    "startConsultation": "ابدأ الاستشارة الصحية",
+    "myTeam": "فريقي",
+    "aiTeamBuilder": "خبيرة الصحة بالذكاء الاصطناعي كارول تساعدك في اختيار فريقك",
+    "priorConsultations": "الاستشارات السابقة",
+    "encyclopedia": "موسوعة",
+    "myProfile": "ملفي الشخصي",
+    "logout": "تسجيل الخروج",
+    "labels": {
+      "chat": "محادثة",
+      "advisory": "استشاري",
+      "encyclopedia": "موسوعة",
+      "myTeam": "فريقي",
+      "history": "تاريخ",
+      "myProfile": "ملفي الشخصي"
+    }
+  },
+  "mobileInput": {
+    "listeningPlaceholder": "الاستماع... تحدث الآن",
+    "typePlaceholder": "اكتب رسالة...",
+    "clear": "واضح",
+    "needHelp": "هل تحتاج إلى مساعدة؟",
+    "takePhoto": "التقط الصورة"
+  },
+  "mobileConsultations": {
+    "title": "الاستشارات السابقة",
+    "selectAll": "حدد الكل",
+    "deselectAll": "إلغاء تحديد الكل",
+    "deleteSelected": "حذف المحدد ({{count}})",
+    "consultationDefault": "استشارة {{id}}",
+    "lastUpdate": "آخر تحديث: {{date}}",
+    "noUpdates": "لا يوجد تحديثات حتى الآن",
+    "editTitle": "تعديل عنوان المحادثة",
+    "enterNewTitle": "أدخل عنوانًا جديدًا:",
+    "noConsultations": "لا توجد استشارات حتى الآن."
+  },
+  "mobileProfile": {
+    "title": "ملفي الشخصي",
+    "saveError": "فشل في حفظ الملف الشخصي",
+    "saveSuccess": "تم تحديث الملف الشخصي!",
+    "changePhoto": "تغيير الصورة",
+    "displayName": "اسم العرض",
+    "fullName": "الاسم الكامل",
+    "email": "بريد إلكتروني",
+    "keyHealthInfo": "معلومات صحية أساسية",
+    "logout": "تسجيل الخروج"
+  },
+  "mobileNavigation": {
+    "consultation": "الاستشارة",
+    "team": "فريق",
+    "history": "تاريخ",
+    "exitConsultation": "استشارة الخروج",
+    "myTeam": "فريقي",
+    "summary": "ملخص",
+    "differentialOpinion": "الرأي التفاضلي",
+    "transcript": "نص",
+    "encyclopedia": "موسوعة",
+    "controls": "عناصر التحكم",
+    "aiSpeaker": "مكبر صوت الذكاء الاصطناعي",
+    "enabled": "مُمَكَّن",
+    "disabled": "عاجز",
+    "camera": "آلة تصوير",
+    "comingSoon": "قريباً",
+    "menu": "قائمة طعام"
+  },
+  "bioPanel": {
+    "loadingBio": "جاري تحميل السيرة الذاتية...",
+    "noBiography": "لا توجد سيرة ذاتية متاحة.",
+    "returnToPanel": "العودة إلى اللوحة"
+  },
+  "sidebarHeader": {
+    "panel": "لوحة",
+    "summary": "ملخص",
+    "differentialOpinion": "الرأي التفاضلي",
+    "transcript": "نص",
+    "encyclopedia": "موسوعة VirtualMD.app",
+    "endConversation": "إنهاء المحادثة",
+    "startChatWithTeam": "ابدأ الدردشة مع الفريق",
+    "configureNewChat": "تكوين محادثة جديدة",
+    "myAIHealthTeam": "فريق الذكاء الاصطناعي الصحي الخاص بي",
+    "aileenCarolTeamBuilder": "خبيرة الصحة كارول تساعدك في بناء فريقك.",
+    "savedConsultations": "الاستشارات المحفوظة",
+    "myProfile": "ملفي الشخصي",
+    "imageNumber": "الصورة {{number}}"
+  },
+  "differentialOpinion": {
+    "noOpinionAvailable": "لا يوجد رأي تفاضلي متاح."
+  },
+  "encyclopedia": {
+    "title": "موسوعة VirtualMD.app",
+    "loadingMessage": "نقوم ببحثٍ مُعمّق حول هذا الموضوع. يُرجى الانتظار لبضع ثوانٍ للحصول على إجابتك.",
+    "longWaitMessage": "قد يستغرق الأمر بضع دقائق للحصول على إجابات مفصلة.",
+    "searchButton": "البحث في الموسوعة",
+    "return": "يعود",
+    "print": {
+      "button": "مطبعة",
+      "title": "نتيجة بحث الموسوعة",
+      "subtitle": "موسوعة VirtualMD.app"
+    },
+    "copy": "ينسخ",
+    "searchResult": "نتيجة بحث الموسوعة",
+    "attribution": "الإجابة بواسطة VirtualMD.app",
+    "emptyState": "أدخل استعلامًا أعلاه للبحث في موسوعة VirtualMD.app.",
+    "copySuccess": "تم نسخ المحتوى إلى الحافظة!",
+    "copyError": "فشل النسخ إلى الحافظة",
+    "generatingResponse": "توليد استجابة شاملة...",
+    "genericError": "حدث خطأ",
+    "translatingContent": "ترجمة المحتوى..."
+  },
+  "input": {
+    "typeOrSpeakPlaceholder": "اكتب أو انطق رسالتك... اضغط على Enter أو انقر على ▷ للإرسال.",
+    "typePlaceholder": "اكتب الرسالة هنا...\nاضغط على Enter أو انقر على ▷ للإرسال.",
+    "transcribing": "جاري النسخ...",
+    "enterTextHere": "أدخل النص هنا",
+    "startTypingMessage": "ابدأ بكتابة رسالتك في المربع أدناه لبدء استشارتك."
+  },
+  "quickActions": {
+    "whatToDoButton": "ماذا علي أن أفعل؟",
+    "summaryButton": "ملخص",
+    "whatShouldIDo": "بناءً على كل ما ناقشناه، ما الذي عليّ فعله الآن؟ يُرجى تقديم توصيات واضحة وقابلة للتنفيذ.",
+    "requestSummary": "يرجى تقديم ملخص شامل لمحادثاتنا حتى الآن، بما في ذلك النقاط الرئيسية التي تمت مناقشتها، والتوصيات المقدمة، والخطوات التالية."
+  },
+  "upload": {
+    "uploading": "جاري التحميل…"
+  },
+  "camera": {
+    "notSupported": "لا يدعم هذا المتصفح الوصول إلى الكاميرا",
+    "capturePhoto": "التقاط الصورة",
+    "accessDenied": "تم رفض الوصول إلى الكاميرا. يُرجى السماح بالوصول إلى الكاميرا من إعدادات متصفحك.",
+    "accessFailed": "فشل الوصول إلى الكاميرا"
+  },
+  "microphone": {
+    "turnOn": "تشغيل الميكروفون",
+    "turnOff": "إيقاف تشغيل الميكروفون"
+  },
+  "specialistPanel": {
+    "guidanceSingle": "اختر أحد متخصصي الذكاء الاصطناعي للحصول على استشارة خاصة:",
+    "guidanceMulti": "ستكون خبيرة الصحة بالذكاء الاصطناعي كارول دائمًا ضمن قائمة الخيارات. اختر مستشاري صحة إضافيين بالذكاء الاصطناعي:",
+    "startPrivateConsult": "ابدأ استشارة خاصة",
+    "startChat": "ابدأ الدردشة",
+    "selectSingle": "اختر أخصائي الذكاء الاصطناعي",
+    "selectMulti": "اختيار المستشارين الإضافيين",
+    "warningSelectOne": "يرجى اختيار أخصائي واحد فقط للحصول على استشارة خاصة.",
+    "noSpecialistsAvailable": "لا يوجد متخصصون في الذكاء الاصطناعي متاحون حاليًا للاستشارات الخاصة.",
+    "noAdvisersAvailable": "لا يتوفر مستشارو صحة الذكاء الاصطناعي الإضافيون."
+  },
+  "sidebarFooter": {
+    "disclaimerText": "يسعى تطبيق VirtualMD.app جاهدًا للدقة. مع ذلك، قد يُقدم هذا التطبيق، وأي خدمة أخرى تعتمد على الذكاء الاصطناعي، معلومات غير صحيحة. لذا، يُرجى دائمًا استشارة أخصائي رعاية صحية مؤهل.",
+    "emergencyText": "اتصل بالرقم 911 في حالة الطوارئ الطبية.",
+    "moreInformation": "مزيد من المعلومات"
+  },
+  "teamBuilder": {
+    "healthConditions": {
+      "options": {
+        "${key}": "{{مفتاح}}"
+      }
+    },
+    "medicinePreferences": {
+      "options": {
+        "${key}": "{{مفتاح}}"
+      }
+    }
+  },
+  "account": {
+    "title": "إعدادات الحساب",
+    "description": "من هنا، يمكنك حذف حسابك في VirtualMD.app نهائيًا. سيؤدي هذا الإجراء إلى حذف ملفك الشخصي وجميع استشاراتك.",
+    "deleteMyAccount": "حذف حسابي",
+    "confirmDeleteTitle": "حذف الحساب",
+    "confirmDeleteText": "هذا الإجراء لا رجعة فيه. سيتم حذف جميع معلومات ملفك الشخصي واستشاراتك وملفاتك نهائيًا. هل أنت متأكد من رغبتك في المتابعة؟",
+    "cancel": "يلغي",
+    "yesDelete": "نعم، حذف"
+  },
+  "transcript": {
+    "noTranscript": "لا يوجد نص متاح.",
+    "title": "نص الاستشارة",
+    "returnToConversation": "العودة إلى المحادثة",
+    "print": "مطبعة",
+    "copy": "ينسخ",
+    "copyError": "فشل في النسخ",
+    "roleLabels": {
+      "patient": "مستخدم:",
+      "assistant": "مساعد:"
+    }
+  },
+  "mobileRouter": {
+    "teamRecommendations": "توصيات الفريق",
+    "myTeam": "فريقي",
+    "summary": "ملخص",
+    "differentialOpinion": "الرأي التفاضلي",
+    "transcript": "نص",
+    "encyclopedia": "موسوعة",
+    "consultations": "الاستشارات",
+    "returnToChat": "العودة إلى الدردشة",
+    "pleaseLogIn": "الرجاء تسجيل الدخول",
+    "logInToView": "قم بتسجيل الدخول لعرض محادثاتك أو بدء محادثة جديدة.",
+    "logIn": "تسجيل الدخول",
+    "loadingSpecialists": "جاري تحميل المتخصصين..."
+  },
+  "chat": {
+    "pleaseLogIn": "الرجاء تسجيل الدخول",
+    "logInToView": "قم بتسجيل الدخول لعرض محادثاتك أو بدء محادثة جديدة."
+  },
+  "loginPage": {
+    "signIn": "تسجيل الدخول"
+  },
+  "imageProcessing": {
+    "preset": "الإعداد المسبق",
+    "applyPreset": "تطبيق الإعداد المسبق على الصورة المحددة",
+    "process": "عملية",
+    "revertFocus": "إعادة التركيز على الصورة الأصلية",
+    "revert": "يرجع"
+  },
+  "guest": {
+    "consultation": "استشارة الضيوف",
+    "topics": {
+      "child": {
+        "title": "طفلي مريض",
+        "subtitle": "رعاية الأطفال المتخصصة عندما تكون في أمس الحاجة إليها",
+        "initialMessage": "أنا الذكاء الاصطناعي أيلين كارول، مستشارتك الصحية الافتراضية. أعلم مدى قلق الطفل المريض. أخبرني بما يحدث. ملاحظة: أنا ذكاء اصطناعي، لستُ إنسانًا؛ قد تكون نصيحتي خاطئة - تأكد من ذلك مع أخصائي رعاية صحية مؤهل."
+      },
+      "sleep": {
+        "title": "لا أستطيع النوم!",
+        "subtitle": "استعادة لياليك، وتحويل أيامك",
+        "initialMessage": "أنا أيلين كارول، مستشارتك الصحية الافتراضية، مع أخصائيي النوم، بنيامين شتاين (الطب النفسي) وأليس تشين (علم الأعصاب). شاركنا تحدياتك في النوم لنتمكن من مساعدتك. ملاحظة: نحن أنظمة ذكاء اصطناعي، ولسنا بشرًا؛ قد تكون نصائحنا خاطئة - تأكد من ذلك مع أخصائي رعاية صحية مؤهل."
+      },
+      "nutrition": {
+        "title": "التغذية من أجل الحيوية",
+        "subtitle": "عزز طاقتك وعافيتك وصحتك الجنسية من خلال الطعام",
+        "initialMessage": "أنا أيلين كارول، مستشارتكم الصحية الافتراضية، مع فريقكم - أنجليكا فوردهام (أخصائية تغذية)، وراشيل ليفي (أخصائية علاج جنسي)، وأمينة أوكوفور (أخصائية أعشاب أفريقية). كيف حالكم اليوم؟ ملاحظة: نحن ذكاء اصطناعي، لسنا بشرًا؛ قد تكون النصائح خاطئة - تأكدوا من ذلك مع أخصائي رعاية صحية مؤهل."
+      }
+    },
+    "errors": {
+      "sessionFailed": "فشل في بدء جلسة الضيف"
+    },
+    "registrationRequired": "التسجيل مطلوب",
+    "uploadFeatures": {
+      "title": "ميزات تحميل المستندات والصور",
+      "description": "توفر منصتنا إمكانيات قوية لتحليل المستندات والصور حيث يمكنك:",
+      "benefit1": "تحميل المستندات الصحية وتقارير المختبر والصور",
+      "benefit2": "التركيز على مناطق محددة للحصول على تحليل مفصل",
+      "benefit3": "اطلب من مستشاري الصحة بالذكاء الاصطناعي لدينا تقييم مستنداتك ومناقشتها",
+      "benefit4": "التقط الصور مباشرة من الكاميرا الخاصة بك للاستشارة الفورية",
+      "registeredOnly": "هذه الميزات الخاصة متاحة للمستخدمين المسجلين."
+    }
+  },
+  "activeChat": {
+    "guestMode": {
+      "advisorsTitle": "مستشارو الصحة في VirtualMD.app",
+      "registrationRequired": "التسجيل مطلوب"
+    }
+  },
+  "healthAdvisors": "مستشارو الصحة في VirtualMD.app"
+}

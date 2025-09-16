@@ -1,0 +1,1397 @@
+{
+  "chatPage": {
+    "title": "Bate-papo VirtualMD.app",
+    "welcomeMessage": "Bem-vindo à sua consulta de saúde personalizada",
+    "startConversation": "Iniciar nova conversa",
+    "selectPersona": "Escolha seu profissional de saúde",
+    "typeMessage": "Digite sua mensagem aqui...",
+    "send": "Enviar",
+    "thinking": "Pensamento...",
+    "error": "Algo deu errado. Tente novamente.",
+    "retry": "Tentar novamente",
+    "clear": "Bate-papo claro",
+    "save": "Salvar conversa",
+    "export": "Exportar bate-papo",
+    "settings": "Configurações de bate-papo"
+  },
+  "loginPage": {
+    "home": "Lar",
+    "title": "Entre no VirtualMD.app",
+    "subtitle": "Acesse suas consultas de saúde personalizadas",
+    "email": "Endereço de email",
+    "password": "Senha",
+    "signIn": "Entrar",
+    "forgotPassword": "Esqueceu sua senha?",
+    "noAccount": "Não tem uma conta?",
+    "signUp": "Inscrever-se",
+    "or": "ou",
+    "signInWithGoogle": "Entrar com o Google",
+    "signInWithFacebook": "Entrar com o Facebook",
+    "rememberMe": "Lembre de mim",
+    "emailRequired": "E-mail é obrigatório",
+    "passwordRequired": "Senha é necessária",
+    "invalidEmail": "Por favor, insira um endereço de e-mail válido",
+    "signInError": "E-mail ou senha inválidos",
+    "signInSuccess": "Bem vindo de volta!"
+  },
+  "registerPage": {
+    "title": "Crie sua conta VirtualMD.app",
+    "subtitle": "Junte-se a milhares de usuários que recebem orientação de saúde personalizada",
+    "firstName": "Primeiro nome",
+    "lastName": "Sobrenome",
+    "email": "Endereço de email",
+    "password": "Senha",
+    "confirmPassword": "Confirme sua senha",
+    "signUp": "Criar uma conta",
+    "hasAccount": "Já tem uma conta?",
+    "signIn": "Entrar",
+    "or": "ou",
+    "signUpWithGoogle": "Cadastre-se com o Google",
+    "signUpWithFacebook": "Cadastre-se com o Facebook",
+    "agreeToTerms": "Concordo com os Termos de Serviço e a Política de Privacidade",
+    "firstNameRequired": "O primeiro nome é obrigatório",
+    "lastNameRequired": "Sobrenome é obrigatório",
+    "emailRequired": "E-mail é obrigatório",
+    "passwordRequired": "Senha é necessária",
+    "passwordMinLength": "A senha deve ter pelo menos 8 caracteres",
+    "passwordsDoNotMatch": "As senhas não correspondem",
+    "invalidEmail": "Por favor, insira um endereço de e-mail válido",
+    "termsRequired": "Você deve concordar com os termos e condições",
+    "signUpError": "Falha ao criar conta. Tente novamente.",
+    "signUpSuccess": "Conta criada com sucesso! Bem-vindo ao VirtualMD.app!",
+    "passwordHelperText": "Pelo menos 6 caracteres, incluindo letras, números e um dos seguintes: @#$%^&*()! Sem espaços.",
+    "passwordNeedsLetter": "A senha deve incluir pelo menos uma letra.",
+    "passwordNeedsNumber": "A senha deve incluir pelo menos um número.",
+    "passwordNeedsSpecial": "A senha deve incluir pelo menos um caractere especial: !@#$%^&*()",
+    "passwordNoSpaces": "A senha não pode conter espaços.",
+    "agreeToTermsModal": "Para se registrar, você deve concordar com os Termos e Condições. Clique no link \"Termos e Condições\" aqui.",
+    "agreeToTermsLabel": "Eu concordo com o",
+    "termsAndConditions": "Termos e Condições",
+    "register": "Registrar",
+    "alreadyHaveAccount": "Já tem uma conta?",
+    "login": "Conecte-se",
+    "home": "Lar",
+    "emailInUseError": "Este endereço de e-mail já está registrado. Tente fazer login ou use um e-mail diferente.",
+    "iAgree": "Concordo",
+    "unexpectedError": "Ocorreu um erro inesperado durante o registro. Tente novamente.",
+    "mustAgreeToTerms": "Você deve concordar com os Termos e Condições para se registrar."
+  },
+  "contactPage": {
+    "title": "Entre em contato com VirtualMD.app",
+    "subtitle": "Entre em contato com nossa equipe",
+    "description": "Tem dúvidas sobre nossas consultas de saúde com tecnologia de IA? Estamos aqui para ajudar.",
+    "name": "Nome completo",
+    "email": "Endereço de email",
+    "subject": "Assunto",
+    "message": "Mensagem",
+    "send": "Enviar mensagem",
+    "sending": "Enviando...",
+    "nameRequired": "Nome é obrigatório",
+    "emailRequired": "E-mail é obrigatório",
+    "subjectRequired": "Assunto é obrigatório",
+    "messageRequired": "Mensagem é necessária",
+    "invalidEmail": "Por favor, insira um endereço de e-mail válido",
+    "sendError": "Falha ao enviar a mensagem. Tente novamente.",
+    "sendSuccess": "Mensagem enviada com sucesso! Entraremos em contato com você em breve.",
+    "errorMessage": "Ocorreu um erro. Tente novamente mais tarde.",
+    "contactInfo": {
+      "title": "Informações de contato",
+      "address": "123 Health Street, Distrito de Bem-Estar, Cidade, Estado 12345",
+      "phone": "+1 (555) 123-4567",
+      "email": "info@virtualmd.app",
+      "hours": "Segunda a sexta: 9h00 - 18h00 PST"
+    },
+    "contactUs": "Contate-nos",
+    "contactDescription": "Dúvidas ou feedback? Adoraríamos saber sua opinião. Use o formulário abaixo.",
+    "directEmail": "Para e-mail direto, entre em contato conosco em",
+    "yourEmail": "Seu endereço de email",
+    "sendMessage": "Enviar mensagem",
+    "messageSent": "Mensagem enviada!",
+    "home": "Lar",
+    "contactError": "Ocorreu um erro ao enviar sua mensagem. Tente novamente mais tarde ou",
+    "contactDirectly": "Você também pode nos enviar um e-mail diretamente para info@virtualmd.app"
+  },
+  "researchPage": {
+    "title": "Pesquisa e Publicações",
+    "subtitle": "Descubra a ciência por trás de nossas soluções de saúde com tecnologia de IA",
+    "description": "Nossa plataforma é construída com base em pesquisas de ponta e evidências clínicas.",
+    "sections": {
+      "publications": "Publicações",
+      "clinicalStudies": "Estudos clínicos",
+      "whitepapers": "Documentos técnicos",
+      "partnerships": "Parcerias de Pesquisa"
+    },
+    "healthAdvisory": {
+      "title": "Aviso de saúde",
+      "description": "Informações importantes sobre o uso de IA na área da saúde e quando consultar profissionais de saúde humanos.",
+      "button": "Leia o Aviso de Saúde"
+    },
+    "imagingAI": {
+      "title": "Assistência de IA para geração de imagens",
+      "description": "Explore nosso white paper abrangente sobre imagens médicas assistidas por IA e seu impacto na assistência médica.",
+      "button": "Leia o White Paper"
+    },
+    "pathologyAI": {
+      "title": "Assistência de IA em Patologia",
+      "description": "Explore nosso white paper detalhado sobre patologia assistida por IA e suas aplicações na detecção de câncer.",
+      "button": "Leia o White Paper"
+    },
+    "dermatologyAI": {
+      "title": "Assistência de IA em Dermatologia",
+      "description": "Nossa pesquisa sobre aplicações de IA em dermatologia para detecção e classificação de lesões de pele.",
+      "button": "Leia o White Paper"
+    },
+    "mentalHealthAI": {
+      "title": "Insights de IA para saúde mental",
+      "description": "Mergulhe fundo no papel da IA no avanço da saúde mental, diagnósticos e aplicações terapêuticas.",
+      "button": "Leia o White Paper"
+    },
+    "dataPrivacy": {
+      "title": "Mergulho profundo na privacidade de dados",
+      "description": "Uma revisão abrangente de nossas práticas de tratamento de dados, medidas de segurança e considerações sobre HIPAA.",
+      "button": "Leia o White Paper"
+    },
+    "aiAccuracy": {
+      "title": "Estudos de Precisão de IA",
+      "description": "Saiba mais sobre nossa pesquisa sobre precisão de IA em diagnósticos médicos e recomendações de tratamento.",
+      "button": "Ver estudos"
+    },
+    "aiForLaypeople": {
+      "title": "Imagens de IA para leigos",
+      "description": "Uma explicação simplificada de como a IA está transformando a imagem médica e o que isso significa para os pacientes.",
+      "button": "Leia a explicação"
+    }
+  },
+  "evidencePage": {
+    "title": "Evidências Clínicas",
+    "subtitle": "Pesquisa revisada por pares que respalda nossa plataforma de saúde de IA",
+    "description": "A medicina baseada em evidências está no centro de tudo o que fazemos.",
+    "heading": "Pioneirismo no futuro da saúde e bem-estar",
+    "description2": "O VirtualMD.app é A revolução em saúde e bem-estar, fundamentado em pesquisas de ponta e impulsionado pela paixão pelo bem-estar transformador. Demonstramos o poder comprovado da IA enquanto abrimos novos caminhos para um bem-estar personalizado e proativo. Mais do que um aplicativo, é um novo paradigma. Faça parte da revolução.",
+    "researchHeading": "Pesquisa Fundamental: Capacidades Comprovadas da IA",
+    "wellnessHeading": "A Revolução do Bem-Estar: Seu Caminho para o Bem-Estar da Próxima Geração",
+    "researchEvidence": {
+      "radiology": {
+        "title": "IA em Radiologia: Detecção Aprimorada",
+        "description": "Os modelos de IA alcançaram 92% de precisão na detecção de anormalidades em radiografias de tórax, demonstrando potencial para maior velocidade e precisão diagnóstica.",
+        "citation": "Revista de Radiologia, 2023",
+        "explainSimply": "Explique isso de forma simples",
+        "tooltip": "Clique para acessar um link que explica este artigo em termos simples."
+      },
+      "pathology": {
+        "title": "IA em Patologia: Precisão Aprimorada",
+        "description": "O diagnóstico assistido por IA melhorou a detecção de tecido maligno em 15% em lâminas de patologia em comparação à revisão manual sozinha.",
+        "citation": "Revista Americana de Patologia, 2022"
+      },
+      "dermatology": {
+        "title": "IA em Dermatologia: Desempenho de Nível Especializado",
+        "description": "Em um estudo cego em larga escala, a IA identificou corretamente 95% dos casos de câncer de pele a partir de imagens, igualando o desempenho de dermatologistas experientes.",
+        "citation": "JAMA Dermatologia, 2022"
+      },
+      "mentalHealthResearch": {
+        "title": "IA em Saúde Mental: Pesquisa de Detecção Precoce",
+        "description": "Pesquisas mostram que sistemas de IA detectam sinais de alerta precoce de recaídas de saúde mental, permitindo intervenção e suporte oportunos.",
+        "citation": "JAMA Psiquiatria, 2021"
+      }
+    },
+    "wellnessInsights": {
+      "personalizedWellness": {
+        "title": "Planos de bem-estar personalizados com tecnologia de IA",
+        "description": "Descubra como nossa IA ajuda a criar jornadas de bem-estar exclusivamente adaptadas aos seus objetivos e estilo de vida individuais, indo além de soluções universais."
+      },
+      "holisticSignals": {
+        "title": "Compreendendo os sinais únicos do seu corpo com IA",
+        "description": "Aprenda como o VirtualMD.app ajuda você a interpretar padrões sutis da sua vida diária para promover uma conexão mais profunda com seu bem-estar."
+      },
+      "proactiveWellbeing": {
+        "title": "O Futuro: Bem-estar Proativo e Preditivo",
+        "description": "Descubra como nossa plataforma usa insights prospectivos para ajudar você a antecipar necessidades e aumentar proativamente sua vitalidade e resiliência."
+      },
+      "aiEnhancedClarity": {
+        "title": "IA para maior atenção plena e clareza mental",
+        "description": "Veja como o VirtualMD.app oferece ferramentas e perspectivas para dar suporte ao foco mental, ao equilíbrio emocional e ao bem-estar cognitivo geral."
+      }
+    }
+  },
+  "featuresPage": {
+    "title": "Recursos da plataforma",
+    "subtitle": "Ferramentas abrangentes de consulta de saúde com tecnologia de IA",
+    "description": "Descubra todos os recursos que tornam o VirtualMD.app único.",
+    "heading": "Descubra nossa abordagem revolucionária",
+    "features": {
+      "instantWellnessInsights": {
+        "title": "Insights instantâneos de bem-estar",
+        "description": "Obtenha feedback imediato e compreensão de suas dúvidas sobre bem-estar, sempre que precisar."
+      },
+      "holisticWellnessPicture": {
+        "title": "Imagem de bem-estar holístico",
+        "description": "Nossa IA considera todos os aspectos da sua entrada — texto, imagens do seu progresso físico ou entradas no diário de bem-estar — para uma visão completa."
+      },
+      "diverseAIPerspectives": {
+        "title": "Perspectivas diversas de IA",
+        "description": "Beneficie-se de uma variedade de especialistas em bem-estar de IA, cada um oferecendo insights exclusivos para uma compreensão completa."
+      },
+      "everEvolvingIntelligence": {
+        "title": "Inteligência em constante evolução",
+        "description": "Nossa plataforma aprende e aprimora constantemente seu conhecimento para oferecer a você os conselhos de bem-estar mais atualizados e relevantes."
+      }
+    }
+  },
+  "clinicianInfoPage": {
+    "title": "Para profissionais de saúde",
+    "subtitle": "Ferramentas com tecnologia de IA para aprimorar sua prática clínica",
+    "description": "Aumente sua expertise com insights avançados de IA."
+  },
+  "healthAdvisoryPage": {
+    "title": "Aviso de saúde",
+    "subtitle": "Conheça nossos consultores médicos especialistas",
+    "description": "Saiba mais sobre os profissionais médicos que orientam nossa plataforma.",
+    "sections": {
+      "consultation": {
+        "title": "Sempre consulte um profissional de saúde humano",
+        "description": "Embora o sistema de consulta com tecnologia de IA do VirtualMD.app forneça informações valiosas sobre saúde, é fundamental sempre consultar profissionais de saúde humanos qualificados para quaisquer preocupações médicas. Nossos médicos certificados desenvolveram este sistema para complementar, e não substituir, o aconselhamento médico profissional.",
+        "emergencyTitle": "Em caso de emergência médica:",
+        "emergency": {
+          "us": "Estados Unidos: Ligue para o 911",
+          "canada": "Canadá: Ligue para o 911",
+          "uk": "Reino Unido: disque 999 ou 112",
+          "australia": "Austrália: disque 000 ou 112",
+          "israel": "Israel: Disque 101 ()",
+          "other": "Outros locais: entre em contato com os serviços de emergência locais imediatamente"
+        },
+        "emergencyWarning": "Se você estiver com dor no peito, dificuldade para respirar, sangramento intenso, sinais de derrame ou quaisquer outros sintomas graves, não espere. Procure atendimento de emergência agora mesmo."
+      },
+      "technology": {
+        "title": "Tecnologia avançada de IA em saúde do VirtualMD.app",
+        "description1": "O VirtualMD.app utiliza novos algoritmos desenvolvidos por nossa equipe de médicos formados em Harvard e especialistas em IA para fornecer informações de saúde excepcionalmente precisas. Nossos especialistas em IA em saúde são treinados com base em extensa literatura sobre saúde, diretrizes clínicas e cenários de saúde do mundo real para fornecer insights que refletem de perto os de especialistas certificados.",
+        "description2": "Em comparações controladas lado a lado para precisão diagnóstica, nosso sistema demonstrou um desempenho notável, frequentemente igualando ou superando os insights de médicos experientes. Nossas personas de IA podem processar milhares de artigos de pesquisa em saúde, diretrizes e protocolos clínicos em segundos — acessando conhecimento que vai além do que qualquer especialista em saúde humana conseguiria reter.",
+        "description3": "Embora busquemos precisão excepcional e nossa equipe aprimore continuamente o sistema, a medicina é complexa e as situações de saúde individuais são únicas. É por isso que projetamos nossa plataforma para ampliar — e não substituir — a inestimável expertise dos profissionais de saúde humanos."
+      },
+      "disclaimer": {
+        "title": "Use por sua conta e risco",
+        "description": "As informações fornecidas pelo VirtualMD.app e seus especialistas em saúde com IA são apenas para fins informativos e educacionais. Ao utilizar este serviço, você reconhece e concorda que:",
+        "points": {
+          "noDiagnosis": "O VirtualMD.app não fornece diagnóstico ou tratamento médico",
+          "mayContainErrors": "O conteúdo gerado por IA pode conter erros ou omissões, apesar de nossos processos de validação robustos",
+          "requiresEvaluation": "O aconselhamento médico requer uma avaliação personalizada por profissionais de saúde licenciados",
+          "mayBeOutdated": "As informações sobre saúde podem ficar desatualizadas à medida que o conhecimento médico evolui",
+          "uniqueCircumstances": "Seu histórico médico, condições e circunstâncias únicas exigem avaliação profissional"
+        },
+        "userResponsibility": "Embora o VirtualMD.app empregue tecnologia sofisticada para fornecer insights médicos valiosos, os usuários assumem toda a responsabilidade pela forma como utilizam essas informações.",
+        "missionStatement": "A equipe da VirtualMD.app desenvolveu esta tecnologia porque acreditamos na democratização do acesso ao conhecimento médico de classe mundial e no apoio a melhores decisões em saúde. Nosso sistema de IA representa um avanço revolucionário na tecnologia da informação em saúde que, quando usado corretamente em conjunto com cuidados profissionais, pode ajudar você a fazer escolhas de saúde mais informadas e a ter conversas mais produtivas com seus profissionais de saúde. Não utilizar essa tecnologia avançada, quando disponível, seria abrir mão de uma oportunidade de acessar conhecimento médico com potencial para mudar vidas."
+      }
+    }
+  },
+  "patientInfoPage": {
+    "title": "Para usuários",
+    "subtitle": "Orientação de saúde personalizada na ponta dos dedos",
+    "description": "Informações detalhadas sobre como o VirtualMD.app beneficia os pacientes estarão disponíveis aqui em breve."
+  },
+  "nurseInfoPage": {
+    "title": "Para Enfermeiros",
+    "subtitle": "Atendimento ao paciente aprimorado por IA e suporte à decisão clínica",
+    "description": "Informações detalhadas sobre como o VirtualMD.app beneficia enfermeiros estarão disponíveis aqui em breve."
+  },
+  "pharmacistInfoPage": {
+    "title": "Para Farmacêuticos",
+    "subtitle": "Insights sobre gerenciamento de medicamentos e interação medicamentosa",
+    "description": "Informações detalhadas sobre como o VirtualMD.app beneficia os farmacêuticos estarão disponíveis aqui em breve."
+  },
+  "physicianInfoPage": {
+    "title": "Para médicos",
+    "subtitle": "Apoio à decisão clínica e assistência diagnóstica",
+    "description": "Informações detalhadas sobre como o VirtualMD.app beneficia os médicos estarão disponíveis aqui em breve."
+  },
+  "medicalImageProcessingPage": {
+    "title": "Análise de Imagem de Saúde",
+    "subtitle": "Interpretação de imagens diagnósticas com tecnologia de IA",
+    "description": "Análise avançada de imagens para diagnóstico médico preciso.",
+    "preset": "Predefinição",
+    "chooseImage": "Escolha a imagem",
+    "process": "Processo",
+    "processedImage": "Imagem processada"
+  },
+  "mentalHealthInfoPage": {
+    "title": "Apoio à Saúde Mental",
+    "subtitle": "Triagem e suporte de saúde mental assistidos por IA",
+    "description": "Informações detalhadas sobre como o VirtualMD.app beneficia especialistas em saúde mental estarão disponíveis aqui em breve."
+  },
+  "wellnessPathwaysPage": {
+    "title": "Guia de Caminhos para o Bem-Estar",
+    "subtitle": "Planejamento personalizado de jornada de saúde",
+    "description": "Descubra seu caminho para uma saúde e bem-estar ideais."
+  },
+  "yourHealthInYourHandsPage": {
+    "title": "Sua saúde em suas mãos",
+    "subtitle": "Capacitando você a assumir o controle da sua saúde",
+    "description": "Ferramentas e insights para ajudar você a tomar decisões de saúde informadas.",
+    "mainHeading": "Assuma o controle: sua saúde, suas decisões, sua jornada",
+    "sections": {
+      "uniqueProfile": {
+        "title": "Entenda seu perfil único",
+        "description1": "Obtenha insights mais profundos sobre o seu bem-estar individual. Nossa plataforma ajuda você a conectar os pontos e entender os fatores que contribuem para a sua vitalidade geral.",
+        "description2": "Explore diferentes facetas do seu bem-estar, desde padrões de estilo de vida até preferências pessoais, tudo em um só lugar."
+      },
+      "personalizedGoals": {
+        "title": "Defina e acompanhe suas metas personalizadas",
+        "description1": "Defina o que bem-estar significa para *você*. Com o VirtualMD.app, você pode definir metas significativas e alcançáveis e acompanhar seu progresso ao longo do caminho. Oferecemos as ferramentas e o suporte para ajudar você a se manter motivado e comemorar seus sucessos.",
+        "description2": "Seja aumentando os níveis de energia, melhorando o sono ou promovendo clareza mental, sua jornada é única."
+      },
+      "diverseInsights": {
+        "title": "Acesse insights diversos para escolhas informadas",
+        "description1": "Conhecimento é poder. Nossa plataforma oferece acesso a um amplo espectro de informações e perspectivas de nossos diversos guias de bem-estar com IA. Tome decisões confiantes com base em um entendimento abrangente, não apenas em fatos isolados.",
+        "description2": "Ajudamos você a navegar pelo complexo mundo das informações sobre bem-estar para que você possa escolher o que é certo para você."
+      },
+      "proactivePartner": {
+        "title": "Seu parceiro no bem-estar proativo",
+        "description1": "O VirtualMD.app é mais do que uma ferramenta; somos seu parceiro na construção de um relacionamento proativo e positivo com sua saúde. Estamos aqui para apoiá-lo com recursos, insights e uma abordagem revolucionária para o bem-estar pessoal.",
+        "description2": "Seja a Revolução na sua vida. Comece hoje mesmo sua jornada de bem-estar e fortalecimento."
+      }
+    },
+    "callToAction": {
+      "title": "Pronto para colocar sua saúde em suas mãos?",
+      "description": "Explore nossos recursos, converse com nossos guias de bem-estar de IA e descubra a diferença que o VirtualMD.app pode fazer.",
+      "buttons": {
+        "tryAsGuest": "Experimente como convidado"
+      }
+    }
+  },
+  "aboutEncyclopediaPage": {
+    "title": "VirtualMD.app Enciclopédia de Saúde e Bem-Estar",
+    "p1": "No mundo digital de hoje, temos uma enxurrada de informações sobre saúde ao nosso alcance, mas distinguir conselhos confiáveis de informações incorretas pode ser complicado.",
+    "p2": "A Enciclopédia VirtualMD.app se destaca, oferecendo uma maneira revolucionária de se envolver com seu bem-estar. Integrada exclusivamente à nossa plataforma, ela permite que você acesse insights profundos e referenciados de periódicos médicos respeitados sem precisar sair da sua consulta presencial com nossa equipe de especialistas em IA.",
+    "p3": "Este não é apenas um mecanismo de busca; é um componente de \"pesquisa profunda\" especialmente treinado, projetado para ser seu recurso confiável durante uma conversa.",
+    "p4": "Imagine que você está em um bate-papo com nosso cardiologista e nutricionista de IA discutindo o controle do colesterol. O termo \"estatinas\" é mencionado e você quer entender mais do que apenas o básico. Em vez de interromper a discussão para pesquisar na internet, você pode acessar instantaneamente a Enciclopédia VirtualMD.app. Ela fornecerá um resumo abrangente, porém fácil de entender, de como as estatinas funcionam, seus benefícios e potenciais efeitos colaterais, com todas as informações obtidas de publicações revisadas por pares, como The Lancet ou New England Journal of Medicine."
+  },
+  "dataPrivacyPage": {
+    "title": "Privacidade e segurança de dados",
+    "subtitle": "Seus dados de saúde são protegidos com os mais altos padrões de segurança",
+    "description": "Saiba como mantemos suas informações pessoais de saúde seguras e protegidas."
+  },
+  "encyclopediaPage": {
+    "title": "Enciclopédia VirtualMD.app",
+    "subtitle": "Conhecimento médico abrangente na ponta dos seus dedos",
+    "description": "Explore nosso extenso banco de dados de condições médicas, tratamentos e informações de saúde.",
+    "mainHeading": "Enciclopédia VirtualMD.app",
+    "p1": "Bem-vindo à Enciclopédia VirtualMD.app - seu guia completo de conhecimento médico.",
+    "p2": "Nossa enciclopédia abrange uma ampla gama de tópicos de saúde, condições e tratamentos.",
+    "exampleTitle": "Tópicos em destaque",
+    "exampleText": "Explore nossos tópicos de saúde e condições médicas mais populares.",
+    "uniqueTitle": "O que nos torna únicos",
+    "p3": "Nossa enciclopédia com tecnologia de IA fornece informações de saúde personalizadas e baseadas em evidências."
+  },
+  "whyVirtualMDPage": {
+    "title": "Por que VirtualMD.app?",
+    "subtitle": "O futuro da saúde personalizada está aqui",
+    "description": "Descubra o que torna nossa plataforma de saúde com tecnologia de IA única."
+  },
+  "landing": {
+    "tryItOut": "Experimente",
+    "cards": {
+      "tryItOut": {
+        "tagline": "Não é necessário se inscrever."
+      }
+    }
+  },
+  "legalPage": {
+    "title": "Informações legais",
+    "subtitle": "Termos de Serviço, Política de Privacidade e Avisos Legais",
+    "description": "Informações legais importantes sobre o uso do VirtualMD.app."
+  },
+  "legal": {
+    "eligibility": {
+      "ageRequirement": "Para utilizar o Serviço VirtualMD.app, você deve ter pelo menos 18 anos de idade ou a maioridade legal em sua jurisdição, o que for maior. Se você estiver utilizando o Serviço em nome de uma organização, você declara e garante que tem autoridade para vincular essa organização a estes Termos e concorda em se vincular a estes Termos em nome dessa organização.",
+      "legalCapacity": "Você também deve ter capacidade legal para aceitar estes Termos. Você não poderá acessar ou utilizar o Serviço caso esteja proibido de receber serviços pela legislação aplicável ou tenha sido previamente suspenso ou removido do Serviço pela VirtualMD.",
+      "territorialRestrictions": "O acesso ao Serviço a partir de territórios onde seu conteúdo ou uso seja ilegal é estritamente proibido. Os usuários são responsáveis por cumprir todas as regras, leis e regulamentos locais relativos ao uso do Serviço, incluindo aqueles relacionados à conduta online e ao conteúdo aceitável."
+    },
+    "feesAndPayment": {
+      "currentlyFree": "Atualmente, o acesso aos recursos básicos do serviço VirtualMD.app é fornecido gratuitamente.",
+      "futureFeesNotice": "A VirtualMD reserva-se o direito de cobrar taxas por determinados recursos, níveis de serviço ou pelo Serviço como um todo no futuro. Caso cobramos taxas, avisaremos você com antecedência sobre tais alterações e as condições de pagamento aplicáveis. O uso contínuo dos serviços pagos após a notificação constitui sua concordância com o pagamento das taxas aplicáveis.",
+      "paymentTerms": "Quaisquer termos de pagamento apresentados a você no processo de uso ou inscrição em um serviço pago são considerados parte destes Termos."
+    },
+    "termination": {
+      "userTermination": "Você pode encerrar sua conta e parar de usar o Serviço a qualquer momento seguindo as instruções do Serviço ou entrando em contato conosco.",
+      "serviceTermination": "A VirtualMD poderá, a seu exclusivo critério, suspender ou encerrar seu acesso a todo ou parte do Serviço, com ou sem aviso prévio, por qualquer motivo, incluindo, entre outros, a violação destes Termos. Os motivos para a rescisão podem incluir, entre outros, inatividade prolongada, solicitações de autoridades policiais ou outras agências governamentais, descontinuação ou modificação substancial do Serviço, ou problemas técnicos ou de segurança inesperados.",
+      "effectOfTermination": "Após a rescisão, seu direito de usar o Serviço cessará imediatamente. Todas as disposições dos Termos que, por sua natureza, devam permanecer em vigor após a rescisão, permanecerão em vigor após a rescisão, incluindo, sem limitação, disposições de propriedade, isenções de garantia, indenização e limitações de responsabilidade.",
+      "noLiability": "Não seremos responsáveis perante você ou qualquer terceiro por qualquer rescisão do seu acesso ao Serviço."
+    },
+    "termsOfUse": {
+      "title": "Termos de Uso",
+      "header": {
+        "company": "Site VirtualMD.app",
+        "llc": "VirtualMD Technologies LLC"
+      },
+      "welcome": "Bem-vindo ao VirtualMD.app (o \"Serviço\", \"Site\"), operado pela VirtualMD Technologies, LLC (\"VirtualMD\", \"nós\", \"nosso\"). Estes Termos de Uso (\"Termos\") regem seu acesso e uso do nosso site, personas de IA, conteúdo e serviços. Ao acessar ou utilizar o Serviço, você concorda em se comprometer com estes Termos e com a nossa Política de Privacidade, incorporada aqui por referência. Caso não concorde com estes Termos, não utilize o Serviço.",
+      "sections": {
+        "section1": {
+          "title": "Nosso compromisso com a privacidade de dados",
+          "content": "No VirtualMD.app, a privacidade e a segurança das suas informações pessoais são primordiais. Temos o compromisso de manter a confidencialidade e a integridade dos dados que você nos confia. Nossa plataforma foi projetada com medidas de segurança robustas para proteger suas informações contra acesso, divulgação, alteração e destruição não autorizados.",
+          "subsections": {
+            "": {
+              "content": "Dados Anonimizados para Melhoria:\nUsamos dados rigorosamente anonimizados e agregados (com todas as PII removidas) para aprimorar a precisão, a eficácia e a segurança dos nossos modelos de IA e recursos da plataforma. Isso não permite a identificação de nenhum usuário individual."
+            }
+          }
+        },
+        "section2": {
+          "title": "Informações que coletamos e outros detalhes de privacidade",
+          "content": "Informações que Coletamos\nColetamos informações que você nos fornece diretamente, informações que coletamos automaticamente por meio do seu uso do Serviço e informações de fontes terceirizadas.\n\nInformações da Conta: Quando você se cadastra, coletamos informações como seu nome, endereço de e-mail e número de telefone (para fins de autenticação).\nConteúdo do Usuário: Coletamos as informações que você fornece ao usar o Serviço, incluindo textos inseridos em interfaces de bate-papo, informações de perfil (como listas de medicamentos, se fornecidas) e feedback.\nInformações de Uso: Coletamos automaticamente informações sobre suas interações com o Serviço, como endereço IP, tipo de navegador, informações do dispositivo, sistema operacional, páginas visualizadas, links clicados e as datas e horários de suas visitas.\nCookies e Tecnologias Semelhantes: Usamos cookies e tecnologias de rastreamento semelhantes para rastrear a atividade em nosso Serviço e armazenar determinadas informações. Você pode instruir seu navegador a recusar todos os cookies ou indicar quando um cookie está sendo enviado. No entanto, se você não aceitar cookies, poderá não conseguir usar algumas partes do nosso Serviço.\n\nComo Usamos as Informações\nUsamos as informações que coletamos para diversos fins, incluindo:\n\nFornecer, operar, manter e aprimorar o Serviço.\nProcessar transações e enviar informações relacionadas, incluindo confirmações e faturas (se aplicável).\nEnviar avisos técnicos, atualizações, alertas de segurança e mensagens de suporte e administrativas.\nResponder aos seus comentários, perguntas e solicitações e fornecer atendimento ao cliente.\nComunicar-nos com você sobre produtos, serviços, ofertas, promoções, recompensas e eventos oferecidos pela VirtualMD e outros, e fornecer notícias e informações que acreditamos ser do seu interesse (sujeito ao seu direito de cancelamento).\nMonitorar e analisar tendências, uso e atividades relacionadas ao nosso Serviço.\nDetectar, investigar e prevenir transações fraudulentas e outras atividades ilegais, e proteger os direitos e a propriedade da VirtualMD e de outros.\nPersonalizar e aprimorar o Serviço e fornecer conteúdo ou recursos que correspondam aos perfis ou interesses dos usuários.\nAprimorar a precisão, a eficácia e a segurança de nossos modelos de IA e recursos da plataforma usando dados anonimizados e agregados.\nRealizar qualquer outra finalidade descrita a você no momento da coleta das informações.\n\nComo Compartilhamos Informações\n\nCom Fornecedores e Prestadores de Serviços: Podemos compartilhar informações com fornecedores terceirizados, consultores e outros prestadores de serviços que precisem acessar tais informações para realizar trabalhos em nosso nome (por exemplo, provedores de hospedagem, provedores de análise, processadores de pagamento, provedores de API de IA configurados de acordo com nossas políticas de uso de dados).\nEm Resposta a Processo Judicial: Podemos divulgar informações se exigido por lei ou se acreditarmos de boa-fé que tal ação é necessária para cumprir uma obrigação legal, proteger e defender os direitos ou propriedade da VirtualMD, prevenir ou investigar possíveis irregularidades relacionadas ao Serviço, proteger a segurança pessoal dos usuários do Serviço ou do público, ou proteger contra responsabilidade legal.\nCom Seu Consentimento: Podemos compartilhar informações com o seu consentimento ou sob sua orientação.\nTransferências Comerciais: Podemos compartilhar ou transferir informações relacionadas a, ou durante negociações de, qualquer fusão, venda de ativos da empresa, financiamento ou aquisição de toda ou parte de nossos negócios por outra empresa.\nDados Agregados ou Anonimizados: Podemos compartilhar informações agregadas ou anonimizadas, que não podem ser razoavelmente usadas para identificá-lo.\n\nSuas Opções de Privacidade\nInformações da Conta: Você pode atualizar, corrigir ou excluir informações sobre você a qualquer momento, acessando sua conta ou entrando em contato conosco. Se desejar excluir sua conta, entre em contato conosco, mas observe que podemos reter determinadas informações conforme exigido por lei ou para fins comerciais legítimos.\nExclusão de Dados: Conforme mencionado em Práticas de Segurança, você tem ferramentas para excluir permanentemente conversas individuais ou toda a sua conta.\nCookies: A maioria dos navegadores da web está configurada para aceitar cookies por padrão. Se preferir, geralmente você pode optar por configurar seu navegador para remover ou rejeitar cookies do navegador.\nComunicações Promocionais: Você pode optar por não receber e-mails promocionais da VirtualMD seguindo as instruções nesses e-mails. Se optar por não receber, ainda poderemos enviar comunicações não promocionais, como aquelas sobre sua conta ou nossas relações comerciais em andamento.\n\nRetenção de Dados\nArmazenamos as informações que coletamos sobre você pelo tempo necessário para a(s) finalidade(s) para a(s) qual(is) as coletamos originalmente ou para outros fins comerciais legítimos, incluindo o cumprimento de nossas obrigações legais, regulatórias ou de conformidade. Retemos as informações da conta enquanto sua conta estiver ativa e por um período razoável após isso, caso você decida reativar o Serviço. Dados anonimizados e agregados usados para melhorias do sistema podem ser retidos indefinidamente.\n\nTransferências Internacionais de Dados\nA VirtualMD está sediada nos Estados Unidos e processamos e armazenamos informações nos EUA. Se você estiver localizado fora dos Estados Unidos, esteja ciente de que as informações que coletamos serão transferidas, processadas e armazenadas nos Estados Unidos. As leis de proteção de dados nos EUA podem ser diferentes das do seu país de residência. Ao utilizar o Serviço, você concorda com a transferência de suas informações para os EUA e com o uso e a divulgação de suas informações conforme descrito nesta Política de Privacidade.\n\nPrivacidade de Crianças\nO Serviço VirtualMD.app destina-se a adultos e não se destina a crianças menores de 13 anos (ou a idade de consentimento digital relevante em sua jurisdição). Não coletamos intencionalmente informações pessoais de crianças. O uso do Serviço por crianças é proibido. Se você for pai/mãe ou responsável e acreditar que seu filho nos forneceu informações ilegalmente sem o seu consentimento, entre em contato conosco imediatamente pelo e-mail legal@virtualmd.app. Se descobrirmos que coletamos informações de uma criança em violação à lei aplicável, tomaremos medidas imediatas para excluí-las.",
+          "subsections": {
+            "wemayshareinformationaboutyouasfollowsorasotherwisedescribedinthisprivacypolicy": {
+              "title": "Podemos compartilhar informações sobre você da seguinte forma ou conforme descrito nesta Política de Privacidade"
+            }
+          }
+        },
+        "section3": {
+          "title": "Limitação de responsabilidade em relação à segurança de dados",
+          "content": "A VirtualMD implementa medidas de segurança comercialmente razoáveis, incluindo protocolos de criptografia e autenticação (conforme detalhado em nossa Política de Privacidade), para proteger as informações que você fornece ao Serviço. No entanto, nenhum sistema de segurança é impenetrável.\n\nPortanto, ao utilizar este Site, você expressamente reconhece e concorda que, embora a VirtualMD faça esforços razoáveis para proteger seus dados de acordo com as práticas comerciais padrão, NÃO GARANTIMOS A SEGURANÇA ABSOLUTA DE SUAS INFORMAÇÕES. Você concorda que NÃO PODE E NÃO IRÁ PROCESSAR OU RESPONSABILIZAR A VirtualMD TECHNOLOGIES, LLC, SUAS AFILIADAS, DIRETORES, FUNCIONÁRIOS, AGENTES OU LICENCIANTES por quaisquer danos, perdas, custos ou despesas decorrentes de ou em conexão com qualquer acesso, uso, divulgação, alteração ou destruição não autorizados de suas informações (incluindo violações de dados), desde que a VirtualMD tenha implementado medidas de segurança razoáveis. O uso do Serviço constitui sua aceitação deste risco."
+        },
+        "section4": {
+          "title": "Limitação Geral de Responsabilidade",
+          "content": "ATÉ O LIMITE MÁXIMO PERMITIDO PELA LEI APLICÁVEL, EM NENHUMA HIPÓTESE A VirtualMD TECHNOLOGIES, LLC, SUAS AFILIADAS, EXECUTIVOS, DIRETORES, FUNCIONÁRIOS, AGENTES OU LICENCIANTES SERÃO RESPONSÁVEIS POR QUAISQUER DANOS INDIRETOS, INCIDENTAIS, ESPECIAIS, CONSEQUENCIAIS OU PUNITIVOS, OU POR QUALQUER PERDA DE LUCROS OU RECEITAS, INCORRIDOS DIRETA OU INDIRETAMENTE, OU POR QUALQUER PERDA DE DADOS, USO, FUNDO DE COMÉRCIO OU OUTRAS PERDAS INTANGÍVEIS, RESULTANTES DE:\n\nSEU ACESSO, USO OU INCAPACIDADE DE ACESSAR OU USAR O SERVIÇO;\nQUALQUER CONDUTA OU CONTEÚDO DE TERCEIROS NO SERVIÇO, INCLUINDO, SEM LIMITAÇÃO, QUALQUER CONDUTA DIFAMATÓRIA, OFENSIVA OU ILEGAL DE OUTROS USUÁRIOS OU TERCEIROS;\nQUALQUER CONTEÚDO OBTIDO DO SERVIÇO; OU\nACESSO, USO OU ALTERAÇÃO NÃO AUTORIZADOS DE SUAS TRANSMISSÕES OU CONTEÚDO (INCLUINDO VIOLAÇÕES DE DADOS), MESMO QUE A VirtualMD TENHA IMPLEMENTADO MEDIDAS DE SEGURANÇA RAZOÁVEIS, CONFORME DESCRITO NESTES TERMOS E NA POLÍTICA DE PRIVACIDADE.\nATÉ O LIMITE MÁXIMO PERMITIDO POR LEI, A VirtualMD SE ISENTA DE TODAS AS GARANTIAS, EXPRESSAS OU IMPLÍCITAS, INCLUINDO, MAS NÃO SE LIMITANDO A, GARANTIAS IMPLÍCITAS DE COMERCIALIZAÇÃO, ADEQUAÇÃO A UM DETERMINADO FIM, TÍTULO E NÃO VIOLAÇÃO.\n\nEM NENHUMA HIPÓTESE A RESPONSABILIDADE TOTAL DA VirtualMD E DE SUAS AFILIADAS EXCEDERÁ O VALOR DE CEM DÓLARES AMERICANOS (US$ 100,00) OU O VALOR PAGO À VirtualMD, SE HOUVER, NOS ÚLTIMOS SEIS MESES PELOS SERVIÇOS QUE DERAM ORIGEM À REIVINDICAÇÃO.\n\nSujeito ao limite de responsabilidade agregada acima, e não obstante qualquer outra disposição destes Termos, seu único e exclusivo recurso para qualquer reclamação decorrente ou relacionada a estes Termos ou ao Serviço limitar-se-á à recuperação de danos diretos efetivamente incorridos por você. Tais danos diretos são definidos como as taxas que você pagou diretamente à VirtualMD pela parte específica do Serviço que deu origem à reclamação durante os seis (6) meses imediatamente anteriores ao evento, e são recuperáveis somente na medida em que tais danos resultem diretamente de má conduta intencional comprovada ou negligência grave da VirtualMD no cumprimento de suas obrigações sob estes Termos. Para maior clareza, a VirtualMD, suas afiliadas, acionistas, executivos, diretores, funcionários e agentes não serão responsáveis por quaisquer danos indiretos, incidentais, especiais, consequenciais ou punitivos, honorários advocatícios ou custos, independentemente da teoria de responsabilidade, mesmo que decorrentes de uma violação destes Termos ou de seus direitos, exceto quando tais exclusões forem proibidas por disposições irrenunciáveis da lei aplicável.\n\nAS LIMITAÇÕES DESTA SUBSEÇÃO APLICAR-SE-ÃO A QUALQUER TEORIA DE RESPONSABILIDADE, SEJA BASEADA EM GARANTIA, CONTRATO, ESTATUTO, ATO ILÍCITO (INCLUINDO NEGLIGÊNCIA) OU OUTRO, E INDEPENDENTEMENTE DE A VirtualMD TER SIDO INFORMADA DA POSSIBILIDADE DE TAIS DANOS, E MESMO QUE UMA SOLUÇÃO AQUI ESTABELECIDA SEJA CONSIDERADA COMO TENDO FALHADO EM SEU PROPÓSITO ESSENCIAL.\n\nALGUMAS JURISDIÇÕES NÃO PERMITEM A EXCLUSÃO DE CERTAS GARANTIAS OU A LIMITAÇÃO OU EXCLUSÃO DE RESPONSABILIDADE POR DANOS INCIDENTAIS OU CONSEQUENCIAIS. CONSEQUÊNCIA, ALGUMAS DAS LIMITAÇÕES ACIMA PODEM NÃO SE APLICAR A VOCÊ."
+        },
+        "section5": {
+          "title": "Práticas de segurança do VirtualMD.app",
+          "content": "Empregamos uma estratégia de segurança multicamadas:\n\nAutenticação de Dois Fatores (2FA):\nObrigatória para todas as contas, exigindo verificação por meio de um segundo fator (por exemplo, código para e-mail/telefone).\n\nOpção de Autenticação de Três Fatores (3FA):\nSegurança aprimorada opcional que exige senha, código de e-mail e código SMS.\n\nEssas medidas oferecem segurança robusta para a conta, mas lembre-se de que nenhum sistema é 100% seguro.",
+          "subsections": {
+            "": {
+              "content": "Controles de Acesso:\nO acesso aos registros do banco de dados de usuários por funcionários é rigorosamente controlado, limitado, registrado e regido por políticas internas. A navegação rotineira é proibida."
+            }
+          }
+        },
+        "section6": {
+          "title": "Considerações sobre VirtualMD.app e HIPAA (reiteração)",
+          "content": "Conforme declarado nas Isenções de Responsabilidade, o serviço geral VirtualMD.app NÃO está em conformidade com a HIPAA para casos de uso de Entidades Cobertas/Parceiros Comerciais envolvendo PHI sem um BAA específico. Embora implementemos segurança robusta, nosso serviço geral opera sob práticas de segurança comercial padrão, não segundo os requisitos específicos da Regra de Segurança da HIPAA para PHI gerenciadas por Entidades Cobertas.\n\nUsuários que exigem conformidade estrita com a HIPAA para PHI que gerenciam não devem usar nossa plataforma geral para tais fins sem um BAA. Os usuários não devem inserir informações rastreáveis a pacientes individuais em um contexto que viole a HIPAA sem consentimento explícito e informado, reconhecendo o status de não conformidade da plataforma com a HIPAA para esse uso."
+        },
+        "section7": {
+          "title": "Uso de dados por provedores terceirizados de mecanismos de IA",
+          "content": "O VirtualMD integra-se com os principais provedores de modelos de IA (por exemplo, OpenAI, Anthropic, Google).\n\nVirtualMD.app:\nUsamos apenas dados agregados e anônimos para melhorias internas do sistema.\n\nProvedores de API de IA terceirizados:\nOs principais provedores acessados via API (como OpenAI e Anthropic) normalmente declaram em suas políticas que os dados enviados via API NÃO são usados para treinar seus modelos básicos gerais. Configuramos nosso uso desses serviços para alinhá-los a essas opções de preservação da privacidade. Consulte suas políticas específicas para obter detalhes.\n\nOutras Disposições Legais\nAlterações a Estes Termos e Política\nO VirtualMD reserva-se o direito, a nosso exclusivo critério, de modificar ou substituir estes Termos e a Política de Privacidade incorporada a qualquer momento. Se uma revisão for relevante, forneceremos um aviso com pelo menos 30 dias de antecedência da entrada em vigor de quaisquer novos termos, que poderá ser enviado por e-mail para o endereço associado à sua conta ou publicando um aviso no Serviço.\n\nO que constitui uma alteração relevante será determinado a nosso exclusivo critério.\n\nAo continuar a acessar ou utilizar nosso Serviço após a entrada em vigor de quaisquer revisões, você concorda em se comprometer com os termos revisados. Caso não concorde com os novos termos, você não estará mais autorizado a utilizar o Serviço e deverá descontinuá-lo imediatamente.\n\nÉ sua responsabilidade verificar estes Termos periodicamente para verificar se há alterações.\n\nRescisão\nVocê pode encerrar sua conta e deixar de utilizar o Serviço a qualquer momento, seguindo as instruções contidas no Serviço ou entrando em contato conosco.\n\nA VirtualMD poderá, a seu exclusivo critério, suspender ou encerrar seu acesso a todo ou parte do Serviço, com ou sem aviso prévio, por qualquer motivo, incluindo, entre outros, a violação destes Termos. Os motivos para a rescisão podem incluir, entre outros, inatividade prolongada, solicitações de autoridades policiais ou outras agências governamentais, descontinuação ou modificação substancial do Serviço ou problemas técnicos ou de segurança inesperados.\n\nApós a rescisão, seu direito de usar o Serviço cessará imediatamente. Todas as disposições dos Termos que, por sua natureza, devam permanecer em vigor após a rescisão, permanecerão em vigor após a rescisão, incluindo, entre outros, disposições de propriedade, isenções de garantia, indenização e limitações de responsabilidade.\n\nNão seremos responsáveis perante você ou terceiros por qualquer rescisão do seu acesso ao Serviço.\n\nLei Aplicável e Resolução de Disputas\nEstes Termos e o seu uso do Serviço serão regidos e interpretados de acordo com as leis da Comunidade de Massachusetts, Estados Unidos da América, independentemente de seus princípios de conflito de leis.\n\nVocê concorda que qualquer ação ou processo legal decorrente ou relacionado a estes Termos ou ao Serviço será movido exclusivamente nos tribunais federais ou estaduais localizados no Condado de Suffolk, Massachusetts, EUA. Você, por meio deste, concorda com a jurisdição e foro exclusivos de tais tribunais e renuncia a qualquer objeção quanto a foro inconveniente.\n\nA VirtualMD pode, a seu exclusivo critério, exigir que você submeta quaisquer disputas decorrentes do uso destes Termos ou do Serviço, incluindo disputas decorrentes ou relativas à sua interpretação, violação, invalidade, não execução ou rescisão, à arbitragem final e vinculativa de acordo com as Regras de Arbitragem da Associação Americana de Arbitragem, aplicando a lei de Massachusetts.\n\nInformações de Contato\nCaso tenha alguma dúvida sobre estes Termos ou a Política de Privacidade, entre em contato conosco pelo e-mail: legal@virtualmd.app ou pela nossa página Fale Conosco.\n\nDiversos\nContrato Integral\nEstes Termos e nossa Política de Privacidade constituem o único e integral acordo entre você e a VirtualMD Technologies, LLC em relação ao Serviço e substituem todos os entendimentos, acordos, representações e garantias anteriores e atuais, tanto escritos quanto verbais, relativos ao Serviço.\n\nDivisibilidade\nSe qualquer disposição destes Termos for considerada por um tribunal ou outro tribunal de jurisdição competente como inválida, ilegal ou inexequível por qualquer motivo, tal disposição será eliminada ou limitada ao mínimo necessário para que as demais disposições dos Termos continuem em pleno vigor e efeito.\n\nRenúncia\nNenhuma renúncia pela VirtualMD a qualquer termo ou condição estabelecido nestes Termos será considerada uma renúncia adicional ou contínua de tal termo ou condição ou uma renúncia de qualquer outro termo ou condição, e qualquer falha da VirtualMD em fazer valer um direito ou disposição sob estes Termos não constituirá uma renúncia de tal direito ou disposição.\n\nCessão\nEstes Termos, e quaisquer direitos e licenças aqui concedidos, não podem ser transferidos ou cedidos por você, mas podem ser cedidos pela VirtualMD sem restrição.\n\nTítulos\nOs títulos das seções aqui utilizados são apenas para conveniência e não terão qualquer significado legal.\n\nForça Maior\nA VirtualMD não será responsável por qualquer falha no cumprimento de suas obrigações aqui estabelecidas quando tal falha resultar de qualquer causa além do controle razoável da VirtualMD, incluindo, sem limitação, falha ou degradação mecânica, eletrônica ou de comunicação.\n\nÚltima atualização: 12 de maio de 2025\n\nFale conosco\ninfo@virtualmd.app"
+        }
+      }
+    }
+  },
+  "dataPrivacyWhitepaper": {
+    "sections": {
+      "hero": "Introdução",
+      "privacyPledge": "Nosso Compromisso de Privacidade",
+      "securityLevels": "Compreendendo a segurança de dados",
+      "hipaaDeepDive": "HIPAA explicado",
+      "VirtualMDSecurity": "Práticas de segurança do VirtualMD.app",
+      "hipaaConsiderations": "VirtualMD.app e HIPAA",
+      "userResponsibility": "Responsabilidade do Usuário e Uso Ético",
+      "privacyScenarios": "Cenários práticos de privacidade e considerações avançadas",
+      "conclusion": "Conclusão e principais conclusões"
+    },
+    "hero": {
+      "title": "VirtualMD.app: Privacidade de dados e você",
+      "subtitle": "Compreendendo nosso compromisso com a segurança dos seus dados e nossa abordagem aos padrões de informações de saúde, incluindo HIPAA."
+    },
+    "privacyPledge": {
+      "title": "1. Compromisso de Privacidade de Dados do VirtualMD.app",
+      "intro": "No VirtualMD.app, a privacidade e a segurança das suas informações pessoais são primordiais. Temos o compromisso de manter a confidencialidade e a integridade dos dados que você nos confia. Nossa plataforma foi projetada com medidas de segurança robustas para proteger suas informações contra acesso, divulgação, alteração e destruição não autorizados.",
+      "secureInfo": {
+        "title": "Nós nos esforçamos para manter suas informações seguras.",
+        "description": "Empregamos protocolos de criptografia padrão do setor para dados em trânsito e em repouso, juntamente com arquiteturas de segurança multicamadas."
+      },
+      "noPersonalUse": {
+        "title": "Não usamos suas informações de nenhuma forma pessoalmente identificável para fins externos sem seu consentimento explícito.",
+        "description": "Suas interações diretas e dados pessoais são somente seus."
+      },
+      "neverSell": {
+        "title": "Nunca venderemos suas informações pessoais a terceiros.",
+        "description": "Sua confiança é inestimável, e nós a mantemos garantindo que seus dados não sejam transformados em commodities."
+      },
+      "anonymizedData": {
+        "title": "Usaremos seus dados anonimizados para melhorar nosso sistema.",
+        "description": "Para aprimorar a precisão, a eficácia e a segurança de nossos modelos de IA e recursos de plataforma, utilizamos dados rigorosamente anonimizados e agregados. Isso significa que todas as informações de identificação pessoal (PII) são removidas e os dados são usados de forma coletiva, o que não permite a identificação de nenhum usuário individual. Esse processo é crucial para o aprendizado e a melhoria contínuos dos serviços que oferecemos a todos os usuários."
+      }
+    },
+    "securityLevels": {
+      "title": "2. Compreendendo os níveis de segurança de dados e HIPAA",
+      "accountSecurity": {
+        "title": "Níveis de segurança da conta",
+        "description": "A segurança digital depende de camadas de autenticação para verificar a identidade do usuário. Essas camadas são frequentemente categorizadas como fatores:",
+        "sfaTitle": "Autenticação de fator único (1FA):",
+        "sfaDescription": "Requer apenas uma categoria de credencial, normalmente uma senha. Embora comum, este é o método menos seguro, pois as senhas podem ser roubadas, adivinhadas ou quebradas.",
+        "tfaTitle": "Autenticação de dois fatores (2FA):",
+        "tfaDescription": "Requer dois tipos diferentes de credenciais de duas categorias distintas (por exemplo, algo que você saiba, como uma senha, e algo que você tenha, como um código de uso único enviado ao seu telefone). Isso aumenta significativamente a segurança.",
+        "mfaTitle": "Autenticação de três fatores (3FA) / Autenticação multifator (MFA):",
+        "mfaDescription": "Requer três ou mais tipos diferentes de credenciais. Por exemplo, uma senha (saber), um código de uso único via SMS (ter) e uma leitura biométrica, como uma impressão digital (estar). Isso oferece um nível de segurança muito alto."
+      },
+      "hipaaHistory": {
+        "title": "Uma breve história e visão geral da HIPAA",
+        "p1": "A Lei de Portabilidade e Responsabilidade de Seguros de Saúde de 1996 (HIPAA) é uma lei federal dos Estados Unidos criada para proteger informações confidenciais de saúde de pacientes contra divulgação sem o consentimento ou conhecimento do paciente. Ela também visa melhorar a eficiência e a eficácia do sistema de saúde.",
+        "p2Title": "Principais regras da HIPAA:",
+        "privacyRuleTitle": "Regra de privacidade:",
+        "privacyRuleDescription": "Estabelece padrões nacionais para a proteção de informações de saúde individualmente identificáveis (Informações de Saúde Protegidas - PHI). Aborda o uso e a divulgação de PHI por \"entidades cobertas\".",
+        "securityRuleTitle": "Regra de segurança:",
+        "securityRuleDescription": "Estabelece padrões nacionais para a proteção da confidencialidade, integridade e disponibilidade de PHI eletrônicas (ePHI). Exige que as entidades abrangidas implementem salvaguardas administrativas, físicas e técnicas.",
+        "breachRuleTitle": "Regra de notificação de violação:",
+        "breachRuleDescription": "Exige que entidades cobertas e seus associados comerciais forneçam notificação após uma violação de PHI não protegida.",
+        "coveredEntitiesTitle": "Quem são as Entidades Cobertas?",
+        "coveredEntitiesDescription": "As regras da HIPAA geralmente se aplicam a planos de saúde, câmaras de compensação de assistência médica e provedores de assistência médica que realizam determinadas transações de assistência médica eletronicamente (por exemplo, médicos, clínicas, hospitais, farmácias, seguradoras).",
+        "hipaaMeaningTitle": "O que a HIPAA significa para médicos e pacientes?",
+        "hipaaMeaningDescription": "Para médicos e outros profissionais de saúde, a HIPAA exige protocolos rigorosos para o tratamento de dados de pacientes, garantindo que sejam usados apenas para fins permitidos (tratamento, pagamento, operações de saúde) ou com autorização do paciente. Para os pacientes, a HIPAA concede direitos sobre suas informações de saúde, incluindo o direito de examinar e obter uma cópia de seus registros médicos e solicitar correções."
+      }
+    },
+    "VirtualMDSecurity": {
+      "title": "3. Práticas de segurança do VirtualMD.app",
+      "intro": "O VirtualMD.app utiliza uma estratégia de segurança multicamadas projetada para proteger sua conta e informações pessoais, inspirando-se nas melhores práticas de segurança de dados. Embora operemos de forma diferente de um provedor de saúde tradicional no contexto da HIPAA, oferecemos recursos de segurança robustos para todos os usuários:",
+      "passwordEncryptionTitle": "Criptografia de senha:",
+      "passwordEncryptionDescription": "Todas as senhas de usuário são criptografadas usando algoritmos de hash padrão do setor. Isso significa que não armazenamos sua senha em texto simples, fornecendo uma camada essencial de segurança para as credenciais da sua conta.",
+      "twoFactorAuthTitle": "Autenticação de dois fatores (2FA):",
+      "twoFactorAuthDescription": "Exigimos a autenticação de dois fatores (2FA) para todas as contas. Isso exige que você verifique sua identidade usando um segundo fator (normalmente um código enviado para o seu e-mail ou telefone cadastrado), além da sua senha, reduzindo significativamente o risco de acesso não autorizado à conta.",
+      "threeFactorAuthTitle": "Opção de autenticação de três fatores (3FA):",
+      "threeFactorAuthDescription": "Para maior segurança, o VirtualMD.app oferece uma configuração opcional de autenticação de três fatores. Se ativada, o acesso à sua conta exigirá sua senha, um código enviado para o seu endereço de e-mail cadastrado e um código enviado por SMS para o seu número de celular verificado. Isso cria uma barreira formidável contra tentativas não autorizadas de acesso às suas informações médicas armazenadas em nossa plataforma.",
+      "dataEncryptionTitle": "Criptografia de dados:",
+      "dataEncryptionDescription": "As informações armazenadas na sua conta VirtualMD.app, incluindo dados de conversas, são criptografadas em repouso. Os dados transmitidos entre o seu dispositivo e nossos servidores são criptografados em trânsito usando os protocolos TLS/SSL.",
+      "permanentDeletionTitle": "Exclusão Permanente de Dados:",
+      "permanentDeletionDescription": "Nós lhe damos o controle sobre seus dados. Você tem a possibilidade de excluir permanentemente conversas individuais ou toda a sua conta. Uma vez excluídas, essas informações são irrecuperáveis de nossos sistemas primários, em conformidade com os princípios de minimização de dados e controle do usuário.",
+      "outro": "Essas medidas fornecem um nível de segurança de conta comparável ao dos principais serviços on-line que lidam com dados pessoais confidenciais, com o objetivo de garantir que sua conta VirtualMD.app e as informações nela contidas permaneçam privadas e sob seu controle."
+    },
+    "hipaaConsiderations": {
+      "title": "4. VirtualMD.app e considerações sobre HIPAA",
+      "p1": "Entender como o VirtualMD.app interage com a Lei de Portabilidade e Responsabilidade de Seguros de Saúde (HIPAA) é vital para nossos usuários. Estamos profundamente comprometidos com a segurança e a privacidade das informações que você compartilha. Nossa plataforma incorpora medidas de segurança robustas, conforme detalhado na seção \"Práticas de Segurança do VirtualMD.app\", incluindo criptografia forte para dados em repouso e em trânsito, Autenticação de Dois Fatores (2FA) obrigatória e Autenticação de Três Fatores (3FA) opcional.",
+      "p2": "No entanto, é crucial compreender que o VirtualMD.app, em seu atual serviço geral voltado para o consumidor, NÃO se destina a casos de uso que exijam conformidade formal com a HIPAA para a entrada, armazenamento ou processamento direto de Informações de Saúde Protegidas (PHI) por usuários que atuam como Entidades Cobertas pela HIPAA ou seus Parceiros Comerciais. Usuários que exijam conformidade estrita com a HIPAA para as PHI que gerenciam não devem usar nossa plataforma geral para tais fins, a menos que um Contrato de Parceiro Comercial (BAA) específico esteja em vigor com o VirtualMD.app para esse caso de uso específico. Para o serviço geral, os usuários não devem inserir nenhuma informação que possa ser rastreada até um paciente individual em um contexto que viole a HIPAA, sem o consentimento explícito e informado do paciente, reconhecendo o uso desta plataforma.",
+      "approachTitle": "Nossa abordagem: equilibrando a personalização avançada de IA com a privacidade de dados",
+      "p3": "Para lhe oferecer os conselhos de saúde mais avançados, contextualizados e personalizados que nossa IA é capaz de oferecer, o VirtualMD.app utiliza um sistema sofisticado onde nossas personas de saúde de IA podem aprender com suas interações e compartilhar contextos relevantes entre si. Seu especialista em saúde pessoal de IA, por exemplo, foi projetado para manter o contexto entre as sessões e com diferentes IAs especializadas, oferecendo uma experiência mais coesa e inteligente.",
+      "p4": "Essa abordagem interconectada e orientada por IA significa que diferentes mecanismos de IA subjacentes (que podem ser hospedados por provedores como OpenAI, Anthropic, Google e outros) podem processar segmentos dos seus dados de conversas desidentificados ou pseudonimizados ou elementos das suas informações de perfil como parte da prestação deste serviço. Embora configuremos o uso dessas APIs de IA de terceiros para impedir que eles usem seus dados para treinar seus modelos gerais (conforme detalhado em nossa seção \"Uso de Dados por Provedores de Mecanismos de IA de Terceiros\"), a própria natureza desse modelo avançado e distribuído de IA é diferente do tratamento de dados tradicional, muitas vezes isolado, dentro dos sistemas internos de um provedor de saúde, que são desenvolvidos para a estrita conformidade com a HIPAA em relação às PHI.",
+      "p5": "Acreditamos que essa abordagem nos permite oferecer informações e suporte de saúde incomparáveis, baseados em IA. No entanto, isso exige um entendimento claro: <strong style={{fontWeight: 'bold'}}>este sofisticado ambiente de personalização e aprendizagem inter-IA, em sua forma geral atual, envolve um modelo de tratamento de dados que difere das salvaguardas administrativas, físicas e técnicas específicas e dos procedimentos operacionais exigidos pela HIPAA para Entidades Cobertas que gerenciam PHI.</strong>",
+      "p6": "Trabalhamos incansavelmente para aprimorar continuamente a segurança dos nossos dados e explorar caminhos para um maior alinhamento com os padrões de dados específicos da área da saúde para diversos níveis de serviço ou ofertas. Ao utilizar o serviço geral do VirtualMD.app, você reconhece e aceita este equilíbrio atual: utilizar IA avançada e interconectada para obter insights médicos superiores envolve um modelo de tratamento de dados diferente daquele de um provedor de saúde tradicional que opera sob a HIPAA.",
+      "informedDiscussionsTitle": "Facilitando discussões informadas",
+      "p7": "Se um usuário, especialmente um profissional de saúde, desejar discutir informações que possam pertencer a um indivíduo específico (um paciente), é de <strong style={{fontWeight: 'bold'}}>exclusiva responsabilidade</strong> do usuário garantir que obteve todos os consentimentos necessários e legalmente apropriados desse indivíduo. Tal consentimento deve declarar claramente o entendimento do indivíduo de que as informações estão sendo discutidas em uma plataforma que, embora segura, não opera sob um Contrato de Parceiro Comercial HIPAA formal com o usuário para aquela interação específica e que o tratamento de dados da plataforma difere dos sistemas tradicionais em conformidade com a HIPAA.",
+      "p8": "Os usuários que desejam transferir informações discutidas no VirtualMD.app para um sistema formal compatível com HIPAA (por exemplo, o prontuário médico eletrônico do seu médico) são responsáveis por fazê-lo de forma segura e em conformidade com todos os regulamentos aplicáveis e os procedimentos estabelecidos pelo seu provedor.",
+      "alignmentTitle": "Onde nos alinhamos com os princípios da HIPAA (além da segurança geral)",
+      "userControlTitle": "Controle do usuário e exclusão de dados:",
+      "userControlDescription": "Fornecemos ferramentas para você acessar e excluir permanentemente suas conversas e informações de conta, em conformidade com os princípios de minimização de dados e direitos individuais frequentemente enfatizados em regulamentações de privacidade.",
+      "anonymizationTitle": "Anonimização para melhoria do sistema:",
+      "anonymizationDescription": "Nosso uso de dados agregados e anônimos para melhoria do sistema é uma prática que, quando executada corretamente, é uma abordagem padrão para aprimorar serviços de IA e, ao mesmo tempo, proteger a privacidade individual."
+    },
+    "userResponsibility": {
+      "title": "5. Responsabilidade do Usuário e Uso Ético",
+      "intro": "O VirtualMD.app oferece ferramentas de IA poderosas para acessar informações médicas e participar de conversas sobre saúde. Embora busquemos precisão e segurança, o uso responsável de nossa plataforma é um compromisso compartilhado. Ao usar o VirtualMD.app, você concorda em aderir às diretrizes éticas e compreender os recursos e limitações da plataforma.",
+      "agreementTitle": "Seu Acordo para Interação Ética:",
+      "noReviewTitle": "Nenhuma revisão de conversas privadas:",
+      "noReviewDescription": "Para proteger sua privacidade, a equipe do VirtualMD.app não analisa rotineiramente suas conversas privadas com nossas personas de IA. Isso ressalta a importância do uso responsável da plataforma.",
+      "prohibitedContentTitle": "Conteúdo Proibido - Danos a Si Mesmo ou a Outros:",
+      "prohibitedContentDescription": "Você concorda em não usar o VirtualMD.app para buscar informações ou orientações sobre como prejudicar a si mesmo ou a terceiros. Nossa plataforma não foi projetada para intervenção em crises nesses cenários. Se você estiver tendo pensamentos de automutilação ou de prejudicar outras pessoas, entre em contato imediatamente com os serviços de emergência ou com uma linha direta de crise.",
+      "consultPractitionerTitle": "Consulte seu profissional de saúde:",
+      "consultPractitionerDescription": "O VirtualMD.app é uma ferramenta informativa e NÃO substitui aconselhamento médico profissional, diagnóstico ou tratamento de um profissional de saúde qualificado. Consulte sempre o seu médico ou outro profissional de saúde qualificado para quaisquer condições médicas graves ou antes de tomar qualquer decisão relacionada à sua saúde.",
+      "emergencySituationsTitle": "Situações de emergência:",
+      "emergencySituationsDescription": "O VirtualMD.app NÃO PODE agir em seu nome em caso de emergência. Por exemplo, se o sistema sugerir que você ligue para o 192 ou vá ao pronto-socorro com base nas informações fornecidas, você é o único responsável por essa ação. Nossa plataforma não tem capacidade para acionar serviços de emergência.",
+      "outro": "Sua adesão a essas diretrizes garante um ambiente seguro e produtivo para todos os usuários e ajuda a manter a integridade do processo de busca de informações."
+    },
+    "privacyScenarios": {
+      "title": "6. Cenários práticos de privacidade e considerações avançadas",
+      "scenario1Title": "Cenário 1: Discutindo questões de saúde delicadas",
+      "scenario1Question": "Você pergunta: \"Gostaria de perguntar à equipe de IA do VirtualMD.app sobre um problema de saúde desconfortável e constrangedor. O que me protege?\"",
+      "scenario1Answer": "Nossa resposta: Entendemos que as discussões sobre saúde podem ser profundamente pessoais. Diversas camadas protegem você:",
+      "confidentialConvosTitle": "Conversas Confidenciais:",
+      "confidentialConvosDescription": "Suas conversas com nossas personas de IA são projetadas para serem privadas. Conforme declarado em nosso Compromisso de Privacidade, a equipe do VirtualMD.app não analisa rotineiramente o conteúdo de suas conversas privadas.",
+      "dataEncryptionTitle": "Criptografia de dados:",
+      "dataEncryptionDescription": "Todos os dados de conversação são criptografados tanto em trânsito (entre seu dispositivo e nossos servidores usando TLS/SSL) quanto em repouso (quando armazenados em nossos bancos de dados).",
+      "accountSecurityTitle": "Segurança da conta:",
+      "accountSecurityDescription": "Sua conta é protegida por sua senha e pela autenticação obrigatória de dois fatores (2FA), com uma opção para autenticação de três fatores (3FA), tornando o acesso não autorizado ao seu histórico de conversas extremamente difícil.",
+      "deletionControlTitle": "Controle de exclusão de dados:",
+      "deletionControlDescription": "Você tem o poder de excluir permanentemente qualquer conversa específica ou sua conta inteira a qualquer momento, de maneiras que são projetadas para serem irrecuperáveis de nossos sistemas primários.",
+      "anonymizationTitle": "Anonimização para Melhoria:",
+      "anonymizationDescription": "Somente dados anonimizados e agregados (sem todos os identificadores pessoais) são usados para aprimorar nossos modelos de IA. O conteúdo pessoal e identificável das suas conversas não é usado para essa finalidade sem essa anonimização.",
+      "scenario1Outro": "Embora essas medidas ofereçam proteção robusta, lembre-se sempre de que nenhum sistema é impenetrável. Incentivamos os usuários a serem cuidadosos com as informações que compartilham, assim como fariam em qualquer comunicação digital.",
+      "scenario2Title": "Cenário 2: Armazenamento de informações de perfil (por exemplo, medicamentos)",
+      "scenario2Question": "Você pergunta: \"Estou tomando certos medicamentos e quero armazená-los no meu perfil para que a especialista em saúde com IA, Carol, tenha contexto para novas conversas. Como meus dados são protegidos para que apenas as IAs e nenhum humano tenham acesso?\"",
+      "scenario2Answer": "Nossa resposta: Armazenar informações sobre medicamentos no seu perfil pode melhorar a contextualidade das respostas da IA. Veja como esses dados são protegidos:",
+      "profileSecurityTitle": "Segurança de dados do perfil:",
+      "profileSecurityDescription": "Assim como os dados das suas conversas, as informações do seu perfil, incluindo listas de medicamentos, são protegidas pelas mesmas medidas de segurança da conta (senha, 2FA/3FA) e criptografia (em repouso e em trânsito).",
+      "accessControlsTitle": "Controles e políticas de acesso rigorosos:",
+      "accessControlsDescription": "O acesso aos registros do banco de dados do usuário pela equipe do VirtualMD.app é estritamente controlado, limitado a indivíduos autorizados para necessidades operacionais ou de suporte específicas (por exemplo, auxílio com um problema de conta relatado por você) e regido por políticas internas de privacidade e registro. A navegação rotineira nos dados do perfil do usuário é proibida.",
+      "aiAccessTitle": "Acesso de IA para Contexto:",
+      "aiAccessDescription": "As personas da IA, como a especialista em saúde Carol, acessam partes relevantes do seu perfil (como listas de medicamentos, se você as tiver fornecido) programaticamente para fornecer respostas contextualizadas durante suas conversas. Esse acesso faz parte da lógica operacional da IA para melhor atendê-lo.",
+      "techNoteTitle": "Nota Técnica: Criptografia de Dados de Conversação",
+      "techNoteQuestion": "Você perguntou: \"É possível embaralhar mensagens de modo que nem mesmo os humanos que administram a empresa consigam lê-las (como senhas) sem permissão explícita?\"",
+      "techNoteP1": "Isso se refere a conceitos como criptografia de ponta a ponta (E2EE), em que somente o usuário final detém a chave de descriptografia definitiva. O VirtualMD.app utiliza uma robusta <strong style={{fontWeight: 'bold'}}>criptografia em repouso</strong> para todos os dados confidenciais, incluindo seu histórico de conversas e informações de perfil, usando algoritmos robustos e padrão do setor. Isso significa que os dados armazenados em nossos bancos de dados são criptografados.",
+      "techNoteP2": "Embora atualmente não implementemos um sistema de troca de informações entre usuários (E2EE) específico para dados de conversas, o que tornaria tecnicamente impossível a descriptografia por administradores de sistema autorizados (semelhante ao que ocorre com muitos serviços de nuvem), o acesso aos dados criptografados subjacentes é altamente restrito, registrado e regido por rígidas políticas internas de segurança e privacidade. Nossa equipe está proibida de acessar o conteúdo privado das suas conversas, exceto em circunstâncias muito específicas e controladas, como responder a uma solicitação de suporte direta sua referente a uma conversa específica ou conforme exigido por lei. Essa abordagem equilibra segurança robusta com as necessidades operacionais de manutenção e suporte da plataforma.",
+      "techNoteP3": "No entanto, a senha da sua conta é tratada de forma diferente: ela é criptografada e salteada, o que significa que nunca armazenamos sua senha real e não podemos recuperá-la.",
+      "thirdPartyDataTitle": "Uso de dados por provedores terceirizados de mecanismos de IA",
+      "thirdPartyDataQuestion": "Você também perguntou: \"As APIs para os mecanismos de IA que usamos podem ser protegidas contra o uso para treinamento por (a) VirtualMD.app (b) OpenAI, (c) Anthropic... etc...? Ou todas elas são protegidas a priori por padrão?\"",
+      "thirdPartyDataAnswer": "Este é um aspecto crítico do nosso tratamento de dados:",
+      "VirtualMDTrainingTitle": "(a) VirtualMD.app:",
+      "VirtualMDTrainingDescription": "Conforme declarado em nosso Compromisso de Privacidade, utilizamos dados anonimizados e agregados apenas para o aprimoramento interno e o treinamento de nossos sistemas proprietários e da lógica de coordenação de IA. Seus dados pessoais identificáveis ou o conteúdo bruto de conversas não serão utilizados para essa finalidade sem tal anonimização.",
+      "thirdPartyTrainingTitle": "(b, c, etc.) Provedores de API de IA de terceiros (por exemplo, OpenAI, Anthropic):",
+      "thirdPartyTrainingDescription": "O VirtualMD.app seleciona e integra cuidadosamente os principais provedores de modelos de IA. Para serviços acessados por meio de suas APIs (Interfaces de Programação de Aplicativos), grandes provedores, como OpenAI e Anthropic, possuem políticas de uso de dados que normalmente determinam que os dados enviados por meio de suas APIs NÃO são usados por eles para treinar seus modelos básicos gerais. Configuramos nosso uso desses serviços para atender a essas opções de preservação da privacidade. Recomendamos que você também revise as políticas de uso de dados desses provedores de IA subjacentes caso tenha alguma preocupação específica.",
+      "outro": "Estamos comprometidos em garantir que suas interações não sejam apenas esclarecedoras, mas também tratadas com respeito à sua privacidade em nossa plataforma e com nossos parceiros de tecnologia."
+    },
+    "conclusion": {
+      "title": "7. Conclusão e principais conclusões",
+      "intro": "O VirtualMD.app se dedica a capacitar os usuários com informações de saúde acessíveis e compreensíveis por meio de IA avançada. Priorizamos a segurança dos seus dados pessoais com medidas robustas, incluindo autenticação multifator e criptografia. Embora busquemos os mais altos padrões de proteção de dados, nossa plataforma geral não substitui serviços formalmente em conformidade com a HIPAA para atendimento direto ao paciente por provedores de saúde específicos. Os usuários devem compreender essas distinções e usar o VirtualMD.app de forma responsável e ética.",
+      "recapTitle": "Pontos-chave a serem lembrados:",
+      "privacyPriorityTitle": "Sua privacidade é uma prioridade:",
+      "privacyPriorityDescription": "Nós protegemos seus dados e não venderemos suas informações pessoais.",
+      "anonymizedDataTitle": "Dados anonimizados para melhoria:",
+      "anonymizedDataDescription": "Usamos dados não identificáveis para aprimorar nossos serviços de IA e plataforma.",
+      "accountSecurityTitle": "Segurança de conta forte:",
+      "accountSecurityDescription": "Oferecemos 2FA (obrigatório) e 3FA (opcional) para proteção de conta, comparável aos principais serviços online.",
+      "dataControlTitle": "Controle de Dados:",
+      "dataControlDescription": "Você pode excluir conversas e sua conta permanentemente.",
+      "hipaaConsiderationsTitle": "Considerações sobre a HIPAA:",
+      "hipaaConsiderationsDescription": "O serviço geral do VirtualMD.app não é uma entidade coberta pela HIPAA. Protegemos dados, mas nos diferenciamos da conformidade formal com a HIPAA para atendimento direto ao paciente com provedores específicos.",
+      "ethicalUseTitle": "Uso ético necessário:",
+      "ethicalUseDescription": "Não use para automutilação ou para causar danos a terceiros. Consulte sempre profissionais de saúde em caso de problemas graves. Não podemos enviar serviços de emergência.",
+      "outro": "Incentivamos você a usar o VirtualMD.app como uma ferramenta poderosa para aprendizado e exploração, sempre em conjunto com a orientação de profissionais de saúde qualificados. Sua compreensão destas políticas nos ajuda a manter uma plataforma segura e eficaz para todos."
+    }
+  },
+  "imagingAIExplainer": {
+    "title": "Compreendendo a IA em imagens de saúde",
+    "subtitle": "Um guia simples sobre como os computadores estão ajudando especialistas em saúde a enxergar mais claramente.",
+    "author": "Explicado por: Ron Rubin, PhD (VirtualMD.app Technologies)",
+    "whatIsImaging": {
+      "title": "O que são imagens de saúde?",
+      "intro": "Pense em exames de imagem de saúde como tirar fotos do interior do seu corpo. Especialistas em saúde usam máquinas especiais para criar essas imagens, ajudando-os a ver ossos, órgãos, tecidos e vasos sanguíneos sem a necessidade de cirurgia. Por exemplo, um raio-X é excelente para ver ossos e encontrar uma fratura, enquanto uma tomografia computadorizada fornece uma visão transversal mais detalhada de um órgão como o cérebro.",
+      "typesIntro": "Os tipos comuns incluem:",
+      "types": {
+        "xrays": "Raios X: bons para ver estruturas densas, como ossos.",
+        "ctScans": "Tomografias computadorizadas: como um raio X 3D superdetalhado, mostrando \"fatias\" do corpo.",
+        "mriScans": "<strong>Exames de ressonância magnética:</strong> usam ímãs poderosos para obter imagens muito nítidas de tecidos moles, como cérebro, músculos ou ligamentos.",
+        "ultrasound": "<strong>Ultrassom:</strong> usa ondas sonoras para ver órgãos e, mais comumente, para verificar bebês durante a gravidez.",
+        "microscope": "<strong>Lâminas de microscópio:</strong> Pequenas amostras de tecido são visualizadas em um microscópio para diagnosticar doenças em nível celular (Patologia).",
+        "eyePhotos": "<strong>Fotos dos olhos:</strong> Fotos especiais do interior do olho para detectar condições como retinopatia diabética (oftalmologia).",
+        "cameraScopes": "<strong>Pílulas/Endoscópios de Câmera:</strong> Pequenas câmeras usadas para observar o interior do sistema digestivo (Gastroenterologia)."
+      },
+      "outro": "Essas imagens são ferramentas essenciais que ajudam especialistas em saúde a diagnosticar doenças, verificar o funcionamento de um tratamento ou detectar possíveis problemas precocemente."
+    },
+    "whatIsAI": {
+      "title": "O que é Inteligência Artificial (IA)?",
+      "intro": "IA é essencialmente a ciência de ensinar computadores a realizar tarefas que normalmente exigem inteligência humana, como aprender com exemplos, resolver problemas e tomar decisões. Em imagens de saúde, podemos pensar na IA como uma assistente superinteligente para especialistas em saúde.",
+      "process": "Ela utiliza programas de computador especiais (algoritmos) treinados em milhares, ou até milhões, de imagens médicas. Ao analisar essa vasta quantidade de dados, a IA aprende a identificar padrões sutis — alguns dos quais são difíceis de serem vistos pelo olho humano, ou padrões que indicam uma alta probabilidade de uma determinada doença. O processo básico é que os dados (as imagens) são inseridos na IA, que então produz um insight, como sinalizar uma área suspeita."
+    },
+    "howAIHelps": {
+      "title": "Como a IA pode ajudar com imagens de saúde?",
+      "intro": "Nossa pesquisa científica destaca diversas maneiras importantes pelas quais a IA já está fazendo a diferença:",
+      "accuracy": {
+        "title": "Encontrando problemas com mais precisão",
+        "description": "Às vezes, os primeiros sinais de uma doença podem ser incrivelmente sutis e facilmente passar despercebidos em um exame. A IA pode atuar como um segundo par de olhos vigilante, verificando sistematicamente cada parte de uma imagem e destacando áreas que merecem um olhar mais atento. Por exemplo, uma IA pode desenhar um círculo ao redor de um pequeno aglomerado de células em uma mamografia, o que pode ser um indicador precoce de câncer.",
+        "example": "Exemplo: Em mamografias (radiografias de mama), um estudo mostrou que a IA ajudou a encontrar 29% mais cânceres sem sinalizar incorretamente mais usuários saudáveis. Em colonoscopias (busca por crescimentos chamados pólipos), a IA ajudou especialistas em saúde a encontrar significativamente mais pólipos potencialmente pré-cancerígenos, destacando-os em tempo real no feed de vídeo."
+      },
+      "speed": {
+        "title": "Acelerando as coisas",
+        "description": "Ler imagens médicas, especialmente as complexas, como tomografias computadorizadas de corpo inteiro, exige muito tempo e concentração. A IA pode acelerar drasticamente esse processo. Ela pode pré-classificar os casos, sinalizando os mais urgentes para revisão imediata, ou realizar tarefas de triagem de rotina para liberar o tempo dos especialistas.",
+        "example": "Exemplo: Um sistema de IA para verificar fotos de olhos em busca de sinais de danos causados pelo diabetes (retinopatia diabética) pode fornecer um resultado imediato em uma clínica de atenção primária. Isso significa que os pacientes não precisam esperar por uma consulta com um oftalmologista apenas para uma triagem, resultando em um atendimento mais rápido para mais pessoas. Em outro estudo de grande porte, a IA ajudou a reduzir quase pela metade o tempo que os radiologistas gastavam na leitura de mamografias."
+      },
+      "consistency": {
+        "title": "Tornando os diagnósticos mais consistentes",
+        "description": "Mesmo entre especialistas, pode haver pequenas diferenças subjetivas na forma como uma imagem é interpretada. A IA fornece uma análise padronizada e objetiva em todos os casos, o que ajuda a reduzir essa variabilidade.",
+        "example": "Exemplo: Ao analisar amostras de tecido em um microscópio (patologia), determinar a \"classificação\" exata de um tumor pode, às vezes, ser ambíguo. Um sistema de IA, treinado com dados validados por um painel de especialistas, pode fornecer uma classificação consistente, garantindo que os resultados sejam mais uniformes e confiáveis entre diferentes especialistas e instituições de saúde."
+      }
+    },
+    "challenges": {
+      "title": "A IA é perfeita?",
+      "intro": "Não, e é crucial entender suas limitações. Embora a IA seja poderosa, existem desafios importantes a serem enfrentados:",
+      "bias": "<strong>Igualdade e Viés:</strong> Uma IA é tão boa quanto os dados com os quais é treinada. Se for treinada apenas com imagens de um grupo de pessoas, pode não funcionar tão bem para outros. Garantir dados de treinamento diversificados é fundamental para evitar viés.",
+      "uncommonCases": "<strong>Casos incomuns:</strong> A IA se destaca no reconhecimento de padrões que já viu muitas vezes. Ela pode ter dificuldades com doenças raras ou manifestações incomuns para as quais não foi treinada.",
+      "teamwork": "<strong>A Importância do Trabalho em Equipe:</strong> A melhor abordagem é a colaboração entre humanos e IA. A IA é uma ferramenta para *ajudar* especialistas em saúde a lidar com tarefas que exigem muitos dados, mas não substitui sua experiência, empatia e capacidade de compreender o usuário como um todo.",
+      "regulation": "<strong>Segurança e regulamentação:</strong> como qualquer novo dispositivo de saúde, as ferramentas de IA precisam de testes rigorosos, validação e monitoramento contínuo para garantir que sejam seguras, eficazes e ofereçam benefícios reais aos usuários.",
+      "outro": "Pesquisadores e reguladores estão trabalhando arduamente para enfrentar esses desafios. O objetivo é integrar a IA à área da saúde de forma segura e eficaz para melhorar os resultados dos pacientes."
+    },
+    "conclusion": {
+      "title": "Em poucas palavras",
+      "text": "A IA está se tornando uma parceira valiosa em imagens de saúde, ajudando especialistas em saúde a detectar doenças de forma mais precoce, rápida e confiável. É como dar aos especialistas em saúde uma visão aprimorada e um assistente incansável para revisar imagens complexas, resultando em um melhor atendimento aos usuários."
+    }
+  },
+  "mentalHealthWhitepaper": {
+    "title": "IA em Saúde Mental: Avanços, Desafios e Aplicações Clínicas",
+    "authors": "Ron Rubin, PhD e Sandy Miles",
+    "organization": "Tecnologias VirtualMD.app",
+    "disclaimer": {
+      "title": "Aviso importante",
+      "text": "Embora o VirtualMD.app ofereça tecnologia de IA de ponta para avaliações e assistência em saúde mental, é fundamental entender que nossos sistemas de IA, independentemente de sua sofisticação, NÃO substituem profissionais de saúde mental licenciados. As informações e os insights fornecidos devem sempre ser avaliados por profissionais de saúde qualificados. Em caso de emergência de saúde mental, ligue para 911 (EUA), 999 (Reino Unido), 112 (UE), 101 (Israel) ou 911 (Canadá) imediatamente, ou dirija-se ao pronto-socorro mais próximo. Para quaisquer preocupações com saúde mental ou decisões de tratamento, consulte sempre profissionais de saúde qualificados. A tecnologia do VirtualMD.app foi projetada para complementar e apoiar a saúde mental profissional, não para substituí-la."
+    },
+    "abstract": {
+      "title": "Resumo",
+      "text": "Este artigo examina o papel em rápida evolução da inteligência artificial na saúde mental, destacando avanços recentes, evidências de eficácia e desafios de implementação. Revisamos os desenvolvimentos em quatro domínios: suporte diagnóstico, aplicações terapêuticas, monitoramento de pacientes e análise preditiva. Estudos clínicos recentes demonstram que sistemas de IA podem atingir 80-92% de precisão na detecção de depressão grave a partir de padrões linguísticos e biomarcadores de voz, enquanto algoritmos de visão computacional podem identificar o risco de ideação suicida com 85% de sensibilidade, analisando expressões faciais e micromovimentos. Modelos de processamento de linguagem natural treinados em conversas terapêuticas mostram-se promissores na aplicação dos princípios da terapia cognitivo-comportamental, com ensaios clínicos randomizados indicando eficácia comparável à de terapeutas humanos para depressão e ansiedade leves a moderadas (Journal of Medical Internet Research, 2022). Sistemas de monitoramento passivo baseados em smartphones podem detectar sinais precoces de recaída em doenças mentais graves até 7 dias antes que a deterioração clínica se torne aparente (JAMA Psychiatry, 2021). Apesar desses avanços, desafios significativos permanecem, incluindo viés de algoritmo, validação limitada em diversas populações, preocupações com a privacidade e integração aos fluxos de trabalho clínicos existentes. Discutimos considerações éticas, marcos regulatórios e metodologias de avaliação para IA em saúde mental. Embora as tecnologias de IA sejam promissoras para expandir o acesso à saúde mental e aumentar a eficácia do tratamento, elas devem ser desenvolvidas e implantadas dentro de uma estrutura abrangente que priorize a validação clínica, as considerações éticas e a implementação centrada no ser humano para realmente melhorar os resultados em saúde mental."
+    },
+    "introduction": {
+      "title": "Introdução",
+      "text": "O fardo da doença mental representa um dos desafios mais urgentes da assistência médica...",
+      "p1": "O peso da doença mental representa um dos desafios mais urgentes da saúde. Aproximadamente um em cada cinco adultos em todo o mundo sofre de transtornos mentais anualmente, sendo que a depressão, sozinha, afeta mais de 300 milhões de pessoas globalmente (OMS, 2022). Enquanto isso, a persistente escassez de mão de obra limita o acesso a cuidados – a Organização Mundial da Saúde estima uma escassez global de 1,18 milhão de profissionais de saúde mental. Essa lacuna entre a necessidade e os recursos disponíveis acelerou o interesse por soluções baseadas em tecnologia, particularmente sistemas de inteligência artificial (IA), que podem potencialmente ampliar o alcance e a eficácia dos serviços de saúde mental.",
+      "p2": "A intersecção entre IA e saúde mental apresentou um crescimento notável na última década. De ferramentas de triagem automatizadas e agentes conversacionais a análises preditivas para prevenção de recaídas, as aplicações de IA em psiquiatria e psicologia expandiram-se drasticamente. Essa evolução foi possibilitada por avanços no processamento de linguagem natural, aprendizado de máquina, visão computacional e pela proliferação de oportunidades de fenotipagem digital por meio de smartphones e dispositivos vestíveis.",
+      "p3": "A saúde mental apresenta desafios e oportunidades únicos para a implementação da IA. Ao contrário de muitas especialidades médicas, a avaliação psiquiátrica depende fortemente de relatos subjetivos, comportamentos observáveis, padrões linguísticos e fatores contextuais, em vez de exames laboratoriais ou de imagem. Isso se alinha bem com as crescentes capacidades da IA em compreensão da linguagem, reconhecimento de padrões em dados comportamentais e análise multimodal de expressões emocionais.",
+      "p4": "Este artigo apresenta uma revisão abrangente das aplicações atuais de IA em saúde mental, examinando a base de evidências para sua eficácia, abordagens metodológicas, desafios de implementação e considerações éticas. Organizamos nossa análise em torno de quatro domínios principais: sistemas de apoio diagnóstico, aplicações terapêuticas, monitoramento de pacientes e análise preditiva para planejamento de tratamento. Em cada área, avaliamos o estado atual da tecnologia, resumimos os principais resultados da pesquisa e identificamos lacunas críticas que requerem investigação mais aprofundada.",
+      "p5": "É essencial observar que, apesar dos avanços significativos, as ferramentas de IA em saúde mental visam complementar, e não substituir, os profissionais de saúde humanos. A aliança terapêutica entre paciente e profissional de saúde continua sendo fundamental para a eficácia da assistência médica mental. As aplicações mais promissoras utilizam a IA para ampliar as capacidades dos profissionais de saúde, melhorar a eficiência, permitir intervenções mais precoces e, potencialmente, aumentar o acesso a cuidados baseados em evidências para populações carentes."
+    },
+    "methods": {
+      "title": "Métodos/Tecnologias",
+      "text": "Os sistemas contemporâneos de IA em saúde mental utilizam diversas abordagens metodológicas...",
+      "p1": "Os sistemas contemporâneos de IA em saúde mental utilizam diversas abordagens metodológicas, cada uma com vantagens específicas para diferentes aplicações clínicas. Os principais fundamentos técnicos incluem processamento de linguagem natural (PLN), aprendizado de máquina (ML), visão computacional e fenotipagem digital.",
+      "p2": "O Processamento de Linguagem Natural (PLN) constitui a espinha dorsal de muitos sistemas de IA para a saúde mental, permitindo a análise de conteúdo linguístico e padrões de comunicação. Modelos avançados baseados em transformadores, como as variantes BERT (Bidirectional Encoder Representations from Transformers) e GPT (Generative Pre-trained Transformer), permitem que os sistemas interpretem narrativas clínicas, transcrições de sessões de terapia e textos gerados por pacientes com uma compreensão cada vez mais sofisticada do contexto, sentimento e conteúdo psicológico. Esses modelos podem identificar marcadores linguísticos associados a condições específicas, como redução da complexidade sintática na depressão ou perturbações da coerência semântica em transtornos psicóticos. Os sistemas clínicos de PNL mais avançados são aprimorados com base em corpora específicos para a saúde mental, incluindo anotações clínicas anonimizadas, transcrições de terapia e instrumentos de avaliação psicológica validados.",
+      "p3": "Abordagens de aprendizado de máquina em saúde mental abrangem classificação supervisionada (para aplicações diagnósticas), agrupamento não supervisionado (para identificar novos padrões de sintomas), aprendizado por reforço (para personalizar intervenções) e, cada vez mais, aprendizado profundo para integração de dados multimodais. Os dados de treinamento normalmente incluem avaliações clínicas estruturadas (por exemplo, PHQ-9 para depressão, GAD-7 para ansiedade), medidas comportamentais, sinais fisiológicos e dados de prontuários eletrônicos de saúde. Metodologias de validação geralmente empregam validação cruzada k-fold e conjuntos de testes externos, com desempenho avaliado por meio de sensibilidade, especificidade, valores preditivos positivos/negativos e área sob a curva característica de operação do receptor (AUC-ROC).",
+      "p4": "Aplicações de Visão Computacional analisam expressões faciais, padrões motores e comportamentos não verbais associados a estados mentais. Redes neurais convolucionais e modelos temporais (por exemplo, redes LSTM) podem detectar microexpressões, padrões de olhar e alterações psicomotoras que podem indicar estados emocionais ou manifestações de sintomas. Esses sistemas são particularmente valiosos para condições em que a observação comportamental auxilia no diagnóstico, como transtornos do espectro autista ou sintomas catatônicos em doenças mentais graves.",
+      "p5": "A Fenotipagem Digital representa uma abordagem emergente que utiliza a coleta passiva de dados de smartphones e dispositivos vestíveis para identificar padrões comportamentais associados a estados mentais. Esses sistemas analisam dados de geolocalização, níveis de atividade, padrões de sono, frequência de comunicação social, dinâmica de digitação e características de voz para construir biomarcadores digitais do estado de saúde mental. Essa abordagem permite o monitoramento contínuo e ecológico fora do contexto clínico, potencialmente permitindo a detecção precoce de alterações sintomáticas.",
+      "p6": "Estruturas de integração combinam cada vez mais múltiplas modalidades para uma avaliação mais abrangente. Por exemplo, os sistemas podem analisar o conteúdo linguístico juntamente com a acústica vocal e as expressões faciais durante entrevistas clínicas para melhorar a precisão diagnóstica. Da mesma forma, aplicações terapêuticas podem integrar a análise de sentimentos de trocas de texto com dados de monitoramento passivo para personalizar o tempo e o conteúdo da intervenção.",
+      "p7": "Metodologias de avaliação para sistemas de IA em saúde mental incluem métricas tradicionais de precisão diagnóstica (sensibilidade, especificidade, AUC), avaliações de usabilidade e, cada vez mais, medidas de desfechos clínicos de ensaios prospectivos. Os padrões-ouro para comparação variam de acordo com a aplicação, mas geralmente incluem entrevistas clínicas estruturadas, instrumentos de avaliação validados e diagnósticos de consenso clínico. Muitos estudos recentes utilizam delineamentos de ensaios clínicos randomizados para avaliar o tratamento complementado por IA em comparação ao tratamento convencional.",
+      "p8": "Abordagens computacionais que preservam a privacidade são especialmente importantes em aplicações de saúde mental, dada a natureza sensível dos dados psicológicos. Essas abordagens incluem aprendizado federado (onde os modelos são treinados em vários locais sem centralizar os dados), técnicas de privacidade diferencial e computação multipartidária segura. Esses métodos ajudam a equilibrar a necessidade de conjuntos de dados de treinamento amplos e diversos com os requisitos éticos de proteção de dados."
+    },
+    "results": {
+      "title": "Resultados",
+      "diagnosticSupport": {
+        "title": "IA em Suporte Diagnóstico",
+        "text": "Os sistemas de IA demonstraram capacidades promissoras no suporte ao diagnóstico de saúde mental...",
+        "p1": "Sistemas de IA demonstraram capacidades promissoras no apoio ao diagnóstico de saúde mental em diversas condições. Essas ferramentas analisam diversas fontes de dados, incluindo entrevistas clínicas, respostas a questionários, padrões de fala, expressões faciais e comportamento digital para identificar assinaturas características de transtornos psicológicos.",
+        "p2": "Na detecção de depressão, algoritmos de PNL que analisam características linguísticas alcançaram sucesso notável. Um estudo de 2021 publicado no JAMA Psychiatry avaliou um sistema de PNL que analisava respostas em texto livre a prompts padronizados com 4.216 participantes. O sistema demonstrou 87% de sensibilidade e 84% de especificidade para a detecção de transtorno depressivo maior quando comparado a entrevistas clínicas estruturadas. Características particularmente preditivas incluíram o uso de pronomes na primeira pessoa do singular, palavras com emoções negativas e variedade linguística reduzida. Quando combinada com a análise acústica da voz (capturando características prosódicas como variação reduzida do tom e velocidade da fala), a precisão diagnóstica aumentou para 92%.",
+        "p3": "Da mesma forma, a análise automatizada de padrões de fala e linguagem demonstrou eficácia na detecção de comprometimento cognitivo. Em um estudo prospectivo de validação envolvendo 382 idosos, um sistema de IA que analisou coerência semântica, complexidade sintática e características acústicas durante uma breve entrevista estruturada obteve 85% de precisão na identificação de comprometimento cognitivo leve, comparável a testes neuropsicológicos breves, mas exigindo apenas uma amostra de fala de 3 minutos.",
+        "p4": "Para transtornos de ansiedade, sistemas multimodais que combinam dados fisiológicos (variabilidade da frequência cardíaca, atividade eletrodérmica) com medidas comportamentais demonstraram utilidade particular. Um sistema vestível que monitora biomarcadores autonômicos durante estressores padronizados classificou corretamente o transtorno de ansiedade generalizada com 83% de precisão em uma amostra de 189 participantes, com a detecção de transtorno de pânico atingindo 88% de sensibilidade.",
+        "p5": "Aplicações de visão computacional têm se mostrado promissoras para condições com componentes comportamentais observáveis. Um sistema de aprendizado profundo que analisa expressões faciais e padrões de movimento durante entrevistas clínicas identificou transtornos do espectro autista com 86% de precisão em crianças de 3 a 6 anos, potencialmente permitindo uma triagem mais precoce em ambientes de atenção primária. Da mesma forma, a análise de gravações de vídeo de avaliações estruturadas demonstrou 82% de precisão na detecção de transtorno bipolar com base em diferenças sutis na atividade motora e na expressividade facial durante as fases maníaca e depressiva.",
+        "p6": "Abordagens de fenotipagem digital, que analisam dados passivos de smartphones, têm se mostrado valiosas para o monitoramento de condições. A entropia de localização (variabilidade nos padrões de movimento), a duração do sono e a frequência de comunicação apresentaram alta correlação (r = 0,71-0,84) com escalas padronizadas de avaliação de depressão, permitindo avaliação contínua entre as consultas clínicas.",
+        "p7": "É importante destacar que trabalhos recentes têm se concentrado em abordar o viés algorítmico e garantir um desempenho equitativo entre populações diversas. Um estudo de validação em larga escala de um algoritmo de triagem para depressão com 8.200 participantes de diversas origens raciais e socioeconômicas mostrou inicialmente uma especificidade menor (73% vs. 89%) para participantes negros em comparação com participantes brancos. Após a recalibração do modelo com um conjunto de treinamento mais diversificado e padrões de referência culturalmente ajustados, as disparidades de desempenho foram substancialmente reduzidas, com a especificidade aumentando para 85% em todos os grupos demográficos.",
+        "p8": "Apesar desses avanços, ainda existem desafios nas aplicações diagnósticas. A maioria dos sistemas foi validada principalmente em ambientes de pesquisa controlados, em vez de em ambientes clínicos diversos. Além disso, muitos se concentraram na classificação binária (presença/ausência de uma condição) em vez da abordagem dimensional, cada vez mais favorecida na prática psiquiátrica moderna. Os esforços para abordar essas limitações incluem o desenvolvimento de modelos transdiagnósticos que avaliam as dimensões dos sintomas além das fronteiras diagnósticas tradicionais, refletindo melhor a complexa realidade do sofrimento psíquico."
+      },
+      "therapeuticApplications": {
+        "title": "IA em Aplicações Terapêuticas",
+        "text": "Intervenções terapêuticas baseadas em IA para saúde mental evoluíram de sistemas simples baseados em regras...",
+        "p1": "Intervenções terapêuticas baseadas em IA para saúde mental evoluíram de sistemas simples baseados em regras para agentes conversacionais sofisticados, capazes de implementar princípios terapêuticos baseados em evidências. Essas aplicações abrangem um espectro que vai desde terapias digitais totalmente automatizadas até terapias humanas aumentadas por IA.",
+        "p2": "Sistemas de IA conversacional que implementam princípios de terapia cognitivo-comportamental (TCC) passaram pela avaliação mais rigorosa. Em um ensaio clínico randomizado histórico publicado no The Lancet Digital Health (2022), 1.032 participantes com depressão moderada foram designados para um programa de TCC fornecido por IA ou tratamento usual. O sistema de IA, que envolveu os usuários em conversas diárias baseadas em texto implementando técnicas básicas de TCC, demonstrou reduções estatisticamente significativas nas pontuações de depressão do PHQ-9 em 12 semanas em comparação com o grupo de controle (diferença média -2,85 pontos, IC 95% -4,07 a -1,63, p < 0,001). Os efeitos do tratamento foram mantidos no acompanhamento de 6 meses. Notavelmente, as taxas de adesão ao programa de IA (68% completando o protocolo completo) excederam as taxas típicas para intervenções digitais autoguiadas (tipicamente 25-30%), sugerindo que a interface conversacional melhorou o engajamento.",
+        "p3": "Para transtornos de ansiedade, um agente conversacional semelhante, implementando princípios de terapia de exposição, demonstrou eficácia para transtorno de ansiedade generalizada em um estudo com 688 participantes. O sistema, que orientou os usuários por hierarquias de exposição personalizadas com progressão adaptativa de dificuldade, alcançou uma redução 25% maior nas pontuações do GAD-7 em comparação com os controles da lista de espera, com efeitos comparáveis à TCC em grupo conduzida por terapeuta na avaliação pós-tratamento. A análise de custo-efetividade indicou que a intervenção com IA custou aproximadamente um quinto do custo de uma terapia equivalente administrada por humanos, enquanto proporcionou benefícios clínicos semelhantes para casos leves a moderados.",
+        "p4": "Além dos transtornos de humor e ansiedade, a terapia com IA tem se mostrado promissora para condições como insônia, transtorno de estresse pós-traumático e transtornos por uso de substâncias. Um sistema de aprendizado por reforço para transtornos por uso de álcool, que entregava dinamicamente mensagens motivacionais personalizadas com base nos estados de risco detectados, reduziu os dias de consumo de álcool autorrelatados em 34% em comparação com o conteúdo educacional estático em um teste de 3 meses envolvendo 352 participantes. A capacidade do sistema de identificar o momento ideal para a intervenção com base em dados de monitoramento passivo (por exemplo, dados de localização que indicam a proximidade de locais onde se bebe com frequência) pareceu impulsionar sua eficácia superior.",
+        "p5": "A amplificação da terapia humana por meio de IA também demonstrou valor. Um sistema de coaching terapêutico que analisou transcrições de sessões para fornecer aos terapeutas feedback sobre adesão e sugestões melhorou a fidelidade ao protocolo de TCC em 32% e foi associado a uma maior redução dos sintomas (tamanho do efeito d = 0,41) em comparação com a terapia não amplificada em um ensaio randomizado. Os terapeutas relataram que o feedback da IA ajudou a manter o foco em técnicas baseadas em evidências e a identificar oportunidades para intervenções específicas que, de outra forma, poderiam ter sido perdidas."
+      },
+      "patientMonitoring": {
+        "title": "IA no monitoramento de pacientes e prevenção de recaídas",
+        "text": "Aplicações de monitoramento contínuo representam um domínio particularmente promissor para IA em saúde mental...",
+        "p1": "Aplicações de monitoramento contínuo representam um domínio particularmente promissor para a IA em saúde mental, permitindo a detecção de alterações sintomáticas entre consultas clínicas e a potencial intervenção precoce. Esses sistemas normalmente utilizam sensores de smartphones, dispositivos vestíveis e interações do usuário para construir biomarcadores digitais do estado mental.",
+        "p2": "Para doenças mentais graves, incluindo esquizofrenia e transtorno bipolar, a detecção precoce de sinais de alerta demonstrou utilidade clínica significativa. Em um estudo prospectivo de 12 meses com 304 indivíduos com esquizofrenia, um sistema de monitoramento baseado em smartphone que analisou padrões de fala, sono, mobilidade e interação social detectou 89% das recaídas psicóticas em uma média de 7,4 dias antes que a deterioração clínica se tornasse aparente durante o tratamento de rotina. Quando integrado a um protocolo de resposta clínica, o sistema reduziu as taxas de hospitalização em 28% em comparação com o tratamento usual, sugerindo um benefício substancial tanto para os pacientes quanto para os sistemas de saúde.",
+        "p3": "Abordagens semelhantes demonstraram eficácia no transtorno bipolar. Um sistema multimodal que analisou padrões de digitação, acústica da voz, duração do sono e níveis de atividade identificou o início de episódios maníacos e depressivos com 82% e 77% de precisão, respectivamente, fornecendo um aviso prévio médio de 4 a 6 dias antes que os limites clínicos fossem ultrapassados. Quando implementado com um sistema integrado de notificação clínica em um ensaio randomizado com 397 participantes, o sistema de monitoramento foi associado a uma duração mais curta dos episódios e à redução da gravidade dos sintomas em comparação com o tratamento padrão.",
+        "p4": "Para o monitoramento da depressão, sistemas que analisam o comportamento digital demonstraram forte correlação com medidas de sintomas clínicos. Um aplicativo de sensoriamento passivo que coleta dados sobre padrões de uso de smartphones, atividade física e comportamento social demonstrou uma correlação de 0,82 com as pontuações do PHQ-9 em um estudo longitudinal de 6 meses com 211 participantes com depressão recorrente. Modelos de aprendizado de máquina treinados com base nessas características comportamentais previram as trajetórias dos sintomas com precisão suficiente para distinguir a resolução da piora da depressão em 76% dos casos, potencialmente permitindo uma intervenção mais oportuna.",
+        "p5": "Aplicativos de monitoramento de transtornos alimentares utilizaram fotografia de refeições com análise de visão computacional, juntamente com dados comportamentais, para rastrear sintomas e comportamentos de alto risco. Em um estudo piloto com 157 indivíduos com bulimia nervosa, um sistema de IA que analisou o conteúdo das refeições, padrões alimentares e indicadores de comportamento compensatório identificou corretamente 83% dos eventos de recaída com base apenas em biomarcadores digitais, comparando-se favoravelmente às medidas de autorrelato. A integração com intervenções adaptativas just-in-time demonstrou evidências preliminares de redução de episódios de compulsão alimentar e purgação, fornecendo suporte em momentos críticos de decisão.",
+        "p6": "Em todos esses aplicativos, o engajamento do usuário e as preocupações com a privacidade têm sido os principais desafios. Estudos que implementaram o compartilhamento de dados controlado pelo usuário, explicações transparentes de algoritmos e demonstração clara dos benefícios alcançaram as maiores taxas de engajamento sustentado, com até 71% dos participantes continuando o uso regular por mais de 6 meses. Notavelmente, as preocupações com a privacidade parecem ser atenuadas quando os usuários percebem benefícios concretos para a saúde e mantêm o controle sobre a utilização dos dados."
+      }
+    },
+    "discussion": {
+      "title": "Discussão",
+      "text": "Nossa revisão das evidências atuais demonstra que as aplicações de IA em saúde mental progrediram de possibilidades teóricas para ferramentas clinicamente validadas, com impactos mensuráveis na precisão da avaliação, na administração do tratamento e no monitoramento da condição. Vários temas-chave emergem das descobertas coletivas.\n\nPrimeiro, as abordagens multimodais superam consistentemente os sistemas de modalidade única em todas as aplicações. A integração de análise linguística, monitoramento comportamental, sinais fisiológicos e informações contextuais cria um quadro mais abrangente do estado mental do que qualquer medida individual. Isso reflete a natureza complexa e multifacetada das condições de saúde mental, que se manifestam em domínios cognitivos, emocionais, comportamentais e fisiológicos. O desenvolvimento futuro deve continuar enfatizando a integração de fontes de dados complementares em estruturas de avaliação coerentes.\n\nEm segundo lugar, as evidências corroboram um modelo híbrido em que a IA complementa, em vez de substituir, os clínicos humanos. As implementações mais bem-sucedidas posicionam a IA como um multiplicador de força para a expertise clínica — ampliando o alcance, melhorando a eficiência, permitindo avaliações mais contínuas e apoiando a prática baseada em evidências. A aliança terapêutica entre paciente e profissional de saúde permanece central para a eficácia da assistência à saúde mental, e a tecnologia parece mais eficaz quando aprimora, em vez de tentar substituir, essa relação.\n\nEm terceiro lugar, a personalização surge como um fator crítico para a eficácia. As condições de saúde mental apresentam heterogeneidade substancial na apresentação, progressão e resposta ao tratamento. Sistemas de IA capazes de se adaptar a perfis individuais de sintomas, preferências pessoais e padrões de resposta demonstraram resultados superiores em comparação com abordagens padronizadas. Isso se alinha ao movimento mais amplo em direção à psiquiatria de precisão, onde as intervenções são adaptadas aos perfis biopsicossociais individuais.\n\nApesar desses desenvolvimentos promissores, ainda existem desafios significativos na tradução dos avanços da pesquisa para a prática clínica. As principais limitações incluem:\n\nViés algorítmico e preocupações com a generalização: Muitos sistemas foram desenvolvidos e validados em populações relativamente homogêneas, levantando questões sobre o desempenho em diversos grupos demográficos. Evidências iniciais sugerem que alguns algoritmos apresentam desempenho diferente em diferentes contextos culturais, gênero e origens raciais/étnicas. Embora trabalhos recentes tenham começado a abordar essas disparidades por meio de dados de treinamento mais representativos e padrões de referência culturalmente informados, garantir um desempenho equitativo continua sendo um desafio constante.\n\nEvidências longitudinais limitadas: Embora estudos de curto prazo apresentem resultados promissores, há escassez de dados de acompanhamento de longo prazo sobre engajamento sustentado, efeitos duradouros do tratamento e potenciais consequências não intencionais das intervenções de IA. A natureza em rápida evolução da tecnologia de IA ultrapassa o cronograma tradicional para pesquisas clínicas longitudinais, criando uma lacuna persistente nas evidências.\n\nDesafios de integração: Barreiras técnicas, de fluxo de trabalho e culturais complicam a integração de ferramentas de IA aos sistemas clínicos existentes. A implementação bem-sucedida requer atenção ao fluxo de trabalho do clínico, integração com prontuários eletrônicos de saúde, funções e responsabilidades claras, estruturas de responsabilidade e modelos de reembolso. Os avanços técnicos mais convincentes podem não atingir seu potencial sem uma atenção cuidadosa a esses fatores de implementação.\n\nConsiderações sobre privacidade e segurança: Dados de saúde mental estão entre as informações pessoais mais sensíveis. Embora abordagens técnicas como aprendizado federado e privacidade diferencial ajudem a lidar com essas preocupações, estruturas abrangentes de governança para a administração responsável de dados em IA para saúde mental permanecem subdesenvolvidas. Equilibrar os benefícios de abordagens baseadas em dados com proteções de privacidade robustas representa um desafio contínuo.\n\nIncerteza regulatória: O cenário regulatório para IA em saúde mental ainda está em evolução. As estruturas atuais projetadas para dispositivos médicos tradicionais podem não abordar adequadamente as características únicas dos sistemas de IA adaptáveis que continuam aprendendo durante a implantação. Desenvolver padrões de validação adequados, requisitos de monitoramento e protocolos de atualização para sistemas de aprendizagem será essencial para uma inovação responsável.\n\nApesar desses desafios, as evidências apoiam o desenvolvimento contínuo e a implementação cautelosa de aplicações de IA que demonstrem benefício clínico, medidas de segurança adequadas e atenção a considerações éticas. O potencial para expandir o acesso à saúde mental — particularmente para populações carentes que enfrentam escassez de provedores — apresenta uma justificativa convincente para a inovação contínua neste campo."
+    },
+    "conclusion": {
+      "title": "Conclusão",
+      "text": "As aplicações de inteligência artificial em saúde mental progrediram significativamente na última década, passando de conceitos teóricos para ferramentas clinicamente validadas com eficácia comprovada em suporte diagnóstico, administração terapêutica, monitoramento de pacientes e análise preditiva. As evidências revisadas neste artigo sugerem que essas tecnologias têm potencial genuíno para enfrentar desafios críticos em saúde mental, incluindo limitações de acesso, restrições de recursos e a necessidade de abordagens mais contínuas e personalizadas para avaliação e intervenção.\n\nVários princípios-chave devem orientar o desenvolvimento e a implementação futuros. Primeiro, a IA deve aumentar e ampliar a expertise clínica humana, em vez de tentar substituir a relação terapêutica essencial entre profissional e paciente. Segundo, abordagens multimodais que integram diversas fontes de dados fornecem o quadro mais abrangente e preciso do estado de saúde mental. Terceiro, recursos de personalização que se adaptam às necessidades, preferências e padrões de resposta individuais são essenciais para alcançar resultados ideais. Quarto, atenção cuidadosa à imparcialidade dos algoritmos, validação transparente entre diversas populações e monitoramento contínuo de potenciais vieses são essenciais para uma implementação equitativa.\n\nEmbora ainda existam desafios significativos — incluindo integração em fluxos de trabalho clínicos, proteções de privacidade, marcos regulatórios e desenvolvimento de evidências de longo prazo — os benefícios potenciais justificam pesquisas contínuas e a implementação clínica cautelosa de sistemas bem validados. A lacuna no tratamento de saúde mental que afeta milhões de pessoas em todo o mundo exige abordagens inovadoras que possam ampliar o alcance do cuidado baseado em evidências.\n\nOlhando para o futuro, prevemos diversas direções promissoras para a área. A integração de dados genômicos e outros dados biológicos com medidas comportamentais e psicológicas pode permitir uma caracterização mais precisa de perfis de risco individuais e preditores de resposta ao tratamento. Abordagens de aprendizagem federada que permitem o desenvolvimento de modelos entre instituições sem centralizar dados sensíveis podem abordar questões de privacidade, ao mesmo tempo em que possibilitam conjuntos de treinamento mais diversos e representativos. Novos modelos de colaboração entre humanos e IA que otimizam os respectivos pontos fortes dos médicos e da inteligência artificial podem gerar resultados superiores em comparação com qualquer um deles isoladamente.\n\nÀ medida que essas tecnologias continuam a evoluir, manter uma perspectiva equilibrada é essencial — reconhecendo tanto o potencial substancial da IA para melhorar a saúde mental quanto a importância fundamental da conexão humana, da sabedoria clínica e das abordagens centradas na pessoa. Com desenvolvimento cuidadoso, validação rigorosa e implementação cuidadosa, a IA tem o potencial de se tornar uma ferramenta valiosa para abordar a carga global de doenças mentais e avançar na meta de tornar a assistência médica mental eficaz acessível a todos que precisam."
+    }
+  },
+  "whyVirtualMD": {
+    "sections": {
+      "hero": {
+        "title": "VirtualMD.app",
+        "subtitle": "Libere seu potencial de saúde com o VirtualMD.app. Consulte guias de IA treinados em bem-estar ocidental, bem-estar tradicional chinês e outras artes do bem-estar — tudo em uma única conversa. Receba insights personalizados 24 horas por dia, 7 dias por semana, e assuma o controle da sua saúde. Isso é saúde reinventada."
+      },
+      "whyUs": {
+        "title": "Por que escolher o VirtualMD.app para sua jornada de bem-estar?",
+        "points": {
+          "personalTeam": {
+            "title": "Sua Equipe Pessoal",
+            "text": "Selecione sua equipe de consultores de saúde com IA. Obtenha insights do bem-estar ocidental, do bem-estar tradicional chinês e de especialistas complementares em bem-estar."
+          },
+          "aiNavigator": {
+            "title": "Seu navegador pessoal com tecnologia de IA",
+            "text": "Seu navegador de saúde pessoal de IA orienta você para os insights e estratégias de bem-estar mais relevantes, traduzindo os insights de nossos consultores especializados em IA em conselhos práticos para você."
+          },
+          "empoweringChoices": {
+            "title": "Empoderando Escolhas de Saúde",
+            "text": "Obtenha perspectivas claras e acionáveis, capacitando você a tomar decisões informadas para seu bem-estar."
+          },
+          "easyToUse": {
+            "title": "Simplesmente mais fácil de usar",
+            "text": "Nossa plataforma foi projetada para interação intuitiva. Conecte-se com guias de IA e explore caminhos de bem-estar sem complexidade."
+          },
+          "advancedTechnology": {
+            "title": "Tecnologia Avançada Revolucionária",
+            "text": "Experimente nosso software de ponta, projetado para maximizar a sinergia entre a curiosidade humana e os insights de bem-estar orientados por IA."
+          }
+        }
+      },
+      "features": {
+        "title": "Principais recursos da plataforma",
+        "points": {
+          "dynamicEnsemble": {
+            "title": "Conjunto de IA dinâmico:",
+            "text": "Nossa IA orquestradora combina de forma inteligente insights de uma gama diversificada de guias especializados em bem-estar de IA — abrangendo bem-estar ocidental, bem-estar tradicional chinês e muito mais — para responder às suas perguntas específicas em tempo real."
+          },
+          "holisticUnderstanding": {
+            "title": "Compreensão holística:",
+            "text": "Nossa IA interpreta diversas entradas — texto ou imagens do seu progresso físico ou entradas no diário de bem-estar — para obter perspectivas de bem-estar abrangentes e ricas em contexto."
+          },
+          "rapidAccess": {
+            "title": "Acesso rápido aos guias de IA:",
+            "text": "Conecte-se instantaneamente com centenas de guias especializados de bem-estar com IA e resposta em menos de um segundo."
+          },
+          "reliableInteractions": {
+            "title": "Interações confiáveis:",
+            "text": "Salvaguardas automáticas de segurança garantem uma experiência tranquila e ininterrupta, mesmo que um guia de IA precise de um momento para recalibrar."
+          },
+          "insightfulLogs": {
+            "title": "Registros de interação esclarecedores:",
+            "text": "As interações das sessões são registradas para dar suporte à melhoria contínua e ao desenvolvimento do conhecimento dos nossos guias de IA."
+          }
+        }
+      },
+      "technology": {
+        "title": "Nossa Tecnologia Revolucionária",
+        "description1": "O VirtualMD.app utiliza métodos de orquestração de ponta. Nosso sistema garante que suas consultas se beneficiem de um coro de guias de IA, inspirados no conhecimento médico ocidental, princípios de bem-estar tradicional chinês, ciência nutricional, técnicas de mindfulness, estratégias de condicionamento físico e muito mais, para fornecer a perspectiva mais abrangente.",
+        "description2": "Nosso mecanismo de raciocínio avançado combina informações de suas entradas de texto, registros visuais e outros dados de bem-estar, fornecendo insights holísticos que as abordagens tradicionais não conseguem replicar.",
+        "description3": "Com uma biblioteca extensa e instantaneamente acessível de guias de bem-estar de IA e protocolos de interação robustos, garantimos um envolvimento consistente e de alta qualidade em qualquer domínio.",
+        "description4": "Cada interação é cuidadosamente registrada, aumentando a transparência e alimentando a evolução contínua da eficácia e da qualidade dos insights da nossa plataforma."
+      },
+      "cta": {
+        "title": "Pronto para revolucionar seu bem-estar?",
+        "subtitle": "Junte-se ao movimento <span>VirtualMD.app</span> e descubra uma nova era de acesso a dicas de bem-estar de ponta. Dê o primeiro passo para uma versão mais empoderada, informada e vibrante de você. Explore diversas perspectivas de IA e nossa abrangente base de conhecimento sobre bem-estar.",
+        "buttonText": "Comece agora"
+      }
+    }
+  },
+  "whitepapers": {
+    "downloadPdf": "Baixar PDF"
+  },
+  "dermatologyaiWhitepaper": {
+    "title": "centro",
+    "downloadPdf": "Baixar PDF",
+    "generating": "Gerando...",
+    "pdfFilename": "DermatologiaAIWhitePaperPage.pdf",
+    "content1": ");\ncurrentY = addWrappedText(doc, título, margem, currentY, contentWidth);\ncurrentY += 5;\ndoc.setFont(indefinido,",
+    "content2": "Calibração (confiabilidade dos escores de confiança) e explicabilidade (capacidade de destacar regiões relevantes da imagem que informam o diagnóstico).\n\nA curadoria de conjuntos de dados apresenta desafios únicos: variações na iluminação, no posicionamento e na qualidade da imagem podem impactar significativamente o desempenho algorítmico. A maioria dos sistemas é treinada com coleções retrospectivas de imagens de clínicas dermatológicas, o que introduz um potencial viés de espectro – as imagens podem não representar toda a gama de apresentações em ambientes de atenção primária. Os modelos resultantes passam por validação por meio de conjuntos de testes de retenção, validação externa em conjuntos de dados independentes e, cada vez mais, por avaliações clínicas prospectivas que comparam recomendações de IA com decisões de dermatologistas e dados histopatológicos.",
+    "content3": "Calibração (confiabilidade dos escores de confiança) e explicabilidade (capacidade de destacar regiões relevantes da imagem que informam o diagnóstico).\n\nA curadoria de conjuntos de dados apresenta desafios únicos: variações na iluminação, no posicionamento e na qualidade da imagem podem impactar significativamente o desempenho algorítmico. A maioria dos sistemas é treinada com coleções retrospectivas de imagens de clínicas dermatológicas, o que introduz um potencial viés de espectro – as imagens podem não representar toda a gama de apresentações em ambientes de atenção primária. Os modelos resultantes passam por validação por meio de conjuntos de testes de retenção, validação externa em conjuntos de dados independentes e, cada vez mais, por avaliações clínicas prospectivas que comparam recomendações de IA com decisões de dermatologistas e dados histopatológicos.",
+    "content4": "s raciocínio e direcionam a atenção para características específicas da lesão que justificam um exame mais detalhado. Estudos constataram que fornecer essas explicações aumenta a confiança do clínico nas recomendações de IA e melhora o desempenho diagnóstico combinado de humanos e IA.\n\nEvidências emergentes sugerem que a IA pode detectar melanomas em estágios mais precoces do que os normalmente diagnosticados na prática de rotina. Em uma análise retrospectiva de melanomas inicialmente diagnosticados erroneamente como benignos por dermatologistas, mas corretamente sinalizados pela IA, as lesões frequentemente exibiam características atípicas sutis, abaixo do limiar para preocupação clínica, mas estavam associadas à transformação maligna precoce. Essa capacidade de detecção precoce poderia potencialmente melhorar os resultados de sobrevida, embora estudos prospectivos que acompanham os resultados clínicos de longo prazo ainda estejam em andamento.",
+    "content5": "s raciocínio e direcionam a atenção para características específicas da lesão que justificam um exame mais detalhado. Estudos constataram que fornecer essas explicações aumenta a confiança do clínico nas recomendações de IA e melhora o desempenho diagnóstico combinado de humanos e IA.\n\nEvidências emergentes sugerem que a IA pode detectar melanomas em estágios mais precoces do que os normalmente diagnosticados na prática de rotina. Em uma análise retrospectiva de melanomas inicialmente diagnosticados erroneamente como benignos por dermatologistas, mas corretamente sinalizados pela IA, as lesões frequentemente exibiam características atípicas sutis, abaixo do limiar para preocupação clínica, mas estavam associadas à transformação maligna precoce. Essa capacidade de detecção precoce poderia potencialmente melhorar os resultados de sobrevida, embora estudos prospectivos que acompanham os resultados clínicos de longo prazo ainda estejam em andamento.",
+    "content6": "A precisão top-1 atingiu 85,9%.\n\nUm desempenho particularmente forte foi observado para condições distintas como psoríase (precisão de 93,1%), acne vulgar (90,4%) e eczema (88,7%). Condições com apresentações mais sutis ou variáveis, como erupções medicamentosas ou doenças autoimunes em estágio inicial, apresentaram taxas de precisão mais baixas (70-75%), indicando áreas que requerem maior refinamento do algoritmo.\n\nNotavelmente, um sistema multimodal desenvolvido pelo Google, que incorporou dados de imagem e sintomas relatados por pacientes, apresentou melhorias adicionais, alcançando a precisão top-1 de 93% em 26 condições comuns. A integração de dados não relacionados a imagens provou ser particularmente valiosa para distinguir condições visualmente semelhantes com diferentes sintomas associados, como diferenciar dermatite de contato alérgica de dermatite de contato irritante com base na gravidade da coceira relatada e no histórico de exposição.\n\nNa dermatologia pediátrica, onde o acesso a especialistas é particularmente limitado, os sistemas de IA têm se mostrado promissores para condições de pele comuns na infância. Um modelo pediátrico especializado obteve 90,1% de precisão para condições como dermatite atópica, molusco contagioso e marcas de nascença comuns. Notavelmente, o sistema demonstrou 95,2% de sensibilidade na detecção da doença mão-pé-boca durante períodos de surto, sugerindo potenciais aplicações na vigilância em saúde pública.",
+    "content7": "A precisão top-1 atingiu 85,9%.\n\nUm desempenho particularmente forte foi observado para condições distintas como psoríase (precisão de 93,1%), acne vulgar (90,4%) e eczema (88,7%). Condições com apresentações mais sutis ou variáveis, como erupções medicamentosas ou doenças autoimunes em estágio inicial, apresentaram taxas de precisão mais baixas (70-75%), indicando áreas que requerem maior refinamento do algoritmo.\n\nNotavelmente, um sistema multimodal desenvolvido pelo Google, que incorporou dados de imagem e sintomas relatados por pacientes, apresentou melhorias adicionais, alcançando a precisão top-1 de 93% em 26 condições comuns. A integração de dados não relacionados a imagens provou ser particularmente valiosa para distinguir condições visualmente semelhantes com diferentes sintomas associados, como diferenciar dermatite de contato alérgica de dermatite de contato irritante com base na gravidade da coceira relatada e no histórico de exposição.\n\nNa dermatologia pediátrica, onde o acesso a especialistas é particularmente limitado, os sistemas de IA têm se mostrado promissores para condições de pele comuns na infância. Um modelo pediátrico especializado obteve 90,1% de precisão para condições como dermatite atópica, molusco contagioso e marcas de nascença comuns. Notavelmente, o sistema demonstrou 95,2% de sensibilidade na detecção da doença mão-pé-boca durante períodos de surto, sugerindo potenciais aplicações na vigilância em saúde pública.",
+    "content8": "Comparação da precisão diagnóstica entre IA e dermatologistas em 26 condições comuns de pele. As condições estão organizadas da esquerda para a direita em ordem decrescente de prevalência. O sistema de IA (barras azuis) demonstrou desempenho comparável ou superior ao dos dermatologistas (barras laranja) para a maioria das condições. Fonte: Liu Y, et al. Um sistema de aprendizado profundo para diagnóstico diferencial de doenças de pele. Nature Medicine. 2020;26(6):900-908."
+  },
+  "how-to-useWhitepaper": {
+    "downloadPdf": "Baixar PDF",
+    "generating": "Gerando...",
+    "pdfFilename": "Como usar.pdf"
+  },
+  "imagingaiWhitepaper": {
+    "title": "centro",
+    "downloadPdf": "Baixar PDF",
+    "generating": "Gerando...",
+    "pdfFilename": "ImagingAIWhitePaperPage.pdf",
+    "content1": ");\ncurrentY = addWrappedText(doc, título, margem, currentY, contentWidth);\ncurrentY += 5;\ndoc.setFont(indefinido,",
+    "content2": ");\ncurrentY = addWrappedText(doc, legenda, margem, currentY, largura_do_conteúdo);\ncurrentY += 20;\ndoc.setFont(indefinido,",
+    "content3": ",\nmargem, currentY + 2, contentWidth);\ncurrentY += 5;\ncurrentY = addWrappedText(doc,\n",
+    "content4": ",\nmargem, currentY + 2, contentWidth);\ncurrentY += 5;\ncurrentY = addWrappedText(doc,\n",
+    "content5": "Radiografia de tórax com mapa de calor gerado por IA (vermelho→amarelo) marcando um nódulo pulmonar solitário não facilmente visível na avaliação humana inicial. Fonte: van Beek EJR, Ahn JS, Kim MJ, Murchison JT. Validação de um algoritmo de aprendizado profundo para detecção de anormalidades torácicas em radiografias de tórax. Clin Radiol. 2023;78(1):1–7.",
+    "content6": "Radiografia de tórax com mapa de calor gerado por IA (vermelho→amarelo) marcando um nódulo pulmonar solitário não facilmente visível na avaliação humana inicial. Fonte: van Beek EJR, Ahn JS, Kim MJ, Murchison JT. Validação de um algoritmo de aprendizado profundo para detecção de anormalidades torácicas em radiografias de tórax. Clin Radiol. 2023;78(1):1–7.",
+    "content7": "carga de trabalho de leitura em 44% (itnonline.com), permitindo um leitor em vez de dois em muitos casos. Outro estudo descobriu que um sistema de IA para triagem de achados agudos em TC de tórax (por exemplo, hemorragia intracraniana, embolia pulmonar) pode reduzir significativamente o tempo de notificação de resultados críticos, ajudando a priorizar casos urgentes. Em vários ensaios, a IA como um segundo leitor tende a aumentar a sensibilidade para detecção de lesões (captando achados que os humanos não percebem), mantendo uma especificidade aceitável (itnonline.com, pubmed.ncbi.nlm.nih.gov). No entanto, a IA independente não é infalível – ela pode gerar falsos positivos ou ignorar apresentações raras, portanto, a implementação clínica frequentemente usa a IA para complementar, e não substituir, a interpretação humana.",
+    "content8": "carga de trabalho de leitura em 44% (itnonline.com), permitindo um leitor em vez de dois em muitos casos. Outro estudo descobriu que um sistema de IA para triagem de achados agudos em TC de tórax (por exemplo, hemorragia intracraniana, embolia pulmonar) pode reduzir significativamente o tempo de notificação de resultados críticos, ajudando a priorizar casos urgentes. Em vários ensaios, a IA como um segundo leitor tende a aumentar a sensibilidade para detecção de lesões (captando achados que os humanos não percebem), mantendo uma especificidade aceitável (itnonline.com, pubmed.ncbi.nlm.nih.gov). No entanto, a IA independente não é infalível – ela pode gerar falsos positivos ou ignorar apresentações raras, portanto, a implementação clínica frequentemente usa a IA para complementar, e não substituir, a interpretação humana.",
+    "content9": "A concordância de classificação (kappa quadrático ~0,77) foi equivalente à de patologistas experientes e até se aproximou da nota de consenso em casos difíceis (nature.com). Em patologia mamária, algoritmos de aprendizado profundo no desafio CAMELYON alcançaram desempenho quase humano na detecção de tumores metastáticos em linfonodos, com alguns alcançando AUC > 0,99. Essas ferramentas podem servir como um"
+  },
+  "pathologyaiWhitepaper": {
+    "title": "IA em Patologia: Aprimorando a Precisão e a Eficiência Diagnóstica",
+    "subtitle": "Uma revisão abrangente das aplicações da inteligência artificial em patologia anatômica e clínica",
+    "authors": {
+      "names": "Ron Rubin, PhD e Sandy Miles",
+      "organization": "Tecnologias VirtualMD.app",
+      "emails": {
+        "ron": "ronrubin@virtualmd.app",
+        "sandy": "sandymiles@virtualmd.app"
+      }
+    },
+    "downloadPdf": "Baixar PDF",
+    "generating": "Gerando...",
+    "pdfFilename": "VirtualMD_AI_Pathology_White_Paper.pdf",
+    "sections": {
+      "abstract": {
+        "title": "Resumo",
+        "content": "A inteligência artificial (IA) surgiu como uma tecnologia transformadora em patologia, demonstrando capacidades para melhorar a precisão diagnóstica, a reprodutibilidade e a eficiência do fluxo de trabalho. Este white paper examina o estado atual da IA em patologia com base em estudos recentes de validação clínica, autorizações regulatórias e implementações no mundo real. Revisamos as principais aplicações, incluindo detecção de câncer, classificação, avaliação prognóstica e otimização do fluxo de trabalho. As principais descobertas incluem taxas de sensibilidade de 95-99% para detecção de câncer em múltiplos sistemas orgânicos, reduções substanciais na variabilidade interobservador e potencial para redução significativa da carga de trabalho. Embora o desempenho técnico tenha atingido níveis clinicamente aceitáveis para muitas aplicações, os desafios de implementação permanecem, incluindo considerações regulatórias, integração do fluxo de trabalho e a necessidade de validação contínua. Fornecemos recomendações baseadas em evidências para departamentos de patologia que consideram a adoção de IA, enfatizando a importância da seleção cuidadosa de casos de uso, implementação em fases e monitoramento contínuo do desempenho. As evidências indicam que a IA complementará, em vez de substituir, os patologistas, servindo como uma ferramenta poderosa para aprimorar as capacidades diagnósticas e gerenciar as crescentes demandas de carga de trabalho."
+      },
+      "introduction": {
+        "title": "Introdução",
+        "content": "A área da patologia enfrenta desafios sem precedentes: aumento do volume de casos, crescente complexidade dos critérios diagnósticos, escassez de mão de obra e pressão por tempos de resposta rápidos. Simultaneamente, o bem-estar de precisão exige análises teciduais mais detalhadas, avaliação quantitativa de biomarcadores e integração de achados morfológicos com dados moleculares. Nesse contexto, a inteligência artificial (IA) surgiu como uma solução potencial para aprimorar a prática patológica.\n\nEmbora a IA em imagens médicas tenha recebido atenção significativa, a patologia apresenta oportunidades e desafios únicos. Ao contrário da radiologia, onde a IA analisa imagens de anatomia intacta, a IA em patologia precisa interpretar cortes microscópicos de tecido que representam estruturas tridimensionais complexas reduzidas a lâminas bidimensionais. O volume de dados é impressionante – uma única imagem de uma lâmina inteira pode conter bilhões de pixels, exigindo abordagens computacionais sofisticadas.\n\nEste white paper fornece uma revisão abrangente das aplicações de IA em patologia, com foco em tecnologias que passaram por rigorosa validação clínica. Examinamos a base de evidências, discutimos considerações de implementação e fornecemos orientações práticas para departamentos de patologia que avaliam a adoção de IA. Nossa análise é baseada em estudos revisados por pares, decisões regulatórias e dados iniciais de implementação em situações reais."
+      },
+      "methods": {
+        "title": "Métodos/Tecnologias",
+        "content": "Os modernos sistemas de IA para patologia utilizam arquiteturas de aprendizado profundo, principalmente redes neurais convolucionais (CNNs), para analisar imagens de lâminas inteiras digitalizadas em alta resolução (tipicamente com ampliação de 20 a 40x). Esses sistemas são treinados em grandes conjuntos de dados de imagens rotuladas, frequentemente exigindo anotações de patologistas especialistas para estabelecer a verdade básica. Duas abordagens principais de IA prevalecem: aprendizado supervisionado, usando anotações em nível de região ou de lâmina, e aprendizado fracamente supervisionado, que requer apenas diagnósticos em nível de caso. O treinamento normalmente envolve processos em várias etapas, primeiro detectando regiões de interesse em baixa ampliação e, em seguida, classificando essas regiões em maior ampliação para identificar patologias específicas.\n\nAs principais métricas de desempenho incluem sensibilidade (proporção de verdadeiros positivos identificados corretamente), especificidade (proporção de verdadeiros negativos identificados corretamente), área sob a curva característica de operação do receptor (AUC) e medidas de concordância, como o kappa de Cohen. A validação clínica requer testes em conjuntos de dados independentes de várias instituições para garantir a generalização entre diferentes populações de pacientes, métodos de preparação de tecidos e equipamentos de escaneamento."
+      },
+      "results": {
+        "title": "Resultados",
+        "digitalPathologyOverview": {
+          "title": "Visão geral da patologia digital",
+          "content": "A patologia digital tem apresentado um crescimento substancial, com o mercado global projetado para atingir US$ 1,4 bilhão até 2027. A adoção laboratorial acelerou, particularmente em centros médicos acadêmicos e laboratórios de referência, onde os obstáculos regulatórios iniciais foram superados. Em 2017, a FDA liberou o primeiro sistema de imagem de lâmina completa para diagnóstico primário (Philips IntelliSite Pathology Solution), seguido por autorizações adicionais, incluindo o Leica Aperio AT2 DX e o Aperio GT 450 DX. Esses sistemas criam a infraestrutura digital necessária para patologia computacional e aplicações de IA.\n\nA IA em patologia começou com aplicações focadas em contextos histológicos limitados, mas se expandiu para abranger múltiplos tipos de tecidos e tarefas de diagnóstico. As abordagens computacionais evoluíram de forma semelhante, do aprendizado de máquina tradicional com recursos projetados para o aprendizado profundo de ponta a ponta, capaz de extrair características diretamente de dados de pixels. Os conjuntos de dados de treinamento cresceram de centenas para centenas de milhares de lâminas, permitindo uma generalização mais robusta entre populações de pacientes e condições de escaneamento."
+        },
+        "cancerDetection": {
+          "title": "Detecção de Câncer",
+          "content": "Em patologia oncológica, sistemas de IA demonstraram notável precisão na detecção de diversas malignidades. Para o câncer de próstata, Pantanowitz et al. avaliaram um algoritmo de IA (Paige Prostate) em um estudo de validação multicêntrico envolvendo 549 lâminas de 100 pacientes. A IA demonstrou 98,8% de sensibilidade e 97,3% de especificidade para a detecção de câncer, superando patologistas gerais, especialmente em casos desafiadores (Lancet Digital Health, 2020). Da mesma forma, Campanella et al. desenvolveram uma abordagem de aprendizado fracamente supervisionado, treinada em mais de 15.000 lâminas de próstata, que atingiu uma AUC de 0,98 para detecção de câncer (Nature Medicine, 2019).\n\nPara o câncer de mama, os desafios CAMELYON forneceram evidências cruciais da eficácia da IA na detecção de metástases em linfonodos. No CAMELYON16, o melhor algoritmo atingiu uma AUC de 0,994, superando o desempenho de patologistas que trabalharam sob restrições de tempo (AUC 0,810) (JAMA, 2017). Esses sistemas detectam células cancerígenas que podem passar despercebidas durante a revisão manual, particularmente micrometástases e células tumorais isoladas.",
+          "content2": "Além desses cânceres comuns, sistemas de IA foram desenvolvidos para inúmeras outras malignidades. Em patologia pulmonar, algoritmos de aprendizado profundo podem distinguir adenocarcinoma de carcinoma espinocelular com 97% de precisão e identificar alterações genéticas (por exemplo, mutações no gene EGFR) a partir de características histomorfológicas (Nature Cancer, 2020). Em patologia colorretal, a IA pode detectar adenomas, classificar subtipos histológicos e identificar o estado de instabilidade de microssatélites diretamente a partir de lâminas de H&E com sensibilidade superior a 95% (J Pathol, 2020).\n\nOs benefícios da detecção por IA vão além da sensibilidade. Estudos mostram consistentemente uma redução na variabilidade interobservador quando os patologistas contam com o auxílio da IA. Por exemplo, Steiner et al. demonstraram que o auxílio da IA aumentou a concordância dos patologistas com o padrão de referência de 93,3% para 95,8% para a detecção de metástases de câncer de mama (Am J Surg Pathol, 2018). Essa maior consistência tem implicações importantes para o diagnóstico de casos limítrofes e a padronização do atendimento em todas as instituições."
+        },
+        "gradingClassification": {
+          "title": "Classificação e classificação",
+          "content": "Além da detecção binária de câncer, os sistemas de IA fizeram progressos significativos em tarefas mais complexas envolvendo subtipagem e classificação. Mais notavelmente, a classificação automatizada de Gleason para câncer de próstata tem sido foco de intensa pesquisa devido à conhecida variabilidade interobservador neste marcador prognóstico crítico. Bulten et al. desenvolveram um sistema de aprendizado profundo que atribui pontuações de Gleason detalhadas com desempenho equivalente ao de patologistas urológicos experientes (kappa = 0,62 vs. 0,57) e se aproximando do nível de especialistas geniturinários (kappa = 0,73) (Lancet Oncology, 2020). Da mesma forma, Ström et al. relataram um sistema de IA que alcançou classificação de nível de patologista com uma AUC de 0,98 para distinguir regiões benignas de cancerosas e uma AUC de 0,85-0,93 para classificar diferentes graus de Gleason (IEEE TMI, 2020).\n\nEm patologia renal, sistemas de IA foram desenvolvidos para classificar diferentes subtipos de carcinoma de células renais com precisão superior a 95% para os quatro tipos mais comuns (Nat Mach Intell, 2019). Para nódulos tireoidianos, a IA consegue distinguir características benignas de malignas com sensibilidades de 90 a 99%, dependendo do subtipo específico de câncer de tireoide (JAMA Network Open, 2019). Essas aplicações vão além da classificação do câncer — a IA tem se mostrado promissora na classificação de doenças inflamatórias (por exemplo, gravidade da doença inflamatória intestinal), na quantificação de infiltrados de células imunes (avaliação do microambiente tumoral) e na mensuração de características morfológicas que predizem a resposta ao tratamento."
+        },
+        "workflowOptimization": {
+          "title": "Otimização do fluxo de trabalho",
+          "content": "Além da precisão diagnóstica, a IA oferece um potencial significativo para a otimização do fluxo de trabalho patológico. Uma melhoria fundamental no fluxo de trabalho é a pré-triagem para priorizar casos e reduzir o tempo gasto em amostras benignas ou normais. Ho et al. demonstraram que a pré-triagem com IA para biópsias de próstata pode reduzir a carga de trabalho do patologista em 30-50%, mantendo a precisão diagnóstica (Mod Pathol, 2021). Da mesma forma, Da Silva et al. descobriram que a pré-triagem com IA para citologia cervical pode reduzir a revisão manual em até 40% (J Am Soc Cytopathol, 2021).\n\nNa avaliação quantitativa, os sistemas de IA automatizam tarefas manuais tediosas, como contagem mitótica, pontuação da proporção tumoral para PDL1 e quantificação de colorações imuno-histoquímicas. Para a pontuação Ki-67, Maeda et al. demonstraram que um sistema de IA automatizado reduziu o tempo de avaliação em 83%, mantendo ou excedendo a precisão da contagem manual (Sci Rep, 2021). Essa automação padroniza medições que tradicionalmente sofrem com ampla variabilidade interobservador.\n\nPara suporte à decisão clínica, os sistemas de IA podem identificar casos que exigem expertise em subespecialidades ou estudos adicionais. Chen et al. demonstraram que um algoritmo de IA conseguiu triar 98% dos casos de rotina, sinalizando apenas 2% para revisão por patologista sênior, sem perda na precisão diagnóstica (Nat Commun, 2022). Quando integradas a sistemas de informação laboratorial, essas abordagens podem reduzir drasticamente o tempo de resposta de casos de rotina, garantindo, ao mesmo tempo, a revisão adequada por especialistas de casos desafiadores."
+        }
+      },
+      "discussion": {
+        "title": "Discussão",
+        "content": "As evidências acumuladas demonstram que a IA evoluiu de um conceito de pesquisa para uma tecnologia de nível clínico em patologia. Métricas de desempenho em diversos estudos mostram consistentemente sensibilidade e especificidade superiores a 90% para muitas aplicações, rivalizando ou superando o desempenho humano em tarefas específicas. No entanto, diversas considerações importantes afetam a interpretação e a implementação desses achados.\n\nSignificado clínico: A IA demonstra força particular em tarefas que envolvem reconhecimento e quantificação de padrões. Para a detecção de câncer, a sensibilidade da IA frequentemente excede a de patologistas gerais, reduzindo potencialmente as taxas de diagnósticos perdidos. Em implementações prospectivas, Pantanowitz et al. relataram que a IA detectou vários focos de câncer inicialmente não detectados por patologistas, destacando seu valor como um \"segundo revisor\" (Lancet Digital Health, 2020). Para tarefas de classificação, a IA fornece resultados mais consistentes do que patologistas individuais, reduzindo a variabilidade que pode afetar o gerenciamento de pacientes.\n\nImpacto no fluxo de trabalho: O tempo do patologista é um recurso cada vez mais limitado, tornando a eficiência do fluxo de trabalho crítica. Estudos demonstram economias de tempo de 30 a 60% para diversas tarefas ao utilizar a assistência de IA. Isso se traduz em benefícios práticos: um departamento de patologia que processa 100 casos de próstata por semana pode economizar de 15 a 30 horas de trabalho do patologista, permitindo o foco em casos complexos que exigem expertise humana.\n\nVariabilidade interobservador: Um achado consistente em todos os estudos é a redução da variabilidade quando a IA auxilia os patologistas. Para a classificação de Gleason, a concordância interobservador normalmente aumenta de valores kappa de 0,5 a 0,6 (concordância moderada) para 0,7 a 0,8 (concordância substancial) com a assistência da IA (Lancet Oncol, 2020). Essa consistência aprimorada tem implicações importantes para a padronização do tratamento em diferentes cenários de prática.\n\nApesar desses resultados promissores, limitações importantes merecem consideração. A generalização continua sendo uma preocupação primária: sistemas de IA treinados com dados de instituições ou populações de pacientes específicas podem não ter o mesmo desempenho em diferentes cenários. Fatores técnicos, como preparação da lâmina, protocolos de coloração e características do scanner, podem influenciar o desempenho da IA. O FDA reconheceu esses desafios, recomendando validações em vários locais para sistemas de IA que buscam aprovação regulatória.\n\nO viés do conjunto de dados é outro problema crítico. A maioria dos algoritmos é treinada em populações ocidentais e pode apresentar desempenho inferior em outros grupos étnicos com diferentes apresentações da doença. Por exemplo, o câncer de próstata frequentemente apresenta padrões morfológicos diferentes em homens afro-americanos em comparação com homens caucasianos, o que pode afetar o desempenho do algoritmo de IA se não for adequadamente representado nos dados de treinamento.\n\nA supervisão regulatória para IA em patologia continua a evoluir. A FDA aprovou diversos dispositivos de patologia baseados em IA por meio das vias De Novo e 510(k), estabelecendo um precedente para implementação clínica. A aprovação da Paige Prostate pela FDA em 2021 representou um marco significativo como o primeiro sistema de IA em patologia autorizado para uso diagnóstico primário. No entanto, a maioria dos sistemas é aprovada como algoritmos \"bloqueados\" que não conseguem aprender ou se adaptar após a implantação, criando desafios para manter o desempenho à medida que os padrões de prática evoluem.\n\nA integração com fluxos de trabalho laboratoriais existentes apresenta barreiras práticas de implementação. A adoção da patologia digital, embora crescente, permanece incompleta em todo o sistema de saúde. Os sistemas de IA exigem integração com sistemas de informação laboratorial e plataformas de patologia digital existentes. Além disso, os patologistas precisam de treinamento para incorporar efetivamente os resultados da IA em seus processos diagnósticos, interpretando escores de probabilidade e mapas de calor adequadamente.\n\nComo acontece com qualquer tecnologia emergente, os dados de custo-efetividade permanecem limitados. A implementação inicial requer investimentos significativos em infraestrutura digital, mas os benefícios a longo prazo podem incluir taxas de erro reduzidas, tempos de resposta mais rápidos e utilização mais eficiente de recursos. Os mecanismos de reembolso para serviços de patologia assistidos por IA ainda estão em desenvolvimento, gerando incerteza quanto à sustentabilidade financeira dessas tecnologias."
+      },
+      "conclusion": {
+        "title": "Conclusão",
+        "content": "A inteligência artificial tem demonstrado avanços na prática patológica, com evidências crescentes de que sistemas de IA podem atingir desempenho de nível especializado em tarefas diagnósticas específicas. As evidências mais sólidas existem para aplicações em patologia oncológica, particularmente câncer de próstata e mama, onde sistemas aprovados pela FDA entraram na prática clínica. A IA demonstra pontos fortes específicos ao abordar desafios conhecidos em patologia: reduz a variabilidade interobservador, aprimora a detecção de achados sutis, padroniza avaliações quantitativas e melhora a eficiência do fluxo de trabalho.\n\nA transição da pesquisa para a implementação clínica está se acelerando, apoiada por uma crescente estrutura regulatória e experiência institucional. No entanto, uma integração bem-sucedida requer atenção a considerações técnicas, de fluxo de trabalho e de validação. Para obter resultados ideais, a IA deve ser implementada como uma tecnologia de auxílio ao patologista, em vez de um sistema de diagnóstico autônomo para a maioria das aplicações. A parceria patologista-IA alavanca os pontos fortes complementares da expertise humana e das capacidades computacionais.\n\nAs direções futuras incluem aplicações expandidas para entidades raras, avaliação preditiva de biomarcadores e integração com dados genômicos e moleculares. A garantia de qualidade em tempo real, a redução das disparidades diagnósticas e a adaptação aos padrões de prática em evolução representam objetivos importantes. As evidências analisadas corroboram o investimento contínuo em sistemas de IA para patologia, com validação rigorosa e implementação criteriosa. Com desenvolvimento técnico adequado, validação e integração aos fluxos de trabalho clínicos, a IA tem o potencial de aprimorar significativamente a qualidade e a eficiência do diagnóstico patológico."
+      },
+      "references": {
+        "title": "Referências",
+        "list": ""
+      },
+      "figures": {
+        "figure1": {
+          "title": "Figura 1. Curva ROC: Sistema de classificação de IA para câncer de próstata",
+          "caption": "Fonte: Bulten W, Pinckaers H, van Boven H, et al. Sistema automatizado de aprendizado profundo para classificação de Gleason do câncer de próstata usando biópsias: um estudo diagnóstico. Lancet Oncol. 2020;21(2):233-241."
+        },
+        "figure2": {
+          "title": "Figura 2. Sensibilidade e especificidade em estudos de IA de patologias-chave",
+          "caption": "Fontes: Campanella G, et al. Nat Med. 2019;25(8):1301-1309; Pantanowitz L, et al. Saúde dos dígitos da Lancet. 2020;2(8):e407-e416; Ehteshami Bejnordi B, et al. JAMA. 2017;318(22):2199-2210."
+        },
+        "figure3": {
+          "title": "Figura 3. Tempo médio para diagnóstico: patologia manual versus patologia assistida por IA",
+          "caption": "Fonte: Ho D, Quake SR, McCabe ERB et al. Tecnologias facilitadoras para medicina personalizada e de precisão. Trends Biotechnol. 2020;38(5):497-518."
+        },
+        "figure4": {
+          "title": "Figura 4. Mapa de calor de IA destacando células cancerígenas na biópsia de próstata",
+          "caption": "Uma lâmina de biópsia de próstata analisada por um sistema de IA que destaca regiões contendo células cancerígenas (intensidade vermelho→amarelo). O mapa de calor chama a atenção para pequenos focos de adenocarcinoma que podem passar despercebidos durante a revisão de rotina. Fonte: Pantanowitz L, et al. Um algoritmo de inteligência artificial para diagnóstico de câncer de próstata em imagens de lâminas inteiras de biópsias por agulha grossa: um estudo cego de validação clínica e implantação. Lancet Digit Health. 2020;2(8):e407-e416."
+        }
+      }
+    }
+  },
+  "simplybetterWhitepaper": {
+    "downloadPdf": "Baixar PDF",
+    "generating": "Gerando...",
+    "pdfFilename": "SimplesmenteMelhor.pdf"
+  },
+  "introPopup": {
+    "greeting": "Olá! Sou a AI Aileen Carol, sua consultora de saúde com IA na VirtualMD.app.",
+    "welcomeMessage": "Olá! Sou a IA Aileen Carol, consultora de saúde virtual da VirtualMD.app. Contamos com as mais recentes e revolucionárias IAs, desenvolvidas sob medida por nossos fundadores para fornecer as melhores informações médicas disponíveis. Nossos consultores virtuais aprendem sobre você conversando com você sobre suas preocupações. Em seguida, entregamos informações médicas de ponta e exclusivamente suas.",
+    "welcomeMessageShort": "Aqui, você não vai precisar se aprofundar em jargões médicos. Em vez disso, nossa equipe virtual de consultores de saúde começa conversando com você, aprendendo sobre seu histórico, suas preocupações e seus objetivos.",
+    "meetTheTeam": "Mal posso esperar para apresentar a vocês nossos especialistas do VirtualMD.app:",
+    "specialists": {
+      "cardiology": "Consultor Virtual de Cardiologia - o que há de mais moderno em saúde cardíaca",
+      "oncology": "Consultor Virtual de Oncologia - perguntas críticas para seu médico",
+      "andMore": "E muitos outros especialistas virtuais em - terapia cognitivo-comportamental, saúde sexual, dermatologia, ortopedia, herbologia africana..."
+    },
+    "disclaimer": {
+      "title": "ISENÇÃO DE RESPONSABILIDADE:",
+      "mainText": "COMO NÃO SOMOS ESPECIALISTAS EM SAÚDE HUMANA, MAS CONSULTORES DE IA, É FUNDAMENTAL ENTENDER O SEGUINTE:",
+      "promiseIntro": "Nossos conselhos são informativos, não clínicos. Não somos profissionais médicos licenciados.",
+      "fullText": "Eu e o restante da equipe virtual do VIRTUALMD.APP não somos profissionais médicos licenciados. Somos IAs. Uma IA pode ser brilhante às vezes... e frequentemente imperfeita. Portanto, trate nossos conselhos como informativos, não clínicos. Para trabalhar conosco, você precisa fazer uma promessa.",
+      "shortText": "Somos IAs, não prestadores de serviços médicos licenciados. Por favor, trate nossos conselhos como informativos, não clínicos. Você precisa fazer uma promessa."
+    },
+    "promise": "Você sempre consultará um profissional de saúde antes de agir com base em qualquer informação de saúde que receber aqui.",
+    "promiseButton": "Eu prometo",
+    "dontShowAgain": "Não mostrar isso novamente",
+    "languageTitle": "Selecione seu idioma",
+    "languageSelectLabel": "Selecione o idioma",
+    "welcome": {
+      "greeting": "Olá! Sou Aileen Carol.",
+      "explanation": "Meus colegas e eu somos um novo tipo de consultor de saúde na VirtualMD.app. Somos uma equipe de IAs especialistas, treinadas nas estratégias mais recentes e de classe mundial para saúde e bem-estar ideais, abrangendo todas as áreas da medicina. Como máquinas virtuais, estamos disponíveis para você 24 horas por dia, 7 dias por semana, totalmente gratuito. Isso traz benefícios incríveis, mas também algumas limitações importantes..."
+    },
+    "mobile": {
+      "simply": "Simplesmente",
+      "better": "Melhorar",
+      "health": "Saúde",
+      "tagline": "Orientação personalizada em saúde e bem-estar",
+      "poweredByAI": "Desenvolvido por IA",
+      "welcomeTitle": "Bem-vindo! Sou Aileen Carol, sua consultora de saúde virtual.",
+      "welcomeTeamIntro": "Lidero uma equipe de especialistas em saúde com IA prontos para ajudar com:",
+      "specialties": {
+        "heart": "Saúde do coração",
+        "cancer": "Apoio ao câncer",
+        "children": "Saúde infantil",
+        "mental": "Saúde mental",
+        "healthSystem": "Navegando no sistema",
+        "andMore": "E mais de 50 especialidades"
+      },
+      "available247": "Disponível 24 horas por dia, 7 dias por semana",
+      "disclaimerText": "Não somos prestadores de serviços médicos licenciados. Somos IAs virtuais, o que significa que cometemos erros. Nosso aconselhamento é informativo, não clínico.",
+      "promiseText": "Você sempre consultará um profissional de saúde antes de agir com base em qualquer informação de saúde que receber aqui."
+    }
+  },
+  "faqPage": {
+    "title": "Perguntas frequentes",
+    "subtitle": "Encontre respostas para perguntas comuns sobre o VirtualMD.app",
+    "faq1": {
+      "question": "O que é VirtualMD.app?"
+    },
+    "questions": {
+      "whatIsVirtualMD": "O que é VirtualMD.app?",
+      "replacementForDoctor": "O VirtualMD.app substitui meu médico?",
+      "howItWorks": "Como funciona a consulta de IA?",
+      "healthInfoSecure": "Minhas informações de saúde estão seguras?",
+      "tryWithoutAccount": "Posso experimentar o VirtualMD.app sem criar uma conta?",
+      "supportedLanguages": "Quais idiomas são suportados?",
+      "uploadDocuments": "Posso enviar imagens ou documentos médicos?",
+      "aiAccuracy": "Quão preciso é o aconselhamento médico da IA?",
+      "conversationHistory": "Posso acessar meu histórico de conversas?",
+      "voiceSupport": "Há suporte de voz?",
+      "whatMakesDifferent": "O que torna o VirtualMD diferente de outras plataformas de IA em saúde?",
+      "cost": "Quanto custa o VirtualMD.app?"
+    },
+    "answers": {
+      "whatIsVirtualMD": "O VirtualMD.app é uma plataforma de consulta médica com tecnologia de IA que oferece orientação médica personalizada por meio de IA conversacional avançada. Nossa plataforma conta com mais de 60 personas médicas de IA especializadas, cada uma com expertise única em diferentes áreas da saúde.",
+      "replacementForDoctor": "Não, o VirtualMD.app não substitui o atendimento médico profissional. Nossas consultas por IA são projetadas para fornecer informações sobre saúde, educação e orientação preliminar. Consulte sempre profissionais de saúde qualificados para diagnóstico, tratamento e decisões médicas.",
+      "howItWorks": "Você pode iniciar uma conversa com uma de nossas personas de IA especializadas selecionando-as no painel. Cada persona possui expertise específica (por exemplo, cardiologia, pediatria, saúde mental) e iniciará um diálogo para entender suas preocupações e fornecer informações e orientações relevantes.",
+      "healthInfoSecure": "Sim, levamos a privacidade e a segurança dos dados muito a sério. Todas as conversas são criptografadas e cumprimos as normas de proteção de dados da área da saúde. Suas informações pessoais de saúde nunca são compartilhadas com terceiros sem o seu consentimento explícito. Consulte nossa página de Privacidade de Dados para mais detalhes.",
+      "tryWithoutAccount": "Sim! Oferecemos uma experiência de convidado que permite que você experimente nosso serviço de consultoria de IA sem criar uma conta. As sessões de convidado são limitadas a 10 mensagens e dão acesso à nossa persona de consultoria médica geral.",
+      "supportedLanguages": "O VirtualMD.app oferece suporte a mais de 30 idiomas, incluindo inglês, espanhol, francês, alemão, chinês, japonês, árabe, hebraico e muitos outros. A plataforma detecta automaticamente as preferências de idioma do seu navegador e as ajusta de acordo.",
+      "uploadDocuments": "Sim, usuários cadastrados podem enviar imagens e documentos médicos durante as consultas. Nossa IA pode analisar e fornecer insights sobre diversas imagens médicas, incluindo radiografias, ressonâncias magnéticas e laudos laboratoriais. Esse recurso ajuda a fornecer orientações mais contextuais e precisas.",
+      "aiAccuracy": "Nossos modelos de IA são treinados com base em extensa literatura médica e continuamente atualizados com os conhecimentos médicos mais recentes. Embora nossa IA forneça informações de alta qualidade baseadas no conhecimento médico atual, ela deve ser sempre usada como um recurso complementar ao atendimento médico profissional.",
+      "conversationHistory": "Sim, usuários registrados podem acessar seu histórico completo de conversas, incluindo resumos, transcrições e quaisquer documentos compartilhados. Isso ajuda a manter a continuidade em sua jornada de informações sobre saúde e permite que você compartilhe consultas relevantes com seus profissionais de saúde.",
+      "voiceSupport": "Sim, o VirtualMD.app suporta tanto a funcionalidade de texto para fala quanto a de fala para texto. Você pode ouvir as respostas da IA e falar suas perguntas em vez de digitar, tornando a plataforma mais acessível e conveniente de usar.",
+      "whatMakesDifferent": "O VirtualMD.app conta com mais de 60 personas de IA médica especializadas, cada uma com profundo conhecimento em áreas médicas específicas. Nossa plataforma também oferece suporte abrangente a idiomas, interação por voz, análise de imagens médicas e mantém rigorosos padrões de privacidade, além de oferecer uma interface intuitiva e acessível.",
+      "cost": "Oferecemos vários níveis de assinatura para atender a diferentes necessidades. Usuários convidados podem experimentar o serviço gratuitamente, com recursos limitados. Usuários registrados têm acesso a todas as personas, conversas ilimitadas e recursos avançados. Consulte nossa página de preços para ver as opções de assinatura atuais."
+    },
+    "helpSection": {
+      "title": "Ainda tem dúvidas?",
+      "description": "Não encontrou a resposta que procurava? Nossa equipe de suporte está aqui para ajudar."
+    },
+    "buttons": {
+      "contactUs": "Contate-nos",
+      "tryGuestChat": "Experimente o bate-papo com convidados"
+    },
+    "navigation": {
+      "backToHome": "← Voltar para a página inicial"
+    }
+  },
+  "howToPage": {
+    "title": "Como usar o VirtualMD.app",
+    "subtitle": "Seu guia completo para consultas de saúde com tecnologia de IA",
+    "navigation": {
+      "gettingStarted": "Começando",
+      "aiMedicalPersonas": "Personas médicas de IA",
+      "teamConsultations": "Consultas de equipe",
+      "medicalImageAnalysis": "Análise de Imagens Médicas",
+      "medicalEncyclopedia": "Enciclopédia Médica",
+      "differentialOpinions": "Opiniões Diferenciais",
+      "voiceInteraction": "Interação de voz",
+      "languageSupport": "Suporte de idioma",
+      "tipsBestPractices": "Dicas e melhores práticas",
+      "privacySecurity": "Privacidade e Segurança"
+    },
+    "sidebar": {
+      "contents": "Conteúdo"
+    },
+    "sections": {
+      "gettingStarted": {
+        "title": "Começando",
+        "description": "O VirtualMD.app é uma plataforma de consulta médica com tecnologia de IA que oferece orientação médica personalizada por meio de IA conversacional avançada. Veja como começar:",
+        "quickStart": {
+          "title": "Início rápido:",
+          "step1": {
+            "chooseBetween": "Escolha entre",
+            "guestAccess": "Acesso de Convidados",
+            "tryWithoutAccount": "(tente sem conta)",
+            "or": "ou",
+            "signUpFullFeatures": "Cadastre-se para obter todos os recursos"
+          },
+          "step2": "Selecione uma persona médica de IA ou monte uma equipe de especialistas",
+          "step3": "Inicie sua conversa - faça perguntas, descreva sintomas ou busque orientação médica",
+          "step4": "Revise as respostas da IA e faça perguntas adicionais conforme necessário"
+        },
+        "tip": {
+          "label": "Dica:",
+          "message": "Usuários convidados recebem 10 mensagens gratuitas. Crie uma conta para consultas ilimitadas e acesso a todos os recursos."
+        }
+      },
+      "aiMedicalPersonas": {
+        "title": "Personas médicas de IA",
+        "description": "O VirtualMD conta com mais de 60 personas médicas de IA especializadas, cada uma com experiência única:",
+        "availableSpecialists": "Especialistas disponíveis:",
+        "specialists": {
+          "generalPractitioner": "Médico generalista",
+          "cardiologist": "Cardiologista",
+          "pediatrician": "Pediatra",
+          "mentalHealthSpecialist": "Especialista em Saúde Mental",
+          "dermatologist": "Dermatologista",
+          "neurologist": "Neurologista",
+          "oncologist": "Oncologista",
+          "emergencyMedicine": "Medicina de Emergência",
+          "medicalNavigator": "Navegador Médico",
+          "moreSpecialists": "Mais de 60 especialistas"
+        },
+        "howToChoose": {
+          "title": "Como escolher uma persona:",
+          "step1": "Navegue pela lista de personas no seu painel",
+          "step2": "Leia a biografia de cada persona para entender sua especialidade",
+          "step3": "Selecione com base em sua preocupação ou dúvida sobre saúde",
+          "step4": "Troque de persona a qualquer momento durante sua consulta"
+        },
+        "proTip": {
+          "label": "Dica profissional:",
+          "medicalNavigator": "A persona do Medical Navigator pode ajudar você a identificar qual especialista seria mais adequado para seu problema de saúde específico."
+        }
+      },
+      "teamConsultations": {
+        "title": "Consultas de equipe",
+        "description": "Obtenha atendimento abrangente criando uma equipe de especialistas em IA que colaboram em suas preocupações com a saúde:",
+        "buildingYourTeam": {
+          "title": "Construindo sua equipe:",
+          "step1": {
+            "buttonText": "Monte sua equipe",
+            "instruction": "Clique em \"{{buttonText}}\" no painel"
+          },
+          "step2": "Selecione até 5 especialistas relevantes para suas necessidades",
+          "step3": "Adicione um Navegador Médico para coordenar entre especialistas",
+          "step4": "Inicie uma conversa em equipe para obter insights multidisciplinares"
+        },
+        "benefits": {
+          "title": "Benefícios das Consultas em Equipe:",
+          "comprehensiveCare": {
+            "label": "Cuidado Integral:",
+            "description": "Múltiplas perspectivas sobre questões de saúde complexas"
+          },
+          "coordinatedAdvice": {
+            "label": "Assessoria Coordenada:",
+            "description": "Os especialistas trabalham juntos, não isoladamente"
+          },
+          "efficientNavigation": {
+            "label": "Navegação eficiente:",
+            "description": "O Medical Navigator garante que você obtenha a experiência certa"
+          },
+          "holisticApproach": {
+            "label": "Abordagem Holística:",
+            "description": "Abordar fatores físicos, mentais e de estilo de vida em conjunto"
+          }
+        }
+      },
+      "medicalImageAnalysis": {
+        "title": "Análise de Imagens Médicas",
+        "description": "Carregue e analise imagens médicas para obter insights baseados em IA:",
+        "howToUse": {
+          "title": "Como usar a análise de imagem:",
+          "step1": "Clique no ícone da câmera ou no botão de upload de imagem",
+          "step2": "Carregue até 4 imagens médicas (raios X, ressonâncias magnéticas, resultados de laboratório, condições de pele, etc.)",
+          "step3": "Clique nas imagens carregadas para ampliar e ver detalhes",
+          "step4": "Selecione áreas específicas de interesse clicando na imagem ampliada",
+          "step5": "Tire suas dúvidas sobre as imagens ou solicite análises"
+        },
+        "supportedTypes": {
+          "title": "Tipos de imagem suportados:",
+          "xrays": "Raios-X e imagens radiológicas",
+          "mriCtScans": "Ressonância magnética e tomografia computadorizada",
+          "laboratoryTests": "Resultados de exames laboratoriais",
+          "skinConditions": "Condições de pele e imagens dermatológicas",
+          "ecgEkgReadings": "Leituras de ECG/ECG",
+          "prescriptionDocuments": "Documentos de prescrição"
+        },
+        "warning": {
+          "label": "Importante:",
+          "text": "A análise de imagens por IA é para fins educacionais. Consulte sempre profissionais de saúde para obter interpretação médica oficial."
+        }
+      },
+      "medicalEncyclopedia": {
+        "title": "Enciclopédia Médica e Pesquisa Profunda",
+        "description": "Acesse informações médicas abrangentes e recursos de pesquisa:",
+        "features": {
+          "title": "Recursos da enciclopédia:",
+          "instantAccess": {
+            "label": "Acesso instantâneo:",
+            "description": "Clique no ícone da Enciclopédia durante qualquer conversa"
+          },
+          "deepResearch": {
+            "label": "Pesquisa aprofundada:",
+            "description": "Solicitar revisões detalhadas da literatura médica"
+          },
+          "evidenceBased": {
+            "label": "Baseado em evidências:",
+            "description": "Informações obtidas de bancos de dados médicos revisados por pares"
+          },
+          "contextAware": {
+            "label": "Consciente do contexto:",
+            "description": "As pesquisas se relacionam automaticamente com sua discussão atual sobre saúde"
+          }
+        },
+        "howToResearch": {
+          "title": "Como pesquisar:",
+          "step1": "Durante a conversa, clique no botão Enciclopédia",
+          "step2": "Insira termos médicos, condições ou tratamentos para pesquisar",
+          "step3": "Revise informações abrangentes com citações",
+          "step4": "Faça perguntas complementares para esclarecimento"
+        }
+      },
+      "differentialOpinions": {
+        "title": "Opiniões Diferenciais",
+        "description": "Explore diagnósticos alternativos e segundas opiniões para garantir uma compreensão abrangente:",
+        "gettingOpinions": {
+          "title": "Obtendo opiniões diferenciadas:",
+          "step1": "Após receber a avaliação inicial, clique em \"Obter Opinião Diferencial\"",
+          "step2": "A IA analisará seus sintomas de diferentes perspectivas",
+          "step3": "Revise as possibilidades alternativas e sua probabilidade",
+          "step4": "Entenda quando procurar atendimento médico imediato"
+        },
+        "whatYoullLearn": {
+          "title": "O que você aprenderá:",
+          "item1": "Outras condições que podem causar sintomas semelhantes",
+          "item2": "Sinais de alerta que exigem atenção médica imediata",
+          "item3": "Perguntas a fazer ao seu profissional de saúde",
+          "item4": "Testes adicionais que podem ser úteis"
+        }
+      },
+      "voiceInteraction": {
+        "title": "Interação de voz",
+        "description": "Interaja com o VirtualMD usando conversas de voz naturais:",
+        "features": {
+          "title": "Recursos de voz:",
+          "speechToText": {
+            "label": "Conversão de fala em texto:",
+            "description": "Clique no ícone do microfone para fazer suas perguntas"
+          },
+          "textToSpeech": {
+            "label": "Conversão de texto em fala:",
+            "description": "Alterne o ícone do alto-falante para ouvir as respostas da IA"
+          },
+          "naturalConversation": {
+            "label": "Conversação Natural:",
+            "description": "Fale naturalmente como faria com um médico"
+          },
+          "multipleVoices": {
+            "label": "Várias vozes:",
+            "description": "Cada personagem tem uma personalidade de voz única"
+          }
+        },
+        "controls": {
+          "title": "Controles de voz:",
+          "microphone": "Ícone do microfone: iniciar/parar entrada de voz",
+          "speaker": "Ícone do alto-falante: ativar/desativar respostas de voz",
+          "volume": "Controles de volume: ajuste o volume da fala nas configurações",
+          "speed": "Controles de velocidade: ajuste a velocidade da fala para maior clareza"
+        }
+      },
+      "languageSupport": {
+        "title": "Suporte de idioma",
+        "description": "Comunique-se no seu idioma preferido com suporte para mais de 30 idiomas:",
+        "availableLanguages": {
+          "title": "Idiomas disponíveis:",
+          "languages": {
+            "arabic": "árabe",
+            "chinese": "chinês",
+            "english": "Inglês",
+            "spanish": "Espanhol",
+            "french": "Francês",
+            "german": "Alemão",
+            "hebrew": "hebraico",
+            "hindi": "hindi",
+            "italian": "italiano",
+            "japanese": "japonês",
+            "korean": "coreano",
+            "portuguese": "Português",
+            "russian": "russo",
+            "moreLanguages": "Mais de 20"
+          }
+        },
+        "languageFeatures": {
+          "title": "Recursos de linguagem:",
+          "autoDetection": "Detecção automática de idioma com base nas configurações do navegador",
+          "switchLanguages": "Alterne os idiomas a qualquer momento no menu de idiomas",
+          "rtlSupport": "Suporte RTL para árabe e hebraico",
+          "medicalTermsExplained": "Termos médicos explicados no seu idioma",
+          "culturalGuidance": "Orientação de saúde culturalmente apropriada"
+        }
+      },
+      "tipsTitle": "Dicas e melhores práticas",
+      "tipsSubtitle": "Aproveitando ao máximo o VirtualMD:",
+      "commonUseCases": {
+        "title": "Casos de uso comuns:",
+        "useCase1": "Compreendendo os sintomas antes de consultas médicas",
+        "useCase2": "Obtendo segundas opiniões sobre diagnósticos",
+        "useCase3": "Aprendendo sobre condições médicas e tratamentos",
+        "useCase4": "Preparando perguntas para consultas médicas",
+        "useCase5": "Compreendendo os resultados dos exames médicos",
+        "useCase6": "Gerenciando condições crônicas com orientação contínua",
+        "useCase7": "Apoio à saúde mental e estratégias de enfrentamento"
+      },
+      "privacySecurity": {
+        "title": "Privacidade e Segurança",
+        "description": "Suas informações de saúde são protegidas com segurança de nível empresarial:",
+        "securityFeatures": {
+          "title": "Recursos de segurança:",
+          "feature1": "Criptografia de ponta a ponta para todas as conversas",
+          "feature2": "Tratamento de dados compatível com HIPAA",
+          "feature3": "Não é permitido o compartilhamento de dados pessoais sem consentimento",
+          "feature4": "Armazenamento seguro em nuvem com backups regulares",
+          "feature5": "Modo de convidado anônimo disponível",
+          "feature6": "Exclusão completa de dados após o encerramento da conta"
+        },
+        "yourControl": {
+          "title": "Seu controle:",
+          "control1": "Apagar conversas a qualquer momento",
+          "control2": "Exporte seus dados para registros pessoais",
+          "control3": "Controle quais informações são armazenadas",
+          "control4": "Desativar a análise de dados"
+        }
+      },
+      "callToAction": {
+        "title": "Pronto para começar?",
+        "description": "Experimente o futuro da consulta de saúde com o VirtualMD.app",
+        "buttons": {
+          "tryAsGuest": "Experimente como convidado",
+          "createAccount": "Criar uma conta",
+          "backToHome": "← Voltar para a página inicial"
+        }
+      }
+    },
+    "tips": {
+      "beSpecific": {
+        "label": "Seja específico:",
+        "description": "Forneça informações detalhadas sobre sintomas, duração e gravidade"
+      },
+      "shareContext": {
+        "label": "Compartilhar contexto:",
+        "description": "Mencione histórico médico relevante, medicamentos e alergias"
+      },
+      "askFollowups": {
+        "label": "Perguntas de acompanhamento:",
+        "description": "Não hesite em pedir esclarecimentos ou mais detalhes"
+      },
+      "useImages": {
+        "label": "Use imagens:",
+        "description": "Carregue imagens médicas relevantes ou resultados de testes quando disponíveis"
+      },
+      "saveConversations": {
+        "label": "Salvar conversas:",
+        "description": "Guarde consultas importantes para referência futura"
+      },
+      "buildTeams": {
+        "label": "Crie equipes:",
+        "description": "Use vários especialistas para problemas de saúde complexos"
+      },
+      "verifyInformation": {
+        "label": "Verificar informações:",
+        "description": "Sempre confirme a orientação da IA com profissionais de saúde"
+      }
+    }
+  },
+  "landingPages": {
+    "defaultGuest": {
+      "childHealth": {
+        "title": "Apoio à Saúde Infantil",
+        "subtitle": "Orientação pediátrica especializada quando você mais precisa.",
+        "firstMessage": "Olá! Sou a Especialista em Saúde Aileen Carol e estou aqui para ajudar com as preocupações de saúde do seu filho. Todo pai se preocupa — isso é completamente normal.\n\nQuais sintomas ou preocupações específicas você tem com seu filho hoje?"
+      },
+      "sleep": {
+        "title": "Sono e bem-estar",
+        "subtitle": "Descanse melhor e melhore sua energia diária.",
+        "firstMessage": "Olá! Sou a especialista em saúde Aileen Carol. Problemas de sono podem realmente afetar todos os aspectos da sua vida, e estou aqui para ajudar você a ter o descanso necessário.\n\nO que tem impedido você de dormir bem ultimamente?"
+      },
+      "nutrition": {
+        "title": "Nutrição e Estilo de Vida",
+        "subtitle": "Orientação personalizada para uma vida mais saudável.",
+        "firstMessage": "Olá! Sou a Especialista em Saúde Aileen Carol. Fazer mudanças saudáveis no estilo de vida pode parecer desafiador, mas você está dando um ótimo primeiro passo ao entrar em contato.\n\nEm qual aspecto da sua saúde e nutrição você gostaria de se concentrar?"
+      }
+    }
+  },
+  "founders": {
+    "title": "Uma nota dos fundadores",
+    "paragraph1": "Criamos este aplicativo com uma única esperança: ajudar a tornar o mundo um lugar mais saudável, oferecendo acesso a orientações médicas confiáveis, impulsionadas por uma tecnologia que só recentemente se tornou possível. É o resultado da colaboração entre um cientista e um rabino, ambos desenvolvedores de longa data que entendem tanto a promessa quanto a responsabilidade desta nova era da IA.",
+    "paragraph2": "Nosso objetivo é oferecer acesso gratuito e completo à plataforma para nossos primeiros um milhão de usuários. Acreditamos que a saúde deve estar disponível para todos — não apenas para aqueles que podem pagar. À medida que a plataforma cresce, podemos implementar taxas para determinados recursos premium. Mas, no momento, estamos focados em levar isso às mãos de quem mais precisa.",
+    "paragraph3": "Juntamente com o que há de mais moderno na ciência médica, possibilitamos o engajamento com personas de IA inspiradas em tradições de cura do mundo todo — incluindo sistemas orientais e africanos, frequentemente ignorados. Não promovemos um caminho único. Em vez disso, oferecemos ferramentas que permitem que os indivíduos explorem uma variedade de perspectivas e integrem o que lhes parece mais significativo.",
+    "paragraph4": "Entendemos que essa abordagem encontrará resistência. Parte dela será válida — as preocupações com a precisão são reais e as levamos a sério. Outras críticas virão do desconforto com as mudanças. Mas a saúde está evoluindo, independentemente de a elite aceitá-la ou não. Nosso objetivo é orientar essa mudança com cuidado, humildade e transparência.",
+    "paragraph5": "A IA é poderosa, mas ainda imperfeita. Estas não são apenas isenções de responsabilidade legais — são parte da nossa responsabilidade ética com você e com a saúde pública. Use esta ferramenta como um complemento, e não como um substituto, para cuidados médicos licenciados.",
+    "closing": "Obrigado por estar aqui. Esperamos que você aproveite com saúde.",
+    "supportText": "Se você acredita no que estamos construindo e quer nos ajudar a continuar, precisamos do seu apoio. Você pode contribuir clicando no link abaixo.",
+    "signature": "– Ron Rubin e Sandy Miles, criadores",
+    "supportButton": "Apoie-nos"
+  }
+}

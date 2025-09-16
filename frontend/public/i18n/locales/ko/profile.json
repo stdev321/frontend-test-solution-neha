@@ -1,0 +1,27 @@
+{
+  "errors": {
+    "fileReadFailed": "파일을 읽지 못했습니다.",
+    "imageProcessFailed": "이미지를 처리하지 못했습니다. 손상되었거나 지원되지 않는 형식일 수 있습니다.",
+    "invalidImageFile": "이미지 파일을 선택해 주세요.",
+    "loadingProfile": "프로필을 로드하는 중 오류가 발생했습니다.",
+    "noData": "프로필 데이터가 없습니다.",
+    "saveFailed": "프로필을 저장하지 못했습니다. 다시 시도해 주세요."
+  },
+  "healthInfo": {
+    "conditions": "정황:",
+    "date": " (날짜: ",
+    "diagnosed": "(진단됨:",
+    "ended": "(종료:",
+    "medicalEvents": "건강 이벤트:",
+    "medications": "약물:",
+    "notAvailable": "해당 없음",
+    "notes": "참고사항:",
+    "started": "(시작:"
+  },
+  "loading": {
+    "profile": "프로필을 로딩 중입니다..."
+  },
+  "success": {
+    "profileUpdated": "프로필이 성공적으로 업데이트되었습니다!"
+  }
+}

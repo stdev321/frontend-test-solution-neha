@@ -1,0 +1,907 @@
+{
+  "header": {
+    "login": "Вхід",
+    "register": "Зареєструватися",
+    "logout": "Вийти",
+    "aboutUs": "Про нас",
+    "learnMore": "Дізнатися більше",
+    "advisory": "Консультативна",
+    "start": "Початок",
+    "greetingHello": "Привіт, {{name}}!",
+    "welcomeToVirtualMD": "Ласкаво просимо до VirtualMD!",
+    "signupForFullAccess": "Зареєструйтесь для повного доступу",
+    "profileTitle": "Мій профіль / Перейти до чату",
+    "logoutTitle": "Вийти",
+    "toggleTheme": "Перемикання світлого/темного режиму",
+    "toggleMode": "Перемикання світлого/темного режиму",
+    "myProfile": "Мій профіль / Перейти до чату",
+    "dashboard": "Інформаційна панель",
+    "endConversation": "Завершити розмову",
+    "returnToConversation": "Повернутися до розмови",
+    "startConversation": "Почати розмову",
+    "endConsult": "Закінчити консультацію",
+    "returnToConsult": "Повернутися до консультації",
+    "startConsult": "Почати консультацію",
+    "home": "Дім",
+    "healthEncyclopedia": "Енциклопедія здоров'я",
+    "researchPublications": "Дослідження та публікації",
+    "contactUs": "Зв'яжіться з нами",
+    "light": "Світло",
+    "dark": "Темний",
+    "toggleModeText": "Перемикання режиму {{mode}}",
+    "legal": "Юридичні"
+  },
+  "howToUse": "Як використовувати",
+  "settings": {
+    "lightMode": "Режим світла",
+    "darkMode": "Темний режим"
+  },
+  "navigation": {
+    "dashboard": "Інформаційна панель",
+    "home": "Дім",
+    "aboutUs": "Про нас",
+    "returnToChat": "Повернутися до чату",
+    "continueConsultation": "Продовжте свою консультацію",
+    "exitConsultation": "Вихідна консультація",
+    "startNewConsultation": "Почати нову консультацію",
+    "sections": {
+      "chatTools": "ІНСТРУМЕНТИ ЧАТУ",
+      "functionality": "ФУНКЦІОНАЛЬНІСТЬ",
+      "aboutUs": "ПРО НАС",
+      "requiredDocuments": "НЕОБХІДНІ ДОКУМЕНТИ",
+      "research": "ДОСЛІДЖЕННЯ",
+      "controls": "КЕРУВАННЯ",
+      "settings": "НАЛАШТУВАННЯ"
+    },
+    "myTeam": "Моя команда",
+    "summary": "Короткий зміст",
+    "transcript": "Стенограма",
+    "encyclopedia": "Енциклопедія",
+    "priorChats": "Попередні чати",
+    "myProfile": "Мій профіль",
+    "healthEncyclopedia": "Енциклопедія здоров'я",
+    "noteFromFounders": "Примітка від засновників",
+    "faq": "Найчастіші запитання",
+    "contactUs": "Зв'яжіться з нами",
+    "legal": "Юридичні",
+    "dataPrivacy": "Конфіденційність даних",
+    "aiAccuracyStudies": "Дослідження точності ШІ",
+    "empowerYourself": "Розширте свої можливості",
+    "deepResearch": "Глибоке дослідження",
+    "aboutUsItems": {
+      "advisory": "Консультативна",
+      "dataPrivacy": "Конфіденційність даних"
+    },
+    "learnMore": {
+      "imagingAI": "Зображення та штучний інтелект",
+      "pathologyAI": "Патологія та ШІ",
+      "dermatologyAI": "Дерматологія та штучний інтелект",
+      "mentalHealthAI": "Психічне здоров'я та штучний інтелект",
+      "accuracyStudies": "Дослідження точності ШІ",
+      "allResearch": "Усі дослідження",
+      "empowerYourself": "Розширте свої можливості"
+    }
+  },
+  "landing": {
+    "title": "VirtualMD.додаток",
+    "subtitle": "Рішення для охорони здоров'я на базі штучного інтелекту",
+    "tryItOut": "Спробуйте",
+    "scrollDown": "Прокрутіть униз",
+    "scrollUp": "Прокрутити вгору",
+    "alwaysHereForYou": "Завжди тут для вас.",
+    "cards": {
+      "whyUse": {
+        "title": "Чому саме VirtualMD?",
+        "description": "Відкрийте для себе революційні переваги нашої віртуальної платформи охорони здоров'я на базі штучного інтелекту"
+      },
+      "dataPrivacy": {
+        "title": "Ваша конфіденційність",
+        "description": "Як і з надійним другом, ваші секрети здоров'я в безпеці з нами"
+      },
+      "tryItOut": {
+        "title": "Спробуйте",
+        "description": "Моя дитина хвора|Я не можу спати!|Харчування з любов'ю",
+        "tagline": "Реєстрація не потрібна."
+      },
+      "wellness": {
+        "title": "Глибоке дослідження",
+        "description": "Енциклопедія здоров'я з перевірених джерел"
+      },
+      "yourHealth": {
+        "title": "Ваше здоров'я",
+        "description": "Сформуйте свою подорож до здорового способу життя за допомогою штучного інтелекту"
+      }
+    }
+  },
+  "chat": {
+    "startNewConsult": "Почати нову консультацію",
+    "noSpeechDetected": "Я цього не зрозумів/не зрозуміла.",
+    "noSpeechMessage": "Мені не вдалося розпізнати мовлення у вашому записі. Будь ласка, спробуйте говорити трохи голосніше або підійдіть ближче до мікрофона, а потім спробуйте ще раз.",
+    "dontShowAgain": "Більше не показуй",
+    "gotIt": "Зрозуміло",
+    "loading": "Завантаження…"
+  },
+  "loading": {
+    "preparingHealthTeam": "Підготовка вашої команди охорони здоров'я зі штучним інтелектом...",
+    "connectingSpecialists": "Зв'язок з фахівцями охорони здоров'я...",
+    "initializingSystem": "Ініціалізація вашої персоналізованої системи охорони здоров'я...",
+    "almostReady": "Майже готовий допомогти вам...",
+    "dots": "..."
+  },
+  "common": {
+    "loading": "Завантаження…",
+    "user": {
+      "defaultInitial": "У",
+      "defaultName": "там",
+      "defaultAltText": "Користувач"
+    },
+    "error": "Помилка",
+    "success": "Успіх",
+    "cancel": "Скасувати",
+    "confirm": "Підтвердити",
+    "save": "Зберегти",
+    "delete": "Видалити",
+    "edit": "Редагувати",
+    "close": "Закрити",
+    "next": "Далі",
+    "previous": "Попередній",
+    "submit": "Надіслати",
+    "search": "Пошук",
+    "filter": "Фільтр",
+    "sort": "Сортувати",
+    "upload": "Завантажити",
+    "download": "Завантажити",
+    "print": "Друк",
+    "share": "Поділитися",
+    "copy": "Копіювати",
+    "paste": "Вставити",
+    "cut": "Вирізати",
+    "undo": "Скасувати",
+    "redo": "Повторити",
+    "yes": "Так",
+    "no": "Ні",
+    "ok": "Гаразд",
+    "punctuation": {
+      "ellipsis": "..."
+    },
+    "apply": "Застосувати",
+    "reset": "Скинути",
+    "clear": "Очистити",
+    "back": "Назад",
+    "forward": "Вперед",
+    "home": "Дім",
+    "refresh": "Оновити",
+    "reload": "Перезавантажити",
+    "help": "Допомога",
+    "about": "Про нас",
+    "contact": "Контакти",
+    "profile": "Профіль",
+    "account": "Обліковий запис",
+    "privacy": "Конфіденційність",
+    "terms": "Умови",
+    "legal": "Юридичні",
+    "support": "Підтримка",
+    "feedback": "Зворотній зв'язок",
+    "welcome": "Ласкаво просимо",
+    "goodbye": "Прощавай",
+    "thankyou": "Дякую.",
+    "send": "Надіслати",
+    "none": "Жоден",
+    "generating": "Генерування...",
+    "settings": "Налаштування"
+  },
+  "auth": {
+    "loginTitle": "Увійти",
+    "registerTitle": "Створити обліковий запис",
+    "email": "Електронна пошта",
+    "password": "Пароль",
+    "confirmPassword": "Підтвердьте пароль",
+    "fullName": "Повне ім'я",
+    "displayName": "Відображуване ім'я",
+    "rememberMe": "Запам'ятай мене",
+    "forgotPassword": "Забули пароль?",
+    "noAccount": "Немає облікового запису?",
+    "hasAccount": "Вже маєте обліковий запис?",
+    "signUp": "Зареєструватися",
+    "signIn": "Увійти",
+    "signOut": "Вийти",
+    "createAccount": "Створити обліковий запис",
+    "loginButton": "Вхід",
+    "registerButton": "Зареєструватися",
+    "logout": "Вийти"
+  },
+  "footer": {
+    "copyright": "ТОВ «MindScript Technologies». Усі права захищено.",
+    "privacyPolicy": "Політика конфіденційності",
+    "termsOfService": "Умови надання послуг",
+    "cookiePolicy": "Політика щодо файлів cookie",
+    "medicalAdvisory": "Консультації щодо здоров'я",
+    "yourPrivacy": "Ваша конфіденційність",
+    "legal": "Юридичні",
+    "contactUs": "Зв'яжіться з нами",
+    "howToUse": "Як використовувати",
+    "faq": "Найчастіші запитання",
+    "noteFromFounders": "Примітка від засновників",
+    "medicalDisclaimerTooltip": "MindScript прагне надавати найточнішу та найактуальнішу інформацію про здоров’я, використовуючи медичні персони на базі штучного інтелекту. Однак ці персони не є ліцензованими експертами у галузі охорони здоров’я та можуть бути неправими. У разі справжньої медичної невідкладної допомоги негайно зателефонуйте за номером 911 або зверніться до найближчого відділення невідкладної допомоги. Якщо у вас виникли інші проблеми зі здоров’ям або перш ніж пробувати будь-які методи лікування чи засоби, зверніться до кваліфікованого медичного працівника або спеціаліста.",
+    "advisory": "Консультативна"
+  },
+  "forms": {
+    "required": "Це поле обов'язкове",
+    "invalidEmail": "Будь ласка, введіть дійсну адресу електронної пошти",
+    "passwordTooShort": "Пароль має містити щонайменше 8 символів",
+    "passwordsDoNotMatch": "Паролі не збігаються",
+    "invalidInput": "Будь ласка, введіть дійсний текст",
+    "fieldRequired": "Поле {{field}} обов'язкове",
+    "selectOption": "Будь ласка, виберіть варіант",
+    "uploadFile": "Завантажити файл",
+    "dragAndDrop": "Перетягніть файли сюди або клацніть, щоб вибрати",
+    "fileUploaded": "Файл успішно завантажено",
+    "uploadError": "Помилка завантаження файлу"
+  },
+  "language": {
+    "english": "Англійська",
+    "arabic": "Арабська",
+    "hebrew": "іврит",
+    "switchTo": "Перейти на {{мова}}",
+    "currentLanguage": "Поточна мова: {{language}}"
+  },
+  "animation": {
+    "title": {
+      "simply": "Просто",
+      "better": "Краще",
+      "health": "Здоров'я",
+      "period": "."
+    }
+  },
+  "hero": {
+    "subtitle": "Персоналізовані консультації щодо здоров'я та самопочуття цілодобово.",
+    "subtitleMobile": "Персоналізовані поради щодо здоров'я на основі штучного інтелекту цілодобово",
+    "poweredBy": "Працює на базі штучного інтелекту."
+  },
+  "research": {
+    "title": "Дослідження та публікації",
+    "subtitle": "Рішення для охорони здоров'я на основі штучного інтелекту, засновані на доказах",
+    "aiImaging": {
+      "title": "Штучний інтелект у діагностичній візуалізації",
+      "description": "Комплексний аналіз застосування штучного інтелекту в медичній візуалізації в радіології, патології та офтальмології."
+    },
+    "pathologyAI": {
+      "title": "Допомога ШІ з патології",
+      "description": "Застосування глибокого навчання в цифровій патології для виявлення раку та підвищення точності діагностики."
+    },
+    "dermatologyAI": {
+      "title": "Рішення зі штучним інтелектом у дерматології",
+      "description": "Виявлення та діагностика стану шкіри за допомогою штучного інтелекту з використанням комп'ютерного зору та машинного навчання."
+    },
+    "mentalHealthAI": {
+      "title": "Психічне здоров'я та штучний інтелект",
+      "description": "Застосування штучного інтелекту в скринінгу, діагностиці та підтримці лікування психічного здоров'я."
+    },
+    "accuracyStudies": {
+      "title": "Дослідження точності ШІ",
+      "description": "Клінічна валідація та показники ефективності діагностичних систем зі штучним інтелектом у реальних медичних умовах."
+    }
+  },
+  "whitepapers": {
+    "downloadPdf": "Завантажити PDF-файл",
+    "generating": "Генерування...",
+    "abstract": "Анотація",
+    "introduction": "Вступ",
+    "methods": "Методи/Технології",
+    "results": "Результати",
+    "discussion": "Обговорення",
+    "conclusion": "Висновок",
+    "references": "Посилання",
+    "authors": "Автори",
+    "email": "Електронна пошта",
+    "organization": "Організація"
+  },
+  "imageProcessing": {
+    "preset": "Попередньо налаштовано",
+    "process": "Процес",
+    "revert": "Повернути",
+    "applyPreset": "Застосувати пресет до зображення у фокусі",
+    "revertFocus": "Перефокусувати на оригінальному зображенні"
+  },
+  "alt": {
+    "logo": "Логотип VirtualMD.app",
+    "logoSmall": "Малий логотип MindScript",
+    "integratedApproach": "Інтегрований оздоровчий підхід",
+    "userProfile": "Профіль користувача",
+    "aiDoctor": "Експерт зі штучного інтелекту в галузі охорони здоров'я Керол",
+    "aiAssistant": "Помічник зі штучним інтелектом",
+    "backgroundImage": "Гарне фонове зображення",
+    "home": "Головна сторінка MindScript",
+    "processed": "Оброблене зображення",
+    "zoomPreview": "Попередній перегляд масштабування зображення"
+  },
+  "aria": {
+    "scrollDown": "Прокрутіть униз",
+    "scrollUp": "Прокрутити вгору",
+    "openMenu": "Відкрити меню",
+    "togglePassword": "Перемикання видимості пароля",
+    "chooseLanguage": "Виберіть мову",
+    "goHome": "Перейти на головну сторінку",
+    "remove": "Видалити",
+    "edit": "Редагувати",
+    "delete": "Видалити",
+    "save": "Зберегти",
+    "cancel": "Скасувати",
+    "breadcrumb": "Навігаційний навігаційний хліб",
+    "conversationChoice": "Вибір розмови",
+    "personaChoice": "Вибір персонажа",
+    "panel": "Панель",
+    "summary": "Короткий зміст",
+    "differentialOpinion": "Диференціальна думка",
+    "transcript": "Стенограма",
+    "encyclopedia": "Енциклопедія",
+    "endConversation": "Завершити розмову",
+    "startChat": "Розпочати чат з командою",
+    "configureChat": "Налаштувати новий чат",
+    "savedConsultations": "Збережені консультації",
+    "myProfile": "Мій профіль"
+  },
+  "researchPage": {
+    "title": "Дослідження та публікації",
+    "healthAdvisory": {
+      "title": "Консультації щодо здоров'я",
+      "description": "Важлива інформація про здоров'я та безпеку",
+      "button": "Переглянути попередження"
+    },
+    "imagingAI": {
+      "title": "Штучний інтелект у діагностичній візуалізації",
+      "description": "Застосування штучного інтелекту в медичній візуалізації в радіології, патології та офтальмології",
+      "button": "Читати далі"
+    },
+    "pathologyAI": {
+      "title": "Патологія за допомогою штучного інтелекту",
+      "description": "Застосування глибокого навчання в цифровій патології для виявлення раку та точності діагностики",
+      "button": "Читати далі"
+    },
+    "dermatologyAI": {
+      "title": "Рішення зі штучним інтелектом у дерматології",
+      "description": "Виявлення та діагностика стану шкіри за допомогою штучного інтелекту з використанням комп'ютерного зору та машинного навчання",
+      "button": "Читати далі"
+    },
+    "mentalHealthAI": {
+      "title": "Психічне здоров'я та штучний інтелект",
+      "description": "Застосування штучного інтелекту в скринінгу психічного здоров'я, діагностиці та терапевтичній підтримці",
+      "button": "Читати далі"
+    },
+    "dataPrivacy": {
+      "title": "Конфіденційність та безпека даних",
+      "description": "Захист даних охорони здоров'я, дотримання HIPAA та гарантії конфіденційності",
+      "button": "Читати далі"
+    },
+    "aiAccuracy": {
+      "title": "Дослідження точності ШІ",
+      "description": "Клінічна валідація та показники ефективності діагностичних систем зі штучним інтелектом у реальних медичних умовах",
+      "button": "Читати далі"
+    },
+    "aiForLaypeople": {
+      "title": "Штучний інтелект для всіх",
+      "description": "Розуміння ШІ в охороні здоров'я простими словами — технічна освіта не потрібна",
+      "button": "Читати далі"
+    }
+  },
+  "dialogs": {
+    "startWithDefault": "Почніть з експерта зі здоров'я Керол",
+    "startWithSpecific": "Почніть з {{name}}",
+    "longRecording": {},
+    "shortConv": {}
+  },
+  "team": {
+    "myAIHealthTeam": "Моя команда зі штучного інтелекту в галузі охорони здоров'я",
+    "addMembersInstruction": "Додайте учасників команди, натиснувши на картку праворуч.",
+    "maxTeamSizeNote": "До вашої команди можна додати максимум п'ятьох консультантів зі штучного інтелекту. Ви можете змінити свою команду будь-коли, але не під час консультації.",
+    "starting": "Початок...",
+    "startTeamConsult": "Розпочати консультацію команди",
+    "startConsultationWithTeam": "Розпочніть консультацію зі своєю командою"
+  },
+  "newConversation": {
+    "aileenCarolOnly": "Експерт зі здоров'я Керол Тільки",
+    "oneOnOne": "Один на один",
+    "consultationChoice": {
+      "question": "З ким би ви хотіли проконсультуватися сьогодні?"
+    },
+    "options": {
+      "allAdvisers": "Усі мої консультанти зі штучного інтелекту в галузі охорони здоров'я",
+      "allAdvisersCarolOnly": "Усі мої консультанти зі штучного інтелекту в галузі охорони здоров'я (лише для експерта зі штучного інтелекту в галузі охорони здоров'я Керол)",
+      "chooseSpecific": "Вибрати конкретне з мого списку"
+    },
+    "tooltips": {
+      "noAdvisersSelected": "У вашому профілі не вибрано жодного консультанта.",
+      "loadingAdvisers": "Завантаження ваших радників...",
+      "noOtherAdvisers": "У вашому списку немає інших консультантів на вибір. Додайте більше у своєму профілі."
+    },
+    "errors": {
+      "loadingAdvisers": "Помилка завантаження даних консультанта."
+    },
+    "buttons": {
+      "cancel": "Скасувати",
+      "next": "Далі",
+      "start": "Початок"
+    }
+  },
+  "aiAccuracyWhitepaper": {
+    "section1": {},
+    "section2": {
+      "aiSuccess": {},
+      "aiErrors": {},
+      "aiVsHuman": {}
+    },
+    "section3": {
+      "challenges": {}
+    },
+    "section4": {
+      "guidelines": {}
+    },
+    "section5": {}
+  },
+  "imagingAIExplainer": {
+    "whatIsImaging": {
+      "types": {}
+    },
+    "whatIsAI": {},
+    "howAIHelps": {
+      "accuracy": {},
+      "speed": {},
+      "consistency": {}
+    },
+    "challenges": {},
+    "conclusion": {}
+  },
+  "mentalHealthWhitepaper": {
+    "disclaimer": {},
+    "abstract": {},
+    "introduction": {},
+    "methods": {},
+    "results": {
+      "diagnosticSupport": {},
+      "therapeuticApplications": {},
+      "patientMonitoring": {}
+    },
+    "discussion": {},
+    "conclusion": {}
+  },
+  "audio": {},
+  "autoListening": {},
+  "speech": {},
+  "help": {},
+  "upload": {},
+  "fileUpload": {},
+  "input": {},
+  "send": {},
+  "controls": {
+    "aiSpeaker": "Штучний спікер",
+    "cameraUpload": "Камера/Завантаження",
+    "status": {
+      "enabled": "Увімкнено",
+      "disabled": "Інвалід"
+    }
+  },
+  "welcome": {},
+  "account": {},
+  "participants": {},
+  "mobileChat": {},
+  "sidebar": {
+    "differentialOpinion": "Диференціальна думка"
+  },
+  "bioPanel": {},
+  "conversations": {},
+  "mobileConsultations": {},
+  "encyclopedia": {},
+  "imageContext": {},
+  "profile": {},
+  "sidebarHeader": {
+    "plusBadge": "+"
+  },
+  "messages": {},
+  "sidebarFooter": {},
+  "summary": {},
+  "teamBuilder": {
+    "steps": {},
+    "alerts": {},
+    "existingTeam": {},
+    "primaryConcerns": {},
+    "healthConditions": {},
+    "urgencySymptoms": {},
+    "medicinePreferences": {},
+    "additionalInfo": {},
+    "aileenCarolIntro": {},
+    "buttons": {},
+    "dialogs": {}
+  },
+  "aileenCarol": {},
+  "transcript": {},
+  "registerPage": {},
+  "legal": {
+    "eligibility": {},
+    "feesAndPayment": {},
+    "termination": {}
+  },
+  "aboutEncyclopediaPage": {},
+  "loginPage": {},
+  "mobileTeamBuilder": {
+    "carolMessages": {},
+    "questionnaire": {},
+    "title": {},
+    "carolGreeting": {}
+  },
+  "mobileNavigation": {},
+  "mobileWelcome": {},
+  "mobileRouter": {},
+  "mobileInput": {},
+  "mobileProfile": {},
+  "clinicianInfoPage": {},
+  "contactPage": {},
+  "dataPrivacyWhitepaper": {
+    "sections": {},
+    "hero": {},
+    "privacyPledge": {
+      "secureInfo": {},
+      "noPersonalUse": {},
+      "neverSell": {},
+      "anonymizedData": {}
+    },
+    "securityLevels": {
+      "accountSecurity": {},
+      "hipaaHistory": {}
+    },
+    "mindscriptSecurity": {},
+    "hipaaConsiderations": {},
+    "userResponsibility": {},
+    "privacyScenarios": {},
+    "conclusion": {}
+  },
+  "encyclopediaPage": {},
+  "evidencePage": {
+    "researchEvidence": {
+      "radiology": {},
+      "pathology": {},
+      "dermatology": {},
+      "mentalHealthResearch": {}
+    },
+    "wellnessInsights": {
+      "personalizedWellness": {},
+      "holisticSignals": {},
+      "proactiveWellbeing": {},
+      "aiEnhancedClarity": {}
+    }
+  },
+  "featuresPage": {
+    "features": {
+      "instantWellnessInsights": {},
+      "holisticWellnessPicture": {},
+      "diverseAIPerspectives": {},
+      "everEvolvingIntelligence": {}
+    }
+  },
+  "healthAdvisoryPage": {
+    "sections": {
+      "consultation": {
+        "emergency": {}
+      },
+      "technology": {},
+      "disclaimer": {
+        "points": {}
+      }
+    }
+  },
+  "medicalImageProcessingPage": {},
+  "mentalHealthInfoPage": {},
+  "nurseInfoPage": {},
+  "patientInfoPage": {},
+  "pharmacistInfoPage": {},
+  "physicianInfoPage": {},
+  "wellnessPathwaysPage": {},
+  "whyVirtualMD": {
+    "sections": {
+      "whyUs": {
+        "points": {
+          "personalTeam": {},
+          "aiNavigator": {},
+          "empoweringChoices": {},
+          "easyToUse": {},
+          "advancedTechnology": {}
+        }
+      },
+      "hero": {},
+      "features": {
+        "points": {
+          "dynamicEnsemble": {},
+          "holisticUnderstanding": {},
+          "rapidAccess": {},
+          "reliableInteractions": {},
+          "insightfulLogs": {}
+        }
+      },
+      "technology": {},
+      "cta": {}
+    }
+  },
+  "yourHealthInYourHandsPage": {
+    "sections": {
+      "uniqueProfile": {},
+      "personalizedGoals": {},
+      "diverseInsights": {},
+      "proactivePartner": {}
+    },
+    "callToAction": {}
+  },
+  "session_complete": "Сеанс завершено",
+  "your_free_trial_has_ended": "Ваш безкоштовний пробний період закінчився",
+  "united_kingdom:_dial_999_or_11": "Велика Британія: Наберіть 999 або 112",
+  "melanoma_and_skin_cancer_detec": "Виявлення меланоми та раку шкіри",
+  "process_transactions_and_send_": "Обробляти транзакції та надсилати пов’язану з ними інформацію, включаючи підтвердження та рахунки-фактури (якщо застосовується).",
+  "information_we_collect": "Інформація, яку ми збираємо",
+  "in_a_medical_emergency:": "У разі невідкладної медичної допомоги:",
+  "in_response_to_legal_process:": "У відповідь на судовий процес:",
+  "loading_chat": "Завантаження чату...",
+  "redirecting": "Перенаправлення...",
+  "israel:_dial_101_(magen_david_": "Ізраїль: Наберіть 101 ()",
+  "unlimited_messages_with_ai_doc": "Необмежена кількість повідомлень з експертами зі штучного інтелекту в галузі охорони здоров'я",
+  "contact_information": "Контактна інформація",
+  "real-world_implementation_and_": "Реалізація в реальному світі та мобільні додатки",
+  "your_access_to_or_use_of_or_in": "ВАШ ДОСТУП ДО ПОСЛУГИ АБО ВИКОРИСТАННЯ ЇЇ, АБО НЕМОЖЛИВІСТЬ ОТРИМАТИ ДОСТУП АБО ВИКОРИСТАННЯ ЇЇ;",
+  "your_computer_may_temporarily_": "Ваш комп’ютер може тимчасово зберігати копії таких матеріалів в оперативній пам’яті, пов’язані з вашим доступом до цих матеріалів та їх переглядом.",
+  "please_select_only_one_special": "Будь ласка, оберіть лише одного спеціаліста для приватної консультації.",
+  "references": "Посилання",
+  "business_transfers:": "Передача бізнесу:",
+  "account_information:": "Інформація про обліковий запис:",
+  "provide,_operate,_maintain,_an": "Надавати, експлуатувати, підтримувати та вдосконалювати Сервіс.",
+  "assignment": "Завдання",
+  "sandymiles@mindspringhealth": "sandymiles@mindspring.health",
+  "ai-generated_content_may_conta": "Контент, створений штучним інтелектом, може містити помилки або пропуски, незважаючи на наші надійні процеси перевірки",
+  "display_name": "Відображуване ім'я",
+  "any_content_obtained_from_the_": "БУДЬ-ЯКИЙ КОНТЕНТ, ОТРИМАНИЙ З ПОСЛУГИ; АБО",
+  "you_may_store_files_that_are_a": "Ви можете зберігати файли, які автоматично кешуються вашим веббраузером для покращення відображення.",
+  "start_new_health_consultation": "Почати нову консультацію щодо здоров'я",
+  "entire_agreement": "Повна угода",
+  "ophthalmology": "Офтальмологія",
+  "not": "НЕ",
+  "exit_conversation?": "Вийти з розмови?",
+  "grading_and_classification": "Оцінювання та класифікація",
+  "unauthorized_access,_use,_or_a": "НЕСАВЕРШЕНИЙ ДОСТУП, ВИКОРИСТАННЯ АБО ЗМІНА ВАШИХ ПЕРЕДАЧ АБО КОНТЕНТУ (ВКЛЮЧАЮЧИ ВИТОКИ ДАНИХ), НАВІТЬ ЯКЩО MINDSCRIPT ЗАПРОШИЛА РОЗУМНІ ЗАХОДИ БЕЗПЕКИ, ЯК ВИЛОЖЕНО В ЦИХ УМОВАХ ТА ПОЛІТИЦІ КОНФІДЕНЦІЙНОСТІ.",
+  "checking_server_status": "Перевірка стану сервера...",
+  "not_a_hipaa-compliant_service": "НЕ ВІДПОВІДАЄ HIPAA-ЗАКОНУ ПРО ПОСЛУГУ",
+  "radiology": "Радіологія",
+  "united_states:_dial_911": "Сполучені Штати: Телефонуйте 911",
+  "save_and_review_conversation_h": "Збереження та перегляд історії розмов",
+  "abstract": "Анотація",
+  "starting_your_consultation": "Початок вашої консультації...",
+  "digital_pathology_overview": "Огляд цифрової патології",
+  "reasonable_business_security_p": "розумні практики безпеки бізнесу в Сполучених Штатах",
+  "loading_transcript": "Завантаження транскрипції...",
+  "cookies_and_similar_technologi": "Файли cookie та аналогічні технології:",
+  "internal_medicine": "Внутрішнє благополуччя",
+  "no_specialists_currently_in_th": "Наразі в цьому чаті немає спеціалістів.",
+  "discussion": "Обговорення",
+  "updating_team": "Оновлення команди...",
+  "your_privacy_choices": "Ваш вибір конфіденційності",
+  "error:_unknown_active_chat_vie": "Помилка: Невідомий активний режим перегляду чату.",
+  "create_more_than_one_account_f": "Створіть більше одного облікового запису для себе.",
+  "improve_the_accuracy,_efficacy": "Підвищуйте точність, ефективність та безпеку наших моделей штучного інтелекту та функцій платформи, використовуючи анонімізовані та агреговані дані.",
+  "user_content:": "Користувацький контент:",
+  "mindscript_does_not_provide_me": "MindScript не надає медичної діагностики чи лікування",
+  "communicate_with_you_about_pro": "Спілкуватися з вами щодо продуктів, послуг, пропозицій, акцій, винагород та подій, що пропонуються MindScript та іншими, а також надавати новини та інформацію, які, на нашу думку, будуть вам цікаві (з урахуванням вашого права на відмову).",
+  "aggregated_or_de-identified_da": "Агреговані або анонімізовані дані:",
+  "canada:_dial_911": "Канада: Телефонуйте 911",
+  "retry": "Повторити спробу",
+  "other_locations:_contact_your_": "Інші місця: негайно зверніться до місцевих служб екстреної допомоги",
+  "ron_rubin,_phd_and_sandy_miles": "Рон Рубін, доктор філософії, та Сенді Майлз",
+  "australia:_dial_000_or_112": "Австралія: Наберіть 000 або 112",
+  "data_deletion:": "Видалення даних:",
+  "we_do_not_guarantee_the_absolu": "МИ НЕ ГАРАНТУЄМО АБСОЛЮТНУ БЕЗПЕКУ ВАШОЇ ІНФОРМАЦІЇ",
+  "send_technical_notices,_update": "Надсилати технічні повідомлення, оновлення, сповіщення безпеки, а також повідомлення служби підтримки та адміністративні повідомлення.",
+  "consultation_summary": "Короткий зміст консультації",
+  "waiver": "Відмова від прав",
+  "access_to_all_medical_specialt": "Доступ до всіх медичних спеціальностей",
+  "no_profile_data_available": "Дані профілю недоступні.",
+  "no_summary_available": "Немає зведеного опису.",
+  "test_app_-_mindscript": "Тестовий додаток - MindScript",
+  "respond_to_your_comments,_ques": "Відповідати на ваші коментарі, запитання та запити, а також надавати клієнтам послуги.",
+  "not_hipaa_compliant": "НЕ відповідає HIPAA",
+  "force_majeure": "Форс-мажор",
+  "you_may_print_or_download_one_": "Ви можете роздрукувати або завантажити одну копію розумної кількості сторінок Сайту для власного особистого, некомерційного інформаційного використання, а не для подальшого відтворення, публікації чи розповсюдження.",
+  "dr_aileen_carol": "Експерт з питань здоров'я Айлін Керол",
+  "family_medicine": "Сімейне благополуччя",
+  "headings": "Заголовки",
+  "note_on_ai_aileencarol's_particip": "Примітка щодо участі експерта зі штучного інтелекту в галузі охорони здоров'я Керол:",
+  "ronrubin@mindscripthealth": "ronrubin@virtualmd.app",
+  "share_your_account_credentials": "Надайте доступ до облікового запису іншим особам або дозвольте їм доступ до нього (за винятком випадків, коли це прямо дозволено для облікових записів організації).",
+  "email_cannot_be_changed": "Електронну пошту змінити не можна.",
+  "your_unique_medical_history,_c": "Ваша унікальна історія хвороби, стани та обставини потребують професійної оцінки",
+  "changes_to_these_terms_and_pol": "Зміни до цих Умов та Політики",
+  "other_ai_specialists": "Інші спеціалісти зі штучного інтелекту",
+  "full_name": "Повне ім'я",
+  "governing_law_and_dispute_reso": "Чинне право та вирішення спорів",
+  "loading…": "Завантаження…",
+  "personalized_health_insights": "Персоналізована інформація про здоров'я",
+  "gastroenterology": "Гастроентерологія",
+  "use_of_the_service_by_children": "Використання Сервісу дітьми заборонено.",
+  "introduction": "Вступ",
+  "use_another_user's_account_wit": "Використовувати обліковий запис іншого користувача без дозволу.",
+  "if_you_can_see_this,_react_is_": "Якщо ви це бачите, React працює!",
+  "ronrubin@mindspringhealth": "ronrubin@mindspring.health",
+  "children's_privacy": "Конфіденційність дітей",
+  "provide_false_or_misleading_in": "Надавати неправдиву або оманливу інформацію під час реєстрації або у своєму профілі облікового запису.",
+  "talk_to_a_specialist": "Поговоріть зі спеціалістом",
+  "cannot": "НЕ МОЖЕ",
+  "how_we_use_information": "Як ми використовуємо інформацію",
+  "results": "Результати",
+  "loading_participants": "Завантаження учасників...",
+  "sandymiles@mindscripthealth": "sandymiles@virtualmd.app",
+  "this_feature_is_coming_soon": "Ця функція з'явиться незабаром!",
+  "start_or_continue_conversation": "Почати або продовжити розмову",
+  "international_data_transfers": "Міжнародна передача даних",
+  "loading_bio": "Завантаження біографії...",
+  "termination": "Припинення",
+  "no_image_active": "Немає активного зображення.",
+  "no_ai_health_advisers_selected": "Не вибрано жодного консультанта зі штучного інтелекту в галузі охорони здоров'я. Ви можете керувати своїми консультантами у своєму профілі.",
+  "dr_daniel_garcia": "Експерт зі здоров'я Даніель Гарсія",
+  "no_other_specialists_available": "Немає інших спеціалістів, яких можна додати.",
+  "carry_out_any_other_purpose_de": "Виконувати будь-яку іншу мету, описану вам під час збору інформації.",
+  "data_retention": "Зберігання даних",
+  "informational_and_educational_": "ЛИШЕ ДЛЯ ІНФОРМАЦІЙНИХ ТА ОСВІТНІХ МЕТА",
+  "miscellaneous": "Різне",
+  "non-cancerous_skin_condition_c": "Класифікація неракових захворювань шкіри",
+  "pathology": "Патологія",
+  "promotional_communications:": "Рекламні комунікації:",
+  "info@mindscripthealth": "info@virtualmd.app",
+  "methods/technologies": "Методи/Технології",
+  "how_we_share_information": "Як ми ділимося інформацією",
+  "loading_profile": "Завантаження профілю...",
+  "personalize_and_improve_the_se": "Персоналізувати та покращувати Сервіс і надавати контент або функції, що відповідають профілям чи інтересам користувачів.",
+  "with_vendors_and_service_provi": "З постачальниками та постачальниками послуг:",
+  "health_information_may_become_": "Медична інформація може застарівати в міру розвитку знань про здоров'я",
+  "with_whom_would_you_like_to_co": "З ким би ви хотіли проконсультуватися сьогодні?",
+  "mindscript_content:": "Вміст MindScript:",
+  "cookies:": "Файли cookie:",
+  "detect,_investigate,_and_preve": "Виявляти, розслідувати та запобігати шахрайським транзакціям та іншій незаконній діяльності, а також захищати права та власність MindScript та інших осіб.",
+  "medical_advice_requires_person": "Поради щодо здоров'я вимагають персоналізованої оцінки від ліцензованих медичних працівників",
+  "create_an_account_for_anyone_o": "Створювати обліковий запис для будь-кого, окрім себе, без дозволу.",
+  "options": "Опції",
+  "cannot_and_will_not_sue_or_hol": "НЕ МОЖЕ І НЕ БУДЕ ПОДАВАТИ ДО СУДУ АБО ПРИТЯГУВАТИ КОМПАНІЮ MINDSCRIPT TECHNOLOGIES, LLC, ЇЇ АФІЛІЙОВАНИХ ОСІБ, ПОСАДОВИХ ОСІБ, ДИРЕКТОРІВ, СПІВРОБІТНИКІВ, АГЕНТІВ АБО ЛІЦЕНЗІАРІВ ДО ВІДПОВІДАЛЬНОСТІ",
+  "with_your_consent:": "З вашої згоди:",
+  "add_specialists_to_your_team": "додайте спеціалістів до своєї команди",
+  "usage_information:": "Інформація про використання:",
+  "any_conduct_or_content_of_any_": "БУДЬ-ЯКА ПОВЕДІНКА АБО КОНТЕНТ БУДЬ-ЯКОЇ ТРЕТІЙ СТОРІНИ НА СЕРВІСІ, ВКЛЮЧАЮЧИ, БЕЗ ОБМЕЖЕНЬ, БУДЬ-ЯКУ НАКЛЕПНИЦЬКУ, ОБРАЗЛИВУ АБО НЕЗАКОННУ ПОВЕДІНКУ ІНШИХ КОРИСТУВАЧІВ АБО ТРЕТІХ СТОРІН;",
+  "do_not_meet_the_specific_admin": "не відповідають конкретним адміністративним, фізичним та технічним вимогам безпеки, передбаченим Правилом безпеки HIPAA для обробки захищеної медичної інформації",
+  "legal@mindscripthealth": "legal@virtualmd.app",
+  "cancel": "Скасувати",
+  "conclusion": "Висновок",
+  "professional_health_insights_a": "Професійні поради та рекомендації щодо здоров'я",
+  "cancer_detection": "Виявлення раку",
+  "your_specialist_team_is_empty_": "Ваша команда спеціалістів порожня. Додайте спеціалістів нижче.",
+  "workflow_optimization": "Оптимізація робочого процесу",
+  "select_ai_specialists": "Вибрані спеціалісти зі штучного інтелекту",
+  "monitor_and_analyze_trends,_us": "Моніторинг та аналіз тенденцій, використання та діяльності, пов’язаних з нашим Сервісом.",
+  "severability": "Роздільність",
+  "access_to_cardiology_and_neuro": "Доступ до спеціалістів з кардіології та неврології",
+  "searchLanguages": "Пошук мов...",
+  "noLanguagesFound": "Мови не знайдено",
+  "you": "Ви",
+  "manageTeam": {
+    "title": "Керування моєю командою зі штучного інтелекту (максимум {{maxTeamMembers}} спеціалістів)",
+    "currentTeamCount": "Ваша поточна команда ({{current}}/{{max}})",
+    "updatingTeam": "Оновлення команди...",
+    "coordinatorLabel": "(Координатор)",
+    "alwaysIncluded": "Завжди включено",
+    "specialistFallback": "Спеціаліст",
+    "emptyTeamMessage": "Ваша команда спеціалістів порожня. Додайте спеціалістів нижче.",
+    "teamFullMessage": "Ваша команда повністю заповнена (максимум спеціалістів: {{maxTeamMembers}}). Будь ласка, видаліть учасника, якщо хочете додати іншого спеціаліста.",
+    "otherSpecialistsTitle": "Інші спеціалісти зі штучного інтелекту",
+    "addToTeamTooltip": "Додати до команди",
+    "teamFullTooltip": "Команда повністю укомплектована",
+    "systemSpecialistFallback": "Системний спеціаліст",
+    "noSpecialistsAvailable": "Немає інших спеціалістів, яких можна додати."
+  },
+  "personas": {
+    "defaultSpecialist": "Спеціаліст зі штучного інтелекту"
+  },
+  "personaList": {
+    "noSpecialistsFound": "Фахівців зі штучного інтелекту не знайдено."
+  },
+  "guest": {
+    "user": "Гість",
+    "userObject": {
+      "displayName": "Гість",
+      "email": "гість@віртуальний_додаток"
+    },
+    "registration": {
+      "prompt": "Зареєструйтесь, щоб отримати повний доступ до нашої команди зі штучного інтелекту, історії розмов та розширених функцій.",
+      "dialogTitle": "Зареєстровані користувачі мають доступ до {{specialistName}}",
+      "dialogDescription": "{{specialistName}} є частиною нашої комплексної команди віртуального здоров'я.",
+      "benefitsTitle": "З обліковим записом VirtualMD.app ви отримаєте:",
+      "benefits": {
+        "access": "Доступ до понад 60 спеціалізованих консультантів зі штучного інтелекту в галузі охорони здоров'я",
+        "personalized": "Персоналізовані консультації з питань здоров'я",
+        "saveConversations": "Зберегти та продовжити розмови",
+        "uploadImages": "Завантажуйте зображення або робіть їх безпосередньо з комп’ютера/камери",
+        "customTeam": "Створіть власну команду медичних працівників",
+        "availability": "Цілодобова доступність для вирішення питань зі здоров'ям"
+      },
+      "buttons": {
+        "maybeLater": "Можливо, пізніше",
+        "registerNow": "Зареєструватися зараз"
+      }
+    },
+    "registrationRequired": "Потрібна реєстрація",
+    "profileRegistrationRequired": "Профіль користувача: потрібна реєстрація",
+    "landing": {
+      "title": "Досвід консультації зі штучного інтелекту в галузі охорони здоров'я",
+      "subtitle": "Отримуйте миттєву інформацію про здоров'я від наших фахівців зі штучного інтелекту – абсолютно безкоштовно, без реєстрації",
+      "whatBringsYou": "Що привело вас сюди сьогодні?",
+      "selectConcern": "Виберіть спільну проблему або опишіть свою власну",
+      "customConcernPlaceholder": "Або опишіть свою проблему зі здоров'ям своїми словами...",
+      "startConsultation": "Почати безкоштовну консультацію",
+      "experienceIncludes": "Безкоштовний досвід для гостей включає:",
+      "includes": {
+        "messages": "10 повідомлень зі спеціалістами зі штучного інтелекту в галузі охорони здоров'я",
+        "time": "15 хвилин часу на консультацію",
+        "insights": "Професійні поради та рекомендації щодо здоров'я"
+      },
+      "personas": {
+        "defaultSpecialist": "Спеціаліст зі штучного інтелекту",
+        "aileen": {
+          "name": "Експерт з питань здоров'я Айлін Керол",
+          "specialty": "Сімейне благополуччя"
+        },
+        "daniel": {
+          "name": "Експерт зі здоров'я Даніель Гарсія",
+          "specialty": "Внутрішнє благополуччя"
+        }
+      }
+    },
+    "chat": {
+      "header": "Консультація зі штучного інтелекту щодо здоров'я",
+      "messagesLeft": "Залишилося {{count}} повідомлень",
+      "timeLeft": "Залишилося {{time}}",
+      "startingConsultation": "Ваша консультація розпочинається. Спеціаліст зі штучного інтелекту в галузі охорони здоров'я відповість вам найближчим часом.",
+      "aiTyping": "Спеціаліст зі штучного інтелекту друкує...",
+      "inputPlaceholder": "Опишіть свої симптоми або задайте питання..."
+    },
+    "expired": {
+      "title": "Консультація завершена",
+      "subtitle": "Ви відчули силу медичних консультацій зі штучним інтелектом",
+      "messagesUsed": "Ви використали {{used}} з {{max}} повідомлень",
+      "continuePrompt": "Хочете продовжити з необмеженим доступом?",
+      "createAccount": "Створити безкоштовний обліковий запис",
+      "signIn": "Увійти"
+    },
+    "errors": {
+      "startFailed": "Не вдалося розпочати консультацію. Спробуйте ще раз.",
+      "connectionLost": "З’єднання втрачено. Будь ласка, оновіть сторінку.",
+      "sendFailed": "Не вдалося надіслати повідомлення. Спробуйте ще раз."
+    },
+    "profile": {
+      "age": "25",
+      "gender": "Жінка",
+      "bloodType": "А+",
+      "height": "170 см",
+      "weight": "130 фунтів",
+      "conditions": "Залізодефіцитна анемія, помірна депресія",
+      "medications": "Сульфат заліза 325 мг щодня, сертралін 50 мг щодня",
+      "allergies": "Невідомо",
+      "healthInfo": "Протягом останніх 6 місяців я страждаю від втоми та низького рівня енергії. Мій лікар діагностував у мене залізодефіцитну анемію, і я приймаю добавки заліза. Я також борюся з депресією та почав приймати антидепресанти 3 місяці тому. Шукаю поради щодо лікування обох станів та покращення загального рівня енергії.",
+      "emergencyContact": "Сара Джонсон (сестра) - (555) 123-4567"
+    },
+    "experience": {
+      "tryItOut": "Спробуйте.",
+      "noObligation": "Без зобов'язань.",
+      "subtitle": "Лише невелика частина того, що VirtualMD.app може для вас зробити."
+    }
+  },
+  "aiPrefix": "Штучний інтелект",
+  "dashboard": "Інформаційна панель",
+  "teamRecommendation": {
+    "submission": {
+      "primaryConcernsLabel": "Які ваші основні проблеми зі здоров'ям сьогодні?",
+      "healthConditionsLabel": "Які стани здоров'я стосуються вас?"
+    },
+    "defaults": {
+      "noneSpecified": "Не вказано"
+    }
+  }
+}

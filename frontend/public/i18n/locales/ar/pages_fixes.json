@@ -1,0 +1,1470 @@
+{
+  "chatPage": {
+    "welcomeMessage": {
+      "current": "مرحباً بك في استشارتك الصحية الشخصية",
+      "english": "Welcome to your personalized health consultation",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "selectPersona": {
+      "current": "اختر أخصائي الرعاية الصحية",
+      "english": "Choose Your Health Professional",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "loginPage": {
+    "subtitle": {
+      "current": "الوصول إلى استشاراتك الصحية الشخصية",
+      "english": "Access your personalized health consultations",
+      "contentType": "pageTitle",
+      "action": "retranslate-full"
+    }
+  },
+  "registerPage": {
+    "subtitle": {
+      "current": "انضم إلى آلاف المستخدمين الذين يحصلون على إرشادات صحية شخصية",
+      "english": "Join thousands of users getting personalized health guidance",
+      "contentType": "pageTitle",
+      "action": "retranslate-full"
+    },
+    "mustAgreeToTerms": {
+      "current": "يجب الموافقة على الشروط والأحكام للتسجيل.",
+      "english": "You must agree to the Terms and Conditions to register.",
+      "contentType": "chip",
+      "action": "smart-shorten"
+    }
+  },
+  "contactPage": {
+    "description": {
+      "current": "لديك أسئلة حول استشاراتنا الصحية المدعومة بالذكاء الاصطناعي؟ نحن هنا لمساعدتك.",
+      "english": "Have questions about our AI-powered health consultations? We're here to help.",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "contactInfo": {
+      "address": {
+        "current": "123 شارع الصحة، الحي الطبي، المدينة، الولاية 12345",
+        "english": "123 Health Street, Medical District, City, State 12345",
+        "contentType": "description",
+        "action": "retranslate-full"
+      }
+    }
+  },
+  "researchPage": {
+    "subtitle": {
+      "current": "اكتشف العلم وراء حلولنا الصحية المدعومة بالذكاء الاصطناعي",
+      "english": "Discover the science behind our AI-powered health solutions",
+      "contentType": "pageTitle",
+      "action": "retranslate-full"
+    },
+    "healthAdvisory": {
+      "title": {
+        "current": "الاستشارة الصحية",
+        "english": "Health Advisory",
+        "contentType": "pageTitle",
+        "action": "retranslate-full"
+      },
+      "description": {
+        "current": "معلومات مهمة حول استخدام الذكاء الاصطناعي في الرعاية الصحية ومتى يجب استشارة مقدمي الرعاية الصحية البشريين.",
+        "english": "Important information about using AI in healthcare and when to consult with human healthcare providers.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "button": {
+        "current": "اقرأ الاستشارة الصحية",
+        "english": "Read Health Advisory",
+        "contentType": "button",
+        "action": "retranslate-full"
+      }
+    },
+    "imagingAI": {
+      "title": {
+        "current": "مساعدة الذكاء الاصطناعي في التصوير",
+        "english": "Imaging AI Assistance",
+        "contentType": "pageTitle",
+        "action": "retranslate-full"
+      }
+    },
+    "pathologyAI": {
+      "title": {
+        "current": "مساعدة الذكاء الاصطناعي في علم الأمراض",
+        "english": "Pathology AI Assistance",
+        "contentType": "pageTitle",
+        "action": "retranslate-full"
+      }
+    },
+    "dermatologyAI": {
+      "title": {
+        "current": "مساعدة الذكاء الاصطناعي في الأمراض الجلدية",
+        "english": "Dermatology AI Assistance",
+        "contentType": "pageTitle",
+        "action": "retranslate-full"
+      },
+      "description": {
+        "current": "بحثنا حول تطبيقات الذكاء الاصطناعي في طب الأمراض الجلدية لاكتشاف وتصنيف آفات الجلد.",
+        "english": "Our research on AI applications in dermatology for skin lesion detection and classification.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      }
+    },
+    "mentalHealthAI": {
+      "title": {
+        "current": "رؤى الذكاء الاصطناعي في الصحة النفسية",
+        "english": "Mental Health AI Insights",
+        "contentType": "pageTitle",
+        "action": "retranslate-full"
+      },
+      "description": {
+        "current": "غوص عميق في دور الذكاء الاصطناعي في تطوير الرعاية الصحية النفسية والتشخيص والتطبيقات العلاجية.",
+        "english": "Deep dive into AI's role in advancing mental healthcare, diagnostics, and therapeutic applications.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      }
+    },
+    "aiAccuracy": {
+      "title": {
+        "current": "دراسات دقة الذكاء الاصطناعي",
+        "english": "AI Accuracy Studies",
+        "contentType": "pageTitle",
+        "action": "retranslate-full"
+      },
+      "description": {
+        "current": "تعرف على بحثنا حول دقة الذكاء الاصطناعي في التشخيص الطبي وتوصيات العلاج.",
+        "english": "Learn about our research on AI accuracy in medical diagnosis and treatment recommendations.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      }
+    },
+    "aiForLaypeople": {
+      "title": {
+        "current": "الذكاء الاصطناعي في التصوير للعامة",
+        "english": "AI Imaging for Laypeople",
+        "contentType": "pageTitle",
+        "action": "retranslate-full"
+      },
+      "description": {
+        "current": "شرح مبسط لكيفية تحويل الذكاء الاصطناعي للتصوير الطبي وما يعنيه للمرضى.",
+        "english": "A simplified explanation of how AI is transforming medical imaging and what it means for patients.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      }
+    }
+  },
+  "evidencePage": {
+    "subtitle": {
+      "current": "البحوث المحكمة التي تدعم منصتنا الصحية بالذكاء الاصطناعي",
+      "english": "Peer-reviewed research supporting our AI health platform",
+      "contentType": "pageTitle",
+      "action": "retranslate-full"
+    },
+    "heading": {
+      "current": "ريادة مستقبل الصحة والعافية",
+      "english": "Pioneering the Future of Health & Wellness",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "description2": {
+      "current": "VirtualMD.app هي الثورة في الصحة والعافية، مبنية على البحوث المتطورة ومدفوعة بشغف للعافية التحويلية. نحن نُظهر القوة المثبتة للذكاء الاصطناعي بينما نمهد طرقاً جديدة للعافية الشخصية والاستباقية. هذا أكثر من تطبيق؛ إنه نموذج جديد. كن جزءاً من الثورة.",
+      "english": "VirtualMD.app is THE revolution in health and wellness, grounded in cutting-edge research and driven by a passion for transformative well-being. We demonstrate AI's proven power while forging new paths for personalized, proactive wellness. This is more than an app; it's a new paradigm. Be part of the revolution.",
+      "contentType": "description",
+      "action": "smart-shorten"
+    },
+    "researchEvidence": {
+      "radiology": {
+        "title": {
+          "current": "الذكاء الاصطناعي في الأشعة: كشف محسن",
+          "english": "AI in Radiology: Enhanced Detection",
+          "contentType": "pageTitle",
+          "action": "retranslate-full"
+        },
+        "description": {
+          "current": "حققت نماذج الذكاء الاصطناعي دقة 92% في اكتشاف التشوهات في أشعة الصدر السينية، مما يظهر إمكانية تحسين سرعة ودقة التشخيص.",
+          "english": "AI models achieved 92% accuracy in detecting abnormalities in chest X-rays, demonstrating potential for improved diagnostic speed and precision.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      },
+      "pathology": {
+        "title": {
+          "current": "الذكاء الاصطناعي في علم الأمراض: دقة محسنة",
+          "english": "AI in Pathology: Improved Accuracy",
+          "contentType": "pageTitle",
+          "action": "retranslate-full"
+        }
+      },
+      "dermatology": {
+        "title": {
+          "current": "الذكاء الاصطناعي في الأمراض الجلدية: أداء بمستوى الخبراء",
+          "english": "AI in Dermatology: Expert-Level Performance",
+          "contentType": "pageTitle",
+          "action": "retranslate-full"
+        },
+        "description": {
+          "current": "في دراسة عمياء واسعة النطاق، تعرف الذكاء الاصطناعي بشكل صحيح على 95% من حالات سرطان الجلد من الصور، مطابقاً أداء أطباء الجلدية ذوي الخبرة.",
+          "english": "In a large-scale blind study, AI correctly identified 95% of skin cancer cases from images, matching the performance of experienced dermatologists.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      },
+      "mentalHealthResearch": {
+        "title": {
+          "current": "الذكاء الاصطناعي في الصحة النفسية: بحوث الكشف المبكر",
+          "english": "AI in Mental Health: Early Detection Research",
+          "contentType": "pageTitle",
+          "action": "retranslate-full"
+        },
+        "description": {
+          "current": "تُظهر البحوث أنظمة الذكاء الاصطناعي تكتشف العلامات التحذيرية المبكرة لانتكاسات الصحة النفسية، مما يمكن التدخل والدعم في الوقت المناسب.",
+          "english": "Research shows AI systems detecting early warning signs of mental health relapses, enabling timely intervention and support.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      }
+    },
+    "wellnessInsights": {
+      "personalizedWellness": {
+        "description": {
+          "current": "اكتشف كيف يساعد ذكاؤنا الاصطناعي في صنع رحلات عافية مصممة بشكل فريد لأهدافك ونمط حياتك الفردي، متجاوزين نهج الحجم الواحد المناسب للجميع.",
+          "english": "Discover how our AI helps craft wellness journeys uniquely tailored to your individual goals and lifestyle, moving beyond one-size-fits-all.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      },
+      "holisticSignals": {
+        "title": {
+          "current": "فهم إشارات جسمك الفريدة بالذكاء الاصطناعي",
+          "english": "Understanding Your Body's Unique Signals with AI",
+          "contentType": "pageTitle",
+          "action": "retranslate-full"
+        }
+      },
+      "aiEnhancedClarity": {
+        "title": {
+          "current": "الذكاء الاصطناعي للوضوح الذهني والعقلي المحسن",
+          "english": "AI for Enhanced Mindfulness & Mental Clarity",
+          "contentType": "pageTitle",
+          "action": "retranslate-full"
+        },
+        "description": {
+          "current": "انظر كيف تقدم VirtualMD.app أدوات ووجهات نظر لدعم التركيز الذهني والتوازن العاطفي والعافية المعرفية الشاملة.",
+          "english": "See how VirtualMD.app offers tools and perspectives to support mental focus, emotional balance, and overall cognitive wellness.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      }
+    }
+  },
+  "featuresPage": {
+    "subtitle": {
+      "current": "أدوات الاستشارة الصحية الشاملة المدعومة بالذكاء الاصطناعي",
+      "english": "Comprehensive AI-powered health consultation tools",
+      "contentType": "pageTitle",
+      "action": "retranslate-full"
+    },
+    "features": {
+      "holisticWellnessPicture": {
+        "description": {
+          "current": "يراعي ذكاؤنا الاصطناعي جميع جوانب مدخلاتك - نص أو صور تقدمك في اللياقة أو إدخالات يومية العافية - للحصول على رؤية كاملة.",
+          "english": "Our AI considers all aspects of your input – text, images of your fitness progress, or wellness journal entries – for a complete view.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      },
+      "diverseAIPerspectives": {
+        "title": {
+          "current": "وجهات نظر متنوعة للذكاء الاصطناعي",
+          "english": "Diverse AI Perspectives",
+          "contentType": "pageTitle",
+          "action": "retranslate-full"
+        },
+        "description": {
+          "current": "استفد من مجموعة من أخصائيي العافية بالذكاء الاصطناعي، كل منهم يقدم رؤى فريدة لفهم شامل.",
+          "english": "Benefit from a range of AI wellness specialists, each offering unique insights for a well-rounded understanding.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      }
+    }
+  },
+  "clinicianInfoPage": {
+    "description": {
+      "current": "عزز خبرتك برؤى الذكاء الاصطناعي المتقدمة.",
+      "english": "Augment your expertise with advanced AI insights.",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "healthAdvisoryPage": {
+    "sections": {
+      "consultation": {
+        "description": {
+          "current": "بينما يوفر نظام الاستشارة الطبية المدعوم بالذكاء الاصطناعي من VirtualMD.app معلومات صحية قيمة، من المهم جداً استشارة مقدمي رعاية صحية بشريين مؤهلين دائماً لأي مخاوف طبية. أطباؤنا المعتمدون طوروا هذا النظام ليكمل وليس ليحل محل المشورة الطبية المهنية.",
+          "english": "While MindScript's AI-powered medical consultation system provides valuable health information, it is critical to always consult with qualified human healthcare providers for any medical concerns. Our board-certified physicians developed this system to complement, not replace, professional medical advice.",
+          "contentType": "description",
+          "action": "smart-shorten"
+        }
+      },
+      "technology": {
+        "title": {
+          "current": "تقنية الذكاء الاصطناعي الطبية المتقدمة من VirtualMD.app",
+          "english": "MindScript's Advanced Medical AI Technology",
+          "contentType": "pageTitle",
+          "action": "retranslate-full"
+        },
+        "description1": {
+          "current": "تستخدم VirtualMD.app خوارزميات معلقة البراءة طورها فريقنا من الأطباء المتدربين في هارفارد وخبراء الذكاء الاصطناعي لتقديم معلومات صحية دقيقة بشكل استثنائي. شخصيات أطبائنا بالذكاء الاصطناعي مدربة على أدبيات طبية واسعة وإرشادات سريرية وسيناريوهات طبية من العالم الحقيقي لتقديم رؤى تعكس بشكل وثيق رؤى الأخصائيين المعتمدين.",
+          "english": "MindScript employs patent-pending algorithms developed by our team of Harvard-trained physicians and AI experts to deliver exceptionally accurate health information. Our AI physician personas are trained on extensive medical literature, clinical guidelines, and real-world medical scenarios to provide insights that closely mirror those of board-certified specialists.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        },
+        "description2": {
+          "current": "في مقارنات جنباً إلى جنب مضبوطة لدقة التشخيص، أظهر نظامنا أداءً رائعاً، غالباً ما يضاهي أو يتفوق على رؤى الأطباء ذوي الخبرة. يمكن لشخصيات الذكاء الاصطناعي لدينا معالجة آلاف الأوراق البحثية الطبية والإرشادات والبروتوكولات السريرية في ثوانٍ - الوصول إلى معرفة تتجاوز ما يمكن لأي طبيب بشري واحد الاحتفاظ به.",
+          "english": "In controlled side-by-side comparisons for diagnostic accuracy, our system has demonstrated remarkable performance, often matching or exceeding the insights of experienced clinicians. Our AI personas can process thousands of medical research papers, guidelines, and clinical protocols in seconds—accessing knowledge beyond what any single human physician could retain.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        },
+        "description3": {
+          "current": "بينما نسعى جاهدين للحصول على دقة استثنائية ويحسن فريقنا النظام باستمرار، الطب معقد والحالات الصحية الفردية فريدة. لهذا السبب صممنا منصتنا لتعزز - وليس لتحل محل - الخبرة التي لا تقدر بثمن لمقدمي الرعاية الصحية البشريين.",
+          "english": "While we strive for exceptional accuracy and our team continuously improves the system, medicine is complex and individual health situations are unique. That's why we've designed our platform to augment—not replace—the invaluable expertise of human healthcare providers.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      },
+      "disclaimer": {
+        "description": {
+          "current": "المعلومات المقدمة من VirtualMD.app وشخصيات أطبائها بالذكاء الاصطناعي هي لأغراض إعلامية وتعليمية فقط. باستخدام هذه الخدمة، أنت تقر وتوافق على أن:",
+          "english": "The information provided by MindScript and its AI physician personas is for informational and educational purposes only. By using this service, you acknowledge and agree that:",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      }
+    }
+  },
+  "patientInfoPage": {
+    "subtitle": {
+      "current": "إرشادات صحية شخصية في متناول يدك",
+      "english": "Personalized health guidance at your fingertips",
+      "contentType": "pageTitle",
+      "action": "retranslate-full"
+    }
+  },
+  "mentalHealthInfoPage": {
+    "title": {
+      "current": "دعم الصحة النفسية",
+      "english": "Mental Health Support",
+      "contentType": "pageTitle",
+      "action": "retranslate-full"
+    },
+    "subtitle": {
+      "current": "فحص ودعم الصحة النفسية بمساعدة الذكاء الاصطناعي",
+      "english": "AI-assisted mental health screening and support",
+      "contentType": "pageTitle",
+      "action": "retranslate-full"
+    },
+    "description": {
+      "current": "ستتوفر معلومات مفصلة حول كيفية استفادة أخصائيي الصحة النفسية من VirtualMD.app هنا قريباً.",
+      "english": "Detailed information about how VirtualMD.app benefits mental health specialists will be available here soon.",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "wellnessPathwaysPage": {
+    "subtitle": {
+      "current": "تخطيط رحلة صحية شخصية",
+      "english": "Personalized health journey planning",
+      "contentType": "pageTitle",
+      "action": "retranslate-full"
+    },
+    "description": {
+      "current": "اكتشف طريقك إلى الصحة والعافية المثلى.",
+      "english": "Discover your path to optimal health and wellness.",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "yourHealthInYourHandsPage": {
+    "title": {
+      "current": "صحتك في يديك",
+      "english": "Your Health in Your Hands",
+      "contentType": "pageTitle",
+      "action": "retranslate-full"
+    },
+    "subtitle": {
+      "current": "تمكينك من السيطرة على صحتك",
+      "english": "Empowering you to take control of your health",
+      "contentType": "pageTitle",
+      "action": "retranslate-full"
+    },
+    "description": {
+      "current": "أدوات ورؤى لمساعدتك في اتخاذ قرارات صحية مدروسة.",
+      "english": "Tools and insights to help you make informed health decisions.",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "sections": {
+      "personalizedGoals": {
+        "description2": {
+          "current": "سواء كان ذلك تعزيز مستويات الطاقة أو تحسين النوم أو تعزيز الوضوح الذهني، رحلتك فريدة.",
+          "english": "Whether it's enhancing energy levels, improving sleep, or fostering mental clarity, your journey is unique.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      },
+      "diverseInsights": {
+        "description1": {
+          "current": "المعرفة قوة. تقدم منصتنا الوصول إلى طيف واسع من المعلومات ووجهات النظر من أدلة العافية المتنوعة بالذكاء الاصطناعي. اتخذ قرارات واثقة بناءً على فهم شامل، وليس مجرد حقائق معزولة.",
+          "english": "Knowledge is power. Our platform offers access to a broad spectrum of information and perspectives from our diverse AI wellness guides. Make confident decisions based on a comprehensive understanding, not just isolated facts.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      }
+    },
+    "callToAction": {
+      "title": {
+        "current": "مستعد لوضع صحتك في يديك؟",
+        "english": "Ready to put your health in your hands?",
+        "contentType": "pageTitle",
+        "action": "retranslate-full"
+      },
+      "description": {
+        "current": "استكشف ميزاتنا، تحدث مع أدلة العافية بالذكاء الاصطناعي، واكتشف الفرق الذي يمكن أن تحدثه VirtualMD.app.",
+        "english": "Explore our features, chat with our AI wellness guides, and discover the difference VirtualMD.app can make.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      }
+    }
+  },
+  "aboutEncyclopediaPage": {
+    "title": {
+      "current": "موسوعة مايندسكريبت للصحة والعافية",
+      "english": "MindScript Encyclopedia of Health and Wellness",
+      "contentType": "pageTitle",
+      "action": "retranslate-full"
+    },
+    "p1": {
+      "current": "في عالمنا الرقمي اليوم، تتدفق المعلومات الصحية على نحو هائل، لكن التمييز بين النصيحة الموثوقة والمعلومات المضللة قد يكون مرهقاً.",
+      "english": "In today's digital world, a flood of health information is at our fingertips, but distinguishing credible advice from misinformation can be overwhelming.",
+      "contentType": "paragraph",
+      "action": "retranslate-full"
+    },
+    "p2": {
+      "current": "تعمل موسوعة VirtualMD.app على إزالة الضوضاء، وتقدم طريقة ثورية للتفاعل مع صحتك. فهي مدمجة بشكل فريد في منصتنا، مما يتيح لك الوصول إلى رؤى عميقة موثقة من مجلات طبية مرموقة دون مغادرة استشارتك الحية مع فريق خبرائنا من الذكاء الاصطناعي.",
+      "english": "The VirtualMD.app Encyclopedia cuts through the noise, offering a revolutionary way to engage with your well-being. Uniquely integrated into our platform, it allows you to access deep, referenced insights from respected medical journals without ever leaving your live consultation with our team of AI experts.",
+      "contentType": "paragraph",
+      "action": "retranslate-full"
+    },
+    "p4": {
+      "current": "تخيّل أنك تتحدث مع طبيب القلب وخبير التغذية بالذكاء الاصطناعي لدينا حول إدارة الكولسترول ويُذكر مصطلح \"الستاتينات\". بدلاً من إيقاف النقاش للبحث في الإنترنت المفتوح، يمكنك الوصول فوراً إلى موسوعة VirtualMD.app للحصول على ملخص شامل وسهل الفهم حول كيفية عمل الستاتينات وفوائدها وآثارها الجانبية المحتملة، مع جميع المعلومات المقتبسة من دوريات خاضعة لمراجعة الأقران مثل The Lancet أو The New England Journal of Medicine.",
+      "english": "Imagine you're in a chat with our AI cardiologist and nutritionist discussing cholesterol management. The term \"statins\" is mentioned, and you want to understand more than just the basics. Instead of pausing your discussion to search the open internet, you can instantly access the VirtualMD.app Encyclopedia. It will provide a comprehensive, yet easy-to-understand summary of how statins work, their benefits, and potential side effects, with all information sourced from peer-reviewed publications like The Lancet or the New England Journal of Medicine.",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "dataPrivacyPage": {
+    "subtitle": {
+      "current": "بياناتك الصحية محمية بأعلى معايير الأمان",
+      "english": "Your health data is protected with the highest security standards",
+      "contentType": "pageTitle",
+      "action": "retranslate-full"
+    },
+    "description": {
+      "current": "تعرف على كيفية الحفاظ على أمان وسرية معلوماتك الصحية الشخصية.",
+      "english": "Learn how we keep your personal health information safe and secure.",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "encyclopediaPage": {
+    "description": {
+      "current": "استكشف قاعدة بياناتنا الواسعة للحالات الطبية والعلاجات والمعلومات الصحية.",
+      "english": "Explore our extensive database of medical conditions, treatments, and health information.",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "whyMindScriptPage": {
+    "description": {
+      "current": "اكتشف ما يجعل منصتنا الصحية المدعومة بالذكاء الاصطناعي فريدة.",
+      "english": "Discover what makes our AI-powered health platform unique.",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "legal": {
+    "eligibility": {
+      "ageRequirement": {
+        "current": "لاستخدام خدمة VirtualMD.app، يجب أن تكون بعمر 18 عاماً على الأقل أو سن الرشد القانوني في ولايتك القضائية، أيهما أكبر. إذا كنت تستخدم الخدمة نيابة عن منظمة، فأنت تمثل وتضمن أن لديك السلطة لإلزام تلك المنظمة بهذه الشروط، وتوافق على الالتزام بهذه الشروط نيابة عن تلك المنظمة.",
+        "english": "To use the VirtualMD.app Service, you must be at least 18 years old or the age of legal majority in your jurisdiction, whichever is greater. If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms, and you agree to be bound by these Terms on behalf of that organization.",
+        "contentType": "description",
+        "action": "smart-shorten"
+      },
+      "legalCapacity": {
+        "current": "يجب أن تتمتع أيضاً بالأهلية القانونية للدخول في هذه الشروط. لا يجوز لك الوصول إلى الخدمة أو استخدامها إذا كنت ممنوعاً من تلقي الخدمات بموجب القانون المعمول به أو تم إيقافك أو إزالتك مسبقاً من الخدمة من قبل VirtualMD.app.",
+        "english": "You must also have the legal capacity to enter into these Terms. You may not access or use the Service if you are prohibited from receiving services under applicable law or have previously been suspended or removed from the Service by MindScript.",
+        "contentType": "description",
+        "action": "smart-shorten"
+      },
+      "territorialRestrictions": {
+        "current": "الوصول إلى الخدمة من الأراضي التي يكون محتواها أو استخدامها غير قانوني محظور بشكل صارم. المستخدمون مسؤولون عن الامتثال لجميع القواعد والقوانين واللوائح المحلية فيما يتعلق باستخدامهم للخدمة، بما في ذلك تلك المتعلقة بالسلوك عبر الإنترنت والمحتوى المقبول.",
+        "english": "Access to the Service from territories where its content or use is illegal is strictly prohibited. Users are responsible for complying with all local rules, laws, and regulations regarding their use of the Service, including those related to online conduct and acceptable content.",
+        "contentType": "description",
+        "action": "smart-shorten"
+      }
+    },
+    "feesAndPayment": {
+      "futureFeesNotice": {
+        "current": "تحتفظ VirtualMD.app بالحق في فرض رسوم على ميزات معينة أو مستويات خدمة أو الخدمة ككل في المستقبل. في حالة فرض رسوم، سنوفر لك إشعاراً مسبقاً بهذه التغييرات وشروط الدفع المعمول بها. استمرارك في استخدام الخدمات المدفوعة بعد هذا الإشعار يشكل موافقتك على دفع الرسوم المعمول بها.",
+        "english": "MindScript reserves the right to introduce fees for certain features, tiers of service, or the Service as a whole in the future. Should we introduce fees, we will provide you with advance notice of such changes and the applicable payment terms. Your continued use of fee-based services after such notice constitutes your agreement to pay the applicable fees.",
+        "contentType": "description",
+        "action": "smart-shorten"
+      }
+    },
+    "termination": {
+      "serviceTermination": {
+        "current": "قد تقوم VirtualMD.app، وفقاً لتقديرها الخاص، بتعليق أو إنهاء وصولك إلى كل أو جزء من الخدمة، مع أو بدون إشعار، لأي سبب، بما في ذلك، دون حصر، انتهاك هذه الشروط. قد تشمل أسباب الإنهاء، على سبيل المثال لا الحصر، الخمول المطول، وطلبات من سلطات إنفاذ القانون أو وكالات حكومية أخرى، أو وقف أو تعديل جوهري للخدمة، أو مشاكل تقنية أو أمنية غير متوقعة.",
+        "english": "MindScript may, in its sole discretion, suspend or terminate your access to all or part of the Service, with or without notice, for any reason, including, without limitation, breach of these Terms. Reasons for termination may include, but are not limited to, prolonged inactivity, requests by law enforcement or other government agencies, discontinuance or material modification of the Service, or unexpected technical or security issues.",
+        "contentType": "description",
+        "action": "smart-shorten"
+      },
+      "effectOfTermination": {
+        "current": "عند الإنهاء، سينتهي حقك في استخدام الخدمة فوراً. جميع أحكام الشروط التي بطبيعتها يجب أن تنجو من الإنهاء ستنجو من الإنهاء، بما في ذلك، دون حصر، أحكام الملكية، وإخلاء المسؤولية عن الضمان، والتعويض، وحدود المسؤولية.",
+        "english": "Upon termination, your right to use the Service will immediately cease. All provisions of the Terms which by their nature should survive termination shall survive termination, including, without limitation, ownership provisions, warranty disclaimers, indemnity, and limitations of liability.",
+        "contentType": "description",
+        "action": "smart-shorten"
+      }
+    }
+  },
+  "dataPrivacyWhitepaper": {
+    "privacyPledge": {
+      "noPersonalUse": {
+        "title": {
+          "current": "لا نستخدم معلوماتك بأي طريقة قابلة للتحديد شخصياً لأغراض خارجية دون موافقتك الصريحة.",
+          "english": "We do not use your information in any personally identifiable way for external purposes without your explicit consent.",
+          "contentType": "sectionTitle",
+          "action": "smart-shorten"
+        }
+      },
+      "anonymizedData": {
+        "description": {
+          "current": "لتعزيز دقة وفعالية وسلامة نماذج الذكاء الاصطناعي وميزات المنصة لدينا، نستخدم البيانات التي تم إخفاء هويتها وتجميعها بدقة. هذا يعني إزالة جميع المعلومات الشخصية القابلة للتحديد (PII)، واستخدام البيانات في شكل جماعي لا يسمح بتحديد هوية أي مستخدم فردي. هذه العملية ضرورية للتعلم المستمر وتحسين الخدمات التي نقدمها لجميع المستخدمين.",
+          "english": "To enhance the accuracy, efficacy, and safety of our AI models and platform features, we utilize data that has been rigorously anonymized and aggregated. This means all personally identifiable information (PII) is removed, and data is used in a collective form that does not allow for the identification of any individual user. This process is crucial for continuous learning and improvement of the services we provide to all users.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      }
+    },
+    "securityLevels": {
+      "accountSecurity": {
+        "mfaDescription": {
+          "current": "تتطلب ثلاثة أنواع مختلفة أو أكثر من بيانات الاعتماد. على سبيل المثال، كلمة مرور (تعرف)، ورمز لمرة واحدة عبر الرسائل القصيرة (تملك)، ومسح بيومتري مثل بصمة الإصبع (أنت). يوفر هذا مستوى عالٍ جدًا من الأمان.",
+          "english": "Requires three or more different types of credentials. For instance, a password (know), a one-time code via SMS (have), and a biometric scan like a fingerprint (are). This offers a very high level of security.",
+          "contentType": "description",
+          "action": "smart-shorten"
+        }
+      },
+      "hipaaHistory": {
+        "p1": {
+          "current": "قانون قابلية نقل التأمين الصحي والمساءلة لعام 1996 (HIPAA) هو قانون اتحادي في الولايات المتحدة مصمم لحماية معلومات المرضى الصحية الحساسة من الكشف عنها دون موافقة المريض أو علمه. كما يهدف إلى تحسين كفاءة وفعالية نظام الرعاية الصحية.",
+          "english": "The Health Insurance Portability and Accountability Act of 1996 (HIPAA) is a United States federal law designed to protect sensitive patient health information from being disclosed without the patient's consent or knowledge. It also aimed to improve the efficiency and effectiveness of the healthcare system.",
+          "contentType": "paragraph",
+          "action": "retranslate-full"
+        },
+        "privacyRuleDescription": {
+          "current": "تضع معايير وطنية لحماية المعلومات الصحية التي يمكن التعرف عليها بشكل فردي (المعلومات الصحية المحمية - PHI). تتناول استخدام والكشف عن المعلومات الصحية المحمية من قبل 'الكيانات المشمولة'.",
+          "english": "Establishes national standards for the protection of individually identifiable health information (Protected Health Information - PHI). It addresses the use and disclosure of PHI by 'covered entities.'",
+          "contentType": "description",
+          "action": "retranslate-full"
+        },
+        "coveredEntitiesDescription": {
+          "current": "تنطبق قواعد HIPAA بشكل عام على خطط التأمين الصحي، ومراكز تبادل المعلومات الصحية، ومقدمي الرعاية الصحية الذين يجرون معاملات رعاية صحية معينة إلكترونيًا (مثل الأطباء والعيادات والمستشفيات والصيدليات وشركات التأمين).",
+          "english": "HIPAA rules generally apply to health plans, healthcare clearinghouses, and healthcare providers who conduct certain healthcare transactions electronically (e.g., doctors, clinics, hospitals, pharmacies, insurance companies).",
+          "contentType": "description",
+          "action": "retranslate-full"
+        },
+        "hipaaMeaningDescription": {
+          "current": "بالنسبة للأطباء ومقدمي الرعاية الصحية الآخرين، يفرض قانون HIPAA بروتوكولات صارمة للتعامل مع بيانات المرضى، مما يضمن استخدامها فقط للأغراض المسموح بها (العلاج، الدفع، عمليات الرعاية الصحية) أو بتفويض من المريض. بالنسبة للمرضى، يوفر قانون HIPAA حقوقًا على معلوماتهم الصحية، بما في ذلك حقوق فحص والحصول على نسخة من سجلاتهم الصحية، وطلب التصحيحات.",
+          "english": "For doctors and other healthcare providers, HIPAA mandates strict protocols for handling patient data, ensuring it's used only for permitted purposes (treatment, payment, healthcare operations) or with patient authorization. For patients, HIPAA provides rights over their health information, including rights to examine and obtain a copy of their health records, and to request corrections.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      }
+    },
+    "mindscriptSecurity": {
+      "twoFactorAuthDescription": {
+        "current": "نحن نفرض المصادقة الثنائية على جميع الحسابات. يتطلب هذا منك التحقق من هويتك باستخدام عامل ثانٍ (عادةً رمز يتم إرساله إلى بريدك الإلكتروني أو هاتفك المسجل) بالإضافة إلى كلمة المرور الخاصة بك، مما يقلل بشكل كبير من مخاطر الوصول غير المصرح به إلى الحساب.",
+        "english": "We mandate 2FA for all accounts. This requires you to verify your identity using a second factor (typically a code sent to your registered email or phone) in addition to your password, significantly reducing the risk of unauthorized account access.",
+        "contentType": "description",
+        "action": "smart-shorten"
+      },
+      "threeFactorAuthDescription": {
+        "current": "لتعزيز الأمان، تقدم VirtualMD.app إعداد مصادقة ثلاثية العوامل اختياري. إذا تم تمكينه، سيتطلب الوصول إلى حسابك كلمة المرور الخاصة بك، ورمزًا يتم إرساله إلى عنوان بريدك الإلكتروني المسجل، ورمزًا يتم إرساله عبر الرسائل القصيرة إلى رقم هاتفك المحمول المعتمد. وهذا يخلق حاجزًا هائلاً ضد محاولات الوصول غير المصرح بها إلى معلوماتك الطبية المخزنة داخل منصتنا.",
+        "english": "For enhanced security, VirtualMD.app offers an optional three-factor authentication setup. If enabled, accessing your account would require your password, a code sent to your registered email address, AND a code sent via SMS to your verified mobile phone number. This creates a formidable barrier against unauthorized attempts to access your medical information stored within our platform.",
+        "contentType": "description",
+        "action": "smart-shorten"
+      },
+      "permanentDeletionDescription": {
+        "current": "نحن نمكّنك من التحكم في بياناتك. لديك القدرة على حذف المحادثات الفردية أو حسابك بالكامل بشكل دائم. بمجرد حذفها، لا يمكن استرداد هذه المعلومات من أنظمتنا الأساسية، بما يتماشى مع مبادئ تقليل البيانات والتحكم في المستخدم.",
+        "english": "We empower you with control over your data. You have the ability to permanently delete individual conversations or your entire account. Once deleted, this information is irrecoverable from our primary systems, aligning with principles of data minimization and user control.",
+        "contentType": "description",
+        "action": "smart-shorten"
+      }
+    },
+    "hipaaConsiderations": {
+      "p2": {
+        "current": "ومع ذلك، من الأهمية بمكان أن نفهم أن VirtualMD.app، في خدمتها الحالية الموجهة للمستهلكين بشكل عام، ليست مخصصة لحالات الاستخدام التي تتطلب الامتثال الرسمي لـ HIPAA للإدخال المباشر أو التخزين أو المعالجة للمعلومات الصحية المحمية (PHI) من قبل المستخدمين الذين يعملون ككيانات مشمولة بـ HIPAA أو شركائهم التجاريين. يجب على المستخدمين الذين يحتاجون إلى الامتثال الصارم لـ HIPAA للمعلومات الصحية المحمية التي يديرونها عدم استخدام منصتنا العامة لهذه الأغراض ما لم يكن هناك اتفاقية شريك تجاري (BAA) محددة مع VirtualMD.app لحالة الاستخدام المخصصة تلك. بالنسبة للخدمة العامة، يجب على المستخدمين عدم إدخال أي معلومات يمكن تتبعها إلى مريض فردي في سياق من شأنه أن ينتهك HIPAA، دون موافقة صريحة ومستنيرة من ذلك المريض تقر باستخدام هذه المنصة.",
+        "english": "However, it is crucial to understand that VirtualMD.app, in its current general consumer-facing service, is NOT intended for use cases that require formal HIPAA compliance for the direct input, storage, or processing of Protected Health Information (PHI) by users acting as HIPAA Covered Entities or their Business Associates. Users who require strict HIPAA compliance for the PHI they manage should not use our general platform for such purposes unless a specific Business Associate Agreement (BAA) is in place with VirtualMD.app for that dedicated use case. For the general service, users must not input any information that could be traced back to an individual patient in a context that would violate HIPAA, without that patient's explicit, informed consent acknowledging the use of this platform.",
+        "contentType": "paragraph",
+        "action": "smart-shorten"
+      },
+      "approachTitle": {
+        "current": "نهجنا: الموازنة بين تخصيص الذكاء الاصطناعي المتقدم وخصوصية البيانات",
+        "english": "Our Approach: Balancing Advanced AI Personalization with Data Privacy",
+        "contentType": "sectionTitle",
+        "action": "retranslate-full"
+      },
+      "anonymizationDescription": {
+        "current": "إن استخدامنا للبيانات المجهولة والمجمعة لتحسين النظام هو ممارسة، عند تنفيذها بشكل صحيح، تعتبر نهجًا قياسيًا لتعزيز خدمات الذكاء الاصطناعي مع حماية خصوصية الأفراد.",
+        "english": "Our use of anonymized, aggregated data for system improvement is a practice that, when properly executed, is a standard approach for enhancing AI services while protecting individual privacy.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      }
+    },
+    "userResponsibility": {
+      "noReviewDescription": {
+        "current": "لحماية خصوصيتك، لا يقوم موظفو VirtualMD.app بمراجعة محادثاتك الخاصة مع شخصيات الذكاء الاصطناعي لدينا بشكل روتيني. وهذا يؤكد على أهمية استخدامك المسؤول للمنصة.",
+        "english": "To protect your privacy, VirtualMD.app personnel do not routinely review your private conversations with our AI personas. This underscores the importance of your responsible use of the platform.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "prohibitedContentDescription": {
+        "current": "أنت توافق على عدم استخدام VirtualMD.app لطلب معلومات أو إرشادات حول كيفية إيذاء نفسك أو الآخرين. منصتنا غير مصممة للتدخل في الأزمات في مثل هذه السيناريوهات. إذا كنت تعاني من أفكار لإيذاء النفس أو إيذاء الآخرين، فيرجى الاتصال بخدمات الطوارئ أو خط المساعدة للأزمات على الفور.",
+        "english": "You agree not to use VirtualMD.app to seek information or guidance on how to harm yourself or others. Our platform is not designed for crisis intervention in such scenarios. If you are experiencing thoughts of self-harm or harming others, please contact emergency services or a crisis hotline immediately.",
+        "contentType": "description",
+        "action": "smart-shorten"
+      },
+      "consultPractitionerDescription": {
+        "current": "VirtualMD.app هي أداة إعلامية وليست بديلاً عن المشورة الطبية المهنية أو التشخيص أو العلاج من مقدم رعاية صحية مؤهل. استشر طبيبك أو ممارس صحي مؤهل آخر دائمًا لأي حالات طبية خطيرة أو قبل اتخاذ أي قرارات تتعلق بصحتك.",
+        "english": "VirtualMD.app is an informational tool and NOT a substitute for professional medical advice, diagnosis, or treatment from a qualified healthcare provider. Always consult with your doctor or other qualified health practitioner for any serious medical conditions or before making any decisions related to your health.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "emergencySituationsDescription": {
+        "current": "لا يمكن لـ VirtualMD.app التصرف نيابة عنك في حالة الطوارئ. على سبيل المثال، إذا اقترح النظام عليك الاتصال برقم 911 أو الذهاب إلى غرفة الطوارئ بناءً على المعلومات التي تقدمها، فأنت وحدك المسؤول عن اتخاذ هذا الإجراء. لا تملك منصتنا القدرة على إرسال خدمات الطوارئ.",
+        "english": "VirtualMD.app CANNOT act on your behalf in an emergency. For example, if the system suggests that you call 911 or go to the emergency room based on the information you provide, you are solely responsible for taking that action. Our platform does not have the capability to dispatch emergency services.",
+        "contentType": "description",
+        "action": "smart-shorten"
+      }
+    },
+    "privacyScenarios": {
+      "scenario1Title": {
+        "current": "السيناريو 1: مناقشة القضايا الصحية الحساسة",
+        "english": "Scenario 1: Discussing Sensitive Health Issues",
+        "contentType": "sectionTitle",
+        "action": "retranslate-full"
+      },
+      "confidentialConvosTitle": {
+        "current": "محادثات سرية:",
+        "english": "Confidential Conversations:",
+        "contentType": "sectionTitle",
+        "action": "retranslate-full"
+      },
+      "confidentialConvosDescription": {
+        "current": "تم تصميم محادثاتك مع شخصيات الذكاء الاصطناعي لدينا لتكون خاصة. كما هو مذكور في تعهد الخصوصية الخاص بنا، لا يقوم موظفو VirtualMD.app بمراجعة محتوى محادثتك الخاصة بشكل روتيني.",
+        "english": "Your conversations with our AI personas are designed to be private. As stated in our Privacy Pledge, VirtualMD.app personnel do not routinely review your private conversation content.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "anonymizationDescription": {
+        "current": "يتم استخدام البيانات المجهولة والمجمعة فقط (المجردة من جميع المعرفات الشخصية) لتحسين نماذج الذكاء الاصطناعي لدينا. لا يتم استخدام محتوى محادثتك الشخصية القابلة للتعريف لهذا الغرض دون إخفاء الهوية.",
+        "english": "Only anonymized and aggregated data (stripped of all personal identifiers) is used to improve our AI models. Your personal, identifiable conversation content is not used for this purpose without such anonymization.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "accessControlsDescription": {
+        "current": "يتم التحكم في الوصول إلى سجلات قاعدة بيانات المستخدمين من قبل موظفي VirtualMD.app بشكل صارم، ويقتصر على الأفراد المصرح لهم لتلبية احتياجات تشغيلية أو دعم محددة (على سبيل المثال، المساعدة في مشكلة حساب تبلغ عنها)، ويخضع لسياسات خصوصية داخلية وتسجيل. يُحظر تصفح بيانات ملف تعريف المستخدم بشكل روتيني.",
+        "english": "Access to user database records by VirtualMD.app personnel is strictly controlled, limited to authorized individuals for specific operational or support needs (e.g., assisting with an account issue you report), and governed by internal privacy policies and logging. Routine browsing of user profile data is prohibited.",
+        "contentType": "description",
+        "action": "smart-shorten"
+      },
+      "aiAccessTitle": {
+        "current": "وصول الذكاء الاصطناعي للسياق:",
+        "english": "AI Access for Context:",
+        "contentType": "sectionTitle",
+        "action": "retranslate-full"
+      },
+      "aiAccessDescription": {
+        "current": "تصل شخصيات الذكاء الاصطناعي، مثل AI Health Expert Carol، إلى الأجزاء ذات الصلة من ملفك الشخصي (مثل قوائم الأدوية، إذا قدمتها) برمجيًا لتقديم استجابات سياقية أثناء محادثاتك. يعد هذا الوصول جزءًا من المنطق التشغيلي للذكاء الاصطناعي لخدمتك بشكل أفضل.",
+        "english": "The AI personas, like AI Health Expert Carol, access relevant parts of your profile (such as medication lists, if you've provided them) programmatically to provide contextualized responses during your conversations. This access is part of the AI's operational logic to serve you better.",
+        "contentType": "description",
+        "action": "smart-shorten"
+      },
+      "techNoteP2": {
+        "current": "بينما لا نقوم حاليًا بتطبيق نظام E2EE بمفتاح خاص بالمستخدم لبيانات المحادثة من شأنه أن يجعل من المستحيل تقنيًا على مسؤولي النظام المصرح لهم فك تشفيرها (على غرار كيفية عمل العديد من الخدمات السحابية)، فإن الوصول إلى البيانات المشفرة الأساسية مقيد للغاية ومسجل ويخضع لسياسات أمان وخصوصية داخلية صارمة. يُحظر على موظفينا الوصول إلى محتوى محادثتك الخاصة إلا في ظروف محددة ومراقبة للغاية، مثل الرد على طلب دعم مباشر منك بخصوص محادثة معينة أو كما يقتضي القانون. يوازن هذا النهج بين الأمان القوي والضرورات التشغيلية للحفاظ على المنصة ودعمها.",
+        "english": "While we do not currently implement a user-specific key E2EE system for conversation data that would make it technically impossible for authorized system administrators to decrypt (similar to how many cloud services operate), access to the underlying encrypted data is highly restricted, logged, and governed by strict internal security and privacy policies. Our personnel are prohibited from accessing your private conversation content except under very specific and controlled circumstances, such as responding to a direct support request from you regarding a specific conversation or as required by law. This approach balances strong security with operational necessities for maintaining and supporting the platform.",
+        "contentType": "paragraph",
+        "action": "smart-shorten"
+      },
+      "thirdPartyDataTitle": {
+        "current": "استخدام البيانات من قبل موفري محركات الذكاء الاصطناعي التابعة لجهات خارجية",
+        "english": "Data Usage by Third-Party AI Engine Providers",
+        "contentType": "sectionTitle",
+        "action": "retranslate-full"
+      },
+      "mindscriptTrainingDescription": {
+        "current": "كما هو مذكور في تعهد الخصوصية الخاص بنا، فإننا نستخدم فقط البيانات المجهولة والمجمعة للتحسين الداخلي والتدريب لأنظمتنا الخاصة ومنطق تنسيق الذكاء الاصطناعي. لا يتم استخدام بياناتك الشخصية القابلة للتعريف أو محتوى المحادثة الخام لهذا الغرض دون إخفاء الهوية.",
+        "english": "As stated in our Privacy Pledge, we only use anonymized and aggregated data for the internal improvement and training of our proprietary systems and AI coordination logic. Your personally identifiable data or raw conversation content is not used for this purpose without such anonymization.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "thirdPartyTrainingTitle": {
+        "current": "(ب، ج، إلخ) موفرو واجهات برمجة تطبيقات الذكاء الاصطناعي التابعة لجهات خارجية (مثل OpenAI و Anthropic):",
+        "english": "(b, c, etc.) Third-Party AI API Providers (e.g., OpenAI, Anthropic):",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      },
+      "thirdPartyTrainingDescription": {
+        "current": "تختار VirtualMD.app بعناية وتتكامل مع موفري نماذج الذكاء الاصطناعي الرائدين. بالنسبة للخدمات التي يتم الوصول إليها عبر واجهات برمجة التطبيقات الخاصة بهم (APIs)، فإن مقدمي الخدمات الرئيسيين مثل OpenAI و Anthropic لديهم سياسات استخدام بيانات تنص عادةً على أن البيانات المقدمة عبر واجهات برمجة التطبيقات الخاصة بهم لا يتم استخدامها من قبلهم لتدريب نماذجهم التأسيسية العامة. نقوم بتكوين استخدامنا لهذه الخدمات بما يتماشى مع خيارات الحفاظ على الخصوصية هذه. نحن نشجعك أيضًا على مراجعة سياسات استخدام البيانات لمقدمي الذكاء الاصطناعي الأساسيين هؤلاء إذا كانت لديك مخاوف محددة.",
+        "english": "VirtualMD.app carefully selects and integrates with leading AI model providers. For services accessed via their APIs (Application Programming Interfaces), major providers like OpenAI and Anthropic have data usage policies that typically state that data submitted via their APIs is NOT used by them to train their general foundation models. We configure our use of these services to align with these privacy-preserving options. We encourage you to also review the data usage policies of these underlying AI providers if you have specific concerns.",
+        "contentType": "description",
+        "action": "smart-shorten"
+      }
+    },
+    "conclusion": {
+      "anonymizedDataDescription": {
+        "current": "نحن نستخدم بيانات غير قابلة للتعريف لتعزيز خدمات الذكاء الاصطناعي والمنصة لدينا.",
+        "english": "We use non-identifiable data to enhance our AI and platform services.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      }
+    }
+  },
+  "imagingAIExplainer": {
+    "title": {
+      "current": "فهم الذكاء الاصطناعي في الصور الطبية",
+      "english": "Understanding AI in Medical Pictures",
+      "contentType": "sectionTitle",
+      "action": "retranslate-full"
+    },
+    "author": {
+      "current": "شرح: رون روبين، دكتوراه (تقنيات MindScript الصحية)",
+      "english": "Explained by: Ron Rubin, PhD (VirtualMD.app Technologies)",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "whatIsImaging": {
+      "intro": {
+        "current": "فكر في التصوير الطبي مثل التقاط صور داخل جسمك. يستخدم الأطباء آلات خاصة لإنشاء هذه الصور، مما يساعدهم على رؤية العظام والأعضاء والأنسجة والأوعية الدموية دون الحاجة لإجراء عملية جراحية. على سبيل المثال، الأشعة السينية ممتازة لرؤية العظام للعثور على كسر، بينما يوفر التصوير المقطعي المحوسب عرضاً أكثر تفصيلاً ومقطعياً لعضو مثل الدماغ.",
+        "english": "Think of medical imaging like taking pictures inside your body. Doctors use special machines to create these pictures, helping them see bones, organs, tissues, and blood vessels without having to do surgery. For example, an X-ray is excellent for seeing bones to find a fracture, while a CT scan provides a more detailed, cross-sectional view of an organ like the brain.",
+        "contentType": "description",
+        "action": "smart-shorten"
+      }
+    },
+    "whatIsAI": {
+      "intro": {
+        "current": "الذكاء الاصطناعي هو في الأساس علم تعليم أجهزة الكمبيوتر القيام بمهام تتطلب عادة ذكاءً بشرياً، مثل التعلم من الأمثلة وحل المشاكل واتخاذ القرارات. في التصوير الطبي، يمكننا التفكير في الذكاء الاصطناعي كمساعد فائق الذكاء للأطباء.",
+        "english": "AI is essentially the science of teaching computers to do tasks that normally require human intelligence, like learning from examples, solving problems, and making decisions. In medical imaging, we can think of AI as a super-smart assistant for doctors.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "process": {
+        "current": "يستخدم برامج كمبيوتر خاصة (خوارزميات) تم تدريبها على آلاف، أو حتى ملايين، من الصور الطبية. من خلال تحليل هذه الكمية الهائلة من البيانات، يتعلم الذكاء الاصطناعي اكتشاف الأنماط الدقيقة - بعضها صعب على العين البشرية رؤيتها، أو الأنماط التي تشير إلى احتمالية عالية لمرض معين. العملية الأساسية هي أن البيانات (الصور) يتم إدخالها في الذكاء الاصطناعي، والذي ينتج بعد ذلك رؤية، مثل تحديد منطقة مشبوهة.",
+        "english": "It uses special computer programs (algorithms) that have been trained on thousands, or even millions, of medical pictures. By analyzing this vast amount of data, the AI learns to spot subtle patterns—some of which are difficult for the human eye to see, or patterns that indicate a high probability of a certain disease. The basic process is that data (the images) are fed into the AI, which then produces an insight, such as flagging a suspicious area.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      }
+    },
+    "howAIHelps": {
+      "title": {
+        "current": "كيف يمكن للذكاء الاصطناعي المساعدة في الصور الطبية؟",
+        "english": "How Can AI Help with Medical Pictures?",
+        "contentType": "sectionTitle",
+        "action": "retranslate-full"
+      },
+      "intro": {
+        "current": "يسلط بحثنا العلمي الضوء على عدة طرق رئيسية يحدث فيها الذكاء الاصطناعي فرقاً بالفعل:",
+        "english": "Our scientific research highlights several key ways AI is already making a difference:",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "accuracy": {
+        "description": {
+          "current": "أحياناً، يمكن أن تكون العلامات المبكرة للمرض دقيقة بشكل لا يصدق وسهلة التفويت في المسح الضوئي. يمكن للذكاء الاصطناعي أن يعمل كزوج ثانٍ يقظ من العيون، يفحص بشكل منهجي كل جزء من الصورة ويسلط الضوء على المناطق التي تستحق نظرة أقرب. على سبيل المثال، قد يرسم الذكاء الاصطناعي دائرة حول مجموعة صغيرة من الخلايا في صورة الثدي الشعاعية التي يمكن أن تكون مؤشراً مبكراً للسرطان.",
+          "english": "Sometimes, the earliest signs of a disease can be incredibly subtle and easy to miss on a scan. AI can act as a vigilant second pair of eyes, systematically checking every part of an image and highlighting areas that warrant a closer look. For instance, an AI might draw a circle around a tiny cluster of cells on a mammogram that could be an early indicator of cancer.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        },
+        "example": {
+          "current": "<strong>مثال:</strong> في صور الثدي الشعاعية (أشعة الثدي السينية)، أظهرت إحدى الدراسات أن الذكاء الاصطناعي ساعد في العثور على 29% أكثر من السرطانات دون تحديد المزيد من المرضى الأصحاء بشكل خاطئ. في تنظير القولون (البحث عن نموات تسمى الأورام الحميدة)، ساعد الذكاء الاصطناعي الأطباء في العثور على المزيد من الأورام الحميدة المحتملة قبل السرطانية بشكل كبير عن طريق تسليط الضوء عليها في الوقت الفعلي على تغذية الفيديو.",
+          "english": "<strong>Example:</strong> In mammograms (breast X-rays), one study showed AI helped find 29% more cancers without flagging more healthy patients incorrectly. In colonoscopies (looking for growths called polyps), AI helped doctors find significantly more potentially pre-cancerous polyps by highlighting them in real-time on the video feed.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      },
+      "speed": {
+        "description": {
+          "current": "قراءة الصور الطبية، خاصة المعقدة منها مثل مسح الجسم الكامل بالتصوير المقطعي المحوسب، يستغرق وقتاً وتركيزاً كبيرين. يمكن للذكاء الاصطناعي تسريع هذه العملية بشكل كبير. يمكنه فرز الحالات مسبقاً، وتحديد الأكثر إلحاحاً للمراجعة الفورية، أو التعامل مع مهام الفحص الروتينية لتحرير وقت المتخصصين.",
+          "english": "Reading medical images, especially complex ones like full-body CT scans, takes a great deal of time and concentration. AI can dramatically accelerate this process. It can pre-sort cases, flagging the most urgent ones for immediate review, or handle routine screening tasks to free up specialists' time.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        },
+        "example": {
+          "current": "<strong>مثال:</strong> نظام ذكاء اصطناعي لفحص صور العين للبحث عن علامات تلف السكري (اعتلال الشبكية السكري) يمكن أن يعطي نتيجة فورياً في عيادة الرعاية الأولية. هذا يعني أن المرضى لا يحتاجون للانتظار لموعد مع أخصائي العيون فقط للفحص، مما يؤدي إلى رعاية أسرع لمزيد من الناس. في دراسة كبيرة أخرى، ساعد الذكاء الاصطناعي في تقليل الوقت الذي يقضيه أخصائيو الأشعة في قراءة صور الثدي الشعاعية بحوالي النصف.",
+          "english": "<strong>Example:</strong> An AI system for checking eye photos for signs of diabetes damage (diabetic retinopathy) can give a result right away in a primary care clinic. This means patients don't have to wait for an appointment with an eye specialist just for a screening, leading to faster care for more people. In another large study, AI helped reduce the time radiologists spent reading mammograms by almost half.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      },
+      "consistency": {
+        "description": {
+          "current": "حتى بين الخبراء، يمكن أن تكون هناك اختلافات صغيرة وذاتية في كيفية تفسير الصورة. يوفر الذكاء الاصطناعي تحليلاً موحداً وموضوعياً في كل مرة، مما يساعد في تقليل هذا التباين.",
+          "english": "Even among experts, there can be small, subjective differences in how an image is interpreted. AI provides a standardized, objective analysis every time, which helps reduce this variability.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        },
+        "example": {
+          "current": "<strong>مثال:</strong> عند النظر إلى عينات الأنسجة تحت المجهر (علم الأمراض)، يمكن أن يكون تحديد \"درجة\" الورم الدقيقة غامضاً في بعض الأحيان. نظام ذكاء اصطناعي، مدرب على بيانات تم التحقق من صحتها من قبل لجنة من الخبراء، يمكن أن يوفر درجة متسقة، مما يضمن أن النتائج أكثر توحداً وموثوقية عبر أطباء ومستشفيات مختلفة.",
+          "english": "<strong>Example:</strong> When looking at tissue samples under a microscope (pathology), determining the exact \"grade\" of a tumor can sometimes be ambiguous. An AI system, trained on data validated by a panel of experts, can provide a consistent grade, ensuring that results are more uniform and reliable across different doctors and hospitals.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      }
+    },
+    "challenges": {
+      "title": {
+        "current": "هل الذكاء الاصطناعي مثالي؟",
+        "english": "Is AI Perfect?",
+        "contentType": "sectionTitle",
+        "action": "retranslate-full"
+      },
+      "intro": {
+        "current": "لا، ومن المهم فهم قيوده. بينما الذكاء الاصطناعي قوي، هناك تحديات مهمة يجب معالجتها:",
+        "english": "No, and it's crucial to understand its limitations. While AI is powerful, there are important challenges to address:",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "bias": {
+        "current": "<strong>العدالة والتحيز:</strong> الذكاء الاصطناعي جيد فقط بقدر البيانات التي تم تدريبه عليها. إذا تم تدريبه فقط على صور من مجموعة واحدة من الناس، فقد لا يعمل بشكل جيد للآخرين. ضمان بيانات التدريب المتنوعة أمر بالغ الأهمية لمنع التحيز.",
+        "english": "<strong>Fairness and Bias:</strong> An AI is only as good as the data it's trained on. If it's only trained on pictures from one group of people, it might not work as well for others. Ensuring diverse training data is critical to prevent bias.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "uncommonCases": {
+        "current": "<strong>الحالات غير الشائعة:</strong> الذكاء الاصطناعي يتفوق في التعرف على الأنماط التي رآها مرات عديدة. قد يواجه صعوبة مع الأمراض النادرة أو العروض غير العادية التي لم يتم تدريبه عليها.",
+        "english": "<strong>Uncommon Cases:</strong> AI excels at recognizing patterns it has seen many times. It might struggle with rare diseases or unusual presentations it hasn't been trained on.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "teamwork": {
+        "current": "<strong>أهمية العمل الجماعي:</strong> أفضل نهج هو التعاون بين الإنسان والذكاء الاصطناعي. الذكاء الاصطناعي أداة *لمساعدة* الأطباء من خلال التعامل مع المهام كثيفة البيانات، لكنه لا يحل محل خبرتهم وتعاطفهم وقدرتهم على فهم المريض ككل.",
+        "english": "<strong>The Importance of Teamwork:</strong> The best approach is human-AI collaboration. AI is a tool to *help* doctors by handling data-intensive tasks, but it doesn't replace their experience, empathy, and ability to understand the whole patient.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "regulation": {
+        "current": "<strong>السلامة والتنظيم:</strong> مثل أي جهاز طبي جديد، تحتاج أدوات الذكاء الاصطناعي لاختبار صارم والتحقق من الصحة والمراقبة المستمرة للتأكد من أنها آمنة وفعالة وتوفر فوائد حقيقية للمرضى.",
+        "english": "<strong>Safety and Regulation:</strong> Like any new medical device, AI tools need rigorous testing, validation, and ongoing monitoring to make sure they are safe, effective, and providing real benefits to patients.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "outro": {
+        "current": "الباحثون والمنظمون يعملون بجد لمعالجة هذه التحديات. الهدف هو دمج الذكاء الاصطناعي في الرعاية الصحية بأمان وفعالية لتحسين نتائج المرضى.",
+        "english": "Researchers and regulators are working hard to address these challenges. The goal is to integrate AI into healthcare safely and effectively to improve patient outcomes.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      }
+    },
+    "conclusion": {
+      "text": {
+        "current": "الذكاء الاصطناعي يصبح شريكاً قيماً في التصوير الطبي، مساعداً الأطباء في العثور على الأمراض مبكراً وأسرع وبموثوقية أكبر. إنه مثل إعطاء الأطباء رؤية محسنة ومساعد لا يكل لمراجعة الصور المعقدة، مما يؤدي في النهاية إلى رعاية أفضل للمرضى.",
+        "english": "AI is becoming a valuable partner in medical imaging, helping doctors find diseases earlier, faster, and more reliably. It's like giving doctors enhanced vision and an tireless assistant to review complex pictures, ultimately leading to better care for patients.",
+        "contentType": "paragraph",
+        "action": "retranslate-full"
+      }
+    }
+  },
+  "aiAccuracyWhitepaper": {
+    "title": {
+      "current": "دقة واعتبارات الذكاء الاصطناعي في المعلومات الطبية",
+      "english": "Accuracy and Considerations for AI in Medical Information",
+      "contentType": "sectionTitle",
+      "action": "retranslate-full"
+    },
+    "section1": {
+      "title": {
+        "current": "1. مقدمة: وعد الذكاء الاصطناعي في الطب",
+        "english": "1. Introduction: The Promise of AI in Medicine",
+        "contentType": "sectionTitle",
+        "action": "retranslate-full"
+      }
+    },
+    "section2": {
+      "title": {
+        "current": "2. فهم دقة وأخطاء الذكاء الاصطناعي في الطب",
+        "english": "2. Understanding AI Accuracy and Errors in Medicine",
+        "contentType": "sectionTitle",
+        "action": "retranslate-full"
+      },
+      "aiSuccess": {
+        "title": {
+          "current": "أمثلة على نجاح الذكاء الاصطناعي:",
+          "english": "Examples of AI Success:",
+          "contentType": "sectionTitle",
+          "action": "retranslate-full"
+        },
+        "text": {
+          "current": "أظهرت البحوث نماذج الذكاء الاصطناعي تحقق دقة على مستوى أطباء الجلدية في تصنيف سرطانات الجلد من الصور (مثال توضيحي - Esteva et al., Nature, 2017). وبالمثل، أظهر الذكاء الاصطناعي دقة عالية في اكتشاف اعتلال الشبكية السكري من فحوصات الشبكية (مثال توضيحي - Gulshan et al., JAMA, 2016). في مهام ضيقة وغنية بالبيانات معينة، يمكن للذكاء الاصطناعي مطابقة أو حتى تجاوز الأداء البشري بسبب قدرته على اكتشاف الأنماط الدقيقة.",
+          "english": "Research has shown AI models achieving dermatologist-level accuracy in classifying skin cancers from images (e.g., Esteva et al., Nature, 2017 - illustrative example). Similarly, AI has demonstrated high accuracy in detecting diabetic retinopathy from retinal scans (e.g., Gulshan et al., JAMA, 2016 - illustrative example). In certain narrow, data-rich tasks, AI can match or even exceed human performance due to its ability to detect subtle patterns.",
+          "contentType": "paragraph",
+          "action": "retranslate-full"
+        }
+      },
+      "aiErrors": {
+        "title": {
+          "current": "أنواع أخطاء الذكاء الاصطناعي:",
+          "english": "Types of AI Errors:",
+          "contentType": "sectionTitle",
+          "action": "retranslate-full"
+        },
+        "text": {
+          "current": "أخطاء الذكاء الاصطناعي تختلف عن الأخطاء البشرية. يمكن أن تنشأ من: البيانات المتحيزة (إذا كانت بيانات التدريب تمثل تمثيلاً ناقصاً لبعض الفئات السكانية، قد يؤدي الذكاء الاصطناعي أداءً ضعيفاً لتلك المجموعات)، الإفراط في التجهيز (يتعلم الذكاء الاصطناعي بيانات التدريب جيداً جداً، بما في ذلك الضوضاء، ويفشل في التعميم على حالات مرضى جديدة غير مرئية)، نقص السياق (قد يصارع الذكاء الاصطناعي مع تواريخ المرضى المعقدة، الأمراض المصاحبة، أو الأعراض الدقيقة التي تتطلب حكماً سريرياً أوسع)، الأمثلة العدائية (تغييرات طفيفة وغير محسوسة في بيانات الإدخال قد تتسبب في أن يقوم الذكاء الاصطناعي بتنبؤ خاطئ تماماً)، الهلوسة (يمكن لنماذج اللغة الكبيرة أحياناً إنتاج معلومات تبدو معقولة ولكنها غير صحيحة من الناحية الوقائعية أو لا معنى لها).",
+          "english": "AI errors differ from human errors. They can arise from: Biased Data (If training data underrepresents certain demographics, the AI may perform poorly for those groups), Overfitting (The AI learns the training data too well, including noise, and fails to generalize to new, unseen patient cases), Lack of Context (AI may struggle with complex patient histories, comorbidities, or nuanced symptoms that require broader clinical judgment), Adversarial Examples (Minor, imperceptible changes to input data could potentially cause an AI to make a completely wrong prediction), Hallucinations (LLMs can sometimes generate plausible-sounding but factually incorrect or nonsensical information).",
+          "contentType": "paragraph",
+          "action": "retranslate-full"
+        }
+      },
+      "aiVsHuman": {
+        "title": {
+          "current": "الذكاء الاصطناعي مقابل الأطباء البشريين:",
+          "english": "AI vs. Human Doctors:",
+          "contentType": "sectionTitle",
+          "action": "retranslate-full"
+        },
+        "text": {
+          "current": "نادراً ما يكون سيناريو \"أفضل أو أسوأ\" بسيط. قد تُظهر تحليل تلوي أن الذكاء الاصطناعي يتفوق قليلاً على أطباء الأشعة في المتوسط لنوع فحص محدد (مفهوم رسم بياني افتراضي)، لكن الخبراء البشريين غالباً ما يتفوقون في الحالات غير النمطية أو عند دمج المعلومات من مصادر متعددة. على العكس، قد يكون الذكاء الاصطناعي أكثر اتساقاً في تجنب الأخطاء المرتبطة بالتعب في المهام المتكررة. السيناريو المثالي غالباً ما يتضمن التعاون بين الإنسان والذكاء الاصطناعي.",
+          "english": "It's rarely a simple \"better or worse\" scenario. A meta-analysis might show AI slightly outperforming radiologists on average for a specific scan type (*hypothetical graph concept*), but human experts often excel in atypical cases or when integrating information from multiple sources. Conversely, AI might be more consistent in avoiding fatigue-related errors on repetitive tasks. The ideal scenario often involves human-AI collaboration.",
+          "contentType": "paragraph",
+          "action": "retranslate-full"
+        }
+      }
+    },
+    "section3": {
+      "title": {
+        "current": "3. تحدي التواصل للذكاء الاصطناعي في الرعاية الصحية",
+        "english": "3. The Challenge of AI Communication in Healthcare",
+        "contentType": "sectionTitle",
+        "action": "retranslate-full"
+      }
+    }
+  },
+  "mentalHealthWhitepaper": {
+    "title": {
+      "current": "الذكاء الاصطناعي في الصحة النفسية: التطورات والتحديات والتطبيقات السريرية",
+      "english": "AI in Mental Health: Advancements, Challenges, and Clinical Applications",
+      "contentType": "sectionTitle",
+      "action": "retranslate-full"
+    },
+    "disclaimer": {
+      "text": {
+        "current": "بينما تقدم VirtualMD.app تقنية ذكاء اصطناعي متطورة لتقييمات الصحة النفسية والمساعدة، من الأهمية بمكان أن نفهم أن أنظمة الذكاء الاصطناعي لدينا، بغض النظر عن تطورها، ليست بديلاً عن متخصصي الصحة النفسية المرخصين. يجب دائمًا تقييم المعلومات والرؤى المقدمة من قبل مقدمي الرعاية الصحية المؤهلين. في حالة الطوارئ الصحية النفسية، يرجى الاتصال على 911 (الولايات المتحدة)، 999 (المملكة المتحدة)، 112 (الاتحاد الأوروبي)، 101 (إسرائيل)، أو 911 (كندا) على الفور، أو التوجه إلى أقرب قسم طوارئ. لأي مخاوف تتعلق بالصحة النفسية أو قرارات علاجية، استشر دائمًا مقدمي الرعاية الصحية البشرية المؤهلين. تم تصميم تقنية MindScript لزيادة ودعم الرعاية الصحية النفسية المهنية، وليس استبدالها.",
+        "english": "While VirtualMD.app offers cutting-edge AI technology for mental health assessments and assistance, it is crucial to understand that our AI systems, regardless of their sophistication, are NOT substitutes for licensed mental health professionals. The information and insights provided should always be evaluated by qualified healthcare providers. In a mental health emergency, please dial 911 (US), 999 (UK), 112 (EU), 101 (Israel), or 911 (Canada) immediately, or go to your nearest emergency department. For any mental health concerns or treatment decisions, always consult with qualified human healthcare providers. MindScript technology is designed to augment and support professional mental healthcare, not replace it.",
+        "contentType": "paragraph",
+        "action": "retranslate-full"
+      }
+    },
+    "abstract": {
+      "text": {
+        "current": "يبحث هذا المستند في الدور المتطور بسرعة للذكاء الاصطناعي في الرعاية الصحية النفسية، مع تسليط الضوء على التطورات الأخيرة، والأدلة على الفعالية، وتحديات التنفيذ. نستعرض التطورات في أربعة مجالات: الدعم التشخيصي، والتطبيقات العلاجية، ومراقبة المرضى، والتحليلات التنبؤية. تظهر الدراسات السريرية الحديثة أن أنظمة الذكاء الاصطناعي يمكن أن تحقق دقة 80-92٪ في الكشف عن الاكتئاب الشديد من الأنماط اللغوية والعلامات الحيوية الصوتية، بينما يمكن لخوارزميات الرؤية الحاسوبية تحديد مخاطر التفكير الانتحاري بحساسية 85٪ من خلال تحليل تعابير الوجه والحركات الدقيقة. تظهر نماذج معالجة اللغة الطبيعية المدربة على المحادثات العلاجية وعدًا في تقديم مبادئ العلاج السلوكي المعرفي، حيث تشير التجارب المعشاة ذات الشواهد إلى فعالية مماثلة للمعالجين البشريين للاكتئاب والقلق الخفيف إلى المتوسط (مجلة أبحاث الإنترنت الطبية، 2022). يمكن لأنظمة المراقبة السلبية المستندة إلى الهواتف الذكية الكشف عن علامات الإنذار المبكر للانتكاس في الأمراض العقلية الخطيرة حتى 7 أيام قبل أن يصبح التدهور السريري واضحًا (JAMA Psychiatry ، 2021). على الرغم من هذه التطورات، لا تزال هناك تحديات كبيرة، بما في ذلك التحيز الخوارزمي، والتحقق المحدود عبر مجموعات سكانية متنوعة، ومخاوف الخصوصية، والاندماج في مهام سير العمل السريرية الحالية. نناقش الاعتبارات الأخلاقية والأطر التنظيمية ومنهجيات التقييم للذكاء الاصطناعي في الصحة النفسية. في حين أن تقنيات الذكاء الاصطناعي تظهر وعدًا كبيرًا بتوسيع الوصول إلى الرعاية الصحية النفسية وتعزيز فعالية العلاج، يجب تطويرها ونشرها ضمن إطار شامل يعطي الأولوية للتحقق السريري والاعتبارات الأخلاقية والتنفيذ المتمحور حول الإنسان لتحسين نتائج الصحة النفسية حقًا.",
+        "english": "This paper examines the rapidly evolving role of artificial intelligence in mental healthcare, highlighting recent advancements, evidence of efficacy, and implementation challenges. We review developments across four domains: diagnostic support, therapeutic applications, patient monitoring, and predictive analytics. Recent clinical studies demonstrate AI systems can achieve 80-92% accuracy in detecting major depression from linguistic patterns and voice biomarkers, while computer vision algorithms can identify suicidal ideation risk with 85% sensitivity by analyzing facial expressions and micro-movements. Natural language processing models trained on therapeutic conversations show promise in delivering cognitive behavioral therapy principles, with randomized controlled trials indicating effectiveness comparable to human therapists for mild-to-moderate depression and anxiety (Journal of Medical Internet Research, 2022). Smartphone-based passive monitoring systems can detect early warning signs of relapse in serious mental illness up to 7 days before clinical deterioration becomes apparent (JAMA Psychiatry, 2021). Despite these advances, significant challenges remain, including algorithm bias, limited validation across diverse populations, privacy concerns, and integration into existing clinical workflows. We discuss ethical considerations, regulatory frameworks, and evaluation methodologies for mental health AI. While AI technologies show substantial promise for expanding access to mental healthcare and enhancing treatment efficacy, they must be developed and deployed within a comprehensive framework that prioritizes clinical validation, ethical considerations, and human-centered implementation to truly improve mental health outcomes.",
+        "contentType": "paragraph",
+        "action": "retranslate-full"
+      }
+    },
+    "introduction": {
+      "p1": {
+        "current": "The burden of mental illness presents one of healthcare's most pressing challenges. Approximately one in five adults worldwide experiences mental health disorders annually, with depression alone affecting over 300 million people globally (WHO, 2022). Meanwhile, persistent workforce shortages limit access to care – the World Health Organization estimates a global shortage of 1.18 million mental health professionals. This gap between need and available resources has accelerated interest in technology-based solutions, particularly artificial intelligence (AI) systems that can potentially extend the reach and efficacy of mental health services.",
+        "english": "The burden of mental illness presents one of healthcare's most pressing challenges. Approximately one in five adults worldwide experiences mental health disorders annually, with depression alone affecting over 300 million people globally (WHO, 2022). Meanwhile, persistent workforce shortages limit access to care – the World Health Organization estimates a global shortage of 1.18 million mental health professionals. This gap between need and available resources has accelerated interest in technology-based solutions, particularly artificial intelligence (AI) systems that can potentially extend the reach and efficacy of mental health services.",
+        "contentType": "paragraph",
+        "action": "smart-shorten"
+      }
+    },
+    "methods": {
+      "p2": {
+        "current": "Natural Language Processing (NLP) forms the backbone of many mental health AI systems, enabling the analysis of linguistic content and communication patterns. Advanced transformer-based models like BERT (Bidirectional Encoder Representations from Transformers) and GPT (Generative Pre-trained Transformer) variants allow systems to interpret clinical narratives, therapy session transcripts, and patient-generated text with increasingly sophisticated understanding of context, sentiment, and psychological content. These models can identify linguistic markers associated with specific conditions, such as reduced syntactic complexity in depression or semantic coherence disruptions in psychotic disorders. The most advanced clinical NLP systems are fine-tuned on mental health-specific corpora, including anonymized clinical notes, therapy transcripts, and validated psychological assessment instruments.",
+        "english": "Natural Language Processing (NLP) forms the backbone of many mental health AI systems, enabling the analysis of linguistic content and communication patterns. Advanced transformer-based models like BERT (Bidirectional Encoder Representations from Transformers) and GPT (Generative Pre-trained Transformer) variants allow systems to interpret clinical narratives, therapy session transcripts, and patient-generated text with increasingly sophisticated understanding of context, sentiment, and psychological content. These models can identify linguistic markers associated with specific conditions, such as reduced syntactic complexity in depression or semantic coherence disruptions in psychotic disorders. The most advanced clinical NLP systems are fine-tuned on mental health-specific corpora, including anonymized clinical notes, therapy transcripts, and validated psychological assessment instruments.",
+        "contentType": "paragraph",
+        "action": "smart-shorten"
+      }
+    },
+    "results": {
+      "diagnosticSupport": {
+        "title": {
+          "current": "الذكاء الاصطناعي في الدعم التشخيصي",
+          "english": "AI in Diagnostic Support",
+          "contentType": "sectionTitle",
+          "action": "retranslate-full"
+        },
+        "p2": {
+          "current": "In depression detection, NLP algorithms analyzing linguistic features have achieved notable success. A 2021 study in JAMA Psychiatry evaluated an NLP system analyzing free-text responses to standardized prompts across 4,216 participants. The system demonstrated 87% sensitivity and 84% specificity for detecting major depressive disorder when compared with structured clinical interviews. Particularly predictive features included first-person singular pronoun usage, negative emotion words, and reduced linguistic variety. When combined with voice acoustic analysis (capturing prosodic features like reduced pitch variation and speaking rate), diagnostic accuracy increased to 92%.",
+          "english": "In depression detection, NLP algorithms analyzing linguistic features have achieved notable success. A 2021 study in JAMA Psychiatry evaluated an NLP system analyzing free-text responses to standardized prompts across 4,216 participants. The system demonstrated 87% sensitivity and 84% specificity for detecting major depressive disorder when compared with structured clinical interviews. Particularly predictive features included first-person singular pronoun usage, negative emotion words, and reduced linguistic variety. When combined with voice acoustic analysis (capturing prosodic features like reduced pitch variation and speaking rate), diagnostic accuracy increased to 92%.",
+          "contentType": "paragraph",
+          "action": "smart-shorten"
+        }
+      },
+      "therapeuticApplications": {
+        "title": {
+          "current": "الذكاء الاصطناعي في التطبيقات العلاجية",
+          "english": "AI in Therapeutic Applications",
+          "contentType": "sectionTitle",
+          "action": "retranslate-full"
+        },
+        "p2": {
+          "current": "Conversational AI systems implementing cognitive behavioral therapy (CBT) principles have undergone the most rigorous evaluation. In a landmark randomized controlled trial published in The Lancet Digital Health (2022), 1,032 participants with moderate depression were assigned to either an AI-delivered CBT program or treatment as usual. The AI system, which engaged users in daily text-based conversations implementing core CBT techniques, demonstrated statistically significant reductions in PHQ-9 depression scores at 12 weeks compared to the control group (mean difference -2.85 points, 95% CI -4.07 to -1.63, p<0.001). Treatment effects were maintained at 6-month follow-up. Notably, adherence rates to the AI program (68% completing the full protocol) exceeded typical rates for self-guided digital interventions (typically 25-30%), suggesting the conversational interface improved engagement.",
+          "english": "Conversational AI systems implementing cognitive behavioral therapy (CBT) principles have undergone the most rigorous evaluation. In a landmark randomized controlled trial published in The Lancet Digital Health (2022), 1,032 participants with moderate depression were assigned to either an AI-delivered CBT program or treatment as usual. The AI system, which engaged users in daily text-based conversations implementing core CBT techniques, demonstrated statistically significant reductions in PHQ-9 depression scores at 12 weeks compared to the control group (mean difference -2.85 points, 95% CI -4.07 to -1.63, p<0.001). Treatment effects were maintained at 6-month follow-up. Notably, adherence rates to the AI program (68% completing the full protocol) exceeded typical rates for self-guided digital interventions (typically 25-30%), suggesting the conversational interface improved engagement.",
+          "contentType": "paragraph",
+          "action": "smart-shorten"
+        }
+      },
+      "patientMonitoring": {
+        "title": {
+          "current": "الذكاء الاصطناعي في مراقبة المرضى والوقاية من الانتكاس",
+          "english": "AI in Patient Monitoring and Relapse Prevention",
+          "contentType": "sectionTitle",
+          "action": "retranslate-full"
+        },
+        "p2": {
+          "current": "For serious mental illness, including schizophrenia and bipolar disorder, early warning sign detection has shown significant clinical utility. In a 12-month prospective study of 304 individuals with schizophrenia, a smartphone-based monitoring system analyzing speech patterns, sleep, mobility, and social interaction detected 89% of psychotic relapses an average of 7.4 days before clinical deterioration became apparent during routine care. When integrated with a clinical response protocol, the system reduced hospitalization rates by 28% compared to treatment as usual, suggesting substantial benefit for both patients and healthcare systems.",
+          "english": "For serious mental illness, including schizophrenia and bipolar disorder, early warning sign detection has shown significant clinical utility. In a 12-month prospective study of 304 individuals with schizophrenia, a smartphone-based monitoring system analyzing speech patterns, sleep, mobility, and social interaction detected 89% of psychotic relapses an average of 7.4 days before clinical deterioration became apparent during routine care. When integrated with a clinical response protocol, the system reduced hospitalization rates by 28% compared to treatment as usual, suggesting substantial benefit for both patients and healthcare systems.",
+          "contentType": "paragraph",
+          "action": "smart-shorten"
+        }
+      }
+    },
+    "discussion": {
+      "text": {
+        "current": "توضح مراجعتنا للأدلة الحالية أن تطبيقات الذكاء الاصطناعي في الصحة العقلية قد تقدمت من الاحتمالات النظرية إلى الأدوات التي تم التحقق من صحتها سريريًا مع تأثيرات قابلة للقياس على دقة التقييم وتقديم العلاج ومراقبة الحالة. تظهر عدة موضوعات رئيسية من النتائج الجماعية.\n\nأولاً، تتفوق المناهج متعددة الوسائط باستمرار على الأنظمة أحادية الوسائط عبر التطبيقات. يخلق تكامل التحليل اللغوي والمراقبة السلوكية والإشارات الفسيولوجية والمعلومات السياقية صورة أكثر شمولاً للحالة العقلية من أي مقياس فردي. هذا يعكس الطبيعة المعقدة متعددة الأوجه لحالات الصحة العقلية، والتي تتجلى عبر المجالات المعرفية والعاطفية والسلوكية والفسيولوجية. يجب أن يستمر التطوير المستقبلي في التأكيد على تكامل مصادر البيانات التكميلية ضمن أطر تقييم متماسكة.\n\nثانيًا، تدعم الأدلة نموذجًا هجينًا حيث يزيد الذكاء الاصطناعي من خبرة الأطباء البشريين بدلاً من استبدالها. تضع التطبيقات الأكثر نجاحًا الذكاء الاصطناعي كمضاعف قوة للخبرة السريرية - توسيع النطاق، وتحسين الكفاءة، وتمكين تقييم أكثر استمرارية، ودعم الممارسة القائمة على الأدلة. يظل التحالف العلاجي بين المريض والمقدم أمرًا أساسيًا للرعاية الصحية العقلية الفعالة، ويبدو أن التكنولوجيا أكثر فعالية عند تعزيز هذه العلاقة بدلاً من محاولة استبدالها.\n\nثالثًا، يظهر التخصيص كعامل حاسم في الفعالية. تظهر حالات الصحة العقلية تباينًا كبيرًا في العرض والتقدم والاستجابة للعلاج. أظهرت أنظمة الذكاء الاصطناعي القادرة على التكيف עם פרופילי תסמינים אישיים, העדפות אישיות ודפוסי תגובה תוצאות עדיפות בהשוואה לגישות של מידה אחת מתאימה לכולם. זה מתיישב עם התנועה הרחבה יותר לעבר פסיכיאטריה מדויקת, שבה התערבויות מותאמות לפרופילים ביו-פסיכו-חברתיים אישיים.\n\nלמرות התפתחויות מבטיחות אלה, נותרו אתגרים משמעותיים בתרגום התקדמות מחקרית לפרקטיקה קלינית. מגבלות עיקריות כוללות:\n\nהטיה אלגוריתמית וחששות כלליות: מערכות רבות פותחו ואומתו על אוכלוסיות הומוגניות יחסית, מה שמעלה שאלות לגבי ביצועים בקבוצות דמוגרפיות מגוונות. עדויות ראשוניות מצביעות על כך שאלגוריתמים מסוימים מתפקדים באופן שונה בהקשרים תרבותיים, מגדריים וגזעיים/אתניים שונים. בעוד שעבודה אחרונה החלה להתמודד עם פערים אלה באמצעות נתוני הדרכה ייצוגיים יותר ותקני ייחוס מודעים תרבותית, הבטחת ביצועים שוויוניים נותרה אתגר מתמשך.\n\nראיות אורך מוגבלות: בעוד שמחקרים לטווח קצר מראים תוצאות מבטיחות, קיים מחסור בנתוני מעקב ארוכי טווח על מעורבות מתמשכת, השפעות טיפוליות עמידות ותוצאות בלתי מכוונות פוטנציאליות של התערבויות בינה מלאכותית. האופי המתפתח במהירות של טכנולוגיית הבינה המלאכותית עולה על לוח הזמנים המסורתי למחקר קליני אורך, ויוצר פער ראיות מתמשך.\n\nאתגרי אינטגרציה: חסמים טכניים, זרימת עבודה ותרבותיים מסבכים את שילוב כלי הבינה המלאכותית במערכות קליניות קיימות. יישום מוצלח דורש תשומת לב לזרימת העבודה של הקלינאי, אינטגרציה עם תיקים רפואיים אלקטרוניים, תפקידים ואחריות ברורים, מסגרות אחריות ומודלים של החזרים. ההתקדמות הטכנולוגית המשכנעת ביותר עלולה להיכשל במימוש הפוטנציאל שלה ללא תשומת לב קפדנית לגורמי יישום אלה.\n\nשיקולי פרטיות ואבטחה: נתוני בריאות הנפש הם מהמידע האישי הרגיש ביותר. בעוד שגישות טכניות כמו למידה מאוחדת ופרטיות דיפרנציאלית מסייעות בטיפול בחששות אלה, מסגרות ממשל מקיפות לניהול נתונים אחראי בבינה מלאכותית לבריאות הנפש נותרו לא מפותחות. איזון בין היתרונות של גישות מונעות נתונים לבין הגנות פרטיות חזקות מהווה אתגר מתמשך.\n\nאי ודאות רגולטורית: הנוף הרגולטורי לבינה מלאכותית בבריאות הנפש עדיין מתפתח. מסגרות נוכחיות המיועדות למכשירים רפואיים מסורתיים עשויות שלא להתייחס כראוי למאפיינים הייחודיים של מערכות בינה מלאכותית אדפטיביות הממשיכות ללמוד בפריסה. פיתוח תקני אימות מתאימים, דרישות ניטור ופרוטוקולי עדכון למערכות למידה יהיה חיוני לחדשנות אחראית.\n\nלמרות אתגרים אלה, הראיות תומכות בפיתוח מתמשך ויישום זהיר של יישומי בינה מלאכותית המדגימים תועלת קלינית, אמצעי בטיחות מתאימים ותשומת לב לשיקולים אתיים. הפוטנציאל להרחיב את הגישה לטיפול בבריאות הנפש - במיוחד עבור אוכלוסיות מוחלשות המתמודדות עם מחסור בספקים - מהווה רציונל משכנע לחדשנות מתמשכת בתחום זה.",
+        "english": "Our review of the current evidence demonstrates that AI applications in mental health have progressed from theoretical possibilities to clinically validated tools with measurable impacts on assessment accuracy, treatment delivery, and condition monitoring. Several key themes emerge from the collective findings.\n\nFirst, multimodal approaches consistently outperform single-modality systems across applications. The integration of linguistic analysis, behavioral monitoring, physiological signals, and contextual information creates a more comprehensive picture of mental state than any individual measure. This reflects the complex, multifaceted nature of mental health conditions, which manifest across cognitive, emotional, behavioral, and physiological domains. Future development should continue emphasizing the integration of complementary data sources within coherent assessment frameworks.\n\nSecond, the evidence supports a hybrid model where AI augments rather than replaces human clinicians. The most successful implementations position AI as a force multiplier for clinical expertise—extending reach, improving efficiency, enabling more continuous assessment, and supporting evidence-based practice. The therapeutic alliance between patient and provider remains central to effective mental healthcare, and technology appears most effective when enhancing rather than attempting to substitute for this relationship.\n\nThird, personalization emerges as a critical factor in efficacy. Mental health conditions exhibit substantial heterogeneity in presentation, progression, and treatment response. AI systems capable of adapting to individual symptom profiles, personal preferences, and response patterns have demonstrated superior outcomes compared to one-size-fits-all approaches. This aligns with the broader movement toward precision psychiatry, where interventions are tailored to individual biopsychosocial profiles.\n\nDespite these promising developments, significant challenges remain in translating research advancements into clinical practice. Key limitations include:\n\nAlgorithmic bias and generalizability concerns: Many systems have been developed and validated on relatively homogeneous populations, raising questions about performance across diverse demographic groups. Initial evidence suggests some algorithms perform differently across cultural contexts, gender, and racial/ethnic backgrounds. While recent work has begun addressing these disparities through more representative training data and culturally-informed reference standards, ensuring equitable performance remains an ongoing challenge.\n\nLimited longitudinal evidence: While short-term studies show promising results, there is a shortage of long-term follow-up data on sustained engagement, durable treatment effects, and potential unintended consequences of AI interventions. The rapidly evolving nature of AI technology outpaces the traditional timeline for longitudinal clinical research, creating a persistent evidence gap.\n\nIntegration challenges: Technical, workflow, and cultural barriers complicate the integration of AI tools into existing clinical systems. Successful implementation requires attention to clinician workflow, integration with electronic health records, clear roles and responsibilities, liability frameworks, and reimbursement models. The most compelling technical advances may fail to realize their potential without careful attention to these implementation factors.\n\nPrivacy and security considerations: Mental health data is among the most sensitive personal information. While technical approaches like federated learning and differential privacy help address these concerns, comprehensive governance frameworks for responsible data stewardship in mental health AI remain underdeveloped. Balancing the benefits of data-driven approaches with robust privacy protections represents an ongoing challenge.\n\nRegulatory uncertainty: The regulatory landscape for AI in mental health is still evolving. Current frameworks designed for traditional medical devices may not adequately address the unique characteristics of adaptive AI systems that continue learning in deployment. Developing appropriate validation standards, monitoring requirements, and update protocols for learning systems will be essential for responsible innovation.\n\nThese challenges notwithstanding, the evidence supports continued development and cautious implementation of AI applications that demonstrate clinical benefit, appropriate safety measures, and attention to ethical considerations. The potential to expand access to mental healthcare—particularly for underserved populations facing provider shortages—presents a compelling rationale for ongoing innovation in this field.",
+        "contentType": "paragraph",
+        "action": "retranslate-full"
+      }
+    },
+    "conclusion": {
+      "text": {
+        "current": "تقدمت تطبيقات الذكاء الاصطناعي في الصحة العقلية بشكل كبير خلال العقد الماضي، حيث انتقلت من المفاهيم النظرية إلى الأدوات التي تم التحقق من صحتها سريريًا مع فعالية مثبتة عبر الدعم التشخيصي والتقديم العلاجي ومراقبة المرضى والتحليلات التنبؤية. تشير الأدلة التي تمت مراجعتها في هذا المستند إلى أن هذه التقنيات لديها إمكانات حقيقية لمعالجة التحديات الحاسمة في الرعاية الصحية العقلية، بما في ذلك قيود الوصول وقيود الموارد والحاجة إلى مناهج أكثر استمرارية وتخصيصًا للتقييم والتدخل.\n\nيجب أن توجه عدة مبادئ رئيسية التطوير والتنفيذ في المستقبل. أولاً، يجب أن يزيد الذكاء الاصطناعي من الخبرة السريرية البشرية ويمددها بدلاً من محاولة استبدال العلاقة العلاجية الأساسية بين مقدم الخدمة والمريض. ثانيًا، توفر المناهج متعددة الوسائط التي تدمج مصادر بيانات متنوعة الصورة الأكثر شمولاً ودقة لحالة الصحة العقلية. ثالثًا، تعد قدرات التخصيص التي تتكيف مع الاحتياجات الفردية والتفضيلات وأنماط الاستجابة أمرًا أساسيًا لتحقيق النتائج المثلى. رابعًا، يعد الاهتمام الدقيق بإنصاف الخوارزميات والتحقق الشفاف عبر مجموعات سكانية متنوعة والمراقبة المستمرة للتحيزات المحتملة أمرًا ضروريًا للتنفيذ العادل.\n\nفي حين لا تزال هناك تحديات كبيرة - بما في ذلك التكامل في مهام سير العمل السريرية، وحماية الخصوصية، والأطر التنظيمية، وتطوير الأدلة طويلة المدى - فإن الفوائد المحتملة تبرر استمرار البحث والتنفيذ السريري الحذر للأنظمة التي تم التحقق من صحتها جيدًا. تتطلب فجوة علاج الصحة العقلية التي تؤثر على الملايين على مستوى العالم مناهج مبتكرة يمكنها توسيع نطاق الرعاية القائمة على الأدلة للسكان المحرومين.",
+        "english": "Artificial intelligence applications in mental health have progressed significantly over the past decade, moving from theoretical concepts to clinically validated tools with demonstrated efficacy across diagnostic support, therapeutic delivery, patient monitoring, and predictive analytics. The evidence reviewed in this paper suggests these technologies have genuine potential to address critical challenges in mental healthcare, including access limitations, resource constraints, and the need for more continuous and personalized approaches to assessment and intervention.\n\nSeveral key principles should guide future development and implementation. First, AI should augment and extend human clinical expertise rather than attempting to replace the essential therapeutic relationship between provider and patient. Second, multimodal approaches integrating diverse data sources provide the most comprehensive and accurate picture of mental health status. Third, personalization capabilities that adapt to individual needs, preferences, and response patterns are central to achieving optimal outcomes. Fourth, careful attention to algorithm fairness, transparent validation across diverse populations, and ongoing monitoring for potential biases is essential for equitable implementation.\n\nWhile significant challenges remain—including integration into clinical workflows, privacy protections, regulatory frameworks, and long-term evidence development—the potential benefits warrant continued research and cautious clinical implementation of well-validated systems. The mental health treatment gap affecting millions globally demands innovative approaches that can extend the reach of evidence-based care.\n\nLooking forward, we anticipate several promising directions for the field. Integration of genomic and other biological data with behavioral and psychological measures may enable more precise characterization of individual risk profiles and treatment response predictors. Federated learning approaches that enable model development across institutions without centralizing sensitive data could address privacy concerns while enabling more diverse and representative training sets. Novel human-AI collaboration models that optimize the respective strengths of clinicians and artificial intelligence may yield superior outcomes compared to either alone.\n\nAs these technologies continue to evolve, maintaining a balanced perspective is essential—acknowledging both the substantial potential of AI to improve mental healthcare and the fundamental importance of human connection, clinical wisdom, and person-centered approaches. With thoughtful development, rigorous validation, and careful implementation, AI has the potential to become a valuable tool in addressing the global burden of mental illness and advancing the goal of making effective mental healthcare accessible to all who need it.",
+        "contentType": "paragraph",
+        "action": "retranslate-full"
+      }
+    }
+  },
+  "whyVirtualMD": {
+    "sections": {
+      "hero": {
+        "subtitle": {
+          "current": "اكتشف إمكاناتك الصحية مع VirtualMD.app. استشر أدلة الذكاء الاصطناعي المدربين في الطب الغربي والطب الصيني التقليدي وفنون العافية الأخرى - كل ذلك في محادثة واحدة. احصل على رؤى شخصية على مدار الساعة طوال أيام الأسبوع وتحكم في صحتك. هذه هي الصحة، أعيد تصورها.",
+          "english": "Unlock your health potential with VirtualMD.app. Consult AI guides trained in Western Medicine, Traditional Chinese Medicine, and other wellness arts—all in one conversation. Get personalized insights 24/7 and take control of your health. This is healthcare, reimagined.",
+          "contentType": "sectionTitle",
+          "action": "retranslate-full"
+        }
+      },
+      "whyUs": {
+        "points": {
+          "personalTeam": {
+            "text": {
+              "current": "اختر فريق مستشاري صحة الذكاء الاصطناعي الخاص بك. استمد الرؤى من الطب الغربي والطب الصيني التقليدي وخبرة العافية التكميلية.",
+              "english": "Choose your team of AI health advisors. Draw insights from Western Medicine, Traditional Chinese Medicine, and complementary wellness expertise.",
+              "contentType": "paragraph",
+              "action": "retranslate-full"
+            }
+          },
+          "aiNavigator": {
+            "text": {
+              "current": "ملاح الصحة الشخصي بالذكاء الاصطناعي يرشدك إلى أكثر الرؤى واستراتيجيات العافية صلة، ويترجم الرؤى من مستشاري الذكاء الاصطناعي المتخصصين لدينا إلى نصائح عملية لك.",
+              "english": "Your personal AI health navigator guides you to the most relevant wellness insights and strategies, translating insights from our specialized AI advisors into actionable advice for you.",
+              "contentType": "menuItem",
+              "action": "retranslate-full"
+            }
+          },
+          "empoweringChoices": {
+            "title": {
+              "current": "تمكين الخيارات الصحية",
+              "english": "Empowering Health Choices",
+              "contentType": "sectionTitle",
+              "action": "retranslate-full"
+            }
+          },
+          "easyToUse": {
+            "text": {
+              "current": "تم تصميم منصتنا للتفاعل البديهي. تواصل مع أدلة الذكاء الاصطناعي واستكشف مسارات العافية دون تعقيد.",
+              "english": "Our platform is designed for intuitive interaction. Connect with AI guides and explore wellness paths without complexity.",
+              "contentType": "paragraph",
+              "action": "retranslate-full"
+            }
+          }
+        }
+      },
+      "features": {
+        "points": {
+          "dynamicEnsemble": {
+            "title": {
+              "current": "مجموعة ذكاء اصطناعي ديناميكية:",
+              "english": "Dynamic AI Ensemble:",
+              "contentType": "sectionTitle",
+              "action": "retranslate-full"
+            },
+            "text": {
+              "current": "ذكاؤنا الاصطناعي المنسق يجمع بذكاء الرؤى من مجموعة متنوعة من أدلة العافية المتخصصين بالذكاء الاصطناعي - تمتد عبر الطب الغربي والطب الصيني التقليدي وأكثر - لمعالجة أسئلتك المحددة في الوقت الفعلي.",
+              "english": "Our orchestrating AI intelligently combines insights from a diverse array of specialized AI wellness guides—spanning Western Medicine, Traditional Chinese Medicine, and more—to address your specific questions in real-time.",
+              "contentType": "paragraph",
+              "action": "retranslate-full"
+            }
+          },
+          "holisticUnderstanding": {
+            "title": {
+              "current": "فهم شامل:",
+              "english": "Holistic Understanding:",
+              "contentType": "sectionTitle",
+              "action": "retranslate-full"
+            },
+            "text": {
+              "current": "ذكاؤنا الاصطناعي يفسر مدخلات متنوعة - نص أو صور لتقدمك في اللياقة البدنية أو إدخالات يومية العافية - للحصول على وجهات نظر عافية شاملة وغنية بالسياق.",
+              "english": "Our AI interprets diverse inputs—text, or images of your fitness progress, or wellness journal entries—for comprehensive, context-rich wellness perspectives.",
+              "contentType": "paragraph",
+              "action": "retranslate-full"
+            }
+          },
+          "rapidAccess": {
+            "title": {
+              "current": "وصول سريع لأدلة الذكاء الاصطناعي:",
+              "english": "Rapid Access to AI Guides:",
+              "contentType": "sectionTitle",
+              "action": "retranslate-full"
+            },
+            "text": {
+              "current": "اتصل فوراً بمئات أدلة العافية المتخصصين بالذكاء الاصطناعي مع استجابة تحت الثانية.",
+              "english": "Connect instantly with hundreds of specialized AI wellness guides with sub-second response.",
+              "contentType": "paragraph",
+              "action": "retranslate-full"
+            }
+          },
+          "reliableInteractions": {
+            "text": {
+              "current": "ضمانات أمان تلقائية تضمن تجربة سلسة ومتواصلة، حتى لو احتاج دليل الذكاء الاصطناعي لحظة لإعادة المعايرة.",
+              "english": "Automatic safety safeguards ensure a smooth, uninterrupted experience, even if an AI guide needs a moment to recalibrate.",
+              "contentType": "paragraph",
+              "action": "retranslate-full"
+            }
+          },
+          "insightfulLogs": {
+            "text": {
+              "current": "يتم تسجيل تفاعلات الجلسة لدعم التحسين المستمر وتطوير معرفة أدلة الذكاء الاصطناعي لدينا.",
+              "english": "Session interactions are logged to support continuous improvement and development of our AI guides' knowledge.",
+              "contentType": "paragraph",
+              "action": "retranslate-full"
+            }
+          }
+        }
+      },
+      "technology": {
+        "description1": {
+          "current": "تستخدم VirtualMD.app طرق تنسيق رائدة. نظامنا يضمن أن استفساراتك تستفيد من جوقة من أدلة الذكاء الاصطناعي، تستمد من المعرفة الطبية الغربية ومبادئ الطب الصيني التقليدي وعلوم التغذية وتقنيات الذهن الحاضر واستراتيجيات اللياقة وأكثر، لتوفير أشمل منظور.",
+          "english": "VirtualMD.app employs cutting-edge orchestration methods. Our system ensures your inquiries benefit from a chorus of AI guides, drawing from Western medical knowledge, Traditional Chinese Medicine principles, nutritional science, mindfulness techniques, fitness strategies, and more, to provide the most comprehensive perspective.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        },
+        "description3": {
+          "current": "مع مكتبة واسعة ويمكن الوصول إليها فوراً من أدلة العافية بالذكاء الاصطناعي وبروتوكولات تفاعل قوية، نضمن مشاركة متسقة وعالية الجودة في أي نطاق.",
+          "english": "With an extensive, instantly accessible library of AI wellness guides and robust interaction protocols, we ensure consistent, high-quality engagement in any domain.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      },
+      "cta": {
+        "subtitle": {
+          "current": "انضم إلى حركة <span dir=\"ltr\">VirtualMD.app</span> واكتشف عصر جديد من الوصول إلى نصائح العافية المتطورة. اتخذ الخطوة الأولى نحو شخص أكثر تمكيناً ومعرفة وحيوية. استكشف وجهات نظر متنوعة للذكاء الاصطناعي وقاعدة معرفة العافية الشاملة لدينا.",
+          "english": "Join the <span>VirtualMD.app</span> movement and discover a new era of access to cutting-edge wellness advice. Take the first step toward a more empowered, knowledgeable, and vibrant you. Explore diverse AI perspectives and our comprehensive wellness knowledge base.",
+          "contentType": "sectionTitle",
+          "action": "retranslate-full"
+        }
+      }
+    }
+  },
+  "dermatologyaiWhitepaper": {
+    "section22": {
+      "title": {
+        "current": "[TRANSLATE TO AR] , margin, currentY, contentWidth); currentY += 10;\n      doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 10;\n      doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section25": {
+      "title": {
+        "current": "[TRANSLATE TO AR] , margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section26": {
+      "title": {
+        "current": "[TRANSLATE TO AR] ); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "english": "); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section31": {
+      "title": {
+        "current": "[TRANSLATE TO AR] , margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section32": {
+      "title": {
+        "current": "[TRANSLATE TO AR] ); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "english": "); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section35": {
+      "title": {
+        "current": "[TRANSLATE TO AR] , margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section36": {
+      "title": {
+        "current": "[TRANSLATE TO AR] ); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "english": "); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section37": {
+      "title": {
+        "current": "[TRANSLATE TO AR] Figure 3. Time to Dermatologist Consultation: Standard vs. AI-Assisted Referral",
+        "english": "Figure 3. Time to Dermatologist Consultation: Standard vs. AI-Assisted Referral",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section47": {
+      "title": {
+        "current": "[TRANSLATE TO AR] , margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section68": {
+      "title": {
+        "current": "[TRANSLATE TO AR]  paragraph>\n            A key advancement has been the development of ",
+        "english": " paragraph>\n            A key advancement has been the development of ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    }
+  },
+  "imagingaiWhitepaper": {
+    "section21": {
+      "title": {
+        "current": "[TRANSLATE TO AR] , margin, currentY, contentWidth); currentY += 10;\n       doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 10;\n       doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section24": {
+      "title": {
+        "current": "[TRANSLATE TO AR] , margin, currentY, contentWidth); currentY += 5;\n       doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 5;\n       doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section25": {
+      "title": {
+        "current": "[TRANSLATE TO AR] ); doc.setFontSize(10);\n       currentY = addWrappedText(doc, \n          ",
+        "english": "); doc.setFontSize(10);\n       currentY = addWrappedText(doc, \n          ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section30": {
+      "title": {
+        "current": "[TRANSLATE TO AR] , margin, currentY, contentWidth); currentY += 5;\n       doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 5;\n       doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section31": {
+      "title": {
+        "current": "[TRANSLATE TO AR] ); doc.setFontSize(10);\n       currentY = addWrappedText(doc, \n         ",
+        "english": "); doc.setFontSize(10);\n       currentY = addWrappedText(doc, \n         ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section33": {
+      "title": {
+        "current": "[TRANSLATE TO AR] , margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section34": {
+      "title": {
+        "current": "[TRANSLATE TO AR] ); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "english": "); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section38": {
+      "title": {
+        "current": "[TRANSLATE TO AR] , margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section39": {
+      "title": {
+        "current": "[TRANSLATE TO AR] ); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "english": "); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section40": {
+      "title": {
+        "current": "[TRANSLATE TO AR] Figure 2. Sensitivity and Specificity in Key Imaging AI Studies",
+        "english": "Figure 2. Sensitivity and Specificity in Key Imaging AI Studies",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section48": {
+      "title": {
+        "current": "[TRANSLATE TO AR] , margin, currentY, contentWidth); currentY += 5;\n       doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 5;\n       doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    }
+  },
+  "pathologyaiWhitepaper": {
+    "section18": {
+      "title": {
+        "current": "[TRANSLATE TO AR]  is not valid inside a JSX element\n363|            <Typography variant=",
+        "english": " is not valid inside a JSX element\n363|            <Typography variant=",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section20": {
+      "title": {
+        "current": "[TRANSLATE TO AR]  concerns common to deep learning systems in clinical applications.",
+        "english": " concerns common to deep learning systems in clinical applications.",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section22": {
+      "title": {
+        "current": "[TRANSLATE TO AR] , margin, currentY, contentWidth); currentY += 10;\n      doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 10;\n      doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section25": {
+      "title": {
+        "current": "[TRANSLATE TO AR] , margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section26": {
+      "title": {
+        "current": "[TRANSLATE TO AR] ); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "english": "); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section28": {
+      "title": {
+        "current": "[TRANSLATE TO AR] , margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section29": {
+      "title": {
+        "current": "[TRANSLATE TO AR] ); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "english": "); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section33": {
+      "title": {
+        "current": "[TRANSLATE TO AR] , margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section34": {
+      "title": {
+        "current": "[TRANSLATE TO AR] ); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "english": "); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section37": {
+      "title": {
+        "current": "[TRANSLATE TO AR] , margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section38": {
+      "title": {
+        "current": "[TRANSLATE TO AR] ); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "english": "); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section39": {
+      "title": {
+        "current": "[TRANSLATE TO AR] , \n        margin, currentY + 2, contentWidth);\n      currentY += 15;\n      \n      addFigure(",
+        "english": ", \n        margin, currentY + 2, contentWidth);\n      currentY += 15;\n      \n      addFigure(",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section48": {
+      "title": {
+        "current": "[TRANSLATE TO AR] , margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    }
+  }
+}

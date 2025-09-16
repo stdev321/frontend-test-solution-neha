@@ -1,0 +1,907 @@
+{
+  "header": {
+    "login": "כְּנִיסָה לַמַעֲרֶכֶת",
+    "register": "לִרְשׁוֹם",
+    "logout": "התנתק",
+    "aboutUs": "אודותינו",
+    "learnMore": "למידע נוסף",
+    "advisory": "מְיָעֵץ",
+    "start": "הַתחָלָה",
+    "greetingHello": "שלום {{שם}}!",
+    "welcomeToVirtualMD": "ברוכים הבאים ל-VirtualMD!",
+    "signupForFullAccess": "הירשמו לקבלת גישה מלאה",
+    "profileTitle": "הפרופיל שלי / כניסה לצ'אט",
+    "logoutTitle": "התנתק",
+    "toggleTheme": "החלפת מצב בהיר/כהה",
+    "toggleMode": "החלפת מצב בהיר/כהה",
+    "myProfile": "הפרופיל שלי / כניסה לצ'אט",
+    "dashboard": "לוּחַ מַחווָנִים",
+    "endConversation": "סיום שיחה",
+    "returnToConversation": "חזרה לשיחה",
+    "startConversation": "התחל שיחה",
+    "endConsult": "סיום ייעוץ",
+    "returnToConsult": "חזור להתייעצות",
+    "startConsult": "התחל ייעוץ",
+    "home": "בַּיִת",
+    "healthEncyclopedia": "אנציקלופדיה בריאותית",
+    "researchPublications": "מחקר ופרסומים",
+    "contactUs": "צרו קשר",
+    "light": "אוֹר",
+    "dark": "כֵּהֶה",
+    "toggleModeText": "הפעלה/כיבוי מצב {{mode}}",
+    "legal": "מִשׁפָּטִי"
+  },
+  "howToUse": "כיצד להשתמש",
+  "settings": {
+    "lightMode": "מצב תאורה",
+    "darkMode": "מצב כהה"
+  },
+  "navigation": {
+    "dashboard": "לוּחַ מַחווָנִים",
+    "home": "בַּיִת",
+    "aboutUs": "אודותינו",
+    "returnToChat": "חזרה לצ'אט",
+    "continueConsultation": "המשך את הייעוץ שלך",
+    "exitConsultation": "ייעוץ יציאה",
+    "startNewConsultation": "התחלת ייעוץ חדש",
+    "sections": {
+      "chatTools": "כלי צ'אט",
+      "functionality": "פונקציונליות",
+      "aboutUs": "אודותינו",
+      "requiredDocuments": "מסמכים נדרשים",
+      "research": "מֶחקָר",
+      "controls": "בקרות",
+      "settings": "הגדרות"
+    },
+    "myTeam": "הצוות שלי",
+    "summary": "תַקצִיר",
+    "transcript": "תמלול",
+    "encyclopedia": "אֶנצִיקלוֹפֶּדִיָה",
+    "priorChats": "צ'אטים קודמים",
+    "myProfile": "הפרופיל שלי",
+    "healthEncyclopedia": "אנציקלופדיה בריאותית",
+    "noteFromFounders": "הערה מהמייסדים",
+    "faq": "שאלות נפוצות",
+    "contactUs": "צרו קשר",
+    "legal": "מִשׁפָּטִי",
+    "dataPrivacy": "פרטיות נתונים",
+    "aiAccuracyStudies": "מחקרי דיוק של בינה מלאכותית",
+    "empowerYourself": "העצמת עצמך",
+    "deepResearch": "מחקר מעמיק",
+    "aboutUsItems": {
+      "advisory": "מְיָעֵץ",
+      "dataPrivacy": "פרטיות נתונים"
+    },
+    "learnMore": {
+      "imagingAI": "הדמיה ובינה מלאכותית",
+      "pathologyAI": "פתולוגיה ובינה מלאכותית",
+      "dermatologyAI": "דרמטולוגיה ובינה מלאכותית",
+      "mentalHealthAI": "בריאות הנפש ובינה מלאכותית",
+      "accuracyStudies": "מחקרי דיוק של בינה מלאכותית",
+      "allResearch": "כל המחקר",
+      "empowerYourself": "העצמת עצמך"
+    }
+  },
+  "landing": {
+    "title": "VirtualMD.app",
+    "subtitle": "פתרונות בריאות המונעים על ידי בינה מלאכותית",
+    "tryItOut": "נסה את זה",
+    "scrollDown": "גלול למטה",
+    "scrollUp": "גלול למעלה",
+    "alwaysHereForYou": "תמיד כאן בשבילך.",
+    "cards": {
+      "whyUse": {
+        "title": "למה VirtualMD?",
+        "description": "גלו את היתרונות המהפכניים של פלטפורמת הבריאות הווירטואלית שלנו המופעלת על ידי בינה מלאכותית"
+      },
+      "dataPrivacy": {
+        "title": "הפרטיות שלך",
+        "description": "כמו חבר נאמן, סודות הבריאות שלך בטוחים איתנו"
+      },
+      "tryItOut": {
+        "title": "נסה את זה",
+        "description": "הילד שלי חולה|אני לא יכול לישון!|תזונה מאהבה",
+        "tagline": "אין צורך בהרשמה."
+      },
+      "wellness": {
+        "title": "מחקר מעמיק",
+        "description": "אנציקלופדיה בריאותית עם מקורות מהימנים"
+      },
+      "yourHealth": {
+        "title": "הבריאות שלך",
+        "description": "עצבו את מסע הבריאות שלכם בעזרת בינה מלאכותית"
+      }
+    }
+  },
+  "chat": {
+    "startNewConsult": "התחל ייעוץ חדש",
+    "noSpeechDetected": "לא קלטתי את זה",
+    "noSpeechMessage": "לא הצלחתי לזהות דיבור בהקלטה שלך. נסה לדבר קצת יותר חזק או להתקרב למיקרופון שלך, ולאחר מכן נסה שוב.",
+    "dontShowAgain": "אל תראה לי שוב",
+    "gotIt": "הבנתי",
+    "loading": "טְעִינָה…"
+  },
+  "loading": {
+    "preparingHealthTeam": "מכינים את צוות הבריאות של בינה מלאכותית...",
+    "connectingSpecialists": "חיבור עם מומחי בריאות...",
+    "initializingSystem": "מאתחל את מערכת הבריאות המותאמת אישית שלך...",
+    "almostReady": "כמעט מוכן לעזור לך...",
+    "dots": "..."
+  },
+  "common": {
+    "loading": "טְעִינָה…",
+    "user": {
+      "defaultInitial": "יו",
+      "defaultName": "שָׁם",
+      "defaultAltText": "מִשׁתַמֵשׁ"
+    },
+    "error": "שְׁגִיאָה",
+    "success": "הַצלָחָה",
+    "cancel": "לְבַטֵל",
+    "confirm": "לְאַשֵׁר",
+    "save": "לְהַצִיל",
+    "delete": "לִמְחוֹק",
+    "edit": "לַעֲרוֹך",
+    "close": "לִסְגוֹר",
+    "next": "הַבָּא",
+    "previous": "קוֹדֵם",
+    "submit": "לְהַגִישׁ",
+    "search": "לְחַפֵּשׂ",
+    "filter": "לְסַנֵן",
+    "sort": "סוּג",
+    "upload": "העלאה",
+    "download": "הורדה",
+    "print": "הֶדפֵּס",
+    "share": "לַחֲלוֹק",
+    "copy": "לְהַעְתִיק",
+    "paste": "לְהַדבִּיק",
+    "cut": "גְזִירָה",
+    "undo": "לְבַטֵל",
+    "redo": "לַעֲשׂוֹת שׁוּב",
+    "yes": "כֵּן",
+    "no": "לֹא",
+    "ok": "בְּסֵדֶר",
+    "punctuation": {
+      "ellipsis": "..."
+    },
+    "apply": "לִפְנוֹת",
+    "reset": "אִתחוּל",
+    "clear": "בָּרוּר",
+    "back": "בְּחֲזָרָה",
+    "forward": "קָדִימָה",
+    "home": "בַּיִת",
+    "refresh": "לְרַעֲנֵן",
+    "reload": "לִטעוֹן מִחָדָשׁ",
+    "help": "עֶזרָה",
+    "about": "אוֹדוֹת",
+    "contact": "מַגָע",
+    "profile": "פּרוֹפִיל",
+    "account": "חֶשְׁבּוֹן",
+    "privacy": "פְּרָטִיוּת",
+    "terms": "תנאים",
+    "legal": "מִשׁפָּטִי",
+    "support": "תְמִיכָה",
+    "feedback": "מָשׁוֹב",
+    "welcome": "קַבָּלַת פָּנִים",
+    "goodbye": "להתראות",
+    "thankyou": "תודה רבה",
+    "send": "לִשְׁלוֹחַ",
+    "none": "אַף לֹא אֶחָד",
+    "generating": "יוצר...",
+    "settings": "הגדרות"
+  },
+  "auth": {
+    "loginTitle": "כניסה",
+    "registerTitle": "צור חשבון",
+    "email": "אֶלֶקטרוֹנִי",
+    "password": "סִיסמָה",
+    "confirmPassword": "אשר סיסמה",
+    "fullName": "שם מלא",
+    "displayName": "שם תצוגה",
+    "rememberMe": "זכור אותי",
+    "forgotPassword": "שכחת סיסמה?",
+    "noAccount": "אין לך חשבון?",
+    "hasAccount": "כבר יש לך חשבון?",
+    "signUp": "הרשמה",
+    "signIn": "כניסה",
+    "signOut": "יציאה",
+    "createAccount": "צור חשבון",
+    "loginButton": "כְּנִיסָה לַמַעֲרֶכֶת",
+    "registerButton": "לִרְשׁוֹם",
+    "logout": "התנתק"
+  },
+  "footer": {
+    "copyright": "כל הזכויות שמורות ל-MindScript Technologies LLC.",
+    "privacyPolicy": "מדיניות פרטיות",
+    "termsOfService": "תנאי השירות",
+    "cookiePolicy": "מדיניות קובצי Cookie",
+    "medicalAdvisory": "ייעוץ בריאותי",
+    "yourPrivacy": "הפרטיות שלך",
+    "legal": "מִשׁפָּטִי",
+    "contactUs": "צרו קשר",
+    "howToUse": "כיצד להשתמש",
+    "faq": "שאלות נפוצות",
+    "noteFromFounders": "הערה מהמייסדים",
+    "medicalDisclaimerTooltip": "MindScript שואפת לספק את מידע הבריאות המדויק והעדכני ביותר באמצעות פרסונות בריאות המופעלות על ידי בינה מלאכותית. עם זאת, פרסונות אלו אינן מומחי בריאות מורשים ועשויות להיות שגויות. במקרה חירום רפואי אמיתי, חייגו 911 או פנו מיד למחלקת החירום הקרובה ביותר. עבור כל בעיה בריאותית אחרת או לפני ניסיון טיפולים או תרופות כלשהן, אנא התייעצו עם ספק שירותי בריאות או מומחה מוסמך.",
+    "advisory": "מְיָעֵץ"
+  },
+  "forms": {
+    "required": "שדה זה נדרש",
+    "invalidEmail": "אנא הזן כתובת דוא\"ל תקפה",
+    "passwordTooShort": "הסיסמה חייבת להיות באורך של לפחות 8 תווים",
+    "passwordsDoNotMatch": "הסיסמאות אינן תואמות",
+    "invalidInput": "אנא הזן קלט תקין",
+    "fieldRequired": "שדה חובה",
+    "selectOption": "אנא בחר אפשרות",
+    "uploadFile": "העלאת קובץ",
+    "dragAndDrop": "גרור ושחרר קבצים לכאן, או לחץ כדי לבחור",
+    "fileUploaded": "הקובץ הועלה בהצלחה",
+    "uploadError": "שגיאה בהעלאת הקובץ"
+  },
+  "language": {
+    "english": "אַנגְלִית",
+    "arabic": "ערבית",
+    "hebrew": "עברית",
+    "switchTo": "עבור ל-{{שפה}}",
+    "currentLanguage": "שפה נוכחית: {{language}}"
+  },
+  "animation": {
+    "title": {
+      "simply": "פָּשׁוּט",
+      "better": "לְשַׁפֵּר",
+      "health": "בְּרִיאוּת",
+      "period": "."
+    }
+  },
+  "hero": {
+    "subtitle": "ייעוץ אישי לבריאות ואיכות חיים 24/7.",
+    "subtitleMobile": "ייעוץ בריאותי מותאם אישית מבוסס בינה מלאכותית 24/7",
+    "poweredBy": "מופעל על ידי בינה מלאכותית."
+  },
+  "research": {
+    "title": "מחקר ופרסומים",
+    "subtitle": "פתרונות בריאות מבוססי ראיות בתחום הבינה המלאכותית",
+    "aiImaging": {
+      "title": "בינה מלאכותית בהדמיה אבחנתית",
+      "description": "ניתוח מקיף של יישומי בינה מלאכותית בהדמיה רפואית בתחומי הרדיולוגיה, הפתולוגיה והאופתלמולוגיה."
+    },
+    "pathologyAI": {
+      "title": "סיוע בפתולוגיה של בינה מלאכותית",
+      "description": "יישומי למידה עמוקה בפתולוגיה דיגיטלית לגילוי סרטן ושיפור דיוק האבחון."
+    },
+    "dermatologyAI": {
+      "title": "פתרונות בינה מלאכותית לדרמטולוגיה",
+      "description": "זיהוי ואבחון של בעיות עור המונעים על ידי בינה מלאכותית באמצעות ראייה ממוחשבת ולמידת מכונה."
+    },
+    "mentalHealthAI": {
+      "title": "בריאות הנפש ובינה מלאכותית",
+      "description": "יישומי בינה מלאכותית בבדיקות סקר, אבחון ותמיכה בטיפול בבריאות הנפש."
+    },
+    "accuracyStudies": {
+      "title": "מחקרי דיוק של בינה מלאכותית",
+      "description": "אימות קליני ומדדי ביצועים של מערכות אבחון מבוססות בינה מלאכותית במסגרות רפואיות בעולם האמיתי."
+    }
+  },
+  "whitepapers": {
+    "downloadPdf": "הורד קובץ PDF",
+    "generating": "יוצר...",
+    "abstract": "תַקצִיר",
+    "introduction": "מָבוֹא",
+    "methods": "שיטות/טכנולוגיות",
+    "results": "תוצאות",
+    "discussion": "דִיוּן",
+    "conclusion": "מַסְקָנָה",
+    "references": "הפניות",
+    "authors": "מחברים",
+    "email": "אֶלֶקטרוֹנִי",
+    "organization": "אִרגוּן"
+  },
+  "imageProcessing": {
+    "preset": "הגדרה מראש",
+    "process": "תַהֲלִיך",
+    "revert": "לַחֲזוֹר",
+    "applyPreset": "החלת קביעה מוגדרת מראש על התמונה בפוקוס",
+    "revertFocus": "מיקוד מחדש בתמונה המקורית"
+  },
+  "alt": {
+    "logo": "לוגו של VirtualMD.app",
+    "logoSmall": "לוגו קטן של MindScript",
+    "integratedApproach": "גישת בריאות משולבת",
+    "userProfile": "פרופיל משתמש",
+    "aiDoctor": "מומחית בריאות בינה מלאכותית קרול",
+    "aiAssistant": "עוזר בינה מלאכותית",
+    "backgroundImage": "תמונת רקע יפה",
+    "home": "דף הבית של MindScript",
+    "processed": "תמונה מעובדת",
+    "zoomPreview": "תצוגה מקדימה של זום התמונה"
+  },
+  "aria": {
+    "scrollDown": "גלול למטה",
+    "scrollUp": "גלול למעלה",
+    "openMenu": "פתח תפריט",
+    "togglePassword": "הפעל/הפעל נראות סיסמה",
+    "chooseLanguage": "בחר שפה",
+    "goHome": "עבור לדף הבית",
+    "remove": "לְהַסִיר",
+    "edit": "לַעֲרוֹך",
+    "delete": "לִמְחוֹק",
+    "save": "לְהַצִיל",
+    "cancel": "לְבַטֵל",
+    "breadcrumb": "פירורי לחם ניווט",
+    "conversationChoice": "בחירת שיחה",
+    "personaChoice": "בחירת פרסונה",
+    "panel": "לוּחַ",
+    "summary": "תַקצִיר",
+    "differentialOpinion": "דעה שונה",
+    "transcript": "תמלול",
+    "encyclopedia": "אֶנצִיקלוֹפֶּדִיָה",
+    "endConversation": "סיום שיחה",
+    "startChat": "התחל צ'אט עם הצוות",
+    "configureChat": "הגדר צ'אט חדש",
+    "savedConsultations": "ייעוץ שנשמר",
+    "myProfile": "הפרופיל שלי"
+  },
+  "researchPage": {
+    "title": "מחקר ופרסומים",
+    "healthAdvisory": {
+      "title": "ייעוץ בריאותי",
+      "description": "מידע חשוב על בריאות ובטיחות",
+      "button": "הצג ייעוץ"
+    },
+    "imagingAI": {
+      "title": "בינה מלאכותית בהדמיה אבחנתית",
+      "description": "יישומי בינה מלאכותית בהדמיה רפואית בתחומי הרדיולוגיה, הפתולוגיה והאופתלמולוגיה",
+      "button": "קרא עוד"
+    },
+    "pathologyAI": {
+      "title": "פתולוגיה בסיוע בינה מלאכותית",
+      "description": "יישומי למידה עמוקה בפתולוגיה דיגיטלית לגילוי סרטן ודיוק אבחוני",
+      "button": "קרא עוד"
+    },
+    "dermatologyAI": {
+      "title": "פתרונות בינה מלאכותית בדרמטולוגיה",
+      "description": "זיהוי ואבחון של בעיות עור המונעות על ידי בינה מלאכותית באמצעות ראייה ממוחשבת ולמידת מכונה",
+      "button": "קרא עוד"
+    },
+    "mentalHealthAI": {
+      "title": "בריאות הנפש ובינה מלאכותית",
+      "description": "יישומי בינה מלאכותית בבדיקות סקר, אבחון ותמיכה טיפולית לבריאות הנפש",
+      "button": "קרא עוד"
+    },
+    "dataPrivacy": {
+      "title": "פרטיות ואבטחת נתונים",
+      "description": "הגנה על נתוני שירותי בריאות, תאימות ל-HIPAA והגנה על פרטיות",
+      "button": "קרא עוד"
+    },
+    "aiAccuracy": {
+      "title": "מחקרי דיוק של בינה מלאכותית",
+      "description": "אימות קליני ומדדי ביצועים של מערכות אבחון בינה מלאכותית במסגרות בריאות בעולם האמיתי",
+      "button": "קרא עוד"
+    },
+    "aiForLaypeople": {
+      "title": "בינה מלאכותית לכולם",
+      "description": "הבנת בינה מלאכותית בתחום הבריאות במונחים פשוטים - אין צורך ברקע טכני",
+      "button": "קרא עוד"
+    }
+  },
+  "dialogs": {
+    "startWithDefault": "התחל עם מומחית הבריאות קרול",
+    "startWithSpecific": "התחל עם {{שם}}",
+    "longRecording": {},
+    "shortConv": {}
+  },
+  "team": {
+    "myAIHealthTeam": "צוות הבריאות שלי בבינה מלאכותית",
+    "addMembersInstruction": "הוסף חברי צוות על ידי לחיצה על כרטיס מימין.",
+    "maxTeamSizeNote": "ניתן להוסיף לצוות שלך עד חמישה יועצי בינה מלאכותית. ניתן לשנות את הצוות בכל עת, אך לא במהלך ייעוץ.",
+    "starting": "מתחיל...",
+    "startTeamConsult": "התחלת ייעוץ צוותי",
+    "startConsultationWithTeam": "התחל ייעוץ עם הצוות שלך"
+  },
+  "newConversation": {
+    "aileenCarolOnly": "מומחית הבריאות קרול אונלי",
+    "oneOnOne": "אחד על אחד",
+    "consultationChoice": {
+      "question": "עם מי היית רוצה להתייעץ היום?"
+    },
+    "options": {
+      "allAdvisers": "כל יועצי הבריאות שלי בתחום הבינה המלאכותית",
+      "allAdvisersCarolOnly": "כל יועצי הבריאות שלי בבינה מלאכותית (מומחית בריאות בבינה מלאכותית קרול בלבד)",
+      "chooseSpecific": "בחר ספציפי מהרשימה שלי"
+    },
+    "tooltips": {
+      "noAdvisersSelected": "לא נבחרו יועצים בפרופיל שלך.",
+      "loadingAdvisers": "טוען את היועצים שלך...",
+      "noOtherAdvisers": "אין יועצים אחרים ברשימה שלך לבחירה. הוסף עוד בפרופיל שלך."
+    },
+    "errors": {
+      "loadingAdvisers": "שגיאה בטעינת נתוני היועץ."
+    },
+    "buttons": {
+      "cancel": "לְבַטֵל",
+      "next": "הַבָּא",
+      "start": "הַתחָלָה"
+    }
+  },
+  "aiAccuracyWhitepaper": {
+    "section1": {},
+    "section2": {
+      "aiSuccess": {},
+      "aiErrors": {},
+      "aiVsHuman": {}
+    },
+    "section3": {
+      "challenges": {}
+    },
+    "section4": {
+      "guidelines": {}
+    },
+    "section5": {}
+  },
+  "imagingAIExplainer": {
+    "whatIsImaging": {
+      "types": {}
+    },
+    "whatIsAI": {},
+    "howAIHelps": {
+      "accuracy": {},
+      "speed": {},
+      "consistency": {}
+    },
+    "challenges": {},
+    "conclusion": {}
+  },
+  "mentalHealthWhitepaper": {
+    "disclaimer": {},
+    "abstract": {},
+    "introduction": {},
+    "methods": {},
+    "results": {
+      "diagnosticSupport": {},
+      "therapeuticApplications": {},
+      "patientMonitoring": {}
+    },
+    "discussion": {},
+    "conclusion": {}
+  },
+  "audio": {},
+  "autoListening": {},
+  "speech": {},
+  "help": {},
+  "upload": {},
+  "fileUpload": {},
+  "input": {},
+  "send": {},
+  "controls": {
+    "aiSpeaker": "רמקול בינה מלאכותית",
+    "cameraUpload": "מצלמה/העלאה",
+    "status": {
+      "enabled": "מופעל",
+      "disabled": "נָכֶה"
+    }
+  },
+  "welcome": {},
+  "account": {},
+  "participants": {},
+  "mobileChat": {},
+  "sidebar": {
+    "differentialOpinion": "דעה שונה"
+  },
+  "bioPanel": {},
+  "conversations": {},
+  "mobileConsultations": {},
+  "encyclopedia": {},
+  "imageContext": {},
+  "profile": {},
+  "sidebarHeader": {
+    "plusBadge": "+"
+  },
+  "messages": {},
+  "sidebarFooter": {},
+  "summary": {},
+  "teamBuilder": {
+    "steps": {},
+    "alerts": {},
+    "existingTeam": {},
+    "primaryConcerns": {},
+    "healthConditions": {},
+    "urgencySymptoms": {},
+    "medicinePreferences": {},
+    "additionalInfo": {},
+    "aileenCarolIntro": {},
+    "buttons": {},
+    "dialogs": {}
+  },
+  "aileenCarol": {},
+  "transcript": {},
+  "registerPage": {},
+  "legal": {
+    "eligibility": {},
+    "feesAndPayment": {},
+    "termination": {}
+  },
+  "aboutEncyclopediaPage": {},
+  "loginPage": {},
+  "mobileTeamBuilder": {
+    "carolMessages": {},
+    "questionnaire": {},
+    "title": {},
+    "carolGreeting": {}
+  },
+  "mobileNavigation": {},
+  "mobileWelcome": {},
+  "mobileRouter": {},
+  "mobileInput": {},
+  "mobileProfile": {},
+  "clinicianInfoPage": {},
+  "contactPage": {},
+  "dataPrivacyWhitepaper": {
+    "sections": {},
+    "hero": {},
+    "privacyPledge": {
+      "secureInfo": {},
+      "noPersonalUse": {},
+      "neverSell": {},
+      "anonymizedData": {}
+    },
+    "securityLevels": {
+      "accountSecurity": {},
+      "hipaaHistory": {}
+    },
+    "mindscriptSecurity": {},
+    "hipaaConsiderations": {},
+    "userResponsibility": {},
+    "privacyScenarios": {},
+    "conclusion": {}
+  },
+  "encyclopediaPage": {},
+  "evidencePage": {
+    "researchEvidence": {
+      "radiology": {},
+      "pathology": {},
+      "dermatology": {},
+      "mentalHealthResearch": {}
+    },
+    "wellnessInsights": {
+      "personalizedWellness": {},
+      "holisticSignals": {},
+      "proactiveWellbeing": {},
+      "aiEnhancedClarity": {}
+    }
+  },
+  "featuresPage": {
+    "features": {
+      "instantWellnessInsights": {},
+      "holisticWellnessPicture": {},
+      "diverseAIPerspectives": {},
+      "everEvolvingIntelligence": {}
+    }
+  },
+  "healthAdvisoryPage": {
+    "sections": {
+      "consultation": {
+        "emergency": {}
+      },
+      "technology": {},
+      "disclaimer": {
+        "points": {}
+      }
+    }
+  },
+  "medicalImageProcessingPage": {},
+  "mentalHealthInfoPage": {},
+  "nurseInfoPage": {},
+  "patientInfoPage": {},
+  "pharmacistInfoPage": {},
+  "physicianInfoPage": {},
+  "wellnessPathwaysPage": {},
+  "whyVirtualMD": {
+    "sections": {
+      "whyUs": {
+        "points": {
+          "personalTeam": {},
+          "aiNavigator": {},
+          "empoweringChoices": {},
+          "easyToUse": {},
+          "advancedTechnology": {}
+        }
+      },
+      "hero": {},
+      "features": {
+        "points": {
+          "dynamicEnsemble": {},
+          "holisticUnderstanding": {},
+          "rapidAccess": {},
+          "reliableInteractions": {},
+          "insightfulLogs": {}
+        }
+      },
+      "technology": {},
+      "cta": {}
+    }
+  },
+  "yourHealthInYourHandsPage": {
+    "sections": {
+      "uniqueProfile": {},
+      "personalizedGoals": {},
+      "diverseInsights": {},
+      "proactivePartner": {}
+    },
+    "callToAction": {}
+  },
+  "session_complete": "הפעלת הסיום",
+  "your_free_trial_has_ended": "תקופת הניסיון החינמית שלך הסתיימה",
+  "united_kingdom:_dial_999_or_11": "בריטניה: חייגו 999 או 112",
+  "melanoma_and_skin_cancer_detec": "גילוי מלנומה וסרטן עור",
+  "process_transactions_and_send_": "לעבד עסקאות ולשלוח מידע קשור, כולל אישורים וחשבוניות (אם רלוונטי).",
+  "information_we_collect": "מידע שאנו אוספים",
+  "in_a_medical_emergency:": "במקרה חירום רפואי:",
+  "in_response_to_legal_process:": "בתגובה להליך משפטי:",
+  "loading_chat": "טוען צ'אט...",
+  "redirecting": "מפנה מחדש...",
+  "israel:_dial_101_(magen_david_": "ישראל: חייגו 101 ()",
+  "unlimited_messages_with_ai_doc": "הודעות ללא הגבלה עם מומחי בריאות של בינה מלאכותית",
+  "contact_information": "פרטי קשר",
+  "real-world_implementation_and_": "יישום בעולם האמיתי ויישומים ניידים",
+  "your_access_to_or_use_of_or_in": "גישתך לשירות או שימושך בו או חוסר יכולתך לגשת אליו או להשתמש בו;",
+  "your_computer_may_temporarily_": "ייתכן שהמחשב שלך יאחסן זמנית עותקים של חומרים כאלה בזיכרון RAM, לצורך גישה וצפייה שלך בחומרים אלה.",
+  "please_select_only_one_special": "אנא בחרו מומחה אחד בלבד לייעוץ פרטי.",
+  "references": "הפניות",
+  "business_transfers:": "העברות עסקיות:",
+  "account_information:": "פרטי חשבון:",
+  "provide,_operate,_maintain,_an": "לספק, להפעיל, לתחזק ולשפר את השירות.",
+  "assignment": "מְשִׁימָה",
+  "sandymiles@mindspringhealth": "sandymiles@mindspring.health",
+  "ai-generated_content_may_conta": "תוכן שנוצר על ידי בינה מלאכותית עשוי להכיל שגיאות או השמטות למרות תהליכי האימות החזקים שלנו.",
+  "display_name": "שם תצוגה",
+  "any_content_obtained_from_the_": "כל תוכן שהתקבל מהשירות; או",
+  "you_may_store_files_that_are_a": "ייתכן שתאחסן קבצים המאוחסנים במטמון אוטומטית על ידי דפדפן האינטרנט שלך למטרות שיפור התצוגה.",
+  "start_new_health_consultation": "התחלת ייעוץ בריאותי חדש",
+  "entire_agreement": "ההסכם המלא",
+  "ophthalmology": "רפואת עיניים",
+  "not": "לֹא",
+  "exit_conversation?": "לצאת מהשיחה?",
+  "grading_and_classification": "דירוג וסיווג",
+  "unauthorized_access,_use,_or_a": "גישה, שימוש או שינוי בלתי מורשה של השידורים או התוכן שלך (כולל פרצות נתונים), גם אם MINDSCRIPT יישמה אמצעי אבטחה סבירים כפי שמתואר בתנאים אלה ובמדיניות הפרטיות.",
+  "checking_server_status": "בודק את מצב השרת...",
+  "not_a_hipaa-compliant_service": "שירות שאינו תואם ל-HIPAA",
+  "radiology": "רדיולוגיה",
+  "united_states:_dial_911": "ארצות הברית: חייגו 911",
+  "save_and_review_conversation_h": "שמירה ובדיקה של היסטוריית השיחות",
+  "abstract": "תַקצִיר",
+  "starting_your_consultation": "מתחילים את הייעוץ שלכם...",
+  "digital_pathology_overview": "סקירה כללית של פתולוגיה דיגיטלית",
+  "reasonable_business_security_p": "נוהלי אבטחה עסקיים סבירים בתוך ארצות הברית",
+  "loading_transcript": "טוען תמליל...",
+  "cookies_and_similar_technologi": "קובצי Cookie וטכנולוגיות דומות:",
+  "internal_medicine": "בריאות פנימית",
+  "no_specialists_currently_in_th": "אין מומחים בצ'אט הזה כרגע.",
+  "discussion": "דִיוּן",
+  "updating_team": "מעדכן צוות...",
+  "your_privacy_choices": "בחירות הפרטיות שלך",
+  "error:_unknown_active_chat_vie": "שגיאה: תצוגת צ'אט פעילה לא ידועה.",
+  "create_more_than_one_account_f": "צור לעצמך יותר מחשבון אחד.",
+  "improve_the_accuracy,_efficacy": "לשפר את הדיוק, היעילות והבטיחות של מודלי הבינה המלאכותית ותכונות הפלטפורמה שלנו באמצעות נתונים אנונימיים ומצטברים.",
+  "user_content:": "תוכן משתמש:",
+  "mindscript_does_not_provide_me": "MindScript אינו מספק אבחון או טיפול רפואי",
+  "communicate_with_you_about_pro": "לתקשר איתך בנוגע למוצרים, שירותים, הצעות, מבצעים, תגמולים ואירועים המוצעים על ידי MindScript ואחרים, ולספק חדשות ומידע שלדעתנו יעניינו אותך (בכפוף לזכויות ביטול ההסכמה שלך).",
+  "aggregated_or_de-identified_da": "נתונים מצטברים או נתונים ללא זיהוי:",
+  "canada:_dial_911": "קנדה: חייגו 911",
+  "retry": "נסה שוב",
+  "other_locations:_contact_your_": "מיקומים אחרים: צרו קשר עם שירותי החירום המקומיים שלכם באופן מיידי",
+  "ron_rubin,_phd_and_sandy_miles": "רון רובין, PhD וסנדי מיילס",
+  "australia:_dial_000_or_112": "אוסטרליה: חייגו 000 או 112",
+  "data_deletion:": "מחיקת נתונים:",
+  "we_do_not_guarantee_the_absolu": "איננו מתחייבים לאבטחה המוחלטת של המידע שלך",
+  "send_technical_notices,_update": "שלח הודעות טכניות, עדכונים, התראות אבטחה, הודעות תמיכה והודעות אדמיניסטרטיביות.",
+  "consultation_summary": "סיכום התייעצות",
+  "waiver": "ויתור",
+  "access_to_all_medical_specialt": "גישה לכל התמחויות הבריאות",
+  "no_profile_data_available": "אין נתוני פרופיל זמינים.",
+  "no_summary_available": "אין סיכום זמין.",
+  "test_app_-_mindscript": "אפליקציית בדיקה - MindScript",
+  "respond_to_your_comments,_ques": "להגיב להערות, שאלות ובקשות שלכם ולספק שירות לקוחות.",
+  "not_hipaa_compliant": "לא תואם ל-HIPAA",
+  "force_majeure": "כוח עליון",
+  "you_may_print_or_download_one_": "הנך רשאי להדפיס או להוריד עותק אחד של מספר סביר של עמודים באתר לשימושך האישי והלא מסחרי כמידע, ולא לצורך שכפול, פרסום או הפצה נוספים.",
+  "dr_aileen_carol": "מומחית הבריאות איילין קרול",
+  "family_medicine": "בריאות משפחתית",
+  "headings": "כותרות",
+  "note_on_ai_aileencarol's_particip": "הערה על השתתפותה של קרול, מומחית בריאות בתחום הבינה המלאכותית:",
+  "ronrubin@mindscripthealth": "ronrubin@virtualmd.app",
+  "share_your_account_credentials": "שתף את פרטי הגישה של החשבון שלך או אפשר לאחרים גישה לחשבונך (למעט כפי שמותר במפורש עבור חשבונות ארגוניים).",
+  "email_cannot_be_changed": "לא ניתן לשנות את כתובת האימייל.",
+  "your_unique_medical_history,_c": "ההיסטוריה הרפואית הייחודית שלך, המצבים והנסיבות דורשים הערכה מקצועית",
+  "changes_to_these_terms_and_pol": "שינויים בתנאים ובמדיניות אלה",
+  "other_ai_specialists": "מומחי בינה מלאכותית אחרים",
+  "full_name": "שם מלא",
+  "governing_law_and_dispute_reso": "החוק החל ויישוב סכסוכים",
+  "loading…": "טְעִינָה…",
+  "personalized_health_insights": "תובנות בריאותיות מותאמות אישית",
+  "gastroenterology": "גסטרואנטרולוגיה",
+  "use_of_the_service_by_children": "השימוש בשירות על ידי ילדים אסור.",
+  "introduction": "מָבוֹא",
+  "use_another_user's_account_wit": "להשתמש בחשבון של משתמש אחר ללא רשות.",
+  "if_you_can_see_this,_react_is_": "אם אתם רואים את זה, ריאקט עובד!",
+  "ronrubin@mindspringhealth": "ronrubin@mindspring.health",
+  "children's_privacy": "פרטיות ילדים",
+  "provide_false_or_misleading_in": "לספק מידע כוזב או מטעה במהלך ההרשמה או בפרופיל החשבון שלך.",
+  "talk_to_a_specialist": "דבר עם מומחה",
+  "cannot": "לא יכול",
+  "how_we_use_information": "כיצד אנו משתמשים במידע",
+  "results": "תוצאות",
+  "loading_participants": "טוען משתתפים...",
+  "sandymiles@mindscripthealth": "sandymiles@virtualmd.app",
+  "this_feature_is_coming_soon": "תכונה זו מגיעה בקרוב!",
+  "start_or_continue_conversation": "התחל או המשך שיחה",
+  "international_data_transfers": "העברות נתונים בינלאומיות",
+  "loading_bio": "טוען ביוגרפיה...",
+  "termination": "סִיוּם",
+  "no_image_active": "אין תמונה פעילה.",
+  "no_ai_health_advisers_selected": "לא נבחרו יועצי בריאות מבוססי בינה מלאכותית. ניתן לנהל את היועצים שלך בפרופיל שלך.",
+  "dr_daniel_garcia": "מומחה הבריאות דניאל גרסיה",
+  "no_other_specialists_available": "אין מומחים נוספים זמינים להוספה.",
+  "carry_out_any_other_purpose_de": "לבצע כל מטרה אחרת שתוארה לך בעת איסוף המידע.",
+  "data_retention": "שמירת נתונים",
+  "informational_and_educational_": "למטרות מידע וחינוכיות בלבד",
+  "miscellaneous": "שונות",
+  "non-cancerous_skin_condition_c": "סיווג מצבי עור שאינם סרטניים",
+  "pathology": "פָּתוֹלוֹגִיָה",
+  "promotional_communications:": "תקשורת קידום מכירות:",
+  "info@mindscripthealth": "info@virtualmd.app",
+  "methods/technologies": "שיטות/טכנולוגיות",
+  "how_we_share_information": "כיצד אנו משתפים מידע",
+  "loading_profile": "טוען פרופיל...",
+  "personalize_and_improve_the_se": "להתאים אישית ולשפר את השירות ולספק תוכן או תכונות התואמות את פרופילי המשתמש או את תחומי העניין שלו.",
+  "with_vendors_and_service_provi": "עם ספקים וספקי שירותים:",
+  "health_information_may_become_": "מידע בריאותי עשוי להתיישן ככל שהידע בתחום הבריאות מתפתח",
+  "with_whom_would_you_like_to_co": "עם מי היית רוצה להתייעץ היום?",
+  "mindscript_content:": "תוכן מיינדסקריפט:",
+  "cookies:": "עוגיות:",
+  "detect,_investigate,_and_preve": "לזהות, לחקור ולמנוע עסקאות הונאה ופעילויות בלתי חוקיות אחרות ולהגן על זכויותיהם ורכושם של MindScript ואחרים.",
+  "medical_advice_requires_person": "ייעוץ בריאותי דורש הערכה אישית על ידי ספקי שירותי בריאות מורשים",
+  "create_an_account_for_anyone_o": "צור חשבון עבור מישהו מלבד עצמך ללא רשות.",
+  "options": "אפשרויות",
+  "cannot_and_will_not_sue_or_hol": "אינה יכולה ולא תתבע או תטיל אחריות על MINDSCRIPT TECHNOLOGIES, LLC, חברות הבת שלה, נושאי משרה, דירקטורים, עובדים, סוכנים או נותני רישיונות.",
+  "with_your_consent:": "בהסכמתך:",
+  "add_specialists_to_your_team": "הוסף מומחים לצוות שלך",
+  "usage_information:": "מידע על שימוש:",
+  "any_conduct_or_content_of_any_": "כל התנהגות או תוכן של כל צד שלישי בשירות, לרבות, בין היתר, כל התנהגות משמיצה, פוגענית או בלתי חוקית של משתמשים אחרים או צדדים שלישיים;",
+  "do_not_meet_the_specific_admin": "אינם עומדים בדרישות ההגנה המנהליות, הפיזיות והטכניות הספציפיות הנדרשות על ידי כלל האבטחה של HIPAA לטיפול במידע רפואי ממוחשב (PHI)",
+  "legal@mindscripthealth": "legal@virtualmd.app",
+  "cancel": "לְבַטֵל",
+  "conclusion": "מַסְקָנָה",
+  "professional_health_insights_a": "תובנות והכוונה מקצועית בתחום הבריאות",
+  "cancer_detection": "גילוי סרטן",
+  "your_specialist_team_is_empty_": "צוות המומחים שלך ריק. הוסף מומחים למטה.",
+  "workflow_optimization": "אופטימיזציה של זרימת עבודה",
+  "select_ai_specialists": "מומחי בינה מלאכותית נבחרים",
+  "monitor_and_analyze_trends,_us": "לנטר ולנתח מגמות, שימוש ופעילויות בקשר לשירות שלנו.",
+  "severability": "הפרדה",
+  "access_to_cardiology_and_neuro": "גישה למומחים קרדיולוגיים ונוירולוגיים",
+  "searchLanguages": "חיפוש שפות...",
+  "noLanguagesFound": "לא נמצאו שפות",
+  "you": "אַתָה",
+  "manageTeam": {
+    "title": "ניהול צוות בריאות הבינה המלאכותית שלי (מקסימום {{maxTeamMembers}} מומחים)",
+    "currentTeamCount": "הצוות הנוכחי שלך ({{current}}/{{max}})",
+    "updatingTeam": "מעדכן צוות...",
+    "coordinatorLabel": "(רכז)",
+    "alwaysIncluded": "תמיד כלול",
+    "specialistFallback": "מוּמחֶה",
+    "emptyTeamMessage": "צוות המומחים שלך ריק. הוסף מומחים למטה.",
+    "teamFullMessage": "הצוות שלך מלא (מקסימום {{maxTeamMembers}} מומחים). אנא הסר חבר אם ברצונך להוסיף מומחה אחר.",
+    "otherSpecialistsTitle": "מומחי בינה מלאכותית אחרים",
+    "addToTeamTooltip": "הוסף לצוות",
+    "teamFullTooltip": "הצוות מלא",
+    "systemSpecialistFallback": "מומחה מערכות",
+    "noSpecialistsAvailable": "אין מומחים נוספים זמינים להוספה."
+  },
+  "personas": {
+    "defaultSpecialist": "מומחה בינה מלאכותית"
+  },
+  "personaList": {
+    "noSpecialistsFound": "לא נמצאו מומחי בינה מלאכותית."
+  },
+  "guest": {
+    "user": "משתמש אורח",
+    "userObject": {
+      "displayName": "משתמש אורח",
+      "email": "guest@virtualmd.app"
+    },
+    "registration": {
+      "prompt": "הירשמו לקבלת גישה מלאה לצוות הבריאות המלא של בינה מלאכותית, להיסטוריית השיחות ולתכונות המתקדמות שלנו.",
+      "dialogTitle": "למשתמשים רשומים יש גישה ל-{{specialistName}}",
+      "dialogDescription": "{{specialistName}} הוא חלק מצוות הבריאות הווירטואלי המקיף שלנו.",
+      "benefitsTitle": "עם חשבון VirtualMD.app, תקבלו:",
+      "benefits": {
+        "access": "גישה ליותר מ-60 יועצי בריאות מומחים בתחום הבינה המלאכותית",
+        "personalized": "ייעוץ בריאותי אישי",
+        "saveConversations": "שמירה והמשך של שיחות",
+        "uploadImages": "העלה תמונות או קח אותן ישירות מהמחשב/מצלמה שלך",
+        "customTeam": "בנה את צוות הבריאות המותאם אישית שלך",
+        "availability": "זמינות 24/7 לשאלות בריאותיות"
+      },
+      "buttons": {
+        "maybeLater": "אולי מאוחר יותר",
+        "registerNow": "הירשמו עכשיו"
+      }
+    },
+    "registrationRequired": "נדרשת הרשמה",
+    "profileRegistrationRequired": "פרופיל משתמש: נדרשת הרשמה",
+    "landing": {
+      "title": "ייעוץ בריאותי מניסיון עם בינה מלאכותית",
+      "subtitle": "קבלו תובנות בריאות מיידיות ממומחי הבריאות שלנו בתחום הבינה המלאכותית - לגמרי בחינם, ללא צורך ברישום",
+      "whatBringsYou": "מה מביא אותך לכאן היום?",
+      "selectConcern": "בחר דאגה נפוצה או תאר דאגה משלך",
+      "customConcernPlaceholder": "או לתאר את דאגת הבריאות שלך במילים שלך...",
+      "startConsultation": "התחל ייעוץ חינם",
+      "experienceIncludes": "חוויית אורח חינם כוללת:",
+      "includes": {
+        "messages": "10 הודעות עם מומחי בריאות בתחום הבינה המלאכותית",
+        "time": "15 דקות של זמן ייעוץ",
+        "insights": "תובנות והכוונה מקצועית בתחום הבריאות"
+      },
+      "personas": {
+        "defaultSpecialist": "מומחה בינה מלאכותית",
+        "aileen": {
+          "name": "מומחית הבריאות איילין קרול",
+          "specialty": "בריאות משפחתית"
+        },
+        "daniel": {
+          "name": "מומחה הבריאות דניאל גרסיה",
+          "specialty": "בריאות פנימית"
+        }
+      }
+    },
+    "chat": {
+      "header": "ייעוץ בריאותי של בינה מלאכותית",
+      "messagesLeft": "נותרו {{count}} הודעות",
+      "timeLeft": "נותרו {{time}}",
+      "startingConsultation": "הייעוץ שלך מתחיל. מומחה בריאות בתחום הבינה המלאכותית יגיב בקרוב.",
+      "aiTyping": "מומחה בינה מלאכותית מקליד...",
+      "inputPlaceholder": "תאר את התסמינים שלך או שאל שאלה..."
+    },
+    "expired": {
+      "title": "הייעוץ הושלם",
+      "subtitle": "חווית את העוצמה של ייעוץ בריאותי מבוסס בינה מלאכותית",
+      "messagesUsed": "השתמשת ב-{{used}} מתוך {{max}} הודעות",
+      "continuePrompt": "רוצה להמשיך עם גישה בלתי מוגבלת?",
+      "createAccount": "צור חשבון חינמי",
+      "signIn": "כניסה"
+    },
+    "errors": {
+      "startFailed": "לא ניתן להתחיל את הייעוץ. אנא נסה שוב.",
+      "connectionLost": "החיבור אבד. אנא רענן את הדף.",
+      "sendFailed": "שליחת ההודעה נכשלה. אנא נסה שוב."
+    },
+    "profile": {
+      "age": "25",
+      "gender": "נְקֵבָה",
+      "bloodType": "א+",
+      "height": "1.78 מטר",
+      "weight": "130 פאונד",
+      "conditions": "אנמיה של חוסר ברזל, דיכאון בינוני",
+      "medications": "ברזל סולפט 325 מ\"ג מדי יום, סרטרלין 50 מ\"ג מדי יום",
+      "allergies": "לא ידוע",
+      "healthInfo": "אני מתמודד עם עייפות וחוסר אנרגיה במשך 6 החודשים האחרונים. מומחה הבריאות שלי אבחן אותי עם אנמיה מחוסר ברזל ואני נוטל תוספי ברזל. אני מתמודד גם עם דיכאון והתחלתי תרופות נוגדות דיכאון לפני 3 חודשים. אני מחפש עצה כיצד להתמודד עם שני המצבים ולשפר את רמות האנרגיה הכלליות שלי.",
+      "emergencyContact": "שרה ג'ונסון (אחות) - (555) 123-4567"
+    },
+    "experience": {
+      "tryItOut": "נסה את זה.",
+      "noObligation": "אין התחייבות.",
+      "subtitle": "רק טיפה קטנה ממה ש-VirtualMD.app יכול לעשות בשבילך."
+    }
+  },
+  "aiPrefix": "בינה מלאכותית",
+  "dashboard": "לוּחַ מַחווָנִים",
+  "teamRecommendation": {
+    "submission": {
+      "primaryConcernsLabel": "מהן דאגות הבריאות העיקריות שלך היום?",
+      "healthConditionsLabel": "אילו מצבים בריאותיים רלוונטיים לך?"
+    },
+    "defaults": {
+      "noneSpecified": "לא צוין"
+    }
+  }
+}

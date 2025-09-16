@@ -1,0 +1,907 @@
+{
+  "header": {
+    "login": "Giriş yapmak",
+    "register": "Kayıt olmak",
+    "logout": "Çıkış yap",
+    "aboutUs": "Hakkımızda",
+    "learnMore": "Daha fazla bilgi edin",
+    "advisory": "Danışmanlık",
+    "start": "Başlangıç",
+    "greetingHello": "Merhaba {{isim}}!",
+    "welcomeToVirtualMD": "VirtualMD’ye Hoş Geldiniz!",
+    "signupForFullAccess": "Tam erişim için kaydolun",
+    "profileTitle": "Profilim / Sohbete Git",
+    "logoutTitle": "Çıkış yap",
+    "toggleTheme": "Açık/Koyu Modu Değiştir",
+    "toggleMode": "Açık/Koyu Modu Değiştir",
+    "myProfile": "Profilim / Sohbete Git",
+    "dashboard": "Gösterge Paneli",
+    "endConversation": "Konuşmayı Sonlandır",
+    "returnToConversation": "Konuşmaya Dön",
+    "startConversation": "Konuşmayı Başlat",
+    "endConsult": "Son Danışmanlık",
+    "returnToConsult": "Danışmaya Dön",
+    "startConsult": "Başla Danışman",
+    "home": "Ev",
+    "healthEncyclopedia": "Sağlık Ansiklopedisi",
+    "researchPublications": "Araştırma ve Yayınlar",
+    "contactUs": "Bize Ulaşın",
+    "light": "Işık",
+    "dark": "Karanlık",
+    "toggleModeText": "{{mode}} Modunu Değiştir",
+    "legal": "Yasal"
+  },
+  "howToUse": "Nasıl Kullanılır",
+  "settings": {
+    "lightMode": "Işık Modu",
+    "darkMode": "Karanlık Mod"
+  },
+  "navigation": {
+    "dashboard": "Gösterge Paneli",
+    "home": "Ev",
+    "aboutUs": "Hakkımızda",
+    "returnToChat": "Sohbete Dön",
+    "continueConsultation": "Danışmanlığınıza devam edin",
+    "exitConsultation": "Çıkış Danışmanlığı",
+    "startNewConsultation": "Yeni Konsültasyon Başlat",
+    "sections": {
+      "chatTools": "SOHBET ARAÇLARI",
+      "functionality": "İŞLEVSELLİK",
+      "aboutUs": "HAKKIMIZDA",
+      "requiredDocuments": "GEREKLİ BELGELER",
+      "research": "ARAŞTIRMA",
+      "controls": "KONTROLLER",
+      "settings": "AYARLAR"
+    },
+    "myTeam": "Takımım",
+    "summary": "Özet",
+    "transcript": "Deşifre metni",
+    "encyclopedia": "Ansiklopedi",
+    "priorChats": "Önceki Sohbetler",
+    "myProfile": "Profilim",
+    "healthEncyclopedia": "Sağlık Ansiklopedisi",
+    "noteFromFounders": "Kurucu Ortaklardan Not",
+    "faq": "SSS",
+    "contactUs": "Bize Ulaşın",
+    "legal": "Yasal",
+    "dataPrivacy": "Veri Gizliliği",
+    "aiAccuracyStudies": "Yapay Zeka Doğruluk Çalışmaları",
+    "empowerYourself": "Kendinizi Güçlendirin",
+    "deepResearch": "Derin Araştırma",
+    "aboutUsItems": {
+      "advisory": "Danışmanlık",
+      "dataPrivacy": "Veri Gizliliği"
+    },
+    "learnMore": {
+      "imagingAI": "Görüntüleme ve Yapay Zeka",
+      "pathologyAI": "Patoloji ve Yapay Zeka",
+      "dermatologyAI": "Dermatoloji ve Yapay Zeka",
+      "mentalHealthAI": "Ruh Sağlığı ve Yapay Zeka",
+      "accuracyStudies": "Yapay Zeka Doğruluk Çalışmaları",
+      "allResearch": "Tüm Araştırmalar",
+      "empowerYourself": "Kendinizi Güçlendirin"
+    }
+  },
+  "landing": {
+    "title": "VirtualMD.app",
+    "subtitle": "Yapay Zeka Destekli Sağlık Çözümleri",
+    "tryItOut": "Deneyin",
+    "scrollDown": "Aşağı kaydır",
+    "scrollUp": "Yukarı kaydır",
+    "alwaysHereForYou": "Her zaman yanınızdayız.",
+    "cards": {
+      "whyUse": {
+        "title": "Neden VirtualMD?",
+        "description": "Yapay zeka destekli sanal sağlık platformumuzun devrim niteliğindeki avantajlarını keşfedin"
+      },
+      "dataPrivacy": {
+        "title": "Gizliliğiniz",
+        "description": "Güvenilir bir dost gibi, sağlık sırlarınız bizimle güvende"
+      },
+      "tryItOut": {
+        "title": "Deneyin",
+        "description": "Çocuğum hasta|Uyuyamıyorum!|Sevgi için beslenme",
+        "tagline": "Kayıt olmanıza gerek yok."
+      },
+      "wellness": {
+        "title": "Derin Araştırma",
+        "description": "Güvenilir kaynaklara sahip sağlık ansiklopedisi"
+      },
+      "yourHealth": {
+        "title": "Sağlığınız",
+        "description": "Yapay zeka ile sağlıklı yaşam yolculuğunuzu şekillendirin"
+      }
+    }
+  },
+  "chat": {
+    "startNewConsult": "Yeni Danışmanlık Başlat",
+    "noSpeechDetected": "Bunu yakalayamadım",
+    "noSpeechMessage": "Kaydınızda herhangi bir konuşma algılayamadım. Lütfen biraz daha yüksek sesle konuşmayı veya mikrofonunuza yaklaşmayı deneyin, ardından tekrar deneyin.",
+    "dontShowAgain": "Bana bir daha gösterme",
+    "gotIt": "Anladım",
+    "loading": "Yükleniyor…"
+  },
+  "loading": {
+    "preparingHealthTeam": "Yapay zeka sağlık ekibinizi hazırlıyoruz...",
+    "connectingSpecialists": "Sağlık uzmanlarına bağlanıyoruz...",
+    "initializingSystem": "Kişiselleştirilmiş sağlık sisteminiz başlatılıyor...",
+    "almostReady": "Size yardımcı olmaya neredeyse hazırız...",
+    "dots": "..."
+  },
+  "common": {
+    "loading": "Yükleniyor…",
+    "user": {
+      "defaultInitial": "Sen",
+      "defaultName": "Orası",
+      "defaultAltText": "Kullanıcı"
+    },
+    "error": "Hata",
+    "success": "Başarı",
+    "cancel": "İptal etmek",
+    "confirm": "Onaylamak",
+    "save": "Kaydetmek",
+    "delete": "Silmek",
+    "edit": "Düzenlemek",
+    "close": "Kapalı",
+    "next": "Sonraki",
+    "previous": "Öncesi",
+    "submit": "Göndermek",
+    "search": "Aramak",
+    "filter": "Filtre",
+    "sort": "Düzenlemek",
+    "upload": "Yüklemek",
+    "download": "İndirmek",
+    "print": "Yazdır",
+    "share": "Paylaşmak",
+    "copy": "Kopyala",
+    "paste": "Yapıştır",
+    "cut": "Kesmek",
+    "undo": "Geri al",
+    "redo": "Yeniden yap",
+    "yes": "Evet",
+    "no": "HAYIR",
+    "ok": "TAMAM",
+    "punctuation": {
+      "ellipsis": "..."
+    },
+    "apply": "Uygula",
+    "reset": "Sıfırla",
+    "clear": "Temizlemek",
+    "back": "Geri",
+    "forward": "İleri",
+    "home": "Ev",
+    "refresh": "Yenile",
+    "reload": "Yeniden yükle",
+    "help": "Yardım",
+    "about": "Hakkında",
+    "contact": "Temas etmek",
+    "profile": "Profil",
+    "account": "Hesap",
+    "privacy": "Mahremiyet",
+    "terms": "Şartlar",
+    "legal": "Yasal",
+    "support": "Destek",
+    "feedback": "Geri bildirim",
+    "welcome": "Hoş geldin",
+    "goodbye": "Güle güle",
+    "thankyou": "Teşekkür ederim",
+    "send": "Göndermek",
+    "none": "Hiçbiri",
+    "generating": "Oluşturuluyor...",
+    "settings": "Ayarlar"
+  },
+  "auth": {
+    "loginTitle": "Giriş yap",
+    "registerTitle": "Hesap oluşturmak",
+    "email": "E-posta",
+    "password": "Şifre",
+    "confirmPassword": "Şifreyi Onayla",
+    "fullName": "Ad Soyad",
+    "displayName": "Ekran adı",
+    "rememberMe": "Beni Hatırla",
+    "forgotPassword": "Parolanızı mı unuttunuz?",
+    "noAccount": "Hesabınız yok mu?",
+    "hasAccount": "Zaten bir hesabınız var mı?",
+    "signUp": "Üye olmak",
+    "signIn": "Giriş yap",
+    "signOut": "oturumu Kapat",
+    "createAccount": "Hesap oluşturmak",
+    "loginButton": "Giriş yapmak",
+    "registerButton": "Kayıt olmak",
+    "logout": "Çıkış yap"
+  },
+  "footer": {
+    "copyright": "MindScript Technologies LLC. Tüm hakları saklıdır.",
+    "privacyPolicy": "Gizlilik Politikası",
+    "termsOfService": "Hizmet Şartları",
+    "cookiePolicy": "Çerez Politikası",
+    "medicalAdvisory": "Sağlık Danışmanlığı",
+    "yourPrivacy": "Gizliliğiniz",
+    "legal": "Yasal",
+    "contactUs": "Bize Ulaşın",
+    "howToUse": "Nasıl Kullanılır",
+    "faq": "SSS",
+    "noteFromFounders": "Kurucu Üyelerden Not",
+    "medicalDisclaimerTooltip": "MindScript, yapay zeka destekli sağlık personaları kullanarak en doğru ve güncel sağlık bilgilerini sunmayı hedefler. Ancak, bu personalar lisanslı sağlık uzmanları değildir ve hatalı olabilir. Gerçek bir tıbbi acil durumda, 911'i arayın veya en yakın acil servise başvurun. Başka sağlık sorunlarınız varsa veya herhangi bir tedavi veya çareyi denemeden önce lütfen kalifiye bir sağlık uzmanına veya uzmana danışın.",
+    "advisory": "Danışmanlık"
+  },
+  "forms": {
+    "required": "Bu alan gereklidir",
+    "invalidEmail": "Geçerli bir e",
+    "passwordTooShort": "Şifre en az 8 karakter olmalıdır",
+    "passwordsDoNotMatch": "Şifreler eşleşmiyor",
+    "invalidInput": "Lütfen geçerli bir giriş girin",
+    "fieldRequired": "{{field}} gereklidir",
+    "selectOption": "Lütfen bir seçenek seçin",
+    "uploadFile": "Dosya yükle",
+    "dragAndDrop": "Dosyaları buraya sürükleyip bırakın veya seçmek için tıklayın",
+    "fileUploaded": "Dosya başarıyla yüklendi",
+    "uploadError": "Dosya yüklenirken hata oluştu"
+  },
+  "language": {
+    "english": "İngilizce",
+    "arabic": "العربية",
+    "hebrew": "İbranice",
+    "switchTo": "{{language}} diline geç",
+    "currentLanguage": "Mevcut dil: {{language}}"
+  },
+  "animation": {
+    "title": {
+      "simply": "Basitçe",
+      "better": "Daha iyi",
+      "health": "Sağlık",
+      "period": "."
+    }
+  },
+  "hero": {
+    "subtitle": "7/24 kişiye özel sağlık ve zindelik danışmanlığı.",
+    "subtitleMobile": "Kişiselleştirilmiş yapay zeka sağlık tavsiyeleri 7/24",
+    "poweredBy": "Yapay zeka destekli."
+  },
+  "research": {
+    "title": "Araştırma ve Yayınlar",
+    "subtitle": "Kanıta dayalı yapay zeka sağlık çözümleri",
+    "aiImaging": {
+      "title": "Tanısal Görüntülemede Yapay Zeka",
+      "description": "Radyoloji, patoloji ve oftalmoloji alanlarında sağlık görüntülemede yapay zeka uygulamalarının kapsamlı analizi."
+    },
+    "pathologyAI": {
+      "title": "Patoloji Yapay Zeka Yardımı",
+      "description": "Dijital patolojide kanser tespiti ve tanı doğruluğunun artırılması için derin öğrenme uygulamaları."
+    },
+    "dermatologyAI": {
+      "title": "Dermatoloji Yapay Zeka Çözümleri",
+      "description": "Bilgisayarlı görüş ve makine öğrenimi kullanılarak yapay zeka destekli cilt rahatsızlığı tespiti ve teşhisi."
+    },
+    "mentalHealthAI": {
+      "title": "Ruh Sağlığı ve Yapay Zeka",
+      "description": "Ruh sağlığı tarama, tanı ve tedavi desteğinde yapay zeka uygulamaları."
+    },
+    "accuracyStudies": {
+      "title": "Yapay Zeka Doğruluk Çalışmaları",
+      "description": "Gerçek dünya sağlık ortamlarında AI tanı sistemlerinin klinik doğrulaması ve performans ölçümleri."
+    }
+  },
+  "whitepapers": {
+    "downloadPdf": "PDF'yi indirin",
+    "generating": "Oluşturuluyor...",
+    "abstract": "Soyut",
+    "introduction": "giriiş",
+    "methods": "Yöntemler/Teknolojiler",
+    "results": "Sonuçlar",
+    "discussion": "Tartışma",
+    "conclusion": "Çözüm",
+    "references": "Referanslar",
+    "authors": "Yazarlar",
+    "email": "E-posta",
+    "organization": "Organizasyon"
+  },
+  "imageProcessing": {
+    "preset": "Ön ayar",
+    "process": "İşlem",
+    "revert": "Geri al",
+    "applyPreset": "Odaktaki görüntüye ön ayarı uygula",
+    "revertFocus": "Orijinal görüntüye yeniden odaklanın"
+  },
+  "alt": {
+    "logo": "VirtualMD.app Logo",
+    "logoSmall": "MindScript Küçük Logo",
+    "integratedApproach": "Bütünleşik sağlık yaklaşımı",
+    "userProfile": "Kullanıcı profili",
+    "aiDoctor": "Yapay Zeka Sağlık Uzmanı Carol",
+    "aiAssistant": "Yapay Zeka Asistanı",
+    "backgroundImage": "Güzel arka plan görüntüsü",
+    "home": "MindScript Ana Sayfası",
+    "processed": "İşlenmiş görüntü",
+    "zoomPreview": "Görüntü yakınlaştırma önizlemesi"
+  },
+  "aria": {
+    "scrollDown": "Aşağı kaydır",
+    "scrollUp": "Yukarı kaydır",
+    "openMenu": "Menüyü aç",
+    "togglePassword": "Şifre görünürlüğünü değiştir",
+    "chooseLanguage": "Dil seçin",
+    "goHome": "Ana sayfaya git",
+    "remove": "Kaldırmak",
+    "edit": "Düzenlemek",
+    "delete": "Silmek",
+    "save": "Kaydetmek",
+    "cancel": "İptal etmek",
+    "breadcrumb": "Gezinme kırıntısı",
+    "conversationChoice": "Konuşma seçimi",
+    "personaChoice": "Kişi seçimi",
+    "panel": "Panel",
+    "summary": "Özet",
+    "differentialOpinion": "Farklı Görüş",
+    "transcript": "Deşifre metni",
+    "encyclopedia": "Ansiklopedi",
+    "endConversation": "Konuşmayı Sonlandır",
+    "startChat": "Ekip ile sohbete başlayın",
+    "configureChat": "Yeni sohbeti yapılandırın",
+    "savedConsultations": "Kaydedilen danışmanlıklar",
+    "myProfile": "Profilim"
+  },
+  "researchPage": {
+    "title": "Araştırma ve Yayınlar",
+    "healthAdvisory": {
+      "title": "Sağlık Danışmanlığı",
+      "description": "Önemli sağlık ve güvenlik bilgileri",
+      "button": "Danışmanlık Görüntüle"
+    },
+    "imagingAI": {
+      "title": "Tanısal Görüntülemede Yapay Zeka",
+      "description": "Radyoloji, patoloji ve oftalmoloji alanlarında sağlık görüntülemede yapay zeka uygulamaları",
+      "button": "Devamını oku"
+    },
+    "pathologyAI": {
+      "title": "Yapay Zeka Destekli Patoloji",
+      "description": "Kanser tespiti ve tanı doğruluğu için dijital patolojide derin öğrenme uygulamaları",
+      "button": "Devamını oku"
+    },
+    "dermatologyAI": {
+      "title": "Dermatolojide Yapay Zeka Çözümleri",
+      "description": "Bilgisayarlı görüş ve makine öğrenimi kullanılarak yapay zeka destekli cilt rahatsızlığı tespiti ve teşhisi",
+      "button": "Devamını oku"
+    },
+    "mentalHealthAI": {
+      "title": "Ruh Sağlığı ve Yapay Zeka",
+      "description": "Zihinsel sağlık taraması, teşhisi ve terapötik destekte yapay zeka uygulamaları",
+      "button": "Devamını oku"
+    },
+    "dataPrivacy": {
+      "title": "Veri Gizliliği ve Güvenliği",
+      "description": "Sağlık verilerinin korunması, HIPAA uyumluluğu ve gizlilik önlemleri",
+      "button": "Devamını oku"
+    },
+    "aiAccuracy": {
+      "title": "Yapay Zeka Doğruluk Çalışmaları",
+      "description": "Gerçek dünya sağlık ortamlarında yapay zeka tanı sistemlerinin klinik doğrulaması ve performans ölçümleri",
+      "button": "Devamını oku"
+    },
+    "aiForLaypeople": {
+      "title": "Herkes İçin Yapay Zeka",
+      "description": "Sağlık sektöründeki yapay zekayı basit terimlerle anlamak - teknik bir altyapıya gerek yok",
+      "button": "Devamını oku"
+    }
+  },
+  "dialogs": {
+    "startWithDefault": "Sağlık Uzmanı Carol ile başlayın",
+    "startWithSpecific": "{{name}} ile başlayın",
+    "longRecording": {},
+    "shortConv": {}
+  },
+  "team": {
+    "myAIHealthTeam": "Yapay Zeka Sağlık Ekibim",
+    "addMembersInstruction": "Sağdaki kartlardan birine tıklayarak ekip üyelerini ekleyin.",
+    "maxTeamSizeNote": "Ekibinize en fazla beş AI danışmanı ekleyebilirsiniz. Ekibinizi istediğiniz zaman değiştirebilirsiniz, ancak danışmanlık sırasında değiştiremezsiniz.",
+    "starting": "Başlangıç...",
+    "startTeamConsult": "Takım Danışmanlığını Başlat",
+    "startConsultationWithTeam": "Ekibinizle Danışmanlığa Başlayın"
+  },
+  "newConversation": {
+    "aileenCarolOnly": "Sağlık Uzmanı Carol Only",
+    "oneOnOne": "Birebir",
+    "consultationChoice": {
+      "question": "Bugün kiminle görüşmek istersiniz?"
+    },
+    "options": {
+      "allAdvisers": "Tüm Yapay Zeka Sağlık Danışmanlarım",
+      "allAdvisersCarolOnly": "Tüm Yapay Zeka Sağlık Danışmanlarım (Yalnızca Yapay Zeka Sağlık Uzmanı Carol)",
+      "chooseSpecific": "Listemden Belirli'yi seçin"
+    },
+    "tooltips": {
+      "noAdvisersSelected": "Profilinizde danışman seçilmedi.",
+      "loadingAdvisers": "Danışmanlarınız yükleniyor...",
+      "noOtherAdvisers": "Listenizde seçebileceğiniz başka danışman yok. Profilinize daha fazlasını ekleyin."
+    },
+    "errors": {
+      "loadingAdvisers": "Danışman verileri yüklenirken hata oluştu."
+    },
+    "buttons": {
+      "cancel": "İptal etmek",
+      "next": "Sonraki",
+      "start": "Başlangıç"
+    }
+  },
+  "aiAccuracyWhitepaper": {
+    "section1": {},
+    "section2": {
+      "aiSuccess": {},
+      "aiErrors": {},
+      "aiVsHuman": {}
+    },
+    "section3": {
+      "challenges": {}
+    },
+    "section4": {
+      "guidelines": {}
+    },
+    "section5": {}
+  },
+  "imagingAIExplainer": {
+    "whatIsImaging": {
+      "types": {}
+    },
+    "whatIsAI": {},
+    "howAIHelps": {
+      "accuracy": {},
+      "speed": {},
+      "consistency": {}
+    },
+    "challenges": {},
+    "conclusion": {}
+  },
+  "mentalHealthWhitepaper": {
+    "disclaimer": {},
+    "abstract": {},
+    "introduction": {},
+    "methods": {},
+    "results": {
+      "diagnosticSupport": {},
+      "therapeuticApplications": {},
+      "patientMonitoring": {}
+    },
+    "discussion": {},
+    "conclusion": {}
+  },
+  "audio": {},
+  "autoListening": {},
+  "speech": {},
+  "help": {},
+  "upload": {},
+  "fileUpload": {},
+  "input": {},
+  "send": {},
+  "controls": {
+    "aiSpeaker": "Yapay Zeka Konuşmacısı",
+    "cameraUpload": "Kamera/Yükleme",
+    "status": {
+      "enabled": "Etkinleştirilmiş",
+      "disabled": "Engelli"
+    }
+  },
+  "welcome": {},
+  "account": {},
+  "participants": {},
+  "mobileChat": {},
+  "sidebar": {
+    "differentialOpinion": "Farklı Görüş"
+  },
+  "bioPanel": {},
+  "conversations": {},
+  "mobileConsultations": {},
+  "encyclopedia": {},
+  "imageContext": {},
+  "profile": {},
+  "sidebarHeader": {
+    "plusBadge": "+"
+  },
+  "messages": {},
+  "sidebarFooter": {},
+  "summary": {},
+  "teamBuilder": {
+    "steps": {},
+    "alerts": {},
+    "existingTeam": {},
+    "primaryConcerns": {},
+    "healthConditions": {},
+    "urgencySymptoms": {},
+    "medicinePreferences": {},
+    "additionalInfo": {},
+    "aileenCarolIntro": {},
+    "buttons": {},
+    "dialogs": {}
+  },
+  "aileenCarol": {},
+  "transcript": {},
+  "registerPage": {},
+  "legal": {
+    "eligibility": {},
+    "feesAndPayment": {},
+    "termination": {}
+  },
+  "aboutEncyclopediaPage": {},
+  "loginPage": {},
+  "mobileTeamBuilder": {
+    "carolMessages": {},
+    "questionnaire": {},
+    "title": {},
+    "carolGreeting": {}
+  },
+  "mobileNavigation": {},
+  "mobileWelcome": {},
+  "mobileRouter": {},
+  "mobileInput": {},
+  "mobileProfile": {},
+  "clinicianInfoPage": {},
+  "contactPage": {},
+  "dataPrivacyWhitepaper": {
+    "sections": {},
+    "hero": {},
+    "privacyPledge": {
+      "secureInfo": {},
+      "noPersonalUse": {},
+      "neverSell": {},
+      "anonymizedData": {}
+    },
+    "securityLevels": {
+      "accountSecurity": {},
+      "hipaaHistory": {}
+    },
+    "mindscriptSecurity": {},
+    "hipaaConsiderations": {},
+    "userResponsibility": {},
+    "privacyScenarios": {},
+    "conclusion": {}
+  },
+  "encyclopediaPage": {},
+  "evidencePage": {
+    "researchEvidence": {
+      "radiology": {},
+      "pathology": {},
+      "dermatology": {},
+      "mentalHealthResearch": {}
+    },
+    "wellnessInsights": {
+      "personalizedWellness": {},
+      "holisticSignals": {},
+      "proactiveWellbeing": {},
+      "aiEnhancedClarity": {}
+    }
+  },
+  "featuresPage": {
+    "features": {
+      "instantWellnessInsights": {},
+      "holisticWellnessPicture": {},
+      "diverseAIPerspectives": {},
+      "everEvolvingIntelligence": {}
+    }
+  },
+  "healthAdvisoryPage": {
+    "sections": {
+      "consultation": {
+        "emergency": {}
+      },
+      "technology": {},
+      "disclaimer": {
+        "points": {}
+      }
+    }
+  },
+  "medicalImageProcessingPage": {},
+  "mentalHealthInfoPage": {},
+  "nurseInfoPage": {},
+  "patientInfoPage": {},
+  "pharmacistInfoPage": {},
+  "physicianInfoPage": {},
+  "wellnessPathwaysPage": {},
+  "whyVirtualMD": {
+    "sections": {
+      "whyUs": {
+        "points": {
+          "personalTeam": {},
+          "aiNavigator": {},
+          "empoweringChoices": {},
+          "easyToUse": {},
+          "advancedTechnology": {}
+        }
+      },
+      "hero": {},
+      "features": {
+        "points": {
+          "dynamicEnsemble": {},
+          "holisticUnderstanding": {},
+          "rapidAccess": {},
+          "reliableInteractions": {},
+          "insightfulLogs": {}
+        }
+      },
+      "technology": {},
+      "cta": {}
+    }
+  },
+  "yourHealthInYourHandsPage": {
+    "sections": {
+      "uniqueProfile": {},
+      "personalizedGoals": {},
+      "diverseInsights": {},
+      "proactivePartner": {}
+    },
+    "callToAction": {}
+  },
+  "session_complete": "Oturum Tamamlandı",
+  "your_free_trial_has_ended": "Ücretsiz Denemeniz Sona Erdi",
+  "united_kingdom:_dial_999_or_11": "Birleşik Krallık: 999 veya 112'yi arayın",
+  "melanoma_and_skin_cancer_detec": "Melanom ve Cilt Kanseri Tespiti",
+  "process_transactions_and_send_": "İşlemleri gerçekleştirin ve onaylar ve faturalar (varsa) dahil olmak üzere ilgili bilgileri gönderin.",
+  "information_we_collect": "Topladığımız Bilgiler",
+  "in_a_medical_emergency:": "Tıbbi bir acil durumda:",
+  "in_response_to_legal_process:": "Hukuki İşleme Yanıt Olarak:",
+  "loading_chat": "Sohbet yükleniyor...",
+  "redirecting": "Yönlendiriliyor...",
+  "israel:_dial_101_(magen_david_": "İsrail: 101'i arayın ()",
+  "unlimited_messages_with_ai_doc": "Yapay zeka sağlık uzmanlarıyla sınırsız mesajlaşma",
+  "contact_information": "İletişim Bilgileri",
+  "real-world_implementation_and_": "Gerçek Dünya Uygulamaları ve Mobil Uygulamalar",
+  "your_access_to_or_use_of_or_in": "HİZMETE ERİŞİMİNİZ VEYA HİZMETİ KULLANMANIZ YA DA ERİŞEMEMENİZ VEYA HİZMETİ KULLANAMAMANIZ;",
+  "your_computer_may_temporarily_": "Bilgisayarınız, bu tür materyallere erişiminiz ve bunları görüntülemeniz nedeniyle bu materyallerin kopyalarını geçici olarak RAM'de depolayabilir.",
+  "please_select_only_one_special": "Lütfen özel görüşme için yalnızca bir uzman seçin.",
+  "references": "Referanslar",
+  "business_transfers:": "İşletme Devirleri:",
+  "account_information:": "Hesap Bilgileri:",
+  "provide,_operate,_maintain,_an": "Hizmeti sağlamak, işletmek, sürdürmek ve iyileştirmek.",
+  "assignment": "Atama",
+  "sandymiles@mindspringhealth": "sandymiles@mindspring.health",
+  "ai-generated_content_may_conta": "Sağlam doğrulama süreçlerimize rağmen yapay zeka tarafından oluşturulan içerikte hatalar veya eksiklikler olabilir",
+  "display_name": "Ekran adı",
+  "any_content_obtained_from_the_": "HİZMETTEN ELDE EDİLEN HERHANGİ BİR İÇERİK; VEYA",
+  "you_may_store_files_that_are_a": "Görüntü iyileştirme amacıyla Web tarayıcınız tarafından otomatik olarak önbelleğe alınan dosyaları depolayabilirsiniz.",
+  "start_new_health_consultation": "Yeni Sağlık Danışmanlığı Başlatın",
+  "entire_agreement": "Tüm Anlaşma",
+  "ophthalmology": "Göz Hastalıkları",
+  "not": "OLUMSUZ",
+  "exit_conversation?": "Konuşmadan Çıkış?",
+  "grading_and_classification": "Sınıflandırma ve Derecelendirme",
+  "unauthorized_access,_use,_or_a": "MINDSCRIPT, BU ŞARTLARDA VE GİZLİLİK POLİTİKASINDA BELİRTİLEN MAKUL GÜVENLİK ÖNLEMLERİNİ UYGULASA BİLE, İLETİLERİNİZE VEYA İÇERİĞİNİZE YETKİSİZ ERİŞİM, KULLANIM VEYA DEĞİŞİKLİK YAPILMASI (VERİ İHLALLERİ DAHİL) ENGELLEYİCİDİR.",
+  "checking_server_status": "Sunucu durumu kontrol ediliyor...",
+  "not_a_hipaa-compliant_service": "HIPAA UYUMLU BİR HİZMET DEĞİLDİR",
+  "radiology": "Radyoloji",
+  "united_states:_dial_911": "Amerika Birleşik Devletleri: 911'i arayın",
+  "save_and_review_conversation_h": "Konuşma geçmişini kaydedin ve inceleyin",
+  "abstract": "Soyut",
+  "starting_your_consultation": "Danışmanlığınıza başlıyoruz...",
+  "digital_pathology_overview": "Dijital Patolojiye Genel Bakış",
+  "reasonable_business_security_p": "Amerika Birleşik Devletleri'nde makul iş güvenliği uygulamaları",
+  "loading_transcript": "Transkript yükleniyor...",
+  "cookies_and_similar_technologi": "Çerezler ve Benzeri Teknolojiler:",
+  "internal_medicine": "İçsel Sağlık",
+  "no_specialists_currently_in_th": "Bu sohbette şu anda uzman yok.",
+  "discussion": "Tartışma",
+  "updating_team": "Takım güncelleniyor...",
+  "your_privacy_choices": "Gizlilik Seçimleriniz",
+  "error:_unknown_active_chat_vie": "Hata: Bilinmeyen etkin sohbet görünümü.",
+  "create_more_than_one_account_f": "Kendiniz için birden fazla hesap oluşturun.",
+  "improve_the_accuracy,_efficacy": "Anonimleştirilmiş ve toplanmış verileri kullanarak yapay zeka modellerimizin ve platform özelliklerimizin doğruluğunu, etkinliğini ve güvenliğini artırın.",
+  "user_content:": "Kullanıcı İçeriği:",
+  "mindscript_does_not_provide_me": "MindScript tıbbi teşhis veya tedavi sağlamaz",
+  "communicate_with_you_about_pro": "MindScript ve diğerleri tarafından sunulan ürünler, hizmetler, teklifler, promosyonlar, ödüller ve etkinlikler hakkında sizinle iletişim kurmak ve ilginizi çekebileceğini düşündüğümüz haberleri ve bilgileri sağlamak (vazgeçme haklarınıza tabidir).",
+  "aggregated_or_de-identified_da": "Toplu veya Kimliği Belirsizleştirilmiş Veriler:",
+  "canada:_dial_911": "Kanada: 911'i arayın",
+  "retry": "Tekrar dene",
+  "other_locations:_contact_your_": "Diğer konumlar: Hemen yerel acil durum servisleriyle iletişime geçin",
+  "ron_rubin,_phd_and_sandy_miles": "Ron Rubin, PhD ve Sandy Miles",
+  "australia:_dial_000_or_112": "Avustralya: 000 veya 112'yi arayın",
+  "data_deletion:": "Veri Silme:",
+  "we_do_not_guarantee_the_absolu": "BİLGİLERİNİZİN MUTLAK GÜVENLİĞİNİ GARANTİ ETMİYORUZ",
+  "send_technical_notices,_update": "Teknik bildirimler, güncellemeler, güvenlik uyarıları, destek ve idari mesajlar gönderin.",
+  "consultation_summary": "Danışma Özeti",
+  "waiver": "Feragat",
+  "access_to_all_medical_specialt": "Tüm sağlık uzmanlıklarına erişim",
+  "no_profile_data_available": "Profil verisi bulunamadı.",
+  "no_summary_available": "Özet mevcut değil.",
+  "test_app_-_mindscript": "Test Uygulaması - MindScript",
+  "respond_to_your_comments,_ques": "Yorumlarınıza, sorularınıza ve isteklerinize yanıt verin ve müşteri hizmeti sağlayın.",
+  "not_hipaa_compliant": "HIPAA uyumlu DEĞİL",
+  "force_majeure": "Mücbir Sebep",
+  "you_may_print_or_download_one_": "Sitenin makul sayıda sayfasının bir kopyasını kişisel, ticari olmayan bilgilendirme amaçlı kullanımınız için yazdırabilir veya indirebilirsiniz; daha fazla çoğaltma, yayınlama veya dağıtım amacıyla değil.",
+  "dr_aileen_carol": "Sağlık Uzmanı Aileen Carol",
+  "family_medicine": "Aile Sağlığı",
+  "headings": "Başlıklar",
+  "note_on_ai_aileencarol's_particip": "Yapay Zeka Sağlık Uzmanı Carol'ın Katılımına İlişkin Not:",
+  "ronrubin@mindscripthealth": "ronrubin@virtualmd.app",
+  "share_your_account_credentials": "Hesap bilgilerinizi paylaşmayın veya başkalarının hesabınıza erişmesine izin vermeyin (kurumsal hesaplar için açıkça izin verilen durumlar hariç).",
+  "email_cannot_be_changed": "E-posta değiştirilemiyor.",
+  "your_unique_medical_history,_c": "Benzersiz sağlık geçmişiniz, koşullarınız ve durumlarınız profesyonel değerlendirme gerektirir",
+  "changes_to_these_terms_and_pol": "Bu Şartlar ve Politikada Yapılan Değişiklikler",
+  "other_ai_specialists": "Diğer Yapay Zeka Uzmanları",
+  "full_name": "Ad Soyad",
+  "governing_law_and_dispute_reso": "Geçerli Hukuk ve Uyuşmazlık Çözümü",
+  "loading…": "Yükleniyor…",
+  "personalized_health_insights": "Kişiselleştirilmiş sağlık içgörüleri",
+  "gastroenterology": "Gastroenteroloji",
+  "use_of_the_service_by_children": "Çocukların Hizmeti kullanması yasaktır.",
+  "introduction": "giriiş",
+  "use_another_user's_account_wit": "Başka bir kullanıcının hesabını izinsiz kullanmak.",
+  "if_you_can_see_this,_react_is_": "Eğer bunu görebiliyorsanız, React çalışıyor demektir!",
+  "ronrubin@mindspringhealth": "ronrubin@mindspring.health",
+  "children's_privacy": "Çocukların Gizliliği",
+  "provide_false_or_misleading_in": "Kayıt sırasında veya hesap profilinizde yanlış veya yanıltıcı bilgi vermeyin.",
+  "talk_to_a_specialist": "Bir Uzmanla Konuşun",
+  "cannot": "YAPAMAMAK",
+  "how_we_use_information": "Bilgileri Nasıl Kullanıyoruz",
+  "results": "Sonuçlar",
+  "loading_participants": "Katılımcılar yükleniyor...",
+  "sandymiles@mindscripthealth": "sandymiles@virtualmd.app",
+  "this_feature_is_coming_soon": "Bu özellik yakında geliyor!",
+  "start_or_continue_conversation": "Konuşmayı Başlat veya Devam Ettir",
+  "international_data_transfers": "Uluslararası Veri Transferleri",
+  "loading_bio": "Biyografi yükleniyor...",
+  "termination": "Fesih",
+  "no_image_active": "Aktif resim yok.",
+  "no_ai_health_advisers_selected": "Hiçbir AI Sağlık Danışmanı seçilmedi. Danışmanlarınızı profilinizden yönetebilirsiniz.",
+  "dr_daniel_garcia": "Sağlık Uzmanı Daniel Garcia",
+  "no_other_specialists_available": "Eklenecek başka uzman yok.",
+  "carry_out_any_other_purpose_de": "Bilgilerin toplandığı sırada size açıklanan diğer amaçları gerçekleştirmek.",
+  "data_retention": "Veri Saklama",
+  "informational_and_educational_": "SADECE BİLGİLENDİRME VE EĞİTİM AMAÇLIDIR",
+  "miscellaneous": "Çeşitli",
+  "non-cancerous_skin_condition_c": "Kanserli Olmayan Cilt Rahatsızlığı Sınıflandırması",
+  "pathology": "Patoloji",
+  "promotional_communications:": "Tanıtım İletişimleri:",
+  "info@mindscripthealth": "info@virtualmd.app",
+  "methods/technologies": "Yöntemler/Teknolojiler",
+  "how_we_share_information": "Bilgileri Nasıl Paylaşıyoruz",
+  "loading_profile": "Profil yükleniyor...",
+  "personalize_and_improve_the_se": "Hizmeti kişiselleştirmek ve iyileştirmek ve kullanıcı profillerine veya ilgi alanlarına uygun içerik veya özellikler sağlamak.",
+  "with_vendors_and_service_provi": "Tedarikçiler ve Hizmet Sağlayıcılarla:",
+  "health_information_may_become_": "Sağlık bilgisi geliştikçe sağlık bilgileri güncelliğini yitirebilir",
+  "with_whom_would_you_like_to_co": "Bugün kiminle görüşmek istersiniz?",
+  "mindscript_content:": "MindScript İçeriği:",
+  "cookies:": "Çerezler:",
+  "detect,_investigate,_and_preve": "Sahtekarlık içeren işlemleri ve diğer yasa dışı faaliyetleri tespit etmek, araştırmak ve önlemek ve MindScript ve diğerlerinin haklarını ve mülklerini korumak.",
+  "medical_advice_requires_person": "Sağlık danışmanlığı, lisanslı sağlık hizmeti sağlayıcıları tarafından kişiselleştirilmiş değerlendirme gerektirir",
+  "create_an_account_for_anyone_o": "İzniniz olmadan kendiniz dışında herhangi biri adına hesap oluşturmayın.",
+  "options": "Seçenekler",
+  "cannot_and_will_not_sue_or_hol": "MINDSCRIPT TECHNOLOGIES, LLC, BAĞLI KURULUŞLARI, YÖNETİCİLERİ, YÖNETİCİLERİ, ÇALIŞANLARI, TEMSİLCİLERİ VEYA LİSANS VERENLERİNİ DAVA EDEMEZ VE ETMEYECEĞİZ VEYA SORUMLU TUTMAYACAĞIZ",
+  "with_your_consent:": "Onayınızla:",
+  "add_specialists_to_your_team": "ekibinize uzmanlar ekleyin",
+  "usage_information:": "Kullanım Bilgileri:",
+  "any_conduct_or_content_of_any_": "HİZMET ÜZERİNDEKİ HERHANGİ BİR ÜÇÜNCÜ TARAFIN HERHANGİ BİR DAVRANIŞI VEYA İÇERİĞİ, DİĞER KULLANICILARIN VEYA ÜÇÜNCÜ TARAFLARIN HERHANGİ BİR İFTİRA, SALDIRGAN VEYA YASADIŞI DAVRANIŞI DAHİL ANCAK BUNLARLA SINIRLI OLMAMAK ÜZERE;",
+  "do_not_meet_the_specific_admin": "PHI'yi işlemek için HIPAA Güvenlik Kuralı tarafından zorunlu kılınan belirli idari, fiziksel ve teknik koruma gerekliliklerini karşılamıyor",
+  "legal@mindscripthealth": "legal@virtualmd.app",
+  "cancel": "İptal etmek",
+  "conclusion": "Çözüm",
+  "professional_health_insights_a": "Profesyonel sağlık içgörüleri ve rehberliği",
+  "cancer_detection": "Kanser Tespiti",
+  "your_specialist_team_is_empty_": "Uzman ekibiniz boş. Aşağıdan uzman ekleyin.",
+  "workflow_optimization": "İş Akışı Optimizasyonu",
+  "select_ai_specialists": "Seçili Yapay Zeka Uzmanları",
+  "monitor_and_analyze_trends,_us": "Hizmetimizle bağlantılı eğilimleri, kullanımları ve etkinlikleri izleyin ve analiz edin.",
+  "severability": "Bölünebilirlik",
+  "access_to_cardiology_and_neuro": "Kardiyoloji ve nöroloji uzmanlarına erişim",
+  "searchLanguages": "Dilleri ara...",
+  "noLanguagesFound": "Hiçbir dil bulunamadı",
+  "you": "Sen",
+  "manageTeam": {
+    "title": "AI Sağlık Ekibimi Yönet (Maksimum {{maxTeamMembers}} Uzman)",
+    "currentTeamCount": "Mevcut Ekibiniz ({{current}}/{{max}})",
+    "updatingTeam": "Takım güncelleniyor...",
+    "coordinatorLabel": "(Koordinatör)",
+    "alwaysIncluded": "Her zaman dahil",
+    "specialistFallback": "Uzman",
+    "emptyTeamMessage": "Uzman ekibiniz boş. Aşağıdan uzman ekleyin.",
+    "teamFullMessage": "Ekibiniz dolu (Maksimum {{maxTeamMembers}} uzman). Farklı bir uzman eklemek isterseniz lütfen bir üyeyi kaldırın.",
+    "otherSpecialistsTitle": "Diğer Yapay Zeka Uzmanları",
+    "addToTeamTooltip": "Takıma ekle",
+    "teamFullTooltip": "Takım dolu",
+    "systemSpecialistFallback": "Sistem Uzmanı",
+    "noSpecialistsAvailable": "Eklenecek başka uzman yok."
+  },
+  "personas": {
+    "defaultSpecialist": "Yapay Zeka Uzmanı"
+  },
+  "personaList": {
+    "noSpecialistsFound": "Yapay zeka uzmanı bulunamadı."
+  },
+  "guest": {
+    "user": "Misafir Kullanıcı",
+    "userObject": {
+      "displayName": "Misafir Kullanıcı",
+      "email": "guest@virtualmd.app"
+    },
+    "registration": {
+      "prompt": "Yapay zeka sağlık ekibimizin tamamına, konuşma geçmişine ve gelişmiş özelliklere tam erişim için kaydolun.",
+      "dialogTitle": "Kayıtlı kullanıcılar {{specialistName}}'e erişebilir",
+      "dialogDescription": "{{specialistName}} kapsamlı sanal sağlık ekibimizin bir parçasıdır.",
+      "benefitsTitle": "VirtualMD.app hesabınızla şunları elde edeceksiniz:",
+      "benefits": {
+        "access": "60'tan fazla uzman AI sağlık danışmanına erişim",
+        "personalized": "Kişiye özel sağlık danışmanlıkları",
+        "saveConversations": "Konuşmaları kaydedin ve devam ettirin",
+        "uploadImages": "Görüntüleri yükleyin veya doğrudan bilgisayarınızdan/kameranızdan çekin",
+        "customTeam": "Kendi özel sağlık ekibinizi oluşturun",
+        "availability": "Sağlık sorularınız için 7/24 ulaşılabilirlik"
+      },
+      "buttons": {
+        "maybeLater": "Belki Daha Sonra",
+        "registerNow": "Şimdi Kaydolun"
+      }
+    },
+    "registrationRequired": "Kayıt gereklidir",
+    "profileRegistrationRequired": "Kullanıcı profili: kayıt gerekli",
+    "landing": {
+      "title": "AI Sağlık Danışmanlığı Deneyimi",
+      "subtitle": "Yapay zeka sağlık uzmanlarımızdan anında sağlık bilgileri alın - tamamen ücretsiz, kayıt gerektirmez",
+      "whatBringsYou": "Bugün sizi buraya getiren ne?",
+      "selectConcern": "Yaygın bir endişeyi seçin veya kendi endişenizi tanımlayın",
+      "customConcernPlaceholder": "Veya sağlık endişenizi kendi kelimelerinizle anlatın...",
+      "startConsultation": "Ücretsiz Danışmanlığa Başlayın",
+      "experienceIncludes": "Ücretsiz Misafir Deneyimi şunları içerir:",
+      "includes": {
+        "messages": "Yapay zeka sağlık uzmanlarıyla 10 mesaj",
+        "time": "15 dakikalık danışma süresi",
+        "insights": "Profesyonel sağlık içgörüleri ve rehberliği"
+      },
+      "personas": {
+        "defaultSpecialist": "Yapay Zeka Uzmanı",
+        "aileen": {
+          "name": "Sağlık Uzmanı Aileen Carol",
+          "specialty": "Aile Sağlığı"
+        },
+        "daniel": {
+          "name": "Sağlık Uzmanı Daniel Garcia",
+          "specialty": "İçsel Sağlık"
+        }
+      }
+    },
+    "chat": {
+      "header": "Yapay Zeka Sağlık Danışmanlığı",
+      "messagesLeft": "{{count}} mesaj kaldı",
+      "timeLeft": "{{kalan zaman",
+      "startingConsultation": "Danışmanlığınız başlıyor. Bir yapay zeka sağlık uzmanı kısa süre içinde size dönüş yapacaktır.",
+      "aiTyping": "Yapay zeka uzmanı yazıyor...",
+      "inputPlaceholder": "Belirtilerinizi tanımlayın veya bir soru sorun..."
+    },
+    "expired": {
+      "title": "Danışma Tamamlandı",
+      "subtitle": "Yapay zeka sağlık danışmanlığının gücünü deneyimlediniz",
+      "messagesUsed": "{{used}} / {{max}} mesaj kullandınız",
+      "continuePrompt": "Sınırsız erişimle devam etmek ister misiniz?",
+      "createAccount": "Ücretsiz Hesap Oluşturun",
+      "signIn": "Giriş yap"
+    },
+    "errors": {
+      "startFailed": "Danışma başlatılamıyor. Lütfen tekrar deneyin.",
+      "connectionLost": "Bağlantı kesildi. Lütfen sayfayı yenileyin.",
+      "sendFailed": "Mesaj gönderilemedi. Lütfen tekrar deneyin."
+    },
+    "profile": {
+      "age": "25",
+      "gender": "Dişi",
+      "bloodType": "A+",
+      "height": "1.68 boyunda",
+      "weight": "130 kilo",
+      "conditions": "Demir eksikliği anemisi, Orta derecede depresyon",
+      "medications": "Demir sülfat 325 mg günlük, Sertralin 50 mg günlük",
+      "allergies": "Bilinen yok",
+      "healthInfo": "Son 6 aydır yorgunluk ve düşük enerjiyle mücadele ediyorum. Sağlık uzmanım bana demir eksikliği anemisi teşhisi koydu ve demir takviyeleri alıyorum. Ayrıca depresyonla mücadele ediyorum ve 3 ay önce antidepresan kullanmaya başladım. Her iki rahatsızlığı da yönetmek ve genel enerji seviyemi iyileştirmek için tavsiye arıyorum.",
+      "emergencyContact": "Sarah Johnson (Kardeş) - (555) 123-4567"
+    },
+    "experience": {
+      "tryItOut": "Deneyin.",
+      "noObligation": "Hiçbir zorunluluk yok.",
+      "subtitle": "VirtualMD.app'in sizin için yapabileceklerinin sadece küçük bir kısmı."
+    }
+  },
+  "aiPrefix": "Yapay zeka",
+  "dashboard": "Gösterge Paneli",
+  "teamRecommendation": {
+    "submission": {
+      "primaryConcernsLabel": "Bugün başlıca sağlık sorunlarınız nelerdir?",
+      "healthConditionsLabel": "Hangi sağlık koşullarınız geçerli?"
+    },
+    "defaults": {
+      "noneSpecified": "Hiçbiri belirtilmedi"
+    }
+  }
+}

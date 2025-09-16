@@ -1,0 +1,27 @@
+{
+  "errors": {
+    "fileReadFailed": "读取文件失败。",
+    "imageProcessFailed": "无法处理图像。图像可能已损坏或格式不受支持。",
+    "invalidImageFile": "请选择一个图像文件。",
+    "loadingProfile": "加载个人资料时出错：",
+    "noData": "没有可用的个人资料数据。",
+    "saveFailed": "无法保存个人资料。请重试。"
+  },
+  "healthInfo": {
+    "conditions": "状况：",
+    "date": " （日期： ",
+    "diagnosed": "（诊断：",
+    "ended": "（结束：",
+    "medicalEvents": "健康事件：",
+    "medications": "药物：",
+    "notAvailable": "不适用",
+    "notes": "注意:",
+    "started": "（开始时间："
+  },
+  "loading": {
+    "profile": "正在加载个人资料..."
+  },
+  "success": {
+    "profileUpdated": "个人资料更新成功！"
+  }
+}

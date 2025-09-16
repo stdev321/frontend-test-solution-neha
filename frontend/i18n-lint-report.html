@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>i18n Linting Report</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+        }
+        h1 { margin: 0; }
+        .summary {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        .stat-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .stat-number {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #667eea;
+        }
+        .stat-label {
+            color: #666;
+            font-size: 0.9rem;
+        }
+        .files-list {
+            background: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+        .file-item {
+            padding: 1rem;
+            border-bottom: 1px solid #eee;
+        }
+        .file-item:last-child {
+            border-bottom: none;
+        }
+        .file-path {
+            font-weight: bold;
+            color: #444;
+        }
+        .issue-count {
+            display: inline-block;
+            background: #ffd93d;
+            color: #333;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.85rem;
+            margin-left: 10px;
+        }
+        .priority-high { background: #ff6b6b; color: white; }
+        .priority-medium { background: #ffd93d; }
+        .priority-low { background: #51cf66; color: white; }
+        .sample {
+            margin: 0.5rem 0;
+            padding: 0.5rem;
+            background: #f8f9fa;
+            border-left: 3px solid #667eea;
+            font-family: monospace;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🌍 i18n Linting Report</h1>
+        <p>Generated: 8/25/2025, 3:56:58 PM</p>
+    </div>
+    
+    <div class="summary">
+        <div class="stat-card">
+            <div class="stat-number">72</div>
+            <div class="stat-label">Files Scanned</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number">35</div>
+            <div class="stat-label">Files with Issues</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number">338</div>
+            <div class="stat-label">i18n Warnings</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number">53</div>
+            <div class="stat-label">Other Issues</div>
+        </div>
+    </div>
+    
+    <div class="files-list">
+        <h2>Files Requiring i18n Updates</h2>
+        
+            <div class="file-item">
+                <div class="file-path">
+                    src/pages/HowToPage.jsx
+                    <span class="issue-count priority-high">154 issues</span>
+                </div>
+                
+                    <div class="sample">Line 89: disallow literal string: <Typography variant="h6" sx={{ px: 3, mb: 2, fontWeight: 600 }}>
+        Co...</div>
+                
+                    <div class="sample">Line 199: disallow literal string: <Typography variant="h2" component="h1" gutterBottom sx={{ 
+            fon...</div>
+                
+                    <div class="sample">Line 207: disallow literal string: <Typography variant="h6" sx={{ 
+            mb: 6,
+            textAlign: '...</div>
+                
+            </div>
+            
+            <div class="file-item">
+                <div class="file-path">
+                    src/pages/LegalPage_backup.jsx
+                    <span class="issue-count priority-high">68 issues</span>
+                </div>
+                
+                    <div class="sample">Line 59: disallow literal string: <Typography variant="h1" component="h1" align="center" gutterBottom sx={{ f...</div>
+                
+                    <div class="sample">Line 64: disallow literal string: <Typography variant="h2" component="h2" sx={h2Styles}><GavelIcon sx={{verti...</div>
+                
+                    <div class="sample">Line 66: disallow literal string: <Typography sx={paragraphStyles}>
+          Welcome to VirtualMD.app (the "...</div>
+                
+            </div>
+            
+            <div class="file-item">
+                <div class="file-path">
+                    src/pages/LegalPage_original.jsx
+                    <span class="issue-count priority-high">68 issues</span>
+                </div>
+                
+                    <div class="sample">Line 61: disallow literal string: <Typography variant="h1" component="h1" align="center" gutterBottom sx={{ f...</div>
+                
+                    <div class="sample">Line 66: disallow literal string: <Typography variant="h2" component="h2" sx={h2Styles}><GavelIcon sx={{verti...</div>
+                
+                    <div class="sample">Line 68: disallow literal string: <Typography sx={paragraphStyles}>
+          Welcome to VirtualMD.app (the "...</div>
+                
+            </div>
+            
+            <div class="file-item">
+                <div class="file-path">
+                    src/pages/WellnessPathwaysGuidePage.jsx
+                    <span class="issue-count priority-high">23 issues</span>
+                </div>
+                
+                    <div class="sample">Line 25: disallow literal string: <Typography variant="h5" gutterBottom color="error">
+            Always Con...</div>
+                
+                    <div class="sample">Line 28: disallow literal string: <Typography variant="body1" paragraph>
+            While VirtualMD's AI-pow...</div>
+                
+                    <div class="sample">Line 32: disallow literal string: <strong>In a health emergency:</strong></div>
+                
+            </div>
+            
+            <div class="file-item">
+                <div class="file-path">
+                    src/pages/LandingPage.jsx
+                    <span class="issue-count priority-medium">11 issues</span>
+                </div>
+                
+                    <div class="sample">Line 423: disallow literal string: <Typography variant="h5" component="div" sx={{ fontWeight: 600 }}>
+        ...</div>
+                
+                    <div class="sample">Line 435: disallow literal string: <strong>IMPORTANT HEALTH ADVISORY:</strong></div>
+                
+                    <div class="sample">Line 437: disallow literal string: <Typography variant="body2" paragraph>
+            VirtualMD.app is designe...</div>
+                
+            </div>
+            
+            <div class="file-item">
+                <div class="file-path">
+                    src/pages/FAQPage.jsx
+                    <span class="issue-count priority-low">7 issues</span>
+                </div>
+                
+                    <div class="sample">Line 129: disallow literal string: <Typography variant="h3" component="h1" gutterBottom sx={{ 
+          fontW...</div>
+                
+                    <div class="sample">Line 138: disallow literal string: <Typography variant="h6" sx={{ 
+          mb: 4,
+          textAlign: 'cent...</div>
+                
+                    <div class="sample">Line 202: disallow literal string: <Typography variant="h5" gutterBottom sx={{ fontWeight: 600, mb: 2 }}>
+    ...</div>
+                
+            </div>
+            
+            <div class="file-item">
+                <div class="file-path">
+                    src/components/IntroductoryPopup.jsx
+                    <span class="issue-count priority-low">4 issues</span>
+                </div>
+                
+                    <div class="sample">Line 363: disallow literal string: <Typography sx={{ color: '#27A9E0', fontSize: '0.9rem' }}>★</Typography></div>
+                
+                    <div class="sample">Line 371: disallow literal string: <Typography sx={{ color: '#27A9E0', fontSize: '0.9rem' }}>★</Typography></div>
+                
+                    <div class="sample">Line 379: disallow literal string: <Typography sx={{ color: '#27A9E0', fontSize: '0.9rem' }}>★</Typography></div>
+                
+            </div>
+            
+            <div class="file-item">
+                <div class="file-path">
+                    src/components/PersonaSelection.js
+                    <span class="issue-count priority-low">3 issues</span>
+                </div>
+                
+                    <div class="sample">Line 73: disallow literal string: <Typography>Error loading personas: {error}</Typography></div>
+                
+                    <div class="sample">Line 80: disallow literal string: <Typography variant="h6" gutterBottom>
+        Select AI Personas for Your ...</div>
+                
+                    <div class="sample">Line 83: disallow literal string: <Typography variant="body2" color="text.secondary" sx={{ mb: 2 }}>
+        ...</div>
+                
+            </div>
+            
+    </div>
+</body>
+</html>

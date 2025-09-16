@@ -1,0 +1,715 @@
+{
+  "actions": {
+    "startConsultation": "Start Gezondheidsconsult",
+    "endConsultation": "Einde consultatie",
+    "returnToConsultation": "Terug naar consultatie",
+    "newConversation": "Begin een nieuw gesprek",
+    "saveConversation": "Gesprek opslaan",
+    "deleteConversation": "Gesprek verwijderen",
+    "getSummary": "Samenvatting ophalen",
+    "getTranscript": "Transcript ophalen",
+    "getDifferentialOpinion": "Krijg een gedifferentieerde mening",
+    "exportChat": "Chat exporteren",
+    "clearChat": "Chat wissen"
+  },
+  "audio": {
+    "aiMuted": "AI gedempt",
+    "aiUnmuted": "AI-audio aan",
+    "playbackFailed": "Het afspelen van audio is mislukt",
+    "generationFailed": "Het genereren van spraak is mislukt"
+  },
+  "sidebar": {
+    "personaList": "Kies uw zorgprofessional",
+    "conversations": "Mijn gesprekken",
+    "profile": "Mijn profiel",
+    "settings": "Instellingen",
+    "manageTeam": "Team beheren",
+    "teamBuilder": "AI-teambouwer",
+    "encyclopedia": "Encyclopedie",
+    "bio": "Professionele biografie",
+    "clickForBio": "Klik voor biografie",
+    "clickToSpeak": "Klik om met een adviseur te spreken",
+    "summary": "Samenvatting van de consultatie",
+    "transcript": "Gesprekstranscript",
+    "imageContext": "Beeldcontext",
+    "newConversation": "Nieuw consult"
+  },
+  "tooltips": {
+    "audioOnlyRegistered": "Audio alleen beschikbaar voor geregistreerde gebruikers."
+  },
+  "messages": {
+    "typeMessage": "Typ hier uw bericht...",
+    "send": "Versturen",
+    "thinking": "Denken...",
+    "processing": "Verwerken...",
+    "connecting": "Verbinden...",
+    "connected": "Aangesloten",
+    "disconnected": "Losgekoppeld",
+    "typing": "{{name}} typt...",
+    "messageError": "Bericht verzenden mislukt",
+    "retryMessage": "Opnieuw proberen",
+    "requestToSpeak": "Laat mij even met {{name}} praten",
+    "messageDeleted": "Bericht verwijderd",
+    "systemMessage": "Systeembericht"
+  },
+  "personas": {
+    "defaultName": "Gezondheidsexpert Aileen Carol",
+    "defaultSpecialty": "Gezondheidsspecialist",
+    "selectPersona": "Selecteer een zorgprofessional",
+    "noPersonasAvailable": "Geen medische professionals beschikbaar",
+    "personaDetails": "Professionele details",
+    "specialization": "Specialisatie",
+    "experience": "Ervaring",
+    "education": "Onderwijs",
+    "certifications": "Certificeringen",
+    "languages": "Talen",
+    "availableNow": "Nu beschikbaar",
+    "loading": "Professionals laden..."
+  },
+  "personaSearch": {
+    "placeholder": "Zoek op naam, specialisme of beschrijf uw symptomen (bijv. hoofdpijn, angst)",
+    "selected": "Gekozen",
+    "noResults": "Geen consultants gevonden voor \"{{query}}\"",
+    "searchSuggestions": "Probeer te zoeken naar: hoofdpijn, angst, pijn, slaap, diabetes, etc."
+  },
+  "configurator": {
+    "title": "Start nieuw gezondheidsconsult",
+    "subtitle": "Selecteer uit uw AI Health Team",
+    "changeTeam": "Veranderteam",
+    "starting": "Beginnen...",
+    "startConsult": "Start consult",
+    "emptyTeam": "Uw AI Health Team is leeg",
+    "addSpecialists": "Voeg specialisten toe aan uw team",
+    "noOtherSpecialists": "Geen andere specialisten in uw team. U kunt chatten met AI Health Expert Carol of",
+    "addSpecialistsLink": "voeg specialisten toe aan uw team",
+    "defaultPersona": {
+      "name": "AI-gezondheidsexpert Aileen Carol",
+      "role": "Mijn primaire AI-gezondheidsadviseur"
+    },
+    "carolNote": {
+      "title": "Notitie over de deelname van AI-gezondheidsexpert Carol:",
+      "ruleA": "A. AI Health Expert Carol wordt opgenomen als er 0 of 2+ andere specialisten uit uw team worden geselecteerd.",
+      "ruleB": "B. AI-gezondheidsexpert Carol is niet inbegrepen als er maar 1 andere specialist uit uw team is geselecteerd."
+    }
+  },
+  "conversations": {
+    "noConversations": "Nog geen gesprekken",
+    "untitled": "Ongetiteld gesprek",
+    "today": "Vandaag",
+    "yesterday": "Gisteren",
+    "thisWeek": "Deze week",
+    "lastWeek": "Vorige week",
+    "older": "Ouder",
+    "editTitle": "Titel bewerken",
+    "saveTitle": "Titel opslaan",
+    "cancelEdit": "Annuleren Bewerken",
+    "deleteConsultation": "Consultatie verwijderen",
+    "clickToReturn": "Klik om terug te keren naar de raadpleging",
+    "deleteConfirm": "Weet u zeker dat u dit gesprek wilt verwijderen?",
+    "deleteSuccess": "Gesprek succesvol verwijderd",
+    "loadingConversations": "Gesprekken laden...",
+    "conversationError": "Fout bij het laden van het gesprek",
+    "consultationsTitle": "Consultaties",
+    "lastUpdate": "Laatste update: {{date}}",
+    "consultationDefault": "Consultatie {{id}}",
+    "noConsultationsYet": "Nog geen consultaties.",
+    "noPastConsultations": "Er zijn geen eerdere consultaties gevonden."
+  },
+  "participants": {
+    "noParticipants": "Er zijn geen deelnemers om weer te geven.",
+    "inThisConsult": "In dit virtuele consult:"
+  },
+  "team": {
+    "myTeam": "Mijn gezondheidsteam",
+    "addToTeam": "Toevoegen aan team",
+    "removeFromTeam": "Verwijderen uit team",
+    "teamFull": "Je team is vol",
+    "maxTeamSize": "Maximale teamgrootte bereikt ({{max}} leden)",
+    "currentTeam": "Huidige teamleden",
+    "buildTeam": "Stel je team samen",
+    "teamRecommendations": "Aanbevelingen van het AI-team",
+    "acceptRecommendation": "Aanbeveling accepteren",
+    "getRecommendations": "Ontvang AI-aanbevelingen",
+    "teamBuilder": "AI-teambouwer",
+    "addTeamMembersInstruction": "Voeg teamleden toe door op een kaart aan de rechterkant te klikken.",
+    "maxTeamSizeNote": "Er kunnen maximaal vijf AI-adviseurs aan uw team worden toegevoegd. U kunt uw team op elk moment wijzigen, maar niet tijdens een consult.",
+    "startConsultationWithTeam": "Start overleg met uw team",
+    "manageTeamTitle": "Beheer mijn AI-gezondheidsteam (maximaal {{max}} specialisten)",
+    "removeSpecialistToUseTeamBuilder": "Verwijder ten minste één specialist om de aanbevelingen van AI Health Expert Carol voor teambuilding te gebruiken",
+    "aileenCarolRecommendTeam": "Laat AI-gezondheidsexpert Carol uw gezondheidsteam aanbevelen",
+    "teamFullRemoveToUseBuilder": "Je team is vol. Verwijder minstens één specialist om AI-teambuilding te gebruiken.",
+    "yourCurrentTeam": "Je huidige team ({{current}}/{{max}})",
+    "updatingTeam": "Team updaten...",
+    "coordinator": "Coördinator",
+    "alwaysIncluded": "Altijd inbegrepen",
+    "specialist": "Specialist",
+    "teamEmptyAddBelow": "Uw specialistenteam is leeg. Voeg hieronder specialisten toe.",
+    "teamFullRemoveMember": "Je team is vol (maximaal {{max}} specialisten). Verwijder een lid als je een andere specialist wilt toevoegen.",
+    "addMembersClickCard": "Voeg teamleden toe door op een kaart in het hoofdgebied te klikken",
+    "teamLead": "Teamleider",
+    "currentMember": "Huidig lid",
+    "analyzingNeeds": "Uw behoeften analyseren...",
+    "emergencyDetected": "🚨 Noodgeval gedetecteerd",
+    "backToSafety": "Terug naar Veiligheid",
+    "recommendedTeam": "Aanbevolen gezondheidsteam",
+    "completeTeam": "Je complete team ({{count}} leden)",
+    "teamLeadReason": "Coördinator primaire gezondheidszorg",
+    "keepingMembers": "Huidige teamleden (behouden)",
+    "newRecommendations": "Nieuwe aanbevelingen",
+    "aileenCarolReasoning": "Redenering van AI-gezondheidsexpert Carol:",
+    "noMatchingSpecialists": "Er zijn geen geschikte specialisten gevonden voor de AI-aanbevelingen. Je kunt het opnieuw proberen of handmatig je team samenstellen.",
+    "medicalDisclaimerTitle": "Advies over gezondheid en welzijn:",
+    "medicalDisclaimerText": "Dit platform biedt gezondheidsadvies en -begeleiding, maar kan professionele zorg niet vervangen. Raadpleeg altijd gekwalificeerde zorgprofessionals bij noodgevallen of ernstige gezondheidsproblemen.",
+    "applyingTeam": "Sollicitatieteam...",
+    "acceptTeam": "Accepteer dit team",
+    "tryDifferent": "Probeer verschillende aanbevelingen",
+    "cancel": "Annuleren",
+    "myVirtualMDTeam": "Mijn VirtualMD.app-team",
+    "availableSpecialists": "Beschikbare AI-gezondheidsspecialisten",
+    "clickToAddInstruction": "Klik op een kaart om deze aan je team toe te voegen ({{current}}/{{max}} geselecteerd). Geselecteerde specialisten tonen een 'Geselecteerd'-badge.",
+    "teamFullInstruction": "Je team is vol. Verwijder een lid om een andere specialist toe te voegen.",
+    "selected": "Gekozen",
+    "teamFullBadge": "Team Volledig",
+    "allSpecialistsAdded": "Alle beschikbare specialisten zijn aan uw team toegevoegd.",
+    "otherSpecialists": "Andere specialisten",
+    "specialistsCount": "{{count}} specialisten",
+    "startTeamConsult": "Start teamoverleg",
+    "starting": "Beginnen...",
+    "myAIHealthTeam": "Mijn AI Gezondheidsteam",
+    "addMembersInstruction": "Voeg teamleden toe door op een kaart aan de rechterkant te klikken."
+  },
+  "specialistCategories": {
+    "diabetesBloodSugar": "Diabetes en bloedsuiker",
+    "weightManagement": "Gewichtsbeheer",
+    "mentalHealthStress": "Mentale gezondheid en stress",
+    "cancerSupport": "Kankerondersteuning",
+    "heartHealth": "Hartgezondheid",
+    "painManagement": "Pijnmanagement",
+    "digestiveIssues": "Spijsverteringsproblemen",
+    "sleepProblems": "Slaapproblemen",
+    "skinProblems": "Huidproblemen",
+    "womensHealth": "Vrouwengezondheid",
+    "childrensHealth": "Kindergezondheid",
+    "agingSeniorHealth": "Ouderenzorg en gezondheid van senioren",
+    "nutritionDiet": "Voeding en dieet",
+    "allergiesImmuneSystem": "Allergieën en immuunsysteem",
+    "breathingLungIssues": "Ademhalings- en longproblemen",
+    "sportsFitnessInjuries": "Sport- en fitnessblessures",
+    "easternAlternativeMedicine": "Oosterse en alternatieve wellness",
+    "cosmeticBeautyMedicine": "Cosmetische & Schoonheidswelzijn",
+    "anxietyHelp": "Hulp bij angst",
+    "medicationPharmacy": "Medicatie & Apotheek",
+    "primaryCareGeneralHealth": "Eerstelijnszorg en algemene gezondheid",
+    "medicalSpecialties": "Specialismen op het gebied van gezondheid en welzijn"
+  },
+  "dialogs": {
+    "exitConsultation": "Exitconsultatie",
+    "exitMessage": "Weet u zeker dat u deze consultatie wilt verlaten?",
+    "saveAndExit": "Opslaan en afsluiten",
+    "exitWithoutSaving": "Afsluiten zonder op te slaan",
+    "cancel": "Annuleren",
+    "confirm": "Bevestigen",
+    "logout": "Uitloggen",
+    "logoutMessage": "U bent momenteel in een consult. Uitloggen beëindigt het consult. Wat wilt u doen?",
+    "deleteConversation": "Gesprek verwijderen",
+    "deleteMessage": "Deze actie kan niet ongedaan worden gemaakt. Weet u het zeker?",
+    "summarizeFirst": "Wilt u een samenvatting ontvangen voordat u afsluit?",
+    "summarizing": "Samenvatting genereren...",
+    "summaryGenerated": "Samenvatting succesvol gegenereerd",
+    "doneAlready": "Al klaar?",
+    "doneAlreadyMessage": "We zijn er altijd voor je. Tot die tijd: blijf gezond en gelukkig!",
+    "doneAlreadySignature": "Wij allemaal (mens en AI) bij VirtualMD.app",
+    "exitConsultationButton": "Exitconsultatie",
+    "editTitle": "Bewerk gesprekstitel",
+    "conversationTitleLabel": "Gesprekstitel",
+    "save": "Redden",
+    "deleteTitle": "Gesprek verwijderen",
+    "deleteConfirmation": "Weet u zeker dat u het gesprek met de titel \"{{title}}\" wilt verwijderen?",
+    "delete": "Verwijderen",
+    "multiDeleteTitle": "Geselecteerde consultaties verwijderen",
+    "multiDeleteConfirmation": "Weet u zeker dat u {{count}} geselecteerde consult(en) wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.",
+    "deleteSelected": "Geselecteerde verwijderen",
+    "addSpecialistTitle": "Specialist toevoegen aan chat",
+    "addSpecialistError": "Uw adviseurs konden niet worden geladen.",
+    "noAdvisersToAdd": "Alle door u geselecteerde AI-gezondheidsadviseurs zitten al in deze chat, of uw lijst is leeg (exclusief huidige deelnemers).",
+    "longRecording": {
+      "title": "Lange opname gepauzeerd",
+      "message": "We kunnen niet langer dan 30 seconden opnemen zonder het te versturen. Wat wil je doen?",
+      "delete": "Verwijderen",
+      "transcribeToText": "Transcriberen naar tekst",
+      "transcribeAndSend": "Transcriberen en verzenden"
+    },
+    "finishConsultationTitle": "Consultatie afronden?",
+    "generatingSummary": "Een ogenblik geduld terwijl wij uw consultatie-samenvatting genereren...",
+    "finishConsultationMessage": "Hiermee wordt de actieve chatsessie beëindigd. Weet u het zeker?",
+    "summarizeAndFinish": "Samenvatten en afronden",
+    "leaveWithoutSummarizing": "Verlaten zonder samenvatten",
+    "summarize": "Samenvatten",
+    "moreInfoTitle": "Meer informatie nodig",
+    "moreInfoMessage": "Dit gesprek is te kort om een zinvolle samenvatting of een gedifferentieerde mening te vormen. Ga door met de discussie totdat je minstens 150 woorden aan gespreksinhoud hebt.",
+    "ok": "OK",
+    "deleteSuccessTitle": "Gesprek verwijderd",
+    "deleteSuccessMessage": "Uw gesprek is succesvol verwijderd.",
+    "logoutTitle": "Het spijt ons dat je weggaat",
+    "aiHealthSpecialist": "Uw primaire AI-specialist voor gezondheid en welzijn",
+    "aileenCarol": "AI-gezondheidsexpert Carol",
+    "aiHealthAssistant": "AI Gezondheidsassistent",
+    "deleteAndExit": "Verwijderen en afsluiten",
+    "summaryTitle": "Samenvatting van de consultatie",
+    "consultationTitle": "VirtualMD-consult: {{title}}",
+    "summaryUnavailable": "Samenvatting wordt gegenereerd of is niet beschikbaar.",
+    "print": "Afdrukken",
+    "copy": "Kopiëren",
+    "close": "Dichtbij",
+    "shortConv": {
+      "title": "Gesprek beëindigd",
+      "messageLine1": "Het gesprek is afgelopen. Het is te kort om op te slaan, maar kom snel weer terug.",
+      "messageLine2": "Tot die tijd: blijf gezond en gelukkig."
+    }
+  },
+  "errors": {
+    "connectionError": "Verbindingsfout. Controleer uw internetverbinding.",
+    "serverError": "Serverfout. Probeer het later opnieuw.",
+    "authenticationError": "Authenticatie mislukt. Meld u opnieuw aan.",
+    "messageFailedToSend": "Bericht kon niet worden verzonden",
+    "loadingFailed": "Het laden van de inhoud is mislukt",
+    "personaUnavailable": "Deze zorgprofessional is momenteel niet beschikbaar",
+    "conversationNotFound": "Gesprek niet gevonden",
+    "permissionDenied": "Je hebt geen toestemming om toegang te krijgen tot dit gesprek",
+    "failedToLogin": "Inloggen mislukt.",
+    "failedToRegister": "Registreren is mislukt.",
+    "failedToLogout": "Uitloggen is mislukt.",
+    "emailAlreadyTaken": "Dit e-mailadres is al in gebruik. Probeer een ander adres of log in.",
+    "anErrorOccurred": "Er is een fout opgetreden.",
+    "selectImageFile": "Selecteer een afbeeldingsbestand.",
+    "failedToSaveProfile": "Profiel opslaan mislukt. Probeer het opnieuw.",
+    "teamIsFull": "Je team is vol (maximaal {{max}} specialisten). Verwijder een lid als je een andere specialist wilt toevoegen.",
+    "selectOneSpecialist": "Selecteer slechts één specialist voor een privéconsult.",
+    "contactErrorMessage": "Er is een fout opgetreden bij het verzenden van uw bericht. Probeer het later opnieuw of",
+    "contactDirectlyAt": "U kunt ons ook rechtstreeks e-mailen op info@virtualmd.app"
+  },
+  "welcome": {
+    "title": "Welkom bij VirtualMD.app",
+    "subtitle": "Start uw persoonlijke gezondheidsconsultatie",
+    "description": "Kies uit ons team van op AI gebaseerde gezondheidsadviseurs voor gepersonaliseerde inzichten en begeleiding op het gebied van welzijn.",
+    "getStarted": "Aan de slag",
+    "chooseSpecialist": "Kies uw specialist",
+    "startWithTeam": "Begin met mijn team",
+    "howItWorks": "Hoe het werkt",
+    "aileenCarolName": "AI-gezondheidsexpert Aileen Carol",
+    "danielGarciaName": "AI-gezondheidsexpert Daniel Garcia",
+    "greeting": "Hallo, {{username}}. Leuk je te zien! Je VirtualMD-team staat 24/7 voor je klaar...",
+    "startTeamConsultation": "Start teamoverleg",
+    "configureNewChat": "Nieuwe chat configureren",
+    "encyclopedia": "VirtualMD.app Encyclopedie",
+    "myAIHealthTeam": "Mijn AI Gezondheidsteam",
+    "aileenCarolIntro": "Hallo, ik ben AI Health Expert Aileen Carol. Hoe kan ik u vandaag helpen?",
+    "persona_welcome_message": "Hallo, ik ben hier om u te helpen met uw gezondheids- en welzijnsbehoeften. Hoe kan ik u vandaag helpen?"
+  },
+  "imageUpload": {
+    "dragAndDrop": "Sleep en zet afbeeldingen hier neer, of klik om te selecteren",
+    "supportedFormats": "Ondersteunde formaten: JPG, PNG, GIF",
+    "maxSize": "Maximale grootte: {{size}}MB",
+    "uploadSuccess": "Afbeelding succesvol geüpload",
+    "uploadError": "Het uploaden van de afbeelding is mislukt",
+    "processing": "Afbeelding verwerken...",
+    "removeImage": "Afbeelding verwijderen",
+    "addToContext": "Toevoegen aan conversatiecontext"
+  },
+  "voice": {
+    "startRecording": "Start spraakopname",
+    "stopRecording": "Stop met opnemen",
+    "recording": "Opnemen...",
+    "processingSpeech": "Spraak verwerken...",
+    "speechToText": "Spraak naar tekst omzetten...",
+    "noSpeechDetected": "Geen spraak gedetecteerd",
+    "microphoneError": "Microfoontoegangsfout",
+    "unsupportedBrowser": "Spraakopname wordt niet ondersteund in deze browser"
+  },
+  "summary": {
+    "title": "Samenvatting van de consultatie",
+    "keyPoints": "Belangrijkste punten",
+    "recommendations": "Aanbevelingen",
+    "nextSteps": "Volgende stappen",
+    "followUp": "Vervolg",
+    "generating": "Samenvatting genereren...",
+    "noSummary": "Geen samenvatting beschikbaar",
+    "summaryError": "Het is niet gelukt om een samenvatting te genereren",
+    "downloadSummary": "Samenvatting downloaden",
+    "emailSummary": "E-mailsamenvatting",
+    "return": "Opbrengst",
+    "transcript": "Transcriptie",
+    "print": "Afdrukken",
+    "copy": "Kopiëren",
+    "copyError": "Kopiëren mislukt",
+    "notGenerated": "Samenvatting kon niet worden gegenereerd."
+  },
+  "status": {
+    "online": "Online",
+    "offline": "Offline",
+    "away": "Weg",
+    "busy": "Druk bezig",
+    "available": "Beschikbaar",
+    "unavailable": "Niet beschikbaar",
+    "lastSeen": "Laatst gezien {{time}}"
+  },
+  "mobileTeamBuilder": {
+    "title": {
+      "yourTeam": "Jouw team",
+      "teamBuilder": "AI-teambouwer"
+    },
+    "carolMessages": {
+      "teamFull": "{{name}}, je team is vol! Je kunt een consultatie starten met je huidige team of leden verwijderen om nieuwe aanbevelingen te krijgen.",
+      "helpBuild": "{{name}}, ik help je graag bij het samenstellen van jouw perfecte gezondheidsteam! Vertel me wat je hier vandaag brengt."
+    },
+    "carolGreeting": {
+      "teamFull": "Hoi {{name}}! Je team is vol.",
+      "helpBuild": "Hoi {{name}}! Ik help je bij het samenstellen van jouw perfecte gezondheidsteam."
+    },
+    "currentTeam": "Huidig team ({{current}}/{{max}})",
+    "aiSpecialist": "AI {{naam}}",
+    "specialist": "Specialist",
+    "startConversation": "Begin een gesprek met dit team",
+    "tellUsWhy": "Vertel ons waarom u vandaag hier bent, zodat wij het perfecte gezondheidsteam voor u kunnen samenstellen.",
+    "placeholder": "Beschrijf uw gezondheidsproblemen, symptomen of waar u hulp bij nodig hebt...",
+    "questionnaire": {
+      "question": "Wat brengt u vandaag hier?",
+      "keepExisting": "Bestaande teamleden behouden?",
+      "existingMembers": "Bestaande teamleden",
+      "currentSize": "Huidige teamgrootte",
+      "availableSpots": "Beschikbare plaatsen voor nieuwe specialisten",
+      "maxRecommendations": "Maximaal toegestane aanbevelingen"
+    }
+  },
+  "mobileNavigationTabs": {
+    "consultation": "Overleg",
+    "team": "Team",
+    "history": "Geschiedenis",
+    "encyclopedia": "Encyclopedie"
+  },
+  "autoListening": {
+    "turnOn": "Automatisch luisteren inschakelen",
+    "turnOff": "Automatisch luisteren uitschakelen"
+  },
+  "speech": {
+    "processing": "Verwerking van spraak",
+    "pauseListening": "Klik om het luisteren te pauzeren",
+    "turnOnListening": "Klik om luisteren in te schakelen"
+  },
+  "help": {
+    "howDoesThisWork": "Hoe werkt dit?",
+    "chatControls": "Chatbedieningen",
+    "enterToSend": "Voer in of ▷ om te verzenden",
+    "shiftEnterToSpeak": "Shift+Enter of 🎤/⏸ om te spreken/pauzeren"
+  },
+  "fileUpload": {
+    "clickToUpload": "Klik om een bestand te uploaden (je kunt ook bestanden in de chat plaatsen)"
+  },
+  "send": {
+    "transcribeAndSend": "Transcriberen en verzenden",
+    "sendMessage": "Bericht verzenden"
+  },
+  "aileenCarol": {
+    "playAnalysis": "Analyse van gezondheidsexpert Carol",
+    "stopAnalysis": "Stop de analyse van gezondheidsexpert Carol"
+  },
+  "profile": {
+    "editProfile": "Profiel bewerken",
+    "saveChanges": "Wijzigingen opslaan",
+    "cancelEdits": "Bewerkingen annuleren",
+    "changePhoto": "Foto wijzigen",
+    "removePhoto": "Foto verwijderen",
+    "healthInfoTooltip": "Beschrijf of vermeld welke medicijnen, diagnoses, supplementen en andere belangrijke gezondheidsinformatie u heeft.",
+    "loadingProfile": "Profiel laden...",
+    "errorLoadingProfile": "Fout bij het laden van profiel",
+    "noProfileData": "Geen profielgegevens beschikbaar.",
+    "myProfile": "Mijn profiel",
+    "myAccount": "Mijn account",
+    "displayName": "Weergavenaam",
+    "fullName": "Volledige naam",
+    "email": "E-mail",
+    "emailCannotBeChanged": "E-mailadres kan niet worden gewijzigd.",
+    "keyHealthInfo": "Belangrijke gezondheidsinformatie",
+    "noHealthInfoRecorded": "Er zijn geen belangrijke gezondheidsgegevens vastgelegd.",
+    "healthInfoPlaceholder": "Maak een lijst van medicijnen, diagnoses, supplementen, etc.",
+    "age": "Leeftijd",
+    "gender": "Geslacht"
+  },
+  "imageContext": {
+    "clearZoom": "Wis deze zoomselectie",
+    "cropPromotionError": "Het is niet gelukt om de ingezoomde afbeelding te verzenden en toe te voegen. Controleer de console.",
+    "startConversationToSend": "Start een gesprek om Zoom te versturen",
+    "sendZoomToTeam": "Stuur deze zoom naar het team",
+    "noActiveZoom": "Geen actieve zoom om te verzenden. Selecteer een gebied op een afbeelding.",
+    "functionsUnavailable": "Kan zoom niet verzenden: Essentiële functies niet beschikbaar.",
+    "noImages": "Geen afbeeldingen in context. Upload een afbeelding om te beginnen.",
+    "allHidden": "Alle afbeeldingen zijn momenteel verborgen. Klik op een miniatuur in de header om een afbeelding te tonen.",
+    "showFirst": "Toon eerste afbeelding",
+    "imageDisplay": "Beeldweergave ({{getoond}} getoond / {{totaal}} totaal)",
+    "hideImage": "Afbeelding verbergen",
+    "showImage": "Afbeelding weergeven",
+    "zoomPreview": "Zoomvoorbeeld",
+    "sendToTeam": "Stuur naar team",
+    "dragToZoom": "Klik en sleep op een afbeelding hierboven om een nieuw zoomgebied te selecteren."
+  },
+  "mobileChat": {
+    "healthConsult": "Gezondheidsconsult",
+    "speakToAI": "Spreek met {{name}}",
+    "startConversation": "Begin hieronder uw gesprek",
+    "requestToSpeakToAI": "Ik wil graag met {{name}} spreken"
+  },
+  "mobileWelcome": {
+    "greeting": "Hoi!",
+    "aileenCarolIntro": "Ik ben AI Aileen Carol, uw specialist in de gezondheidszorg. Ik kijk ernaar uit u te leren kennen. Ik ben verantwoordelijk voor uw VirtualMD.app AI-team van gezondheidsexperts. We staan 24/7 voor u klaar.",
+    "startConsultation": "Start gezondheidsconsultatie",
+    "myTeam": "Mijn team",
+    "aiTeamBuilder": "AI Health Expert Carol helpt u bij het kiezen van uw team",
+    "priorConsultations": "Eerdere consultaties",
+    "encyclopedia": "Encyclopedie",
+    "myProfile": "Mijn profiel",
+    "logout": "Uitloggen",
+    "labels": {
+      "chat": "Chat",
+      "advisory": "Advies",
+      "encyclopedia": "Encyclopedie",
+      "myTeam": "Mijn team",
+      "history": "Geschiedenis",
+      "myProfile": "Mijn profiel"
+    }
+  },
+  "mobileInput": {
+    "listeningPlaceholder": "Luisteren... spreek nu",
+    "typePlaceholder": "Typ een bericht...",
+    "clear": "Duidelijk",
+    "needHelp": "Hulp nodig?",
+    "takePhoto": "Maak een foto"
+  },
+  "mobileConsultations": {
+    "title": "Eerdere consultaties",
+    "selectAll": "Selecteer alles",
+    "deselectAll": "Alles deselecteren",
+    "deleteSelected": "Geselecteerde items verwijderen ({{count}})",
+    "consultationDefault": "Consultatie {{id}}",
+    "lastUpdate": "Laatste update: {{date}}",
+    "noUpdates": "Nog geen updates",
+    "editTitle": "Bewerk gesprekstitel",
+    "enterNewTitle": "Voer een nieuwe titel in:",
+    "noConsultations": "Nog geen consultaties."
+  },
+  "mobileProfile": {
+    "title": "Mijn profiel",
+    "saveError": "Profiel opslaan mislukt",
+    "saveSuccess": "Profiel bijgewerkt!",
+    "changePhoto": "Foto wijzigen",
+    "displayName": "Weergavenaam",
+    "fullName": "Volledige naam",
+    "email": "E-mail",
+    "keyHealthInfo": "Belangrijke gezondheidsinformatie",
+    "logout": "Uitloggen"
+  },
+  "mobileNavigation": {
+    "consultation": "Overleg",
+    "team": "Team",
+    "history": "Geschiedenis",
+    "exitConsultation": "Exitconsultatie",
+    "myTeam": "Mijn team",
+    "summary": "Samenvatting",
+    "differentialOpinion": "Differentiële mening",
+    "transcript": "Transcriptie",
+    "encyclopedia": "Encyclopedie",
+    "controls": "Bedieningselementen",
+    "aiSpeaker": "AI-luidspreker",
+    "enabled": "Ingeschakeld",
+    "disabled": "Gehandicapt",
+    "camera": "Camera",
+    "comingSoon": "Binnenkort beschikbaar",
+    "menu": "Menu"
+  },
+  "bioPanel": {
+    "loadingBio": "Biografie wordt geladen...",
+    "noBiography": "Geen biografie beschikbaar.",
+    "returnToPanel": "Terug naar paneel"
+  },
+  "sidebarHeader": {
+    "panel": "Paneel",
+    "summary": "Samenvatting",
+    "differentialOpinion": "Differentiële mening",
+    "transcript": "Transcriptie",
+    "encyclopedia": "VirtualMD.app Encyclopedie",
+    "endConversation": "Beëindig het gesprek",
+    "startChatWithTeam": "Chat starten met team",
+    "configureNewChat": "Nieuwe chat configureren",
+    "myAIHealthTeam": "Mijn AI Gezondheidsteam",
+    "aileenCarolTeamBuilder": "Gezondheidsexpert Carol helpt u bij het samenstellen van uw team.",
+    "savedConsultations": "Opgeslagen consultaties",
+    "myProfile": "Mijn profiel",
+    "imageNumber": "Afbeelding {{number}}"
+  },
+  "differentialOpinion": {
+    "noOpinionAvailable": "Er is geen differentiële mening beschikbaar."
+  },
+  "encyclopedia": {
+    "title": "VirtualMD.app Encyclopedie",
+    "loadingMessage": "We doen diepgaand onderzoek naar dit onderwerp voor u. Wacht een paar seconden op uw antwoord.",
+    "longWaitMessage": "Het kan enkele minuten duren voordat u uitgebreide antwoorden krijgt.",
+    "searchButton": "Zoek Encyclopedie",
+    "return": "Opbrengst",
+    "print": {
+      "button": "Afdrukken",
+      "title": "Encyclopedie Zoekresultaat",
+      "subtitle": "VirtualMD.app Encyclopedie"
+    },
+    "copy": "Kopiëren",
+    "searchResult": "Encyclopedie Zoekresultaat",
+    "attribution": "Antwoord van VirtualMD.app",
+    "emptyState": "Voer hierboven een zoekopdracht in om de VirtualMD.app Encyclopedie te doorzoeken.",
+    "copySuccess": "Inhoud gekopieerd naar klembord!",
+    "copyError": "Kopiëren naar klembord mislukt",
+    "generatingResponse": "Een alomvattende respons genereren...",
+    "genericError": "Er is een fout opgetreden",
+    "translatingContent": "Inhoud vertalen..."
+  },
+  "input": {
+    "typeOrSpeakPlaceholder": "Typ of spreek uw bericht in...\nDruk op Enter of klik op ▷ om te verzenden.",
+    "typePlaceholder": "Typ hier uw bericht...\nDruk op Enter of klik op ▷ om te verzenden.",
+    "transcribing": "Transcriberen...",
+    "enterTextHere": "Voer hier tekst in",
+    "startTypingMessage": "Begin met het typen van uw bericht in het onderstaande vak om uw consultatie te starten."
+  },
+  "quickActions": {
+    "whatToDoButton": "Wat moet ik doen?",
+    "summaryButton": "Samenvatting",
+    "whatShouldIDo": "Wat moet ik nu doen, op basis van alles wat we hebben besproken? Geef duidelijke, uitvoerbare aanbevelingen.",
+    "requestSummary": "Geef een uitgebreide samenvatting van ons gesprek tot nu toe, inclusief de belangrijkste besproken punten, de gedane aanbevelingen en de volgende stappen."
+  },
+  "upload": {
+    "uploading": "Uploaden…"
+  },
+  "camera": {
+    "notSupported": "Cameratoegang wordt niet ondersteund in deze browser",
+    "capturePhoto": "Foto maken",
+    "accessDenied": "Toegang tot de camera geweigerd. Geef toegang tot de camera via uw browserinstellingen.",
+    "accessFailed": "Toegang tot camera mislukt"
+  },
+  "microphone": {
+    "turnOn": "Zet de microfoon aan",
+    "turnOff": "Microfoon uitzetten"
+  },
+  "specialistPanel": {
+    "guidanceSingle": "Kies één AI-specialist voor een privéconsult:",
+    "guidanceMulti": "AI-gezondheidsexpert Carol is altijd aanwezig. Kies extra AI-gezondheidsadviseurs:",
+    "startPrivateConsult": "Start privéconsult",
+    "startChat": "Chat starten",
+    "selectSingle": "Selecteer AI-specialist",
+    "selectMulti": "Selecteer aanvullende adviseurs",
+    "warningSelectOne": "Selecteer slechts één specialist voor een privéconsult.",
+    "noSpecialistsAvailable": "Er zijn momenteel geen AI-specialisten beschikbaar voor een privéconsult.",
+    "noAdvisersAvailable": "Er zijn geen extra AI-gezondheidsadviseurs beschikbaar."
+  },
+  "sidebarFooter": {
+    "disclaimerText": "VirtualMD.app streeft naar nauwkeurigheid. Deze en elke andere AI-gebaseerde service kan echter onjuiste informatie geven. Raadpleeg altijd een gekwalificeerde zorgverlener.",
+    "emergencyText": "Bel 112 bij medische noodgevallen.",
+    "moreInformation": "Meer informatie"
+  },
+  "teamBuilder": {
+    "healthConditions": {
+      "options": {
+        "${key}": "{{sleutel}}"
+      }
+    },
+    "medicinePreferences": {
+      "options": {
+        "${key}": "{{sleutel}}"
+      }
+    }
+  },
+  "account": {
+    "title": "Accountinstellingen",
+    "description": "Hier kunt u uw VirtualMD.app-account permanent verwijderen. Hiermee worden uw profiel en alle consulten verwijderd.",
+    "deleteMyAccount": "Verwijder mijn account",
+    "confirmDeleteTitle": "Account verwijderen",
+    "confirmDeleteText": "Deze actie is onomkeerbaar. Al uw profielgegevens, consultaties en bestanden worden permanent verwijderd. Weet u zeker dat u wilt doorgaan?",
+    "cancel": "Annuleren",
+    "yesDelete": "Ja, verwijderen"
+  },
+  "transcript": {
+    "noTranscript": "Geen transcriptie beschikbaar.",
+    "title": "Consultatietranscript",
+    "returnToConversation": "Terug naar het gesprek",
+    "print": "Afdrukken",
+    "copy": "Kopiëren",
+    "copyError": "Kopiëren mislukt",
+    "roleLabels": {
+      "patient": "Gebruiker:",
+      "assistant": "Assistent:"
+    }
+  },
+  "mobileRouter": {
+    "teamRecommendations": "Teamaanbevelingen",
+    "myTeam": "Mijn team",
+    "summary": "Samenvatting",
+    "differentialOpinion": "Differentiële mening",
+    "transcript": "Transcriptie",
+    "encyclopedia": "Encyclopedie",
+    "consultations": "Consultaties",
+    "returnToChat": "Terug naar Chat",
+    "pleaseLogIn": "Meld u aan",
+    "logInToView": "Meld u aan om uw gesprekken te bekijken of een nieuw gesprek te starten.",
+    "logIn": "Inloggen",
+    "loadingSpecialists": "Specialisten laden..."
+  },
+  "chat": {
+    "pleaseLogIn": "Meld u aan",
+    "logInToView": "Meld u aan om uw gesprekken te bekijken of een nieuw gesprek te starten."
+  },
+  "loginPage": {
+    "signIn": "Aanmelden"
+  },
+  "imageProcessing": {
+    "preset": "Vooraf ingesteld",
+    "applyPreset": "Voorinstelling toepassen op de gefocuste afbeelding",
+    "process": "Proces",
+    "revertFocus": "Focus opnieuw op de originele afbeelding",
+    "revert": "Terugdraaien"
+  },
+  "guest": {
+    "consultation": "Gastconsultatie",
+    "topics": {
+      "child": {
+        "title": "Mijn kind is ziek",
+        "subtitle": "Deskundige pediatrische zorg wanneer u die het hardst nodig heeft",
+        "initialMessage": "Ik ben AI Aileen Carol, uw virtuele gezondheidsadviseur. Ik weet hoe zorgwekkend een ziek kind kan zijn. Vertel me wat er aan de hand is. Let op: ik ben een AI, geen mens; mijn advies kan onjuist zijn. Laat het nakijken door een gekwalificeerde zorgverlener."
+      },
+      "sleep": {
+        "title": "Ik kan niet slapen!",
+        "subtitle": "Herstel uw nachten, transformeer uw dagen",
+        "initialMessage": "Ik ben AI Aileen Carol, uw virtuele gezondheidsadviseur, met slaapspecialisten Benjamin Stein (psychiatrie) en AI Alice Chen (neurologie). Deel uw slaapproblemen zodat we u kunnen helpen. Let op: we zijn AI's, geen mensen; ons advies kan onjuist zijn. Laat het ons controleren door een gekwalificeerde (menselijke) zorgverlener."
+      },
+      "nutrition": {
+        "title": "Voeding voor vitaliteit",
+        "subtitle": "Verbeter uw energie, welzijn en seksuele gezondheid door middel van voeding",
+        "initialMessage": "Ik ben AI Aileen Carol, uw virtuele gezondheidsadviseur, hier met uw team: AI Angelica Fordham (voeding), AI Rachel Levy (sekstherapeut) en AI Afrikaanse kruidkundige Amina Okufur. Hoe voelt u zich vandaag? Let op: we zijn AI, geen mens; advies kan onjuist zijn - bevestig dit met een gekwalificeerde zorgverlener."
+      }
+    },
+    "errors": {
+      "sessionFailed": "Het is niet gelukt om een gastsessie te starten"
+    },
+    "registrationRequired": "Registratie vereist",
+    "uploadFeatures": {
+      "title": "Functies voor het uploaden van documenten en afbeeldingen",
+      "description": "Ons platform biedt krachtige mogelijkheden voor document- en beeldanalyse waarmee u:",
+      "benefit1": "Upload gezondheidsdocumenten, laboratoriumrapporten en afbeeldingen",
+      "benefit2": "Zoom in op specifieke gebieden voor gedetailleerde analyse",
+      "benefit3": "Laat onze AI-gezondheidsadviseurs uw documenten beoordelen en bespreken",
+      "benefit4": "Maak foto's rechtstreeks vanaf uw camera voor onmiddellijke raadpleging",
+      "registeredOnly": "Deze speciale functies zijn beschikbaar voor geregistreerde gebruikers."
+    }
+  },
+  "activeChat": {
+    "guestMode": {
+      "advisorsTitle": "VirtualMD.app Gezondheidsadviseurs",
+      "registrationRequired": "Registratie vereist"
+    }
+  },
+  "healthAdvisors": "VirtualMD.app Gezondheidsadviseurs"
+}

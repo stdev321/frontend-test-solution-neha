@@ -1,0 +1,715 @@
+{
+  "actions": {
+    "startConsultation": "התחל ייעוץ בריאותי",
+    "endConsultation": "סיום ייעוץ",
+    "returnToConsultation": "חזרה לייעוץ",
+    "newConversation": "התחל שיחה חדשה",
+    "saveConversation": "שמור שיחה",
+    "deleteConversation": "מחיקת שיחה",
+    "getSummary": "קבל סיכום",
+    "getTranscript": "קבל תמלול",
+    "getDifferentialOpinion": "קבל חוות דעת דיפרנציאלית",
+    "exportChat": "ייצוא צ'אט",
+    "clearChat": "נקה צ'אט"
+  },
+  "audio": {
+    "aiMuted": "בינה מלאכותית מושתקת",
+    "aiUnmuted": "שמע AI מופעל",
+    "playbackFailed": "נכשל בהפעלת אודיו",
+    "generationFailed": "נכשל ביצירת דיבור"
+  },
+  "sidebar": {
+    "personaList": "בחר את איש המקצוע בתחום הבריאות שלך",
+    "conversations": "השיחות שלי",
+    "profile": "הפרופיל שלי",
+    "settings": "הגדרות",
+    "manageTeam": "ניהול צוות",
+    "teamBuilder": "בונה צוות בינה מלאכותית",
+    "encyclopedia": "אֶנצִיקלוֹפֶּדִיָה",
+    "bio": "ביוגרפיה מקצועית",
+    "clickForBio": "לחץ לביוגרפיה",
+    "clickToSpeak": "לחץ/י לדבר עם יועץ/ת",
+    "summary": "סיכום התייעצות",
+    "transcript": "תמלול שיחה",
+    "imageContext": "הקשר של התמונה",
+    "newConversation": "ייעוץ חדש"
+  },
+  "tooltips": {
+    "audioOnlyRegistered": "אודיו זמין רק למשתמשים רשומים."
+  },
+  "messages": {
+    "typeMessage": "הקלד את הודעתך כאן...",
+    "send": "לִשְׁלוֹחַ",
+    "thinking": "חֲשִׁיבָה...",
+    "processing": "עיבוד...",
+    "connecting": "מְקַשֵׁר...",
+    "connected": "מְחוּבָּר",
+    "disconnected": "מְנוּתָק",
+    "typing": "{{name}} מקליד...",
+    "messageError": "שליחת ההודעה נכשלה",
+    "retryMessage": "נסה שוב",
+    "requestToSpeak": "בבקשה הרשו לי לדבר עם {{name}}",
+    "messageDeleted": "ההודעה נמחקה",
+    "systemMessage": "הודעת מערכת"
+  },
+  "personas": {
+    "defaultName": "מומחית הבריאות איילין קרול",
+    "defaultSpecialty": "מומחה בריאות",
+    "selectPersona": "בחר איש מקצוע בתחום הבריאות",
+    "noPersonasAvailable": "אין אנשי מקצוע בתחום הבריאות זמינים",
+    "personaDetails": "פרטים מקצועיים",
+    "specialization": "הִתמַחוּת",
+    "experience": "הִתנַסוּת",
+    "education": "הַשׂכָּלָה",
+    "certifications": "הסמכות",
+    "languages": "שפות",
+    "availableNow": "זמין כעת",
+    "loading": "טוען אנשי מקצוע..."
+  },
+  "personaSearch": {
+    "placeholder": "חפש לפי שם, התמחות או תאר את התסמינים שלך (למשל, כאב ראש, חרדה)",
+    "selected": "נִבחָר",
+    "noResults": "לא נמצאו יועצים עבור \"{{query}}\"",
+    "searchSuggestions": "נסו לחפש: כאב ראש, חרדה, כאב, שינה, סוכרת וכו'."
+  },
+  "configurator": {
+    "title": "התחלת ייעוץ בריאותי חדש",
+    "subtitle": "בחר מצוות בריאות הבינה המלאכותית שלך",
+    "changeTeam": "צוות שינוי",
+    "starting": "מתחיל...",
+    "startConsult": "התחל ייעוץ",
+    "emptyTeam": "צוות הבריאות של הבינה המלאכותית שלך ריק",
+    "addSpecialists": "הוסף מומחים לצוות שלך",
+    "noOtherSpecialists": "אין מומחים אחרים בצוות שלך. אתה יכול לשוחח בצ'אט עם מומחית הבריאות של בינה מלאכותית, קרול, או",
+    "addSpecialistsLink": "הוסף מומחים לצוות שלך",
+    "defaultPersona": {
+      "name": "איילין קרול, מומחית בריאות בתחום הבינה המלאכותית",
+      "role": "יועץ הבריאות העיקרי שלי לבינה מלאכותית"
+    },
+    "carolNote": {
+      "title": "הערה על השתתפותה של קרול, מומחית בריאות בתחום הבינה המלאכותית:",
+      "ruleA": "א. מומחית בריאות הבינה המלאכותית קרול כלולה אם נבחרו 0 או 2+ מומחים אחרים מהצוות שלך.",
+      "ruleB": "ב. מומחית בריאות בתחום הבינה המלאכותית, קרול, אינה כלולה אם נבחר רק מומחה אחד נוסף מהצוות שלך."
+    }
+  },
+  "conversations": {
+    "noConversations": "אין עדיין שיחות",
+    "untitled": "שיחה ללא כותרת",
+    "today": "הַיוֹם",
+    "yesterday": "אֶתמוֹל",
+    "thisWeek": "השבוע",
+    "lastWeek": "שבוע שעבר",
+    "older": "מבוגר יותר",
+    "editTitle": "עריכת כותרת",
+    "saveTitle": "שמור כותרת",
+    "cancelEdit": "ביטול עריכה",
+    "deleteConsultation": "מחיקת ייעוץ",
+    "clickToReturn": "לחץ כדי לחזור להתייעץ",
+    "deleteConfirm": "האם אתה בטוח שאתה רוצה למחוק את השיחה הזו?",
+    "deleteSuccess": "השיחה נמחקה בהצלחה",
+    "loadingConversations": "טוען שיחות...",
+    "conversationError": "שגיאה בטעינת השיחה",
+    "consultationsTitle": "התייעצויות",
+    "lastUpdate": "עדכון אחרון: {{date}}",
+    "consultationDefault": "ייעוץ {{id}}",
+    "noConsultationsYet": "עדיין אין התייעצויות.",
+    "noPastConsultations": "לא נמצאו התייעצויות קודמות."
+  },
+  "participants": {
+    "noParticipants": "אין משתתפים להצגה.",
+    "inThisConsult": "בייעוץ וירטואלי זה:"
+  },
+  "team": {
+    "myTeam": "צוות הבריאות שלי",
+    "addToTeam": "הוסף לצוות",
+    "removeFromTeam": "הסר מהצוות",
+    "teamFull": "הצוות שלך מלא",
+    "maxTeamSize": "גודל הצוות המקסימלי הושג ({{max}} חברים)",
+    "currentTeam": "חברי הצוות הנוכחיים",
+    "buildTeam": "בנה את הצוות שלך",
+    "teamRecommendations": "המלצות צוות הבינה המלאכותית",
+    "acceptRecommendation": "קבל את ההמלצה",
+    "getRecommendations": "קבל המלצות בינה מלאכותית",
+    "teamBuilder": "בונה צוות בינה מלאכותית",
+    "addTeamMembersInstruction": "הוסף חברי צוות על ידי לחיצה על כרטיס מימין.",
+    "maxTeamSizeNote": "ניתן להוסיף לצוות שלך עד חמישה יועצי בינה מלאכותית. ניתן לשנות את הצוות בכל עת, אך לא במהלך ייעוץ.",
+    "startConsultationWithTeam": "התחל ייעוץ עם הצוות שלך",
+    "manageTeamTitle": "ניהול צוות בריאות הבינה המלאכותית שלי (מקסימום {{max}} מומחים)",
+    "removeSpecialistToUseTeamBuilder": "אנא הסר לפחות מומחה אחד כדי להשתמש בהמלצות גיבוש הצוות של קרול, מומחית בריאות הבינה המלאכותית",
+    "aileenCarolRecommendTeam": "בקשו מקרול, מומחית בריאות בתחום הבינה המלאכותית, להמליץ ​​על צוות הבריאות שלכם",
+    "teamFullRemoveToUseBuilder": "הצוות שלך מלא. אנא הסר לפחות מומחה אחד כדי להשתמש בבניית צוותים מבוססת בינה מלאכותית.",
+    "yourCurrentTeam": "הצוות הנוכחי שלך ({{current}}/{{max}})",
+    "updatingTeam": "מעדכן צוות...",
+    "coordinator": "רַכָּז",
+    "alwaysIncluded": "תמיד כלול",
+    "specialist": "מוּמחֶה",
+    "teamEmptyAddBelow": "צוות המומחים שלך ריק. הוסף מומחים למטה.",
+    "teamFullRemoveMember": "הצוות שלך מלא (מקסימום {{max}} מומחים). אנא הסר חבר אם ברצונך להוסיף מומחה אחר.",
+    "addMembersClickCard": "הוסף חברי צוות על ידי לחיצה על כרטיס באזור הראשי",
+    "teamLead": "ראש צוות",
+    "currentMember": "חבר נוכחי",
+    "analyzingNeeds": "ניתוח הצרכים שלך...",
+    "emergencyDetected": "🚨 זוהה מצב חירום",
+    "backToSafety": "חזרה לבטיחות",
+    "recommendedTeam": "צוות בריאות מומלץ",
+    "completeTeam": "הצוות המלא שלך ({{count}} חברים)",
+    "teamLeadReason": "רכז בריאות ראשונית",
+    "keepingMembers": "חברי צוות נוכחיים (שמירה)",
+    "newRecommendations": "המלצות חדשות",
+    "aileenCarolReasoning": "נימוקיה של קרול, מומחית בריאות בתחום הבינה המלאכותית:",
+    "noMatchingSpecialists": "לא נמצאו מומחים תואמים להמלצות הבינה המלאכותית. ניתן לנסות שוב או לבנות את הצוות שלך באופן ידני.",
+    "medicalDisclaimerTitle": "ייעוץ לבריאות ואיכות חיים:",
+    "medicalDisclaimerText": "פלטפורמה זו מספקת ייעוץ והכוונה בריאותית אך אינה יכולה להחליף שירותי בריאות מקצועיים. יש להתייעץ תמיד עם אנשי מקצוע בתחום הבריאות במקרי חירום או בעיות בריאותיות חמורות.",
+    "applyingTeam": "צוות הגשת מועמדות...",
+    "acceptTeam": "קבלו את הצוות הזה",
+    "tryDifferent": "נסה המלצות שונות",
+    "cancel": "לְבַטֵל",
+    "myVirtualMDTeam": "צוות VirtualMD.app שלי",
+    "availableSpecialists": "מומחי בריאות זמינים בתחום הבינה המלאכותית",
+    "clickToAddInstruction": "לחץ על כרטיס כדי להוסיף לצוות שלך ({{current}}/{{max}} נבחרו). מומחים שנבחרו מציגים תג \"נבחר\".",
+    "teamFullInstruction": "הצוות שלך מלא. הסר חבר כדי להוסיף מומחה אחר.",
+    "selected": "נִבחָר",
+    "teamFullBadge": "צוות מלא",
+    "allSpecialistsAdded": "כל המומחים הזמינים נוספו לצוות שלך.",
+    "otherSpecialists": "מומחים אחרים",
+    "specialistsCount": "מומחים",
+    "startTeamConsult": "התחלת ייעוץ צוותי",
+    "starting": "מתחיל...",
+    "myAIHealthTeam": "צוות הבריאות שלי בבינה מלאכותית",
+    "addMembersInstruction": "הוסף חברי צוות על ידי לחיצה על כרטיס מימין."
+  },
+  "specialistCategories": {
+    "diabetesBloodSugar": "סוכרת וסוכר בדם",
+    "weightManagement": "ניהול משקל",
+    "mentalHealthStress": "בריאות נפשית ולחץ",
+    "cancerSupport": "תמיכה בסרטן",
+    "heartHealth": "בריאות הלב",
+    "painManagement": "ניהול כאב",
+    "digestiveIssues": "בעיות עיכול",
+    "sleepProblems": "בעיות שינה",
+    "skinProblems": "בעיות עור",
+    "womensHealth": "בריאות האישה",
+    "childrensHealth": "בריאות ילדים",
+    "agingSeniorHealth": "הזדקנות ובריאות קשישים",
+    "nutritionDiet": "תזונה ודיאטה",
+    "allergiesImmuneSystem": "אלרגיות ומערכת החיסון",
+    "breathingLungIssues": "בעיות נשימה וריאות",
+    "sportsFitnessInjuries": "פציעות ספורט וכושר גופני",
+    "easternAlternativeMedicine": "בריאות מזרחית ואלטרנטיבית",
+    "cosmeticBeautyMedicine": "קוסמטיקה ויופי בריאות",
+    "anxietyHelp": "עזרה בחרדה",
+    "medicationPharmacy": "תרופות ורוקחות",
+    "primaryCareGeneralHealth": "רפואה ראשונית ובריאות כללית",
+    "medicalSpecialties": "התמחויות בריאות ואיכות חיים"
+  },
+  "dialogs": {
+    "exitConsultation": "ייעוץ יציאה",
+    "exitMessage": "האם אתה בטוח שאתה רוצה לצאת מהייעוץ הזה?",
+    "saveAndExit": "שמור וצא",
+    "exitWithoutSaving": "יציאה ללא שמירה",
+    "cancel": "לְבַטֵל",
+    "confirm": "לְאַשֵׁר",
+    "logout": "התנתק",
+    "logoutMessage": "אתה נמצא כעת בהתייעצות. יציאה תסיים אותה. מה תרצה לעשות?",
+    "deleteConversation": "מחיקת שיחה",
+    "deleteMessage": "לא ניתן לבטל פעולה זו. האם אתה בטוח?",
+    "summarizeFirst": "האם תרצה לקבל סיכום לפני שתצא?",
+    "summarizing": "יוצר סיכום...",
+    "summaryGenerated": "הסיכום נוצר בהצלחה",
+    "doneAlready": "כבר סיימת?",
+    "doneAlreadyMessage": "אנחנו כאן בכל עת שתצטרכו אותנו. עד אז, תהיו בריאים, תהיו מאושרים!",
+    "doneAlreadySignature": "כולנו (בני אדם ובינה מלאכותית) ב-VirtualMD.app",
+    "exitConsultationButton": "ייעוץ יציאה",
+    "editTitle": "עריכת כותרת השיחה",
+    "conversationTitleLabel": "כותרת השיחה",
+    "save": "לְהַצִיל",
+    "deleteTitle": "מחיקת שיחה",
+    "deleteConfirmation": "האם אתה בטוח שברצונך למחוק את השיחה שכותרתה \"{{title}}\"?",
+    "delete": "לִמְחוֹק",
+    "multiDeleteTitle": "מחיקת התייעצויות שנבחרו",
+    "multiDeleteConfirmation": "האם אתה בטוח שברצונך למחוק את {{count}} ההתייעצויות שנבחרו? לא ניתן לבטל פעולה זו.",
+    "deleteSelected": "מחק את הפריטים שנבחרו",
+    "addSpecialistTitle": "הוסף מומחה לצ'אט",
+    "addSpecialistError": "לא ניתן היה לטעון את היועצים שלך.",
+    "noAdvisersToAdd": "כל יועצי הבריאות של בינה מלאכותית שבחרת כבר נמצאים בצ'אט הזה, או שהרשימה שלך ריקה (לא כולל משתתפים נוכחיים).",
+    "longRecording": {
+      "title": "הקלטה ארוכה הושהתה",
+      "message": "אנחנו לא יכולים להקליט יותר מ-30 שניות בלי לשלוח את זה. מה תרצה לעשות?",
+      "delete": "לִמְחוֹק",
+      "transcribeToText": "תמלול לטקסט",
+      "transcribeAndSend": "תמלול ושליחה"
+    },
+    "finishConsultationTitle": "לסיים את הייעוץ?",
+    "generatingSummary": "אנא המתן בזמן שאנו יוצרים את סיכום הייעוץ שלך...",
+    "finishConsultationMessage": "פעולה זו תסיים את סשן הצ'אט הפעיל. האם אתה בטוח?",
+    "summarizeAndFinish": "סיכום וסיום",
+    "leaveWithoutSummarizing": "לעזוב בלי לסכם",
+    "summarize": "לְסַכֵּם",
+    "moreInfoTitle": "נדרש מידע נוסף",
+    "moreInfoMessage": "שיחה זו קצרה מדי מכדי לייצר סיכום משמעותי או דעה שונה. אנא המשך את הדיון עד שיהיו לך לפחות 150 מילים של תוכן השיחה.",
+    "ok": "בְּסֵדֶר",
+    "deleteSuccessTitle": "השיחה נמחקה",
+    "deleteSuccessMessage": "השיחה שלך נמחקה בהצלחה.",
+    "logoutTitle": "מצטערים לראות אותך הולך",
+    "aiHealthSpecialist": "מומחה הבינה המלאכותית העיקרי שלך לבריאות ואיכות חיים",
+    "aileenCarol": "מומחית בריאות בינה מלאכותית קרול",
+    "aiHealthAssistant": "עוזר בריאותי של בינה מלאכותית",
+    "deleteAndExit": "מחיקה ויציאה",
+    "summaryTitle": "סיכום התייעצות",
+    "consultationTitle": "ייעוץ VirtualMD: {{title}}",
+    "summaryUnavailable": "הסיכום נוצר או שאינו זמין.",
+    "print": "הֶדפֵּס",
+    "copy": "לְהַעְתִיק",
+    "close": "לִסְגוֹר",
+    "shortConv": {
+      "title": "השיחה הסתיימה",
+      "messageLine1": "השיחה הסתיימה. היא קצרה מדי לשמירה, אבל נחזור בקרוב.",
+      "messageLine2": "עד אז, תהיו בריאים, תהיו מאושרים."
+    }
+  },
+  "errors": {
+    "connectionError": "שגיאת חיבור. אנא בדוק את חיבור האינטרנט שלך.",
+    "serverError": "שגיאת שרת. אנא נסה שוב מאוחר יותר.",
+    "authenticationError": "האימות נכשל. אנא התחבר שוב.",
+    "messageFailedToSend": "שליחת ההודעה נכשלה",
+    "loadingFailed": "טעינת התוכן נכשלה",
+    "personaUnavailable": "איש מקצוע בתחום הבריאות אינו זמין כעת",
+    "conversationNotFound": "השיחה לא נמצאה",
+    "permissionDenied": "אין לך הרשאה לגשת לשיחה הזו",
+    "failedToLogin": "הכניסה נכשלה.",
+    "failedToRegister": "ההרשמה נכשלה.",
+    "failedToLogout": "היציאה נכשלה.",
+    "emailAlreadyTaken": "כתובת האימייל הזו כבר תפוסה. אנא נסה כתובת אחרת או התחבר.",
+    "anErrorOccurred": "אירעה שגיאה.",
+    "selectImageFile": "אנא בחר קובץ תמונה.",
+    "failedToSaveProfile": "שמירת הפרופיל נכשלה. אנא נסה שוב.",
+    "teamIsFull": "הצוות שלך מלא (מקסימום {{max}} מומחים). אנא הסר חבר אם ברצונך להוסיף מומחה אחר.",
+    "selectOneSpecialist": "אנא בחרו מומחה אחד בלבד לייעוץ פרטי.",
+    "contactErrorMessage": "אירעה שגיאה בעת שליחת ההודעה שלך. אנא נסה שוב מאוחר יותר או",
+    "contactDirectlyAt": "ניתן גם לשלוח לנו דוא\"ל ישירות לכתובת info@virtualmd.app"
+  },
+  "welcome": {
+    "title": "ברוכים הבאים ל-VirtualMD.app",
+    "subtitle": "התחל את ייעוץ הבריאות האישי שלך",
+    "description": "בחרו מצוות יועצי הבריאות שלנו המופעלים על ידי בינה מלאכותית כדי לקבל תובנות והדרכה מותאמות אישית בנוגע לרווחה.",
+    "getStarted": "התחל",
+    "chooseSpecialist": "בחר את המומחה שלך",
+    "startWithTeam": "התחל עם הצוות שלי",
+    "howItWorks": "איך זה עובד",
+    "aileenCarolName": "איילין קרול, מומחית בריאות בתחום הבינה המלאכותית",
+    "danielGarciaName": "מומחה בריאות לבינה מלאכותית, דניאל גרסיה",
+    "greeting": "שלום, {{username}}. כל כך טוב לראות אותך! צוות VirtualMD שלך מוכן לעזור 24/7...",
+    "startTeamConsultation": "התחלת ייעוץ צוותי",
+    "configureNewChat": "הגדר צ'אט חדש",
+    "encyclopedia": "אנציקלופדיה של VirtualMD.app",
+    "myAIHealthTeam": "צוות הבריאות שלי בבינה מלאכותית",
+    "aileenCarolIntro": "שלום, אני איילין קרול, מומחית בריאות בתחום הבינה המלאכותית. איך אוכל לעזור לך היום?",
+    "persona_welcome_message": "שלום, אני כאן כדי לעזור לך עם צרכי הבריאות והרווחה שלך. איך אוכל לעזור לך היום?"
+  },
+  "imageUpload": {
+    "dragAndDrop": "גרור ושחרר תמונות לכאן, או לחץ כדי לבחור",
+    "supportedFormats": "פורמטים נתמכים: JPG, PNG, GIF",
+    "maxSize": "גודל מקסימלי: MB",
+    "uploadSuccess": "התמונה הועלתה בהצלחה",
+    "uploadError": "העלאת התמונה נכשלה",
+    "processing": "מעבד תמונה...",
+    "removeImage": "הסר תמונה",
+    "addToContext": "הוסף להקשר של השיחה"
+  },
+  "voice": {
+    "startRecording": "התחל הקלטת קול",
+    "stopRecording": "הפסקת ההקלטה",
+    "recording": "הַקלָטָה...",
+    "processingSpeech": "מעבד דיבור...",
+    "speechToText": "המרת דיבור לטקסט...",
+    "noSpeechDetected": "לא זוהה דיבור",
+    "microphoneError": "שגיאת גישה למיקרופון",
+    "unsupportedBrowser": "הקלטת קול אינה נתמכת בדפדפן זה"
+  },
+  "summary": {
+    "title": "סיכום התייעצות",
+    "keyPoints": "נקודות מפתח",
+    "recommendations": "המלצות",
+    "nextSteps": "הצעדים הבאים",
+    "followUp": "מעקב",
+    "generating": "יוצר סיכום...",
+    "noSummary": "אין סיכום זמין",
+    "summaryError": "יצירת הסיכום נכשלה",
+    "downloadSummary": "סיכום הורדה",
+    "emailSummary": "סיכום אימייל",
+    "return": "לַחֲזוֹר",
+    "transcript": "תמלול",
+    "print": "הֶדפֵּס",
+    "copy": "לְהַעְתִיק",
+    "copyError": "ההעתקה נכשלה",
+    "notGenerated": "לא ניתן היה ליצור את הסיכום."
+  },
+  "status": {
+    "online": "באינטרנט",
+    "offline": "לא מקוון",
+    "away": "רָחוֹק",
+    "busy": "עָסוּק",
+    "available": "זָמִין",
+    "unavailable": "לא זמין",
+    "lastSeen": "נראה לאחרונה {{time}}"
+  },
+  "mobileTeamBuilder": {
+    "title": {
+      "yourTeam": "הצוות שלך",
+      "teamBuilder": "בונה צוות בינה מלאכותית"
+    },
+    "carolMessages": {
+      "teamFull": "{{name}}, הצוות שלך מלא! אתה יכול להתחיל התייעצות עם הצוות הנוכחי שלך או להסיר כמה חברים כדי לקבל המלצות חדשות.",
+      "helpBuild": "{{name}}, אשמח לעזור לך לבנות את צוות הבריאות המושלם שלך! ספר לי מה מביא אותך לכאן היום."
+    },
+    "carolGreeting": {
+      "teamFull": "היי {{name}}! הצוות שלך מלא.",
+      "helpBuild": "היי {{name}}! אעזור לך לבנות את צוות הבריאות המושלם שלך."
+    },
+    "currentTeam": "קבוצה נוכחית ({{current}}/{{max}})",
+    "aiSpecialist": "בינה מלאכותית {{שם}}",
+    "specialist": "מוּמחֶה",
+    "startConversation": "התחל שיחה עם צוות זה",
+    "tellUsWhy": "ספרו לנו למה אתם כאן היום כדי שנוכל ליצור עבורכם את צוות הבריאות המושלם.",
+    "placeholder": "תאר את בעיות הבריאות שלך, תסמינים או במה אתה זקוק לעזרה...",
+    "questionnaire": {
+      "question": "מה מביא אותך לכאן היום?",
+      "keepExisting": "להשאיר את חברי הצוות הקיימים?",
+      "existingMembers": "חברי צוות קיימים",
+      "currentSize": "גודל הצוות הנוכחי",
+      "availableSpots": "מקומות פנויים למומחים חדשים",
+      "maxRecommendations": "המקסימום המלצות המותר"
+    }
+  },
+  "mobileNavigationTabs": {
+    "consultation": "יִעוּץ",
+    "team": "קְבוּצָה",
+    "history": "הִיסטוֹרִיָה",
+    "encyclopedia": "אֶנצִיקלוֹפֶּדִיָה"
+  },
+  "autoListening": {
+    "turnOn": "הפעלת האזנה אוטומטית",
+    "turnOff": "כבה את ההאזנה האוטומטית"
+  },
+  "speech": {
+    "processing": "עיבוד דיבור",
+    "pauseListening": "לחץ כדי להשהות את ההאזנה",
+    "turnOnListening": "לחץ כדי להפעיל את ההאזנה"
+  },
+  "help": {
+    "howDoesThisWork": "איך זה עובד?",
+    "chatControls": "בקרות צ'אט",
+    "enterToSend": "הזן או ▷ כדי לשלוח",
+    "shiftEnterToSpeak": "Shift+Enter או 🎤/⏸ כדי לדבר/להשהות"
+  },
+  "fileUpload": {
+    "clickToUpload": "לחץ להעלאת קובץ (ניתן גם להעלות קבצים לצ'אט)"
+  },
+  "send": {
+    "transcribeAndSend": "לתמלל ולשלוח",
+    "sendMessage": "שלח הודעה"
+  },
+  "aileenCarol": {
+    "playAnalysis": "ניתוח של קרול, מומחית בריאות המשחקים",
+    "stopAnalysis": "ניתוח של קרול, מומחית בריאות עצור"
+  },
+  "profile": {
+    "editProfile": "עריכת פרופיל",
+    "saveChanges": "שמירת שינויים",
+    "cancelEdits": "ביטול עריכות",
+    "changePhoto": "שנה תמונה",
+    "removePhoto": "הסר תמונה",
+    "healthInfoTooltip": "אנא רשמו או רשמו תרופות, אבחנות, תוספי תזונה ודברים חשובים אחרים הקשורים לבריאותכם.",
+    "loadingProfile": "טוען פרופיל...",
+    "errorLoadingProfile": "שגיאה בטעינת הפרופיל",
+    "noProfileData": "אין נתוני פרופיל זמינים.",
+    "myProfile": "הפרופיל שלי",
+    "myAccount": "החשבון שלי",
+    "displayName": "שם תצוגה",
+    "fullName": "שם מלא",
+    "email": "אֶלֶקטרוֹנִי",
+    "emailCannotBeChanged": "לא ניתן לשנות את כתובת האימייל.",
+    "keyHealthInfo": "מידע בריאותי מרכזי",
+    "noHealthInfoRecorded": "לא נרשם מידע בריאותי מרכזי.",
+    "healthInfoPlaceholder": "רשימת תרופות, אבחנות, תוספי תזונה וכו'.",
+    "age": "גִיל",
+    "gender": "מִין"
+  },
+  "imageContext": {
+    "clearZoom": "נקה את בחירת הזום הזו",
+    "cropPromotionError": "נכשלה השליחה וההוספה של התמונה המוגדלת. בדוק את הקונסולה.",
+    "startConversationToSend": "התחל שיחה כדי לשלוח בזום",
+    "sendZoomToTeam": "שלחו את הזום הזה לצוות",
+    "noActiveZoom": "אין זום פעיל לשליחה. אנא בחר אזור בתמונה.",
+    "functionsUnavailable": "לא ניתן לשלוח זום: פונקציות חיוניות אינן זמינות.",
+    "noImages": "אין תמונות בהקשר. העלה תמונה כדי להתחיל.",
+    "allHidden": "כל התמונות מוסתרות כעת. לחץ על תמונה ממוזערת בכותרת כדי להציג תמונה.",
+    "showFirst": "הצג תמונה ראשונה",
+    "imageDisplay": "תצוגת תמונה ({{shown}} מוצג / {{total}} סה\"כ)",
+    "hideImage": "הסתר תמונה",
+    "showImage": "הצג תמונה",
+    "zoomPreview": "תצוגה מקדימה של תצוגה מקדימה",
+    "sendToTeam": "שלח לצוות",
+    "dragToZoom": "לחץ וגרור תמונה למעלה כדי לבחור אזור זום חדש."
+  },
+  "mobileChat": {
+    "healthConsult": "ייעוץ בריאותי",
+    "speakToAI": "דבר עם {{name}}",
+    "startConversation": "התחל את השיחה שלך למטה",
+    "requestToSpeakToAI": "אני רוצה לדבר עם {{שם}}"
+  },
+  "mobileWelcome": {
+    "greeting": "היי!",
+    "aileenCarolIntro": "אני איילין קרול, מומחית הבריאות העיקרית שלך בתחום הבינה המלאכותית. אני מצפה להכיר אותך. אני אחראית על צוות מומחי הבריאות של VirtualMD.app בתחום הבינה המלאכותית. אנחנו מוכנים לעזור 24/7...",
+    "startConsultation": "התחלת ייעוץ בריאותי",
+    "myTeam": "הצוות שלי",
+    "aiTeamBuilder": "מומחית בריאות הבינה המלאכותית קרול עוזרת לך לבחור את הצוות שלך",
+    "priorConsultations": "התייעצויות קודמות",
+    "encyclopedia": "אֶנצִיקלוֹפֶּדִיָה",
+    "myProfile": "הפרופיל שלי",
+    "logout": "התנתק",
+    "labels": {
+      "chat": "לְשׂוֹחֵחַ",
+      "advisory": "מְיָעֵץ",
+      "encyclopedia": "אֶנצִיקלוֹפֶּדִיָה",
+      "myTeam": "הצוות שלי",
+      "history": "הִיסטוֹרִיָה",
+      "myProfile": "הפרופיל שלי"
+    }
+  },
+  "mobileInput": {
+    "listeningPlaceholder": "מקשיב... דבר עכשיו",
+    "typePlaceholder": "הקלד הודעה...",
+    "clear": "בָּרוּר",
+    "needHelp": "צריכים עזרה?",
+    "takePhoto": "צלם תמונה"
+  },
+  "mobileConsultations": {
+    "title": "התייעצויות קודמות",
+    "selectAll": "בחר הכל",
+    "deselectAll": "בטל את הבחירה של הכל",
+    "deleteSelected": "מחיקת הפריטים שנבחרו ({{count}})",
+    "consultationDefault": "ייעוץ {{id}}",
+    "lastUpdate": "עדכון אחרון: {{date}}",
+    "noUpdates": "אין עדיין עדכונים",
+    "editTitle": "עריכת כותרת השיחה",
+    "enterNewTitle": "הזן כותרת חדשה:",
+    "noConsultations": "עדיין אין התייעצויות."
+  },
+  "mobileProfile": {
+    "title": "הפרופיל שלי",
+    "saveError": "שמירת הפרופיל נכשלה",
+    "saveSuccess": "הפרופיל עודכן!",
+    "changePhoto": "שנה תמונה",
+    "displayName": "שם תצוגה",
+    "fullName": "שם מלא",
+    "email": "אֶלֶקטרוֹנִי",
+    "keyHealthInfo": "מידע בריאותי מרכזי",
+    "logout": "התנתק"
+  },
+  "mobileNavigation": {
+    "consultation": "יִעוּץ",
+    "team": "קְבוּצָה",
+    "history": "הִיסטוֹרִיָה",
+    "exitConsultation": "ייעוץ יציאה",
+    "myTeam": "הצוות שלי",
+    "summary": "תַקצִיר",
+    "differentialOpinion": "דעה שונה",
+    "transcript": "תמלול",
+    "encyclopedia": "אֶנצִיקלוֹפֶּדִיָה",
+    "controls": "בקרות",
+    "aiSpeaker": "רמקול בינה מלאכותית",
+    "enabled": "מופעל",
+    "disabled": "נָכֶה",
+    "camera": "מַצלֵמָה",
+    "comingSoon": "בקרוב",
+    "menu": "תַפרִיט"
+  },
+  "bioPanel": {
+    "loadingBio": "טוען ביוגרפיה...",
+    "noBiography": "אין ביוגרפיה זמינה.",
+    "returnToPanel": "חזרה לפאנל"
+  },
+  "sidebarHeader": {
+    "panel": "לוּחַ",
+    "summary": "תַקצִיר",
+    "differentialOpinion": "דעה שונה",
+    "transcript": "תמלול",
+    "encyclopedia": "אנציקלופדיה של VirtualMD.app",
+    "endConversation": "סיום שיחה",
+    "startChatWithTeam": "התחל צ'אט עם הצוות",
+    "configureNewChat": "הגדר צ'אט חדש",
+    "myAIHealthTeam": "צוות הבריאות הבינה המלאכותית שלי",
+    "aileenCarolTeamBuilder": "מומחית הבריאות קרול עוזרת לך לבנות את הצוות שלך.",
+    "savedConsultations": "ייעוץ שנשמר",
+    "myProfile": "הפרופיל שלי",
+    "imageNumber": "תמונה {{מספר}}"
+  },
+  "differentialOpinion": {
+    "noOpinionAvailable": "אין חוות דעת שונה זמינה."
+  },
+  "encyclopedia": {
+    "title": "אנציקלופדיה של VirtualMD.app",
+    "loadingMessage": "אנו עורכים מחקר מעמיק בנושא זה עבורך. אנא המתן מספר שניות לתשובתך.",
+    "longWaitMessage": "ייתכן שייקח מספר דקות לקבלת תשובות מפורטות.",
+    "searchButton": "חיפוש באנציקלופדיה",
+    "return": "לַחֲזוֹר",
+    "print": {
+      "button": "הֶדפֵּס",
+      "title": "תוצאת חיפוש באנציקלופדיה",
+      "subtitle": "אנציקלופדיה של VirtualMD.app"
+    },
+    "copy": "לְהַעְתִיק",
+    "searchResult": "תוצאת חיפוש באנציקלופדיה",
+    "attribution": "תשובה מאת VirtualMD.app",
+    "emptyState": "הזן שאילתה למעלה כדי לחפש באנציקלופדיה של VirtualMD.app.",
+    "copySuccess": "התוכן הועתק ללוח!",
+    "copyError": "נכשל בהעתקה ללוח",
+    "generatingResponse": "יצירת תגובה מקיפה...",
+    "genericError": "אירעה שגיאה",
+    "translatingContent": "תרגום תוכן..."
+  },
+  "input": {
+    "typeOrSpeakPlaceholder": "הקלד או אמור את ההודעה שלך...\nלחץ על Enter או לחץ על ▷ כדי לשלוח.",
+    "typePlaceholder": "הקלד הודעה כאן...\nלחץ על Enter או לחץ על ▷ כדי לשלוח.",
+    "transcribing": "מתמלל...",
+    "enterTextHere": "הזן טקסט כאן",
+    "startTypingMessage": "התחל להקליד את הודעתך בתיבה למטה כדי להתחיל את הייעוץ שלך."
+  },
+  "quickActions": {
+    "whatToDoButton": "מה עליי לעשות?",
+    "summaryButton": "תַקצִיר",
+    "whatShouldIDo": "בהתבסס על כל מה שדנו בו, מה עליי לעשות כעת? אנא ספקו המלצות ברורות וישימות.",
+    "requestSummary": "אנא ספקו סיכום מקיף של השיחה שלנו עד כה, כולל נקודות עיקריות שנדונו, המלצות שהתקבלו והצעדים הבאים."
+  },
+  "upload": {
+    "uploading": "מעלה..."
+  },
+  "camera": {
+    "notSupported": "גישה למצלמה אינה נתמכת בדפדפן זה",
+    "capturePhoto": "צילום תמונה",
+    "accessDenied": "גישת המצלמה נדחתה. אנא אפשר גישת המצלמה בהגדרות הדפדפן שלך.",
+    "accessFailed": "נכשלה הגישה למצלמה"
+  },
+  "microphone": {
+    "turnOn": "הפעל את המיקרופון",
+    "turnOff": "כבה את המיקרופון"
+  },
+  "specialistPanel": {
+    "guidanceSingle": "בחרו מומחה בינה מלאכותית אחד לייעוץ פרטי:",
+    "guidanceMulti": "מומחית בריאות הבינה המלאכותית, קרול, תמיד תכלול. בחרו יועצי בריאות נוספים בתחום הבינה המלאכותית:",
+    "startPrivateConsult": "התחל ייעוץ פרטי",
+    "startChat": "התחל צ'אט",
+    "selectSingle": "בחר מומחה בינה מלאכותית",
+    "selectMulti": "בחירת יועצים נוספים",
+    "warningSelectOne": "אנא בחרו מומחה אחד בלבד לייעוץ פרטי.",
+    "noSpecialistsAvailable": "אין כרגע מומחי בינה מלאכותית זמינים לייעוץ פרטי.",
+    "noAdvisersAvailable": "אין יועצי בריאות נוספים בתחום הבינה המלאכותית זמינים."
+  },
+  "sidebarFooter": {
+    "disclaimerText": "VirtualMD.app שואפת לדיוק. עם זאת, שירות זה וכל שירות מבוסס בינה מלאכותית עלולים לספק מידע שגוי. יש להתייעץ תמיד עם איש מקצוע מוסמך בתחום הבריאות.",
+    "emergencyText": "התקשרו 911 למקרי חירום רפואיים.",
+    "moreInformation": "מידע נוסף"
+  },
+  "teamBuilder": {
+    "healthConditions": {
+      "options": {
+        "${key}": "{{מַפְתֵחַ}}"
+      }
+    },
+    "medicinePreferences": {
+      "options": {
+        "${key}": "{{מַפְתֵחַ}}"
+      }
+    }
+  },
+  "account": {
+    "title": "הגדרות חשבון",
+    "description": "מכאן תוכל למחוק לצמיתות את חשבון VirtualMD.app שלך. פעולה זו מסירה את הפרופיל שלך ואת כל ההתייעצויות.",
+    "deleteMyAccount": "מחק את החשבון שלי",
+    "confirmDeleteTitle": "מחיקת חשבון",
+    "confirmDeleteText": "פעולה זו אינה הפיכה. כל פרטי הפרופיל, ההתייעצויות והקבצים שלך יוסרו לצמיתות. האם אתה בטוח שברצונך להמשיך?",
+    "cancel": "לְבַטֵל",
+    "yesDelete": "כן, מחק"
+  },
+  "transcript": {
+    "noTranscript": "אין תמליל זמין.",
+    "title": "תמליל ייעוץ",
+    "returnToConversation": "חזרה לשיחה",
+    "print": "הֶדפֵּס",
+    "copy": "לְהַעְתִיק",
+    "copyError": "ההעתקה נכשלה",
+    "roleLabels": {
+      "patient": "מִשׁתַמֵשׁ:",
+      "assistant": "עוֹזֵר:"
+    }
+  },
+  "mobileRouter": {
+    "teamRecommendations": "המלצות צוות",
+    "myTeam": "הצוות שלי",
+    "summary": "תַקצִיר",
+    "differentialOpinion": "דעה שונה",
+    "transcript": "תמלול",
+    "encyclopedia": "אֶנצִיקלוֹפֶּדִיָה",
+    "consultations": "התייעצויות",
+    "returnToChat": "חזרה לצ'אט",
+    "pleaseLogIn": "אנא התחבר",
+    "logInToView": "התחבר כדי לצפות בשיחות שלך או להתחיל שיחת חדשה.",
+    "logIn": "התחברות",
+    "loadingSpecialists": "טוען מומחים..."
+  },
+  "chat": {
+    "pleaseLogIn": "אנא התחבר",
+    "logInToView": "התחבר כדי לצפות בשיחות שלך או להתחיל שיחת חדשה."
+  },
+  "loginPage": {
+    "signIn": "כניסה"
+  },
+  "imageProcessing": {
+    "preset": "הגדרה מראש",
+    "applyPreset": "החלת קביעה מוגדרת מראש על תמונה ממוקדת",
+    "process": "תַהֲלִיך",
+    "revertFocus": "מיקוד מחדש על התמונה המקורית",
+    "revert": "לַחֲזוֹר"
+  },
+  "guest": {
+    "consultation": "ייעוץ אורחים",
+    "topics": {
+      "child": {
+        "title": "הילד שלי חולה",
+        "subtitle": "טיפול מקצועי בילדים כשאתם הכי זקוקים לו",
+        "initialMessage": "אני איילין קרול, בעלת בינה מלאכותית, יועצת הבריאות הווירטואלית שלך. אני יודעת כמה ילד חולה יכול להיות מדאיג. ספרי לי מה קורה. הערה: אני בעלת בינה מלאכותית, לא אנושית; העצה שלי עשויה להיות שגויה - אשרי עם איש מקצוע מוסמך בתחום הבריאות."
+      },
+      "sleep": {
+        "title": "אני לא יכול לישון!",
+        "subtitle": "שיקמו את הלילות שלכם, הפכו את ימיכם",
+        "initialMessage": "אני איילין קרול, יועצת הבריאות הווירטואלית שלך, עם מומחי השינה בנימין שטיין (פסיכיאטריה) ואליס צ'ן (נוירולוגיה). שתפו את אתגרי השינה שלכם כדי שנוכל לעזור. הערה: אנחנו בינה מלאכותית, לא בני אדם; העצות שלנו עשויות להיות שגויות - אשרו עם איש מקצוע מוסמך (אנושי) בתחום הבריאות."
+      },
+      "nutrition": {
+        "title": "תזונה לחיוניות",
+        "subtitle": "שפרו את האנרגיה, הרווחה והבריאות המינית שלכם באמצעות מזון",
+        "initialMessage": "אני איילין קרול, יועצת הבריאות הווירטואלית שלך, כאן עם הצוות שלך - אנג'ליקה פורדהאם (תזונה) בעלת בינה מלאכותית, רייצ'ל לוי (טיפול מיני) בעלת בינה מלאכותית, ואמינה אוקופור, מומחית להרבל אפריקאית. איך את מרגישה היום? הערה: אנחנו בינה מלאכותית, לא בני אדם; העצות עשויות להיות שגויות - אשרי עם איש מקצוע מוסמך בתחום הבריאות."
+      }
+    },
+    "errors": {
+      "sessionFailed": "נכשל בהתחלת סשן אורח"
+    },
+    "registrationRequired": "נדרשת הרשמה",
+    "uploadFeatures": {
+      "title": "תכונות העלאת מסמכים ותמונות",
+      "description": "הפלטפורמה שלנו מציעה יכולות עוצמתיות לניתוח מסמכים ותמונות, המאפשרות לכם:",
+      "benefit1": "העלאת מסמכי בריאות, דוחות מעבדה ותמונות",
+      "benefit2": "הגדלה של אזורים ספציפיים לניתוח מפורט",
+      "benefit3": "תנו ליועצי הבריאות שלנו בתחום הבינה המלאכותית להעריך ולדון במסמכים שלכם",
+      "benefit4": "צלם תמונות ישירות מהמצלמה שלך לקבלת ייעוץ מיידי",
+      "registeredOnly": "תכונות מיוחדות אלו זמינות למשתמשים רשומים."
+    }
+  },
+  "activeChat": {
+    "guestMode": {
+      "advisorsTitle": "יועצי בריאות של VirtualMD.app",
+      "registrationRequired": "נדרשת הרשמה"
+    }
+  },
+  "healthAdvisors": "יועצי בריאות של VirtualMD.app"
+}

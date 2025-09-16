@@ -1,0 +1,715 @@
+{
+  "actions": {
+    "startConsultation": "开始健康咨询",
+    "endConsultation": "结束咨询",
+    "returnToConsultation": "返回咨询",
+    "newConversation": "开始新对话",
+    "saveConversation": "保存对话",
+    "deleteConversation": "删除对话",
+    "getSummary": "获取摘要",
+    "getTranscript": "获取成绩单",
+    "getDifferentialOpinion": "获取不同的意见",
+    "exportChat": "导出聊天",
+    "clearChat": "清除聊天"
+  },
+  "audio": {
+    "aiMuted": "AI静音",
+    "aiUnmuted": "AI音频开启",
+    "playbackFailed": "播放音频失败",
+    "generationFailed": "无法生成语音"
+  },
+  "sidebar": {
+    "personaList": "选择您的健康专家",
+    "conversations": "我的对话",
+    "profile": "我的个人资料",
+    "settings": "设置",
+    "manageTeam": "管理团队",
+    "teamBuilder": "AI团队建设者",
+    "encyclopedia": "百科全书",
+    "bio": "专业简历",
+    "clickForBio": "点击查看简历",
+    "clickToSpeak": "点击与顾问交谈",
+    "summary": "咨询摘要",
+    "transcript": "对话记录",
+    "imageContext": "图像上下文",
+    "newConversation": "新咨询"
+  },
+  "tooltips": {
+    "audioOnlyRegistered": "音频仅供注册用户使用。"
+  },
+  "messages": {
+    "typeMessage": "在此处输入您的消息...",
+    "send": "发送",
+    "thinking": "思维...",
+    "processing": "加工...",
+    "connecting": "正在连接...",
+    "connected": "已连接",
+    "disconnected": "断开连接",
+    "typing": "{{name}} 正在输入...",
+    "messageError": "发送消息失败",
+    "retryMessage": "重试",
+    "requestToSpeak": "请让我与 {{name}} 通话",
+    "messageDeleted": "消息已删除",
+    "systemMessage": "系统消息"
+  },
+  "personas": {
+    "defaultName": "健康专家艾琳·卡罗尔",
+    "defaultSpecialty": "健康专家",
+    "selectPersona": "选择健康专业人士",
+    "noPersonasAvailable": "没有可用的健康专业人员",
+    "personaDetails": "专业详情",
+    "specialization": "专业化",
+    "experience": "经验",
+    "education": "教育",
+    "certifications": "认证",
+    "languages": "语言",
+    "availableNow": "现已推出",
+    "loading": "正在加载专业人员..."
+  },
+  "personaSearch": {
+    "placeholder": "按姓名、专业搜索，或描述您的症状（例如头痛、焦虑）",
+    "selected": "选定",
+    "noResults": "未找到“{{query}}”的顾问",
+    "searchSuggestions": "尝试搜索：头痛、焦虑、疼痛、睡眠、糖尿病等。"
+  },
+  "configurator": {
+    "title": "开始新的健康咨询",
+    "subtitle": "从您的 AI 健康团队中选择",
+    "changeTeam": "改变团队",
+    "starting": "开始...",
+    "startConsult": "开始咨询",
+    "emptyTeam": "您的 AI 健康团队是空的",
+    "addSpecialists": "为您的团队添加专家",
+    "noOtherSpecialists": "您的团队中没有其他专家。您可以与 AI 健康专家 Carol 聊天，或者",
+    "addSpecialistsLink": "为您的团队添加专家",
+    "defaultPersona": {
+      "name": "人工智能健康专家Aileen Carol",
+      "role": "我的首要人工智能健康顾问"
+    },
+    "carolNote": {
+      "title": "AI健康专家Carol参会说明：",
+      "ruleA": "A.如果您的团队中选择了 0 名或 2 名以上其他专家，则会包括 AI 健康专家 Carol。",
+      "ruleB": "B.如果您的团队中仅选择了 1 名其他专家，则 AI 健康专家 Carol 不会被纳入其中。"
+    }
+  },
+  "conversations": {
+    "noConversations": "尚未对话",
+    "untitled": "无标题对话",
+    "today": "今天",
+    "yesterday": "昨天",
+    "thisWeek": "本星期",
+    "lastWeek": "上星期",
+    "older": "较旧",
+    "editTitle": "编辑标题",
+    "saveTitle": "保存标题",
+    "cancelEdit": "取消 编辑",
+    "deleteConsultation": "删除咨询",
+    "clickToReturn": "点击返回咨询",
+    "deleteConfirm": "您确定要删除此对话吗？",
+    "deleteSuccess": "对话已成功删除",
+    "loadingConversations": "正在加载对话...",
+    "conversationError": "加载对话时出错",
+    "consultationsTitle": "咨询",
+    "lastUpdate": "最后更新：{{date}}",
+    "consultationDefault": "咨询 {{id}}",
+    "noConsultationsYet": "尚未有任何諮詢。",
+    "noPastConsultations": "未找到过去的咨询。"
+  },
+  "participants": {
+    "noParticipants": "没有可显示的参与者。",
+    "inThisConsult": "在此虚拟咨询中："
+  },
+  "team": {
+    "myTeam": "我的健康团队",
+    "addToTeam": "添加到团队",
+    "removeFromTeam": "从团队中移除",
+    "teamFull": "你的队伍已满",
+    "maxTeamSize": "已达到最大团队规模（{{max}} 名成员）",
+    "currentTeam": "现任团队成员",
+    "buildTeam": "建立你的团队",
+    "teamRecommendations": "AI团队建议",
+    "acceptRecommendation": "接受推荐",
+    "getRecommendations": "获取 AI 建议",
+    "teamBuilder": "AI团队建设者",
+    "addTeamMembersInstruction": "点击右侧的卡片添加团队成员。",
+    "maxTeamSizeNote": "您的团队最多可添加五名 AI 顾问。您可以随时更改您的团队，但咨询期间不可更改。",
+    "startConsultationWithTeam": "开始与您的团队进行协商",
+    "manageTeamTitle": "管理我的 AI 健康团队（最多 {{max}} 名专家）",
+    "removeSpecialistToUseTeamBuilder": "请移除至少一名专家，以使用 AI 健康专家 Carol 的团队建设建议",
+    "aileenCarolRecommendTeam": "让人工智能健康专家 Carol 推荐您的健康团队",
+    "teamFullRemoveToUseBuilder": "你的队伍已满。请移除至少一名专家才能使用 AI 队伍建设。",
+    "yourCurrentTeam": "您当前的团队（{{current}}/{{max}}）",
+    "updatingTeam": "正在更新团队...",
+    "coordinator": "协调员",
+    "alwaysIncluded": "始终包含",
+    "specialist": "专家",
+    "teamEmptyAddBelow": "您的专家团队尚无人员。请在下方添加专家。",
+    "teamFullRemoveMember": "您的团队已满（最多 {{max}} 位专家）。如果您想添加其他专家，请移除一位成员。",
+    "addMembersClickCard": "通过点击主区域中的卡片来添加团队成员",
+    "teamLead": "团队负责人",
+    "currentMember": "现任成员",
+    "analyzingNeeds": "分析您的需求...",
+    "emergencyDetected": "🚨 检测到紧急情况",
+    "backToSafety": "回到安全",
+    "recommendedTeam": "推荐医疗团队",
+    "completeTeam": "您的完整团队（{{count}} 名成员）",
+    "teamLeadReason": "初级卫生保健协调员",
+    "keepingMembers": "当前团队成员（保留）",
+    "newRecommendations": "新建议",
+    "aileenCarolReasoning": "AI健康专家Carol的理由：",
+    "noMatchingSpecialists": "未找到符合 AI 推荐的专家。您可以重试或手动组建团队。",
+    "medicalDisclaimerTitle": "健康与保健咨询：",
+    "medicalDisclaimerText": "本平台提供健康建议和指导，但不能替代专业医疗保健。如遇紧急情况或严重健康问题，请务必咨询合格的医疗保健专业人员。",
+    "applyingTeam": "申请团队...",
+    "acceptTeam": "接受这个团队",
+    "tryDifferent": "尝试不同的建议",
+    "cancel": "取消",
+    "myVirtualMDTeam": "我的 VirtualMD.app 团队",
+    "availableSpecialists": "可用的AI健康专家",
+    "clickToAddInstruction": "点击卡片即可将其添加到您的团队（已选择 {{current}}/{{max}} 个）。已选择的专家会显示“已选择”徽章。",
+    "teamFullInstruction": "您的团队已满。移除一名成员即可添加其他专家。",
+    "selected": "选定",
+    "teamFullBadge": "团队已满",
+    "allSpecialistsAdded": "所有可用的专家均已添加到您的团队。",
+    "otherSpecialists": "其他专家",
+    "specialistsCount": "{{count}} 位专家",
+    "startTeamConsult": "开始团队咨询",
+    "starting": "开始...",
+    "myAIHealthTeam": "我的AI健康团队",
+    "addMembersInstruction": "点击右侧的卡片添加团队成员。"
+  },
+  "specialistCategories": {
+    "diabetesBloodSugar": "糖尿病与血糖",
+    "weightManagement": "体重管理",
+    "mentalHealthStress": "心理健康与压力",
+    "cancerSupport": "癌症支持",
+    "heartHealth": "心脏健康",
+    "painManagement": "疼痛管理",
+    "digestiveIssues": "消化问题",
+    "sleepProblems": "睡眠问题",
+    "skinProblems": "皮肤问题",
+    "womensHealth": "女性健康",
+    "childrensHealth": "儿童健康",
+    "agingSeniorHealth": "老龄化与老年健康",
+    "nutritionDiet": "营养与饮食",
+    "allergiesImmuneSystem": "过敏和免疫系统",
+    "breathingLungIssues": "呼吸和肺部问题",
+    "sportsFitnessInjuries": "运动与健身损伤",
+    "easternAlternativeMedicine": "东方与另类健康",
+    "cosmeticBeautyMedicine": "化妆品和美容保健",
+    "anxietyHelp": "焦虑帮助",
+    "medicationPharmacy": "药物和药房",
+    "primaryCareGeneralHealth": "初级保健和一般健康",
+    "medicalSpecialties": "健康与保健专业"
+  },
+  "dialogs": {
+    "exitConsultation": "退出咨询",
+    "exitMessage": "您确定要退出本次咨询吗？",
+    "saveAndExit": "保存并退出",
+    "exitWithoutSaving": "退出而不保存",
+    "cancel": "取消",
+    "confirm": "确认",
+    "logout": "登出",
+    "logoutMessage": "您目前正在咨询中。退出将结束咨询。您想做什么？",
+    "deleteConversation": "删除对话",
+    "deleteMessage": "此操作无法撤消。您确定吗？",
+    "summarizeFirst": "您想在退出之前获得一份摘要吗？",
+    "summarizing": "正在生成摘要...",
+    "summaryGenerated": "摘要生成成功",
+    "doneAlready": "完成了嗎？",
+    "doneAlreadyMessage": "我们随时都在您需要我们的地方。在此之前，祝您健康快乐！",
+    "doneAlreadySignature": "VirtualMD.app 上的我们所有人（人类和人工智能）",
+    "exitConsultationButton": "退出咨询",
+    "editTitle": "编辑对话标题",
+    "conversationTitleLabel": "对话标题",
+    "save": "节省",
+    "deleteTitle": "删除对话",
+    "deleteConfirmation": "您确定要删除标题为“{{title}}”的对话吗？",
+    "delete": "删除",
+    "multiDeleteTitle": "删除选定的咨询",
+    "multiDeleteConfirmation": "您确定要删除 {{count}} 个选定的咨询吗？此操作无法撤消。",
+    "deleteSelected": "删除选定项",
+    "addSpecialistTitle": "添加专家进行聊天",
+    "addSpecialistError": "无法加载您的顾问。",
+    "noAdvisersToAdd": "您选择的所有 AI 健康顾问均已在此聊天中，或者您的列表为空（不包括当前参与者）。",
+    "longRecording": {
+      "title": "长时间录音已暂停",
+      "message": "如果不发送，我们就无法录制超过 30 秒的视频。您想怎么做？",
+      "delete": "删除",
+      "transcribeToText": "转录为文本",
+      "transcribeAndSend": "转录并发送"
+    },
+    "finishConsultationTitle": "完成諮詢？",
+    "generatingSummary": "我们正在生成您的咨询摘要，请稍候...",
+    "finishConsultationMessage": "这将结束当前聊天会话。您确定吗？",
+    "summarizeAndFinish": "总结与完成",
+    "leaveWithoutSummarizing": "不做总结就离开",
+    "summarize": "总结",
+    "moreInfoTitle": "需要更多信息",
+    "moreInfoMessage": "此对话太短，无法生成有意义的摘要或不同意见。请继续讨论，直到对话内容至少达到 150 字。",
+    "ok": "好的",
+    "deleteSuccessTitle": "对话已删除",
+    "deleteSuccessMessage": "您的对话已成功删除。",
+    "logoutTitle": "我们很遗憾看到你离开",
+    "aiHealthSpecialist": "您的首席健康与保健人工智能专家",
+    "aileenCarol": "人工智能健康专家Carol",
+    "aiHealthAssistant": "人工智能健康助手",
+    "deleteAndExit": "删除并退出",
+    "summaryTitle": "咨询摘要",
+    "consultationTitle": "VirtualMD 咨询：{{title}}",
+    "summaryUnavailable": "摘要正在生成或不可用。",
+    "print": "打印",
+    "copy": "复制",
+    "close": "关闭",
+    "shortConv": {
+      "title": "对话结束",
+      "messageLine1": "对话已结束。对话太短，无法保存，请稍后再来。",
+      "messageLine2": "到那时，祝您健康、快乐。"
+    }
+  },
+  "errors": {
+    "connectionError": "连接错误。请检查您的网络连接。",
+    "serverError": "服务器错误。请稍后重试。",
+    "authenticationError": "身份验证失败。请重新登录。",
+    "messageFailedToSend": "消息发送失败",
+    "loadingFailed": "内容加载失败",
+    "personaUnavailable": "此健康专家目前无法提供服务",
+    "conversationNotFound": "未找到对话",
+    "permissionDenied": "您无权访问此对话",
+    "failedToLogin": "登录失败。",
+    "failedToRegister": "注册失败。",
+    "failedToLogout": "退出失败。",
+    "emailAlreadyTaken": "此邮箱已被占用。请尝试其他邮箱或登录。",
+    "anErrorOccurred": "發生錯誤。",
+    "selectImageFile": "请选择一个图像文件。",
+    "failedToSaveProfile": "无法保存个人资料。请重试。",
+    "teamIsFull": "您的团队已满（最多 {{max}} 位专家）。如果您想添加其他专家，请移除一位成员。",
+    "selectOneSpecialist": "请仅选择一位专家进行私人咨询。",
+    "contactErrorMessage": "发送您的消息时出错。请稍后重试或",
+    "contactDirectlyAt": "您也可以直接发送电子邮件至 info@virtualmd.app"
+  },
+  "welcome": {
+    "title": "欢迎来到 VirtualMD.app",
+    "subtitle": "开始您的个性化健康咨询",
+    "description": "从我们的人工智能健康顾问团队中进行选择，获取个性化的健康见解和指导。",
+    "getStarted": "开始",
+    "chooseSpecialist": "选择您的专家",
+    "startWithTeam": "从我的团队开始",
+    "howItWorks": "工作原理",
+    "aileenCarolName": "人工智能健康专家Aileen Carol",
+    "danielGarciaName": "人工智能健康专家 Daniel Garcia",
+    "greeting": "您好，{{username}}。很高兴见到您！您的 VirtualMD 团队随时准备为您提供全天候帮助……",
+    "startTeamConsultation": "开始团队咨询",
+    "configureNewChat": "配置新聊天",
+    "encyclopedia": "VirtualMD.app 百科全书",
+    "myAIHealthTeam": "我的AI健康团队",
+    "aileenCarolIntro": "您好，我是 AI 健康专家 Aileen Carol。请问有什么可以帮到您？",
+    "persona_welcome_message": "您好，我在这里为您提供健康方面的帮助。请问有什么可以帮到您？"
+  },
+  "imageUpload": {
+    "dragAndDrop": "将图像拖放到此处，或单击选择",
+    "supportedFormats": "支持的格式：JPG、PNG、GIF",
+    "maxSize": "最大大小：{{size}}MB",
+    "uploadSuccess": "图片上传成功",
+    "uploadError": "上传图片失败",
+    "processing": "正在处理图像...",
+    "removeImage": "删除图片",
+    "addToContext": "添加到对话上下文"
+  },
+  "voice": {
+    "startRecording": "开始录音",
+    "stopRecording": "停止录制",
+    "recording": "记录...",
+    "processingSpeech": "正在处理语音...",
+    "speechToText": "将语音转换为文本...",
+    "noSpeechDetected": "未检测到语音",
+    "microphoneError": "麦克风访问错误",
+    "unsupportedBrowser": "此浏览器不支持录音"
+  },
+  "summary": {
+    "title": "咨询摘要",
+    "keyPoints": "关键点",
+    "recommendations": "建议",
+    "nextSteps": "后续步骤",
+    "followUp": "后续行动",
+    "generating": "正在生成摘要...",
+    "noSummary": "没有可用的摘要",
+    "summaryError": "无法生成摘要",
+    "downloadSummary": "下载摘要",
+    "emailSummary": "电子邮件摘要",
+    "return": "返回",
+    "transcript": "抄本",
+    "print": "打印",
+    "copy": "复制",
+    "copyError": "复制失败",
+    "notGenerated": "无法生成摘要。"
+  },
+  "status": {
+    "online": "在线的",
+    "offline": "离线",
+    "away": "离开",
+    "busy": "忙碌的",
+    "available": "可用的",
+    "unavailable": "不可用",
+    "lastSeen": "最后上线时间 {{time}}"
+  },
+  "mobileTeamBuilder": {
+    "title": {
+      "yourTeam": "你的团队",
+      "teamBuilder": "AI团队建设者"
+    },
+    "carolMessages": {
+      "teamFull": "{{name}}，你的团队已满！你可以与当前团队开始咨询，也可以移除部分成员以获取新的推荐。",
+      "helpBuild": "{{name}}，我很乐意帮助您打造完美的健康团队！告诉我您今天来这里的原因。"
+    },
+    "carolGreeting": {
+      "teamFull": "嗨，{{name}}！你的团队已满。",
+      "helpBuild": "嗨，{{name}}！我会帮你打造完美的健康团队。"
+    },
+    "currentTeam": "当前团队 ({{current}}/{{max}})",
+    "aiSpecialist": "人工智能 {{name}}",
+    "specialist": "专家",
+    "startConversation": "开始与该团队对话",
+    "tellUsWhy": "告诉我们您今天来这里的原因，以便我们为您打造完美的健康团队。",
+    "placeholder": "描述您的健康问题、症状或您需要的帮助......",
+    "questionnaire": {
+      "question": "您今天来这里是为了什么？",
+      "keepExisting": "保留现有团队成员？",
+      "existingMembers": "现有团队成员",
+      "currentSize": "当前团队规模",
+      "availableSpots": "新专家的空缺职位",
+      "maxRecommendations": "允许的最大建议数"
+    }
+  },
+  "mobileNavigationTabs": {
+    "consultation": "咨询",
+    "team": "团队",
+    "history": "历史",
+    "encyclopedia": "百科全书"
+  },
+  "autoListening": {
+    "turnOn": "开启自动收听",
+    "turnOff": "关闭自动收听"
+  },
+  "speech": {
+    "processing": "处理语音",
+    "pauseListening": "点击暂停收听",
+    "turnOnListening": "点击开启聆听"
+  },
+  "help": {
+    "howDoesThisWork": "这是如何运作的？",
+    "chatControls": "聊天控件",
+    "enterToSend": "输入或▷发送",
+    "shiftEnterToSpeak": "Shift+Enter 或 🎤/⏸ 朗读/暂停"
+  },
+  "fileUpload": {
+    "clickToUpload": "单击上传文件（您也可以将文件拖放到聊天中）"
+  },
+  "send": {
+    "transcribeAndSend": "转录并发送",
+    "sendMessage": "发送消息"
+  },
+  "aileenCarol": {
+    "playAnalysis": "玩健康专家卡罗尔的分析",
+    "stopAnalysis": "停止健康专家卡罗尔的分析"
+  },
+  "profile": {
+    "editProfile": "编辑个人资料",
+    "saveChanges": "保存更改",
+    "cancelEdits": "取消编辑",
+    "changePhoto": "更改照片",
+    "removePhoto": "删除照片",
+    "healthInfoTooltip": "请写下或列出与您的健康有关的药物、诊断、补充剂和其他重要事项。",
+    "loadingProfile": "正在加载个人资料...",
+    "errorLoadingProfile": "加载个人资料时出错",
+    "noProfileData": "没有可用的个人资料数据。",
+    "myProfile": "我的个人资料",
+    "myAccount": "我的账户",
+    "displayName": "显示名称",
+    "fullName": "姓名",
+    "email": "电子邮件",
+    "emailCannotBeChanged": "电子邮件无法更改。",
+    "keyHealthInfo": "重要健康信息",
+    "noHealthInfoRecorded": "没有记录关键的健康信息。",
+    "healthInfoPlaceholder": "列出药物、诊断、补充剂等。",
+    "age": "年龄",
+    "gender": "性别"
+  },
+  "imageContext": {
+    "clearZoom": "清除此缩放选择",
+    "cropPromotionError": "无法发送和添加缩放图像。请检查控制台。",
+    "startConversationToSend": "发起对话以发送缩放",
+    "sendZoomToTeam": "将此缩放发送给团队",
+    "noActiveZoom": "没有可发送的有效缩放比例。请选择图像上的一个区域。",
+    "functionsUnavailable": "无法发送缩放：基本功能不可用。",
+    "noImages": "上下文中没有图片。请上传图片以开始。",
+    "allHidden": "所有图片目前均已隐藏。点击页眉中的缩略图即可显示图片。",
+    "showFirst": "显示第一张图片",
+    "imageDisplay": "图片显示（已显示 {{shown}} / 总计 {{total}}）",
+    "hideImage": "隐藏图片",
+    "showImage": "显示图像",
+    "zoomPreview": "缩放预览",
+    "sendToTeam": "发送给团队",
+    "dragToZoom": "单击并拖动上面的图像以选择新的缩放区域。"
+  },
+  "mobileChat": {
+    "healthConsult": "健康咨询",
+    "speakToAI": "与 {{name}} 交谈",
+    "startConversation": "从下面开始您的对话",
+    "requestToSpeakToAI": "我想和 {{name}} 通话"
+  },
+  "mobileWelcome": {
+    "greeting": "你好！",
+    "aileenCarolIntro": "我是您的首席健康专家——AI Aileen Carol。期待与您相识。我负责管理您的 VirtualMD.app AI 健康专家团队。我们随时准备为您提供全天候服务……",
+    "startConsultation": "开始健康咨询",
+    "myTeam": "我的团队",
+    "aiTeamBuilder": "AI健康专家Carol帮您选择团队",
+    "priorConsultations": "事先咨询",
+    "encyclopedia": "百科全书",
+    "myProfile": "我的个人资料",
+    "logout": "登出",
+    "labels": {
+      "chat": "聊天",
+      "advisory": "咨询",
+      "encyclopedia": "百科全书",
+      "myTeam": "我的团队",
+      "history": "历史",
+      "myProfile": "我的个人资料"
+    }
+  },
+  "mobileInput": {
+    "listeningPlaceholder": "正在听...现在说",
+    "typePlaceholder": "输入消息...",
+    "clear": "清除",
+    "needHelp": "需要幫忙？",
+    "takePhoto": "拍照"
+  },
+  "mobileConsultations": {
+    "title": "事先咨询",
+    "selectAll": "选择全部",
+    "deselectAll": "取消全选",
+    "deleteSelected": "删除选定项 ({{count}})",
+    "consultationDefault": "咨询 {{id}}",
+    "lastUpdate": "最后更新：{{date}}",
+    "noUpdates": "尚无更新",
+    "editTitle": "编辑对话标题",
+    "enterNewTitle": "输入新标题：",
+    "noConsultations": "尚未有任何諮詢。"
+  },
+  "mobileProfile": {
+    "title": "我的个人资料",
+    "saveError": "无法保存个人资料",
+    "saveSuccess": "个人资料已更新！",
+    "changePhoto": "更改照片",
+    "displayName": "显示名称",
+    "fullName": "姓名",
+    "email": "电子邮件",
+    "keyHealthInfo": "重要健康信息",
+    "logout": "登出"
+  },
+  "mobileNavigation": {
+    "consultation": "咨询",
+    "team": "团队",
+    "history": "历史",
+    "exitConsultation": "退出咨询",
+    "myTeam": "我的团队",
+    "summary": "概括",
+    "differentialOpinion": "不同意见",
+    "transcript": "抄本",
+    "encyclopedia": "百科全书",
+    "controls": "控件",
+    "aiSpeaker": "人工智能音箱",
+    "enabled": "已启用",
+    "disabled": "已禁用",
+    "camera": "相机",
+    "comingSoon": "即将推出",
+    "menu": "菜单"
+  },
+  "bioPanel": {
+    "loadingBio": "正在加载简历...",
+    "noBiography": "没有可用的传记。",
+    "returnToPanel": "返回面板"
+  },
+  "sidebarHeader": {
+    "panel": "控制板",
+    "summary": "概括",
+    "differentialOpinion": "不同意见",
+    "transcript": "抄本",
+    "encyclopedia": "VirtualMD.app 百科全书",
+    "endConversation": "结束对话",
+    "startChatWithTeam": "开始与团队聊天",
+    "configureNewChat": "配置新聊天",
+    "myAIHealthTeam": "我的AI健康团队",
+    "aileenCarolTeamBuilder": "健康专家卡罗尔帮助您组建团队。",
+    "savedConsultations": "已保存的咨询",
+    "myProfile": "我的个人资料",
+    "imageNumber": "图片 {{number}}"
+  },
+  "differentialOpinion": {
+    "noOpinionAvailable": "沒有不同意見。"
+  },
+  "encyclopedia": {
+    "title": "VirtualMD.app 百科全书",
+    "loadingMessage": "我们正在就此主题进行深入研究。请等待几秒钟以获取答案。",
+    "longWaitMessage": "详细解答可能需要几分钟的时间。",
+    "searchButton": "搜索百科全书",
+    "return": "返回",
+    "print": {
+      "button": "打印",
+      "title": "百科全书搜索结果",
+      "subtitle": "VirtualMD.app 百科全书"
+    },
+    "copy": "复制",
+    "searchResult": "百科全书搜索结果",
+    "attribution": "VirtualMD.app 的回答",
+    "emptyState": "输入上面的查询来搜索 VirtualMD.app 百科全书。",
+    "copySuccess": "内容已复制到剪贴板！",
+    "copyError": "无法复制到剪贴板",
+    "generatingResponse": "生成综合响应...",
+    "genericError": "发生错误",
+    "translatingContent": "正在翻译内容..."
+  },
+  "input": {
+    "typeOrSpeakPlaceholder": "输入或说出您的消息...\n按 Enter 键或点击 ▷ 发送。",
+    "typePlaceholder": "在此处输入消息...\n按 Enter 键或点击 ▷ 发送。",
+    "transcribing": "正在转录...",
+    "enterTextHere": "在此处输入文本",
+    "startTypingMessage": "在下面的框中输入您的消息以开始您的咨询。"
+  },
+  "quickActions": {
+    "whatToDoButton": "我应该怎么办？",
+    "summaryButton": "概括",
+    "whatShouldIDo": "根据我们讨论过的内容，我现在应该怎么做？请提供清晰可行的建议。",
+    "requestSummary": "请提供迄今为止我们谈话的全面总结，包括讨论的要点、提出的建议和后续步骤。"
+  },
+  "upload": {
+    "uploading": "正在上传…"
+  },
+  "camera": {
+    "notSupported": "此浏览器不支持摄像头访问",
+    "capturePhoto": "拍摄照片",
+    "accessDenied": "摄像头访问被拒绝。请在浏览器设置中允许摄像头访问。",
+    "accessFailed": "无法访问相机"
+  },
+  "microphone": {
+    "turnOn": "打开麦克风",
+    "turnOff": "关闭麦克风"
+  },
+  "specialistPanel": {
+    "guidanceSingle": "选择一位人工智能专家进行私人咨询：",
+    "guidanceMulti": "AI 健康专家 Carol 将始终包含在内。选择其他 AI 健康顾问：",
+    "startPrivateConsult": "开始私人咨询",
+    "startChat": "开始聊天",
+    "selectSingle": "选择人工智能专家",
+    "selectMulti": "选择其他顾问",
+    "warningSelectOne": "请仅选择一位专家进行私人咨询。",
+    "noSpecialistsAvailable": "目前没有人工智能专家可以提供私人咨询。",
+    "noAdvisersAvailable": "没有其他可用的 AI 健康顾问。"
+  },
+  "sidebarFooter": {
+    "disclaimerText": "VirtualMD.app 力求准确。然而，本应用以及任何基于人工智能的服务都可能提供错误信息。请务必咨询合格的人类医疗保健专业人士。",
+    "emergencyText": "如遇医疗紧急情况，请拨打 911。",
+    "moreInformation": "更多信息"
+  },
+  "teamBuilder": {
+    "healthConditions": {
+      "options": {
+        "${key}": "{{钥匙}}"
+      }
+    },
+    "medicinePreferences": {
+      "options": {
+        "${key}": "{{钥匙}}"
+      }
+    }
+  },
+  "account": {
+    "title": "帐户设置",
+    "description": "您可以在这里永久删除您的 VirtualMD.app 帐户。此操作将删除您的个人资料和所有咨询记录。",
+    "deleteMyAccount": "删除我的帐户",
+    "confirmDeleteTitle": "删除帐户",
+    "confirmDeleteText": "此操作不可撤消。您的所有个人资料信息、咨询记录和文件都将被永久删除。您确定要继续吗？",
+    "cancel": "取消",
+    "yesDelete": "是的，删除"
+  },
+  "transcript": {
+    "noTranscript": "暂无文字记录。",
+    "title": "咨询记录",
+    "returnToConversation": "返回对话",
+    "print": "打印",
+    "copy": "复制",
+    "copyError": "复制失败",
+    "roleLabels": {
+      "patient": "用户：",
+      "assistant": "助手："
+    }
+  },
+  "mobileRouter": {
+    "teamRecommendations": "团队推荐",
+    "myTeam": "我的团队",
+    "summary": "概括",
+    "differentialOpinion": "不同意见",
+    "transcript": "抄本",
+    "encyclopedia": "百科全书",
+    "consultations": "咨询",
+    "returnToChat": "返回聊天",
+    "pleaseLogIn": "请登录",
+    "logInToView": "登录以查看您的对话或开始新的对话。",
+    "logIn": "登录",
+    "loadingSpecialists": "正在加载专家..."
+  },
+  "chat": {
+    "pleaseLogIn": "请登录",
+    "logInToView": "登录以查看您的对话或开始新的对话。"
+  },
+  "loginPage": {
+    "signIn": "登入"
+  },
+  "imageProcessing": {
+    "preset": "预设",
+    "applyPreset": "将预设应用于聚焦图像",
+    "process": "过程",
+    "revertFocus": "重新聚焦原始图像",
+    "revert": "恢复"
+  },
+  "guest": {
+    "consultation": "宾客咨询",
+    "topics": {
+      "child": {
+        "title": "我的孩子生病了",
+        "subtitle": "在您最需要的时候提供专业的儿科护理",
+        "initialMessage": "我是人工智能 Aileen Carol，您的虚拟健康顾问。我知道孩子生病有多令人担忧。告诉我发生了什么事。注意：我是人工智能，不是人类；我的建议可能不准确——请咨询合格的人类医疗保健专业人员。"
+      },
+      "sleep": {
+        "title": "我睡不着！",
+        "subtitle": "恢复你的夜晚，改变你的日子",
+        "initialMessage": "我是人工智能 Aileen Carol，您的虚拟健康顾问，与睡眠专家人工智能 Benjamin Stein（精神病学）和人工智能 Alice Chen（神经病学）携手合作。分享您的睡眠挑战，让我们为您提供帮助。注意：我们是人工智能，而非人类；我们的建议可能存在误差——请咨询合格的（人类）医疗保健专业人员。"
+      },
+      "nutrition": {
+        "title": "活力营养",
+        "subtitle": "通过食物增强你的能量、健康和性健康",
+        "initialMessage": "我是您的虚拟健康顾问——AI Aileen Carol。今天，我们和您的团队——AI Angelica Fordham（营养）、AI 性治疗专家 Rachel Levy 以及 AI 非洲草药师 Amina Okufur 一起为您服务。您今天感觉如何？注意：我们是 AI，而非人类；建议可能存在偏差——请咨询合格的医疗保健专业人士。"
+      }
+    },
+    "errors": {
+      "sessionFailed": "无法启动访客会话"
+    },
+    "registrationRequired": "需要注册",
+    "uploadFeatures": {
+      "title": "文档和图像上传功能",
+      "description": "我们的平台提供强大的文档和图像分析功能，您可以：",
+      "benefit1": "上传健康文件、实验室报告和图像",
+      "benefit2": "放大特定区域进行详细分析",
+      "benefit3": "让我们的人工智能健康顾问评估和讨论您的文件",
+      "benefit4": "直接从相机拍照以供立即咨询",
+      "registeredOnly": "这些特殊功能仅供注册用户使用。"
+    }
+  },
+  "activeChat": {
+    "guestMode": {
+      "advisorsTitle": "VirtualMD.app 健康顾问",
+      "registrationRequired": "需要注册"
+    }
+  },
+  "healthAdvisors": "VirtualMD.app 健康顾问"
+}

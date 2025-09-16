@@ -1,0 +1,20 @@
+{
+  "plugins": [
+    [
+      "i18next-extract",
+      {
+        "locales": ["en"],
+        "outputPath": "src/i18n/locales/{{locale}}/{{ns}}.json",
+        "defaultNS": "pages",
+        "keySeparator": ".",
+        "nsSeparator": false,
+        "keyAsDefaultValue": true,
+        "useI18nextDefaultValue": true,
+        "discardOldKeys": false,
+        "extractFromFormatMessageCall": true,
+        "customTransComponents": [["Typography", "children"]],
+        "customHook": "useTranslation"
+      }
+    ]
+  ]
+}

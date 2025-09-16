@@ -1,0 +1,112 @@
+{
+  "defaultGuest": {
+    "childHealth": {
+      "title": "Inkxaso yeMpilo yoMntwana",
+      "subtitle": "Ukhokelo lwabantwana lwengcali xa ulufuna kakhulu.",
+      "firstMessage": "Mholo! Ndiyingcali yezempilo uAileen Carol, kwaye ndilapha ukuze ndikuncede ngempilo yomntwana wakho. Wonke umzali unexhala - oko kuqhelekile ngokupheleleyo.\n\nZiziphi iimpawu okanye izinto ezikuxhalabisayo ngomntwana wakho namhlanje?"
+    },
+    "sleep": {
+      "title": "Ukulala kunye nokuba sempilweni",
+      "subtitle": "Phumla ngcono kwaye uphucule amandla akho emihla ngemihla.",
+      "firstMessage": "Molo apho! NdiyiNgcali yezeMpilo uAileen Carol. Imiba yokulala inokuchaphazela ngokwenene zonke iinkalo zobomi bakho, kwaye ndilapha ukukunceda ufumane ukuphumla okudingayo.\n\nYintoni le ibikwenza ungalali kamnandi mva nje?"
+    },
+    "nutrition": {
+      "title": "Isondlo kunye nendlela yokuphila",
+      "subtitle": "Isikhokelo somntu ngamnye sokuphila impilo esempilweni.",
+      "firstMessage": "Mholo! NdiyiNgcali yezeMpilo uAileen Carol. Ukwenza utshintsho kwindlela yokuphila enempilo kunokuziva kunzima, kodwa uthatha inyathelo lokuqala ngokufikelela.\n\nNgowuphi umba wempilo yakho kunye nesondlo ongathanda ukugxila kuwo?"
+    }
+  },
+  "genZStudents": {
+    "segment": "Gen Z / abafundi",
+    "description": "Abafundi abancinci abajongene noxinzelelo lwezemfundo kunye neenkxalabo zempilo",
+    "examStress": {
+      "title": "Uxinzelelo lweemviwo",
+      "subtitle": "Iindlela ezikhawulezayo zokuzola kunye nokugxila.",
+      "firstMessage": "Mholo! NdiyiNgcali yezeMpilo uAileen Carol. Zama ukuphefumla nzulu - phefumla ukubala oku-4, bamba u-4, ukhuphe umoya 4. Kwakhona qwalasela uhambo lwemizuzu emi-5 okanye ukolula.\n\nKude kube nini uviwo lwakho, kwaye ulele kakuhle mva nje?"
+    },
+    "acne": {
+      "title": "I-acne kunye nokhathalelo lwesikhumba",
+      "subtitle": "Sula iingcebiso zolusu onokumthemba.",
+      "firstMessage": "Mholo! NdiyiNgcali yezeMpilo uAileen Carol. Ndiyazi ukuba ukujongana ne-acne kunokuchaphazela ngokwenene ukuzithemba kwakho, ngakumbi ngexesha elibalulekileyo ebomini bakho.\n\nNdixelele ngenkqubo yakho yangoku yokhathalelo lwesikhumba-uzamile ntoni ukuza kuthi ga ngoku?"
+    },
+    "lowEnergy": {
+      "title": "Akukho mandla okufunda",
+      "subtitle": "Khulisa umoya wakho kunye nemveliso.",
+      "firstMessage": "Mholo! NdiyiNgcali yezeMpilo uAileen Carol. Ndiyaqonda ukuba ukungabi namandla kunokuba nefuthe ngokwenene kwizifundo zakho kunye nobomi bemihla ngemihla.\n\nNgaba uphawule naluphi na utshintsho kwiipatheni zakho zokulala, ukuthanda ukutya, okanye amanqanaba oxinzelelo mva nje?"
+    }
+  },
+  "elderly": {
+    "segment": "Abantu abadala (55+)",
+    "description": "Abemi abadala abalawula iimeko ezingapheliyo kunye nokubeka iliso kwimpilo",
+    "bloodPressure": {
+      "title": "Jonga uxinzelelo lwegazi lam",
+      "subtitle": "Isikhokelo esilula ukulandela.",
+      "firstMessage": "Mholo! NdiyiNgcali yezeMpilo uAileen Carol. Nantsi isikhokelo esilula sokujonga uxinzelelo lwegazi lakho:\n1. Hlala ngokuzolileyo imizuzu emi-5 kuqala\n2. Ingalo yokuphumla kwinqanaba lentliziyo\n3. Thatha ukufundwa kwe-2-3, umzuzu we-1 ngaphandle\n4. Rekhoda onke amanani\n\nNgaba unaso isixhobo sokujonga uxinzelelo lwegazi ekhaya, kwaye ugqibele nini ukusijonga?"
+    },
+    "diabetes": {
+      "title": "Ukuphila nesifo seswekile",
+      "subtitle": "Iingcebiso ezisebenzayo, yonke imihla.",
+      "firstMessage": "Molo, ndiyiNgcali yezeMpilo uAileen Carol. Ukulawula isifo seswekile imihla ngemihla kunokuziva kunzima, kodwa uthatha inyathelo elifanelekileyo ngokufuna isikhokelo.\n\nYeyiphi inkalo yolawulo lwakho lweswekile olufumana lucelomngeni kakhulu ngoku?"
+    },
+    "familySupport": {
+      "title": "Inkxaso yosapho",
+      "subtitle": "Uxolo lwengqondo kwabo ubathandayo.",
+      "firstMessage": "Molo, ndiyiNgcali yezeMpilo uAileen Carol. Ndiyaqonda ukuba unenkxalabo malunga nokuxhasa impilo nempilo yosapho lwakho.\n\nZiziphi izinto ezikuxhalabisayo zempilo onazo ngabantu obathandayo endinokukunceda ngazo?"
+    }
+  },
+  "bpoWorkers": {
+    "sleep": {
+      "title": "Andikwazi kulala!",
+      "subtitle": "Iingcebiso ezisebenzayo zokuseta kwakhona iwotshi yomzimba wakho.",
+      "firstMessage": "Mholo! Ndiyingcali yezempilo uAileen Carol, kwaye ndiyayiqonda indlela onokuba nzima ngayo umsebenzi weshifti kumjikelo wakho wokulala. Masisebenze kunye ukuze sikufumanele ukuphumla okufunayo.\n\nKunini unengxaki yokulala, kwaye injani ishedyuli yakho yomsebenzi?"
+    },
+    "fatigue": {
+      "title": "Ndihlala ndidiniwe",
+      "subtitle": "Lawula ukudinwa kunye nokwandisa ukugxila.",
+      "firstMessage": "NdiyiNgcali yezeMpilo uAileen Carol, kwaye ndiyiqonda ngokupheleleyo indlela ekunokudinwa ngayo ukudinwa rhoqo, ngakumbi xa kukho iishedyuli zomsebenzi ezinzima.\n\nNdixelele, xa uziva udiniwe kakhulu emini, kwaye oku kukuchaphazela njani ukusebenza kwakho komsebenzi?"
+    },
+    "stress": {
+      "title": "Uxinzelelo olugqithileyo",
+      "subtitle": "Iindlela ezilula zokuthoba ingqondo yakho.",
+      "firstMessage": "Mholo! NdiyiNgcali yezeMpilo uAileen Carol, kwaye ndiyaqonda ukuba uziva wonganyelwe luxinzelelo. Masisebenze kunye kwiindlela ezilula zokuthomalalisa.\n\nZiziphi iimeko ezikubangela uxinezeleke mva nje?"
+    }
+  },
+  "ofwsManila": {
+    "segment": "Ii-OFWs (zifudukela eManila ngenxa yomsebenzi)",
+    "description": "Abasebenzi baphesheya kweePhilippines baziqhelanisa nobomi basedolophini baseManila",
+    "urbanStress": {
+      "title": "Uxinzelelo eManila",
+      "subtitle": "Iingcebiso zokuziqhelanisa nobomi basezidolophini obuxakekileyo.",
+      "firstMessage": "Mholo! NdiyiNgcali yezeMpilo uAileen Carol. Ndiyaqonda ukuba ukufudukela eManila kunokuba nzima. Esi sixeko sihamba ngesantya esiphezulu.\n\nNgaba ufumana naziphi na iimpawu zomzimba ezivela kuxinzelelo, njengentloko ebuhlungu okanye imiba yokulala?"
+    },
+    "loneliness": {
+      "title": "Ubulolo kunye nokudinwa",
+      "subtitle": "Isikhokelo kwimpilo yengqondo.",
+      "firstMessage": "Mholo! NdiyiNgcali yezeMpilo uAileen Carol. Ndiyaxolisa ukuba unesithukuthezi kunye nokudinwa - ezi mvakalelo zinokudinisa ngokwenene.\n\nMakhe ndikuncede uzive ngcono. Okokuqala, ngaba ufumana umgangatho owaneleyo wokulala ubusuku ngabunye? Kwaye uye waqaphela ukuba ukukhathala kubi ngakumbi ngamaxesha athile emini?"
+    },
+    "everydayHealth": {
+      "title": "Impilo yemihla ngemihla",
+      "subtitle": "Izondlo kunye nendlela yokuphila hacks kubasebenzi.",
+      "firstMessage": "Mholo NdiyiNgcali yezeMpilo uAileen Carol. Ndiyaqonda ukuba ukugcina impilo entle ngoxa usebenza iiyure ezininzi kunokuba lucelomngeni ngokwenene.\n\nYeyiphi eyona nto ikuxhalabisayo ngempilo ngoku - ingaba sisondlo, amanqanaba amandla, okanye enye into?"
+    }
+  },
+  "parentsProvinces": {
+    "segment": "Abazali kumaphondo (ingeniso ephakathi)",
+    "description": "Abazali abakwiindawo ezikude abanofikelelo olulinganiselweyo kukhathalelo lwempilo",
+    "childFever": {
+      "title": "Umntwana wam unomkhuhlane",
+      "subtitle": "Amanyathelo acacileyo kubazali, imini okanye ebusuku.",
+      "firstMessage": "Molo, ndiyiNgcali yezeMpilo uAileen Carol. Ndiyayazi indlela ekungoyikeka ngayo xa umntwana wakho enomkhuhlane, ngakumbi xa ungaqinisekanga ukuba mawuthini.\n\nOkokuqala, mandikuncede uvavanye imeko. Uneminyaka emingaphi umntwana wakho, kwaye buthini ubushushu bakhe ngoku?"
+    },
+    "remoteCare": {
+      "title": "Akukho gqirha ukufutshane",
+      "subtitle": "Iingcebiso ezithembekileyo nakwiindawo ezikude.",
+      "firstMessage": "NdiyiNgcali yezeMpilo u-Aileen Carol, ingcali yakho yezempilo engundoqo. Ndiyaqonda ukuba ukwindawo ekude ngaphandle kofikelelo lwezonyango olukufutshane. Ndilapha ukukunceda ngayo nayiphi na inkxalabo yezempilo onayo.\n\nZeziphi iimpawu ezithile okanye imiba yezempilo ojongene nayo namhlanje?"
+    },
+    "costSavings": {
+      "title": "Yonga ixesha kunye nemali",
+      "subtitle": "Isikhokelo ngaphandle kohambo lwaseklinikhi olubizayo.",
+      "firstMessage": "NdiyiNgcali yezeMpilo u-Aileen Carol, ingcali yakho yezempilo engundoqo. Ndilapha ukunika isikhokelo sokhathalelo lwempilo olusemgangathweni ngokufanelekileyo.\n\nZeziphi iinkxalabo zempilo endingakunceda ngazo namhlanje?"
+    }
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "actions": {
+    "startConsultation": {
+      "current": "התחל יעוץ בריאות",
+      "english": "Start Health Consult",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "returnToConsultation": {
+      "current": "חזור ליעוץ",
+      "english": "Return to Consultation",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "sidebar": {
+    "personaList": {
+      "current": "בחר את איש המקצוע הרפואי שלך",
+      "english": "Choose Your Health Professional",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "transcript": {
+      "current": "תמליל שיחה",
+      "english": "Conversation Transcript",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "personas": {
+    "selectPersona": {
+      "current": "בחר איש מקצוע רפואי",
+      "english": "Select a Health Professional",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "noPersonasAvailable": {
+      "current": "אין אנשי מקצוע רפואיים זמינים",
+      "english": "No health professionals available",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "team": {
+    "myTeam": {
+      "current": "צוות הבריאות שלי",
+      "english": "My Health Team",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "acceptRecommendation": {
+      "current": "קבל המלצה",
+      "english": "Accept Recommendation",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "manageTeamTitle": {
+      "current": "נהל את צוות הבריאות AI שלי (מקסימום {{max}} מומחים)",
+      "english": "Manage My AI Health Team (Max {{max}} Specialists)",
+      "contentType": "sectionTitle",
+      "action": "retranslate-full"
+    },
+    "removeSpecialistToUseTeamBuilder": {
+      "current": "אנא הסר לפחות מומחה אחד כדי להשתמש בהמלצות בניית הצוות של AI ד\"ר קרול",
+      "english": "Please remove at least one specialist to use AI Health Expert Carol's team building recommendations",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "aileenCarolRecommendTeam": {
+      "current": "תן ל-AI ד\"ר קרול להמליץ על צוות הבריאות שלך",
+      "english": "Have AI Health Expert Carol recommend your health team",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "recommendedTeam": {
+      "current": "צוות בריאות מומלץ",
+      "english": "Recommended Health Team",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "teamLeadReason": {
+      "current": "מתאם בריאות ראשי",
+      "english": "Primary health coordinator",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "aileenCarolReasoning": {
+      "current": "ההנמקה של AI ד\"ר קרול:",
+      "english": "AI Health Expert Carol's Reasoning:",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "medicalDisclaimerText": {
+      "current": "פלטפורמה זו מספקת ייעוץ רפואי והדרכה אך אינה יכולה להחליף טיפול רפואי מקצועי. התייעץ תמיד עם אנשי מקצוע רפואיים מוסמכים למקרי חירום רפואיים או דאגות בריאותיות חמורות.",
+      "english": "This platform provides health advice and guidance but cannot replace professional medical care. Always consult qualified healthcare professionals for medical emergencies or serious health concerns.",
+      "contentType": "paragraph",
+      "action": "retranslate-full"
+    },
+    "availableSpecialists": {
+      "current": "מומחי בריאות AI זמינים",
+      "english": "Available AI Health Specialists",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "myAIHealthTeam": {
+      "current": "צוות הבריאות AI שלי",
+      "english": "My AI Health Team",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "specialistCategories": {
+    "mentalHealthStress": {
+      "current": "בריאות הנפש ומתח",
+      "english": "Mental Health & Stress",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "heartHealth": {
+      "current": "בריאות הלב",
+      "english": "Heart Health",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "womensHealth": {
+      "current": "בריאות נשים",
+      "english": "Women's Health",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "childrensHealth": {
+      "current": "בריאות ילדים",
+      "english": "Children's Health",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "agingSeniorHealth": {
+      "current": "הזדקנות ובריאות קשישים",
+      "english": "Aging & Senior Health",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "primaryCareGeneralHealth": {
+      "current": "רפואה כללית וטיפול ראשוני",
+      "english": "Primary Care & General Health",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "dialogs": {
+    "summaryUnavailable": {
+      "current": "Summary is being generated or is not available.",
+      "english": "Summary is being generated or is not available.",
+      "contentType": "menuItem",
+      "action": "smart-shorten"
+    }
+  },
+  "errors": {
+    "personaUnavailable": {
+      "current": "איש המקצוע הרפואי הזה לא זמין כעת",
+      "english": "This health professional is currently unavailable",
+      "contentType": "menuItem",
+      "action": "retranslate-full"
+    },
+    "permissionDenied": {
+      "current": "אין לך הרשאה לגשת לשיחה זו",
+      "english": "You don't have permission to access this conversation",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "welcome": {
+    "subtitle": {
+      "current": "התחל את היעוץ הבריאותי האישי שלך",
+      "english": "Start your personalized health consultation",
+      "contentType": "sectionTitle",
+      "action": "retranslate-full"
+    },
+    "description": {
+      "current": "בחר מהצוות שלנו של אנשי מקצוע רפואיים מונעי AI לקבלת תובנות רפואיות והדרכה אישית.",
+      "english": "Choose from our team of AI-powered health professionals to get personalized medical insights and guidance.",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "aileenCarolName": {
+      "current": "AI ד״ר איילין קרול",
+      "english": "AI Health Expert Aileen Carol",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "myAIHealthTeam": {
+      "current": "צוות הבריאות AI שלי",
+      "english": "My AI Health Team",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "aileenCarolIntro": {
+      "current": "שלום, אני AI ד״ר איילין קרול. איך אני יכולה לעזור לך היום?",
+      "english": "Hello, I'm AI Health Expert Aileen Carol. How can I help you today?",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "persona_welcome_message": {
+      "current": "שלום, אני כאן לעזור עם הצרכים הבריאותיים והרווחה שלך. איך אני יכולה לסייע לך היום?",
+      "english": "Hello, I'm here to help with your health and wellness needs. How can I assist you today?",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "mobileTeamBuilder": {
+    "carolMessages": {
+      "helpBuild": {
+        "current": "{{name}}, אשמח לעזור לך לבנות את צוות הבריאות המושלם שלך! ספר לי מה מביא אותך לכאן היום.",
+        "english": "{{name}}, I'd love to help you build your perfect health team! Tell me what brings you here today.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      }
+    },
+    "carolGreeting": {
+      "helpBuild": {
+        "current": "שלום {{name}}! אעזור לך לבנות את צוות הבריאות המושלם שלך.",
+        "english": "Hi {{name}}! I'll help you build your perfect health team.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      }
+    }
+  },
+  "profile": {
+    "keyHealthInfo": {
+      "current": "מידע בריאותי מפתח",
+      "english": "Key Health Information",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "noHealthInfoRecorded": {
+      "current": "לא נרשם מידע בריאותי מפתח.",
+      "english": "No key health information recorded.",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "imageContext": {
+    "functionsUnavailable": {
+      "current": "Cannot send zoom: Essential functions unavailable.",
+      "english": "Cannot send zoom: Essential functions unavailable.",
+      "contentType": "menuItem",
+      "action": "smart-shorten"
+    }
+  },
+  "mobileChat": {
+    "healthConsult": {
+      "current": "יעוץ בריאות",
+      "english": "Health Consult",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "mobileWelcome": {
+    "aileenCarolIntro": {
+      "current": "אני AI ד״ר קרול, מומחית הבריאות והרווחה הראשית שלך. איך אני יכולה לעזור לך היום?",
+      "english": "I'm AI Health Expert Carol, your primary health and wellness AI specialist. How can I help you today?",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "startConsultation": {
+      "current": "התחל יעוץ בריאות",
+      "english": "Start Health Consultation",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "aiTeamBuilder": {
+      "current": "AI ד״ר קרול עוזרת לך לבחור את הצוות שלך",
+      "english": "AI Health Expert Carol helps you choose your team",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "sidebarHeader": {
+    "myAIHealthTeam": {
+      "current": "צוות הבריאות AI שלי",
+      "english": "My AI Health Team",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "aileenCarolTeamBuilder": {
+      "current": "ד״ר קרול עוזרת לבנות את הצוות שלך.",
+      "english": "Health Expert Carol helps build your team.",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  }
+}

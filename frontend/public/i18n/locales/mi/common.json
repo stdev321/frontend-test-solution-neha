@@ -1,0 +1,907 @@
+{
+  "header": {
+    "login": "Takiuru",
+    "register": "Rehita",
+    "logout": "Takiputa",
+    "aboutUs": "Mo matou",
+    "learnMore": "Ako Anō",
+    "advisory": "Tohutohu",
+    "start": "Tīmata",
+    "greetingHello": "Kia ora {{name}}!",
+    "welcomeToVirtualMD": "Nau mai ki VirtualMD!",
+    "signupForFullAccess": "Waitohu mo te uru katoa",
+    "profileTitle": "Taku Kōtaha / Haere ki te Kōrerorero",
+    "logoutTitle": "Takiputa",
+    "toggleTheme": "Takahuri Aratau Maama/Pouri",
+    "toggleMode": "Takahuri Aratau Maama/Pouri",
+    "myProfile": "Taku Kōtaha / Haere ki te Kōrerorero",
+    "dashboard": "Papatohu",
+    "endConversation": "Whakamutua te Korero",
+    "returnToConversation": "Hoki atu ki te Korero",
+    "startConversation": "Tīmata Kōrerorero",
+    "endConsult": "Whakamutunga Whakawhitiwhiti",
+    "returnToConsult": "Hoki atu ki te Whakawhitiwhiti",
+    "startConsult": "Tīmata Whakawhitiwhiti",
+    "home": "Kainga",
+    "healthEncyclopedia": "Te Matatini Hauora",
+    "researchPublications": "Rangahau & Whakaputa",
+    "contactUs": "Whakapā mai",
+    "light": "Maama",
+    "dark": "pouri",
+    "toggleModeText": "Takahuri {{aratau}} Aratau",
+    "legal": "Ture"
+  },
+  "howToUse": "Me pehea te Whakamahi",
+  "settings": {
+    "lightMode": "Aratau Maama",
+    "darkMode": "Aratau pouri"
+  },
+  "navigation": {
+    "dashboard": "Papatohu",
+    "home": "Kainga",
+    "aboutUs": "Mo matou",
+    "returnToChat": "Hoki ki te Kōrerorero",
+    "continueConsultation": "Haere tonu to korero",
+    "exitConsultation": "Puta atu i te Whakawhitiwhitinga",
+    "startNewConsultation": "Tīmata Whakawhitiwhiti Hou",
+    "sections": {
+      "chatTools": "Utauta KORERO",
+      "functionality": "WHAKAMAHI",
+      "aboutUs": "MO TATOU",
+      "requiredDocuments": "NGA PUKAPUKA E WHAI AI",
+      "research": "RANGAHAU",
+      "controls": "NGA MANA",
+      "settings": "NGA TAUTAHI"
+    },
+    "myTeam": "Taku Kapa",
+    "summary": "Whakarāpopototanga",
+    "transcript": "Tuhinga",
+    "encyclopedia": "Mātāpunenga",
+    "priorChats": "Nga Korero o mua",
+    "myProfile": "Taku Kōtaha",
+    "healthEncyclopedia": "Te Matatini Hauora",
+    "noteFromFounders": "Tuhipoka mai i nga Kaihanga",
+    "faq": "FAQ",
+    "contactUs": "Whakapā mai",
+    "legal": "Ture",
+    "dataPrivacy": "Matatapu Raraunga",
+    "aiAccuracyStudies": "Tikanga Tikanga AI",
+    "empowerYourself": "Whakamana i a koe ano",
+    "deepResearch": "Rangahau Hohonu",
+    "aboutUsItems": {
+      "advisory": "Tohutohu",
+      "dataPrivacy": "Tūmataitinga Raraunga"
+    },
+    "learnMore": {
+      "imagingAI": "Atahanga me AI",
+      "pathologyAI": "Pathology me AI",
+      "dermatologyAI": "Dermatology me AI",
+      "mentalHealthAI": "Hauora Hinengaro me AI",
+      "accuracyStudies": "Tikanga Tikanga AI",
+      "allResearch": "Rangahau Katoa",
+      "empowerYourself": "Whakamana i a koe ano"
+    }
+  },
+  "landing": {
+    "title": "VirtualMD.app",
+    "subtitle": "Nga Rongoa Hauora Whakakaha AI",
+    "tryItOut": "Whakamātauria",
+    "scrollDown": "Panuku ki raro",
+    "scrollUp": "Panuku ki runga",
+    "alwaysHereForYou": "Kei konei tonu mo koe.",
+    "cards": {
+      "whyUse": {
+        "title": "He aha te VirtualMD?",
+        "description": "Tirohia nga painga hurihanga o to maatau papaaa hauora mariko-a AI"
+      },
+      "dataPrivacy": {
+        "title": "To tūmataitinga",
+        "description": "Pērā i te hoa pono, kei te noho haumaru o mea ngaro ki a matou"
+      },
+      "tryItOut": {
+        "title": "Whakamātauria",
+        "description": "Kei te mate taku tamaiti|Kare au e moe!|Te kai mo te aroha",
+        "tagline": "Kaore he hainatanga e hiahiatia ana."
+      },
+      "wellness": {
+        "title": "Rangahau Hohonu",
+        "description": "Te Matauranga Hauora me nga puna pono"
+      },
+      "yourHealth": {
+        "title": "To Hauora",
+        "description": "Hangaia to haerenga oranga me AI"
+      }
+    }
+  },
+  "chat": {
+    "startNewConsult": "Tīmata Tohunga Hou",
+    "noSpeechDetected": "Kaore au i mau i tera",
+    "noSpeechMessage": "Kaore au i kite i tetahi korero i roto i to rekoata. Ngana ki te korero kia kaha ake, kia tata atu ranei ki to hopuoro, ka ngana ano.",
+    "dontShowAgain": "Kaua e whakaatu mai ano ki ahau",
+    "gotIt": "Kua whiwhi",
+    "loading": "Uta ana…"
+  },
+  "loading": {
+    "preparingHealthTeam": "Kei te whakareri i to roopu hauora AI...",
+    "connectingSpecialists": "Te hono atu ki nga tohunga hauora...",
+    "initializingSystem": "Ko te timata i to punaha hauora whaiaro...",
+    "almostReady": "Kua tata rite ki te awhina ia koe...",
+    "dots": "..."
+  },
+  "common": {
+    "loading": "Uta ana…",
+    "user": {
+      "defaultInitial": "U",
+      "defaultName": "i reira",
+      "defaultAltText": "Kaiwhakamahi"
+    },
+    "error": "Hapa",
+    "success": "Angitu",
+    "cancel": "Whakakore",
+    "confirm": "Whakaū",
+    "save": "Tiaki",
+    "delete": "Mukua",
+    "edit": "Whakatikatika",
+    "close": "Katia",
+    "next": "Panuku",
+    "previous": "Tuhinga o mua",
+    "submit": "Tukuna",
+    "search": "Rapu",
+    "filter": "Tātari",
+    "sort": "Kōmaka",
+    "upload": "Tukuake",
+    "download": "Tikiake",
+    "print": "Tā",
+    "share": "Tiria",
+    "copy": "Tārua",
+    "paste": "Whakapiri",
+    "cut": "Tapahia",
+    "undo": "Wetekina",
+    "redo": "Mahi ano",
+    "yes": "Ae",
+    "no": "Kao",
+    "ok": "pai",
+    "punctuation": {
+      "ellipsis": "..."
+    },
+    "apply": "Tonoa",
+    "reset": "Tautuhi Anō",
+    "clear": "Maamaa",
+    "back": "Whakamuri",
+    "forward": "Whakamua",
+    "home": "Kainga",
+    "refresh": "Tāmata",
+    "reload": "Utaina ano",
+    "help": "Awhina",
+    "about": "Mō",
+    "contact": "Whakapā",
+    "profile": "Kōtaha",
+    "account": "Pūkete",
+    "privacy": "Tūmataitinga",
+    "terms": "Nga tikanga",
+    "legal": "Ture",
+    "support": "Tautoko",
+    "feedback": "Urupare",
+    "welcome": "Nau mai haere mai",
+    "goodbye": "Kia ora",
+    "thankyou": "Mauruuru koe",
+    "send": "Tukua",
+    "none": "Karekau",
+    "generating": "Whakaputa...",
+    "settings": "Tautuhinga"
+  },
+  "auth": {
+    "loginTitle": "Waitohu mai",
+    "registerTitle": "Waihanga Pūkete",
+    "email": "Īmēra",
+    "password": "Kupuhipa",
+    "confirmPassword": "Whakaū Kupuhipa",
+    "fullName": "Ingoa Katoa",
+    "displayName": "Ingoa Whakaatu",
+    "rememberMe": "Kia mahara ki ahau",
+    "forgotPassword": "Kua wareware te kupuhipa?",
+    "noAccount": "Karekau he kaute?",
+    "hasAccount": "He pūkete kē?",
+    "signUp": "Waitohu",
+    "signIn": "Waitohu mai",
+    "signOut": "Waitohu atu",
+    "createAccount": "Waihanga Pūkete",
+    "loginButton": "Takiuru",
+    "registerButton": "Rehita",
+    "logout": "Takiputa"
+  },
+  "footer": {
+    "copyright": "MindScript Technologies LLC. Pūmau te mana..",
+    "privacyPolicy": "Kaupapahere Tūmataiti",
+    "termsOfService": "Nga Ture Ratonga",
+    "cookiePolicy": "Kaupapahere Pihikete",
+    "medicalAdvisory": "Tohutohu Hauora",
+    "yourPrivacy": "Tō Tūmataitinga",
+    "legal": "Ture",
+    "contactUs": "Whakapā mai",
+    "howToUse": "Me pehea te Whakamahi",
+    "faq": "FAQ",
+    "noteFromFounders": "Panui mai i nga Kaihanga",
+    "medicalDisclaimerTooltip": "Ka whakapau kaha a MindScript ki te tuku i nga korero hauora tino tika me nga korero hou ma te whakamahi i nga tangata hauora AI-powered. Heoi ano, ehara enei tangata i te tohunga hauora whai raihana, a, kei te he. I roto i te ohorere hauora pono, waea 911 ranei haere ki to tari whawhati tata tata tonu. Mo etahi atu raruraru hauora, i mua ranei i te whakamatau i etahi maimoatanga, rongoa ranei, me toro atu ki tetahi kaiwhakarato hauora tangata whai tohu, tohunga ranei.",
+    "advisory": "Tohutohu"
+  },
+  "forms": {
+    "required": "Kei te hiahiatia tenei mara",
+    "invalidEmail": "Whakaurua koa he wahitau imeera whaimana",
+    "passwordTooShort": "Me 8 te iti rawa o te kupuhipa",
+    "passwordsDoNotMatch": "Karekau nga kupuhipa e taurite",
+    "invalidInput": "Whakaurua koa te urunga whaimana",
+    "fieldRequired": "{{field}} e hiahiatia ana",
+    "selectOption": "Tīpakohia he kōwhiringa",
+    "uploadFile": "Tukuake kōnae",
+    "dragAndDrop": "Tōia me te whakataka ngā kōnae ki konei, pāwhiritia rānei hei tīpako",
+    "fileUploaded": "I pai te tukunga ake o te konae",
+    "uploadError": "Hapa te tukuake kōnae"
+  },
+  "language": {
+    "english": "Ingarihi",
+    "arabic": "العربية",
+    "hebrew": "עברית",
+    "switchTo": "Huri ki {{reo}}",
+    "currentLanguage": "Reo onāianei: {{reo}}"
+  },
+  "animation": {
+    "title": {
+      "simply": "Maama noa",
+      "better": "Pai ake",
+      "health": "Hauora",
+      "period": "."
+    }
+  },
+  "hero": {
+    "subtitle": "Tohutohu hauora me te oranga whaiaro 24/7.",
+    "subtitleMobile": "Tohutohu hauora AI whaiaro 24/7",
+    "poweredBy": "Whakamanahia e AI."
+  },
+  "research": {
+    "title": "Rangahau & Whakaputa",
+    "subtitle": "Ko nga otinga hauora AI i runga i nga taunakitanga",
+    "aiImaging": {
+      "title": "AI i roto i te Atahanga Tohu",
+      "description": "Te tātari matawhānui o nga tono mohiotanga horihori i roto i te whakaahua hauora puta noa i te reo irirangi, pathology, me te ophthalmology."
+    },
+    "pathologyAI": {
+      "title": "Pathology AI awhina",
+      "description": "Nga tono ako hohonu i roto i te pathology matihiko mo te kimi mate pukupuku me te whakapai ake i te tika o te taatai."
+    },
+    "dermatologyAI": {
+      "title": "Dermatology AI Solutions",
+      "description": "Te kitenga me te tātaritanga o te kiri o te AI-powered ma te whakamahi i te tirohanga rorohiko me te ako miihini."
+    },
+    "mentalHealthAI": {
+      "title": "Hauora Hinengaro me AI",
+      "description": "Nga tono mo te mohio ki te tirotiro i te hauora hinengaro, te taatai, me te tautoko maimoatanga."
+    },
+    "accuracyStudies": {
+      "title": "Tikanga Tikanga AI",
+      "description": "Te whakamanatanga haumanu me nga inenga mahi o nga punaha tātaritanga AI i nga waahi hauora o te ao."
+    }
+  },
+  "whitepapers": {
+    "downloadPdf": "Tikiake PDF",
+    "generating": "Whakaputa...",
+    "abstract": "Putanga",
+    "introduction": "Kupu Whakataki",
+    "methods": "Tikanga/Hangarau",
+    "results": "Hua",
+    "discussion": "Matapakinga",
+    "conclusion": "Whakamutunga",
+    "references": "Tohutoro",
+    "authors": "Kaituhi",
+    "email": "Īmēra",
+    "organization": "Whakahaere"
+  },
+  "imageProcessing": {
+    "preset": "Tatūkē",
+    "process": "Tukanga",
+    "revert": "Whakahoki",
+    "applyPreset": "Hoatu tatūkē ki te atahanga e arotahi ana",
+    "revertFocus": "Arotahi ano ki te ahua taketake"
+  },
+  "alt": {
+    "logo": "Moko VirtualMD.app",
+    "logoSmall": "Moko Iti MindScript",
+    "integratedApproach": "Te huarahi oranga tinana",
+    "userProfile": "Kōtaha kaiwhakamahi",
+    "aiDoctor": "AI Health Expert Carol",
+    "aiAssistant": "Kaiawhina AI",
+    "backgroundImage": "Ataahua whakaahua papamuri",
+    "home": "MindScript Home",
+    "processed": "Atahanga kua tukatukahia",
+    "zoomPreview": "Arokite topa atahanga"
+  },
+  "aria": {
+    "scrollDown": "Panuku ki raro",
+    "scrollUp": "Panuku ki runga",
+    "openMenu": "Tuwhera te tahua",
+    "togglePassword": "Takahurihia te kitenga kupuhipa",
+    "chooseLanguage": "Kōwhiri reo",
+    "goHome": "Haere ki te whārangi kāinga",
+    "remove": "Tango",
+    "edit": "Whakatikatika",
+    "delete": "Mukua",
+    "save": "Tiaki",
+    "cancel": "Whakakore",
+    "breadcrumb": "Te parāoa whakatere",
+    "conversationChoice": "Kōwhiringa kōrero",
+    "personaChoice": "Te whiriwhiri tangata",
+    "panel": "Paewhiri",
+    "summary": "Whakarāpopototanga",
+    "differentialOpinion": "Whakaaro rereke",
+    "transcript": "Tuhinga",
+    "encyclopedia": "Mātāpunenga",
+    "endConversation": "Whakamutua te Korero",
+    "startChat": "Tīmatahia te kōrerorero me te kapa",
+    "configureChat": "Whirihorahia te korerorero hou",
+    "savedConsultations": "Ko nga whiriwhiringa kua tiakina",
+    "myProfile": "Taku Kōtaha"
+  },
+  "researchPage": {
+    "title": "Rangahau & Whakaputa",
+    "healthAdvisory": {
+      "title": "Tohutohu Hauora",
+      "description": "Nga korero nui mo te hauora me te haumaru",
+      "button": "Tiro Tohutohu"
+    },
+    "imagingAI": {
+      "title": "AI i roto i te Atahanga Tohu",
+      "description": "Ko nga tono AI mo te whakaahua hauora puta noa i te reo irirangi, te pathology, me te ophthalmology",
+      "button": "Pānuitia atu"
+    },
+    "pathologyAI": {
+      "title": "Pathology Awhina AI",
+      "description": "Nga tono ako hohonu i roto i te pathology matihiko mo te kimi mate pukupuku me te tika o te taatai",
+      "button": "Pānuitia atu"
+    },
+    "dermatologyAI": {
+      "title": "AI Solutions in Dermatology",
+      "description": "Te kitenga me te tātaritanga o te kiri a AI ma te whakamahi i te tirohanga rorohiko me te ako miihini",
+      "button": "Pānuitia atu"
+    },
+    "mentalHealthAI": {
+      "title": "Hauora Hinengaro & AI",
+      "description": "Ko nga tono AI mo te tirotiro hauora hinengaro, te taatai, me te tautoko rongoa",
+      "button": "Pānuitia atu"
+    },
+    "dataPrivacy": {
+      "title": "Tūmataitinga Raraunga me te Haumarutanga",
+      "description": "Te whakamarumaru raraunga tiaki hauora, te hanganga ture HIPAA, me nga whakamarumaru tūmataiti",
+      "button": "Pānuitia atu"
+    },
+    "aiAccuracy": {
+      "title": "Tikanga Tikanga AI",
+      "description": "Te whakamanatanga haumanu me nga inenga mahi o nga punaha tātaritanga AI i nga waahi hauora o te ao",
+      "button": "Pānuitia atu"
+    },
+    "aiForLaypeople": {
+      "title": "AI mo te katoa",
+      "description": "Te maarama ki te tiaki hauora AI i roto i nga kupu ngawari - kaore e hiahiatia he papamuri hangarau",
+      "button": "Pānuitia atu"
+    }
+  },
+  "dialogs": {
+    "startWithDefault": "Tīmatahia me te Tohunga Hauora Carol",
+    "startWithSpecific": "Tīmata ki {{ingoa}}",
+    "longRecording": {},
+    "shortConv": {}
+  },
+  "team": {
+    "myAIHealthTeam": "Taku Kapa Hauora AI",
+    "addMembersInstruction": "Taapirihia nga mema o te roopu ma te paatene i te kaari kei te taha matau.",
+    "maxTeamSizeNote": "Ko te nuinga o nga kaitohutohu AI e rima ka taea te taapiri atu ki to roopu. Ka taea e koe te whakarereke i to roopu i nga wa katoa, engari kaore i te wa e korerorero ana.",
+    "starting": "Ka timata...",
+    "startTeamConsult": "Tīmatahia te Whakawhitiwhitinga Roopu",
+    "startConsultationWithTeam": "Tīmatahia te Whakawhitiwhiti korero me to roopu"
+  },
+  "newConversation": {
+    "aileenCarolOnly": "Ko Carol anake te Tohunga Hauora",
+    "oneOnOne": "Kotahi-ki-tetahi",
+    "consultationChoice": {
+      "question": "Ko wai e hiahia ana koe ki te korero ki a koe i tenei ra?"
+    },
+    "options": {
+      "allAdvisers": "Katoa Taku Kaitohutohu Hauora AI",
+      "allAdvisersCarolOnly": "Aku Kaitohutohu Hauora AI Katoa (Kara Tohunga Hauora AI anake)",
+      "chooseSpecific": "Kōwhiri Tauwhāiti mai i Taku Rārangi"
+    },
+    "tooltips": {
+      "noAdvisersSelected": "Karekau he kaitohutohu i tohua i to kōtaha.",
+      "loadingAdvisers": "Kei te uta i o kaitohutohu...",
+      "noOtherAdvisers": "Karekau he kaitohutohu i to rarangi hei whiriwhiri. Tāpiri atu ki tō kōtaha."
+    },
+    "errors": {
+      "loadingAdvisers": "Hapa te uta i nga raraunga kaitohutohu."
+    },
+    "buttons": {
+      "cancel": "Whakakore",
+      "next": "Panuku",
+      "start": "Tīmata"
+    }
+  },
+  "aiAccuracyWhitepaper": {
+    "section1": {},
+    "section2": {
+      "aiSuccess": {},
+      "aiErrors": {},
+      "aiVsHuman": {}
+    },
+    "section3": {
+      "challenges": {}
+    },
+    "section4": {
+      "guidelines": {}
+    },
+    "section5": {}
+  },
+  "imagingAIExplainer": {
+    "whatIsImaging": {
+      "types": {}
+    },
+    "whatIsAI": {},
+    "howAIHelps": {
+      "accuracy": {},
+      "speed": {},
+      "consistency": {}
+    },
+    "challenges": {},
+    "conclusion": {}
+  },
+  "mentalHealthWhitepaper": {
+    "disclaimer": {},
+    "abstract": {},
+    "introduction": {},
+    "methods": {},
+    "results": {
+      "diagnosticSupport": {},
+      "therapeuticApplications": {},
+      "patientMonitoring": {}
+    },
+    "discussion": {},
+    "conclusion": {}
+  },
+  "audio": {},
+  "autoListening": {},
+  "speech": {},
+  "help": {},
+  "upload": {},
+  "fileUpload": {},
+  "input": {},
+  "send": {},
+  "controls": {
+    "aiSpeaker": "Kaikōrero AI",
+    "cameraUpload": "Kāmera/Tuake",
+    "status": {
+      "enabled": "Whakahohe",
+      "disabled": "Kua haua"
+    }
+  },
+  "welcome": {},
+  "account": {},
+  "participants": {},
+  "mobileChat": {},
+  "sidebar": {
+    "differentialOpinion": "Whakaaro rereke"
+  },
+  "bioPanel": {},
+  "conversations": {},
+  "mobileConsultations": {},
+  "encyclopedia": {},
+  "imageContext": {},
+  "profile": {},
+  "sidebarHeader": {
+    "plusBadge": "+"
+  },
+  "messages": {},
+  "sidebarFooter": {},
+  "summary": {},
+  "teamBuilder": {
+    "steps": {},
+    "alerts": {},
+    "existingTeam": {},
+    "primaryConcerns": {},
+    "healthConditions": {},
+    "urgencySymptoms": {},
+    "medicinePreferences": {},
+    "additionalInfo": {},
+    "aileenCarolIntro": {},
+    "buttons": {},
+    "dialogs": {}
+  },
+  "aileenCarol": {},
+  "transcript": {},
+  "registerPage": {},
+  "legal": {
+    "eligibility": {},
+    "feesAndPayment": {},
+    "termination": {}
+  },
+  "aboutEncyclopediaPage": {},
+  "loginPage": {},
+  "mobileTeamBuilder": {
+    "carolMessages": {},
+    "questionnaire": {},
+    "title": {},
+    "carolGreeting": {}
+  },
+  "mobileNavigation": {},
+  "mobileWelcome": {},
+  "mobileRouter": {},
+  "mobileInput": {},
+  "mobileProfile": {},
+  "clinicianInfoPage": {},
+  "contactPage": {},
+  "dataPrivacyWhitepaper": {
+    "sections": {},
+    "hero": {},
+    "privacyPledge": {
+      "secureInfo": {},
+      "noPersonalUse": {},
+      "neverSell": {},
+      "anonymizedData": {}
+    },
+    "securityLevels": {
+      "accountSecurity": {},
+      "hipaaHistory": {}
+    },
+    "mindscriptSecurity": {},
+    "hipaaConsiderations": {},
+    "userResponsibility": {},
+    "privacyScenarios": {},
+    "conclusion": {}
+  },
+  "encyclopediaPage": {},
+  "evidencePage": {
+    "researchEvidence": {
+      "radiology": {},
+      "pathology": {},
+      "dermatology": {},
+      "mentalHealthResearch": {}
+    },
+    "wellnessInsights": {
+      "personalizedWellness": {},
+      "holisticSignals": {},
+      "proactiveWellbeing": {},
+      "aiEnhancedClarity": {}
+    }
+  },
+  "featuresPage": {
+    "features": {
+      "instantWellnessInsights": {},
+      "holisticWellnessPicture": {},
+      "diverseAIPerspectives": {},
+      "everEvolvingIntelligence": {}
+    }
+  },
+  "healthAdvisoryPage": {
+    "sections": {
+      "consultation": {
+        "emergency": {}
+      },
+      "technology": {},
+      "disclaimer": {
+        "points": {}
+      }
+    }
+  },
+  "medicalImageProcessingPage": {},
+  "mentalHealthInfoPage": {},
+  "nurseInfoPage": {},
+  "patientInfoPage": {},
+  "pharmacistInfoPage": {},
+  "physicianInfoPage": {},
+  "wellnessPathwaysPage": {},
+  "whyVirtualMD": {
+    "sections": {
+      "whyUs": {
+        "points": {
+          "personalTeam": {},
+          "aiNavigator": {},
+          "empoweringChoices": {},
+          "easyToUse": {},
+          "advancedTechnology": {}
+        }
+      },
+      "hero": {},
+      "features": {
+        "points": {
+          "dynamicEnsemble": {},
+          "holisticUnderstanding": {},
+          "rapidAccess": {},
+          "reliableInteractions": {},
+          "insightfulLogs": {}
+        }
+      },
+      "technology": {},
+      "cta": {}
+    }
+  },
+  "yourHealthInYourHandsPage": {
+    "sections": {
+      "uniqueProfile": {},
+      "personalizedGoals": {},
+      "diverseInsights": {},
+      "proactivePartner": {}
+    },
+    "callToAction": {}
+  },
+  "session_complete": "Wātū Kua Oti",
+  "your_free_trial_has_ended": "Kua Mutu To Whakamatautau Koreutu",
+  "united_kingdom:_dial_999_or_11": "Ingarangi: Waea 999, 112 ranei",
+  "melanoma_and_skin_cancer_detec": "Te Melanoma me te Kitenga Matepukupuku Kiri",
+  "process_transactions_and_send_": "Tukatia nga whakawhitinga me te tuku korero e pa ana, tae atu ki nga whakapumautanga me nga nama (mehemea e tika ana).",
+  "information_we_collect": "Nga korero ka kohia e matou",
+  "in_a_medical_emergency:": "I roto i te ohorere hauora:",
+  "in_response_to_legal_process:": "Hei Whakautu ki te Tukatuka Ture:",
+  "loading_chat": "Uta ana i te korerorero...",
+  "redirecting": "E anga ana...",
+  "israel:_dial_101_(magen_david_": "Iharaira: Waea 101 ()",
+  "unlimited_messages_with_ai_doc": "Nga karere mutunga kore me nga tohunga hauora AI",
+  "contact_information": "Nga korero Whakapā",
+  "real-world_implementation_and_": "Whakatinanatanga o te Ao-Tuturu me nga tono Waea Pukoro",
+  "your_access_to_or_use_of_or_in": "TO URU KI TE WHAKAMAHI KI TE WHAKAMAHI RĀNEI TE KORERERE KI TE URU KI TE WHAKAMAHI KI TE RATONGA;",
+  "your_computer_may_temporarily_": "Ka taea e to rorohiko te pupuri i nga kape o enei rauemi ki te RAM mo to urunga me to tiro ki aua rawa.",
+  "please_select_only_one_special": "Tīpakohia kia kotahi anake te tohunga mo te whiriwhiringa takitahi.",
+  "references": "Tohutoro",
+  "business_transfers:": "Whakawhiti Pakihi:",
+  "account_information:": "Mōhiohio Pūkete:",
+  "provide,_operate,_maintain,_an": "Te whakarato, te whakahaere, te pupuri, me te whakapai ake i te Ratonga.",
+  "assignment": "Taumahi",
+  "sandymiles@mindspringhealth": "sandymiles@mindspring.health",
+  "ai-generated_content_may_conta": "Kei roto pea i nga ihirangi i hangaia e AI nga hapa me nga hapa ahakoa o taatau tikanga whakamana",
+  "display_name": "Whakaatu Ingoa",
+  "any_content_obtained_from_the_": "TĒTAHI KAUPAPA KAUPAPA I TE RATONGA; RĀNEI",
+  "you_may_store_files_that_are_a": "Ka taea e koe te penapena i nga konae ka keteroki aunoa e to kaitirotiro Tukutuku mo nga kaupapa whakarei ake.",
+  "start_new_health_consultation": "Tīmatahia te Whakawhitiwhitinga Hauora Hou",
+  "entire_agreement": "Whakaaetanga Katoa",
+  "ophthalmology": "Ophthalmology",
+  "not": "KORE",
+  "exit_conversation?": "Puta atu i te korerorero?",
+  "grading_and_classification": "Te Maaka me te Whakaraupapa",
+  "unauthorized_access,_use,_or_a": "KAUPAPA KAUPAPA, TE WHAKAMAHI, TE WHAKAMAHI KAUPAPA KAUPAPA KAUPAPA KAUPAPA I TE WHAKAMAHI I TE WHAKAMAHI I TE WHAKAMAHI I TE WHAKAMAHI I TE WHAKAMAHI I TE WHAKAMAHI I TE WHAKAMAHI I TE WHAKAMAHI I TE WHAKAMAHI KI TE WHAKAMAHI I TE WHAKAMAHI I TE WHAKAMAHI I TE WHAKAMAHI I TE WHAKAMAHI I TE WHAKAMAHI.",
+  "checking_server_status": "Kei te taki i te tūnga tūmau...",
+  "not_a_hipaa-compliant_service": "EHARA HE RATONGA HIPAA",
+  "radiology": "Radiology",
+  "united_states:_dial_911": "United States: Waea 911",
+  "save_and_review_conversation_h": "Whakaorangia me te arotake i nga hitori korero",
+  "abstract": "Putanga",
+  "starting_your_consultation": "Ka timata to korero...",
+  "digital_pathology_overview": "Mamati Pathology Overview",
+  "reasonable_business_security_p": "nga mahi haumaru pakihi whaitake i roto i te United States",
+  "loading_transcript": "Uta ana tuhinga...",
+  "cookies_and_similar_technologi": "Pihikete me nga Hangarau Ōrite:",
+  "internal_medicine": "Te oranga o roto",
+  "no_specialists_currently_in_th": "Karekau he tohunga mo tenei korerorero i tenei wa.",
+  "discussion": "Matapakinga",
+  "updating_team": "Whakahōu kapa...",
+  "your_privacy_choices": "Ō Kōwhiringa Tūmataitinga",
+  "error:_unknown_active_chat_vie": "Hapa: Tirorerorero hohe kore mohio.",
+  "create_more_than_one_account_f": "Waihangahia he kaute neke atu i te kotahi mo koe.",
+  "improve_the_accuracy,_efficacy": "Whakapai ake i te tika, te kaha, me te haumaru o a maatau tauira AI me nga ahuatanga papaaho ma te whakamahi i nga raraunga ingoamuna me te whakahiato.",
+  "user_content:": "Ihirangi Kaiwhakamahi:",
+  "mindscript_does_not_provide_me": "Karekau a MindScript e tuku tātaritanga rongoa, maimoatanga ranei",
+  "communicate_with_you_about_pro": "Whakawhitiwhiti korero ki a koe mo nga hua, ratonga, tuku, whakatairanga, utu, me nga huihuinga e tukuna ana e MindScript me etahi atu, me te tuku korero me nga korero e whakaaro ana matou ka pai ki a koe (i runga i to mana whakaputa).",
+  "aggregated_or_de-identified_da": "Raraunga kua whakahiatotia, kua whakakorehia ranei:",
+  "canada:_dial_911": "Kanata: Waea 911",
+  "retry": "Ngana ano",
+  "other_locations:_contact_your_": "Ētahi atu wāhi: Whakapā atu ki ō ratonga ohorere ā-rohe tonu",
+  "ron_rubin,_phd_and_sandy_miles": "Ron Rubin, PhD me Sandy Miles",
+  "australia:_dial_000_or_112": "Ahitereiria: Waea 000, 112 ranei",
+  "data_deletion:": "Muku Raraunga:",
+  "we_do_not_guarantee_the_absolu": "KAORE matou e whakapumau i te tino haumaru o to korero",
+  "send_technical_notices,_update": "Tukuna nga panui hangarau, nga whakahou, nga matohi haumarutanga, me nga karere tautoko me te whakahaere.",
+  "consultation_summary": "Whakarāpopototanga Whakawhitiwhiti",
+  "waiver": "Wairere",
+  "access_to_all_medical_specialt": "Te uru atu ki nga tohungatanga hauora katoa",
+  "no_profile_data_available": "Kāore he raraunga kōtaha e wātea ana.",
+  "no_summary_available": "Karekau he whakarāpopototanga e wātea ana.",
+  "test_app_-_mindscript": "Taupānga Whakamātautau - MindScript",
+  "respond_to_your_comments,_ques": "Whakautu ki o korero, patai, tono me te whakarato ratonga kaihoko.",
+  "not_hipaa_compliant": "KORE i te HIPAA",
+  "force_majeure": "Te Whakahau",
+  "you_may_print_or_download_one_": "Ka taea e koe te tuhi, te tango ranei i tetahi kape o te maha o nga wharangi o te Pae mo to ake ake korero, kore-arumoni, kaua mo te whakaputa, te whakaputa, te tohatoha ranei.",
+  "dr_aileen_carol": "Tohunga Hauora Aileen Carol",
+  "family_medicine": "Whānau Ora",
+  "headings": "Nga Upoko",
+  "note_on_ai_aileencarol's_particip": "Tuhipoka mo te whai waahi a Carol mo te Tohunga Hauora AI:",
+  "ronrubin@mindscripthealth": "ronrubin@virtualmd.app",
+  "share_your_account_credentials": "Tirihia o tohu kaute, tuku ranei etahi atu ki te uru atu ki to putea (haunga nga mea e whakaaetia ana mo nga kaute whakahaere).",
+  "email_cannot_be_changed": "Kaore e taea te huri i te imeera.",
+  "your_unique_medical_history,_c": "Ko to hitori motuhake o to hauora, o nga ahuatanga, me nga ahuatanga e hiahia ana ki te aromatawai ngaio",
+  "changes_to_these_terms_and_pol": "Nga Huringa ki enei Ture me nga Kaupapahere",
+  "other_ai_specialists": "Ētahi atu Tohunga AI",
+  "full_name": "Ingoa Katoa",
+  "governing_law_and_dispute_reso": "Ture Whakahaere me te Whakatau Tautohetohe",
+  "loading…": "Uta ana…",
+  "personalized_health_insights": "Nga tirohanga hauora whaiaro",
+  "gastroenterology": "Gastroenterology",
+  "use_of_the_service_by_children": "Ko te whakamahi i te Ratonga e nga tamariki e rahuitia ana.",
+  "introduction": "Kupu Whakataki",
+  "use_another_user's_account_wit": "Whakamahia te kaute a tetahi atu kaiwhakamahi me te kore whakaaetanga.",
+  "if_you_can_see_this,_react_is_": "Mena ka kite koe i tenei, kei te mahi a React!",
+  "ronrubin@mindspringhealth": "ronrubin@mindspring.health",
+  "children's_privacy": "Matatapu a nga tamariki",
+  "provide_false_or_misleading_in": "Whakaratohia nga korero teka, whakapohehe ranei i te wa o te rehitatanga, i roto ranei i to korero putea.",
+  "talk_to_a_specialist": "Korero ki tetahi tohunga",
+  "cannot": "KAORE e taea",
+  "how_we_use_information": "Me pehea te whakamahi i nga korero",
+  "results": "Hua",
+  "loading_participants": "Uta ana i nga kaiuru...",
+  "sandymiles@mindscripthealth": "sandymiles@virtualmd.app",
+  "this_feature_is_coming_soon": "Ka tae mai tenei ahuatanga!",
+  "start_or_continue_conversation": "Tīmatahia, Haere tonu ranei te korerorero",
+  "international_data_transfers": "Whakawhiti Raraunga Ao",
+  "loading_bio": "Uta ana i te koiora...",
+  "termination": "Whakamutua",
+  "no_image_active": "Karekau he whakaahua hohe.",
+  "no_ai_health_advisers_selected": "Kaore he Kaitohutohu Hauora AI i tohua. Ka taea e koe te whakahaere i o kaitohutohu i roto i to korero.",
+  "dr_daniel_garcia": "Tohunga Hauora Daniel Garcia",
+  "no_other_specialists_available": "Karekau etahi atu tohunga e waatea ana hei taapiri.",
+  "carry_out_any_other_purpose_de": "Whakahaerehia etahi atu kaupapa i whakaahuatia ki a koe i te wa i kohia ai nga korero.",
+  "data_retention": "Pupuri Raraunga",
+  "informational_and_educational_": "HE WHAKAMAHI ME TE WHAKAMAHI ANAKE",
+  "miscellaneous": "Te tini",
+  "non-cancerous_skin_condition_c": "Te Whakar",
+  "pathology": "Patu",
+  "promotional_communications:": "Whakatairanga Whakatairanga:",
+  "info@mindscripthealth": "info@virtualmd.app",
+  "methods/technologies": "Tikanga/Hangarau",
+  "how_we_share_information": "Me pehea ta matou tiri korero",
+  "loading_profile": "Uta ana i te kōtaha...",
+  "personalize_and_improve_the_se": "Whakawhaiaro me te whakapai ake i te Ratonga me te whakarato i nga ihirangi me nga ahuatanga e rite ana ki nga korero a nga kaiwhakamahi me nga hiahia.",
+  "with_vendors_and_service_provi": "Me nga Kaihoko me nga Kaituku Ratonga:",
+  "health_information_may_become_": "Ko nga korero hauora ka ngaro pea i te wa e tipu ana te matauranga hauora",
+  "with_whom_would_you_like_to_co": "Ko wai e hiahia ana koe ki te korero ki a koe i tenei ra?",
+  "mindscript_content:": "Ihirangi MindScript:",
+  "cookies:": "Pihikete:",
+  "detect,_investigate,_and_preve": "Te kimi, te tirotiro, me te aukati i nga whakawhitinga tinihanga me etahi atu mahi ture me te tiaki i nga tika me nga rawa o MindScript me etahi atu.",
+  "medical_advice_requires_person": "Ko nga tohutohu hauora me arotake whaiaro e nga kaiwhakarato hauora whai raihana",
+  "create_an_account_for_anyone_o": "Waihangahia he kaute mo tetahi atu i a koe me te kore whakaaetanga.",
+  "options": "Kōwhiringa",
+  "cannot_and_will_not_sue_or_hol": "KAUA E KAUPAPA, KA KAORE E HAERE, KAUPAPA KAUPAPA KAUPAPA HANGARAU MINDSCRIPT, LLC, ONA KAUPAPA, NGA Apiha, nga Kai-whakahaere, nga kaimahi, nga kaikawe, nga tangata raihana ranei.",
+  "with_your_consent:": "Ma to Whakaae:",
+  "add_specialists_to_your_team": "tāpiri tohunga ki tō tīma",
+  "usage_information:": "Mōhiohio Whakamahi:",
+  "any_conduct_or_content_of_any_": "TE WHAKAMAHI, TE WHAKAMAHI, TE WHAKAMAHI, TE WHAKAMAHI, TE WHAKAMAHI KAUPAPA, TE WHAKAMAHI KAUPAPA, TE WHAKAMAHI, TE WHAKAMAHI KAUPAPA, TE WHAKAMAHI KAUPAPA, TE WHAKAMAHI KI TE WHAKAMAHI I TE RATONGA;",
+  "do_not_meet_the_specific_admin": "kaua e tutuki i nga whakaritenga whakamarumaru a-tinana, a-tinana, hangarau hoki e whakahaua ana e te Ture Haumarutanga HIPAA mo te whakahaere PHI",
+  "legal@mindscripthealth": "legal@virtualmd.app",
+  "cancel": "Whakakore",
+  "conclusion": "Whakamutunga",
+  "professional_health_insights_a": "Nga matauranga hauora ngaio me nga kaiarahi",
+  "cancer_detection": "Te kimi mate pukupuku",
+  "your_specialist_team_is_empty_": "Kei te putua to roopu tohunga. Tāpirihia nga tohunga ki raro.",
+  "workflow_optimization": "Arotautanga Rerengamahi",
+  "select_ai_specialists": "Tohua nga Tohunga AI",
+  "monitor_and_analyze_trends,_us": "Aroturuki me te tātari i nga ia, te whakamahinga me nga mahi e pa ana ki ta maatau Ratonga.",
+  "severability": "Wehewehenga",
+  "access_to_cardiology_and_neuro": "Te uru atu ki nga tohunga hinengaro me nga tohunga neurology",
+  "searchLanguages": "Rapu reo...",
+  "noLanguagesFound": "Karekau he reo i kitea",
+  "you": "Ko koe",
+  "manageTeam": {
+    "title": "Whakahaerehia Taku Kapa Hauora AI (Max {{maxTeamMembers}} Tohunga)",
+    "currentTeamCount": "Tō Kapa o nāianei ({{current}}/{{max}})",
+    "updatingTeam": "Whakahōu kapa...",
+    "coordinatorLabel": " (Kaiwhakahaere)",
+    "alwaysIncluded": "Ka whakauruhia i nga wa katoa",
+    "specialistFallback": "Tohunga",
+    "emptyTeamMessage": "Kei te putua to roopu tohunga. Tāpirihia nga tohunga ki raro.",
+    "teamFullMessage": "Kua ki tonu to roopu (Max {{maxTeamMembers}} tohunga). Tena koa tangohia tetahi mema ki te hiahia koe ki te taapiri i tetahi tohunga motuhake.",
+    "otherSpecialistsTitle": "Ētahi atu Tohunga AI",
+    "addToTeamTooltip": "Tāpirihia ki te kapa",
+    "teamFullTooltip": "Kua kiki te kapa",
+    "systemSpecialistFallback": "Tohunga Pūnaha",
+    "noSpecialistsAvailable": "Karekau etahi atu tohunga e waatea ana hei taapiri."
+  },
+  "personas": {
+    "defaultSpecialist": "Tohunga AI"
+  },
+  "personaList": {
+    "noSpecialistsFound": "Karekau he tohunga AI i kitea."
+  },
+  "guest": {
+    "user": "Kaiwhakamahi Manuhiri",
+    "userObject": {
+      "displayName": "Kaiwhakamahi Manuhiri",
+      "email": "guest@virtualmd.app"
+    },
+    "registration": {
+      "prompt": "Rēhita mo te uru katoa ki ta maatau roopu hauora AI, hitori korero, me nga ahuatanga matatau.",
+      "dialogTitle": "Ka taea e nga kaiwhakamahi kua rehitatia te uru ki {{specialistName}}",
+      "dialogDescription": "Ko {{specialistName}} tetahi wahanga o ta matou roopu hauora mariko matawhānui.",
+      "benefitsTitle": "Ma te putea VirtualMD.app, ka whiwhi koe:",
+      "benefits": {
+        "access": "Te uru atu ki te neke atu i te 60 nga kaitohutohu hauora AI motuhake",
+        "personalized": "Nga korero hauora whaiaro",
+        "saveConversations": "Tiakina ka haere tonu nga korerorero",
+        "uploadImages": "Tukuna ake nga whakaahua, tangohia tika mai ranei i to rorohiko/kamera",
+        "customTeam": "Hangaia taau ake roopu hauora",
+        "availability": "24/7 te waatea mo nga patai hauora"
+      },
+      "buttons": {
+        "maybeLater": "A muri ake pea",
+        "registerNow": "Rēhita Inaianei"
+      }
+    },
+    "registrationRequired": "Me rehita",
+    "profileRegistrationRequired": "Kōtaha kaiwhakamahi: rehitatanga e hiahiatia ana",
+    "landing": {
+      "title": "Ka wheako i te Whakawhitiwhitinga Hauora AI",
+      "subtitle": "Tikina nga kitenga hauora inamata mai i a maatau tohunga hauora AI - tino kore utu, kaore he rehitatanga",
+      "whatBringsYou": "He aha koe i kawe mai ai i tenei ra?",
+      "selectConcern": "Tīpakohia he āwangawanga noa, whakaahuahia ranei to ake ake",
+      "customConcernPlaceholder": "Whakaahuahia ranei to awangawanga hauora i roto i o kupu ake...",
+      "startConsultation": "Tīmata Kōrero Whaiaro",
+      "experienceIncludes": "He Wheako Manuhiri Kore Ko te:",
+      "includes": {
+        "messages": "10 nga karere me nga tohunga hauora AI",
+        "time": "15 meneti te wa korero",
+        "insights": "Nga matauranga hauora ngaio me nga kaiarahi"
+      },
+      "personas": {
+        "defaultSpecialist": "Tohunga AI",
+        "aileen": {
+          "name": "Tohunga Hauora Aileen Carol",
+          "specialty": "Whānau Ora"
+        },
+        "daniel": {
+          "name": "Tohunga Hauora Daniel Garcia",
+          "specialty": "Te oranga o roto"
+        }
+      }
+    },
+    "chat": {
+      "header": "Whakawhitiwhiti Hauora AI",
+      "messagesLeft": "{{count}} karere i toe",
+      "timeLeft": "{{wa}} toe",
+      "startingConsultation": "Kei te timata to korero. Ka whakautu wawe tetahi tohunga hauora AI.",
+      "aiTyping": "Kei te patopato te tohunga AI...",
+      "inputPlaceholder": "Whakaahuahia o tohu, patai ranei he patai..."
+    },
+    "expired": {
+      "title": "Kua Oti te Whakawhitiwhiti",
+      "subtitle": "Kua wheako koe i te kaha o te korero hauora AI",
+      "messagesUsed": "I whakamahia e koe {{used}} o {{max}} karere",
+      "continuePrompt": "Kei te hiahia haere tonu me te urunga mutunga kore?",
+      "createAccount": "Waihanga Pūkete Koreutu",
+      "signIn": "Waitohu mai"
+    },
+    "errors": {
+      "startFailed": "Kaore e taea te timata ki te korerorero. Me ngana ano.",
+      "connectionLost": "Kua ngaro te hononga. Tāmata koa te whārangi.",
+      "sendFailed": "I rahua te tuku karere. Me ngana ano."
+    },
+    "profile": {
+      "age": "25",
+      "gender": "Wahine",
+      "bloodType": "A+",
+      "height": "5'6\"",
+      "weight": "130 lbs",
+      "conditions": "Anemia ngoikore o te rino, He pouri ngawari",
+      "medications": "Ferrous sulfate 325mg ia ra, Sertraline 50mg ia ra",
+      "allergies": "Kaore tetahi i mohiotia",
+      "healthInfo": "I nga marama e 6 kua pahure ake nei ahau e pa ana ki te ngenge me te iti o te kaha. I tohuhia e taku tohunga hauora he mate anemia kore rino ahau, a kua kai ahau i nga taputapu rino. Ka raru ano ahau ki te pouri me te tiimata i te rongoa rongoa 3 marama ki muri. Kei te rapu tohutohu ahau mo te whakahaere i nga tikanga e rua me te whakapai ake i aku taumata kaha katoa.",
+      "emergencyContact": "Sarah Johnson (Tuahine) - (555) 123-4567"
+    },
+    "experience": {
+      "tryItOut": "Whakamātauria.",
+      "noObligation": "Kaore he herenga.",
+      "subtitle": "He iti noa nga mea ka taea e VirtualMD.app mo koe."
+    }
+  },
+  "aiPrefix": "AI",
+  "dashboard": "Papatohu",
+  "teamRecommendation": {
+    "submission": {
+      "primaryConcernsLabel": "He aha o awangawanga hauora tuatahi i tenei ra?",
+      "healthConditionsLabel": "He aha nga tikanga hauora e pa ana ki a koe?"
+    },
+    "defaults": {
+      "noneSpecified": "Karekau i tohua"
+    }
+  }
+}

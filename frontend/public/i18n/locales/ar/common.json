@@ -1,0 +1,907 @@
+{
+  "header": {
+    "login": "تسجيل الدخول",
+    "register": "يسجل",
+    "logout": "تسجيل الخروج",
+    "aboutUs": "معلومات عنا",
+    "learnMore": "يتعلم أكثر",
+    "advisory": "استشاري",
+    "start": "يبدأ",
+    "greetingHello": "مرحباً {{name}}!",
+    "welcomeToVirtualMD": "مرحباً بكم في VirtualMD!",
+    "signupForFullAccess": "سجل للحصول على الوصول الكامل",
+    "profileTitle": "ملفي الشخصي / انتقل إلى الدردشة",
+    "logoutTitle": "تسجيل الخروج",
+    "toggleTheme": "تبديل الوضع الفاتح/الداكن",
+    "toggleMode": "تبديل الوضع الفاتح/الداكن",
+    "myProfile": "ملفي الشخصي / انتقل إلى الدردشة",
+    "dashboard": "لوحة القيادة",
+    "endConversation": "إنهاء المحادثة",
+    "returnToConversation": "العودة إلى المحادثة",
+    "startConversation": "ابدأ المحادثة",
+    "endConsult": "نهاية الاستشارة",
+    "returnToConsult": "العودة إلى الاستشارة",
+    "startConsult": "ابدأ الاستشارة",
+    "home": "بيت",
+    "healthEncyclopedia": "موسوعة الصحة",
+    "researchPublications": "الأبحاث والمنشورات",
+    "contactUs": "اتصل بنا",
+    "light": "ضوء",
+    "dark": "مظلم",
+    "toggleModeText": "تبديل الوضع {{mode}}",
+    "legal": "قانوني"
+  },
+  "howToUse": "كيفية الاستخدام",
+  "settings": {
+    "lightMode": "وضع الإضاءة",
+    "darkMode": "الوضع المظلم"
+  },
+  "navigation": {
+    "dashboard": "لوحة القيادة",
+    "home": "بيت",
+    "aboutUs": "معلومات عنا",
+    "returnToChat": "العودة إلى الدردشة",
+    "continueConsultation": "واصل استشارتك",
+    "exitConsultation": "استشارة الخروج",
+    "startNewConsultation": "بدء استشارة جديدة",
+    "sections": {
+      "chatTools": "أدوات الدردشة",
+      "functionality": "الوظيفة",
+      "aboutUs": "معلومات عنا",
+      "requiredDocuments": "المستندات المطلوبة",
+      "research": "بحث",
+      "controls": "عناصر التحكم",
+      "settings": "إعدادات"
+    },
+    "myTeam": "فريقي",
+    "summary": "ملخص",
+    "transcript": "نص",
+    "encyclopedia": "موسوعة",
+    "priorChats": "الدردشات السابقة",
+    "myProfile": "ملفي الشخصي",
+    "healthEncyclopedia": "موسوعة الصحة",
+    "noteFromFounders": "ملاحظة من المؤسسين",
+    "faq": "التعليمات",
+    "contactUs": "اتصل بنا",
+    "legal": "قانوني",
+    "dataPrivacy": "خصوصية البيانات",
+    "aiAccuracyStudies": "دراسات دقة الذكاء الاصطناعي",
+    "empowerYourself": "قم بتمكين نفسك",
+    "deepResearch": "بحث عميق",
+    "aboutUsItems": {
+      "advisory": "استشاري",
+      "dataPrivacy": "خصوصية البيانات"
+    },
+    "learnMore": {
+      "imagingAI": "التصوير والذكاء الاصطناعي",
+      "pathologyAI": "علم الأمراض والذكاء الاصطناعي",
+      "dermatologyAI": "الأمراض الجلدية والذكاء الاصطناعي",
+      "mentalHealthAI": "الصحة العقلية والذكاء الاصطناعي",
+      "accuracyStudies": "دراسات دقة الذكاء الاصطناعي",
+      "allResearch": "جميع الأبحاث",
+      "empowerYourself": "قم بتمكين نفسك"
+    }
+  },
+  "landing": {
+    "title": "تطبيق VirtualMD",
+    "subtitle": "حلول الرعاية الصحية المدعومة بالذكاء الاصطناعي",
+    "tryItOut": "جربها",
+    "scrollDown": "انتقل إلى الأسفل",
+    "scrollUp": "انتقل إلى الأعلى",
+    "alwaysHereForYou": "نحن هنا دائما من أجلك.",
+    "cards": {
+      "whyUse": {
+        "title": "لماذا VirtualMD؟",
+        "description": "اكتشف الفوائد الثورية لمنصتنا الصحية الافتراضية المدعومة بالذكاء الاصطناعي"
+      },
+      "dataPrivacy": {
+        "title": "خصوصيتك",
+        "description": "مثل صديق موثوق، أسرار صحتك في أمان معنا"
+      },
+      "tryItOut": {
+        "title": "جربها",
+        "description": "طفلي مريض | لا أستطيع النوم! | التغذية من أجل الحب",
+        "tagline": "لا يتطلب التسجيل."
+      },
+      "wellness": {
+        "title": "بحث عميق",
+        "description": "موسوعة الصحة مع المصادر الموثوقة"
+      },
+      "yourHealth": {
+        "title": "صحتك",
+        "description": "صمم رحلتك الصحية باستخدام الذكاء الاصطناعي"
+      }
+    }
+  },
+  "chat": {
+    "startNewConsult": "ابدأ استشارة جديدة",
+    "noSpeechDetected": "لم افهم ذلك",
+    "noSpeechMessage": "لم أتمكن من سماع أي صوت في تسجيلك. يُرجى رفع صوتك قليلًا أو الاقتراب من الميكروفون، ثم المحاولة مرة أخرى.",
+    "dontShowAgain": "لا تظهر لي مرة أخرى",
+    "gotIt": "فهمتها",
+    "loading": "تحميل…"
+  },
+  "loading": {
+    "preparingHealthTeam": "إعداد فريق الصحة بالذكاء الاصطناعي الخاص بك...",
+    "connectingSpecialists": "التواصل مع المتخصصين في مجال الصحة...",
+    "initializingSystem": "جاري تهيئة نظامك الصحي الشخصي...",
+    "almostReady": "جاهز تقريبًا لمساعدتك...",
+    "dots": "..."
+  },
+  "common": {
+    "loading": "تحميل…",
+    "user": {
+      "defaultInitial": "يو",
+      "defaultName": "هناك",
+      "defaultAltText": "مستخدم"
+    },
+    "error": "خطأ",
+    "success": "نجاح",
+    "cancel": "يلغي",
+    "confirm": "يتأكد",
+    "save": "يحفظ",
+    "delete": "يمسح",
+    "edit": "يحرر",
+    "close": "يغلق",
+    "next": "التالي",
+    "previous": "سابق",
+    "submit": "يُقدِّم",
+    "search": "يبحث",
+    "filter": "فلتر",
+    "sort": "نوع",
+    "upload": "رفع",
+    "download": "تحميل",
+    "print": "مطبعة",
+    "share": "يشارك",
+    "copy": "ينسخ",
+    "paste": "لصق",
+    "cut": "يقطع",
+    "undo": "التراجع",
+    "redo": "أعد",
+    "yes": "نعم",
+    "no": "لا",
+    "ok": "نعم",
+    "punctuation": {
+      "ellipsis": "..."
+    },
+    "apply": "يتقدم",
+    "reset": "إعادة ضبط",
+    "clear": "واضح",
+    "back": "خلف",
+    "forward": "إلى الأمام",
+    "home": "بيت",
+    "refresh": "ينعش",
+    "reload": "إعادة التحميل",
+    "help": "يساعد",
+    "about": "عن",
+    "contact": "اتصال",
+    "profile": "حساب تعريفي",
+    "account": "حساب",
+    "privacy": "خصوصية",
+    "terms": "شروط",
+    "legal": "قانوني",
+    "support": "يدعم",
+    "feedback": "تعليق",
+    "welcome": "مرحباً",
+    "goodbye": "مع السلامة",
+    "thankyou": "شكرًا لك",
+    "send": "يرسل",
+    "none": "لا أحد",
+    "generating": "جاري التوليد...",
+    "settings": "إعدادات"
+  },
+  "auth": {
+    "loginTitle": "تسجيل الدخول",
+    "registerTitle": "إنشاء حساب",
+    "email": "بريد إلكتروني",
+    "password": "كلمة المرور",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "fullName": "الاسم الكامل",
+    "displayName": "اسم العرض",
+    "rememberMe": "تذكرنى",
+    "forgotPassword": "هل نسيت كلمة السر؟",
+    "noAccount": "ليس لديك حساب؟",
+    "hasAccount": "هل لديك حساب بالفعل؟",
+    "signUp": "اشتراك",
+    "signIn": "تسجيل الدخول",
+    "signOut": "تسجيل الخروج",
+    "createAccount": "إنشاء حساب",
+    "loginButton": "تسجيل الدخول",
+    "registerButton": "يسجل",
+    "logout": "تسجيل الخروج"
+  },
+  "footer": {
+    "copyright": "جميع الحقوق محفوظة لشركة مايند سكريبت تكنولوجيز ذ.م.م.",
+    "privacyPolicy": "سياسة الخصوصية",
+    "termsOfService": "شروط الخدمة",
+    "cookiePolicy": "سياسة ملفات تعريف الارتباط",
+    "medicalAdvisory": "الاستشارات الصحية",
+    "yourPrivacy": "خصوصيتك",
+    "legal": "قانوني",
+    "contactUs": "اتصل بنا",
+    "howToUse": "كيفية الاستخدام",
+    "faq": "التعليمات",
+    "noteFromFounders": "ملاحظة من المؤسسين",
+    "medicalDisclaimerTooltip": "تسعى MindScript جاهدةً لتقديم أدقّ المعلومات الصحية وأحدثها باستخدام شخصيات صحية مدعومة بالذكاء الاصطناعي. مع ذلك، هذه الشخصيات ليست خبراء صحيين مرخصين، وقد تكون معلوماتهم غير صحيحة. في حالة الطوارئ الطبية، اتصل بالرقم 911 أو توجّه إلى أقرب قسم طوارئ فورًا. لأيّ مخاوف صحية أخرى، أو قبل تجربة أيّ علاجات، يُرجى استشارة مُقدّم رعاية صحية بشرية أو أخصائيّ مؤهل.",
+    "advisory": "استشاري"
+  },
+  "forms": {
+    "required": "هذه الخانة مطلوبه",
+    "invalidEmail": "يرجى إدخال عنوان بريد إلكتروني صالح",
+    "passwordTooShort": "يجب أن تتكون كلمة المرور من 8 أحرف على الأقل",
+    "passwordsDoNotMatch": "كلمات المرور غير متطابقة",
+    "invalidInput": "الرجاء إدخال إدخال صالح",
+    "fieldRequired": "{{field}} مطلوب",
+    "selectOption": "الرجاء تحديد خيار",
+    "uploadFile": "تحميل الملف",
+    "dragAndDrop": "اسحب الملفات وأفلِتها هنا، أو انقر لتحديدها",
+    "fileUploaded": "تم تحميل الملف بنجاح",
+    "uploadError": "خطأ في تحميل الملف"
+  },
+  "language": {
+    "english": "إنجليزي",
+    "arabic": "العربية",
+    "hebrew": "עברית",
+    "switchTo": "التبديل إلى {{اللغة}}",
+    "currentLanguage": "اللغة الحالية: {{language}}"
+  },
+  "animation": {
+    "title": {
+      "simply": "ببساطة",
+      "better": "أحسن",
+      "health": "صحة",
+      "period": "."
+    }
+  },
+  "hero": {
+    "subtitle": "نصائح صحية وعافية مخصصة على مدار الساعة طوال أيام الأسبوع.",
+    "subtitleMobile": "نصائح صحية مخصصة بالذكاء الاصطناعي على مدار الساعة طوال أيام الأسبوع",
+    "poweredBy": "مدعوم بالذكاء الاصطناعي."
+  },
+  "research": {
+    "title": "الأبحاث والمنشورات",
+    "subtitle": "حلول الرعاية الصحية القائمة على الأدلة باستخدام الذكاء الاصطناعي",
+    "aiImaging": {
+      "title": "الذكاء الاصطناعي في التصوير التشخيصي",
+      "description": "تحليل شامل لتطبيقات الذكاء الاصطناعي في التصوير الصحي عبر الأشعة وعلم الأمراض وطب العيون."
+    },
+    "pathologyAI": {
+      "title": "مساعدة الذكاء الاصطناعي في علم الأمراض",
+      "description": "تطبيقات التعلم العميق في علم الأمراض الرقمي للكشف عن السرطان وتحسين دقة التشخيص."
+    },
+    "dermatologyAI": {
+      "title": "حلول الذكاء الاصطناعي للأمراض الجلدية",
+      "description": "الكشف عن حالات الجلد وتشخيصها باستخدام الذكاء الاصطناعي باستخدام الرؤية الحاسوبية والتعلم الآلي."
+    },
+    "mentalHealthAI": {
+      "title": "الصحة العقلية والذكاء الاصطناعي",
+      "description": "تطبيقات الذكاء الاصطناعي في فحص الصحة العقلية وتشخيصها ودعم العلاج."
+    },
+    "accuracyStudies": {
+      "title": "دراسات دقة الذكاء الاصطناعي",
+      "description": "التحقق السريري ومقاييس الأداء لأنظمة التشخيص بالذكاء الاصطناعي في إعدادات الرعاية الصحية في العالم الحقيقي."
+    }
+  },
+  "whitepapers": {
+    "downloadPdf": "تنزيل ملف PDF",
+    "generating": "جاري التوليد...",
+    "abstract": "خلاصة",
+    "introduction": "مقدمة",
+    "methods": "الأساليب/التقنيات",
+    "results": "نتائج",
+    "discussion": "مناقشة",
+    "conclusion": "خاتمة",
+    "references": "مراجع",
+    "authors": "المؤلفون",
+    "email": "بريد إلكتروني",
+    "organization": "منظمة"
+  },
+  "imageProcessing": {
+    "preset": "الإعداد المسبق",
+    "process": "عملية",
+    "revert": "يرجع",
+    "applyPreset": "تطبيق الإعداد المسبق على الصورة المحددة",
+    "revertFocus": "إعادة التركيز على الصورة الأصلية"
+  },
+  "alt": {
+    "logo": "شعار تطبيق VirtualMD",
+    "logoSmall": "شعار MindScript الصغير",
+    "integratedApproach": "نهج العافية المتكامل",
+    "userProfile": "ملف تعريف المستخدم",
+    "aiDoctor": "خبيرة الصحة بالذكاء الاصطناعي كارول",
+    "aiAssistant": "مساعد الذكاء الاصطناعي",
+    "backgroundImage": "صورة خلفية جميلة",
+    "home": "الصفحة الرئيسية لـ MindScript",
+    "processed": "الصورة المعالجة",
+    "zoomPreview": "معاينة تكبير الصورة"
+  },
+  "aria": {
+    "scrollDown": "انتقل إلى الأسفل",
+    "scrollUp": "انتقل إلى الأعلى",
+    "openMenu": "افتح القائمة",
+    "togglePassword": "تبديل رؤية كلمة المرور",
+    "chooseLanguage": "اختر اللغة",
+    "goHome": "انتقل إلى الصفحة الرئيسية",
+    "remove": "يزيل",
+    "edit": "يحرر",
+    "delete": "يمسح",
+    "save": "يحفظ",
+    "cancel": "يلغي",
+    "breadcrumb": "مسار التنقل",
+    "conversationChoice": "اختيار المحادثة",
+    "personaChoice": "اختيار الشخصية",
+    "panel": "لوحة",
+    "summary": "ملخص",
+    "differentialOpinion": "الرأي التفاضلي",
+    "transcript": "نص",
+    "encyclopedia": "موسوعة",
+    "endConversation": "إنهاء المحادثة",
+    "startChat": "ابدأ الدردشة مع الفريق",
+    "configureChat": "تكوين دردشة جديدة",
+    "savedConsultations": "الاستشارات المحفوظة",
+    "myProfile": "ملفي الشخصي"
+  },
+  "researchPage": {
+    "title": "الأبحاث والمنشورات",
+    "healthAdvisory": {
+      "title": "الاستشارات الصحية",
+      "description": "معلومات هامة عن الصحة والسلامة",
+      "button": "عرض الاستشارة"
+    },
+    "imagingAI": {
+      "title": "الذكاء الاصطناعي في التصوير التشخيصي",
+      "description": "تطبيقات الذكاء الاصطناعي في التصوير الصحي عبر الأشعة وعلم الأمراض وطب العيون",
+      "button": "اقرأ المزيد"
+    },
+    "pathologyAI": {
+      "title": "علم الأمراض بمساعدة الذكاء الاصطناعي",
+      "description": "تطبيقات التعلم العميق في علم الأمراض الرقمي للكشف عن السرطان ودقة التشخيص",
+      "button": "اقرأ المزيد"
+    },
+    "dermatologyAI": {
+      "title": "حلول الذكاء الاصطناعي في الأمراض الجلدية",
+      "description": "الكشف عن حالات الجلد وتشخيصها باستخدام الذكاء الاصطناعي باستخدام الرؤية الحاسوبية والتعلم الآلي",
+      "button": "اقرأ المزيد"
+    },
+    "mentalHealthAI": {
+      "title": "الصحة العقلية والذكاء الاصطناعي",
+      "description": "تطبيقات الذكاء الاصطناعي في فحص الصحة العقلية والتشخيص والدعم العلاجي",
+      "button": "اقرأ المزيد"
+    },
+    "dataPrivacy": {
+      "title": "خصوصية البيانات والأمان",
+      "description": "حماية بيانات الرعاية الصحية، والامتثال لقانون HIPAA، وضمانات الخصوصية",
+      "button": "اقرأ المزيد"
+    },
+    "aiAccuracy": {
+      "title": "دراسات دقة الذكاء الاصطناعي",
+      "description": "التحقق السريري ومقاييس الأداء لأنظمة التشخيص بالذكاء الاصطناعي في بيئات الرعاية الصحية الواقعية",
+      "button": "اقرأ المزيد"
+    },
+    "aiForLaypeople": {
+      "title": "الذكاء الاصطناعي للجميع",
+      "description": "فهم الذكاء الاصطناعي في مجال الرعاية الصحية بعبارات بسيطة - لا يتطلب أي خبرة تقنية",
+      "button": "اقرأ المزيد"
+    }
+  },
+  "dialogs": {
+    "startWithDefault": "ابدأ مع خبيرة الصحة كارول",
+    "startWithSpecific": "ابدأ بـ {{name}}",
+    "longRecording": {},
+    "shortConv": {}
+  },
+  "team": {
+    "myAIHealthTeam": "فريق الذكاء الاصطناعي الصحي الخاص بي",
+    "addMembersInstruction": "قم بإضافة أعضاء الفريق بالنقر على البطاقة الموجودة على اليمين.",
+    "maxTeamSizeNote": "يمكنك إضافة خمسة مستشارين ذكاء اصطناعي كحد أقصى إلى فريقك. يمكنك تغيير فريقك في أي وقت، ولكن ليس أثناء الاستشارة.",
+    "starting": "بدء...",
+    "startTeamConsult": "بدء استشارة الفريق",
+    "startConsultationWithTeam": "ابدأ الاستشارة مع فريقك"
+  },
+  "newConversation": {
+    "aileenCarolOnly": "خبيرة الصحة كارول أونلي",
+    "oneOnOne": "واحد لواحد",
+    "consultationChoice": {
+      "question": "مع من تريد التشاور اليوم؟"
+    },
+    "options": {
+      "allAdvisers": "جميع مستشاري الصحة بالذكاء الاصطناعي",
+      "allAdvisersCarolOnly": "جميع مستشاري الصحة بالذكاء الاصطناعي (خبير الصحة بالذكاء الاصطناعي كارول فقط)",
+      "chooseSpecific": "اختر محددًا من قائمتي"
+    },
+    "tooltips": {
+      "noAdvisersSelected": "لم يتم تحديد أي مستشارين في ملفك الشخصي.",
+      "loadingAdvisers": "جاري تحميل مستشاريك...",
+      "noOtherAdvisers": "لا يوجد مستشارون آخرون في قائمتك للاختيار من بينهم. أضف المزيد في ملفك الشخصي."
+    },
+    "errors": {
+      "loadingAdvisers": "حدث خطأ أثناء تحميل بيانات المستشار."
+    },
+    "buttons": {
+      "cancel": "يلغي",
+      "next": "التالي",
+      "start": "يبدأ"
+    }
+  },
+  "aiAccuracyWhitepaper": {
+    "section1": {},
+    "section2": {
+      "aiSuccess": {},
+      "aiErrors": {},
+      "aiVsHuman": {}
+    },
+    "section3": {
+      "challenges": {}
+    },
+    "section4": {
+      "guidelines": {}
+    },
+    "section5": {}
+  },
+  "imagingAIExplainer": {
+    "whatIsImaging": {
+      "types": {}
+    },
+    "whatIsAI": {},
+    "howAIHelps": {
+      "accuracy": {},
+      "speed": {},
+      "consistency": {}
+    },
+    "challenges": {},
+    "conclusion": {}
+  },
+  "mentalHealthWhitepaper": {
+    "disclaimer": {},
+    "abstract": {},
+    "introduction": {},
+    "methods": {},
+    "results": {
+      "diagnosticSupport": {},
+      "therapeuticApplications": {},
+      "patientMonitoring": {}
+    },
+    "discussion": {},
+    "conclusion": {}
+  },
+  "audio": {},
+  "autoListening": {},
+  "speech": {},
+  "help": {},
+  "upload": {},
+  "fileUpload": {},
+  "input": {},
+  "send": {},
+  "controls": {
+    "aiSpeaker": "مكبر صوت الذكاء الاصطناعي",
+    "cameraUpload": "الكاميرا/التحميل",
+    "status": {
+      "enabled": "مُمَكَّن",
+      "disabled": "عاجز"
+    }
+  },
+  "welcome": {},
+  "account": {},
+  "participants": {},
+  "mobileChat": {},
+  "sidebar": {
+    "differentialOpinion": "الرأي التفاضلي"
+  },
+  "bioPanel": {},
+  "conversations": {},
+  "mobileConsultations": {},
+  "encyclopedia": {},
+  "imageContext": {},
+  "profile": {},
+  "sidebarHeader": {
+    "plusBadge": "+"
+  },
+  "messages": {},
+  "sidebarFooter": {},
+  "summary": {},
+  "teamBuilder": {
+    "steps": {},
+    "alerts": {},
+    "existingTeam": {},
+    "primaryConcerns": {},
+    "healthConditions": {},
+    "urgencySymptoms": {},
+    "medicinePreferences": {},
+    "additionalInfo": {},
+    "aileenCarolIntro": {},
+    "buttons": {},
+    "dialogs": {}
+  },
+  "aileenCarol": {},
+  "transcript": {},
+  "registerPage": {},
+  "legal": {
+    "eligibility": {},
+    "feesAndPayment": {},
+    "termination": {}
+  },
+  "aboutEncyclopediaPage": {},
+  "loginPage": {},
+  "mobileTeamBuilder": {
+    "carolMessages": {},
+    "questionnaire": {},
+    "title": {},
+    "carolGreeting": {}
+  },
+  "mobileNavigation": {},
+  "mobileWelcome": {},
+  "mobileRouter": {},
+  "mobileInput": {},
+  "mobileProfile": {},
+  "clinicianInfoPage": {},
+  "contactPage": {},
+  "dataPrivacyWhitepaper": {
+    "sections": {},
+    "hero": {},
+    "privacyPledge": {
+      "secureInfo": {},
+      "noPersonalUse": {},
+      "neverSell": {},
+      "anonymizedData": {}
+    },
+    "securityLevels": {
+      "accountSecurity": {},
+      "hipaaHistory": {}
+    },
+    "mindscriptSecurity": {},
+    "hipaaConsiderations": {},
+    "userResponsibility": {},
+    "privacyScenarios": {},
+    "conclusion": {}
+  },
+  "encyclopediaPage": {},
+  "evidencePage": {
+    "researchEvidence": {
+      "radiology": {},
+      "pathology": {},
+      "dermatology": {},
+      "mentalHealthResearch": {}
+    },
+    "wellnessInsights": {
+      "personalizedWellness": {},
+      "holisticSignals": {},
+      "proactiveWellbeing": {},
+      "aiEnhancedClarity": {}
+    }
+  },
+  "featuresPage": {
+    "features": {
+      "instantWellnessInsights": {},
+      "holisticWellnessPicture": {},
+      "diverseAIPerspectives": {},
+      "everEvolvingIntelligence": {}
+    }
+  },
+  "healthAdvisoryPage": {
+    "sections": {
+      "consultation": {
+        "emergency": {}
+      },
+      "technology": {},
+      "disclaimer": {
+        "points": {}
+      }
+    }
+  },
+  "medicalImageProcessingPage": {},
+  "mentalHealthInfoPage": {},
+  "nurseInfoPage": {},
+  "patientInfoPage": {},
+  "pharmacistInfoPage": {},
+  "physicianInfoPage": {},
+  "wellnessPathwaysPage": {},
+  "whyVirtualMD": {
+    "sections": {
+      "whyUs": {
+        "points": {
+          "personalTeam": {},
+          "aiNavigator": {},
+          "empoweringChoices": {},
+          "easyToUse": {},
+          "advancedTechnology": {}
+        }
+      },
+      "hero": {},
+      "features": {
+        "points": {
+          "dynamicEnsemble": {},
+          "holisticUnderstanding": {},
+          "rapidAccess": {},
+          "reliableInteractions": {},
+          "insightfulLogs": {}
+        }
+      },
+      "technology": {},
+      "cta": {}
+    }
+  },
+  "yourHealthInYourHandsPage": {
+    "sections": {
+      "uniqueProfile": {},
+      "personalizedGoals": {},
+      "diverseInsights": {},
+      "proactivePartner": {}
+    },
+    "callToAction": {}
+  },
+  "session_complete": "تمت الجلسة",
+  "your_free_trial_has_ended": "انتهت تجربتك المجانية",
+  "united_kingdom:_dial_999_or_11": "المملكة المتحدة: اتصل بالرقم 999 أو 112",
+  "melanoma_and_skin_cancer_detec": "الكشف عن الورم الميلانيني وسرطان الجلد",
+  "process_transactions_and_send_": "معالجة المعاملات وإرسال المعلومات ذات الصلة، بما في ذلك التأكيدات والفواتير (إن وجدت).",
+  "information_we_collect": "المعلومات التي نجمعها",
+  "in_a_medical_emergency:": "في حالة الطوارئ الطبية:",
+  "in_response_to_legal_process:": "ردًا على العملية القانونية:",
+  "loading_chat": "جاري تحميل الدردشة...",
+  "redirecting": "إعادة التوجيه...",
+  "israel:_dial_101_(magen_david_": "إسرائيل: اتصل على الرقم 101 ()",
+  "unlimited_messages_with_ai_doc": "رسائل غير محدودة مع خبراء الصحة بالذكاء الاصطناعي",
+  "contact_information": "معلومات الاتصال",
+  "real-world_implementation_and_": "التنفيذ في العالم الحقيقي وتطبيقات الهاتف المحمول",
+  "your_access_to_or_use_of_or_in": "وصولك إلى الخدمة أو استخدامها أو عدم قدرتك على الوصول إليها أو استخدامها؛",
+  "your_computer_may_temporarily_": "قد يقوم جهاز الكمبيوتر الخاص بك بتخزين نسخ مؤقتة من هذه المواد في ذاكرة الوصول العشوائي (RAM) عند وصولك إلى هذه المواد وعرضها.",
+  "please_select_only_one_special": "يرجى اختيار أخصائي واحد فقط للحصول على استشارة خاصة.",
+  "references": "مراجع",
+  "business_transfers:": "نقل الأعمال:",
+  "account_information:": "معلومات الحساب:",
+  "provide,_operate,_maintain,_an": "توفير الخدمة وتشغيلها وصيانتها وتحسينها.",
+  "assignment": "تكليف",
+  "sandymiles@mindspringhealth": "sandymiles@mindspring.health",
+  "ai-generated_content_may_conta": "قد يحتوي المحتوى الذي تم إنشاؤه بواسطة الذكاء الاصطناعي على أخطاء أو سهو على الرغم من عمليات التحقق القوية لدينا",
+  "display_name": "اسم العرض",
+  "any_content_obtained_from_the_": "أي محتوى تم الحصول عليه من الخدمة؛ أو",
+  "you_may_store_files_that_are_a": "يمكنك تخزين الملفات التي يتم تخزينها مؤقتًا تلقائيًا بواسطة متصفح الويب الخاص بك لأغراض تحسين العرض.",
+  "start_new_health_consultation": "ابدأ استشارة صحية جديدة",
+  "entire_agreement": "الاتفاقية الكاملة",
+  "ophthalmology": "طب العيون",
+  "not": "لا",
+  "exit_conversation?": "الخروج من المحادثة؟",
+  "grading_and_classification": "التصنيف والتصنيف",
+  "unauthorized_access,_use,_or_a": "الوصول غير المصرح به أو الاستخدام أو التغيير في إرسالياتك أو المحتوى الخاص بك (بما في ذلك خروقات البيانات)، حتى لو نفذت MINDSCRIPT تدابير أمنية معقولة كما هو موضح في هذه الشروط وسياسة الخصوصية.",
+  "checking_server_status": "جاري التحقق من حالة الخادم...",
+  "not_a_hipaa-compliant_service": "ليست خدمة متوافقة مع قانون HIPAA",
+  "radiology": "الأشعة",
+  "united_states:_dial_911": "الولايات المتحدة: اتصل بالرقم 911",
+  "save_and_review_conversation_h": "حفظ ومراجعة سجل المحادثة",
+  "abstract": "خلاصة",
+  "starting_your_consultation": "بدء استشارتك...",
+  "digital_pathology_overview": "نظرة عامة على علم الأمراض الرقمي",
+  "reasonable_business_security_p": "ممارسات أمن الأعمال المعقولة داخل الولايات المتحدة",
+  "loading_transcript": "جاري تحميل النص...",
+  "cookies_and_similar_technologi": "ملفات تعريف الارتباط والتقنيات المشابهة:",
+  "internal_medicine": "العافية الداخلية",
+  "no_specialists_currently_in_th": "لا يوجد متخصصون حاليًا في هذه الدردشة.",
+  "discussion": "مناقشة",
+  "updating_team": "تحديث الفريق...",
+  "your_privacy_choices": "خيارات الخصوصية الخاصة بك",
+  "error:_unknown_active_chat_vie": "خطأ: عرض الدردشة النشطة غير معروف.",
+  "create_more_than_one_account_f": "قم بإنشاء أكثر من حساب لنفسك.",
+  "improve_the_accuracy,_efficacy": "تحسين دقة وفعالية وسلامة نماذج الذكاء الاصطناعي وميزات المنصة الخاصة بنا باستخدام البيانات المجمعة والمجهولة المصدر.",
+  "user_content:": "محتوى المستخدم:",
+  "mindscript_does_not_provide_me": "لا تقدم MindScript تشخيصًا أو علاجًا طبيًا",
+  "communicate_with_you_about_pro": "التواصل معك بشأن المنتجات والخدمات والعروض والعروض الترويجية والمكافآت والأحداث التي تقدمها MindScript وغيرها، وتزويدك بالأخبار والمعلومات التي نعتقد أنها ستكون ذات اهتمام بالنسبة لك (وفقًا لحقوقك في إلغاء الاشتراك).",
+  "aggregated_or_de-identified_da": "البيانات المجمعة أو مجهولة الهوية:",
+  "canada:_dial_911": "كندا: اتصل بالرقم 911",
+  "retry": "إعادة المحاولة",
+  "other_locations:_contact_your_": "أماكن أخرى: اتصل بخدمات الطوارئ المحلية على الفور",
+  "ron_rubin,_phd_and_sandy_miles": "رون روبين، دكتوراه وساندي مايلز",
+  "australia:_dial_000_or_112": "أستراليا: اتصل بالرقم 000 أو 112",
+  "data_deletion:": "حذف البيانات:",
+  "we_do_not_guarantee_the_absolu": "نحن لا نضمن الأمن المطلق لمعلوماتك",
+  "send_technical_notices,_update": "إرسال الإشعارات الفنية والتحديثات والتنبيهات الأمنية ورسائل الدعم والإدارة.",
+  "consultation_summary": "ملخص الاستشارة",
+  "waiver": "إعفاء",
+  "access_to_all_medical_specialt": "الوصول إلى جميع التخصصات الصحية",
+  "no_profile_data_available": "لا تتوفر بيانات الملف الشخصي.",
+  "no_summary_available": "لا يوجد ملخص متاح.",
+  "test_app_-_mindscript": "تطبيق اختبار - MindScript",
+  "respond_to_your_comments,_ques": "الرد على تعليقاتكم وأسئلتكم وطلباتكم وتقديم خدمة العملاء.",
+  "not_hipaa_compliant": "غير متوافق مع قانون HIPAA",
+  "force_majeure": "قوة قاهرة",
+  "you_may_print_or_download_one_": "يجوز لك طباعة أو تنزيل نسخة واحدة من عدد معقول من صفحات الموقع للاستخدام الشخصي غير التجاري والمعلوماتي وليس لإعادة الإنتاج أو النشر أو التوزيع.",
+  "dr_aileen_carol": "خبيرة الصحة أيلين كارول",
+  "family_medicine": "صحة الأسرة",
+  "headings": "العناوين",
+  "note_on_ai_aileencarol's_particip": "ملاحظة حول مشاركة خبيرة الذكاء الاصطناعي في مجال الصحة كارول:",
+  "ronrubin@mindscripthealth": "ronrubin@virtualmd.app",
+  "share_your_account_credentials": "شارك بيانات اعتماد حسابك أو اسمح للآخرين بالوصول إلى حسابك (باستثناء ما هو مسموح به صراحةً لحسابات المؤسسة).",
+  "email_cannot_be_changed": "لا يمكن تغيير البريد الإلكتروني.",
+  "your_unique_medical_history,_c": "يتطلب تاريخك الصحي الفريد وظروفك وظروفك تقييمًا احترافيًا",
+  "changes_to_these_terms_and_pol": "التغييرات على هذه الشروط والسياسة",
+  "other_ai_specialists": "متخصصون آخرون في الذكاء الاصطناعي",
+  "full_name": "الاسم الكامل",
+  "governing_law_and_dispute_reso": "القانون الحاكم وحل النزاعات",
+  "loading…": "تحميل…",
+  "personalized_health_insights": "رؤى صحية مخصصة",
+  "gastroenterology": "طب الجهاز الهضمي",
+  "use_of_the_service_by_children": "يُحظر على الأطفال استخدام الخدمة.",
+  "introduction": "مقدمة",
+  "use_another_user's_account_wit": "استخدام حساب مستخدم آخر دون إذن.",
+  "if_you_can_see_this,_react_is_": "إذا تمكنت من رؤية هذا، فإن React يعمل!",
+  "ronrubin@mindspringhealth": "ronrubin@mindspring.health",
+  "children's_privacy": "خصوصية الأطفال",
+  "provide_false_or_misleading_in": "تقديم معلومات خاطئة أو مضللة أثناء التسجيل أو في ملف تعريف حسابك.",
+  "talk_to_a_specialist": "تحدث إلى أخصائي",
+  "cannot": "لا يمكن",
+  "how_we_use_information": "كيف نستخدم المعلومات",
+  "results": "نتائج",
+  "loading_participants": "جاري تحميل المشاركين...",
+  "sandymiles@mindscripthealth": "sandymiles@virtualmd.app",
+  "this_feature_is_coming_soon": "هذه الميزة قادمة قريبا!",
+  "start_or_continue_conversation": "بدء المحادثة أو متابعتها",
+  "international_data_transfers": "نقل البيانات الدولية",
+  "loading_bio": "جاري تحميل السيرة الذاتية...",
+  "termination": "إنهاء",
+  "no_image_active": "لا توجد صورة نشطة.",
+  "no_ai_health_advisers_selected": "لم يتم اختيار أي مستشار صحي. يمكنك إدارة مستشاريك من خلال ملفك الشخصي.",
+  "dr_daniel_garcia": "خبير الصحة دانييل جارسيا",
+  "no_other_specialists_available": "لا يوجد متخصصين آخرين متاحين للإضافة.",
+  "carry_out_any_other_purpose_de": "تنفيذ أي غرض آخر تم وصفه لك في وقت جمع المعلومات.",
+  "data_retention": "الاحتفاظ بالبيانات",
+  "informational_and_educational_": "لأغراض إعلامية وتعليمية فقط",
+  "miscellaneous": "متنوع",
+  "non-cancerous_skin_condition_c": "تصنيف حالات الجلد غير السرطانية",
+  "pathology": "علم الأمراض",
+  "promotional_communications:": "الاتصالات الترويجية:",
+  "info@mindscripthealth": "info@virtualmd.app",
+  "methods/technologies": "الأساليب/التقنيات",
+  "how_we_share_information": "كيف نشارك المعلومات",
+  "loading_profile": "جاري تحميل الملف الشخصي...",
+  "personalize_and_improve_the_se": "تخصيص الخدمة وتحسينها وتوفير المحتوى أو الميزات التي تتوافق مع ملفات تعريف المستخدم أو اهتماماته.",
+  "with_vendors_and_service_provi": "مع البائعين ومقدمي الخدمات:",
+  "health_information_may_become_": "قد تصبح المعلومات الصحية قديمة مع تطور المعرفة الصحية",
+  "with_whom_would_you_like_to_co": "مع من تريد التشاور اليوم؟",
+  "mindscript_content:": "محتوى MindScript:",
+  "cookies:": "ملفات تعريف الارتباط:",
+  "detect,_investigate,_and_preve": "اكتشاف المعاملات الاحتيالية والأنشطة غير القانونية الأخرى والتحقيق فيها ومنعها وحماية حقوق وممتلكات MindScript وغيرها.",
+  "medical_advice_requires_person": "تتطلب النصائح الصحية تقييمًا شخصيًا من قبل مقدمي الرعاية الصحية المرخصين",
+  "create_an_account_for_anyone_o": "إنشاء حساب لأي شخص غيرك دون إذن.",
+  "options": "خيارات",
+  "cannot_and_will_not_sue_or_hol": "لا يجوز ولن يقاضي أو يحمل شركة MINDSCRIPT TECHNOLOGIES, LLC والشركات التابعة لها أو مسؤوليها أو مديريها أو موظفيها أو وكلائها أو المرخصين لها المسؤولية",
+  "with_your_consent:": "بموافقتك:",
+  "add_specialists_to_your_team": "أضف متخصصين إلى فريقك",
+  "usage_information:": "معلومات الاستخدام:",
+  "any_conduct_or_content_of_any_": "أي سلوك أو محتوى لأي طرف ثالث على الخدمة، بما في ذلك على سبيل المثال لا الحصر، أي سلوك تشهيري أو مسيء أو غير قانوني لمستخدمين آخرين أو أطراف ثالثة؛",
+  "do_not_meet_the_specific_admin": "لا تفي بمتطلبات الحماية الإدارية والمادية والفنية المحددة التي فرضتها قواعد أمن HIPAA للتعامل مع المعلومات الصحية المحمية",
+  "legal@mindscripthealth": "legal@virtualmd.app",
+  "cancel": "يلغي",
+  "conclusion": "خاتمة",
+  "professional_health_insights_a": "رؤى وإرشادات صحية مهنية",
+  "cancer_detection": "الكشف عن السرطان",
+  "your_specialist_team_is_empty_": "فريقك المتخصص فارغ. أضف متخصصين أدناه.",
+  "workflow_optimization": "تحسين سير العمل",
+  "select_ai_specialists": "اختيار المتخصصين في الذكاء الاصطناعي",
+  "monitor_and_analyze_trends,_us": "مراقبة وتحليل الاتجاهات والاستخدام والأنشطة المتعلقة بخدمتنا.",
+  "severability": "قابلية الفصل",
+  "access_to_cardiology_and_neuro": "الوصول إلى أخصائيي أمراض القلب والأعصاب",
+  "searchLanguages": "البحث عن اللغات...",
+  "noLanguagesFound": "لم يتم العثور على لغات",
+  "you": "أنت",
+  "manageTeam": {
+    "title": "إدارة فريق AI Health الخاص بي (الحد الأقصى {{maxTeamMembers}} من المتخصصين)",
+    "currentTeamCount": "فريقك الحالي ({{current}}/{{max}})",
+    "updatingTeam": "تحديث الفريق...",
+    "coordinatorLabel": "(المنسق)",
+    "alwaysIncluded": "مشمول دائما",
+    "specialistFallback": "متخصص",
+    "emptyTeamMessage": "فريقك المتخصص فارغ. أضف متخصصين أدناه.",
+    "teamFullMessage": "فريقك ممتلئ (الحد الأقصى {{maxTeamMembers}} متخصص). يُرجى إزالة عضو إذا كنت ترغب في إضافة متخصص آخر.",
+    "otherSpecialistsTitle": "متخصصون آخرون في الذكاء الاصطناعي",
+    "addToTeamTooltip": "أضف إلى الفريق",
+    "teamFullTooltip": "الفريق ممتلئ",
+    "systemSpecialistFallback": "أخصائي النظام",
+    "noSpecialistsAvailable": "لا يوجد متخصصين آخرين متاحين للإضافة."
+  },
+  "personas": {
+    "defaultSpecialist": "متخصص في الذكاء الاصطناعي"
+  },
+  "personaList": {
+    "noSpecialistsFound": "لم يتم العثور على متخصصين في الذكاء الاصطناعي."
+  },
+  "guest": {
+    "user": "مستخدم ضيف",
+    "userObject": {
+      "displayName": "مستخدم ضيف",
+      "email": "ضيف@virtualmd.app"
+    },
+    "registration": {
+      "prompt": "سجل للحصول على إمكانية الوصول الكامل إلى فريقنا الصحي المتكامل بالذكاء الاصطناعي وسجل المحادثات والميزات المتقدمة.",
+      "dialogTitle": "يمكن للمستخدمين المسجلين الوصول إلى {{specialistName}}",
+      "dialogDescription": "{{specialistName}} هو جزء من فريقنا الصحي الافتراضي الشامل.",
+      "benefitsTitle": "مع حساب VirtualMD.app، ستحصل على:",
+      "benefits": {
+        "access": "الوصول إلى أكثر من 60 مستشارًا صحيًا متخصصًا في مجال الذكاء الاصطناعي",
+        "personalized": "استشارات صحية شخصية",
+        "saveConversations": "حفظ المحادثات ومواصلتها",
+        "uploadImages": "قم بتحميل الصور أو التقاطها مباشرة من جهاز الكمبيوتر/الكاميرا الخاص بك",
+        "customTeam": "قم ببناء فريق صحي مخصص لك",
+        "availability": "متاح على مدار الساعة طوال أيام الأسبوع للإجابة على الأسئلة الصحية"
+      },
+      "buttons": {
+        "maybeLater": "ربما في وقت لاحق",
+        "registerNow": "سجل الآن"
+      }
+    },
+    "registrationRequired": "التسجيل مطلوب",
+    "profileRegistrationRequired": "ملف تعريف المستخدم: التسجيل مطلوب",
+    "landing": {
+      "title": "تجربة استشارة الصحة بالذكاء الاصطناعي",
+      "subtitle": "احصل على رؤى صحية فورية من متخصصي الذكاء الاصطناعي لدينا - مجانًا تمامًا، ولا يلزم التسجيل",
+      "whatBringsYou": "ما الذي أتى بك إلى هنا اليوم؟",
+      "selectConcern": "حدد مشكلة شائعة أو قم بوصف مشكلتك الخاصة",
+      "customConcernPlaceholder": "أو وصف مشكلتك الصحية بكلماتك الخاصة...",
+      "startConsultation": "ابدأ الاستشارة المجانية",
+      "experienceIncludes": "تتضمن تجربة الضيف المجانية ما يلي:",
+      "includes": {
+        "messages": "10 رسائل مع متخصصي الذكاء الاصطناعي في مجال الصحة",
+        "time": "15 دقيقة من وقت التشاور",
+        "insights": "رؤى وإرشادات صحية مهنية"
+      },
+      "personas": {
+        "defaultSpecialist": "متخصص في الذكاء الاصطناعي",
+        "aileen": {
+          "name": "خبيرة الصحة أيلين كارول",
+          "specialty": "صحة الأسرة"
+        },
+        "daniel": {
+          "name": "خبير الصحة دانييل جارسيا",
+          "specialty": "العافية الداخلية"
+        }
+      }
+    },
+    "chat": {
+      "header": "استشارة صحية بالذكاء الاصطناعي",
+      "messagesLeft": "{{count}} رسالة متبقية",
+      "timeLeft": "{{الوقت}} متبقي",
+      "startingConsultation": "استشارتك بدأت. سيرد عليك أخصائي صحة بالذكاء الاصطناعي قريبًا.",
+      "aiTyping": "متخصص الذكاء الاصطناعي يكتب...",
+      "inputPlaceholder": "وصف أعراضك أو اطرح سؤالاً..."
+    },
+    "expired": {
+      "title": "تم الانتهاء من الاستشارة",
+      "subtitle": "لقد جربت قوة الاستشارة الصحية بالذكاء الاصطناعي",
+      "messagesUsed": "لقد استخدمت {{used}} من {{max}} رسالة",
+      "continuePrompt": "هل تريد الاستمرار في الوصول غير المحدود؟",
+      "createAccount": "إنشاء حساب مجاني",
+      "signIn": "تسجيل الدخول"
+    },
+    "errors": {
+      "startFailed": "تعذر بدء الاستشارة. يُرجى المحاولة مرة أخرى.",
+      "connectionLost": "انقطع الاتصال. يُرجى تحديث الصفحة.",
+      "sendFailed": "فشل إرسال الرسالة. يُرجى المحاولة مرة أخرى."
+    },
+    "profile": {
+      "age": "25",
+      "gender": "أنثى",
+      "bloodType": "أ+",
+      "height": "5'6\"",
+      "weight": "130 رطلاً",
+      "conditions": "فقر الدم الناجم عن نقص الحديد، الاكتئاب المتوسط",
+      "medications": "كبريتات الحديدوز 325 ملغ يوميًا، سيرترالين 50 ملغ يوميًا",
+      "allergies": "لا يوجد معروف",
+      "healthInfo": "أعاني من التعب وقلة النشاط منذ ستة أشهر. شخّصني طبيبي بفقر الدم الناتج عن نقص الحديد، وأتناول مكملات الحديد. كما أعاني من الاكتئاب، وبدأت بتناول مضادات الاكتئاب منذ ثلاثة أشهر. أبحث عن نصائح حول إدارة كلتا الحالتين وتحسين مستويات طاقتي بشكل عام.",
+      "emergencyContact": "سارة جونسون (الأخت) - (555) 123-4567"
+    },
+    "experience": {
+      "tryItOut": "جربها.",
+      "noObligation": "لا يوجد التزام.",
+      "subtitle": "مجرد جزء بسيط مما يمكن أن يفعله تطبيق VirtualMD.app من أجلك."
+    }
+  },
+  "aiPrefix": "الذكاء الاصطناعي",
+  "dashboard": "لوحة القيادة",
+  "teamRecommendation": {
+    "submission": {
+      "primaryConcernsLabel": "ما هي المخاوف الصحية الأساسية لديك اليوم؟",
+      "healthConditionsLabel": "ما هي الحالات الصحية التي تنطبق عليك؟"
+    },
+    "defaults": {
+      "noneSpecified": "لم يتم تحديد أي شيء"
+    }
+  }
+}

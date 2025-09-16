@@ -1,0 +1,66 @@
+{
+  "title": "Precisión y consideraciones para la IA en la información de salud y bienestar",
+  "authors": "",
+  "downloadPdf": "Descargar PDF",
+  "generating": "Generando...",
+  "pdfFilename": "Libro blanco sobre precisión de IA de VirtualMD.pdf",
+  "section1": {
+    "title": "1. Introducción: La promesa de la IA en la salud y el bienestar",
+    "content": "La Inteligencia Artificial (IA) tiene un gran potencial para mejorar la comprensión y la gestión de la salud y el bienestar de las personas. Desde el análisis de datos de salud hasta la identificación de patrones que podrían indicar tendencias de bienestar, las herramientas de IA ofrecen la posibilidad de proporcionar información sanitaria accesible y completa. Pueden procesar grandes cantidades de literatura sobre salud y bienestar mucho más rápido que los humanos, lo que podría ayudar a las personas a mantenerse informadas sobre sus problemas de salud. Los agentes conversacionales basados en IA, como los que utiliza VirtualMD.app, ofrecen a los usuarios información accesible sobre salud y bienestar, responden a preguntas sobre salud y ayudan a comprender temas complejos. El objetivo es servir como una fuente de información adicional que complemente, y nunca sustituya, las consultas con profesionales sanitarios cualificados."
+  },
+  "section2": {
+    "title": "2. Comprensión de la precisión y las limitaciones de la IA en la información sanitaria",
+    "intro": "Si bien la IA es prometedora para proporcionar información sobre salud y bienestar, comprender su precisión y limitaciones es crucial. Los sistemas de IA pueden proporcionar información y perspectivas valiosas sobre la salud, pero su eficacia varía según el tema específico, la calidad de los datos de entrenamiento y el modelo de IA utilizado.",
+    "aiSuccess": {
+      "title": "Ejemplos de IA en la información sanitaria:",
+      "text": "Las investigaciones han demostrado que los modelos de IA pueden organizar y presentar eficazmente información de salud sobre diversas afecciones y temas de bienestar. Los sistemas de IA han demostrado su capacidad para sintetizar información de múltiples fuentes, identificar patrones de salud relevantes y presentar temas de salud complejos de forma accesible. Estas capacidades convierten a la IA en una herramienta valiosa para la educación sanitaria y la difusión de información, cuando se utiliza como complemento a la orientación profesional sanitaria."
+    },
+    "aiErrors": {
+      "title": "Tipos de errores de IA:",
+      "text": "Los errores de IA difieren de los errores humanos. Pueden surgir por: Datos sesgados (si los datos de entrenamiento subrepresentan ciertos grupos demográficos, la IA puede tener un rendimiento deficiente para esos grupos), sobreajuste (la IA aprende los datos de entrenamiento demasiado bien, incluyendo el ruido, y no logra generalizarlos a casos de usuario nuevos e inéditos), falta de contexto (la IA puede tener dificultades con historiales de usuario complejos, comorbilidades o síntomas con matices que requieren un juicio clínico más amplio), ejemplos antagónicos (cambios menores e imperceptibles en los datos de entrada podrían provocar que una IA haga una predicción completamente errónea) y alucinaciones (los LLM a veces pueden generar información que parece plausible, pero que es incorrecta o sin sentido)."
+    },
+    "aiVsHuman": {
+      "title": "Expertos en IA vs. salud humana:",
+      "text": "Rara vez se trata de un simple escenario de \"mejor o peor\". Un metaanálisis podría mostrar que la IA supera ligeramente a los radiólogos en promedio para un tipo de exploración específico (*concepto gráfico hipotético*), pero los expertos humanos suelen destacar en casos atípicos o al integrar información de múltiples fuentes. Por el contrario, la IA podría ser más consistente a la hora de evitar errores relacionados con la fatiga en tareas repetitivas. El escenario ideal suele implicar la colaboración entre humanos e IA."
+    }
+  },
+  "section3": {
+    "title": "3. El desafío de la comunicación mediante IA en la atención sanitaria",
+    "intro": "Más allá de la precisión diagnóstica, un obstáculo importante es cómo la IA comunica la información a los usuarios. Una respuesta correcta y mal proporcionada puede ser inútil o incluso perjudicial.",
+    "challenges": {
+      "empathy": "Falta de empatía y matices: los modelos de IA a menudo carecen de empatía genuina, seguridad y capacidad para adaptar las explicaciones al estado emocional y la comprensión de un individuo (por ejemplo, Ayers et al., JAMA Internal Medicine, 2023, ejemplo ilustrativo).",
+      "overload": "Sobrecarga de información/Jerga: La IA a veces puede proporcionar información exhaustiva y técnicamente densa que abruma en lugar de aclarar.",
+      "confidence": "Error de calibración de confianza: una IA puede presentar información con gran confianza incluso cuando es incierta o incorrecta, lo que podría engañar a los usuarios."
+    },
+    "VirtualMDApproach": "Aquí es donde VirtualMD.app se esfuerza por ser **\"simplemente mejor\".** No solo buscamos la precisión fáctica en la información proporcionada por nuestros personajes de IA, sino que también nos centramos en la *forma* de entrega. Nuestro objetivo es capacitar y guiar a nuestros especialistas en IA para que se comuniquen de forma clara, concisa y con un tono adecuado, desglosando temas complejos y reconociendo las limitaciones, acortando la distancia entre el resultado bruto de la IA y la comunicación útil con el usuario."
+  },
+  "section4": {
+    "title": "4. Qué significa esto para usted al usar VirtualMD.app",
+    "guidelines": {
+      "information": "**Considérelo información, no diagnóstico:** Use la información proporcionada como punto de partida. No sustituye un diagnóstico médico profesional, un plan de tratamiento ni un consejo personalizado.",
+      "limitations": "**Tenga en cuenta las limitaciones:** Tenga en cuenta que la IA puede cometer errores, malinterpretar el contexto o proporcionar información incompleta. Es posible que la información no se aplique a su situación de salud específica y única.",
+      "verify": "**Verificar información crítica:** Siempre discuta inquietudes de salud importantes, síntomas o posibles opciones de tratamiento con un proveedor de atención médica humano calificado.",
+      "personas": "**Las personas con IA simulan roles:** Los especialistas en IA simulan roles pero no poseen las calificaciones ni la posición legal de los profesionales humanos autorizados."
+    }
+  },
+  "section5": {
+    "title": "5. Descargo de responsabilidad e información de emergencia",
+    "disclaimer": "VirtualMD.app se esfuerza por garantizar la precisión. Sin embargo, este y cualquier servicio basado en IA pueden proporcionar información incorrecta. La información proporcionada es solo para fines educativos e informativos y no constituye asesoramiento médico. Consulte siempre con un profesional de la salud cualificado ante cualquier duda o antes de tomar cualquier decisión relacionada con su salud o tratamiento. Confiar en la información proporcionada por este servicio es bajo su propio riesgo.",
+    "emergency": "En caso de emergencia, llame siempre a su número de emergencia local:",
+    "emergencyNumbers": {
+      "US": "911",
+      "Canada": "911",
+      "UK": "999",
+      "Ireland": "999 o 112",
+      "Australia": "000",
+      "New Zealand": "111",
+      "South Africa": "10111",
+      "India": "112",
+      "Jamaica": "119",
+      "Trinidad and Tobago": "999",
+      "Singapore": "999",
+      "Philippines": "911",
+      "default": "sus servicios de emergencia locales"
+    }
+  }
+}

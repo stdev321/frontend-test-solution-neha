@@ -1,0 +1,239 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+/* Restore button styles entirely */
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  /* Restore button override */
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+/* RTL (Arabic) Language Support */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body.rtl {
+  direction: rtl;
+  text-align: right;
+  font-family: 'Noto Sans Arabic', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+body.ltr {
+  direction: ltr;
+  text-align: left;
+}
+
+/* RTL specific adjustments */
+.rtl .MuiToolbar-root {
+  flex-direction: row-reverse;
+}
+
+.rtl .MuiButton-endIcon {
+  margin-left: 8px;
+  margin-right: -4px;
+}
+
+.rtl .MuiButton-startIcon {
+  margin-left: -4px;
+  margin-right: 8px;
+}
+
+/* RTL Menu positioning */
+.rtl .MuiMenu-paper {
+  transform-origin: top right !important;
+}
+
+/* RTL Typography - only for specific components */
+.rtl .MuiTypography-root.rtl-text {
+  text-align: right;
+}
+
+/* RTL Bio text specifically - target the bio panel */
+.rtl-bio-text {
+  text-align: right !important;
+  direction: rtl !important;
+}
+
+/* Force bio text alignment in RTL mode - comprehensive selectors */
+[dir="rtl"] .MuiTypography-body2,
+[dir="rtl"] .rtl-bio-text,
+.rtl .rtl-bio-text,
+.rtl .MuiPaper-root .MuiTypography-body2,
+html[dir="rtl"] .MuiTypography-body2,
+html[dir="rtl"] .rtl-bio-text,
+body.rtl .MuiTypography-body2,
+body.rtl .rtl-bio-text {
+  text-align: right !important;
+  direction: rtl !important;
+}
+
+/* Ensure bio container doesn't override text alignment */
+.rtl .MuiPaper-root[class*="BioPanel"] .MuiTypography-root,
+[dir="rtl"] .MuiPaper-root .MuiTypography-root,
+html[dir="rtl"] .MuiPaper-root .MuiTypography-body2 {
+  text-align: right !important;
+}
+
+/* Target bio panel Box containers specifically */
+.rtl .MuiBox-root .MuiTypography-body2,
+[dir="rtl"] .MuiBox-root .MuiTypography-body2,
+html[dir="rtl"] .MuiBox-root .rtl-bio-text {
+  text-align: right !important;
+  direction: rtl !important;
+}
+
+/* RTL AppBar adjustments */
+.rtl .MuiAppBar-root {
+  transform: scaleX(-1);
+}
+
+.rtl .MuiAppBar-root * {
+  transform: scaleX(-1);
+}
+
+.rtl .MuiAppBar-root .MuiBox-root {
+  flex-direction: row-reverse;
+}
+
+/* RTL specific margin/padding adjustments */
+.rtl .header-right-section {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.rtl .header-left-section {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+/* Ensure proper Arabic font rendering */
+[lang="ar"], [lang="ar"] * {
+  font-family: 'Noto Sans Arabic', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif !important;
+}
+
+/* Specific RTL fixes for navigation and buttons */
+.rtl .MuiButton-root {
+  text-align: center;
+}
+
+.rtl .MuiMenuItem-root {
+  text-align: right;
+  justify-content: flex-end;
+}
+
+/* Force Language Switcher to maintain LTR layout */
+.MuiMenu-paper[id*="language"] .MuiBox-root,
+.MuiPopover-paper .MuiBox-root[style*="grid"],
+[role="menu"] .MuiBox-root[style*="grid"] {
+  direction: ltr !important;
+}
+
+/* Ensure language menu items stay LTR */
+.MuiMenu-paper[id*="language"] .MuiMenuItem-root,
+[role="menu"] .MuiMenuItem-root {
+  direction: ltr !important;
+  text-align: left !important;
+}
+
+/* Override RTL transforms on language switcher */
+.rtl .MuiPopover-paper,
+.rtl .MuiMenu-paper,
+body.rtl .MuiPopover-paper,
+body.rtl .MuiMenu-paper {
+  transform: none !important;
+}
+
+.rtl .MuiPopover-paper .MuiBox-root[style*="grid"],
+html[dir="rtl"] .MuiPopover-paper .MuiBox-root[style*="grid"],
+body.rtl .MuiPopover-paper .MuiBox-root {
+  direction: ltr !important;
+  transform: none !important;
+}
+
+/* Prevent grid reversal in RTL */
+body.rtl .MuiBox-root[dir="ltr"] {
+  direction: ltr !important;
+}
+
+/* Override MUI RTL transformations */
+.rtl .MuiPopover-root {
+  direction: ltr !important;
+}
+
+/* MUI's RTL plugin handles text alignment automatically */
+
+/* Let MUI handle RTL text alignment */
+
+/* Featurebase override: Hide 'Similar posts' section to prevent users from seeing other feedback */
+/* More specific selectors to only target Featurebase elements */
+.featurebase-widget .fb-similar-posts,
+.featurebase-widget .fb-similar-posts-container,
+[data-featurebase] [class*="similar-posts"],
+[data-featurebase] [class*="related-posts"],
+iframe[src*="featurebase"] + div [class*="similar"] {
+  display: none !important;
+}

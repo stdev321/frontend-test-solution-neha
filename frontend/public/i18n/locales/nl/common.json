@@ -1,0 +1,907 @@
+{
+  "header": {
+    "login": "Login",
+    "register": "Register",
+    "logout": "Uitloggen",
+    "aboutUs": "Over ons",
+    "learnMore": "Meer informatie",
+    "advisory": "Advies",
+    "start": "Begin",
+    "greetingHello": "Hallo {{name}}!",
+    "welcomeToVirtualMD": "Welkom bij VirtualMD!",
+    "signupForFullAccess": "Meld je aan voor volledige toegang",
+    "profileTitle": "Mijn profiel / Ga naar chat",
+    "logoutTitle": "Uitloggen",
+    "toggleTheme": "Schakelen tussen licht- en donkermodus",
+    "toggleMode": "Schakelen tussen licht- en donkermodus",
+    "myProfile": "Mijn profiel / Ga naar chat",
+    "dashboard": "Dashboard",
+    "endConversation": "Beëindig het gesprek",
+    "returnToConversation": "Terug naar het gesprek",
+    "startConversation": "Start gesprek",
+    "endConsult": "Einde consult",
+    "returnToConsult": "Terug naar Consult",
+    "startConsult": "Start consult",
+    "home": "Thuis",
+    "healthEncyclopedia": "Gezondheidsencyclopedie",
+    "researchPublications": "Onderzoek & Publicaties",
+    "contactUs": "Neem contact met ons op",
+    "light": "Licht",
+    "dark": "Donker",
+    "toggleModeText": "Schakel {{mode}}-modus in",
+    "legal": "Juridisch"
+  },
+  "howToUse": "Hoe te gebruiken",
+  "settings": {
+    "lightMode": "Lichtmodus",
+    "darkMode": "Donkere modus"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "home": "Thuis",
+    "aboutUs": "Over ons",
+    "returnToChat": "Terug naar Chat",
+    "continueConsultation": "Ga door met uw consultatie",
+    "exitConsultation": "Exitconsultatie",
+    "startNewConsultation": "Start nieuw consult",
+    "sections": {
+      "chatTools": "CHAT-TOOLS",
+      "functionality": "FUNCTIONALITEIT",
+      "aboutUs": "OVER ONS",
+      "requiredDocuments": "VEREISTE DOCUMENTEN",
+      "research": "ONDERZOEK",
+      "controls": "CONTROLES",
+      "settings": "INSTELLINGEN"
+    },
+    "myTeam": "Mijn team",
+    "summary": "Samenvatting",
+    "transcript": "Transcriptie",
+    "encyclopedia": "Encyclopedie",
+    "priorChats": "Eerdere chats",
+    "myProfile": "Mijn profiel",
+    "healthEncyclopedia": "Gezondheidsencyclopedie",
+    "noteFromFounders": "Notitie van de oprichters",
+    "faq": "Veelgestelde vragen",
+    "contactUs": "Neem contact met ons op",
+    "legal": "Juridisch",
+    "dataPrivacy": "Gegevensbescherming",
+    "aiAccuracyStudies": "AI-nauwkeurigheidsstudies",
+    "empowerYourself": "Geef jezelf kracht",
+    "deepResearch": "Diepgaand onderzoek",
+    "aboutUsItems": {
+      "advisory": "Advies",
+      "dataPrivacy": "Gegevensbescherming"
+    },
+    "learnMore": {
+      "imagingAI": "Beeldvorming en AI",
+      "pathologyAI": "Pathologie en AI",
+      "dermatologyAI": "Dermatologie en AI",
+      "mentalHealthAI": "Geestelijke gezondheid en AI",
+      "accuracyStudies": "AI-nauwkeurigheidsstudies",
+      "allResearch": "Al het onderzoek",
+      "empowerYourself": "Geef jezelf kracht"
+    }
+  },
+  "landing": {
+    "title": "VirtualMD.app",
+    "subtitle": "AI-aangedreven gezondheidszorgoplossingen",
+    "tryItOut": "Probeer het eens",
+    "scrollDown": "Scroll naar beneden",
+    "scrollUp": "Omhoog scrollen",
+    "alwaysHereForYou": "Wij zijn er altijd voor u.",
+    "cards": {
+      "whyUse": {
+        "title": "Waarom VirtualMD?",
+        "description": "Ontdek de revolutionaire voordelen van ons AI-aangedreven virtuele gezondheidsplatform"
+      },
+      "dataPrivacy": {
+        "title": "Uw privacy",
+        "description": "Als een vertrouwde vriend zijn uw gezondheidsgeheimen bij ons veilig"
+      },
+      "tryItOut": {
+        "title": "Probeer het eens",
+        "description": "Mijn kind is ziek|Ik kan niet slapen!|Voeding voor liefde",
+        "tagline": "Aanmelden is niet nodig."
+      },
+      "wellness": {
+        "title": "Diepgaand onderzoek",
+        "description": "Gezondheidsencyclopedie met betrouwbare bronnen"
+      },
+      "yourHealth": {
+        "title": "Uw gezondheid",
+        "description": "Geef vorm aan uw welzijnsreis met AI"
+      }
+    }
+  },
+  "chat": {
+    "startNewConsult": "Start nieuw consult",
+    "noSpeechDetected": "Dat heb ik niet begrepen",
+    "noSpeechMessage": "Ik kon geen spraak horen in je opname. Probeer iets harder te praten of ga dichter bij je microfoon staan en probeer het dan opnieuw.",
+    "dontShowAgain": "Laat het me niet meer zien",
+    "gotIt": "Ik snap het",
+    "loading": "Bezig met laden…"
+  },
+  "loading": {
+    "preparingHealthTeam": "Uw AI-gezondheidsteam voorbereiden...",
+    "connectingSpecialists": "Verbinding maken met gezondheidsspecialisten...",
+    "initializingSystem": "Uw gepersonaliseerde gezondheidssysteem initialiseren...",
+    "almostReady": "We zijn bijna klaar om u te helpen...",
+    "dots": "..."
+  },
+  "common": {
+    "loading": "Bezig met laden…",
+    "user": {
+      "defaultInitial": "jij",
+      "defaultName": "daar",
+      "defaultAltText": "Gebruiker"
+    },
+    "error": "Fout",
+    "success": "Succes",
+    "cancel": "Annuleren",
+    "confirm": "Bevestigen",
+    "save": "Redden",
+    "delete": "Verwijderen",
+    "edit": "Bewerking",
+    "close": "Dichtbij",
+    "next": "Volgende",
+    "previous": "Vorig",
+    "submit": "Indienen",
+    "search": "Zoekopdracht",
+    "filter": "Filter",
+    "sort": "Soort",
+    "upload": "Uploaden",
+    "download": "Download",
+    "print": "Afdrukken",
+    "share": "Deel",
+    "copy": "Kopiëren",
+    "paste": "Plakken",
+    "cut": "Snee",
+    "undo": "Ongedaan maken",
+    "redo": "Opnieuw doen",
+    "yes": "Ja",
+    "no": "Nee",
+    "ok": "OK",
+    "punctuation": {
+      "ellipsis": "..."
+    },
+    "apply": "Toepassen",
+    "reset": "Reset",
+    "clear": "Duidelijk",
+    "back": "Rug",
+    "forward": "Vooruit",
+    "home": "Thuis",
+    "refresh": "Vernieuwen",
+    "reload": "Herladen",
+    "help": "Hulp",
+    "about": "Over",
+    "contact": "Contact",
+    "profile": "Profiel",
+    "account": "Rekening",
+    "privacy": "Privacy",
+    "terms": "Voorwaarden",
+    "legal": "Juridisch",
+    "support": "Steun",
+    "feedback": "Feedback",
+    "welcome": "Welkom",
+    "goodbye": "Tot ziens",
+    "thankyou": "Bedankt",
+    "send": "Versturen",
+    "none": "Geen",
+    "generating": "Genereren...",
+    "settings": "Instellingen"
+  },
+  "auth": {
+    "loginTitle": "Aanmelden",
+    "registerTitle": "Account aanmaken",
+    "email": "E-mail",
+    "password": "Wachtwoord",
+    "confirmPassword": "Bevestig wachtwoord",
+    "fullName": "Volledige naam",
+    "displayName": "Weergavenaam",
+    "rememberMe": "Onthoud mij",
+    "forgotPassword": "Wachtwoord vergeten?",
+    "noAccount": "Heeft u nog geen account?",
+    "hasAccount": "Heeft u al een account?",
+    "signUp": "Aanmelden",
+    "signIn": "Aanmelden",
+    "signOut": "Afmelden",
+    "createAccount": "Account aanmaken",
+    "loginButton": "Login",
+    "registerButton": "Register",
+    "logout": "Uitloggen"
+  },
+  "footer": {
+    "copyright": "MindScript Technologies LLC. Alle rechten voorbehouden.",
+    "privacyPolicy": "Privacybeleid",
+    "termsOfService": "Servicevoorwaarden",
+    "cookiePolicy": "Cookiebeleid",
+    "medicalAdvisory": "Gezondheidsadvies",
+    "yourPrivacy": "Uw privacy",
+    "legal": "Juridisch",
+    "contactUs": "Neem contact met ons op",
+    "howToUse": "Hoe te gebruiken",
+    "faq": "Veelgestelde vragen",
+    "noteFromFounders": "Notitie van de oprichters",
+    "medicalDisclaimerTooltip": "MindScript streeft ernaar de meest accurate en actuele gezondheidsinformatie te leveren met behulp van AI-gestuurde gezondheidspersona's. Deze persona's zijn echter geen erkende gezondheidsexperts en kunnen onjuist zijn. Bel in geval van een echt medisch noodgeval direct 112 of ga naar de dichtstbijzijnde spoedeisende hulp. Raadpleeg voor andere gezondheidsproblemen of voordat u behandelingen of remedies probeert, een gekwalificeerde zorgverlener of specialist.",
+    "advisory": "Advies"
+  },
+  "forms": {
+    "required": "Dit veld is verplicht",
+    "invalidEmail": "Voer een geldig e-mailadres in",
+    "passwordTooShort": "Wachtwoord moet minimaal 8 tekens lang zijn",
+    "passwordsDoNotMatch": "Wachtwoorden komen niet overeen",
+    "invalidInput": "Voer een geldige invoer in",
+    "fieldRequired": "{{veld}} is verplicht",
+    "selectOption": "Selecteer een optie",
+    "uploadFile": "Bestand uploaden",
+    "dragAndDrop": "Sleep en zet bestanden hier neer, of klik om te selecteren",
+    "fileUploaded": "Bestand succesvol geüpload",
+    "uploadError": "Fout bij het uploaden van het bestand"
+  },
+  "language": {
+    "english": "Engels",
+    "arabic": "العربية",
+    "hebrew": "עברית",
+    "switchTo": "Overschakelen naar {{language}}",
+    "currentLanguage": "Huidige taal: {{language}}"
+  },
+  "animation": {
+    "title": {
+      "simply": "Eenvoudig",
+      "better": "Beter",
+      "health": "Gezondheid",
+      "period": "."
+    }
+  },
+  "hero": {
+    "subtitle": "Gepersonaliseerd gezondheids- en welzijnsadvies 24/7.",
+    "subtitleMobile": "Gepersonaliseerd AI-gezondheidsadvies 24/7",
+    "poweredBy": "Aangedreven door AI."
+  },
+  "research": {
+    "title": "Onderzoek & Publicaties",
+    "subtitle": "Op bewijs gebaseerde AI-oplossingen voor de gezondheidszorg",
+    "aiImaging": {
+      "title": "AI in diagnostische beeldvorming",
+      "description": "Uitgebreide analyse van toepassingen van kunstmatige intelligentie in medische beeldvorming in de radiologie, pathologie en oftalmologie."
+    },
+    "pathologyAI": {
+      "title": "Pathologie AI-assistentie",
+      "description": "Toepassingen van deep learning in digitale pathologie voor kankerdetectie en verbetering van diagnostische nauwkeurigheid."
+    },
+    "dermatologyAI": {
+      "title": "Dermatologie AI-oplossingen",
+      "description": "Detectie en diagnose van huidaandoeningen met behulp van AI, computer vision en machine learning."
+    },
+    "mentalHealthAI": {
+      "title": "Geestelijke gezondheid en AI",
+      "description": "Toepassingen van kunstmatige intelligentie bij screening, diagnose en behandeling van geestelijke gezondheidsproblemen."
+    },
+    "accuracyStudies": {
+      "title": "AI-nauwkeurigheidsstudies",
+      "description": "Klinische validatie en prestatiemetingen van AI-diagnostische systemen in de praktijk van de gezondheidszorg."
+    }
+  },
+  "whitepapers": {
+    "downloadPdf": "PDF downloaden",
+    "generating": "Genereren...",
+    "abstract": "Abstract",
+    "introduction": "Invoering",
+    "methods": "Methoden/Technologieën",
+    "results": "Resultaten",
+    "discussion": "Discussie",
+    "conclusion": "Conclusie",
+    "references": "Referenties",
+    "authors": "Auteurs",
+    "email": "E-mail",
+    "organization": "Organisatie"
+  },
+  "imageProcessing": {
+    "preset": "Vooraf ingesteld",
+    "process": "Proces",
+    "revert": "Terugdraaien",
+    "applyPreset": "Voorinstelling toepassen op afbeelding in focus",
+    "revertFocus": "Focus opnieuw op de originele afbeelding"
+  },
+  "alt": {
+    "logo": "VirtualMD.app-logo",
+    "logoSmall": "MindScript Klein Logo",
+    "integratedApproach": "Geïntegreerde welzijnsaanpak",
+    "userProfile": "Gebruikersprofiel",
+    "aiDoctor": "AI-gezondheidsexpert Carol",
+    "aiAssistant": "AI-assistent",
+    "backgroundImage": "Mooie achtergrondafbeelding",
+    "home": "MindScript-startpagina",
+    "processed": "Verwerkte afbeelding",
+    "zoomPreview": "Voorvertoning van afbeeldingszoom"
+  },
+  "aria": {
+    "scrollDown": "Scroll naar beneden",
+    "scrollUp": "Omhoog scrollen",
+    "openMenu": "Menu openen",
+    "togglePassword": "Wachtwoord zichtbaarheid in-/uitschakelen",
+    "chooseLanguage": "Taal kiezen",
+    "goHome": "Ga naar de homepage",
+    "remove": "Verwijderen",
+    "edit": "Bewerking",
+    "delete": "Verwijderen",
+    "save": "Redden",
+    "cancel": "Annuleren",
+    "breadcrumb": "Navigatie broodkruimelpad",
+    "conversationChoice": "Gesprekskeuze",
+    "personaChoice": "Persona-keuze",
+    "panel": "Paneel",
+    "summary": "Samenvatting",
+    "differentialOpinion": "Differentiële mening",
+    "transcript": "Transcriptie",
+    "encyclopedia": "Encyclopedie",
+    "endConversation": "Beëindig het gesprek",
+    "startChat": "Start chat met team",
+    "configureChat": "Nieuwe chat configureren",
+    "savedConsultations": "Opgeslagen consultaties",
+    "myProfile": "Mijn profiel"
+  },
+  "researchPage": {
+    "title": "Onderzoek & Publicaties",
+    "healthAdvisory": {
+      "title": "Gezondheidsadvies",
+      "description": "Belangrijke gezondheids- en veiligheidsinformatie",
+      "button": "Bekijk advies"
+    },
+    "imagingAI": {
+      "title": "AI in diagnostische beeldvorming",
+      "description": "AI-toepassingen in medische beeldvorming in de radiologie, pathologie en oftalmologie",
+      "button": "Lees meer"
+    },
+    "pathologyAI": {
+      "title": "AI-ondersteunde pathologie",
+      "description": "Toepassingen van deep learning in digitale pathologie voor kankerdetectie en diagnostische nauwkeurigheid",
+      "button": "Lees meer"
+    },
+    "dermatologyAI": {
+      "title": "AI-oplossingen in de dermatologie",
+      "description": "Detectie en diagnose van huidaandoeningen met behulp van AI en computer vision en machine learning",
+      "button": "Lees meer"
+    },
+    "mentalHealthAI": {
+      "title": "Geestelijke gezondheid en AI",
+      "description": "AI-toepassingen bij screening, diagnose en therapeutische ondersteuning van geestelijke gezondheid",
+      "button": "Lees meer"
+    },
+    "dataPrivacy": {
+      "title": "Gegevensbescherming en -beveiliging",
+      "description": "Bescherming van gezondheidszorggegevens, HIPAA-naleving en privacywaarborgen",
+      "button": "Lees meer"
+    },
+    "aiAccuracy": {
+      "title": "AI-nauwkeurigheidsstudies",
+      "description": "Klinische validatie en prestatiemetingen van AI-diagnostische systemen in de praktijk van de gezondheidszorg",
+      "button": "Lees meer"
+    },
+    "aiForLaypeople": {
+      "title": "AI voor iedereen",
+      "description": "AI in de gezondheidszorg op een eenvoudige manier begrijpen - geen technische achtergrond vereist",
+      "button": "Lees meer"
+    }
+  },
+  "dialogs": {
+    "startWithDefault": "Begin met gezondheidsexpert Carol",
+    "startWithSpecific": "Begin met {{name}}",
+    "longRecording": {},
+    "shortConv": {}
+  },
+  "team": {
+    "myAIHealthTeam": "Mijn AI Gezondheidsteam",
+    "addMembersInstruction": "Voeg teamleden toe door op een kaart aan de rechterkant te klikken.",
+    "maxTeamSizeNote": "Er kunnen maximaal vijf AI-adviseurs aan uw team worden toegevoegd. U kunt uw team op elk moment wijzigen, maar niet tijdens een consult.",
+    "starting": "Beginnen...",
+    "startTeamConsult": "Start teamoverleg",
+    "startConsultationWithTeam": "Start overleg met uw team"
+  },
+  "newConversation": {
+    "aileenCarolOnly": "Gezondheidsexpert Carol Only",
+    "oneOnOne": "Een-op-een",
+    "consultationChoice": {
+      "question": "Met wie wilt u vandaag overleggen?"
+    },
+    "options": {
+      "allAdvisers": "Al mijn AI-gezondheidsadviseurs",
+      "allAdvisersCarolOnly": "Al mijn AI-gezondheidsadviseurs (alleen AI-gezondheidsexpert Carol)",
+      "chooseSpecific": "Kies specifiek uit mijn lijst"
+    },
+    "tooltips": {
+      "noAdvisersSelected": "Er zijn geen adviseurs geselecteerd in uw profiel.",
+      "loadingAdvisers": "Uw adviseurs worden geladen...",
+      "noOtherAdvisers": "Er staan geen andere adviseurs in uw lijst om uit te kiezen. Voeg er meer toe in uw profiel."
+    },
+    "errors": {
+      "loadingAdvisers": "Fout bij het laden van adviseurgegevens."
+    },
+    "buttons": {
+      "cancel": "Annuleren",
+      "next": "Volgende",
+      "start": "Begin"
+    }
+  },
+  "aiAccuracyWhitepaper": {
+    "section1": {},
+    "section2": {
+      "aiSuccess": {},
+      "aiErrors": {},
+      "aiVsHuman": {}
+    },
+    "section3": {
+      "challenges": {}
+    },
+    "section4": {
+      "guidelines": {}
+    },
+    "section5": {}
+  },
+  "imagingAIExplainer": {
+    "whatIsImaging": {
+      "types": {}
+    },
+    "whatIsAI": {},
+    "howAIHelps": {
+      "accuracy": {},
+      "speed": {},
+      "consistency": {}
+    },
+    "challenges": {},
+    "conclusion": {}
+  },
+  "mentalHealthWhitepaper": {
+    "disclaimer": {},
+    "abstract": {},
+    "introduction": {},
+    "methods": {},
+    "results": {
+      "diagnosticSupport": {},
+      "therapeuticApplications": {},
+      "patientMonitoring": {}
+    },
+    "discussion": {},
+    "conclusion": {}
+  },
+  "audio": {},
+  "autoListening": {},
+  "speech": {},
+  "help": {},
+  "upload": {},
+  "fileUpload": {},
+  "input": {},
+  "send": {},
+  "controls": {
+    "aiSpeaker": "AI-luidspreker",
+    "cameraUpload": "Camera/Upload",
+    "status": {
+      "enabled": "Ingeschakeld",
+      "disabled": "Gehandicapt"
+    }
+  },
+  "welcome": {},
+  "account": {},
+  "participants": {},
+  "mobileChat": {},
+  "sidebar": {
+    "differentialOpinion": "Differentiële mening"
+  },
+  "bioPanel": {},
+  "conversations": {},
+  "mobileConsultations": {},
+  "encyclopedia": {},
+  "imageContext": {},
+  "profile": {},
+  "sidebarHeader": {
+    "plusBadge": "+"
+  },
+  "messages": {},
+  "sidebarFooter": {},
+  "summary": {},
+  "teamBuilder": {
+    "steps": {},
+    "alerts": {},
+    "existingTeam": {},
+    "primaryConcerns": {},
+    "healthConditions": {},
+    "urgencySymptoms": {},
+    "medicinePreferences": {},
+    "additionalInfo": {},
+    "aileenCarolIntro": {},
+    "buttons": {},
+    "dialogs": {}
+  },
+  "aileenCarol": {},
+  "transcript": {},
+  "registerPage": {},
+  "legal": {
+    "eligibility": {},
+    "feesAndPayment": {},
+    "termination": {}
+  },
+  "aboutEncyclopediaPage": {},
+  "loginPage": {},
+  "mobileTeamBuilder": {
+    "carolMessages": {},
+    "questionnaire": {},
+    "title": {},
+    "carolGreeting": {}
+  },
+  "mobileNavigation": {},
+  "mobileWelcome": {},
+  "mobileRouter": {},
+  "mobileInput": {},
+  "mobileProfile": {},
+  "clinicianInfoPage": {},
+  "contactPage": {},
+  "dataPrivacyWhitepaper": {
+    "sections": {},
+    "hero": {},
+    "privacyPledge": {
+      "secureInfo": {},
+      "noPersonalUse": {},
+      "neverSell": {},
+      "anonymizedData": {}
+    },
+    "securityLevels": {
+      "accountSecurity": {},
+      "hipaaHistory": {}
+    },
+    "mindscriptSecurity": {},
+    "hipaaConsiderations": {},
+    "userResponsibility": {},
+    "privacyScenarios": {},
+    "conclusion": {}
+  },
+  "encyclopediaPage": {},
+  "evidencePage": {
+    "researchEvidence": {
+      "radiology": {},
+      "pathology": {},
+      "dermatology": {},
+      "mentalHealthResearch": {}
+    },
+    "wellnessInsights": {
+      "personalizedWellness": {},
+      "holisticSignals": {},
+      "proactiveWellbeing": {},
+      "aiEnhancedClarity": {}
+    }
+  },
+  "featuresPage": {
+    "features": {
+      "instantWellnessInsights": {},
+      "holisticWellnessPicture": {},
+      "diverseAIPerspectives": {},
+      "everEvolvingIntelligence": {}
+    }
+  },
+  "healthAdvisoryPage": {
+    "sections": {
+      "consultation": {
+        "emergency": {}
+      },
+      "technology": {},
+      "disclaimer": {
+        "points": {}
+      }
+    }
+  },
+  "medicalImageProcessingPage": {},
+  "mentalHealthInfoPage": {},
+  "nurseInfoPage": {},
+  "patientInfoPage": {},
+  "pharmacistInfoPage": {},
+  "physicianInfoPage": {},
+  "wellnessPathwaysPage": {},
+  "whyVirtualMD": {
+    "sections": {
+      "whyUs": {
+        "points": {
+          "personalTeam": {},
+          "aiNavigator": {},
+          "empoweringChoices": {},
+          "easyToUse": {},
+          "advancedTechnology": {}
+        }
+      },
+      "hero": {},
+      "features": {
+        "points": {
+          "dynamicEnsemble": {},
+          "holisticUnderstanding": {},
+          "rapidAccess": {},
+          "reliableInteractions": {},
+          "insightfulLogs": {}
+        }
+      },
+      "technology": {},
+      "cta": {}
+    }
+  },
+  "yourHealthInYourHandsPage": {
+    "sections": {
+      "uniqueProfile": {},
+      "personalizedGoals": {},
+      "diverseInsights": {},
+      "proactivePartner": {}
+    },
+    "callToAction": {}
+  },
+  "session_complete": "Sessie voltooid",
+  "your_free_trial_has_ended": "Uw gratis proefperiode is afgelopen",
+  "united_kingdom:_dial_999_or_11": "Verenigd Koninkrijk: Bel 999 of 112",
+  "melanoma_and_skin_cancer_detec": "Detectie van melanoom en huidkanker",
+  "process_transactions_and_send_": "Transacties verwerken en gerelateerde informatie versturen, inclusief bevestigingen en facturen (indien van toepassing).",
+  "information_we_collect": "Informatie die we verzamelen",
+  "in_a_medical_emergency:": "Bij een medisch noodgeval:",
+  "in_response_to_legal_process:": "In reactie op een juridisch proces:",
+  "loading_chat": "Chat laden...",
+  "redirecting": "Omleiden...",
+  "israel:_dial_101_(magen_david_": "Israël: Bel 101 ()",
+  "unlimited_messages_with_ai_doc": "Onbeperkt berichten met AI-gezondheidsexperts",
+  "contact_information": "Contactgegevens",
+  "real-world_implementation_and_": "Implementatie in de praktijk en mobiele applicaties",
+  "your_access_to_or_use_of_or_in": "UW TOEGANG TOT OF GEBRUIK VAN OF HET NIET KUNNEN KRIJGEN VAN TOEGANG TOT OF GEBRUIKEN VAN DE SERVICE;",
+  "your_computer_may_temporarily_": "Het is mogelijk dat uw computer tijdelijk kopieën van dergelijke materialen in het RAM-geheugen opslaat, afhankelijk van uw toegang tot en weergave van die materialen.",
+  "please_select_only_one_special": "Selecteer slechts één specialist voor een privéconsult.",
+  "references": "Referenties",
+  "business_transfers:": "Bedrijfsoverdrachten:",
+  "account_information:": "Accountgegevens:",
+  "provide,_operate,_maintain,_an": "Het leveren, beheren, onderhouden en verbeteren van de Service.",
+  "assignment": "Opdracht",
+  "sandymiles@mindspringhealth": "sandymiles@mindspring.health",
+  "ai-generated_content_may_conta": "Door AI gegenereerde content kan fouten of weglatingen bevatten, ondanks onze robuuste validatieprocessen",
+  "display_name": "Weergavenaam",
+  "any_content_obtained_from_the_": "ALLE INHOUD VERKREGEN VAN DE SERVICE; OF",
+  "you_may_store_files_that_are_a": "U kunt bestanden opslaan die automatisch door uw webbrowser worden gecached ter verbetering van de weergave.",
+  "start_new_health_consultation": "Start nieuw gezondheidsconsult",
+  "entire_agreement": "Volledige overeenkomst",
+  "ophthalmology": "Oogheelkunde",
+  "not": "NIET",
+  "exit_conversation?": "Gesprek verlaten?",
+  "grading_and_classification": "Classificatie en beoordeling",
+  "unauthorized_access,_use,_or_a": "ONGEAUTORISEERDE TOEGANG, GEBRUIK OF WIJZIGING VAN UW TRANSMISSIES OF INHOUD (MET INBEGRIP VAN DATALEKKEN), ZELFS ALS MINDSCRIPT REDELIJKE VEILIGHEIDSMAATREGELEN HEEFT GEÏMPLEMENTEERD ZOALS BESCHREVEN IN DEZE VOORWAARDEN EN HET PRIVACYBELEID.",
+  "checking_server_status": "Serverstatus controleren...",
+  "not_a_hipaa-compliant_service": "GEEN HIPAA-CONFORME SERVICE",
+  "radiology": "Radiologie",
+  "united_states:_dial_911": "Verenigde Staten: Bel 911",
+  "save_and_review_conversation_h": "Gespreksgeschiedenis opslaan en bekijken",
+  "abstract": "Abstract",
+  "starting_your_consultation": "Uw consultatie start...",
+  "digital_pathology_overview": "Overzicht digitale pathologie",
+  "reasonable_business_security_p": "redelijke zakelijke beveiligingspraktijken in de Verenigde Staten",
+  "loading_transcript": "Transcript laden...",
+  "cookies_and_similar_technologi": "Cookies en vergelijkbare technologieën:",
+  "internal_medicine": "Intern welzijn",
+  "no_specialists_currently_in_th": "Er zijn momenteel geen specialisten in deze chat.",
+  "discussion": "Discussie",
+  "updating_team": "Team updaten...",
+  "your_privacy_choices": "Uw privacykeuzes",
+  "error:_unknown_active_chat_vie": "Fout: Onbekende actieve chatweergave.",
+  "create_more_than_one_account_f": "Maak meer dan één account voor uzelf aan.",
+  "improve_the_accuracy,_efficacy": "Verbeter de nauwkeurigheid, doeltreffendheid en veiligheid van onze AI-modellen en platformfuncties met behulp van geanonimiseerde en samengevoegde gegevens.",
+  "user_content:": "Gebruikersinhoud:",
+  "mindscript_does_not_provide_me": "MindScript biedt geen medische diagnose of behandeling",
+  "communicate_with_you_about_pro": "Om met u te communiceren over producten, diensten, aanbiedingen, promoties, beloningen en evenementen van MindScript en anderen, en om nieuws en informatie te verstrekken waarvan wij denken dat deze voor u interessant zijn (onder voorbehoud van uw recht op afmelding).",
+  "aggregated_or_de-identified_da": "Geaggregeerde of geanonimiseerde gegevens:",
+  "canada:_dial_911": "Canada: Bel 911",
+  "retry": "Opnieuw proberen",
+  "other_locations:_contact_your_": "Andere locaties: Neem onmiddellijk contact op met uw lokale hulpdiensten",
+  "ron_rubin,_phd_and_sandy_miles": "Ron Rubin, PhD en Sandy Miles",
+  "australia:_dial_000_or_112": "Australië: Bel 000 of 112",
+  "data_deletion:": "Gegevensverwijdering:",
+  "we_do_not_guarantee_the_absolu": "WIJ GARANDEREN NIET DE ABSOLUTE VEILIGHEID VAN UW INFORMATIE",
+  "send_technical_notices,_update": "Stuur technische mededelingen, updates, beveiligingswaarschuwingen en ondersteunings- en administratieve berichten.",
+  "consultation_summary": "Samenvatting van de consultatie",
+  "waiver": "Vrijstelling",
+  "access_to_all_medical_specialt": "Toegang tot alle gezondheidsspecialismen",
+  "no_profile_data_available": "Geen profielgegevens beschikbaar.",
+  "no_summary_available": "Geen samenvatting beschikbaar.",
+  "test_app_-_mindscript": "Test-app - MindScript",
+  "respond_to_your_comments,_ques": "Reageer op uw opmerkingen, vragen en verzoeken en bied klantenservice.",
+  "not_hipaa_compliant": "NIET HIPAA-compatibel",
+  "force_majeure": "Overmacht",
+  "you_may_print_or_download_one_": "U mag één kopie van een redelijk aantal pagina's van de Site afdrukken of downloaden voor uw eigen persoonlijke, niet-commerciële informatieve gebruik en niet voor verdere reproductie, publicatie of distributie.",
+  "dr_aileen_carol": "Gezondheidsexpert Aileen Carol",
+  "family_medicine": "Gezinswelzijn",
+  "headings": "Koppen",
+  "note_on_ai_aileencarol's_particip": "Notitie over de deelname van AI-gezondheidsexpert Carol:",
+  "ronrubin@mindscripthealth": "ronrubin@virtualmd.app",
+  "share_your_account_credentials": "Deel uw accountgegevens of geef anderen toegang tot uw account (behalve zoals expliciet is toegestaan voor organisatieaccounts).",
+  "email_cannot_be_changed": "E-mailadres kan niet worden gewijzigd.",
+  "your_unique_medical_history,_c": "Uw unieke medische geschiedenis, aandoeningen en omstandigheden vereisen een professionele evaluatie",
+  "changes_to_these_terms_and_pol": "Wijzigingen in deze voorwaarden en dit beleid",
+  "other_ai_specialists": "Andere AI-specialisten",
+  "full_name": "Volledige naam",
+  "governing_law_and_dispute_reso": "Toepasselijk recht en geschillenbeslechting",
+  "loading…": "Bezig met laden…",
+  "personalized_health_insights": "Gepersonaliseerde gezondheidsinzichten",
+  "gastroenterology": "Gastro-enterologie",
+  "use_of_the_service_by_children": "Het gebruik van de Dienst door kinderen is verboden.",
+  "introduction": "Invoering",
+  "use_another_user's_account_wit": "Het account van een andere gebruiker gebruiken zonder toestemming.",
+  "if_you_can_see_this,_react_is_": "Als u dit kunt zien, werkt React!",
+  "ronrubin@mindspringhealth": "ronrubin@mindspring.health",
+  "children's_privacy": "Privacy van kinderen",
+  "provide_false_or_misleading_in": "U mag geen onjuiste of misleidende informatie verstrekken tijdens de registratie of in uw accountprofiel.",
+  "talk_to_a_specialist": "Praat met een specialist",
+  "cannot": "KAN NIET",
+  "how_we_use_information": "Hoe wij informatie gebruiken",
+  "results": "Resultaten",
+  "loading_participants": "Deelnemers laden...",
+  "sandymiles@mindscripthealth": "sandymiles@virtualmd.app",
+  "this_feature_is_coming_soon": "Deze functie is binnenkort beschikbaar!",
+  "start_or_continue_conversation": "Begin of ga verder met het gesprek",
+  "international_data_transfers": "Internationale gegevensoverdrachten",
+  "loading_bio": "Biografie wordt geladen...",
+  "termination": "Beëindiging",
+  "no_image_active": "Geen afbeelding actief.",
+  "no_ai_health_advisers_selected": "Er zijn geen AI-gezondheidsadviseurs geselecteerd. U kunt uw adviseurs beheren in uw profiel.",
+  "dr_daniel_garcia": "Gezondheidsexpert Daniel Garcia",
+  "no_other_specialists_available": "Er zijn geen andere specialisten beschikbaar om toe te voegen.",
+  "carry_out_any_other_purpose_de": "Om andere doeleinden te bereiken die aan u zijn meegedeeld op het moment dat de informatie werd verzameld.",
+  "data_retention": "Gegevensretentie",
+  "informational_and_educational_": "ALLEEN VOOR INFORMATIEVE EN EDUCATIEVE DOELEINDEN",
+  "miscellaneous": "Gemengd",
+  "non-cancerous_skin_condition_c": "Classificatie van niet-kankerachtige huidaandoeningen",
+  "pathology": "Pathologie",
+  "promotional_communications:": "Promotionele communicatie:",
+  "info@mindscripthealth": "info@virtualmd.app",
+  "methods/technologies": "Methoden/Technologieën",
+  "how_we_share_information": "Hoe we informatie delen",
+  "loading_profile": "Profiel laden...",
+  "personalize_and_improve_the_se": "De Service personaliseren en verbeteren en inhoud of functies aanbieden die aansluiten op het profiel of de interesses van gebruikers.",
+  "with_vendors_and_service_provi": "Met leveranciers en dienstverleners:",
+  "health_information_may_become_": "Gezondheidsinformatie kan verouderd raken naarmate de gezondheidskennis evolueert",
+  "with_whom_would_you_like_to_co": "Met wie wilt u vandaag overleggen?",
+  "mindscript_content:": "MindScript-inhoud:",
+  "cookies:": "Koekjes:",
+  "detect,_investigate,_and_preve": "Frauduleuze transacties en andere illegale activiteiten detecteren, onderzoeken en voorkomen en de rechten en eigendommen van MindScript en anderen beschermen.",
+  "medical_advice_requires_person": "Gezondheidsadvies vereist een persoonlijke evaluatie door erkende zorgverleners",
+  "create_an_account_for_anyone_o": "Maak zonder toestemming een account aan voor iemand anders.",
+  "options": "Opties",
+  "cannot_and_will_not_sue_or_hol": "KAN EN ZAL MINDSCRIPT TECHNOLOGIES, LLC, HAAR DOCHTERONDERNEMINGEN, FUNCTIONARISSEN, DIRECTEUREN, MEDEWERKERS, AGENTEN OF LICENTIEGEVERS NIET AANSPRAKELIJK STELLEN OF AANSPRAKELIJK STELLEN",
+  "with_your_consent:": "Met uw toestemming:",
+  "add_specialists_to_your_team": "voeg specialisten toe aan uw team",
+  "usage_information:": "Gebruiksinformatie:",
+  "any_conduct_or_content_of_any_": "ELK GEDRAG OF INHOUD VAN EEN DERDE PARTIJ OP DE SERVICE, MET INBEGRIP VAN, MAAR NIET BEPERKT TOT, ELK LASTERLIJK, BELEDIGEND OF ONWETTIG GEDRAG VAN ANDERE GEBRUIKERS OF DERDEN;",
+  "do_not_meet_the_specific_admin": "voldoen niet aan de specifieke administratieve, fysieke en technische beveiligingsvereisten die de HIPAA-beveiligingsregelgeving voorschrijft voor het verwerken van PHI",
+  "legal@mindscripthealth": "juridisch@virtualmd.app",
+  "cancel": "Annuleren",
+  "conclusion": "Conclusie",
+  "professional_health_insights_a": "Professionele inzichten en begeleiding op het gebied van gezondheid",
+  "cancer_detection": "Kankerdetectie",
+  "your_specialist_team_is_empty_": "Uw specialistenteam is leeg. Voeg hieronder specialisten toe.",
+  "workflow_optimization": "Workflowoptimalisatie",
+  "select_ai_specialists": "Selecteer AI-specialisten",
+  "monitor_and_analyze_trends,_us": "Trends, gebruik en activiteiten in verband met onze Service monitoren en analyseren.",
+  "severability": "Scheidbaarheid",
+  "access_to_cardiology_and_neuro": "Toegang tot cardiologie- en neurologiespecialisten",
+  "searchLanguages": "Zoek talen...",
+  "noLanguagesFound": "Geen talen gevonden",
+  "you": "Jij",
+  "manageTeam": {
+    "title": "Beheer mijn AI Health Team (Max {{maxTeamMembers}} specialisten)",
+    "currentTeamCount": "Je huidige team ({{current}}/{{max}})",
+    "updatingTeam": "Team updaten...",
+    "coordinatorLabel": "(Coördinator)",
+    "alwaysIncluded": "Altijd inbegrepen",
+    "specialistFallback": "Specialist",
+    "emptyTeamMessage": "Uw specialistenteam is leeg. Voeg hieronder specialisten toe.",
+    "teamFullMessage": "Je team is vol (maximaal {{maxTeamMembers}} specialisten). Verwijder een lid als je een andere specialist wilt toevoegen.",
+    "otherSpecialistsTitle": "Andere AI-specialisten",
+    "addToTeamTooltip": "Voeg toe aan team",
+    "teamFullTooltip": "Team is vol",
+    "systemSpecialistFallback": "Systeemspecialist",
+    "noSpecialistsAvailable": "Er zijn geen andere specialisten beschikbaar om toe te voegen."
+  },
+  "personas": {
+    "defaultSpecialist": "AI-specialist"
+  },
+  "personaList": {
+    "noSpecialistsFound": "Geen AI-specialisten gevonden."
+  },
+  "guest": {
+    "user": "Gastgebruiker",
+    "userObject": {
+      "displayName": "Gastgebruiker",
+      "email": "gast@virtualmd.app"
+    },
+    "registration": {
+      "prompt": "Registreer u voor volledige toegang tot ons complete AI-gezondheidsteam, gespreksgeschiedenis en geavanceerde functies.",
+      "dialogTitle": "Geregistreerde gebruikers hebben toegang tot {{specialistName}}",
+      "dialogDescription": "{{specialistName}} maakt deel uit van ons uitgebreide virtuele gezondheidsteam.",
+      "benefitsTitle": "Met een VirtualMD.app-account krijgt u:",
+      "benefits": {
+        "access": "Toegang tot meer dan 60 gespecialiseerde AI-gezondheidsadviseurs",
+        "personalized": "Gepersonaliseerde gezondheidsconsultaties",
+        "saveConversations": "Gesprekken opslaan en voortzetten",
+        "uploadImages": "Upload afbeeldingen of neem ze rechtstreeks van uw computer/camera",
+        "customTeam": "Stel uw eigen gezondheidsteam samen",
+        "availability": "24/7 bereikbaar voor gezondheidsvragen"
+      },
+      "buttons": {
+        "maybeLater": "Misschien later",
+        "registerNow": "Registreer nu"
+      }
+    },
+    "registrationRequired": "Registratie vereist",
+    "profileRegistrationRequired": "Gebruikersprofiel: registratie vereist",
+    "landing": {
+      "title": "Ervaar AI Gezondheidsconsultatie",
+      "subtitle": "Ontvang direct gezondheidsinzichten van onze AI-gezondheidsspecialisten - geheel gratis, geen registratie vereist",
+      "whatBringsYou": "Wat brengt u vandaag hier?",
+      "selectConcern": "Selecteer een veelvoorkomende zorg of beschrijf uw eigen zorg",
+      "customConcernPlaceholder": "Of beschrijf uw gezondheidsprobleem in uw eigen woorden...",
+      "startConsultation": "Start gratis consultatie",
+      "experienceIncludes": "Gratis gastervaring omvat:",
+      "includes": {
+        "messages": "10 berichten met AI-gezondheidsspecialisten",
+        "time": "15 minuten consultatietijd",
+        "insights": "Professionele inzichten en begeleiding op het gebied van gezondheid"
+      },
+      "personas": {
+        "defaultSpecialist": "AI-specialist",
+        "aileen": {
+          "name": "Gezondheidsexpert Aileen Carol",
+          "specialty": "Gezinswelzijn"
+        },
+        "daniel": {
+          "name": "Gezondheidsexpert Daniel Garcia",
+          "specialty": "Intern welzijn"
+        }
+      }
+    },
+    "chat": {
+      "header": "AI Gezondheidsconsultatie",
+      "messagesLeft": "{{count}} berichten achtergelaten",
+      "timeLeft": "Nog {{time}} over",
+      "startingConsultation": "Uw consultatie start. Een AI-gezondheidsspecialist neemt binnenkort contact met u op.",
+      "aiTyping": "AI-specialist typt...",
+      "inputPlaceholder": "Beschrijf uw symptomen of stel een vraag..."
+    },
+    "expired": {
+      "title": "Consultatie voltooid",
+      "subtitle": "U heeft de kracht van AI-gezondheidsconsultatie ervaren",
+      "messagesUsed": "Je hebt {{used}} van {{max}} berichten gebruikt",
+      "continuePrompt": "Wilt u doorgaan met onbeperkte toegang?",
+      "createAccount": "Maak een gratis account aan",
+      "signIn": "Aanmelden"
+    },
+    "errors": {
+      "startFailed": "Het consult kan niet worden gestart. Probeer het opnieuw.",
+      "connectionLost": "Verbinding verbroken. Vernieuw de pagina.",
+      "sendFailed": "Bericht verzenden mislukt. Probeer het opnieuw."
+    },
+    "profile": {
+      "age": "25",
+      "gender": "Vrouwelijk",
+      "bloodType": "A+",
+      "height": "1,68 m",
+      "weight": "130 pond",
+      "conditions": "IJzergebreksanemie, matige depressie",
+      "medications": "IJzersulfaat 325 mg per dag, sertraline 50 mg per dag",
+      "allergies": "Geen bekend",
+      "healthInfo": "Ik heb de afgelopen zes maanden last gehad van vermoeidheid en een laag energieniveau. Mijn gezondheidsdeskundige heeft ijzergebreksanemie vastgesteld en ik slik ijzersupplementen. Ik heb ook last van depressies en ben drie maanden geleden begonnen met antidepressiva. Ik zoek advies over hoe ik beide aandoeningen kan aanpakken en mijn algehele energieniveau kan verbeteren.",
+      "emergencyContact": "Sarah Johnson (zus) - (555) 123-4567"
+    },
+    "experience": {
+      "tryItOut": "Probeer het eens.",
+      "noObligation": "Geen verplichting.",
+      "subtitle": "Slechts een fractie van wat VirtualMD.app voor u kan doen."
+    }
+  },
+  "aiPrefix": "KI",
+  "dashboard": "Dashboard",
+  "teamRecommendation": {
+    "submission": {
+      "primaryConcernsLabel": "Wat zijn momenteel uw voornaamste gezondheidsproblemen?",
+      "healthConditionsLabel": "Welke gezondheidsproblemen zijn op u van toepassing?"
+    },
+    "defaults": {
+      "noneSpecified": "Geen gespecificeerd"
+    }
+  }
+}

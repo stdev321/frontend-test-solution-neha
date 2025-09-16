@@ -1,0 +1,1397 @@
+{
+  "chatPage": {
+    "title": "Sembang VirtualMD.app",
+    "welcomeMessage": "Selamat datang ke perundingan kesihatan peribadi anda",
+    "startConversation": "Mulakan Perbualan Baharu",
+    "selectPersona": "Pilih Pakar Kesihatan Anda",
+    "typeMessage": "Taip mesej anda di sini...",
+    "send": "Hantar",
+    "thinking": "Berfikir...",
+    "error": "Sesuatu telah berlaku. Sila cuba lagi.",
+    "retry": "Cuba semula",
+    "clear": "Kosongkan Sembang",
+    "save": "Simpan Perbualan",
+    "export": "Eksport Sembang",
+    "settings": "Tetapan Sembang"
+  },
+  "loginPage": {
+    "home": "Rumah",
+    "title": "Log masuk ke VirtualMD.app",
+    "subtitle": "Akses perundingan kesihatan peribadi anda",
+    "email": "Alamat E-mel",
+    "password": "Kata laluan",
+    "signIn": "Log masuk",
+    "forgotPassword": "Lupa Kata Laluan?",
+    "noAccount": "Tiada akaun?",
+    "signUp": "Daftar",
+    "or": "atau",
+    "signInWithGoogle": "Log masuk dengan Google",
+    "signInWithFacebook": "Log masuk dengan Facebook",
+    "rememberMe": "Ingat saya",
+    "emailRequired": "E-mel diperlukan",
+    "passwordRequired": "Kata laluan diperlukan",
+    "invalidEmail": "Sila masukkan alamat e-mel yang sah",
+    "signInError": "E-mel atau kata laluan tidak sah",
+    "signInSuccess": "Selamat kembali!"
+  },
+  "registerPage": {
+    "title": "Cipta Akaun VirtualMD.app Anda",
+    "subtitle": "Sertai beribu-ribu pengguna mendapatkan panduan kesihatan yang diperibadikan",
+    "firstName": "Nama Pertama",
+    "lastName": "Nama Akhir",
+    "email": "Alamat E-mel",
+    "password": "Kata laluan",
+    "confirmPassword": "Sahkan Kata Laluan",
+    "signUp": "Buat Akaun",
+    "hasAccount": "Sudah mempunyai akaun?",
+    "signIn": "Log masuk",
+    "or": "atau",
+    "signUpWithGoogle": "Daftar dengan Google",
+    "signUpWithFacebook": "Daftar dengan Facebook",
+    "agreeToTerms": "Saya bersetuju menerima Syarat Perkhidmatan dan Dasar Privasi",
+    "firstNameRequired": "Nama pertama diperlukan",
+    "lastNameRequired": "Nama keluarga diperlukan",
+    "emailRequired": "E-mel diperlukan",
+    "passwordRequired": "Kata laluan diperlukan",
+    "passwordMinLength": "Kata laluan mestilah sekurang-kurangnya 8 aksara",
+    "passwordsDoNotMatch": "Kata laluan tidak sepadan",
+    "invalidEmail": "Sila masukkan alamat e-mel yang sah",
+    "termsRequired": "Anda mesti bersetuju dengan terma dan syarat",
+    "signUpError": "Gagal membuat akaun. Sila cuba lagi.",
+    "signUpSuccess": "Akaun berjaya dibuat! Selamat datang ke VirtualMD.app!",
+    "passwordHelperText": "Sekurang-kurangnya 6 aksara, termasuk huruf, nombor dan satu daripada @#$%^&*()! Tiada ruang.",
+    "passwordNeedsLetter": "Kata laluan mesti mengandungi sekurang-kurangnya satu huruf.",
+    "passwordNeedsNumber": "Kata laluan mesti mengandungi sekurang-kurangnya satu nombor.",
+    "passwordNeedsSpecial": "Kata laluan mesti mengandungi sekurang-kurangnya satu aksara khas: !@#$%^&*()",
+    "passwordNoSpaces": "Kata laluan tidak boleh mengandungi ruang.",
+    "agreeToTermsModal": "Untuk Mendaftar, anda mesti bersetuju dengan Terma dan Syarat. Klik pada pautan Terma dan Syarat di sini.",
+    "agreeToTermsLabel": "Saya bersetuju dengan",
+    "termsAndConditions": "Terma dan Syarat",
+    "register": "Daftar",
+    "alreadyHaveAccount": "Sudah mempunyai akaun?",
+    "login": "Log masuk",
+    "home": "Rumah",
+    "emailInUseError": "Alamat e-mel ini telah pun didaftarkan. Sila cuba log masuk atau gunakan e-mel lain.",
+    "iAgree": "Saya Setuju",
+    "unexpectedError": "Ralat yang tidak dijangka berlaku semasa pendaftaran. Sila cuba lagi.",
+    "mustAgreeToTerms": "Anda mesti bersetuju dengan Terma dan Syarat untuk mendaftar."
+  },
+  "contactPage": {
+    "title": "Hubungi VirtualMD.app",
+    "subtitle": "Hubungi pasukan kami",
+    "description": "Ada soalan tentang perundingan kesihatan dikuasakan AI kami? Kami di sini untuk membantu.",
+    "name": "Nama Penuh",
+    "email": "Alamat E-mel",
+    "subject": "Subjek",
+    "message": "Mesej",
+    "send": "Hantar Mesej",
+    "sending": "Menghantar...",
+    "nameRequired": "Nama diperlukan",
+    "emailRequired": "E-mel diperlukan",
+    "subjectRequired": "Subjek diperlukan",
+    "messageRequired": "Mesej diperlukan",
+    "invalidEmail": "Sila masukkan alamat e-mel yang sah",
+    "sendError": "Gagal menghantar mesej. Sila cuba lagi.",
+    "sendSuccess": "Mesej berjaya dihantar! Kami akan kembali kepada anda tidak lama lagi.",
+    "errorMessage": "Ralat berlaku. Sila cuba lagi kemudian.",
+    "contactInfo": {
+      "title": "Maklumat Hubungan",
+      "address": "123 Health Street, Wellness District, City, State 12345",
+      "phone": "+1 (555) 123-4567",
+      "email": "info@virtualmd.app",
+      "hours": "Isnin - Jumaat: 9:00 PG - 6:00 PTG PST"
+    },
+    "contactUs": "Hubungi Kami",
+    "contactDescription": "Soalan atau maklum balas? Kami ingin mendengar daripada anda. Sila gunakan borang di bawah.",
+    "directEmail": "Untuk e-mel terus, hubungi kami di",
+    "yourEmail": "Alamat E-mel Anda",
+    "sendMessage": "Hantar Mesej",
+    "messageSent": "Mesej Dihantar!",
+    "home": "Rumah",
+    "contactError": "Ralat berlaku semasa menghantar mesej anda. Sila cuba lagi kemudian atau",
+    "contactDirectly": "Anda juga boleh menghantar e-mel kepada kami terus di info@virtualmd.app"
+  },
+  "researchPage": {
+    "title": "Penyelidikan & Penerbitan",
+    "subtitle": "Temui sains di sebalik penyelesaian kesihatan kami yang dikuasakan AI",
+    "description": "Platform kami dibina berdasarkan penyelidikan termaju dan bukti klinikal.",
+    "sections": {
+      "publications": "Penerbitan",
+      "clinicalStudies": "Kajian Klinikal",
+      "whitepapers": "Kertas putih",
+      "partnerships": "Perkongsian Penyelidikan"
+    },
+    "healthAdvisory": {
+      "title": "Nasihat Kesihatan",
+      "description": "Maklumat penting tentang menggunakan AI dalam penjagaan kesihatan dan masa untuk berunding dengan penyedia penjagaan kesihatan manusia.",
+      "button": "Baca Nasihat Kesihatan"
+    },
+    "imagingAI": {
+      "title": "Bantuan AI Pengimejan",
+      "description": "Terokai kertas putih komprehensif kami tentang pengimejan perubatan berbantukan AI dan kesannya terhadap penjagaan kesihatan.",
+      "button": "Baca Kertas Putih"
+    },
+    "pathologyAI": {
+      "title": "Bantuan AI Patologi",
+      "description": "Terokai kertas putih terperinci kami tentang patologi dibantu AI dan aplikasinya dalam pengesanan kanser.",
+      "button": "Baca Kertas Putih"
+    },
+    "dermatologyAI": {
+      "title": "Bantuan AI Dermatologi",
+      "description": "Penyelidikan kami tentang aplikasi AI dalam dermatologi untuk pengesanan dan klasifikasi lesi kulit.",
+      "button": "Baca Kertas Putih"
+    },
+    "mentalHealthAI": {
+      "title": "Wawasan AI Kesihatan Mental",
+      "description": "Terokai secara mendalam peranan AI dalam memajukan aplikasi penjagaan kesihatan mental, diagnostik dan terapeutik.",
+      "button": "Baca Kertas Putih"
+    },
+    "dataPrivacy": {
+      "title": "Privasi Data Deep Dive",
+      "description": "Kajian menyeluruh tentang amalan pengendalian data, langkah keselamatan dan pertimbangan kami berkenaan HIPAA.",
+      "button": "Baca Kertas Putih"
+    },
+    "aiAccuracy": {
+      "title": "Kajian Ketepatan AI",
+      "description": "Ketahui tentang penyelidikan kami tentang ketepatan AI dalam diagnosis perubatan dan cadangan rawatan.",
+      "button": "Lihat Kajian"
+    },
+    "aiForLaypeople": {
+      "title": "Pengimejan AI untuk Orang Awam",
+      "description": "Penjelasan ringkas tentang cara AI mengubah pengimejan perubatan dan maksudnya untuk pesakit.",
+      "button": "Baca Penjelasan"
+    }
+  },
+  "evidencePage": {
+    "title": "Bukti Klinikal",
+    "subtitle": "Penyelidikan semakan rakan sebaya menyokong platform kesihatan AI kami",
+    "description": "Perubatan berasaskan bukti adalah teras kepada semua yang kami lakukan.",
+    "heading": "Merintis Masa Depan Kesihatan & Kesejahteraan",
+    "description2": "VirtualMD.app ialah revolusi dalam kesihatan dan kesejahteraan, berasaskan penyelidikan canggih dan didorong oleh semangat untuk kesejahteraan transformatif. Kami menunjukkan kuasa AI yang terbukti sambil menempa laluan baharu untuk kesihatan yang diperibadikan dan proaktif. Ini lebih daripada aplikasi; ia satu paradigma baru. Jadilah sebahagian daripada revolusi.",
+    "researchHeading": "Penyelidikan Asas: Keupayaan Terbukti AI",
+    "wellnessHeading": "Revolusi Kesejahteraan: Laluan Anda Menuju Kesejahteraan Generasi Seterusnya",
+    "researchEvidence": {
+      "radiology": {
+        "title": "AI dalam Radiologi: Pengesanan Dipertingkat",
+        "description": "Model AI mencapai ketepatan 92% dalam mengesan keabnormalan dalam sinar-X dada, menunjukkan potensi untuk kelajuan dan ketepatan diagnostik yang lebih baik.",
+        "citation": "Jurnal Radiologi, 2023",
+        "explainSimply": "Terangkan Ini Secara Mudah",
+        "tooltip": "Klik untuk pautan yang menerangkan artikel ini dalam istilah awam."
+      },
+      "pathology": {
+        "title": "AI dalam Patologi: Peningkatan Ketepatan",
+        "description": "Diagnosis berbantukan AI meningkatkan pengesanan tisu malignan sebanyak 15% dalam slaid patologi berbanding semakan manual sahaja.",
+        "citation": "Jurnal Patologi Amerika, 2022"
+      },
+      "dermatology": {
+        "title": "AI dalam Dermatologi: Prestasi Peringkat Pakar",
+        "description": "Dalam kajian buta berskala besar, AI mengenal pasti 95% kes kanser kulit dengan betul daripada imej, sepadan dengan prestasi pakar dermatologi berpengalaman.",
+        "citation": "Dermatologi JAMA, 2022"
+      },
+      "mentalHealthResearch": {
+        "title": "AI dalam Kesihatan Mental: Penyelidikan Pengesanan Awal",
+        "description": "Penyelidikan menunjukkan sistem AI mengesan tanda amaran awal kesihatan mental berulang, membolehkan campur tangan dan sokongan tepat pada masanya.",
+        "citation": "Psikiatri JAMA, 2021"
+      }
+    },
+    "wellnessInsights": {
+      "personalizedWellness": {
+        "title": "Pelan Kesihatan Peribadi Dikuasakan AI",
+        "description": "Temui cara AI kami membantu mencipta perjalanan kesihatan yang disesuaikan secara unik dengan matlamat dan gaya hidup individu anda, melangkaui satu saiz untuk semua."
+      },
+      "holisticSignals": {
+        "title": "Memahami Isyarat Unik Tubuh Anda dengan AI",
+        "description": "Ketahui cara VirtualMD.app membantu anda mentafsir corak halus daripada kehidupan harian anda untuk memupuk hubungan yang lebih mendalam dengan kesejahteraan anda."
+      },
+      "proactiveWellbeing": {
+        "title": "Masa Depan: Kesejahteraan Proaktif & Ramalan",
+        "description": "Terokai cara platform kami menggunakan cerapan yang berpandangan ke hadapan untuk membantu anda menjangka keperluan dan meningkatkan daya hidup dan daya tahan anda secara proaktif."
+      },
+      "aiEnhancedClarity": {
+        "title": "AI untuk Kesedaran yang Dipertingkatkan & Kejelasan Mental",
+        "description": "Lihat cara VirtualMD.app menawarkan alat dan perspektif untuk menyokong tumpuan mental, keseimbangan emosi dan kesejahteraan kognitif keseluruhan."
+      }
+    }
+  },
+  "featuresPage": {
+    "title": "Ciri-ciri Platform",
+    "subtitle": "Alat perundingan kesihatan dikuasakan AI yang komprehensif",
+    "description": "Temui semua ciri yang menjadikan VirtualMD.app unik.",
+    "heading": "Temui Pendekatan Revolusioner Kami",
+    "features": {
+      "instantWellnessInsights": {
+        "title": "Wawasan Kesihatan Segera",
+        "description": "Dapatkan maklum balas dan pemahaman segera tentang pertanyaan kesihatan anda, pada bila-bila masa anda memerlukannya."
+      },
+      "holisticWellnessPicture": {
+        "title": "Gambar Kesejahteraan Holistik",
+        "description": "AI kami mempertimbangkan semua aspek input anda - teks, imej kemajuan kecergasan anda atau entri jurnal kesihatan - untuk paparan lengkap."
+      },
+      "diverseAIPerspectives": {
+        "title": "Perspektif AI yang pelbagai",
+        "description": "Manfaat daripada pelbagai pakar kesihatan AI, masing-masing menawarkan cerapan unik untuk pemahaman yang menyeluruh."
+      },
+      "everEvolvingIntelligence": {
+        "title": "Kecerdasan yang sentiasa berkembang",
+        "description": "Platform kami sentiasa mempelajari dan memperhalusi pengetahuannya untuk memberikan anda nasihat kesihatan yang paling terkini dan berkaitan."
+      }
+    }
+  },
+  "clinicianInfoPage": {
+    "title": "Untuk Profesional Penjagaan Kesihatan",
+    "subtitle": "Alat berkuasa AI untuk meningkatkan amalan klinikal anda",
+    "description": "Tingkatkan kepakaran anda dengan cerapan AI lanjutan."
+  },
+  "healthAdvisoryPage": {
+    "title": "Nasihat Kesihatan",
+    "subtitle": "Temui penasihat perubatan pakar kami",
+    "description": "Ketahui tentang profesional perubatan yang membimbing platform kami.",
+    "sections": {
+      "consultation": {
+        "title": "Sentiasa Berunding dengan Penyedia Penjagaan Kesihatan Manusia",
+        "description": "Walaupun sistem perundingan dikuasakan AI VirtualMD.app menyediakan maklumat kesihatan yang berharga, adalah penting untuk sentiasa berunding dengan penyedia penjagaan kesihatan manusia yang berkelayakan untuk sebarang kebimbangan perubatan. Pakar perubatan bertauliah lembaga kami membangunkan sistem ini untuk melengkapkan, bukan menggantikan, nasihat perubatan profesional.",
+        "emergencyTitle": "Dalam kecemasan perubatan:",
+        "emergency": {
+          "us": "Amerika Syarikat: Dail 911",
+          "canada": "Kanada: Dail 911",
+          "uk": "United Kingdom: Dail 999 atau 112",
+          "australia": "Australia: Dail 000 atau 112",
+          "israel": "Israel: Dail 101 ()",
+          "other": "Lokasi lain: Hubungi perkhidmatan kecemasan tempatan anda dengan segera"
+        },
+        "emergencyWarning": "Jika anda mengalami sakit dada, kesukaran bernafas, pendarahan teruk, tanda-tanda strok, atau sebarang gejala serius yang lain—jangan tunggu. Dapatkan rawatan kecemasan sekarang."
+      },
+      "technology": {
+        "title": "Teknologi AI Kesihatan Termaju VirtualMD.app",
+        "description1": "VirtualMD.app menggunakan algoritma baharu yang dibangunkan oleh pasukan kami yang terdiri daripada pakar perubatan terlatih Harvard dan pakar AI untuk menyampaikan maklumat kesihatan yang sangat tepat. Persona pakar kesihatan AI kami dilatih tentang kesusasteraan kesihatan yang luas, garis panduan klinikal dan senario kesihatan dunia sebenar untuk memberikan cerapan yang mencerminkan pakar yang diperakui oleh lembaga.",
+        "description2": "Dalam perbandingan sebelah menyebelah terkawal untuk ketepatan diagnostik, sistem kami telah menunjukkan prestasi yang luar biasa, selalunya sepadan atau melebihi cerapan doktor berpengalaman. Persona AI kami boleh memproses beribu-ribu kertas penyelidikan kesihatan, garis panduan dan protokol klinikal dalam beberapa saat—mengakses pengetahuan melebihi apa yang boleh dikekalkan oleh mana-mana pakar kesihatan manusia.",
+        "description3": "Walaupun kami berusaha untuk ketepatan yang luar biasa dan pasukan kami terus menambah baik sistem, ubat adalah kompleks dan situasi kesihatan individu adalah unik. Itulah sebabnya kami telah mereka platform kami untuk menambah—bukan menggantikan—kepakaran tidak ternilai penyedia penjagaan kesihatan manusia."
+      },
+      "disclaimer": {
+        "title": "Gunakan Atas Risiko Anda Sendiri",
+        "description": "Maklumat yang diberikan oleh VirtualMD.app dan personas pakar kesihatan AInya adalah untuk tujuan maklumat dan pendidikan sahaja. Dengan menggunakan perkhidmatan ini, anda mengakui dan bersetuju bahawa:",
+        "points": {
+          "noDiagnosis": "VirtualMD.app tidak menyediakan diagnosis atau rawatan perubatan",
+          "mayContainErrors": "Kandungan yang dijana AI mungkin mengandungi ralat atau peninggalan walaupun proses pengesahan kami yang mantap",
+          "requiresEvaluation": "Nasihat perubatan memerlukan penilaian peribadi oleh penyedia penjagaan kesihatan berlesen",
+          "mayBeOutdated": "Maklumat kesihatan mungkin menjadi lapuk apabila pengetahuan perubatan berkembang",
+          "uniqueCircumstances": "Sejarah perubatan unik anda, keadaan dan keadaan memerlukan penilaian profesional"
+        },
+        "userResponsibility": "Walaupun VirtualMD.app menggunakan teknologi canggih untuk menyampaikan pandangan perubatan yang berharga, pengguna memikul semua tanggungjawab untuk cara mereka menggunakan maklumat ini.",
+        "missionStatement": "Pasukan VirtualMD.app telah membangunkan teknologi ini kerana kami percaya dalam mendemokrasikan akses kepada pengetahuan perubatan bertaraf dunia dan menyokong keputusan kesihatan yang lebih baik. Sistem AI kami mewakili kemajuan revolusioner dalam teknologi maklumat kesihatan yang, apabila digunakan dengan betul bersama penjagaan profesional, boleh membantu anda membuat pilihan kesihatan yang lebih termaklum dan mengadakan perbualan yang lebih produktif dengan penyedia penjagaan kesihatan anda. Tidak menggunakan teknologi canggih seperti itu apabila tersedia akan mendahului peluang untuk mengakses pengetahuan perubatan yang berpotensi mengubah hidup."
+      }
+    }
+  },
+  "patientInfoPage": {
+    "title": "Untuk Pengguna",
+    "subtitle": "Panduan kesihatan peribadi di hujung jari anda",
+    "description": "Maklumat terperinci tentang cara VirtualMD.app memberi manfaat kepada pesakit akan tersedia di sini tidak lama lagi."
+  },
+  "nurseInfoPage": {
+    "title": "Untuk Jururawat",
+    "subtitle": "Penjagaan pesakit yang dipertingkatkan AI dan sokongan keputusan klinikal",
+    "description": "Maklumat terperinci tentang cara VirtualMD.app memberi manfaat kepada jururawat akan tersedia di sini tidak lama lagi."
+  },
+  "pharmacistInfoPage": {
+    "title": "Untuk Ahli Farmasi",
+    "subtitle": "Pengurusan ubat dan pandangan interaksi ubat",
+    "description": "Maklumat terperinci tentang cara VirtualMD.app memberi manfaat kepada ahli farmasi akan tersedia di sini tidak lama lagi."
+  },
+  "physicianInfoPage": {
+    "title": "Untuk Pakar Perubatan",
+    "subtitle": "Sokongan keputusan klinikal dan bantuan diagnostik",
+    "description": "Maklumat terperinci tentang cara VirtualMD.app memberi manfaat kepada pakar perubatan akan tersedia di sini tidak lama lagi."
+  },
+  "medicalImageProcessingPage": {
+    "title": "Analisis Imej Kesihatan",
+    "subtitle": "Tafsiran pengimejan diagnostik berkuasa AI",
+    "description": "Analisis imej lanjutan untuk diagnosis perubatan yang tepat.",
+    "preset": "Pratetap",
+    "chooseImage": "Pilih Imej",
+    "process": "Proses",
+    "processedImage": "Imej Diproses"
+  },
+  "mentalHealthInfoPage": {
+    "title": "Sokongan Kesihatan Mental",
+    "subtitle": "Pemeriksaan dan sokongan kesihatan mental berbantukan AI",
+    "description": "Maklumat terperinci tentang cara VirtualMD.app memberi manfaat kepada pakar kesihatan mental akan tersedia di sini tidak lama lagi."
+  },
+  "wellnessPathwaysPage": {
+    "title": "Panduan Laluan Kesihatan",
+    "subtitle": "Perancangan perjalanan kesihatan peribadi",
+    "description": "Temui laluan anda ke arah kesihatan dan kesejahteraan yang optimum."
+  },
+  "yourHealthInYourHandsPage": {
+    "title": "Kesihatan Anda di Tangan Anda",
+    "subtitle": "Memperkasakan anda untuk mengawal kesihatan anda",
+    "description": "Alat dan cerapan untuk membantu anda membuat keputusan kesihatan termaklum.",
+    "mainHeading": "Kawal: Kesihatan Anda, Keputusan Anda, Perjalanan Anda",
+    "sections": {
+      "uniqueProfile": {
+        "title": "Fahami Profil Unik Anda",
+        "description1": "Dapatkan pandangan yang lebih mendalam tentang landskap kesihatan individu anda. Platform kami membantu anda menyambungkan titik dan memahami faktor yang menyumbang kepada kecergasan keseluruhan anda.",
+        "description2": "Terokai pelbagai aspek kesejahteraan anda, daripada corak gaya hidup kepada pilihan peribadi, semuanya di satu tempat."
+      },
+      "personalizedGoals": {
+        "title": "Tetapkan & Jejaki Matlamat Diperibadikan Anda",
+        "description1": "Tentukan maksud kesihatan kepada *anda*. Dengan VirtualMD.app, anda boleh menetapkan matlamat yang bermakna dan boleh dicapai dan menjejaki kemajuan anda sepanjang perjalanan. Kami menyediakan alat dan sokongan untuk membantu anda kekal bermotivasi dan meraikan kejayaan anda.",
+        "description2": "Sama ada meningkatkan tahap tenaga, meningkatkan tidur atau memupuk kejelasan mental, perjalanan anda adalah unik."
+      },
+      "diverseInsights": {
+        "title": "Akses Pelbagai Cerapan untuk Pilihan Termaklum",
+        "description1": "Ilmu adalah kuasa. Platform kami menawarkan akses kepada spektrum maklumat dan perspektif yang luas daripada panduan kesihatan AI kami yang pelbagai. Buat keputusan yang yakin berdasarkan pemahaman yang komprehensif, bukan hanya fakta terpencil.",
+        "description2": "Kami membantu anda menavigasi dunia maklumat kesihatan yang kompleks, supaya anda boleh memilih perkara yang sesuai untuk anda."
+      },
+      "proactivePartner": {
+        "title": "Rakan Kongsi Anda dalam Kesejahteraan Proaktif",
+        "description1": "VirtualMD.app adalah lebih daripada sekadar alat; kami adalah rakan kongsi anda dalam membina hubungan yang proaktif dan positif dengan kesihatan anda. Kami di sini untuk menyokong anda dengan sumber, cerapan dan pendekatan revolusioner untuk kesejahteraan peribadi.",
+        "description2": "Jadilah Revolusi dalam hidup anda sendiri. Mulakan perjalanan kesihatan anda yang diperkasakan hari ini."
+      }
+    },
+    "callToAction": {
+      "title": "Bersedia untuk meletakkan kesihatan anda di tangan anda?",
+      "description": "Terokai ciri kami, berbual dengan panduan kesihatan AI kami dan temui perbezaan yang boleh dilakukan oleh aplikasi VirtualMD.",
+      "buttons": {
+        "tryAsGuest": "Cuba sebagai Tetamu"
+      }
+    }
+  },
+  "aboutEncyclopediaPage": {
+    "title": "Ensiklopedia Kesihatan dan Kesejahteraan VirtualMD.app",
+    "p1": "Dalam dunia digital hari ini, kebanjiran maklumat kesihatan berada di hujung jari kita, tetapi membezakan nasihat yang boleh dipercayai daripada maklumat yang salah boleh menjadi sukar.",
+    "p2": "Ensiklopedia VirtualMD.app mengurangkan kebisingan, menawarkan cara revolusioner untuk melibatkan diri dengan kesejahteraan anda. Diintegrasikan secara unik ke dalam platform kami, ia membolehkan anda mengakses cerapan yang mendalam dan dirujuk daripada jurnal perubatan yang dihormati tanpa meninggalkan perundingan langsung anda dengan pasukan pakar AI kami.",
+    "p3": "Ini bukan sahaja enjin carian; ia merupakan komponen \"penyelidikan mendalam\" yang dilatih khas yang direka untuk menjadi sumber yang dipercayai anda semasa perbualan.",
+    "p4": "Bayangkan anda sedang berbual dengan pakar kardiologi dan pakar pemakanan AI kami membincangkan pengurusan kolesterol. Istilah \"statin\" disebut, dan anda ingin memahami lebih daripada sekadar asas. Daripada menghentikan perbincangan anda untuk mencari internet terbuka, anda boleh mengakses Ensiklopedia VirtualMD.app dengan serta-merta. Ia akan menyediakan ringkasan yang komprehensif, namun mudah difahami tentang cara statin berfungsi, faedahnya dan kesan sampingan yang berpotensi, dengan semua maklumat diperoleh daripada penerbitan semakan rakan sebaya seperti The Lancet atau New England Journal of Medicine."
+  },
+  "dataPrivacyPage": {
+    "title": "Privasi & Keselamatan Data",
+    "subtitle": "Data kesihatan anda dilindungi dengan standard keselamatan tertinggi",
+    "description": "Ketahui cara kami memastikan maklumat kesihatan peribadi anda selamat dan terjamin."
+  },
+  "encyclopediaPage": {
+    "title": "Ensiklopedia VirtualMD.app",
+    "subtitle": "Pengetahuan perubatan yang komprehensif di hujung jari anda",
+    "description": "Terokai pangkalan data kami yang luas tentang keadaan perubatan, rawatan dan maklumat kesihatan.",
+    "mainHeading": "Ensiklopedia VirtualMD.app",
+    "p1": "Selamat datang ke Ensiklopedia VirtualMD.app - panduan komprehensif anda untuk pengetahuan perubatan.",
+    "p2": "Ensiklopedia kami merangkumi pelbagai topik, keadaan dan rawatan kesihatan.",
+    "exampleTitle": "Topik Pilihan",
+    "exampleText": "Terokai topik kesihatan dan keadaan perubatan kami yang paling popular.",
+    "uniqueTitle": "Perkara yang Membuatkan Kami Unik",
+    "p3": "Ensiklopedia berkuasa AI kami menyediakan maklumat kesihatan berasaskan bukti yang diperibadikan."
+  },
+  "whyVirtualMDPage": {
+    "title": "Mengapa VirtualMD.app?",
+    "subtitle": "Masa depan penjagaan kesihatan yang diperibadikan ada di sini",
+    "description": "Temui perkara yang menjadikan platform kesihatan dikuasakan AI kami unik."
+  },
+  "landing": {
+    "tryItOut": "Cubalah",
+    "cards": {
+      "tryItOut": {
+        "tagline": "Tiada pendaftaran diperlukan."
+      }
+    }
+  },
+  "legalPage": {
+    "title": "Maklumat Undang-undang",
+    "subtitle": "Syarat Perkhidmatan, Dasar Privasi dan Notis Undang-undang",
+    "description": "Maklumat undang-undang penting tentang menggunakan VirtualMD.app."
+  },
+  "legal": {
+    "eligibility": {
+      "ageRequirement": "Untuk menggunakan Perkhidmatan VirtualMD.app, anda mesti berumur sekurang-kurangnya 18 tahun atau umur majoriti undang-undang dalam bidang kuasa anda, yang mana lebih besar. Jika anda menggunakan Perkhidmatan bagi pihak organisasi, anda mewakili dan menjamin bahawa anda mempunyai kuasa untuk mengikat organisasi tersebut pada Syarat ini, dan anda bersetuju untuk terikat dengan Syarat ini bagi pihak organisasi tersebut.",
+      "legalCapacity": "Anda juga mesti mempunyai kapasiti undang-undang untuk memasuki Syarat ini. Anda tidak boleh mengakses atau menggunakan Perkhidmatan jika anda dilarang daripada menerima perkhidmatan di bawah undang-undang yang terpakai atau sebelum ini telah digantung atau dialih keluar daripada Perkhidmatan oleh VirtualMD.",
+      "territorialRestrictions": "Akses kepada Perkhidmatan dari wilayah yang kandungan atau penggunaannya adalah menyalahi undang-undang adalah dilarang sama sekali. Pengguna bertanggungjawab untuk mematuhi semua peraturan, undang-undang dan peraturan tempatan berkenaan penggunaan Perkhidmatan mereka, termasuk yang berkaitan dengan kelakuan dalam talian dan kandungan yang boleh diterima."
+    },
+    "feesAndPayment": {
+      "currentlyFree": "Pada masa ini, akses kepada ciri asas Perkhidmatan VirtualMD.app disediakan secara percuma.",
+      "futureFeesNotice": "VirtualMD berhak untuk memperkenalkan bayaran untuk ciri tertentu, peringkat perkhidmatan atau Perkhidmatan secara keseluruhan pada masa hadapan. Sekiranya kami memperkenalkan bayaran, kami akan memberi anda notis awal tentang perubahan tersebut dan syarat pembayaran yang berkenaan. Penggunaan berterusan perkhidmatan berasaskan yuran anda selepas notis sedemikian membentuk persetujuan anda untuk membayar yuran yang berkenaan.",
+      "paymentTerms": "Sebarang syarat pembayaran yang dikemukakan kepada anda dalam proses menggunakan atau mendaftar untuk perkhidmatan berbayar dianggap sebagai sebahagian daripada Syarat ini."
+    },
+    "termination": {
+      "userTermination": "Anda boleh menamatkan akaun anda dan berhenti menggunakan Perkhidmatan pada bila-bila masa dengan mengikut arahan dalam Perkhidmatan atau menghubungi kami.",
+      "serviceTermination": "VirtualMD boleh, mengikut budi bicara mutlaknya, menggantung atau menamatkan akses anda kepada semua atau sebahagian daripada Perkhidmatan, dengan atau tanpa notis, atas sebarang sebab, termasuk, tanpa had, pelanggaran Terma ini. Sebab penamatan mungkin termasuk, tetapi tidak terhad kepada, ketidakaktifan yang berpanjangan, permintaan oleh penguatkuasa undang-undang atau agensi kerajaan lain, pemberhentian atau pengubahsuaian material Perkhidmatan, atau isu teknikal atau keselamatan yang tidak dijangka.",
+      "effectOfTermination": "Selepas penamatan, hak anda untuk menggunakan Perkhidmatan akan dihentikan serta-merta. Semua peruntukan Syarat yang mengikut sifatnya harus bertahan dalam penamatan akan kekal dalam penamatan, termasuk, tanpa had, peruntukan pemilikan, penafian waranti, indemniti, dan had liabiliti.",
+      "noLiability": "Kami tidak akan bertanggungjawab kepada anda atau mana-mana pihak ketiga untuk sebarang penamatan akses anda kepada Perkhidmatan."
+    },
+    "termsOfUse": {
+      "title": "Syarat Penggunaan",
+      "header": {
+        "company": "Laman Web VirtualMD.app",
+        "llc": "VirtualMD Technologies LLC"
+      },
+      "welcome": "Selamat datang ke VirtualMD.app (\"Perkhidmatan\", \"Tapak\"), dikendalikan oleh VirtualMD Technologies, LLC (\"VirtualMD\", \"kami\", \"kami\", \"kami\"). Syarat Penggunaan (\"Syarat\") ini mengawal akses anda kepada dan penggunaan tapak web, persona AI, kandungan dan perkhidmatan kami. Dengan mengakses atau menggunakan Perkhidmatan, anda bersetuju untuk terikat dengan Terma ini dan Dasar Privasi kami, yang digabungkan di sini dengan rujukan. Jika anda tidak bersetuju dengan Terma ini, jangan gunakan Perkhidmatan.",
+      "sections": {
+        "section1": {
+          "title": "Ikrar Privasi Data Kami",
+          "content": "Di VirtualMD.app, privasi dan keselamatan maklumat peribadi anda adalah yang terpenting. Kami komited untuk mengekalkan kerahsiaan dan integriti data yang anda amanahkan kepada kami. Platform kami direka bentuk dengan langkah keselamatan yang teguh untuk melindungi maklumat anda daripada akses, pendedahan, pengubahan dan pemusnahan yang tidak dibenarkan.",
+          "subsections": {
+            "": {
+              "content": "Data Tanpa Nama untuk Penambahbaikan:\nKami menggunakan data tanpa nama dan agregat yang ketat (dengan semua PII dialih keluar) untuk meningkatkan ketepatan, keberkesanan dan keselamatan model AI dan ciri platform kami. Ini tidak membenarkan pengenalan mana-mana pengguna individu."
+            }
+          }
+        },
+        "section2": {
+          "title": "Maklumat yang Kami Kumpul & Butiran Privasi Lain",
+          "content": "Maklumat yang Kami Kumpul\n   Kami mengumpul maklumat yang anda berikan terus kepada kami, maklumat yang kami kumpulkan secara automatik melalui penggunaan Perkhidmatan anda dan maklumat daripada sumber pihak ketiga.\n\nMaklumat Akaun: Apabila anda mendaftar, kami mengumpul maklumat seperti nama, alamat e-mel dan nombor telefon anda (untuk tujuan pengesahan).\nKandungan Pengguna: Kami mengumpul maklumat yang anda berikan semasa menggunakan Perkhidmatan, termasuk teks yang dimasukkan ke dalam antara muka sembang, maklumat profil (seperti senarai ubat, jika disediakan), dan maklum balas.\nMaklumat Penggunaan: Kami secara automatik mengumpul maklumat tentang interaksi anda dengan Perkhidmatan, seperti alamat IP, jenis penyemak imbas, maklumat peranti, sistem pengendalian, halaman yang dilihat, pautan yang diklik dan tarikh serta masa lawatan anda.\nKuki dan Teknologi Serupa: Kami menggunakan kuki dan teknologi penjejakan serupa untuk menjejak aktiviti pada Perkhidmatan kami dan menyimpan maklumat tertentu. Anda boleh mengarahkan penyemak imbas anda untuk menolak semua kuki atau menunjukkan apabila kuki sedang dihantar. Walau bagaimanapun, jika anda tidak menerima kuki, anda mungkin tidak boleh menggunakan beberapa bahagian Perkhidmatan kami.\n\nBagaimana Kami Menggunakan Maklumat\nKami menggunakan maklumat yang kami kumpulkan untuk pelbagai tujuan, termasuk untuk:\n\nMenyediakan, mengendalikan, menyelenggara dan menambah baik Perkhidmatan.\nMemproses transaksi dan menghantar maklumat berkaitan, termasuk pengesahan dan invois (jika berkenaan).\nHantar notis teknikal, kemas kini, makluman keselamatan dan sokongan serta mesej pentadbiran.\nBalas komen, soalan dan permintaan anda serta sediakan perkhidmatan pelanggan.\nBerkomunikasi dengan anda tentang produk, perkhidmatan, tawaran, promosi, ganjaran dan acara yang ditawarkan oleh VirtualMD dan lain-lain, dan berikan berita dan maklumat yang kami fikir akan menarik minat anda (tertakluk pada hak pilih keluar anda).\nPantau dan analisa trend, penggunaan dan aktiviti yang berkaitan dengan Perkhidmatan kami.\nMengesan, menyiasat, dan mencegah transaksi penipuan dan aktiviti haram lain dan melindungi hak dan harta VirtualMD dan lain-lain.\nPeribadikan dan perbaiki Perkhidmatan dan sediakan kandungan atau ciri yang sepadan dengan profil atau minat pengguna.\nTingkatkan ketepatan, keberkesanan dan keselamatan model AI dan ciri platform kami menggunakan data tanpa nama dan terkumpul.\nJalankan sebarang tujuan lain yang diterangkan kepada anda pada masa maklumat itu dikumpulkan.\n\nBagaimana Kami Berkongsi Maklumat\n\nDengan Vendor dan Penyedia Perkhidmatan: Kami mungkin berkongsi maklumat dengan vendor pihak ketiga, perunding dan penyedia perkhidmatan lain yang memerlukan akses kepada maklumat tersebut untuk menjalankan kerja bagi pihak kami (cth., penyedia pengehosan, penyedia analitik, pemproses pembayaran, pembekal AI AI yang dikonfigurasikan mengikut dasar penggunaan data kami).\nSebagai Maklum Balas kepada Proses Undang-undang: Kami mungkin mendedahkan maklumat jika dikehendaki berbuat demikian oleh undang-undang atau dengan niat baik bahawa tindakan sedemikian adalah perlu untuk mematuhi kewajipan undang-undang, melindungi dan mempertahankan hak atau harta VirtualMD, mencegah atau menyiasat kemungkinan salah laku berkaitan Perkhidmatan, melindungi keselamatan peribadi pengguna Perkhidmatan atau orang awam, atau melindungi daripada liabiliti undang-undang.\nDengan Persetujuan Anda: Kami mungkin berkongsi maklumat dengan persetujuan anda atau atas arahan anda.\nPemindahan Perniagaan: Kami mungkin berkongsi atau memindahkan maklumat berkaitan, atau semasa rundingan, sebarang penggabungan, penjualan aset syarikat, pembiayaan, atau pemerolehan semua atau sebahagian perniagaan kami oleh syarikat lain.\nData Terkumpul atau Tidak Dikenal pasti: Kami mungkin berkongsi maklumat terkumpul atau tidak dikenal pasti, yang tidak boleh digunakan secara munasabah untuk mengenal pasti anda.\n\nPilihan Privasi Anda\nMaklumat Akaun: Anda boleh mengemas kini, membetulkan atau memadam maklumat tentang anda pada bila-bila masa dengan melog masuk ke akaun anda atau menghubungi kami. Jika anda ingin memadamkan akaun anda, sila hubungi kami, tetapi ambil perhatian bahawa kami mungkin menyimpan maklumat tertentu seperti yang dikehendaki oleh undang-undang atau untuk tujuan perniagaan yang sah.\nPemadaman Data: Seperti yang dinyatakan di bawah Amalan Keselamatan, anda mempunyai alatan untuk memadamkan perbualan individu secara kekal atau keseluruhan akaun anda.\nKuki: Kebanyakan pelayar web ditetapkan untuk menerima kuki secara lalai. Jika anda mahu, anda biasanya boleh memilih untuk menetapkan penyemak imbas anda untuk mengalih keluar atau menolak kuki penyemak imbas.\nKomunikasi Promosi: Anda boleh menarik diri daripada menerima e-mel promosi daripada VirtualMD dengan mengikut arahan dalam e-mel tersebut. Jika anda menarik diri, kami masih boleh menghantar komunikasi bukan promosi kepada anda, seperti komunikasi mengenai akaun anda atau hubungan perniagaan kami yang berterusan.\n\nPengekalan Data\nKami menyimpan maklumat yang kami kumpulkan tentang anda selama yang diperlukan untuk tujuan yang kami kumpulkan pada asalnya, atau untuk tujuan perniagaan lain yang sah, termasuk untuk memenuhi kewajipan perundangan, kawal selia atau pematuhan kami yang lain. Kami menyimpan maklumat akaun selagi akaun anda aktif dan tempoh yang munasabah selepas itu sekiranya anda memutuskan untuk mengaktifkan semula Perkhidmatan. Data awanama dan agregat yang digunakan untuk penambahbaikan sistem boleh disimpan selama-lamanya.\n\nPemindahan Data Antarabangsa\nVirtualMD berpangkalan di Amerika Syarikat, dan kami memproses dan menyimpan maklumat di A.S. Jika anda berada di luar Amerika Syarikat, harap maklum bahawa maklumat yang kami kumpulkan akan dipindahkan ke, diproses dan disimpan di Amerika Syarikat. Undang-undang perlindungan data di A.S. mungkin berbeza daripada undang-undang di negara tempat tinggal anda. Dengan menggunakan Perkhidmatan, anda bersetuju dengan pemindahan maklumat anda ke A.S. dan penggunaan serta pendedahan maklumat anda seperti yang diterangkan dalam Dasar Privasi ini.\n\nPrivasi Kanak-kanak\nPerkhidmatan VirtualMD.app bertujuan untuk orang dewasa dan tidak ditujukan kepada kanak-kanak di bawah umur 13 tahun (atau umur yang berkaitan dengan persetujuan digital dalam bidang kuasa anda). Kami tidak mengumpul maklumat peribadi daripada kanak-kanak secara sengaja. Penggunaan Perkhidmatan oleh kanak-kanak adalah dilarang. Jika anda seorang ibu bapa atau penjaga dan percaya anak anda telah memberi kami maklumat secara tidak sah tanpa kebenaran anda, sila hubungi kami dengan segera di legal@virtualmd.app. Jika kami mengetahui bahawa kami telah mengumpul maklumat daripada kanak-kanak yang melanggar undang-undang yang terpakai, kami akan segera mengambil langkah untuk memadamkan maklumat tersebut.",
+          "subsections": {
+            "wemayshareinformationaboutyouasfollowsorasotherwisedescribedinthisprivacypolicy": {
+              "title": "Kami mungkin berkongsi maklumat tentang anda seperti berikut atau seperti yang dinyatakan dalam Dasar Privasi ini"
+            }
+          }
+        },
+        "section3": {
+          "title": "Had Liabiliti Berkenaan Keselamatan Data",
+          "content": "VirtualMD melaksanakan langkah keselamatan yang munasabah secara komersial, termasuk penyulitan dan protokol pengesahan (seperti yang diperincikan dalam Dasar Privasi kami), untuk melindungi maklumat yang anda berikan kepada Perkhidmatan. Walau bagaimanapun, tiada sistem keselamatan yang tidak dapat ditembusi.\n\nOleh itu, dengan menggunakan Laman ini, anda secara nyata mengakui dan bersetuju bahawa walaupun VirtualMD akan membuat usaha yang munasabah untuk melindungi data anda selaras dengan amalan perniagaan standard, KAMI TIDAK MENJAMIN KESELAMATAN MUTLAK MAKLUMAT ANDA. Anda bersetuju bahawa anda TIDAK BOLEH DAN TIDAK AKAN MENYAMAN ATAU MEMEGANG VirtualMD TECHNOLOGIES, LLC, AHLINYA, PEGAWAI, PENGARAH, PEKERJA, EJEN, ATAU PELESEN BERTANGGUNGJAWAB untuk sebarang kerosakan, kerugian, kos, atau perbelanjaan yang timbul daripada atau berkaitan dengan apa-apa capaian, pengubahan, penzahiran data anda yang tidak dibenarkan ( pelanggaran), dengan syarat VirtualMD telah melaksanakan langkah keselamatan yang munasabah. Penggunaan Perkhidmatan oleh anda merupakan penerimaan anda terhadap risiko ini."
+        },
+        "section4": {
+          "title": "Had Am Liabiliti",
+          "content": "SEJAUH YANG DIBENARKAN OLEH UNDANG-UNDANG YANG BERKENAAN, VirtualMD TECHNOLOGIES, LLC, AHLI, PEGAWAI, PENGARAH, PEKERJA, EJEN ATAU PELESEN TIDAK AKAN BERTANGGUNGJAWAB ATAS MANA-MANA ​​PIHAK TIDAK LANGSUNG, SAMPINGAN, KHAS, PIHAK SEPERTI DIORSEK. KEHILANGAN KEUNTUNGAN ATAU HASIL, SAMA ADA DITANGGUNG JAWAB SECARA LANGSUNG ATAU TIDAK LANGSUNG, ATAU SEBARANG KEHILANGAN DATA, PENGGUNAAN, MUHIBAH ATAU KERUGIAN TIDAK KETARA LAIN, HASIL DARIPADA:\n\nAKSES ANDA KE ATAU PENGGUNAAN ATAU KETIDAKPUPAYAAN UNTUK MENGAKSES ATAU MENGGUNAKAN PERKHIDMATAN;\nSEBARANG KELAKUAN ATAU KANDUNGAN MANA-MANA ​​PIHAK KETIGA TERHADAP PERKHIDMATAN, TERMASUK TANPA HAD, SEBARANG FITNAH, MENYALAHI ATAU KELAKUAN YANG TIDAK SAH PENGGUNA ATAU PIHAK KETIGA LAIN;\nSEBARANG KANDUNGAN YANG DIPEROLEHI DARIPADA PERKHIDMATAN; ATAU\nAKSES, PENGGUNAAN ATAU PERUBAHAN TANPA BOLEH TERHADAP PENGHANTARAN ATAU KANDUNGAN ANDA (TERMASUK PELANGGARAN DATA), WALAUPUN VirtualMD TELAH MELAKSANAKAN LANGKAH-LANGKAH KESELAMATAN YANG MENAWAN SEPERTI YANG DIGAMBARKAN DALAM TERMA INI DAN DASAR PRIVASI.\nSEJAUH YANG DIBENARKAN OLEH UNDANG-UNDANG, VirtualMD MENAFIKAN SEMUA WARANTI, TERSURAT ATAU TERSIRAT, TERMASUK, TETAPI TIDAK TERHAD KEPADA, WARANTI TERSIRAT KEBOLEH DAGANG, KESESUAIAN UNTUK TUJUAN TERTENTU, TAJUK DAN BUKAN PELANGGARAN.\n\nLIABILITI AGREGAT VirtualMD DAN sekutunya TIDAK AKAN MELEBIHI LEBIH BESAR DARI SERATUS DOLLAR A.S. (USD $100.00) ATAU JUMLAH YANG ANDA BAYAR VirtualMD, JIKA ADA, DALAM ENAM BULAN LEPAS UNTUK PERKHIDMATAN YANG MEMBERI TUNTUTAN.\n\nTertakluk kepada had liabiliti agregat di atas, dan walau apa pun peruntukan lain dalam Terma ini, remedi tunggal dan eksklusif anda untuk sebarang tuntutan yang timbul daripada atau berkaitan dengan Terma ini atau Perkhidmatan adalah terhad kepada pemulihan ganti rugi langsung yang sebenarnya ditanggung oleh anda. Kerosakan langsung tersebut ditakrifkan sebagai yuran yang anda bayar terus kepada VirtualMD untuk bahagian tertentu Perkhidmatan yang menimbulkan tuntutan dalam tempoh enam (6) bulan sejurus sebelum kejadian, dan boleh dipulihkan hanya setakat kerosakan tersebut secara langsung berpunca daripada salah laku yang disengajakan oleh VirtualMD atau kecuaian teruk dalam melaksanakan kewajipannya di bawah Terma ini. Untuk kejelasan, VirtualMD, ahli gabungannya, pemegang saham, pegawai, pengarah, pekerja dan ejen tidak akan bertanggungjawab ke atas apa-apa ganti rugi tidak langsung, sampingan, khas, berbangkit, atau punitif, yuran peguam atau kos, tanpa mengira teori liabiliti, walaupun jika timbul daripada pelanggaran Terma ini atau pelanggaran hak anda yang tidak dibenarkan, kecuali pengecualian larangan sedemikian adalah dilarang. undang-undang.\n\nHAD SUBSEKSYEN INI AKAN DIGUNAKAN KEPADA MANA-MANA ​​TEORI LIABILITI, SAMA ADA BERDASARKAN WARANTI, KONTRAK, STATUT, TORT (TERMASUK KECUAIAN), ATAU SEBAIKNYA, DAN SAMA ADA ATAU TIDAK VirtualMD TELAH DIMAKLUMKAN TENTANG KEMUNGKINAN KEMUNGKINAN KEMUNGKINAN SEMULA DI SINI DIDAPATI GAGAL TERHADAP TUJUAN PENTINGNYA.\n\nSESETENGAH BIDANG KUASA TIDAK MEMBENARKAN PENGECUALIAN WARANTI TERTENTU ATAU HAD ATAU PENGECUALIAN LIABILITI ATAS KEROSAKAN SAMPINGAN ATAU AKIBAT. OLEH ITU, BEBERAPA HAD DI ATAS MUNGKIN TIDAK BERKENAAN KEPADA ANDA."
+        },
+        "section5": {
+          "title": "Amalan Keselamatan VirtualMD.app",
+          "content": "Kami menggunakan strategi keselamatan berbilang lapisan:\n\nPengesahan Dua Faktor (2FA):\nWajib untuk semua akaun, memerlukan pengesahan melalui faktor kedua (cth., kod ke e-mel/telefon).\n\nPilihan Pengesahan Tiga Faktor (3FA):\nKeselamatan dipertingkat pilihan yang memerlukan kata laluan, kod e-mel, DAN kod SMS.\n\nLangkah-langkah ini menyediakan keselamatan akaun yang teguh, tetapi ingat tiada sistem yang 100% selamat.",
+          "subsections": {
+            "": {
+              "content": "Kawalan Akses:\nAkses kepada rekod pangkalan data pengguna oleh kakitangan dikawal ketat, terhad, dilog dan dikawal oleh dasar dalaman. Semak imbas rutin adalah dilarang."
+            }
+          }
+        },
+        "section6": {
+          "title": "Pertimbangan VirtualMD.app & HIPAA (Pengulangan)",
+          "content": "Seperti yang dinyatakan dalam Penafian, perkhidmatan VirtualMD.app am TIDAK mematuhi HIPAA untuk kes penggunaan Entiti Dilindungi / Rakan Kongsi Perniagaan yang melibatkan PHI tanpa BAA khusus. Walaupun kami melaksanakan keselamatan yang kukuh, perkhidmatan am kami beroperasi di bawah amalan keselamatan perniagaan standard, bukan keperluan khusus Peraturan Keselamatan HIPAA untuk PHI yang diuruskan oleh Entiti Yang Dilindungi.\n\nPengguna yang memerlukan pematuhan HIPAA yang ketat untuk PHI yang mereka uruskan tidak seharusnya menggunakan platform umum kami untuk tujuan sedemikian tanpa BAA. Pengguna tidak boleh memasukkan maklumat yang boleh dikesan kepada pesakit individu dalam konteks yang melanggar HIPAA tanpa kebenaran termaklum yang jelas dan mengakui status platform yang tidak mematuhi HIPAA untuk penggunaan tersebut."
+        },
+        "section7": {
+          "title": "Penggunaan Data oleh Pembekal Enjin AI Pihak Ketiga",
+          "content": "VirtualMD berintegrasi dengan pembekal model AI terkemuka (cth., OpenAI, Anthropic, Google).\n\nVirtualMD.app:\nKami hanya menggunakan data agregat tanpa nama untuk penambahbaikan sistem dalaman.\n\nPembekal API AI Pihak Ketiga:\nPenyedia utama yang diakses melalui API (seperti OpenAI, Anthropic) biasanya menyatakan dalam dasar mereka bahawa data yang diserahkan melalui API TIDAK digunakan untuk melatih model asas umum mereka. Kami mengkonfigurasi penggunaan perkhidmatan ini untuk menyelaraskan dengan pilihan memelihara privasi ini. Semak dasar khusus mereka untuk mendapatkan butiran.\n\nPeruntukan Undang-undang Lain\nPerubahan kepada Terma dan Dasar Ini\nVirtualMD berhak, mengikut budi bicara mutlak kami, untuk mengubah suai atau menggantikan Terma ini dan Polisi Privasi yang diperbadankan pada bila-bila masa. Jika semakan adalah penting, kami akan memberikan notis sekurang-kurangnya 30 hari sebelum sebarang syarat baharu berkuat kuasa, yang mungkin diberikan melalui e-mel ke alamat yang dikaitkan dengan akaun anda atau dengan menyiarkan notis pada Perkhidmatan.\n\nPerkara yang membentuk perubahan material akan ditentukan mengikut budi bicara kami sendiri.\n\nDengan terus mengakses atau menggunakan Perkhidmatan kami selepas sebarang semakan menjadi berkesan, anda bersetuju untuk terikat dengan syarat yang telah disemak. Jika anda tidak bersetuju dengan syarat baharu, anda tidak lagi dibenarkan untuk menggunakan Perkhidmatan dan harus menghentikan penggunaan serta-merta.\n\nAdalah menjadi tanggungjawab anda untuk menyemak Terma ini secara berkala untuk perubahan.\n\nPenamatan\nAnda boleh menamatkan akaun anda dan berhenti menggunakan Perkhidmatan pada bila-bila masa dengan mengikut arahan dalam Perkhidmatan atau menghubungi kami.\n\nVirtualMD boleh, mengikut budi bicara mutlaknya, menggantung atau menamatkan akses anda kepada semua atau sebahagian daripada Perkhidmatan, dengan atau tanpa notis, atas sebarang sebab, termasuk, tanpa had, pelanggaran Terma ini. Sebab penamatan mungkin termasuk, tetapi tidak terhad kepada, ketidakaktifan yang berpanjangan, permintaan oleh penguatkuasa undang-undang atau agensi kerajaan lain, pemberhentian atau pengubahsuaian material Perkhidmatan, atau isu teknikal atau keselamatan yang tidak dijangka.\n\nSelepas penamatan, hak anda untuk menggunakan Perkhidmatan akan dihentikan serta-merta. Semua peruntukan Syarat yang mengikut sifatnya harus bertahan dengan penamatan akan kekal dalam penamatan, termasuk, tanpa had, peruntukan pemilikan, penafian waranti, indemniti, dan had liabiliti.\n\nKami tidak akan bertanggungjawab kepada anda atau mana-mana pihak ketiga untuk sebarang penamatan akses anda kepada Perkhidmatan.\n\nUndang-undang yang Mentadbir dan Penyelesaian Pertikaian\nTerma ini dan penggunaan Perkhidmatan oleh anda akan dikawal oleh dan ditafsirkan mengikut undang-undang Komanwel Massachusetts, Amerika Syarikat, tanpa mengambil kira percanggahan prinsip undang-undangnya.\n\nAnda bersetuju bahawa sebarang tindakan undang-undang atau prosiding yang timbul daripada atau berkaitan dengan Syarat atau Perkhidmatan ini hendaklah dibawa secara eksklusif di mahkamah persekutuan atau negeri yang terletak di Suffolk County, Massachusetts, Amerika Syarikat. Anda dengan ini bersetuju dengan bidang kuasa eksklusif dan tempat mahkamah tersebut dan mengetepikan sebarang bantahan mengenai forum yang menyusahkan.\n\nVirtualMD mungkin, mengikut budi bicara mutlaknya, menghendaki anda menyerahkan sebarang pertikaian yang timbul daripada penggunaan Terma atau Perkhidmatan ini, termasuk pertikaian yang timbul daripada atau berkenaan tafsiran, pelanggaran, ketidaksahihan, ketidaksempurnaan, atau penamatannya, kepada timbang tara muktamad dan mengikat di bawah Peraturan Timbang Tara Persatuan Timbang Tara Amerika yang menggunakan undang-undang Massachusetts.\n\nMaklumat Hubungan\nJika anda mempunyai sebarang soalan tentang Terma ini atau Dasar Privasi, sila hubungi kami di: legal@virtualmd.app atau melalui halaman Hubungi Kami.\n\nMacam-macam\nKeseluruhan Perjanjian\nTerma ini dan Dasar Privasi kami membentuk perjanjian tunggal dan keseluruhan antara anda dan VirtualMD Technologies, LLC mengenai Perkhidmatan dan menggantikan semua pemahaman, perjanjian, representasi dan waranti terdahulu dan serentak, secara bertulis dan lisan, mengenai Perkhidmatan.\n\nKebolehpisahan\nJika mana-mana peruntukan Terma ini dianggap oleh mahkamah atau tribunal lain yang mempunyai bidang kuasa berwibawa sebagai tidak sah, menyalahi undang-undang, atau tidak boleh dikuatkuasakan atas sebarang sebab, peruntukan tersebut akan dihapuskan atau dihadkan pada tahap minimum supaya peruntukan yang selebihnya dalam Syarat akan terus berkuat kuasa dan berkesan sepenuhnya.\n\nPenepian\nTiada penepian oleh VirtualMD terhadap mana-mana terma atau syarat yang ditetapkan dalam Terma ini akan dianggap sebagai penepian lanjut atau berterusan bagi terma atau syarat tersebut atau penepian mana-mana terma atau syarat lain, dan sebarang kegagalan VirtualMD untuk menegaskan hak atau peruntukan di bawah Terma ini tidak akan menjadi penepian hak atau peruntukan tersebut.\n\nTugasan\nTerma ini, dan apa-apa hak serta lesen yang diberikan di bawah ini, tidak boleh dipindahkan atau diberikan oleh anda, tetapi mungkin diberikan oleh VirtualMD tanpa sekatan.\n\nTajuk\nTajuk bahagian yang digunakan di sini adalah untuk kemudahan sahaja dan tidak akan diberikan sebarang import yang sah.\n\nForce Majeure\nVirtualMD tidak akan bertanggungjawab ke atas sebarang kegagalan untuk melaksanakan kewajipannya di bawah ini di mana kegagalan tersebut berpunca daripada sebarang sebab di luar kawalan munasabah VirtualMD, termasuk, tanpa had, kegagalan atau kemerosotan mekanikal, elektronik atau komunikasi.\n\nKemas Kini Terakhir: 12 Mei 2025\n\nHubungi Kami\ninfo@virtualmd.app"
+        }
+      }
+    }
+  },
+  "dataPrivacyWhitepaper": {
+    "sections": {
+      "hero": "pengenalan",
+      "privacyPledge": "Ikrar Privasi Kami",
+      "securityLevels": "Memahami Keselamatan Data",
+      "hipaaDeepDive": "HIPAA Diterangkan",
+      "VirtualMDSecurity": "Amalan Keselamatan VirtualMD.app",
+      "hipaaConsiderations": "VirtualMD.app & HIPAA",
+      "userResponsibility": "Tanggungjawab Pengguna & Penggunaan Beretika",
+      "privacyScenarios": "Senario Privasi Praktikal & Pertimbangan Lanjutan",
+      "conclusion": "Kesimpulan & Pengambilan Utama"
+    },
+    "hero": {
+      "title": "VirtualMD.app: Privasi Data & Anda",
+      "subtitle": "Memahami Komitmen Kami terhadap Keselamatan Data Anda dan Pendekatan Kami terhadap Piawaian Maklumat Penjagaan Kesihatan, termasuk HIPAA."
+    },
+    "privacyPledge": {
+      "title": "1. Ikrar Privasi Data VirtualMD.app",
+      "intro": "Di VirtualMD.app, privasi dan keselamatan maklumat peribadi anda adalah yang terpenting. Kami komited untuk mengekalkan kerahsiaan dan integriti data yang anda amanahkan kepada kami. Platform kami direka bentuk dengan langkah keselamatan yang teguh untuk melindungi maklumat anda daripada akses, pendedahan, pengubahan dan pemusnahan yang tidak dibenarkan.",
+      "secureInfo": {
+        "title": "Kami berusaha untuk memastikan maklumat anda selamat.",
+        "description": "Kami menggunakan protokol penyulitan standard industri untuk data dalam transit dan dalam keadaan rehat, di samping seni bina keselamatan berbilang lapisan."
+      },
+      "noPersonalUse": {
+        "title": "Kami tidak menggunakan maklumat anda dengan cara yang boleh dikenal pasti secara peribadi untuk tujuan luaran tanpa kebenaran anda yang jelas.",
+        "description": "Interaksi langsung dan butiran peribadi anda adalah milik anda sahaja."
+      },
+      "neverSell": {
+        "title": "Kami tidak akan sekali-kali menjual maklumat peribadi anda kepada pihak ketiga.",
+        "description": "Kepercayaan anda tidak ternilai dan kami menyokongnya dengan memastikan data anda tidak dikomoditi."
+      },
+      "anonymizedData": {
+        "title": "Kami akan menggunakan data awanama anda untuk menambah baik sistem kami.",
+        "description": "Untuk meningkatkan ketepatan, keberkesanan dan keselamatan model AI dan ciri platform kami, kami menggunakan data yang telah dianonimkan dan diagregatkan dengan ketat. Ini bermakna semua maklumat pengenalan peribadi (PII) dialih keluar dan data digunakan dalam bentuk kolektif yang tidak membenarkan pengecaman mana-mana pengguna individu. Proses ini adalah penting untuk pembelajaran berterusan dan penambahbaikan perkhidmatan yang kami sediakan kepada semua pengguna."
+      }
+    },
+    "securityLevels": {
+      "title": "2. Memahami Tahap Keselamatan Data & HIPAA",
+      "accountSecurity": {
+        "title": "Tahap Keselamatan Akaun",
+        "description": "Keselamatan digital bergantung pada lapisan pengesahan untuk mengesahkan identiti pengguna. Ini sering dikategorikan sebagai faktor:",
+        "sfaTitle": "Pengesahan Faktor Tunggal (1FA):",
+        "sfaDescription": "Memerlukan hanya satu kategori kelayakan, biasanya kata laluan. Walaupun biasa, ini adalah kaedah paling selamat kerana kata laluan boleh dicuri, diteka atau dipecahkan.",
+        "tfaTitle": "Pengesahan Dua Faktor (2FA):",
+        "tfaDescription": "Memerlukan dua jenis bukti kelayakan yang berbeza daripada dua kategori yang berbeza (cth., sesuatu yang anda tahu seperti kata laluan, serta sesuatu yang anda ada seperti kod sekali dihantar ke telefon anda). Ini meningkatkan keselamatan dengan ketara.",
+        "mfaTitle": "Pengesahan Tiga Faktor (3FA) / Pengesahan Berbilang Faktor (MFA):",
+        "mfaDescription": "Memerlukan tiga atau lebih jenis bukti kelayakan yang berbeza. Contohnya, kata laluan (tahu), kod sekali sahaja melalui SMS (ada), dan imbasan biometrik seperti cap jari (adalah). Ini menawarkan tahap keselamatan yang sangat tinggi."
+      },
+      "hipaaHistory": {
+        "title": "Sejarah Ringkas dan Gambaran Keseluruhan HIPAA",
+        "p1": "Akta Mudah Alih dan Akauntabiliti Insurans Kesihatan 1996 (HIPAA) ialah undang-undang persekutuan Amerika Syarikat yang direka untuk melindungi maklumat kesihatan pesakit yang sensitif daripada didedahkan tanpa kebenaran atau pengetahuan pesakit. Ia juga bertujuan untuk meningkatkan kecekapan dan keberkesanan sistem penjagaan kesihatan.",
+        "p2Title": "Peraturan Utama HIPAA:",
+        "privacyRuleTitle": "Peraturan Privasi:",
+        "privacyRuleDescription": "Menetapkan piawaian kebangsaan untuk perlindungan maklumat kesihatan yang boleh dikenal pasti secara individu (Maklumat Kesihatan Dilindungi - PHI). Ia menangani penggunaan dan pendedahan PHI oleh 'entiti dilindungi.'",
+        "securityRuleTitle": "Peraturan Keselamatan:",
+        "securityRuleDescription": "Menetapkan piawaian kebangsaan untuk melindungi kerahsiaan, integriti dan ketersediaan PHI elektronik (ePHI). Ia memerlukan entiti dilindungi untuk melaksanakan perlindungan pentadbiran, fizikal dan teknikal.",
+        "breachRuleTitle": "Pelanggaran Peraturan Pemberitahuan:",
+        "breachRuleDescription": "Memerlukan entiti dilindungi dan rakan perniagaan mereka untuk memberikan pemberitahuan berikutan pelanggaran PHI tidak bercagar.",
+        "coveredEntitiesTitle": "Siapakah Entiti Yang Dilindungi?",
+        "coveredEntitiesDescription": "Peraturan HIPAA biasanya digunakan untuk pelan kesihatan, pusat penjelasan penjagaan kesihatan dan penyedia penjagaan kesihatan yang menjalankan transaksi penjagaan kesihatan tertentu secara elektronik (cth., doktor, klinik, hospital, farmasi, syarikat insurans).",
+        "hipaaMeaningTitle": "Apakah maksud HIPAA untuk Doktor dan Pesakit?",
+        "hipaaMeaningDescription": "Bagi doktor dan penyedia penjagaan kesihatan lain, HIPAA mewajibkan protokol yang ketat untuk mengendalikan data pesakit, memastikan ia digunakan hanya untuk tujuan yang dibenarkan (rawatan, pembayaran, operasi penjagaan kesihatan) atau dengan kebenaran pesakit. Bagi pesakit, HIPAA menyediakan hak ke atas maklumat kesihatan mereka, termasuk hak untuk memeriksa dan mendapatkan salinan rekod kesihatan mereka, dan untuk meminta pembetulan."
+      }
+    },
+    "VirtualMDSecurity": {
+      "title": "3. Amalan Keselamatan VirtualMD.app",
+      "intro": "VirtualMD.app menggunakan strategi keselamatan berbilang lapisan yang direka untuk melindungi akaun dan maklumat peribadi anda, mendapat inspirasi daripada amalan terbaik dalam keselamatan data. Walaupun kami beroperasi secara berbeza daripada penyedia penjagaan kesihatan tradisional dalam konteks HIPAA, kami menawarkan ciri keselamatan yang teguh untuk semua pengguna:",
+      "passwordEncryptionTitle": "Penyulitan Kata Laluan:",
+      "passwordEncryptionDescription": "Semua kata laluan pengguna disulitkan menggunakan algoritma pencincangan standard industri. Ini bermakna kami tidak menyimpan kata laluan teks biasa anda, memberikan lapisan keselamatan kritikal untuk kelayakan akaun anda.",
+      "twoFactorAuthTitle": "Pengesahan Dua Faktor (2FA):",
+      "twoFactorAuthDescription": "Kami mewajibkan 2FA untuk semua akaun. Ini memerlukan anda mengesahkan identiti anda menggunakan faktor kedua (biasanya kod yang dihantar ke e-mel atau telefon berdaftar anda) sebagai tambahan kepada kata laluan anda, dengan ketara mengurangkan risiko akses akaun tanpa kebenaran.",
+      "threeFactorAuthTitle": "Pilihan Pengesahan Tiga Faktor (3FA):",
+      "threeFactorAuthDescription": "Untuk keselamatan yang dipertingkatkan, VirtualMD.app menawarkan persediaan pengesahan tiga faktor pilihan. Jika didayakan, mengakses akaun anda memerlukan kata laluan anda, kod yang dihantar ke alamat e-mel berdaftar anda, DAN kod yang dihantar melalui SMS ke nombor telefon mudah alih anda yang disahkan. Ini mewujudkan halangan yang menggerunkan terhadap percubaan yang tidak dibenarkan untuk mengakses maklumat perubatan anda yang disimpan dalam platform kami.",
+      "dataEncryptionTitle": "Penyulitan Data:",
+      "dataEncryptionDescription": "Maklumat yang disimpan dalam akaun VirtualMD.app anda, termasuk data perbualan, disulitkan semasa rehat. Data yang dihantar antara peranti anda dan pelayan kami disulitkan dalam transit menggunakan protokol TLS/SSL.",
+      "permanentDeletionTitle": "Pemadaman Data Kekal:",
+      "permanentDeletionDescription": "Kami memperkasakan anda dengan kawalan ke atas data anda. Anda mempunyai keupayaan untuk memadamkan perbualan individu atau keseluruhan akaun anda secara kekal. Setelah dipadamkan, maklumat ini tidak boleh dipulihkan daripada sistem utama kami, selaras dengan prinsip pengecilan data dan kawalan pengguna.",
+      "outro": "Langkah-langkah ini menyediakan tahap keselamatan akaun yang setanding dengan perkhidmatan dalam talian utama yang mengendalikan data peribadi sensitif, bertujuan untuk memastikan akaun VirtualMD.app anda dan maklumat di dalamnya kekal peribadi dan di bawah kawalan anda."
+    },
+    "hipaaConsiderations": {
+      "title": "4. VirtualMD.app & Pertimbangan HIPAA",
+      "p1": "Memahami cara VirtualMD.app berinteraksi dengan Akta Mudah Alih dan Akauntabiliti Insurans Kesihatan (HIPAA) adalah penting untuk pengguna kami. Kami amat komited terhadap keselamatan dan privasi maklumat yang anda kongsi. Platform kami menggabungkan langkah keselamatan yang teguh, seperti yang diperincikan dalam bahagian \"Amalan Keselamatan VirtualMD.app\", termasuk penyulitan kuat untuk data semasa rehat dan dalam transit, Pengesahan Dua Faktor mandatori (2FA) dan Pengesahan Tiga Faktor pilihan (3FA).",
+      "p2": "Walau bagaimanapun, adalah penting untuk memahami bahawa VirtualMD.app, dalam perkhidmatan umum semasa yang dihadapi pengguna, TIDAK bertujuan untuk kes penggunaan yang memerlukan pematuhan HIPAA formal untuk input langsung, penyimpanan atau pemprosesan Maklumat Kesihatan Terlindung (PHI) oleh pengguna yang bertindak sebagai Entiti Dilindungi HIPAA atau Rakan Perniagaan mereka. Pengguna yang memerlukan pematuhan HIPAA yang ketat untuk PHI yang mereka uruskan tidak seharusnya menggunakan platform umum kami untuk tujuan sedemikian melainkan Perjanjian Bersekutu Perniagaan (BAA) khusus disediakan dengan VirtualMD.app untuk kes penggunaan khusus itu. Untuk perkhidmatan am, pengguna tidak boleh memasukkan sebarang maklumat yang boleh dikesan kembali kepada pesakit individu dalam konteks yang akan melanggar HIPAA, tanpa persetujuan termaklum yang jelas dan termaklum daripada pesakit itu yang mengakui penggunaan platform ini.",
+      "approachTitle": "Pendekatan Kami: Mengimbangi Pemperibadian AI Lanjutan dengan Privasi Data",
+      "p3": "Untuk memberikan anda nasihat kesihatan yang paling maju, peka konteks dan diperibadikan AI kami mampu, VirtualMD.app menggunakan sistem yang canggih di mana persona kesihatan AI kami boleh belajar daripada interaksi anda dan berkongsi konteks yang berkaitan antara satu sama lain. Pakar kesihatan peribadi AI anda, contohnya, direka bentuk untuk mengekalkan konteks merentas sesi dan dengan AI pakar yang berbeza untuk menawarkan pengalaman yang lebih padu dan pintar.",
+      "p4": "Pendekatan dipacu AI yang saling berkaitan ini bermakna bahawa enjin AI asas yang berbeza (yang mungkin dihoskan oleh penyedia seperti OpenAI, Anthropic, Google dan lain-lain) mungkin memproses segmen data perbualan anda yang tidak dikenal pasti atau nama samaran atau elemen maklumat profil anda sebagai sebahagian daripada penyampaian perkhidmatan ini. Walaupun kami mengkonfigurasi penggunaan API AI pihak ketiga ini untuk menghalang mereka daripada menggunakan data anda untuk melatih model am mereka (seperti yang diperincikan dengan lebih lanjut dalam bahagian \"Penggunaan Data oleh Pembekal Enjin AI Pihak Ketiga\") kami), sifat model AI teragih termaju ini berbeza daripada pengendalian data tradisional yang sering disilokan dalam sistem dalaman penyedia penjagaan kesihatan yang dibina untuk pematuhan ketat HIPAHIA.",
+      "p5": "Kami percaya pendekatan ini membolehkan kami menawarkan maklumat dan sokongan kesihatan dipacu AI yang tiada tandingan. Walau bagaimanapun, ia memerlukan pemahaman yang jelas: <strong style={{fontWeight: 'bold'}}>persekitaran pemperibadian dan pembelajaran antara AI yang canggih ini, dalam bentuk umum semasanya, melibatkan model pengendalian data yang berbeza daripada perlindungan dan prosedur operasi pentadbiran, fizikal dan teknikal khusus yang dimandatkan oleh HIPAA untuk Entiti Dilindungi</strong>yang menguruskan PHI.",
+      "p6": "Kami bekerja tanpa jemu untuk terus meningkatkan keselamatan data kami dan meneroka laluan ke arah penjajaran yang lebih baik dengan standard data khusus penjagaan kesihatan untuk pelbagai peringkat perkhidmatan atau tawaran. Dengan menggunakan perkhidmatan am VirtualMD.app, anda mengakui dan menerima baki semasa ini: memanfaatkan AI yang maju dan saling berkaitan untuk mendapatkan cerapan perubatan yang unggul melibatkan model pengendalian data yang berbeza berbanding penyedia penjagaan kesihatan tradisional yang beroperasi di bawah HIPAA.",
+      "informedDiscussionsTitle": "Memudahkan Perbincangan Termaklum",
+      "p7": "Jika pengguna, khususnya profesional penjagaan kesihatan, ingin membincangkan maklumat yang mungkin berkaitan dengan individu tertentu (pesakit), <strong style={{fontWeight: 'bold'}}>tanggungjawab</strong> pengguna adalah untuk memastikan mereka telah memperoleh semua persetujuan yang diperlukan dan sesuai dari segi undang-undang daripada individu tersebut. Persetujuan sedemikian mesti menyatakan dengan jelas pemahaman individu bahawa maklumat sedang dibincangkan pada platform yang, walaupun selamat, tidak beroperasi di bawah Perjanjian Bersekutu Perniagaan HIPAA rasmi dengan pengguna untuk interaksi khusus tersebut dan bahawa pengendalian data platform berbeza daripada sistem yang mematuhi HIPAA tradisional.",
+      "p8": "Pengguna yang ingin memindahkan maklumat yang dibincangkan di VirtualMD.app ke sistem formal yang mematuhi HIPAA (mis., Rekod Perubatan Elektronik doktor mereka) bertanggungjawab untuk melakukannya dengan selamat dan mengikut cara yang mematuhi semua peraturan yang berkenaan dan prosedur yang ditetapkan oleh pembekal mereka.",
+      "alignmentTitle": "Tempat Kami Sejajar dengan Prinsip HIPAA (Melebihi Keselamatan Umum)",
+      "userControlTitle": "Kawalan Pengguna & Pemadaman Data:",
+      "userControlDescription": "Kami menyediakan anda alat untuk mengakses dan memadamkan perbualan dan maklumat akaun anda secara kekal, selaras dengan prinsip pengecilan data dan hak individu yang sering ditekankan dalam peraturan privasi.",
+      "anonymizationTitle": "Anonimisasi untuk Penambahbaikan Sistem:",
+      "anonymizationDescription": "Penggunaan kami terhadap data teragregat tanpa nama untuk penambahbaikan sistem ialah amalan yang, apabila dilaksanakan dengan betul, merupakan pendekatan standard untuk meningkatkan perkhidmatan AI sambil melindungi privasi individu."
+    },
+    "userResponsibility": {
+      "title": "5. Tanggungjawab Pengguna & Penggunaan Beretika",
+      "intro": "VirtualMD.app menyediakan alatan AI yang berkuasa untuk mengakses maklumat perubatan dan terlibat dalam perbualan berkaitan kesihatan. Walaupun kami berusaha untuk ketepatan dan keselamatan, penggunaan platform kami yang bertanggungjawab adalah komitmen bersama. Dengan menggunakan VirtualMD.app, anda bersetuju untuk mematuhi garis panduan etika dan memahami keupayaan dan batasan platform.",
+      "agreementTitle": "Perjanjian Anda untuk Interaksi Beretika:",
+      "noReviewTitle": "Tiada Semakan Perbualan Peribadi:",
+      "noReviewDescription": "Untuk melindungi privasi anda, kakitangan VirtualMD.app tidak menyemak perbualan peribadi anda dengan persona AI kami secara rutin. Ini menekankan kepentingan penggunaan platform yang bertanggungjawab oleh anda.",
+      "prohibitedContentTitle": "Kandungan Terlarang - Memudaratkan Diri Sendiri atau Orang Lain:",
+      "prohibitedContentDescription": "Anda bersetuju untuk tidak menggunakan VirtualMD.app untuk mendapatkan maklumat atau panduan tentang cara membahayakan diri sendiri atau orang lain. Platform kami tidak direka untuk campur tangan krisis dalam senario sedemikian. Jika anda mengalami pemikiran untuk mencederakan diri sendiri atau mencederakan orang lain, sila hubungi perkhidmatan kecemasan atau hotline krisis dengan segera.",
+      "consultPractitionerTitle": "Rujuk Pengamal Penjagaan Kesihatan Anda:",
+      "consultPractitionerDescription": "VirtualMD.app ialah alat maklumat dan BUKAN pengganti nasihat perubatan profesional, diagnosis atau rawatan daripada pembekal penjagaan kesihatan yang berkelayakan. Sentiasa berunding dengan doktor anda atau pengamal kesihatan bertauliah lain untuk sebarang keadaan perubatan yang serius atau sebelum membuat sebarang keputusan yang berkaitan dengan kesihatan anda.",
+      "emergencySituationsTitle": "Situasi Kecemasan:",
+      "emergencySituationsDescription": "VirtualMD.app TIDAK BOLEH bertindak bagi pihak anda dalam keadaan kecemasan. Sebagai contoh, jika sistem mencadangkan anda menghubungi 911 atau pergi ke bilik kecemasan berdasarkan maklumat yang anda berikan, anda bertanggungjawab sepenuhnya untuk mengambil tindakan tersebut. Platform kami tidak mempunyai keupayaan untuk menghantar perkhidmatan kecemasan.",
+      "outro": "Pematuhan anda kepada garis panduan ini memastikan persekitaran yang selamat dan produktif untuk semua pengguna dan membantu mengekalkan integriti proses mencari maklumat."
+    },
+    "privacyScenarios": {
+      "title": "6. Senario Privasi Praktikal & Pertimbangan Lanjutan",
+      "scenario1Title": "Senario 1: Membincangkan Isu Kesihatan Sensitif",
+      "scenario1Question": "Anda bertanya: \"Saya ingin bertanya kepada pasukan AI VirtualMD.app tentang isu berkaitan kesihatan yang tidak selesa dan memalukan. Apakah yang melindungi saya?\"",
+      "scenario1Answer": "Jawapan Kami: Kami faham bahawa perbincangan kesihatan boleh menjadi sangat peribadi. Beberapa lapisan melindungi anda:",
+      "confidentialConvosTitle": "Perbualan Sulit:",
+      "confidentialConvosDescription": "Perbualan anda dengan persona AI kami direka bentuk untuk menjadi peribadi. Seperti yang dinyatakan dalam Ikrar Privasi kami, kakitangan VirtualMD.app tidak menyemak kandungan perbualan peribadi anda secara rutin.",
+      "dataEncryptionTitle": "Penyulitan Data:",
+      "dataEncryptionDescription": "Semua data perbualan disulitkan dalam transit (antara peranti anda dan pelayan kami menggunakan TLS/SSL) dan dalam keadaan rehat (apabila disimpan dalam pangkalan data kami).",
+      "accountSecurityTitle": "Keselamatan Akaun:",
+      "accountSecurityDescription": "Akaun anda dilindungi oleh kata laluan anda dan Pengesahan Dua Faktor (2FA) wajib, dengan pilihan untuk Pengesahan Tiga Faktor (3FA), menjadikan akses tanpa kebenaran kepada sejarah perbualan anda amat sukar.",
+      "deletionControlTitle": "Kawalan Pemadaman Data:",
+      "deletionControlDescription": "Anda mempunyai kuasa untuk memadamkan sebarang perbualan khusus atau keseluruhan akaun anda secara kekal pada bila-bila masa, dengan cara yang direka bentuk agar tidak dapat dipulihkan daripada sistem utama kami.",
+      "anonymizationTitle": "Anonimisasi untuk Penambahbaikan:",
+      "anonymizationDescription": "Hanya data awanama dan agregat (dilucutkan semua pengecam peribadi) digunakan untuk menambah baik model AI kami. Kandungan perbualan peribadi anda yang boleh dikenal pasti tidak digunakan untuk tujuan ini tanpa anonimasi sedemikian.",
+      "scenario1Outro": "Walaupun langkah-langkah ini memberikan perlindungan yang teguh, sentiasa ingat bahawa tiada sistem yang tidak boleh ditembusi. Kami menggalakkan pengguna untuk mengambil berat tentang maklumat yang mereka kongsi, sama seperti yang mereka lakukan dalam mana-mana komunikasi digital.",
+      "scenario2Title": "Senario 2: Menyimpan Maklumat Profil (cth., Ubat-ubatan)",
+      "scenario2Question": "Anda bertanya: \"Saya menggunakan ubat-ubatan tertentu dan ingin menyimpannya dalam profil saya supaya Pakar Kesihatan AI Carol akan mempunyai konteks untuk perbualan baharu. Bagaimanakah data saya dilindungi supaya hanya AI dan tiada manusia yang akan mendapat akses?\"",
+      "scenario2Answer": "Jawapan Kami: Menyimpan maklumat ubat dalam profil anda boleh meningkatkan kontekstual tindak balas AI. Begini cara data itu dilindungi:",
+      "profileSecurityTitle": "Keselamatan Data Profil:",
+      "profileSecurityDescription": "Seperti data perbualan anda, maklumat profil anda, termasuk senarai ubat-ubatan, dilindungi oleh langkah keselamatan akaun (kata laluan, 2FA/3FA) dan penyulitan (sedang rehat dan transit) yang sama.",
+      "accessControlsTitle": "Kawalan & Dasar Capaian Ketat:",
+      "accessControlsDescription": "Akses kepada rekod pangkalan data pengguna oleh kakitangan VirtualMD.app dikawal ketat, terhad kepada individu yang diberi kuasa untuk keperluan operasi atau sokongan tertentu (cth., membantu dengan isu akaun yang anda laporkan), dan dikawal oleh dasar privasi dalaman dan pengelogan. Semak imbas rutin data profil pengguna adalah dilarang.",
+      "aiAccessTitle": "Akses AI untuk Konteks:",
+      "aiAccessDescription": "Persona AI, seperti AI Health Expert Carol, mengakses bahagian profil anda yang berkaitan (seperti senarai ubat, jika anda telah memberikannya) secara pemrograman untuk memberikan respons kontekstual semasa perbualan anda. Akses ini adalah sebahagian daripada logik operasi AI untuk memberi perkhidmatan yang lebih baik kepada anda.",
+      "techNoteTitle": "Nota Teknikal: Penyulitan Data Perbualan",
+      "techNoteQuestion": "Anda bertanya: \"Adakah mungkin untuk berebut mesej supaya orang yang menjalankan syarikat itu tidak akan dapat membacanya (seperti kata laluan) tanpa kebenaran yang jelas?\"",
+      "techNoteP1": "Ini merujuk kepada konsep seperti penyulitan hujung ke hujung (E2EE) di mana hanya pengguna akhir yang memegang kunci penyahsulitan muktamad. VirtualMD.app menggunakan <strong style={{fontWeight: 'bold'}}>penyulitan semasa rehat</strong> yang teguh untuk semua data sensitif, termasuk sejarah perbualan dan maklumat profil anda, menggunakan algoritma standard industri yang kukuh. Ini bermakna data yang disimpan dalam pangkalan data kami disulitkan.",
+      "techNoteP2": "Walaupun pada masa ini kami tidak melaksanakan sistem E2EE kunci khusus pengguna untuk data perbualan yang menyebabkan pentadbir sistem yang diberi kuasa secara teknikalnya mustahil untuk menyahsulit (serupa dengan bilangan perkhidmatan awan yang beroperasi), akses kepada data yang disulitkan asas adalah sangat terhad, dilog dan dikawal oleh dasar keselamatan dalaman dan privasi yang ketat. Kakitangan kami dilarang mengakses kandungan perbualan peribadi anda kecuali dalam keadaan yang sangat khusus dan terkawal, seperti membalas permintaan sokongan langsung daripada anda mengenai perbualan tertentu atau seperti yang dikehendaki oleh undang-undang. Pendekatan ini mengimbangi keselamatan yang kukuh dengan keperluan operasi untuk menyelenggara dan menyokong platform.",
+      "techNoteP3": "Kata laluan akaun anda, bagaimanapun, dilayan secara berbeza: ia dicincang dan diasinkan, bermakna kami tidak pernah menyimpan kata laluan sebenar anda dan tidak boleh mendapatkannya semula.",
+      "thirdPartyDataTitle": "Penggunaan Data oleh Pembekal Enjin AI Pihak Ketiga",
+      "thirdPartyDataQuestion": "Anda juga bertanya: \"Adakah API untuk enjin AI yang kami gunakan boleh dilindungi daripada penggunaan untuk latihan oleh (a) VirtualMD.app (b) OpenAI, (c) Anthropic...dsb...? Atau adakah semuanya dilindungi priori secara lalai?\"",
+      "thirdPartyDataAnswer": "Ini adalah aspek kritikal pengendalian data kami:",
+      "VirtualMDTrainingTitle": "(a) VirtualMD.app:",
+      "VirtualMDTrainingDescription": "Seperti yang dinyatakan dalam Ikrar Privasi kami, kami hanya menggunakan data tanpa nama dan terkumpul untuk penambahbaikan dalaman dan latihan sistem proprietari dan logik penyelarasan AI kami. Data anda yang boleh dikenal pasti secara peribadi atau kandungan perbualan mentah tidak digunakan untuk tujuan ini tanpa anonimasi sedemikian.",
+      "thirdPartyTrainingTitle": "(b, c, dsb.) Pembekal API AI Pihak Ketiga (cth., OpenAI, Anthropic):",
+      "thirdPartyTrainingDescription": "VirtualMD.app memilih dan menyepadukan dengan teliti dengan pembekal model AI terkemuka. Untuk perkhidmatan yang diakses melalui API mereka (Antara Muka Pengaturcaraan Aplikasi), penyedia utama seperti OpenAI dan Anthropic mempunyai dasar penggunaan data yang biasanya menyatakan bahawa data yang diserahkan melalui API mereka TIDAK digunakan oleh mereka untuk melatih model asas umum mereka. Kami mengkonfigurasi penggunaan perkhidmatan ini untuk menyelaraskan dengan pilihan memelihara privasi ini. Kami menggalakkan anda untuk turut menyemak dasar penggunaan data penyedia AI asas ini jika anda mempunyai kebimbangan khusus.",
+      "outro": "Kami komited untuk memastikan bahawa interaksi anda bukan sahaja berwawasan tetapi juga dikendalikan dengan menghormati privasi anda di seluruh platform kami dan dengan rakan kongsi teknologi kami."
+    },
+    "conclusion": {
+      "title": "7. Kesimpulan & Pengambilan Utama",
+      "intro": "VirtualMD.app didedikasikan untuk memperkasakan pengguna dengan maklumat kesihatan yang boleh diakses dan difahami melalui AI lanjutan. Kami mengutamakan keselamatan data peribadi anda dengan langkah yang mantap termasuk pengesahan dan penyulitan berbilang faktor. Walaupun kami berusaha untuk mendapatkan piawaian tertinggi bagi perlindungan data, platform umum kami bukanlah pengganti perkhidmatan yang secara rasmi mematuhi HIPAA untuk penjagaan pesakit langsung oleh penyedia penjagaan kesihatan tertentu. Pengguna harus memahami perbezaan ini dan menggunakan VirtualMD.app secara bertanggungjawab dan beretika.",
+      "recapTitle": "Perkara Utama yang Perlu Diingati:",
+      "privacyPriorityTitle": "Privasi Anda adalah Keutamaan:",
+      "privacyPriorityDescription": "Kami melindungi data anda dan tidak akan menjual maklumat peribadi anda.",
+      "anonymizedDataTitle": "Data Tanpa Nama untuk Penambahbaikan:",
+      "anonymizedDataDescription": "Kami menggunakan data yang tidak boleh dikenal pasti untuk meningkatkan perkhidmatan AI dan platform kami.",
+      "accountSecurityTitle": "Keselamatan Akaun yang Teguh:",
+      "accountSecurityDescription": "Kami menawarkan 2FA (wajib) dan 3FA (pilihan) untuk perlindungan akaun, setanding dengan perkhidmatan dalam talian terkemuka.",
+      "dataControlTitle": "Kawalan Data:",
+      "dataControlDescription": "Anda boleh memadamkan perbualan dan akaun anda secara kekal.",
+      "hipaaConsiderationsTitle": "Pertimbangan HIPAA:",
+      "hipaaConsiderationsDescription": "Perkhidmatan am VirtualMD.app bukan Entiti Dilindungi HIPAA. Kami melindungi data tetapi berbeza daripada pematuhan HIPAA formal untuk penjagaan pesakit secara langsung dengan pembekal tertentu.",
+      "ethicalUseTitle": "Penggunaan Etika Diperlukan:",
+      "ethicalUseDescription": "Jangan gunakan untuk mencederakan diri sendiri/memudaratkan orang lain. Sentiasa berunding dengan profesional penjagaan kesihatan untuk keadaan yang serius. Kami tidak boleh menghantar perkhidmatan kecemasan.",
+      "outro": "Kami menggalakkan anda untuk menggunakan VirtualMD.app sebagai alat yang berkuasa untuk pembelajaran dan penerokaan, sentiasa bersama-sama dengan bimbingan daripada profesional penjagaan kesihatan yang berkelayakan. Pemahaman anda tentang dasar ini membantu kami mengekalkan platform yang selamat, terjamin dan berkesan untuk semua orang."
+    }
+  },
+  "imagingAIExplainer": {
+    "title": "Memahami AI dalam Gambar Kesihatan",
+    "subtitle": "Panduan ringkas tentang cara komputer membantu pakar kesihatan melihat dengan lebih jelas.",
+    "author": "Diterangkan oleh: Ron Rubin, PhD (VirtualMD.app Technologies)",
+    "whatIsImaging": {
+      "title": "Apakah Gambar Kesihatan (Pengimejan)?",
+      "intro": "Fikirkan pengimejan kesihatan seperti mengambil gambar di dalam badan anda. Pakar kesihatan menggunakan mesin khas untuk mencipta gambar ini, membantu mereka melihat tulang, organ, tisu dan saluran darah tanpa perlu melakukan pembedahan. Sebagai contoh, sinar-X sangat baik untuk melihat tulang untuk mencari patah, manakala imbasan CT memberikan pandangan yang lebih terperinci, keratan rentas organ seperti otak.",
+      "typesIntro": "Jenis biasa termasuk:",
+      "types": {
+        "xrays": "<strong>X-ray:</strong> Baik untuk melihat struktur padat seperti tulang.",
+        "ctScans": "<strong>Imbasan CT:</strong> Seperti sinar-X 3D yang sangat terperinci, menunjukkan \"hirisan\" badan.",
+        "mriScans": "<strong>Imbasan MRI:</strong> Menggunakan magnet berkuasa untuk mendapatkan gambar tisu lembut yang sangat jelas, seperti otak, otot atau ligamen.",
+        "ultrasound": "<strong>Ultrasound:</strong> Menggunakan gelombang bunyi untuk melihat organ dan, paling biasa, untuk memeriksa bayi semasa kehamilan.",
+        "microscope": "<strong>Slaid Mikroskop:</strong> Sampel tisu kecil dilihat di bawah mikroskop untuk mendiagnosis penyakit pada peringkat selular (Patologi).",
+        "eyePhotos": "<strong>Foto Mata:</strong> Foto khas bahagian dalam mata untuk disaring untuk keadaan seperti retinopati diabetik (Ophthalmology).",
+        "cameraScopes": "<strong>Pil/Skop Kamera:</strong> Kamera kecil digunakan untuk melihat ke dalam sistem pencernaan (Gastroenterologi)."
+      },
+      "outro": "Gambar-gambar ini ialah alat penting yang membantu pakar kesihatan mendiagnosis penyakit, menyemak keberkesanan rawatan atau menyaring masalah yang mungkin berlaku pada awal."
+    },
+    "whatIsAI": {
+      "title": "Apakah Kepintaran Buatan (AI)?",
+      "intro": "AI pada asasnya ialah sains mengajar komputer untuk melakukan tugas yang biasanya memerlukan kecerdasan manusia, seperti belajar daripada contoh, menyelesaikan masalah dan membuat keputusan. Dalam pengimejan kesihatan, kita boleh menganggap AI sebagai pembantu yang sangat pintar untuk pakar kesihatan.",
+      "process": "Ia menggunakan program komputer khas (algoritma) yang telah dilatih mengenai beribu-ribu, malah berjuta-juta, gambar perubatan. Dengan menganalisis jumlah data yang besar ini, AI belajar untuk mengesan corak halus—sesetengahnya sukar dilihat oleh mata manusia, atau corak yang menunjukkan kebarangkalian tinggi untuk penyakit tertentu. Proses asas ialah data (imej) dimasukkan ke dalam AI, yang kemudiannya menghasilkan cerapan, seperti menandakan kawasan yang mencurigakan."
+    },
+    "howAIHelps": {
+      "title": "Bagaimanakah AI Boleh Membantu dengan Gambar Kesihatan?",
+      "intro": "Penyelidikan saintifik kami menyerlahkan beberapa cara utama AI sudah membuat perubahan:",
+      "accuracy": {
+        "title": "Mencari Masalah Dengan Lebih Tepat",
+        "description": "Kadang-kadang, tanda-tanda awal penyakit boleh menjadi sangat halus dan mudah terlepas pada imbasan. AI boleh bertindak sebagai sepasang mata kedua yang berwaspada, memeriksa secara sistematik setiap bahagian imej dan menyerlahkan kawasan yang memerlukan pandangan yang lebih dekat. Sebagai contoh, AI mungkin melukis bulatan mengelilingi sekumpulan kecil sel pada mamogram yang boleh menjadi penunjuk awal kanser.",
+        "example": "<strong>Contoh:</strong> Dalam mamogram (X-ray payudara), satu kajian menunjukkan AI membantu mencari 29% lebih banyak kanser tanpa menandai lebih ramai pengguna yang sihat secara tidak betul. Dalam kolonoskopi (mencari ketumbuhan yang dipanggil polip), AI membantu pakar kesihatan mencari polip pra-kanser yang jauh lebih berpotensi dengan menyerlahkannya dalam masa nyata pada suapan video."
+      },
+      "speed": {
+        "title": "Mempercepatkan Perkara",
+        "description": "Membaca imej perubatan, terutamanya yang kompleks seperti imbasan CT seluruh badan, memerlukan banyak masa dan tumpuan. AI boleh mempercepatkan proses ini secara mendadak. Ia boleh pra-isih kes, membenderakan yang paling mendesak untuk semakan segera, atau mengendalikan tugas pemeriksaan rutin untuk membebaskan masa pakar.",
+        "example": "<strong>Contoh:</strong> Sistem AI untuk memeriksa foto mata untuk tanda-tanda kerosakan diabetes (retinopati diabetik) boleh memberikan hasil serta-merta di klinik penjagaan primer. Ini bermakna pesakit tidak perlu menunggu temu janji dengan pakar mata hanya untuk pemeriksaan, yang membawa kepada penjagaan yang lebih pantas untuk lebih ramai orang. Dalam satu lagi kajian besar, AI membantu mengurangkan masa yang dihabiskan oleh ahli radiologi untuk membaca mamogram sebanyak hampir separuh."
+      },
+      "consistency": {
+        "title": "Membuat Diagnosis Lebih Konsisten",
+        "description": "Malah di kalangan pakar, mungkin terdapat perbezaan kecil dan subjektif dalam cara sesuatu imej ditafsirkan. AI menyediakan analisis objektif yang standard setiap masa, yang membantu mengurangkan kebolehubahan ini.",
+        "example": "<strong>Contoh:</strong> Apabila melihat sampel tisu di bawah mikroskop (patologi), menentukan \"gred\" tumor yang tepat kadangkala boleh menjadi samar-samar. Sistem AI, dilatih berdasarkan data yang disahkan oleh panel pakar, boleh memberikan gred yang konsisten, memastikan keputusan lebih seragam dan boleh dipercayai merentas pakar dan kemudahan kesihatan yang berbeza."
+      }
+    },
+    "challenges": {
+      "title": "Adakah AI Sempurna?",
+      "intro": "Tidak, dan adalah penting untuk memahami batasannya. Walaupun AI berkuasa, terdapat cabaran penting untuk ditangani:",
+      "bias": "<strong>Keadilan dan Bias:</strong> AI hanya sebaik data yang dilatihnya. Jika ia hanya dilatih pada gambar daripada satu kumpulan orang, ia mungkin tidak berfungsi dengan baik untuk orang lain. Memastikan data latihan yang pelbagai adalah penting untuk mengelakkan berat sebelah.",
+      "uncommonCases": "<strong>Kes Luar Biasa:</strong> AI cemerlang dalam mengecam corak yang telah dilihat berkali-kali. Ia mungkin bergelut dengan penyakit yang jarang berlaku atau persembahan luar biasa yang belum dilatih.",
+      "teamwork": "<strong>Kepentingan Kerja Berpasukan:</strong> Pendekatan terbaik ialah kerjasama AI manusia. AI ialah alat untuk *membantu* pakar kesihatan dengan mengendalikan tugas intensif data, tetapi ia tidak menggantikan pengalaman, empati dan keupayaan mereka untuk memahami keseluruhan pengguna.",
+      "regulation": "<strong>Keselamatan dan Peraturan:</strong> Seperti mana-mana peranti kesihatan baharu, alatan AI memerlukan ujian yang ketat, pengesahan dan pemantauan berterusan untuk memastikan ia selamat, berkesan dan memberikan manfaat sebenar kepada pengguna.",
+      "outro": "Penyelidik dan pengawal selia bekerja keras untuk menangani cabaran ini. Matlamatnya adalah untuk mengintegrasikan AI ke dalam penjagaan kesihatan dengan selamat dan berkesan untuk meningkatkan hasil pesakit."
+    },
+    "conclusion": {
+      "title": "Secara ringkasnya",
+      "text": "AI menjadi rakan kongsi yang berharga dalam pengimejan kesihatan, membantu pakar kesihatan mencari penyakit lebih awal, lebih cepat dan lebih dipercayai. Ia seperti memberi pakar kesihatan penglihatan yang dipertingkatkan dan pembantu yang gigih untuk menyemak gambar yang kompleks, akhirnya membawa kepada penjagaan yang lebih baik untuk pengguna."
+    }
+  },
+  "mentalHealthWhitepaper": {
+    "title": "AI dalam Kesihatan Mental: Kemajuan, Cabaran dan Aplikasi Klinikal",
+    "authors": "Ron Rubin, PhD dan Sandy Miles",
+    "organization": "Teknologi VirtualMD.app",
+    "disclaimer": {
+      "title": "Penafian Penting",
+      "text": "Walaupun VirtualMD.app menawarkan teknologi AI termaju untuk penilaian dan bantuan kesihatan mental, adalah penting untuk memahami bahawa sistem AI kami, tanpa mengira kecanggihannya, BUKAN pengganti profesional kesihatan mental berlesen. Maklumat dan pandangan yang diberikan hendaklah sentiasa dinilai oleh penyedia penjagaan kesihatan yang berkelayakan. Dalam kecemasan kesihatan mental, sila dail 911 (AS), 999 (UK), 112 (EU), 101 (Israel), atau 911 (Kanada) dengan segera atau pergi ke jabatan kecemasan terdekat anda. Untuk sebarang kebimbangan kesihatan mental atau keputusan rawatan, sentiasa berunding dengan penyedia penjagaan kesihatan manusia yang berkelayakan. Teknologi VirtualMD.app direka untuk menambah dan menyokong penjagaan kesihatan mental profesional, bukan menggantikannya."
+    },
+    "abstract": {
+      "title": "Abstrak",
+      "text": "Kertas kerja ini mengkaji peranan kecerdasan buatan yang berkembang pesat dalam penjagaan kesihatan mental, menonjolkan kemajuan terkini, bukti keberkesanan dan cabaran pelaksanaan. Kami menyemak perkembangan merentas empat domain: sokongan diagnostik, aplikasi terapeutik, pemantauan pesakit dan analitik ramalan. Kajian klinikal terkini menunjukkan sistem AI boleh mencapai ketepatan 80-92% dalam mengesan kemurungan utama daripada corak linguistik dan biomarker suara, manakala algoritma penglihatan komputer boleh mengenal pasti risiko idea bunuh diri dengan sensitiviti 85% dengan menganalisis ekspresi muka dan pergerakan mikro. Model pemprosesan bahasa semula jadi yang dilatih mengenai perbualan terapeutik menunjukkan janji dalam menyampaikan prinsip terapi tingkah laku kognitif, dengan ujian terkawal rawak yang menunjukkan keberkesanan yang setanding dengan terapi manusia untuk kemurungan dan kebimbangan sederhana hingga sederhana (Journal of Medical Internet Research, 2022). Sistem pemantauan pasif berasaskan telefon pintar boleh mengesan tanda amaran awal berulang dalam penyakit mental yang serius sehingga 7 hari sebelum kemerosotan klinikal menjadi jelas (JAMA Psychiatry, 2021). Walaupun kemajuan ini, cabaran penting kekal, termasuk kecenderungan algoritma, pengesahan terhad merentas populasi yang pelbagai, kebimbangan privasi dan penyepaduan ke dalam aliran kerja klinikal sedia ada. Kami membincangkan pertimbangan etika, rangka kerja kawal selia dan metodologi penilaian untuk AI kesihatan mental. Walaupun teknologi AI menunjukkan janji yang besar untuk meluaskan akses kepada penjagaan kesihatan mental dan meningkatkan keberkesanan rawatan, teknologi tersebut mesti dibangunkan dan digunakan dalam rangka kerja komprehensif yang mengutamakan pengesahan klinikal, pertimbangan etika dan pelaksanaan berpusatkan manusia untuk benar-benar meningkatkan hasil kesihatan mental."
+    },
+    "introduction": {
+      "title": "pengenalan",
+      "text": "Beban penyakit mental membentangkan salah satu cabaran penjagaan kesihatan yang paling mendesak...",
+      "p1": "Beban penyakit mental membentangkan salah satu cabaran penjagaan kesihatan yang paling mendesak. Kira-kira satu daripada lima orang dewasa di seluruh dunia mengalami gangguan kesihatan mental setiap tahun, dengan kemurungan sahaja menjejaskan lebih 300 juta orang di seluruh dunia (WHO, 2022). Sementara itu, kekurangan tenaga kerja yang berterusan mengehadkan akses kepada penjagaan - Pertubuhan Kesihatan Sedunia menganggarkan kekurangan global sebanyak 1.18 juta profesional kesihatan mental. Jurang antara keperluan dan sumber yang ada ini telah mempercepatkan minat dalam penyelesaian berasaskan teknologi, terutamanya sistem kecerdasan buatan (AI) yang berpotensi meluaskan jangkauan dan keberkesanan perkhidmatan kesihatan mental.",
+      "p2": "Persimpangan AI dan kesihatan mental telah menunjukkan pertumbuhan yang luar biasa sepanjang dekad yang lalu. Daripada alat pemeriksaan automatik dan ejen perbualan kepada analisis ramalan untuk pencegahan berulang, aplikasi AI dalam psikiatri dan psikologi telah berkembang dengan mendadak. Evolusi ini telah didayakan oleh kemajuan dalam pemprosesan bahasa semula jadi, pembelajaran mesin, penglihatan komputer, dan percambahan peluang fenotaip digital melalui telefon pintar dan peranti boleh pakai.",
+      "p3": "Kesihatan mental memberikan cabaran dan peluang unik untuk pelaksanaan AI. Tidak seperti kebanyakan kepakaran perubatan, penilaian psikiatri banyak bergantung pada pelaporan subjektif, tingkah laku yang boleh diperhatikan, corak linguistik dan faktor kontekstual berbanding ujian makmal atau pengimejan. Ini sejajar dengan keupayaan AI yang semakin meningkat dalam pemahaman bahasa, pengecaman corak dalam data tingkah laku dan analisis multimodal ekspresi emosi.",
+      "p4": "Kertas kerja ini menyediakan semakan menyeluruh tentang aplikasi AI semasa dalam penjagaan kesihatan mental, meneliti asas bukti untuk keberkesanan, pendekatan metodologi, cabaran pelaksanaan dan pertimbangan etikanya. Kami mengatur analisis kami di sekitar empat domain utama: sistem sokongan diagnostik, aplikasi terapeutik, pemantauan pesakit dan analisis ramalan untuk perancangan rawatan. Dalam setiap bidang, kami menilai keadaan teknologi semasa, meringkaskan penemuan penyelidikan utama dan mengenal pasti jurang kritikal yang memerlukan penyiasatan lanjut.",
+      "p5": "Adalah penting untuk ambil perhatian bahawa walaupun terdapat kemajuan yang ketara, alat AI dalam kesihatan mental bertujuan untuk menambah, bukan menggantikan, doktor manusia. Perikatan terapeutik antara pesakit dan pembekal kekal sebagai pusat kepada penjagaan kesihatan mental yang berkesan. Aplikasi yang paling menjanjikan memanfaatkan AI untuk memperluaskan keupayaan penyedia, meningkatkan kecekapan, membolehkan campur tangan lebih awal, dan berpotensi meningkatkan akses kepada penjagaan berasaskan bukti untuk populasi yang kurang mendapat perkhidmatan."
+    },
+    "methods": {
+      "title": "Kaedah/Teknologi",
+      "text": "Sistem AI kontemporari dalam kesihatan mental menggunakan pendekatan metodologi yang pelbagai...",
+      "p1": "Sistem AI kontemporari dalam kesihatan mental menggunakan pendekatan metodologi yang pelbagai, masing-masing dengan kelebihan khusus untuk aplikasi klinikal yang berbeza. Asas teknikal utama termasuk pemprosesan bahasa semula jadi (NLP), pembelajaran mesin (ML), penglihatan komputer dan fenotaip digital.",
+      "p2": "Pemprosesan Bahasa Semulajadi (NLP) membentuk tulang belakang kepada banyak sistem AI kesihatan mental, membolehkan analisis kandungan linguistik dan corak komunikasi. Model berasaskan transformer lanjutan seperti BERT (Perwakilan Pengekod Dua Arah daripada Transformers) dan GPT (Generative Pre-trained Transformer) membolehkan sistem mentafsir naratif klinikal, transkrip sesi terapi dan teks yang dijana pesakit dengan pemahaman yang semakin canggih tentang konteks, sentimen dan kandungan psikologi. Model ini boleh mengenal pasti penanda linguistik yang dikaitkan dengan keadaan tertentu, seperti mengurangkan kerumitan sintaksis dalam kemurungan atau gangguan koheren semantik dalam gangguan psikotik. Sistem NLP klinikal yang paling maju diperhalusi pada korpora khusus kesihatan mental, termasuk nota klinikal tanpa nama, transkrip terapi dan instrumen penilaian psikologi yang disahkan.",
+      "p3": "Pendekatan Pembelajaran Mesin dalam klasifikasi terkawal kesihatan mental (untuk aplikasi diagnostik), pengelompokan tanpa seliaan (untuk mengenal pasti corak gejala baru), pembelajaran pengukuhan (untuk intervensi memperibadikan), dan semakin banyak pembelajaran mendalam untuk penyepaduan data berbilang mod. Data latihan biasanya termasuk penilaian klinikal berstruktur (cth., PHQ-9 untuk kemurungan, GAD-7 untuk kebimbangan), langkah tingkah laku, isyarat fisiologi dan data rekod kesihatan elektronik. Metodologi pengesahan biasanya menggunakan set pengesahan silang k-lipat dan ujian luaran, dengan prestasi dinilai menggunakan kepekaan, kekhususan, nilai ramalan positif/negatif dan kawasan di bawah lengkung ciri operasi penerima (AUC-ROC).",
+      "p4": "Aplikasi Penglihatan Komputer menganalisis ekspresi muka, corak motor dan tingkah laku bukan lisan yang dikaitkan dengan keadaan mental. Rangkaian saraf konvolusi dan model temporal (mis., rangkaian LSTM) boleh mengesan ekspresi mikro, corak pandangan dan perubahan psikomotor yang mungkin menunjukkan keadaan emosi atau manifestasi gejala. Sistem ini amat berharga untuk keadaan di mana pemerhatian tingkah laku membantu diagnosis, seperti gangguan spektrum autisme atau gejala katatonik dalam penyakit mental yang teruk.",
+      "p5": "Fenotaip Digital mewakili pendekatan baru yang memanfaatkan pengumpulan data pasif daripada telefon pintar dan peranti boleh pakai untuk mengenal pasti corak tingkah laku yang dikaitkan dengan keadaan mental. Sistem ini menganalisis data geolokasi, tahap aktiviti, corak tidur, kekerapan komunikasi sosial, dinamik menaip dan ciri suara untuk membina biomarker digital status kesihatan mental. Pendekatan ini membolehkan pemantauan ekologi berterusan di luar tetapan klinikal, yang berpotensi membenarkan pengesanan awal perubahan gejala.",
+      "p6": "Rangka kerja integrasi semakin menggabungkan pelbagai modaliti untuk penilaian yang lebih komprehensif. Sebagai contoh, sistem mungkin menganalisis kandungan linguistik bersama-sama akustik vokal dan ekspresi muka semasa temu bual klinikal untuk meningkatkan ketepatan diagnostik. Begitu juga, aplikasi terapeutik mungkin menyepadukan analisis sentimen pertukaran teks dengan data pemantauan pasif untuk memperibadikan masa dan kandungan intervensi.",
+      "p7": "Metodologi penilaian untuk sistem AI kesihatan mental termasuk metrik ketepatan diagnostik tradisional (sensitiviti, kekhususan, AUC), penilaian kebolehgunaan, dan semakin banyak, ukuran hasil klinikal daripada ujian prospektif. Piawaian emas untuk perbandingan berbeza mengikut aplikasi tetapi biasanya termasuk temu bual klinikal berstruktur, instrumen penilaian yang disahkan dan diagnosis konsensus doktor. Banyak kajian baru-baru ini menggunakan reka bentuk percubaan terkawal rawak untuk menilai penjagaan ditambah AI terhadap rawatan seperti biasa.",
+      "p8": "Pendekatan pengiraan memelihara privasi amat penting dalam aplikasi kesihatan mental memandangkan sifat data psikologi yang sensitif. Ini termasuk pembelajaran bersekutu (di mana model dilatih merentas berbilang tapak tanpa memusatkan data), teknik privasi pembezaan dan pengiraan berbilang pihak yang selamat. Kaedah ini membantu mengimbangi keperluan untuk set data latihan yang besar dan pelbagai dengan keperluan etika untuk perlindungan data."
+    },
+    "results": {
+      "title": "Keputusan",
+      "diagnosticSupport": {
+        "title": "AI dalam Sokongan Diagnostik",
+        "text": "Sistem AI telah menunjukkan keupayaan yang menjanjikan dalam menyokong diagnosis kesihatan mental...",
+        "p1": "Sistem AI telah menunjukkan keupayaan yang menjanjikan dalam menyokong diagnosis kesihatan mental merentasi beberapa keadaan. Alat ini menganalisis sumber data yang pelbagai termasuk temu bual klinikal, respons soal selidik, corak pertuturan, ekspresi muka dan tingkah laku digital untuk mengenal pasti ciri ciri gangguan psikologi.",
+        "p2": "Dalam pengesanan kemurungan, algoritma NLP yang menganalisis ciri linguistik telah mencapai kejayaan yang ketara. Kajian 2021 dalam Psikiatri JAMA menilai sistem NLP yang menganalisis respons teks percuma kepada gesaan piawai merentas 4,216 peserta. Sistem ini menunjukkan 87% sensitiviti dan 84% kekhususan untuk mengesan gangguan kemurungan utama jika dibandingkan dengan temu bual klinikal berstruktur. Ciri ramalan terutamanya termasuk penggunaan kata ganti nama tunggal orang pertama, kata emosi negatif dan kepelbagaian linguistik yang berkurangan. Apabila digabungkan dengan analisis akustik suara (menangkap ciri prosodik seperti variasi nada yang dikurangkan dan kadar pertuturan), ketepatan diagnostik meningkat kepada 92%.",
+        "p3": "Begitu juga, analisis automatik pola pertuturan dan bahasa telah menunjukkan keberkesanan dalam mengesan kecacatan kognitif. Dalam kajian pengesahan prospektif yang melibatkan 382 orang dewasa yang lebih tua, sistem AI yang menganalisis koheren semantik, kerumitan sintaksis dan ciri akustik semasa temu bual berstruktur ringkas mencapai ketepatan 85% dalam mengenal pasti gangguan kognitif ringan, setanding dengan ujian neuropsikologi ringkas tetapi hanya memerlukan sampel pertuturan selama 3 minit.",
+        "p4": "Untuk gangguan kebimbangan, sistem multimodal yang menggabungkan data fisiologi (kebolehubahan kadar denyutan jantung, aktiviti elektrodermal) dengan langkah tingkah laku telah menunjukkan utiliti tertentu. Sistem berasaskan boleh pakai memantau biomarker autonomi semasa tekanan piawai dengan betul mengklasifikasikan gangguan kebimbangan umum dengan ketepatan 83% dalam sampel 189 peserta, dengan pengesanan gangguan panik mencapai sensitiviti 88%.",
+        "p5": "Aplikasi penglihatan komputer telah menunjukkan janji untuk keadaan dengan komponen tingkah laku yang boleh diperhatikan. Sistem pembelajaran mendalam yang menganalisis ekspresi muka dan corak pergerakan semasa temu bual klinikal mengenal pasti gangguan spektrum autisme dengan ketepatan 86% pada kanak-kanak berumur 3-6 tahun, yang berpotensi membolehkan pemeriksaan awal dalam tetapan penjagaan primer. Begitu juga, analisis rakaman video daripada penilaian berstruktur telah menunjukkan ketepatan 82% dalam mengesan gangguan bipolar berdasarkan perbezaan halus dalam aktiviti motor dan ekspresi wajah semasa fasa manik berbanding kemurungan.",
+        "p6": "Pendekatan fenotaip digital, menganalisis data telefon pintar pasif, telah terbukti bernilai untuk pemantauan keadaan. Entropi lokasi (kebolehubahan dalam corak pergerakan), tempoh tidur, dan kekerapan komunikasi telah menunjukkan korelasi yang tinggi (r=0.71-0.84) dengan skala penarafan kemurungan piawai, membolehkan penilaian berterusan antara lawatan klinikal.",
+        "p7": "Yang penting, kerja baru-baru ini telah memberi tumpuan kepada menangani kecenderungan algoritma dan memastikan prestasi yang saksama merentas populasi yang pelbagai. Kajian pengesahan berskala besar bagi algoritma saringan kemurungan merentas 8,200 peserta daripada pelbagai latar belakang kaum dan sosioekonomi menunjukkan kekhususan pada mulanya lebih rendah (73% berbanding 89%) untuk peserta Kulit Hitam berbanding peserta kulit putih. Selepas penentukuran semula model dengan set latihan yang lebih pelbagai dan piawaian rujukan yang disesuaikan secara budaya, perbezaan prestasi telah dikurangkan dengan ketara, dengan kekhususan meningkat kepada 85% merentas semua kumpulan demografi.",
+        "p8": "Walaupun kemajuan ini, cabaran kekal dalam aplikasi diagnostik. Kebanyakan sistem telah disahkan terutamanya dalam tetapan penyelidikan terkawal dan bukannya persekitaran klinikal yang pelbagai. Tambahan pula, ramai yang memberi tumpuan kepada klasifikasi binari (kehadiran/ketiadaan sesuatu keadaan) dan bukannya pendekatan dimensi yang semakin digemari dalam amalan psikiatri moden. Usaha untuk menangani batasan ini termasuk pembangunan model transdiagnostik yang menilai dimensi gejala merentasi sempadan diagnostik tradisional, lebih mencerminkan realiti kompleks tekanan psikologi."
+      },
+      "therapeuticApplications": {
+        "title": "AI dalam Aplikasi Terapeutik",
+        "text": "Intervensi terapeutik berasaskan AI untuk kesihatan mental telah berkembang daripada sistem berasaskan peraturan mudah...",
+        "p1": "Intervensi terapeutik berasaskan AI untuk kesihatan mental telah berkembang daripada sistem berasaskan peraturan mudah kepada agen perbualan yang canggih yang mampu menyampaikan prinsip terapeutik berasaskan bukti. Aplikasi ini merangkumi spektrum daripada terapeutik digital automatik sepenuhnya kepada terapi manusia yang ditambah AI.",
+        "p2": "Sistem AI perbualan yang melaksanakan prinsip terapi tingkah laku kognitif (CBT) telah menjalani penilaian yang paling ketat. Dalam percubaan terkawal rawak mercu tanda yang diterbitkan dalam The Lancet Digital Health (2022), 1,032 peserta yang mengalami kemurungan sederhana telah ditugaskan untuk sama ada program CBT yang disampaikan AI atau rawatan seperti biasa. Sistem AI, yang melibatkan pengguna dalam perbualan berasaskan teks harian yang melaksanakan teknik CBT teras, menunjukkan pengurangan ketara secara statistik dalam skor kemurungan PHQ-9 pada 12 minggu berbanding kumpulan kawalan (perbezaan min -2.85 mata, 95% CI -4.07 hingga -1.63, p<0.001). Kesan rawatan dikekalkan pada susulan 6 bulan. Terutamanya, kadar pematuhan kepada program AI (68% melengkapkan protokol penuh) melebihi kadar biasa untuk campur tangan digital dipandu sendiri (biasanya 25-30%), mencadangkan antara muka perbualan meningkatkan penglibatan.",
+        "p3": "Untuk gangguan kecemasan, ejen perbualan serupa yang melaksanakan prinsip terapi pendedahan menunjukkan keberkesanan untuk gangguan kebimbangan umum dalam percubaan 688 peserta. Sistem ini, yang membimbing pengguna melalui hierarki pendedahan yang diperibadikan dengan perkembangan kesukaran menyesuaikan diri, mencapai pengurangan 25% lebih besar dalam skor GAD-7 berbanding kawalan senarai tunggu, dengan kesan yang setanding dengan CBT kumpulan yang diketuai ahli terapi pada penilaian selepas rawatan. Analisis keberkesanan kos menunjukkan kos campur tangan AI kira-kira satu perlima daripada terapi yang dihantar oleh manusia yang setara sambil memberikan manfaat klinikal yang serupa untuk kes ringan hingga sederhana.",
+        "p4": "Di luar gangguan mood dan kebimbangan, terapeutik AI telah menunjukkan janji untuk keadaan termasuk insomnia, gangguan tekanan selepas trauma dan gangguan penggunaan bahan. Sistem pembelajaran pengukuhan untuk gangguan penggunaan alkohol, yang menyampaikan pemesejan motivasi diperibadikan secara dinamik berdasarkan keadaan risiko yang dikesan, mengurangkan hari minum yang dilaporkan sendiri sebanyak 34% berbanding kandungan pendidikan statik dalam percubaan 3 bulan yang melibatkan 352 peserta. Keupayaan sistem untuk mengenal pasti masa campur tangan yang optimum berdasarkan data pemantauan pasif (cth., data lokasi yang menunjukkan kedekatan dengan lokasi yang kerap minum) nampaknya memacu keberkesanan unggulnya.",
+        "p5": "Pembesaran AI bagi terapi manusia juga telah menunjukkan nilai. Sistem bimbingan terapi yang menganalisis transkrip sesi untuk memberikan maklum balas pematuhan dan cadangan kepada ahli terapi meningkatkan kesetiaan protokol CBT sebanyak 32% dan dikaitkan dengan pengurangan gejala yang lebih besar (saiz kesan d=0.41) berbanding terapi tanpa penambahan dalam percubaan rawak. Ahli terapi melaporkan bahawa maklum balas AI membantu mengekalkan tumpuan pada teknik berasaskan bukti dan mengenal pasti peluang untuk campur tangan khusus yang mungkin telah terlepas."
+      },
+      "patientMonitoring": {
+        "title": "AI dalam Pemantauan Pesakit dan Pencegahan Relaps",
+        "text": "Aplikasi pemantauan berterusan mewakili domain yang sangat menjanjikan untuk AI dalam kesihatan mental...",
+        "p1": "Aplikasi pemantauan berterusan mewakili domain yang sangat menjanjikan untuk AI dalam kesihatan mental, membolehkan pengesanan perubahan gejala antara lawatan klinikal dan kemungkinan intervensi awal. Sistem ini biasanya memanfaatkan penderia telefon pintar, peranti boleh pakai dan interaksi pengguna untuk membina biomarker digital keadaan mental.",
+        "p2": "Untuk penyakit mental yang serius, termasuk skizofrenia dan gangguan bipolar, pengesanan tanda amaran awal telah menunjukkan utiliti klinikal yang ketara. Dalam kajian prospektif 12 bulan terhadap 304 individu dengan skizofrenia, sistem pemantauan berasaskan telefon pintar yang menganalisis corak pertuturan, tidur, mobiliti dan interaksi sosial mengesan 89% kambuhan psikotik secara purata 7.4 hari sebelum kemerosotan klinikal menjadi jelas semasa penjagaan rutin. Apabila disepadukan dengan protokol tindak balas klinikal, sistem ini mengurangkan kadar kemasukan ke hospital sebanyak 28% berbanding rawatan seperti biasa, mencadangkan manfaat yang besar untuk kedua-dua pesakit dan sistem penjagaan kesihatan.",
+        "p3": "Pendekatan yang sama telah menunjukkan keberkesanan dalam gangguan bipolar. Sistem multimodal yang menganalisis corak penaipan, akustik suara, tempoh tidur dan tahap aktiviti mengenal pasti permulaan episod manik dan kemurungan dengan ketepatan 82% dan 77% masing-masing, memberikan purata amaran awal 4-6 hari sebelum ambang klinikal dilalui. Apabila digunakan dengan sistem pemberitahuan doktor bersepadu dalam percubaan rawak 397 peserta, sistem pemantauan dikaitkan dengan tempoh episod yang lebih pendek dan mengurangkan keterukan gejala berbanding penjagaan standard.",
+        "p4": "Untuk pemantauan kemurungan, sistem menganalisis tingkah laku digital telah menunjukkan korelasi yang kuat dengan langkah-langkah gejala klinikal. Aplikasi penderiaan pasif yang mengumpul data mengenai corak penggunaan telefon pintar, aktiviti fizikal dan tingkah laku sosial menunjukkan korelasi 0.82 dengan skor PHQ-9 dalam kajian membujur 6 bulan terhadap 211 peserta dengan kemurungan berulang. Model pembelajaran mesin yang dilatih mengenai ciri tingkah laku ini meramalkan trajektori gejala dengan ketepatan yang mencukupi untuk membezakan penyelesaian berbanding kemurungan yang semakin teruk dalam 76% kes, yang berpotensi membolehkan campur tangan yang lebih tepat pada masanya.",
+        "p5": "Aplikasi pemantauan gangguan makan telah menggunakan fotografi makanan dengan analisis penglihatan komputer bersama data tingkah laku untuk mengesan gejala dan tingkah laku berisiko tinggi. Dalam kajian rintis terhadap 157 individu yang menghidap bulimia nervosa, sistem AI yang menganalisis kandungan makanan, corak pemakanan dan penunjuk tingkah laku pampasan dengan betul mengenal pasti 83% kejadian berulang berdasarkan biomarker digital sahaja, berbanding dengan langkah lapor diri. Penyepaduan dengan campur tangan penyesuaian tepat pada masanya menunjukkan bukti awal untuk mengurangkan episod binge-purge dengan memberikan sokongan pada titik keputusan kritikal.",
+        "p6": "Di seluruh aplikasi ini, penglibatan pengguna dan kebimbangan privasi telah menjadi cabaran utama. Kajian yang melaksanakan perkongsian data dikawal pengguna, penjelasan algoritma yang telus dan demonstrasi faedah yang jelas telah mencapai kadar penglibatan berterusan tertinggi, dengan sehingga 71% peserta meneruskan penggunaan biasa selama 6+ bulan. Terutama, kebimbangan mengenai privasi nampaknya dapat dikurangkan apabila pengguna merasakan manfaat kesihatan yang konkrit dan mengekalkan kawalan ke atas penggunaan data."
+      }
+    },
+    "discussion": {
+      "title": "Perbincangan",
+      "text": "Kajian kami terhadap bukti semasa menunjukkan bahawa aplikasi AI dalam kesihatan mental telah berkembang daripada kemungkinan teori kepada alat yang disahkan secara klinikal dengan kesan yang boleh diukur pada ketepatan penilaian, penyampaian rawatan dan pemantauan keadaan. Beberapa tema utama muncul daripada penemuan kolektif.\n\nPertama, pendekatan multimodal secara konsisten mengatasi sistem modaliti tunggal merentas aplikasi. Penyepaduan analisis linguistik, pemantauan tingkah laku, isyarat fisiologi, dan maklumat kontekstual mencipta gambaran keadaan mental yang lebih komprehensif daripada sebarang ukuran individu. Ini mencerminkan keadaan kesihatan mental yang kompleks dan pelbagai rupa, yang nyata merentas domain kognitif, emosi, tingkah laku dan fisiologi. Pembangunan masa depan harus terus menekankan penyepaduan sumber data pelengkap dalam rangka kerja penilaian yang koheren.\n\nKedua, bukti menyokong model hibrid di mana AI menambah dan bukannya menggantikan doktor manusia. Pelaksanaan yang paling berjaya meletakkan AI sebagai pengganda kuasa untuk kepakaran klinikal—memperluaskan jangkauan, meningkatkan kecekapan, membolehkan penilaian yang lebih berterusan dan menyokong amalan berasaskan bukti. Perikatan terapeutik antara pesakit dan pembekal kekal sebagai pusat kepada penjagaan kesihatan mental yang berkesan, dan teknologi kelihatan paling berkesan apabila meningkatkan dan bukannya cuba menggantikan hubungan ini.\n\nKetiga, pemperibadian muncul sebagai faktor kritikal dalam keberkesanan. Keadaan kesihatan mental menunjukkan kepelbagaian yang ketara dalam persembahan, perkembangan, dan tindak balas rawatan. Sistem AI yang mampu menyesuaikan diri dengan profil simptom individu, pilihan peribadi dan corak tindak balas telah menunjukkan hasil yang lebih baik berbanding pendekatan satu saiz untuk semua. Ini sejajar dengan pergerakan yang lebih luas ke arah psikiatri ketepatan, di mana campur tangan disesuaikan dengan profil biopsikososial individu.\n\nDi sebalik perkembangan yang menjanjikan ini, cabaran penting kekal dalam menterjemah kemajuan penyelidikan ke dalam amalan klinikal. Batasan utama termasuk:\n\nKebimbangan bias algoritma dan kebolehgeneralisasian: Banyak sistem telah dibangunkan dan disahkan pada populasi yang agak homogen, menimbulkan persoalan tentang prestasi merentas kumpulan demografi yang pelbagai. Bukti awal mencadangkan beberapa algoritma menunjukkan prestasi yang berbeza merentas konteks budaya, jantina dan latar belakang kaum/etnik. Walaupun kerja baru-baru ini telah mula menangani jurang ini melalui lebih banyak data latihan yang mewakili dan piawaian rujukan bermaklumat budaya, memastikan prestasi yang saksama kekal sebagai cabaran yang berterusan.\n\nBukti membujur terhad: Walaupun kajian jangka pendek menunjukkan hasil yang menjanjikan, terdapat kekurangan data susulan jangka panjang tentang penglibatan yang berterusan, kesan rawatan yang tahan lama dan kemungkinan akibat yang tidak diingini daripada campur tangan AI. Sifat teknologi AI yang berkembang pesat mengatasi garis masa tradisional untuk penyelidikan klinikal membujur, mewujudkan jurang bukti yang berterusan.\n\nCabaran penyepaduan: Halangan teknikal, aliran kerja dan budaya merumitkan penyepaduan alatan AI ke dalam sistem klinikal sedia ada. Pelaksanaan yang berjaya memerlukan perhatian kepada aliran kerja doktor, penyepaduan dengan rekod kesihatan elektronik, peranan dan tanggungjawab yang jelas, rangka kerja liabiliti dan model pembayaran balik. Kemajuan teknikal yang paling menarik mungkin gagal merealisasikan potensi mereka tanpa perhatian yang teliti terhadap faktor pelaksanaan ini.\n\nPrivasi dan pertimbangan keselamatan: Data kesihatan mental adalah antara maklumat peribadi yang paling sensitif. Walaupun pendekatan teknikal seperti pembelajaran bersekutu dan privasi pembezaan membantu menangani kebimbangan ini, rangka kerja tadbir urus komprehensif untuk pengawasan data yang bertanggungjawab dalam AI kesihatan mental masih kurang dibangunkan. Mengimbangi faedah pendekatan dipacu data dengan perlindungan privasi yang teguh mewakili cabaran yang berterusan.\n\nKetidakpastian kawal selia: Landskap kawal selia untuk AI dalam kesihatan mental masih berkembang. Rangka kerja semasa yang direka untuk peranti perubatan tradisional mungkin tidak menangani dengan secukupnya ciri unik sistem AI adaptif yang terus belajar dalam penggunaan. Membangunkan piawaian pengesahan yang sesuai, keperluan pemantauan, dan protokol kemas kini untuk sistem pembelajaran akan menjadi penting untuk inovasi yang bertanggungjawab.\n\nWalau apa pun cabaran ini, bukti menyokong pembangunan berterusan dan pelaksanaan aplikasi AI yang berhati-hati yang menunjukkan manfaat klinikal, langkah keselamatan yang sesuai dan perhatian terhadap pertimbangan etika. Potensi untuk meluaskan akses kepada penjagaan kesihatan mental—terutamanya bagi populasi yang kurang mendapat layanan yang menghadapi kekurangan penyedia—membentangkan rasional yang menarik untuk inovasi berterusan dalam bidang ini."
+    },
+    "conclusion": {
+      "title": "Kesimpulan",
+      "text": "Aplikasi kecerdasan buatan dalam kesihatan mental telah berkembang dengan ketara sepanjang dekad yang lalu, beralih daripada konsep teori kepada alat yang disahkan secara klinikal dengan keberkesanan yang ditunjukkan merentasi sokongan diagnostik, penghantaran terapeutik, pemantauan pesakit dan analisis ramalan. Bukti yang disemak dalam kertas ini menunjukkan teknologi ini mempunyai potensi tulen untuk menangani cabaran kritikal dalam penjagaan kesihatan mental, termasuk had akses, kekangan sumber, dan keperluan untuk pendekatan yang lebih berterusan dan diperibadikan untuk penilaian dan campur tangan.\n\nBeberapa prinsip utama harus membimbing pembangunan dan pelaksanaan masa depan. Pertama, AI harus menambah dan melanjutkan kepakaran klinikal manusia dan bukannya cuba menggantikan hubungan terapeutik yang penting antara pembekal dan pesakit. Kedua, pendekatan multimodal yang menyepadukan sumber data yang pelbagai memberikan gambaran status kesihatan mental yang paling komprehensif dan tepat. Ketiga, keupayaan pemperibadian yang menyesuaikan diri dengan keperluan, keutamaan dan corak tindak balas individu adalah penting untuk mencapai hasil yang optimum. Keempat, perhatian yang teliti terhadap keadilan algoritma, pengesahan telus merentas populasi yang pelbagai, dan pemantauan berterusan untuk potensi berat sebelah adalah penting untuk pelaksanaan yang saksama.\n\nWalaupun cabaran penting kekal—termasuk penyepaduan ke dalam aliran kerja klinikal, perlindungan privasi, rangka kerja kawal selia dan pembangunan bukti jangka panjang—manfaat berpotensi menjamin penyelidikan berterusan dan pelaksanaan klinikal yang berhati-hati bagi sistem yang disahkan dengan baik. Jurang rawatan kesihatan mental yang menjejaskan berjuta-juta orang di seluruh dunia memerlukan pendekatan inovatif yang boleh meluaskan jangkauan penjagaan berasaskan bukti.\n\nMelihat ke hadapan, kami menjangkakan beberapa hala tuju yang menjanjikan untuk bidang tersebut. Penyepaduan data genomik dan data biologi lain dengan langkah tingkah laku dan psikologi mungkin membolehkan pencirian profil risiko individu dan peramal tindak balas rawatan yang lebih tepat. Pendekatan pembelajaran bersekutu yang membolehkan pembangunan model merentas institusi tanpa memusatkan data sensitif boleh menangani kebimbangan privasi sambil membolehkan set latihan yang lebih pelbagai dan mewakili. Model kerjasama AI-manusia baru yang mengoptimumkan kekuatan masing-masing doktor dan kecerdasan buatan mungkin menghasilkan hasil yang lebih baik berbanding sama ada sahaja.\n\nMemandangkan teknologi ini terus berkembang, mengekalkan perspektif yang seimbang adalah penting—mengakui kedua-dua potensi besar AI untuk meningkatkan penjagaan kesihatan mental dan kepentingan asas hubungan manusia, kebijaksanaan klinikal dan pendekatan berpusatkan orang. Dengan pembangunan yang bertimbang rasa, pengesahan yang rapi dan pelaksanaan yang teliti, AI berpotensi untuk menjadi alat yang berharga dalam menangani beban global penyakit mental dan memajukan matlamat menjadikan penjagaan kesihatan mental yang berkesan dapat diakses oleh semua yang memerlukannya."
+    }
+  },
+  "whyVirtualMD": {
+    "sections": {
+      "hero": {
+        "title": "VirtualMD.app",
+        "subtitle": "Buka kunci potensi kesihatan anda dengan VirtualMD.app. Rujuk panduan AI yang terlatih dalam Kesejahteraan Barat, Kesejahteraan Tradisional Cina dan seni kesihatan lain—semuanya dalam satu perbualan. Dapatkan cerapan yang diperibadikan 24/7 dan kawal kesihatan anda. Ini adalah penjagaan kesihatan, dibayangkan semula."
+      },
+      "whyUs": {
+        "title": "Mengapa Pilih VirtualMD.app untuk Perjalanan Kesihatan Anda?",
+        "points": {
+          "personalTeam": {
+            "title": "Pasukan Peribadi Anda",
+            "text": "Pilih pasukan penasihat kesihatan AI anda. Dapatkan cerapan daripada Western Wellness, Traditional Chinese Wellness dan kepakaran kesihatan pelengkap."
+          },
+          "aiNavigator": {
+            "title": "Navigator Peribadi Dikuasakan AI Anda",
+            "text": "Navigator kesihatan AI peribadi anda membimbing anda kepada cerapan dan strategi kesihatan yang paling relevan, menterjemahkan cerapan daripada penasihat AI khusus kami kepada nasihat yang boleh diambil tindakan untuk anda."
+          },
+          "empoweringChoices": {
+            "title": "Memperkasakan Pilihan Kesihatan",
+            "text": "Dapatkan perspektif yang jelas dan boleh diambil tindakan, memperkasakan anda untuk membuat keputusan termaklum demi kesejahteraan anda."
+          },
+          "easyToUse": {
+            "title": "Lebih Mudah Digunakan",
+            "text": "Platform kami direka untuk interaksi intuitif. Berhubung dengan panduan AI dan terokai laluan kesihatan tanpa kerumitan."
+          },
+          "advancedTechnology": {
+            "title": "Teknologi Maju Revolusi",
+            "text": "Alami perisian canggih kami, yang direka untuk memaksimumkan sinergi antara rasa ingin tahu manusia dan cerapan kesihatan dipacu AI."
+          }
+        }
+      },
+      "features": {
+        "title": "Ciri Platform Utama",
+        "points": {
+          "dynamicEnsemble": {
+            "title": "Ensemble AI Dinamik:",
+            "text": "AI kami yang mengatur dengan bijak menggabungkan cerapan daripada pelbagai panduan kesihatan AI khusus—yang merangkumi Kesejahteraan Barat, Kesejahteraan Tradisional Cina dan banyak lagi—untuk menangani soalan khusus anda dalam masa nyata."
+          },
+          "holisticUnderstanding": {
+            "title": "Pemahaman Holistik:",
+            "text": "AI kami mentafsirkan pelbagai input—teks, atau imej kemajuan kecergasan anda, atau entri jurnal kesihatan—untuk perspektif kesejahteraan yang komprehensif dan kaya konteks."
+          },
+          "rapidAccess": {
+            "title": "Akses Pantas kepada Panduan AI:",
+            "text": "Berhubung serta-merta dengan beratus-ratus panduan kesihatan AI khusus dengan tindak balas subsaat."
+          },
+          "reliableInteractions": {
+            "title": "Interaksi yang Boleh Dipercayai:",
+            "text": "Perlindungan keselamatan automatik memastikan pengalaman yang lancar dan tidak terganggu, walaupun panduan AI memerlukan sedikit masa untuk menentukur semula."
+          },
+          "insightfulLogs": {
+            "title": "Log Interaksi Berwawasan:",
+            "text": "Interaksi sesi direkodkan untuk menyokong peningkatan berterusan dan pembangunan pengetahuan panduan AI kami."
+          }
+        }
+      },
+      "technology": {
+        "title": "Teknologi Revolusioner Kami",
+        "description1": "VirtualMD.app menggunakan kaedah orkestrasi yang canggih. Sistem kami memastikan pertanyaan anda mendapat manfaat daripada korus panduan AI, menggunakan pengetahuan perubatan Barat, prinsip Kesejahteraan Cina Tradisional, sains pemakanan, teknik kesedaran, strategi kecergasan dan banyak lagi, untuk memberikan perspektif yang paling komprehensif.",
+        "description2": "Enjin penaakulan lanjutan kami menggabungkan maklumat daripada input teks, log visual dan data kesihatan anda yang lain, memberikan cerapan holistik yang pendekatan tradisional tidak dapat ditiru.",
+        "description3": "Dengan perpustakaan panduan kesihatan AI yang meluas dan boleh diakses serta-merta dan protokol interaksi yang mantap, kami memastikan penglibatan yang konsisten dan berkualiti tinggi dalam mana-mana domain.",
+        "description4": "Setiap interaksi direkod dengan teliti, meningkatkan ketelusan dan memberi evolusi berterusan keberkesanan dan kualiti cerapan platform kami."
+      },
+      "cta": {
+        "title": "Bersedia untuk Merevolusikan Kesihatan Anda?",
+        "subtitle": "Sertai pergerakan <span>VirtualMD.app</span> dan temui era baharu akses kepada nasihat kesihatan termaju. Ambil langkah pertama ke arah anda yang lebih berkuasa, berpengetahuan dan bertenaga. Terokai pelbagai perspektif AI dan pangkalan pengetahuan kesihatan komprehensif kami.",
+        "buttonText": "Mulakan Sekarang"
+      }
+    }
+  },
+  "whitepapers": {
+    "downloadPdf": "Muat turun PDF"
+  },
+  "dermatologyaiWhitepaper": {
+    "title": "pusat",
+    "downloadPdf": "Muat turun PDF",
+    "generating": "Menjana...",
+    "pdfFilename": "DermatologiAIWhitePaperPage.pdf",
+    "content1": ");\n        currentY = addWrappedText(doc, title, margin, currentY, contentWidth);\n        semasaY += 5;\n        doc.setFont(undefined, ",
+    "content2": "s penentukuran (kebolehpercayaan skor keyakinan) dan kebolehjelasan (keupayaan untuk menyerlahkan kawasan imej yang berkaitan yang memaklumkan diagnosis).\n\nSusunan set data memberikan cabaran yang unik: variasi dalam pencahayaan, kedudukan dan kualiti imej boleh memberi kesan ketara kepada prestasi algoritma. Kebanyakan sistem dilatih mengenai koleksi imej retrospektif dari klinik dermatologi, yang memperkenalkan potensi bias spektrum - imej mungkin tidak mewakili rangkaian penuh persembahan dalam tetapan penjagaan primer. Model yang terhasil menjalani pengesahan melalui set ujian tahan, pengesahan luaran pada set data bebas, dan semakin banyak melalui penilaian klinikal prospektif membandingkan pengesyoran AI dengan keputusan pakar dermatologi dan kebenaran asas histopatologi.",
+    "content3": "penentukuran (kebolehpercayaan skor keyakinan) dan kebolehjelasan (keupayaan untuk menyerlahkan kawasan imej yang berkaitan yang memaklumkan diagnosis).\n\nSusunan set data memberikan cabaran yang unik: variasi dalam pencahayaan, kedudukan dan kualiti imej boleh memberi kesan ketara kepada prestasi algoritma. Kebanyakan sistem dilatih mengenai koleksi imej retrospektif dari klinik dermatologi, yang memperkenalkan potensi bias spektrum - imej mungkin tidak mewakili rangkaian penuh persembahan dalam tetapan penjagaan primer. Model yang terhasil menjalani pengesahan melalui set ujian tahan, pengesahan luaran pada set data bebas, dan semakin banyak melalui penilaian klinikal prospektif membandingkan pengesyoran AI dengan keputusan pakar dermatologi dan kebenaran asas histopatologi.",
+    "content4": "s penaakulan dan mereka menumpukan perhatian kepada ciri lesi tertentu yang memerlukan pemeriksaan yang lebih teliti. Kajian mendapati bahawa memberikan penjelasan ini meningkatkan kepercayaan klinik terhadap pengesyoran AI dan meningkatkan prestasi diagnostik AI manusia gabungan.\n\nBukti yang muncul menunjukkan AI mungkin mengesan melanoma pada peringkat awal daripada yang biasa didiagnosis dalam amalan rutin. Dalam analisis retrospektif melanoma yang pada mulanya salah didiagnosis sebagai jinak oleh pakar dermatologi tetapi dibenderakan dengan betul oleh AI, lesi sering menunjukkan ciri-ciri atipikal halus di bawah ambang untuk kebimbangan klinikal tetapi dikaitkan dengan transformasi malignan awal. Keupayaan pengesanan awal ini berpotensi meningkatkan hasil kelangsungan hidup, walaupun kajian prospektif yang menjejaki hasil klinikal jangka panjang masih diteruskan.",
+    "content5": "s penaakulan dan mereka menumpukan perhatian kepada ciri lesi tertentu yang memerlukan pemeriksaan yang lebih teliti. Kajian mendapati bahawa memberikan penjelasan ini meningkatkan kepercayaan klinik terhadap pengesyoran AI dan meningkatkan prestasi diagnostik AI manusia gabungan.\n\nBukti yang muncul menunjukkan AI mungkin mengesan melanoma pada peringkat awal daripada yang biasa didiagnosis dalam amalan rutin. Dalam analisis retrospektif melanoma yang pada mulanya salah didiagnosis sebagai jinak oleh pakar dermatologi tetapi dibenderakan dengan betul oleh AI, lesi sering menunjukkan ciri-ciri atipikal halus di bawah ambang untuk kebimbangan klinikal tetapi dikaitkan dengan transformasi malignan awal. Keupayaan pengesanan awal ini berpotensi meningkatkan hasil kelangsungan hidup, walaupun kajian prospektif yang menjejaki hasil klinikal jangka panjang masih diteruskan.",
+    "content6": "s ketepatan top-1 mencapai 85.9%.\n\nPrestasi yang sangat kuat telah diperhatikan untuk keadaan tersendiri seperti psoriasis (93.1% ketepatan), acne vulgaris (90.4%), dan ekzema (88.7%). Keadaan dengan persembahan yang lebih halus atau berubah-ubah, seperti letusan dadah atau keadaan autoimun peringkat awal, menunjukkan kadar ketepatan yang lebih rendah (70-75%), menunjukkan kawasan yang memerlukan penghalusan algoritma selanjutnya.\n\nHebatnya, sistem multimodal yang dibangunkan Google yang menggabungkan kedua-dua data imej dan simptom yang dilaporkan pesakit menunjukkan peningkatan selanjutnya, mencapai ketepatan 1 teratas sebanyak 93% merentas 26 keadaan biasa. Penyepaduan data bukan imej terbukti amat berharga untuk membezakan keadaan visual yang serupa dengan gejala berkaitan yang berbeza, seperti membezakan dermatitis kontak alahan daripada dermatitis sentuhan merengsa berdasarkan keterukan gatal yang dilaporkan dan sejarah pendedahan.\n\nDalam dermatologi pediatrik, di mana akses kepada pakar sangat terhad, sistem AI telah menunjukkan janji untuk keadaan kulit kanak-kanak biasa. Model pediatrik khusus mencapai ketepatan 90.1% untuk keadaan termasuk dermatitis atopik, moluskum contagiosum dan tanda lahir biasa. Terutamanya, sistem itu menunjukkan sensitiviti 95.2% untuk mengesan penyakit mulut-tangan-kaki semasa tempoh wabak, mencadangkan aplikasi yang berpotensi dalam pengawasan kesihatan awam.",
+    "content7": "s ketepatan top-1 mencapai 85.9%.\n\nPrestasi yang sangat kuat telah diperhatikan untuk keadaan tersendiri seperti psoriasis (93.1% ketepatan), acne vulgaris (90.4%), dan ekzema (88.7%). Keadaan dengan persembahan yang lebih halus atau berubah-ubah, seperti letusan dadah atau keadaan autoimun peringkat awal, menunjukkan kadar ketepatan yang lebih rendah (70-75%), menunjukkan kawasan yang memerlukan penghalusan algoritma selanjutnya.\n\nHebatnya, sistem multimodal yang dibangunkan Google yang menggabungkan kedua-dua data imej dan simptom yang dilaporkan pesakit menunjukkan peningkatan selanjutnya, mencapai ketepatan 1 teratas sebanyak 93% merentas 26 keadaan biasa. Penyepaduan data bukan imej terbukti amat berharga untuk membezakan keadaan visual yang serupa dengan gejala berkaitan yang berbeza, seperti membezakan dermatitis kontak alahan daripada dermatitis sentuhan merengsa berdasarkan keterukan gatal yang dilaporkan dan sejarah pendedahan.\n\nDalam dermatologi pediatrik, di mana akses kepada pakar sangat terhad, sistem AI telah menunjukkan janji untuk keadaan kulit kanak-kanak biasa. Model pediatrik khusus mencapai ketepatan 90.1% untuk keadaan termasuk dermatitis atopik, moluskum contagiosum dan tanda lahir biasa. Terutamanya, sistem itu menunjukkan sensitiviti 95.2% untuk mengesan penyakit mulut-tangan-kaki semasa tempoh wabak, mencadangkan aplikasi yang berpotensi dalam pengawasan kesihatan awam.",
+    "content8": "Perbandingan ketepatan diagnostik antara AI dan pakar dermatologi merentas 26 keadaan kulit biasa. Keadaan disusun dari kiri ke kanan mengikut urutan penurunan kelaziman. Sistem AI (bar biru) menunjukkan prestasi yang setanding atau unggul kepada pakar dermatologi (bar oren) untuk kebanyakan keadaan. Sumber: Liu Y, et al. Sistem pembelajaran mendalam untuk diagnosis pembezaan penyakit kulit. Perubatan Alam. 2020;26(6):900-908."
+  },
+  "how-to-useWhitepaper": {
+    "downloadPdf": "Muat turun PDF",
+    "generating": "Menjana...",
+    "pdfFilename": "Cara-menggunakan.pdf"
+  },
+  "imagingaiWhitepaper": {
+    "title": "pusat",
+    "downloadPdf": "Muat turun PDF",
+    "generating": "Menjana...",
+    "pdfFilename": "PengimejanAIWhitePaperPage.pdf",
+    "content1": ");\n        currentY = addWrappedText(doc, title, margin, currentY, contentWidth);\n        semasaY += 5;\n        doc.setFont(undefined, ",
+    "content2": ");\n         currentY = addWrappedText(doc, caption, margin, currentY, contentWidth);\n         semasaY += 20;\n         doc.setFont(undefined, ",
+    "content3": ", \n          margin, semasaY + 2, contentWidth);\n       semasaY += 5;\n       currentY = addWrappedText(doc, \n          ",
+    "content4": ", \n          margin, semasaY + 2, contentWidth);\n       semasaY += 5;\n       currentY = addWrappedText(doc, \n          ",
+    "content5": "X-ray dada dengan peta haba janaan AI (merah→kuning) menandakan nodul pulmonari bersendirian yang tidak mudah dilihat pada semakan awal manusia. Sumber: van Beek EJR, Ahn JS, Kim MJ, Murchison JT. Pengesahan algoritma pembelajaran mendalam untuk mengesan keabnormalan toraks pada radiografi dada. Clin Radiol. 2023;78(1):1–7.",
+    "content6": "X-ray dada dengan peta haba janaan AI (merah→kuning) menandakan nodul pulmonari bersendirian yang tidak mudah dilihat pada semakan awal manusia. Sumber: van Beek EJR, Ahn JS, Kim MJ, Murchison JT. Pengesahan algoritma pembelajaran mendalam untuk mengesan keabnormalan toraks pada radiografi dada. Clin Radiol. 2023;78(1):1–7.",
+    "content7": " membaca beban kerja sebanyak 44% (itnonline.com), dengan membenarkan satu pembaca dan bukannya dua dalam banyak kes. Kajian lain mendapati bahawa sistem AI untuk triage CT dada bagi penemuan akut (cth., pendarahan intrakranial, embolisme pulmonari) boleh memendekkan masa untuk pemberitahuan keputusan kritikal dengan ketara, membantu mengutamakan kes-kes yang mendesak. Merentasi pelbagai ujian, AI sebagai pembaca kedua cenderung untuk meningkatkan sensitiviti untuk pengesanan lesi (menangkap penemuan yang manusia terlepas) sambil mengekalkan kekhususan yang boleh diterima (itnonline.com, pubmed.ncbi.nlm.nih.gov). Walau bagaimanapun, AI kendiri tidak sempurna – ia mungkin menghasilkan positif palsu atau mengabaikan persembahan yang jarang berlaku, jadi pelaksanaan klinikal sering menggunakan AI untuk menambah, bukan menggantikan, tafsiran manusia.",
+    "content8": " membaca beban kerja sebanyak 44% (itnonline.com), dengan membenarkan satu pembaca bukannya dua dalam banyak kes. Kajian lain mendapati bahawa sistem AI untuk triage CT dada bagi penemuan akut (cth., pendarahan intrakranial, embolisme pulmonari) boleh memendekkan masa untuk pemberitahuan keputusan kritikal dengan ketara, membantu mengutamakan kes-kes yang mendesak. Merentasi pelbagai ujian, AI sebagai pembaca kedua cenderung untuk meningkatkan sensitiviti untuk pengesanan lesi (menangkap penemuan yang manusia terlepas) sambil mengekalkan kekhususan yang boleh diterima (itnonline.com, pubmed.ncbi.nlm.nih.gov). Walau bagaimanapun, AI kendiri tidak sempurna – ia mungkin menghasilkan positif palsu atau mengabaikan persembahan yang jarang berlaku, jadi pelaksanaan klinikal sering menggunakan AI untuk menambah, bukan menggantikan, tafsiran manusia.",
+    "content9": "s perjanjian penggredan (kappa kuadratik ~0.77) adalah setanding dengan ahli patologi yang berpengalaman dan juga mendekati gred konsensus dalam kes yang sukar (nature.com). Dalam patologi payudara, algoritma pembelajaran mendalam dalam cabaran CAMELYON mencapai prestasi hampir manusia untuk pengesanan tumor metastatik dalam nodus limfa, dengan beberapa mencapai AUC> 0.99. Alat ini boleh berfungsi sebagai a "
+  },
+  "pathologyaiWhitepaper": {
+    "title": "AI dalam Patologi: Memajukan Ketepatan dan Kecekapan Diagnostik",
+    "subtitle": "Kajian menyeluruh tentang aplikasi kecerdasan buatan dalam patologi anatomi dan klinikal",
+    "authors": {
+      "names": "Ron Rubin, PhD dan Sandy Miles",
+      "organization": "Teknologi VirtualMD.app",
+      "emails": {
+        "ron": "ronrubin@virtualmd.app",
+        "sandy": "sandymiles@virtualmd.app"
+      }
+    },
+    "downloadPdf": "Muat turun PDF",
+    "generating": "Menjana...",
+    "pdfFilename": "VirtualMD_AI_Pathology_White_Paper.pdf",
+    "sections": {
+      "abstract": {
+        "title": "Abstrak",
+        "content": "Kecerdasan buatan (AI) telah muncul sebagai teknologi transformatif dalam patologi, menunjukkan keupayaan untuk meningkatkan ketepatan diagnostik, kebolehulangan dan kecekapan aliran kerja. Kertas putih ini mengkaji keadaan semasa AI dalam patologi berdasarkan kajian pengesahan klinikal terkini, pelepasan kawal selia dan pelaksanaan dunia sebenar. Kami menyemak aplikasi utama termasuk pengesanan kanser, penggredan, penilaian prognostik dan pengoptimuman aliran kerja. Penemuan utama termasuk kadar sensitiviti 95-99% untuk pengesanan kanser merentas pelbagai sistem organ, pengurangan ketara dalam kebolehubahan antara pemerhati, dan potensi pengurangan beban kerja yang ketara. Walaupun prestasi teknikal telah mencapai tahap yang boleh diterima secara klinikal untuk banyak aplikasi, cabaran pelaksanaan kekal termasuk pertimbangan kawal selia, penyepaduan aliran kerja dan keperluan untuk pengesahan berterusan. Kami menyediakan cadangan berasaskan bukti untuk jabatan patologi yang mempertimbangkan penggunaan AI, menekankan kepentingan pemilihan kes penggunaan yang teliti, pelaksanaan berperingkat dan pemantauan prestasi yang berterusan. Bukti menunjukkan bahawa AI akan menambah dan bukannya menggantikan ahli patologi, berfungsi sebagai alat yang berkuasa untuk meningkatkan keupayaan diagnostik dan mengurus permintaan beban kerja yang semakin meningkat."
+      },
+      "introduction": {
+        "title": "pengenalan",
+        "content": "Bidang patologi menghadapi cabaran yang tidak pernah berlaku sebelum ini: peningkatan jumlah kes, peningkatan kerumitan kriteria diagnostik, kekurangan tenaga kerja dan tekanan untuk masa pemulihan yang cepat. Pada masa yang sama, kesejahteraan ketepatan menuntut analisis tisu yang lebih terperinci, penilaian biomarker kuantitatif, dan penyepaduan penemuan morfologi dengan data molekul. Dengan latar belakang ini, kecerdasan buatan (AI) telah muncul sebagai penyelesaian yang berpotensi untuk meningkatkan amalan patologi.\n\nWalaupun AI dalam pengimejan perubatan telah mendapat perhatian yang ketara, patologi memberikan peluang dan cabaran yang unik. Tidak seperti radiologi di mana AI menganalisis imej anatomi utuh, patologi AI mesti mentafsir bahagian tisu mikroskopik yang mewakili struktur tiga dimensi kompleks yang dikurangkan kepada slaid dua dimensi. Jumlah data yang banyak sangat mengejutkan - satu imej keseluruhan slaid boleh mengandungi berbilion-bilion piksel, memerlukan pendekatan pengiraan yang canggih.\n\nKertas putih ini menyediakan ulasan menyeluruh tentang aplikasi AI dalam patologi, memfokuskan pada teknologi yang telah menjalani pengesahan klinikal yang ketat. Kami meneliti asas bukti, membincangkan pertimbangan pelaksanaan, dan menyediakan panduan praktikal untuk jabatan patologi yang menilai penggunaan AI. Analisis kami berasaskan kajian semakan rakan sebaya, keputusan kawal selia dan data pelaksanaan awal dunia sebenar."
+      },
+      "methods": {
+        "title": "Kaedah/Teknologi",
+        "content": "Sistem AI patologi moden menggunakan seni bina pembelajaran mendalam, terutamanya rangkaian neural convolutional (CNN), untuk menganalisis imej slaid keseluruhan yang didigitalkan pada resolusi tinggi (biasanya pembesaran 20-40 ×). Sistem ini dilatih pada set data besar imej berlabel, selalunya memerlukan anotasi pakar patologi untuk mewujudkan kebenaran asas. Dua pendekatan AI utama diguna pakai: pembelajaran diselia menggunakan anotasi peringkat wilayah atau peringkat slaid, dan pembelajaran diselia dengan lemah yang hanya memerlukan diagnosis peringkat kes. Latihan biasanya melibatkan proses berbilang peringkat, mula-mula mengesan kawasan yang menarik pada pembesaran rendah, kemudian mengklasifikasikan kawasan ini pada pembesaran yang lebih tinggi untuk mengenal pasti patologi tertentu.\n\nMetrik prestasi utama termasuk kepekaan (kadaran positif benar dikenal pasti dengan betul), kekhususan (kadaran negatif benar dikenal pasti dengan betul), kawasan di bawah keluk ciri kendalian penerima (AUC) dan ukuran persetujuan seperti kappa Cohen. Pengesahan klinikal memerlukan ujian pada set data bebas daripada pelbagai institusi untuk memastikan kebolehgeneralisasian merentas populasi pesakit yang berbeza, kaedah penyediaan tisu dan peralatan pengimbasan."
+      },
+      "results": {
+        "title": "Keputusan",
+        "digitalPathologyOverview": {
+          "title": "Gambaran Keseluruhan Patologi Digital",
+          "content": "Patologi digital telah mengalami pertumbuhan yang ketara, dengan pasaran global diunjurkan mencecah $1.4 bilion menjelang 2027. Penggunaan makmal telah dipercepatkan, terutamanya di pusat perubatan akademik dan makmal rujukan di mana halangan pengawalseliaan awal telah diatasi. Pada 2017, FDA telah membersihkan keseluruhan sistem pengimejan slaid pertama untuk diagnosis utama (Philips IntelliSite Pathology Solution), diikuti dengan pelepasan tambahan termasuk Leica Aperio AT2 DX dan Aperio GT 450 DX. Sistem ini mewujudkan infrastruktur digital yang diperlukan untuk patologi pengiraan dan aplikasi AI.\n\nAI dalam patologi bermula dengan aplikasi tertumpu dalam konteks histologi yang terhad tetapi telah berkembang untuk merangkumi pelbagai jenis tisu dan tugas diagnostik. Pendekatan pengiraan juga telah berkembang daripada pembelajaran mesin tradisional dengan ciri kejuruteraan kepada pembelajaran mendalam hujung ke hujung yang mampu mengekstrak ciri terus daripada data piksel. Set data latihan telah berkembang daripada ratusan kepada ratusan ribu slaid, membolehkan generalisasi yang lebih mantap merentas populasi pesakit dan keadaan pengimbasan."
+        },
+        "cancerDetection": {
+          "title": "Pengesanan Kanser",
+          "content": "Dalam patologi onkologi, sistem AI telah menunjukkan ketepatan yang luar biasa dalam mengesan pelbagai keganasan. Untuk kanser prostat, Pantanowitz et al. menilai algoritma AI (Paige Prostate) dalam kajian pengesahan berbilang tapak yang melibatkan 549 slaid daripada 100 pesakit. AI menunjukkan 98.8% kepekaan dan 97.3% kekhususan untuk mengesan kanser, mengatasi pakar patologi umum terutamanya dalam kes yang mencabar (Lancet Digital Health, 2020). Begitu juga, Campanella et al. membangunkan pendekatan pembelajaran yang diselia dengan lemah yang dilatih pada lebih 15,000 slaid prostat yang mencapai AUC 0.98 untuk pengesanan kanser (Nature Medicine, 2019).\n\nUntuk kanser payudara, cabaran CAMELYON memberikan bukti penting untuk keberkesanan AI dalam mengesan metastasis dalam nodus limfa. Dalam CAMELYON16, algoritma terbaik mencapai AUC 0.994, melebihi prestasi ahli patologi yang bekerja di bawah kekangan masa (AUC 0.810) (JAMA, 2017). Sistem ini mengesan sel kanser yang mungkin terlepas semasa semakan manual, terutamanya mikrometastasis dan sel tumor terpencil.",
+          "content2": "Di luar kanser biasa ini, sistem AI telah dibangunkan untuk banyak keganasan lain. Dalam patologi paru-paru, algoritma pembelajaran mendalam boleh membezakan adenokarsinoma daripada karsinoma sel skuamosa dengan ketepatan 97% dan mengenal pasti perubahan genetik (mis., mutasi EGFR) daripada ciri histomorfologi (Nature Cancer, 2020). Dalam patologi kolorektal, AI boleh mengesan adenoma, mengklasifikasikan subtipe histologi, dan mengenal pasti status ketidakstabilan mikrosatelit secara langsung daripada slaid H&E dengan kepekaan melebihi 95% (J Pathol, 2020).\n\nFaedah pengesanan AI melangkaui sensitiviti. Kajian secara konsisten menunjukkan kebolehubahan antara pemerhati yang berkurangan apabila ahli patologi mendapat bantuan AI. Contohnya, Steiner et al. menunjukkan bahawa bantuan AI meningkatkan persetujuan ahli patologi dengan standard rujukan daripada 93.3% kepada 95.8% untuk pengesanan metastasis kanser payudara (Am J Surg Pathol, 2018). Peningkatan konsistensi ini mempunyai implikasi penting untuk mendiagnosis kes sempadan dan menyeragamkan penjagaan merentas institusi."
+        },
+        "gradingClassification": {
+          "title": "Penggredan dan Pengelasan",
+          "content": "Di luar pengesanan kanser binari, sistem AI telah mencapai kemajuan yang ketara dalam tugas yang lebih kompleks yang melibatkan subtaip dan penggredan. Terutama sekali, penggredan Gleason automatik bagi kanser prostat telah menjadi tumpuan penyelidikan yang sengit disebabkan kebolehubahan antara pemerhati yang diketahui dalam penanda prognostik kritikal ini. Bulten et al. membangunkan sistem pembelajaran mendalam yang memberikan skor Gleason terperinci dengan prestasi yang setara dengan pakar patologi urologi yang berpengalaman (kappa = 0.62 berbanding 0.57) dan menghampiri tahap pakar genitouriner (kappa = 0.73) (Lancet Oncology, 2020). Begitu juga, Ström et al. melaporkan sistem AI yang mencapai penggredan peringkat patologi dengan AUC 0.98 untuk membezakan kawasan jinak daripada kanser dan AUC 0.85-0.93 untuk mengklasifikasikan gred Gleason yang berbeza (IEEE TMI, 2020).\n\nDalam patologi buah pinggang, sistem AI telah dibangunkan untuk mengklasifikasikan subtipe berbeza karsinoma sel renal dengan ketepatan > 95% untuk empat jenis yang paling biasa (Nat Mach Intell, 2019). Untuk nodul tiroid, AI boleh membezakan ciri-ciri jinak daripada malignan dengan sensitiviti 90-99% bergantung pada subjenis kanser tiroid tertentu (JAMA Network Open, 2019). Aplikasi ini melangkaui klasifikasi kanser - AI telah menunjukkan janji dalam penggredan penyakit radang (mis., keterukan penyakit radang usus), mengukur penyusupan sel imun (penilaian persekitaran mikro tumor) dan mengukur ciri morfologi yang meramalkan tindak balas rawatan."
+        },
+        "workflowOptimization": {
+          "title": "Pengoptimuman Aliran Kerja",
+          "content": "Di luar ketepatan diagnostik, AI menawarkan potensi besar untuk pengoptimuman aliran kerja patologi. Peningkatan aliran kerja utama ialah pra-penyaringan untuk mengutamakan kes dan mengurangkan masa yang dihabiskan untuk sampel jinak atau biasa. Ho et al. menunjukkan bahawa pra-pemeriksaan AI untuk biopsi prostat boleh mengurangkan beban kerja ahli patologi sebanyak 30-50% sambil mengekalkan ketepatan diagnostik (Mod Pathol, 2021). Begitu juga, Da Silva et al. mendapati bahawa pra-pemeriksaan AI sitologi serviks boleh mengurangkan semakan manual sehingga 40% (J Am Soc Cytopathol, 2021).\n\nDalam penilaian kuantitatif, sistem AI mengautomasikan tugas manual yang membosankan seperti pengiraan mitosis, pemarkahan perkadaran tumor untuk PDL1, dan kuantifikasi kesan imunohistokimia. Untuk pemarkahan Ki-67, Maeda et al. menunjukkan bahawa sistem AI automatik mengurangkan masa penilaian sebanyak 83% sambil mengekalkan atau melebihi ketepatan pengiraan manual (Sci Rep, 2021). Automasi ini menyeragamkan ukuran yang secara tradisinya mengalami kebolehubahan antara pemerhati yang luas.\n\nUntuk sokongan keputusan klinikal, sistem AI boleh mengenal pasti kes yang memerlukan kepakaran subkepakaran atau kajian tambahan. Chen et al. menunjukkan bahawa algoritma AI boleh mencuba 98% daripada kes rutin sementara menandakan hanya 2% untuk semakan ahli patologi kanan, tanpa kehilangan ketepatan diagnostik (Nat Commun, 2022). Apabila disepadukan dengan sistem maklumat makmal, pendekatan ini secara mendadak boleh mengurangkan masa pemulihan untuk kes rutin sambil memastikan semakan pakar yang sesuai bagi kes yang mencabar."
+        }
+      },
+      "discussion": {
+        "title": "Perbincangan",
+        "content": "Bukti terkumpul menunjukkan bahawa AI telah berkembang daripada konsep penyelidikan kepada teknologi gred klinikal dalam patologi. Metrik prestasi merentas berbilang kajian secara konsisten menunjukkan kepekaan dan kekhususan melebihi 90% untuk banyak aplikasi, menyaingi atau mengatasi prestasi manusia dalam tugas tertentu. Walau bagaimanapun, beberapa pertimbangan penting mempengaruhi tafsiran dan pelaksanaan penemuan ini.\n\nKepentingan klinikal: AI menunjukkan kekuatan tertentu dalam tugas yang melibatkan pengecaman corak dan kuantifikasi. Untuk pengesanan kanser, sensitiviti AI selalunya melebihi ahli patologi umum, yang berpotensi mengurangkan kadar diagnosis yang terlepas. Dalam pelaksanaan prospektif, Pantanowitz et al. melaporkan bahawa AI mengesan beberapa fokus kanser yang pada mulanya terlepas oleh ahli patologi, menonjolkan nilainya sebagai \"pengulas kedua\" (Lancet Digital Health, 2020). Untuk tugas penggredan, AI memberikan hasil yang lebih konsisten daripada ahli patologi individu, mengurangkan kebolehubahan yang boleh menjejaskan pengurusan pesakit.\n\nKesan aliran kerja: Masa ahli patologi ialah sumber yang semakin terhad, menjadikan kecekapan aliran kerja kritikal. Kajian menunjukkan penjimatan masa sebanyak 30-60% untuk pelbagai tugas apabila menggunakan bantuan AI. Ini diterjemahkan kepada faedah praktikal - jabatan patologi yang memproses 100 kes prostat setiap minggu boleh menjimatkan 15-30 jam ahli patologi, membenarkan tumpuan pada kes kompleks yang memerlukan kepakaran manusia.\n\nKebolehubahan antara pemerhati: Penemuan yang konsisten merentas kajian mengurangkan kebolehubahan apabila AI membantu ahli patologi. Untuk penggredan Gleason, perjanjian antara pemerhati lazimnya meningkat daripada nilai kappa 0.5-0.6 (perjanjian sederhana) kepada 0.7-0.8 (perjanjian besar) dengan bantuan AI (Lancet Oncol, 2020). Konsistensi yang lebih baik ini mempunyai implikasi penting untuk penyeragaman rawatan merentas tetapan amalan yang berbeza.\n\nWalaupun keputusan yang menjanjikan ini, batasan penting memerlukan pertimbangan. Kebolehgeneralisasian kekal menjadi kebimbangan utama - sistem AI yang dilatih pada data daripada institusi tertentu atau populasi pesakit mungkin tidak berfungsi dengan baik dalam tetapan yang berbeza. Faktor teknikal seperti penyediaan slaid, protokol pewarnaan dan ciri pengimbas boleh mempengaruhi prestasi AI. FDA telah mengiktiraf cabaran ini, mengesyorkan pengesahan berbilang tapak untuk sistem AI yang mencari pelepasan kawal selia.\n\nBias set data ialah satu lagi isu kritikal. Kebanyakan algoritma dilatih pada populasi Barat dan mungkin berprestasi rendah dalam kumpulan etnik lain dengan persembahan penyakit yang berbeza. Sebagai contoh, kanser prostat sering hadir dengan corak morfologi yang berbeza pada lelaki Afrika Amerika berbanding lelaki Kaukasia, yang berpotensi menjejaskan prestasi algoritma AI jika tidak diwakili secukupnya dalam data latihan.\n\nPengawasan kawal selia untuk patologi AI terus berkembang. FDA telah membersihkan beberapa peranti patologi berasaskan AI melalui laluan De Novo dan 510(k), mewujudkan preseden untuk pelaksanaan klinikal. Pelepasan FDA Paige Prostate pada 2021 menandakan satu peristiwa penting sebagai sistem AI patologi pertama yang dibenarkan untuk kegunaan diagnostik utama. Walau bagaimanapun, kebanyakan sistem dikosongkan sebagai algoritma \"terkunci\" yang tidak boleh belajar atau menyesuaikan diri selepas penggunaan, mewujudkan cabaran untuk mengekalkan prestasi apabila corak amalan berkembang.\n\nPenyepaduan dengan aliran kerja makmal sedia ada memberikan halangan pelaksanaan praktikal. Penggunaan patologi digital, walaupun berkembang, masih tidak lengkap di seluruh sistem penjagaan kesihatan. Sistem AI memerlukan penyepaduan dengan sistem maklumat makmal dan platform patologi digital sedia ada. Selain itu, pakar patologi memerlukan latihan untuk menggabungkan output AI dengan berkesan ke dalam proses diagnostik mereka, mentafsir skor kebarangkalian dan peta haba dengan sewajarnya.\n\nSeperti mana-mana teknologi baru muncul, data keberkesanan kos kekal terhad. Pelaksanaan awal memerlukan pelaburan yang besar dalam infrastruktur digital, tetapi faedah jangka panjang mungkin termasuk pengurangan kadar ralat, masa pemulihan yang lebih cepat dan penggunaan sumber yang lebih cekap. Mekanisme pembayaran balik untuk perkhidmatan patologi dibantu AI masih berkembang, mewujudkan ketidakpastian di sekitar kemampanan kewangan teknologi ini."
+      },
+      "conclusion": {
+        "title": "Kesimpulan",
+        "content": "Kecerdasan buatan mempunyai amalan patologi yang jelas, dengan bukti yang semakin meningkat bahawa sistem AI boleh mencapai prestasi peringkat pakar dalam tugas diagnostik tertentu. Bukti terkuat wujud untuk aplikasi dalam patologi onkologi, terutamanya kanser prostat dan payudara, di mana sistem yang dibersihkan oleh FDA telah memasuki amalan klinikal. AI menunjukkan kekuatan tertentu dalam menangani cabaran yang diketahui dalam patologi: ia mengurangkan kebolehubahan antara pemerhati, meningkatkan pengesanan penemuan halus, menyeragamkan penilaian kuantitatif dan meningkatkan kecekapan aliran kerja.\n\nPeralihan daripada penyelidikan kepada pelaksanaan klinikal semakin pantas, disokong oleh rangka kerja pengawalseliaan yang semakin meningkat dan pengalaman institusi. Walau bagaimanapun, penyepaduan yang berjaya memerlukan perhatian kepada pertimbangan teknikal, aliran kerja dan pengesahan. Untuk hasil yang optimum, AI harus dilaksanakan sebagai teknologi yang membantu ahli patologi dan bukannya sistem diagnostik autonomi untuk kebanyakan aplikasi. Perkongsian ahli patologi-AI memanfaatkan kekuatan pelengkap kepakaran manusia dan keupayaan pengiraan.\n\nArah masa hadapan termasuk aplikasi yang diperluaskan kepada entiti yang jarang ditemui, penilaian biomarker ramalan dan penyepaduan dengan data genomik dan molekul. Jaminan kualiti masa nyata, pengurangan ketaksamaan diagnostik, dan penyesuaian kepada corak amalan yang berkembang mewakili matlamat penting. Bukti yang disemak menyokong pelaburan berterusan dalam sistem AI patologi dengan pengesahan yang ketat dan pelaksanaan yang bertimbang rasa. Dengan pembangunan teknikal yang sesuai, pengesahan dan penyepaduan ke dalam aliran kerja klinikal, AI mempunyai potensi untuk meningkatkan kualiti dan kecekapan diagnosis patologi dengan ketara."
+      },
+      "references": {
+        "title": "Rujukan",
+        "list": ""
+      },
+      "figures": {
+        "figure1": {
+          "title": "Rajah 1. Keluk ROC: Sistem Penggredan AI Kanser Prostat",
+          "caption": "Sumber: Bulten W, Pinckaers H, van Boven H, et al. Sistem pembelajaran mendalam automatik untuk penggredan kanser prostat Gleason menggunakan biopsi: kajian diagnostik. Lancet Oncol. 2020;21(2):233-241."
+        },
+        "figure2": {
+          "title": "Rajah 2. Sensitiviti dan Kekhususan dalam Kajian AI Patologi Utama",
+          "caption": "Sumber: Campanella G, et al. Nat Med. 2019;25(8):1301-1309; Pantanowitz L, et al. Kesihatan Digit Lancet. 2020;2(8):e407-e416; Ehteshami Bejnordi B, et al. JAMA. 2017;318(22):2199-2210."
+        },
+        "figure3": {
+          "title": "Rajah 3. Purata Masa untuk Diagnosis: Patologi Manual vs AI-Assisted",
+          "caption": "Sumber: Ho D, Quake SR, McCabe ERB, et al. Mendayakan Teknologi untuk Perubatan Peribadi dan Ketepatan. Trend Bioteknol. 2020;38(5):497-518."
+        },
+        "figure4": {
+          "title": "Rajah 4. AI Heatmap Menyerlahkan Sel Kanser dalam Biopsi Prostat",
+          "caption": "Slaid biopsi prostat yang dianalisis oleh sistem AI yang menyerlahkan kawasan yang mengandungi sel kanser (keamatan merah→ kuning). Peta haba menarik perhatian kepada fokus kecil adenokarsinoma yang boleh diabaikan semasa semakan rutin. Sumber: Pantanowitz L, et al. Algoritma kecerdasan buatan untuk diagnosis kanser prostat dalam keseluruhan imej slaid biopsi jarum teras: kajian pengesahan dan penggunaan klinikal yang buta. Kesihatan Digit Lancet. 2020;2(8):e407-e416."
+        }
+      }
+    }
+  },
+  "simplybetterWhitepaper": {
+    "downloadPdf": "Muat turun PDF",
+    "generating": "Menjana...",
+    "pdfFilename": "SimplyBetter.pdf"
+  },
+  "introPopup": {
+    "greeting": "hello! Saya AI Aileen Carol, penasihat kesihatan AI anda di VirtualMD.app.",
+    "welcomeMessage": "hello! Saya AI Aileen Carol, penasihat kesihatan maya di VirtualMD.app. Kami dikuasakan oleh AI revolusioner terkini, dibuat khusus oleh pengasas kami untuk memberikan maklumat perubatan terbaik yang tersedia. Penasihat maya kami mengetahui tentang anda dengan bercakap dengan anda tentang kebimbangan anda. Kemudian kami menyampaikan maklumat perubatan yang canggih dan unik milik anda.",
+    "welcomeMessageShort": "Di sini, anda tidak akan mengharungi jargon perubatan—sebaliknya, pasukan penasihat kesihatan maya kami bermula dengan bercakap dengan anda, belajar tentang sejarah anda, kebimbangan anda dan matlamat anda.",
+    "meetTheTeam": "Saya tidak sabar untuk memperkenalkan anda kepada pakar VirtualMD.app kami:",
+    "specialists": {
+      "cardiology": "Penasihat Kardiologi Maya - terkini dalam kesihatan jantung",
+      "oncology": "Perunding Onkologi Maya - soalan kritikal untuk doktor anda",
+      "andMore": "Dan ramai lagi pakar maya dalam - terapi tingkah laku kognitif, kesihatan seksual, dermatologi, ortopedik, herbologi Afrika..."
+    },
+    "disclaimer": {
+      "title": "PENAFIAN:",
+      "mainText": "KERANA KAMI BUKAN PAKAR KESIHATAN MANUSIA, TETAPI PENASIHAT AI, ADALAH KRITIKAL UNTUK MEMAHAMI PERKARA BERIKUT:",
+      "promiseIntro": "Nasihat kami adalah bermaklumat, bukan klinikal. Kami bukan pembekal perubatan berlesen.",
+      "fullText": "SAYA, DAN SELURUH PASUKAN MAYA DI VIRTUALMD.APP, BUKAN PENYEDIA PERUBATAN BERLESEN. Kami adalah AI. AI boleh menjadi cemerlang pada masa-masa…dan selalunya tidak sempurna. Jadi sila layan nasihat kami sebagai maklumat, bukan klinikal. Untuk anda bekerja dengan kami, anda mesti membuat janji.",
+      "shortText": "Kami adalah AI, bukan pembekal perubatan berlesen. Sila anggap nasihat kami sebagai maklumat, bukan klinikal. Awak mesti berjanji."
+    },
+    "promise": "Anda akan sentiasa berunding dengan profesional penjagaan kesihatan manusia sebelum anda bertindak ke atas sebarang maklumat kesihatan yang anda terima di sini.",
+    "promiseButton": "Saya Janji",
+    "dontShowAgain": "Jangan tunjukkan ini lagi",
+    "languageTitle": "Sila Pilih Bahasa Anda",
+    "languageSelectLabel": "Pilih Bahasa",
+    "welcome": {
+      "greeting": "hello! Saya Aileen Carol.",
+      "explanation": "Saya dan rakan sekerja adalah penasihat kesihatan jenis baharu di VirtualMD.app. Kami adalah pasukan AI pakar, dilatih mengenai strategi terkini, bertaraf dunia untuk kesihatan dan kesejahteraan optimum, meliputi semua bidang perubatan. Sebagai mesin maya, kami tersedia untuk anda 24/7, percuma sepenuhnya. Ini datang dengan faedah yang luar biasa, tetapi juga beberapa batasan penting..."
+    },
+    "mobile": {
+      "simply": "Mudah sahaja",
+      "better": "lebih baik",
+      "health": "Kesihatan",
+      "tagline": "Panduan Kesihatan & Kesejahteraan Peribadi",
+      "poweredByAI": "Dikuasakan oleh AI",
+      "welcomeTitle": "Selamat datang! Saya Aileen Carol, penasihat kesihatan maya anda.",
+      "welcomeTeamIntro": "Saya mengetuai pasukan pakar kesihatan AI sedia membantu dengan:",
+      "specialties": {
+        "heart": "Kesihatan jantung",
+        "cancer": "Sokongan kanser",
+        "children": "Kesihatan kanak-kanak",
+        "mental": "kesihatan mental",
+        "healthSystem": "Menavigasi sistem",
+        "andMore": "Dan 50+ lagi keistimewaan"
+      },
+      "available247": "Tersedia 24/7",
+      "disclaimerText": "Kami bukan pembekal perubatan berlesen. Kami adalah AI maya, yang bermaksud kami membuat kesilapan. Nasihat kami adalah bermaklumat, bukan klinikal.",
+      "promiseText": "Anda akan sentiasa berunding dengan profesional penjagaan kesihatan manusia sebelum anda bertindak ke atas sebarang maklumat kesihatan yang anda terima di sini."
+    }
+  },
+  "faqPage": {
+    "title": "Soalan Lazim",
+    "subtitle": "Cari jawapan kepada soalan biasa tentang VirtualMD.app",
+    "faq1": {
+      "question": "Apakah itu VirtualMD.app?"
+    },
+    "questions": {
+      "whatIsVirtualMD": "Apakah itu VirtualMD.app?",
+      "replacementForDoctor": "Adakah VirtualMD.app pengganti untuk doktor saya?",
+      "howItWorks": "Bagaimanakah perundingan AI berfungsi?",
+      "healthInfoSecure": "Adakah maklumat kesihatan saya selamat?",
+      "tryWithoutAccount": "Bolehkah saya mencuba VirtualMD.app tanpa membuat akaun?",
+      "supportedLanguages": "Apakah bahasa yang disokong?",
+      "uploadDocuments": "Bolehkah saya memuat naik imej atau dokumen perubatan?",
+      "aiAccuracy": "Sejauh manakah tepat nasihat perubatan AI?",
+      "conversationHistory": "Bolehkah saya mengakses sejarah perbualan saya?",
+      "voiceSupport": "Adakah terdapat sokongan suara?",
+      "whatMakesDifferent": "Apakah yang membezakan VirtualMD daripada platform AI kesihatan yang lain?",
+      "cost": "Berapakah kos VirtualMD.app?"
+    },
+    "answers": {
+      "whatIsVirtualMD": "VirtualMD.app ialah platform perundingan penjagaan kesihatan dikuasakan AI yang menyediakan panduan perubatan yang diperibadikan melalui AI perbualan lanjutan. Platform kami menampilkan lebih 60 persona AI perubatan khusus, masing-masing dengan kepakaran unik dalam bidang penjagaan kesihatan yang berbeza.",
+      "replacementForDoctor": "Tidak, VirtualMD.app bukan pengganti untuk penjagaan perubatan profesional. Perundingan AI kami direka untuk menyediakan maklumat kesihatan, pendidikan dan panduan awal. Sentiasa berunding dengan profesional penjagaan kesihatan yang berkelayakan untuk diagnosis, rawatan dan keputusan perubatan.",
+      "howItWorks": "Anda boleh memulakan perbualan dengan salah satu persona AI khusus kami dengan memilih mereka daripada papan pemuka. Setiap persona mempunyai kepakaran khusus (cth., kardiologi, pediatrik, kesihatan mental) dan akan terlibat dalam dialog perbualan untuk memahami kebimbangan anda serta memberikan maklumat serta bimbingan yang berkaitan.",
+      "healthInfoSecure": "Ya, kami mengambil berat tentang privasi dan keselamatan data. Semua perbualan disulitkan dan kami mematuhi peraturan perlindungan data penjagaan kesihatan. Maklumat kesihatan peribadi anda tidak pernah dikongsi dengan pihak ketiga tanpa kebenaran anda yang jelas. Lihat halaman Privasi Data kami untuk mendapatkan butiran lanjut.",
+      "tryWithoutAccount": "Ya! Kami menawarkan pengalaman tetamu yang membolehkan anda mencuba perkhidmatan perundingan AI kami tanpa membuat akaun. Sesi tetamu adalah terhad kepada 10 mesej dan menyediakan akses kepada persona perundingan perubatan am kami.",
+      "supportedLanguages": "VirtualMD.app menyokong lebih 30 bahasa, termasuk bahasa Inggeris, Sepanyol, Perancis, Jerman, Cina, Jepun, Arab, Ibrani dan banyak lagi. Platform ini secara automatik mengesan pilihan bahasa penyemak imbas anda dan melaraskan dengan sewajarnya.",
+      "uploadDocuments": "Ya, pengguna berdaftar boleh memuat naik imej dan dokumen perubatan semasa perundingan. AI kami boleh menganalisis dan memberikan pandangan tentang pelbagai imej perubatan termasuk X-ray, MRI dan laporan makmal. Ciri ini membantu menyediakan panduan yang lebih kontekstual dan tepat.",
+      "aiAccuracy": "Model AI kami dilatih tentang kesusasteraan perubatan yang luas dan dikemas kini secara berterusan dengan pengetahuan perubatan terkini. Walaupun AI kami menyediakan maklumat berkualiti tinggi berdasarkan pemahaman perubatan semasa, ia harus sentiasa digunakan sebagai sumber tambahan bersama penjagaan perubatan profesional.",
+      "conversationHistory": "Ya, pengguna berdaftar boleh mengakses sejarah perbualan lengkap mereka, termasuk ringkasan, transkrip dan sebarang dokumen yang dikongsi. Ini membantu mengekalkan kesinambungan dalam perjalanan maklumat kesihatan anda dan membolehkan anda berkongsi perundingan yang berkaitan dengan penyedia penjagaan kesihatan anda.",
+      "voiceSupport": "Ya, VirtualMD.app menyokong kedua-dua fungsi teks-ke-ucapan dan pertuturan-ke-teks. Anda boleh mendengar respons AI dan bercakap soalan anda dan bukannya menaip, menjadikan platform lebih mudah diakses dan mudah digunakan.",
+      "whatMakesDifferent": "VirtualMD.app menampilkan lebih 60 persona AI perubatan khusus, masing-masing mempunyai kepakaran mendalam dalam bidang perubatan tertentu. Platform kami juga menawarkan sokongan bahasa yang komprehensif, interaksi suara, analisis imej perubatan dan mengekalkan piawaian privasi yang ketat sambil menyediakan antara muka yang intuitif dan boleh diakses.",
+      "cost": "Kami menawarkan pelbagai peringkat langganan untuk memenuhi keperluan yang berbeza. Pengguna tetamu boleh mencuba perkhidmatan secara percuma dengan ciri terhad. Pengguna berdaftar mendapat akses kepada semua persona, perbualan tanpa had dan ciri lanjutan. Sila semak halaman harga kami untuk pilihan langganan semasa."
+    },
+    "helpSection": {
+      "title": "Masih ada soalan?",
+      "description": "Tidak menemui jawapan yang anda cari? Pasukan sokongan kami sedia membantu."
+    },
+    "buttons": {
+      "contactUs": "Hubungi Kami",
+      "tryGuestChat": "Cuba Sembang Tetamu"
+    },
+    "navigation": {
+      "backToHome": "← Kembali ke Laman Utama"
+    }
+  },
+  "howToPage": {
+    "title": "Cara Menggunakan VirtualMD.app",
+    "subtitle": "Panduan komprehensif anda untuk perundingan penjagaan kesihatan dikuasakan AI",
+    "navigation": {
+      "gettingStarted": "Bermula",
+      "aiMedicalPersonas": "Persona Perubatan AI",
+      "teamConsultations": "Perundingan Pasukan",
+      "medicalImageAnalysis": "Analisis Imej Perubatan",
+      "medicalEncyclopedia": "Ensiklopedia Perubatan",
+      "differentialOpinions": "Pendapat Berbeza",
+      "voiceInteraction": "Interaksi Suara",
+      "languageSupport": "Sokongan Bahasa",
+      "tipsBestPractices": "Petua & Amalan Terbaik",
+      "privacySecurity": "Privasi & Keselamatan"
+    },
+    "sidebar": {
+      "contents": "kandungan"
+    },
+    "sections": {
+      "gettingStarted": {
+        "title": "Bermula",
+        "description": "VirtualMD.app ialah platform perundingan penjagaan kesihatan dikuasakan AI yang menyediakan panduan perubatan yang diperibadikan melalui AI perbualan lanjutan. Begini caranya untuk bermula:",
+        "quickStart": {
+          "title": "Mula Pantas:",
+          "step1": {
+            "chooseBetween": "Pilih antara",
+            "guestAccess": "Akses Tetamu",
+            "tryWithoutAccount": "(cuba tanpa akaun)",
+            "or": "atau",
+            "signUpFullFeatures": "Daftar untuk mendapatkan ciri penuh"
+          },
+          "step2": "Pilih persona perubatan AI atau bina pasukan pakar",
+          "step3": "Mulakan perbualan anda - tanya soalan, huraikan simptom atau dapatkan panduan kesihatan",
+          "step4": "Semak respons AI dan buat susulan dengan soalan tambahan mengikut keperluan"
+        },
+        "tip": {
+          "label": "Petua:",
+          "message": "Pengguna tetamu mendapat 10 mesej percuma. Buat akaun untuk perundingan tanpa had dan akses kepada semua ciri."
+        }
+      },
+      "aiMedicalPersonas": {
+        "title": "Persona Perubatan AI",
+        "description": "VirtualMD menampilkan lebih 60 persona perubatan AI khusus, masing-masing dengan kepakaran unik:",
+        "availableSpecialists": "Pakar Tersedia:",
+        "specialists": {
+          "generalPractitioner": "Pengamal Am",
+          "cardiologist": "Pakar Kardiologi",
+          "pediatrician": "Pakar Pediatrik",
+          "mentalHealthSpecialist": "Pakar Kesihatan Mental",
+          "dermatologist": "Pakar dermatologi",
+          "neurologist": "Pakar neurologi",
+          "oncologist": "Pakar onkologi",
+          "emergencyMedicine": "Perubatan Kecemasan",
+          "medicalNavigator": "Navigator Perubatan",
+          "moreSpecialists": "60+ Lagi Pakar"
+        },
+        "howToChoose": {
+          "title": "Cara Memilih Persona:",
+          "step1": "Semak imbas senarai persona dalam papan pemuka anda",
+          "step2": "Baca bio setiap persona untuk memahami kepakaran mereka",
+          "step3": "Pilih berdasarkan kebimbangan atau soalan kesihatan anda",
+          "step4": "Tukar personas pada bila-bila masa semasa perundingan anda"
+        },
+        "proTip": {
+          "label": "Petua Pro:",
+          "medicalNavigator": "Persona Medical Navigator boleh membantu anda mengenal pasti pakar mana yang terbaik untuk kebimbangan kesihatan khusus anda."
+        }
+      },
+      "teamConsultations": {
+        "title": "Perundingan Pasukan",
+        "description": "Dapatkan penjagaan menyeluruh dengan mewujudkan pasukan pakar AI yang bekerjasama dalam kebimbangan kesihatan anda:",
+        "buildingYourTeam": {
+          "title": "Membina Pasukan Anda:",
+          "step1": {
+            "buttonText": "Bina Pasukan Anda",
+            "instruction": "Klik \"{{buttonText}}\" dalam papan pemuka"
+          },
+          "step2": "Pilih sehingga 5 pakar yang berkaitan dengan keperluan anda",
+          "step3": "Tambah Navigator Perubatan untuk menyelaraskan antara pakar",
+          "step4": "Mulakan perbualan pasukan untuk cerapan pelbagai disiplin"
+        },
+        "benefits": {
+          "title": "Faedah Perundingan Pasukan:",
+          "comprehensiveCare": {
+            "label": "Penjagaan Komprehensif:",
+            "description": "Pelbagai perspektif tentang isu kesihatan yang kompleks"
+          },
+          "coordinatedAdvice": {
+            "label": "Nasihat yang diselaraskan:",
+            "description": "Pakar bekerjasama, bukan secara berasingan"
+          },
+          "efficientNavigation": {
+            "label": "Navigasi yang Cekap:",
+            "description": "Medical Navigator memastikan anda mendapat kepakaran yang betul"
+          },
+          "holisticApproach": {
+            "label": "Pendekatan Holistik:",
+            "description": "Atasi faktor fizikal, mental dan gaya hidup bersama-sama"
+          }
+        }
+      },
+      "medicalImageAnalysis": {
+        "title": "Analisis Imej Perubatan",
+        "description": "Muat naik dan analisis imej perubatan untuk cerapan dikuasakan AI:",
+        "howToUse": {
+          "title": "Cara Menggunakan Analisis Imej:",
+          "step1": "Klik ikon kamera atau butang muat naik imej",
+          "step2": "Muat naik sehingga 4 imej perubatan (X-ray, MRI, keputusan makmal, keadaan kulit, dsb.)",
+          "step3": "Klik pada imej yang dimuat naik untuk mengezum masuk untuk paparan terperinci",
+          "step4": "Pilih kawasan minat tertentu dengan mengklik pada imej yang dizum",
+          "step5": "Tanya soalan tentang imej atau analisis permintaan"
+        },
+        "supportedTypes": {
+          "title": "Jenis Imej yang Disokong:",
+          "xrays": "X-ray dan imej radiologi",
+          "mriCtScans": "Imbasan MRI dan CT",
+          "laboratoryTests": "Keputusan ujian makmal",
+          "skinConditions": "Keadaan kulit dan imej dermatologi",
+          "ecgEkgReadings": "Bacaan ECG/EKG",
+          "prescriptionDocuments": "Dokumen preskripsi"
+        },
+        "warning": {
+          "label": "Penting:",
+          "text": "Analisis imej AI adalah untuk tujuan pendidikan. Sentiasa berunding dengan profesional penjagaan kesihatan untuk tafsiran perubatan rasmi."
+        }
+      },
+      "medicalEncyclopedia": {
+        "title": "Ensiklopedia Perubatan & Penyelidikan Mendalam",
+        "description": "Akses maklumat perubatan yang komprehensif dan keupayaan penyelidikan:",
+        "features": {
+          "title": "Ciri-ciri Ensiklopedia:",
+          "instantAccess": {
+            "label": "Akses Segera:",
+            "description": "Klik ikon Ensiklopedia semasa sebarang perbualan"
+          },
+          "deepResearch": {
+            "label": "Penyelidikan mendalam:",
+            "description": "Minta ulasan literatur perubatan terperinci"
+          },
+          "evidenceBased": {
+            "label": "Berasaskan Bukti:",
+            "description": "Maklumat yang diperoleh daripada pangkalan data perubatan yang disemak oleh rakan sebaya"
+          },
+          "contextAware": {
+            "label": "Sedar Konteks:",
+            "description": "Carian secara automatik berkaitan dengan perbincangan kesihatan semasa anda"
+          }
+        },
+        "howToResearch": {
+          "title": "Cara Penyelidikan:",
+          "step1": "Semasa perbualan, klik butang Ensiklopedia",
+          "step2": "Masukkan terma, syarat atau rawatan perubatan untuk diselidik",
+          "step3": "Semak maklumat komprehensif dengan petikan",
+          "step4": "Tanya soalan susulan untuk penjelasan"
+        }
+      },
+      "differentialOpinions": {
+        "title": "Pendapat Berbeza",
+        "description": "Terokai diagnosis alternatif dan pendapat kedua untuk memastikan pemahaman yang menyeluruh:",
+        "gettingOpinions": {
+          "title": "Mendapatkan Pendapat Berbeza:",
+          "step1": "Selepas menerima penilaian awal, klik \"Dapatkan Pendapat Berbeza\"",
+          "step2": "AI akan menganalisis gejala anda dari perspektif yang berbeza",
+          "step3": "Semak kemungkinan alternatif dan kemungkinannya",
+          "step4": "Fahami bila perlu mendapatkan rawatan perubatan segera"
+        },
+        "whatYoullLearn": {
+          "title": "Apa yang Anda Akan Pelajari:",
+          "item1": "Keadaan lain yang boleh menyebabkan gejala yang sama",
+          "item2": "Bendera merah yang memerlukan rawatan perubatan segera",
+          "item3": "Soalan untuk ditanya kepada pembekal penjagaan kesihatan anda",
+          "item4": "Ujian tambahan yang mungkin membantu"
+        }
+      },
+      "voiceInteraction": {
+        "title": "Interaksi Suara",
+        "description": "Terlibat dengan VirtualMD menggunakan perbualan suara semula jadi:",
+        "features": {
+          "title": "Ciri Suara:",
+          "speechToText": {
+            "label": "Ucapan-ke-Teks:",
+            "description": "Klik ikon mikrofon untuk bercakap soalan anda"
+          },
+          "textToSpeech": {
+            "label": "Teks-ke-Pertuturan:",
+            "description": "Togol ikon pembesar suara untuk mendengar respons AI"
+          },
+          "naturalConversation": {
+            "label": "Perbualan Semulajadi:",
+            "description": "Bercakap secara semula jadi seperti yang anda lakukan dengan doktor"
+          },
+          "multipleVoices": {
+            "label": "Berbilang Suara:",
+            "description": "Setiap persona mempunyai personaliti suara yang unik"
+          }
+        },
+        "controls": {
+          "title": "Kawalan Suara:",
+          "microphone": "Ikon mikrofon: Mula/hentikan input suara",
+          "speaker": "Ikon pembesar suara: Dayakan/lumpuhkan respons suara",
+          "volume": "Kawalan kelantangan: Laraskan kelantangan pertuturan dalam tetapan",
+          "speed": "Kawalan kelajuan: Laraskan kadar pertuturan untuk kejelasan"
+        }
+      },
+      "languageSupport": {
+        "title": "Sokongan Bahasa",
+        "description": "Berkomunikasi dalam bahasa pilihan anda dengan sokongan untuk 30+ bahasa:",
+        "availableLanguages": {
+          "title": "Bahasa yang Tersedia:",
+          "languages": {
+            "arabic": "bahasa arab",
+            "chinese": "cina",
+            "english": "Inggeris",
+            "spanish": "bahasa Sepanyol",
+            "french": "Perancis",
+            "german": "Jerman",
+            "hebrew": "bahasa Ibrani",
+            "hindi": "Hindi",
+            "italian": "Itali",
+            "japanese": "Jepun",
+            "korean": "Korea",
+            "portuguese": "Portugis",
+            "russian": "bahasa Rusia",
+            "moreLanguages": "20+ Lagi"
+          }
+        },
+        "languageFeatures": {
+          "title": "Ciri Bahasa:",
+          "autoDetection": "Pengesanan bahasa automatik berdasarkan tetapan penyemak imbas",
+          "switchLanguages": "Tukar bahasa pada bila-bila masa daripada menu bahasa",
+          "rtlSupport": "Sokongan RTL untuk bahasa Arab dan Ibrani",
+          "medicalTermsExplained": "Istilah perubatan dijelaskan dalam bahasa anda",
+          "culturalGuidance": "Panduan kesihatan yang sesuai dengan budaya"
+        }
+      },
+      "tipsTitle": "Petua & Amalan Terbaik",
+      "tipsSubtitle": "Mendapat yang terbaik daripada VirtualMD:",
+      "commonUseCases": {
+        "title": "Kes Penggunaan Biasa:",
+        "useCase1": "Memahami gejala sebelum lawatan doktor",
+        "useCase2": "Mendapatkan pendapat kedua tentang diagnosis",
+        "useCase3": "Belajar tentang keadaan perubatan dan rawatan",
+        "useCase4": "Menyediakan soalan untuk temu janji penjagaan kesihatan",
+        "useCase5": "Memahami keputusan ujian perubatan",
+        "useCase6": "Menguruskan keadaan kronik dengan bimbingan berterusan",
+        "useCase7": "Sokongan kesihatan mental dan strategi mengatasi"
+      },
+      "privacySecurity": {
+        "title": "Privasi & Keselamatan",
+        "description": "Maklumat kesihatan anda dilindungi dengan keselamatan gred perusahaan:",
+        "securityFeatures": {
+          "title": "Ciri-ciri Keselamatan:",
+          "feature1": "Penyulitan hujung ke hujung untuk semua perbualan",
+          "feature2": "Pengendalian data yang mematuhi HIPAA",
+          "feature3": "Tiada perkongsian data peribadi tanpa kebenaran",
+          "feature4": "Storan awan selamat dengan sandaran biasa",
+          "feature5": "Mod tetamu tanpa nama tersedia",
+          "feature6": "Selesaikan pemadaman data semasa penutupan akaun"
+        },
+        "yourControl": {
+          "title": "Kawalan Anda:",
+          "control1": "Padamkan perbualan pada bila-bila masa",
+          "control2": "Eksport data anda untuk rekod peribadi",
+          "control3": "Kawal maklumat yang disimpan",
+          "control4": "Tarik diri daripada analisis data"
+        }
+      },
+      "callToAction": {
+        "title": "Bersedia untuk Bermula?",
+        "description": "Alami masa depan perundingan penjagaan kesihatan dengan VirtualMD.app",
+        "buttons": {
+          "tryAsGuest": "Cuba sebagai Tetamu",
+          "createAccount": "Buat Akaun",
+          "backToHome": "← Kembali ke Laman Utama"
+        }
+      }
+    },
+    "tips": {
+      "beSpecific": {
+        "label": "Jadilah Spesifik:",
+        "description": "Berikan maklumat terperinci tentang gejala, tempoh dan keterukan"
+      },
+      "shareContext": {
+        "label": "Kongsi Konteks:",
+        "description": "Sebutkan sejarah perubatan, ubat-ubatan dan alahan yang berkaitan"
+      },
+      "askFollowups": {
+        "label": "Tanya Susulan:",
+        "description": "Jangan teragak-agak untuk meminta penjelasan atau butiran lanjut"
+      },
+      "useImages": {
+        "label": "Gunakan Imej:",
+        "description": "Muat naik imej perubatan atau keputusan ujian yang berkaitan apabila tersedia"
+      },
+      "saveConversations": {
+        "label": "Simpan Perbualan:",
+        "description": "Simpan perundingan penting untuk rujukan masa hadapan"
+      },
+      "buildTeams": {
+        "label": "Bina Pasukan:",
+        "description": "Gunakan berbilang pakar untuk masalah kesihatan yang kompleks"
+      },
+      "verifyInformation": {
+        "label": "Sahkan Maklumat:",
+        "description": "Sentiasa sahkan bimbingan AI dengan profesional penjagaan kesihatan"
+      }
+    }
+  },
+  "landingPages": {
+    "defaultGuest": {
+      "childHealth": {
+        "title": "Sokongan Kesihatan Kanak-Kanak",
+        "subtitle": "Bimbingan pediatrik pakar apabila anda amat memerlukannya.",
+        "firstMessage": "hello! Saya Pakar Kesihatan Aileen Carol, dan saya di sini untuk membantu masalah kesihatan anak anda. Setiap ibu bapa bimbang - itu adalah perkara biasa.\n\nApakah gejala atau kebimbangan khusus yang anda ada tentang anak anda hari ini?"
+      },
+      "sleep": {
+        "title": "Tidur & Kesejahteraan",
+        "subtitle": "Dapatkan rehat yang lebih baik dan tingkatkan tenaga harian anda.",
+        "firstMessage": "Hai! Saya Pakar Kesihatan Aileen Carol. Isu tidur benar-benar boleh menjejaskan setiap aspek kehidupan anda dan saya di sini untuk membantu anda mendapatkan rehat yang anda perlukan.\n\nApakah yang menghalang anda daripada mendapat tidur yang lena kebelakangan ini?"
+      },
+      "nutrition": {
+        "title": "Pemakanan & Gaya Hidup",
+        "subtitle": "Panduan peribadi untuk kehidupan yang lebih sihat.",
+        "firstMessage": "hello! Saya Pakar Kesihatan Aileen Carol. Membuat perubahan gaya hidup sihat boleh berasa sangat menggembirakan, tetapi anda mengambil langkah pertama yang hebat dengan menghubungi anda.\n\nApakah aspek kesihatan dan pemakanan anda yang ingin anda fokuskan?"
+      }
+    }
+  },
+  "founders": {
+    "title": "Nota daripada Pengasas",
+    "paragraph1": "Kami membina apl ini dengan satu harapan: untuk membantu menjadikan dunia tempat yang lebih sihat dengan menawarkan akses kepada bimbingan perubatan yang boleh dipercayai—dikuasakan oleh teknologi yang baru-baru ini menjadi mungkin. Ia adalah hasil kerjasama antara seorang saintis dan seorang rabbi, kedua-duanya pembangun lama yang memahami kedua-dua janji dan tanggungjawab era baharu AI ini.",
+    "paragraph2": "Matlamat kami adalah untuk menyediakan akses percuma dan penuh kepada platform untuk sejuta pengguna pertama kami. Kami percaya kesihatan harus tersedia untuk semua—bukan hanya kepada mereka yang mampu. Apabila platform berkembang, kami mungkin memperkenalkan bayaran untuk ciri premium tertentu. Tetapi pada masa ini, kami memberi tumpuan untuk memberikan ini kepada mereka yang paling memerlukannya.",
+    "paragraph3": "Di samping yang terkini dalam sains perubatan, kami telah memungkinkan untuk melibatkan diri dengan persona AI yang diilhamkan oleh tradisi penyembuhan dari seluruh dunia—termasuk sistem Timur dan Afrika yang terlalu kerap diabaikan. Kami tidak mempromosikan mana-mana laluan. Sebaliknya, kami menawarkan alat yang membolehkan individu meneroka pelbagai perspektif dan menyepadukan perkara yang dirasakan paling bermakna bagi mereka.",
+    "paragraph4": "Kami faham bahawa pendekatan ini akan menghadapi rintangan. Sebahagian daripadanya akan sah—kebimbangan tentang ketepatan adalah nyata, dan kami memandang seriusnya. Kritikan lain akan datang dari ketidakselesaan dengan perubahan. Tetapi penjagaan kesihatan sedang berkembang, sama ada pertubuhan itu mengalu-alukannya atau tidak. Matlamat kami adalah untuk membimbing perubahan itu dengan berhati-hati, rendah hati dan telus.",
+    "paragraph5": "AI berkuasa, tetapi masih tidak sempurna. Ini bukan sahaja penafian undang-undang—ia adalah sebahagian daripada tanggungjawab etika kami kepada anda dan kesihatan awam. Sila gunakan alat ini sebagai tambahan, bukan pengganti, untuk penjagaan perubatan berlesen.",
+    "closing": "Terima kasih kerana berada di sini. Kami harap anda menggunakannya dalam keadaan sihat.",
+    "supportText": "Jika anda percaya dengan apa yang kami bina dan ingin membantu kami meneruskannya, kami memerlukan sokongan anda. Anda boleh menyumbang dengan klik pada pautan di bawah.",
+    "signature": "– Ron Rubin & Sandy Miles, Pencipta",
+    "supportButton": "Sokong Kami"
+  }
+}

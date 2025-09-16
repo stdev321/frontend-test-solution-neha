@@ -1,0 +1,907 @@
+{
+  "header": {
+    "login": "Acceso",
+    "register": "Registro",
+    "logout": "Cerrar sesión",
+    "aboutUs": "Sobre nosotros",
+    "learnMore": "Más información",
+    "advisory": "Consultivo",
+    "start": "Comenzar",
+    "greetingHello": "Hola {{nombre}}!",
+    "welcomeToVirtualMD": "¡Bienvenido a VirtualMD!",
+    "signupForFullAccess": "Regístrate para tener acceso completo",
+    "profileTitle": "Mi perfil / Ir al chat",
+    "logoutTitle": "Cerrar sesión",
+    "toggleTheme": "Alternar modo claro/oscuro",
+    "toggleMode": "Alternar modo claro/oscuro",
+    "myProfile": "Mi perfil / Ir al chat",
+    "dashboard": "Panel",
+    "endConversation": "Finalizar conversación",
+    "returnToConversation": "Regresar a la conversación",
+    "startConversation": "Iniciar conversación",
+    "endConsult": "Fin de consulta",
+    "returnToConsult": "Volver a Consultar",
+    "startConsult": "Iniciar consulta",
+    "home": "Hogar",
+    "healthEncyclopedia": "Enciclopedia de la salud",
+    "researchPublications": "Investigación y publicaciones",
+    "contactUs": "Contáctenos",
+    "light": "Luz",
+    "dark": "Oscuro",
+    "toggleModeText": "Cambiar el modo {{mode}}",
+    "legal": "Legal"
+  },
+  "howToUse": "Cómo utilizar",
+  "settings": {
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro"
+  },
+  "navigation": {
+    "dashboard": "Panel",
+    "home": "Hogar",
+    "aboutUs": "Sobre nosotros",
+    "returnToChat": "Regresar al chat",
+    "continueConsultation": "Continúa tu consulta",
+    "exitConsultation": "Consulta de salida",
+    "startNewConsultation": "Iniciar nueva consulta",
+    "sections": {
+      "chatTools": "HERRAMIENTAS DE CHAT",
+      "functionality": "FUNCIONALIDAD",
+      "aboutUs": "SOBRE NOSOTROS",
+      "requiredDocuments": "DOCUMENTOS REQUERIDOS",
+      "research": "INVESTIGACIÓN",
+      "controls": "CONTROLES",
+      "settings": "AJUSTES"
+    },
+    "myTeam": "Mi equipo",
+    "summary": "Resumen",
+    "transcript": "Transcripción",
+    "encyclopedia": "Enciclopedia",
+    "priorChats": "Chats previos",
+    "myProfile": "Mi perfil",
+    "healthEncyclopedia": "Enciclopedia de la salud",
+    "noteFromFounders": "Nota de los fundadores",
+    "faq": "Preguntas frecuentes",
+    "contactUs": "Contáctenos",
+    "legal": "Legal",
+    "dataPrivacy": "Privacidad de datos",
+    "aiAccuracyStudies": "Estudios de precisión de IA",
+    "empowerYourself": "Empodérate",
+    "deepResearch": "Investigación profunda",
+    "aboutUsItems": {
+      "advisory": "Consultivo",
+      "dataPrivacy": "Privacidad de datos"
+    },
+    "learnMore": {
+      "imagingAI": "Imágenes e IA",
+      "pathologyAI": "Patología e IA",
+      "dermatologyAI": "Dermatología e IA",
+      "mentalHealthAI": "Salud mental e IA",
+      "accuracyStudies": "Estudios de precisión de IA",
+      "allResearch": "Toda la investigación",
+      "empowerYourself": "Empodérate"
+    }
+  },
+  "landing": {
+    "title": "Aplicación VirtualMD",
+    "subtitle": "Soluciones de atención médica impulsadas por IA",
+    "tryItOut": "Pruébalo",
+    "scrollDown": "Desplácese hacia abajo",
+    "scrollUp": "Desplazarse hacia arriba",
+    "alwaysHereForYou": "Siempre aquí para ti.",
+    "cards": {
+      "whyUse": {
+        "title": "¿Por qué VirtualMD?",
+        "description": "Descubra los beneficios revolucionarios de nuestra plataforma de salud virtual impulsada por IA"
+      },
+      "dataPrivacy": {
+        "title": "Su privacidad",
+        "description": "Como un amigo de confianza, tus secretos de salud están seguros con nosotros."
+      },
+      "tryItOut": {
+        "title": "Pruébalo",
+        "description": "Mi hijo está enfermo | ¡No puedo dormir! | Nutrición para el amor",
+        "tagline": "No es necesario registrarse"
+      },
+      "wellness": {
+        "title": "Investigación profunda",
+        "description": "Enciclopedia de salud con fuentes confiables"
+      },
+      "yourHealth": {
+        "title": "Tu salud",
+        "description": "Dale forma a tu viaje de bienestar con IA"
+      }
+    }
+  },
+  "chat": {
+    "startNewConsult": "Iniciar nueva consulta",
+    "noSpeechDetected": "No me di cuenta de eso",
+    "noSpeechMessage": "No pude detectar ninguna voz en tu grabación. Intenta hablar un poco más alto o acércate al micrófono y vuelve a intentarlo.",
+    "dontShowAgain": "No me lo vuelvas a mostrar",
+    "gotIt": "Entiendo",
+    "loading": "Cargando…"
+  },
+  "loading": {
+    "preparingHealthTeam": "Preparando su equipo de salud de IA...",
+    "connectingSpecialists": "Conectando con especialistas en salud...",
+    "initializingSystem": "Inicializando tu sistema de salud personalizado...",
+    "almostReady": "Casi listo para ayudarte...",
+    "dots": "..."
+  },
+  "common": {
+    "loading": "Cargando…",
+    "user": {
+      "defaultInitial": "Tú",
+      "defaultName": "allá",
+      "defaultAltText": "Usuario"
+    },
+    "error": "Error",
+    "success": "Éxito",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "save": "Ahorrar",
+    "delete": "Borrar",
+    "edit": "Editar",
+    "close": "Cerca",
+    "next": "Próximo",
+    "previous": "Anterior",
+    "submit": "Entregar",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "sort": "Clasificar",
+    "upload": "Subir",
+    "download": "Descargar",
+    "print": "Imprimir",
+    "share": "Compartir",
+    "copy": "Copiar",
+    "paste": "Pasta",
+    "cut": "Cortar",
+    "undo": "Deshacer",
+    "redo": "Rehacer",
+    "yes": "Sí",
+    "no": "No",
+    "ok": "DE ACUERDO",
+    "punctuation": {
+      "ellipsis": "..."
+    },
+    "apply": "Aplicar",
+    "reset": "Reiniciar",
+    "clear": "Claro",
+    "back": "Atrás",
+    "forward": "Adelante",
+    "home": "Hogar",
+    "refresh": "Refrescar",
+    "reload": "Recargar",
+    "help": "Ayuda",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "profile": "Perfil",
+    "account": "Cuenta",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "legal": "Legal",
+    "support": "Apoyo",
+    "feedback": "Comentario",
+    "welcome": "Bienvenido",
+    "goodbye": "Adiós",
+    "thankyou": "Gracias",
+    "send": "Enviar",
+    "none": "Ninguno",
+    "generating": "Generando...",
+    "settings": "Ajustes"
+  },
+  "auth": {
+    "loginTitle": "Iniciar sesión",
+    "registerTitle": "Crear una cuenta",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "confirmPassword": "confirmar Contraseña",
+    "fullName": "Nombre completo",
+    "displayName": "Nombre para mostrar",
+    "rememberMe": "Acuérdate de mí",
+    "forgotPassword": "¿Has olvidado tu contraseña?",
+    "noAccount": "¿No tienes una cuenta?",
+    "hasAccount": "¿Ya tienes una cuenta?",
+    "signUp": "Inscribirse",
+    "signIn": "Iniciar sesión",
+    "signOut": "desconectar",
+    "createAccount": "Crear una cuenta",
+    "loginButton": "Acceso",
+    "registerButton": "Registro",
+    "logout": "Cerrar sesión"
+  },
+  "footer": {
+    "copyright": "MindScript Technologies LLC. Todos los derechos reservados.",
+    "privacyPolicy": "política de privacidad",
+    "termsOfService": "Condiciones de servicio",
+    "cookiePolicy": "Política de cookies",
+    "medicalAdvisory": "Aviso de salud",
+    "yourPrivacy": "Su privacidad",
+    "legal": "Legal",
+    "contactUs": "Contáctenos",
+    "howToUse": "Cómo utilizar",
+    "faq": "Preguntas frecuentes",
+    "noteFromFounders": "Nota de los fundadores",
+    "medicalDisclaimerTooltip": "MindScript se esfuerza por ofrecer la información de salud más precisa y actualizada mediante perfiles de salud basados en IA. Sin embargo, estos perfiles no son expertos en salud certificados y podrían estar equivocados. En caso de una verdadera emergencia médica, llame al 911 o acuda inmediatamente al servicio de urgencias más cercano. Si tiene alguna otra inquietud o antes de probar cualquier tratamiento o remedio, consulte con un profesional de la salud o un especialista cualificado.",
+    "advisory": "Consultivo"
+  },
+  "forms": {
+    "required": "Este campo es obligatorio",
+    "invalidEmail": "Por favor, introduce una dirección de correo electrónico válida",
+    "passwordTooShort": "La contraseña debe tener al menos 8 caracteres",
+    "passwordsDoNotMatch": "Las contraseñas no coinciden",
+    "invalidInput": "Por favor, introduzca una entrada válida",
+    "fieldRequired": "{{field}} es obligatorio",
+    "selectOption": "Por favor seleccione una opción",
+    "uploadFile": "Subir archivo",
+    "dragAndDrop": "Arrastre y suelte archivos aquí, o haga clic para seleccionar",
+    "fileUploaded": "Archivo cargado exitosamente",
+    "uploadError": "Error al cargar el archivo"
+  },
+  "language": {
+    "english": "Inglés",
+    "arabic": "Alá",
+    "hebrew": "עברית",
+    "switchTo": "Cambiar a {{language}}",
+    "currentLanguage": "Idioma actual: {{language}}"
+  },
+  "animation": {
+    "title": {
+      "simply": "Simplemente",
+      "better": "Mejor",
+      "health": "Salud",
+      "period": "."
+    }
+  },
+  "hero": {
+    "subtitle": "Asesoramiento personalizado sobre salud y bienestar 24/7.",
+    "subtitleMobile": "Asesoramiento de salud personalizado con IA las 24 horas, los 7 días de la semana",
+    "poweredBy": "Desarrollado con IA."
+  },
+  "research": {
+    "title": "Investigación y publicaciones",
+    "subtitle": "Soluciones de inteligencia artificial para el cuidado de la salud basadas en evidencia",
+    "aiImaging": {
+      "title": "IA en el diagnóstico por imagen",
+      "description": "Análisis exhaustivo de aplicaciones de inteligencia artificial en imágenes de salud en radiología, patología y oftalmología."
+    },
+    "pathologyAI": {
+      "title": "Asistencia de IA para patología",
+      "description": "Aplicaciones de aprendizaje profundo en patología digital para la detección del cáncer y la mejora de la precisión diagnóstica."
+    },
+    "dermatologyAI": {
+      "title": "Soluciones de IA para dermatología",
+      "description": "Detección y diagnóstico de afecciones de la piel impulsados por IA mediante visión artificial y aprendizaje automático."
+    },
+    "mentalHealthAI": {
+      "title": "Salud mental e IA",
+      "description": "Aplicaciones de inteligencia artificial en la detección, diagnóstico y apoyo al tratamiento de la salud mental."
+    },
+    "accuracyStudies": {
+      "title": "Estudios de precisión de IA",
+      "description": "Validación clínica y métricas de rendimiento de sistemas de diagnóstico de IA en entornos de atención médica del mundo real."
+    }
+  },
+  "whitepapers": {
+    "downloadPdf": "Descargar PDF",
+    "generating": "Generando...",
+    "abstract": "Abstracto",
+    "introduction": "Introducción",
+    "methods": "Métodos/Tecnologías",
+    "results": "Resultados",
+    "discussion": "Discusión",
+    "conclusion": "Conclusión",
+    "references": "Referencias",
+    "authors": "Autores",
+    "email": "Correo electrónico",
+    "organization": "Organización"
+  },
+  "imageProcessing": {
+    "preset": "Programar",
+    "process": "Proceso",
+    "revert": "Revertir",
+    "applyPreset": "Aplicar ajuste preestablecido a la imagen enfocada",
+    "revertFocus": "Reenfocar la imagen original"
+  },
+  "alt": {
+    "logo": "Logotipo de VirtualMD.app",
+    "logoSmall": "Logotipo pequeño de MindScript",
+    "integratedApproach": "Enfoque de bienestar integrado",
+    "userProfile": "Perfil de usuario",
+    "aiDoctor": "Carol, experta en salud con inteligencia artificial",
+    "aiAssistant": "Asistente de IA",
+    "backgroundImage": "Hermosa imagen de fondo",
+    "home": "Página de inicio de MindScript",
+    "processed": "Imagen procesada",
+    "zoomPreview": "Vista previa ampliada de la imagen"
+  },
+  "aria": {
+    "scrollDown": "Desplácese hacia abajo",
+    "scrollUp": "Desplazarse hacia arriba",
+    "openMenu": "Abrir menú",
+    "togglePassword": "Activar o desactivar la visibilidad de la contraseña",
+    "chooseLanguage": "Elija el idioma",
+    "goHome": "Ir a la página de inicio",
+    "remove": "Eliminar",
+    "edit": "Editar",
+    "delete": "Borrar",
+    "save": "Ahorrar",
+    "cancel": "Cancelar",
+    "breadcrumb": "Miga de navegación",
+    "conversationChoice": "Elección de conversación",
+    "personaChoice": "Elección de personalidad",
+    "panel": "Panel",
+    "summary": "Resumen",
+    "differentialOpinion": "Opinión diferencial",
+    "transcript": "Transcripción",
+    "encyclopedia": "Enciclopedia",
+    "endConversation": "Finalizar conversación",
+    "startChat": "Iniciar chat con el equipo",
+    "configureChat": "Configurar nuevo chat",
+    "savedConsultations": "Consultas guardadas",
+    "myProfile": "Mi perfil"
+  },
+  "researchPage": {
+    "title": "Investigación y publicaciones",
+    "healthAdvisory": {
+      "title": "Aviso de salud",
+      "description": "Información importante sobre salud y seguridad",
+      "button": "Ver aviso"
+    },
+    "imagingAI": {
+      "title": "IA en el diagnóstico por imagen",
+      "description": "Aplicaciones de IA en imágenes sanitarias en radiología, patología y oftalmología",
+      "button": "Leer más"
+    },
+    "pathologyAI": {
+      "title": "Patología asistida por IA",
+      "description": "Aplicaciones del aprendizaje profundo en patología digital para la detección del cáncer y la precisión diagnóstica",
+      "button": "Leer más"
+    },
+    "dermatologyAI": {
+      "title": "Soluciones de IA en Dermatología",
+      "description": "Detección y diagnóstico de afecciones de la piel impulsados por IA mediante visión artificial y aprendizaje automático",
+      "button": "Leer más"
+    },
+    "mentalHealthAI": {
+      "title": "Salud mental e inteligencia artificial",
+      "description": "Aplicaciones de la IA en la detección, el diagnóstico y el apoyo terapéutico de la salud mental",
+      "button": "Leer más"
+    },
+    "dataPrivacy": {
+      "title": "Privacidad y seguridad de datos",
+      "description": "Protección de datos de atención médica, cumplimiento de HIPAA y salvaguardas de la privacidad",
+      "button": "Leer más"
+    },
+    "aiAccuracy": {
+      "title": "Estudios de precisión de IA",
+      "description": "Validación clínica y métricas de rendimiento de sistemas de diagnóstico de IA en entornos de atención médica del mundo real",
+      "button": "Leer más"
+    },
+    "aiForLaypeople": {
+      "title": "IA para todos",
+      "description": "Comprender la IA en el ámbito sanitario en términos sencillos: no se requieren conocimientos técnicos",
+      "button": "Leer más"
+    }
+  },
+  "dialogs": {
+    "startWithDefault": "Comience con la experta en salud Carol",
+    "startWithSpecific": "Empieza con {{nombre}}",
+    "longRecording": {},
+    "shortConv": {}
+  },
+  "team": {
+    "myAIHealthTeam": "Mi equipo de salud de IA",
+    "addMembersInstruction": "Agregue miembros del equipo haciendo clic en una tarjeta a la derecha.",
+    "maxTeamSizeNote": "Se puede añadir un máximo de cinco asesores de IA a tu equipo. Puedes cambiar de equipo en cualquier momento, pero no durante una consulta.",
+    "starting": "A partir de...",
+    "startTeamConsult": "Consulta de equipo de inicio",
+    "startConsultationWithTeam": "Inicie una consulta con su equipo"
+  },
+  "newConversation": {
+    "aileenCarolOnly": "Experta en salud Carol Only",
+    "oneOnOne": "Uno a uno",
+    "consultationChoice": {
+      "question": "¿Con quién te gustaría consultar hoy?"
+    },
+    "options": {
+      "allAdvisers": "Todos mis asesores de salud de IA",
+      "allAdvisersCarolOnly": "Todos mis asesores de salud con IA (solo Carol, experta en salud con IA)",
+      "chooseSpecific": "Elija específico de mi lista"
+    },
+    "tooltips": {
+      "noAdvisersSelected": "No hay asesores seleccionados en tu perfil.",
+      "loadingAdvisers": "Cargando tus asesores...",
+      "noOtherAdvisers": "No hay otros asesores en tu lista para elegir. Agrega más en tu perfil."
+    },
+    "errors": {
+      "loadingAdvisers": "Error al cargar los datos del asesor."
+    },
+    "buttons": {
+      "cancel": "Cancelar",
+      "next": "Próximo",
+      "start": "Comenzar"
+    }
+  },
+  "aiAccuracyWhitepaper": {
+    "section1": {},
+    "section2": {
+      "aiSuccess": {},
+      "aiErrors": {},
+      "aiVsHuman": {}
+    },
+    "section3": {
+      "challenges": {}
+    },
+    "section4": {
+      "guidelines": {}
+    },
+    "section5": {}
+  },
+  "imagingAIExplainer": {
+    "whatIsImaging": {
+      "types": {}
+    },
+    "whatIsAI": {},
+    "howAIHelps": {
+      "accuracy": {},
+      "speed": {},
+      "consistency": {}
+    },
+    "challenges": {},
+    "conclusion": {}
+  },
+  "mentalHealthWhitepaper": {
+    "disclaimer": {},
+    "abstract": {},
+    "introduction": {},
+    "methods": {},
+    "results": {
+      "diagnosticSupport": {},
+      "therapeuticApplications": {},
+      "patientMonitoring": {}
+    },
+    "discussion": {},
+    "conclusion": {}
+  },
+  "audio": {},
+  "autoListening": {},
+  "speech": {},
+  "help": {},
+  "upload": {},
+  "fileUpload": {},
+  "input": {},
+  "send": {},
+  "controls": {
+    "aiSpeaker": "Orador de IA",
+    "cameraUpload": "Cámara/Subir",
+    "status": {
+      "enabled": "Activado",
+      "disabled": "Desactivado"
+    }
+  },
+  "welcome": {},
+  "account": {},
+  "participants": {},
+  "mobileChat": {},
+  "sidebar": {
+    "differentialOpinion": "Opinión diferencial"
+  },
+  "bioPanel": {},
+  "conversations": {},
+  "mobileConsultations": {},
+  "encyclopedia": {},
+  "imageContext": {},
+  "profile": {},
+  "sidebarHeader": {
+    "plusBadge": "+"
+  },
+  "messages": {},
+  "sidebarFooter": {},
+  "summary": {},
+  "teamBuilder": {
+    "steps": {},
+    "alerts": {},
+    "existingTeam": {},
+    "primaryConcerns": {},
+    "healthConditions": {},
+    "urgencySymptoms": {},
+    "medicinePreferences": {},
+    "additionalInfo": {},
+    "aileenCarolIntro": {},
+    "buttons": {},
+    "dialogs": {}
+  },
+  "aileenCarol": {},
+  "transcript": {},
+  "registerPage": {},
+  "legal": {
+    "eligibility": {},
+    "feesAndPayment": {},
+    "termination": {}
+  },
+  "aboutEncyclopediaPage": {},
+  "loginPage": {},
+  "mobileTeamBuilder": {
+    "carolMessages": {},
+    "questionnaire": {},
+    "title": {},
+    "carolGreeting": {}
+  },
+  "mobileNavigation": {},
+  "mobileWelcome": {},
+  "mobileRouter": {},
+  "mobileInput": {},
+  "mobileProfile": {},
+  "clinicianInfoPage": {},
+  "contactPage": {},
+  "dataPrivacyWhitepaper": {
+    "sections": {},
+    "hero": {},
+    "privacyPledge": {
+      "secureInfo": {},
+      "noPersonalUse": {},
+      "neverSell": {},
+      "anonymizedData": {}
+    },
+    "securityLevels": {
+      "accountSecurity": {},
+      "hipaaHistory": {}
+    },
+    "mindscriptSecurity": {},
+    "hipaaConsiderations": {},
+    "userResponsibility": {},
+    "privacyScenarios": {},
+    "conclusion": {}
+  },
+  "encyclopediaPage": {},
+  "evidencePage": {
+    "researchEvidence": {
+      "radiology": {},
+      "pathology": {},
+      "dermatology": {},
+      "mentalHealthResearch": {}
+    },
+    "wellnessInsights": {
+      "personalizedWellness": {},
+      "holisticSignals": {},
+      "proactiveWellbeing": {},
+      "aiEnhancedClarity": {}
+    }
+  },
+  "featuresPage": {
+    "features": {
+      "instantWellnessInsights": {},
+      "holisticWellnessPicture": {},
+      "diverseAIPerspectives": {},
+      "everEvolvingIntelligence": {}
+    }
+  },
+  "healthAdvisoryPage": {
+    "sections": {
+      "consultation": {
+        "emergency": {}
+      },
+      "technology": {},
+      "disclaimer": {
+        "points": {}
+      }
+    }
+  },
+  "medicalImageProcessingPage": {},
+  "mentalHealthInfoPage": {},
+  "nurseInfoPage": {},
+  "patientInfoPage": {},
+  "pharmacistInfoPage": {},
+  "physicianInfoPage": {},
+  "wellnessPathwaysPage": {},
+  "whyVirtualMD": {
+    "sections": {
+      "whyUs": {
+        "points": {
+          "personalTeam": {},
+          "aiNavigator": {},
+          "empoweringChoices": {},
+          "easyToUse": {},
+          "advancedTechnology": {}
+        }
+      },
+      "hero": {},
+      "features": {
+        "points": {
+          "dynamicEnsemble": {},
+          "holisticUnderstanding": {},
+          "rapidAccess": {},
+          "reliableInteractions": {},
+          "insightfulLogs": {}
+        }
+      },
+      "technology": {},
+      "cta": {}
+    }
+  },
+  "yourHealthInYourHandsPage": {
+    "sections": {
+      "uniqueProfile": {},
+      "personalizedGoals": {},
+      "diverseInsights": {},
+      "proactivePartner": {}
+    },
+    "callToAction": {}
+  },
+  "session_complete": "Sesión completada",
+  "your_free_trial_has_ended": "Su prueba gratuita ha finalizado",
+  "united_kingdom:_dial_999_or_11": "Reino Unido: Marque 999 o 112",
+  "melanoma_and_skin_cancer_detec": "Detección del melanoma y el cáncer de piel",
+  "process_transactions_and_send_": "Procesar transacciones y enviar información relacionada, incluidas confirmaciones y facturas (si corresponde).",
+  "information_we_collect": "Información que recopilamos",
+  "in_a_medical_emergency:": "En caso de emergencia médica:",
+  "in_response_to_legal_process:": "En respuesta al proceso legal:",
+  "loading_chat": "Cargando chat...",
+  "redirecting": "Redirigiendo...",
+  "israel:_dial_101_(magen_david_": "Israel: Marque 101 ()",
+  "unlimited_messages_with_ai_doc": "Mensajes ilimitados con expertos en salud con inteligencia artificial",
+  "contact_information": "Información del contacto",
+  "real-world_implementation_and_": "Implementación en el mundo real y aplicaciones móviles",
+  "your_access_to_or_use_of_or_in": "SU ACCESO O USO O INCAPACIDAD DE ACCEDER O UTILIZAR EL SERVICIO;",
+  "your_computer_may_temporarily_": "Es posible que su computadora almacene temporalmente copias de dichos materiales en la RAM cuando usted accede y visualiza dichos materiales.",
+  "please_select_only_one_special": "Por favor seleccione sólo un especialista para una consulta privada.",
+  "references": "Referencias",
+  "business_transfers:": "Transferencias de Negocios:",
+  "account_information:": "Información de la cuenta:",
+  "provide,_operate,_maintain,_an": "Proporcionar, operar, mantener y mejorar el Servicio.",
+  "assignment": "Asignación",
+  "sandymiles@mindspringhealth": "sandymiles@mindspring.health",
+  "ai-generated_content_may_conta": "El contenido generado por IA puede contener errores u omisiones a pesar de nuestros sólidos procesos de validación.",
+  "display_name": "Nombre para mostrar",
+  "any_content_obtained_from_the_": "CUALQUIER CONTENIDO OBTENIDO DEL SERVICIO; O",
+  "you_may_store_files_that_are_a": "Puede almacenar archivos que su navegador web almacena automáticamente en caché para mejorar la visualización.",
+  "start_new_health_consultation": "Iniciar nueva consulta de salud",
+  "entire_agreement": "Acuerdo completo",
+  "ophthalmology": "Oftalmología",
+  "not": "NO",
+  "exit_conversation?": "¿Salir de la conversación?",
+  "grading_and_classification": "Calificación y clasificación",
+  "unauthorized_access,_use,_or_a": "ACCESO, USO O ALTERACIÓN NO AUTORIZADOS DE SUS TRANSMISIONES O CONTENIDO (INCLUIDAS LAS VIOLACIONES DE DATOS), INCLUSO SI MINDSCRIPT HA IMPLEMENTADO MEDIDAS DE SEGURIDAD RAZONABLES COMO SE DESCRIBE EN ESTOS TÉRMINOS Y LA POLÍTICA DE PRIVACIDAD.",
+  "checking_server_status": "Comprobando el estado del servidor...",
+  "not_a_hipaa-compliant_service": "NO ES UN SERVICIO QUE CUMPLE CON LA LEY HIPAA",
+  "radiology": "Radiología",
+  "united_states:_dial_911": "Estados Unidos: llame al 911",
+  "save_and_review_conversation_h": "Guardar y revisar el historial de conversaciones",
+  "abstract": "Abstracto",
+  "starting_your_consultation": "Iniciando tu consulta...",
+  "digital_pathology_overview": "Descripción general de la patología digital",
+  "reasonable_business_security_p": "prácticas razonables de seguridad comercial dentro de los Estados Unidos",
+  "loading_transcript": "Cargando transcripción...",
+  "cookies_and_similar_technologi": "Cookies y tecnologías similares:",
+  "internal_medicine": "Bienestar interno",
+  "no_specialists_currently_in_th": "No hay especialistas actualmente en este chat.",
+  "discussion": "Discusión",
+  "updating_team": "Actualizando equipo...",
+  "your_privacy_choices": "Sus opciones de privacidad",
+  "error:_unknown_active_chat_vie": "Error: Vista de chat activa desconocida.",
+  "create_more_than_one_account_f": "Crea más de una cuenta para ti.",
+  "improve_the_accuracy,_efficacy": "Mejore la precisión, la eficacia y la seguridad de nuestros modelos de IA y las funciones de la plataforma utilizando datos anónimos y agregados.",
+  "user_content:": "Contenido del usuario:",
+  "mindscript_does_not_provide_me": "MindScript no proporciona diagnóstico ni tratamiento médico.",
+  "communicate_with_you_about_pro": "Comunicarnos con usted acerca de productos, servicios, ofertas, promociones, recompensas y eventos ofrecidos por MindScript y otros, y brindarle noticias e información que creemos que serán de su interés (sujeto a sus derechos de exclusión voluntaria).",
+  "aggregated_or_de-identified_da": "Datos agregados o desidentificados:",
+  "canada:_dial_911": "Canadá: llame al 911",
+  "retry": "Rever",
+  "other_locations:_contact_your_": "Otras ubicaciones: Comuníquese con los servicios de emergencia locales de inmediato.",
+  "ron_rubin,_phd_and_sandy_miles": "Ron Rubin, PhD y Sandy Miles",
+  "australia:_dial_000_or_112": "Australia: Marque 000 o 112",
+  "data_deletion:": "Eliminación de datos:",
+  "we_do_not_guarantee_the_absolu": "NO GARANTIZAMOS LA SEGURIDAD ABSOLUTA DE SU INFORMACIÓN",
+  "send_technical_notices,_update": "Enviar avisos técnicos, actualizaciones, alertas de seguridad y mensajes de soporte y administrativos.",
+  "consultation_summary": "Resumen de la consulta",
+  "waiver": "Exención",
+  "access_to_all_medical_specialt": "Acceso a todas las especialidades de salud",
+  "no_profile_data_available": "No hay datos de perfil disponibles",
+  "no_summary_available": "No hay resumen disponible",
+  "test_app_-_mindscript": "Aplicación de prueba - MindScript",
+  "respond_to_your_comments,_ques": "Responder a sus comentarios, preguntas y solicitudes y brindarle servicio al cliente.",
+  "not_hipaa_compliant": "NO cumple con HIPAA",
+  "force_majeure": "Fuerza mayor",
+  "you_may_print_or_download_one_": "Puede imprimir o descargar una copia de una cantidad razonable de páginas del Sitio para su uso informativo personal y no comercial y no para su posterior reproducción, publicación o distribución.",
+  "dr_aileen_carol": "La experta en salud Aileen Carol",
+  "family_medicine": "Bienestar familiar",
+  "headings": "Encabezados",
+  "note_on_ai_aileencarol's_particip": "Nota sobre la participación de Carol, experta en inteligencia artificial en salud:",
+  "ronrubin@mindscripthealth": "ronrubin@virtualmd.app",
+  "share_your_account_credentials": "Comparta las credenciales de su cuenta o permita que otros accedan a su cuenta (excepto lo permitido explícitamente para cuentas de organizaciones).",
+  "email_cannot_be_changed": "No se puede cambiar el correo electrónico.",
+  "your_unique_medical_history,_c": "Su historial de salud, condiciones y circunstancias únicas requieren una evaluación profesional.",
+  "changes_to_these_terms_and_pol": "Cambios a estos Términos y Política",
+  "other_ai_specialists": "Otros especialistas en IA",
+  "full_name": "Nombre completo",
+  "governing_law_and_dispute_reso": "Ley aplicable y resolución de disputas",
+  "loading…": "Cargando…",
+  "personalized_health_insights": "Información de salud personalizada",
+  "gastroenterology": "Gastroenterología",
+  "use_of_the_service_by_children": "El uso del Servicio por parte de niños está prohibido.",
+  "introduction": "Introducción",
+  "use_another_user's_account_wit": "Utilizar la cuenta de otro usuario sin permiso.",
+  "if_you_can_see_this,_react_is_": "¡Si puedes ver esto, React está funcionando!",
+  "ronrubin@mindspringhealth": "ronrubin@mindspring.health",
+  "children's_privacy": "Privacidad de los niños",
+  "provide_false_or_misleading_in": "Proporcionar información falsa o engañosa durante el registro o en el perfil de su cuenta.",
+  "talk_to_a_specialist": "Habla con un especialista",
+  "cannot": "NO PUEDO",
+  "how_we_use_information": "Cómo usamos la información",
+  "results": "Resultados",
+  "loading_participants": "Cargando participantes...",
+  "sandymiles@mindscripthealth": "sandymiles@virtualmd.app",
+  "this_feature_is_coming_soon": "¡Esta función estará disponible próximamente!",
+  "start_or_continue_conversation": "Iniciar o continuar una conversación",
+  "international_data_transfers": "Transferencias internacionales de datos",
+  "loading_bio": "Cargando biografía...",
+  "termination": "Terminación",
+  "no_image_active": "No hay ninguna imagen activa",
+  "no_ai_health_advisers_selected": "No se han seleccionado asesores de salud de IA. Puedes gestionarlos en tu perfil.",
+  "dr_daniel_garcia": "El experto en salud Daniel García",
+  "no_other_specialists_available": "No hay otros especialistas disponibles para agregar.",
+  "carry_out_any_other_purpose_de": "Realizar cualquier otro propósito que se le haya descrito en el momento en que se recopiló la información.",
+  "data_retention": "Retención de datos",
+  "informational_and_educational_": "SOLO CON FINES INFORMATIVOS Y EDUCATIVOS",
+  "miscellaneous": "Misceláneas",
+  "non-cancerous_skin_condition_c": "Clasificación de afecciones cutáneas no cancerosas",
+  "pathology": "Patología",
+  "promotional_communications:": "Comunicaciones promocionales:",
+  "info@mindscripthealth": "info@virtualmd.app",
+  "methods/technologies": "Métodos/Tecnologías",
+  "how_we_share_information": "Cómo compartimos información",
+  "loading_profile": "Cargando perfil...",
+  "personalize_and_improve_the_se": "Personalizar y mejorar el Servicio y proporcionar contenido o funciones que coincidan con los perfiles o intereses de los usuarios.",
+  "with_vendors_and_service_provi": "Con proveedores y prestadores de servicios:",
+  "health_information_may_become_": "La información sanitaria puede quedar obsoleta a medida que evoluciona el conocimiento sobre la salud.",
+  "with_whom_would_you_like_to_co": "¿Con quién te gustaría consultar hoy?",
+  "mindscript_content:": "Contenido de MindScript:",
+  "cookies:": "Galletas:",
+  "detect,_investigate,_and_preve": "Detectar, investigar y prevenir transacciones fraudulentas y otras actividades ilegales y proteger los derechos y la propiedad de MindScript y otros.",
+  "medical_advice_requires_person": "El asesoramiento en materia de salud requiere una evaluación personalizada por parte de proveedores de atención médica autorizados.",
+  "create_an_account_for_anyone_o": "Crear una cuenta para cualquier persona que no sea usted sin permiso.",
+  "options": "Opciones",
+  "cannot_and_will_not_sue_or_hol": "NO PUEDE Y NO DEMANDARÁ NI RESPONSABILIZARÁ A MINDSCRIPT TECHNOLOGIES, LLC, SUS AFILIADOS, FUNCIONARIOS, DIRECTORES, EMPLEADOS, AGENTES O LICENCIANTES",
+  "with_your_consent:": "Con su consentimiento:",
+  "add_specialists_to_your_team": "Añade especialistas a tu equipo",
+  "usage_information:": "Información de uso:",
+  "any_conduct_or_content_of_any_": "CUALQUIER CONDUCTA O CONTENIDO DE TERCEROS EN EL SERVICIO, INCLUYENDO, SIN LIMITACIÓN, CUALQUIER CONDUCTA DIFAMATORIA, OFENSIVA O ILEGAL DE OTROS USUARIOS O TERCEROS;",
+  "do_not_meet_the_specific_admin": "no cumplen con los requisitos específicos de protección administrativa, física y técnica exigidos por la Norma de Seguridad HIPAA para el manejo de PHI",
+  "legal@mindscripthealth": "legal@virtualmd.app",
+  "cancel": "Cancelar",
+  "conclusion": "Conclusión",
+  "professional_health_insights_a": "Perspectivas y orientación profesional sobre salud",
+  "cancer_detection": "Detección del cáncer",
+  "your_specialist_team_is_empty_": "Tu equipo de especialistas está vacío. Agrega especialistas a continuación.",
+  "workflow_optimization": "Optimización del flujo de trabajo",
+  "select_ai_specialists": "Seleccione especialistas en IA",
+  "monitor_and_analyze_trends,_us": "Monitorear y analizar tendencias, usos y actividades en relación con nuestro Servicio.",
+  "severability": "Divisibilidad",
+  "access_to_cardiology_and_neuro": "Acceso a especialistas en cardiología y neurología",
+  "searchLanguages": "Buscar idiomas...",
+  "noLanguagesFound": "No se encontraron idiomas",
+  "you": "Tú",
+  "manageTeam": {
+    "title": "Administrar mi equipo de salud de IA (máximo de {{maxTeamMembers}} especialistas)",
+    "currentTeamCount": "Tu equipo actual ({{actual}}/{{máximo}})",
+    "updatingTeam": "Actualizando equipo...",
+    "coordinatorLabel": "(Coordinador)",
+    "alwaysIncluded": "Siempre incluido",
+    "specialistFallback": "Especialista",
+    "emptyTeamMessage": "Tu equipo de especialistas está vacío. Agrega especialistas a continuación.",
+    "teamFullMessage": "Tu equipo está completo (máximo de {{maxTeamMembers}} especialistas). Elimina a un miembro si quieres añadir a otro especialista.",
+    "otherSpecialistsTitle": "Otros especialistas en IA",
+    "addToTeamTooltip": "Añadir al equipo",
+    "teamFullTooltip": "El equipo está completo",
+    "systemSpecialistFallback": "Especialista en sistemas",
+    "noSpecialistsAvailable": "No hay otros especialistas disponibles para agregar."
+  },
+  "personas": {
+    "defaultSpecialist": "Especialista en IA"
+  },
+  "personaList": {
+    "noSpecialistsFound": "No se encontraron especialistas en IA."
+  },
+  "guest": {
+    "user": "Usuario invitado",
+    "userObject": {
+      "displayName": "Usuario invitado",
+      "email": "invitado@virtualmd.app"
+    },
+    "registration": {
+      "prompt": "Regístrese para obtener acceso completo a nuestro equipo de salud de IA completo, historial de conversaciones y funciones avanzadas.",
+      "dialogTitle": "Los usuarios registrados tienen acceso a {{specialistName}}",
+      "dialogDescription": "{{specialistName}} es parte de nuestro equipo integral de salud virtual.",
+      "benefitsTitle": "Con una cuenta VirtualMD.app, obtendrás:",
+      "benefits": {
+        "access": "Acceso a más de 60 asesores de salud especializados en IA",
+        "personalized": "Consultas de salud personalizadas",
+        "saveConversations": "Guardar y continuar conversaciones",
+        "uploadImages": "Sube imágenes o tómalas directamente desde tu computadora/cámara",
+        "customTeam": "Crea tu propio equipo de salud personalizado",
+        "availability": "Disponibilidad 24/7 para consultas de salud"
+      },
+      "buttons": {
+        "maybeLater": "Quizás más tarde",
+        "registerNow": "Regístrate ahora"
+      }
+    },
+    "registrationRequired": "Se requiere registro",
+    "profileRegistrationRequired": "Perfil de usuario: se requiere registro",
+    "landing": {
+      "title": "Experimente la consulta de salud con inteligencia artificial",
+      "subtitle": "Obtenga información de salud instantánea de nuestros especialistas en salud con IA: completamente gratis, sin necesidad de registrarse",
+      "whatBringsYou": "¿Qué te trae por aquí hoy?",
+      "selectConcern": "Seleccione una preocupación común o describa la suya propia",
+      "customConcernPlaceholder": "O describe tu problema de salud con tus propias palabras...",
+      "startConsultation": "Iniciar consulta gratuita",
+      "experienceIncludes": "La experiencia gratuita para huéspedes incluye:",
+      "includes": {
+        "messages": "10 mensajes con especialistas en salud con IA",
+        "time": "15 minutos de tiempo de consulta",
+        "insights": "Perspectivas y orientación profesional sobre salud"
+      },
+      "personas": {
+        "defaultSpecialist": "Especialista en IA",
+        "aileen": {
+          "name": "La experta en salud Aileen Carol",
+          "specialty": "Bienestar familiar"
+        },
+        "daniel": {
+          "name": "El experto en salud Daniel García",
+          "specialty": "Bienestar interno"
+        }
+      }
+    },
+    "chat": {
+      "header": "Consulta de salud con IA",
+      "messagesLeft": "{{count}} mensajes restantes",
+      "timeLeft": "{{tiempo restante",
+      "startingConsultation": "Su consulta está comenzando. Un especialista en salud con IA le responderá en breve.",
+      "aiTyping": "El especialista en inteligencia artificial está escribiendo...",
+      "inputPlaceholder": "Describe tus síntomas o haz una pregunta..."
+    },
+    "expired": {
+      "title": "Consulta completa",
+      "subtitle": "Has experimentado el poder de la consulta de salud con IA",
+      "messagesUsed": "Usaste {{used}} de {{max}} mensajes",
+      "continuePrompt": "¿Quieres continuar con acceso ilimitado?",
+      "createAccount": "Crear una cuenta gratuita",
+      "signIn": "Iniciar sesión"
+    },
+    "errors": {
+      "startFailed": "No se puede iniciar la consulta. Inténtalo de nuevo.",
+      "connectionLost": "Conexión perdida. Actualiza la página.",
+      "sendFailed": "No se pudo enviar el mensaje. Inténtalo de nuevo."
+    },
+    "profile": {
+      "age": "25",
+      "gender": "Femenino",
+      "bloodType": "A+",
+      "height": "5'6\"",
+      "weight": "130 libras",
+      "conditions": "Anemia por deficiencia de hierro, depresión moderada",
+      "medications": "Sulfato ferroso 325 mg al día, Sertralina 50 mg al día",
+      "allergies": "Ninguno conocido",
+      "healthInfo": "Llevo seis meses lidiando con fatiga y poca energía. Mi especialista en salud me diagnosticó anemia ferropénica y he estado tomando suplementos de hierro. También sufro de depresión y comencé a tomar antidepresivos hace tres meses. Busco consejos para controlar ambas afecciones y mejorar mi nivel general de energía.",
+      "emergencyContact": "Sarah Johnson (Hermana) - (555) 123-4567"
+    },
+    "experience": {
+      "tryItOut": "Pruébalo",
+      "noObligation": "Sin compromiso.",
+      "subtitle": "Sólo una pizca de lo que VirtualMD.app puede hacer por usted."
+    }
+  },
+  "aiPrefix": "AI",
+  "dashboard": "Panel",
+  "teamRecommendation": {
+    "submission": {
+      "primaryConcernsLabel": "¿Cuáles son sus principales preocupaciones de salud hoy en día?",
+      "healthConditionsLabel": "¿Qué condiciones de salud se aplican a usted?"
+    },
+    "defaults": {
+      "noneSpecified": "Ninguno especificado"
+    }
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "pageTitle": "VirtualMD.app Ngā Tikanga Ture me te Kaupapahere Matatapu",
+  "lastUpdated": "Whakahoutanga Whakamutunga: {{date}}",
+  "sections": {
+    "termsOfUse": {
+      "title": "Ngā Tikanga Whakamahi",
+      "welcome": "Nau mai ki VirtualMD.app (te \"Ratonga\", te \"Paetukutuku\"), e whakahaerehia ana e MindScript Technologies, LLC (\"MindScript\", \"mātou\"). Mā ēnei Tikanga Whakamahi (\"Ngā Tikanga\") e whakahaere tō urunga atu me tō whakamahi i tā mātou paetukutuku, ngā āhua AI, ngā ihirangi, me ngā ratonga. Mā te uru, te tirotiro, te whakamahi rānei i te Ratonga, ka whakaae koe kia hereatia ki ēnei Tikanga me tā mātou Kaupapahere Matatapu, kua whakaurua ki konei mā te tuku kōrero. Mēnā kāore koe e whakaae ki ēnei Tikanga, kaua e whakamahi i te Ratonga.",
+      "serviceDescription": {
+        "title": "1. Whakaahuatanga Ratonga",
+        "content": "Ka whakarato a VirtualMD.app i te uru ki ngā āhua AI matatau kua hoahoatia hei tuku pārongo me ngā mōhiotanga e pā ana ki te hauora i runga i ngā tuhinga rongoā, ngā aratohu haumanu, me ngā raraunga whakangungu AI. He kaupapa whakarato pārongo me te mātauranga anake tā te Ratonga."
+      },
+      "acceptanceOfTerms": {
+        "title": "2. Whakaae ki ngā Tikanga",
+        "content": "Mā te rēhita, te uru, te tirotiro, te whakamahi rānei i te Ratonga, ka mōhio koe kua pānui, kua mārama, ā, ka whakaae koe kia hereatia ki ēnei Tikanga. Ka tohu koe he pakeke tōu e taea ai te hanga kirimana here, ā, ko tō whakamahinga i te Ratonga he waitohu ā-ipurangi mō ēnei Tikanga."
+      },
+      "eligibility": {
+        "title": "3. Urunga Āhei",
+        "ageRequirement": "Hei whakamahi i te Ratonga VirtualMD.app, me matua 18 āu tau, he pakeke rānei e mana ana i tō ture-takenga, ko tēhea te nui ake. Mēnā kei te whakamahi koe i te Ratonga mō te kamupene, ka tohu koe ka tika tō mana ki te here i taua kamupene ki ēnei Tikanga, ā, ka whakaae koe kia hereatia koe mō taua kamupene.",
+        "legalCapacity": "Me whai hoki koe i te kaha ture ki te whakaae ki ēnei Tikanga. Kāore e whakaaerea kia uru, kia whakamahi rānei koe i te Ratonga mēnā e rāhuitia ana koe ki te tango ratonga i raro i te ture, i tukuna rānei koe kia aukati, kia tangohia rānei e MindScript.",
+        "territorialRestrictions": "Kāore e whakaaetia te uru ki te Ratonga i ngā takiwā e rāhuitia ana i runga i te ture. Ko ngā kaiwhakamahi me ū ki ngā ture, tikanga, me ngā here o tō rātou rohe katoa mō te whakamahi i te Ratonga, tae atu ki ngā whakahaere tuihono me ngā ihirangi tika."
+      },
+      "userAccounts": {
+        "title": "4. Kaute Kaiwhakamahi me te Rēhitatanga",
+        "registrationRequirements": "Tērā pea me rēhita koe, me hanga he kaute kia uru ki ētahi āhuatanga motuhake o te Ratonga. I te wā rēhitatanga, ka whakaae koe ki te tuku pārongo tika, te whakahou tonu, me te kī katoa mōu ake, ā, ki te pupuri i ēnei pārongo kaute i runga i te āhua tika me te tere.",
+        "accountSecurity": "Ko koe te kawenga mō te muna o ō tohu kaute me ngā mahi katoa ka mahia i raro i tō kaute. Ka whakaae koe ki te whakamōhio wawe atu ki a MindScript mēnā ka kite koe i te whakamahinga kore mana o tō kaute, i tētahi hapa haumarutanga rānei. Kāore a MindScript e kawenga mō ngā ngaronga, ngā whara rānei ka pā mai i tō kore tiaki i ō pārongo kaute.",
+        "accountTermination": "Kei a MindScript te mana ki te whakatārewa, ki te whakamutu rānei i ngā kaute e takahi ana i ēnei Tikanga, i ētahi atu take rānei i runga anō i tōna whakaarotanga motuhake.",
+        "singleAccount": "Kia kotahi ngā kaute a ia kaiwhakamahi. Kāore e whakaaetia te hanga i ngā kaute maha mō tētahi kaiwhakamahi kotahi, kaua rānei mēnā kāore i whakaaetia e MindScript."
+      },
+      "intellectualProperty": {
+        "title": "5. Ngā Mana Hinengaro",
+        "ownershipRights": "Ko te Ratonga me āna ihirangi katoa, āhuatanga, mahi hoki (pērā i ngā pārongo, pūmanawa, kuputuhi, whakaaturanga, whakaahua, ataata, oro, me te hoahoa, te tīpako, me te whakariterite) nā MindScript Technologies, LLC, āna kaituku raihana, ā ngā kaiwhakarato hoki, ā, e tiakina ana e ngā ture mana hinengaro ā-United States me ā-ao.",
+        "limitedLicense": "I raro i tō ū ki ēnei Tikanga, ka hoatu e MindScript ki a koe he raihana herekore, kāore e puta anō, kāore e whakawhiti, kāore e tuku raihana tohu-rere, ā, ka taea te whakahoki iho, hei uru, hei whakamahi anake i te Ratonga mōu ake, kāore mō ngā kaupapa hokohoko.",
+        "prohibitedUses": "Haunga te mea kua whakaaetia mārika i ēnei Tikanga, kāore koe e whakaaetia ki te whakaputa, ki te tohatoha, ki te whakarerekē, ki te waihanga mahi torotoroā, ki te whakaatu tūmatanui, ki te republish, ki te tango, ki te penapena, ki te tuku, ki te whakarato rānei i ngā rauemi o te Ratonga me te kore he whakaaetanga ā-tuhi a MindScript.",
+        "userContent": "Mā te tuku, te panui, te whakaatu rānei o ihirangi mā te Ratonga, ka hoatu e koe ki a MindScript he raihana ā-ao, kāore e puta anō, kore utu, kia whakamahia, kia whakarerekē, kia urutau, kia whakamāoritia, kia waihangatia rānei he mahi torotoroā, kia tohaina, kia whakaatu hoki i taua ihirangi mō te whakahaere me te whakapai ake i te Ratonga.",
+        "feedback": "Ko ngā urupare, ngā kōrero, ngā tūtohunga rānei ka tukuna e koe mō te Ratonga he mea kawenga koreutu, ā, ka taea e mātou te whakamahi kia rite ki tā mātou e kite nei, me te kore he here ki a koe."
+      }
+    },
+    "acceptableUse": {
+      "title": "Kaupapa Whakamahi Tika",
+      "intro": "Ka whakaae koe ki te whakamahi i a VirtualMD.app mō ngā kaupapa ture anake, ā, ka whakaae koe kāore koe e whakamahi i te Ratonga ki te:",
+      "prohibitions": {
+        "unlawful": {
+          "title": "Mō ngā Kaupapa Hē Ture",
+          "description": "Hei whakarereke, hei whakahaere rānei i ngā mahi e hē ai i ngā ture ā-motu, ā-rohe, ā-ao rānei."
+        },
+        "harmMinors": {
+          "title": "Hei Kino, hei Whakamate rānei i ngā Tamariki",
+          "description": "Hei whakaatu rānei i ngā ihirangi kāore e tōtika mō rātou, hei kino rānei ki ā rātou."
+        },
+        "advertising": {
+          "title": "Hei Tauhoko, hei Whakatairanga rānei",
+          "description": "Hei tuku, hei tono rānei i ngā rauemi whakatairanga me kore he whakaaetanga ā-tuhi a mātou, tae atu ki ngā “mēra paru”, “rārangi mekameka”, “spam”, me ētahi atu tono hāngai."
+        },
+        "impersonate": {
+          "title": "Hei Whakaahua, hei Whakawai rānei",
+          "description": "Hei whakaahua, hei whakawai rānei i a MindScript, i tētahi kaimahi a MindScript, i tētahi kaiwhakamahi rānei, i tētahi atu tangata, i tētahi rōpū rānei."
+        },
+        "nefarious": {
+          "title": "Mō ngā Kaupapa Kino",
+          "description": "Ka whakaae mārika koe kāore koe e whakamahi i te Ratonga hei rapu pārongo, aratohu, huarahi rānei e pā ana ki te kino ki a koe anō, ki ētahi atu rānei. Kei roto, ēhara i te mea iti, te rangahau tikanga mō te whara ā-tinana, te whakangaro tangata, ngā mahi hara ture, he aha rānei mō te tūpono kino ki a koe anō, ki tētahi atu rānei. Ko te whakamahi i te papatono mō ēnei kaupapa he takahi i ēnei Tikanga, ā, ka āhei pea kia kati wawe tō kaute, kia whakamōhiotia rānei ngā mana whakahaere e tika ana."
+        },
+        "interference": {
+          "title": "Hei Whakararuraru i te Ratonga",
+          "description": "Pērā i te whakauru huaketo, hōia Trojan, ngaro rorohiko, pēke matatini, me ētahi atu rauemi kino, he whakamate hangarau rānei; te whai kia uru kore mana, kia whakararuraru, kia whara, kia pakaru rānei i ngā wāhanga o te Ratonga, i te tūmau e rokiroki ana i te Ratonga, i tētahi atu tūmau, rorohiko, pātengi raraunga rānei e hono ana ki te Ratonga."
+        },
+        "harmOthers": {
+          "title": "Hei Kino, hei Whakamate rānei i ētahi atu",
+          "description": "Ko te whakamahi i ngā pārongo o te Ratonga hei whakaputa kino tinana, ā-wairua, ā-hinengaro rānei ki tētahi tangata, me ētahi atu kaupapa kino."
+        },
+        "harmAnimals": {
+          "title": "Hei Kino, hei Whakamate rānei i ngā Kararehe",
+          "description": "Ko te whakamahi i te Ratonga ki te tiki pārongo hei whakatupu mamae, tino whara, mate rānei ki tētahi kararehe."
+        }
+      }
+    },
+    "disclaimers": {
+      "title": "Ngā Whakapuaki me te Herenga Haumaru",
+      "asIs": {
+        "title": "1. Ratonga I Tuku 'PĒRA ME TE WĀTEA'; MŌ NGĀ PĀRONGO ANAKE",
+        "content": "Ko ngā pārongo me ngā ratonga i tukuna e VirtualMD.app, tae atu ki ngā ihirangi katoa i hangaia e ngā āhua AI, kua tukuna 'pērā, kia wātea' mō ngā kaupapa pārongo me te mātauranga anake. Kāore a MindScript e tuku kōrero, e whakaritenga rānei mō te whakahaere o te Ratonga, mō ngā ihirangi, mō ngā rauemi, mō ngā hua rānei i roto i te Ratonga. Ka whakaae mārika koe he tūpono anake tō whakamahi i te Ratonga.",
+        "warning": "He whakaritenga anake a VirtualMD.app. Ehara i te whakakapi mō ngā tohutohu ngaio hauora, mō te aromātai, mō te rongoā rānei a tētahi kaiwhakarato hauora kua whakamanahia. Rapua tonu ngā tohutohu a tō kaiwhakapumau hauora, a tō kaiwhakarato hauora kua whakamanahia rānei mēnā he pātai āu mō tētahi ahuatanga hauora. Kaua rawa e whakaroa, e wareware rānei koe i te rapu tohutohu ngaio nā runga i tētahi mea i pānuitia, i kitea rānei e koe i te Ratonga.",
+        "limitations": "Kāore a MindScript e tuku aromātai hauora, e tuku rongoā rānei. Tērā pea kei roto i ngā ihirangi i hangaia e te AI ngā hapa, ngā ngaro rānei ahakoa ngā tukanga whakahaere ka taea. Me aromātai motuhake ngā tohutohu hauora e tūtuki ana i ngā kaiwhakarato hauora mana. Tērā pea ka tawhito ngā pārongo hauora. Me aromātai ngaio mō tō hītori hauora motuhake.",
+        "fdaWarning": "KĀORE i whakaaetia e te United States Food and Drug Administration (FDA), e tetahi atu mana whakahaere rānei, tēnei Ratonga, ōna ihirangi, me āna āhua AI hei taputapu hauora, hei whakamātautau rānei, hei mahi rongoā rānei."
+      },
+      "noHipaa": {
+        "title": "2. Kāore he Whai ā-HIPAA mō te Whakamahi whānui",
+        "content": "Ka mōhio mārika koe, ā, ka whakaae koe kāore a VirtualMD.app, i āna ratonga whānui mō te hunga whakamahinga, he Ratonga kei te ū ki ngā paerewa HIPAA mō te whakamahi a ngā Rōpū Ārai HIPAA me ō rātou Hoa Pakihi e whakahaere ana i ngā Pārongo Haumarumaru (PHI) i raro i te Health Insurance Portability and Accountability Act o 1996 (HIPAA).",
+        "details": "Ahakoa e whakamahia e MindScript he whakarite haumarutanga kaha (i whakamārama i roto i tā mātou Kaupapahere Matatapu), kāore tō hanganga tūāpapa, te whakahaere raraunga, ngā tukanga whakahaere rānei e tutuki ana i ngā whakaritenga whakahaere, tinana, hangarau hoki o te HIPAA Security Rule mō te whakahaere PHI e ngā Rōpū Ārai, e ō Hoa Pakihi rānei me te kore he Kawenata Hoa Pakihi (BAA) motuhake mō tētahi whakamahinga motuhake.",
+        "agreement": "Mā te whakamahi i te Ratonga, ka whakaae koe kāore koe e whakamahi i te Ratonga ki te penapena, ki te tukatuka, ki te tuku rānei i ngā PHI i runga i te huarahi e hiahiatia ana te ū ki ngā paerewa HIPAA, kia kore rānei he BAA motuhake hei tautoko i taua whakamahinga. Ka whakaae koe he paerewa haumaru pakihi te whakamahia hei tiaki i ngā pārongo e tukuna ana e koe, kaua ko ngā paerewa HIPAA mo ngā PHI."
+      },
+      "dataSecurity": {
+        "title": "3. Herenga Haumarutanga Raraunga",
+        "content": "Ka whakamahi a MindScript i ngā tikanga haumarutanga pakihi e whaitake ana, tae atu ki te whakamuna me ngā kawa tuakiri (i whakamārama i roto i tā mātou Kaupapahere Matatapu), hei tiaki i ngā pārongo ka tukuna e koe ki te Ratonga. Heoi, kāore he pūnaha haumarutanga e kore e taea te uru.",
+        "warning": "Nō reira, mā te whakamahi i tēnei Paetukutuku, ka whakaae koe mārika kāore e taea te whakarite i te haumaru tūturu o ō pārongo. Ka whakaae koe kāore e taea, kāore hoki koe e tuku kōrero ture ki a MindScript Technologies, LLC, āna hononga, āna kaimahi, āna kaiwhakahaere, āna raihana rānei mō ngā ngaronga, ngā whara, ngā utu rānei i pā mai i te uru kore mana, i te whakarerekē haumaru rānei o ō karere, o ō ihirangi (tae atu ki ngā pakaru raraunga), ahakoa kua whakatinanahia e MindScript ngā tikanga haumaru whaitake i roto i ēnei Tikanga me te Kaupapahere Matatapu."
+      },
+      "generalLiability": {
+        "title": "4. Herenga Haumaru Whānui",
+        "content": "I TE WHĀNGANUI KI TE MEA E ĀHEA ANA E NGĀ TURE E TONO ANA, KĀORE A MINDSCRIPT TECHNOLOGIES, LLC, ĀNA HONONGA, KAUPAPA, KAIMAHI, AGENTS, RAIHana rānei E KAWENGA MŌ NGĀ NGARO MOTU, NGĀ AITUA, NGĀ KINO WAITĀ, NGĀ KINO PUNITI, NGĀ KINO WHIUNGA, NGĀ NGARO HUA, NGĀ MONI WHIWHI, NGĀ NGARO RARAUNGA, NGĀ NGARO WHAKAMAHI, NGĀ NGARO HANGA AUĀ, NGĀ NGARO HINENGARO rānei, ME ērā KINO KORE AUKATI, KORE MEA MAI I:\n\n- tō urunga, tō whakamahinga rānei ki te Ratonga, tō kore e āhei ki te uru rānei;\n- ngā mahi, ngā ihirangi rānei a tētahi atu i runga i te Ratonga, tae atu ki ngā whakahetohanga, ngā mahi pārū, ngā mahi hē rānei a ētahi kaiwhakamahi, rōpū rānei;\n- ngā ihirangi i riro mai i te Ratonga;\n- te uru, te whakamahi, te whakarerekē rānei i ō whakawhitiwhitinga, ō ihirangi rānei (tae atu ki ngā pakaru raraunga), ahakoa kua whakatinanahia e MindScript ngā tikanga haumaru whaitake i roto i ēnei Tikanga me te Kaupapahere Matatapu."
+      },
+      "emergency": {
+        "title": "5. Āhuatanga Ohotata",
+        "content": "Kaore a VirtualMD.app e mahi i tō ingoa i roto i tētahi ohotata. Mēnā ka tukuna e te pūnaha kia waea koe ki ngā ratonga ohotata (hei tauira, 111, 999, 101, 000), me rapu āu ake mahi whakau ohotata. Kāore te Ratonga e tuku ratonga ohotata. Mauri tū tonu ki ngā ratonga ohotata ā-rohe mō ngā take tino ohotata."
+      }
+    },
+    "privacyPolicy": {
+      "title": "Kaupapahere Matatapu",
+      "intro": "Ka whakamāramahia e tēnei Kaupapahere Matatapu me pēhea a MindScript Technologies, LLC e kohikohi, e whakamahi, e tuku rānei pārongo mōu mā tō uru ki tā mātou paetukutuku VirtualMD.app me ngā ratonga. Kua whakaurua tēnei kaupapa ki tā mātou Tikanga Whakamahi.",
+      "dataPledge": {
+        "title": "1. Taku Whakatau Matatapu Raraunga",
+        "content": "I VirtualMD.app, ko te muna me te haumaru o ō pārongo whaiaro te mea matua. Ka ū mātou ki te tiaki i te muna me te tika o ngā raraunga ka tukuna mai e koe. Kua hoahoatia ā mātou pūnaha kia whakamahia ngā tikanga haumarutanga kaha hei tiaki i ō pārongo i te wā e kawea ana, i te wā hoki e rokiroki ana."
+      },
+      "dataPledgeItems": {
+        "security": {
+          "title": "Ngā Mahi Haumarutanga:",
+          "description": "Ka whakamahi mātou i ngā kawa whakamuna ahumahi mō te raraunga i roto, i waho hoki, me ngā hanganga haumarutanga-papa maha tae atu ki te mana āpiti-rua (2FA)."
+        },
+        "noPII": {
+          "title": "Kāore he Whakamahi PII ki Waho:",
+          "description": "Kāore mātou e whakamahi i ō pārongo ki waho i roto i tētahi huarahi e kitea ai koe, me kore koe i whakaaetia."
+        },
+        "noSale": {
+          "title": "Kāore e Hokona ngā Raraunga Whaiaro:",
+          "description": "Kāore mātou e hoko i ō pārongo whaiaro ki ētahi atu rōpū."
+        },
+        "anonymized": {
+          "title": "Raraunga Kua Tuakina, Kua Whakarārangihia:",
+          "description": "Ka whakamahi mātou i ngā raraunga kua whakawāteahia, kua tangohia ngā tohu whaiaro (PII), kia whakapai ake i ngā tauira AI me ngā āhuatanga papatono. Kāore tēnei e taea ai te tautuhi i tētahi kaiwhakamahi motuhake."
+        }
+      },
+      "infoCollection": {
+        "title": "2. Ngā Pārongo Ka Kohia e Mātou & Ētahi Atu Taipitopito",
+        "content": "Ka kohia e mātou ngā pārongo ka tukuna e koe ā-tinana, ngā pārongo ka kohia aunoa mā tō whakamahi i te Ratonga, me ngā pārongo i riro mai i ētahi atu puna.",
+        "accountInfo": "Pārongo Kaute: I te rēhitatanga, ka kohia ngā pārongo pēnei i tō ingoa, īmēra, tau waea (hei whakamana).",
+        "userContent": "Ihirangi Kaiwhakamahi: Ka kohia ngā pārongo ka tukuna e koe i te wā e whakamahi ana koe i te Ratonga, tae atu ki ngā kuputuhi i te atanga kōrero, ngā pārongo taipitopito mōu (pērā i ngā rārangi rongoā, mēnā ka tukuna).",
+        "usageInfo": "Pārongo Whakamahi: Ka kohia aunoa ngā pārongo mō te rere o tō whakamahi i te Ratonga, pērā i te wāhitau IP, momo pūtirotiro, mōhiohio pūrere, pūnaha whakahaere, ngā whārangi kua tirohia, ngā hononga kua pāwhiritia, me ngā rā me ngā wā o āu haerenga.",
+        "cookies": "Kuki me Ngā Hangarau Pērā: Ka whakamahi mātou i ngā kuki me ētahi atu hangarau hei tohu i ngā mahinga i runga i te Ratonga me te pupuri pārongo. Ka taea e koe te whakahē i ngā kuki, te tono rānei kia whakamōhio koe i te wā ka tukuna he kuki. Heoi, mēnā kāore koe e whakaae ki ngā kuki, tērā pea kāore koe e taea te whakamahi i ētahi wāhanga o te Ratonga."
+      },
+      "howWeUse": {
+        "title": "Pēhea Mātou e Whakamahi Ana i ngā Pārongo",
+        "intro": "Ka whakamahia e mātou ngā pārongo i kohia e mātou mō ngā kaupapa maha, tae atu ki te:",
+        "purposes": [
+          "Te whakarato, te whakahaere, te pupuri, me te whakapai ake i te Ratonga.",
+          "Te tukatuka hoko me te tuku whakamōhio, pēnei i ngā whakamanatanga me ngā tāke.",
+          "Te tuku panui hangarau, whakahou, whakatūpato haumaru, me ngā karere tautoko me ngā whakahaere.",
+          "Te whakautu ki ō urupare, pātai, me ngā tono, me te tuku ratonga kiritaki.",
+          "Te kōrero ki a koe mō ngā hua, ratonga, tuku, whakatairanga, utu, me ngā hui e tukuna ana e MindScript me ētahi atu.",
+          "Te aroturuki me te tātari i ngā āhuatanga whakamahinga, ngā huringa, me ngā mahi i runga i te Ratonga.",
+          "Te kitea, te rangahau, me te aukati i ngā taihara kōpano me ētahi atu mahi hara ture.",
+          "Te whakarite kia ū te Ratonga ki tētahi tohu whaiaro, kia hāngai ki ngā hiahia o ngā kaiwhakamahi.",
+          "Te whakapiki i te tika, te whaihua, me te haumaru o ā mātou tauira AI mā te whakamahi raraunga kua tuakina.",
+          "Te whakamahia i ngā kaupapa katoa i whakamārama i te wā i kohia ai ngā pārongo."
+        ]
+      },
+      "howWeShare": {
+        "title": "Pēhea Mātou e Tuku Rānei Pārongo",
+        "vendors": "Ki ngā Kaihoko me ngā Kaitautoko Ratonga: Ka tiritiri mātou pārongo ki ngā kaitautoko tiumata, kaihautū, me ngā kaiwhakarato ratonga e hiahia ana ki ngā pārongo hei whakahaere i ā mātou mahi mō rātou.",
+        "legal": "I roto i te Whakahaere Ture: Ka tukuna mātou pārongo mēnā e hiahiatia ana i raro i te ture, i runga rānei i te whakapono pono kia tutuki ai tētahi kawenga ture.",
+        "consent": "Mā tō Whakaāe: Ka tiritiri mātou pārongo mēnā kei a koe te mana, kei te whakahuatia rānei e koe.",
+        "businessTransfers": "Ngā Whakawhiti Pakihi: Ka tiritiri, ka whakawhiti rānei mātou pārongo i roto i ngā huringa pakihi, te hoko rawa, te whakatū pūtea, rānei.",
+        "aggregated": "Ngā Raraunga Whakakotahitia me te Kore Tautuhi: Ka tiritiri mātou raraunga kua whakakotahitia, kua tangohia ngā tohu whaiaro, kāore e taea ai te tautuhi i a koe."
+      },
+      "choices": {
+        "title": "Ngā Kōwhiringa Matatapu mōu",
+        "accountInfo": "Pārongo Kaute: Ka taea e koe te whakahou, te whakatika, te muku rānei i āu pārongo mā tō takiuru ki tō kaute, mā te whakapā rānei mai ki a mātou.",
+        "deletion": "Mukumuka Raraunga: He taputapu tōu hei muku tūturu i tētahi kōrero kōrero kotahi, i tō kaute katoa rānei.",
+        "cookies": "Kuki: Ka taea e koe te tautuhi i tō pūtirotiro kia tangohia, kia whakahē rānei i ngā kuki. Heoi, mēnā kāore koe e whakaae ki ngā kuki, tērā pea kāore koe e tae atu ki ētahi wāhanga o te Ratonga.",
+        "promotional": "Karere Whakatairanga: Ka taea e koe te tono kia kore e tukuna mai he īmēra whakatairanga mā MindScript mā ngā tohutohu kei roto i ngā īmēra."
+      },
+      "retention": "Te Penapena Raraunga: Ka penapena mātou i ngā pārongo i kohia mōu mō te wā e tika ana mō ngā kaupapa i kohia ai. Ka pupuri mātou pārongo kaute mō tō kaute e kaha ana, me tētahi wā poto i muri iho.",
+      "international": "Ngā Whakawhiti Raraunga ā-Ao: Kei te United States te turanga o MindScript, ā, ka tukatuka, ka rokiroki mātou i ngā pārongo i U.S. Mā tō whakamahi, ka whakaae koe ki te whakawhiti i ō pārongo ki U.S.",
+      "children": "Ngā Tamariki: Mō ngā pakeke anake te Ratonga, kāore e tūāhua ana ki te hunga kei raro i te 13 tau. Kāore mātou e kohi pārongo whaiaro mō ngā tamariki."
+    },
+    "securityPractices": {
+      "title": "5. Ngā Mahi Haumarutanga a VirtualMD.app",
+      "intro": "Ka whakamahi mātou i te rautaki haumarutanga-papa maha:",
+      "items": {
+        "password": {
+          "title": "Whakamuna Kupuhipa:",
+          "description": "Ka whakamunatia ngā kupuhipa mā ngā kawa kohinga kupuhipa ahumahi."
+        },
+        "twoFactor": {
+          "title": "Whakamanatanga-ā-rua (2FA):",
+          "description": "He mea herenga mō ngā kaute katoa, me te whakaū mā te tauwāhi tuarua (hei tauira, waehere ki te īmēra/whaea)."
+        },
+        "threeFactor": {
+          "title": "Kōwhiringa Whakamanatanga-ā-toru (3FA):",
+          "description": "He kōwhiringa mō te haumaru whakauru, me te kupuhipa, te waehere īmēra, me te waehere SMS."
+        },
+        "dataEncryption": {
+          "title": "Whakamuna Raraunga:",
+          "description": "Ka whakamunatia ngā pārongo (tae atu ki ngā kōrero) i roto, i waho hoki (TLS/SSL)."
+        },
+        "deletion": {
+          "title": "Mukumuka Raraunga Tūturu:",
+          "description": "Ka taea e koe te muku tūturu i tētahi kōrero kōrero kotahi, i tō kaute katoa rānei. Ka kore e taea te whakahoki mai o ngā raraunga kua mukua."
+        },
+        "access": {
+          "title": "Ngā Whakahaere Urunga:",
+          "description": "He tino whakahaere, he iti, he arowhānui hoki te uru ki ngā rekoata raraunga kaiwhakamahi e te kaimahi. Kāore e whakaaetia te tirotiro noa."
+        }
+      },
+      "conclusion": "E kaha ana ēnei tikanga ki te haumaru o tō kaute, engari kia mahara, kāore he pūnaha 100% haumaru."
+    },
+    "hipaaReiteration": {
+      "title": "6. VirtualMD.app & HIPAA Considerations (Whakapūtātanga)",
+      "content": "I ai kua whakahuatia i ngā Whakapuaki, kāore te ratonga whānui a VirtualMD.app e ū ki ngā paerewa HIPAA mō ngā take whakahaere PHI a ngā Rōpū Ārai, i te kore he BAA motuhake mō tētahi whakamahinga motuhake. Ahakoa ka whakatinana mātou i ngā tikanga haumarutanga kaha, kāore tā mātou ratonga whānui e whakamahia i raro i ngā whakaritenga motuhake o te HIPAA Security Rule mō ngā PHI."
+    },
+    "thirdParty": {
+      "title": "7. Te Whakamahi Raraunga e Ngā Kaihoko AI Tuatoru",
+      "intro": "E hono ana a MindScript ki ētahi kaihoahoa tauira AI rongonui (hei tauira, OpenAI, Anthropic, Google).",
+      "items": {
+        "mindscript": {
+          "title": "VirtualMD.app:",
+          "description": "Ka whakamahi mātou i ngā raraunga kua tuakina, kua whakakotahitia mō te whakapai ake i te pūnaha ā-roto."
+        },
+        "providers": {
+          "title": "Ngā Kaihoko API AI Tuatoru:",
+          "description": "He maha ngā kaiwhakarato API (pērā i OpenAI, Anthropic) e kii ana kāore ā rātou tauira matua e whakamahi i ngā raraunga ka tukuna e whakamahi ana ki te whakangungu. Ka whakarite mātou i tā mātou whakamahi kia ū ki ēnei kōwhiringa tiaki muna. Tirohia ō rātou kaupapa kia mārama."
+        }
+      }
+    },
+    "otherLegal": {
+      "title": "Ētahi Atu Tikanga Ture",
+      "changesToTerms": {
+        "title": "Ngā Panoni ki ēnei Tikanga me te Kaupapahere",
+        "content": "Ka ahei mātou ki te whakarerekē, ki te whakahou i ēnei Tikanga i ngā wā katoa i runga anō i tō mātou whakaarotanga motuhake. Ka whai tonu ake te mana o ngā panoni i te wā ka whakaputaina, ā, ka pā anō ki ngā uru katoa ki te Ratonga.",
+        "notice": "Mā tō whakamahi tonu i te Ratonga i muri mai i te tuku i ngā Tikanga kua whakahou, ka whakaae koe ki ngā panoni. Me tirohia auau i tēnei whārangi kia mōhio koe ki ngā panoni, he mea here tonu ki a koe.",
+        "materialChanges": "Mēnā ka mahia e mātou he panoni nui ki ēnei Tikanga, ka whakamōhiotia koe mā te īmēra me/anei mā te whakaatu pānui ki runga i te Ratonga i mua i te rā ka whai mana ai."
+      },
+      "termination": {
+        "title": "Whakamutunga",
+        "userTermination": "Ka taea e koe te whakamutu i tō kaute, te waiho rānei i te whakamahi i ngā wā katoa mā te whai i ngā tohutohu o roto i te Ratonga, mā te whakapā rānei mai ki a mātou.",
+        "serviceTermination": "Ka taea e MindScript te whakakore, te whakatārewa rānei i tō uru ki ngā wāhanga katoa o te Ratonga, me te kore whakamōhiotanga, mō ngā take katoa i runga anō i tōna whakaarotanga motuhake.",
+        "effectOfTermination": "I te mutunga, ka mutu tonu tō tika ki te whakamahi i te Ratonga. Ka ora tonu ngā tikanga katoa e tika ana kia ora anō i muri i te whakamutunga."
+      },
+      "governingLaw": {
+        "title": "Ture Ārahi me te Whakatau Tautohetohe",
+        "governingLaw": "Nā ngā ture o te Koroni o Delaware ka ārahi, ka whakamāori i ēnei Tikanga, kāore hoki e tiro ki ngā āhuatanga herekore-ture.",
+        "jurisdiction": "Ka whakaae koe ki te tuku i ngā mahi tautohetohe ki ngā kōti o New Castle County, Delaware.",
+        "arbitration": "Me whakatau ngā tautohetohe katoa e pā ana ki ēnei Tikanga mā te whiriwhiringa herekore i raro i ngā ture a te American Arbitration Association.",
+        "classAction": "Ka whakaae koe ka whakahaerehia ngā tautohetohe kotahi tangata, kāore he whakahāweatanga rānei, he mahi rōpū rānei."
+      },
+      "contact": {
+        "title": "Whakapā",
+        "content": "Mēnā he pātai āu mō ēnei Tikanga, mō te Kaupapahere Matatapu rānei, whakapā mai ki a mātou mā tēnei īmēra <emailLink>legal@virtualmd.app</emailLink> rānei mā tō Whārangi Whakapā.",
+        "email": "legal@virtualmd.app"
+      },
+      "miscellaneous": {
+        "title": "Ētahi Atu Tikanga",
+        "entireAgreement": "Ko ēnei Tikanga te kirimana katoa i waenga i a koe me MindScript mō tō whakamahi i te Ratonga.",
+        "severability": "Mēnā ka kitea he kupu kāore e tika, kāore e taea te whakahaere, ka noho māeneene tonu ērā atu kupu.",
+        "waiver": "Ko te kore o MindScript ki te whakatinana i tētahi mana, i tētahi kupu rānei o ēnei Tikanga kāore e kī ana he whakakore i taua mana rānei kupu.",
+        "assignment": "Kāore koe e tuku, e whakawhiti rānei i ēnei Tikanga, mā te ture rānei, me tiki ā mātou whakaaetanga tuatahi."
+      }
+    }
+  }
+}

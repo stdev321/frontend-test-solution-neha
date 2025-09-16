@@ -1,0 +1,715 @@
+{
+  "actions": {
+    "startConsultation": "Mulakan Konsultasi Kesihatan",
+    "endConsultation": "Tamatkan Perundingan",
+    "returnToConsultation": "Kembali ke Perundingan",
+    "newConversation": "Mulakan Perbualan Baharu",
+    "saveConversation": "Simpan Perbualan",
+    "deleteConversation": "Padamkan Perbualan",
+    "getSummary": "Dapatkan Ringkasan",
+    "getTranscript": "Dapatkan Transkrip",
+    "getDifferentialOpinion": "Dapatkan Pandangan Berbeza",
+    "exportChat": "Eksport Sembang",
+    "clearChat": "Kosongkan Sembang"
+  },
+  "audio": {
+    "aiMuted": "AI Diredamkan",
+    "aiUnmuted": "Audio AI Hidup",
+    "playbackFailed": "Gagal memainkan audio",
+    "generationFailed": "Gagal menjana pertuturan"
+  },
+  "sidebar": {
+    "personaList": "Pilih Pakar Kesihatan Anda",
+    "conversations": "Perbualan Saya",
+    "profile": "Profil Saya",
+    "settings": "tetapan",
+    "manageTeam": "Urus Pasukan",
+    "teamBuilder": "Pembina Pasukan AI",
+    "encyclopedia": "Ensiklopedia",
+    "bio": "Bio profesional",
+    "clickForBio": "Klik untuk Bio",
+    "clickToSpeak": "Klik untuk bercakap dengan Penasihat",
+    "summary": "Ringkasan Perundingan",
+    "transcript": "Transkrip Perbualan",
+    "imageContext": "Konteks Imej",
+    "newConversation": "Perundingan Baru"
+  },
+  "tooltips": {
+    "audioOnlyRegistered": "Audio hanya tersedia untuk pengguna berdaftar."
+  },
+  "messages": {
+    "typeMessage": "Taip mesej anda di sini...",
+    "send": "Hantar",
+    "thinking": "Berfikir...",
+    "processing": "Memproses...",
+    "connecting": "Menyambung...",
+    "connected": "Bersambung",
+    "disconnected": "Terputus sambungan",
+    "typing": "{{name}} sedang menaip...",
+    "messageError": "Gagal menghantar mesej",
+    "retryMessage": "Cuba semula",
+    "requestToSpeak": "Tolong izinkan saya bercakap dengan {{name}}",
+    "messageDeleted": "Mesej dipadamkan",
+    "systemMessage": "Mesej sistem"
+  },
+  "personas": {
+    "defaultName": "Pakar Kesihatan Aileen Carol",
+    "defaultSpecialty": "Pakar Kesihatan",
+    "selectPersona": "Pilih Pakar Kesihatan",
+    "noPersonasAvailable": "Tiada profesional kesihatan tersedia",
+    "personaDetails": "Butiran Profesional",
+    "specialization": "Pengkhususan",
+    "experience": "Pengalaman",
+    "education": "Pendidikan",
+    "certifications": "Pensijilan",
+    "languages": "Bahasa",
+    "availableNow": "Tersedia Sekarang",
+    "loading": "Memuatkan profesional..."
+  },
+  "personaSearch": {
+    "placeholder": "Cari mengikut nama, kepakaran atau huraikan simptom anda (cth., sakit kepala, kebimbangan)",
+    "selected": "Dipilih",
+    "noResults": "Tiada perunding ditemui untuk \"{{query}}\"",
+    "searchSuggestions": "Cuba cari: sakit kepala, kebimbangan, sakit, tidur, kencing manis, dll."
+  },
+  "configurator": {
+    "title": "Mulakan Konsultasi Kesihatan Baharu",
+    "subtitle": "Pilih daripada Pasukan Kesihatan AI anda",
+    "changeTeam": "Tukar Pasukan",
+    "starting": "Bermula...",
+    "startConsult": "Mula Rujuk",
+    "emptyTeam": "Pasukan Kesihatan AI anda kosong",
+    "addSpecialists": "Tambahkan pakar pada pasukan anda",
+    "noOtherSpecialists": "Tiada pakar lain dalam pasukan anda. Anda boleh berbual dengan AI Health Expert Carol atau",
+    "addSpecialistsLink": "tambah pakar pada pasukan anda",
+    "defaultPersona": {
+      "name": "Pakar Kesihatan AI Aileen Carol",
+      "role": "Penasihat Kesihatan AI Utama Saya"
+    },
+    "carolNote": {
+      "title": "Nota mengenai Penyertaan Pakar Kesihatan AI Carol:",
+      "ruleA": "A. AI Health Expert Carol disertakan jika 0 atau 2+ pakar lain dipilih daripada pasukan anda.",
+      "ruleB": "B. Pakar Kesihatan AI Carol tidak disertakan jika hanya 1 pakar lain dipilih daripada pasukan anda."
+    }
+  },
+  "conversations": {
+    "noConversations": "Tiada perbualan lagi",
+    "untitled": "Perbualan Tanpa Tajuk",
+    "today": "Hari ini",
+    "yesterday": "Semalam",
+    "thisWeek": "Minggu ini",
+    "lastWeek": "Minggu lepas",
+    "older": "Lebih tua",
+    "editTitle": "Edit Tajuk",
+    "saveTitle": "Simpan Tajuk",
+    "cancelEdit": "Batalkan Edit",
+    "deleteConsultation": "Padamkan Perundingan",
+    "clickToReturn": "Klik untuk kembali untuk berunding",
+    "deleteConfirm": "Adakah anda pasti mahu memadamkan perbualan ini?",
+    "deleteSuccess": "Perbualan berjaya dipadamkan",
+    "loadingConversations": "Memuatkan perbualan...",
+    "conversationError": "Ralat memuatkan perbualan",
+    "consultationsTitle": "Perundingan",
+    "lastUpdate": "Kemas Kini Terakhir: {{tarikh}}",
+    "consultationDefault": "Perundingan {{id}}",
+    "noConsultationsYet": "Tiada rundingan lagi.",
+    "noPastConsultations": "Tiada perundingan yang lalu ditemui."
+  },
+  "participants": {
+    "noParticipants": "Tiada peserta untuk dipaparkan.",
+    "inThisConsult": "Dalam Perundingan Maya ini:"
+  },
+  "team": {
+    "myTeam": "Pasukan Kesihatan Saya",
+    "addToTeam": "Tambahkan pada Pasukan",
+    "removeFromTeam": "Alih keluar daripada Pasukan",
+    "teamFull": "Pasukan anda penuh",
+    "maxTeamSize": "Saiz pasukan maksimum dicapai ({{maks}} ahli)",
+    "currentTeam": "Ahli Pasukan Semasa",
+    "buildTeam": "Bina Pasukan Anda",
+    "teamRecommendations": "Syor Pasukan AI",
+    "acceptRecommendation": "Terima Pengesyoran",
+    "getRecommendations": "Dapatkan Syor AI",
+    "teamBuilder": "Pembina Pasukan AI",
+    "addTeamMembersInstruction": "Tambah ahli pasukan dengan mengklik pada kad di sebelah kanan.",
+    "maxTeamSizeNote": "Maksimum lima penasihat AI boleh ditambahkan pada pasukan anda. Anda boleh menukar pasukan anda pada bila-bila masa, tetapi tidak semasa perundingan.",
+    "startConsultationWithTeam": "Mulakan perundingan dengan pasukan anda",
+    "manageTeamTitle": "Urus Pasukan Kesihatan AI Saya (Pakar Maks {{maks}})",
+    "removeSpecialistToUseTeamBuilder": "Sila alih keluar sekurang-kurangnya seorang pakar untuk menggunakan cadangan pembinaan pasukan Pakar Kesihatan AI Carol",
+    "aileenCarolRecommendTeam": "Minta Pakar Kesihatan AI Carol mengesyorkan pasukan kesihatan anda",
+    "teamFullRemoveToUseBuilder": "Pasukan anda penuh. Sila alih keluar sekurang-kurangnya seorang pakar untuk menggunakan pembinaan pasukan AI.",
+    "yourCurrentTeam": "Pasukan Semasa Anda ({{current}}/{{maks}})",
+    "updatingTeam": "Mengemas kini pasukan...",
+    "coordinator": "Penyelaras",
+    "alwaysIncluded": "Sentiasa disertakan",
+    "specialist": "Pakar",
+    "teamEmptyAddBelow": "Pasukan pakar anda kosong. Tambah pakar di bawah.",
+    "teamFullRemoveMember": "Pasukan anda penuh (Max {{maks}} pakar). Sila alih keluar ahli jika anda ingin menambah pakar lain.",
+    "addMembersClickCard": "Tambah ahli pasukan dengan mengklik pada kad di kawasan utama",
+    "teamLead": "Ketua Pasukan",
+    "currentMember": "Ahli Semasa",
+    "analyzingNeeds": "Menganalisis keperluan anda...",
+    "emergencyDetected": "🚨 Kecemasan Dikesan",
+    "backToSafety": "Kembali ke Keselamatan",
+    "recommendedTeam": "Pasukan Kesihatan yang disyorkan",
+    "completeTeam": "Pasukan Lengkap Anda ({{count}} ahli)",
+    "teamLeadReason": "Penyelaras kesihatan utama",
+    "keepingMembers": "Ahli Pasukan Semasa (Menyimpan)",
+    "newRecommendations": "Syor Baharu",
+    "aileenCarolReasoning": "Alasan Pakar Kesihatan AI Carol:",
+    "noMatchingSpecialists": "Tiada pakar yang sepadan ditemui untuk pengesyoran AI. Anda boleh mencuba lagi atau membina pasukan anda secara manual.",
+    "medicalDisclaimerTitle": "Nasihat Kesihatan & Kesejahteraan:",
+    "medicalDisclaimerText": "Platform ini menyediakan nasihat dan panduan kesihatan tetapi tidak boleh menggantikan penjagaan kesihatan profesional. Sentiasa berunding dengan profesional penjagaan kesihatan yang berkelayakan untuk kecemasan atau masalah kesihatan yang serius.",
+    "applyingTeam": "Pasukan yang memohon...",
+    "acceptTeam": "Terima Pasukan Ini",
+    "tryDifferent": "Cuba Pengesyoran Berbeza",
+    "cancel": "Batal",
+    "myVirtualMDTeam": "Pasukan VirtualMD.app Saya",
+    "availableSpecialists": "Pakar Kesihatan AI Tersedia",
+    "clickToAddInstruction": "Klik pada kad untuk menambah pasukan anda ({{current}}/{{maks}} dipilih). Pakar terpilih menunjukkan lencana \"Terpilih\".",
+    "teamFullInstruction": "Pasukan anda penuh. Alih keluar ahli untuk menambah pakar lain.",
+    "selected": "Dipilih",
+    "teamFullBadge": "Pasukan Penuh",
+    "allSpecialistsAdded": "Semua pakar yang tersedia telah ditambahkan pada pasukan anda.",
+    "otherSpecialists": "Pakar Lain",
+    "specialistsCount": "{{count}} pakar",
+    "startTeamConsult": "Mulakan Perundingan Pasukan",
+    "starting": "Bermula...",
+    "myAIHealthTeam": "Pasukan Kesihatan AI saya",
+    "addMembersInstruction": "Tambah ahli pasukan dengan mengklik pada kad di sebelah kanan."
+  },
+  "specialistCategories": {
+    "diabetesBloodSugar": "Diabetes & Gula Darah",
+    "weightManagement": "Pengurusan Berat Badan",
+    "mentalHealthStress": "Kesihatan Mental & Tekanan",
+    "cancerSupport": "Sokongan Kanser",
+    "heartHealth": "Kesihatan Jantung",
+    "painManagement": "Pengurusan Kesakitan",
+    "digestiveIssues": "Isu Penghadaman",
+    "sleepProblems": "Masalah Tidur",
+    "skinProblems": "Masalah Kulit",
+    "womensHealth": "Kesihatan Wanita",
+    "childrensHealth": "Kesihatan Kanak-Kanak",
+    "agingSeniorHealth": "Penuaan & Kesihatan Kanan",
+    "nutritionDiet": "Pemakanan & Diet",
+    "allergiesImmuneSystem": "Alahan & Sistem Imun",
+    "breathingLungIssues": "Masalah Pernafasan & Paru-paru",
+    "sportsFitnessInjuries": "Kecederaan Sukan & Kecergasan",
+    "easternAlternativeMedicine": "Kesejahteraan Timur & Alternatif",
+    "cosmeticBeautyMedicine": "Kesejahteraan Kosmetik & Kecantikan",
+    "anxietyHelp": "Bantuan Kebimbangan",
+    "medicationPharmacy": "Ubat & Farmasi",
+    "primaryCareGeneralHealth": "Penjagaan Utama & Kesihatan Am",
+    "medicalSpecialties": "Keistimewaan Kesihatan & Kesejahteraan"
+  },
+  "dialogs": {
+    "exitConsultation": "Keluar Perundingan",
+    "exitMessage": "Adakah anda pasti mahu keluar dari perundingan ini?",
+    "saveAndExit": "Simpan & Keluar",
+    "exitWithoutSaving": "Keluar Tanpa Simpan",
+    "cancel": "Batal",
+    "confirm": "sahkan",
+    "logout": "Log keluar",
+    "logoutMessage": "Anda sedang dalam perundingan. Log keluar akan menamatkannya. Apa yang anda ingin lakukan?",
+    "deleteConversation": "Padamkan Perbualan",
+    "deleteMessage": "Tindakan ini tidak boleh dibuat asal. Adakah anda pasti?",
+    "summarizeFirst": "Adakah anda ingin mendapatkan ringkasan sebelum keluar?",
+    "summarizing": "Menjana ringkasan...",
+    "summaryGenerated": "Ringkasan berjaya dijana",
+    "doneAlready": "Selesai sudah?",
+    "doneAlreadyMessage": "Kami berada di sini bila-bila masa anda memerlukan kami. Sehingga itu, sihat, gembira!",
+    "doneAlreadySignature": "Kita semua (manusia dan AI) di VirtualMD.app",
+    "exitConsultationButton": "Keluar Perundingan",
+    "editTitle": "Edit Tajuk Perbualan",
+    "conversationTitleLabel": "Tajuk Perbualan",
+    "save": "Jimat",
+    "deleteTitle": "Padamkan Perbualan",
+    "deleteConfirmation": "Adakah anda pasti mahu memadamkan perbualan bertajuk \"{{title}}\"?",
+    "delete": "Padam",
+    "multiDeleteTitle": "Padamkan Perundingan Terpilih",
+    "multiDeleteConfirmation": "Adakah anda pasti mahu memadamkan {{count}} perundingan yang dipilih? Tindakan ini tidak boleh dibuat asal.",
+    "deleteSelected": "Padam Dipilih",
+    "addSpecialistTitle": "Tambah Pakar ke Sembang",
+    "addSpecialistError": "Tidak dapat memuatkan penasihat anda.",
+    "noAdvisersToAdd": "Semua Penasihat Kesihatan AI pilihan anda sudah pun berada dalam sembang ini, atau senarai anda kosong (tidak termasuk peserta semasa).",
+    "longRecording": {
+      "title": "Rakaman Lama Dijeda",
+      "message": "Kami tidak boleh merakam lebih daripada 30 saat tanpa menghantarnya. Apa yang anda ingin lakukan?",
+      "delete": "Padam",
+      "transcribeToText": "Transkripsikan kepada teks",
+      "transcribeAndSend": "Transkripsi & hantar"
+    },
+    "finishConsultationTitle": "Selesai Perundingan?",
+    "generatingSummary": "Sila tunggu sementara kami menjana ringkasan perundingan anda...",
+    "finishConsultationMessage": "Ini akan menamatkan sesi sembang aktif. Adakah anda pasti?",
+    "summarizeAndFinish": "Ringkas & Selesai",
+    "leaveWithoutSummarizing": "Tinggalkan tanpa Ringkas",
+    "summarize": "ringkaskan",
+    "moreInfoTitle": "Lebih Banyak Maklumat Diperlukan",
+    "moreInfoMessage": "Perbualan ini terlalu pendek untuk menghasilkan ringkasan yang bermakna atau pendapat berbeza. Sila teruskan perbincangan sehingga anda mempunyai sekurang-kurangnya 150 perkataan kandungan perbualan.",
+    "ok": "OK",
+    "deleteSuccessTitle": "Perbualan Dipadamkan",
+    "deleteSuccessMessage": "Perbualan anda telah berjaya dipadamkan.",
+    "logoutTitle": "Kami kesal melihat anda pergi",
+    "aiHealthSpecialist": "Pakar AI kesihatan dan kesejahteraan utama anda",
+    "aileenCarol": "Pakar Kesihatan AI Carol",
+    "aiHealthAssistant": "Pembantu Kesihatan AI",
+    "deleteAndExit": "Padam & Keluar",
+    "summaryTitle": "Ringkasan Perundingan",
+    "consultationTitle": "Perundingan VirtualMD: {{tajuk}}",
+    "summaryUnavailable": "Ringkasan sedang dijana atau tidak tersedia.",
+    "print": "Cetak",
+    "copy": "salin",
+    "close": "tutup",
+    "shortConv": {
+      "title": "Perbualan Berakhir",
+      "messageLine1": "Perbualan telah tamat. Ia terlalu singkat untuk disimpan, tetapi datang lagi tidak lama lagi.",
+      "messageLine2": "Sehingga itu, sihat, gembira."
+    }
+  },
+  "errors": {
+    "connectionError": "Ralat sambungan. Sila semak sambungan internet anda.",
+    "serverError": "Ralat pelayan. Sila cuba lagi kemudian.",
+    "authenticationError": "Pengesahan gagal. Sila log masuk semula.",
+    "messageFailedToSend": "Mesej gagal dihantar",
+    "loadingFailed": "Gagal memuatkan kandungan",
+    "personaUnavailable": "Pakar kesihatan ini tidak tersedia pada masa ini",
+    "conversationNotFound": "Perbualan tidak ditemui",
+    "permissionDenied": "Anda tidak mempunyai kebenaran untuk mengakses perbualan ini",
+    "failedToLogin": "Gagal log masuk.",
+    "failedToRegister": "Gagal mendaftar.",
+    "failedToLogout": "Gagal log keluar.",
+    "emailAlreadyTaken": "E-mel ini sudah diambil. Sila cuba yang lain atau log masuk.",
+    "anErrorOccurred": "Ralat berlaku.",
+    "selectImageFile": "Sila pilih fail imej.",
+    "failedToSaveProfile": "Gagal menyimpan profil. Sila cuba lagi.",
+    "teamIsFull": "Pasukan anda penuh (Max {{maks}} pakar). Sila alih keluar ahli jika anda ingin menambah pakar lain.",
+    "selectOneSpecialist": "Sila pilih hanya seorang pakar untuk perundingan peribadi.",
+    "contactErrorMessage": "Ralat berlaku semasa menghantar mesej anda. Sila cuba lagi kemudian atau",
+    "contactDirectlyAt": "Anda juga boleh menghantar e-mel kepada kami terus di info@virtualmd.app"
+  },
+  "welcome": {
+    "title": "Selamat datang ke VirtualMD.app",
+    "subtitle": "Mulakan perundingan kesihatan peribadi anda",
+    "description": "Pilih daripada pasukan penasihat kesihatan dikuasakan AI kami untuk mendapatkan cerapan dan bimbingan kesihatan yang diperibadikan.",
+    "getStarted": "Mulakan",
+    "chooseSpecialist": "Pilih Pakar Anda",
+    "startWithTeam": "Mulakan dengan Pasukan Saya",
+    "howItWorks": "Bagaimana Ia Berfungsi",
+    "aileenCarolName": "Pakar Kesihatan AI Aileen Carol",
+    "danielGarciaName": "Pakar Kesihatan AI Daniel Garcia",
+    "greeting": "Helo, {{nama pengguna}}. Senang jumpa awak! Pasukan VirtualMD anda bersedia 24/7 untuk membantu...",
+    "startTeamConsultation": "Mulakan Perundingan Pasukan",
+    "configureNewChat": "Konfigurasikan Sembang Baharu",
+    "encyclopedia": "Ensiklopedia VirtualMD.app",
+    "myAIHealthTeam": "Pasukan Kesihatan AI saya",
+    "aileenCarolIntro": "Helo, saya Pakar Kesihatan AI Aileen Carol. Bagaimana saya boleh membantu anda hari ini?",
+    "persona_welcome_message": "Halo, saya di sini untuk membantu keperluan kesihatan dan kesejahteraan anda. Bagaimanakah saya boleh membantu anda hari ini?"
+  },
+  "imageUpload": {
+    "dragAndDrop": "Seret dan lepaskan imej di sini atau klik untuk memilih",
+    "supportedFormats": "Format yang disokong: JPG, PNG, GIF",
+    "maxSize": "Saiz maksimum: {{size}}MB",
+    "uploadSuccess": "Imej berjaya dimuat naik",
+    "uploadError": "Gagal memuat naik imej",
+    "processing": "Memproses imej...",
+    "removeImage": "Alih keluar imej",
+    "addToContext": "Tambahkan pada konteks perbualan"
+  },
+  "voice": {
+    "startRecording": "Mulakan rakaman suara",
+    "stopRecording": "Hentikan rakaman",
+    "recording": "Rakaman...",
+    "processingSpeech": "Memproses ucapan...",
+    "speechToText": "Menukar pertuturan kepada teks...",
+    "noSpeechDetected": "Tiada pertuturan dikesan",
+    "microphoneError": "Ralat capaian mikrofon",
+    "unsupportedBrowser": "Rakaman suara tidak disokong dalam penyemak imbas ini"
+  },
+  "summary": {
+    "title": "Ringkasan Perundingan",
+    "keyPoints": "Perkara Utama",
+    "recommendations": "Cadangan",
+    "nextSteps": "Langkah Seterusnya",
+    "followUp": "Susulan",
+    "generating": "Menjana ringkasan...",
+    "noSummary": "Tiada ringkasan tersedia",
+    "summaryError": "Gagal menjana ringkasan",
+    "downloadSummary": "Muat turun Ringkasan",
+    "emailSummary": "Ringkasan E-mel",
+    "return": "Kembali",
+    "transcript": "Transkrip",
+    "print": "Cetak",
+    "copy": "salin",
+    "copyError": "Gagal menyalin",
+    "notGenerated": "Ringkasan tidak dapat dijana."
+  },
+  "status": {
+    "online": "dalam talian",
+    "offline": "Luar talian",
+    "away": "jauh",
+    "busy": "Sibuk",
+    "available": "Tersedia",
+    "unavailable": "Tidak tersedia",
+    "lastSeen": "Terakhir dilihat {{masa}}"
+  },
+  "mobileTeamBuilder": {
+    "title": {
+      "yourTeam": "Pasukan Anda",
+      "teamBuilder": "Pembina Pasukan AI"
+    },
+    "carolMessages": {
+      "teamFull": "{{name}}, pasukan anda sudah penuh! Anda boleh memulakan perundingan dengan pasukan semasa anda atau mengalih keluar beberapa ahli untuk mendapatkan pengesyoran baharu.",
+      "helpBuild": "{{name}}, saya ingin membantu anda membina pasukan kesihatan anda yang sempurna! Beritahu saya apa yang membawa anda ke sini hari ini."
+    },
+    "carolGreeting": {
+      "teamFull": "Hai {{name}}! Pasukan anda penuh.",
+      "helpBuild": "Hai {{name}}! Saya akan membantu anda membina pasukan kesihatan anda yang sempurna."
+    },
+    "currentTeam": "Pasukan Semasa ({{current}}/{{maks}})",
+    "aiSpecialist": "AI {{nama}}",
+    "specialist": "Pakar",
+    "startConversation": "Mulakan Perbualan dengan Pasukan Ini",
+    "tellUsWhy": "Beritahu kami sebab anda berada di sini hari ini supaya kami boleh mencipta pasukan kesihatan anda yang sempurna.",
+    "placeholder": "Terangkan kebimbangan kesihatan anda, simptom atau perkara yang anda ingin bantu...",
+    "questionnaire": {
+      "question": "Apa yang membawa anda ke sini hari ini?",
+      "keepExisting": "Kekalkan ahli pasukan sedia ada?",
+      "existingMembers": "Ahli pasukan sedia ada",
+      "currentSize": "Saiz pasukan semasa",
+      "availableSpots": "Tempat yang tersedia untuk pakar baharu",
+      "maxRecommendations": "Pengesyoran maksimum dibenarkan"
+    }
+  },
+  "mobileNavigationTabs": {
+    "consultation": "Perundingan",
+    "team": "Pasukan",
+    "history": "Sejarah",
+    "encyclopedia": "Ensiklopedia"
+  },
+  "autoListening": {
+    "turnOn": "Hidupkan autodengar",
+    "turnOff": "Matikan auto dengar"
+  },
+  "speech": {
+    "processing": "Memproses ucapan",
+    "pauseListening": "Klik untuk Jeda Mendengar",
+    "turnOnListening": "Klik untuk Menghidupkan Mendengar"
+  },
+  "help": {
+    "howDoesThisWork": "Bagaimana ini berfungsi?",
+    "chatControls": "Kawalan sembang",
+    "enterToSend": "Masukkan atau ▷ untuk menghantar",
+    "shiftEnterToSpeak": "Shift+Enter atau 🎤/⏸ untuk bercakap/jeda"
+  },
+  "fileUpload": {
+    "clickToUpload": "Klik untuk memuat naik fail (Anda juga boleh menggugurkan fail ke dalam sembang)"
+  },
+  "send": {
+    "transcribeAndSend": "Transkripsi dan hantar",
+    "sendMessage": "Hantar mesej"
+  },
+  "aileenCarol": {
+    "playAnalysis": "Mainkan analisis Pakar Kesihatan Carol",
+    "stopAnalysis": "Hentikan analisis Pakar Kesihatan Carol"
+  },
+  "profile": {
+    "editProfile": "Edit Profil",
+    "saveChanges": "Simpan Perubahan",
+    "cancelEdits": "Batalkan Suntingan",
+    "changePhoto": "Tukar Foto",
+    "removePhoto": "Alih Keluar Foto",
+    "healthInfoTooltip": "Sila tulis atau senaraikan ubat-ubatan, diagnosis, suplemen dan perkara penting lain berkaitan kesihatan tentang anda.",
+    "loadingProfile": "Memuatkan profil...",
+    "errorLoadingProfile": "Ralat memuatkan profil",
+    "noProfileData": "Tiada data profil tersedia.",
+    "myProfile": "Profil Saya",
+    "myAccount": "Akaun Saya",
+    "displayName": "Nama Paparan",
+    "fullName": "Nama Penuh",
+    "email": "E-mel",
+    "emailCannotBeChanged": "E-mel tidak boleh ditukar.",
+    "keyHealthInfo": "Maklumat Kesihatan Utama",
+    "noHealthInfoRecorded": "Tiada maklumat kesihatan utama direkodkan.",
+    "healthInfoPlaceholder": "Senaraikan ubat, diagnosis, suplemen, dsb.",
+    "age": "Umur",
+    "gender": "Jantina"
+  },
+  "imageContext": {
+    "clearZoom": "Kosongkan pilihan zum ini",
+    "cropPromotionError": "Gagal menghantar dan menambah imej yang dizum. Periksa konsol.",
+    "startConversationToSend": "Mulakan perbualan untuk menghantar zum",
+    "sendZoomToTeam": "Hantar zum ini kepada pasukan",
+    "noActiveZoom": "Tiada zum aktif untuk dihantar. Sila pilih kawasan pada imej.",
+    "functionsUnavailable": "Tidak boleh menghantar zum: Fungsi penting tidak tersedia.",
+    "noImages": "Tiada imej dalam konteks. Muat naik imej untuk bermula.",
+    "allHidden": "Semua imej sedang disembunyikan. Klik lakaran kecil dalam pengepala untuk menunjukkan imej.",
+    "showFirst": "Tunjukkan Imej Pertama",
+    "imageDisplay": "Paparan Imej ({{ditunjukkan}} ditunjukkan / jumlah {{total}})",
+    "hideImage": "Sembunyikan imej",
+    "showImage": "Tunjukkan imej",
+    "zoomPreview": "Pratonton Zum",
+    "sendToTeam": "Hantar kepada Pasukan",
+    "dragToZoom": "Klik dan seret pada imej di atas untuk memilih kawasan zum baharu."
+  },
+  "mobileChat": {
+    "healthConsult": "Rundingan Kesihatan",
+    "speakToAI": "Bercakap dengan {{name}}",
+    "startConversation": "Mulakan perbualan anda di bawah",
+    "requestToSpeakToAI": "Saya ingin bercakap dengan {{name}}"
+  },
+  "mobileWelcome": {
+    "greeting": "Hai!",
+    "aileenCarolIntro": "Saya AI Aileen Carol, pakar kesihatan utama anda. Saya tidak sabar untuk mengenali anda. Saya bertanggungjawab ke atas pasukan pakar kesihatan AI VirtualMD.app anda. Kami sedia membantu 24/7...",
+    "startConsultation": "Mulakan Konsultasi Kesihatan",
+    "myTeam": "Pasukan Saya",
+    "aiTeamBuilder": "Pakar Kesihatan AI Carol membantu anda memilih pasukan anda",
+    "priorConsultations": "Perundingan Terdahulu",
+    "encyclopedia": "Ensiklopedia",
+    "myProfile": "Profil Saya",
+    "logout": "Log keluar",
+    "labels": {
+      "chat": "Sembang",
+      "advisory": "Nasihat",
+      "encyclopedia": "Ensiklopedia",
+      "myTeam": "Pasukan Saya",
+      "history": "Sejarah",
+      "myProfile": "Profil Saya"
+    }
+  },
+  "mobileInput": {
+    "listeningPlaceholder": "Mendengar... bercakap sekarang",
+    "typePlaceholder": "Taip mesej...",
+    "clear": "Jelas",
+    "needHelp": "Perlukan Bantuan?",
+    "takePhoto": "Ambil gambar"
+  },
+  "mobileConsultations": {
+    "title": "Perundingan Terdahulu",
+    "selectAll": "Pilih Semua",
+    "deselectAll": "Nyahpilih Semua",
+    "deleteSelected": "Padam Dipilih ({{count}})",
+    "consultationDefault": "Perundingan {{id}}",
+    "lastUpdate": "Kemas Kini Terakhir: {{tarikh}}",
+    "noUpdates": "Tiada kemas kini lagi",
+    "editTitle": "Edit Tajuk Perbualan",
+    "enterNewTitle": "Masukkan tajuk baharu:",
+    "noConsultations": "Tiada rundingan lagi."
+  },
+  "mobileProfile": {
+    "title": "Profil Saya",
+    "saveError": "Gagal menyimpan profil",
+    "saveSuccess": "Profil dikemas kini!",
+    "changePhoto": "Tukar foto",
+    "displayName": "Nama Paparan",
+    "fullName": "Nama Penuh",
+    "email": "E-mel",
+    "keyHealthInfo": "Maklumat Kesihatan Utama",
+    "logout": "Log keluar"
+  },
+  "mobileNavigation": {
+    "consultation": "Perundingan",
+    "team": "Pasukan",
+    "history": "Sejarah",
+    "exitConsultation": "Keluar Perundingan",
+    "myTeam": "Pasukan Saya",
+    "summary": "Ringkasan",
+    "differentialOpinion": "Pendapat Berbeza",
+    "transcript": "Transkrip",
+    "encyclopedia": "Ensiklopedia",
+    "controls": "Kawalan",
+    "aiSpeaker": "Penceramah AI",
+    "enabled": "Didayakan",
+    "disabled": "Dilumpuhkan",
+    "camera": "Kamera",
+    "comingSoon": "Akan Datang",
+    "menu": "Menu"
+  },
+  "bioPanel": {
+    "loadingBio": "Memuatkan bio...",
+    "noBiography": "Tiada biografi tersedia.",
+    "returnToPanel": "Kembali ke Panel"
+  },
+  "sidebarHeader": {
+    "panel": "Panel",
+    "summary": "Ringkasan",
+    "differentialOpinion": "Pendapat Berbeza",
+    "transcript": "Transkrip",
+    "encyclopedia": "Ensiklopedia VirtualMD.app",
+    "endConversation": "Tamatkan Perbualan",
+    "startChatWithTeam": "Mulakan Sembang dengan Pasukan",
+    "configureNewChat": "Konfigurasikan Sembang Baharu",
+    "myAIHealthTeam": "Pasukan Kesihatan AI Saya",
+    "aileenCarolTeamBuilder": "Pakar Kesihatan Carol membantu membina pasukan anda.",
+    "savedConsultations": "Perundingan Tersimpan",
+    "myProfile": "Profil Saya",
+    "imageNumber": "Imej {{nombor}}"
+  },
+  "differentialOpinion": {
+    "noOpinionAvailable": "Tiada pendapat berbeza tersedia."
+  },
+  "encyclopedia": {
+    "title": "Ensiklopedia VirtualMD.app",
+    "loadingMessage": "Kami sedang melakukan penyelidikan mendalam tentang topik ini untuk anda. Sila tunggu beberapa saat untuk jawapan anda.",
+    "longWaitMessage": "Ini mungkin mengambil masa beberapa minit untuk jawapan terperinci.",
+    "searchButton": "Cari Ensiklopedia",
+    "return": "Kembali",
+    "print": {
+      "button": "Cetak",
+      "title": "Hasil Carian Ensiklopedia",
+      "subtitle": "Ensiklopedia VirtualMD.app"
+    },
+    "copy": "salin",
+    "searchResult": "Hasil Carian Ensiklopedia",
+    "attribution": "Jawapan oleh VirtualMD.app",
+    "emptyState": "Masukkan pertanyaan di atas untuk mencari Ensiklopedia VirtualMD.app.",
+    "copySuccess": "Kandungan disalin ke papan keratan!",
+    "copyError": "Gagal menyalin ke papan keratan",
+    "generatingResponse": "Menjana respons menyeluruh...",
+    "genericError": "Ralat berlaku",
+    "translatingContent": "Menterjemah kandungan..."
+  },
+  "input": {
+    "typeOrSpeakPlaceholder": "Taip atau sebut mesej anda...\nTekan Enter atau klik ▷ untuk menghantar.",
+    "typePlaceholder": "Taip mesej di sini...\nTekan Enter atau klik ▷ untuk menghantar.",
+    "transcribing": "Mentranskripsi...",
+    "enterTextHere": "Masukkan teks di sini",
+    "startTypingMessage": "Mula menaip mesej anda dalam kotak di bawah untuk memulakan perundingan anda."
+  },
+  "quickActions": {
+    "whatToDoButton": "Apa yang patut saya buat?",
+    "summaryButton": "Ringkasan",
+    "whatShouldIDo": "Berdasarkan semua yang telah kita bincangkan, apakah yang perlu saya lakukan sekarang? Sila berikan pengesyoran yang jelas dan boleh diambil tindakan.",
+    "requestSummary": "Sila berikan ringkasan menyeluruh perbualan kami setakat ini, termasuk perkara penting yang dibincangkan, pengesyoran yang dibuat dan langkah seterusnya."
+  },
+  "upload": {
+    "uploading": "Memuat naik…"
+  },
+  "camera": {
+    "notSupported": "Akses kamera tidak disokong dalam penyemak imbas ini",
+    "capturePhoto": "Tangkap Foto",
+    "accessDenied": "Akses kamera ditolak. Sila benarkan akses kamera dalam tetapan penyemak imbas anda.",
+    "accessFailed": "Gagal mengakses kamera"
+  },
+  "microphone": {
+    "turnOn": "Hidupkan mikrofon",
+    "turnOff": "Matikan mikrofon"
+  },
+  "specialistPanel": {
+    "guidanceSingle": "Pilih seorang Pakar AI untuk perundingan peribadi:",
+    "guidanceMulti": "Pakar Kesihatan AI Carol akan sentiasa disertakan. Pilih Penasihat Kesihatan AI tambahan:",
+    "startPrivateConsult": "Mulakan Rundingan Peribadi",
+    "startChat": "Mulakan Sembang",
+    "selectSingle": "Pilih Pakar AI",
+    "selectMulti": "Pilih Penasihat Tambahan",
+    "warningSelectOne": "Sila pilih hanya seorang pakar untuk perundingan peribadi.",
+    "noSpecialistsAvailable": "Tiada pakar AI tersedia pada masa ini untuk perundingan peribadi.",
+    "noAdvisersAvailable": "Tiada Penasihat Kesihatan AI tambahan tersedia."
+  },
+  "sidebarFooter": {
+    "disclaimerText": "VirtualMD.app berusaha untuk ketepatan. Walau bagaimanapun, ini dan mana-mana perkhidmatan berasaskan AI boleh memberikan maklumat yang salah. Sentiasa berunding dengan profesional penjagaan kesihatan manusia yang berkelayakan.",
+    "emergencyText": "Hubungi 911 untuk kecemasan perubatan.",
+    "moreInformation": "Maklumat lanjut"
+  },
+  "teamBuilder": {
+    "healthConditions": {
+      "options": {
+        "${key}": "{{kunci}}"
+      }
+    },
+    "medicinePreferences": {
+      "options": {
+        "${key}": "{{kunci}}"
+      }
+    }
+  },
+  "account": {
+    "title": "Tetapan Akaun",
+    "description": "Dari sini anda boleh memadam akaun VirtualMD.app anda secara kekal. Tindakan ini mengalih keluar profil anda dan semua perundingan.",
+    "deleteMyAccount": "Padam Akaun Saya",
+    "confirmDeleteTitle": "Padam Akaun",
+    "confirmDeleteText": "Tindakan ini tidak dapat dipulihkan. Semua maklumat profil, perundingan dan fail anda akan dialih keluar secara kekal. Adakah anda pasti mahu meneruskan?",
+    "cancel": "Batal",
+    "yesDelete": "Ya, Padam"
+  },
+  "transcript": {
+    "noTranscript": "Tiada transkrip tersedia.",
+    "title": "Transkrip Perundingan",
+    "returnToConversation": "Kembali ke Perbualan",
+    "print": "Cetak",
+    "copy": "salin",
+    "copyError": "Gagal menyalin",
+    "roleLabels": {
+      "patient": "pengguna:",
+      "assistant": "Pembantu:"
+    }
+  },
+  "mobileRouter": {
+    "teamRecommendations": "Cadangan Pasukan",
+    "myTeam": "Pasukan Saya",
+    "summary": "Ringkasan",
+    "differentialOpinion": "Pendapat Berbeza",
+    "transcript": "Transkrip",
+    "encyclopedia": "Ensiklopedia",
+    "consultations": "Perundingan",
+    "returnToChat": "Kembali ke Sembang",
+    "pleaseLogIn": "Sila Log Masuk",
+    "logInToView": "Log masuk untuk melihat perbualan anda atau mulakan perbualan baharu.",
+    "logIn": "Log Masuk",
+    "loadingSpecialists": "Memuatkan pakar..."
+  },
+  "chat": {
+    "pleaseLogIn": "Sila Log Masuk",
+    "logInToView": "Log masuk untuk melihat perbualan anda atau mulakan perbualan baharu."
+  },
+  "loginPage": {
+    "signIn": "Log masuk"
+  },
+  "imageProcessing": {
+    "preset": "Pratetap",
+    "applyPreset": "Gunakan pratetap pada imej terfokus",
+    "process": "Proses",
+    "revertFocus": "Fokus semula pada imej asal",
+    "revert": "Kembalikan"
+  },
+  "guest": {
+    "consultation": "Konsultasi Tetamu",
+    "topics": {
+      "child": {
+        "title": "Anak saya sakit",
+        "subtitle": "Penjagaan kanak-kanak pakar apabila anda amat memerlukannya",
+        "initialMessage": "Saya AI Aileen Carol, Penasihat Kesihatan Maya anda. Saya tahu betapa risaunya seorang kanak-kanak yang sakit. Beritahu saya apa yang berlaku.  Nota: Saya AI, bukan manusia; nasihat saya mungkin salah—sahkan dengan profesional penjagaan kesihatan manusia yang berkelayakan."
+      },
+      "sleep": {
+        "title": "Saya tidak boleh tidur!",
+        "subtitle": "Pulihkan malam anda, ubah hari anda",
+        "initialMessage": "Saya AI Aileen Carol, Penasihat Kesihatan Maya anda, dengan pakar tidur AIs Benjamin Stein (Psikiatri) dan AI Alice Chen (Neurologi). Kongsi cabaran tidur anda supaya kami boleh membantu. Nota: Kami AI, bukan manusia; nasihat kami mungkin salah—sahkan dengan profesional penjagaan kesihatan (manusia) yang berkelayakan."
+      },
+      "nutrition": {
+        "title": "Pemakanan untuk kecergasan",
+        "subtitle": "Tingkatkan tenaga, kesihatan dan kesihatan seksual anda melalui makanan",
+        "initialMessage": "Saya AI Aileen Carol, Penasihat Kesihatan Maya anda, bersama pasukan anda - AI Angelica Fordham (pemakanan), Terapi Seks AI Rachel Levy dan Pakar Herba Afrika AI Amina Okufur. Apa perasaan anda hari ini? Nota: Kami AI, bukan manusia; nasihat mungkin salah—sahkan dengan profesional penjagaan kesihatan yang berkelayakan."
+      }
+    },
+    "errors": {
+      "sessionFailed": "Gagal memulakan sesi tetamu"
+    },
+    "registrationRequired": "Pendaftaran diperlukan",
+    "uploadFeatures": {
+      "title": "Ciri Muat Naik Dokumen & Imej",
+      "description": "Platform kami menawarkan keupayaan analisis dokumen dan imej yang hebat di mana anda boleh:",
+      "benefit1": "Muat naik dokumen kesihatan, laporan makmal dan imej",
+      "benefit2": "Zum masuk pada kawasan tertentu untuk analisis terperinci",
+      "benefit3": "Minta penasihat kesihatan AI kami menilai dan membincangkan dokumen anda",
+      "benefit4": "Ambil gambar terus dari kamera anda untuk perundingan segera",
+      "registeredOnly": "Ciri khas ini tersedia untuk pengguna berdaftar."
+    }
+  },
+  "activeChat": {
+    "guestMode": {
+      "advisorsTitle": "Penasihat Kesihatan VirtualMD.app",
+      "registrationRequired": "Pendaftaran diperlukan"
+    }
+  },
+  "healthAdvisors": "Penasihat Kesihatan VirtualMD.app"
+}

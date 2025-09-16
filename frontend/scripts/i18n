@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# i18n CLI Manager
+# Simple wrapper script to launch the interactive i18n manager
+
+# Get the directory where this script is located
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+# Run the Node.js CLI manager
+exec node "$SCRIPT_DIR/i18n-manager.js" "$@"

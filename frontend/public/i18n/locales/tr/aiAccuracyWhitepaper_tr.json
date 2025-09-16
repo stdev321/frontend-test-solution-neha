@@ -1,0 +1,77 @@
+{
+    "title": "Sağlık ve Sağlıklı Yaşam Bilgilerinde Yapay Zeka için Doğruluk ve Dikkat Edilmesi Gerekenler",
+    "authors": [
+        {
+            "name": "Ron Rubin",
+            "email": "ronrubin@virtualmd.app"
+        },
+        {
+            "name": "Shmuel Miles",
+            "email": "smiles@virtualmd.app"
+        }
+    ],
+    "downloadPdf": "PDF İndir",
+    "generating": "Oluşturuluyor...",
+    "pdfFilename": "VirtualMD_AI_Accuracy_White_Paper_TR.pdf",
+    "section1": {
+        "title": "1. Giriş: Sağlık ve Sağlıklı Yaşamda Yapay Zekanın Vaadi",
+        "content": "Yapay Zeka (YZ), insanların sağlık ve sağlıklı yaşamlarını anlama ve yönetme biçimlerini geliştirmek için önemli bir potansiyele sahiptir. Sağlıkla ilgili verileri analiz etmekten sağlıklı yaşam trendlerini gösterebilecek kalıpları tanımlamaya kadar, YZ araçları erişilebilir, kapsamlı sağlık bilgisi sağlama olasılığı sunar. İnsanlardan çok daha hızlı bir şekilde muazzam miktarda sağlık ve sağlıklı yaşam literatürünü işleyebilirler, potansiyel olarak bireylerin sağlık endişeleri hakkında bilgili kalmalarına yardımcı olurlar. VirtualMD.app tarafından kullanılanlar gibi YZ destekli sohbet ajanları, kullanıcılara erişilebilir sağlık ve sağlıklı yaşam bilgileri sağlar, sağlıkla ilgili soruları yanıtlar ve karmaşık sağlık konularını anlamada yardımcı olur. Amaç, nitelikli sağlık uzmanlarıyla yapılan konsültasyonları asla değiştirmeyen, tamamlayan ek bir bilgi kaynağı olarak hizmet vermektir."
+    },
+    "section2": {
+        "title": "2. Sağlık Bilgilerinde YZ Doğruluğunu ve Sınırlamalarını Anlamak",
+        "intro": "Sağlık hizmetlerinde YZ ortamı hızla gelişti. Google'ın Med-PaLM 2'si (2023) tıbbi lisans sınavlarında uzman düzeyinde performans elde etti, OpenAI'nin GPT-4'ü (2023) ise güçlü tıbbi akıl yürütme yetenekleri gösterdi. Microsoft'un yakın tarihli Medprompt çalışması (2024) klinik doğrulukta daha fazla iyileşme gösterdi. Ancak, bu sistemlerin hem yeteneklerini hem de sınırlamalarını anlamak, sağlık bilgisi bağlamında uygun kullanımları için kritik öneme sahiptir.",
+        "aiSuccess": {
+        "title": "Sağlık Bilgilerinde YZ Üzerine Araştırmalar:",
+        "text": "Birçok çalışma, YZ'nin sağlık bilgilerindeki artan yeteneklerini göstermektedir. Esteva ve ark. (Nature, 2017) YZ'nin cilt kanseri sınıflandırmasında dermatolog düzeyinde doğruluk elde ettiğini gösterdi. Gulshan ve ark. (JAMA, 2016) diyabetik retinopati tespitinde YZ'nin etkinliğini gösterdi. Yakın zamanda Microsoft'un tıbbi senaryolarda GPT-4 üzerine 2024 çalışması, hasta bilgisi sentezinde umut verici sonuçlar gösterdi. Stanford çalışması (2023), YZ sohbet botlarının çevrimiçi forumlarda doktorlardan daha empatik yanıtlar verdiğini buldu. Ancak, bu başarılar YZ'nin profesyonel sağlık konsültasyonunu değiştirmeyen, tamamlayan güçlü bir bilgi aracı olarak rolünü pekiştiriyor."
+        },
+        "aiErrors": {
+        "title": "YZ Sınırlamalarını Anlamak - Araştırmalardan Kanıtlar:",
+        "text": "Araştırmalar önemli YZ sınırlamalarını vurgulamaktadır. Bates ve ark. (NEJM, 2023) YZ sistemlerinin karmaşık vakalarda kritik bağlamı kaçırabileceğini buldu. Johns Hopkins çalışması (2023), atipik sunumlarda YZ hata oranlarının önemli ölçüde arttığını gösterdi. BMJ (2024), sistemlerin makul ancak yanlış bilgi ürettiği tıbbi YZ'deki 'halüsinasyonlar' hakkında rapor verdi. Temel sınırlamalar şunları içerir: Bilgi Boşlukları (YZ son kılavuzları bilmeyebilir), Kişisel Bağlam Eksikliği (Zhou ve ark., 2023, YZ'nin klinisyenler gibi tam hasta geçmişlerini entegre edemediğini gösterdi), Genel ve Özel Uygulama (her kişinin sağlığı benzersizdir) ve Fiziksel Muayene yeteneği yok. Bu çalışmalar, YZ'nin neden profesyonel bakıma bilgi takviyesi olarak en iyi şekilde hizmet ettiğini vurgulamaktadır."
+        },
+        "aiVsHuman": {
+        "title": "Sağlık Hizmetlerinde YZ-İnsan İşbirliği Üzerine Araştırma:",
+        "text": "Son araştırmalar YZ'yi tamamlayıcı bir araç olarak desteklemektedir. Rajpurkar ve ark. (Lancet Digital Health, 2022) YZ artı doktor ekiplerinin tek başlarına her birinden daha iyi performans gösterdiğini buldu. Mayo Clinic çalışması (2023), YZ'nin karar destek aracı olarak kullanıldığında doktorların %20 daha fazla risk altındaki hastayı tanımlamasına yardımcı olduğunu gösterdi. Topol'un incelemesi (Nature Medicine, 2019) YZ'nin en büyük vaadinin insan yeteneklerini değiştirmek değil, artırmakta yattığını savundu. MIT araştırması (2024), randevulara hazırlanmak için YZ kullanan hastaların daha ilgili sorular sorduğunu ve daha yüksek memnuniyet bildirdiğini gösterdi. VirtualMD.app bu işbirlikçi yaklaşımı somutlaştırıyor—kullanıcıların sağlık ekipleriyle daha etkili bir şekilde etkileşimde bulunmalarını sağlayan erişilebilir sağlık bilgileri sağlıyor."
+        }
+    },
+    "section3": {
+        "title": "3. Sağlık Bilgilerinde Net YZ İletişiminin Önemi",
+        "intro": "Bilgi doğruluğunun ötesinde, YZ'nin sağlık ve sağlıklı yaşam bilgilerini nasıl ilettiği çok önemlidir. Doğru bilgi bile net ve uygun bir şekilde sunulmazsa yardımcı olmayabilir.",
+        "challenges": {
+        "empathy": "Bireysel İhtiyaçları Anlamak: Ayers ve ark. (JAMA Internal Medicine, 2023) YZ sohbet botlarının yazılı yanıtlarda empati ölçümlerinde daha yüksek puan aldığını, ancak bireysel duygusal durumları veya kişisel koşulları gerçekten anlayamadıklarını buldu. Yalnızca sağlık uzmanları gerçek insan bağlantısı ve bağlam farkında destek sağlayabilir.",
+        "overload": "Bilgi Netliği: Chen ve ark. (Digital Health, 2023) tarafından yapılan araştırma, kullanıcıların genellikle YZ tarafından üretilen tıbbi bilgilerle bunaldığını gösterdi. Etkili YZ, doğruluğu korurken teknik jargondan kaçınarak kapsamlılık ile netlik arasında denge kurmalıdır.",
+        "confidence": "Uygun Sorumluluk Reddi Beyanları: Harvard çalışması (2024), kullanıcıların sağlık bağlamlarında YZ güvenilirliğini sıklıkla fazla tahmin ettiğini buldu. Güvenli, uygun kullanım için profesyonel tıbbi tavsiyeye karşı YZ'nin bilgilendirici rolü hakkında net iletişim esastır."
+        },
+        "VirtualMDApproach": "İşte VirtualMD.app'in **\"basitçe daha iyi\"** olmaya çabaladığı yer burasıdır. YZ personalarımız tarafından sağlanan sağlık ve sağlıklı yaşam bilgilerinde yalnızca doğruluğu hedeflemiyoruz, aynı zamanda teslimat *şekline* de büyük ölçüde odaklanıyoruz. Amacımız, karmaşık konuları parçalara ayırırken sağlık bilgilerini net, özlü ve erişilebilir bir şekilde sunmak, profesyonel sağlık rehberliğini asla değiştirmeyen, tamamlayan bir bilgi kaynağı olarak rolümüzü tutarlı bir şekilde kabul etmektir."
+    },
+    "section4": {
+        "title": "4. Bu VirtualMD.app'i Kullanan Sizin İçin Ne Anlama Geliyor",
+        "guidelines": {
+        "information": "**Eğitim Kaynağı:** VirtualMD.app eğitim amaçlı sağlık ve sağlıklı yaşam bilgileri sağlar. Bu bilgi, sağlık konularını daha iyi anlamanıza ve sağlık uzmanınızla tartışmalara hazırlanmanıza yardımcı olur, ancak profesyonel tıbbi tavsiye, teşhis veya tedavinin *yerine geçmez*.",
+        "limitations": "**Rolümüzü Anlayın:** Çeşitli sağlık konuları hakkında bilgi edinmenize yardımcı olabilecek genel sağlık bilgileri sağlıyoruz. Ancak, yalnızca sağlık uzmanınız tam sağlık geçmişinizi göz önünde bulundurabilir, muayeneler yapabilir ve kişiselleştirilmiş öneriler sunabilir.",
+        "verify": "**Sağlık Uzmanınızla Ortak Olun:** Burada bulduğunuz bilgileri sağlık ekibinizle daha bilinçli tartışmalar yapmak için kullanın. Kişisel sağlık kararları, teşhisler ve tedavi planları için her zaman nitelikli sağlık uzmanlarına danışın.",
+        "personas": "**YZ Sağlık Eğitmenleri:** YZ personalarımız sağlık konularını net ve erişilebilir bir şekilde açıklamak için tasarlanmıştır. Eğitici bilgi sağlarlar ancak lisanslı sağlık sağlayıcıları değildirler ve profesyonel tıbbi konsültasyonların yerini alamazlar."
+        }
+    },
+    "section5": {
+        "title": "5. Sorumluluk Reddi ve Acil Durum Bilgileri",
+        "disclaimer": "VirtualMD.app, sağlık konularını daha iyi anlamanıza yardımcı olmak için tasarlanmış bir sağlık ve sağlıklı yaşam bilgi hizmetidir. Doğruluk ve kapsamlılık için çabalasak da, sağlanan bilgiler yalnızca eğitim amaçlıdır ve profesyonel tıbbi tavsiye, teşhis veya tedavinin yerini almaz. Her bireyin sağlık durumu benzersizdir ve yalnızca özel koşullarınızı değerlendirebilecek nitelikli sağlık uzmanları kişiselleştirilmiş tıbbi rehberlik sağlamalıdır. Sağlığınız veya tedaviniz hakkında herhangi bir karar vermeden önce her zaman sağlık uzmanınıza danışın. Bu hizmetin kullanımı ve sağlanan bilgilere güvenmek kendi takdiriniz ve riskiniz dahilindedir.",
+        "emergency": "Acil durumda, her zaman yerel acil numaranızı arayın:",
+        "emergencyNumbers": {
+            "US": "911",
+            "Canada": "911",
+            "UK": "999",
+            "Ireland": "999 veya 112",
+            "Australia": "000",
+            "New Zealand": "111",
+            "South Africa": "10111",
+            "India": "112",
+            "Jamaica": "119",
+            "Trinidad and Tobago": "999",
+            "Singapore": "999",
+            "Philippines": "911",
+            "Türkiye": "112",
+            "Kıbrıs": "112",
+            "default": "yerel acil servisler"
+        }
+    }
+}

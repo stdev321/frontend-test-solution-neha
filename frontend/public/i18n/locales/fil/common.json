@@ -1,0 +1,907 @@
+{
+  "header": {
+    "login": "Mag-login",
+    "register": "Magrehistro",
+    "logout": "Mag-logout",
+    "aboutUs": "Tungkol sa Amin",
+    "learnMore": "Matuto pa",
+    "advisory": "Advisory",
+    "start": "Magsimula",
+    "greetingHello": "Hello {{name}}!",
+    "welcomeToVirtualMD": "Maligayang pagdating sa VirtualMD!",
+    "signupForFullAccess": "Mag-signup para sa ganap na pag-access",
+    "profileTitle": "Aking Profile / Pumunta sa Chat",
+    "logoutTitle": "Mag-logout",
+    "toggleTheme": "I-toggle ang Light/Dark Mode",
+    "toggleMode": "I-toggle ang Light/Dark Mode",
+    "myProfile": "Aking Profile / Pumunta sa Chat",
+    "dashboard": "Dashboard",
+    "endConversation": "Tapusin ang Pag-uusap",
+    "returnToConversation": "Bumalik sa Pag-uusap",
+    "startConversation": "Simulan ang Pag-uusap",
+    "endConsult": "Tapusin ang Konsulta",
+    "returnToConsult": "Bumalik sa Consult",
+    "startConsult": "Simulan ang Consult",
+    "home": "Bahay",
+    "healthEncyclopedia": "Health Encyclopedia",
+    "researchPublications": "Pananaliksik at Publikasyon",
+    "contactUs": "Makipag-ugnayan sa Amin",
+    "light": "Liwanag",
+    "dark": "Madilim",
+    "toggleModeText": "I-toggle ang {{mode}} Mode",
+    "legal": "Legal"
+  },
+  "howToUse": "Paano Gamitin",
+  "settings": {
+    "lightMode": "Light Mode",
+    "darkMode": "Dark Mode"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "home": "Bahay",
+    "aboutUs": "Tungkol sa Amin",
+    "returnToChat": "Bumalik sa Chat",
+    "continueConsultation": "Ipagpatuloy ang iyong konsultasyon",
+    "exitConsultation": "Lumabas sa Konsultasyon",
+    "startNewConsultation": "Magsimula ng Bagong Konsultasyon",
+    "sections": {
+      "chatTools": "CHAT TOOLS",
+      "functionality": "PAGGAMIT",
+      "aboutUs": "TUNGKOL SA AMIN",
+      "requiredDocuments": "MGA KINAKAILANGAN NA DOKUMENTO",
+      "research": "PANANALIKSIK",
+      "controls": "MGA KONTROL",
+      "settings": "MGA SETTING"
+    },
+    "myTeam": "Aking Team",
+    "summary": "Buod",
+    "transcript": "Transcript",
+    "encyclopedia": "Encyclopedia",
+    "priorChats": "Mga Naunang Chat",
+    "myProfile": "Aking Profile",
+    "healthEncyclopedia": "Health Encyclopedia",
+    "noteFromFounders": "Paalala mula sa Mga Tagapagtatag",
+    "faq": "FAQ",
+    "contactUs": "Makipag-ugnayan sa Amin",
+    "legal": "Legal",
+    "dataPrivacy": "Privacy ng Data",
+    "aiAccuracyStudies": "Pag-aaral sa Katumpakan ng AI",
+    "empowerYourself": "Palakasin ang Iyong Sarili",
+    "deepResearch": "Malalim na Pananaliksik",
+    "aboutUsItems": {
+      "advisory": "Advisory",
+      "dataPrivacy": "Privacy ng Data"
+    },
+    "learnMore": {
+      "imagingAI": "Imaging at AI",
+      "pathologyAI": "Patolohiya at AI",
+      "dermatologyAI": "Dermatology at AI",
+      "mentalHealthAI": "Kalusugan ng Kaisipan at AI",
+      "accuracyStudies": "Mga Pag-aaral sa Katumpakan ng AI",
+      "allResearch": "Lahat ng Pananaliksik",
+      "empowerYourself": "Palakasin ang Iyong Sarili"
+    }
+  },
+  "landing": {
+    "title": "VirtualMD.app",
+    "subtitle": "AI-Powered Healthcare Solutions",
+    "tryItOut": "Subukan ito",
+    "scrollDown": "Mag-scroll pababa",
+    "scrollUp": "Mag-scroll pataas",
+    "alwaysHereForYou": "Laging Nandito Para sa Iyo.",
+    "cards": {
+      "whyUse": {
+        "title": "Bakit VirtualMD?",
+        "description": "Tuklasin ang mga rebolusyonaryong benepisyo ng aming virtual health platform na pinapagana ng AI"
+      },
+      "dataPrivacy": {
+        "title": "Ang iyong privacy",
+        "description": "Tulad ng isang pinagkakatiwalaang kaibigan, ang iyong mga lihim ng kalusugan ay ligtas sa amin"
+      },
+      "tryItOut": {
+        "title": "Subukan ito",
+        "description": "May sakit ang anak ko|Hindi ako makatulog!|Nutrisyon para sa pag-ibig",
+        "tagline": "Walang kinakailangang pag-sign up."
+      },
+      "wellness": {
+        "title": "Malalim na Pananaliksik",
+        "description": "Health encyclopedia na may mga pinagkakatiwalaang source"
+      },
+      "yourHealth": {
+        "title": "Ang iyong Kalusugan",
+        "description": "Hubugin ang iyong wellness journey gamit ang AI"
+      }
+    }
+  },
+  "chat": {
+    "startNewConsult": "Magsimula ng Bagong Konsulta",
+    "noSpeechDetected": "Hindi ko naabutan yun",
+    "noSpeechMessage": "Wala akong matukoy na pananalita sa iyong recording. Pakisubukang magsalita nang medyo mas malakas o lumapit sa iyong mikropono, pagkatapos ay subukang muli.",
+    "dontShowAgain": "Wag ka na magpapakita sakin",
+    "gotIt": "Nakuha ko",
+    "loading": "Naglo-load…"
+  },
+  "loading": {
+    "preparingHealthTeam": "Inihahanda ang iyong AI health team...",
+    "connectingSpecialists": "Kumokonekta sa mga espesyalista sa kalusugan...",
+    "initializingSystem": "Sinisimulan ang iyong personalized na sistema ng kalusugan...",
+    "almostReady": "Halos handang tumulong sa iyo...",
+    "dots": "..."
+  },
+  "common": {
+    "loading": "Naglo-load…",
+    "user": {
+      "defaultInitial": "U",
+      "defaultName": "doon",
+      "defaultAltText": "Gumagamit"
+    },
+    "error": "Error",
+    "success": "Tagumpay",
+    "cancel": "Kanselahin",
+    "confirm": "Kumpirmahin",
+    "save": "I-save",
+    "delete": "Tanggalin",
+    "edit": "I-edit",
+    "close": "Isara",
+    "next": "Susunod",
+    "previous": "Nakaraang",
+    "submit": "Isumite",
+    "search": "Maghanap",
+    "filter": "Salain",
+    "sort": "Pagbukud-bukurin",
+    "upload": "Mag-upload",
+    "download": "I-download",
+    "print": "Print",
+    "share": "Ibahagi",
+    "copy": "Kopyahin",
+    "paste": "Idikit",
+    "cut": "Putulin",
+    "undo": "I-undo",
+    "redo": "Gawin muli",
+    "yes": "Oo",
+    "no": "Hindi",
+    "ok": "OK",
+    "punctuation": {
+      "ellipsis": "..."
+    },
+    "apply": "Mag-apply",
+    "reset": "I-reset",
+    "clear": "Maaliwalas",
+    "back": "Bumalik",
+    "forward": "Pasulong",
+    "home": "Bahay",
+    "refresh": "I-refresh",
+    "reload": "I-reload",
+    "help": "Tulong",
+    "about": "Tungkol sa",
+    "contact": "Makipag-ugnayan",
+    "profile": "Profile",
+    "account": "Account",
+    "privacy": "Pagkapribado",
+    "terms": "Mga tuntunin",
+    "legal": "Legal",
+    "support": "Suporta",
+    "feedback": "Feedback",
+    "welcome": "Maligayang pagdating",
+    "goodbye": "Paalam",
+    "thankyou": "salamat po",
+    "send": "Ipadala",
+    "none": "wala",
+    "generating": "Binubuo...",
+    "settings": "Mga setting"
+  },
+  "auth": {
+    "loginTitle": "Mag-sign in",
+    "registerTitle": "Lumikha ng Account",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Kumpirmahin ang Password",
+    "fullName": "Buong Pangalan",
+    "displayName": "Display Name",
+    "rememberMe": "Tandaan mo ako",
+    "forgotPassword": "Nakalimutan ang password?",
+    "noAccount": "Walang account?",
+    "hasAccount": "Mayroon ka nang account?",
+    "signUp": "Mag-sign up",
+    "signIn": "Mag-sign in",
+    "signOut": "Mag-sign out",
+    "createAccount": "Lumikha ng Account",
+    "loginButton": "Mag-login",
+    "registerButton": "Magrehistro",
+    "logout": "Mag-logout"
+  },
+  "footer": {
+    "copyright": "MindScript Technologies LLC. All rights reserved..",
+    "privacyPolicy": "Patakaran sa Privacy",
+    "termsOfService": "Mga Tuntunin ng Serbisyo",
+    "cookiePolicy": "Patakaran sa Cookie",
+    "medicalAdvisory": "Payo sa Kalusugan",
+    "yourPrivacy": "Ang iyong Privacy",
+    "legal": "Legal",
+    "contactUs": "Makipag-ugnayan sa Amin",
+    "howToUse": "Paano Gamitin",
+    "faq": "FAQ",
+    "noteFromFounders": "Paalala mula sa mga Tagapagtatag",
+    "medicalDisclaimerTooltip": "Nagsusumikap ang MindScript na maghatid ng pinakatumpak, napapanahon na impormasyong pangkalusugan gamit ang AI-powered health personas. Gayunpaman, ang mga persona na ito ay hindi mga lisensyadong eksperto sa kalusugan at maaaring hindi tama. Sa isang totoong medikal na emergency, i-dial ang 911 o pumunta kaagad sa iyong pinakamalapit na emergency department. Para sa anumang iba pang alalahanin sa kalusugan o bago subukan ang anumang paggamot o remedyo, mangyaring kumonsulta sa isang kwalipikadong tagapagbigay ng pangangalaga sa kalusugan ng tao o espesyalista.",
+    "advisory": "Advisory"
+  },
+  "forms": {
+    "required": "Kinakailangan ang field na ito",
+    "invalidEmail": "Mangyaring magpasok ng wastong email address",
+    "passwordTooShort": "Dapat na hindi bababa sa 8 character ang password",
+    "passwordsDoNotMatch": "Hindi tugma ang mga password",
+    "invalidInput": "Mangyaring magpasok ng wastong input",
+    "fieldRequired": "{{field}} ay kinakailangan",
+    "selectOption": "Mangyaring pumili ng opsyon",
+    "uploadFile": "Mag-upload ng file",
+    "dragAndDrop": "I-drag at i-drop ang mga file dito, o i-click upang pumili",
+    "fileUploaded": "Matagumpay na na-upload ang file",
+    "uploadError": "Error sa pag-upload ng file"
+  },
+  "language": {
+    "english": "Ingles",
+    "arabic": "العربية",
+    "hebrew": "עברית",
+    "switchTo": "Lumipat sa {{wika}}",
+    "currentLanguage": "Kasalukuyang wika: {{wika}}"
+  },
+  "animation": {
+    "title": {
+      "simply": "Simple lang",
+      "better": "mas mabuti",
+      "health": "Kalusugan",
+      "period": "."
+    }
+  },
+  "hero": {
+    "subtitle": "Personalized na payo sa kalusugan at kagalingan 24/7.",
+    "subtitleMobile": "Personalized AI health advice 24/7",
+    "poweredBy": "Pinapatakbo ng AI."
+  },
+  "research": {
+    "title": "Pananaliksik at Publikasyon",
+    "subtitle": "Mga solusyon sa pangangalagang pangkalusugan ng AI na nakabatay sa ebidensya",
+    "aiImaging": {
+      "title": "AI sa Diagnostic Imaging",
+      "description": "Komprehensibong pagsusuri ng mga aplikasyon ng artificial intelligence sa health imaging sa radiology, pathology, at ophthalmology."
+    },
+    "pathologyAI": {
+      "title": "Patolohiya AI Tulong",
+      "description": "Malalim na pag-aaral ng mga aplikasyon sa digital na patolohiya para sa pagtuklas ng kanser at pagpapabuti ng katumpakan ng diagnostic."
+    },
+    "dermatologyAI": {
+      "title": "Mga Solusyon sa Dermatology AI",
+      "description": "AI-powered skin condition detection at diagnosis gamit ang computer vision at machine learning."
+    },
+    "mentalHealthAI": {
+      "title": "Kalusugan ng Kaisipan at AI",
+      "description": "Mga aplikasyon ng artificial intelligence sa pagsusuri sa kalusugan ng isip, pagsusuri, at suporta sa paggamot."
+    },
+    "accuracyStudies": {
+      "title": "Pag-aaral sa Katumpakan ng AI",
+      "description": "Klinikal na pagpapatunay at mga sukatan ng pagganap ng mga sistema ng diagnostic ng AI sa mga setting ng pangangalaga sa kalusugan sa totoong mundo."
+    }
+  },
+  "whitepapers": {
+    "downloadPdf": "Mag-download ng PDF",
+    "generating": "Binubuo...",
+    "abstract": "Abstract",
+    "introduction": "Panimula",
+    "methods": "Pamamaraan/Teknolohiya",
+    "results": "Mga resulta",
+    "discussion": "Pagtalakay",
+    "conclusion": "Konklusyon",
+    "references": "Mga sanggunian",
+    "authors": "Mga may-akda",
+    "email": "Email",
+    "organization": "Organisasyon"
+  },
+  "imageProcessing": {
+    "preset": "Preset",
+    "process": "Proseso",
+    "revert": "Ibalik",
+    "applyPreset": "Ilapat ang preset sa larawang nakatutok",
+    "revertFocus": "Muling tumutok sa orihinal na larawan"
+  },
+  "alt": {
+    "logo": "Logo ng VirtualMD.app",
+    "logoSmall": "Maliit na Logo ng MindScript",
+    "integratedApproach": "Integrated wellness approach",
+    "userProfile": "Profile ng user",
+    "aiDoctor": "Ang Dalubhasang Pangkalusugan ng AI na si Carol",
+    "aiAssistant": "AI Assistant",
+    "backgroundImage": "Magandang larawan sa background",
+    "home": "MindScript Home",
+    "processed": "Naprosesong larawan",
+    "zoomPreview": "Preview ng zoom ng larawan"
+  },
+  "aria": {
+    "scrollDown": "Mag-scroll pababa",
+    "scrollUp": "Mag-scroll pataas",
+    "openMenu": "Buksan ang menu",
+    "togglePassword": "I-toggle ang visibility ng password",
+    "chooseLanguage": "Pumili ng wika",
+    "goHome": "Pumunta sa homepage",
+    "remove": "Alisin",
+    "edit": "I-edit",
+    "delete": "Tanggalin",
+    "save": "I-save",
+    "cancel": "Kanselahin",
+    "breadcrumb": "Navigation breadcrumb",
+    "conversationChoice": "Pagpipilian sa pag-uusap",
+    "personaChoice": "Pagpili ng persona",
+    "panel": "Panel",
+    "summary": "Buod",
+    "differentialOpinion": "Pagkakaiba-iba ng Opinyon",
+    "transcript": "Transcript",
+    "encyclopedia": "Encyclopedia",
+    "endConversation": "Tapusin ang Pag-uusap",
+    "startChat": "Simulan ang pakikipag-chat sa team",
+    "configureChat": "I-configure ang bagong chat",
+    "savedConsultations": "Naka-save na mga konsultasyon",
+    "myProfile": "Aking Profile"
+  },
+  "researchPage": {
+    "title": "Pananaliksik at Publikasyon",
+    "healthAdvisory": {
+      "title": "Payo sa Kalusugan",
+      "description": "Mahalagang impormasyon sa kalusugan at kaligtasan",
+      "button": "Tingnan ang Advisory"
+    },
+    "imagingAI": {
+      "title": "AI sa Diagnostic Imaging",
+      "description": "AI application sa health imaging sa radiology, pathology, at ophthalmology",
+      "button": "Magbasa pa"
+    },
+    "pathologyAI": {
+      "title": "Patolohiya na Tinulungan ng AI",
+      "description": "Malalim na pag-aaral ng mga aplikasyon sa digital na patolohiya para sa pagtuklas ng kanser at katumpakan ng diagnostic",
+      "button": "Magbasa pa"
+    },
+    "dermatologyAI": {
+      "title": "AI Solutions sa Dermatology",
+      "description": "AI-powered skin condition detection at diagnosis gamit ang computer vision at machine learning",
+      "button": "Magbasa pa"
+    },
+    "mentalHealthAI": {
+      "title": "Kalusugan ng Pag-iisip at AI",
+      "description": "AI application sa mental health screening, diagnosis, at therapeutic support",
+      "button": "Magbasa pa"
+    },
+    "dataPrivacy": {
+      "title": "Privacy at Seguridad ng Data",
+      "description": "Proteksyon sa data ng pangangalagang pangkalusugan, pagsunod sa HIPAA, at mga pananggalang sa privacy",
+      "button": "Magbasa pa"
+    },
+    "aiAccuracy": {
+      "title": "Pag-aaral sa Katumpakan ng AI",
+      "description": "Klinikal na pagpapatunay at mga sukatan ng pagganap ng mga sistema ng diagnostic ng AI sa mga setting ng pangangalaga sa kalusugan sa totoong mundo",
+      "button": "Magbasa pa"
+    },
+    "aiForLaypeople": {
+      "title": "AI para sa Lahat",
+      "description": "Pag-unawa sa healthcare AI sa mga simpleng termino - walang kinakailangang teknikal na background",
+      "button": "Magbasa pa"
+    }
+  },
+  "dialogs": {
+    "startWithDefault": "Magsimula sa Health Expert Carol",
+    "startWithSpecific": "Magsimula sa {{name}}",
+    "longRecording": {},
+    "shortConv": {}
+  },
+  "team": {
+    "myAIHealthTeam": "Aking AI Health Team",
+    "addMembersInstruction": "Magdagdag ng mga miyembro ng koponan sa pamamagitan ng pag-click sa isang card sa kanan.",
+    "maxTeamSizeNote": "Maximum na limang AI advisors ang maaaring maidagdag sa iyong team. Maaari mong baguhin ang iyong koponan anumang oras, ngunit hindi sa panahon ng isang konsultasyon.",
+    "starting": "Nagsisimula...",
+    "startTeamConsult": "Simulan ang Konsultasyon ng Koponan",
+    "startConsultationWithTeam": "Simulan ang Konsultasyon sa Iyong Koponan"
+  },
+  "newConversation": {
+    "aileenCarolOnly": "Health Expert Carol Lamang",
+    "oneOnOne": "One-on-One",
+    "consultationChoice": {
+      "question": "Sino ang gusto mong kumonsulta ngayon?"
+    },
+    "options": {
+      "allAdvisers": "Lahat ng Aking AI Health Adviser",
+      "allAdvisersCarolOnly": "Lahat ng My AI Health Adviser (AI Health Expert Carol lang)",
+      "chooseSpecific": "Pumili ng Tukoy mula sa Aking Listahan"
+    },
+    "tooltips": {
+      "noAdvisersSelected": "Walang napiling tagapayo sa iyong profile.",
+      "loadingAdvisers": "Nilo-load ang iyong mga tagapayo...",
+      "noOtherAdvisers": "Walang ibang mga tagapayo sa iyong listahan na mapagpipilian. Magdagdag pa sa iyong profile."
+    },
+    "errors": {
+      "loadingAdvisers": "Error sa paglo-load ng data ng tagapayo."
+    },
+    "buttons": {
+      "cancel": "Kanselahin",
+      "next": "Susunod",
+      "start": "Magsimula"
+    }
+  },
+  "aiAccuracyWhitepaper": {
+    "section1": {},
+    "section2": {
+      "aiSuccess": {},
+      "aiErrors": {},
+      "aiVsHuman": {}
+    },
+    "section3": {
+      "challenges": {}
+    },
+    "section4": {
+      "guidelines": {}
+    },
+    "section5": {}
+  },
+  "imagingAIExplainer": {
+    "whatIsImaging": {
+      "types": {}
+    },
+    "whatIsAI": {},
+    "howAIHelps": {
+      "accuracy": {},
+      "speed": {},
+      "consistency": {}
+    },
+    "challenges": {},
+    "conclusion": {}
+  },
+  "mentalHealthWhitepaper": {
+    "disclaimer": {},
+    "abstract": {},
+    "introduction": {},
+    "methods": {},
+    "results": {
+      "diagnosticSupport": {},
+      "therapeuticApplications": {},
+      "patientMonitoring": {}
+    },
+    "discussion": {},
+    "conclusion": {}
+  },
+  "audio": {},
+  "autoListening": {},
+  "speech": {},
+  "help": {},
+  "upload": {},
+  "fileUpload": {},
+  "input": {},
+  "send": {},
+  "controls": {
+    "aiSpeaker": "AI Speaker",
+    "cameraUpload": "Camera/Upload",
+    "status": {
+      "enabled": "Pinagana",
+      "disabled": "Hindi pinagana"
+    }
+  },
+  "welcome": {},
+  "account": {},
+  "participants": {},
+  "mobileChat": {},
+  "sidebar": {
+    "differentialOpinion": "Pagkakaiba-iba ng Opinyon"
+  },
+  "bioPanel": {},
+  "conversations": {},
+  "mobileConsultations": {},
+  "encyclopedia": {},
+  "imageContext": {},
+  "profile": {},
+  "sidebarHeader": {
+    "plusBadge": "+"
+  },
+  "messages": {},
+  "sidebarFooter": {},
+  "summary": {},
+  "teamBuilder": {
+    "steps": {},
+    "alerts": {},
+    "existingTeam": {},
+    "primaryConcerns": {},
+    "healthConditions": {},
+    "urgencySymptoms": {},
+    "medicinePreferences": {},
+    "additionalInfo": {},
+    "aileenCarolIntro": {},
+    "buttons": {},
+    "dialogs": {}
+  },
+  "aileenCarol": {},
+  "transcript": {},
+  "registerPage": {},
+  "legal": {
+    "eligibility": {},
+    "feesAndPayment": {},
+    "termination": {}
+  },
+  "aboutEncyclopediaPage": {},
+  "loginPage": {},
+  "mobileTeamBuilder": {
+    "carolMessages": {},
+    "questionnaire": {},
+    "title": {},
+    "carolGreeting": {}
+  },
+  "mobileNavigation": {},
+  "mobileWelcome": {},
+  "mobileRouter": {},
+  "mobileInput": {},
+  "mobileProfile": {},
+  "clinicianInfoPage": {},
+  "contactPage": {},
+  "dataPrivacyWhitepaper": {
+    "sections": {},
+    "hero": {},
+    "privacyPledge": {
+      "secureInfo": {},
+      "noPersonalUse": {},
+      "neverSell": {},
+      "anonymizedData": {}
+    },
+    "securityLevels": {
+      "accountSecurity": {},
+      "hipaaHistory": {}
+    },
+    "mindscriptSecurity": {},
+    "hipaaConsiderations": {},
+    "userResponsibility": {},
+    "privacyScenarios": {},
+    "conclusion": {}
+  },
+  "encyclopediaPage": {},
+  "evidencePage": {
+    "researchEvidence": {
+      "radiology": {},
+      "pathology": {},
+      "dermatology": {},
+      "mentalHealthResearch": {}
+    },
+    "wellnessInsights": {
+      "personalizedWellness": {},
+      "holisticSignals": {},
+      "proactiveWellbeing": {},
+      "aiEnhancedClarity": {}
+    }
+  },
+  "featuresPage": {
+    "features": {
+      "instantWellnessInsights": {},
+      "holisticWellnessPicture": {},
+      "diverseAIPerspectives": {},
+      "everEvolvingIntelligence": {}
+    }
+  },
+  "healthAdvisoryPage": {
+    "sections": {
+      "consultation": {
+        "emergency": {}
+      },
+      "technology": {},
+      "disclaimer": {
+        "points": {}
+      }
+    }
+  },
+  "medicalImageProcessingPage": {},
+  "mentalHealthInfoPage": {},
+  "nurseInfoPage": {},
+  "patientInfoPage": {},
+  "pharmacistInfoPage": {},
+  "physicianInfoPage": {},
+  "wellnessPathwaysPage": {},
+  "whyVirtualMD": {
+    "sections": {
+      "whyUs": {
+        "points": {
+          "personalTeam": {},
+          "aiNavigator": {},
+          "empoweringChoices": {},
+          "easyToUse": {},
+          "advancedTechnology": {}
+        }
+      },
+      "hero": {},
+      "features": {
+        "points": {
+          "dynamicEnsemble": {},
+          "holisticUnderstanding": {},
+          "rapidAccess": {},
+          "reliableInteractions": {},
+          "insightfulLogs": {}
+        }
+      },
+      "technology": {},
+      "cta": {}
+    }
+  },
+  "yourHealthInYourHandsPage": {
+    "sections": {
+      "uniqueProfile": {},
+      "personalizedGoals": {},
+      "diverseInsights": {},
+      "proactivePartner": {}
+    },
+    "callToAction": {}
+  },
+  "session_complete": "Kumpleto na ang Sesyon",
+  "your_free_trial_has_ended": "Natapos na ang Iyong Libreng Pagsubok",
+  "united_kingdom:_dial_999_or_11": "United Kingdom: I-dial ang 999 o 112",
+  "melanoma_and_skin_cancer_detec": "Melanoma at Pagtuklas ng Kanser sa Balat",
+  "process_transactions_and_send_": "Iproseso ang mga transaksyon at magpadala ng nauugnay na impormasyon, kabilang ang mga kumpirmasyon at mga invoice (kung naaangkop).",
+  "information_we_collect": "Impormasyon na Kinokolekta Namin",
+  "in_a_medical_emergency:": "Sa isang medikal na emergency:",
+  "in_response_to_legal_process:": "Bilang Tugon sa Legal na Proseso:",
+  "loading_chat": "Nilo-load ang chat...",
+  "redirecting": "Nire-redirect...",
+  "israel:_dial_101_(magen_david_": "Israel: I-dial ang 101 ()",
+  "unlimited_messages_with_ai_doc": "Walang limitasyong mga mensahe sa mga eksperto sa kalusugan ng AI",
+  "contact_information": "Impormasyon sa Pakikipag-ugnayan",
+  "real-world_implementation_and_": "Real-World Implementation at Mobile Applications",
+  "your_access_to_or_use_of_or_in": "ANG IYONG PAG-ACCESS SA O PAGGAMIT NG O KAWALANANG MAG-ACCESS O GAMITIN ANG SERBISYO;",
+  "your_computer_may_temporarily_": "Ang iyong computer ay maaaring pansamantalang mag-imbak ng mga kopya ng naturang mga materyales sa RAM na hindi sinasadya sa iyong pag-access at pagtingin sa mga materyal na iyon.",
+  "please_select_only_one_special": "Mangyaring pumili lamang ng isang espesyalista para sa isang pribadong konsultasyon.",
+  "references": "Mga sanggunian",
+  "business_transfers:": "Mga Paglilipat ng Negosyo:",
+  "account_information:": "Impormasyon ng Account:",
+  "provide,_operate,_maintain,_an": "Magbigay, magpatakbo, magpanatili, at pagbutihin ang Serbisyo.",
+  "assignment": "Takdang-aralin",
+  "sandymiles@mindspringhealth": "sandymiles@mindspring.health",
+  "ai-generated_content_may_conta": "Ang nilalamang binuo ng AI ay maaaring maglaman ng mga error o pagtanggal sa kabila ng aming mahusay na mga proseso ng pagpapatunay",
+  "display_name": "Display Name",
+  "any_content_obtained_from_the_": "ANUMANG NILALAMAN NA NAKUHA MULA SA SERBISYO; O",
+  "you_may_store_files_that_are_a": "Maaari kang mag-imbak ng mga file na awtomatikong na-cache ng iyong Web browser para sa mga layunin ng pagpapahusay ng display.",
+  "start_new_health_consultation": "Magsimula ng Bagong Konsultasyon sa Kalusugan",
+  "entire_agreement": "Buong Kasunduan",
+  "ophthalmology": "Ophthalmology",
+  "not": "HINDI",
+  "exit_conversation?": "Lumabas sa Pag-uusap?",
+  "grading_and_classification": "Pagmamarka at Pag-uuri",
+  "unauthorized_access,_use,_or_a": "HINDI AUTHORIZED ACCESS, PAGGAMIT, O PAGBABAGO NG IYONG MGA TRANSMISSIONS O NILALAMAN (KASAMA ANG MGA PAGLABAG SA DATA), KAHIT NA ANG MINDSCRIPT AY NAGPAPATUPAD NG MGA MAKAKATUTONG PANUKALA SA SEGURIDAD NA BULAW SA MGA TUNTUNIN NA ITO AT SA PATAKARAN NG PRIVACY.",
+  "checking_server_status": "Sinusuri ang status ng server...",
+  "not_a_hipaa-compliant_service": "HINDI ISANG HIPAA-COMPLIANT SERVICE",
+  "radiology": "Radiology",
+  "united_states:_dial_911": "Estados Unidos: I-dial ang 911",
+  "save_and_review_conversation_h": "I-save at suriin ang kasaysayan ng pag-uusap",
+  "abstract": "Abstract",
+  "starting_your_consultation": "Pagsisimula ng iyong konsultasyon...",
+  "digital_pathology_overview": "Pangkalahatang-ideya ng Digital Patolohiya",
+  "reasonable_business_security_p": "makatwirang mga kasanayan sa seguridad ng negosyo sa loob ng Estados Unidos",
+  "loading_transcript": "Nilo-load ang transcript...",
+  "cookies_and_similar_technologi": "Cookies at Katulad na Teknolohiya:",
+  "internal_medicine": "Panloob na Kaayusan",
+  "no_specialists_currently_in_th": "Walang mga espesyalista sa kasalukuyang chat na ito.",
+  "discussion": "Pagtalakay",
+  "updating_team": "Ina-update ang koponan...",
+  "your_privacy_choices": "Iyong Mga Pagpipilian sa Privacy",
+  "error:_unknown_active_chat_vie": "Error: Hindi kilalang aktibong view ng chat.",
+  "create_more_than_one_account_f": "Lumikha ng higit sa isang account para sa iyong sarili.",
+  "improve_the_accuracy,_efficacy": "Pahusayin ang katumpakan, pagiging epektibo, at kaligtasan ng aming mga modelo ng AI at feature ng platform gamit ang hindi nakikilalang at pinagsama-samang data.",
+  "user_content:": "Nilalaman ng User:",
+  "mindscript_does_not_provide_me": "Ang MindScript ay hindi nagbibigay ng medikal na diagnosis o paggamot",
+  "communicate_with_you_about_pro": "Makipag-ugnayan sa iyo tungkol sa mga produkto, serbisyo, alok, promosyon, reward, at kaganapang inaalok ng MindScript at iba pa, at magbigay ng balita at impormasyon na sa tingin namin ay magiging interesante sa iyo (napapailalim sa iyong mga karapatan sa pag-opt out).",
+  "aggregated_or_de-identified_da": "Pinagsama-sama o Hindi Natukoy na Data:",
+  "canada:_dial_911": "Canada: I-dial ang 911",
+  "retry": "Subukan muli",
+  "other_locations:_contact_your_": "Iba pang mga lokasyon: Makipag-ugnayan kaagad sa iyong lokal na mga serbisyong pang-emergency",
+  "ron_rubin,_phd_and_sandy_miles": "Ron Rubin, PhD at Sandy Miles",
+  "australia:_dial_000_or_112": "Australia: I-dial ang 000 o 112",
+  "data_deletion:": "Pagtanggal ng Data:",
+  "we_do_not_guarantee_the_absolu": "HINDI NAMIN GINAGARANTIYA ANG LUBOS NA SEGURIDAD NG IYONG IMPORMASYON",
+  "send_technical_notices,_update": "Magpadala ng mga teknikal na paunawa, update, alerto sa seguridad, at suporta at mga mensaheng pang-administratibo.",
+  "consultation_summary": "Buod ng Konsultasyon",
+  "waiver": "Waiver",
+  "access_to_all_medical_specialt": "Access sa lahat ng specialty sa kalusugan",
+  "no_profile_data_available": "Walang available na data ng profile.",
+  "no_summary_available": "Walang available na buod.",
+  "test_app_-_mindscript": "Test App - MindScript",
+  "respond_to_your_comments,_ques": "Tumugon sa iyong mga komento, tanong, at kahilingan at magbigay ng serbisyo sa customer.",
+  "not_hipaa_compliant": "HINDI HIPAA compliant",
+  "force_majeure": "Force Majeure",
+  "you_may_print_or_download_one_": "Maaari kang mag-print o mag-download ng isang kopya ng isang makatwirang bilang ng mga pahina ng Site para sa iyong sariling personal, hindi pangkomersyal na paggamit ng impormasyon at hindi para sa karagdagang pagpaparami, publikasyon, o pamamahagi.",
+  "dr_aileen_carol": "Health Expert na si Aileen Carol",
+  "family_medicine": "Family Wellness",
+  "headings": "Mga pamagat",
+  "note_on_ai_aileencarol's_particip": "Paalala sa Pakikilahok ni AI Health Expert Carol:",
+  "ronrubin@mindscripthealth": "ronrubin@virtualmd.app",
+  "share_your_account_credentials": "Ibahagi ang mga kredensyal ng iyong account o payagan ang iba na ma-access ang iyong account (maliban kung tahasang pinahihintulutan para sa mga pangsamahang account).",
+  "email_cannot_be_changed": "Hindi mababago ang email.",
+  "your_unique_medical_history,_c": "Ang iyong natatanging kasaysayan ng kalusugan, mga kondisyon, at mga pangyayari ay nangangailangan ng propesyonal na pagsusuri",
+  "changes_to_these_terms_and_pol": "Mga Pagbabago sa Mga Tuntunin at Patakaran na ito",
+  "other_ai_specialists": "Iba pang mga Espesyalista sa AI",
+  "full_name": "Buong Pangalan",
+  "governing_law_and_dispute_reso": "Batas na Namamahala at Resolusyon sa Di-pagkakasundo",
+  "loading…": "Naglo-load…",
+  "personalized_health_insights": "Mga personalized na insight sa kalusugan",
+  "gastroenterology": "Gastroenterology",
+  "use_of_the_service_by_children": "Ang paggamit ng Serbisyo ng mga bata ay ipinagbabawal.",
+  "introduction": "Panimula",
+  "use_another_user's_account_wit": "Gumamit ng account ng ibang user nang walang pahintulot.",
+  "if_you_can_see_this,_react_is_": "Kung nakikita mo ito, gumagana ang React!",
+  "ronrubin@mindspringhealth": "ronrubin@mindspring.health",
+  "children's_privacy": "Privacy ng mga Bata",
+  "provide_false_or_misleading_in": "Magbigay ng mali o mapanlinlang na impormasyon sa panahon ng pagpaparehistro o sa iyong profile ng account.",
+  "talk_to_a_specialist": "Makipag-usap sa isang Espesyalista",
+  "cannot": "HINDI PWEDE",
+  "how_we_use_information": "Paano Namin Gumamit ng Impormasyon",
+  "results": "Mga resulta",
+  "loading_participants": "Nilo-load ang mga kalahok...",
+  "sandymiles@mindscripthealth": "sandymiles@virtualmd.app",
+  "this_feature_is_coming_soon": "Malapit na ang feature na ito!",
+  "start_or_continue_conversation": "Simulan o Ipagpatuloy ang Pag-uusap",
+  "international_data_transfers": "International Data Transfers",
+  "loading_bio": "Nilo-load ang bio...",
+  "termination": "Pagwawakas",
+  "no_image_active": "Walang aktibong larawan.",
+  "no_ai_health_advisers_selected": "Walang napiling AI Health Adviser. Maaari mong pamahalaan ang iyong mga tagapayo sa iyong profile.",
+  "dr_daniel_garcia": "Health Expert na si Daniel Garcia",
+  "no_other_specialists_available": "Walang ibang mga espesyalista na magagamit upang magdagdag.",
+  "carry_out_any_other_purpose_de": "Magsagawa ng anumang iba pang layunin na inilarawan sa iyo sa oras na nakolekta ang impormasyon.",
+  "data_retention": "Pagpapanatili ng Data",
+  "informational_and_educational_": "IMPORMASYONAL AT EDUCATIONAL NA LAYUNIN LAMANG",
+  "miscellaneous": "Miscellaneous",
+  "non-cancerous_skin_condition_c": "Pag-uuri ng Kondisyon ng Hindi Kanser sa Balat",
+  "pathology": "Patolohiya",
+  "promotional_communications:": "Mga Pang-promosyon na Komunikasyon:",
+  "info@mindscripthealth": "info@virtualmd.app",
+  "methods/technologies": "Pamamaraan/Teknolohiya",
+  "how_we_share_information": "Paano Kami Nagbabahagi ng Impormasyon",
+  "loading_profile": "Nilo-load ang profile...",
+  "personalize_and_improve_the_se": "I-personalize at pagbutihin ang Serbisyo at magbigay ng content o mga feature na tumutugma sa mga profile o interes ng user.",
+  "with_vendors_and_service_provi": "Sa mga Vendor at Service Provider:",
+  "health_information_may_become_": "Maaaring luma na ang impormasyong pangkalusugan habang umuunlad ang kaalaman sa kalusugan",
+  "with_whom_would_you_like_to_co": "Sino ang gusto mong kumonsulta ngayon?",
+  "mindscript_content:": "Nilalaman ng MindScript:",
+  "cookies:": "Cookies:",
+  "detect,_investigate,_and_preve": "Tuklasin, imbestigahan, at pigilan ang mga mapanlinlang na transaksyon at iba pang ilegal na aktibidad at protektahan ang mga karapatan at ari-arian ng MindScript at iba pa.",
+  "medical_advice_requires_person": "Ang payo sa kalusugan ay nangangailangan ng personalized na pagsusuri ng mga lisensyadong tagapagbigay ng pangangalagang pangkalusugan",
+  "create_an_account_for_anyone_o": "Gumawa ng account para sa sinuman maliban sa iyong sarili nang walang pahintulot.",
+  "options": "Mga pagpipilian",
+  "cannot_and_will_not_sue_or_hol": "HINDI PWEDE AT HINDI MAGHAWAK NG MINDSCRIPT TECHNOLOGIES, LLC, ANG MGA KAANIB NITO, MGA OPISYAL, MGA DIREKTOR, EMPLEYADO, AHENTE, O MGA LISENSOR NITO MANANAGOT",
+  "with_your_consent:": "Sa Iyong Pahintulot:",
+  "add_specialists_to_your_team": "magdagdag ng mga espesyalista sa iyong koponan",
+  "usage_information:": "Impormasyon sa Paggamit:",
+  "any_conduct_or_content_of_any_": "ANUMANG PAG-uugali O NILALAMAN NG ANUMANG THIRD PARTY SA SERBISYO, KASAMA ANG WALANG LIMITASYON, ANUMANG PANINIRANG, NAKAPANINDI, O ILEGAL NA UGALI NG IBANG MGA USER O THIRD PARTIES;",
+  "do_not_meet_the_specific_admin": "hindi nakakatugon sa mga partikular na administratibo, pisikal, at teknikal na mga kinakailangan sa pag-iingat na ipinag-uutos ng HIPAA Security Rule para sa paghawak ng PHI",
+  "legal@mindscripthealth": "legal@virtualmd.app",
+  "cancel": "Kanselahin",
+  "conclusion": "Konklusyon",
+  "professional_health_insights_a": "Mga propesyonal na pananaw at gabay sa kalusugan",
+  "cancer_detection": "Pagtuklas ng Kanser",
+  "your_specialist_team_is_empty_": "Walang laman ang iyong pangkat ng espesyalista. Magdagdag ng mga espesyalista sa ibaba.",
+  "workflow_optimization": "Pag-optimize ng Daloy ng Trabaho",
+  "select_ai_specialists": "Pumili ng Mga Espesyalista sa AI",
+  "monitor_and_analyze_trends,_us": "Subaybayan at suriin ang mga uso, paggamit, at aktibidad na may kaugnayan sa aming Serbisyo.",
+  "severability": "Pagkahihiwalay",
+  "access_to_cardiology_and_neuro": "Access sa mga espesyalista sa cardiology at neurology",
+  "searchLanguages": "Maghanap ng mga wika...",
+  "noLanguagesFound": "Walang nahanap na mga wika",
+  "you": "Ikaw",
+  "manageTeam": {
+    "title": "Pamahalaan ang Aking AI Health Team (Max {{maxTeamMembers}} Specialists)",
+    "currentTeamCount": "Ang Iyong Kasalukuyang Koponan ({{current}}/{{max}})",
+    "updatingTeam": "Ina-update ang koponan...",
+    "coordinatorLabel": " (Coordinator)",
+    "alwaysIncluded": "Laging kasama",
+    "specialistFallback": "Espesyalista",
+    "emptyTeamMessage": "Walang laman ang iyong pangkat ng espesyalista. Magdagdag ng mga espesyalista sa ibaba.",
+    "teamFullMessage": "Puno na ang iyong koponan (Max {{maxTeamMembers}} na mga espesyalista). Mangyaring mag-alis ng miyembro kung gusto mong magdagdag ng ibang espesyalista.",
+    "otherSpecialistsTitle": "Iba pang mga Espesyalista sa AI",
+    "addToTeamTooltip": "Idagdag sa team",
+    "teamFullTooltip": "Puno na ang team",
+    "systemSpecialistFallback": "System Specialist",
+    "noSpecialistsAvailable": "Walang ibang mga espesyalista na magagamit upang magdagdag."
+  },
+  "personas": {
+    "defaultSpecialist": "Espesyalista sa AI"
+  },
+  "personaList": {
+    "noSpecialistsFound": "Walang nakitang mga espesyalista sa AI."
+  },
+  "guest": {
+    "user": "Guest User",
+    "userObject": {
+      "displayName": "Guest User",
+      "email": "guest@virtualmd.app"
+    },
+    "registration": {
+      "prompt": "Magrehistro para sa ganap na access sa aming kumpletong AI health team, kasaysayan ng pag-uusap, at mga advanced na feature.",
+      "dialogTitle": "May access ang mga rehistradong user sa {{specialistName}}",
+      "dialogDescription": "Ang {{specialistName}} ay bahagi ng aming komprehensibong virtual health team.",
+      "benefitsTitle": "Sa isang VirtualMD.app account, makakakuha ka ng:",
+      "benefits": {
+        "access": "Access sa higit sa 60 dalubhasang AI health advisors",
+        "personalized": "Mga personalized na konsultasyon sa kalusugan",
+        "saveConversations": "I-save at ipagpatuloy ang mga pag-uusap",
+        "uploadImages": "Mag-upload ng mga larawan o direktang kunin ang mga ito mula sa iyong computer/camera",
+        "customTeam": "Bumuo ng sarili mong custom na pangkat ng kalusugan",
+        "availability": "24/7 availability para sa mga tanong sa kalusugan"
+      },
+      "buttons": {
+        "maybeLater": "Baka Mamaya",
+        "registerNow": "Magrehistro na"
+      }
+    },
+    "registrationRequired": "Kinakailangan ang pagpaparehistro",
+    "profileRegistrationRequired": "Profile ng user: kinakailangan ang pagpaparehistro",
+    "landing": {
+      "title": "Damhin ang AI Health Consultation",
+      "subtitle": "Makakuha ng mga instant na insight sa kalusugan mula sa aming mga espesyalista sa kalusugan ng AI - ganap na libre, walang kinakailangang pagpaparehistro",
+      "whatBringsYou": "Ano ang nagdadala sa iyo dito ngayon?",
+      "selectConcern": "Pumili ng karaniwang alalahanin o ilarawan ang iyong sarili",
+      "customConcernPlaceholder": "O ilarawan ang iyong alalahanin sa kalusugan sa iyong sariling mga salita...",
+      "startConsultation": "Simulan ang Libreng Konsultasyon",
+      "experienceIncludes": "Kasama sa Libreng Karanasan sa Panauhin ang:",
+      "includes": {
+        "messages": "10 mensahe sa mga espesyalista sa kalusugan ng AI",
+        "time": "15 minuto ng oras ng konsultasyon",
+        "insights": "Mga propesyonal na pananaw at gabay sa kalusugan"
+      },
+      "personas": {
+        "defaultSpecialist": "Espesyalista sa AI",
+        "aileen": {
+          "name": "Health Expert Aileen Carol",
+          "specialty": "Family Wellness"
+        },
+        "daniel": {
+          "name": "Health Expert na si Daniel Garcia",
+          "specialty": "Panloob na Kaayusan"
+        }
+      }
+    },
+    "chat": {
+      "header": "Konsultasyon sa AI Health",
+      "messagesLeft": "{{count}} na mga mensahe ang natitira",
+      "timeLeft": "{{oras}} na lang",
+      "startingConsultation": "Nagsisimula na ang iyong konsultasyon. Isang AI health specialist ang tutugon sa ilang sandali.",
+      "aiTyping": "Nagta-type ang AI specialist...",
+      "inputPlaceholder": "Ilarawan ang iyong mga sintomas o magtanong..."
+    },
+    "expired": {
+      "title": "Kumpleto na ang Konsultasyon",
+      "subtitle": "Naranasan mo na ang kapangyarihan ng konsultasyon sa kalusugan ng AI",
+      "messagesUsed": "Gumamit ka ng {{used}} ng {{max}} na mga mensahe",
+      "continuePrompt": "Gustong magpatuloy sa walang limitasyong pag-access?",
+      "createAccount": "Gumawa ng Libreng Account",
+      "signIn": "Mag-sign in"
+    },
+    "errors": {
+      "startFailed": "Hindi makapagsimula ng konsultasyon. Pakisubukang muli.",
+      "connectionLost": "Nawala ang koneksyon. Paki-refresh ang page.",
+      "sendFailed": "Nabigong magpadala ng mensahe. Pakisubukang muli."
+    },
+    "profile": {
+      "age": "25",
+      "gender": "Babae",
+      "bloodType": "A+",
+      "height": "5'6\"",
+      "weight": "130 lbs",
+      "conditions": "Iron deficiency anemia, Moderate depression",
+      "medications": "Ferrous sulfate 325mg araw-araw, Sertraline 50mg araw-araw",
+      "allergies": "Walang kilala",
+      "healthInfo": "Nakaranas ako ng pagkapagod at mababang enerhiya sa nakalipas na 6 na buwan. Na-diagnose ako ng aking health expert na may iron deficiency anemia at umiinom ako ng iron supplements. Nahihirapan din ako sa depresyon at nagsimula ng mga antidepressant 3 buwan na ang nakakaraan. Naghahanap ako ng payo sa pamamahala sa parehong mga kondisyon at pagpapabuti ng aking pangkalahatang antas ng enerhiya.",
+      "emergencyContact": "Sarah Johnson (Ate) - (555) 123-4567"
+    },
+    "experience": {
+      "tryItOut": "Subukan ito.",
+      "noObligation": "Walang obligasyon.",
+      "subtitle": "Isang maliit na bahagi lamang ng maaaring gawin ng VirtualMD.app para sa iyo."
+    }
+  },
+  "aiPrefix": "AI",
+  "dashboard": "Dashboard",
+  "teamRecommendation": {
+    "submission": {
+      "primaryConcernsLabel": "Ano ang iyong mga pangunahing alalahanin sa kalusugan ngayon?",
+      "healthConditionsLabel": "Aling mga kondisyon sa kalusugan ang naaangkop sa iyo?"
+    },
+    "defaults": {
+      "noneSpecified": "Walang tinukoy"
+    }
+  }
+}

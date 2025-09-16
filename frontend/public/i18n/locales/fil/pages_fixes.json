@@ -1,0 +1,1236 @@
+{
+  "chatPage": {
+    "welcomeMessage": {
+      "current": "Maligayang pagdating sa iyong personal na consult sa kalusugan",
+      "english": "Welcome to your personalized health consultation",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "registerPage": {
+    "mustAgreeToTerms": {
+      "current": "Dapat kang sumang-ayon sa Mga Tuntunin at Kundisyon para magparehistro.",
+      "english": "You must agree to the Terms and Conditions to register.",
+      "contentType": "chip",
+      "action": "smart-shorten"
+    }
+  },
+  "contactPage": {
+    "description": {
+      "current": "May tanong tungkol sa aming consult sa kalusugan na pinapagana ng AI? Nandito kami para tumulong.",
+      "english": "Have questions about our AI-powered health consultations? We're here to help.",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "researchPage": {
+    "healthAdvisory": {
+      "title": {
+        "current": "Payo sa Kalusugan",
+        "english": "Health Advisory",
+        "contentType": "pageTitle",
+        "action": "retranslate-full"
+      }
+    },
+    "mentalHealthAI": {
+      "description": {
+        "current": "Malalim na sumisid sa papel ng AI sa pagsulong ng pangangalaga sa kalusugan ng isip, diagnostic, at therapeutic...",
+        "english": "Deep dive into AI's role in advancing mental healthcare, diagnostics, and therapeutic applications.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      }
+    }
+  },
+  "evidencePage": {
+    "heading": {
+      "current": "Pangunguna sa Kinabukasan ng Kalusugan at Kaayusan",
+      "english": "Pioneering the Future of Health & Wellness",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "description2": {
+      "current": "Ang VirtualMD.",
+      "english": "VirtualMD.app is THE revolution in health and wellness, grounded in cutting-edge research and driven by a passion for transformative well-being. We demonstrate AI's proven power while forging new paths for personalized, proactive wellness. This is more than an app; it's a new paradigm. Be part of the revolution.",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "researchEvidence": {
+      "mentalHealthResearch": {
+        "description": {
+          "current": "Ipinapakita ng pananaliksik ang AI system na nakakakita ng maagang babala ng senyales ng pagbabalik sa kalusugan ng...",
+          "english": "Research shows AI systems detecting early warning signs of mental health relapses, enabling timely intervention and support.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      }
+    },
+    "wellnessInsights": {
+      "holisticSignals": {
+        "description": {
+          "current": "Matutunan kung paano ka tinutulungan ng VirtualMD.",
+          "english": "Learn how VirtualMD.app helps you interpret subtle patterns from your daily life to foster a deeper connection with your well-being.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      },
+      "aiEnhancedClarity": {
+        "title": {
+          "current": "AI for Mental Clarity",
+          "english": "AI for Enhanced Mindfulness & Mental Clarity",
+          "contentType": "pageTitle",
+          "action": "retranslate-full"
+        },
+        "description": {
+          "current": "Tingnan kung paano nag-aalok ang VirtualMD.",
+          "english": "See how VirtualMD.app offers tools and perspectives to support mental focus, emotional balance, and overall cognitive wellness.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      }
+    }
+  },
+  "healthAdvisoryPage": {
+    "sections": {
+      "consultation": {
+        "description": {
+          "current": "Bagama't ang sistema ng medikal na consult na pinapagana ng AI ng VirtualMD ay nagbibigay ng mahalagang impormasyon...",
+          "english": "While VirtualMD's AI-powered medical consultation system provides valuable health information, it is critical to always consult with qualified human healthcare providers for any medical concerns. Our board-certified physicians developed this system to complement, not replace, professional medical advice.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      },
+      "technology": {
+        "description1": {
+          "current": "Gumagamit ang VirtualMD ng algorithm na nakabinbin ng patent na binuo ng aming team ng doktor na sinanay ng Harvard...",
+          "english": "VirtualMD employs patent-pending algorithms developed by our team of Harvard-trained physicians and AI experts to deliver exceptionally accurate health information. Our AI physician personas are trained on extensive medical literature, clinical guidelines, and real-world medical scenarios to provide insights that closely mirror those of board-certified specialists.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        },
+        "description2": {
+          "current": "Sa kinokontrol na magkatabing paghahambing para sa katumpakan ng diagnostic, ang aming system ay nagpakita ng...",
+          "english": "In controlled side-by-side comparisons for diagnostic accuracy, our system has demonstrated remarkable performance, often matching or exceeding the insights of experienced clinicians. Our AI personas can process thousands of medical research papers, guidelines, and clinical protocols in seconds—accessing knowledge beyond what any single human physician could retain.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        },
+        "description3": {
+          "current": "Habang nagsusumikap kami para sa pambihirang katumpakan at patuloy na pinapabuti ng aming team ang system,...",
+          "english": "While we strive for exceptional accuracy and our team continuously improves the system, medicine is complex and individual health situations are unique. That's why we've designed our platform to augment—not replace—the invaluable expertise of human healthcare providers.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      }
+    }
+  },
+  "nurseInfoPage": {
+    "subtitle": {
+      "current": "AI-Enhanced Patient Care",
+      "english": "AI-enhanced patient care and clinical decision support",
+      "contentType": "pageTitle",
+      "action": "retranslate-full"
+    }
+  },
+  "physicianInfoPage": {
+    "subtitle": {
+      "current": "Clinical Decision Support",
+      "english": "Clinical decision support and diagnostic assistance",
+      "contentType": "pageTitle",
+      "action": "retranslate-full"
+    }
+  },
+  "medicalImageProcessingPage": {
+    "subtitle": {
+      "current": "AI Diagnostic Imaging",
+      "english": "AI-powered diagnostic imaging interpretation",
+      "contentType": "pageTitle",
+      "action": "retranslate-full"
+    }
+  },
+  "mentalHealthInfoPage": {
+    "title": {
+      "current": "Suporta sa Kalusugan ng Pag-iisip",
+      "english": "Mental Health Support",
+      "contentType": "pageTitle",
+      "action": "retranslate-full"
+    },
+    "description": {
+      "current": "Detalyadong impormasyon tungkol sa kung paano makikinabang ang VirtualMD.",
+      "english": "Detailed information about how VirtualMD.app benefits mental health specialists will be available here soon.",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "wellnessPathwaysPage": {
+    "description": {
+      "current": "Tuklasin ang iyong landas patungo sa pinakamainam na kalusugan at wellness.",
+      "english": "Discover your path to optimal health and wellness.",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "yourHealthInYourHandsPage": {
+    "title": {
+      "current": "Nasa Iyong Kamay ang Iyong Kalusugan",
+      "english": "Your Health in Your Hands",
+      "contentType": "pageTitle",
+      "action": "retranslate-full"
+    },
+    "description": {
+      "current": "Mga tool at insight para matulungan kang gumawa ng matalinong desisyon sa kalusugan.",
+      "english": "Tools and insights to help you make informed health decisions.",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "sections": {
+      "uniqueProfile": {
+        "description1": {
+          "current": "Makakuha ng mas malalim na insight sa iyong indibidwal na wellness landscape.",
+          "english": "Gain deeper insights into your individual wellness landscape. Our platform helps you connect the dots and understand the factors that contribute to your overall vitality.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      },
+      "personalizedGoals": {
+        "description1": {
+          "current": "Tukuyin kung ano ang ibig sabihin ng wellness sa *iyo*. Gamit ang VirtualMD.",
+          "english": "Define what wellness means to *you*. With VirtualMD.app, you can set meaningful, achievable goals and track your progress along the way. We provide the tools and support to help you stay motivated and celebrate your successes.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        },
+        "description2": {
+          "current": "Kung ito man ay pagpapahusay ng antas ng enerhiya, pagpapabuti ng pagtulog, o pagpapaunlad ng kalinawan ng isip, ang...",
+          "english": "Whether it's enhancing energy levels, improving sleep, or fostering mental clarity, your journey is unique.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      },
+      "diverseInsights": {
+        "description1": {
+          "current": "Ang kaalaman ay kapangyarihan.",
+          "english": "Knowledge is power. Our platform offers access to a broad spectrum of information and perspectives from our diverse AI wellness guides. Make confident decisions based on a comprehensive understanding, not just isolated facts.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      },
+      "proactivePartner": {
+        "description1": {
+          "current": "VirtualMD.",
+          "english": "VirtualMD.app is more than just a tool; we are your partner in building a proactive, positive relationship with your health. We're here to support you with resources, insights, and a revolutionary approach to personal wellness.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      }
+    },
+    "callToAction": {
+      "title": {
+        "current": "Ready to Take Charge?",
+        "english": "Ready to put your health in your hands?",
+        "contentType": "pageTitle",
+        "action": "retranslate-full"
+      }
+    }
+  },
+  "aboutEncyclopediaPage": {
+    "p1": {
+      "current": "Sa digital na mundo ngayon, ang baha ng impormasyong kalusugan ay nasa aming kamay, ngunit ang pagkakaiba sa mapagkakatiwalaang payo mula sa...",
+      "english": "In today's digital world, a flood of health information is at our fingertips, but distinguishing credible advice from misinformation can be overwhelming.",
+      "contentType": "paragraph",
+      "action": "retranslate-full"
+    },
+    "p2": {
+      "current": "Pinutol ng VirtualMD.app Encyclopedia ang ingay, na nag-aalok ng isang paraan para makisali sa iyong kapakanan.",
+      "english": "The VirtualMD.app Encyclopedia cuts through the noise, offering a revolutionary way to engage with your well-being. Uniquely integrated into our platform, it allows you to access deep, referenced insights from respected medical journals without ever leaving your live consultation with our team of AI experts.",
+      "contentType": "paragraph",
+      "action": "retranslate-full"
+    },
+    "p4": {
+      "current": "Isipin na nakikipag-chat ka sa aming AI cardiologist at nutritionist na tinatalakay ang pamamahala ng kolesterol.",
+      "english": "Imagine you're in a chat with our AI cardiologist and nutritionist discussing cholesterol management. The term \"statins\" is mentioned, and you want to understand more than just the basics. Instead of pausing your discussion to search the open internet, you can instantly access the VirtualMD.app Encyclopedia. It will provide a comprehensive, yet easy-to-understand summary of how statins work, their benefits, and potential side effects, with all information sourced from peer-reviewed publications like The Lancet or the New England Journal of Medicine.",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "dataPrivacyPage": {
+    "subtitle": {
+      "current": "Your Health Data is Secure",
+      "english": "Your health data is protected with the highest security standards",
+      "contentType": "pageTitle",
+      "action": "retranslate-full"
+    },
+    "description": {
+      "current": "Alamin kung paano namin pinapanatiling ligtas at secure ang iyong personal na impormasyon sa kalusugan.",
+      "english": "Learn how we keep your personal health information safe and secure.",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "encyclopediaPage": {
+    "description": {
+      "current": "Galugarin ang aming malawak na database ng kondisyong medikal, paggamot, at impormasyon sa kalusugan.",
+      "english": "Explore our extensive database of medical conditions, treatments, and health information.",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "p2": {
+      "current": "Sinasaklaw ng aming encyclopedia ang malawak na hanay ng paksang kalusugan, kundisyon, at paggamot.",
+      "english": "Our encyclopedia covers a wide range of health topics, conditions, and treatments.",
+      "contentType": "paragraph",
+      "action": "retranslate-full"
+    },
+    "exampleText": {
+      "current": "Galugarin ang aming pinakasikat na paksa sa kalusugan at kondisyong medikal.",
+      "english": "Explore our most popular health topics and medical conditions.",
+      "contentType": "paragraph",
+      "action": "retranslate-full"
+    },
+    "p3": {
+      "current": "Ang aming AI-powered encyclopedia ay nagbibigay ng personalized, ebidensyang nakabatay sa impormasyon sa kalusugan.",
+      "english": "Our AI-powered encyclopedia provides personalized, evidence-based health information.",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "whyVirtualMDPage": {
+    "description": {
+      "current": "Tuklasin kung bakit kakaiba ang aming platform ng kalusugan na pinapagana ng AI.",
+      "english": "Discover what makes our AI-powered health platform unique.",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "legalPage": {
+    "subtitle": {
+      "current": "Terms, Privacy & Legal",
+      "english": "Terms of Service, Privacy Policy, and Legal Notices",
+      "contentType": "pageTitle",
+      "action": "retranslate-full"
+    }
+  },
+  "legal": {
+    "eligibility": {
+      "ageRequirement": {
+        "current": "para magamit ang VirtualMD.",
+        "english": "To use the VirtualMD.app Service, you must be at least 18 years old or the age of legal majority in your jurisdiction, whichever is greater. If you are using the Service on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms, and you agree to be bound by these Terms on behalf of that organization.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "legalCapacity": {
+        "current": "Dapat ay mayroon ka ring legal na kapasidad na pumasok sa Mga Tuntuning ito.",
+        "english": "You must also have the legal capacity to enter into these Terms. You may not access or use the Service if you are prohibited from receiving services under applicable law or have previously been suspended or removed from the Service by VirtualMD.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "territorialRestrictions": {
+        "current": "Ang pag-access sa Serbisyo mula sa teritoryo kung saan ang nilalaman o paggamit nito ay ilegal ay mahigpit na ipinagbabawal.",
+        "english": "Access to the Service from territories where its content or use is illegal is strictly prohibited. Users are responsible for complying with all local rules, laws, and regulations regarding their use of the Service, including those related to online conduct and acceptable content.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      }
+    },
+    "feesAndPayment": {
+      "futureFeesNotice": {
+        "current": "Inilalaan ng VirtualMD ang karapatang magpakilala ng bayarin para sa ilang partikular na feature, antas ng serbisyo, o ang Serbisyo sa kabuuan sa...",
+        "english": "VirtualMD reserves the right to introduce fees for certain features, tiers of service, or the Service as a whole in the future. Should we introduce fees, we will provide you with advance notice of such changes and the applicable payment terms. Your continued use of fee-based services after such notice constitutes your agreement to pay the applicable fees.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      }
+    },
+    "termination": {
+      "serviceTermination": {
+        "current": "Ang VirtualMD ay maaaring, sa sarili nitong paghuhusga, suspindihin o wakasan ang iyong pag-access sa lahat o bahagi ng Serbisyo, mayroon man o...",
+        "english": "VirtualMD may, in its sole discretion, suspend or terminate your access to all or part of the Service, with or without notice, for any reason, including, without limitation, breach of these Terms. Reasons for termination may include, but are not limited to, prolonged inactivity, requests by law enforcement or other government agencies, discontinuance or material modification of the Service, or unexpected technical or security issues.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "effectOfTermination": {
+        "current": "Sa pagwawakas, ang iyong karapatang gamitin ang Serbisyo ay agad na titigil.",
+        "english": "Upon termination, your right to use the Service will immediately cease. All provisions of the Terms which by their nature should survive termination shall survive termination, including, without limitation, ownership provisions, warranty disclaimers, indemnity, and limitations of liability.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      }
+    }
+  },
+  "dataPrivacyWhitepaper": {
+    "hero": {
+      "subtitle": {
+        "current": "Pag-unawa sa Aming Pangako sa Iyong...",
+        "english": "Understanding Our Commitment to Your Data Security and Our Approach to Healthcare Information Standards, including HIPAA.",
+        "contentType": "sectionTitle",
+        "action": "retranslate-full"
+      }
+    },
+    "privacyPledge": {
+      "title": {
+        "current": "1.",
+        "english": "1. VirtualMD.app's Data Privacy Pledge",
+        "contentType": "sectionTitle",
+        "action": "retranslate-full"
+      },
+      "noPersonalUse": {
+        "title": {
+          "current": "Hindi namin ginagamit ang iyong impormasyo...",
+          "english": "We do not use your information in any personally identifiable way for external purposes without your explicit consent.",
+          "contentType": "sectionTitle",
+          "action": "retranslate-full"
+        }
+      },
+      "anonymizedData": {
+        "description": {
+          "current": "para mapahusay ang katumpakan, pagiging epektibo, at kaligtasan ng aming modelo ng AI at feature ng platform,...",
+          "english": "To enhance the accuracy, efficacy, and safety of our AI models and platform features, we utilize data that has been rigorously anonymized and aggregated. This means all personally identifiable information (PII) is removed, and data is used in a collective form that does not allow for the identification of any individual user. This process is crucial for continuous learning and improvement of the services we provide to all users.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      }
+    },
+    "securityLevels": {
+      "title": {
+        "current": "2.",
+        "english": "2. Understanding Data Security Levels & HIPAA",
+        "contentType": "sectionTitle",
+        "action": "retranslate-full"
+      },
+      "accountSecurity": {
+        "tfaDescription": {
+          "current": "Nangangailangan ng dalawang magkaibang uri ng kredensyal mula sa dalawang magkakaibang kategorya (hal.",
+          "english": "Requires two different types of credentials from two distinct categories (e.g., something you know like a password, plus something you have like a one-time code sent to your phone). This significantly enhances security.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        },
+        "mfaDescription": {
+          "current": "Nangangailangan ng tatlo o higit pang iba't ibang uri ng kredensyal.",
+          "english": "Requires three or more different types of credentials. For instance, a password (know), a one-time code via SMS (have), and a biometric scan like a fingerprint (are). This offers a very high level of security.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      },
+      "hipaaHistory": {
+        "p1": {
+          "current": "Ang Health Insurance Portability and Accountability Act of 1996 (HIPAA) ay isang pederal na batas ng Estados Unidos na idinisenyo para protektahan...",
+          "english": "The Health Insurance Portability and Accountability Act of 1996 (HIPAA) is a United States federal law designed to protect sensitive patient health information from being disclosed without the patient's consent or knowledge. It also aimed to improve the efficiency and effectiveness of the healthcare system.",
+          "contentType": "paragraph",
+          "action": "retranslate-full"
+        },
+        "privacyRuleDescription": {
+          "current": "Nagtatatag ng pambansang pamantayan para sa proteksyon ng indibidwal na makikilalang impormasyon sa kalusugan...",
+          "english": "Establishes national standards for the protection of individually identifiable health information (Protected Health Information - PHI). It addresses the use and disclosure of PHI by 'covered entities.'",
+          "contentType": "description",
+          "action": "retranslate-full"
+        },
+        "hipaaMeaningDescription": {
+          "current": "Para sa doktor at iba pang provider ng healthcare, ipinag-uutos ng HIPAA ang mahigpit na protocol para sa paghawak...",
+          "english": "For doctors and other healthcare providers, HIPAA mandates strict protocols for handling patient data, ensuring it's used only for permitted purposes (treatment, payment, healthcare operations) or with patient authorization. For patients, HIPAA provides rights over their health information, including rights to examine and obtain a copy of their health records, and to request corrections.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      }
+    },
+    "VirtualMDSecurity": {
+      "title": {
+        "current": "3. VirtualMD.",
+        "english": "3. VirtualMD.app's Security Practices",
+        "contentType": "sectionTitle",
+        "action": "retranslate-full"
+      },
+      "twoFactorAuthDescription": {
+        "current": "Ipinag-uutos namin ang 2FA para sa lahat ng account.",
+        "english": "We mandate 2FA for all accounts. This requires you to verify your identity using a second factor (typically a code sent to your registered email or phone) in addition to your password, significantly reducing the risk of unauthorized account access.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "threeFactorAuthDescription": {
+        "current": "Para sa pinahusay na seguridad, nag-aalok ang VirtualMD.app ng opsyonal na three-factor authentication setup.",
+        "english": "For enhanced security, VirtualMD.app offers an optional three-factor authentication setup. If enabled, accessing your account would require your password, a code sent to your registered email address, AND a code sent via SMS to your verified mobile phone number. This creates a formidable barrier against unauthorized attempts to access your medical information stored within our platform.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "dataEncryptionDescription": {
+        "current": "Ang impormasyong naka-imbak sa loob ng iyong VirtualMD.",
+        "english": "Information stored within your VirtualMD.app account, including conversation data, is encrypted at rest. Data transmitted between your device and our servers is encrypted in transit using TLS/SSL protocols.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "permanentDeletionDescription": {
+        "current": "Binibigyan ka namin ng kapangyarihan ng kontrol sa iyong data.",
+        "english": "We empower you with control over your data. You have the ability to permanently delete individual conversations or your entire account. Once deleted, this information is irrecoverable from our primary systems, aligning with principles of data minimization and user control.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      }
+    },
+    "hipaaConsiderations": {
+      "title": {
+        "current": "4. VirtualMD.",
+        "english": "4. VirtualMD.app & HIPAA Considerations",
+        "contentType": "sectionTitle",
+        "action": "retranslate-full"
+      },
+      "p1": {
+        "current": "Ang pag-unawa sa kung paano nakikipag-ugnayan ang VirtualMD.",
+        "english": "Understanding how VirtualMD.app interacts with the Health Insurance Portability and Accountability Act (HIPAA) is vital for our users. We are deeply committed to the security and privacy of the information you share. Our platform incorporates robust security measures, as detailed in the \"VirtualMD.app's Security Practices\" section, including strong encryption for data at rest and in transit, mandatory Two-Factor Authentication (2FA), and optional Three-Factor Authentication (3FA).",
+        "contentType": "paragraph",
+        "action": "retranslate-full"
+      },
+      "p2": {
+        "current": "Gayunpaman, mahalagang maunawaan na ang VirtualMD.",
+        "english": "However, it is crucial to understand that VirtualMD.app, in its current general consumer-facing service, is NOT intended for use cases that require formal HIPAA compliance for the direct input, storage, or processing of Protected Health Information (PHI) by users acting as HIPAA Covered Entities or their Business Associates. Users who require strict HIPAA compliance for the PHI they manage should not use our general platform for such purposes unless a specific Business Associate Agreement (BAA) is in place with VirtualMD.app for that dedicated use case. For the general service, users must not input any information that could be traced back to an individual patient in a context that would violate HIPAA, without that patient's explicit, informed consent acknowledging the use of this platform.",
+        "contentType": "paragraph",
+        "action": "retranslate-full"
+      },
+      "approachTitle": {
+        "current": "Ang Aming Diskarte: Pagbalanse ng...",
+        "english": "Our Approach: Balancing Advanced AI Personalization with Data Privacy",
+        "contentType": "sectionTitle",
+        "action": "retranslate-full"
+      },
+      "anonymizationDescription": {
+        "current": "Ang aming paggamit ng anonymized, pinagsama-samang data para sa pagpapabuti ng system ay isang kasanayan na, kapag...",
+        "english": "Our use of anonymized, aggregated data for system improvement is a practice that, when properly executed, is a standard approach for enhancing AI services while protecting individual privacy.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      }
+    },
+    "userResponsibility": {
+      "title": {
+        "current": "5.",
+        "english": "5. User Responsibility & Ethical Use",
+        "contentType": "sectionTitle",
+        "action": "retranslate-full"
+      },
+      "noReviewDescription": {
+        "current": "para protektahan ang iyong privacy, hindi regular na sinusuri ng tauhan ng VirtualMD.",
+        "english": "To protect your privacy, VirtualMD.app personnel do not routinely review your private conversations with our AI personas. This underscores the importance of your responsible use of the platform.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "prohibitedContentDescription": {
+        "current": "Sumasang-ayon kang huwag gamitin ang VirtualMD.",
+        "english": "You agree not to use VirtualMD.app to seek information or guidance on how to harm yourself or others. Our platform is not designed for crisis intervention in such scenarios. If you are experiencing thoughts of self-harm or harming others, please contact emergency services or a crisis hotline immediately.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "consultPractitionerDescription": {
+        "current": "Ang VirtualMD.",
+        "english": "VirtualMD.app is an informational tool and NOT a substitute for professional medical advice, diagnosis, or treatment from a qualified healthcare provider. Always consult with your doctor or other qualified health practitioner for any serious medical conditions or before making any decisions related to your health.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "emergencySituationsDescription": {
+        "current": "VirtualMD.app HINDI maaaring kumilos para sa iyo sa isang emergency.",
+        "english": "VirtualMD.app CANNOT act on your behalf in an emergency. For example, if the system suggests that you call 911 or go to the emergency room based on the information you provide, you are solely responsible for taking that action. Our platform does not have the capability to dispatch emergency services.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      }
+    },
+    "privacyScenarios": {
+      "title": {
+        "current": "6.",
+        "english": "6. Practical Privacy Scenarios & Advanced Considerations",
+        "contentType": "sectionTitle",
+        "action": "retranslate-full"
+      },
+      "scenario1Title": {
+        "current": "Sitwasyon 1: Pagtalakay sa Mga Sensitibong...",
+        "english": "Scenario 1: Discussing Sensitive Health Issues",
+        "contentType": "sectionTitle",
+        "action": "retranslate-full"
+      },
+      "confidentialConvosDescription": {
+        "current": "Ang iyong pakikipag-usap sa aming AI persona ay idinisenyo para maging pribado.",
+        "english": "Your conversations with our AI personas are designed to be private. As stated in our Privacy Pledge, VirtualMD.app personnel do not routinely review your private conversation content.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "anonymizationDescription": {
+        "current": "Ang anonymized at pinagsama-samang data lamang (natanggal sa lahat ng personal na pagkakakilanlan) ang ginagamit...",
+        "english": "Only anonymized and aggregated data (stripped of all personal identifiers) is used to improve our AI models. Your personal, identifiable conversation content is not used for this purpose without such anonymization.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "accessControlsDescription": {
+        "current": "Ang pag-access sa talaan ng database ng user ng VirtualMD.",
+        "english": "Access to user database records by VirtualMD.app personnel is strictly controlled, limited to authorized individuals for specific operational or support needs (e.g., assisting with an account issue you report), and governed by internal privacy policies and logging. Routine browsing of user profile data is prohibited.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "aiAccessDescription": {
+        "current": "Ang persona ng AI, tulad ng AI Dr.",
+        "english": "The AI personas, like AI Health Expert Carol, access relevant parts of your profile (such as medication lists, if you've provided them) programmatically to provide contextualized responses during your conversations. This access is part of the AI's operational logic to serve you better.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "techNoteP1": {
+        "current": "Ito ay tumutukoy sa konsepto tulad ng end-to-end encryption (E2EE) kung saan ang end-user lang ang may hawak ng ultimate decryption key.",
+        "english": "This refers to concepts like end-to-end encryption (E2EE) where only the end-user holds the ultimate decryption key. VirtualMD.app employs robust <strong style={{fontWeight: 'bold'}}>encryption at rest</strong> for all sensitive data, including your conversation history and profile information, using strong, industry-standard algorithms. This means data stored in our databases is encrypted.",
+        "contentType": "paragraph",
+        "action": "retranslate-full"
+      },
+      "techNoteP2": {
+        "current": "Bagama't hindi kami kasalukuyang nagpapatupad ng isang user-specific na key na E2EE system para sa data ng pag-uusap na gagawing teknikal na...",
+        "english": "While we do not currently implement a user-specific key E2EE system for conversation data that would make it technically impossible for authorized system administrators to decrypt (similar to how many cloud services operate), access to the underlying encrypted data is highly restricted, logged, and governed by strict internal security and privacy policies. Our personnel are prohibited from accessing your private conversation content except under very specific and controlled circumstances, such as responding to a direct support request from you regarding a specific conversation or as required by law. This approach balances strong security with operational necessities for maintaining and supporting the platform.",
+        "contentType": "paragraph",
+        "action": "retranslate-full"
+      },
+      "VirtualMDTrainingDescription": {
+        "current": "Gaya ng nakasaad sa aming Pangako sa Privacy, gumagamit lang kami ng hindi nagpapakilala at pinagsama-samang data...",
+        "english": "As stated in our Privacy Pledge, we only use anonymized and aggregated data for the internal improvement and training of our proprietary systems and AI coordination logic. Your personally identifiable data or raw conversation content is not used for this purpose without such anonymization.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "thirdPartyTrainingTitle": {
+        "current": "(b, c, atbp.",
+        "english": "(b, c, etc.) Third-Party AI API Providers (e.g., OpenAI, Anthropic):",
+        "contentType": "sectionTitle",
+        "action": "retranslate-full"
+      },
+      "thirdPartyTrainingDescription": {
+        "current": "Maingat na pinipili at isinasama ng VirtualMD.app ang nangungunang provider ng modelo ng AI.",
+        "english": "VirtualMD.app carefully selects and integrates with leading AI model providers. For services accessed via their APIs (Application Programming Interfaces), major providers like OpenAI and Anthropic have data usage policies that typically state that data submitted via their APIs is NOT used by them to train their general foundation models. We configure our use of these services to align with these privacy-preserving options. We encourage you to also review the data usage policies of these underlying AI providers if you have specific concerns.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      }
+    },
+    "conclusion": {
+      "hipaaConsiderationsDescription": {
+        "current": "Ang general serbisyo ng VirtualMD.app ay hindi isang HIPAA Covered Entity.",
+        "english": "VirtualMD.app's general service is not a HIPAA Covered Entity. We protect data but differ from formal HIPAA compliance for direct patient care with specific providers.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "ethicalUseDescription": {
+        "current": "Huwag gamitin para sa pananakit sa sarili/pananakit sa iba.",
+        "english": "Do not use for self-harm/harm to others. Always consult healthcare professionals for serious conditions. We cannot dispatch emergency services.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      }
+    }
+  },
+  "imagingAIExplainer": {
+    "whatIsImaging": {
+      "intro": {
+        "current": "Isipin ang medikal na imaging tulad ng pagkuha ng larawan sa loob ng iyong katawan.",
+        "english": "Think of medical imaging like taking pictures inside your body. Doctors use special machines to create these pictures, helping them see bones, organs, tissues, and blood vessels without having to do surgery. For example, an X-ray is excellent for seeing bones to find a fracture, while a CT scan provides a more detailed, cross-sectional view of an organ like the brain.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      }
+    },
+    "whatIsAI": {
+      "title": {
+        "current": "Ano ang AI (AI)?",
+        "english": "What is Artificial Intelligence (AI)?",
+        "contentType": "sectionTitle",
+        "action": "retranslate-full"
+      },
+      "process": {
+        "current": "Gumagamit ito ng espesyal na programa sa computer (algorithm) na sinanay sa libu-libo, o kahit milyon-milyong, ng medikal na larawan.",
+        "english": "It uses special computer programs (algorithms) that have been trained on thousands, or even millions, of medical pictures. By analyzing this vast amount of data, the AI learns to spot subtle patterns—some of which are difficult for the human eye to see, or patterns that indicate a high probability of a certain disease. The basic process is that data (the images) are fed into the AI, which then produces an insight, such as flagging a suspicious area.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      }
+    },
+    "howAIHelps": {
+      "accuracy": {
+        "description": {
+          "current": "Minsan, ang pinakamaagang palatandaan ng isang sakit ay maaaring hindi kapani-paniwalang banayad at madaling...",
+          "english": "Sometimes, the earliest signs of a disease can be incredibly subtle and easy to miss on a scan. AI can act as a vigilant second pair of eyes, systematically checking every part of an image and highlighting areas that warrant a closer look. For instance, an AI might draw a circle around a tiny cluster of cells on a mammogram that could be an early indicator of cancer.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        },
+        "example": {
+          "current": "<strong>Halimbawa:</strong> Sa mammograms (breast X-ray), ipinakita ng isang pag-aaral na nakatulong ang AI na makahanap ng 29% pang cancer nang...",
+          "english": "<strong>Example:</strong> In mammograms (breast X-rays), one study showed AI helped find 29% more cancers without flagging more healthy patients incorrectly. In colonoscopies (looking for growths called polyps), AI helped doctors find significantly more potentially pre-cancerous polyps by highlighting them in real-time on the video feed.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      },
+      "speed": {
+        "description": {
+          "current": "Ang pagbabasa ng medikal na larawan, lalo na ang kumplikadong tulad ng full-body CT scan, ay nangangailangan ng...",
+          "english": "Reading medical images, especially complex ones like full-body CT scans, takes a great deal of time and concentration. AI can dramatically accelerate this process. It can pre-sort cases, flagging the most urgent ones for immediate review, or handle routine screening tasks to free up specialists' time.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        },
+        "example": {
+          "current": "<strong>Halimbawa:</strong> Ang isang AI system para sa pagsuri sa larawan ng mata para sa palatandaan ng pinsala sa diabetes (diabetic...",
+          "english": "<strong>Example:</strong> An AI system for checking eye photos for signs of diabetes damage (diabetic retinopathy) can give a result right away in a primary care clinic. This means patients don't have to wait for an appointment with an eye specialist just for a screening, leading to faster care for more people. In another large study, AI helped reduce the time radiologists spent reading mammograms by almost half.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      },
+      "consistency": {
+        "example": {
+          "current": "<strong>Halimbawa:</strong> Kapag tumitingin sa sample ng tissue sa ilalim ng mikroskopyo (patolohiya), ang pagtukoy sa eksaktong...",
+          "english": "<strong>Example:</strong> When looking at tissue samples under a microscope (pathology), determining the exact \"grade\" of a tumor can sometimes be ambiguous. An AI system, trained on data validated by a panel of experts, can provide a consistent grade, ensuring that results are more uniform and reliable across different doctors and hospitals.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      }
+    },
+    "challenges": {
+      "bias": {
+        "current": "<strong>Pagkamakatarungan at Pagkiling:</strong> Ang isang AI ay kasinghusay lamang ng data kung saan ito nagsanay.",
+        "english": "<strong>Fairness and Bias:</strong> An AI is only as good as the data it's trained on. If it's only trained on pictures from one group of people, it might not work as well for others. Ensuring diverse training data is critical to prevent bias.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "teamwork": {
+        "current": "<strong>Ang Kahalagahan ng Teamwork:</strong> Ang pinakamahusay na diskarte ay ang pakikipagtulungan ng tao-AI.",
+        "english": "<strong>The Importance of Teamwork:</strong> The best approach is human-AI collaboration. AI is a tool to *help* doctors by handling data-intensive tasks, but it doesn't replace their experience, empathy, and ability to understand the whole patient.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      },
+      "outro": {
+        "current": "Ang mananaliksik at regulator ay nagsisikap na tugunan ang hamong ito.",
+        "english": "Researchers and regulators are working hard to address these challenges. The goal is to integrate AI into healthcare safely and effectively to improve patient outcomes.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      }
+    }
+  },
+  "aiAccuracyWhitepaper": {
+    "title": {
+      "current": "Katumpakan at Pagsasaalang-alang para sa...",
+      "english": "Accuracy and Considerations for AI in Medical Information",
+      "contentType": "sectionTitle",
+      "action": "retranslate-full"
+    },
+    "section2": {
+      "title": {
+        "current": "2.",
+        "english": "2. Understanding AI Accuracy and Errors in Medicine",
+        "contentType": "sectionTitle",
+        "action": "retranslate-full"
+      },
+      "aiSuccess": {
+        "text": {
+          "current": "Ipinakita ng pananaliksik na ang modelo ng AI ay nakakamit ng katumpakan sa antas ng dermatologist sa pag-uuri ng kanser sa balat mula sa larawan...",
+          "english": "Research has shown AI models achieving dermatologist-level accuracy in classifying skin cancers from images (e.g., Esteva et al., Nature, 2017 - illustrative example). Similarly, AI has demonstrated high accuracy in detecting diabetic retinopathy from retinal scans (e.g., Gulshan et al., JAMA, 2016 - illustrative example). In certain narrow, data-rich tasks, AI can match or even exceed human performance due to its ability to detect subtle patterns.",
+          "contentType": "paragraph",
+          "action": "retranslate-full"
+        }
+      },
+      "aiErrors": {
+        "text": {
+          "current": "Ang error sa AI ay naiiba sa pagkakamali ng tao.",
+          "english": "AI errors differ from human errors. They can arise from: Biased Data (If training data underrepresents certain demographics, the AI may perform poorly for those groups), Overfitting (The AI learns the training data too well, including noise, and fails to generalize to new, unseen patient cases), Lack of Context (AI may struggle with complex patient histories, comorbidities, or nuanced symptoms that require broader clinical judgment), Adversarial Examples (Minor, imperceptible changes to input data could potentially cause an AI to make a completely wrong prediction), Hallucinations (LLMs can sometimes generate plausible-sounding but factually incorrect or nonsensical information).",
+          "contentType": "paragraph",
+          "action": "retranslate-full"
+        }
+      },
+      "aiVsHuman": {
+        "text": {
+          "current": "Ito ay bihirang isang simpleng \"better or worse\" na senaryo.",
+          "english": "It's rarely a simple \"better or worse\" scenario. A meta-analysis might show AI slightly outperforming radiologists on average for a specific scan type (*hypothetical graph concept*), but human experts often excel in atypical cases or when integrating information from multiple sources. Conversely, AI might be more consistent in avoiding fatigue-related errors on repetitive tasks. The ideal scenario often involves human-AI collaboration.",
+          "contentType": "paragraph",
+          "action": "retranslate-full"
+        }
+      }
+    },
+    "section3": {
+      "title": {
+        "current": "3.",
+        "english": "3. The Challenge of AI Communication in Healthcare",
+        "contentType": "sectionTitle",
+        "action": "retranslate-full"
+      }
+    },
+    "section4": {
+      "title": {
+        "current": "4.",
+        "english": "4. What This Means for You Using VirtualMD.app",
+        "contentType": "sectionTitle",
+        "action": "retranslate-full"
+      }
+    }
+  },
+  "mentalHealthWhitepaper": {
+    "disclaimer": {
+      "text": {
+        "current": "Habang nag-aalok ang VirtualMD.app ng makabagong teknolohiya ng AI para sa pagtatasa at tulong sa kalusugan ng isip, mahalagang maunawaan na...",
+        "english": "While VirtualMD.app offers cutting-edge AI technology for mental health assessments and assistance, it is crucial to understand that our AI systems, regardless of their sophistication, are NOT substitutes for licensed mental health professionals. The information and insights provided should always be evaluated by qualified healthcare providers. In a mental health emergency, please dial 911 (US), 999 (UK), 112 (EU), 101 (Israel), or 911 (Canada) immediately, or go to your nearest emergency department. For any mental health concerns or treatment decisions, always consult with qualified human healthcare providers. VirtualMD technology is designed to augment and support professional mental healthcare, not replace it.",
+        "contentType": "paragraph",
+        "action": "retranslate-full"
+      }
+    },
+    "abstract": {
+      "text": {
+        "current": "Sinusuri ng papel na ito ang mabilis na umuusbong na papel ng AI sa pangangalaga sa kalusugan ng isip, na nagha-highlight ng kamakailang...",
+        "english": "This paper examines the rapidly evolving role of artificial intelligence in mental healthcare, highlighting recent advancements, evidence of efficacy, and implementation challenges. We review developments across four domains: diagnostic support, therapeutic applications, patient monitoring, and predictive analytics. Recent clinical studies demonstrate AI systems can achieve 80-92% accuracy in detecting major depression from linguistic patterns and voice biomarkers, while computer vision algorithms can identify suicidal ideation risk with 85% sensitivity by analyzing facial expressions and micro-movements. Natural language processing models trained on therapeutic conversations show promise in delivering cognitive behavioral therapy principles, with randomized controlled trials indicating effectiveness comparable to human therapists for mild-to-moderate depression and anxiety (Journal of Medical Internet Research, 2022). Smartphone-based passive monitoring systems can detect early warning signs of relapse in serious mental illness up to 7 days before clinical deterioration becomes apparent (JAMA Psychiatry, 2021). Despite these advances, significant challenges remain, including algorithm bias, limited validation across diverse populations, privacy concerns, and integration into existing clinical workflows. We discuss ethical considerations, regulatory frameworks, and evaluation methodologies for mental health AI. While AI technologies show substantial promise for expanding access to mental healthcare and enhancing treatment efficacy, they must be developed and deployed within a comprehensive framework that prioritizes clinical validation, ethical considerations, and human-centered implementation to truly improve mental health outcomes.",
+        "contentType": "paragraph",
+        "action": "retranslate-full"
+      }
+    },
+    "introduction": {
+      "text": {
+        "current": "Ang pasanin ng sakit sa pag-iisip ay nagpapakita ng isa sa pinakamabigat na hamon ng healthcare...",
+        "english": "The burden of mental illness presents one of healthcare's most pressing challenges...",
+        "contentType": "paragraph",
+        "action": "retranslate-full"
+      },
+      "p1": {
+        "current": "Ang pasanin ng sakit sa pag-iisip ay nagpapakita ng isa sa pinakamabigat na hamon ng healthcare.",
+        "english": "The burden of mental illness presents one of healthcare's most pressing challenges. Approximately one in five adults worldwide experiences mental health disorders annually, with depression alone affecting over 300 million people globally (WHO, 2022). Meanwhile, persistent workforce shortages limit access to care – the World Health Organization estimates a global shortage of 1.18 million mental health professionals. This gap between need and available resources has accelerated interest in technology-based solutions, particularly artificial intelligence (AI) systems that can potentially extend the reach and efficacy of mental health services.",
+        "contentType": "paragraph",
+        "action": "retranslate-full"
+      },
+      "p2": {
+        "current": "Ang intersection ng AI at mental na kalusugan ay nagpakita ng kapansin-pansing paglago sa nakalipas na dekada.",
+        "english": "The intersection of AI and mental health has shown remarkable growth over the past decade. From automated screening tools and conversational agents to predictive analytics for relapse prevention, AI applications in psychiatry and psychology have expanded dramatically. This evolution has been enabled by advances in natural language processing, machine learning, computer vision, and the proliferation of digital phenotyping opportunities through smartphones and wearable devices.",
+        "contentType": "paragraph",
+        "action": "retranslate-full"
+      }
+    },
+    "methods": {
+      "text": {
+        "current": "Ang kontemporaryong AI system sa kalusugan ng isip ay gumagamit ng magkakaibang pamamaraang pamamaraan...",
+        "english": "Contemporary AI systems in mental health utilize diverse methodological approaches...",
+        "contentType": "paragraph",
+        "action": "retranslate-full"
+      },
+      "p1": {
+        "current": "Ang kontemporaryong AI system sa kalusugan ng isip ay gumagamit ng magkakaibang pamamaraang pamamaraan, bawat isa ay may partikular na pakinabang...",
+        "english": "Contemporary AI systems in mental health utilize diverse methodological approaches, each with specific advantages for different clinical applications. Key technical foundations include natural language processing (NLP), machine learning (ML), computer vision, and digital phenotyping.",
+        "contentType": "paragraph",
+        "action": "retranslate-full"
+      },
+      "p2": {
+        "current": "Binubuo ng Natural Language Processing (NLP) ang backbone ng maraming sistema ng AI para sa kalusugan ng isip, na nagbibigay-daan sa pagsusuri ng...",
+        "english": "Natural Language Processing (NLP) forms the backbone of many mental health AI systems, enabling the analysis of linguistic content and communication patterns. Advanced transformer-based models like BERT (Bidirectional Encoder Representations from Transformers) and GPT (Generative Pre-trained Transformer) variants allow systems to interpret clinical narratives, therapy session transcripts, and patient-generated text with increasingly sophisticated understanding of context, sentiment, and psychological content. These models can identify linguistic markers associated with specific conditions, such as reduced syntactic complexity in depression or semantic coherence disruptions in psychotic disorders. The most advanced clinical NLP systems are fine-tuned on mental health-specific corpora, including anonymized clinical notes, therapy transcripts, and validated psychological assessment instruments.",
+        "contentType": "paragraph",
+        "action": "retranslate-full"
+      }
+    },
+    "results": {
+      "diagnosticSupport": {
+        "text": {
+          "current": "Ang AI system ay nagpakita ng magagandang kakayahan sa pagsuporta sa diagnosis ng kalusugan ng isip...",
+          "english": "AI systems have demonstrated promising capabilities in supporting mental health diagnosis...",
+          "contentType": "paragraph",
+          "action": "retranslate-full"
+        },
+        "p1": {
+          "current": "Ang AI system ay nagpakita ng magagandang kakayahan sa pagsuporta sa diagnosis ng kalusugan ng isip sa ilang kundisyon.",
+          "english": "AI systems have demonstrated promising capabilities in supporting mental health diagnosis across several conditions. These tools analyze diverse data sources including clinical interviews, questionnaire responses, speech patterns, facial expressions, and digital behavior to identify characteristic signatures of psychological disorders.",
+          "contentType": "paragraph",
+          "action": "retranslate-full"
+        },
+        "p2": {
+          "current": "Sa pagtuklas ng depresyon, ang algorithm ng NLP na nagsusuri ng tampok na lingguwistika ay nakamit ang kapansin-pansing tagumpay.",
+          "english": "In depression detection, NLP algorithms analyzing linguistic features have achieved notable success. A 2021 study in JAMA Psychiatry evaluated an NLP system analyzing free-text responses to standardized prompts across 4,216 participants. The system demonstrated 87% sensitivity and 84% specificity for detecting major depressive disorder when compared with structured clinical interviews. Particularly predictive features included first-person singular pronoun usage, negative emotion words, and reduced linguistic variety. When combined with voice acoustic analysis (capturing prosodic features like reduced pitch variation and speaking rate), diagnostic accuracy increased to 92%.",
+          "contentType": "paragraph",
+          "action": "retranslate-full"
+        }
+      },
+      "therapeuticApplications": {
+        "text": {
+          "current": "Ang therapeutic intervention na nakabatay sa AI para sa kalusugan ng isip ay umunlad mula sa simpleng sistemang nakabatay sa panuntunan...",
+          "english": "AI-based therapeutic interventions for mental health have evolved from simple rule-based systems...",
+          "contentType": "paragraph",
+          "action": "retranslate-full"
+        },
+        "p1": {
+          "current": "Ang therapeutic intervention na nakabatay sa AI para sa kalusugan ng isip ay umunlad mula sa simpleng sistemang nakabatay sa panuntunan hanggang...",
+          "english": "AI-based therapeutic interventions for mental health have evolved from simple rule-based systems to sophisticated conversational agents capable of delivering evidence-based therapeutic principles. These applications span a spectrum from fully automated digital therapeutics to AI-augmented human therapy.",
+          "contentType": "paragraph",
+          "action": "retranslate-full"
+        },
+        "p2": {
+          "current": "Ang sistema ng pakikipag-usap na AI na nagpapatupad ng prinsipyo ng cognitive behavioral therapy (CBT) ay sumailalim sa pinakamahigpit na...",
+          "english": "Conversational AI systems implementing cognitive behavioral therapy (CBT) principles have undergone the most rigorous evaluation. In a landmark randomized controlled trial published in The Lancet Digital Health (2022), 1,032 participants with moderate depression were assigned to either an AI-delivered CBT program or treatment as usual. The AI system, which engaged users in daily text-based conversations implementing core CBT techniques, demonstrated statistically significant reductions in PHQ-9 depression scores at 12 weeks compared to the control group (mean difference -2.85 points, 95% CI -4.07 to -1.63, p<0.001). Treatment effects were maintained at 6-month follow-up. Notably, adherence rates to the AI program (68% completing the full protocol) exceeded typical rates for self-guided digital interventions (typically 25-30%), suggesting the conversational interface improved engagement.",
+          "contentType": "paragraph",
+          "action": "retranslate-full"
+        }
+      },
+      "patientMonitoring": {
+        "p1": {
+          "current": "Ang patuloy na aplikasyon sa pagsubaybay ay kumakatawan sa isang partikular na promising domain para sa AI sa kalusugan ng isip, na nagpapagana ng...",
+          "english": "Continuous monitoring applications represent a particularly promising domain for AI in mental health, enabling detection of symptomatic changes between clinical visits and potential early intervention. These systems typically leverage smartphone sensors, wearable devices, and user interactions to construct digital biomarkers of mental state.",
+          "contentType": "paragraph",
+          "action": "retranslate-full"
+        },
+        "p2": {
+          "current": "Para sa malubhang sakit sa isip, kabilang ang schizophrenia at bipolar disorder, ang maagang pag-detect ng senyales ng babala ay nagpakita ng...",
+          "english": "For serious mental illness, including schizophrenia and bipolar disorder, early warning sign detection has shown significant clinical utility. In a 12-month prospective study of 304 individuals with schizophrenia, a smartphone-based monitoring system analyzing speech patterns, sleep, mobility, and social interaction detected 89% of psychotic relapses an average of 7.4 days before clinical deterioration became apparent during routine care. When integrated with a clinical response protocol, the system reduced hospitalization rates by 28% compared to treatment as usual, suggesting substantial benefit for both patients and healthcare systems.",
+          "contentType": "paragraph",
+          "action": "retranslate-full"
+        }
+      }
+    },
+    "discussion": {
+      "text": {
+        "current": "Ang aming pagsusuri sa kasalukuyang ebidensya ay nagpapakita na ang aplikasyon ng AI sa kalusugan ng isip ay umunlad mula sa teoretikal na...",
+        "english": "Our review of the current evidence demonstrates that AI applications in mental health have progressed from theoretical possibilities to clinically validated tools with measurable impacts on assessment accuracy, treatment delivery, and condition monitoring. Several key themes emerge from the collective findings.\n\nFirst, multimodal approaches consistently outperform single-modality systems across applications. The integration of linguistic analysis, behavioral monitoring, physiological signals, and contextual information creates a more comprehensive picture of mental state than any individual measure. This reflects the complex, multifaceted nature of mental health conditions, which manifest across cognitive, emotional, behavioral, and physiological domains. Future development should continue emphasizing the integration of complementary data sources within coherent assessment frameworks.\n\nSecond, the evidence supports a hybrid model where AI augments rather than replaces human clinicians. The most successful implementations position AI as a force multiplier for clinical expertise—extending reach, improving efficiency, enabling more continuous assessment, and supporting evidence-based practice. The therapeutic alliance between patient and provider remains central to effective mental healthcare, and technology appears most effective when enhancing rather than attempting to substitute for this relationship.\n\nThird, personalization emerges as a critical factor in efficacy. Mental health conditions exhibit substantial heterogeneity in presentation, progression, and treatment response. AI systems capable of adapting to individual symptom profiles, personal preferences, and response patterns have demonstrated superior outcomes compared to one-size-fits-all approaches. This aligns with the broader movement toward precision psychiatry, where interventions are tailored to individual biopsychosocial profiles.\n\nDespite these promising developments, significant challenges remain in translating research advancements into clinical practice. Key limitations include:\n\nAlgorithmic bias and generalizability concerns: Many systems have been developed and validated on relatively homogeneous populations, raising questions about performance across diverse demographic groups. Initial evidence suggests some algorithms perform differently across cultural contexts, gender, and racial/ethnic backgrounds. While recent work has begun addressing these disparities through more representative training data and culturally-informed reference standards, ensuring equitable performance remains an ongoing challenge.\n\nLimited longitudinal evidence: While short-term studies show promising results, there is a shortage of long-term follow-up data on sustained engagement, durable treatment effects, and potential unintended consequences of AI interventions. The rapidly evolving nature of AI technology outpaces the traditional timeline for longitudinal clinical research, creating a persistent evidence gap.\n\nIntegration challenges: Technical, workflow, and cultural barriers complicate the integration of AI tools into existing clinical systems. Successful implementation requires attention to clinician workflow, integration with electronic health records, clear roles and responsibilities, liability frameworks, and reimbursement models. The most compelling technical advances may fail to realize their potential without careful attention to these implementation factors.\n\nPrivacy and security considerations: Mental health data is among the most sensitive personal information. While technical approaches like federated learning and differential privacy help address these concerns, comprehensive governance frameworks for responsible data stewardship in mental health AI remain underdeveloped. Balancing the benefits of data-driven approaches with robust privacy protections represents an ongoing challenge.\n\nRegulatory uncertainty: The regulatory landscape for AI in mental health is still evolving. Current frameworks designed for traditional medical devices may not adequately address the unique characteristics of adaptive AI systems that continue learning in deployment. Developing appropriate validation standards, monitoring requirements, and update protocols for learning systems will be essential for responsible innovation.\n\nThese challenges notwithstanding, the evidence supports continued development and cautious implementation of AI applications that demonstrate clinical benefit, appropriate safety measures, and attention to ethical considerations. The potential to expand access to mental healthcare—particularly for underserved populations facing provider shortages—presents a compelling rationale for ongoing innovation in this field.",
+        "contentType": "paragraph",
+        "action": "retranslate-full"
+      }
+    },
+    "conclusion": {
+      "text": {
+        "current": "Ang aplikasyon ng AI sa kalusugang pangkaisipan ay umunlad sa nakalipas na dekada, lumilipat mula sa teoretikal na konsepto patungo sa tool na...",
+        "english": "Artificial intelligence applications in mental health have progressed significantly over the past decade, moving from theoretical concepts to clinically validated tools with demonstrated efficacy across diagnostic support, therapeutic delivery, patient monitoring, and predictive analytics. The evidence reviewed in this paper suggests these technologies have genuine potential to address critical challenges in mental healthcare, including access limitations, resource constraints, and the need for more continuous and personalized approaches to assessment and intervention.\n\nSeveral key principles should guide future development and implementation. First, AI should augment and extend human clinical expertise rather than attempting to replace the essential therapeutic relationship between provider and patient. Second, multimodal approaches integrating diverse data sources provide the most comprehensive and accurate picture of mental health status. Third, personalization capabilities that adapt to individual needs, preferences, and response patterns are central to achieving optimal outcomes. Fourth, careful attention to algorithm fairness, transparent validation across diverse populations, and ongoing monitoring for potential biases is essential for equitable implementation.\n\nWhile significant challenges remain—including integration into clinical workflows, privacy protections, regulatory frameworks, and long-term evidence development—the potential benefits warrant continued research and cautious clinical implementation of well-validated systems. The mental health treatment gap affecting millions globally demands innovative approaches that can extend the reach of evidence-based care.\n\nLooking forward, we anticipate several promising directions for the field. Integration of genomic and other biological data with behavioral and psychological measures may enable more precise characterization of individual risk profiles and treatment response predictors. Federated learning approaches that enable model development across institutions without centralizing sensitive data could address privacy concerns while enabling more diverse and representative training sets. Novel human-AI collaboration models that optimize the respective strengths of clinicians and artificial intelligence may yield superior outcomes compared to either alone.\n\nAs these technologies continue to evolve, maintaining a balanced perspective is essential—acknowledging both the substantial potential of AI to improve mental healthcare and the fundamental importance of human connection, clinical wisdom, and person-centered approaches. With thoughtful development, rigorous validation, and careful implementation, AI has the potential to become a valuable tool in addressing the global burden of mental illness and advancing the goal of making effective mental healthcare accessible to all who need it.",
+        "contentType": "paragraph",
+        "action": "retranslate-full"
+      }
+    }
+  },
+  "whyVirtualMD": {
+    "sections": {
+      "hero": {
+        "subtitle": {
+          "current": "I-unlock ang iyong potensyal sa kalusugan...",
+          "english": "Unlock your health potential with VirtualMD.app. Consult AI guides trained in Western Medicine, Traditional Chinese Medicine, and other wellness arts—all in one conversation. Get personalized insights 24/7 and take control of your health. This is healthcare, reimagined.",
+          "contentType": "sectionTitle",
+          "action": "retranslate-full"
+        }
+      },
+      "whyUs": {
+        "title": {
+          "current": "Bakit Pumili ng VirtualMD?",
+          "english": "Why Choose VirtualMD.app for Your Wellness Journey?",
+          "contentType": "sectionTitle",
+          "action": "retranslate-full"
+        },
+        "points": {
+          "personalTeam": {
+            "text": {
+              "current": "Piliin ang iyong pangkat ng tagapayo sa kalusugan ng AI.",
+              "english": "Choose your team of AI health advisors. Draw insights from Western Medicine, Traditional Chinese Medicine, and complementary wellness expertise.",
+              "contentType": "paragraph",
+              "action": "retranslate-full"
+            }
+          },
+          "aiNavigator": {
+            "title": {
+              "current": "Ang iyong Personal Navigator na pinapagana...",
+              "english": "Your AI-Powered Personal Navigator",
+              "contentType": "menuItem",
+              "action": "smart-shorten"
+            },
+            "text": {
+              "current": "Ang iyong personal na AI health navigator ay gagabay sa iyo sa pinakanauugnay na wellness insight at diskarte, na nagsasalin ng insight mula sa...",
+              "english": "Your personal AI health navigator guides you to the most relevant wellness insights and strategies, translating insights from our specialized AI advisors into actionable advice for you.",
+              "contentType": "menuItem",
+              "action": "smart-shorten"
+            }
+          },
+          "empoweringChoices": {
+            "title": {
+              "current": "Pagpapalakas ng Mga Pagpipiliang kalusugan",
+              "english": "Empowering Health Choices",
+              "contentType": "sectionTitle",
+              "action": "retranslate-full"
+            }
+          },
+          "easyToUse": {
+            "text": {
+              "current": "Ang aming platform ay idinisenyo para sa intuitive na pakikipag-ugnayan.",
+              "english": "Our platform is designed for intuitive interaction. Connect with AI guides and explore wellness paths without complexity.",
+              "contentType": "paragraph",
+              "action": "retranslate-full"
+            }
+          }
+        }
+      },
+      "technology": {
+        "description1": {
+          "current": "Gumagamit ang VirtualMD.app ng makabagong pamamaraan ng orkestrasyon.",
+          "english": "VirtualMD.app employs cutting-edge orchestration methods. Our system ensures your inquiries benefit from a chorus of AI guides, drawing from Western medical knowledge, Traditional Chinese Medicine principles, nutritional science, mindfulness techniques, fitness strategies, and more, to provide the most comprehensive perspective.",
+          "contentType": "description",
+          "action": "retranslate-full"
+        }
+      },
+      "cta": {
+        "subtitle": {
+          "current": "Sumali sa kilusang <span>VirtualMD.",
+          "english": "Join the <span>VirtualMD.app</span> movement and discover a new era of access to cutting-edge wellness advice. Take the first step toward a more empowered, knowledgeable, and vibrant you. Explore diverse AI perspectives and our comprehensive wellness knowledge base.",
+          "contentType": "sectionTitle",
+          "action": "retranslate-full"
+        }
+      }
+    }
+  },
+  "dermatologyaiWhitepaper": {
+    "section22": {
+      "title": {
+        "current": "[TRANSLATE TO FIL] , margin, currentY, contentWidth); currentY += 10;\n      doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 10;\n      doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section25": {
+      "title": {
+        "current": "[TRANSLATE TO FIL] , margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section26": {
+      "title": {
+        "current": "[TRANSLATE TO FIL] ); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "english": "); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section31": {
+      "title": {
+        "current": "[TRANSLATE TO FIL] , margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section32": {
+      "title": {
+        "current": "[TRANSLATE TO FIL] ); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "english": "); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section35": {
+      "title": {
+        "current": "[TRANSLATE TO FIL] , margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section36": {
+      "title": {
+        "current": "[TRANSLATE TO FIL] ); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "english": "); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section37": {
+      "title": {
+        "current": "[TRANSLATE TO FIL] Figure 3. Time to Dermatologist Consultation: Standard vs. AI-Assisted Referral",
+        "english": "Figure 3. Time to Dermatologist Consultation: Standard vs. AI-Assisted Referral",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section47": {
+      "title": {
+        "current": "[TRANSLATE TO FIL] , margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section68": {
+      "title": {
+        "current": "[TRANSLATE TO FIL]  paragraph>\n            A key advancement has been the development of ",
+        "english": " paragraph>\n            A key advancement has been the development of ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    }
+  },
+  "imagingaiWhitepaper": {
+    "section21": {
+      "title": {
+        "current": "[TRANSLATE TO FIL] , margin, currentY, contentWidth); currentY += 10;\n       doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 10;\n       doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section22": {
+      "title": {
+        "current": "[TRANSLATE TO FIL] );\n       \n       doc.setFontSize(12); doc.setFont(undefined, ",
+        "english": ");\n       \n       doc.setFontSize(12); doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section24": {
+      "title": {
+        "current": "[TRANSLATE TO FIL] , margin, currentY, contentWidth); currentY += 5;\n       doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 5;\n       doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section25": {
+      "title": {
+        "current": "[TRANSLATE TO FIL] ); doc.setFontSize(10);\n       currentY = addWrappedText(doc, \n          ",
+        "english": "); doc.setFontSize(10);\n       currentY = addWrappedText(doc, \n          ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section30": {
+      "title": {
+        "current": "[TRANSLATE TO FIL] , margin, currentY, contentWidth); currentY += 5;\n       doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 5;\n       doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section31": {
+      "title": {
+        "current": "[TRANSLATE TO FIL] ); doc.setFontSize(10);\n       currentY = addWrappedText(doc, \n         ",
+        "english": "); doc.setFontSize(10);\n       currentY = addWrappedText(doc, \n         ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section33": {
+      "title": {
+        "current": "[TRANSLATE TO FIL] , margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section34": {
+      "title": {
+        "current": "[TRANSLATE TO FIL] ); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "english": "); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section38": {
+      "title": {
+        "current": "[TRANSLATE TO FIL] , margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section39": {
+      "title": {
+        "current": "[TRANSLATE TO FIL] ); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "english": "); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section40": {
+      "title": {
+        "current": "[TRANSLATE TO FIL] Figure 2. Sensitivity and Specificity in Key Imaging AI Studies",
+        "english": "Figure 2. Sensitivity and Specificity in Key Imaging AI Studies",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section48": {
+      "title": {
+        "current": "[TRANSLATE TO FIL] , margin, currentY, contentWidth); currentY += 5;\n       doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 5;\n       doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    }
+  },
+  "pathologyaiWhitepaper": {
+    "section18": {
+      "title": {
+        "current": "[TRANSLATE TO FIL]  is not valid inside a JSX element\n363|            <Typography variant=",
+        "english": " is not valid inside a JSX element\n363|            <Typography variant=",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section20": {
+      "title": {
+        "current": "[TRANSLATE TO FIL]  concerns common to deep learning systems in clinical applications.",
+        "english": " concerns common to deep learning systems in clinical applications.",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section22": {
+      "title": {
+        "current": "[TRANSLATE TO FIL] , margin, currentY, contentWidth); currentY += 10;\n      doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 10;\n      doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section25": {
+      "title": {
+        "current": "[TRANSLATE TO FIL] , margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section26": {
+      "title": {
+        "current": "[TRANSLATE TO FIL] ); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "english": "); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section28": {
+      "title": {
+        "current": "[TRANSLATE TO FIL] , margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section29": {
+      "title": {
+        "current": "[TRANSLATE TO FIL] ); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "english": "); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section33": {
+      "title": {
+        "current": "[TRANSLATE TO FIL] , margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section34": {
+      "title": {
+        "current": "[TRANSLATE TO FIL] ); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "english": "); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section37": {
+      "title": {
+        "current": "[TRANSLATE TO FIL] , margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section38": {
+      "title": {
+        "current": "[TRANSLATE TO FIL] ); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "english": "); doc.setFontSize(10);\n      currentY = addWrappedText(doc, \n        ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section39": {
+      "title": {
+        "current": "[TRANSLATE TO FIL] , \n        margin, currentY + 2, contentWidth);\n      currentY += 15;\n      \n      addFigure(",
+        "english": ", \n        margin, currentY + 2, contentWidth);\n      currentY += 15;\n      \n      addFigure(",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    },
+    "section48": {
+      "title": {
+        "current": "[TRANSLATE TO FIL] , margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "english": ", margin, currentY, contentWidth); currentY += 5;\n      doc.setFont(undefined, ",
+        "contentType": "sectionTitle",
+        "action": "smart-shorten"
+      }
+    }
+  }
+}

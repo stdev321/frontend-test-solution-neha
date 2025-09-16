@@ -1,0 +1,78 @@
+{
+    "title": "Ketepatan dan Pertimbangan untuk AI dalam Maklumat Kesihatan dan Kesejahteraan",
+    "authors": [
+        {
+            "name": "Ron Rubin",
+            "email": "ronrubin@virtualmd.app"
+        },
+        {
+            "name": "Shmuel Miles",
+            "email": "smiles@virtualmd.app"
+        }
+    ],
+    "downloadPdf": "Muat Turun PDF",
+    "generating": "Sedang Menjana...",
+    "pdfFilename": "VirtualMD_AI_Accuracy_White_Paper_MS.pdf",
+    "section1": {
+        "title": "1. Pengenalan: Janji AI dalam Kesihatan dan Kesejahteraan",
+        "content": "Kecerdasan Buatan (AI) mempunyai potensi yang besar untuk meningkatkan cara orang memahami dan mengurus kesihatan dan kesejahteraan mereka. Daripada menganalisis data berkaitan kesihatan hingga mengenal pasti corak yang mungkin menunjukkan trend kesejahteraan, alat AI menawarkan kemungkinan untuk menyediakan maklumat kesihatan yang boleh diakses dan komprehensif. Mereka boleh memproses sejumlah besar kesusasteraan kesihatan dan kesejahteraan dengan lebih pantas daripada manusia, berpotensi membantu individu kekal bermaklumat tentang kebimbangan kesihatan mereka. Agen perbualan berkuasa AI, seperti yang digunakan oleh VirtualMD.app, menyediakan pengguna dengan maklumat kesihatan dan kesejahteraan yang boleh diakses, menjawab soalan berkaitan kesihatan, dan membantu dalam memahami topik kesihatan yang kompleks. Matlamatnya adalah untuk berfungsi sebagai sumber maklumat tambahan yang melengkapi—tidak pernah menggantikan—perundingan dengan profesional penjagaan kesihatan yang berkelayakan."
+    },
+    "section2": {
+        "title": "2. Memahami Ketepatan AI dan Had dalam Maklumat Kesihatan",
+        "intro": "Landskap AI dalam penjagaan kesihatan telah berkembang dengan pesat. Med-PaLM 2 Google (2023) mencapai prestasi peringkat pakar dalam peperiksaan lesen perubatan, manakala GPT-4 OpenAI (2023) menunjukkan keupayaan penaakulan perubatan yang kukuh. Kajian Medprompt Microsoft baru-baru ini (2024) menunjukkan peningkatan lanjut dalam ketepatan klinikal. Walau bagaimanapun, memahami kedua-dua keupayaan dan had sistem ini tetap penting untuk penggunaan yang sesuai dalam konteks maklumat kesihatan.",
+        "aiSuccess": {
+            "title": "Penyelidikan tentang AI dalam Maklumat Penjagaan Kesihatan:",
+            "text": "Pelbagai kajian menunjukkan keupayaan AI yang semakin meningkat dalam maklumat kesihatan. Esteva et al. (Nature, 2017) menunjukkan AI mencapai ketepatan peringkat pakar dermatologi dalam klasifikasi kanser kulit. Gulshan et al. (JAMA, 2016) menunjukkan keberkesanan AI dalam pengesanan retinopati diabetik. Baru-baru ini, kajian Microsoft 2024 tentang GPT-4 dalam senario perubatan menunjukkan hasil yang menjanjikan dalam sintesis maklumat pesakit. Kajian Stanford (2023) mendapati bahawa chatbot AI memberikan respons yang lebih empati berbanding doktor dalam forum dalam talian. Walau bagaimanapun, kejayaan ini mengukuhkan peranan AI sebagai alat maklumat yang berkuasa yang melengkapi—bukan menggantikan—perundingan penjagaan kesihatan profesional."
+        },
+        "aiErrors": {
+            "title": "Memahami Had AI - Bukti daripada Penyelidikan:",
+            "text": "Penyelidikan menyerlahkan had AI yang penting. Bates et al. (NEJM, 2023) mendapati sistem AI boleh terlepas konteks kritikal dalam kes yang kompleks. Kajian Johns Hopkins (2023) menunjukkan kadar ralat AI meningkat dengan ketara dengan pembentangan atipikal. BMJ (2024) melaporkan tentang 'halusinasi' dalam AI perubatan, di mana sistem menjana maklumat yang munasabah tetapi tidak betul. Had utama termasuk: Jurang Maklumat (AI mungkin kekurangan garis panduan terkini), Kekurangan Konteks Peribadi (Zhou et al., 2023, menunjukkan AI tidak dapat mengintegrasikan sejarah pesakit penuh seperti doktor), Aplikasi Umum vs. Khusus (kesihatan setiap orang adalah unik), dan tiada keupayaan Pemeriksaan Fizikal. Kajian-kajian ini menekankan mengapa AI berfungsi paling baik sebagai tambahan maklumat kepada penjagaan profesional."
+        },
+        "aiVsHuman": {
+            "title": "Penyelidikan tentang Kolaborasi AI-Manusia dalam Penjagaan Kesihatan:",
+            "text": "Penyelidikan terkini menyokong AI sebagai alat pelengkap. Rajpurkar et al. (Lancet Digital Health, 2022) mendapati bahawa pasukan AI ditambah doktor mengatasi prestasi sama ada bersendirian. Kajian Mayo Clinic (2023) menunjukkan AI membantu doktor mengenal pasti 20% lebih banyak pesakit berisiko apabila digunakan sebagai alat sokongan keputusan. Ulasan Topol (Nature Medicine, 2019) berhujah janji terbesar AI terletak pada menambah keupayaan manusia, bukan menggantikannya. Penyelidikan MIT (2024) menunjukkan bahawa pesakit yang menggunakan AI untuk bersedia untuk temu janji bertanya soalan yang lebih relevan dan melaporkan kepuasan yang lebih tinggi. VirtualMD.app merangkumi pendekatan kolaboratif ini—menyediakan maklumat kesihatan yang boleh diakses yang memperkasakan pengguna untuk berinteraksi dengan lebih berkesan dengan pasukan penjagaan kesihatan mereka."
+        }
+    },
+    "section3": {
+        "title": "3. Kepentingan Komunikasi AI yang Jelas dalam Maklumat Kesihatan",
+        "intro": "Selain daripada ketepatan maklumat, cara AI menyampaikan maklumat kesihatan dan kesejahteraan adalah penting. Walaupun maklumat yang tepat boleh menjadi tidak membantu jika tidak dibentangkan dengan jelas dan sesuai.",
+        "challenges": {
+            "empathy": "Memahami Keperluan Individu: Ayers et al. (JAMA Internal Medicine, 2023) mendapati walaupun chatbot AI mendapat markah lebih tinggi pada metrik empati dalam respons bertulis, mereka tidak benar-benar dapat memahami keadaan emosi individu atau keadaan peribadi. Hanya profesional penjagaan kesihatan boleh menyediakan hubungan manusia sejati dan sokongan yang sedar konteks.",
+            "overload": "Kejelasan Maklumat: Penyelidikan oleh Chen et al. (Digital Health, 2023) menunjukkan pengguna sering berasa terhimpit oleh maklumat perubatan yang dijana AI. AI yang berkesan mesti mengimbangi kelengkapan dengan kejelasan, mengelakkan jargon teknikal sambil mengekalkan ketepatan.",
+            "confidence": "Penafian yang Sesuai: Kajian Harvard (2024) mendapati pengguna sering melebihkan kebolehpercayaan AI dalam konteks kesihatan. Komunikasi yang jelas tentang peranan maklumat AI berbanding nasihat perubatan profesional adalah penting untuk penggunaan yang selamat dan sesuai."
+        },
+        "VirtualMDApproach": "Di sinilah VirtualMD.app berusaha untuk menjadi **\"lebih baik secara ringkas.\"** Kami bukan sahaja mensasarkan ketepatan dalam maklumat kesihatan dan kesejahteraan yang disediakan oleh persona AI kami tetapi juga memberi tumpuan berat pada *cara* penyampaian. Matlamat kami adalah untuk membentangkan maklumat kesihatan dengan jelas, ringkas, dan boleh diakses, memecahkan topik kompleks sambil secara konsisten mengakui peranan kami sebagai sumber maklumat yang melengkapi—tidak pernah menggantikan—panduan penjagaan kesihatan profesional."
+    },
+    "section4": {
+        "title": "4. Apa Maksudnya untuk Anda Menggunakan VirtualMD.app",
+        "guidelines": {
+            "information": "**Sumber Pendidikan:** VirtualMD.app menyediakan maklumat kesihatan dan kesejahteraan untuk tujuan pendidikan. Maklumat ini membantu anda lebih memahami topik kesihatan dan bersedia untuk perbincangan dengan penyedia penjagaan kesihatan anda, tetapi *bukan* pengganti untuk nasihat perubatan profesional, diagnosis, atau rawatan.",
+            "limitations": "**Fahami Peranan Kami:** Kami menyediakan maklumat kesihatan umum yang mungkin membantu anda belajar tentang pelbagai topik kesihatan. Walau bagaimanapun, hanya penyedia penjagaan kesihatan anda boleh mempertimbangkan sejarah kesihatan lengkap anda, melakukan pemeriksaan, dan memberikan cadangan yang diperibadikan.",
+            "verify": "**Bekerjasama dengan Penyedia Penjagaan Kesihatan Anda:** Gunakan maklumat yang anda dapati di sini untuk mempunyai perbincangan yang lebih bermaklumat dengan pasukan penjagaan kesihatan anda. Sentiasa berunding dengan profesional penjagaan kesihatan yang berkelayakan untuk keputusan kesihatan peribadi, diagnosis, dan rancangan rawatan.",
+            "personas": "**Pendidik Kesihatan AI:** Persona AI kami direka untuk menerangkan topik kesihatan dengan jelas dan boleh diakses. Mereka menyediakan maklumat pendidikan tetapi bukan penyedia penjagaan kesihatan berlesen dan tidak boleh menggantikan perundingan perubatan profesional."
+        }
+    },
+    "section5": {
+        "title": "5. Penafian dan Maklumat Kecemasan",
+        "disclaimer": "VirtualMD.app adalah perkhidmatan maklumat kesihatan dan kesejahteraan yang direka untuk membantu anda lebih memahami topik kesihatan. Walaupun kami berusaha untuk ketepatan dan kelengkapan, maklumat yang disediakan adalah untuk tujuan pendidikan sahaja dan bukan pengganti untuk nasihat perubatan profesional, diagnosis, atau rawatan. Keadaan kesihatan setiap individu adalah unik, dan hanya profesional penjagaan kesihatan berkelayakan yang boleh menilai keadaan khusus anda harus memberikan panduan perubatan yang diperibadikan. Sentiasa berunding dengan penyedia penjagaan kesihatan anda sebelum membuat sebarang keputusan tentang kesihatan atau rawatan anda. Penggunaan perkhidmatan ini dan pergantungan pada sebarang maklumat yang disediakan adalah atas budi bicara dan risiko anda sendiri.",
+        "emergency": "Dalam kecemasan, sentiasa hubungi nombor kecemasan tempatan anda:",
+        "emergencyNumbers": {
+            "Malaysia": "999",
+            "Singapura": "995",
+            "Brunei": "991",
+            "Indonesia": "112",
+            "US": "911",
+            "Canada": "911",
+            "UK": "999",
+            "Ireland": "999 atau 112",
+            "Australia": "000",
+            "New Zealand": "111",
+            "South Africa": "10111",
+            "India": "112",
+            "Jamaica": "119",
+            "Trinidad and Tobago": "999",
+            "Philippines": "911",
+            "default": "perkhidmatan kecemasan tempatan"
+        }
+    }
+}

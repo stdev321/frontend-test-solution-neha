@@ -1,0 +1,408 @@
+{
+  "actions": {
+    "startConsultation": {
+      "current": "بدء الاستشارة الطبية",
+      "english": "Start Health Consult",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "audio": {
+    "aiMuted": {
+      "current": "الذكاء الاصطناعي مكتوم",
+      "english": "AI Muted",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "aiUnmuted": {
+      "current": "صوت الذكاء الاصطناعي مفعل",
+      "english": "AI Audio On",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "sidebar": {
+    "personaList": {
+      "current": "اختر أخصائي الرعاية الصحية",
+      "english": "Choose Your Health Professional",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "teamBuilder": {
+      "current": "منشئ فريق الذكاء الاصطناعي",
+      "english": "AI Team Builder",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "transcript": {
+      "current": "نص المحادثة",
+      "english": "Conversation Transcript",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "personas": {
+    "selectPersona": {
+      "current": "اختر أخصائي رعاية صحية",
+      "english": "Select a Health Professional",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "noPersonasAvailable": {
+      "current": "لا توجد أخصائيي رعاية صحية متاحين",
+      "english": "No health professionals available",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "team": {
+    "myTeam": {
+      "current": "فريق الرعاية الصحية الخاص بي",
+      "english": "My Health Team",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "teamRecommendations": {
+      "current": "توصيات فريق الذكاء الاصطناعي",
+      "english": "AI Team Recommendations",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "getRecommendations": {
+      "current": "الحصول على توصيات الذكاء الاصطناعي",
+      "english": "Get AI Recommendations",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "teamBuilder": {
+      "current": "منشئ فريق الذكاء الاصطناعي",
+      "english": "AI Team Builder",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "manageTeamTitle": {
+      "current": "إدارة فريق الذكاء الاصطناعي الصحي (حد أقصى {{max}} أخصائي)",
+      "english": "Manage My AI Health Team (Max {{max}} Specialists)",
+      "contentType": "sectionTitle",
+      "action": "retranslate-full"
+    },
+    "removeSpecialistToUseTeamBuilder": {
+      "current": "يرجى إزالة أخصائي واحد على الأقل لاستخدام توصيات بناء الفريق من د. كارول",
+      "english": "Please remove at least one specialist to use AI Health Expert Carol's team building recommendations",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "aileenCarolRecommendTeam": {
+      "current": "اطلب من د. كارول الذكاء الاصطناعي أن توصي بفريقك الصحي",
+      "english": "Have AI Health Expert Carol recommend your health team",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "teamFullRemoveToUseBuilder": {
+      "current": "فريقك ممتلئ. يرجى إزالة أخصائي واحد على الأقل لاستخدام بناء فريق الذكاء الاصطناعي.",
+      "english": "Your team is full. Please remove at least one specialist to use AI team building.",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "recommendedTeam": {
+      "current": "فريق الصحة الموصى به",
+      "english": "Recommended Health Team",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "teamLeadReason": {
+      "current": "منسق صحي أساسي",
+      "english": "Primary health coordinator",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "aileenCarolReasoning": {
+      "current": "منطق الدكتورة كارول (AI):",
+      "english": "AI Health Expert Carol's Reasoning:",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "noMatchingSpecialists": {
+      "current": "لم يتم العثور على متخصصين مطابقين لتوصيات الذكاء الاصطناعي. يمكنك المحاولة مرة أخرى أو بناء فريقك يدويًا.",
+      "english": "No matching specialists found for the AI recommendations. You can try again or manually build your team.",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "medicalDisclaimerText": {
+      "current": "توفر هذه المنصة نصائح وإرشادات صحية ولكن لا يمكن أن تحل محل الرعاية الطبية المتخصصة. استشر دائمًا متخصصي الرعاية الصحية المؤهلين لحالات الطوارئ الطبية أو المخاوف الصحية الخطيرة.",
+      "english": "This platform provides health advice and guidance but cannot replace professional medical care. Always consult qualified healthcare professionals for medical emergencies or serious health concerns.",
+      "contentType": "paragraph",
+      "action": "retranslate-full"
+    },
+    "availableSpecialists": {
+      "current": "الأخصائيون الصحيون المتاحون بالذكاء الاصطناعي",
+      "english": "Available AI Health Specialists",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "myAIHealthTeam": {
+      "current": "فريق الذكاء الاصطناعي الصحي الخاص بي",
+      "english": "My AI Health Team",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "specialistCategories": {
+    "mentalHealthStress": {
+      "current": "الصحة النفسية والتوتر",
+      "english": "Mental Health & Stress",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "heartHealth": {
+      "current": "صحة القلب",
+      "english": "Heart Health",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "womensHealth": {
+      "current": "صحة المرأة",
+      "english": "Women's Health",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "childrensHealth": {
+      "current": "صحة الأطفال",
+      "english": "Children's Health",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "agingSeniorHealth": {
+      "current": "صحة كبار السن والشيخوخة",
+      "english": "Aging & Senior Health",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "primaryCareGeneralHealth": {
+      "current": "الرعاية الأولية والصحة العامة",
+      "english": "Primary Care & General Health",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "dialogs": {
+    "noAdvisersToAdd": {
+      "current": "جميع مستشاري الصحة بالذكاء الاصطناعي الذين اخترتهم موجودون بالفعل في هذه المحادثة، أو أن قائمتك فارغة (باستثناء المشاركين الحاليين).",
+      "english": "All of your selected AI Health Advisers are already in this chat, or your list is empty (excluding current participants).",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "deleteSuccessMessage": {
+      "current": "تم حذف محادثتك بنجاح.",
+      "english": "Your conversation has been successfully deleted.",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "aiHealthSpecialist": {
+      "current": "أخصائي الصحة والعافية الأساسي الخاص بك",
+      "english": "Your primary health and wellness AI specialist",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "aileenCarol": {
+      "current": "د. كارول (AI)",
+      "english": "AI Health Expert Carol",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "aiHealthAssistant": {
+      "current": "مساعد صحي بالذكاء الاصطناعي",
+      "english": "AI Health Assistant",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "errors": {
+    "personaUnavailable": {
+      "current": "أخصائي الرعاية الصحية هذا غير متاح حالياً",
+      "english": "This health professional is currently unavailable",
+      "contentType": "menuItem",
+      "action": "retranslate-full"
+    }
+  },
+  "welcome": {
+    "subtitle": {
+      "current": "ابدأ استشارتك الصحية الشخصية",
+      "english": "Start your personalized health consultation",
+      "contentType": "sectionTitle",
+      "action": "retranslate-full"
+    },
+    "description": {
+      "current": "اختر من فريق أخصائيي الرعاية الصحية المدعومين بالذكاء الاصطناعي للحصول على رؤى وإرشادات طبية شخصية.",
+      "english": "Choose from our team of AI-powered health professionals to get personalized medical insights and guidance.",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "aileenCarolName": {
+      "current": "د. أيلين كارول بالذكاء الاصطناعي",
+      "english": "AI Health Expert Aileen Carol",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "greeting": {
+      "current": "مرحباً، {{username}}. من الرائع رؤيتك! فريق VirtualMD.app للذكاء الاصطناعي وأنا مستعدون على مدار 24/7 للمساعدة...",
+      "english": "Hello, {{username}}. So good to see you! Your VirtualMD team is ready 24/7 to help...",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "myAIHealthTeam": {
+      "current": "فريق الذكاء الاصطناعي الصحي",
+      "english": "My AI Health Team",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "aileenCarolIntro": {
+      "current": "مرحباً، أنا الدكتورة إيلين كارول، طبيبة الذكاء الاصطناعي. كيف يمكنني مساعدتك اليوم؟",
+      "english": "Hello, I'm AI Health Expert Aileen Carol. How can I help you today?",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "persona_welcome_message": {
+      "current": "مرحباً، أنا هنا للمساعدة في احتياجاتك الصحية والعافية. كيف يمكنني مساعدتك اليوم؟",
+      "english": "Hello, I'm here to help with your health and wellness needs. How can I assist you today?",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "mobileTeamBuilder": {
+    "title": {
+      "teamBuilder": {
+        "current": "منشئ فريق الذكاء الاصطناعي",
+        "english": "AI Team Builder",
+        "contentType": "sectionTitle",
+        "action": "retranslate-full"
+      }
+    },
+    "carolMessages": {
+      "helpBuild": {
+        "current": "{{name}}، أودُّ أن أساعدك في بناء فريق الصحة المثالي! أخبرني ما الذي جلبك هنا اليوم.",
+        "english": "{{name}}, I'd love to help you build your perfect health team! Tell me what brings you here today.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      }
+    },
+    "carolGreeting": {
+      "helpBuild": {
+        "current": "مرحباً {{name}}! سأساعدك في بناء فريق الصحة المثالي.",
+        "english": "Hi {{name}}! I'll help you build your perfect health team.",
+        "contentType": "description",
+        "action": "retranslate-full"
+      }
+    },
+    "aiSpecialist": {
+      "current": "{{name}} بالذكاء الاصطناعي",
+      "english": "AI {{name}}",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "tellUsWhy": {
+      "current": "أخبرنا لماذا أنت هنا اليوم حتى نتمكن من إنشاء فريق الصحة المثالي لك.",
+      "english": "Tell us why you are here today so we can create your perfect health team.",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "placeholder": {
+      "current": "صف مخاوفك الصحية أو الأعراض أو ما تريد المساعدة فيه...",
+      "english": "Describe your health concerns, symptoms, or what you'd like help with...",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "aileenCarol": {
+    "playAnalysis": {
+      "current": "تشغيل تحليل د. كارول",
+      "english": "Play Health Expert Carol's analysis",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "stopAnalysis": {
+      "current": "إيقاف تحليل د. كارول",
+      "english": "Stop Health Expert Carol's analysis",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "profile": {
+    "healthInfoTooltip": {
+      "current": "يرجى كتابة أو سرد الأدوية والتشخيصات والمكملات الغذائية وغيرها من الأشياء المهمة المتعلقة بصحتك.",
+      "english": "Please write or list medications, diagnoses, supplements and other important health related things about you.",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "keyHealthInfo": {
+      "current": "المعلومات الصحية الأساسية",
+      "english": "Key Health Information",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "noHealthInfoRecorded": {
+      "current": "لم يتم تسجيل معلومات صحية أساسية.",
+      "english": "No key health information recorded.",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "imageContext": {
+    "functionsUnavailable": {
+      "current": "لا يمكن إرسال التكبير: الوظائف الأساسية غير متوفرة.",
+      "english": "Cannot send zoom: Essential functions unavailable.",
+      "contentType": "menuItem",
+      "action": "smart-shorten"
+    }
+  },
+  "mobileChat": {
+    "healthConsult": {
+      "current": "استشارة صحية",
+      "english": "Health Consult",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "mobileWelcome": {
+    "aileenCarolIntro": {
+      "current": "أنا د. كارول الذكاء الاصطناعي، أخصائية الصحة والعافية الأساسية. كيف يمكنني مساعدتك اليوم؟",
+      "english": "I'm AI Health Expert Carol, your primary health and wellness AI specialist. How can I help you today?",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "startConsultation": {
+      "current": "ابدأ استشارة صحية",
+      "english": "Start Health Consultation",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "aiTeamBuilder": {
+      "current": "د. كارول الذكاء الاصطناعي تساعدك في اختيار فريقك",
+      "english": "AI Health Expert Carol helps you choose your team",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "mobileProfile": {
+    "keyHealthInfo": {
+      "current": "المعلومات الصحية الأساسية",
+      "english": "Key Health Information",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  },
+  "sidebarHeader": {
+    "myAIHealthTeam": {
+      "current": "فريق الذكاء الاصطناعي الصحي",
+      "english": "My AI Health Team",
+      "contentType": "description",
+      "action": "retranslate-full"
+    },
+    "aileenCarolTeamBuilder": {
+      "current": "د. كارول تساعد في بناء فريقك.",
+      "english": "Health Expert Carol helps build your team.",
+      "contentType": "description",
+      "action": "retranslate-full"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "title": "Sağlık ve Refah Bilgilerinde Yapay Zeka İçin Doğruluk ve Hususlar",
+  "authors": "",
+  "downloadPdf": "PDF'yi indirin",
+  "generating": "Oluşturuluyor...",
+  "pdfFilename": "VirtualMD_AI_Accuracy_White_Paper.pdf",
+  "section1": {
+    "title": "1. Giriş: Yapay Zekanın Sağlık ve Refah Alanındaki Vaadi",
+    "content": "Yapay Zeka (YZ), insanların sağlık ve esenliklerini anlama ve yönetme biçimlerini geliştirmede önemli bir potansiyele sahiptir. Sağlık verilerini analiz etmekten esenlik trendlerini gösterebilecek kalıpları belirlemeye kadar, YZ araçları erişilebilir ve kapsamlı sağlık bilgileri sağlama olanağı sunar. Çok miktarda sağlık ve esenlik literatürünü insanlardan çok daha hızlı işleyebilir ve bireylerin sağlık sorunları hakkında bilgi sahibi olmalarına yardımcı olabilir. VirtualMD.app tarafından kullanılanlar gibi YZ destekli konuşma araçları, kullanıcılara erişilebilir sağlık ve esenlik bilgileri sağlar, sağlıkla ilgili soruları yanıtlar ve karmaşık sağlık konularını anlamalarına yardımcı olur. Amaç, nitelikli sağlık uzmanlarıyla yapılan konsültasyonların yerini asla almayan, tamamlayıcı bir bilgi kaynağı görevi görmektir."
+  },
+  "section2": {
+    "title": "2. Sağlık Bilgilerinde Yapay Zeka Doğruluğunu ve Sınırlamalarını Anlamak",
+    "intro": "Yapay zekâ, sağlık ve zindelik bilgisi sağlamada umut vaat etse de, doğruluğunu ve sınırlamalarını anlamak hayati önem taşır. Yapay zekâ sistemleri değerli sağlık içgörüleri ve bilgileri sağlayabilir, ancak etkinlikleri belirli konuya, eğitim verilerinin kalitesine ve kullanılan yapay zekâ modeline göre değişir.",
+    "aiSuccess": {
+      "title": "Sağlık Bilgilerinde Yapay Zeka Örnekleri:",
+      "text": "Araştırmalar, yapay zekâ modellerinin çeşitli rahatsızlıklar ve sağlık konuları hakkındaki sağlık bilgilerini etkili bir şekilde düzenleyip sunabildiğini göstermiştir. Yapay zekâ sistemleri, birden fazla kaynaktan bilgi sentezleme, ilgili sağlık modellerini belirleme ve karmaşık sağlık konularını erişilebilir şekillerde sunma becerisini kanıtlamıştır. Bu yetenekler, yapay zekâyı profesyonel sağlık rehberliğine ek olarak kullanıldığında sağlık eğitimi ve bilgi yayılımı için değerli bir araç haline getirmektedir."
+    },
+    "aiErrors": {
+      "title": "Yapay Zeka Hatalarının Türleri:",
+      "text": "Yapay zeka hataları, insan hatalarından farklıdır. Bunlar şunlardan kaynaklanabilir: Önyargılı Veriler (Eğitim verileri belirli demografik özellikleri yeterince temsil etmiyorsa, yapay zeka bu gruplar için düşük performans gösterebilir), Aşırı Uyum (Yapay zeka, eğitim verilerini gürültü de dahil olmak üzere çok iyi öğrenir ve yeni, görülmemiş kullanıcı durumlarına genelleme yapamaz), Bağlam Eksikliği (Yapay zeka, daha geniş klinik yargı gerektiren karmaşık kullanıcı geçmişleri, eşlik eden hastalıklar veya nüanslı semptomlarla mücadele edebilir), Karşıt Örnekler (Giriş verilerinde küçük, fark edilemeyen değişiklikler, yapay zekanın tamamen yanlış bir tahmin yapmasına neden olabilir), Halüsinasyonlar (LLM'ler bazen kulağa mantıklı gelen ancak gerçekte yanlış veya anlamsız bilgiler üretebilir)."
+    },
+    "aiVsHuman": {
+      "title": "Yapay Zeka ve İnsan Sağlığı Uzmanları:",
+      "text": "Bu nadiren basit bir \"daha iyi veya daha kötü\" senaryosudur. Bir meta-analiz, yapay zekanın belirli bir tarama türü için radyologlardan ortalama olarak biraz daha iyi performans gösterdiğini gösterebilir (*varsayımsal grafik kavramı*), ancak insan uzmanlar genellikle atipik vakalarda veya birden fazla kaynaktan gelen bilgileri entegre ederken üstün performans gösterir. Tersine, yapay zeka tekrarlayan görevlerde yorgunluktan kaynaklanan hatalardan kaçınmada daha tutarlı olabilir. İdeal senaryo genellikle insan-yapay zeka iş birliğini içerir."
+    }
+  },
+  "section3": {
+    "title": "3. Sağlık Hizmetlerinde Yapay Zeka İletişiminin Zorluğu",
+    "intro": "Tanısal doğruluğun ötesinde, yapay zekanın bilgiyi kullanıcılara nasıl ilettiği önemli bir engeldir. Kötü bir şekilde verilen doğru bir cevap, faydasız hatta zararlı olabilir.",
+    "challenges": {
+      "empathy": "Empati ve İncelik Eksikliği: Yapay zeka modelleri genellikle gerçek empati, güvence ve açıklamaları bireyin duygusal durumuna ve anlayışına göre uyarlama yeteneğinden yoksundur (örn. Ayers ve ark., JAMA Internal Medicine, 2023 - açıklayıcı örnek).",
+      "overload": "Bilgi Aşırı Yükü/Jargon: Yapay zeka bazen açıklamaktan çok bunaltıcı, teknik açıdan yoğun ve ayrıntılı bilgi sağlayabilir.",
+      "confidence": "Güven Yanlış Kalibrasyonu: Bir yapay zeka, belirsiz veya yanlış olsa bile yüksek güvenilirlikle bilgi sunabilir ve bu da kullanıcıları yanıltabilir."
+    },
+    "VirtualMDApproach": "VirtualMD.app'in **\"sadece daha iyi\"** olmaya çalıştığı nokta tam da burası. Yapay zeka uzmanlarımızın sağladığı bilgilerin yalnızca gerçekçiliğini değil, aynı zamanda sunum *biçimine* de büyük önem veriyoruz. Amacımız, yapay zeka uzmanlarımızı açık, öz ve uygun bir üslupla iletişim kurmaları, karmaşık konuları ayrıntılı olarak ele almaları ve sınırlamaları kabul etmeleri, ham yapay zeka çıktısı ile faydalı kullanıcı iletişimi arasındaki boşluğu kapatmaları için eğitmek ve yönlendirmek."
+  },
+  "section4": {
+    "title": "4. VirtualMD.app'i Kullanmanın Sizin İçin Anlamı Nedir?",
+    "guidelines": {
+      "information": "**Bunu Tanı Olarak Değil, Bilgi Olarak Ele Alın:** Sağlanan bilgileri bir başlangıç noktası olarak kullanın. Bu bilgiler, profesyonel bir tıbbi tanı, tedavi planı veya kişiselleştirilmiş tavsiyenin yerine geçmez.",
+      "limitations": "**Sınırlamaların Farkında Olun:** Yapay zekanın hata yapabileceğini, bağlamı yanlış anlayabileceği veya eksik bilgi sağlayabileceğini unutmayın. Bilgiler, sizin özel sağlık durumunuza uygun olmayabilir.",
+      "verify": "**Kritik Bilgileri Doğrulayın:** Önemli sağlık endişelerinizi, semptomlarınızı veya olası tedavi seçeneklerinizi her zaman kalifiye bir sağlık hizmeti sağlayıcısıyla görüşün.",
+      "personas": "**Yapay Zeka Kişilikleri Rolleri Simüle Eder:** Yapay zeka uzmanları rolleri simüle eder ancak lisanslı insan profesyonellerin niteliklerine veya yasal statüsüne sahip değildir."
+    }
+  },
+  "section5": {
+    "title": "5. Sorumluluk Reddi ve Acil Durum Bilgileri",
+    "disclaimer": "VirtualMD.app doğruluk için çaba göstermektedir. Ancak, bu ve diğer yapay zeka tabanlı hizmetler yanlış bilgi verebilir. Sağlanan bilgiler yalnızca eğitim ve bilgilendirme amaçlıdır ve tıbbi tavsiye teşkil etmez. Herhangi bir sağlık sorununuz varsa veya sağlığınız veya tedavinizle ilgili herhangi bir karar vermeden önce mutlaka kalifiye bir sağlık uzmanına danışın. Bu hizmet tarafından sağlanan herhangi bir bilgiye güvenmeniz tamamen kendi sorumluluğunuzdadır.",
+    "emergency": "Acil bir durumda, daima yerel acil durum numaranızı arayın:",
+    "emergencyNumbers": {
+      "US": "911",
+      "Canada": "911",
+      "UK": "999",
+      "Ireland": "999 veya 112",
+      "Australia": "000",
+      "New Zealand": "111",
+      "South Africa": "10111",
+      "India": "112",
+      "Jamaica": "119",
+      "Trinidad and Tobago": "999",
+      "Singapore": "999",
+      "Philippines": "911",
+      "default": "yerel acil durum servisleriniz"
+    }
+  }
+}

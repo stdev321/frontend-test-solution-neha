@@ -1,0 +1,907 @@
+{
+  "header": {
+    "login": "ግባ",
+    "register": "ይመዝገቡ",
+    "logout": "ውጣ",
+    "aboutUs": "ስለ እኛ",
+    "learnMore": "የበለጠ ተማር",
+    "advisory": "ምክር",
+    "start": "ጀምር",
+    "greetingHello": "ሰላም {{ስም}}!",
+    "welcomeToVirtualMD": "ወደ VirtualMD እንኳን በደህና መጡ!",
+    "signupForFullAccess": "ለሙሉ መዳረሻ ይመዝገቡ",
+    "profileTitle": "የእኔ መገለጫ / ወደ ውይይት ሂድ",
+    "logoutTitle": "ውጣ",
+    "toggleTheme": "ብርሃን/ጨለማ ሁነታን ቀይር",
+    "toggleMode": "ብርሃን/ጨለማ ሁነታን ቀይር",
+    "myProfile": "የእኔ መገለጫ / ወደ ውይይት ሂድ",
+    "dashboard": "ዳሽቦርድ",
+    "endConversation": "ውይይት ጨርስ",
+    "returnToConversation": "ወደ ውይይት ተመለስ",
+    "startConversation": "ውይይት ጀምር",
+    "endConsult": "ምክክርን ጨርስ",
+    "returnToConsult": "ወደ አማካሪ ተመለስ",
+    "startConsult": "ማማከር ይጀምሩ",
+    "home": "ቤት",
+    "healthEncyclopedia": "የጤና ኢንሳይክሎፔዲያ",
+    "researchPublications": "ምርምር እና ህትመቶች",
+    "contactUs": "ያግኙን",
+    "light": "ብርሃን",
+    "dark": "ጨለማ",
+    "toggleModeText": "የ{{mode}} ሁነታን ቀይር",
+    "legal": "ህጋዊ"
+  },
+  "howToUse": "እንዴት መጠቀም እንደሚቻል",
+  "settings": {
+    "lightMode": "የብርሃን ሁነታ",
+    "darkMode": "ጨለማ ሁነታ"
+  },
+  "navigation": {
+    "dashboard": "ዳሽቦርድ",
+    "home": "ቤት",
+    "aboutUs": "ስለ እኛ",
+    "returnToChat": "ወደ ውይይት ተመለስ",
+    "continueConsultation": "ምክክርዎን ይቀጥሉ",
+    "exitConsultation": "ምክክርን ውጣ",
+    "startNewConsultation": "አዲስ ምክክር ጀምር",
+    "sections": {
+      "chatTools": "የውይይት መሳሪያዎች",
+      "functionality": "ተግባራዊነት",
+      "aboutUs": "ስለ እኛ",
+      "requiredDocuments": "አስፈላጊ ሰነዶች",
+      "research": "ምርምር",
+      "controls": "መቆጣጠሪያዎች",
+      "settings": "ቅንብሮች"
+    },
+    "myTeam": "የእኔ ቡድን",
+    "summary": "ማጠቃለያ",
+    "transcript": "ግልባጭ",
+    "encyclopedia": "ኢንሳይክሎፔዲያ",
+    "priorChats": "ቀዳሚ ውይይቶች",
+    "myProfile": "የእኔ መገለጫ",
+    "healthEncyclopedia": "የጤና ኢንሳይክሎፔዲያ",
+    "noteFromFounders": "ማስታወሻ ከመስራቾች",
+    "faq": "የሚጠየቁ ጥያቄዎች",
+    "contactUs": "ያግኙን",
+    "legal": "ህጋዊ",
+    "dataPrivacy": "የውሂብ ግላዊነት",
+    "aiAccuracyStudies": "AI ትክክለኛነት ጥናቶች",
+    "empowerYourself": "እራስህን አበረታት።",
+    "deepResearch": "ጥልቅ ምርምር",
+    "aboutUsItems": {
+      "advisory": "ምክር",
+      "dataPrivacy": "የውሂብ ግላዊነት"
+    },
+    "learnMore": {
+      "imagingAI": "ኢሜጂንግ እና AI",
+      "pathologyAI": "ፓቶሎጂ እና AI",
+      "dermatologyAI": "የቆዳ ህክምና እና AI",
+      "mentalHealthAI": "የአእምሮ ጤና እና AI",
+      "accuracyStudies": "የ AI ትክክለኛነት ጥናቶች",
+      "allResearch": "ሁሉም ምርምር",
+      "empowerYourself": "እራስህን አበረታት።"
+    }
+  },
+  "landing": {
+    "title": "VirtualMD.app",
+    "subtitle": "በ AI የተጎላበተ የጤና እንክብካቤ መፍትሄዎች",
+    "tryItOut": "ይሞክሩት",
+    "scrollDown": "ወደ ታች ይሸብልሉ",
+    "scrollUp": "ወደ ላይ ይሸብልሉ",
+    "alwaysHereForYou": "ሁል ጊዜ እዚህ ለእርስዎ።",
+    "cards": {
+      "whyUse": {
+        "title": "ለምን VirtualMD?",
+        "description": "የእኛን AI-የተጎላበተ ምናባዊ ጤና መድረክ አብዮታዊ ጥቅሞችን ያግኙ"
+      },
+      "dataPrivacy": {
+        "title": "የእርስዎ ግላዊነት",
+        "description": "እንደ ታማኝ ጓደኛ፣ የጤና ሚስጥሮችዎ ከእኛ ጋር ናቸው።"
+      },
+      "tryItOut": {
+        "title": "ይሞክሩት",
+        "description": "ልጄ ታመመ|መተኛት አቃተኝ!|አመጋገብ ለፍቅር",
+        "tagline": "ምንም ምዝገባ አያስፈልግም።"
+      },
+      "wellness": {
+        "title": "ጥልቅ ምርምር",
+        "description": "የጤና ኢንሳይክሎፔዲያ ከታመኑ ምንጮች ጋር"
+      },
+      "yourHealth": {
+        "title": "ጤናዎ",
+        "description": "የእርስዎን የጤንነት ጉዞ ከ AI ጋር ይቅረጹ"
+      }
+    }
+  },
+  "chat": {
+    "startNewConsult": "አዲስ ማማከር ይጀምሩ",
+    "noSpeechDetected": "አልያዝኩትም።",
+    "noSpeechMessage": "በቀረጻህ ውስጥ ምንም ንግግር ማግኘት አልቻልኩም። እባክህ ትንሽ ጮክ ብለህ ለመናገር ሞክር ወይም ወደ ማይክሮፎንህ ተጠጋ እና እንደገና ሞክር።",
+    "dontShowAgain": "እንደገና አታሳየኝ",
+    "gotIt": "ገባኝ",
+    "loading": "በመጫን ላይ…"
+  },
+  "loading": {
+    "preparingHealthTeam": "የእርስዎን AI የጤና ቡድን በማዘጋጀት ላይ...",
+    "connectingSpecialists": "ከጤና ባለሙያዎች ጋር በመገናኘት ላይ...",
+    "initializingSystem": "የእርስዎን ግላዊ የጤና ስርዓት በማስጀመር ላይ...",
+    "almostReady": "እርስዎን ለመርዳት ተዘጋጅቷል…",
+    "dots": "..."
+  },
+  "common": {
+    "loading": "በመጫን ላይ…",
+    "user": {
+      "defaultInitial": "ዩ",
+      "defaultName": "እዚያ",
+      "defaultAltText": "ተጠቃሚ"
+    },
+    "error": "ስህተት",
+    "success": "ስኬት",
+    "cancel": "ሰርዝ",
+    "confirm": "አረጋግጥ",
+    "save": "አስቀምጥ",
+    "delete": "ሰርዝ",
+    "edit": "አርትዕ",
+    "close": "ገጠመ",
+    "next": "ቀጥሎ",
+    "previous": "ቀዳሚ",
+    "submit": "አስገባ",
+    "search": "ፈልግ",
+    "filter": "አጣራ",
+    "sort": "ደርድር",
+    "upload": "ስቀል",
+    "download": "አውርድ",
+    "print": "አትም",
+    "share": "አጋራ",
+    "copy": "ቅዳ",
+    "paste": "ለጥፍ",
+    "cut": "ቁረጥ",
+    "undo": "ቀልብስ",
+    "redo": "ድገም",
+    "yes": "አዎ",
+    "no": "አይ",
+    "ok": "እሺ",
+    "punctuation": {
+      "ellipsis": "..."
+    },
+    "apply": "ያመልክቱ",
+    "reset": "ዳግም አስጀምር",
+    "clear": "ግልጽ",
+    "back": "ተመለስ",
+    "forward": "ወደፊት",
+    "home": "ቤት",
+    "refresh": "አድስ",
+    "reload": "ዳግም ጫን",
+    "help": "እገዛ",
+    "about": "ስለ",
+    "contact": "ተገናኝ",
+    "profile": "መገለጫ",
+    "account": "መለያ",
+    "privacy": "ግላዊነት",
+    "terms": "ውሎች",
+    "legal": "ህጋዊ",
+    "support": "ድጋፍ",
+    "feedback": "ግብረ መልስ",
+    "welcome": "እንኳን ደህና መጣህ",
+    "goodbye": "በህና ሁን",
+    "thankyou": "አመሰግናለሁ",
+    "send": "ላክ",
+    "none": "ምንም",
+    "generating": "በማመንጨት ላይ...",
+    "settings": "ቅንብሮች"
+  },
+  "auth": {
+    "loginTitle": "ይግቡ",
+    "registerTitle": "መለያ ይፍጠሩ",
+    "email": "ኢሜይል",
+    "password": "የይለፍ ቃል",
+    "confirmPassword": "የይለፍ ቃል ያረጋግጡ",
+    "fullName": "ሙሉ ስም",
+    "displayName": "የማሳያ ስም",
+    "rememberMe": "አስታውሰኝ",
+    "forgotPassword": "የይለፍ ቃል ረሱ?",
+    "noAccount": "መለያ የለህም?",
+    "hasAccount": "መለያ አለህ?",
+    "signUp": "ይመዝገቡ",
+    "signIn": "ይግቡ",
+    "signOut": "ዘግተህ ውጣ",
+    "createAccount": "መለያ ይፍጠሩ",
+    "loginButton": "ግባ",
+    "registerButton": "ይመዝገቡ",
+    "logout": "ውጣ"
+  },
+  "footer": {
+    "copyright": "MindScript ቴክኖሎጂዎች LLC. ሁሉም መብቶች የተጠበቁ ናቸው..",
+    "privacyPolicy": "የግላዊነት ፖሊሲ",
+    "termsOfService": "የአገልግሎት ውል",
+    "cookiePolicy": "የኩኪ ፖሊሲ",
+    "medicalAdvisory": "የጤና ምክር",
+    "yourPrivacy": "የእርስዎ ግላዊነት",
+    "legal": "ህጋዊ",
+    "contactUs": "ያግኙን",
+    "howToUse": "እንዴት መጠቀም እንደሚቻል",
+    "faq": "የሚጠየቁ ጥያቄዎች",
+    "noteFromFounders": "ማስታወሻ ከመስራቾቹ",
+    "medicalDisclaimerTooltip": "ማይንድ ስክሪፕት በ AI የተጎለበተ የጤና ሰዎችን በመጠቀም በጣም ትክክለኛ እና ወቅታዊ የጤና መረጃን ለማቅረብ ይተጋል። ይሁን እንጂ እነዚህ ሰዎች ፈቃድ ያላቸው የጤና ባለሙያዎች አይደሉም እና የተሳሳቱ ሊሆኑ ይችላሉ። በእውነተኛ የህክምና ድንገተኛ አደጋ 911 ይደውሉ ወይም በአቅራቢያዎ ወደሚገኝ የድንገተኛ ክፍል ይሂዱ። ለማንኛውም ሌላ የጤና ችግር ወይም ማንኛውንም ህክምና ወይም መፍትሄ ከመሞከርዎ በፊት፣ እባክዎን ብቁ የሆነ የሰው ጤና አጠባበቅ አቅራቢን ወይም ልዩ ባለሙያን ያማክሩ።",
+    "advisory": "ምክር"
+  },
+  "forms": {
+    "required": "ይህ መስክ ያስፈልጋል",
+    "invalidEmail": "እባክህን ትክክለኛ ኢሜል አስገባ",
+    "passwordTooShort": "የይለፍ ቃል ቢያንስ 8 ቁምፊዎች መሆን አለበት።",
+    "passwordsDoNotMatch": "የይለፍ ቃሎች አይዛመዱም።",
+    "invalidInput": "እባክዎ ትክክለኛ ግቤት ያስገቡ",
+    "fieldRequired": "{{መስክ}} ያስፈልጋል",
+    "selectOption": "እባክዎ አንድ አማራጭ ይምረጡ",
+    "uploadFile": "ፋይል ስቀል",
+    "dragAndDrop": "ፋይሎችን ወደዚህ ይጎትቱ እና ይጣሉ ወይም ለመምረጥ ጠቅ ያድርጉ",
+    "fileUploaded": "ፋይል በተሳካ ሁኔታ ተሰቅሏል።",
+    "uploadError": "ፋይል በመስቀል ላይ ስህተት"
+  },
+  "language": {
+    "english": "እንግሊዝኛ",
+    "arabic": "العربية",
+    "hebrew": "עברית",
+    "switchTo": "ወደ {{ቋንቋ}} ቀይር",
+    "currentLanguage": "የአሁኑ ቋንቋ፡ {{ቋንቋ}}"
+  },
+  "animation": {
+    "title": {
+      "simply": "በቀላሉ",
+      "better": "የተሻለ",
+      "health": "ጤና",
+      "period": "."
+    }
+  },
+  "hero": {
+    "subtitle": "ለግል የተበጀ የጤና እና የጤና ምክር 24/7።",
+    "subtitleMobile": "የግል AI የጤና ምክር 24/7",
+    "poweredBy": "በ AI የተጎላበተ።"
+  },
+  "research": {
+    "title": "ምርምር እና ህትመቶች",
+    "subtitle": "በማስረጃ ላይ የተመሰረተ AI የጤና አጠባበቅ መፍትሄዎች",
+    "aiImaging": {
+      "title": "AI በዲያግኖስቲክ ኢሜጂንግ",
+      "description": "በጤና ኢሜጂንግ በራዲዮሎጂ፣ በበሽታ እና በአይን ህክምና ላይ ስለ ሰው ሰራሽ የማሰብ ችሎታ መተግበሪያዎች አጠቃላይ ትንታኔ።"
+    },
+    "pathologyAI": {
+      "title": "ፓቶሎጂ AI እርዳታ",
+      "description": "በዲጂታል ፓቶሎጂ ውስጥ ጥልቅ የመማሪያ መተግበሪያዎች ለካንሰር ምርመራ እና የምርመራ ትክክለኛነት ማሻሻል።"
+    },
+    "dermatologyAI": {
+      "title": "የቆዳ ህክምና AI መፍትሄዎች",
+      "description": "የኮምፒውተር እይታ እና የማሽን መማሪያን በመጠቀም በ AI የተጎላበተ የቆዳ ሁኔታን መለየት እና ምርመራ።"
+    },
+    "mentalHealthAI": {
+      "title": "የአእምሮ ጤና እና AI",
+      "description": "ሰው ሰራሽ የማሰብ ችሎታ መተግበሪያዎች በአእምሮ ጤና ምርመራ፣ ምርመራ እና ህክምና ድጋፍ።"
+    },
+    "accuracyStudies": {
+      "title": "AI ትክክለኛነት ጥናቶች",
+      "description": "በእውነተኛው ዓለም የጤና እንክብካቤ ቅንብሮች ውስጥ የ AI የምርመራ ሥርዓቶች ክሊኒካዊ ማረጋገጫ እና የአፈፃፀም መለኪያዎች።"
+    }
+  },
+  "whitepapers": {
+    "downloadPdf": "ፒዲኤፍ አውርድ",
+    "generating": "በማመንጨት ላይ...",
+    "abstract": "ረቂቅ",
+    "introduction": "መግቢያ",
+    "methods": "ዘዴዎች / ቴክኖሎጂዎች",
+    "results": "ውጤቶች",
+    "discussion": "ውይይት",
+    "conclusion": "ማጠቃለያ",
+    "references": "ዋቢዎች",
+    "authors": "ደራሲያን",
+    "email": "ኢሜይል",
+    "organization": "ድርጅት"
+  },
+  "imageProcessing": {
+    "preset": "ቅድመ ዝግጅት",
+    "process": "ሂደት",
+    "revert": "ተመለስ",
+    "applyPreset": "በትኩረት ላይ ቅድመ ዝግጅትን ወደ ምስል ተግብር",
+    "revertFocus": "በመጀመሪያው ምስል ላይ እንደገና አተኩር"
+  },
+  "alt": {
+    "logo": "VirtualMD.app አርማ",
+    "logoSmall": "ማይንድስክሪፕት ትንሽ አርማ",
+    "integratedApproach": "የተቀናጀ የጤንነት አቀራረብ",
+    "userProfile": "የተጠቃሚ መገለጫ",
+    "aiDoctor": "AI የጤና ባለሙያ ካሮል",
+    "aiAssistant": "AI ረዳት",
+    "backgroundImage": "የሚያምር የጀርባ ምስል",
+    "home": "ማይንድስክሪፕት መነሻ",
+    "processed": "የተሰራ ምስል",
+    "zoomPreview": "የምስል ማጉላት ቅድመ እይታ"
+  },
+  "aria": {
+    "scrollDown": "ወደ ታች ይሸብልሉ",
+    "scrollUp": "ወደ ላይ ይሸብልሉ",
+    "openMenu": "ምናሌን ክፈት",
+    "togglePassword": "የይለፍ ቃል ታይነትን ቀይር",
+    "chooseLanguage": "ቋንቋ ይምረጡ",
+    "goHome": "ወደ መነሻ ገጽ ሂድ",
+    "remove": "አስወግድ",
+    "edit": "አርትዕ",
+    "delete": "ሰርዝ",
+    "save": "አስቀምጥ",
+    "cancel": "ሰርዝ",
+    "breadcrumb": "የአሰሳ ዳቦ ፍርፋሪ",
+    "conversationChoice": "የውይይት ምርጫ",
+    "personaChoice": "የግለሰብ ምርጫ",
+    "panel": "ፓነል",
+    "summary": "ማጠቃለያ",
+    "differentialOpinion": "ልዩነት አስተያየት",
+    "transcript": "ግልባጭ",
+    "encyclopedia": "ኢንሳይክሎፔዲያ",
+    "endConversation": "ውይይት ጨርስ",
+    "startChat": "ከቡድን ጋር መወያየት ጀምር",
+    "configureChat": "አዲስ ውይይት አዋቅር",
+    "savedConsultations": "ምክክር ተቀምጧል",
+    "myProfile": "የእኔ መገለጫ"
+  },
+  "researchPage": {
+    "title": "ምርምር እና ህትመቶች",
+    "healthAdvisory": {
+      "title": "የጤና ምክር",
+      "description": "ጠቃሚ የጤና እና የደህንነት መረጃ",
+      "button": "የምክር አገልግሎት ይመልከቱ"
+    },
+    "imagingAI": {
+      "title": "AI በዲያግኖስቲክ ኢሜጂንግ",
+      "description": "በራዲዮሎጂ ፣ በፓቶሎጂ እና በአይን ህክምና በጤና ምስል ላይ AI መተግበሪያዎች",
+      "button": "ተጨማሪ ያንብቡ"
+    },
+    "pathologyAI": {
+      "title": "AI-የታገዘ ፓቶሎጂ",
+      "description": "በዲጂታል ፓቶሎጂ ውስጥ ጥልቅ የመማሪያ መተግበሪያዎች ለካንሰር ምርመራ እና የምርመራ ትክክለኛነት",
+      "button": "ተጨማሪ ያንብቡ"
+    },
+    "dermatologyAI": {
+      "title": "በቆዳ ህክምና ውስጥ AI መፍትሄዎች",
+      "description": "የኮምፒውተር እይታ እና የማሽን መማሪያን በመጠቀም በ AI የተጎላበተ የቆዳ ሁኔታን መለየት እና ምርመራ",
+      "button": "ተጨማሪ ያንብቡ"
+    },
+    "mentalHealthAI": {
+      "title": "የአእምሮ ጤና እና AI",
+      "description": "በአእምሮ ጤና ምርመራ፣ በምርመራ እና በሕክምና ድጋፍ ላይ AI መተግበሪያዎች",
+      "button": "ተጨማሪ ያንብቡ"
+    },
+    "dataPrivacy": {
+      "title": "የውሂብ ግላዊነት እና ደህንነት",
+      "description": "የጤና እንክብካቤ መረጃ ጥበቃ፣ HIPAA ማክበር እና የግላዊነት ጥበቃዎች",
+      "button": "ተጨማሪ ያንብቡ"
+    },
+    "aiAccuracy": {
+      "title": "AI ትክክለኛነት ጥናቶች",
+      "description": "በእውነተኛው ዓለም የጤና እንክብካቤ ቅንብሮች ውስጥ የ AI የምርመራ ሥርዓቶች ክሊኒካዊ ማረጋገጫ እና የአፈፃፀም መለኪያዎች",
+      "button": "ተጨማሪ ያንብቡ"
+    },
+    "aiForLaypeople": {
+      "title": "AI ለሁሉም ሰው",
+      "description": "የጤና እንክብካቤ AIን በቀላል ቃላት መረዳት - ምንም ቴክኒካዊ ዳራ አያስፈልግም",
+      "button": "ተጨማሪ ያንብቡ"
+    }
+  },
+  "dialogs": {
+    "startWithDefault": "በጤና ኤክስፐርት ካሮል ይጀምሩ",
+    "startWithSpecific": "በ{{name}} ይጀምሩ",
+    "longRecording": {},
+    "shortConv": {}
+  },
+  "team": {
+    "myAIHealthTeam": "የእኔ AI ጤና ቡድን",
+    "addMembersInstruction": "በቀኝ በኩል ባለው ካርድ ላይ ጠቅ በማድረግ የቡድን አባላትን ያክሉ።",
+    "maxTeamSizeNote": "ከፍተኛው አምስት AI አማካሪዎች ወደ ቡድንዎ ሊጨመሩ ይችላሉ። በማንኛውም ጊዜ ቡድንዎን መቀየር ይችላሉ, ነገር ግን በምክክር ጊዜ አይደለም.",
+    "starting": "በመጀመር ላይ...",
+    "startTeamConsult": "የቡድን ምክክርን ጀምር",
+    "startConsultationWithTeam": "ከቡድንዎ ጋር ምክክር ይጀምሩ"
+  },
+  "newConversation": {
+    "aileenCarolOnly": "የጤና ባለሙያ ካሮል ብቻ",
+    "oneOnOne": "አንድ ለአንድ",
+    "consultationChoice": {
+      "question": "ዛሬ ከማን ጋር ማማከር ይፈልጋሉ?"
+    },
+    "options": {
+      "allAdvisers": "ሁሉም የእኔ AI የጤና አማካሪዎች",
+      "allAdvisersCarolOnly": "ሁሉም የእኔ AI ጤና አማካሪዎች (የአይአይ የጤና ባለሙያ ካሮል ብቻ)",
+      "chooseSpecific": "ከእኔ ዝርዝር ውስጥ ልዩ ይምረጡ"
+    },
+    "tooltips": {
+      "noAdvisersSelected": "በእርስዎ መገለጫ ውስጥ ምንም አማካሪዎች አልተመረጡም።",
+      "loadingAdvisers": "አማካሪዎችዎን በመጫን ላይ...",
+      "noOtherAdvisers": "በእርስዎ ዝርዝር ውስጥ ሌላ የሚመርጡት አማካሪዎች የሉም። በመገለጫዎ ውስጥ ተጨማሪ ያክሉ።"
+    },
+    "errors": {
+      "loadingAdvisers": "የአማካሪ ውሂብን መጫን ላይ ስህተት።"
+    },
+    "buttons": {
+      "cancel": "ሰርዝ",
+      "next": "ቀጥሎ",
+      "start": "ጀምር"
+    }
+  },
+  "aiAccuracyWhitepaper": {
+    "section1": {},
+    "section2": {
+      "aiSuccess": {},
+      "aiErrors": {},
+      "aiVsHuman": {}
+    },
+    "section3": {
+      "challenges": {}
+    },
+    "section4": {
+      "guidelines": {}
+    },
+    "section5": {}
+  },
+  "imagingAIExplainer": {
+    "whatIsImaging": {
+      "types": {}
+    },
+    "whatIsAI": {},
+    "howAIHelps": {
+      "accuracy": {},
+      "speed": {},
+      "consistency": {}
+    },
+    "challenges": {},
+    "conclusion": {}
+  },
+  "mentalHealthWhitepaper": {
+    "disclaimer": {},
+    "abstract": {},
+    "introduction": {},
+    "methods": {},
+    "results": {
+      "diagnosticSupport": {},
+      "therapeuticApplications": {},
+      "patientMonitoring": {}
+    },
+    "discussion": {},
+    "conclusion": {}
+  },
+  "audio": {},
+  "autoListening": {},
+  "speech": {},
+  "help": {},
+  "upload": {},
+  "fileUpload": {},
+  "input": {},
+  "send": {},
+  "controls": {
+    "aiSpeaker": "AI ተናጋሪ",
+    "cameraUpload": "ካሜራ/ሰቀል",
+    "status": {
+      "enabled": "ነቅቷል",
+      "disabled": "ተሰናክሏል።"
+    }
+  },
+  "welcome": {},
+  "account": {},
+  "participants": {},
+  "mobileChat": {},
+  "sidebar": {
+    "differentialOpinion": "ልዩነት አስተያየት"
+  },
+  "bioPanel": {},
+  "conversations": {},
+  "mobileConsultations": {},
+  "encyclopedia": {},
+  "imageContext": {},
+  "profile": {},
+  "sidebarHeader": {
+    "plusBadge": "+"
+  },
+  "messages": {},
+  "sidebarFooter": {},
+  "summary": {},
+  "teamBuilder": {
+    "steps": {},
+    "alerts": {},
+    "existingTeam": {},
+    "primaryConcerns": {},
+    "healthConditions": {},
+    "urgencySymptoms": {},
+    "medicinePreferences": {},
+    "additionalInfo": {},
+    "aileenCarolIntro": {},
+    "buttons": {},
+    "dialogs": {}
+  },
+  "aileenCarol": {},
+  "transcript": {},
+  "registerPage": {},
+  "legal": {
+    "eligibility": {},
+    "feesAndPayment": {},
+    "termination": {}
+  },
+  "aboutEncyclopediaPage": {},
+  "loginPage": {},
+  "mobileTeamBuilder": {
+    "carolMessages": {},
+    "questionnaire": {},
+    "title": {},
+    "carolGreeting": {}
+  },
+  "mobileNavigation": {},
+  "mobileWelcome": {},
+  "mobileRouter": {},
+  "mobileInput": {},
+  "mobileProfile": {},
+  "clinicianInfoPage": {},
+  "contactPage": {},
+  "dataPrivacyWhitepaper": {
+    "sections": {},
+    "hero": {},
+    "privacyPledge": {
+      "secureInfo": {},
+      "noPersonalUse": {},
+      "neverSell": {},
+      "anonymizedData": {}
+    },
+    "securityLevels": {
+      "accountSecurity": {},
+      "hipaaHistory": {}
+    },
+    "mindscriptSecurity": {},
+    "hipaaConsiderations": {},
+    "userResponsibility": {},
+    "privacyScenarios": {},
+    "conclusion": {}
+  },
+  "encyclopediaPage": {},
+  "evidencePage": {
+    "researchEvidence": {
+      "radiology": {},
+      "pathology": {},
+      "dermatology": {},
+      "mentalHealthResearch": {}
+    },
+    "wellnessInsights": {
+      "personalizedWellness": {},
+      "holisticSignals": {},
+      "proactiveWellbeing": {},
+      "aiEnhancedClarity": {}
+    }
+  },
+  "featuresPage": {
+    "features": {
+      "instantWellnessInsights": {},
+      "holisticWellnessPicture": {},
+      "diverseAIPerspectives": {},
+      "everEvolvingIntelligence": {}
+    }
+  },
+  "healthAdvisoryPage": {
+    "sections": {
+      "consultation": {
+        "emergency": {}
+      },
+      "technology": {},
+      "disclaimer": {
+        "points": {}
+      }
+    }
+  },
+  "medicalImageProcessingPage": {},
+  "mentalHealthInfoPage": {},
+  "nurseInfoPage": {},
+  "patientInfoPage": {},
+  "pharmacistInfoPage": {},
+  "physicianInfoPage": {},
+  "wellnessPathwaysPage": {},
+  "whyVirtualMD": {
+    "sections": {
+      "whyUs": {
+        "points": {
+          "personalTeam": {},
+          "aiNavigator": {},
+          "empoweringChoices": {},
+          "easyToUse": {},
+          "advancedTechnology": {}
+        }
+      },
+      "hero": {},
+      "features": {
+        "points": {
+          "dynamicEnsemble": {},
+          "holisticUnderstanding": {},
+          "rapidAccess": {},
+          "reliableInteractions": {},
+          "insightfulLogs": {}
+        }
+      },
+      "technology": {},
+      "cta": {}
+    }
+  },
+  "yourHealthInYourHandsPage": {
+    "sections": {
+      "uniqueProfile": {},
+      "personalizedGoals": {},
+      "diverseInsights": {},
+      "proactivePartner": {}
+    },
+    "callToAction": {}
+  },
+  "session_complete": "ክፍለ ጊዜ ተጠናቋል",
+  "your_free_trial_has_ended": "የነጻ ሙከራህ አብቅቷል።",
+  "united_kingdom:_dial_999_or_11": "ዩናይትድ ኪንግደም፡ 999 ወይም 112 ይደውሉ",
+  "melanoma_and_skin_cancer_detec": "ሜላኖማ እና የቆዳ ካንሰርን መለየት",
+  "process_transactions_and_send_": "ማረጋገጫዎችን እና ደረሰኞችን (የሚመለከተው ከሆነ) ጨምሮ ግብይቶችን ያስኬዱ እና ተዛማጅ መረጃዎችን ይላኩ።",
+  "information_we_collect": "የምንሰበስበው መረጃ",
+  "in_a_medical_emergency:": "በሕክምና ድንገተኛ ሁኔታ;",
+  "in_response_to_legal_process:": "ለህጋዊ ሂደት ምላሽ",
+  "loading_chat": "ውይይትን በመጫን ላይ...",
+  "redirecting": "በማዞር ላይ...",
+  "israel:_dial_101_(magen_david_": "እስራኤል፡ ደውል 101 ()",
+  "unlimited_messages_with_ai_doc": "ከ AI የጤና ባለሙያዎች ጋር ያልተገደበ መልእክቶች",
+  "contact_information": "የእውቂያ መረጃ",
+  "real-world_implementation_and_": "የእውነተኛ ዓለም አተገባበር እና የሞባይል መተግበሪያዎች",
+  "your_access_to_or_use_of_or_in": "የእርስዎን ተደራሽነት ወይም መጠቀም ወይም አገልግሎቱን ለማግኘት ወይም ለመጠቀም አለመቻል;",
+  "your_computer_may_temporarily_": "ኮምፒውተራችሁ እነዚያን ቁሳቁሶች ከመድረስዎ እና ከማየትዎ አንጻር የእንደዚህ አይነት ቁሳቁሶችን በጊዜያዊነት በ RAM ውስጥ ሊያከማች ይችላል።",
+  "please_select_only_one_special": "እባክዎ ለግል ምክክር አንድ ስፔሻሊስት ብቻ ይምረጡ።",
+  "references": "ዋቢዎች",
+  "business_transfers:": "የንግድ ልውውጥ;",
+  "account_information:": "የመለያ መረጃ፡",
+  "provide,_operate,_maintain,_an": "አገልግሎቱን ያቅርቡ፣ ያንቀሳቅሱ፣ ይንከባከቡ እና ያሻሽሉ።",
+  "assignment": "ምደባ",
+  "sandymiles@mindspringhealth": "sandymiles@mindspring.health",
+  "ai-generated_content_may_conta": "በ AI የመነጨ ይዘት ምንም እንኳን ጠንካራ የማረጋገጫ ሂደቶቻችን ቢኖሩም ስህተቶችን ወይም ግድፈቶችን ሊይዝ ይችላል።",
+  "display_name": "የማሳያ ስም",
+  "any_content_obtained_from_the_": "ከአገልግሎቱ የተገኘ ማንኛውም ይዘት; ወይም",
+  "you_may_store_files_that_are_a": "ለእይታ ማሻሻያ ዓላማ በድር አሳሽዎ በራስ ሰር የተሸጎጡ ፋይሎችን ማከማቸት ይችላሉ።",
+  "start_new_health_consultation": "አዲስ የጤና ምክክር ይጀምሩ",
+  "entire_agreement": "ሙሉ ስምምነት",
+  "ophthalmology": "የዓይን ህክምና",
+  "not": "አይደለም",
+  "exit_conversation?": "ከውይይት ይውጡ?",
+  "grading_and_classification": "ደረጃ አሰጣጥ እና ምደባ",
+  "unauthorized_access,_use,_or_a": "የአንተን ማስተላለፎች ወይም ይዘቶች (የውሂብ ጥሰቶችን ጨምሮ) ያልተፈቀደ መዳረሻ፣ አጠቃቀም ወይም ለውጥ፣ ምንም እንኳን አእምሮአዊ ስክሪፕት በእነዚህ ውሎች እና የግላዊነት መመሪያው ውስጥ በተገለጸው መሰረት ምክንያታዊ የደህንነት እርምጃዎችን ቢተገበርም",
+  "checking_server_status": "የአገልጋይ ሁኔታን በመፈተሽ ላይ...",
+  "not_a_hipaa-compliant_service": "የኤች.አይ.ቪ.-ደህንነቱ የተጠበቀ አገልግሎት አይደለም",
+  "radiology": "ራዲዮሎጂ",
+  "united_states:_dial_911": "ዩናይትድ ስቴትስ፡ 911 ይደውሉ",
+  "save_and_review_conversation_h": "የውይይት ታሪክን ያስቀምጡ እና ይገምግሙ",
+  "abstract": "ረቂቅ",
+  "starting_your_consultation": "ምክክርዎን በመጀመር ላይ...",
+  "digital_pathology_overview": "ዲጂታል ፓቶሎጂ አጠቃላይ እይታ",
+  "reasonable_business_security_p": "በዩናይትድ ስቴትስ ውስጥ ምክንያታዊ የንግድ ደህንነት ልምዶች",
+  "loading_transcript": "ግልባጭ በመጫን ላይ...",
+  "cookies_and_similar_technologi": "ኩኪዎች እና ተመሳሳይ ቴክኖሎጂዎች፡-",
+  "internal_medicine": "የውስጥ ደህንነት",
+  "no_specialists_currently_in_th": "በአሁኑ ጊዜ በዚህ ውይይት ውስጥ ምንም ልዩ ባለሙያዎች የሉም።",
+  "discussion": "ውይይት",
+  "updating_team": "ቡድን በማዘመን ላይ...",
+  "your_privacy_choices": "የእርስዎ የግላዊነት ምርጫዎች",
+  "error:_unknown_active_chat_vie": "ስህተት፡ ያልታወቀ ንቁ የውይይት እይታ።",
+  "create_more_than_one_account_f": "ለራስህ ከአንድ በላይ መለያ ፍጠር።",
+  "improve_the_accuracy,_efficacy": "ማንነታቸው ያልታወቀ እና የተዋሃደ ውሂብን በመጠቀም የ AI ሞዴሎቻችንን እና የመሳሪያ ስርዓት ባህሪያትን ትክክለኛነት፣ ውጤታማነት እና ደህንነት አሻሽል።",
+  "user_content:": "የተጠቃሚ ይዘት፡-",
+  "mindscript_does_not_provide_me": "ማይንድ ስክሪፕት የሕክምና ምርመራ ወይም ሕክምና አይሰጥም",
+  "communicate_with_you_about_pro": "በMindScript እና ሌሎች ስለሚቀርቡ ምርቶች፣ አገልግሎቶች፣ ቅናሾች፣ ማስተዋወቂያዎች፣ ሽልማቶች እና ዝግጅቶች ከእርስዎ ጋር ይነጋገሩ እና ለእርስዎ ይጠቅማሉ ብለን የምናስበውን ዜና እና መረጃ ያቅርቡ (የመርጦ የመውጣት መብቶችዎ የሚጠበቁ ሆነው)።",
+  "aggregated_or_de-identified_da": "የተዋሃደ ወይም ያልተለየ ውሂብ፡",
+  "canada:_dial_911": "ካናዳ፡ 911 ይደውሉ",
+  "retry": "እንደገና ይሞክሩ",
+  "other_locations:_contact_your_": "ሌሎች ቦታዎች፡ ወዲያውኑ የአካባቢዎን የድንገተኛ አደጋ አገልግሎት ያግኙ",
+  "ron_rubin,_phd_and_sandy_miles": "ሮን Rubin, ፒኤችዲ እና ሳንዲ ማይልስ",
+  "australia:_dial_000_or_112": "አውስትራሊያ፡ 000 ወይም 112 ይደውሉ",
+  "data_deletion:": "የውሂብ ስረዛ፡",
+  "we_do_not_guarantee_the_absolu": "ለመረጃዎ ፍጹም ደህንነት ዋስትና አንሰጥም።",
+  "send_technical_notices,_update": "የቴክኒክ ማሳሰቢያዎችን፣ ማሻሻያዎችን፣ የደህንነት ማንቂያዎችን እና የድጋፍ እና የአስተዳደር መልዕክቶችን ይላኩ።",
+  "consultation_summary": "የምክክር ማጠቃለያ",
+  "waiver": "መተው",
+  "access_to_all_medical_specialt": "የሁሉም የጤና ስፔሻሊስቶች መዳረሻ",
+  "no_profile_data_available": "ምንም የመገለጫ ውሂብ አይገኝም።",
+  "no_summary_available": "ምንም ማጠቃለያ የለም።",
+  "test_app_-_mindscript": "የሙከራ መተግበሪያ - አእምሮ ስክሪፕት።",
+  "respond_to_your_comments,_ques": "ለአስተያየቶችዎ ፣ ጥያቄዎችዎ እና ጥያቄዎችዎ ምላሽ ይስጡ እና የደንበኛ አገልግሎት ያቅርቡ።",
+  "not_hipaa_compliant": "HIPAA አያከብርም።",
+  "force_majeure": "ከአቅም በላይ የሆነ ኃይል",
+  "you_may_print_or_download_one_": "ለግል ፣ ለንግድ ላልሆነ የመረጃ አገልግሎት እና ለተጨማሪ ማባዛት፣ ለህትመት ወይም ለማሰራጨት ሳይሆን ምክንያታዊ የሆኑ የጣቢያ ገጾችን አንድ ቅጂ ማተም ወይም ማውረድ ይችላሉ።",
+  "dr_aileen_carol": "የጤና ባለሙያ አይሊን ካሮል",
+  "family_medicine": "የቤተሰብ ደህንነት",
+  "headings": "ርዕሶች",
+  "note_on_ai_aileencarol's_particip": "ስለ AI የጤና ባለሙያ የካሮል ተሳትፎ ማስታወሻ፡-",
+  "ronrubin@mindscripthealth": "ronrubin@virtuald.app",
+  "share_your_account_credentials": "የመለያ ምስክርነቶችዎን ያጋሩ ወይም ሌሎች የእርስዎን መለያ እንዲደርሱ ይፍቀዱ (ለድርጅታዊ መለያዎች በግልፅ ከተፈቀደው በስተቀር)።",
+  "email_cannot_be_changed": "ኢሜል መቀየር አይቻልም።",
+  "your_unique_medical_history,_c": "የእርስዎ ልዩ የጤና ታሪክ፣ ሁኔታዎች እና ሁኔታዎች ሙያዊ ግምገማ ያስፈልጋቸዋል",
+  "changes_to_these_terms_and_pol": "በእነዚህ ውሎች እና ፖሊሲ ላይ ለውጦች",
+  "other_ai_specialists": "ሌሎች AI ስፔሻሊስቶች",
+  "full_name": "ሙሉ ስም",
+  "governing_law_and_dispute_reso": "የአስተዳደር ህግ እና የክርክር አፈታት",
+  "loading…": "በመጫን ላይ…",
+  "personalized_health_insights": "ለግል የተበጁ የጤና ግንዛቤዎች",
+  "gastroenterology": "የጨጓራ ህክምና",
+  "use_of_the_service_by_children": "አገልግሎቱን በልጆች መጠቀም የተከለከለ ነው።",
+  "introduction": "መግቢያ",
+  "use_another_user's_account_wit": "ያለፈቃድ የሌላ ተጠቃሚ መለያ ተጠቀም።",
+  "if_you_can_see_this,_react_is_": "ይህንን ማየት ከቻሉ፣ React እየሰራ ነው!",
+  "ronrubin@mindspringhealth": "ronrubin@mindspring.health",
+  "children's_privacy": "የልጆች ግላዊነት",
+  "provide_false_or_misleading_in": "በምዝገባ ወቅት ወይም በመለያዎ መገለጫ ውስጥ የውሸት ወይም አሳሳች መረጃ ያቅርቡ።",
+  "talk_to_a_specialist": "ልዩ ባለሙያተኛን ያነጋግሩ",
+  "cannot": "አይቻልም",
+  "how_we_use_information": "መረጃን እንዴት እንደምንጠቀም",
+  "results": "ውጤቶች",
+  "loading_participants": "ተሳታፊዎችን በመጫን ላይ...",
+  "sandymiles@mindscripthealth": "sandymiles@virtuald.app",
+  "this_feature_is_coming_soon": "ይህ ባህሪ በቅርቡ ይመጣል!",
+  "start_or_continue_conversation": "ውይይት ይጀምሩ ወይም ይቀጥሉ",
+  "international_data_transfers": "ዓለም አቀፍ የውሂብ ዝውውሮች",
+  "loading_bio": "የህይወት ታሪክን በመጫን ላይ...",
+  "termination": "መቋረጥ",
+  "no_image_active": "ምንም የነቃ ምስል የለም።",
+  "no_ai_health_advisers_selected": "ምንም AI የጤና አማካሪዎች አልተመረጡም። አማካሪዎችዎን በመገለጫዎ ውስጥ ማስተዳደር ይችላሉ።",
+  "dr_daniel_garcia": "የጤና ባለሙያ ዳንኤል ጋርሺያ",
+  "no_other_specialists_available": "ለማከል ሌላ ልዩ ባለሙያዎች የሉም።",
+  "carry_out_any_other_purpose_de": "መረጃው በተሰበሰበበት ጊዜ ለእርስዎ የተገለጸውን ሌላ ማንኛውንም ዓላማ ያከናውኑ።",
+  "data_retention": "የውሂብ ማቆየት",
+  "informational_and_educational_": "መረጃዊ እና ትምህርታዊ ዓላማዎች ብቻ",
+  "miscellaneous": "የተለያዩ",
+  "non-cancerous_skin_condition_c": "ካንሰር ያልሆነ የቆዳ ሁኔታ ምደባ",
+  "pathology": "ፓቶሎጂ",
+  "promotional_communications:": "የማስተዋወቂያ ግንኙነቶች፡-",
+  "info@mindscripthealth": "info@virtuald.app",
+  "methods/technologies": "ዘዴዎች / ቴክኖሎጂዎች",
+  "how_we_share_information": "መረጃን እንዴት እንደምናጋራ",
+  "loading_profile": "መገለጫን በመጫን ላይ...",
+  "personalize_and_improve_the_se": "አገልግሎቱን ለግል ያብጁ እና ያሻሽሉ እና ከተጠቃሚ መገለጫዎች ወይም ፍላጎቶች ጋር የሚዛመዱ ይዘቶችን ወይም ባህሪያትን ያቅርቡ።",
+  "with_vendors_and_service_provi": "ከአቅራቢዎች እና አገልግሎት አቅራቢዎች ጋር፡-",
+  "health_information_may_become_": "የጤና እውቀት እየዳበረ ሲመጣ የጤና መረጃ ጊዜ ያለፈበት ሊሆን ይችላል።",
+  "with_whom_would_you_like_to_co": "ዛሬ ከማን ጋር ማማከር ይፈልጋሉ?",
+  "mindscript_content:": "ማይንድስክሪፕት ይዘት፡-",
+  "cookies:": "ኩኪዎች፡-",
+  "detect,_investigate,_and_preve": "የተጭበረበሩ ግብይቶችን እና ሌሎች ህገወጥ ድርጊቶችን ፈልጎ ማግኘት፣ መመርመር እና መከላከል እና የ MindScript እና የሌሎችን መብቶች እና ንብረቶች መጠበቅ።",
+  "medical_advice_requires_person": "የጤና ምክር ፈቃድ ባላቸው የጤና እንክብካቤ አቅራቢዎች ግላዊ ግምገማ ያስፈልገዋል",
+  "create_an_account_for_anyone_o": "ያለፈቃድ ከራስህ ሌላ ለማንም አካውንት ፍጠር።",
+  "options": "አማራጮች",
+  "cannot_and_will_not_sue_or_hol": "የአዕምሮ ስክሪፕት ቴክኖሎጅዎችን፣ LLCን፣ ተባባሪዎቹን፣ መኮንኖቹን፣ ዳይሬክተሮችን፣ ሰራተኞችን፣ ወኪሎችን ወይም ፍቃድ ሰጪዎችን ተጠያቂ ማድረግ አይችሉም እና አይችሉም።",
+  "with_your_consent:": "በእርስዎ ፈቃድ፡-",
+  "add_specialists_to_your_team": "ልዩ ባለሙያዎችን ወደ ቡድንዎ ያክሉ",
+  "usage_information:": "የአጠቃቀም መረጃ፡-",
+  "any_conduct_or_content_of_any_": "በአገልግሎቱ ላይ ያለ ማንኛውም የሶስተኛ ወገን ባህሪ ወይም ይዘት ያለገደብ፣ ማናቸውንም ማዋረድ፣ አፀያፊ፣ ወይም የሌሎች ተጠቃሚዎች ወይም የሶስተኛ ወገኖች ህገ-ወጥ ባህሪን ጨምሮ፤",
+  "do_not_meet_the_specific_admin": "PHIን ለመቆጣጠር በ HIPAA ደህንነት ደንብ የተደነገጉትን ልዩ የአስተዳደር፣ የአካል እና የቴክኒክ ጥበቃ መስፈርቶችን አያሟሉም።",
+  "legal@mindscripthealth": "legal@virtuald.app",
+  "cancel": "ሰርዝ",
+  "conclusion": "ማጠቃለያ",
+  "professional_health_insights_a": "የባለሙያ የጤና ግንዛቤዎች እና መመሪያዎች",
+  "cancer_detection": "የካንሰር ምርመራ",
+  "your_specialist_team_is_empty_": "የእርስዎ ስፔሻሊስት ቡድን ባዶ ነው። ከዚህ በታች ስፔሻሊስቶችን ያክሉ።",
+  "workflow_optimization": "የስራ ፍሰት ማመቻቸት",
+  "select_ai_specialists": "AI ስፔሻሊስቶችን ይምረጡ",
+  "monitor_and_analyze_trends,_us": "ከአገልግሎታችን ጋር በተያያዘ አዝማሚያዎችን፣ አጠቃቀሞችን እና እንቅስቃሴዎችን ተቆጣጠር እና ተንትን።",
+  "severability": "ቸልተኝነት",
+  "access_to_cardiology_and_neuro": "የካርዲዮሎጂ እና የነርቭ ሕክምና ባለሙያዎችን ማግኘት",
+  "searchLanguages": "ቋንቋዎችን ፈልግ...",
+  "noLanguagesFound": "ምንም ቋንቋዎች አልተገኙም።",
+  "you": "አንተ",
+  "manageTeam": {
+    "title": "የእኔን AI ጤና ቡድን አስተዳድር (ከፍተኛ {{maxTeamMembers}} ስፔሻሊስቶች)",
+    "currentTeamCount": "የእርስዎ የአሁኑ ቡድን ({{current}}/{{max}})",
+    "updatingTeam": "ቡድን በማዘመን ላይ...",
+    "coordinatorLabel": " (አስተባባሪ)",
+    "alwaysIncluded": "ሁልጊዜም ይካተታል",
+    "specialistFallback": "ስፔሻሊስት",
+    "emptyTeamMessage": "የእርስዎ ስፔሻሊስት ቡድን ባዶ ነው። ከዚህ በታች ስፔሻሊስቶችን ያክሉ።",
+    "teamFullMessage": "ቡድንዎ ሙሉ ነው (ከፍተኛ {{maxTeamMembers}} ስፔሻሊስቶች)። ሌላ ስፔሻሊስት ማከል ከፈለጉ እባክዎን አባል ያስወግዱ።",
+    "otherSpecialistsTitle": "ሌሎች AI ስፔሻሊስቶች",
+    "addToTeamTooltip": "ወደ ቡድን ያክሉ",
+    "teamFullTooltip": "ቡድኑ ሞልቷል።",
+    "systemSpecialistFallback": "የስርዓት ስፔሻሊስት",
+    "noSpecialistsAvailable": "ለማከል ሌላ ልዩ ባለሙያዎች የሉም።"
+  },
+  "personas": {
+    "defaultSpecialist": "AI ስፔሻሊስት"
+  },
+  "personaList": {
+    "noSpecialistsFound": "ምንም የ AI ስፔሻሊስቶች አልተገኙም።"
+  },
+  "guest": {
+    "user": "የእንግዳ ተጠቃሚ",
+    "userObject": {
+      "displayName": "የእንግዳ ተጠቃሚ",
+      "email": "guest@virtuald.app"
+    },
+    "registration": {
+      "prompt": "የተሟላ የኤአይአይ ጤና ቡድናችን፣ የውይይት ታሪክ እና የላቁ ባህሪያት ሙሉ መዳረሻ ለማግኘት ይመዝገቡ።",
+      "dialogTitle": "የተመዘገቡ ተጠቃሚዎች የ{{specialistName}} መዳረሻ አላቸው",
+      "dialogDescription": "{{specialistName}} አጠቃላይ የምናባዊ ጤና ቡድናችን አካል ነው።",
+      "benefitsTitle": "በVirtualMD.app መለያ፣ የሚከተሉትን ያገኛሉ",
+      "benefits": {
+        "access": "ከ60 በላይ ልዩ AI የጤና አማካሪዎችን ማግኘት",
+        "personalized": "ለግል የተበጁ የጤና ምክሮች",
+        "saveConversations": "ያስቀምጡ እና ንግግሮችን ይቀጥሉ",
+        "uploadImages": "ምስሎችን ይስቀሉ ወይም በቀጥታ ከኮምፒዩተርዎ/ካሜራዎ ይውሰዱ",
+        "customTeam": "የራስዎን ብጁ የጤና ቡድን ይገንቡ",
+        "availability": "ለጤና ጥያቄዎች 24/7 መገኘት"
+      },
+      "buttons": {
+        "maybeLater": "ምናልባት በኋላ",
+        "registerNow": "አሁን ይመዝገቡ"
+      }
+    },
+    "registrationRequired": "መመዝገብ ያስፈልጋል",
+    "profileRegistrationRequired": "የተጠቃሚ መገለጫ፡ መመዝገብ ያስፈልጋል",
+    "landing": {
+      "title": "የ AI ጤና ማማከርን ይለማመዱ",
+      "subtitle": "አፋጣኝ የጤና ግንዛቤዎችን ከ AI የጤና ስፔሻሊስቶች ያግኙ - ሙሉ በሙሉ ነፃ፣ ምንም ምዝገባ አያስፈልግም",
+      "whatBringsYou": "ዛሬ ምን አመጣህ?",
+      "selectConcern": "የጋራ ስጋትን ይምረጡ ወይም የራስዎን ይግለጹ",
+      "customConcernPlaceholder": "ወይም የእርስዎን የጤና ስጋት በራስዎ ቃላት ይግለጹ...",
+      "startConsultation": "ነፃ ምክክር ይጀምሩ",
+      "experienceIncludes": "ነፃ የእንግዳ ተሞክሮ የሚከተሉትን ያጠቃልላል",
+      "includes": {
+        "messages": "ከ AI የጤና ባለሙያዎች ጋር 10 መልዕክቶች",
+        "time": "15 ደቂቃዎች የምክክር ጊዜ",
+        "insights": "የባለሙያ የጤና ግንዛቤዎች እና መመሪያዎች"
+      },
+      "personas": {
+        "defaultSpecialist": "AI ስፔሻሊስት",
+        "aileen": {
+          "name": "የጤና ባለሙያ አይሊን ካሮል",
+          "specialty": "የቤተሰብ ደህንነት"
+        },
+        "daniel": {
+          "name": "የጤና ባለሙያ ዳንኤል ጋርሺያ",
+          "specialty": "የውስጥ ደህንነት"
+        }
+      }
+    },
+    "chat": {
+      "header": "AI የጤና ምክክር",
+      "messagesLeft": "{{count}} መልዕክቶች ቀርተዋል።",
+      "timeLeft": "{{ጊዜ}} ቀርቷል።",
+      "startingConsultation": "ምክክርዎ እየተጀመረ ነው። የ AI የጤና ባለሙያ በቅርቡ ምላሽ ይሰጣል።",
+      "aiTyping": "የ AI ስፔሻሊስት እየተየበ ነው...",
+      "inputPlaceholder": "ምልክቶችዎን ይግለጹ ወይም ጥያቄ ይጠይቁ ..."
+    },
+    "expired": {
+      "title": "ምክክር ተጠናቋል",
+      "subtitle": "የ AI ጤና ማማከርን ኃይል አጣጥመሃል",
+      "messagesUsed": "ከ{{max}} መልዕክቶች ውስጥ {{used}} ተጠቅመሃል",
+      "continuePrompt": "ባልተገደበ መዳረሻ መቀጠል ይፈልጋሉ?",
+      "createAccount": "ነፃ መለያ ይፍጠሩ",
+      "signIn": "ይግቡ"
+    },
+    "errors": {
+      "startFailed": "ምክክር መጀመር አልተቻለም። እባክዎ እንደገና ይሞክሩ።",
+      "connectionLost": "ግንኙነት ጠፍቷል። እባክዎ ገጹን ያድሱ።",
+      "sendFailed": "መልዕክት መላክ አልተሳካም። እባክዎ እንደገና ይሞክሩ።"
+    },
+    "profile": {
+      "age": "25",
+      "gender": "ሴት",
+      "bloodType": "ኤ+",
+      "height": "5'6\"",
+      "weight": "130 ፓውንድ £",
+      "conditions": "የብረት እጥረት የደም ማነስ, መካከለኛ የመንፈስ ጭንቀት",
+      "medications": "Ferrous sulfate በየቀኑ 325mg, Sertraline 50mg በየቀኑ",
+      "allergies": "አንድም አይታወቅም።",
+      "healthInfo": "ላለፉት 6 ወራት ከድካም እና ዝቅተኛ ጉልበት ጋር እየተገናኘሁ ነው። የጤና ባለሙያዬ የብረት እጥረት የደም ማነስ እንዳለብኝ መረመረኝ እና የብረት ማሟያዎችን እወስድ ነበር። እኔም ከዲፕሬሽን ጋር እታገላለሁ እና ከ 3 ወራት በፊት ፀረ-ጭንቀት ጀመርኩ. ሁለቱንም ሁኔታዎች ስለማስተዳደር እና አጠቃላይ የሃይል ደረጃዬን ለማሻሻል ምክር እየፈለግሁ ነው።",
+      "emergencyContact": "ሳራ ጆንሰን (እህት) - (555) 123-4567"
+    },
+    "experience": {
+      "tryItOut": "ይሞክሩት.",
+      "noObligation": "ግዴታ የለበትም።",
+      "subtitle": "VirtualMD.app ለእርስዎ ምን እንደሚያደርግ አንድ smidgeon።"
+    }
+  },
+  "aiPrefix": "AI",
+  "dashboard": "ዳሽቦርድ",
+  "teamRecommendation": {
+    "submission": {
+      "primaryConcernsLabel": "ዛሬ ዋና ዋና የጤና ችግሮችዎ ምንድን ናቸው?",
+      "healthConditionsLabel": "የትኞቹ የጤና ሁኔታዎች ለእርስዎ ተፈጻሚ ይሆናሉ?"
+    },
+    "defaults": {
+      "noneSpecified": "ምንም አልተገለጸም።"
+    }
+  }
+}

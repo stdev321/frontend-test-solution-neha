@@ -1,0 +1,715 @@
+{
+  "actions": {
+    "startConsultation": "Mulai Konsultasi Kesehatan",
+    "endConsultation": "Akhiri Konsultasi",
+    "returnToConsultation": "Kembali ke Konsultasi",
+    "newConversation": "Mulai Percakapan Baru",
+    "saveConversation": "Simpan Percakapan",
+    "deleteConversation": "Hapus Percakapan",
+    "getSummary": "Dapatkan Ringkasan",
+    "getTranscript": "Dapatkan Transkrip",
+    "getDifferentialOpinion": "Dapatkan Pendapat Diferensial",
+    "exportChat": "Ekspor Obrolan",
+    "clearChat": "Hapus Obrolan"
+  },
+  "audio": {
+    "aiMuted": "AI Diredam",
+    "aiUnmuted": "Audio AI Aktif",
+    "playbackFailed": "Gagal memutar audio",
+    "generationFailed": "Gagal menghasilkan ucapan"
+  },
+  "sidebar": {
+    "personaList": "Pilih Tenaga Kesehatan Anda",
+    "conversations": "Percakapan Saya",
+    "profile": "Profil Saya",
+    "settings": "Pengaturan",
+    "manageTeam": "Kelola Tim",
+    "teamBuilder": "Pembangun Tim AI",
+    "encyclopedia": "Ensiklopedi",
+    "bio": "Biodata Profesional",
+    "clickForBio": "Klik untuk Bio",
+    "clickToSpeak": "Klik untuk berbicara dengan Penasihat",
+    "summary": "Ringkasan Konsultasi",
+    "transcript": "Transkrip Percakapan",
+    "imageContext": "Konteks Gambar",
+    "newConversation": "Konsultasi Baru"
+  },
+  "tooltips": {
+    "audioOnlyRegistered": "Audio hanya tersedia untuk pengguna terdaftar."
+  },
+  "messages": {
+    "typeMessage": "Ketik pesan Anda di sini...",
+    "send": "Mengirim",
+    "thinking": "Pemikiran...",
+    "processing": "Pengolahan...",
+    "connecting": "Menghubungkan...",
+    "connected": "Terhubung",
+    "disconnected": "Terputus",
+    "typing": "{{name}} sedang mengetik...",
+    "messageError": "Gagal mengirim pesan",
+    "retryMessage": "Mencoba kembali",
+    "requestToSpeak": "Tolong izinkan saya berbicara dengan {{name}}",
+    "messageDeleted": "Pesan dihapus",
+    "systemMessage": "Pesan sistem"
+  },
+  "personas": {
+    "defaultName": "Pakar Kesehatan Aileen Carol",
+    "defaultSpecialty": "Spesialis Kesehatan",
+    "selectPersona": "Pilih Profesional Kesehatan",
+    "noPersonasAvailable": "Tidak ada tenaga kesehatan profesional yang tersedia",
+    "personaDetails": "Detail Profesional",
+    "specialization": "Spesialisasi",
+    "experience": "Pengalaman",
+    "education": "Pendidikan",
+    "certifications": "Sertifikasi",
+    "languages": "Bahasa",
+    "availableNow": "Tersedia Sekarang",
+    "loading": "Memuat profesional..."
+  },
+  "personaSearch": {
+    "placeholder": "Cari berdasarkan nama, spesialisasi, atau jelaskan gejala Anda (misalnya, sakit kepala, kecemasan)",
+    "selected": "Terpilih",
+    "noResults": "Tidak ada konsultan yang ditemukan untuk \"{{query}}\"",
+    "searchSuggestions": "Coba cari: sakit kepala, kecemasan, nyeri, tidur, diabetes, dll."
+  },
+  "configurator": {
+    "title": "Mulai Konsultasi Kesehatan Baru",
+    "subtitle": "Pilih dari Tim Kesehatan AI Anda",
+    "changeTeam": "Ganti Tim",
+    "starting": "Memulai...",
+    "startConsult": "Mulai Konsultasi",
+    "emptyTeam": "Tim Kesehatan AI Anda kosong",
+    "addSpecialists": "Tambahkan spesialis ke tim Anda",
+    "noOtherSpecialists": "Tidak ada spesialis lain di tim Anda. Anda dapat mengobrol dengan Pakar Kesehatan AI Carol atau",
+    "addSpecialistsLink": "tambahkan spesialis ke tim Anda",
+    "defaultPersona": {
+      "name": "Pakar Kesehatan AI Aileen Carol",
+      "role": "Penasihat Kesehatan AI Utama Saya"
+    },
+    "carolNote": {
+      "title": "Catatan tentang Partisipasi Pakar Kesehatan AI Carol:",
+      "ruleA": "A. Pakar Kesehatan AI Carol disertakan jika 0 atau 2+ spesialis lain dipilih dari tim Anda.",
+      "ruleB": "B. Pakar Kesehatan AI Carol tidak disertakan jika hanya 1 spesialis lain yang dipilih dari tim Anda."
+    }
+  },
+  "conversations": {
+    "noConversations": "Belum ada percakapan",
+    "untitled": "Percakapan Tanpa Judul",
+    "today": "Hari ini",
+    "yesterday": "Kemarin",
+    "thisWeek": "Minggu Ini",
+    "lastWeek": "Minggu lalu",
+    "older": "Lebih tua",
+    "editTitle": "Edit Judul",
+    "saveTitle": "Simpan Judul",
+    "cancelEdit": "Batal Edit",
+    "deleteConsultation": "Hapus Konsultasi",
+    "clickToReturn": "Klik untuk kembali berkonsultasi",
+    "deleteConfirm": "Apakah Anda yakin ingin menghapus percakapan ini?",
+    "deleteSuccess": "Percakapan berhasil dihapus",
+    "loadingConversations": "Memuat percakapan...",
+    "conversationError": "Terjadi kesalahan saat memuat percakapan",
+    "consultationsTitle": "Konsultasi",
+    "lastUpdate": "Pembaruan Terakhir: {{date}}",
+    "consultationDefault": "Konsultasi {{id}}",
+    "noConsultationsYet": "Belum ada konsultasi.",
+    "noPastConsultations": "Tidak ditemukan konsultasi sebelumnya."
+  },
+  "participants": {
+    "noParticipants": "Tidak ada peserta yang ditampilkan.",
+    "inThisConsult": "Dalam Konsultasi Virtual ini:"
+  },
+  "team": {
+    "myTeam": "Tim Kesehatan Saya",
+    "addToTeam": "Tambahkan ke Tim",
+    "removeFromTeam": "Hapus dari Tim",
+    "teamFull": "Tim Anda sudah penuh",
+    "maxTeamSize": "Ukuran tim maksimum tercapai ({{max}} anggota)",
+    "currentTeam": "Anggota Tim Saat Ini",
+    "buildTeam": "Bangun Tim Anda",
+    "teamRecommendations": "Rekomendasi Tim AI",
+    "acceptRecommendation": "Terima Rekomendasi",
+    "getRecommendations": "Dapatkan Rekomendasi AI",
+    "teamBuilder": "Pembangun Tim AI",
+    "addTeamMembersInstruction": "Tambahkan anggota tim dengan mengklik kartu di sebelah kanan.",
+    "maxTeamSizeNote": "Maksimal lima penasihat AI dapat ditambahkan ke tim Anda. Anda dapat mengubah tim kapan saja, tetapi tidak selama konsultasi.",
+    "startConsultationWithTeam": "Mulai konsultasi dengan tim Anda",
+    "manageTeamTitle": "Kelola Tim Kesehatan AI Saya (Max {{max}} Spesialis)",
+    "removeSpecialistToUseTeamBuilder": "Harap hapus setidaknya satu spesialis untuk menggunakan rekomendasi pembangunan tim Pakar Kesehatan AI Carol",
+    "aileenCarolRecommendTeam": "Mintalah Pakar Kesehatan AI Carol untuk merekomendasikan tim kesehatan Anda",
+    "teamFullRemoveToUseBuilder": "Tim Anda sudah penuh. Harap hapus setidaknya satu spesialis untuk menggunakan pembangunan tim AI.",
+    "yourCurrentTeam": "Tim Anda Saat Ini ({{current}}/{{max}})",
+    "updatingTeam": "Memperbarui tim...",
+    "coordinator": "Koordinator",
+    "alwaysIncluded": "Selalu disertakan",
+    "specialist": "Spesialis",
+    "teamEmptyAddBelow": "Tim spesialis Anda kosong. Tambahkan spesialis di bawah ini.",
+    "teamFullRemoveMember": "Tim Anda sudah penuh (Maksimal {{maks}} spesialis). Silakan hapus anggota jika Anda ingin menambahkan spesialis lain.",
+    "addMembersClickCard": "Tambahkan anggota tim dengan mengklik kartu di area utama",
+    "teamLead": "Pemimpin Tim",
+    "currentMember": "Anggota Saat Ini",
+    "analyzingNeeds": "Menganalisis kebutuhan Anda...",
+    "emergencyDetected": "🚨 Darurat Terdeteksi",
+    "backToSafety": "Kembali ke Keamanan",
+    "recommendedTeam": "Tim Kesehatan yang Direkomendasikan",
+    "completeTeam": "Tim Lengkap Anda ({{count}} anggota)",
+    "teamLeadReason": "Koordinator kesehatan primer",
+    "keepingMembers": "Anggota Tim Saat Ini (Tetap)",
+    "newRecommendations": "Rekomendasi Baru",
+    "aileenCarolReasoning": "Alasan Pakar Kesehatan AI Carol:",
+    "noMatchingSpecialists": "Tidak ditemukan spesialis yang cocok untuk rekomendasi AI. Anda dapat mencoba lagi atau membentuk tim secara manual.",
+    "medicalDisclaimerTitle": "Saran Kesehatan & Kesejahteraan:",
+    "medicalDisclaimerText": "Platform ini menyediakan saran dan panduan kesehatan, tetapi tidak dapat menggantikan layanan kesehatan profesional. Selalu konsultasikan dengan tenaga kesehatan profesional yang berkualifikasi untuk keadaan darurat atau masalah kesehatan serius.",
+    "applyingTeam": "Tim yang Melamar...",
+    "acceptTeam": "Terima Tim Ini",
+    "tryDifferent": "Coba Rekomendasi yang Berbeda",
+    "cancel": "Membatalkan",
+    "myVirtualMDTeam": "Tim VirtualMD.app saya",
+    "availableSpecialists": "Spesialis Kesehatan AI yang Tersedia",
+    "clickToAddInstruction": "Klik kartu untuk ditambahkan ke tim Anda ({{current}}/{{max}} dipilih). Spesialis yang dipilih akan menampilkan lencana \"Terpilih\".",
+    "teamFullInstruction": "Tim Anda sudah penuh. Hapus satu anggota untuk menambahkan spesialis lain.",
+    "selected": "Terpilih",
+    "teamFullBadge": "Tim Penuh",
+    "allSpecialistsAdded": "Semua spesialis yang tersedia telah ditambahkan ke tim Anda.",
+    "otherSpecialists": "Spesialis Lainnya",
+    "specialistsCount": "{{count}} spesialis",
+    "startTeamConsult": "Mulai Konsultasi Tim",
+    "starting": "Memulai...",
+    "myAIHealthTeam": "Tim Kesehatan AI Saya",
+    "addMembersInstruction": "Tambahkan anggota tim dengan mengklik kartu di sebelah kanan."
+  },
+  "specialistCategories": {
+    "diabetesBloodSugar": "Diabetes dan Gula Darah",
+    "weightManagement": "Manajemen Berat Badan",
+    "mentalHealthStress": "Kesehatan Mental & Stres",
+    "cancerSupport": "Dukungan Kanker",
+    "heartHealth": "Kesehatan Jantung",
+    "painManagement": "Manajemen Nyeri",
+    "digestiveIssues": "Masalah Pencernaan",
+    "sleepProblems": "Masalah Tidur",
+    "skinProblems": "Masalah Kulit",
+    "womensHealth": "Kesehatan Wanita",
+    "childrensHealth": "Kesehatan Anak",
+    "agingSeniorHealth": "Penuaan & Kesehatan Senior",
+    "nutritionDiet": "Nutrisi & Diet",
+    "allergiesImmuneSystem": "Alergi & Sistem Kekebalan Tubuh",
+    "breathingLungIssues": "Masalah Pernapasan & Paru-paru",
+    "sportsFitnessInjuries": "Cedera Olahraga & Kebugaran",
+    "easternAlternativeMedicine": "Kesehatan Timur & Alternatif",
+    "cosmeticBeautyMedicine": "Kosmetik & Kecantikan Kesehatan",
+    "anxietyHelp": "Bantuan Kecemasan",
+    "medicationPharmacy": "Obat & Farmasi",
+    "primaryCareGeneralHealth": "Perawatan Primer & Kesehatan Umum",
+    "medicalSpecialties": "Spesialisasi Kesehatan & Kebugaran"
+  },
+  "dialogs": {
+    "exitConsultation": "Konsultasi Keluar",
+    "exitMessage": "Apakah Anda yakin ingin keluar dari konsultasi ini?",
+    "saveAndExit": "Simpan & Keluar",
+    "exitWithoutSaving": "Keluar Tanpa Menyimpan",
+    "cancel": "Membatalkan",
+    "confirm": "Mengonfirmasi",
+    "logout": "Keluar",
+    "logoutMessage": "Anda sedang dalam konsultasi. Keluar akan mengakhiri konsultasi. Apa yang ingin Anda lakukan?",
+    "deleteConversation": "Hapus Percakapan",
+    "deleteMessage": "Tindakan ini tidak dapat dibatalkan. Apakah Anda yakin?",
+    "summarizeFirst": "Apakah Anda ingin mendapatkan ringkasan sebelum keluar?",
+    "summarizing": "Membuat ringkasan...",
+    "summaryGenerated": "Ringkasan berhasil dibuat",
+    "doneAlready": "Sudah selesai?",
+    "doneAlreadyMessage": "Kami siap membantu kapan pun Anda membutuhkan. Sampai saat itu tiba, tetaplah sehat dan bahagia!",
+    "doneAlreadySignature": "Kita semua (manusia dan AI) di VirtualMD.app",
+    "exitConsultationButton": "Konsultasi Keluar",
+    "editTitle": "Edit Judul Percakapan",
+    "conversationTitleLabel": "Judul Percakapan",
+    "save": "Menyimpan",
+    "deleteTitle": "Hapus Percakapan",
+    "deleteConfirmation": "Apakah Anda yakin ingin menghapus percakapan berjudul \"{{title}}\"?",
+    "delete": "Menghapus",
+    "multiDeleteTitle": "Hapus Konsultasi yang Dipilih",
+    "multiDeleteConfirmation": "Yakin ingin menghapus {{count}} konsultasi yang dipilih? Tindakan ini tidak dapat dibatalkan.",
+    "deleteSelected": "Hapus yang Dipilih",
+    "addSpecialistTitle": "Tambahkan Spesialis ke Obrolan",
+    "addSpecialistError": "Tidak dapat memuat penasihat Anda.",
+    "noAdvisersToAdd": "Semua Penasihat Kesehatan AI yang Anda pilih sudah ada dalam obrolan ini, atau daftar Anda kosong (tidak termasuk peserta saat ini).",
+    "longRecording": {
+      "title": "Rekaman Panjang Dijeda",
+      "message": "Kami tidak bisa merekam lebih dari 30 detik tanpa mengirimkannya. Apa yang ingin Anda lakukan?",
+      "delete": "Menghapus",
+      "transcribeToText": "Transkripsikan ke teks",
+      "transcribeAndSend": "Transkripsi & kirim"
+    },
+    "finishConsultationTitle": "Selesai Konsultasi?",
+    "generatingSummary": "Harap tunggu sementara kami membuat ringkasan konsultasi Anda...",
+    "finishConsultationMessage": "Ini akan mengakhiri sesi obrolan yang sedang aktif. Yakin?",
+    "summarizeAndFinish": "Ringkas & Selesaikan",
+    "leaveWithoutSummarizing": "Tinggalkan Tanpa Merangkum",
+    "summarize": "Meringkaskan",
+    "moreInfoTitle": "Diperlukan Informasi Lebih Lanjut",
+    "moreInfoMessage": "Percakapan ini terlalu singkat untuk menghasilkan ringkasan yang bermakna atau opini yang berbeda. Silakan lanjutkan diskusi hingga Anda memiliki setidaknya 150 kata konten percakapan.",
+    "ok": "OKE",
+    "deleteSuccessTitle": "Percakapan Dihapus",
+    "deleteSuccessMessage": "Percakapan Anda telah berhasil dihapus.",
+    "logoutTitle": "Kami turut prihatin melihat kepergianmu",
+    "aiHealthSpecialist": "Spesialis AI kesehatan dan kebugaran utama Anda",
+    "aileenCarol": "Pakar Kesehatan AI Carol",
+    "aiHealthAssistant": "Asisten Kesehatan AI",
+    "deleteAndExit": "Hapus & Keluar",
+    "summaryTitle": "Ringkasan Konsultasi",
+    "consultationTitle": "Konsultasi VirtualMD: {{title}}",
+    "summaryUnavailable": "Ringkasan sedang dibuat atau tidak tersedia.",
+    "print": "Mencetak",
+    "copy": "Menyalin",
+    "close": "Menutup",
+    "shortConv": {
+      "title": "Percakapan Berakhir",
+      "messageLine1": "Percakapan telah berakhir. Terlalu singkat untuk disimpan, tetapi akan segera datang lagi.",
+      "messageLine2": "Sampai saat itu, tetaplah sehat dan berbahagia."
+    }
+  },
+  "errors": {
+    "connectionError": "Koneksi terputus. Silakan periksa koneksi internet Anda.",
+    "serverError": "Server error. Silakan coba lagi nanti.",
+    "authenticationError": "Otentikasi gagal. Silakan masuk lagi.",
+    "messageFailedToSend": "Pesan gagal terkirim",
+    "loadingFailed": "Gagal memuat konten",
+    "personaUnavailable": "Tenaga kesehatan ini saat ini tidak tersedia",
+    "conversationNotFound": "Percakapan tidak ditemukan",
+    "permissionDenied": "Anda tidak memiliki izin untuk mengakses percakapan ini",
+    "failedToLogin": "Gagal masuk.",
+    "failedToRegister": "Gagal mendaftar.",
+    "failedToLogout": "Gagal keluar.",
+    "emailAlreadyTaken": "Email ini sudah digunakan. Silakan coba email lain atau masuk.",
+    "anErrorOccurred": "Terjadi kesalahan.",
+    "selectImageFile": "Silakan pilih berkas gambar.",
+    "failedToSaveProfile": "Gagal menyimpan profil. Silakan coba lagi.",
+    "teamIsFull": "Tim Anda sudah penuh (Maksimal {{maks}} spesialis). Silakan hapus anggota jika Anda ingin menambahkan spesialis lain.",
+    "selectOneSpecialist": "Silakan pilih hanya satu spesialis untuk konsultasi pribadi.",
+    "contactErrorMessage": "Terjadi kesalahan saat mengirim pesan Anda. Silakan coba lagi nanti atau",
+    "contactDirectlyAt": "Anda juga dapat mengirim email langsung kepada kami di info@virtualmd.app"
+  },
+  "welcome": {
+    "title": "Selamat datang di VirtualMD.app",
+    "subtitle": "Mulailah konsultasi kesehatan pribadi Anda",
+    "description": "Pilih dari tim penasihat kesehatan bertenaga AI kami untuk mendapatkan wawasan dan panduan kesehatan yang dipersonalisasi.",
+    "getStarted": "Memulai",
+    "chooseSpecialist": "Pilih Spesialis Anda",
+    "startWithTeam": "Mulailah dengan Tim Saya",
+    "howItWorks": "Cara Kerjanya",
+    "aileenCarolName": "Pakar Kesehatan AI Aileen Carol",
+    "danielGarciaName": "Pakar Kesehatan AI Daniel Garcia",
+    "greeting": "Halo, {{username}}. Senang bertemu Anda! Tim VirtualMD Anda siap membantu 24/7...",
+    "startTeamConsultation": "Mulai Konsultasi Tim",
+    "configureNewChat": "Konfigurasikan Obrolan Baru",
+    "encyclopedia": "Ensiklopedia VirtualMD.app",
+    "myAIHealthTeam": "Tim Kesehatan AI Saya",
+    "aileenCarolIntro": "Halo, saya Pakar Kesehatan AI, Aileen Carol. Ada yang bisa saya bantu hari ini?",
+    "persona_welcome_message": "Halo, saya di sini untuk membantu kebutuhan kesehatan dan kebugaran Anda. Ada yang bisa saya bantu hari ini?"
+  },
+  "imageUpload": {
+    "dragAndDrop": "Seret dan letakkan gambar di sini, atau klik untuk memilih",
+    "supportedFormats": "Format yang didukung: JPG, PNG, GIF",
+    "maxSize": "Ukuran maksimum: {{size}}MB",
+    "uploadSuccess": "Gambar berhasil diunggah",
+    "uploadError": "Gagal mengunggah gambar",
+    "processing": "Memproses gambar...",
+    "removeImage": "Hapus gambar",
+    "addToContext": "Tambahkan ke konteks percakapan"
+  },
+  "voice": {
+    "startRecording": "Mulai merekam suara",
+    "stopRecording": "Berhenti merekam",
+    "recording": "Rekaman...",
+    "processingSpeech": "Memproses ucapan...",
+    "speechToText": "Mengubah ucapan menjadi teks...",
+    "noSpeechDetected": "Tidak ada ucapan yang terdeteksi",
+    "microphoneError": "Kesalahan akses mikrofon",
+    "unsupportedBrowser": "Rekaman suara tidak didukung di browser ini"
+  },
+  "summary": {
+    "title": "Ringkasan Konsultasi",
+    "keyPoints": "Poin-Poin Utama",
+    "recommendations": "Rekomendasi",
+    "nextSteps": "Langkah Selanjutnya",
+    "followUp": "Menindaklanjuti",
+    "generating": "Membuat ringkasan...",
+    "noSummary": "Tidak ada ringkasan yang tersedia",
+    "summaryError": "Gagal membuat ringkasan",
+    "downloadSummary": "Unduh Ringkasan",
+    "emailSummary": "Ringkasan Email",
+    "return": "Kembali",
+    "transcript": "Salinan",
+    "print": "Mencetak",
+    "copy": "Menyalin",
+    "copyError": "Gagal menyalin",
+    "notGenerated": "Ringkasan tidak dapat dibuat."
+  },
+  "status": {
+    "online": "On line",
+    "offline": "Luring",
+    "away": "Jauh",
+    "busy": "Sibuk",
+    "available": "Tersedia",
+    "unavailable": "Tidak tersedia",
+    "lastSeen": "Terakhir terlihat {{time}}"
+  },
+  "mobileTeamBuilder": {
+    "title": {
+      "yourTeam": "Tim Anda",
+      "teamBuilder": "Pembangun Tim AI"
+    },
+    "carolMessages": {
+      "teamFull": "{{name}}, tim Anda sudah penuh! Anda dapat memulai konsultasi dengan tim Anda saat ini atau menghapus beberapa anggota untuk mendapatkan rekomendasi baru.",
+      "helpBuild": "{{name}}, saya ingin sekali membantu Anda membangun tim kesehatan yang sempurna! Ceritakan apa yang membawa Anda ke sini hari ini."
+    },
+    "carolGreeting": {
+      "teamFull": "Hai {{name}}! Tim Anda sudah penuh.",
+      "helpBuild": "Hai {{name}}! Saya akan membantu Anda membangun tim kesehatan yang sempurna."
+    },
+    "currentTeam": "Tim Saat Ini ({{current}}/{{max}})",
+    "aiSpecialist": "AI {{nama}}",
+    "specialist": "Spesialis",
+    "startConversation": "Mulai Percakapan dengan Tim Ini",
+    "tellUsWhy": "Beritahu kami mengapa Anda ada di sini hari ini sehingga kami dapat menciptakan tim kesehatan yang sempurna untuk Anda.",
+    "placeholder": "Jelaskan masalah kesehatan Anda, gejala, atau hal yang Anda perlukan bantuannya...",
+    "questionnaire": {
+      "question": "Apa yang membawa Anda ke sini hari ini?",
+      "keepExisting": "Mempertahankan anggota tim yang ada?",
+      "existingMembers": "Anggota tim yang ada",
+      "currentSize": "Ukuran tim saat ini",
+      "availableSpots": "Tempat yang tersedia untuk spesialis baru",
+      "maxRecommendations": "Rekomendasi maksimum yang diizinkan"
+    }
+  },
+  "mobileNavigationTabs": {
+    "consultation": "Konsultasi",
+    "team": "Tim",
+    "history": "Sejarah",
+    "encyclopedia": "Ensiklopedi"
+  },
+  "autoListening": {
+    "turnOn": "Aktifkan pendengaran otomatis",
+    "turnOff": "Matikan pendengaran otomatis"
+  },
+  "speech": {
+    "processing": "Memproses ucapan",
+    "pauseListening": "Klik untuk Menjeda Mendengarkan",
+    "turnOnListening": "Klik untuk Mengaktifkan Pendengaran"
+  },
+  "help": {
+    "howDoesThisWork": "Bagaimana cara kerjanya?",
+    "chatControls": "Kontrol obrolan",
+    "enterToSend": "Masukkan atau ▷ untuk mengirim",
+    "shiftEnterToSpeak": "Shift+Enter atau 🎤/⏸ untuk berbicara/menjeda"
+  },
+  "fileUpload": {
+    "clickToUpload": "Klik untuk mengunggah file (Anda juga dapat memasukkan file ke dalam obrolan)"
+  },
+  "send": {
+    "transcribeAndSend": "Transkripsi dan kirim",
+    "sendMessage": "Kirim pesan"
+  },
+  "aileenCarol": {
+    "playAnalysis": "Analisis Pakar Kesehatan Carol",
+    "stopAnalysis": "Hentikan Analisis Pakar Kesehatan Carol"
+  },
+  "profile": {
+    "editProfile": "Edit Profil",
+    "saveChanges": "Simpan Perubahan",
+    "cancelEdits": "Batalkan Pengeditan",
+    "changePhoto": "Ganti Foto",
+    "removePhoto": "Hapus Foto",
+    "healthInfoTooltip": "Silakan tulis atau daftarkan obat-obatan, diagnosis, suplemen, dan hal-hal penting lainnya yang berkaitan dengan kesehatan Anda.",
+    "loadingProfile": "Memuat profil...",
+    "errorLoadingProfile": "Terjadi kesalahan saat memuat profil",
+    "noProfileData": "Tidak ada data profil tersedia.",
+    "myProfile": "Profil Saya",
+    "myAccount": "Akun Saya",
+    "displayName": "Nama Tampilan",
+    "fullName": "Nama Lengkap",
+    "email": "E-mail",
+    "emailCannotBeChanged": "Email tidak dapat diubah.",
+    "keyHealthInfo": "Informasi Kesehatan Utama",
+    "noHealthInfoRecorded": "Tidak ada informasi kesehatan utama yang tercatat.",
+    "healthInfoPlaceholder": "Cantumkan obat-obatan, diagnosis, suplemen, dll.",
+    "age": "Usia",
+    "gender": "Jenis kelamin"
+  },
+  "imageContext": {
+    "clearZoom": "Hapus pilihan zoom ini",
+    "cropPromotionError": "Gagal mengirim dan menambahkan gambar yang diperbesar. Periksa konsol.",
+    "startConversationToSend": "Mulai percakapan untuk mengirim zoom",
+    "sendZoomToTeam": "Kirimkan zoom ini ke tim",
+    "noActiveZoom": "Tidak ada zoom aktif yang dapat dikirim. Silakan pilih area pada gambar.",
+    "functionsUnavailable": "Tidak dapat mengirim zoom: Fungsi penting tidak tersedia.",
+    "noImages": "Tidak ada gambar dalam konteks. Unggah gambar untuk memulai.",
+    "allHidden": "Semua gambar saat ini tersembunyi. Klik thumbnail di header untuk menampilkan gambar.",
+    "showFirst": "Tampilkan Gambar Pertama",
+    "imageDisplay": "Tampilan Gambar ({{ditampilkan}} ditampilkan / {{total}} total)",
+    "hideImage": "Sembunyikan gambar",
+    "showImage": "Tampilkan gambar",
+    "zoomPreview": "Pratinjau Zoom",
+    "sendToTeam": "Kirim ke Tim",
+    "dragToZoom": "Klik dan seret pada gambar di atas untuk memilih area zoom baru."
+  },
+  "mobileChat": {
+    "healthConsult": "Konsultasi Kesehatan",
+    "speakToAI": "Bicaralah dengan {{name}}",
+    "startConversation": "Mulailah percakapan Anda di bawah ini",
+    "requestToSpeakToAI": "Saya ingin berbicara dengan {{name}}"
+  },
+  "mobileWelcome": {
+    "greeting": "Hai!",
+    "aileenCarolIntro": "Saya AI Aileen Carol, spesialis kesehatan utama Anda. Saya ingin sekali mengenal Anda. Saya bertanggung jawab atas tim pakar kesehatan AI VirtualMD.app Anda. Kami siap membantu 24/7...",
+    "startConsultation": "Mulai Konsultasi Kesehatan",
+    "myTeam": "Tim Saya",
+    "aiTeamBuilder": "Pakar Kesehatan AI Carol membantu Anda memilih tim Anda",
+    "priorConsultations": "Konsultasi Sebelumnya",
+    "encyclopedia": "Ensiklopedi",
+    "myProfile": "Profil Saya",
+    "logout": "Keluar",
+    "labels": {
+      "chat": "Mengobrol",
+      "advisory": "Penasehat",
+      "encyclopedia": "Ensiklopedi",
+      "myTeam": "Tim Saya",
+      "history": "Sejarah",
+      "myProfile": "Profil Saya"
+    }
+  },
+  "mobileInput": {
+    "listeningPlaceholder": "Mendengarkan... bicara sekarang",
+    "typePlaceholder": "Ketik pesan...",
+    "clear": "Jernih",
+    "needHelp": "Butuh Bantuan?",
+    "takePhoto": "Ambil foto"
+  },
+  "mobileConsultations": {
+    "title": "Konsultasi Sebelumnya",
+    "selectAll": "Pilih Semua",
+    "deselectAll": "Batalkan Pilihan Semua",
+    "deleteSelected": "Hapus yang Dipilih ({{count}})",
+    "consultationDefault": "Konsultasi {{id}}",
+    "lastUpdate": "Pembaruan Terakhir: {{date}}",
+    "noUpdates": "Belum ada pembaruan",
+    "editTitle": "Edit Judul Percakapan",
+    "enterNewTitle": "Masukkan judul baru:",
+    "noConsultations": "Belum ada konsultasi."
+  },
+  "mobileProfile": {
+    "title": "Profil Saya",
+    "saveError": "Gagal menyimpan profil",
+    "saveSuccess": "Profil diperbarui!",
+    "changePhoto": "Ganti foto",
+    "displayName": "Nama Tampilan",
+    "fullName": "Nama Lengkap",
+    "email": "E-mail",
+    "keyHealthInfo": "Informasi Kesehatan Utama",
+    "logout": "Keluar"
+  },
+  "mobileNavigation": {
+    "consultation": "Konsultasi",
+    "team": "Tim",
+    "history": "Sejarah",
+    "exitConsultation": "Konsultasi Keluar",
+    "myTeam": "Tim Saya",
+    "summary": "Ringkasan",
+    "differentialOpinion": "Pendapat Diferensial",
+    "transcript": "Salinan",
+    "encyclopedia": "Ensiklopedi",
+    "controls": "Kontrol",
+    "aiSpeaker": "Pembicara AI",
+    "enabled": "Diaktifkan",
+    "disabled": "Dengan disabilitas",
+    "camera": "Kamera",
+    "comingSoon": "Segera hadir",
+    "menu": "Menu"
+  },
+  "bioPanel": {
+    "loadingBio": "Memuat bio...",
+    "noBiography": "Tidak ada biografi yang tersedia.",
+    "returnToPanel": "Kembali ke Panel"
+  },
+  "sidebarHeader": {
+    "panel": "Panel",
+    "summary": "Ringkasan",
+    "differentialOpinion": "Pendapat Diferensial",
+    "transcript": "Salinan",
+    "encyclopedia": "Ensiklopedia VirtualMD.app",
+    "endConversation": "Akhiri Percakapan",
+    "startChatWithTeam": "Mulai Obrolan dengan Tim",
+    "configureNewChat": "Konfigurasikan Obrolan Baru",
+    "myAIHealthTeam": "Tim Kesehatan AI Saya",
+    "aileenCarolTeamBuilder": "Pakar Kesehatan Carol membantu membangun tim Anda.",
+    "savedConsultations": "Konsultasi Tersimpan",
+    "myProfile": "Profil Saya",
+    "imageNumber": "Gambar {{angka}}"
+  },
+  "differentialOpinion": {
+    "noOpinionAvailable": "Tidak ada pendapat berbeda yang tersedia."
+  },
+  "encyclopedia": {
+    "title": "Ensiklopedia VirtualMD.app",
+    "loadingMessage": "Kami sedang melakukan riset mendalam tentang topik ini untuk Anda. Mohon tunggu beberapa detik untuk jawaban Anda.",
+    "longWaitMessage": "Mungkin memakan waktu beberapa menit untuk mendapatkan jawaban terperinci.",
+    "searchButton": "Pencarian Ensiklopedia",
+    "return": "Kembali",
+    "print": {
+      "button": "Mencetak",
+      "title": "Hasil Pencarian Ensiklopedia",
+      "subtitle": "Ensiklopedia VirtualMD.app"
+    },
+    "copy": "Menyalin",
+    "searchResult": "Hasil Pencarian Ensiklopedia",
+    "attribution": "Jawaban oleh VirtualMD.app",
+    "emptyState": "Masukkan kueri di atas untuk mencari di Ensiklopedia VirtualMD.app.",
+    "copySuccess": "Konten disalin ke papan klip!",
+    "copyError": "Gagal menyalin ke papan klip",
+    "generatingResponse": "Menghasilkan respons yang komprehensif...",
+    "genericError": "Terjadi kesalahan",
+    "translatingContent": "Menerjemahkan konten..."
+  },
+  "input": {
+    "typeOrSpeakPlaceholder": "Ketik atau ucapkan pesan Anda...\nTekan Enter atau klik ▷ untuk mengirim.",
+    "typePlaceholder": "Ketik pesan di sini...\nTekan Enter atau klik ▷ untuk mengirim.",
+    "transcribing": "Menyalin...",
+    "enterTextHere": "Masukkan teks di sini",
+    "startTypingMessage": "Mulailah mengetik pesan Anda di kotak di bawah ini untuk memulai konsultasi Anda."
+  },
+  "quickActions": {
+    "whatToDoButton": "Apa yang harus saya lakukan?",
+    "summaryButton": "Ringkasan",
+    "whatShouldIDo": "Berdasarkan semua yang telah kita diskusikan, apa yang harus saya lakukan sekarang? Mohon berikan rekomendasi yang jelas dan dapat ditindaklanjuti.",
+    "requestSummary": "Harap berikan ringkasan komprehensif percakapan kita sejauh ini, termasuk poin-poin utama yang dibahas, rekomendasi yang dibuat, dan langkah selanjutnya."
+  },
+  "upload": {
+    "uploading": "Mengunggah…"
+  },
+  "camera": {
+    "notSupported": "Akses kamera tidak didukung di browser ini",
+    "capturePhoto": "Ambil Foto",
+    "accessDenied": "Akses kamera ditolak. Harap izinkan akses kamera di pengaturan peramban Anda.",
+    "accessFailed": "Gagal mengakses kamera"
+  },
+  "microphone": {
+    "turnOn": "Nyalakan mikrofon",
+    "turnOff": "Matikan mikrofon"
+  },
+  "specialistPanel": {
+    "guidanceSingle": "Pilih satu Spesialis AI untuk konsultasi pribadi:",
+    "guidanceMulti": "Pakar Kesehatan AI, Carol, akan selalu disertakan. Pilih Penasihat Kesehatan AI lainnya:",
+    "startPrivateConsult": "Mulai Konsultasi Pribadi",
+    "startChat": "Mulai Obrolan",
+    "selectSingle": "Pilih Spesialis AI",
+    "selectMulti": "Pilih Penasihat Tambahan",
+    "warningSelectOne": "Silakan pilih hanya satu spesialis untuk konsultasi pribadi.",
+    "noSpecialistsAvailable": "Saat ini tidak ada spesialis AI yang tersedia untuk konsultasi pribadi.",
+    "noAdvisersAvailable": "Tidak ada Penasihat Kesehatan AI tambahan yang tersedia."
+  },
+  "sidebarFooter": {
+    "disclaimerText": "VirtualMD.app mengutamakan akurasi. Namun, layanan ini dan layanan berbasis AI lainnya dapat memberikan informasi yang salah. Selalu konsultasikan dengan tenaga kesehatan profesional yang berkualifikasi.",
+    "emergencyText": "Hubungi 911 untuk keadaan darurat medis.",
+    "moreInformation": "Informasi lebih lanjut"
+  },
+  "teamBuilder": {
+    "healthConditions": {
+      "options": {
+        "${key}": "{{kunci}}"
+      }
+    },
+    "medicinePreferences": {
+      "options": {
+        "${key}": "{{kunci}}"
+      }
+    }
+  },
+  "account": {
+    "title": "Pengaturan Akun",
+    "description": "Dari sini, Anda dapat menghapus akun VirtualMD.app Anda secara permanen. Tindakan ini akan menghapus profil dan semua konsultasi Anda.",
+    "deleteMyAccount": "Hapus Akun Saya",
+    "confirmDeleteTitle": "Hapus Akun",
+    "confirmDeleteText": "Tindakan ini tidak dapat dibatalkan. Semua informasi profil, konsultasi, dan berkas Anda akan dihapus secara permanen. Yakin ingin melanjutkan?",
+    "cancel": "Membatalkan",
+    "yesDelete": "Ya, Hapus"
+  },
+  "transcript": {
+    "noTranscript": "Tidak ada transkrip yang tersedia.",
+    "title": "Transkrip Konsultasi",
+    "returnToConversation": "Kembali ke Percakapan",
+    "print": "Mencetak",
+    "copy": "Menyalin",
+    "copyError": "Gagal menyalin",
+    "roleLabels": {
+      "patient": "Pengguna:",
+      "assistant": "Asisten:"
+    }
+  },
+  "mobileRouter": {
+    "teamRecommendations": "Rekomendasi Tim",
+    "myTeam": "Tim Saya",
+    "summary": "Ringkasan",
+    "differentialOpinion": "Pendapat Diferensial",
+    "transcript": "Salinan",
+    "encyclopedia": "Ensiklopedi",
+    "consultations": "Konsultasi",
+    "returnToChat": "Kembali ke Obrolan",
+    "pleaseLogIn": "Silakan Masuk",
+    "logInToView": "Masuk untuk melihat percakapan Anda atau memulai percakapan baru.",
+    "logIn": "Masuk",
+    "loadingSpecialists": "Memuat spesialis..."
+  },
+  "chat": {
+    "pleaseLogIn": "Silakan Masuk",
+    "logInToView": "Masuk untuk melihat percakapan Anda atau memulai percakapan baru."
+  },
+  "loginPage": {
+    "signIn": "Masuk"
+  },
+  "imageProcessing": {
+    "preset": "Prasetel",
+    "applyPreset": "Terapkan preset ke gambar yang difokuskan",
+    "process": "Proses",
+    "revertFocus": "Fokus kembali pada gambar asli",
+    "revert": "Kembali"
+  },
+  "guest": {
+    "consultation": "Konsultasi Tamu",
+    "topics": {
+      "child": {
+        "title": "Anak saya sakit",
+        "subtitle": "Perawatan anak ahli saat Anda sangat membutuhkannya",
+        "initialMessage": "Saya AI Aileen Carol, Penasihat Kesehatan Virtual Anda. Saya tahu betapa mengkhawatirkannya anak yang sakit. Beri tahu saya apa yang terjadi. Catatan: Saya AI, bukan manusia; saran saya mungkin salah—konfirmasikan dengan tenaga kesehatan profesional yang berkualifikasi."
+      },
+      "sleep": {
+        "title": "Saya tidak bisa tidur!",
+        "subtitle": "Pulihkan malam Anda, ubah hari-hari Anda",
+        "initialMessage": "Saya AI Aileen Carol, Penasihat Kesehatan Virtual Anda, bersama spesialis tidur AI Benjamin Stein (Psikiatri) dan AI Alice Chen (Neurologi). Bagikan tantangan tidur Anda agar kami dapat membantu. Catatan: Kami AI, bukan manusia; saran kami mungkin salah—konfirmasikan dengan tenaga kesehatan profesional (manusia) yang berkualifikasi."
+      },
+      "nutrition": {
+        "title": "Nutrisi untuk vitalitas",
+        "subtitle": "Tingkatkan energi, kesehatan, dan kesehatan seksual Anda melalui makanan",
+        "initialMessage": "Saya AI Aileen Carol, Penasihat Kesehatan Virtual Anda, bersama tim Anda - AI Angelica Fordham (nutrisi), AI Terapi Seks Rachel Levy, dan AI Herbalis Afrika Amina Okufur. Bagaimana perasaan Anda hari ini? Catatan: Kami AI, bukan manusia; saran mungkin salah—konfirmasikan dengan tenaga kesehatan profesional yang berkualifikasi."
+      }
+    },
+    "errors": {
+      "sessionFailed": "Gagal memulai sesi tamu"
+    },
+    "registrationRequired": "Diperlukan registrasi",
+    "uploadFeatures": {
+      "title": "Fitur Unggah Dokumen & Gambar",
+      "description": "Platform kami menawarkan kemampuan analisis dokumen dan gambar yang canggih di mana Anda dapat:",
+      "benefit1": "Unggah dokumen kesehatan, laporan lab, dan gambar",
+      "benefit2": "Perbesar area tertentu untuk analisis mendetail",
+      "benefit3": "Mintalah penasihat kesehatan AI kami mengevaluasi dan mendiskusikan dokumen Anda",
+      "benefit4": "Ambil foto langsung dari kamera Anda untuk konsultasi langsung",
+      "registeredOnly": "Fitur khusus ini tersedia untuk pengguna terdaftar."
+    }
+  },
+  "activeChat": {
+    "guestMode": {
+      "advisorsTitle": "Penasihat Kesehatan VirtualMD.app",
+      "registrationRequired": "Diperlukan registrasi"
+    }
+  },
+  "healthAdvisors": "Penasihat Kesehatan VirtualMD.app"
+}

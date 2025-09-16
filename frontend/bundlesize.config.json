@@ -1,0 +1,23 @@
+{
+  "files": [
+    {
+      "path": "./dist/assets/*.js",
+      "maxSize": "500 kB",
+      "compression": "gzip"
+    },
+    {
+      "path": "./dist/assets/*.css",
+      "maxSize": "100 kB",
+      "compression": "gzip"
+    },
+    {
+      "path": "./dist/**/*",
+      "maxSize": "2 MB",
+      "compression": "none"
+    }
+  ],
+  "ci": {
+    "trackBranches": ["main", "develop"],
+    "buildSha": true
+  }
+}

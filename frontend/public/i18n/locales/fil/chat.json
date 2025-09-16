@@ -1,0 +1,715 @@
+{
+  "actions": {
+    "startConsultation": "Simulan ang Health Consult",
+    "endConsultation": "Tapusin ang Konsultasyon",
+    "returnToConsultation": "Bumalik sa Konsultasyon",
+    "newConversation": "Magsimula ng Bagong Pag-uusap",
+    "saveConversation": "I-save ang Pag-uusap",
+    "deleteConversation": "Tanggalin ang Pag-uusap",
+    "getSummary": "Kumuha ng Buod",
+    "getTranscript": "Kumuha ng Transcript",
+    "getDifferentialOpinion": "Kumuha ng Pagkakaiba-iba ng Opinyon",
+    "exportChat": "I-export ang Chat",
+    "clearChat": "I-clear ang Chat"
+  },
+  "audio": {
+    "aiMuted": "Na-mute ang AI",
+    "aiUnmuted": "Naka-on ang AI Audio",
+    "playbackFailed": "Nabigong mag-play ng audio",
+    "generationFailed": "Nabigong bumuo ng speech"
+  },
+  "sidebar": {
+    "personaList": "Piliin ang Iyong Health Professional",
+    "conversations": "Aking Mga Pag-uusap",
+    "profile": "Aking Profile",
+    "settings": "Mga setting",
+    "manageTeam": "Pamahalaan ang Koponan",
+    "teamBuilder": "AI Team Builder",
+    "encyclopedia": "Encyclopedia",
+    "bio": "Propesyonal na Bio",
+    "clickForBio": "I-click para sa Bio",
+    "clickToSpeak": "I-click upang makipag-usap sa Advisor",
+    "summary": "Buod ng Konsultasyon",
+    "transcript": "Transcript ng Pag-uusap",
+    "imageContext": "Konteksto ng Larawan",
+    "newConversation": "Bagong Konsultasyon"
+  },
+  "tooltips": {
+    "audioOnlyRegistered": "Available lang ang audio para sa mga rehistradong user."
+  },
+  "messages": {
+    "typeMessage": "I-type ang iyong mensahe dito...",
+    "send": "Ipadala",
+    "thinking": "Iniisip...",
+    "processing": "Pinoproseso...",
+    "connecting": "Kumokonekta...",
+    "connected": "Nakakonekta",
+    "disconnected": "Nadiskonekta",
+    "typing": "Si {{name}} ay nagta-type...",
+    "messageError": "Nabigong magpadala ng mensahe",
+    "retryMessage": "Subukan muli",
+    "requestToSpeak": "Mangyaring hayaan akong makausap si {{name}}",
+    "messageDeleted": "Tinanggal ang mensahe",
+    "systemMessage": "Mensahe ng system"
+  },
+  "personas": {
+    "defaultName": "Health Expert Aileen Carol",
+    "defaultSpecialty": "Espesyalista sa Kalusugan",
+    "selectPersona": "Pumili ng isang Health Professional",
+    "noPersonasAvailable": "Walang available na mga propesyonal sa kalusugan",
+    "personaDetails": "Mga Detalye ng Propesyonal",
+    "specialization": "Espesyalisasyon",
+    "experience": "Karanasan",
+    "education": "Edukasyon",
+    "certifications": "Mga Sertipikasyon",
+    "languages": "Mga wika",
+    "availableNow": "Magagamit na",
+    "loading": "Naglo-load ng mga propesyonal..."
+  },
+  "personaSearch": {
+    "placeholder": "Maghanap ayon sa pangalan, espesyalidad, o ilarawan ang iyong mga sintomas (hal., pananakit ng ulo, pagkabalisa)",
+    "selected": "Napili",
+    "noResults": "Walang nakitang consultant para sa \"{{query}}\"",
+    "searchSuggestions": "Subukang maghanap ng: sakit ng ulo, pagkabalisa, pananakit, pagtulog, diabetes, atbp."
+  },
+  "configurator": {
+    "title": "Magsimula ng Bagong Konsultasyon sa Kalusugan",
+    "subtitle": "Pumili mula sa iyong AI Health Team",
+    "changeTeam": "Baguhin ang Koponan",
+    "starting": "Nagsisimula...",
+    "startConsult": "Simulan ang Consult",
+    "emptyTeam": "Walang laman ang iyong AI Health Team",
+    "addSpecialists": "Magdagdag ng mga espesyalista sa iyong koponan",
+    "noOtherSpecialists": "Walang ibang mga espesyalista sa iyong koponan. Maaari kang makipag-chat kay AI Health Expert Carol o",
+    "addSpecialistsLink": "magdagdag ng mga espesyalista sa iyong koponan",
+    "defaultPersona": {
+      "name": "Ang Dalubhasang Pangkalusugan ng AI na si Aileen Carol",
+      "role": "Aking Pangunahing AI Health Adviser"
+    },
+    "carolNote": {
+      "title": "Paalala sa Pakikilahok ni AI Health Expert Carol:",
+      "ruleA": "A. Kasama ang AI Health Expert Carol kung 0 o 2+ pang mga espesyalista ang pipiliin mula sa iyong koponan.",
+      "ruleB": "B. Hindi kasama ang AI Health Expert Carol kung 1 pang espesyalista lang ang pipiliin mula sa iyong team."
+    }
+  },
+  "conversations": {
+    "noConversations": "Wala pang usapan",
+    "untitled": "Walang Pamagat na Pag-uusap",
+    "today": "Ngayong araw",
+    "yesterday": "Kahapon",
+    "thisWeek": "Ngayong Linggo",
+    "lastWeek": "Noong nakaraang Linggo",
+    "older": "Mas matanda",
+    "editTitle": "I-edit ang Pamagat",
+    "saveTitle": "I-save ang Pamagat",
+    "cancelEdit": "Kanselahin ang Pag-edit",
+    "deleteConsultation": "Tanggalin ang Konsultasyon",
+    "clickToReturn": "I-click para bumalik para kumonsulta",
+    "deleteConfirm": "Sigurado ka bang gusto mong tanggalin ang pag-uusap na ito?",
+    "deleteSuccess": "Matagumpay na natanggal ang pag-uusap",
+    "loadingConversations": "Naglo-load ng mga pag-uusap...",
+    "conversationError": "Error sa paglo-load ng pag-uusap",
+    "consultationsTitle": "Mga konsultasyon",
+    "lastUpdate": "Huling Update: {{date}}",
+    "consultationDefault": "Konsultasyon {{id}}",
+    "noConsultationsYet": "Wala pang konsultasyon.",
+    "noPastConsultations": "Walang nakitang mga nakaraang konsultasyon."
+  },
+  "participants": {
+    "noParticipants": "Walang ipapakitang kalahok.",
+    "inThisConsult": "Sa Virtual Consult na ito:"
+  },
+  "team": {
+    "myTeam": "Aking Health Team",
+    "addToTeam": "Idagdag sa Koponan",
+    "removeFromTeam": "Alisin sa Koponan",
+    "teamFull": "Puno na ang iyong koponan",
+    "maxTeamSize": "Naabot ang maximum na laki ng koponan ({{max}} na miyembro)",
+    "currentTeam": "Kasalukuyang Mga Miyembro ng Koponan",
+    "buildTeam": "Buuin ang Iyong Koponan",
+    "teamRecommendations": "Mga Rekomendasyon ng AI Team",
+    "acceptRecommendation": "Tanggapin ang Rekomendasyon",
+    "getRecommendations": "Kumuha ng Mga Rekomendasyon sa AI",
+    "teamBuilder": "AI Team Builder",
+    "addTeamMembersInstruction": "Magdagdag ng mga miyembro ng koponan sa pamamagitan ng pag-click sa isang card sa kanan.",
+    "maxTeamSizeNote": "Maximum na limang AI adviser ang maaaring maidagdag sa iyong team. Maaari mong baguhin ang iyong koponan anumang oras, ngunit hindi sa panahon ng isang konsultasyon.",
+    "startConsultationWithTeam": "Simulan ang konsultasyon sa iyong koponan",
+    "manageTeamTitle": "Pamahalaan ang Aking AI Health Team (Max {{max}} Specialists)",
+    "removeSpecialistToUseTeamBuilder": "Mangyaring mag-alis ng kahit isang espesyalista para gamitin ang mga rekomendasyon sa pagbuo ng koponan ng AI Health Expert Carol",
+    "aileenCarolRecommendTeam": "Iparekomenda sa AI Health Expert na si Carol ang iyong pangkat ng kalusugan",
+    "teamFullRemoveToUseBuilder": "Puno na ang iyong koponan. Mangyaring mag-alis ng kahit isang espesyalista para gumamit ng AI team building.",
+    "yourCurrentTeam": "Ang Iyong Kasalukuyang Koponan ({{current}}/{{max}})",
+    "updatingTeam": "Ina-update ang koponan...",
+    "coordinator": "Coordinator",
+    "alwaysIncluded": "Laging kasama",
+    "specialist": "Espesyalista",
+    "teamEmptyAddBelow": "Walang laman ang iyong pangkat ng espesyalista. Magdagdag ng mga espesyalista sa ibaba.",
+    "teamFullRemoveMember": "Puno na ang iyong koponan (Max {{max}} na mga espesyalista). Mangyaring mag-alis ng miyembro kung gusto mong magdagdag ng ibang espesyalista.",
+    "addMembersClickCard": "Magdagdag ng mga miyembro ng koponan sa pamamagitan ng pag-click sa isang card sa pangunahing lugar",
+    "teamLead": "Pinuno ng Koponan",
+    "currentMember": "Kasalukuyang Miyembro",
+    "analyzingNeeds": "Sinusuri ang iyong mga pangangailangan...",
+    "emergencyDetected": "🚨 Nakita ang Emergency",
+    "backToSafety": "Bumalik sa Kaligtasan",
+    "recommendedTeam": "Inirerekomendang Health Team",
+    "completeTeam": "Ang Iyong Kumpletong Koponan ({{count}} na mga miyembro)",
+    "teamLeadReason": "Pangunahing tagapag-ugnay ng kalusugan",
+    "keepingMembers": "Kasalukuyang Mga Miyembro ng Koponan (Pinapanatili)",
+    "newRecommendations": "Mga Bagong Rekomendasyon",
+    "aileenCarolReasoning": "Ang Pangangatwiran ni AI Health Expert Carol:",
+    "noMatchingSpecialists": "Walang nakitang katugmang mga espesyalista para sa mga rekomendasyon ng AI. Maaari mong subukang muli o manu-manong buuin ang iyong koponan.",
+    "medicalDisclaimerTitle": "Payo sa Kalusugan at Kaayusan:",
+    "medicalDisclaimerText": "Nagbibigay ang platform na ito ng payo at gabay sa kalusugan ngunit hindi mapapalitan ang propesyonal na pangangalagang pangkalusugan. Palaging kumunsulta sa mga kwalipikadong propesyonal sa pangangalagang pangkalusugan para sa mga emerhensiya o seryosong alalahanin sa kalusugan.",
+    "applyingTeam": "Nag-aaplay ng Koponan...",
+    "acceptTeam": "Tanggapin ang Koponang Ito",
+    "tryDifferent": "Subukan ang Iba't Ibang Rekomendasyon",
+    "cancel": "Kanselahin",
+    "myVirtualMDTeam": "Aking VirtualMD.app Team",
+    "availableSpecialists": "Available ang mga AI Health Specialist",
+    "clickToAddInstruction": "Mag-click sa isang card upang idagdag sa iyong koponan ({{current}}/{{max}} ang napili). Ang mga piling espesyalista ay nagpapakita ng isang \"Pinili\" na badge.",
+    "teamFullInstruction": "Puno na ang team mo. Mag-alis ng miyembro para magdagdag ng ibang espesyalista.",
+    "selected": "Napili",
+    "teamFullBadge": "Puno ng Koponan",
+    "allSpecialistsAdded": "Ang lahat ng magagamit na mga espesyalista ay naidagdag sa iyong koponan.",
+    "otherSpecialists": "Iba pang mga Espesyalista",
+    "specialistsCount": "{{count}} na mga espesyalista",
+    "startTeamConsult": "Simulan ang Konsultasyon ng Koponan",
+    "starting": "Nagsisimula...",
+    "myAIHealthTeam": "Aking AI Health Team",
+    "addMembersInstruction": "Magdagdag ng mga miyembro ng koponan sa pamamagitan ng pag-click sa isang card sa kanan."
+  },
+  "specialistCategories": {
+    "diabetesBloodSugar": "Diabetes at Asukal sa Dugo",
+    "weightManagement": "Pamamahala ng Timbang",
+    "mentalHealthStress": "Kalusugan ng Pag-iisip at Stress",
+    "cancerSupport": "Suporta sa Kanser",
+    "heartHealth": "Kalusugan ng Puso",
+    "painManagement": "Pamamahala ng Sakit",
+    "digestiveIssues": "Mga Isyu sa Pagtunaw",
+    "sleepProblems": "Mga Problema sa Pagtulog",
+    "skinProblems": "Mga Problema sa Balat",
+    "womensHealth": "Kalusugan ng Kababaihan",
+    "childrensHealth": "Kalusugan ng mga Bata",
+    "agingSeniorHealth": "Pagtanda at Senior Health",
+    "nutritionDiet": "Nutrisyon at Diet",
+    "allergiesImmuneSystem": "Allergy at Immune System",
+    "breathingLungIssues": "Mga Isyu sa Paghinga at Baga",
+    "sportsFitnessInjuries": "Mga Pinsala sa Sports at Fitness",
+    "easternAlternativeMedicine": "Eastern at Alternatibong Kaayusan",
+    "cosmeticBeautyMedicine": "Cosmetic at Beauty Wellness",
+    "anxietyHelp": "Tulong sa Pagkabalisa",
+    "medicationPharmacy": "Gamot at Botika",
+    "primaryCareGeneralHealth": "Pangunahing Pangangalaga at Pangkalahatang Kalusugan",
+    "medicalSpecialties": "Mga Espesyalista sa Kalusugan at Kaayusan"
+  },
+  "dialogs": {
+    "exitConsultation": "Lumabas sa Konsultasyon",
+    "exitMessage": "Sigurado ka bang gusto mong umalis sa konsultasyon na ito?",
+    "saveAndExit": "I-save at Lumabas",
+    "exitWithoutSaving": "Lumabas Nang Hindi Nagse-save",
+    "cancel": "Kanselahin",
+    "confirm": "Kumpirmahin",
+    "logout": "Mag-logout",
+    "logoutMessage": "Ikaw ay kasalukuyang nasa isang konsultasyon. Ang pag-log out ay magtatapos nito. Ano ang gusto mong gawin?",
+    "deleteConversation": "Tanggalin ang Pag-uusap",
+    "deleteMessage": "Ang pagkilos na ito ay hindi maaaring i-undo. Sigurado ka ba?",
+    "summarizeFirst": "Gusto mo bang makakuha ng buod bago lumabas?",
+    "summarizing": "Bumubuo ng buod...",
+    "summaryGenerated": "Matagumpay na nabuo ang buod",
+    "doneAlready": "Tapos na?",
+    "doneAlreadyMessage": "Nandito kami anumang oras na kailangan mo kami. Hanggang doon, maging malusog, maging masaya!",
+    "doneAlreadySignature": "Lahat tayo (tao at AI) sa VirtualMD.app",
+    "exitConsultationButton": "Lumabas sa Konsultasyon",
+    "editTitle": "I-edit ang Pamagat ng Pag-uusap",
+    "conversationTitleLabel": "Pamagat ng Pag-uusap",
+    "save": "I-save",
+    "deleteTitle": "Tanggalin ang Pag-uusap",
+    "deleteConfirmation": "Sigurado ka bang gusto mong tanggalin ang pag-uusap na pinamagatang \"{{title}}\"?",
+    "delete": "Tanggalin",
+    "multiDeleteTitle": "Tanggalin ang Mga Napiling Konsultasyon",
+    "multiDeleteConfirmation": "Sigurado ka bang gusto mong tanggalin ang {{count}} (mga) napiling konsultasyon? Ang pagkilos na ito ay hindi maaaring i-undo.",
+    "deleteSelected": "Tanggalin ang Napili",
+    "addSpecialistTitle": "Magdagdag ng Espesyalista sa Chat",
+    "addSpecialistError": "Hindi ma-load ang iyong mga tagapayo.",
+    "noAdvisersToAdd": "Ang lahat ng iyong napiling AI Health Adviser ay nasa chat na ito, o ang iyong listahan ay walang laman (hindi kasama ang mga kasalukuyang kalahok).",
+    "longRecording": {
+      "title": "Naka-pause ang mahabang Pagre-record",
+      "message": "Hindi kami makakapag-record ng higit sa 30 segundo nang hindi ito ipinapadala. Ano ang gusto mong gawin?",
+      "delete": "Tanggalin",
+      "transcribeToText": "I-transcribe sa text",
+      "transcribeAndSend": "I-transcribe at ipadala"
+    },
+    "finishConsultationTitle": "Tapusin ang Konsultasyon?",
+    "generatingSummary": "Mangyaring maghintay habang binubuo namin ang iyong buod ng konsultasyon...",
+    "finishConsultationMessage": "Tatapusin nito ang aktibong chat session. Sigurado ka ba?",
+    "summarizeAndFinish": "Ibuod at Tapusin",
+    "leaveWithoutSummarizing": "Umalis nang hindi nagbubuod",
+    "summarize": "ibuod",
+    "moreInfoTitle": "Karagdagang Impormasyon ang Kailangan",
+    "moreInfoMessage": "Ang pag-uusap na ito ay masyadong maikli upang makabuo ng isang makabuluhang buod o pagkakaiba ng opinyon. Mangyaring ipagpatuloy ang talakayan hanggang sa magkaroon ka ng hindi bababa sa 150 salita ng nilalaman ng pag-uusap.",
+    "ok": "OK",
+    "deleteSuccessTitle": "Natanggal ang pag-uusap",
+    "deleteSuccessMessage": "Ang iyong pag-uusap ay matagumpay na natanggal.",
+    "logoutTitle": "Ikinalulungkot naming makita kang umalis",
+    "aiHealthSpecialist": "Ang iyong pangunahing health and wellness AI specialist",
+    "aileenCarol": "Ang Dalubhasang Pangkalusugan ng AI na si Carol",
+    "aiHealthAssistant": "AI Health Assistant",
+    "deleteAndExit": "Tanggalin at Lumabas",
+    "summaryTitle": "Buod ng Konsultasyon",
+    "consultationTitle": "VirtualMD Consult: {{title}}",
+    "summaryUnavailable": "Ang buod ay binubuo o hindi magagamit.",
+    "print": "Print",
+    "copy": "Kopyahin",
+    "close": "Isara",
+    "shortConv": {
+      "title": "Natapos ang pag-uusap",
+      "messageLine1": "Natapos na ang usapan. Ito ay masyadong maikli upang i-save, ngunit bumalik muli sa lalong madaling panahon.",
+      "messageLine2": "Hanggang doon, maging malusog, maging masaya."
+    }
+  },
+  "errors": {
+    "connectionError": "Error sa koneksyon. Pakisuri ang iyong koneksyon sa internet.",
+    "serverError": "Error sa server. Pakisubukang muli mamaya.",
+    "authenticationError": "Nabigo ang pagpapatotoo. Mangyaring mag-login muli.",
+    "messageFailedToSend": "Nabigong ipadala ang mensahe",
+    "loadingFailed": "Nabigong i-load ang nilalaman",
+    "personaUnavailable": "Kasalukuyang hindi available ang propesyonal sa kalusugan na ito",
+    "conversationNotFound": "Hindi nahanap ang pag-uusap",
+    "permissionDenied": "Wala kang pahintulot na i-access ang pag-uusap na ito",
+    "failedToLogin": "Nabigong mag-login.",
+    "failedToRegister": "Nabigong magparehistro.",
+    "failedToLogout": "Nabigong mag-logout.",
+    "emailAlreadyTaken": "Nakuha na ang email na ito. Mangyaring sumubok ng isa pa o mag-log in.",
+    "anErrorOccurred": "May naganap na error.",
+    "selectImageFile": "Mangyaring pumili ng file ng imahe.",
+    "failedToSaveProfile": "Nabigong i-save ang profile. Pakisubukang muli.",
+    "teamIsFull": "Puno na ang iyong koponan (Max {{max}} na mga espesyalista). Mangyaring mag-alis ng miyembro kung gusto mong magdagdag ng ibang espesyalista.",
+    "selectOneSpecialist": "Mangyaring pumili lamang ng isang espesyalista para sa isang pribadong konsultasyon.",
+    "contactErrorMessage": "May naganap na error habang ipinapadala ang iyong mensahe. Pakisubukang muli mamaya o",
+    "contactDirectlyAt": "Maaari ka ring mag-email sa amin nang direkta sa info@virtualmd.app"
+  },
+  "welcome": {
+    "title": "Maligayang pagdating sa VirtualMD.app",
+    "subtitle": "Simulan ang iyong personalized na konsultasyon sa kalusugan",
+    "description": "Pumili mula sa aming team ng mga health advisors na pinapagana ng AI para makakuha ng mga personalized na insight at gabay sa wellness.",
+    "getStarted": "Magsimula",
+    "chooseSpecialist": "Piliin ang Iyong Espesyalista",
+    "startWithTeam": "Magsimula sa Aking Koponan",
+    "howItWorks": "Paano Ito Gumagana",
+    "aileenCarolName": "Ang Dalubhasang Pangkalusugan ng AI na si Aileen Carol",
+    "danielGarciaName": "Ang Dalubhasang Pangkalusugan ng AI na si Daniel Garcia",
+    "greeting": "Kumusta, {{username}}. Kaya magandang makita ka! Ang iyong koponan ng VirtualMD ay handa 24/7 upang tumulong...",
+    "startTeamConsultation": "Simulan ang Konsultasyon ng Koponan",
+    "configureNewChat": "I-configure ang Bagong Chat",
+    "encyclopedia": "VirtualMD.app Encyclopedia",
+    "myAIHealthTeam": "Aking AI Health Team",
+    "aileenCarolIntro": "Kumusta, ako si AI Health Expert Aileen Carol. Paano kita matutulungan ngayon?",
+    "persona_welcome_message": "Kumusta, narito ako upang tumulong sa iyong mga pangangailangan sa kalusugan at kagalingan. Paano kita matutulungan ngayon?"
+  },
+  "imageUpload": {
+    "dragAndDrop": "I-drag at i-drop ang mga larawan dito, o i-click upang pumili",
+    "supportedFormats": "Mga sinusuportahang format: JPG, PNG, GIF",
+    "maxSize": "Pinakamataas na laki: {{size}}MB",
+    "uploadSuccess": "Matagumpay na na-upload ang larawan",
+    "uploadError": "Nabigong mag-upload ng larawan",
+    "processing": "Pinoproseso ang larawan...",
+    "removeImage": "Alisin ang larawan",
+    "addToContext": "Idagdag sa konteksto ng pag-uusap"
+  },
+  "voice": {
+    "startRecording": "Simulan ang pagre-record ng boses",
+    "stopRecording": "Itigil ang pagre-record",
+    "recording": "Nagre-record...",
+    "processingSpeech": "Pinoproseso ang pagsasalita...",
+    "speechToText": "Kino-convert ang speech sa text...",
+    "noSpeechDetected": "Walang natukoy na pananalita",
+    "microphoneError": "Error sa pag-access sa mikropono",
+    "unsupportedBrowser": "Hindi sinusuportahan ang pag-record ng boses sa browser na ito"
+  },
+  "summary": {
+    "title": "Buod ng Konsultasyon",
+    "keyPoints": "Mga Pangunahing Punto",
+    "recommendations": "Mga rekomendasyon",
+    "nextSteps": "Mga Susunod na Hakbang",
+    "followUp": "Pagsubaybay",
+    "generating": "Bumubuo ng buod...",
+    "noSummary": "Walang available na buod",
+    "summaryError": "Nabigong bumuo ng buod",
+    "downloadSummary": "I-download ang Buod",
+    "emailSummary": "Buod ng Email",
+    "return": "Bumalik",
+    "transcript": "Transcript",
+    "print": "Print",
+    "copy": "Kopyahin",
+    "copyError": "Nabigong kopyahin",
+    "notGenerated": "Hindi mabuo ang buod."
+  },
+  "status": {
+    "online": "Online",
+    "offline": "Offline",
+    "away": "Malayo",
+    "busy": "Busy",
+    "available": "Available",
+    "unavailable": "Hindi available",
+    "lastSeen": "Huling nakita {{time}}"
+  },
+  "mobileTeamBuilder": {
+    "title": {
+      "yourTeam": "Iyong Koponan",
+      "teamBuilder": "AI Team Builder"
+    },
+    "carolMessages": {
+      "teamFull": "{{name}}, puno na ang iyong koponan! Maaari kang magsimula ng konsultasyon sa iyong kasalukuyang team o mag-alis ng ilang miyembro para makakuha ng mga bagong rekomendasyon.",
+      "helpBuild": "{{name}}, gusto kong tulungan kang bumuo ng iyong perpektong pangkat ng kalusugan! Sabihin sa akin kung ano ang nagdadala sa iyo dito ngayon."
+    },
+    "carolGreeting": {
+      "teamFull": "Kumusta {{name}}! Puno na ang team mo.",
+      "helpBuild": "Kumusta {{name}}! Tutulungan kitang buuin ang iyong perpektong pangkat ng kalusugan."
+    },
+    "currentTeam": "Kasalukuyang Koponan ({{current}}/{{max}})",
+    "aiSpecialist": "AI {{pangalan}}",
+    "specialist": "Espesyalista",
+    "startConversation": "Simulan ang Pag-uusap sa Koponang Ito",
+    "tellUsWhy": "Sabihin sa amin kung bakit ka naririto ngayon para magawa namin ang iyong perpektong pangkat ng kalusugan.",
+    "placeholder": "Ilarawan ang iyong mga alalahanin sa kalusugan, sintomas, o kung ano ang gusto mong tulong sa...",
+    "questionnaire": {
+      "question": "Ano ang nagdadala sa iyo dito ngayon?",
+      "keepExisting": "Panatilihin ang mga kasalukuyang miyembro ng koponan?",
+      "existingMembers": "Mga kasalukuyang miyembro ng koponan",
+      "currentSize": "Kasalukuyang laki ng koponan",
+      "availableSpots": "Magagamit na mga lugar para sa mga bagong espesyalista",
+      "maxRecommendations": "Pinahihintulutan ang maximum na mga rekomendasyon"
+    }
+  },
+  "mobileNavigationTabs": {
+    "consultation": "Konsultasyon",
+    "team": "Koponan",
+    "history": "Kasaysayan",
+    "encyclopedia": "Encyclopedia"
+  },
+  "autoListening": {
+    "turnOn": "I-on ang awtomatikong pakikinig",
+    "turnOff": "I-off ang awtomatikong pakikinig"
+  },
+  "speech": {
+    "processing": "Pagproseso ng pagsasalita",
+    "pauseListening": "I-click upang I-pause ang Pakikinig",
+    "turnOnListening": "I-click upang I-on ang Pakikinig"
+  },
+  "help": {
+    "howDoesThisWork": "Paano ito gumagana?",
+    "chatControls": "Mga kontrol sa chat",
+    "enterToSend": "Ipasok o ▷ para ipadala",
+    "shiftEnterToSpeak": "Shift+Enter o 🎤/⏸ para magsalita/magpause"
+  },
+  "fileUpload": {
+    "clickToUpload": "I-click para mag-upload ng file (Maaari mo ring i-drop ang mga file sa chat)"
+  },
+  "send": {
+    "transcribeAndSend": "I-transcribe at ipadala",
+    "sendMessage": "Magpadala ng mensahe"
+  },
+  "aileenCarol": {
+    "playAnalysis": "I-play ang pagsusuri ng Health Expert Carol",
+    "stopAnalysis": "Itigil ang pagsusuri ni Health Expert Carol"
+  },
+  "profile": {
+    "editProfile": "I-edit ang Profile",
+    "saveChanges": "I-save ang Mga Pagbabago",
+    "cancelEdits": "Kanselahin ang Mga Pag-edit",
+    "changePhoto": "Baguhin ang Larawan",
+    "removePhoto": "Alisin ang Larawan",
+    "healthInfoTooltip": "Mangyaring sumulat o maglista ng mga gamot, pagsusuri, suplemento at iba pang mahahalagang bagay na may kaugnayan sa kalusugan tungkol sa iyo.",
+    "loadingProfile": "Nilo-load ang profile...",
+    "errorLoadingProfile": "Error sa paglo-load ng profile",
+    "noProfileData": "Walang available na data ng profile.",
+    "myProfile": "Aking Profile",
+    "myAccount": "Aking Account",
+    "displayName": "Display Name",
+    "fullName": "Buong Pangalan",
+    "email": "Email",
+    "emailCannotBeChanged": "Hindi mababago ang email.",
+    "keyHealthInfo": "Pangunahing Impormasyon sa Kalusugan",
+    "noHealthInfoRecorded": "Walang naitalang pangunahing impormasyon sa kalusugan.",
+    "healthInfoPlaceholder": "Maglista ng mga gamot, pagsusuri, suplemento, atbp.",
+    "age": "Edad",
+    "gender": "Kasarian"
+  },
+  "imageContext": {
+    "clearZoom": "I-clear ang pagpili ng zoom na ito",
+    "cropPromotionError": "Nabigong ipadala at idagdag ang naka-zoom na larawan. Suriin ang console.",
+    "startConversationToSend": "Magsimula ng pag-uusap para magpadala ng zoom",
+    "sendZoomToTeam": "Ipadala ang zoom na ito sa team",
+    "noActiveZoom": "Walang aktibong zoom na ipapadala. Mangyaring pumili ng lugar sa isang larawan.",
+    "functionsUnavailable": "Hindi maipadala ang zoom: Hindi available ang mga mahahalagang function.",
+    "noImages": "Walang mga larawan sa konteksto. Mag-upload ng larawan para magsimula.",
+    "allHidden": "Ang lahat ng mga larawan ay kasalukuyang nakatago. Mag-click ng thumbnail sa header para magpakita ng larawan.",
+    "showFirst": "Ipakita ang Unang Larawan",
+    "imageDisplay": "Display ng Larawan ({{ipinapakita}} ang ipinapakita / {{kabuuan}} kabuuan)",
+    "hideImage": "Itago ang larawan",
+    "showImage": "Ipakita ang larawan",
+    "zoomPreview": "Zoom Preview",
+    "sendToTeam": "Ipadala sa Koponan",
+    "dragToZoom": "I-click at i-drag ang isang imahe sa itaas upang pumili ng bagong zoom area."
+  },
+  "mobileChat": {
+    "healthConsult": "Health Consult",
+    "speakToAI": "Kausapin si {{name}}",
+    "startConversation": "Simulan ang iyong pag-uusap sa ibaba",
+    "requestToSpeakToAI": "Gusto kong makausap si {{name}}"
+  },
+  "mobileWelcome": {
+    "greeting": "Hi!",
+    "aileenCarolIntro": "Ako si AI Aileen Carol, ang iyong pangunahing espesyalista sa kalusugan. Inaasahan kong makilala ka. Ako ang namamahala sa iyong VirtualMD.app AI team ng mga eksperto sa kalusugan. Handa kaming tumulong 24/7...",
+    "startConsultation": "Simulan ang Konsultasyon sa Kalusugan",
+    "myTeam": "Aking Team",
+    "aiTeamBuilder": "Tinutulungan ka ng AI Health Expert na si Carol na piliin ang iyong team",
+    "priorConsultations": "Mga Naunang Konsultasyon",
+    "encyclopedia": "Encyclopedia",
+    "myProfile": "Aking Profile",
+    "logout": "Mag-logout",
+    "labels": {
+      "chat": "Chat",
+      "advisory": "Advisory",
+      "encyclopedia": "Encyclopedia",
+      "myTeam": "Aking Team",
+      "history": "Kasaysayan",
+      "myProfile": "Aking Profile"
+    }
+  },
+  "mobileInput": {
+    "listeningPlaceholder": "Nakikinig... magsalita ka na",
+    "typePlaceholder": "Mag-type ng mensahe...",
+    "clear": "Maaliwalas",
+    "needHelp": "Kailangan ng Tulong?",
+    "takePhoto": "Kumuha ng larawan"
+  },
+  "mobileConsultations": {
+    "title": "Mga Naunang Konsultasyon",
+    "selectAll": "Piliin ang Lahat",
+    "deselectAll": "Alisin sa pagkakapili ang Lahat",
+    "deleteSelected": "Tanggalin ang Napili ({{count}})",
+    "consultationDefault": "Konsultasyon {{id}}",
+    "lastUpdate": "Huling Update: {{date}}",
+    "noUpdates": "Wala pang update",
+    "editTitle": "I-edit ang Pamagat ng Pag-uusap",
+    "enterNewTitle": "Maglagay ng bagong pamagat:",
+    "noConsultations": "Wala pang konsultasyon."
+  },
+  "mobileProfile": {
+    "title": "Aking Profile",
+    "saveError": "Nabigong i-save ang profile",
+    "saveSuccess": "Na-update ang profile!",
+    "changePhoto": "Baguhin ang larawan",
+    "displayName": "Display Name",
+    "fullName": "Buong Pangalan",
+    "email": "Email",
+    "keyHealthInfo": "Pangunahing Impormasyon sa Kalusugan",
+    "logout": "Mag-logout"
+  },
+  "mobileNavigation": {
+    "consultation": "Konsultasyon",
+    "team": "Koponan",
+    "history": "Kasaysayan",
+    "exitConsultation": "Lumabas sa Konsultasyon",
+    "myTeam": "Aking Team",
+    "summary": "Buod",
+    "differentialOpinion": "Pagkakaiba-iba ng Opinyon",
+    "transcript": "Transcript",
+    "encyclopedia": "Encyclopedia",
+    "controls": "Mga kontrol",
+    "aiSpeaker": "AI Speaker",
+    "enabled": "Pinagana",
+    "disabled": "Hindi pinagana",
+    "camera": "Camera",
+    "comingSoon": "Malapit na",
+    "menu": "Menu"
+  },
+  "bioPanel": {
+    "loadingBio": "Nilo-load ang bio...",
+    "noBiography": "Walang available na talambuhay.",
+    "returnToPanel": "Bumalik sa Panel"
+  },
+  "sidebarHeader": {
+    "panel": "Panel",
+    "summary": "Buod",
+    "differentialOpinion": "Pagkakaiba-iba ng Opinyon",
+    "transcript": "Transcript",
+    "encyclopedia": "VirtualMD.app Encyclopedia",
+    "endConversation": "Tapusin ang Pag-uusap",
+    "startChatWithTeam": "Simulan ang Chat sa Team",
+    "configureNewChat": "I-configure ang Bagong Chat",
+    "myAIHealthTeam": "Aking AI Health Team",
+    "aileenCarolTeamBuilder": "Tumutulong ang Health Expert na si Carol na bumuo ng iyong team.",
+    "savedConsultations": "Mga Naka-save na Konsultasyon",
+    "myProfile": "Aking Profile",
+    "imageNumber": "Larawan {{number}}"
+  },
+  "differentialOpinion": {
+    "noOpinionAvailable": "Walang available na differential opinion."
+  },
+  "encyclopedia": {
+    "title": "VirtualMD.app Encyclopedia",
+    "loadingMessage": "Nagsasagawa kami ng malalim na pananaliksik sa paksang ito para sa iyo. Mangyaring maghintay ng ilang segundo para sa iyong sagot.",
+    "longWaitMessage": "Maaaring tumagal ito ng ilang minuto para sa mga detalyadong sagot.",
+    "searchButton": "Maghanap sa Encyclopedia",
+    "return": "Bumalik",
+    "print": {
+      "button": "Print",
+      "title": "Resulta ng Paghahanap sa Encyclopedia",
+      "subtitle": "VirtualMD.app Encyclopedia"
+    },
+    "copy": "Kopyahin",
+    "searchResult": "Resulta ng Paghahanap sa Encyclopedia",
+    "attribution": "Sagot ng VirtualMD.app",
+    "emptyState": "Maglagay ng query sa itaas upang maghanap sa VirtualMD.app Encyclopedia.",
+    "copySuccess": "Nakopya ang nilalaman sa clipboard!",
+    "copyError": "Nabigong kopyahin sa clipboard",
+    "generatingResponse": "Bumubuo ng komprehensibong tugon...",
+    "genericError": "May naganap na error",
+    "translatingContent": "Nagsasalin ng nilalaman..."
+  },
+  "input": {
+    "typeOrSpeakPlaceholder": "I-type o sabihin ang iyong mensahe...\nPindutin ang Enter o i-click ang ▷ upang ipadala.",
+    "typePlaceholder": "I-type ang mensahe dito...\nPindutin ang Enter o i-click ang ▷ upang ipadala.",
+    "transcribing": "Nagsasalin...",
+    "enterTextHere": "Maglagay ng text dito",
+    "startTypingMessage": "Simulan ang pag-type ng iyong mensahe sa kahon sa ibaba upang simulan ang iyong konsultasyon."
+  },
+  "quickActions": {
+    "whatToDoButton": "Ano ang dapat kong gawin?",
+    "summaryButton": "Buod",
+    "whatShouldIDo": "Batay sa lahat ng napag-usapan natin, ano ang dapat kong gawin ngayon? Mangyaring magbigay ng malinaw, naaaksyunan na mga rekomendasyon.",
+    "requestSummary": "Mangyaring magbigay ng komprehensibong buod ng aming pag-uusap sa ngayon, kabilang ang mga pangunahing puntong tinalakay, mga rekomendasyong ginawa, at mga susunod na hakbang."
+  },
+  "upload": {
+    "uploading": "Ina-upload…"
+  },
+  "camera": {
+    "notSupported": "Hindi sinusuportahan ang access sa camera sa browser na ito",
+    "capturePhoto": "Kumuha ng Larawan",
+    "accessDenied": "Tinanggihan ang access sa camera. Mangyaring payagan ang pag-access ng camera sa mga setting ng iyong browser.",
+    "accessFailed": "Nabigong ma-access ang camera"
+  },
+  "microphone": {
+    "turnOn": "I-on ang mikropono",
+    "turnOff": "I-off ang mikropono"
+  },
+  "specialistPanel": {
+    "guidanceSingle": "Pumili ng isang AI Specialist para sa isang pribadong konsultasyon:",
+    "guidanceMulti": "Palaging isasama ang AI Health Expert na si Carol. Pumili ng mga karagdagang AI Health Adviser:",
+    "startPrivateConsult": "Simulan ang Private Consult",
+    "startChat": "Simulan ang Chat",
+    "selectSingle": "Piliin ang AI Specialist",
+    "selectMulti": "Piliin ang Mga Karagdagang Tagapayo",
+    "warningSelectOne": "Mangyaring pumili lamang ng isang espesyalista para sa isang pribadong konsultasyon.",
+    "noSpecialistsAvailable": "Walang mga espesyalista sa AI na kasalukuyang magagamit para sa pribadong konsultasyon.",
+    "noAdvisersAvailable": "Walang available na karagdagang AI Health Adviser."
+  },
+  "sidebarFooter": {
+    "disclaimerText": "Ang VirtualMD.app ay nagsusumikap para sa katumpakan. Gayunpaman, ito at anumang serbisyong nakabatay sa AI ay maaaring magbigay ng maling impormasyon. Palaging kumunsulta sa isang kwalipikadong propesyonal sa pangangalaga ng kalusugan ng tao.",
+    "emergencyText": "Tumawag sa 911 para sa mga medikal na emerhensiya.",
+    "moreInformation": "Higit pang impormasyon"
+  },
+  "teamBuilder": {
+    "healthConditions": {
+      "options": {
+        "${key}": "{{key}}"
+      }
+    },
+    "medicinePreferences": {
+      "options": {
+        "${key}": "{{key}}"
+      }
+    }
+  },
+  "account": {
+    "title": "Mga Setting ng Account",
+    "description": "Mula dito maaari mong permanenteng tanggalin ang iyong VirtualMD.app account. Inaalis ng pagkilos na ito ang iyong profile at lahat ng konsultasyon.",
+    "deleteMyAccount": "Tanggalin ang Aking Account",
+    "confirmDeleteTitle": "Tanggalin ang Account",
+    "confirmDeleteText": "Ang pagkilos na ito ay hindi maibabalik. Ang lahat ng iyong impormasyon sa profile, mga konsultasyon, at mga file ay permanenteng aalisin. Sigurado ka bang gusto mong magpatuloy?",
+    "cancel": "Kanselahin",
+    "yesDelete": "Oo, Tanggalin"
+  },
+  "transcript": {
+    "noTranscript": "Walang available na transcript.",
+    "title": "Transcript ng Konsultasyon",
+    "returnToConversation": "Bumalik sa Pag-uusap",
+    "print": "Print",
+    "copy": "Kopyahin",
+    "copyError": "Nabigong kopyahin",
+    "roleLabels": {
+      "patient": "Gumagamit:",
+      "assistant": "Assistant:"
+    }
+  },
+  "mobileRouter": {
+    "teamRecommendations": "Mga Rekomendasyon ng Koponan",
+    "myTeam": "Aking Team",
+    "summary": "Buod",
+    "differentialOpinion": "Pagkakaiba-iba ng Opinyon",
+    "transcript": "Transcript",
+    "encyclopedia": "Encyclopedia",
+    "consultations": "Mga konsultasyon",
+    "returnToChat": "Bumalik sa Chat",
+    "pleaseLogIn": "Mangyaring Mag-log In",
+    "logInToView": "Mag-log in upang tingnan ang iyong mga pag-uusap o magsimula ng bago.",
+    "logIn": "Mag-log In",
+    "loadingSpecialists": "Naglo-load ng mga espesyalista..."
+  },
+  "chat": {
+    "pleaseLogIn": "Mangyaring Mag-log In",
+    "logInToView": "Mag-log in upang tingnan ang iyong mga pag-uusap o magsimula ng bago."
+  },
+  "loginPage": {
+    "signIn": "Mag-sign in"
+  },
+  "imageProcessing": {
+    "preset": "Preset",
+    "applyPreset": "Ilapat ang preset sa nakatutok na larawan",
+    "process": "Proseso",
+    "revertFocus": "Muling tumutok sa orihinal na larawan",
+    "revert": "Ibalik"
+  },
+  "guest": {
+    "consultation": "Konsultasyon ng Panauhin",
+    "topics": {
+      "child": {
+        "title": "May sakit ang anak ko",
+        "subtitle": "Ekspertong pangangalaga sa bata kapag kailangan mo ito",
+        "initialMessage": "Ako si AI Aileen Carol, ang iyong Virtual Health Advisor. Alam ko kung gaano mag-alala ang isang maysakit na bata. Sabihin mo sa akin kung ano ang nangyayari.  Tandaan: Isa akong AI, hindi tao; maaaring mali ang aking payo—kumpirmahin sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan ng tao."
+      },
+      "sleep": {
+        "title": "hindi ako makatulog!",
+        "subtitle": "Ibalik ang iyong mga gabi, baguhin ang iyong mga araw",
+        "initialMessage": "Ako si AI Aileen Carol, ang iyong Virtual Health Advisor, kasama ang sleep specialist na sina AIs Benjamin Stein (Psychiatry) at AI Alice Chen (Neurology). Ibahagi ang iyong mga hamon sa pagtulog para makatulong kami. Tandaan: Kami ay mga AI, hindi tao; maaaring mali ang aming payo—kumpirmahin sa isang kwalipikadong (tao) na propesyonal sa pangangalagang pangkalusugan."
+      },
+      "nutrition": {
+        "title": "Nutrisyon para sa sigla",
+        "subtitle": "Pahusayin ang iyong enerhiya, kalusugan, at sekswal na kalusugan sa pamamagitan ng pagkain",
+        "initialMessage": "Ako si AI Aileen Carol, ang iyong Virtual Health Advisor, kasama ang iyong team - AI Angelica Fordham (nutrisyon), Sex Therapy AI Rachel Levy, at AI African Herbalist Amina Okufur. Ano ang pakiramdam mo ngayon? Tandaan: Kami ay AI, hindi tao; maaaring mali ang payo—kumpirmahin sa isang kwalipikadong propesyonal sa pangangalagang pangkalusugan."
+      }
+    },
+    "errors": {
+      "sessionFailed": "Nabigong simulan ang session ng bisita"
+    },
+    "registrationRequired": "Kinakailangan ang pagpaparehistro",
+    "uploadFeatures": {
+      "title": "Mga Tampok ng Pag-upload ng Dokumento at Larawan",
+      "description": "Nag-aalok ang aming platform ng mahusay na mga kakayahan sa pagsusuri ng dokumento at larawan kung saan maaari mong:",
+      "benefit1": "Mag-upload ng mga dokumento sa kalusugan, mga ulat sa lab, at mga larawan",
+      "benefit2": "Mag-zoom in sa mga partikular na lugar para sa detalyadong pagsusuri",
+      "benefit3": "Ipasuri at talakayin sa aming mga tagapayo sa kalusugan ng AI ang iyong mga dokumento",
+      "benefit4": "Kumuha ng mga larawan nang direkta mula sa iyong camera para sa agarang konsultasyon",
+      "registeredOnly": "Ang mga espesyal na tampok na ito ay magagamit sa mga rehistradong gumagamit."
+    }
+  },
+  "activeChat": {
+    "guestMode": {
+      "advisorsTitle": "VirtualMD.app Health Advisors",
+      "registrationRequired": "Kinakailangan ang pagpaparehistro"
+    }
+  },
+  "healthAdvisors": "VirtualMD.app Health Advisors"
+}

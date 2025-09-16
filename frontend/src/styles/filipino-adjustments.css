@@ -1,0 +1,110 @@
+/* Filipino Language Specific Adjustments */
+/* Only applied when [lang="fil"] is set on html element */
+
+[lang="fil"] body {
+  font-size: 0.95em;
+  line-height: 1.5;
+}
+
+/* Hero/Landing Page Adjustments */
+[lang="fil"] h1,
+[lang="fil"] .hero-title,
+[lang="fil"] .MuiTypography-h1 {
+  font-size: 2.5rem !important;
+}
+
+[lang="fil"] h2,
+[lang="fil"] .MuiTypography-h2 {
+  font-size: 2rem !important;
+}
+
+[lang="fil"] h3,
+[lang="fil"] .MuiTypography-h3 {
+  font-size: 1.5rem !important;
+}
+
+/* Card Content Adjustments */
+[lang="fil"] .MuiCard-root .MuiCardContent-root {
+  padding: 12px !important;
+}
+
+[lang="fil"] .MuiCard-root .MuiTypography-body1,
+[lang="fil"] .card-description {
+  font-size: 0.9rem !important;
+  line-height: 1.4 !important;
+}
+
+[lang="fil"] .MuiCard-root .MuiTypography-h5,
+[lang="fil"] .card-title {
+  font-size: 1.1rem !important;
+}
+
+/* Button Text Adjustments */
+[lang="fil"] .MuiButton-root {
+  font-size: 0.875rem !important;
+  padding: 6px 14px !important;
+}
+
+[lang="fil"] .MuiButton-large {
+  font-size: 0.9rem !important;
+  padding: 8px 20px !important;
+}
+
+/* Navigation Menu Adjustments */
+[lang="fil"] .MuiMenuItem-root {
+  font-size: 0.9rem !important;
+}
+
+/* Form Input Adjustments */
+[lang="fil"] .MuiInputBase-root {
+  font-size: 0.9rem !important;
+}
+
+[lang="fil"] .MuiFormLabel-root {
+  font-size: 0.875rem !important;
+}
+
+/* Dialog and Modal Adjustments */
+[lang="fil"] .MuiDialogTitle-root {
+  font-size: 1.25rem !important;
+}
+
+[lang="fil"] .MuiDialogContent-root {
+  font-size: 0.9rem !important;
+}
+
+/* Animation Title Specific Fix */
+[lang="fil"] .animation-title {
+  font-size: 2.75rem !important;
+  letter-spacing: -0.5px !important;
+}
+
+/* Responsive Adjustments for Mobile */
+@media (max-width: 768px) {
+  [lang="fil"] h1,
+  [lang="fil"] .hero-title,
+  [lang="fil"] .MuiTypography-h1 {
+    font-size: 2rem !important;
+  }
+  
+  [lang="fil"] .animation-title {
+    font-size: 2.25rem !important;
+  }
+  
+  [lang="fil"] .MuiCard-root .MuiTypography-body1 {
+    font-size: 0.85rem !important;
+  }
+}
+
+/* Fix for long text wrapping */
+[lang="fil"] .MuiTypography-root {
+  word-break: break-word;
+  hyphens: auto;
+}
+
+/* Specific fix for the hero subtitle */
+[lang="fil"] .hero-subtitle {
+  font-size: 1rem !important;
+  max-width: 90%;
+  margin: 0 auto;
+}

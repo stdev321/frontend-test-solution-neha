@@ -1,0 +1,112 @@
+{
+  "defaultGuest": {
+    "childHealth": {
+      "title": "Çocuk Sağlığı Desteği",
+      "subtitle": "En çok ihtiyaç duyduğunuz anda uzman pediatrik rehberliğe ulaşın.",
+      "firstMessage": "Merhaba! Ben Sağlık Uzmanı Aileen Carol ve çocuğunuzun sağlık sorunları konusunda size yardımcı olmak için buradayım. Her ebeveyn endişelenir - bu tamamen normaldir.\n\nBugün çocuğunuzla ilgili hangi spesifik semptomlarınız veya endişeleriniz var?"
+    },
+    "sleep": {
+      "title": "Uyku ve Sağlık",
+      "subtitle": "Daha iyi dinlenin ve günlük enerjinizi artırın.",
+      "firstMessage": "Merhaba! Ben Sağlık Uzmanı Aileen Carol. Uyku sorunları hayatınızın her alanını etkileyebilir ve ihtiyacınız olan dinlenmeyi elde etmenize yardımcı olmak için buradayım.\n\nSon zamanlarda iyi uyumanızı engelleyen ne?"
+    },
+    "nutrition": {
+      "title": "Beslenme ve Yaşam Tarzı",
+      "subtitle": "Daha sağlıklı bir yaşam için kişiselleştirilmiş rehberlik.",
+      "firstMessage": "Merhaba! Ben Sağlık Uzmanı Aileen Carol. Sağlıklı yaşam tarzı değişiklikleri yapmak bunaltıcı gelebilir, ancak bize ulaşarak harika bir ilk adım atıyorsunuz.\n\nSağlık ve beslenmenizin hangi yönüne odaklanmak istersiniz?"
+    }
+  },
+  "genZStudents": {
+    "segment": "Z Kuşağı / öğrenciler",
+    "description": "Akademik stres ve sağlık sorunlarıyla uğraşan genç öğrenciler",
+    "examStress": {
+      "title": "Sınav stresi",
+      "subtitle": "Sakinleşmenin ve odaklanmanın hızlı yolları.",
+      "firstMessage": "Merhaba! Ben Sağlık Uzmanı Aileen Carol. Derin nefes almayı deneyin - 4'e kadar nefes alın, 4'te tutun, 4'te verin. Ayrıca 5 dakikalık bir yürüyüş veya esneme egzersizi de yapabilirsiniz.\n\nMuayenenize ne zaman var ve son zamanlarda iyi uyuyor musunuz?"
+    },
+    "acne": {
+      "title": "Akne ve cilt bakımı",
+      "subtitle": "Güvenebileceğiniz temiz cilt ipuçları.",
+      "firstMessage": "Merhaba! Ben Sağlık Uzmanı Aileen Carol. Sivilcelerle baş etmenin, özellikle de hayatınızın böylesine önemli bir döneminde özgüveninizi gerçekten etkileyebileceğini biliyorum.\n\nMevcut cilt bakım rutininizden bahseder misiniz? Şimdiye kadar neler denediniz?"
+    },
+    "lowEnergy": {
+      "title": "Çalışmak için enerji yok",
+      "subtitle": "Ruh halinizi ve üretkenliğinizi artırın.",
+      "firstMessage": "Merhaba! Ben Sağlık Uzmanı Aileen Carol. Enerji eksikliğinin derslerinizi ve günlük hayatınızı ciddi şekilde etkileyebileceğini biliyorum.\n\nSon zamanlarda uyku düzeninizde, iştahınızda veya stres seviyenizde herhangi bir değişiklik fark ettiniz mi?"
+    }
+  },
+  "elderly": {
+    "segment": "Yaşlılar (55+)",
+    "description": "Kronik rahatsızlıkları yöneten ve sağlık takibi yapan yaşlı vatandaşlar",
+    "bloodPressure": {
+      "title": "Kan basıncımı kontrol et",
+      "subtitle": "Takip edilmesi kolay bir rehber.",
+      "firstMessage": "Merhaba! Ben Sağlık Uzmanı Aileen Carol. İşte tansiyonunuzu ölçmek için basit bir yol:\n1. Önce 5 dakika sessizce oturun.\n2. Kolunuzu kalp hizasında tutun.\n3. 1'er dakika arayla 2-3 ölçüm yapın.\n4. Tüm değerleri kaydedin.\n\nEvde tansiyon aletiniz var mı ve en son ne zaman ölçtünüz?"
+    },
+    "diabetes": {
+      "title": "Diyabet ile yaşamak",
+      "subtitle": "Her gün pratik ipuçları.",
+      "firstMessage": "Merhaba, ben Sağlık Uzmanı Aileen Carol. Diyabetinizi günlük olarak yönetmek bunaltıcı gelebilir, ancak rehberlik alarak doğru adımı atıyorsunuz.\n\nŞu anda diyabet yönetiminizin hangi yönünü en çok zorlu buluyorsunuz?"
+    },
+    "familySupport": {
+      "title": "Aileye destek",
+      "subtitle": "Sevdiklerinizin gönül rahatlığı.",
+      "firstMessage": "Merhaba, ben Sağlık Uzmanı Aileen Carol. Ailenizin sağlığını ve refahını destekleme konusunda endişeli olduğunuzu anlıyorum.\n\nSevdiklerinizle ilgili hangi özel sağlık endişeleriniz var ve bu konuda size yardımcı olabilirim?"
+    }
+  },
+  "bpoWorkers": {
+    "sleep": {
+      "title": "Uyuyamıyorum!",
+      "subtitle": "Vücut saatinizi sıfırlamak için pratik ipuçları.",
+      "firstMessage": "Merhaba! Ben Sağlık Uzmanı Aileen Carol ve vardiyalı çalışmanın uyku döngünüz üzerinde ne kadar zorlayıcı olabileceğini anlıyorum. İhtiyacınız olan dinlenmeyi sağlamak için birlikte çalışalım.\n\nNe kadar süredir uyku sorunu yaşıyorsunuz ve şu anki çalışma programınız nasıl?"
+    },
+    "fatigue": {
+      "title": "Her zaman yorgun",
+      "subtitle": "Yorgunluğu yönetin ve odaklanmanızı artırın.",
+      "firstMessage": "Ben Sağlık Uzmanı Aileen Carol ve özellikle yoğun çalışma programlarında sürekli yorgunluğun ne kadar yorucu olabileceğini çok iyi anlıyorum.\n\nSöyleyin bakalım, gün içinde kendinizi en çok ne zaman yorgun hissediyorsunuz ve bu durum iş performansınızı nasıl etkiliyor?"
+    },
+    "stress": {
+      "title": "Stres aşırı yüklenmesi",
+      "subtitle": "Zihninizi sakinleştirmenin basit yolları.",
+      "firstMessage": "Merhaba! Ben Sağlık Uzmanı Aileen Carol ve stresten bunaldığınızı anlıyorum. Birlikte bazı basit sakinleştirici teknikler üzerinde çalışalım.\n\nSon zamanlarda stresinizi tetikleyen belirli durumlar neler?"
+    }
+  },
+  "ofwsManila": {
+    "segment": "OFW'ler (iş için Manila'ya taşınanlar)",
+    "description": "Yurtdışındaki Filipinli İşçiler Manila'nın kentsel yaşamına uyum sağlıyor",
+    "urbanStress": {
+      "title": "Manila'da stres",
+      "subtitle": "Yoğun şehir hayatına uyum sağlamak için ipuçları.",
+      "firstMessage": "Merhaba! Ben Sağlık Uzmanı Aileen Carol. Manila'ya taşınmanın bunaltıcı olabileceğini anlıyorum. Şehrin temposu oldukça yoğun.\n\nStresten kaynaklanan baş ağrısı veya uyku sorunları gibi herhangi bir fiziksel semptom yaşıyor musunuz?"
+    },
+    "loneliness": {
+      "title": "Yalnızlık ve yorgunluk",
+      "subtitle": "Ruhsal sağlık için rehberlik.",
+      "firstMessage": "Merhaba! Ben Sağlık Uzmanı Aileen Carol. Yalnızlık ve yorgunluk yaşadığınız için çok üzgünüm - bu duygular gerçekten yorucu olabilir.\n\nDaha iyi hissetmenize yardımcı olmama izin verin. Öncelikle, her gece yeterince kaliteli uyuyor musunuz? Yorgunluğunuzun günün belirli saatlerinde daha da kötüleştiğini fark ettiniz mi?"
+    },
+    "everydayHealth": {
+      "title": "Günlük sağlık",
+      "subtitle": "Çalışanlar için beslenme ve yaşam tarzı tüyoları.",
+      "firstMessage": "Merhaba! Ben Sağlık Uzmanı Aileen Carol. Uzun saatler çalışırken sağlıklı kalmanın gerçekten zor olabileceğini anlıyorum.\n\nŞu anda en büyük sağlık endişeniz nedir - beslenme, enerji seviyeleri veya başka bir şey mi?"
+    }
+  },
+  "parentsProvinces": {
+    "segment": "İllerdeki ebeveynler (orta gelirli)",
+    "description": "Sağlık hizmetlerine sınırlı erişimi olan uzak bölgelerdeki ebeveynler",
+    "childFever": {
+      "title": "Çocuğumun ateşi var",
+      "subtitle": "Ebeveynler için gece veya gündüz, net adımlar.",
+      "firstMessage": "Merhaba, ben Sağlık Uzmanı Aileen Carol. Çocuğunuzun ateşi olduğunda, özellikle de ne yapacağınızdan emin olmadığınızda, bunun ne kadar korkutucu olabileceğini biliyorum.\n\nÖncelikle, durumu değerlendirmenize yardımcı olayım. Çocuğunuz kaç yaşında ve şu anki ateşi kaç?"
+    },
+    "remoteCare": {
+      "title": "Yakınlarda doktor yok",
+      "subtitle": "Uzak bölgelerde bile güvenilir tavsiyeler.",
+      "firstMessage": "Ben Sağlık Uzmanı Aileen Carol, birinci basamak sağlık uzmanınızım. Yakınınızda tıbbi bir erişimin olmadığı uzak bir bölgede olduğunuzu anlıyorum. Herhangi bir sağlık sorununuz varsa size yardımcı olmak için buradayım.\n\nBugün hangi spesifik semptomları veya sağlık sorunlarını yaşıyorsunuz?"
+    },
+    "costSavings": {
+      "title": "Zamandan ve paradan tasarruf edin",
+      "subtitle": "Pahalı klinik gezileri olmadan rehberlik.",
+      "firstMessage": "Ben Sağlık Uzmanı Aileen Carol, birinci basamak sağlık uzmanınızım. Size kaliteli sağlık danışmanlığı sağlamak için buradayım.\n\nBugün hangi sağlık sorunlarınızda size yardımcı olabilirim?"
+    }
+  }
+}
